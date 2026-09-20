@@ -50,7 +50,7 @@ Upload these documents to NotebookLM in order:
 **Q1.2**: "What is the current technical stack and what are its strengths?"
 
 **Expected Answer**:
-- Laravel 13 + Filament 5 + Tailwind 4
+- Laravel 12 + Filament 5 + Tailwind 4
 - Strengths: PHPStan Level 10, modular, AGID-compliant
 
 **Q1.3**: "What documentation issues exist and how should they be resolved?"

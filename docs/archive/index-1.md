@@ -46,14 +46,7 @@ This document serves as the central index for the Notify module, providing guida
 - Update this index if new features or significant changes are introduced to the Notify module.
 
 ## Links to Related Documentation
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Architecture Overview](./ARCHITECTURE.md)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- [Architecture Overview](./ARCHITECTURE.md)
->>>>>>> a988596b (first)
 - [Architecture Overview](./architecture.md)
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
@@ -85,14 +78,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Architettura e Struttura
 - [README](./README.md) - Panoramica generale del modulo
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
->>>>>>> a988596b (first)
 - [Architettura](./architecture.md) - Architettura generale del modulo
 - [Struttura](./structure.md) - Struttura delle directory e dei componenti
 - [Modelli](./models.md) - Documentazione dei modelli Eloquent

@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-**FixCity** is a comprehensive **urban issue management platform** built on Laravel 13 + Filament 5 with a modular architecture. The platform enables citizens to report urban problems (potholes, broken infrastructure, etc.) and tracks them through resolution with advanced features like auto-assignment, SLA management, and multi-channel notifications.
+**FixCity** is a comprehensive **urban issue management platform** built on Laravel 12 + Filament 5 with a modular architecture. The platform enables citizens to report urban problems (potholes, broken infrastructure, etc.) and tracks them through resolution with advanced features like auto-assignment, SLA management, and multi-channel notifications.
 
 **Current State**: Production-ready MVP with solid foundation, undergoing active development with multi-agent AI collaboration.
 
@@ -781,7 +781,7 @@ BMAD (Plan) → GSD (Execute) → Ralph (Build) → OpenViking (Context)
 ## Conclusion
 
 **FixCity** is a well-architected urban issue management platform with:
-- ✅ **Strong Foundation**: Laravel 13 + Filament 5, modular, PHPStan Level 10
+- ✅ **Strong Foundation**: Laravel 12 + Filament 5, modular, PHPStan Level 10
 - ✅ **Advanced Tooling**: BMAD + GSD + Ralph Loop + OpenViking
 - ✅ **Multi-Agent Ready**: Active AI agent collaboration
 - ✅ **Clear Roadmap**: 18-month strategic plan

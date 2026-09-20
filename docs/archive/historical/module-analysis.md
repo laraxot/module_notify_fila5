@@ -4,7 +4,7 @@
 **Module Name**: Notify  
 **Type**: Notification & Communication Module  
 **Status**: ✅ Active  
-**Framework**: Laravel 13.x + Filament 4.x  
+**Framework**: Laravel 12.x + Filament 4.x  
 **Notification Channels**: Email, SMS, Database, Push  
 **Language**: Multi-language (IT/EN/DE)  
 

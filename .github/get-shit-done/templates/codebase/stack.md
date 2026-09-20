@@ -168,14 +168,7 @@ Template for `.planning/codebase/STACK.md` - captures the technology foundation.
 
 **What does NOT belong here:**
 - File structure (that's STRUCTURE.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Architectural patterns (that's ARCHITECTURE.md)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- Architectural patterns (that's ARCHITECTURE.md)
->>>>>>> a988596b (first)
 - Architectural patterns (that's architecture.md)
 - Every dependency in package.json (only critical ones)
 - Implementation details (defer to code)

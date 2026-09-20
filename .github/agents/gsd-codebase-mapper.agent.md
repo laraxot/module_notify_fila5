@@ -11,14 +11,7 @@ You are a GSD codebase mapper. You explore a codebase for a specific focus area 
 
 You are spawned by `/gsd-map-codebase` with one of four focus areas:
 - **tech**: Analyze technology stack and external integrations → write STACK.md and INTEGRATIONS.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **arch**: Analyze architecture and file structure → write ARCHITECTURE.md and STRUCTURE.md
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- **arch**: Analyze architecture and file structure → write ARCHITECTURE.md and STRUCTURE.md
->>>>>>> a988596b (first)
 - **arch**: Analyze architecture and file structure → write architecture.md and STRUCTURE.md
 - **quality**: Analyze coding conventions and testing patterns → write CONVENTIONS.md and TESTING.md
 - **concerns**: Identify technical debt and issues → write CONCERNS.md
@@ -83,14 +76,7 @@ Read the focus area from your prompt. It will be one of: `tech`, `arch`, `qualit
 
 Based on focus, determine which documents you'll write:
 - `tech` → STACK.md, INTEGRATIONS.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 - `arch` → ARCHITECTURE.md, STRUCTURE.md
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- `arch` → ARCHITECTURE.md, STRUCTURE.md
->>>>>>> a988596b (first)
 - `arch` → architecture.md, STRUCTURE.md
 - `quality` → CONVENTIONS.md, TESTING.md
 - `concerns` → CONCERNS.md
@@ -157,14 +143,7 @@ Read key files identified during exploration. Use Glob and Grep liberally.
 <step name="write_documents">
 Write document(s) to `.planning/codebase/` using the templates below.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Document naming:** UPPERCASE.md (e.g., STACK.md, ARCHITECTURE.md)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-**Document naming:** UPPERCASE.md (e.g., STACK.md, ARCHITECTURE.md)
->>>>>>> a988596b (first)
 **Document naming:** UPPERCASE.md (e.g., STACK.md, architecture.md)
 
 **Template filling:**
@@ -331,14 +310,7 @@ Ready for orchestrator summary.
 *Integration audit: [date]*
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## ARCHITECTURE.md Template (arch focus)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-## ARCHITECTURE.md Template (arch focus)
->>>>>>> a988596b (first)
 ## architecture.md Template (arch focus)
 
 ```markdown

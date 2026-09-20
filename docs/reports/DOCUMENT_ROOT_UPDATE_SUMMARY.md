@@ -32,14 +32,6 @@ All module README.md files have been updated with:
 15. `laravel/Modules/AI/docs/README.md`
 16. `laravel/Modules/Activity/docs/README.md`
 17. `laravel/Modules/Blog/docs/README.md`
-<<<<<<< HEAD
-<<<<<<< HEAD
-18. `laravel/Modules/Fixcity/docs/README.md`
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-18. `laravel/Modules/Fixcity/docs/README.md`
->>>>>>> a988596b (first)
 18. `laravel/Modules/App/docs/README.md`
 
 ### 2. Theme READMEs Updated (2 files)
@@ -75,14 +67,6 @@ New master index files created:
 
 These files were checked and found to already have correct paths:
 - ✅ `AGENTS.md` - No incorrect path references found
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ `laravel/AGENTS.md` - Laravel Boost guidelines (no path changes needed)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- ✅ `laravel/AGENTS.md` - Laravel Boost guidelines (no path changes needed)
->>>>>>> a988596b (first)
 - ✅ `laravel/agents.md` - Laravel Boost guidelines (no path changes needed)
 - ✅ `.windsurfrules` - No incorrect path references found
 
@@ -91,14 +75,6 @@ These files were checked and found to already have correct paths:
 All documentation now consistently references this structure:
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-base_fixcity_fila5/
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-base_fixcity_fila5/
->>>>>>> a988596b (first)
 base_ptvx_fila5/
 ├── public_html/              # DOCUMENT ROOT (web accessible)
 │   ├── index.php            # Entry point
@@ -192,14 +168,6 @@ Next Review: 2026-04-30
 - [x] All 2 theme READMEs updated
 - [x] Master module index created
 - [x] Master theme index created
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Project files verified (AGENTS.md, .windsurfrules)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- [x] Project files verified (AGENTS.md, .windsurfrules)
->>>>>>> a988596b (first)
 - [x] Project files verified (agents.md, .windsurfrules)
 - [x] No merge conflicts remaining
 - [x] No temporal strings
@@ -235,14 +203,6 @@ Next Review: 2026-04-30
 - [Master Module Index](laravel/Modules/docs/README.md)
 - [Master Theme Index](laravel/Themes/docs/README.md)
 - [Project Documentation](docs/README.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [AGENTS.md](AGENTS.md)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- [AGENTS.md](AGENTS.md)
->>>>>>> a988596b (first)
 - [agents.md](agents.md)
 - [.windsurfrules](.windsurfrules)
 

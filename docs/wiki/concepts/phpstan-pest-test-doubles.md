@@ -3,24 +3,12 @@ title: "Notify — test doubles e helper PHPStan"
 type: concept
 tags: [notify, phpstan, pest, testing, doubles]
 created: 2026-06-13
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a988596b (first)
 updated: 2026-08-27
 qmd: "Notify NotificationManager test doubles trait PHPStan Pest mockService"
 issues:
   - "https://github.com/laraxot/module_fixcity_fila5/issues/52"
 discussions:
   - "https://github.com/laraxot/module_fixcity_fila5/discussions/53"
-<<<<<<< HEAD
-=======
-updated: 2026-06-13
-qmd: "Notify NotificationManager test doubles trait PHPStan Pest mockService"
-issues:
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
->>>>>>> a988596b (first)
   - "https://github.com/laraxot/module_app_fila5/issues/52"
 discussions:
   - "https://github.com/laraxot/module_app_fila5/discussions/53"
@@ -57,23 +45,12 @@ File owner: `tests/Unit/Traits/NotifyTraitTestDoubles.php`
 | Classe | Trait coperto |
 |--------|---------------|
 | `NotifyRateLimitDummy` | `HasNotificationRateLimiting` |
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
->>>>>>> a988596b (first)
 `getNotificationRateLimitKey(string $type, int|string $identifier)` — ID utente, non `mixed`. Vedi [mixed-type-ultima-spiaggia.md](../../mixed-type-ultima-spiaggia.md).
 | `NotifyTrackingDummy` | `HasNotificationTracking` |
 | `NotifyTenantDummyModel` | `HasTenantNotifications` |
 
 Espongono metodi `public` che delegano ai `protected` del trait — pattern KISS per test unitari senza istanziare modelli Eloquent completi.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a988596b (first)
 ### 2b. `trait.unused` su scope `app/` (XOT-5.43)
 
 PHPStan analizza solo `Modules/Notify/app/` nel gate modulo: i trait composable senza consumer in produzione segnalano `trait.unused`. **Non** creare modelli probe in `app/` — annotare il docblock del trait con `@phpstan-ignore trait.unused` e motivazione (stesso pattern di `HasNotificationRateLimiting`, Geo `HasAddress`, Xot `EnumIntegerTrait`).
@@ -84,11 +61,6 @@ Verifica:
 cd laravel && ./vendor/bin/phpstan analyse Modules/Notify/app --memory-limit=-1 --no-progress
 ```
 
-<<<<<<< HEAD
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
->>>>>>> a988596b (first)
 ### 3. Mock `SendNotificationAction`
 
 Preferire `createStub` / `createUnitMock` + `expectsOnce()` da `XotBaseTestCase`, non `Mockery::shouldReceive()->once()` (PHPStan L10 su union Mockery).
@@ -100,14 +72,7 @@ Preferire `createStub` / `createUnitMock` + `expectsOnce()` da `XotBaseTestCase`
 | Copertura Pest su `Actions/SendNotificationAction` | P1 |
 | Allineare test channel (mail, SMS, push) a pattern stub | P2 |
 | Migrare test che istanziano `Services/NotificationManager` verso Actions quando il manager sarà thin | P2 |
-<<<<<<< HEAD
-<<<<<<< HEAD
 | Namespace `tests/` vs `Tests` — [#370](https://github.com/laraxot/base_fixcity_fila5/issues/370) | P2 |
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-| Namespace `tests/` vs `Tests` — [#370](https://github.com/laraxot/base_fixcity_fila5/issues/370) | P2 |
->>>>>>> a988596b (first)
 | Namespace `tests/` vs `Tests` — [#370](https://github.com/laraxot/platform/issues/370) | P2 |
 
 ## Verifica

@@ -15,14 +15,7 @@ related:
   - "./documentation-update-complete.md"
   - "./final-documentation-report.md"
   - "./final-success-report.md"
-<<<<<<< HEAD
-<<<<<<< HEAD
   - "./fixcity-improvement-progress-1.md"
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-  - "./fixcity-improvement-progress-1.md"
->>>>>>> a988596b (first)
   - "./laraxot-improvement-progress-1.md"
 ---
 
@@ -40,14 +33,7 @@ Replicate all 38 static pages from [Design Comuni Pagine Statiche](https://githu
 
 **URL Mapping**:
 - Source: `https://italia.github.io/design-comuni-pagine-statiche/sito/[page].html`
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Target: `http://fixcity.local/it/tests/[page]`
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- Target: `http://fixcity.local/it/tests/[page]`
->>>>>>> a988596b (first)
 - Target: `http://laraxot.local/it/tests/[page]`
 
 **Example**:
@@ -101,18 +87,9 @@ laravel/Themes/Sixteen/
 
 **Usage**:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
 http://fixcity.local/it/tests/argomenti
 http://fixcity.local/it/tests/appuntamento-06-conferma
 http://fixcity.local/it/tests/servizi
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-http://fixcity.local/it/tests/argomenti
-http://fixcity.local/it/tests/appuntamento-06-conferma
-http://fixcity.local/it/tests/servizi
->>>>>>> a988596b (first)
 http://laraxot.local/it/tests/argomenti
 http://laraxot.local/it/tests/appuntamento-06-conferma
 http://laraxot.local/it/tests/servizi
