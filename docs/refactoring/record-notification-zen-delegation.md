@@ -225,6 +225,7 @@ class RecordNotification extends Notification
    - **Impatto**: Richiede `SmsChannel` che accetta `SmsData` (non `string`)
    - **Soluzione**: Usare `Modules\Notify\Channels\SmsChannel` in `via()` (non `Notifications\Channels\SmsChannel`)
    - **Nota**: `SendRecordNotificationAction` usa `Notification::route()` che bypassa `via()`, quindi usa `ChannelEnum::getNotificationChannel()` che ritorna `Notifications\Channels\SmsChannel`. Questo può creare incompatibilità se `via()` viene chiamato direttamente.
+   - **Gap chiuso 2026-09-15 (story `quaeris-send-invite-migrate-to-record-notification.md`, Difetto 17)**: il `null` di `?SmsData` era pensato per il caso "nessun destinatario" (riga 142 sopra), ma `SmsChannel::send()` non lo aveva mai onorato — qualunque `null` faceva lanciare un'`Exception` invece di saltare. Nel frattempo era emerso anche un secondo caso reale di "niente da inviare" mai coperto qui: destinatario presente ma corpo del messaggio vuoto (survey senza `sms_template`). Ora `toSms()` ritorna `null` anche in quel caso, e `send()` lo onora davvero (nessuna eccezione, nessuna chiamata al driver).
 
 3. **Rimosso `ShouldQueue`**: `RecordNotification` non implementa più `ShouldQueue`
    - **Impatto**: Queueing gestito da `SpatieEmail` se necessario, o dal chiamante
