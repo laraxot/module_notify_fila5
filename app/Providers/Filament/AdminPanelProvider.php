@@ -11,11 +11,11 @@ use Illuminate\Support\Facades\Blade;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
-use Override;
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
+
     public function panel(Panel $panel): Panel
     {
         $panel = parent::panel($panel);
@@ -34,7 +34,7 @@ class AdminPanelProvider extends XotBasePanelProvider
             // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
             DatabaseNotifications::pollingInterval('60s');
             FilamentView::registerRenderHook('panels::user-menu.before', static fn (): string => Blade::render(
-                '@livewire(\'' . DatabaseNotifications::class . '\')',
+                '@livewire(\'database-notifications\')',
             ));
         }
 

@@ -8,4 +8,4 @@ related:
 
 # Brief
 
-Hook user-menu su FQCN vendor. Zero widget Notify duplicato. Metrica: grep `database-notifications` stringa = 0 nel provider.
+Hook user-menu su FQCN vendor — già in codice. Zero widget Notify duplicato; zero componenti Livewire posseduti (solo `.fila2` inerti). Metrica: grep `'database-notifications'` stringa-alias nel provider = 0. Dettagli: [livewire-inventory.md](./livewire-inventory.md).
