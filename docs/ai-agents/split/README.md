@@ -19,10 +19,7 @@ related:
 ---
 # AI Assistant Documentation
 
-<<<<<<< HEAD
 **Purpose**: Centralized documentation for all AI assistants used in the FixCity project  
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Purpose**: Centralized documentation for all AI assistants used in the Notify project  
 **Last Updated**: 2026-04-11  
 
@@ -32,12 +29,9 @@ related:
 
 | Assistant | Original File | Split Files | Index |
 |-----------|--------------|----|----|
-<<<<<<< HEAD
 | BMad Agents | [AGENTS.md](../../../AGENTS.md) | 32 files | [agents/INDEX.md](agents/INDEX.md) + [tasks/INDEX.md](tasks/INDEX.md) |
 | Claude/Laravel Boost | [CLAUDE.md](../../../docs/CLAUDE.md) | 21 files | [claude/INDEX.md](claude/INDEX.md) |
 | Gemini | [GEMINI.md](../../../laravel/GEMINI.md) | 14 files | [gemini/INDEX.md](gemini/INDEX.md) |
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | BMad Agents | [agents.md](../../../agents.md) | 32 files | [agents/index.md](agents/index.md) + [tasks/index.md](tasks/index.md) |
 | Claude/Laravel Boost | [CLAUDE.md](../../../docs/CLAUDE.md) | 21 files | [claude/index.md](claude/index.md) |
 | Gemini | [GEMINI.md](../../../laravel/GEMINI.md) | 14 files | [gemini/index.md](gemini/index.md) |
@@ -51,17 +45,10 @@ related:
 
 ```
 .agents/docs/
-<<<<<<< HEAD
 ├── INDEX.md                    ← Master index (this is referenced by all)
 ├── README.md                   ← This file
 ├── agents/                     ← 10 BMad agent definitions
 │   ├── INDEX.md
-=======
-├── index.md                    ← Master index (this is referenced by all)
-├── README.md                   ← This file
-├── agents/                     ← 10 BMad agent definitions
-│   ├── index.md
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │   ├── ux-expert.md
 │   ├── scrum-master.md
 │   ├── test-architect.md
@@ -73,28 +60,19 @@ related:
 │   ├── architect.md
 │   └── business-analyst.md
 ├── tasks/                      ← 22 BMad task definitions
-<<<<<<< HEAD
 │   ├── INDEX.md
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │   ├── index.md
 │   ├── validate-next-story.md
 │   ├── trace-requirements.md
 │   ├── ... (20 more)
 ├── claude/                     ← 20 Laravel Boost sections
-<<<<<<< HEAD
 │   ├── INDEX.md
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │   ├── index.md
 │   ├── foundation-rules.md
 │   ├── boost-rules.md
 │   ├── ... (18 more)
 ├── gemini/                     ← 13 Gemini sections
-<<<<<<< HEAD
 │   ├── INDEX.md
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │   ├── index.md
 │   ├── boost-integration.md
 │   ├── foundation-rules.md
@@ -124,10 +102,7 @@ Splitting improves:
 
 ### Bidirectional Links
 Every split file contains links back to:
-<<<<<<< HEAD
 - Its section index (e.g., `agents/INDEX.md`)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Its section index (e.g., `agents/index.md`)
 - The master index (`INDEX.md`)
 - The original source file
@@ -144,7 +119,6 @@ Every split file contains links back to:
 
 ### Adding New Split Files
 1. Create file in appropriate subdirectory
-<<<<<<< HEAD
 2. Add entry to the section INDEX.md
 3. Add bidirectional link back to INDEX.md
 4. Update master INDEX.md if needed
@@ -153,24 +127,11 @@ Every split file contains links back to:
 1. Update the split file
 2. Update line count in section INDEX.md
 3. Add changelog entry to master INDEX.md
-=======
-2. Add entry to the section index.md
-3. Add bidirectional link back to index.md
-4. Update master index.md if needed
-
-### Updating Split Files
-1. Update the split file
-2. Update line count in section index.md
-3. Add changelog entry to master index.md
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ### Changelog
 | Date | Change | Author |
 |------|--------|--------|
-<<<<<<< HEAD
 | 2026-04-11 | Initial split of AGENTS.md, CLAUDE.md, GEMINI.md | Qwen |
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | 2026-04-11 | Initial split of agents.md, CLAUDE.md, GEMINI.md | Qwen |
 
 ---

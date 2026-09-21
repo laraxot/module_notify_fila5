@@ -5,8 +5,6 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [qmd, search, docs, performance]
 related:
-<<<<<<< HEAD
-=======
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -89,7 +87,6 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [qmd, search, docs, performance]
 related:
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
 ---
 
@@ -149,11 +146,7 @@ qmd search "form" -c notify  # Solo questo modulo
 
 - [Global QMD Config](../qmd.md) (root docs)
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
-<<<<<<< HEAD
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
-=======
-- [On-Demand Pattern](./on-demand-pattern.md)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ---
 *Cache: ~/.cache/qmd-cache/ | Index: ~/.cache/qmd-cache/index*

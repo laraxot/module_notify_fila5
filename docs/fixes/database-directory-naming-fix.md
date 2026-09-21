@@ -135,10 +135,7 @@ php artisan test
 
 ## Related
 
-<<<<<<< HEAD
 - **GitHub Issue**: https://github.com/laraxot/base_fixcity_fila5/issues/4
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **GitHub Issue**: https://github.com/laraxot/platform/issues/4
 - **Laravel Directory Structure**: https://laravel.com/docs/structure
 

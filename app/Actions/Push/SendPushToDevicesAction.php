@@ -39,23 +39,13 @@ class SendPushToDevicesAction
             } catch (Exception $e) {
                 Log::error("Batch push notification failed for platform {$platform}", [
                     'error' => $e->getMessage(),
-<<<<<<< HEAD
                     'token_count' => count($platformTokens)]);
-=======
-                    'token_count' => count($platformTokens),
-                ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
                 $results[$platform] = [
                     'success' => false,
                     'error' => $e->getMessage(),
                     'sent' => 0,
-<<<<<<< HEAD
                     'failed' => count($platformTokens)];
-=======
-                    'failed' => count($platformTokens),
-                ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             }
         }
 
@@ -88,12 +78,7 @@ class SendPushToDevicesAction
                 $results[] = [
                     'success' => false,
                     'error' => $e->getMessage(),
-<<<<<<< HEAD
                     'token' => $token];
-=======
-                    'token' => $token,
-                ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             }
         }
 
@@ -102,12 +87,7 @@ class SendPushToDevicesAction
             'sent' => $successCount,
             'failed' => $failureCount,
             'total' => count($tokens),
-<<<<<<< HEAD
             'results' => $results];
-=======
-            'results' => $results,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**

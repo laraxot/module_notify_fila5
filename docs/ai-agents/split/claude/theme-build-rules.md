@@ -6,10 +6,7 @@
 
 ### Required Commands (ALWAYS):
 ```bash
-<<<<<<< HEAD
 cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
 npm run build
 npm run copy
@@ -40,11 +37,8 @@ This is a fundamental rule that must NEVER be forgotten when working with themes
 
 ## Cross-References
 
-<<<<<<< HEAD
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines
 - ← [Main AI Docs Index](../INDEX.md) — Master index
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - ← [CLAUDE Index](index.md) — All Laravel Boost guidelines
 - ← [Main AI Docs Index](../index.md) — Master index
 - ← [../../../../docs/CLAUDE.md](../../../../docs/../../../../docs/CLAUDE.md) — Original source

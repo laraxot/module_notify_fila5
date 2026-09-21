@@ -1,16 +1,4 @@
-<<<<<<< HEAD
 # Logging Best Practices - Performance Critical
-=======
-<<<<<<< HEAD
----
-title: "Logging Best Practices - Performance & Quality"
-module: notify
-type: integration
-tags: [integrations, modules, notify]
-created: 2026-08-24
-updated: 2026-08-24
----
->>>>>>> 7e6063a3 (.)
 
 ## Executive Summary
 
@@ -53,8 +41,6 @@ foreach ($items as $item) {
     Log::info('Processing item', ['item_id' => $item->id]);
 }
 
-<<<<<<< HEAD
-=======
 // AFTER
 $count = 0;
 foreach ($items as $item) {
@@ -106,25 +92,15 @@ foreach ($items as $item) {
     Log::info('Processing item', ['item_id' => $item->id]);
 }
 
->>>>>>> 7e6063a3 (.)
 // ❌ WRONG - Successful completions
 Log::info('Task completed successfully');
 Log::info('Migration finished');
 Log::info('Cache cleared');
-<<<<<<< HEAD
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 ```
 
 ---
 
-<<<<<<< HEAD
 ## Rules: What TO Do
-=======
-<<<<<<< HEAD
-## 📈 Performance Metrics
->>>>>>> 7e6063a3 (.)
 
 ### ✅ CORRECT - Log Only Errors
 ```php
@@ -191,8 +167,6 @@ Instead of logging routine operations, use proper monitoring tools:
 
 ## Implementation Checklist
 
-<<<<<<< HEAD
-=======
 - `.windsurfrules` - Complete architectural rules
 - `AGENTS.md` - Project guidelines
 - Module-specific docs for implementation examples
@@ -264,7 +238,6 @@ Instead of logging routine operations, use proper monitoring tools:
 
 ## Implementation Checklist
 
->>>>>>> 7e6063a3 (.)
 ### Phase 1: Audit (This Week)
 - [ ] Search for all `Log::info()` calls
 - [ ] Identify which are routine operations
@@ -359,7 +332,3 @@ time curl http://localhost:8000/api/endpoint
 **Priority:** CRITICAL  
 **Status:** Active & Enforced  
 **Performance Impact:** 30-50% degradation with excessive logging
-<<<<<<< HEAD
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

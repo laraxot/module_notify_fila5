@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DRY Principle for Trait Methods"
 type: concept
@@ -20,7 +18,6 @@ related:
   - "./action-plan-immediate.md"
 ---
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # DRY Principle for Trait Methods
 
 ## Critical Rule: Never Duplicate Trait Methods

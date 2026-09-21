@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Contributing to FixCity"
 type: concept
@@ -20,7 +18,6 @@ related:
   - "./action-plan-immediate.md"
 ---
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Contributing to FixCity
 
 First off, thank you for considering contributing to FixCity! 🎉
@@ -58,11 +55,8 @@ This project adheres to a Code of Conduct that all contributors are expected to 
 # Clone the repository
 git clone https://github.com/your-org/fixcity.git
 cd fixcity/laravel
-<<<<<<< HEAD
 git clone https://github.com/your-org/ptv.git
 cd ptv/laravel
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 # Install PHP dependencies
 composer install

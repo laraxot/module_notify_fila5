@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Design Comuni Conversion Roadmap"
 type: concept
@@ -365,7 +363,6 @@ Then pick issue #1 and get coding! 🚀
 
 <!-- Merged from DESIGN-CONVERSION-ROADMAP.md, which collided with this file on case-insensitive filesystems. -->
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Design Comuni Conversion Roadmap
 
 **Status**: 🟢 Phase 1 Complete - Visual Parity Assessment Done
@@ -493,11 +490,7 @@ laravel/Themes/Sixteen/docs/pages/<page-name>/
 ### Theme-Level
 ```
 laravel/Themes/Sixteen/docs/
-<<<<<<< HEAD
 ├── INDEX.md                                    # Main index
-=======
-├── index.md                                    # Main index
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ├── COMPLETE-VISUAL-PARITY-REPORT.md          # All 54 pages
 ├── PRIORITY-MATRIX.json                       # Workload planning
 ├── visual-parity-data.json                    # Machine-readable data
@@ -509,11 +502,7 @@ laravel/Themes/Sixteen/docs/
 ### Bash Scripts
 ```
 bashscripts/docs/
-<<<<<<< HEAD
 ├── INDEX.md                    # Tools overview
-=======
-├── index.md                    # Tools overview
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 └── github-issues-batch.md      # GitHub CLI guide
 ```
 
@@ -556,17 +545,10 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 node bashscripts/github/create-design-issues.mjs
 
 # View issues
-<<<<<<< HEAD
 gh issue list --repo laraxot/base_fixcity_fila5 --label "design-comuni"
 
 # Filter by priority
 gh issue list --repo laraxot/base_fixcity_fila5 --label "priority:critical"
-=======
-gh issue list --repo laraxot/base_ptv_fila5 --label "design-comuni"
-
-# Filter by priority
-gh issue list --repo laraxot/base_ptv_fila5 --label "priority:critical"
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ```
 
 ---
@@ -627,11 +609,7 @@ npm run copy     # ~1 second
 ### Today (Start Phase 1)
 ```bash
 # 1. Review the analysis
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
-=======
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md
 
 # 2. Create GitHub issues
@@ -713,23 +691,14 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 - **Design Comuni**: https://italia.github.io/design-comuni-pagine-statiche/
 - **Tailwind CSS**: https://tailwindcss.com/
 - **Alpine.js**: https://alpinejs.dev/
-<<<<<<< HEAD
 - **Internal Docs**: `laravel/Themes/Sixteen/docs/INDEX.md`
 - **Tools Guide**: `bashscripts/docs/INDEX.md`
-=======
-- **Internal Docs**: `laravel/Themes/Sixteen/docs/index.md`
-- **Tools Guide**: `bashscripts/docs/index.md`
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ---
 
 **Ready to start? Run this now:**
 ```bash
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
-=======
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 node bashscripts/github/create-design-issues.mjs
 ```
 

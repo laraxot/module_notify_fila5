@@ -14,18 +14,12 @@ use Modules\Notify\Tests\Fixtures\SendRecordNotificationThrowStub;
 use Modules\Notify\Tests\Fixtures\SendRecordsNotificationRecordDummy;
 use Modules\Notify\Tests\Fixtures\SendRecordsSafeEloquentCastEmptyStub;
 use Modules\Notify\Tests\Fixtures\SendRecordsSafeEloquentCastStub;
-<<<<<<< HEAD
-use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
-use PHPUnit\Framework\Assert;
-
-=======
 use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class)->group('no-notify-db');
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 /**
  * @param  array<string, mixed>  $attributes
  */
@@ -40,12 +34,7 @@ test('send records notification action counts successful sends', function (): vo
 
     $records = new EloquentCollection([
         makeDummyBulkNotifyRecord(['id' => 1, 'name' => 'Alpha']),
-<<<<<<< HEAD
         makeDummyBulkNotifyRecord(['id' => 2, 'name' => 'Beta'])]);
-=======
-        makeDummyBulkNotifyRecord(['id' => 2, 'name' => 'Beta']),
-    ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     $result = app(SendRecordsNotificationAction::class)->execute(
         records: $records,
@@ -65,12 +54,7 @@ test('send records notification action accumulates errors per channel', function
 
     $records = new EloquentCollection([
         makeDummyBulkNotifyRecord(['id' => 1, 'name' => 'Ok Record', 'should_fail' => false]),
-<<<<<<< HEAD
         makeDummyBulkNotifyRecord(['id' => 2, 'name' => 'Fail Record', 'should_fail' => true])]);
-=======
-        makeDummyBulkNotifyRecord(['id' => 2, 'name' => 'Fail Record', 'should_fail' => true]),
-    ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     $result = app(SendRecordsNotificationAction::class)->execute(
         records: $records,

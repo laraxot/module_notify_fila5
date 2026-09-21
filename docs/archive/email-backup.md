@@ -632,12 +632,6 @@ class MailBackupDebugger
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
-<<<<<<< HEAD
-- [Laravel Storage](https://laravel.com/docs/storage)
-- [Laravel Encryption](https://laravel.com/docs/encryption)
-- [Laravel Commands](https://laravel.com/docs/artisan) 
-=======
-<<<<<<< HEAD
 - [Laravel Storage](https://laravel.com/project_docs/storage)
 - [Laravel Encryption](https://laravel.com/project_docs/encryption)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -645,5 +639,3 @@ class MailBackupDebugger
 - [Laravel Storage](https://laravel.com/docs/storage)
 - [Laravel Encryption](https://laravel.com/docs/encryption)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

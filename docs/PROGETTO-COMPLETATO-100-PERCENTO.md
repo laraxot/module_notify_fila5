@@ -153,16 +153,6 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ✅ **Root Docs** (9):
 1. PROGETTO-COMPLETATO-100-PERCENTO.md (questo!)
-<<<<<<< HEAD
-2. completamento-progetto.md
-3. analisi-completa-progetto-fixcity.md
-4. LEGGI-QUI-DOMANI.md
-5. roadmap-master-index.md
-6. project-analysis-and-roadmap.md
-7. phpstan/session-summary.md
-8. phpstan/final-report-session.md
-=======
-<<<<<<< HEAD
 2. COMPLETAMENTO-PROGETTO-2025-10-01.md
 3. ANALISI-COMPLETA-2025-10-01.md
 4. LEGGI-QUI-DOMANI.md
@@ -178,8 +168,6 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 6. project-analysis-and-roadmap.md
 7. phpstan/session-summary.md
 8. phpstan/final-report-session.md
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 9. phpstan/filament-v4-fixes-session.md
 
 ✅ **Module Roadmaps** (9):
@@ -339,29 +327,17 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📚 GUIDA RAPIDA ALLA DOCUMENTAZIONE
 
 ### 🌟 START HERE
-<<<<<<< HEAD
-**[→ ANALISI COMPLETA](./analisi-completa-progetto-fixcity.md)** - Executive Summary del progetto
-=======
-<<<<<<< HEAD
 **[→ ANALISI COMPLETA](./ANALISI-COMPLETA-2025-10-01.md)** - Executive Summary del progetto
 =======
 **[→ ANALISI COMPLETA](./analisi-completa-progetto-fixcity.md)** - Executive Summary del progetto
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 ### 🗺️ ROADMAP
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
 
 ### 📊 TECHNICAL
-<<<<<<< HEAD
-**[→ Session Summary](./phpstan/session-summary.md)** - Dettagli tecnici sessione
-=======
-<<<<<<< HEAD
 **[→ Session Summary](./phpstan/session-summary-2025-10-01.md)** - Dettagli tecnici sessione
 =======
 **[→ Session Summary](./phpstan/session-summary.md)** - Dettagli tecnici sessione
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 ### 🎯 MODULES (Dettagli per ogni modulo)
 
@@ -563,15 +539,9 @@ php artisan queue:work --queue=high,notifications,default
 
 - [← Torna all'Indice](./index.md)
 - [← Master Roadmap](./roadmap-master-index.md)
-<<<<<<< HEAD
-- [← Analisi Completa](./analisi-completa-progetto-fixcity.md)
-=======
-<<<<<<< HEAD
 - [← Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)
 =======
 - [← Analisi Completa](./analisi-completa-progetto-fixcity.md)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 ---
 

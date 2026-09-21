@@ -243,13 +243,8 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
               ▼                ▼
         Individual            Individual
         Module Docs           Theme Docs
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
         (00-INDEX.md)         (00-INDEX.md)
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         (00-index.md)         (00-index.md)
         ├─ architecture/      ├─ architecture/
         ├─ guides/            ├─ guides/
@@ -333,26 +328,16 @@ VISUAL COMPONENTS
 METRIC                          STATUS      SCORE
 ────────────────────────────────────────────────────
 Module Documentation Completeness    ✅      100%
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ├─ 00-INDEX.md                       ✅      19/19
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 ├─ 00-index.md                       ✅      19/19
 ├─ Architecture files                ✅      19/19
 ├─ Guide files                       ✅      19/19
 └─ Reference files                   ✅      19/19
 
 Theme Documentation Completeness     ✅      100%
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ├─ 00-INDEX.md                       ✅      2/2
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 ├─ 00-index.md                       ✅      2/2
 ├─ Architecture files                ✅      2/2
 ├─ Guide files                       ✅      2/2
@@ -394,13 +379,8 @@ TASK: "Add a new content block"
     ▼
   docs/THEMES_DOCUMENTATION_INDEX.md
     ▼
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   laravel/Themes/Sixteen/docs/00-INDEX.md
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
   laravel/Themes/Sixteen/docs/00-index.md
     ▼
   guides/adding-components.md
@@ -460,13 +440,8 @@ TASK: "Understand system architecture"
 
 ```
 Filesystem Server
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 └─ Reads: /var/www/_bases/base_fixcity_fila5/
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 └─ Reads: /var/www/_bases/base_ptv_fila5/
    └─ Indexes all docs
    └─ Enables fast file navigation

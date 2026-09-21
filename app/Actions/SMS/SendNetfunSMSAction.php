@@ -68,12 +68,7 @@ final class SendNetfunSMSAction implements SmsActionContract
     {
         $headers = [
             'Cache-Control' => 'no-cache',
-<<<<<<< HEAD
             'Content-Type' => 'application/json'];
-=======
-            'Content-Type' => 'application/json',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // Normalizza il numero di telefono usando l'azione dedicata
         $recipient = app(NormalizePhoneNumberAction::class)->execute($smsData->recipient);
@@ -89,14 +84,7 @@ final class SendNetfunSMSAction implements SmsActionContract
             'utf8_enabled' => true,
             'destinations' => [
                 [
-<<<<<<< HEAD
                     'number' => $recipient]]];
-=======
-                    'number' => $recipient,
-                ],
-            ],
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $client = new Client($headers);
         try {
@@ -115,12 +103,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         Log::channel('daily')->error('Netfun SMS response', [
             'request' => $body,
             'status_code' => $this->vars['status_code'],
-<<<<<<< HEAD
             'status_txt' => $this->vars['status_txt']]);
-=======
-            'status_txt' => $this->vars['status_txt'],
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         return $this->vars;
     }

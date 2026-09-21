@@ -45,13 +45,8 @@ ssh-keygen -t ed25519 -C "actions@github.com" -f ~/.ssh/subtree_sync
 
 ### Step 3: Add Private Key to Repo Secrets
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 1. Go to: **https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions**
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 1. Go to: **https://github.com/laraxot/platform/settings/secrets/actions**
 2. Click **"New repository secret"**
 3. Fill in:
@@ -68,13 +63,8 @@ ssh-keygen -t ed25519 -C "actions@github.com" -f ~/.ssh/subtree_sync
 
 ```bash
 # Go to project root
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 cd /var/www/_bases/base_ptvx_fila5
 
 # Create empty commit to trigger workflow
@@ -84,13 +74,8 @@ git commit --allow-empty -m "Test subtree sync workflow"
 git push origin dev
 
 # Wait 1-2 minutes, then check:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 # https://github.com/laraxot/base_fixcity_fila5/actions
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 # https://github.com/laraxot/platform/actions
 ```
 
@@ -137,14 +122,6 @@ Full documentation is available at:
 
 ```bash
 # Using GitHub CLI
-<<<<<<< HEAD
-gh run list --repo laraxot/base_ptvx_fila5
-gh run view <run-id> --log
-```
-
-Or visit: **https://github.com/laraxot/platform/actions**
-=======
-<<<<<<< HEAD
 gh run list --repo laraxot/base_fixcity_fila5
 gh run view <run-id> --log
 ```
@@ -156,8 +133,6 @@ gh run view <run-id> --log
 ```
 
 Or visit: **https://github.com/laraxot/platform/actions**
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 ---
 
@@ -167,13 +142,8 @@ If you have questions about the setup:
 
 1. Check documentation in `bashscripts/docs/github/actions/`
 2. Review error logs on GitHub Actions
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 3. Contact: dev @fixcity.example.com
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 3. Contact: dev @laraxot.example.com
 
 ---

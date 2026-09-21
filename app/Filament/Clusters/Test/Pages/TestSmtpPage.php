@@ -83,15 +83,8 @@ class TestSmtpPage extends XotBasePage
                     RichEditor::make('body_html')
                         ->default('test body')
                         ->required()
-<<<<<<< HEAD
                         ->columnSpanFull()])
                 ->columns(3)])->statePath('emailData');
-=======
-                        ->columnSpanFull(),
-                ])
-                ->columns(3),
-        ])->statePath('emailData');
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     public function sendEmail(): void
@@ -120,12 +113,7 @@ class TestSmtpPage extends XotBasePage
     protected function getEmailFormActions(): array
     {
         return [
-<<<<<<< HEAD
             'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
-=======
-            'submit' => Action::make('emailFormActions')->submit('emailFormActions'),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
     protected function getUser(): Authenticatable&Model
     {

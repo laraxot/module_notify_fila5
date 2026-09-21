@@ -16,19 +16,13 @@ use Webmozart\Assert\Assert;
  *
  * Fornisce funzionalità per la gestione delle notifiche per tenant.
  *
-<<<<<<< HEAD
  * @phpstan-ignore trait.unused (Trait composable: consumer in app/ futuri; coverage via NotifyTenantDummyModel in tests/Unit/Traits/)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
  */
 trait HasTenantNotifications
 {
     /**
-<<<<<<< HEAD
-=======
      * Ottiene tutte le notifiche per il tenant corrente.
      *
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
      * @return MorphMany<NotificationLog, $this>
      */
     public function notifications(): MorphMany
@@ -37,11 +31,8 @@ trait HasTenantNotifications
     }
 
     /**
-<<<<<<< HEAD
-=======
      * Ottiene le notifiche non lette per il tenant corrente.
      *
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
      * @return MorphMany<NotificationLog, $this>
      */
     public function unreadNotifications(): MorphMany
@@ -50,11 +41,8 @@ trait HasTenantNotifications
     }
 
     /**
-<<<<<<< HEAD
-=======
      * Ottiene le notifiche lette per il tenant corrente.
      *
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
      * @return MorphMany<NotificationLog, $this>
      */
     public function readNotifications(): MorphMany
@@ -63,11 +51,8 @@ trait HasTenantNotifications
     }
 
     /**
-<<<<<<< HEAD
-=======
      * Scope per filtrare le notifiche per tenant.
      *
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
      * @param  Builder<static>  $query
      * @return Builder<static>
      */
@@ -129,11 +114,7 @@ trait HasTenantNotifications
     /**
      * Relazione morph verso NotificationLog filtrata per tenant corrente.
      *
-<<<<<<< HEAD
      * @return MorphMany<NotificationLog, static>
-=======
-     * @return MorphMany<NotificationLog, $this>
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
      */
     protected function tenantNotificationLogs(): MorphMany
     {

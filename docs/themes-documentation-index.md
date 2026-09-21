@@ -247,10 +247,7 @@ Request: GET /it/tests/homepage
    @mount('tests.homepage')
    
 4. Middleware loads JSON:
-<<<<<<< HEAD
    config/local/fixcity/database/content/pages/homepage.json
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
    config/local/ptv/database/content/pages/homepage.json
 
 5. Data passed to view:
@@ -405,21 +402,15 @@ Integrates with:
 
 **Via .env:**
 ```bash
-<<<<<<< HEAD
 APP_URL=http://fixcity.local
 # Theme detected from APP_URL → fixcity → Sixteen (or override via config)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 APP_URL=http://ptv.local
 # Theme detected from APP_URL → ptv → Sixteen (or override via config)
 ```
 
 **Via Config:**
 ```php
-<<<<<<< HEAD
 // laravel/config/local/fixcity/xra.php
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 // laravel/config/local/ptv/xra.php
 'pub_theme' => 'Sixteen',  // or 'TwentyOne'
 ```

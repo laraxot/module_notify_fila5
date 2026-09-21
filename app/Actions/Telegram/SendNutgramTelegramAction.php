@@ -70,12 +70,7 @@ final class SendNutgramTelegramAction implements TelegramProviderActionInterface
     {
         $client = new Client([
             'timeout' => $this->timeout,
-<<<<<<< HEAD
             'base_uri' => $this->apiUrl]);
-=======
-            'base_uri' => $this->apiUrl,
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // Determina l'endpoint in base al tipo di messaggio
         $endpoint = match ($telegramData->type) {
@@ -90,12 +85,7 @@ final class SendNutgramTelegramAction implements TelegramProviderActionInterface
         // Prepara il payload in base al tipo di messaggio
         $payload = [
             'chat_id' => $telegramData->chatId,
-<<<<<<< HEAD
             'disable_notification' => $telegramData->disableNotification];
-=======
-            'disable_notification' => $telegramData->disableNotification,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -122,12 +112,7 @@ final class SendNutgramTelegramAction implements TelegramProviderActionInterface
 
         try {
             $response = $client->post($endpoint, [
-<<<<<<< HEAD
                 'json' => $payload]);
-=======
-                'json' => $payload,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -141,12 +126,7 @@ final class SendNutgramTelegramAction implements TelegramProviderActionInterface
 
             Log::debug('Telegram Nutgram inviato con successo', [
                 'chat_id' => $telegramData->chatId,
-<<<<<<< HEAD
                 'response_code' => $statusCode]);
-=======
-                'response_code' => $statusCode,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             /** @var array<string, mixed> $result */
             $result = $responseData['result'] ?? [];
@@ -157,12 +137,7 @@ final class SendNutgramTelegramAction implements TelegramProviderActionInterface
                 'success' => ($responseData['ok'] ?? false) === true,
                 'message_id' => $messageId,
                 'response' => $responseData,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
@@ -177,24 +152,14 @@ final class SendNutgramTelegramAction implements TelegramProviderActionInterface
             Log::warning('Errore invio Telegram Nutgram', [
                 'chat_id' => $telegramData->chatId,
                 'status' => $statusCode,
-<<<<<<< HEAD
                 'response' => $responseBody]);
-=======
-                'response' => $responseBody,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             return [
                 'success' => false,
                 'error' => $responseBody['description'] ?? 'Errore sconosciuto',
                 'error_code' => $responseBody['error_code'] ?? null,
                 'status_code' => $statusCode,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
     }
 }

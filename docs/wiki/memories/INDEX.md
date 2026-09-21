@@ -34,13 +34,8 @@ Le Memories progettuali vivono qui, nel wiki del Module **Notify**, e vengono ca
 
 - La sorgente di verita' per le Memories e' sempre il wiki locale
 - Non embeddare Memories nei prompt di avvio
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 - Per Memories globali, consulta il [wiki root](../../docs/wiki/memories/INDEX.md)
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 - Per Memories globali, consulta il [wiki root](../../docs/wiki/memories/index.md)
 
 ## Aggiungere una Nuova MEMORIES

@@ -9,16 +9,11 @@ use Modules\Notify\Filament\Forms\Components\ChannelCheckboxList;
 use Modules\Notify\Filament\Forms\Components\HtmlLayoutPathSelect;
 use Modules\Notify\Filament\Forms\Components\MailTemplateSelect;
 use Modules\Notify\Tests\Fixtures\ContactSectionTestProxy;
-<<<<<<< HEAD
-use PHPUnit\Framework\Assert;
-
-=======
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class)->group('no-notify-db');
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 test('channel checkbox list and selects have expected default names', function () {
     $channels = ChannelCheckboxList::make();
     $mailTemplate = MailTemplateSelect::make();

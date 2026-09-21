@@ -13,12 +13,9 @@ use Modules\Notify\Models\MailTemplate;
 class MailTemplateFactory extends Factory
 {
     protected $model = MailTemplate::class;
-<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     /**
      * @return array<string, mixed>
@@ -34,11 +31,6 @@ class MailTemplateFactory extends Factory
             'type' => $this->faker->randomElement(['email', 'notification', 'sms']),
             'is_active' => $this->faker->boolean(80),
             'created_at' => $this->faker->dateTimeBetween('-1 year'),
-<<<<<<< HEAD
             'updated_at' => $this->faker->dateTimeBetween('-1 year')];
-=======
-            'updated_at' => $this->faker->dateTimeBetween('-1 year'),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

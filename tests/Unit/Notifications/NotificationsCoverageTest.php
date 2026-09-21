@@ -21,14 +21,6 @@ use Modules\Notify\Notifications\ThemeNotification;
 use Modules\Notify\Notifications\TicketAssignedNotification;
 use Modules\Notify\Notifications\TicketStatusChangedNotification;
 use Modules\Notify\Notifications\WhatsAppNotification;
-<<<<<<< HEAD
-use Modules\User\Models\User;
-use Modules\Xot\Tests\XotBasePest;
-use PHPUnit\Framework\Assert;
-
-use function Safe\class_uses;
-
-=======
 use Modules\Notify\Tests\TestCase;
 use Modules\User\Models\User;
 use PHPUnit\Framework\Assert;
@@ -38,7 +30,6 @@ use function Safe\class_uses;
 
 uses(TestCase::class)->group('no-notify-db');
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 function notificationsCoverageTicketModel(int $id = 10): Model
 {
     $ticket = new class extends Model
@@ -68,12 +59,8 @@ function makeThemeNotifiableDummy(): CanThemeNotificationContract
                 'from' => 'System',
                 'recipient' => 'user@example.test',
                 'body' => 'Body',
-<<<<<<< HEAD
-                'channels' => ['mail', 'sms']]);
-=======
                 'channels' => ['mail', 'sms'],
             ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         public function getModel(): Model
@@ -120,12 +107,8 @@ test('email data notification exposes mail channel and array payload', function 
         'from_email' => 'from@example.test',
         'subject' => 'Subject',
         'body_html' => '<p>Body</p>',
-<<<<<<< HEAD
-        'body' => 'Body']);
-=======
         'body' => 'Body',
     ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     $notification = new EmailDataNotification($emailData);
 
@@ -135,24 +118,14 @@ test('email data notification exposes mail channel and array payload', function 
         'subject' => 'Subject',
         'from' => 'Sender Name',
         'from_email' => 'from@example.test',
-<<<<<<< HEAD
         'body' => 'Body'], XotBasePest::assertArray($notification->toArray(new \stdClass)));
-=======
-        'body' => 'Body',
-    ], XotBasePest::assertArray($notification->toArray(new \stdClass)));
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 });
 
 test('sms notification builds sms payload and provider config', function () {
     $notification = new SmsNotification('Test SMS', [
         'recipient' => '+39123',
         'from' => 'Xot',
-<<<<<<< HEAD
         'provider' => 'netfun']);
-=======
-        'provider' => 'netfun',
-    ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     $sms = $notification->toSms(new \stdClass);
 
@@ -175,12 +148,7 @@ test('telegram notification uses telegram channel class and returns message', fu
 test('whatsapp notification exposes whatsapp channel and provider', function () {
     $notification = new WhatsAppNotification('Hello WA', [
         'recipient' => '+39999',
-<<<<<<< HEAD
         'provider' => 'twilio']);
-=======
-        'provider' => 'twilio',
-    ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     $wa = $notification->toWhatsApp(new \stdClass);
 
@@ -197,12 +165,7 @@ test('theme notification returns channels and array payload', function () {
     Assert::assertSame(['mail', 'sms'], $notification->via($notifiable));
     Assert::assertSame([
         'foo' => 'bar',
-<<<<<<< HEAD
         '_name' => 'welcome-email'], $notification->toArray($notifiable));
-=======
-        '_name' => 'welcome-email',
-    ], $notification->toArray($notifiable));
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     Assert::assertTrue(in_array(Queueable::class, class_uses($notification), true));
 });
 

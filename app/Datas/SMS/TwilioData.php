@@ -45,12 +45,7 @@ class TwilioData extends Data
             default:
                 return [
                     'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
-<<<<<<< HEAD
                     'Content-Type' => 'application/x-www-form-urlencoded'];
-=======
-                    'Content-Type' => 'application/x-www-form-urlencoded',
-                ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
     }
 

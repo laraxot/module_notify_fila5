@@ -65,34 +65,18 @@ final class Send360dialogWhatsAppAction implements WhatsAppProviderActionInterfa
             'timeout' => $this->timeout,
             'headers' => [
                 'D360-API-KEY' => $this->apiKey,
-<<<<<<< HEAD
                 'Content-Type' => 'application/json']]);
-=======
-                'Content-Type' => 'application/json',
-            ],
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $endpoint = $this->baseUrl.'/messages';
 
         $payload = [
-<<<<<<< HEAD
             'to' => $whatsAppData->recipient];
-=======
-            'to' => $whatsAppData->recipient,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'text') {
             $payload['type'] = 'text';
             $payload['text'] = [
-<<<<<<< HEAD
                 'body' => $whatsAppData->body];
-=======
-                'body' => $whatsAppData->body,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
@@ -104,22 +88,12 @@ final class Send360dialogWhatsAppAction implements WhatsAppProviderActionInterfa
             $payload['type'] = $mediaType;
             $payload[$mediaType] = [
                 'link' => $mediaUrl,
-<<<<<<< HEAD
                 'caption' => $whatsAppData->body];
-=======
-                'caption' => $whatsAppData->body,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         try {
             $response = $client->post($endpoint, [
-<<<<<<< HEAD
                 'json' => $payload]);
-=======
-                'json' => $payload,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -133,12 +107,7 @@ final class Send360dialogWhatsAppAction implements WhatsAppProviderActionInterfa
 
             Log::debug('WhatsApp 360dialog inviato con successo', [
                 'to' => $whatsAppData->recipient,
-<<<<<<< HEAD
                 'response_code' => $statusCode]);
-=======
-                'response_code' => $statusCode,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             /** @var array<string, mixed>|null $messages */
             $messages = $responseData['messages'] ?? null;
@@ -153,12 +122,7 @@ final class Send360dialogWhatsAppAction implements WhatsAppProviderActionInterfa
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $messageId,
                 'response' => $responseData,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
@@ -173,12 +137,7 @@ final class Send360dialogWhatsAppAction implements WhatsAppProviderActionInterfa
             Log::warning('Errore invio WhatsApp 360dialog', [
                 'to' => $whatsAppData->recipient,
                 'status' => $statusCode,
-<<<<<<< HEAD
                 'response' => $responseBody]);
-=======
-                'response' => $responseBody,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             /** @var array<int, array<string, mixed>>|null $errors */
             $errors = $responseBody['errors'] ?? null;
@@ -193,12 +152,7 @@ final class Send360dialogWhatsAppAction implements WhatsAppProviderActionInterfa
                 'success' => false,
                 'error' => $errorMessage,
                 'status_code' => $statusCode,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
     }
 

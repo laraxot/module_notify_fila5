@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "LLM Wiki Quick Reference"
 type: concept
@@ -20,7 +18,6 @@ related:
   - "./notify-restore-.md"
 ---
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # LLM Wiki Quick Reference
 
 > **Based on**: Karpathy's LLM Wiki pattern
@@ -138,33 +135,21 @@ related:                               # Optional (array of paths)
 ### Initialize Module Wiki
 
 ```bash
-<<<<<<< HEAD
 bashscripts/ai/init-llm-wiki.sh module Fixcity
-=======
-bashscripts/ai/init-llm-wiki.sh module App
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 bashscripts/ai/init-llm-wiki.sh theme Sixteen
 ```
 
 ### Install qmd Search
 
 ```bash
-<<<<<<< HEAD
 npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd
-=======
-npm install -g qmd
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd serve ./docs/wiki
 ```
 
 ### Configure Obsidian
 
 1. Open Obsidian → "Open folder as vault"
-<<<<<<< HEAD
 2. Select: `/var/www/_bases/base_fixcity_fila5/docs`
-=======
-2. Select: `/var/www/_bases/base_ptvx_fila5/docs`
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 3. Configuration already in `.obsidian/`
 
 ## Quality Checklist
@@ -202,11 +187,7 @@ Templates available:
 ## Related Documentation
 
 - [Complete Integration Guide](wiki/README.md)
-<<<<<<< HEAD
 - [Agent Instructions](wiki/AGENTS.md)
-=======
-- [Agent Instructions](wiki/agents.md)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Wiki Overview](wiki/overview.md)
 - [Obsidian Setup](.obsidian/README.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)

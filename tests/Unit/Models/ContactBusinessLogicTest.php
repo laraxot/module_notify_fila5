@@ -4,23 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
-<<<<<<< HEAD
-use Illuminate\Support\Carbon;
-use Modules\Notify\Models\BaseModel;
-use Modules\Notify\Models\Contact;
-use PHPUnit\Framework\Assert;
-<<<<<<< HEAD
-=======
 use Modules\User\Models\User;
-=======
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class)->group('no-notify-db');
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 describe('Contact Business Logic', function () {
     test('contact extends base model', function () {
@@ -63,17 +53,10 @@ describe('Contact Business Logic', function () {
     test('contact can track email communication', function () {
         $contact = new Contact;
         $contact->mail_count = 3;
-<<<<<<< HEAD
         $contact->mail_sent_at = Carbon::parse('2023-01-01 10:00:00');
 
         Assert::assertSame(3, $contact->mail_count);
         Assert::assertSame('2023-01-01 10:00:00', $contact->mail_sent_at->format('Y-m-d H:i:s'));
-=======
-        $contact->mail_sent_at = '2023-01-01 10:00:00';
-
-        Assert::assertSame(3, $contact->mail_count);
-        Assert::assertSame('2023-01-01 10:00:00', $contact->mail_sent_at);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     });
 
     test('contact can store personal information', function () {

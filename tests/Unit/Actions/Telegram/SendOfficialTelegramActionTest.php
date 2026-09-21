@@ -7,13 +7,6 @@ namespace Modules\Notify\Tests\Unit\Actions\Telegram;
 use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Notify\Tests\TestCase;
-<<<<<<< HEAD
-use Modules\Xot\Tests\XotBasePest;
-use PHPUnit\Framework\Assert;
-
-use function Safe\class_uses;
-
-=======
 use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
 
@@ -21,7 +14,6 @@ use function Safe\class_uses;
 
 uses(TestCase::class)->group('no-notify-db');
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 describe('SendOfficialTelegramAction', function () {
     it('can be referenced via ReflectionClass without instantiation', function () {
         $reflection = new \ReflectionClass(SendOfficialTelegramAction::class);

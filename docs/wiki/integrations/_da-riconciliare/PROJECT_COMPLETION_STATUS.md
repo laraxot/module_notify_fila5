@@ -23,15 +23,9 @@ updated: 2026-08-24
 - ✅ **DOCUMENTATION_STATUS.md** - Stato completo documentazione
 - ✅ **DOCUMENTATION_INDEX.md** - Indice generale completo
 - ✅ **QUICK_START.md** - Guida rapida sviluppatori
-<<<<<<< HEAD
-- ✅ **work-completed.md** - Riepilogo aggiornamenti
-=======
-<<<<<<< HEAD
 - ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 =======
 - ✅ **work-completed.md** - Riepilogo aggiornamenti
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 ### 🎫 Modulo App (85% → 90%)
 ### 🎫 Modulo <nome progetto> (85% → 90%)
@@ -174,15 +168,9 @@ updated: 2026-08-24
 1. **DOCUMENTATION_STATUS.md** - Stato documentazione completo
 2. **DOCUMENTATION_INDEX.md** - Indice generale navigabile
 3. **QUICK_START.md** - Guida rapida sviluppatori
-<<<<<<< HEAD
-4. **work-completed.md** - Riepilogo aggiornamenti
-=======
-<<<<<<< HEAD
 4. **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 =======
 4. **work-completed.md** - Riepilogo aggiornamenti
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 5. **PROJECT_COMPLETION_STATUS.md** - Questo documento
 
 ### Modulo App (3 documenti)

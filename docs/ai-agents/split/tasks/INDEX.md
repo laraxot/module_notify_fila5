@@ -19,13 +19,8 @@ related:
 ---
 # BMad Tasks Index
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **Source**: [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md) (lines 905-5349)  
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **Source**: [`../../../../agents.md`](../../../../../../../../../../agents.md) (lines 905-5349)  
 **Total Tasks**: 22  
 **Total Lines**: ~4445  
@@ -108,13 +103,8 @@ Tasks are referenced by name when executing workflows:
 - "Execute trace-requirements for epic 3"
 - "Apply qa-gate to story 2.1"
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 For full task definitions, see the original [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md).
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 For full task definitions, see the original [`../../../../agents.md`](../../../../../../../../../../agents.md).
 
 ---

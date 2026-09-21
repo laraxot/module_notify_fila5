@@ -31,10 +31,7 @@
 Launch Cursor IDE and open your project:
 
 ```bash
-<<<<<<< HEAD
 cursor /var/www/_bases/base_fixcity_fila5
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 cursor /var/www/_bases/base_ptvx_fila5
 ```
 
@@ -187,10 +184,7 @@ Create `.cursor/superpowers-config.json`:
 ### 1. Verify PHP Testing
 
 ```bash
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5/laravel
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 cd /var/www/_bases/base_ptvx_fila5/laravel
 php artisan test --version
 ```

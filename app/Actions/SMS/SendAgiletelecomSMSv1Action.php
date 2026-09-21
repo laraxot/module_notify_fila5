@@ -35,31 +35,16 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'smsSENDER' => $agile->sender,
             'smsGATEWAY' => 'H', // M = Qualità standard, H = Qualità Alta
             'smsUSER' => $agile->username,
-<<<<<<< HEAD
             'smsPASSWORD' => $agile->password];
-=======
-            'smsPASSWORD' => $agile->password,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $headers = [
             'Accept-Encoding' => 'gzip, deflate',
             'Cache-Control' => 'no-cache',
-<<<<<<< HEAD
             'Connection' => 'keep-alive'];
 
         $client = new Client([
             'timeout' => 2.0,
             'headers' => $headers]);
-=======
-            'Connection' => 'keep-alive',
-        ];
-
-        $client = new Client([
-            'timeout' => 2.0,
-            'headers' => $headers,
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $client->post($url, ['form_params' => $payload]);
 

@@ -133,10 +133,7 @@ laravel/Themes/Sixteen/
 │   ├── prompts/
 │   │   └── replikate.txt              ← PROTOCOL
 │   └── design-comuni/
-<<<<<<< HEAD
 │       ├── 00-INDEX.md                ← HUB
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │       ├── 00-index.md                ← HUB
 │       ├── pages/
 │       │   └── homepage-structure-diff.md
@@ -150,10 +147,7 @@ laravel/Themes/Sixteen/
 │   └── js/
 │
 └── config/
-<<<<<<< HEAD
     └── local/fixcity/database/content/
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     └── local/laraxot/database/content/
         └── pages/tests.homepage.json
 
@@ -253,10 +247,7 @@ Next AI agent can immediately:
 
 - **Protocol**: `laravel/Themes/Sixteen/docs/prompts/replikate.txt`
 - **Analysis**: `laravel/Themes/Sixteen/docs/design-comuni/pages/homepage-structure-diff.md`
-<<<<<<< HEAD
 - **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-INDEX.md`
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-index.md`
 - **Automation**: `bashscripts/design-analysis/replikate-workflow.sh`
 

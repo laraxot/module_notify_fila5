@@ -4,10 +4,7 @@ type: concept
 tags: [final, master, report]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
 qmd: "final-master-report 🏆 fixcity - final master report"
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd: "final-master-report 🏆 ptv - final master report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -238,10 +235,7 @@ related:
 ## 📚 STRUTTURA FINALE PROGETTO
 
 ```
-<<<<<<< HEAD
 base_fixcity_fila5_mono/
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 base_ptv_fila5_mono/
 │
 ├── 📊 ROOT DOCS (14 files)

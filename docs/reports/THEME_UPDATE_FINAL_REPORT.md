@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 # ✅ FixCity Theme & Documentation Update - COMPLETE
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 # ✅ Notify Theme & Documentation Update - COMPLETE
 
 **Date**: 2026-03-30  
 **Status**: ✅ **COMPLETE** (conflicts da risolvere)  
 **Theme**: Sixteen ✅  
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **Domain**: fixcity.local  
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **Domain**: laraxot.local  
 
 ---
@@ -46,13 +36,8 @@ declare(strict_types=1);
 return [
     'pub_theme' => 'Sixteen',        // ✅ TEMA ATTIVO
     'adm_theme' => 'AdminLTE',       // ⚠️ Legacy (non usato)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     'main_module' => 'Fixcity',
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     'main_module' => 'App',
     'primary_lang' => 'it',
 ];
@@ -61,13 +46,8 @@ return [
 ### Project Structure
 
 ```
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 base_fixcity_fila5/
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 base_ptvx_fila5/
 ├── public_html/                    # DOCUMENT ROOT
 │   ├── index.php                  # Entry point
@@ -106,13 +86,8 @@ base_ptvx_fila5/
 ### Files Updated
 
 **Module READMEs** (18 files):
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 - ✅ AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 - ✅ AI, Activity, Blog, Cms, Comment, App, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot
 
 **Theme READMEs** (2 files):
@@ -181,13 +156,8 @@ See: [Theme Context](../../../.planning/THEME_CONTEXT.md) for config.
 |----------|-------|
 | **Theme Name** | Sixteen |
 | **Status** | ✅ ACTIVE |
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 | **Domain** | fixcity.local |
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 | **Domain** | laraxot.local |
 | **Config File** | `laravel/config/localhost/xra.php` |
 | **Config Key** | `pub_theme` |
@@ -227,13 +197,8 @@ docs: Update all documentation with theme info (DRY + KISS)
 **Conflicting Files** (6):
 1. `laravel/Modules/Cms/docs/README.md`
 2. `laravel/Modules/Comment/docs/README.md`
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 3. `laravel/Modules/Fixcity/docs/README.md`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 3. `laravel/Modules/App/docs/README.md`
 4. `laravel/Modules/Geo/docs/README.md`
 5. `laravel/Modules/Media/docs/README.md`
@@ -304,13 +269,8 @@ git push origin dev
 | **Theme Context** | `.planning/THEME_CONTEXT.md` |
 | **Modules Index** | `laravel/Modules/docs/README.md` |
 | **Themes Index** | `laravel/Themes/docs/README.md` |
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 | **Improvement Plan** | `FIXCITY_IMPROVEMENT_PLAN.md` |
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 | **Improvement Plan** | `NOTIFY_IMPROVEMENT_PLAN.md` |
 | **Project Overview** | `.planning/PROJECT.md` |
 
@@ -318,13 +278,8 @@ git push origin dev
 
 ## 💡 Key Takeaways
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 1. **Theme**: Sixteen è il tema attivo per `fixcity.local`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 1. **Theme**: Sixteen è il tema attivo per `laraxot.local`
 2. **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 3. **Document Root**: `public_html/` è la root del web server

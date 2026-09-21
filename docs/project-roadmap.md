@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # ROADMAP PRINCIPALE - Progetto Fixcity
-=======
-<<<<<<< HEAD
-# 🗺️ FIXCITY - PROJECT ROADMAP COMPLETA
->>>>>>> 7e6063a3 (.)
 
 ## Scopo del Progetto
 Fixcity è un sistema completo di gestione dei ticket per la manutenzione urbana, progettato per migliorare la qualità della vita cittadina attraverso un sistema di segnalazioni efficiente e trasparente.
@@ -34,9 +29,6 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 ## Architettura del Sistema
 
 ### Moduli Core
-<<<<<<< HEAD
-=======
-
 #### **Xot** - Framework Foundation
 ```
 Responsabilità:
@@ -673,7 +665,6 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 ## Architettura del Sistema
 
 ### Moduli Core
->>>>>>> 7e6063a3 (.)
 - **Fixcity**: Gestione ticket e workflow
 - **User**: Autenticazione e gestione utenti
 - **Notify**: Sistema notifiche multi-canale
@@ -815,7 +806,3 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 Il progetto Fixcity rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
 
 La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona Fixcity come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.
-<<<<<<< HEAD
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

@@ -9,16 +9,11 @@ use Illuminate\Notifications\Notification as IlluminateNotification;
 use Illuminate\Support\Facades\Notification;
 use InvalidArgumentException;
 use Modules\Notify\Actions\SendNotificationToRecipientAction;
-<<<<<<< HEAD
-use Modules\Xot\Tests\XotBasePest;
-use PHPUnit\Framework\Assert;
-=======
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
 
 uses(TestCase::class)->group('no-notify-db');
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 function makeDummyNotificationForRecipient(): IlluminateNotification
 {

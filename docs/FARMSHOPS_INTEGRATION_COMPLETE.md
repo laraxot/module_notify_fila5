@@ -180,26 +180,16 @@ Map Render → User Feedback
 #### 1. Visualizzazione Segnalazioni
 ```php
 // Homepage con mappa
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <livewire:fixcity::ticket-map />
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 <livewire:ptv::ticket-map />
 ```
 
 #### 2. Ricerca Geografica
 ```php
 // Trova segnalazioni vicine
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <livewire:fixcity::ticket-map 
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 <livewire:ptv::ticket-map 
     :center="[$userLat, $userLng]" 
     :zoom="15" 
@@ -209,13 +199,8 @@ Map Render → User Feedback
 #### 3. Dashboard Operatori
 ```php
 // Mappa con filtri per operatori
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <livewire:fixcity::ticket-map 
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 <livewire:ptv::ticket-map 
     :filters="['status' => 'open']" 
 />
@@ -224,13 +209,8 @@ Map Render → User Feedback
 #### 4. Reporting
 ```php
 // Mappa per report geografici
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <livewire:fixcity::ticket-map 
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 <livewire:ptv::ticket-map 
     :filters="['priority' => 'urgent']" 
 />

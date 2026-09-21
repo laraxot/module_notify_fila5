@@ -39,10 +39,7 @@ Errori comuni:
 
 ---
 
-<<<<<<< HEAD
 ## Predict List Page
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Forecast List Page
 
 Deve essere **BEST IN CLASS** per SEO e WCAG.
@@ -121,10 +118,7 @@ Discussion: apre alla community, chiede feedback
 
 - `config/database.php` allineato a Laravel 13.x
 - Produzione usa MySQL tramite .env
-<<<<<<< HEAD
 - Test usano MySQL (predict_test) tramite phpunit.xml
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Test usano MySQL (forecast_test) tramite phpunit.xml
 - **MAI** cambiare default in config/database.php
 
@@ -144,10 +138,7 @@ Con default null per prevenire errori.
 ## CMS JSON Architecture
 
 - Tema agnostico basato su JSON
-<<<<<<< HEAD
 - Blocchi configurati in `config/local/predict/database/content/pages/home.json`
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Blocchi configurati in `config/local/forecast/database/content/pages/home.json`
 - Struttura: `type`, `enabled`, `order`, `data`, `view`
 
@@ -181,10 +172,7 @@ Esempio: `__('forecast::home.hero.cta_learn.label')`
 - Footer caricato da JSON config via `<x-section slug="footer" />`
 - **NON** usare `GetFooterData` action (DEPRECATA)
 - **NON** aggiungere blocchi footer in `home.json`
-<<<<<<< HEAD
 - Config: `config/local/predict/database/content/sections/footer.json`
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Config: `config/local/forecast/database/content/sections/footer.json`
 
 ---
@@ -205,10 +193,7 @@ Esempio: `__('forecast::home.hero.cta_learn.label')`
 
 ---
 
-<<<<<<< HEAD
 ## Multi-Outcome Predictions
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Multi-Outcome Forecasts
 
 Previsioni **DEVONO** avere **3-5+ esiti** (NON solo SI/NO).

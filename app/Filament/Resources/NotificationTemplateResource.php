@@ -12,20 +12,11 @@ use Override;
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static ?string $model = NotificationTemplate::class;
-<<<<<<< HEAD
-=======
-
     /**
      * @return array<string, Field>
      */
-<<<<<<< HEAD
-    #[Override]
-    public static function getFormSchema(): array
-=======
-
     // #[Override]
     public static function getFormSchemaOld(): array
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     {
         return [
             'name' => TextInput::make('name')
@@ -73,26 +64,17 @@ class NotificationTemplateResource extends XotBaseResource
                 ->maxSize(5120)
                 ->acceptedFileTypes(['application/pdf', 'image/*'])
                 ->columnSpan(['lg' => 3])
-<<<<<<< HEAD
-                ->helperText(__('notify::template.form.attachments.helper'))];
-=======
                 ->helperText(__('notify::template.form.attachments.helper')),
         ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     #[Override]
->>>>>>> 7e6063a3 (.)
     public static function getPages(): array
     {
         return [
             ...parent::getPages(),
-<<<<<<< HEAD
-            'preview' => PreviewNotificationTemplate::route('/{record}/preview')];
-=======
             'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
         ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /*

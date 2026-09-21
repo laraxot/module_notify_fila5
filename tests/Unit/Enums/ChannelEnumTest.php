@@ -9,20 +9,14 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Channels\WhatsAppChannel;
 use Modules\Notify\Enums\ChannelEnum;
-<<<<<<< HEAD
-=======
 use Modules\Notify\Tests\TestCase;
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 use PHPUnit\Framework\Assert;
 
 use function Safe\preg_replace;
 
-<<<<<<< HEAD
-=======
 uses(TestCase::class)->group('no-notify-db');
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 test('notification channel mapping is correct', function () {
     Assert::assertSame('mail', ChannelEnum::Mail->getNotificationChannel());
     Assert::assertSame(SmsChannel::class, ChannelEnum::Sms->getNotificationChannel());

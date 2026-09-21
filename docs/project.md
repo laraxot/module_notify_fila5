@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Base Fixcity Fila5 — project.md"
 type: concept
@@ -58,7 +56,6 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 
 <!-- Merged from PROJECT.md, which collided with this file on case-insensitive filesystems. -->
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Base Fixcity Fila5 — PROJECT.md
 
 ## Context
@@ -91,8 +88,4 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 - Filament Schemas = unified system (v5). Forms + Infolists coexist.
 - Widget → NO model binding (`getFormModel() → null`)
 - CSS scoped overrides → never mutate Filament markup
-<<<<<<< HEAD
 - Multilingual: all strings via `__('fixcity::ticket.*')`
-=======
-- Multilingual: all strings via `__('ptv::ticket.*')`
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-http://laradevsbd.com/story/laravel-notifications-with-database
-
-=======
-<<<<<<< HEAD
 ---
 title: "Todo"
 type: reference
@@ -20,5 +15,3 @@ Elenco di collegamenti migrato da un file `.txt`; URL deduplicati.
 =======
 http://laradevsbd.com/story/laravel-notifications-with-database
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

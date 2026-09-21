@@ -21,10 +21,7 @@ related:
 
 > **Last Updated**: 2026-03-13  
 > **Status**: 🔄 In Progress  
-<<<<<<< HEAD
 > **Repository**: FixCity Platform
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 > **Repository**: Notify Platform
 
 ---
@@ -328,9 +325,6 @@ To contribute to MCP configuration:
 ---
 
 **Maintainer**: @marco76tv  
-<<<<<<< HEAD
 **Contact**: dev @fixcity.example.com  
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Contact**: dev @laraxot.example.com  
 **Last Tested**: 2026-03-13

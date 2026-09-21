@@ -205,11 +205,6 @@ FixCity:          [4 Cards + "Altri Argomenti"]
 
 La homepage FixCity **È CONFORME** al design Bootstrap Italia.
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 URL di test: http://fixcity.local/it/tests/homepage
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 URL di test: http://ptv.local/it/tests/homepage

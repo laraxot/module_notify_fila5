@@ -100,13 +100,8 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;
     
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     protected $connection = 'fixcity';
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     protected $connection = 'ptv';
     
     // ❌ DUPLICATO
@@ -123,13 +118,8 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;  // ✅ Specifico
     
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     protected $connection = 'fixcity';
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     protected $connection = 'ptv';
     
     // ✅ RIMOSSO: $fillable (eredita da parent)

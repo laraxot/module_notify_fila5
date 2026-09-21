@@ -62,13 +62,8 @@ protected string $view = 'pub_theme::filament.widgets.auth.login';
 
 ```bash
 # Verificare configurazione tema
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
 php artisan config:cache
 php artisan view:cache
@@ -118,13 +113,8 @@ public function mount(): void
 ### Soluzione 5: Cache Viste
 
 ```bash
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
 
 # Clear tutti i cache
@@ -147,13 +137,8 @@ php artisan view:cache
 
 ```bash
 # Verificare che esista
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ls -la /var/www/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
 ```
 
@@ -163,13 +148,8 @@ ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/view
 
 ```bash
 # Cercare dove è definito pub_theme
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
 grep -r "pub_theme" config/ app/Providers/
 ```

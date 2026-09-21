@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 id: module-notify-readme
 title: "Notify — Consegna delle Comunicazioni Applicative"
@@ -19,9 +18,6 @@ related:
 sources: []
 ---
 
-=======
-<<<<<<< HEAD
->>>>>>> 7e6063a3 (.)
 # 📬 Notify
 
 > **Consegna delle comunicazioni applicative.**
@@ -39,30 +35,7 @@ Trasporti e template; la decisione di notificare resta nel dominio.
 
 Questo modulo possiede le responsabilità elencate sopra e pubblica contratti riusabili agli altri moduli. La logica applicativa vive in Actions del modulo; l’interfaccia amministrativa segue le basi Laraxot/XotBase. Le dipendenze verso altri moduli devono restare esplicite e orientate verso contratti stabili.
 
-<<<<<<< HEAD
 ## Integrazione rapida
-=======
-Scopo esteso, misure e mosse: [docs/scopo.md](docs/scopo.md).
-=======
-# 📬 Notify — il modulo che decide se il cittadino lo sa
-
-[![PHP](https://img.shields.io/badge/PHP-%5E8.3-777BB4.svg)](../../composer.json)
-[![Laravel](https://img.shields.io/badge/Laravel-%5E13.0-FF2D20.svg)](../../composer.json)
-[![Filament](https://img.shields.io/badge/Filament-%5E5.0-FDAB3D.svg)](composer.json)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%20max%2C%200%20errori-brightgreen.svg)](../../phpstan.neon)
-[![strict_types](https://img.shields.io/badge/declare-strict__types%3D1-informational.svg)](#)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-> Un cambio di stato che nessuno notifica non è successo, dal punto di vista di
-> chi aspetta. Notify è il modulo che chiude quel loop: email, SMS, WhatsApp,
-> Telegram, push FCM — cinque canali diversi, un solo posto dove si decide chi
-> viene avvisato di cosa.
-
-Badge verificati l'1 settembre 2026 con `phpstan analyse Modules/Notify` (0
-errori, `level: max` come da `phpstan.neon` di progetto — sacro, mai bypassato
-con `-c` o `--level`). Rilanciabile: `cd laravel && ./vendor/bin/phpstan analyse Modules/Notify`.
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 Il modulo è caricato dall’architettura modulare Laraxot. Per verificarne lo stato:
 
@@ -72,20 +45,7 @@ php artisan module:list
 ./vendor/bin/phpstan analyse Modules/Notify
 ````
 
-<<<<<<< HEAD
 Per i test e le convenzioni operative, consultare la documentazione locale prima di introdurre nuove integrazioni.
-=======
-Un sistema che cambia stato in silenzio genera ticket duplicati, telefonate
-all'ufficio e sfiducia — non perché il lavoro non sia stato fatto, ma perché
-nessuno lo sapeva. Notify esiste per rendere quel gap strutturalmente
-impossibile: ogni evento di dominio che dichiara "questo va comunicato" passa
-di qui, non attraverso un `Mail::send()` scritto ad hoc dentro un controller.
-
-## Logica
-<<<<<<< HEAD
-=======
-## Perché esiste
->>>>>>> .merge_file_Bt5am7
 
 Chiude il loop feedback: ogni cambio stato può diventare messaggio tracciabile.
 
@@ -113,7 +73,6 @@ Comunicazione **affidabile** = fiducia istituzionale. Qui si implementa.
 Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — vedi [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
 
 ---
->>>>>>> 7e6063a3 (.)
 
 ## Documentazione
 
@@ -129,22 +88,7 @@ Le modifiche devono mantenere `declare(strict_types=1);` nel codice PHP, rispett
 
 ---
 
-<<<<<<< HEAD
 **Modulo** `notify` · **Laraxot ecosystem** · **Project-agnostic**
-=======
-<<<<<<< .merge_file_lkaMEP
-**Modulo** `notify` · **Laraxot / FixCity Platform** · licenza MIT
-
----
-
-## Scopo del modulo
-
-Perche' esiste, come raggiungere meglio il suo scopo e cosa **non** gli appartiene:
-[`docs/purpose.md`](./docs/purpose.md).
-=======
-**Modulo** `notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-**Modulo** `notify` · **Laraxot** · **Notify Platform** · PHPStan 10 · Filament 5
->>>>>>> .merge_file_Bt5am7
 =======
 
 Cinque canali (email, SMS, WhatsApp, Telegram, push FCM), un'unica interfaccia
@@ -232,5 +176,3 @@ cd laravel
 ---
 
 **Modulo** `notify` · **Laraxot / FixCity Platform** · licenza MIT
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

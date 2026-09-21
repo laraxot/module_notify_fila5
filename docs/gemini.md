@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Gemini Rules (Modular)
 
 Questa documentazione è stata divisa in moduli per una gestione più efficiente del contesto.
@@ -25,8 +24,6 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 
 <!-- Merged from gemini.md, which collided with this file on case-insensitive filesystems. -->
 
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ---
 title: "Gemini Rules (Modular)"
 type: concept
@@ -63,14 +60,8 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 
 ---
 **See also:**
-<<<<<<< HEAD
 - [claude.md](./CLAUDE.md)
 - [agents.md](./AGENTS.md)
 - [qwen.md](./QWEN.md)
-=======
-- [claude.md](./claude.md)
-- [AGENTS.md](./AGENTS.md)
-- [qwen.md](./qwen.md)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 *Ultimo aggiornamento: Aprile 2026*

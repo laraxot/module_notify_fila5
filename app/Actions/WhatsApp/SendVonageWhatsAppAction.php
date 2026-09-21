@@ -76,18 +76,11 @@ final class SendVonageWhatsAppAction implements WhatsAppProviderActionInterface
             'timeout' => $this->timeout,
             'headers' => [
                 'Content-Type' => 'application/json',
-<<<<<<< HEAD
                 'Accept' => 'application/json']]);
-=======
-                'Accept' => 'application/json',
-            ],
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $payload = [
             'from' => [
                 'type' => 'whatsapp',
-<<<<<<< HEAD
                 'number' => $from],
             'to' => [
                 'type' => 'whatsapp',
@@ -96,21 +89,6 @@ final class SendVonageWhatsAppAction implements WhatsAppProviderActionInterface
                 'content' => [
                     'type' => 'text',
                     'text' => $whatsAppData->body]]];
-=======
-                'number' => $from,
-            ],
-            'to' => [
-                'type' => 'whatsapp',
-                'number' => $whatsAppData->recipient,
-            ],
-            'message' => [
-                'content' => [
-                    'type' => 'text',
-                    'text' => $whatsAppData->body,
-                ],
-            ],
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
@@ -122,33 +100,17 @@ final class SendVonageWhatsAppAction implements WhatsAppProviderActionInterface
                 'type' => $mediaType,
                 $mediaType => [
                     'url' => $mediaUrl,
-<<<<<<< HEAD
                     'caption' => $whatsAppData->body]];
         } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['message']['content'] = [
                 'type' => 'template',
                 'template' => $whatsAppData->template];
-=======
-                    'caption' => $whatsAppData->body,
-                ],
-            ];
-        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
-            $payload['message']['content'] = [
-                'type' => 'template',
-                'template' => $whatsAppData->template,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         try {
             $response = $client->post($this->baseUrl, [
                 'json' => $payload,
-<<<<<<< HEAD
                 'auth' => [$this->apiKey, $this->apiSecret]]);
-=======
-                'auth' => [$this->apiKey, $this->apiSecret],
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -163,12 +125,7 @@ final class SendVonageWhatsAppAction implements WhatsAppProviderActionInterface
 
             Log::debug('WhatsApp Vonage inviato con successo', [
                 'to' => $whatsAppData->recipient,
-<<<<<<< HEAD
                 'response_code' => $statusCode]);
-=======
-                'response_code' => $statusCode,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
@@ -176,12 +133,7 @@ final class SendVonageWhatsAppAction implements WhatsAppProviderActionInterface
                     ? $responseData['message_uuid']
                     : null,
                 'response' => $responseData,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
@@ -197,12 +149,7 @@ final class SendVonageWhatsAppAction implements WhatsAppProviderActionInterface
             Log::warning('Errore invio WhatsApp Vonage', [
                 'to' => $whatsAppData->recipient,
                 'status' => $statusCode,
-<<<<<<< HEAD
                 'response' => $responseBody]);
-=======
-                'response' => $responseBody,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             return [
                 'success' => false,
@@ -210,12 +157,7 @@ final class SendVonageWhatsAppAction implements WhatsAppProviderActionInterface
                     ? $responseBody['title']
                     : 'Errore sconosciuto',
                 'status_code' => $statusCode,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
     }
 

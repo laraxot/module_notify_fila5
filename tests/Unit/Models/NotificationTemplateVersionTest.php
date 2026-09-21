@@ -7,16 +7,11 @@ namespace Modules\Notify\Tests\Unit\Models;
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
-<<<<<<< HEAD
-use Modules\Xot\Tests\XotBasePest;
-use PHPUnit\Framework\Assert;
-=======
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
 
 uses(TestCase::class)->group('notify-db');
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 it('extends base model', function (): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
@@ -43,12 +38,8 @@ it('has correct fillable attributes', function (): void {
         'conditions',
         'version',
         'created_by',
-<<<<<<< HEAD
-        'change_notes'];
-=======
         'change_notes',
     ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $instance = $reflection->newInstanceWithoutConstructor();

@@ -78,24 +78,14 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
         $client = new Client([
             'timeout' => $this->timeout,
-<<<<<<< HEAD
             'auth' => [$this->accountSid, $this->authToken]]);
-=======
-            'auth' => [$this->accountSid, $this->authToken],
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $endpoint = $this->baseUrl.'/Accounts/'.$this->accountSid.'/Messages.json';
 
         $payload = [
             'To' => $to,
             'From' => $from,
-<<<<<<< HEAD
             'Body' => $whatsAppData->body];
-=======
-            'Body' => $whatsAppData->body,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // Aggiungi media se presente
         if (! empty($whatsAppData->media)) {
@@ -104,12 +94,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
         try {
             $response = $client->post($endpoint, [
-<<<<<<< HEAD
                 'form_params' => $payload]);
-=======
-                'form_params' => $payload,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -124,12 +109,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
             Log::debug('WhatsApp Twilio inviato con successo', [
                 'to' => $whatsAppData->recipient,
-<<<<<<< HEAD
                 'response_code' => $statusCode]);
-=======
-                'response_code' => $statusCode,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
@@ -137,12 +117,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     ? $responseData['sid']
                     : null,
                 'response' => $responseData,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
@@ -158,12 +133,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
             Log::warning('Errore invio WhatsApp Twilio', [
                 'to' => $whatsAppData->recipient,
                 'status' => $statusCode,
-<<<<<<< HEAD
                 'response' => $responseBody]);
-=======
-                'response' => $responseBody,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             return [
                 'success' => false,
@@ -171,12 +141,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     ? $responseBody['message']
                     : 'Errore sconosciuto',
                 'status_code' => $statusCode,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
     }
 }

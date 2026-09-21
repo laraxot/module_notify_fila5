@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "🎉 REPLIKATE Phase 1 - COMPLETE"
 type: concept
@@ -299,7 +297,6 @@ All the information needed to fix the homepage is documented, prioritized, and e
 
 <!-- Merged from REPLIKATE-PHASE-1-COMPLETE.md, which collided with this file on case-insensitive filesystems. -->
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # 🎉 REPLIKATE Phase 1 - COMPLETE
 
 **Date**: 2026-04-07  
@@ -435,11 +432,7 @@ laravel/Themes/Sixteen/
 │   ├── prompts/
 │   │   └── replikate.txt              ← PROTOCOL
 │   └── design-comuni/
-<<<<<<< HEAD
 │       ├── 00-INDEX.md                ← HUB
-=======
-│       ├── 00-index.md                ← HUB
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │       ├── pages/
 │       │   └── homepage-structure-diff.md
 │       └── screenshots/
@@ -452,11 +445,7 @@ laravel/Themes/Sixteen/
 │   └── js/
 │
 └── config/
-<<<<<<< HEAD
     └── local/fixcity/database/content/
-=======
-    └── local/ptv/database/content/
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         └── pages/tests.homepage.json
 
 bashscripts/design-analysis/
@@ -555,11 +544,7 @@ Next AI agent can immediately:
 
 - **Protocol**: `laravel/Themes/Sixteen/docs/prompts/replikate.txt`
 - **Analysis**: `laravel/Themes/Sixteen/docs/design-comuni/pages/homepage-structure-diff.md`
-<<<<<<< HEAD
 - **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-INDEX.md`
-=======
-- **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-index.md`
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Automation**: `bashscripts/design-analysis/replikate-workflow.sh`
 
 ---

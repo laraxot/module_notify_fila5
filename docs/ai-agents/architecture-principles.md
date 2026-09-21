@@ -1,9 +1,6 @@
 # Architecture Principles
 
-<<<<<<< HEAD
 Key architectural rules for Quaeris Fila5 Mono (Laraxot / Laravel 12 / Filament 5).
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Key architectural rules for App Fila5 Mono (Laraxot / Laravel 12 / Filament 5).
 
 ## 0. Database Configuration (CRITICAL)
@@ -134,10 +131,7 @@ Ref: `.claude/docs/spatie-queueable-action.md`
 
 ```php
 // WRONG - Service class FORBIDDEN
-<<<<<<< HEAD
 namespace Modules\Quaeris\Services;
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 namespace Modules\App\Services;
 class ReportService
 {
@@ -145,10 +139,7 @@ class ReportService
 }
 
 // CORRECT - QueueableAction obbligatorio
-<<<<<<< HEAD
 namespace Modules\Quaeris\Actions;
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 namespace Modules\App\Actions;
 use Spatie\QueueableAction\QueueableAction;
 

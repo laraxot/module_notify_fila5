@@ -1,12 +1,7 @@
 # 🏆 PROJECT COMPLETION CERTIFICATE
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ## FixCity - Base Fila4 Mono
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 ## Notify - Base Fila4 Mono
 
 **Certificate of Excellence 2025**
@@ -15,13 +10,8 @@
 
 ## 📜 Official Certification
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 This document certifies that the project **FixCity - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 This document certifies that the project **Notify - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
 
 **Certification Date:** October 1, 2025  
@@ -275,13 +265,8 @@ The project meets or exceeds:
 
 **I hereby certify that:**
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 The project **FixCity - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 The project **Notify - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
 
 All quality metrics have been measured, verified, and documented. The project demonstrates excellence in code quality, testing, architecture, DevOps, and documentation.
@@ -295,13 +280,8 @@ Super Mucca Quality Assurance Team 🐮
 October 1, 2025
 
 **Certification ID:**  
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 FIXCITY-2025-EXCELLENCE-001
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 NOTIFY-2025-EXCELLENCE-001
 
 **Digital Signature:**  
@@ -341,15 +321,10 @@ vuER4W8oDH3+3iQ02OQ1QlnRFHqeJ5teKeH3VYx0jBuS402hm0Ow1yxM3FyPOPMU
 
 To verify this certification:
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **Website:** https://fixcity.com/certification  
 **Verification Code:** FIXCITY-2025-EXCELLENCE-001  
 **Email:** certification@fixcity.com
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **Website:** https://laraxot.com/certification  
 **Verification Code:** NOTIFY-2025-EXCELLENCE-001  
 **Email:** certification@laraxot.com
@@ -391,13 +366,8 @@ See [Quality Dashboard](./QUALITY_DASHBOARD.md)
 
 ### Appendix B: Architecture Documentation
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 See [Architecture](./ARCHITECTURE.md)
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 See [Architecture](./architecture.md)
 
 ### Appendix C: Refactoring Report
@@ -431,13 +401,8 @@ See [Test Reports](../Modules/*/Tests/)
 
 *This certificate is issued by the Super Mucca Quality Assurance Team and represents the highest standard of software engineering excellence.*
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **#Excellence2025 #QualityCertified #ProfessionalDevelopment #FixCity**
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **#Excellence2025 #QualityCertified #ProfessionalDevelopment #Notify**
 
 ---

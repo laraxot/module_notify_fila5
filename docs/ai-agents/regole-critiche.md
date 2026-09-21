@@ -32,10 +32,7 @@ Quando un errore arriva da una pagina Filament/Livewire:
 - lintare anche i file della catena immediatamente caricata dalla pagina;
 - solo dopo passare a test applicativi, query, container o permessi.
 
-<<<<<<< HEAD
 Per i chart Quaeris la catena minima da controllare e`:
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Per i chart App la catena minima da controllare e`:
 - `QuestionChartChartData`
 - `BuildQuestionChartDatasetAction`

@@ -2,10 +2,7 @@
 
 ## Introduzione
 
-<<<<<<< HEAD
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto Quaeris, mantenendo la coerenza visiva e migliorando l'usabilità.
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto App, mantenendo la coerenza visiva e migliorando l'usabilità.
 
 ## Componenti per il Campo `name`
@@ -217,10 +214,7 @@ return [
 ];
 ```
 
-<<<<<<< HEAD
 ## Conformità con gli Standard Quaeris
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Conformità con gli Standard App
 
 Tutti i componenti proposti:
@@ -237,10 +231,7 @@ I miglioramenti UI/UX proposti per i campi `name` e `slug` si concentrano su:
 3. **Azioni contestuali** che facilitano operazioni comuni
 4. **Relazioni intuitive** tra campi correlati
 
-<<<<<<< HEAD
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto Quaeris mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto App mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 
 ## Riferimenti

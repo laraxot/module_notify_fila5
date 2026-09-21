@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Performance Optimization — Module Notify"
 type: documentation
@@ -8,21 +7,7 @@ tags: [performance, optimization, tokens, context]
 related:
   - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
 ---
-=======
-<<<<<<< HEAD
-=======
----
-title: "Analisi e Ottimizzazione delle Performance"
-module: notify
-type: integration
-tags: [integrations, modules, notify]
-created: 2026-08-24
-updated: 2026-08-24
----
-
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Analisi e Ottimizzazione delle Performance
->>>>>>> 7e6063a3 (.)
 
 # Performance Optimization — Module **Notify**
 
@@ -133,10 +118,6 @@ context-mode ctx-stats
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 - [QMD Setup](./QMD-SETUP.md)
 
-<<<<<<< HEAD
----
-*Status: Ottimizzato | Token risparmiati: ~48K per session*
-=======
 1. **Laravel Telescope**
 ```php
 // config/telescope.php
@@ -166,7 +147,6 @@ return [
 - Mantenere log dettagliati
 - Ottimizzare continuamente
 - Testare su diversi ambienti 
-<<<<<<< HEAD
 =======
 
 ---
@@ -294,5 +274,3 @@ context-mode ctx-stats
 
 ---
 *Status: Ottimizzato | Token risparmiati: ~48K per session*
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

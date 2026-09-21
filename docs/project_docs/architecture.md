@@ -1,28 +1,4 @@
-<<<<<<< HEAD
 # FixCity - Architecture Documentation
-=======
----
-title: "Notify - Architecture Documentation"
-type: concept
-tags: [architecture]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "architecture laraxot - architecture documentation"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./2025-excellence-achievement.md"
-  - "./agid-implementation-guide.md"
-  - "./complete-refactoring-analysis.md"
-  - "./documentation-status.md"
-  - "./final-implementation-report-.md"
-  - "./final-implementation-report-1.md"
-  - "./final-implementation-report.md"
-  - "./final-refactoring-report.md"
----
-
-# Notify - Architecture Documentation
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 **Version:** 4.0  
 **Date:** 2025-10-01  
@@ -76,11 +52,7 @@ Modules/
 ├── Xot/              # Core framework extensions
 ├── Tenant/           # Multi-tenancy support
 ├── User/             # User management & authentication
-<<<<<<< HEAD
 ├── Fixcity/          # Main application logic
-=======
-├── App/          # Main application logic
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ├── Blog/             # Content management
 ├── Cms/              # CMS functionality
 ├── Geo/              # Geographic services
@@ -104,11 +76,7 @@ graph TD
     A[Xot] --> B[Tenant]
     A --> C[User]
     A --> D[Lang]
-<<<<<<< HEAD
     B --> E[Fixcity]
-=======
-    B --> E[App]
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     C --> E
     E --> F[Blog]
     E --> G[Cms]
