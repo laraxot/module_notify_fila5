@@ -117,9 +117,9 @@ class RecordNotification extends Notification implements ShouldQueue
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $to = $notifiable->routeNotificationFor('sms');
         }
-        $fallback_to = config('sms.fallback_to');
-        if (is_string($fallback_to)) {
-            $to = $fallback_to;
+        $fallbackTo = config('sms.fallback_to');
+        if (is_string($fallbackTo)) {
+            $to = $fallbackTo;
         }
         if ($to === null) {
             return null;
