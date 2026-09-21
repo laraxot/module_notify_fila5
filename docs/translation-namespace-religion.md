@@ -23,7 +23,10 @@
 
 ```php
 // ❌ SBAGLIATO: namespace basato su COMPONENTE UI
+<<<<<<< HEAD
 __('fixcity::create_ticket_wizard.summary.images.limit_message')
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 __('ptv::create_ticket_wizard.summary.images.limit_message')
 ```
 
@@ -50,7 +53,10 @@ __('ptv::create_ticket_wizard.summary.images.limit_message')
 
 ```php
 // ✅ CORRETTO: namespace basato su DOMINIO BUSINESS
+<<<<<<< HEAD
 __('fixcity::ticket.rules.image.limit_message')
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 __('ptv::ticket.rules.image.limit_message')
 ```
 
@@ -108,10 +114,17 @@ lang/it/
 
 ```php
 // ❌ SBAGLIATO: componente UI
+<<<<<<< HEAD
 __('fixcity::create_ticket_wizard.summary.label')
 
 // ✅ CORRETTO: dominio business
 __('fixcity::ticket.sections.summary.label')
+=======
+__('ptv::create_ticket_wizard.summary.label')
+
+// ✅ CORRETTO: dominio business
+__('ptv::ticket.sections.summary.label')
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ```
 
 ---
@@ -149,10 +162,17 @@ ticket.php
 
 ```php
 // ❌ SBAGLIATO
+<<<<<<< HEAD
 __('fixcity::create_ticket_wizard.summary.images.limit_message')
 
 // ✅ CORRETTO
 __('fixcity::ticket.rules.image.limit_message')
+=======
+__('ptv::create_ticket_wizard.summary.images.limit_message')
+
+// ✅ CORRETTO
+__('ptv::ticket.rules.image.limit_message')
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ```
 
 **Perche**: La regola delle immagini e una proprieta del DOMINIO ticket, non del widget.
@@ -197,10 +217,17 @@ grep "limit_message" Modules/Fixcity/lang/it/ticket.php
 
 ```php
 // ❌ SBAGLIATO
+<<<<<<< HEAD
 ->limitMessage(__('fixcity::create_ticket_wizard.summary.images.limit_message'))
 
 // ✅ CORRETTO
 ->limitMessage(__('fixcity::ticket.rules.image.limit_message'))
+=======
+->limitMessage(__('ptv::create_ticket_wizard.summary.images.limit_message'))
+
+// ✅ CORRETTO
+->limitMessage(__('ptv::ticket.rules.image.limit_message'))
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ```
 
 ---
@@ -210,8 +237,11 @@ grep "limit_message" Modules/Fixcity/lang/it/ticket.php
 ### Prima (Sbagliato)
 
 ```php
+<<<<<<< HEAD
 Section::make(__('fixcity::create_ticket_wizard.summary.images.label'))
     ->limitMessage(__('fixcity::create_ticket_wizard.summary.images.limit_message'))
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Section::make(__('ptv::create_ticket_wizard.summary.images.label'))
     ->limitMessage(__('ptv::create_ticket_wizard.summary.images.limit_message'))
 ```
@@ -226,8 +256,11 @@ Section::make(__('ptv::create_ticket_wizard.summary.images.label'))
 ### Dopo (Corretto)
 
 ```php
+<<<<<<< HEAD
 Section::make(__('fixcity::ticket.sections.images.label'))
     ->limitMessage(__('fixcity::ticket.rules.image.limit_message'))
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Section::make(__('ptv::ticket.sections.images.label'))
     ->limitMessage(__('ptv::ticket.rules.image.limit_message'))
 ```

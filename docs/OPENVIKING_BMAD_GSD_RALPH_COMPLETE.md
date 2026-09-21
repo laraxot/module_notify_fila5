@@ -59,6 +59,13 @@ All documentation, scripts, and configuration files have been created successful
 ## File Structure
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+base_fixcity_fila5/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 base_ptv_fila5/
 ├── docs/
 │   ├── openviking-integration.md          ✅ NEW
@@ -94,6 +101,13 @@ sudo systemctl start openviking
 
 ```bash
 # Navigate to project
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+cd /var/www/_bases/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 cd /var/www/_bases/base_ptv_fila5
 
 # Run initialization
@@ -345,6 +359,14 @@ cat .ralph/iteration-log.md
 ls -la _bmad/
 ls -la .planning/
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Review AGENTS.md
+cat AGENTS.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 # Review agents.md
 cat agents.md
 ```
@@ -356,6 +378,13 @@ cat agents.md
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
 - [Unified Workflow](./unified-ai-workflow.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [AGENTS.md](../AGENTS.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - [agents.md](../agents.md)
 
 ### Scripts

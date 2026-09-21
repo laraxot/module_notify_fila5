@@ -5,9 +5,17 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Datas;
 
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
+<<<<<<< HEAD
 use Spatie\LaravelData\Data;
+=======
+=======
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 
 describe('SmsData', function () {
     it('can be referenced via reflection without instantiation', function () {

@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+---
+title: "Agent instructions"
+type: reference
+tags: [agents, coding-agent, llm-wiki]
+created: 2026-07-01
+updated: 2026-07-01
+qmd: "istruzioni agenti LLM wiki modulo"
+issues: []
+discussions: []
+related:
+  - ./coding-agent-manifests.md
+---
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # LLM Wiki Agent Instructions
 
 > **Purpose**: This file transforms generic LLM agents into disciplined LLM Wiki maintainers
@@ -139,7 +155,10 @@ related:
 - **Message format**: `docs: {action} {description}`
   - ✅ `docs: ingest karpathy-llm-wiki article`
   - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
+<<<<<<< HEAD
   - ✅ `docs: lint wiki - resolve contradictions in forecast market concepts`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   - ✅ `docs: query synthesis - LLM wiki integration with Laraxot`
   - ❌ `updated wiki`
 
@@ -267,6 +286,7 @@ LLM Agent Actions:
    "According to [lmsr-mechanics.md](concepts/lmsr-mechanics.md), LMSR uses
    logarithmic market scoring. The [Predict module](entities/predict-module.md)
    implements this with normalisation (see [predict-lmsr-boundary skill])."
+<<<<<<< HEAD
 
 LLM Agent Actions:
 1. Search wiki/index.md for "LMSR", "prediction markets"
@@ -278,6 +298,8 @@ LLM Agent Actions:
    "According to [lmsr-mechanics.md](concepts/lmsr-mechanics.md), LMSR uses
    logarithmic market scoring. The [Forecast module](entities/forecast-module.md)
    implements this with normalisation (see [forecast-lmsr-boundary skill])."
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 4. If synthesis reveals new insight:
    Create wiki/comparisons/lmsr-vs-order-book-mechanics.md
 5. Update cross-references between pages
@@ -339,7 +361,10 @@ LLM Agent Actions:
    ### Contradictions (1)
    ⚠️ concepts/lmsr-mechanics.md says "LMSR is linear"
      vs concepts/prediction-markets.md says "LMSR is logarithmic"
+<<<<<<< HEAD
      vs concepts/forecast-markets.md says "LMSR is logarithmic"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
      → Action: Merge pages, resolve contradiction
 
    ### Orphan Pages (2)
@@ -395,7 +420,10 @@ When module wiki references project wiki:
 
 ```markdown
 # In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
+<<<<<<< HEAD
 # In Modules/App/docs/llm-wiki/concepts/ticket-lifecycle.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 Related:
 - Project-wide: [[docs/wiki/concepts/laraxot-architecture]]
@@ -432,7 +460,11 @@ LLM Agent Actions:
 
 ```bash
 # Install
+<<<<<<< HEAD
 npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd
+=======
+npm install -g qmd
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 # Serve wiki for web access
 cd docs/wiki
@@ -501,10 +533,17 @@ sources: ["raw/articles/karpathy-llm-wiki.md", "raw/papers/lmsr-original.pdf"]
 confidence: high
 created: 2026-04-15
 updated: 2026-04-15
+<<<<<<< HEAD
 tags: [forecast-market, lmsr, market-mechanics, algorithmic-trading]
 related:
   - concepts/forecast-market-design.md
   - entities/forecast-module.md
+=======
+tags: [prediction-market, lmsr, market-mechanics, algorithmic-trading]
+related:
+  - concepts/prediction-market-design.md
+  - entities/predict-module.md
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   - sources/karpathy-llm-wiki.md
 ---
 
@@ -516,6 +555,7 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 [Content...]
 
+<<<<<<< HEAD
 ## Implementation in Forecast Module
 
 [Content with links to entities/forecast-module.md]
@@ -524,6 +564,16 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 - [[concepts/forecast-market-design]]
 - [[entities/forecast-module]]
+=======
+## Implementation in Predict Module
+
+[Content with links to entities/predict-module.md]
+
+## Related Concepts
+
+- [[concepts/prediction-market-design]]
+- [[entities/predict-module]]
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [[concepts/normalisation-patterns]]
 ```
 
@@ -537,13 +587,19 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 - [[llm-wiki-architecture]] - Three-layer model for persistent knowledge (raw/wiki/schema)
 - [[lmsr-mechanics]] - Logarithmic Market Scoring Rule pricing algorithm
 - [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
+<<<<<<< HEAD
 - [[forecast-market-design]] - Market clarity, resolution trust, calibration principles
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ## Entities
 
 - [[andrej-karpathy]] - Creator of LLM Wiki pattern
 - [[predict-module]] - Laraxot module for prediction markets
+<<<<<<< HEAD
 - [[forecast-module]] - Laraxot module for forecast markets
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ## Sources
 
@@ -572,13 +628,19 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 ## [2026-04-15] query | LMSR mechanics explanation
 - Read: concepts/lmsr-mechanics.md, entities/predict-module.md
+<<<<<<< HEAD
 - Read: concepts/lmsr-mechanics.md, entities/forecast-module.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Created: comparisons/lmsr-vs-order-book-mechanics.md
 - Commit: docs: query synthesis - LMSR vs order book mechanics
 
 ## [2026-04-15] lint | Weekly health check
 - Resolved: 1 contradiction in prediction market concepts
+<<<<<<< HEAD
 - Resolved: 1 contradiction in forecast market concepts
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Added: 3 cross-references to orphan pages
 - Archived: 1 stale source (old-filament-guide.md)
 - Commit: docs: lint wiki - resolve contradictions and archive stale sources

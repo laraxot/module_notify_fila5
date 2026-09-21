@@ -6,8 +6,16 @@ namespace Modules\Notify\Tests\Unit\Console\Commands;
 
 use Illuminate\Console\Command;
 use Modules\Notify\Console\Commands\AnalyzeTranslationFiles;
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
+=======
+use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+
+uses(TestCase::class)->group('no-notify-db');
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 describe('AnalyzeTranslationFiles', function () {
     it('has correct signature', function () {
@@ -74,7 +82,13 @@ describe('AnalyzeTranslationFiles', function () {
         $input = [
             'parent' => [
                 'child1' => 'value1',
+<<<<<<< HEAD
                 'child2' => 'value2']];
+=======
+                'child2' => 'value2',
+            ],
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $result = XotBasePest::assertArray($method->invoke($command, $input));
 
@@ -105,7 +119,14 @@ describe('AnalyzeTranslationFiles', function () {
         $input = [
             'level1' => [
                 'level2' => [
+<<<<<<< HEAD
                     'level3' => 'deep value']]];
+=======
+                    'level3' => 'deep value',
+                ],
+            ],
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $result = XotBasePest::assertArray($method->invoke($command, $input));
 

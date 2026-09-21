@@ -32,7 +32,12 @@ enum WhatsAppDriverEnum: string
             self::TWILIO->value => 'Twilio',
             self::MESSAGEBIRD->value => 'MessageBird',
             self::VONAGE->value => 'Vonage',
+<<<<<<< HEAD
             self::INFOBIP->value => 'Infobip'];
+=======
+            self::INFOBIP->value => 'Infobip',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -46,7 +51,12 @@ enum WhatsAppDriverEnum: string
             self::TWILIO->value => __('notify::whatsapp.drivers.twilio'),
             self::MESSAGEBIRD->value => __('notify::whatsapp.drivers.messagebird'),
             self::VONAGE->value => __('notify::whatsapp.drivers.vonage'),
+<<<<<<< HEAD
             self::INFOBIP->value => __('notify::whatsapp.drivers.infobip')];
+=======
+            self::INFOBIP->value => __('notify::whatsapp.drivers.infobip'),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**

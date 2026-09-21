@@ -2,13 +2,19 @@
 
 ## Parametri Chiave per Ridurre i Token
 
+<<<<<<< HEAD
 ### 1. `num_predict` - Limite Token Output
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ### 1. `num_forecast` - Limite Token Output
 Limita il numero massimo di token generati nella risposta.
 
 ```json
 {
+<<<<<<< HEAD
   "num_predict": 256
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   "num_forecast": 256
 }
 ```
@@ -87,7 +93,10 @@ curl http://localhost:11434/api/chat -d '{
     }
   ],
   "options": {
+<<<<<<< HEAD
     "num_predict": 150,
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     "num_forecast": 150,
     "temperature": 0.3,
     "top_k": 20,
@@ -101,7 +110,10 @@ curl http://localhost:11434/api/chat -d '{
 ## Utilizzo in Laravel con QueueableActions
 
 ### Azioni Disponibili
+<<<<<<< HEAD
 Le azioni sono in `Modules\AI\Actions\Ollama\`:
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - `ChatOllamaAction` - Chat conversazionale
 - `GenerateOllamaAction` - Generazione testo
 
@@ -121,7 +133,10 @@ OLLAMA_THINKING=low
 ### Utilizzo
 
 ```php
+<<<<<<< HEAD
 use Modules\AI\Actions\Ollama\ChatOllamaAction;
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 // Usage standard ottimizzato
 $result = (new ChatOllamaAction())->executeOptimized('tua domanda');
@@ -132,7 +147,10 @@ $result = (new ChatOllamaAction())->executeMinimal('tua domanda');
 // Usage con opzioni custom
 $result = (new ChatOllamaAction())->execute('tua domanda', [
     'options' => [
+<<<<<<< HEAD
         'num_predict' => 128,
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         'num_forecast' => 128,
         'temperature' => 0.1,
     ],
@@ -148,7 +166,10 @@ echo $result['tokens']['total']; // Token totali usati
 
 | Parametro | Impatto Stimato |
 |-----------|-----------------|
+<<<<<<< HEAD
 | num_predict: 256 | 50-70% riduzione output |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | num_forecast: 256 | 50-70% riduzione output |
 | temperature: 0.3 | 10-20% riduzione |
 | think: "low" | 27-51% riduzione ragionamento |

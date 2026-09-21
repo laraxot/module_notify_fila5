@@ -377,6 +377,9 @@ find . -name "*[A-Z]*" -type d | grep -v node_modules | grep -v vendor
 ---
 
 **Maintainer**: @marco76tv  
+<<<<<<< HEAD
 **Contact**: dev @fixcity.example.com  
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Contact**: dev @laraxot.example.com  
 **Last Review**: 2026-03-13

@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+---
+title: "Contributing to FixCity"
+type: concept
+tags: [contributing]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "contributing contributing to fixcity"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+---
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Contributing to FixCity
 
 First off, thank you for considering contributing to FixCity! 🎉
@@ -35,8 +58,11 @@ This project adheres to a Code of Conduct that all contributors are expected to 
 # Clone the repository
 git clone https://github.com/your-org/fixcity.git
 cd fixcity/laravel
+<<<<<<< HEAD
 git clone https://github.com/your-org/ptv.git
 cd ptv/laravel
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 # Install PHP dependencies
 composer install

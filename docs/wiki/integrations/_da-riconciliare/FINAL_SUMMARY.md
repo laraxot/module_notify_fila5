@@ -32,7 +32,15 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 3. ✅ **QUICK_START.md** - Guida rapida sviluppatori con regole Laraxot
 4. ✅ **PROJECT_COMPLETION_STATUS.md** - Tracking avanzamento progetto
 5. ✅ **EXCELLENCE_2025.md** - Visione eccellenza e obiettivi
+<<<<<<< HEAD
 6. ✅ **work-completed.md** - Riepilogo tecnico aggiornamenti
+=======
+<<<<<<< HEAD
+6. ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo tecnico aggiornamenti
+=======
+6. ✅ **work-completed.md** - Riepilogo tecnico aggiornamenti
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 
 ### 🎫 Modulo App (4)
 ### 🎫 Modulo <nome progetto> (4)
@@ -123,7 +131,15 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 │   ├── EXCELLENCE_2025.md              ✅ Visione eccellenza
 │   ├── PROJECT_COMPLETION_STATUS.md    ✅ Tracking progetto
 │   ├── FINAL_SUMMARY.md                ✅ Questo file
+<<<<<<< HEAD
 │   └── work-completed.md    ✅ Riepilogo tecnico
+=======
+<<<<<<< HEAD
+│   └── WORK_COMPLETED_2025-10-01.md    ✅ Riepilogo tecnico
+=======
+│   └── work-completed.md    ✅ Riepilogo tecnico
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 │
 ├── 📁 project_docs/
 │   ├── DOCUMENTATION_STATUS.md         ✅ Stato docs

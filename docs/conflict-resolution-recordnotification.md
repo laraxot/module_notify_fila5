@@ -76,7 +76,10 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
+<<<<<<< HEAD
 - [SpatieEmail Integration](spatie_email_usage_guide.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [SpatieEmail Integration](spatie-email-usage-guide.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/conflict-resolution-guidelines.md)
 
@@ -159,7 +162,10 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
+<<<<<<< HEAD
 - [SpatieEmail Integration](spatie_email_usage_guide.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [SpatieEmail Integration](spatie-email-usage-guide.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 

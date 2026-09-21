@@ -9,7 +9,12 @@ declare(strict_types=1);
 
     {{-- @include ('beautymail::templates.sunny.heading', [
         'heading' => 'Hello!',
+<<<<<<< HEAD
         'level' => 'h1']) --}}
+=======
+        'level' => 'h1',
+    ]) --}}
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     @include('notify::emails.templates.sunny.contentStart')
 
@@ -19,6 +24,11 @@ declare(strict_types=1);
 
     {{-- @include('beautymail::templates.sunny.button', [
         'title' => 'Click me',
+<<<<<<< HEAD
         'link' => 'http://google.com']) --}}
+=======
+        'link' => 'http://google.com',
+    ]) --}}
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 @stop

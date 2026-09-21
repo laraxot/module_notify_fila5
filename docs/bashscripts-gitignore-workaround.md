@@ -42,7 +42,10 @@ Questo significa che:
 ### Opzione 1: Commit Forzato
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 cd /var/www/_bases/base_ptv_fila5
 
 # Aggiungi forzatamente bashscripts
@@ -157,7 +160,10 @@ git commit -m "fix: Description of fix"
 git push origin dev
 
 # 6. Monitora
+<<<<<<< HEAD
 gh run list --repo laraxot/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 gh run list --repo laraxot/base_ptv_fila5
 ```
 

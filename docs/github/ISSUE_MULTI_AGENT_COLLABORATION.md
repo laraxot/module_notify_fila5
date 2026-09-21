@@ -165,12 +165,26 @@ However, since bashscripts docs are gitignored, they need to be committed to bas
 | Issue Template | ✅ Committed | `.github/ISSUE_TEMPLATE/sync-remote-repo.md` |
 | Discussion Template | ✅ Committed | `.github/DISCUSSION_TEMPLATE/sync-script-coordination.md` |
 | Summary Doc | ✅ Committed | `docs/github/SYNC_REMOTE_REPO_DOCS_SUMMARY.md` |
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+| AGENTS.md Update | ✅ Committed | Multi-agent coordination section |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 | agents.md Update | ✅ Committed | Multi-agent coordination section |
 
 ### Sync Status
 
 | Repo | Status | Next Step |
 |------|--------|-----------|
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+| Main Repo (base_fixcity_fila5) | ✅ Committed & Pushed | - |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 | Main Repo (base_ptvx_fila5) | ✅ Committed & Pushed | - |
 | Bashscripts Repo (bashscripts_fila5) | ⏳ Pending | Commit docs to bashscripts repo |
 

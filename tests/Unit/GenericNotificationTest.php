@@ -6,8 +6,16 @@ namespace Modules\Notify\Tests\Unit;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Notifications\GenericNotification;
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
+=======
+use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+
+uses(TestCase::class)->group('no-notify-db');
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 // Basic unit tests focusing on business logic of recipient name resolution
 
 describe('GenericNotification getRecipientName', function (): void {
@@ -35,7 +43,12 @@ describe('GenericNotification getRecipientName', function (): void {
         $model = new class extends Model
         {
             protected $attributes = [
+<<<<<<< HEAD
                 'full_name' => 'Jane Roe'];
+=======
+                'full_name' => 'Jane Roe',
+            ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         };
 
         $ref = new \ReflectionClass(GenericNotification::class);

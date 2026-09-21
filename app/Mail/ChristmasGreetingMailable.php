@@ -53,7 +53,12 @@ class ChristmasGreetingMailable extends Mailable
             view: $seasonalContentViewPath, // Use the determined content view
             with: [
                 'recipientName' => $this->recipientName,
+<<<<<<< HEAD
                 'senderName' => $this->senderName],
+=======
+                'senderName' => $this->senderName,
+            ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         );
     }
 

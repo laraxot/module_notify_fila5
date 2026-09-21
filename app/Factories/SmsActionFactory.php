@@ -33,6 +33,7 @@ class SmsActionFactory
     /**
      * @var array<string, class-string<SmsActionContract>>
      */
+<<<<<<< HEAD
     protected array $driverActions = [
         'smsfactor' => SendSmsFactorSMSAction::class,
         'netfun' => SendNetfunSMSAction::class,
@@ -46,6 +47,25 @@ class SmsActionFactory
     protected array $driverAliases = [
         'smsfac' => 'smsfactor',
         'vonage' => 'nexmo'];
+=======
+    /** @var list<string> */
+    protected array $supportedDrivers = [
+<<<<<<< HEAD
+        'smsfactor'];
+
+    /** @var array<string, string> */
+    protected array $driverAliases = [
+        'smsfac' => 'smsfactor'];
+=======
+        'smsfactor',
+    ];
+
+    /** @var array<string, string> */
+    protected array $driverAliases = [
+        'smsfac' => 'smsfactor',
+    ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 
     /**
      * Crea l'azione SMS per il driver dato (o quello di `config('sms.default')`).
@@ -59,8 +79,33 @@ class SmsActionFactory
         $configDefault = Config::get('sms.default', 'smsfactor');
         $driver ??= \is_string($configDefault) ? $configDefault : 'smsfactor';
 
+<<<<<<< HEAD
         $key = $this->normalizeDriverName($driver);
         $className = $this->driverActions[$key] ?? null;
+=======
+        // Normalizza il nome del driver e assicura formato camelCase
+        $normalizedDriver = $this->normalizeDriverName(is_string($driver) ? $driver : '');
+
+        // Avvisa per driver non standard
+        if (! in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
+            Log::warning('Attempting to use non-standard SMS driver: '.(is_string($driver) ? $driver : ''));
+        }
+
+        // Costruisci il nome della classe seguendo la convenzione
+        $className = 'Modules\\Notify\\Actions\\SMS\\Send'.ucfirst($normalizedDriver).'SMSAction';
+
+        // Verifica se la classe esiste
+        if (! class_exists($className)) {
+            Log::error('SMS driver class not found', [
+                'driver' => $driver,
+                'normalized' => $normalizedDriver,
+<<<<<<< HEAD
+                'className' => $className]);
+=======
+                'className' => $className,
+            ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 
         if ($className === null) {
             throw new Exception(

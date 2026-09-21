@@ -70,6 +70,13 @@ Verify that changes made in module repositories sync correctly to the main repos
 
 ```bash
 # 1. Go to project root
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+cd /var/www/_bases/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 cd /var/www/_bases/base_ptvx_fila5
 
 # 2. Run sync script
@@ -91,6 +98,13 @@ git commit -m "test: subtree sync test"
 git push origin dev
 
 # 2. Wait for GitHub Action
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# 3. Check: https://github.com/laraxot/base_fixcity_fila5/actions
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 # 3. Check: https://github.com/laraxot/platform/actions
 # 4. Verify sync completed
 ```

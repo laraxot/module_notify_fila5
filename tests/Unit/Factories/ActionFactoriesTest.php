@@ -10,8 +10,16 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Modules\Notify\Factories\TelegramActionFactory;
 use Modules\Notify\Factories\WhatsAppActionFactory;
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
+=======
+use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+
+uses(TestCase::class)->group('notify-db');
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 test('sms action resolves default smsfactor driver instance', function () {
     config()->set('sms.default', 'smsfactor');

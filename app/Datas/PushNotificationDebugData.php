@@ -52,19 +52,40 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     ->successes()
                     ->map(static fn (SendReport $report): array => [
                         'type' => $report->target()->type(),
+<<<<<<< HEAD
                         'value' => $report->target()->value()]),
+=======
+                        'value' => $report->target()->value(),
+                    ]),
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 'failure_tokens' => $this->sendReport
                     ->failures()
                     ->map(static fn (SendReport $report): array => [
                         'type' => $report->target()->type(),
+<<<<<<< HEAD
                         'value' => $report->target()->value()]),
+=======
+                        'value' => $report->target()->value(),
+                    ]),
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 'unknown_tokens' => $this->sendReport
                     ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
                     ->map(static fn (SendReport $report): array => [
                         'type' => $report->target()->type(),
+<<<<<<< HEAD
                         'value' => $report->target()->value()]),
                 'results' => $this->sendReport->map(static fn (SendReport $report): array => [
                     'target' => $report->target()->value(),
                     'result' => $report->result()])]];
+=======
+                        'value' => $report->target()->value(),
+                    ]),
+                'results' => $this->sendReport->map(static fn (SendReport $report): array => [
+                    'target' => $report->target()->value(),
+                    'result' => $report->result(),
+                ]),
+            ],
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

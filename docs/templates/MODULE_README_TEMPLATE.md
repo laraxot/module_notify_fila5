@@ -78,6 +78,13 @@ Key settings:
 │   └── [module-slug].php
 ├── docs/
 │   ├── README.md (this file)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+│   ├── ARCHITECTURE.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 │   ├── architecture.md
 │   ├── guides/
 │   └── api/
@@ -164,6 +171,13 @@ composer test -- Modules/[ModuleName]
 ## Related Documentation
 
 ### Within Module
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [ARCHITECTURE.md](./ARCHITECTURE.md) - Design details
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - [architecture.md](./architecture.md) - Design details
 - [Guides](./guides/) - How-to guides
 
@@ -172,5 +186,12 @@ composer test -- Modules/[ModuleName]
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 Navigation: [Project Home](../../docs/index.md) | [Modules](../../docs/modules/README.md)
 

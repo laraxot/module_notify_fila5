@@ -21,8 +21,13 @@ related:
 
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../index.md)
+<<<<<<< HEAD
 - [README Modulo Notify](../readme.md)
 - [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
+=======
+- [README Modulo Notify](../README.md)
+- [Documentazione Generale App](../../../../../../docs/readme.md)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione
@@ -41,8 +46,11 @@ related:
 - [Guida Notifiche Telegram](./telegram_notifications_guide.md) - Implementazione delle notifiche Telegram
 
 ## Architettura e Pattern
+<<<<<<< HEAD
 - [Factory Pattern per Provider](../factory_pattern_analysis.md) - Analisi del pattern Factory per i provider
 - [Provider vs DTO](../channel_vs_dto_provider_selection.md) - Selezione tra provider e DTO
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Factory Pattern per Provider](../factory-pattern-analysis.md) - Analisi del pattern Factory per i provider
 - [Provider vs DTO](../channel-vs-dto-provider-selection.md) - Selezione tra provider e DTO
 - [Architettura Provider](../provider_actions_architecture.md) - Architettura delle azioni provider
@@ -50,10 +58,17 @@ related:
 ## Documentazione Correlata
 - [Implementazione SMS](../sms_implementation.md) - Panoramica dell'implementazione SMS
 - [Canale WhatsApp](../whatsapp_channel.md) - Documentazione del canale WhatsApp
+<<<<<<< HEAD
 - [Canale Telegram](../telegram_channel.md) - Documentazione del canale Telegram
 
 ## Note Importanti
 - Quaeris utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+- [Canale Telegram](../telegram-channel.md) - Documentazione del canale Telegram
+
+## Note Importanti
+- App utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Il sistema si basa su Queueable Actions (spatie/laravel-queueable-action) e non su Service Pattern
 - Le azioni specifiche per provider devono implementare l'interfaccia comune corrispondente
 - I DTO standardizzati vengono utilizzati come ponte tra il sistema e i provider specifici

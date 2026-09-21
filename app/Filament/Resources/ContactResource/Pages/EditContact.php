@@ -15,6 +15,11 @@ class EditContact extends XotBaseEditRecord
     protected function getHeaderActions(): array
     {
         return [
+<<<<<<< HEAD
             'delete' => DeleteAction::make()];
+=======
+            'delete' => DeleteAction::make(),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

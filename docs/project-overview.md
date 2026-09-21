@@ -4,7 +4,10 @@ type: concept
 tags: [project, overview]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "project-overview 🏛️ fixcity - civic engagement platform"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd: "project-overview 🏛️ ptv - civic engagement platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -479,14 +482,20 @@ Team
 - Cache: File
 
 **Staging**:
+<<<<<<< HEAD
 - URL: https://staging.fixcity.it
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - URL: https://staging.ptv.it
 - DB: PostgreSQL
 - Queue: Redis
 - Cache: Redis
 
 **Production**:
+<<<<<<< HEAD
 - URL: https://fixcity.it
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - URL: https://ptv.it
 - DB: PostgreSQL (replicated)
 - Queue: Redis Cluster

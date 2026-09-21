@@ -4,7 +4,10 @@ type: concept
 tags: [project, status]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "project-status fixcity platform - project status report"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd: "project-status ptv platform - project status report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -196,6 +199,9 @@ related:
 
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
+<<<<<<< HEAD
 **Contact**: development@fixcity.io
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Contact**: development@ptv.io
 

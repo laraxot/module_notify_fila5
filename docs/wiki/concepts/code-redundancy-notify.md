@@ -6,7 +6,11 @@ tags: [redundancy, notify, filament, templates]
 created: "2026-05-26"
 updated: "2026-05-26"
 related:
+<<<<<<< HEAD
   - ../../../redundancy-audit-2026-05-21.md
+=======
+  - ../../../redundancy-audit.md
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
   - ../../../../Xot/docs/wiki/redundancy-audit-2026-05-26.md
 ---
@@ -48,7 +52,11 @@ Nove file `*.php.up` — backup pre-migrazione Filament 3/5, **duplicano** class
 
 ## Audit precedente
 
+<<<<<<< HEAD
 - [redundancy-audit-2026-05-21.md](../../../redundancy-audit-2026-05-21.md) — fragment email case, config annidate.
+=======
+- [redundancy-audit.md](../../../redundancy-audit.md) — fragment email case, config annidate.
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ## Collegamenti
 

@@ -7,11 +7,20 @@ namespace Modules\Notify\Tests\Unit\Actions;
 use Modules\Notify\Actions\NetfunSendAction;
 use Modules\Notify\Datas\SmsData;
 use PHPUnit\Framework\Assert;
+<<<<<<< HEAD
+=======
+use PHPUnit\Framework\TestCase;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use ReflectionClass;
 
 use function Safe\class_uses;
 use function Safe\file_get_contents;
 
+<<<<<<< HEAD
+=======
+uses(TestCase::class)->group('no-notify-db');
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 describe('NetfunSendAction', function () {
     it('has execute method returning array', function () {
         $reflection = new ReflectionClass(NetfunSendAction::class);
