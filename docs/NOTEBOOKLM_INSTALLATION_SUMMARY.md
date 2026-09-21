@@ -26,6 +26,13 @@ ls -la ~/.claude/skills/notebooklm/
 # - scripts/ (automation scripts)
 # - data/ (authentication + library)
 # - requirements.txt
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# - README.md, CHANGELOG.md, LICENSE
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 # - README.md, changelog.md, LICENSE
 ```
 
@@ -221,6 +228,13 @@ Every NotebookLM answer ends with: **"Is that ALL you need to know?"**
 Create these NotebookLM notebooks:
 
 ### 1. Laraxot Framework Docs
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- **Upload**: Laraxot documentation, AGENTS.md, .windsurfrules
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - **Upload**: Laraxot documentation, agents.md, .windsurfrules
 - **Topics**: laravel, architecture, modules, filament, xot
 - **Use**: Technical research, implementation verification
@@ -237,6 +251,13 @@ Create these NotebookLM notebooks:
 
 ### 4. Project Documentation
 - **Upload**: FixCity docs, module docs, theme docs
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- **Topics**: fixcity, project, conventions, documentation
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - **Topics**: ptv, project, conventions, documentation
 - **Use**: Project-specific queries
 
@@ -298,6 +319,13 @@ TYPING_WPM_MIN=160
 TYPING_WPM_MAX=240
 
 # Default notebook (FixCity docs)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+DEFAULT_NOTEBOOK_ID=fixcity-project-docs
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 DEFAULT_NOTEBOOK_ID=ptv-project-docs
 ```
 

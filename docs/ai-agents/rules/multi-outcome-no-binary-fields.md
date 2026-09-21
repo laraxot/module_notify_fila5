@@ -9,7 +9,10 @@
 
 ## 🎯 The Rule
 
+<<<<<<< HEAD
 > **NON ESISTONO** predict di tipo SÌ/NO!
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 > **NON ESISTONO** forecast di tipo SÌ/NO!
 > **TUTTO** è multi-risposta (2-30+ outcomes)!
 > **MAI** usare `sum_credit_yes`, `sum_credit_no`, `count_credit_yes`, `count_credit_no`!
@@ -91,7 +94,10 @@ $forecast->ratings->first()->pivot->percentage;  // ✅ WORKS!
 ### Level 4: Multi-Outcome Architecture ✅✅
 
 ```
+<<<<<<< HEAD
 TUTTI i predict sono MULTI-RISPOSTA:
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 TUTTI i forecast sono MULTI-RISPOSTA:
 
 1. Binary (2 outcomes) - CASO PARTICOLARE
@@ -145,8 +151,11 @@ $participants = $pivot->count_credit_yes + $pivot->count_credit_no;
 $probability = $pivot->percentage;
 
 // Per volume/participants, usare query separate
+<<<<<<< HEAD
 $volume = BetHistory::where('predict_id', $predict->id)->sum('value');
 $participants = RatingMorph::where('model_id', $predict->id)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 $volume = BetHistory::where('forecast_id', $forecast->id)->sum('value');
 $participants = RatingMorph::where('model_id', $forecast->id)
     ->distinct('user_id')
@@ -193,14 +202,20 @@ $pivot->percentage  // ✅ Unico campo valido
 ## 🔗 Related Documentation
 
 ### AI Agents Docs
+<<<<<<< HEAD
 - **[Rules Index](00-INDEX.md)** - All rules
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **[Rules Index](00-index.md)** - All rules
 - **[Multi-Outcome Universal](multi-outcome-universal.md)** - Core principle
 - **[Use Models Not DB::Table](use-models-not-db-table.md)** - Model usage
 
 ### Module Docs
+<<<<<<< HEAD
 - **[MULTI-OUTCOME-FUNDAMENTAL.md](../../laravel/Modules/Predict/docs/MULTI-OUTCOME-FUNDAMENTAL.md)** - Fundamental rule
 - **[ADR-003 Deprecate Binary Fields](../../laravel/Modules/Predict/docs/ADR-003_DEPRECATE_BINARY_CREDIT_FIELDS.md)** - Deprecation plan
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **[MULTI-OUTCOME-FUNDAMENTAL.md](../../laravel/Modules/Forecast/docs/MULTI-OUTCOME-FUNDAMENTAL.md)** - Fundamental rule
 - **[ADR-003 Deprecate Binary Fields](../../laravel/Modules/Forecast/docs/ADR-003_DEPRECATE_BINARY_CREDIT_FIELDS.md)** - Deprecation plan
 

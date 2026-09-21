@@ -133,6 +133,15 @@ FIXCITY_ANALYTICS_ENABLED=true
 /comune/eventi             # Eventi
 
 // API Fixcity
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/api/fixcity/tickets       # Gestione ticket
+/api/fixcity/map/tickets   # Mappa ticket
+/api/fixcity/statistics    # Statistiche
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 /api/ptv/tickets       # Gestione ticket
 /api/ptv/map/tickets   # Mappa ticket
 /api/ptv/statistics    # Statistiche

@@ -2,7 +2,10 @@
 
 ## Informazioni Generali
 
+<<<<<<< HEAD
 - **File**: `/var/www/html/Quaeris/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **File**: `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 - **Base**: `XotBaseMigration`
 - **Tabella**: `mail_templates`

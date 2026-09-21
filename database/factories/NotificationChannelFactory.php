@@ -29,7 +29,12 @@ class NotificationChannelFactory extends Factory
             'driver' => 'email',
             'config' => json_encode(['smtp_host' => 'localhost']),
             'is_enabled' => true,
+<<<<<<< HEAD
             'priority' => 1];
+=======
+            'priority' => 1,
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -38,7 +43,12 @@ class NotificationChannelFactory extends Factory
     public function enabled(): static
     {
         return $this->state(fn (array $attributes) => [
+<<<<<<< HEAD
             'is_enabled' => true]);
+=======
+            'is_enabled' => true,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -47,7 +57,12 @@ class NotificationChannelFactory extends Factory
     public function disabled(): static
     {
         return $this->state(fn (array $attributes) => [
+<<<<<<< HEAD
             'is_enabled' => false]);
+=======
+            'is_enabled' => false,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -56,7 +71,12 @@ class NotificationChannelFactory extends Factory
     public function email(): static
     {
         return $this->state(fn (array $attributes) => [
+<<<<<<< HEAD
             'driver' => 'email']);
+=======
+            'driver' => 'email',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -65,6 +85,11 @@ class NotificationChannelFactory extends Factory
     public function sms(): static
     {
         return $this->state(fn (array $attributes) => [
+<<<<<<< HEAD
             'driver' => 'sms']);
+=======
+            'driver' => 'sms',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

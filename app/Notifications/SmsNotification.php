@@ -48,7 +48,12 @@ class SmsNotification extends Notification implements ShouldQueue
             $this->smsData = SmsData::from([
                 'body' => $content,
                 'recipient' => is_scalar($recipient) ? (string) $recipient : '',
+<<<<<<< HEAD
                 'from' => is_scalar($from) ? (string) $from : '']);
+=======
+                'from' => is_scalar($from) ? (string) $from : '',
+            ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         $this->config = $config;
@@ -57,22 +62,45 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
      * @param  object  $notifiable  The entity to be notified (l'entità da notificare)
      * @return array<int, class-string>
      */
     public function via(object $notifiable): array
     {
+<<<<<<< HEAD
         return [SmsChannel::class];
+=======
+=======
+     * @return array<int, string>
+     */
+    public function via(mixed $notifiable): array
+    {
+        if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationFor')) {
+            return ['sms'];
+        }
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+        return ['sms'];
+>>>>>>> 7e6063a3 (.)
     }
 
     /**
      * Get the SMS representation of the notification.
      */
+<<<<<<< HEAD
     public function toSms(object $notifiable): SmsData
     {
         // If the notifiable entity has a routeNotificationForSms method,
         // we'll use that to get the destination phone number
         if (method_exists($notifiable, 'routeNotificationForSms')) {
+=======
+    public function toSms(mixed $notifiable): SmsData
+    {
+        // If the notifiable entity has a routeNotificationForSms method,
+        // we'll use that to get the destination phone number
+        if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForSms')) {
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             $routeResult = $notifiable->routeNotificationForSms($this);
             $this->smsData->recipient = is_scalar($routeResult) ? (string) $routeResult : '';
         }

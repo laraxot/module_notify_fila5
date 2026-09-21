@@ -20,7 +20,10 @@ related:
 
 # 📊 Final Project Statistics
 
+<<<<<<< HEAD
 **Project:** FixCity - Base Fila4 Mono  
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Project:** Notify - Base Fila4 Mono  
 **Date:** 2025-10-01 21:47  
 **Status:** ✅ COMPLETED WITH EXCELLENCE
@@ -123,7 +126,10 @@ related:
 
 ### Modules (18)
 - AI, Activity, Blog, Cms, Comment
+<<<<<<< HEAD
 - Fixcity, Gdpr, Geo, Job, Lang
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - App, Gdpr, Geo, Job, Lang
 - Media, Notify, Rating, Seo, Tenant
 - UI, User, Xot

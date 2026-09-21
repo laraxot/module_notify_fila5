@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 return [
     'fields' => [
+<<<<<<< HEAD
         'id' => ['label' => 'ID'],
         'channel' => ['label' => 'Canale'],
         'status' => ['label' => 'Stato'],
@@ -21,3 +22,14 @@ return [
         'created_at' => ['label' => 'Creato il'],
     ],
 ];
+=======
+        'id' => ['label' => 'id'],
+        'name' => ['label' => 'name'],
+<<<<<<< HEAD
+        'created_at' => ['label' => 'created_at']]];
+=======
+        'created_at' => ['label' => 'created_at'],
+    ],
+];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)

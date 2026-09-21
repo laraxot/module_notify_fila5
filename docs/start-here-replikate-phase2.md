@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+---
+title: "🚀 START HERE - REPLIKATE Phase 2"
+type: concept
+tags: [start, here, replikate, phase2]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "start-here-replikate-phase2 🚀 start here - replikate phase 2"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+---
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # 🚀 START HERE - REPLIKATE Phase 2
 
 **Status**: Phase 1 Analysis Complete ✅  
@@ -152,7 +175,11 @@ Blade Template:
   laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
 
 JSON Content:
+<<<<<<< HEAD
   laravel/config/local/fixcity/database/content/pages/tests.homepage.json
+=======
+  laravel/config/local/ptv/database/content/pages/tests.homepage.json
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 CSS Files:
   laravel/Themes/Sixteen/resources/css/
@@ -171,7 +198,11 @@ Local URL:
 
 ```bash
 # Go to project
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 # View analysis results
 cat /tmp/replikate_analysis_homepage/structure-analysis.txt

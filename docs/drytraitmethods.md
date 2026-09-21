@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+---
+title: "DRY Principle for Trait Methods"
+type: concept
+tags: [drytraitmethods]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "drytraitmethods dry principle for trait methods"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+---
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # DRY Principle for Trait Methods
 
 ## Critical Rule: Never Duplicate Trait Methods

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -21,7 +24,10 @@ project_docs/roadmaps/
 ├── roadmap-quality.md            # Roadmap qualità
 ├── roadmap-update-system.md      # Questo file
 └── modules/                      # Roadmap specifiche moduli
+<<<<<<< HEAD
     ├── fixcity-roadmap.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     ├── laraxot-roadmap.md
     ├── user-roadmap.md
     ├── xot-roadmap.md
@@ -445,7 +451,10 @@ class ProgressReportGenerator
 
 ### Q2 2025
 - [ ] AI-powered insights
+<<<<<<< HEAD
 - [ ] Predictive analytics
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] Forecasting analytics
 - [ ] Automated recommendations
 - [ ] Advanced reporting
@@ -453,14 +462,20 @@ class ProgressReportGenerator
 ### Q3 2025
 - [ ] Machine learning integration
 - [ ] Automated timeline optimization
+<<<<<<< HEAD
 - [ ] Risk prediction
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] Risk forecast
 - [ ] Resource optimization
 
 ### Q4 2025
 - [ ] Full automation
 - [ ] Zero-touch updates
+<<<<<<< HEAD
 - [ ] Predictive planning
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] Forecasting planning
 - [ ] Self-optimizing system
 
@@ -473,5 +488,8 @@ class ProgressReportGenerator
 
 ---
 
+<<<<<<< HEAD
 *Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto FixCity.*
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 *Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto Notify.*

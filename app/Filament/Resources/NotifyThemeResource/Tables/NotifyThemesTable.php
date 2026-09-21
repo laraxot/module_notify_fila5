@@ -29,7 +29,12 @@ class NotifyThemesTable extends XotBaseResourceTable
             ),
             'type' => SelectFilter::make('type')->options(
                 fn (): array => NotifyThemeResource::fieldOptions('type'),
+<<<<<<< HEAD
             )];
+=======
+            ),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -45,6 +50,11 @@ class NotifyThemesTable extends XotBaseResourceTable
             'theme' => TextColumn::make('theme')->searchable()->sortable(),
             'from_email' => TextColumn::make('from_email')->searchable()->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
+<<<<<<< HEAD
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true)];
+=======
+            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

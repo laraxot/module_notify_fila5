@@ -125,7 +125,10 @@ laravel/Themes/Sixteen/docs/pages/<page-name>/
 ### Theme-Level
 ```
 laravel/Themes/Sixteen/docs/
+<<<<<<< HEAD
 ├── INDEX.md                                    # Main index
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ├── index.md                                    # Main index
 ├── COMPLETE-VISUAL-PARITY-REPORT.md          # All 54 pages
 ├── PRIORITY-MATRIX.json                       # Workload planning
@@ -138,7 +141,10 @@ laravel/Themes/Sixteen/docs/
 ### Bash Scripts
 ```
 bashscripts/docs/
+<<<<<<< HEAD
 ├── INDEX.md                    # Tools overview
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ├── index.md                    # Tools overview
 └── github-issues-batch.md      # GitHub CLI guide
 ```
@@ -182,10 +188,17 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 node bashscripts/github/create-design-issues.mjs
 
 # View issues
+<<<<<<< HEAD
 gh issue list --repo laraxot/base_fixcity_fila5 --label "design-comuni"
 
 # Filter by priority
 gh issue list --repo laraxot/base_fixcity_fila5 --label "priority:critical"
+=======
+gh issue list --repo laraxot/base_ptvx_fila5 --label "design-comuni"
+
+# Filter by priority
+gh issue list --repo laraxot/base_ptvx_fila5 --label "priority:critical"
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ```
 
 ---
@@ -246,7 +259,10 @@ npm run copy     # ~1 second
 ### Today (Start Phase 1)
 ```bash
 # 1. Review the analysis
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 cd /var/www/_bases/base_ptvx_fila5
 cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md
 
@@ -329,8 +345,11 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 - **Design Comuni**: https://italia.github.io/design-comuni-pagine-statiche/
 - **Tailwind CSS**: https://tailwindcss.com/
 - **Alpine.js**: https://alpinejs.dev/
+<<<<<<< HEAD
 - **Internal Docs**: `laravel/Themes/Sixteen/docs/INDEX.md`
 - **Tools Guide**: `bashscripts/docs/INDEX.md`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Internal Docs**: `laravel/Themes/Sixteen/docs/index.md`
 - **Tools Guide**: `bashscripts/docs/index.md`
 
@@ -338,7 +357,10 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 
 **Ready to start? Run this now:**
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 cd /var/www/_bases/base_ptvx_fila5
 node bashscripts/github/create-design-issues.mjs
 ```

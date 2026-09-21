@@ -14,8 +14,16 @@ use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Notifications\GenericNotification;
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
+=======
+use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+
+uses(TestCase::class)->group('notify-db');
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 /**
  * @param  array<string, mixed>  $attributes
@@ -53,6 +61,10 @@ function makeDummySendNotificationRecipient(array $attributes = []): Model
 }
 
 beforeEach(function (): void {
+<<<<<<< HEAD
+=======
+    /** @var TestCase $this */
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     $schema = Schema::connection('notify');
 
     if (! $schema->hasTable('notification_templates')) {
@@ -81,6 +93,10 @@ beforeEach(function (): void {
 });
 
 test('send notification action throws when template is missing', function (): void {
+<<<<<<< HEAD
+=======
+    /** @var TestCase $this */
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
     XotBasePest::assertThrows(
@@ -101,7 +117,12 @@ test('send notification action returns false when template should not send', fun
         'variables' => [],
         'is_active' => true,
         'conditions' => ['send' => true],
+<<<<<<< HEAD
         'type' => 'email']);
+=======
+        'type' => 'email',
+    ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
@@ -122,7 +143,12 @@ test('send notification action dispatches database notification from template ch
         'variables' => [],
         'is_active' => true,
         'conditions' => null,
+<<<<<<< HEAD
         'type' => 'email']);
+=======
+        'type' => 'email',
+    ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 

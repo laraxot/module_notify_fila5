@@ -62,5 +62,8 @@ class User extends Illuminate\Database\Eloquent\Model
 
 **Di ritorno:**
 - [CLAUDE.md - Architecture Section](../../CLAUDE.md)
+<<<<<<< HEAD
 - [AGENTS.md - Module Architecture Section](../../AGENTS.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [agents.md - Module Architecture Section](../../agents.md)
