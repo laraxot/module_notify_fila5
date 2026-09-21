@@ -23,6 +23,13 @@
 
 ```bash
 # After creating/modifying files
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+cd /var/www/_bases/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 cd /var/www/_bases/base_ptv_fila5
 
 # 1. Add all changes
@@ -42,6 +49,13 @@ git commit -m "Add feature X with documentation
 git push origin dev
 
 # 5. Verify on GitHub
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+gh run list --repo laraxot/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 gh run list --repo laraxot/base_ptv_fila5
 ```
 
@@ -67,6 +81,13 @@ gh run list --repo laraxot/base_ptv_fila5
 sleep 120
 
 # Check workflow status
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+gh run list --repo laraxot/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 gh run list --repo laraxot/base_ptv_fila5
 
 # View logs
@@ -273,6 +294,13 @@ git push origin dev
 git log -n 3 --oneline
 
 # Compare with:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# https://github.com/laraxot/base_fixcity_fila5/commits/dev
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 # https://github.com/laraxot/base_ptv_fila5/commits/dev
 ```
 

@@ -58,7 +58,10 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene i canali di consegna della notifica.
      *
+<<<<<<< HEAD
      * @param  object  $_notifiable  L'entità da notificare (oggetto che riceverà la notifica)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
      * @return array<int, string>
      */
     public function via(object $_notifiable): array
@@ -119,7 +122,12 @@ class GenericNotification extends Notification implements ShouldQueue
 
         return [
             'content' => $content,
+<<<<<<< HEAD
             'to' => $to];
+=======
+            'to' => $to,
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -133,7 +141,12 @@ class GenericNotification extends Notification implements ShouldQueue
             'title' => $this->title,
             'message' => $this->message,
             'data' => $this->data,
+<<<<<<< HEAD
             'created_at' => now()->toIso8601String()];
+=======
+            'created_at' => now()->toIso8601String(),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**

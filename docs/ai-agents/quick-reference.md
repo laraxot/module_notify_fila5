@@ -56,7 +56,10 @@ class ListPosts extends XotBaseListRecords
 - [LimeSurvey Deep Dive](../../laravel/Modules/Limesurvey/docs/limesurvey-deep-dive-architecture.md)
 - [Professional Charts Guide](../../laravel/Modules/Chart/docs/filament-charts-professional-guide.md)
 - [JpGraph Reference](../../laravel/Modules/Chart/docs/jpgraph-4-4-3-reference.md)
+<<<<<<< HEAD
 - [PDF Generation](../../laravel/Modules/Quaeris/docs/pdf-generation-with-charts.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [PDF Generation](../../laravel/Modules/App/docs/pdf-generation-with-charts.md)
 
 ## Collegamenti

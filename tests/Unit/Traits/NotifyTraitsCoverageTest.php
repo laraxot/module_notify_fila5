@@ -4,12 +4,21 @@ declare(strict_types=1);
 
 use Filament\Facades\Filament;
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
+=======
+use Modules\Notify\Tests\TestCase;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Modules\Notify\Tests\Unit\Traits\NotifyRateLimitDummy;
 use Modules\Notify\Tests\Unit\Traits\NotifyTenantDummyModel;
 use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
 use Modules\Tenant\Models\Tenant;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
+=======
+uses(TestCase::class)->group('no-notify-db');
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 describe('Notify Traits Coverage', function (): void {
     test('_notification_rate_limiting_helpers_work_with_limiter', function (): void {
         config()->set('cache.default', 'array');
@@ -29,7 +38,11 @@ describe('Notify Traits Coverage', function (): void {
 
             $dummy->reset($key);
             Assert::assertTrue($dummy->shouldSend($key));
+<<<<<<< HEAD
         } catch (Throwable $e) {
+=======
+        } catch (\Throwable $e) {
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             Assert::markTestSkipped('Rate limiter/cache non disponibile offline: '.$e->getMessage());
         }
     });
@@ -85,7 +98,11 @@ describe('Notify Traits Coverage', function (): void {
             Assert::assertStringContainsString('tenant_id', $dummy->applyForTenantScope($dummy->newQuery())->toSql());
 
             Filament::setTenant(null, isQuiet: true);
+<<<<<<< HEAD
         } catch (Throwable $e) {
+=======
+        } catch (\Throwable $e) {
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             Assert::markTestSkipped('Tenant/Filament non disponibile offline: '.$e->getMessage());
         }
     });

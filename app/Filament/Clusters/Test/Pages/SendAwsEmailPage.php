@@ -55,7 +55,12 @@ class SendAwsEmailPage extends XotBasePage
     protected function getForms(): array
     {
         return [
+<<<<<<< HEAD
             'emailForm'];
+=======
+            'emailForm',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     protected function fillForms(): void
@@ -95,14 +100,24 @@ class SendAwsEmailPage extends XotBasePage
                     'aws-default' => 'AWS Default',
                     'aws-notification' => 'AWS Notification',
                     'aws-receipt' => 'AWS Receipt',
+<<<<<<< HEAD
                     'aws-alert' => 'AWS Alert'])
+=======
+                    'aws-alert' => 'AWS Alert',
+                ])
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 ->default('aws-default')
                 ->required()
                 ->helperText(__('notify::email.form.template.helper')),
             'add_attachments' => Toggle::make('add_attachments')
                 ->label(__('notify::email.form.add_attachments.label'))
                 ->default(false)
+<<<<<<< HEAD
                 ->helperText(__('notify::email.form.add_attachments.helper'))];
+=======
+                ->helperText(__('notify::email.form.add_attachments.helper')),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     public function sendEmail(): void
@@ -140,7 +155,12 @@ class SendAwsEmailPage extends XotBasePage
     protected function getEmailFormActions(): array
     {
         return [
+<<<<<<< HEAD
             'submit' => Action::make('sendEmail')->label(__('notify::email.actions.send'))->submit('sendEmail')];
+=======
+            'submit' => Action::make('sendEmail')->label(__('notify::email.actions.send'))->submit('sendEmail'),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
     protected function getUser(): Authenticatable&Model
     {

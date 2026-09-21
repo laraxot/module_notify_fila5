@@ -140,12 +140,18 @@ related:
   - ✅ `docs: ingest karpathy-llm-wiki article`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
   - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
 >>>>>>> a988596b (first)
+=======
+  - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
   - ✅ `docs: lint wiki - resolve contradictions in forecast market concepts`
   - ✅ `docs: query synthesis - LLM wiki integration with Laraxot`
   - ❌ `updated wiki`
@@ -264,8 +270,11 @@ LLM Agent Actions:
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> 7e6063a3 (.)
 User: "How does LMSR work with prediction markets?"
 
 LLM Agent Actions:
@@ -286,6 +295,9 @@ LLM Agent Actions:
    - wiki/concepts/prediction-market-design.md
    - wiki/entities/predict-module.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7e6063a3 (.)
 =======
 User: "How does LMSR work with forecast markets?"
 
@@ -296,8 +308,11 @@ LLM Agent Actions:
    - wiki/concepts/forecast-market-design.md
    - wiki/entities/forecast-module.md
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> 7e6063a3 (.)
 3. Synthesize answer with citations:
    "According to [lmsr-mechanics.md](concepts/lmsr-mechanics.md), LMSR uses
    logarithmic market scoring. The [Forecast module](entities/forecast-module.md)
@@ -364,12 +379,18 @@ LLM Agent Actions:
    ⚠️ concepts/lmsr-mechanics.md says "LMSR is linear"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      vs concepts/prediction-markets.md says "LMSR is logarithmic"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
      vs concepts/prediction-markets.md says "LMSR is logarithmic"
 >>>>>>> a988596b (first)
+=======
+     vs concepts/prediction-markets.md says "LMSR is logarithmic"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
      vs concepts/forecast-markets.md says "LMSR is logarithmic"
      → Action: Merge pages, resolve contradiction
 
@@ -427,12 +448,18 @@ When module wiki references project wiki:
 ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 # In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
 >>>>>>> a988596b (first)
+=======
+# In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 # In Modules/App/docs/llm-wiki/concepts/ticket-lifecycle.md
 
 Related:
@@ -447,8 +474,11 @@ Same workflow as project ingestion, but scoped to module:
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> 7e6063a3 (.)
 User: "ingest docs/raw/articles/fixcity-ticket-patterns.md into Fixcity wiki"
 
 LLM Agent Actions:
@@ -457,6 +487,9 @@ LLM Agent Actions:
 3. Update Modules/Fixcity/docs/llm-wiki/index.md
 4. Update Modules/Fixcity/docs/llm-wiki/log.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7e6063a3 (.)
 =======
 User: "ingest docs/raw/articles/laraxot-ticket-patterns.md into App wiki"
 
@@ -466,8 +499,11 @@ LLM Agent Actions:
 3. Update Modules/App/docs/llm-wiki/index.md
 4. Update Modules/App/docs/llm-wiki/log.md
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> 7e6063a3 (.)
 5. Commit changes
 ```
 
@@ -592,12 +628,18 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 - [[lmsr-mechanics]] - Logarithmic Market Scoring Rule pricing algorithm
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
 >>>>>>> a988596b (first)
+=======
+- [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - [[forecast-market-design]] - Market clarity, resolution trust, calibration principles
 
 ## Entities
@@ -605,12 +647,18 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 - [[andrej-karpathy]] - Creator of LLM Wiki pattern
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [[predict-module]] - Laraxot module for prediction markets
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - [[predict-module]] - Laraxot module for prediction markets
 >>>>>>> a988596b (first)
+=======
+- [[predict-module]] - Laraxot module for prediction markets
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - [[forecast-module]] - Laraxot module for forecast markets
 
 ## Sources
@@ -641,12 +689,18 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 ## [2026-04-15] query | LMSR mechanics explanation
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Read: concepts/lmsr-mechanics.md, entities/predict-module.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - Read: concepts/lmsr-mechanics.md, entities/predict-module.md
 >>>>>>> a988596b (first)
+=======
+- Read: concepts/lmsr-mechanics.md, entities/predict-module.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - Read: concepts/lmsr-mechanics.md, entities/forecast-module.md
 - Created: comparisons/lmsr-vs-order-book-mechanics.md
 - Commit: docs: query synthesis - LMSR vs order book mechanics
@@ -654,12 +708,18 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 ## [2026-04-15] lint | Weekly health check
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Resolved: 1 contradiction in prediction market concepts
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - Resolved: 1 contradiction in prediction market concepts
 >>>>>>> a988596b (first)
+=======
+- Resolved: 1 contradiction in prediction market concepts
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - Resolved: 1 contradiction in forecast market concepts
 - Added: 3 cross-references to orphan pages
 - Archived: 1 stale source (old-filament-guide.md)

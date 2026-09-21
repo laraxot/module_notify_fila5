@@ -5,14 +5,25 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 use Illuminate\Mail\Mailable;
 use Modules\Notify\Models\MailTemplate;
+=======
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Tests\TestCase;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use PHPUnit\Framework\Assert;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 
 use function Safe\class_uses;
 
+<<<<<<< HEAD
+=======
+uses(TestCase::class)->group('notify-db');
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
         Assert::assertTrue((new \ReflectionClass(MailTemplate::class))->isSubclassOf(\Spatie\MailTemplates\Models\MailTemplate::class));
@@ -31,7 +42,11 @@ describe('MailTemplate Business Logic', function () {
     });
 
     test('mail template is instantiable without soft deletes requirement', function () {
+<<<<<<< HEAD
         $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertInstanceOf(MailTemplate::class, $template);
         Assert::assertIsString($template->getTable());
     });
@@ -69,7 +84,11 @@ describe('MailTemplate Business Logic', function () {
     });
 
     test('mail template can be queried by mailable', function () {
+<<<<<<< HEAD
         $mailable = new class extends Mailable
+=======
+        $mailable = new class extends \Illuminate\Mail\Mailable
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         {
             public function build(): static
             {

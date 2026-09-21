@@ -80,6 +80,9 @@ Prima di ogni commit:
 - [Indice AGENTS](./agents-split-index.md)
 - [testing.md](./testing.md) - Più dettagliato
 - [pest-testing.md](./pest-testing.md) - Guida Pest
+<<<<<<< HEAD
 - [AGENTS.md originale](../../AGENTS.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [agents.md originale](../../agents.md)
 - [Index principale](./index.md)

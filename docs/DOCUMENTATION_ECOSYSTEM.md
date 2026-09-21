@@ -156,6 +156,13 @@ Theme: Sixteen
     │
     ├─→ Cms Module
     │   └─ Displays: Pages, blocks, content
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    │   └─ Via: config/local/fixcity/database/content/pages/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
     │   └─ Via: config/local/ptv/database/content/pages/
     │   └─ Renders: Block components
     │
@@ -244,9 +251,21 @@ Xot (Core) ◄──────────────────────
 
 | I Need... | Start Here | Then Go To | Then Go To |
 |-----------|-----------|-----------|-----------|
+<<<<<<< HEAD
 | Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](architecture-diagrams.md) | Your task |
 | Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-index.md` | Details |
 | Theme overview | [Theme Index](THEMES_DOCUMENTATION_INDEX.md) | `Themes/{Name}/docs/00-index.md` | Details |
+=======
+<<<<<<< HEAD
+| Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](ARCHITECTURE-DIAGRAMS.md) | Your task |
+| Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-INDEX.md` | Details |
+| Theme overview | [Theme Index](THEMES_DOCUMENTATION_INDEX.md) | `Themes/{Name}/docs/00-INDEX.md` | Details |
+=======
+| Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](architecture-diagrams.md) | Your task |
+| Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-index.md` | Details |
+| Theme overview | [Theme Index](THEMES_DOCUMENTATION_INDEX.md) | `Themes/{Name}/docs/00-index.md` | Details |
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 | Create content | [Cms Docs](../laravel/Modules/Cms/docs/) | [Block Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md) | Examples |
 | Add component | [Component Guide](../laravel/Themes/Sixteen/docs/guides/adding-components.md) | [Layout Hierarchy](../laravel/Themes/Sixteen/docs/layout-hierarchy.md) | Code |
 | Authentication | [User Docs](../laravel/Modules/User/docs/) | [Auth Guide](../laravel/Modules/User/docs/guides/) | Examples |
@@ -254,7 +273,15 @@ Xot (Core) ◄──────────────────────
 | Send notifications | [Notify Docs](../laravel/Modules/Notify/docs/) | [Channels](../laravel/Modules/Notify/docs/guides/) | Examples |
 | Track changes | [Activity Docs](../laravel/Modules/Activity/docs/) | [Audit Trail](../laravel/Modules/Activity/docs/guides/) | Examples |
 | Code standards | [CLAUDE.md](../laravel/CLAUDE.md) | [Copilot Inst.](../../.github/copilot-instructions.md) | Review |
+<<<<<<< HEAD
 | Architecture | [Architecture](architecture-diagrams.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
+=======
+<<<<<<< HEAD
+| Architecture | [Architecture](ARCHITECTURE-DIAGRAMS.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
+=======
+| Architecture | [Architecture](architecture-diagrams.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 
 ---
 
@@ -278,6 +305,13 @@ Relevant Master Index (MODULE or THEME)
   │ (Module Index or Theme Index)
   │
   ▼
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Module/Theme 00-INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 Module/Theme 00-index.md
   │ (Component details)
   │
@@ -311,6 +345,13 @@ Module Documentation (MODULE_DOCS_INDEX.md)
   │ (Get module overview)
   │
   ▼
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Module 00-INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 Module 00-index.md
   │ (Dependencies, classes)
   │
@@ -365,6 +406,13 @@ docs/
 
 laravel/
 ├── CLAUDE.md                       ← Framework rules (38.7 KB)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+├── AGENTS.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 ├── agents.md
 └── .windsurfrules                 ← Windsurf rules
 ```
@@ -374,12 +422,26 @@ laravel/
 ```
 laravel/Modules/
 ├── Xot/docs/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+│   ├── 00-INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 │   ├── 00-index.md
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/
 │
 ├── Cms/docs/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+│   ├── 00-INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 │   ├── 00-index.md
 │   ├── architecture/
 │   ├── guides/
@@ -393,6 +455,13 @@ laravel/Modules/
 ```
 laravel/Themes/
 ├── Sixteen/docs/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+│   ├── 00-INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 │   ├── 00-index.md
 │   ├── architecture/
 │   ├── design-comuni/
@@ -402,6 +471,13 @@ laravel/Themes/
 │   └── screenshots/
 │
 └── TwentyOne/docs/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    ├── 00-INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
     ├── 00-index.md
     └── (similar structure)
 ```
@@ -414,7 +490,15 @@ laravel/Themes/
 
 **I want to learn about:**
 
+<<<<<<< HEAD
 - **System Architecture** → [ARCHITECTURE-DIAGRAMS.md](architecture-diagrams.md)
+=======
+<<<<<<< HEAD
+- **System Architecture** → [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
+=======
+- **System Architecture** → [ARCHITECTURE-DIAGRAMS.md](architecture-diagrams.md)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - **Module Development** → [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
 - **Theme Development** → [THEMES_DOCUMENTATION_INDEX.md](THEMES_DOCUMENTATION_INDEX.md)
 - **Code Quality** → [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
@@ -456,6 +540,13 @@ laravel/Themes/
    - General? → docs/
 
 2. Follow structure:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+   - 00-INDEX.md (always)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
    - 00-index.md (always)
    - architecture/ (how it works)
    - guides/ (how-to)
@@ -502,6 +593,13 @@ Master Indexes:
 ├─ MODULE_DOCS_INDEX.md (Module hub)
 ├─ THEMES_DOCUMENTATION_INDEX.md (Theme hub)
 ├─ ARCHITECTURE-DIAGRAMS.md (System overview)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+├─ docs/00-INDEX.md (Root index)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 ├─ docs/00-index.md (Root index)
 └─ DOCUMENTATION_ECOSYSTEM.md (You are here)
 
@@ -520,15 +618,35 @@ Connected Via:
 ### For Developers
 
 1. Start: [Copilot Instructions](../../.github/copilot-instructions.md)
+<<<<<<< HEAD
 2. Understand: [Architecture Diagrams](architecture-diagrams.md)
 3. Explore: [Module Index](MODULE_DOCS_INDEX.md) or [Theme Index](THEMES_DOCUMENTATION_INDEX.md)
 4. Deep Dive: Relevant module/theme 00-index.md
+=======
+<<<<<<< HEAD
+2. Understand: [Architecture Diagrams](ARCHITECTURE-DIAGRAMS.md)
+3. Explore: [Module Index](MODULE_DOCS_INDEX.md) or [Theme Index](THEMES_DOCUMENTATION_INDEX.md)
+4. Deep Dive: Relevant module/theme 00-INDEX.md
+=======
+2. Understand: [Architecture Diagrams](architecture-diagrams.md)
+3. Explore: [Module Index](MODULE_DOCS_INDEX.md) or [Theme Index](THEMES_DOCUMENTATION_INDEX.md)
+4. Deep Dive: Relevant module/theme 00-index.md
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 5. Implement: Using guides and examples
 6. Validate: Against CLAUDE.md standards
 
 ### For Architects
 
+<<<<<<< HEAD
 1. Start: [Architecture Diagrams](architecture-diagrams.md)
+=======
+<<<<<<< HEAD
+1. Start: [Architecture Diagrams](ARCHITECTURE-DIAGRAMS.md)
+=======
+1. Start: [Architecture Diagrams](architecture-diagrams.md)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 2. Understand: [Module Relationships](MODULE_DOCS_INDEX.md#cross-module-communication)
 3. Design: Using module/theme structure
 4. Review: [Code Quality Standards](CODE_QUALITY_STANDARDS.md)

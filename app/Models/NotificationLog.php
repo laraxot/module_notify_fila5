@@ -14,18 +14,54 @@ use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read Model $notifiable
  * @property-read NotificationTemplate|null $template
  * @property-read ProfileContract|null $updater
+<<<<<<< HEAD
  *
+=======
+=======
+ * @property string|null $template_id
+ * @property string|null $notifiable_type
+ * @property string|null $notifiable_id
+ * @property string|null $channel
+ * @property string|null $status
+ * @property string|null $status_message
+ * @property array<string, mixed>|null $data
+ * @property array<string, mixed>|null $metadata
+ *
+ * @method static Builder<static> where(string $column, mixed $operator = null, mixed $value = null, string $boolean = 'and')
+ * @method static static|null find(mixed $id, array<int, string>|string $columns = ['*'])
+ *
+ * @property string $id
+ * @property string $title
+ * @property string $content
+ * @property string $channels
+ * @property Carbon $sent_at
+ * @property string|null $error
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $deleter
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read Model|\Eloquent $notifiable
+ * @property-read NotificationTemplate|null $template
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
  * @method static Builder<static>|NotificationLog forChannel(string $channel)
  * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
  * @method static Builder<static>|NotificationLog newModelQuery()
  * @method static Builder<static>|NotificationLog newQuery()
  * @method static Builder<static>|NotificationLog query()
+<<<<<<< HEAD
  * @method static Builder<static>|NotificationLog withStatus(string $status)
  *
  * @property string $id
@@ -67,7 +103,27 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationLog whereTenantId($value)
  * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
  * @method static Builder<static>|NotificationLog whereUpdatedBy($value)
+<<<<<<< HEAD
  *
+=======
+ * @property-read \Modules\User\Models\Profile|null $deleter
+=======
+ * @method static Builder<static>|NotificationLog whereChannels($value)
+ * @method static Builder<static>|NotificationLog whereContent($value)
+ * @method static Builder<static>|NotificationLog whereCreatedAt($value)
+ * @method static Builder<static>|NotificationLog whereData($value)
+ * @method static Builder<static>|NotificationLog whereError($value)
+ * @method static Builder<static>|NotificationLog whereId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableType($value)
+ * @method static Builder<static>|NotificationLog whereSentAt($value)
+ * @method static Builder<static>|NotificationLog whereStatus($value)
+ * @method static Builder<static>|NotificationLog whereTitle($value)
+ * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
+ * @method static Builder<static>|NotificationLog withStatus(string $status)
+ *
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
  * @mixin \Eloquent
  */
 class NotificationLog extends BaseModel
@@ -102,7 +158,12 @@ class NotificationLog extends BaseModel
         'failed_at',
         'opened_at',
         'clicked_at',
+<<<<<<< HEAD
         'tenant_id'];
+=======
+        'tenant_id',
+    ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     /** @return MorphTo<Model, $this> */
     public function notifiable(): MorphTo
@@ -149,7 +210,12 @@ class NotificationLog extends BaseModel
     {
         $this->update([
             'status' => self::STATUS_OPENED,
+<<<<<<< HEAD
             'opened_at' => now()]);
+=======
+            'opened_at' => now(),
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         return $this;
     }
@@ -158,7 +224,12 @@ class NotificationLog extends BaseModel
     {
         $this->update([
             'status' => self::STATUS_CLICKED,
+<<<<<<< HEAD
             'clicked_at' => now()]);
+=======
+            'clicked_at' => now(),
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         return $this;
     }
@@ -172,6 +243,11 @@ class NotificationLog extends BaseModel
             'delivered_at' => 'datetime',
             'failed_at' => 'datetime',
             'opened_at' => 'datetime',
+<<<<<<< HEAD
             'clicked_at' => 'datetime']);
+=======
+            'clicked_at' => 'datetime',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

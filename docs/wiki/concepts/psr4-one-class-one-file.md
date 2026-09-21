@@ -6,9 +6,15 @@ created: 2026-07-16
 updated: 2026-07-16
 qmd: "notify psr-4 test doubles phpstan probes composer autoload"
 issues:
+<<<<<<< HEAD
   - "https://github.com/laraxot/base_techplanner_fila5/issues/38"
 discussions:
   - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
+=======
+  - ""
+discussions:
+  - ""
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 related:
   - "../../../../Xot/docs/wiki/concepts/psr4-one-class-one-file.md"
 ---

@@ -47,6 +47,15 @@ DELETE: /var/www/_bases/base_ptv_fila5/laravel/Modules/User/docs/archive/volt_er
 
 **Example 2: Xot Module - 4 duplicates**
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+KEEP: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/archive/historical/general-rules.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/archive/historical/general-rules-1.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/archive/general-rules-1.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 KEEP: /var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/archive/historical/general-rules.md
 DELETE: /var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/archive/historical/general-rules-1.md
 DELETE: /var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/archive/general-rules-1.md
@@ -208,6 +217,13 @@ Xot/docs/
 
 **Multiple index files serving same purpose:**
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Xot/docs/00-INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 Xot/docs/00-index.md
 Xot/docs/00-index.md
 Xot/docs/index.md
@@ -283,7 +299,15 @@ docs/master/
 ### 5.2 Date-Based Naming (Anti-Pattern)
 
 **Examples:**
+<<<<<<< HEAD
 - `phpstan-analysis.md`
+=======
+<<<<<<< HEAD
+- `phpstan-analysis-2026-03-02.md`
+=======
+- `phpstan-analysis.md`
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - `documentation-improvement-summary-2026-03-13.md`
 - `bugfix-report-2025-01-14.md`
 

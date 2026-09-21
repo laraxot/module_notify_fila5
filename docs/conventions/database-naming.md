@@ -305,7 +305,10 @@ find laravel/Modules -type d -name "Seeders"
 - [Laravel Migrations](https://laravel.com/docs/migrations)
 - [Laravel Seeders](https://laravel.com/docs/seeding)
 - [PSR-4 Autoloading](https://www.php-fig.org/psr/psr-4/)
+<<<<<<< HEAD
 - [AGENTS.md - Database Naming](../../AGENTS.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [agents.md - Database Naming](../../agents.md)
 
 ---
@@ -323,7 +326,10 @@ If you find incorrect directory names:
 
 ---
 
+<<<<<<< HEAD
 **Maintainer**: FixCity Dev Team  
 **Contact**: dev @fixcity.example.com
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Maintainer**: Notify Dev Team  
 **Contact**: dev @laraxot.example.com

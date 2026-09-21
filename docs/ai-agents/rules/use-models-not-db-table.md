@@ -16,13 +16,19 @@
 ```php
 // ❌ SBAGLIATO - DB::table() quando esiste il modello
 $betHistories = DB::table('bet_histories')
+<<<<<<< HEAD
     ->where('predict_id', $predict->id)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     ->where('forecast_id', $forecast->id)
     ->get();
 
 // ✅ CORRETTO - Usa il MODELLO
 $betHistories = BetHistory::query()
+<<<<<<< HEAD
     ->where('predict_id', $predict->id)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     ->where('forecast_id', $forecast->id)
     ->get();
 ```
@@ -180,14 +186,20 @@ Rating::query()->...
 ## 🔗 Related Documentation
 
 ### AI Agents Docs
+<<<<<<< HEAD
 - **[Rules Index](00-INDEX.md)** - All rules
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **[Rules Index](00-index.md)** - All rules
 - **[XotBase Extension Rule](xotbase-extension-rule.md)** - XotBase philosophy
 - **[Reusable Components](../guidelines/reusable-components-philosophy.md)** - DRY+KISS
 
 ### Module Docs
+<<<<<<< HEAD
 - **[BetHistory Model](../../laravel/Modules/Predict/app/Models/BetHistory.php)** - Source
 - **[Transaction Model](../../laravel/Modules/Predict/app/Models/Transaction.php)** - Source
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **[BetHistory Model](../../laravel/Modules/Forecast/app/Models/BetHistory.php)** - Source
 - **[Transaction Model](../../laravel/Modules/Forecast/app/Models/Transaction.php)** - Source
 

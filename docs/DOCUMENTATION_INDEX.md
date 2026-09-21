@@ -276,6 +276,14 @@
 ## 📞 Support & Community
 
 ### Support Channels
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- **📧 Email**: support@fixcity.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - **📧 Email**: support@ptv.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/ptv/issues)
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)

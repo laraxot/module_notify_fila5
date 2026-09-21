@@ -1,3 +1,68 @@
+<<<<<<< HEAD
+# Logging Best Practices - Performance Critical
+=======
+<<<<<<< HEAD
+---
+title: "Logging Best Practices - Performance & Quality"
+module: notify
+type: integration
+tags: [integrations, modules, notify]
+created: 2026-08-24
+updated: 2026-08-24
+---
+>>>>>>> 7e6063a3 (.)
+
+## Executive Summary
+
+**CRITICAL ISSUE:** Excessive `Log::info()` calls cause **30-50% performance degradation**.
+
+**Action Required:** Remove all routine logging. Use only for errors/warnings.
+
+---
+
+## The Problem
+
+### Performance Impact
+```
+Without excessive logging:    100ms per request
+With Log::info() in loops:    3000-5000ms per request  (30-50x slower!)
+With proper logging:          100-150ms per request
+```
+
+### Why It's Slow
+1. **Disk I/O:** Every log write hits disk
+2. **File Locking:** Multiple processes contend for log file
+3. **Memory Buffering:** Log buffers accumulate in memory
+4. **Serialization:** Context arrays must be serialized
+5. **Noise:** Makes actual errors hard to find
+
+---
+
+## Rules: What NOT To Do
+
+### ❌ NEVER Log Routine Operations
+```php
+// ❌ WRONG - Routine success
+Log::info('User logged in', ['user_id' => $id]);
+Log::info('Ticket created', ['ticket_id' => $id]);
+Log::info('Email sent', ['recipient' => $email]);
+Log::info('Payment processed', ['amount' => $amount]);
+
+// ❌ WRONG - Loop iterations
+foreach ($items as $item) {
+    Log::info('Processing item', ['item_id' => $item->id]);
+}
+
+<<<<<<< HEAD
+=======
+// AFTER
+$count = 0;
+foreach ($items as $item) {
+    $item->process();
+    $count++;
+}
+Log::info('Batch completed', ['count' => $count]); // ✅ ONE LOG
+=======
 # Logging Best Practices - Performance Critical
 
 ## Executive Summary
@@ -41,14 +106,97 @@ foreach ($items as $item) {
     Log::info('Processing item', ['item_id' => $item->id]);
 }
 
+>>>>>>> 7e6063a3 (.)
 // ❌ WRONG - Successful completions
 Log::info('Task completed successfully');
 Log::info('Migration finished');
 Log::info('Cache cleared');
+<<<<<<< HEAD
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 ```
 
 ---
 
+<<<<<<< HEAD
+## Rules: What TO Do
+=======
+<<<<<<< HEAD
+## 📈 Performance Metrics
+>>>>>>> 7e6063a3 (.)
+
+### ✅ CORRECT - Log Only Errors
+```php
+// ✅ CORRECT - Actual errors
+Log::error('Login failed', ['user_id' => $id, 'reason' => $error]);
+Log::error('Payment failed', ['amount' => $amount, 'error' => $e->getMessage()]);
+
+// ✅ CORRECT - Warnings
+Log::warning('Rate limit exceeded', ['user_id' => $id]);
+Log::warning('Slow query detected', ['duration' => $ms]);
+
+// ✅ CORRECT - Critical issues
+Log::critical('Database connection lost');
+Log::critical('Authentication service unavailable');
+
+// ✅ CORRECT - Debug only in development
+if (config('app.debug')) {
+    Log::debug('Processing item', ['item_id' => $item->id]);
+}
+```
+
+---
+
+## Monitoring Alternatives
+
+Instead of logging routine operations, use proper monitoring tools:
+
+### 1. Laravel Pulse (Built-in)
+```php
+// Real-time application monitoring
+// Tracks: requests, jobs, exceptions, cache, database
+// No performance impact
+```
+
+### 2. Laravel Telescope (Development)
+```php
+// Request/query inspection
+// Excellent for debugging
+// Disable in production
+```
+
+### 3. Sentry (Production)
+```php
+// Error tracking and performance monitoring
+// Captures exceptions automatically
+// Performance monitoring included
+```
+
+### 4. New Relic
+```php
+// Application performance monitoring
+// Infrastructure monitoring
+// Real-time dashboards
+```
+
+### 5. DataDog
+```php
+// Infrastructure and application monitoring
+// Log aggregation without performance hit
+// Real-time alerting
+```
+
+---
+
+## Implementation Checklist
+
+<<<<<<< HEAD
+=======
+- `.windsurfrules` - Complete architectural rules
+- `AGENTS.md` - Project guidelines
+- Module-specific docs for implementation examples
+=======
 ## Rules: What TO Do
 
 ### ✅ CORRECT - Log Only Errors
@@ -116,6 +264,7 @@ Instead of logging routine operations, use proper monitoring tools:
 
 ## Implementation Checklist
 
+>>>>>>> 7e6063a3 (.)
 ### Phase 1: Audit (This Week)
 - [ ] Search for all `Log::info()` calls
 - [ ] Identify which are routine operations
@@ -210,3 +359,7 @@ time curl http://localhost:8000/api/endpoint
 **Priority:** CRITICAL  
 **Status:** Active & Enforced  
 **Performance Impact:** 30-50% degradation with excessive logging
+<<<<<<< HEAD
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)

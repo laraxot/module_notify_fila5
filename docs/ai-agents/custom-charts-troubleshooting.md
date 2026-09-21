@@ -39,7 +39,10 @@ CRITICAL ❗
 ```
 #0 vendor/spatie/laravel-data/src/DataPipes/CastPropertiesDataPipe.php:113
 #1 vendor/spatie/laravel-data/src/Resolvers/DataFromArrayResolver.php:97
+<<<<<<< HEAD
 #2 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 #2 Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
 ```
 
@@ -66,7 +69,10 @@ return new AnswersChartData(
 ### Verification
 ```bash
 # Check for ChartData objects
+<<<<<<< HEAD
 grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
 
 # Should return: (empty)
@@ -83,7 +89,10 @@ grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
 ### Error Message
 ```
 SQLSTATE[42S02]: Base table or view not found: 1146
+<<<<<<< HEAD
 Table 'quaeris_survey.contacts' doesn't exist
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Table 'app_survey.contacts' doesn't exist
 ```
 
@@ -96,7 +105,10 @@ CRITICAL ❗
 
 ### Database Map
 ```
+<<<<<<< HEAD
 quaeris_data (Connection: 'quaeris')
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 app_data (Connection: 'this-project')
 ├── contacts          ← This table
 ├── survey_pdfs
@@ -109,7 +121,10 @@ limesurvey (Connection: 'limesurvey')
 ```
 
 ### Root Cause
+<<<<<<< HEAD
 Query uses `limesurvey` connection, but `contacts` table is in `quaeris_data`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Query uses `limesurvey` connection, but `contacts` table is in `app_data`
 
 ### Solution
@@ -134,7 +149,10 @@ public function getSmsAnswers(...) {
 ### Verification
 ```bash
 # Check for cross-database joins
+<<<<<<< HEAD
 grep -r "getConnection()->getDatabaseName()" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 grep -r "getConnection()->getDatabaseName()" Modules/App/app/Actions/QuestionChart/Custom/
 
 # Should return: (empty)
@@ -153,7 +171,10 @@ grep -r "getConnection()->getDatabaseName()" Modules/App/app/Actions/QuestionCha
 ```
 SQLSTATE[42000]: Syntax error or access violation: 1055
 Expression #2 of SELECT list is not in GROUP BY clause
+<<<<<<< HEAD
 and contains nonaggregated column 'quaeris_data.contacts.sms_sent_at'
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 and contains nonaggregated column 'app_data.contacts.sms_sent_at'
 which is not functionally dependent on columns in GROUP BY clause;
 this is incompatible with sql_mode=only_full_group_by
@@ -202,7 +223,10 @@ GROUP BY
 ### Verification
 ```bash
 # Check groupByRaw usage
+<<<<<<< HEAD
 grep -n "groupByRaw" Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 grep -n "groupByRaw" Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php
 
 # Should show both expressions included
@@ -250,7 +274,10 @@ return new AnswersChartData(answers: $answersArray);
 ### Verification
 ```bash
 # Check for DataCollection usage
+<<<<<<< HEAD
 grep -n "AnswersChartData::from" Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 grep -n "AnswersChartData::from" Modules/App/app/Actions/QuestionChart/Custom/*.php
 
 # All should use ->toArray()
@@ -469,7 +496,10 @@ Contact::query()->chunk(100, function ($contacts) {
 ### Run All Tests
 ```bash
 cd laravel
+<<<<<<< HEAD
 ./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ./vendor/bin/pest Modules/App/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
 ```
 
@@ -481,6 +511,7 @@ cd laravel
 ### Check Code Quality
 ```bash
 # PHPStan
+<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/Quaeris/app/Actions/QuestionChart/Custom/
 
 # Pint (formatting)
@@ -494,6 +525,15 @@ XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/Quaeris/tests/
 
 # Tests with coverage
 XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/Quaeris/tests/
+=======
+./vendor/bin/phpstan analyse Modules/App/app/Actions/QuestionChart/Custom/
+
+# Pint (formatting)
+./vendor/bin/pint Modules/App/app/Actions/QuestionChart/Custom/
+
+# Tests with coverage
+XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/App/tests/
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ```
 
 ### Manual Testing URLs
@@ -522,7 +562,10 @@ echo "✅ All caches cleared"
 ### Check File Sizes
 ```bash
 #!/bin/bash
+<<<<<<< HEAD
 for file in Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php; do
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 for file in Modules/App/app/Actions/QuestionChart/Custom/*.php; do
     lines=$(wc -l < "$file")
     if [ $lines -gt 200 ]; then
@@ -536,7 +579,10 @@ done
 ### Find ChartData Objects
 ```bash
 #!/bin/bash
+<<<<<<< HEAD
 grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
 if [ $? -eq 0 ]; then
     echo "❌ Found ChartData objects - replace with arrays!"
@@ -555,7 +601,10 @@ fi
 - Session Memory: `.kilo/memories/session-2026-03-17-custom-charts-deep.md`
 
 ### GitHub
+<<<<<<< HEAD
 - Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
 - All 8 comments with fixes
 

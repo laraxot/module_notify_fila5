@@ -32,7 +32,12 @@ enum MediaTypeEnum: string
             self::IMAGE->value => 'Image',
             self::VIDEO->value => 'Video',
             self::DOCUMENT->value => 'Document',
+<<<<<<< HEAD
             self::AUDIO->value => 'Audio'];
+=======
+            self::AUDIO->value => 'Audio',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -46,7 +51,12 @@ enum MediaTypeEnum: string
             self::IMAGE->value => __('notify::whatsapp.media_types.image'),
             self::VIDEO->value => __('notify::whatsapp.media_types.video'),
             self::DOCUMENT->value => __('notify::whatsapp.media_types.document'),
+<<<<<<< HEAD
             self::AUDIO->value => __('notify::whatsapp.media_types.audio')];
+=======
+            self::AUDIO->value => __('notify::whatsapp.media_types.audio'),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**

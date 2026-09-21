@@ -16,6 +16,13 @@ Connects all theme docs with bidirectional links and visual architecture.
 **Tech Stack:** Tailwind CSS + Alpine.js + Livewire Volt
 
 **Core Documentation:**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [00-INDEX.md](../laravel/Themes/Sixteen/docs/00-INDEX.md) - Start here
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md) - Start here
 - [Design Comuni Integration](../laravel/Themes/Sixteen/docs/design-comuni-integration.md)
 - [Component Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md)
@@ -25,6 +32,13 @@ Connects all theme docs with bidirectional links and visual architecture.
 ```
 Sixteen/
 ├── docs/                          ← 200+ documentation files
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+│   ├── 00-INDEX.md               ← MASTER INDEX
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 │   ├── 00-index.md               ← MASTER INDEX
 │   ├── architecture/             ← Diagrams & architecture
 │   ├── design-comuni/            ← Design Comuni project
@@ -227,6 +241,13 @@ Request: GET /it/tests/homepage
    @mount('tests.homepage')
    
 4. Middleware loads JSON:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+   config/local/fixcity/database/content/pages/homepage.json
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
    config/local/ptv/database/content/pages/homepage.json
 
 5. Data passed to view:
@@ -381,12 +402,27 @@ Integrates with:
 
 **Via .env:**
 ```bash
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+APP_URL=http://fixcity.local
+# Theme detected from APP_URL → fixcity → Sixteen (or override via config)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 APP_URL=http://ptv.local
 # Theme detected from APP_URL → ptv → Sixteen (or override via config)
 ```
 
 **Via Config:**
 ```php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+// laravel/config/local/fixcity/xra.php
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 // laravel/config/local/ptv/xra.php
 'pub_theme' => 'Sixteen',  // or 'TwentyOne'
 ```
@@ -441,9 +477,21 @@ public_html/assets/
 
 ## See Also
 
+<<<<<<< HEAD
 - **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](architecture-diagrams.md)
 - **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
 - **Master Index:** [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md)
+=======
+<<<<<<< HEAD
+- **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
+- **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
+- **Master Index:** [00-INDEX.md](../laravel/Themes/Sixteen/docs/00-INDEX.md)
+=======
+- **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](architecture-diagrams.md)
+- **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
+- **Master Index:** [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules:** [../laravel/CLAUDE.md](../laravel/CLAUDE.md)
 

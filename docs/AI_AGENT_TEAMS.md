@@ -64,6 +64,13 @@ Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same FixCity 
 
 **Current Tasks**:
 - ✅ Update `bashscripts/docs/ai/` with sync rules
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- ✅ Update AGENTS.md with commit/push rules
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - ✅ Update agents.md with commit/push rules
 - ✅ Update .windsurfrules
 - ⏳ Sync `.github/` with `bashscripts/ai/.github/`

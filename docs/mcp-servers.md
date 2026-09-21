@@ -62,7 +62,10 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 ### filesystem
 - **Type**: File operations
 - **Package**: `@modelcontextprotocol/server-filesystem`
+<<<<<<< HEAD
 - **Scope**: `/var/www/_bases/base_fixcity_fila5`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Scope**: `/var/www/_bases/base_ptv_fila5`
 - **Use**: Read/write files, search directories, explore project structure
 
@@ -110,7 +113,10 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Type**: AI Memory Infrastructure
 - **CLI**: `supermemory` (npm global)
 - **API Key**: Configured in `.mcp.json`
+<<<<<<< HEAD
 - **Container Tag**: `fixcity`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Container Tag**: `ptv`
 - **Use**: 
   - Persistent project context across conversations
@@ -175,19 +181,28 @@ supermemory whoami
 
 ### Add Project Context
 ```bash
+<<<<<<< HEAD
 supermemory add --tag fixcity --file .supermemory/fixcity-context.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 supermemory add --tag ptv --file .supermemory/ptv-context.md
 ```
 
 ### Search Memories
 ```bash
+<<<<<<< HEAD
 supermemory search "FixCity architecture" --tag fixcity
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 supermemory search "FixCity architecture" --tag ptv
 ```
 
 ### Get Profile
 ```bash
+<<<<<<< HEAD
 supermemory profile --tag fixcity --query "project preferences"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 supermemory profile --tag ptv --query "project preferences"
 ```
 

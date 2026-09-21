@@ -4,7 +4,10 @@ type: concept
 tags: [verifica, homepage]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "verifica-homepage 📸 verifica visiva homepage fixcity"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd: "verifica-homepage 📸 verifica visiva homepage ptv"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -226,5 +229,8 @@ FixCity:          [4 Cards + "Altri Argomenti"]
 
 La homepage FixCity **È CONFORME** al design Bootstrap Italia.
 
+<<<<<<< HEAD
 URL di test: http://fixcity.local/it/tests/homepage
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 URL di test: http://ptv.local/it/tests/homepage

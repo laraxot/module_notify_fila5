@@ -5,8 +5,13 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Channels;
 
 use Modules\Notify\Channels\TelegramChannel;
+<<<<<<< HEAD
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
+=======
+use PHPUnit\Framework\Assert;
+use Modules\Notify\Tests\TestCase;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 describe('TelegramChannel', function () {
     it('can be instantiated', function () {
