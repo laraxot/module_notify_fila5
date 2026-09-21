@@ -1,16 +1,3 @@
----
-title: "📋 03 code style Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 03 code style index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./code-style-guidelines.md"
----
-
 # 📋 03 code style Index
 
 **Path**: `docs/agents-guide/03-code-style/`

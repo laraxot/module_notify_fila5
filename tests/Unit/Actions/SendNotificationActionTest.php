@@ -14,11 +14,8 @@ use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Notifications\GenericNotification;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('notify-db');
+use PHPUnit\Framework\Assert;
 
 /**
  * @param  array<string, mixed>  $attributes
@@ -56,7 +53,6 @@ function makeDummySendNotificationRecipient(array $attributes = []): Model
 }
 
 beforeEach(function (): void {
-    /** @var TestCase $this */
     $schema = Schema::connection('notify');
 
     if (! $schema->hasTable('notification_templates')) {
@@ -85,7 +81,6 @@ beforeEach(function (): void {
 });
 
 test('send notification action throws when template is missing', function (): void {
-    /** @var TestCase $this */
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
     XotBasePest::assertThrows(
@@ -106,8 +101,7 @@ test('send notification action returns false when template should not send', fun
         'variables' => [],
         'is_active' => true,
         'conditions' => ['send' => true],
-        'type' => 'email',
-    ]);
+        'type' => 'email']);
 
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
@@ -128,8 +122,7 @@ test('send notification action dispatches database notification from template ch
         'variables' => [],
         'is_active' => true,
         'conditions' => null,
-        'type' => 'email',
-    ]);
+        'type' => 'email']);
 
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 

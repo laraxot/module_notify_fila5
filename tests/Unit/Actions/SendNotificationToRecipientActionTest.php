@@ -9,11 +9,8 @@ use Illuminate\Notifications\Notification as IlluminateNotification;
 use Illuminate\Support\Facades\Notification;
 use InvalidArgumentException;
 use Modules\Notify\Actions\SendNotificationToRecipientAction;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('no-notify-db');
+use PHPUnit\Framework\Assert;
 
 function makeDummyNotificationForRecipient(): IlluminateNotification
 {

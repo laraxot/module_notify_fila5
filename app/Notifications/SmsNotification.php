@@ -63,7 +63,6 @@ class SmsNotification extends Notification implements ShouldQueue
     public function via(object $notifiable): array
     {
         return [SmsChannel::class];
-        return ['sms'];
     }
 
     /**

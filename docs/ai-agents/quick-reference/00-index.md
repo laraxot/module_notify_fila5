@@ -1,19 +1,3 @@
----
-title: "📋 quick reference Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 quick reference index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./chart-widgets.md"
-  - "./filament.md"
-  - "./queue-jobs.md"
-  - "./tenant-config.md"
----
-
 # 📋 quick reference Index
 
 **Path**: `docs/quick-reference/`

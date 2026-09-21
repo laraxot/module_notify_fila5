@@ -7,12 +7,10 @@ namespace Modules\Notify\Tests\Unit\Actions\WhatsApp;
 use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Datas\WhatsAppData;
 use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('no-notify-db');
 
 describe('Send360dialogWhatsAppAction', function () {
     it('can be referenced via ReflectionClass without instantiation', function () {

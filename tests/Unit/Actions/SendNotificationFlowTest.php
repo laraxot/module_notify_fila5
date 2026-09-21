@@ -12,12 +12,8 @@ use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
-use Modules\User\Models\User;
-use Modules\Notify\Tests\TestCase;
 use Modules\User\Database\Factories\UserFactory;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('Send notification flow', function (): void {
     test('template lookup returns null when code missing', function (): void {
@@ -32,8 +28,7 @@ describe('Send notification flow', function (): void {
     test('template lookup returns model when code exists', function (): void {
         $template = NotificationTemplateFactory::new()->createOne([
             'code' => 'send-test-template',
-            'is_active' => true,
-        ]);
+            'is_active' => true]);
 
         $result = NotificationTemplate::query()
             ->where('code', 'send-test-template')
@@ -54,18 +49,16 @@ describe('Send notification flow', function (): void {
     });
 
     test('send action can be invoked with mocked handle', function (): void {
-        /** @var TestCase $this */
         NotificationTemplateFactory::new()->createOne([
             'code' => 'action-send-template',
-            'is_active' => true,
-        ]);
+            'is_active' => true]);
 
         $recipient = UserFactory::new()->createOne();
         $notification = NotificationFactory::new()->createOne();
 
         $calls = 0;
-        $action = $this->createUnitMock(SendNotificationAction::class);
-        $action->method('handle')->willReturnCallback(function () use (&$calls, $notification): Notification {
+        $action = Mockery::mock(SendNotificationAction::class);
+        $action->shouldReceive('handle')->andReturnUsing(function () use (&$calls, $notification): Notification {
             $calls++;
 
             return $notification;
@@ -86,17 +79,14 @@ describe('Send notification flow', function (): void {
     });
 
     test('send action throws when template missing', function (): void {
-        /** @var TestCase $this */
-        $this->expectApplicationException(Exception::class);
-
         $recipient = UserFactory::new()->createOne();
 
-        app(SendNotificationAction::class)->handle(
+        expect(fn () => app(SendNotificationAction::class)->handle(
             $recipient,
             'invalid_template',
             [],
             [],
             [],
-        );
+        ))->toThrow(Exception::class);
     });
 });

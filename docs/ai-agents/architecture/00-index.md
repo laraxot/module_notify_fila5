@@ -1,18 +1,3 @@
----
-title: "Architecture Documentation Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index architecture documentation index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./agents-filament-widgets.md"
-  - "./filament-table-vs-blade-component.md"
-  - "./ralph-gsd-bmad-orchestration.md"
----
-
 # Architecture Documentation Index
 
 **Path**: `.agents/docs/architecture/`

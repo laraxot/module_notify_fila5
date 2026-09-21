@@ -7,13 +7,11 @@ namespace Modules\Notify\Tests\Unit\Actions\NotifyTheme\Attachment;
 use Modules\Notify\Actions\NotifyTheme\Attachment\Pdf;
 use Modules\Notify\Datas\AttachmentData;
 use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Tests\XotBasePest;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('NotifyTheme\Attachment\Pdf', function () {
     it('can be instantiated', function () {

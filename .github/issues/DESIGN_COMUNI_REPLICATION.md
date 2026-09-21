@@ -11,10 +11,7 @@ projects: ["Design Comuni Replication"]
 
 **Riferimenti:**
 - Source: https://italia.github.io/design-comuni-pagine-statiche/
-<<<<<<< HEAD
 - Target: http://fixcity.local/it/tests/*
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Target: http://ptv.local/it/tests/*
 - Master Plan: `.planning/DESIGN_COMUNI_MASTER_PLAN.md`
 
@@ -78,10 +75,7 @@ projects: ["Design Comuni Replication"]
 
 ## ✅ Definition of Done (Per Pagina)
 
-<<<<<<< HEAD
 - [ ] JSON content block creato in `laravel/config/local/fixcity/database/content/pages/`
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] JSON content block creato in `laravel/config/local/ptv/database/content/pages/`
 - [ ] HTML dentro `<body>` (esclusi scripts) IDENTICO al source
 - [ ] Screenshot comparison salvato in docs

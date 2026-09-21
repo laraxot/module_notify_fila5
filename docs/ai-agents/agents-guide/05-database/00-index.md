@@ -1,16 +1,3 @@
----
-title: "📋 05 database Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 05 database index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./database-and-models.md"
----
-
 # 📋 05 database Index
 
 **Path**: `docs/agents-guide/05-database/`

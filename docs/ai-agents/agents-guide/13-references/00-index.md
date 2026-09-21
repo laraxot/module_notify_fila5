@@ -1,17 +1,3 @@
----
-title: "📋 13 references Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 13 references index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./key-documentation-references.md"
-  - "./project-patterns.md"
----
-
 # 📋 13 references Index
 
 **Path**: `docs/agents-guide/13-references/`

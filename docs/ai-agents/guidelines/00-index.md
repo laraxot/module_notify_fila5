@@ -1,17 +1,3 @@
----
-title: "📖 Guidelines Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📖 guidelines index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./reusable-components-philosophy.md"
-  - "./semantic-html-css.md"
----
-
 # 📖 Guidelines Index
 
 **Path**: `.agents/docs/guidelines/`  

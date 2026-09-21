@@ -7,12 +7,9 @@ namespace Modules\Notify\Tests\Unit\Actions;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Mockery;
-use Mockery\MockInterface;
 use Modules\Notify\Actions\NotificationManager;
 use Modules\Notify\Actions\SendNotificationAction;
-use Modules\Notify\Tests\TestCase;
-
-uses(TestCase::class)->group('notify-db');
+use Modules\Notify\Models\NotificationTemplate;
 
 function actionsNotificationManagerRecipient(): Model
 {
@@ -23,24 +20,6 @@ function actionsNotificationManagerRecipient(): Model
         public $timestamps = false;
     };
 }
-
-/**
- * @template T of object
- *
- * @param  class-string<T>  $class
- * @return MockInterface&T
- */
-function actionsNotificationManagerMock(string $class): MockInterface
-{
-    /** @var MockInterface&T $mock */
-    $mock = Mockery::mock($class);
-
-    return $mock;
-}
-
-beforeEach(function (): void {
-    $this->notificationManager = new NotificationManager;
-});
 
 afterEach(function (): void {
     Mockery::close();

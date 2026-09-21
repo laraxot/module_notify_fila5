@@ -1,16 +1,3 @@
----
-title: "📋 12 checklist Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 12 checklist index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./pre-commit-checklist.md"
----
-
 # 📋 12 checklist Index
 
 **Path**: `docs/agents-guide/12-checklist/`

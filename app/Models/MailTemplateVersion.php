@@ -58,11 +58,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion whereUpdatedAt($value)
  * @method static Builder<static>|MailTemplateVersion whereUpdatedBy($value)
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
- * @property-read \Modules\User\Models\Profile|null $deleter
- * @method static Builder<static>|MailTemplateVersion withTrashed()
- * @method static Builder<static>|MailTemplateVersion withoutTrashed()
- *
- * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

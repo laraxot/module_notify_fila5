@@ -1,16 +1,3 @@
----
-title: "📋 overview Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 overview index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./agents-overview.md"
----
-
 # 📋 overview Index
 
 **Path**: `docs/overview/`

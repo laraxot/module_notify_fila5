@@ -6,11 +6,8 @@ namespace Modules\Notify\Tests\Unit\Console\Commands;
 
 use Illuminate\Console\Command;
 use Modules\Notify\Console\Commands\AnalyzeTranslationFiles;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('no-notify-db');
+use PHPUnit\Framework\Assert;
 
 describe('AnalyzeTranslationFiles', function () {
     it('has correct signature', function () {
@@ -77,9 +74,7 @@ describe('AnalyzeTranslationFiles', function () {
         $input = [
             'parent' => [
                 'child1' => 'value1',
-                'child2' => 'value2',
-            ],
-        ];
+                'child2' => 'value2']];
 
         $result = XotBasePest::assertArray($method->invoke($command, $input));
 
@@ -110,10 +105,7 @@ describe('AnalyzeTranslationFiles', function () {
         $input = [
             'level1' => [
                 'level2' => [
-                    'level3' => 'deep value',
-                ],
-            ],
-        ];
+                    'level3' => 'deep value']]];
 
         $result = XotBasePest::assertArray($method->invoke($command, $input));
 

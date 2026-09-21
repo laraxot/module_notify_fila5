@@ -5,15 +5,13 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Models\NotifyThemeable;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
-uses(TestCase::class)->group('notify-db');
+use function Pest\Laravel\withoutExceptionHandling;
 
 beforeEach(function (): void {
-    /** @var TestCase $this */
-    $this->disableExceptionHandling();
+    withoutExceptionHandling();
 });
 
 describe('Notify Themeable', function (): void {
@@ -21,14 +19,12 @@ describe('Notify Themeable', function (): void {
         $themeable = NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
-            'notify_theme_id' => 456,
-        ]);
+            'notify_theme_id' => 456]);
         XotBasePest::assertTableHas('notify', 'notify_themeables', [
             'id' => $themeable->id,
             'model_type' => 'App\Models\User',
             'model_id' => 123,
-            'notify_theme_id' => 456,
-        ]);
+            'notify_theme_id' => 456]);
 
         Assert::assertInstanceOf(NotifyThemeable::class, $themeable);
     });
@@ -39,16 +35,14 @@ describe('Notify Themeable', function (): void {
             'model_id' => 789,
             'notify_theme_id' => 101,
             'created_by' => 'user_123',
-            'updated_by' => 'user_123',
-        ]);
+            'updated_by' => 'user_123']);
         XotBasePest::assertTableHas('notify', 'notify_themeables', [
             'id' => $themeable->id,
             'model_type' => 'App\Models\Company',
             'model_id' => 789,
             'notify_theme_id' => 101,
             'created_by' => 'user_123',
-            'updated_by' => 'user_123',
-        ]);
+            'updated_by' => 'user_123']);
 
         Assert::assertEquals('user_123', $themeable->created_by);
         Assert::assertEquals('user_123', $themeable->updated_by);
@@ -76,8 +70,7 @@ describe('Notify Themeable', function (): void {
         $themeable = NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
-            'notify_theme_id' => 456,
-        ]);
+            'notify_theme_id' => 456]);
 
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 
@@ -92,20 +85,17 @@ describe('Notify Themeable', function (): void {
         NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
-            'notify_theme_id' => 456,
-        ]);
+            'notify_theme_id' => 456]);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Company',
             'model_id' => 789,
-            'notify_theme_id' => 456,
-        ]);
+            'notify_theme_id' => 456]);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Order',
             'model_id' => 101,
-            'notify_theme_id' => 789,
-        ]);
+            'notify_theme_id' => 789]);
 
         $theme456Themeables = NotifyThemeable::where('notify_theme_id', 456)->get();
         $theme789Themeables = NotifyThemeable::where('notify_theme_id', 789)->get();
@@ -121,20 +111,17 @@ describe('Notify Themeable', function (): void {
         NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
-            'notify_theme_id' => 456,
-        ]);
+            'notify_theme_id' => 456]);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 456,
-            'notify_theme_id' => 789,
-        ]);
+            'notify_theme_id' => 789]);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Company',
             'model_id' => 789,
-            'notify_theme_id' => 101,
-        ]);
+            'notify_theme_id' => 101]);
 
         $userThemeables = NotifyThemeable::where('model_type', 'App\Models\User')->get();
         $companyThemeables = NotifyThemeable::where('model_type', 'App\Models\Company')->get();
@@ -151,22 +138,19 @@ describe('Notify Themeable', function (): void {
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
-            'created_by' => 'user_123',
-        ]);
+            'created_by' => 'user_123']);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Company',
             'model_id' => 789,
             'notify_theme_id' => 101,
-            'created_by' => 'user_456',
-        ]);
+            'created_by' => 'user_456']);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Order',
             'model_id' => 101,
             'notify_theme_id' => 789,
-            'created_by' => 'user_123',
-        ]);
+            'created_by' => 'user_123']);
 
         $user123Themeables = NotifyThemeable::where('created_by', 'user_123')->get();
         $user456Themeables = NotifyThemeable::where('created_by', 'user_456')->get();
@@ -183,22 +167,19 @@ describe('Notify Themeable', function (): void {
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
-            'updated_by' => 'user_123',
-        ]);
+            'updated_by' => 'user_123']);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Company',
             'model_id' => 789,
             'notify_theme_id' => 101,
-            'updated_by' => 'user_456',
-        ]);
+            'updated_by' => 'user_456']);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Order',
             'model_id' => 101,
             'notify_theme_id' => 789,
-            'updated_by' => 'user_123',
-        ]);
+            'updated_by' => 'user_123']);
 
         $user123Themeables = NotifyThemeable::where('updated_by', 'user_123')->get();
         $user456Themeables = NotifyThemeable::where('updated_by', 'user_456')->get();
@@ -215,22 +196,19 @@ describe('Notify Themeable', function (): void {
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
-            'created_by' => 'user_123',
-        ]);
+            'created_by' => 'user_123']);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 456,
             'notify_theme_id' => 789,
-            'created_by' => 'user_456',
-        ]);
+            'created_by' => 'user_456']);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Company',
             'model_id' => 789,
             'notify_theme_id' => 101,
-            'created_by' => 'user_123',
-        ]);
+            'created_by' => 'user_123']);
 
         $user123Themeables = NotifyThemeable::where('model_type', 'App\Models\User')
             ->where('created_by', 'user_123')
@@ -249,8 +227,7 @@ describe('Notify Themeable', function (): void {
             'model_id' => null,
             'notify_theme_id' => null,
             'created_by' => null,
-            'updated_by' => null,
-        ]);
+            'updated_by' => null]);
 
         Assert::assertNull($themeable->model_type);
         Assert::assertNull($themeable->model_id);
@@ -265,33 +242,27 @@ describe('Notify Themeable', function (): void {
                 'model_type' => 'App\Models\User',
                 'model_id' => 1,
                 'notify_theme_id' => 101,
-                'created_by' => 'user_1',
-            ],
+                'created_by' => 'user_1'],
             [
                 'model_type' => 'App\Models\User',
                 'model_id' => 2,
                 'notify_theme_id' => 102,
-                'created_by' => 'user_2',
-            ],
+                'created_by' => 'user_2'],
             [
                 'model_type' => 'App\Models\Company',
                 'model_id' => 1,
                 'notify_theme_id' => 201,
-                'created_by' => 'user_1',
-            ],
+                'created_by' => 'user_1'],
             [
                 'model_type' => 'App\Models\Company',
                 'model_id' => 2,
                 'notify_theme_id' => 202,
-                'created_by' => 'user_2',
-            ],
+                'created_by' => 'user_2'],
             [
                 'model_type' => 'App\Models\Order',
                 'model_id' => 1,
                 'notify_theme_id' => 301,
-                'created_by' => 'user_1',
-            ],
-        ];
+                'created_by' => 'user_1']];
 
         foreach ($themeables as $themeableData) {
             NotifyThemeable::create($themeableData);
@@ -320,22 +291,19 @@ describe('Notify Themeable', function (): void {
             'model_type' => 'App\Models\User',
             'model_id' => 1,
             'notify_theme_id' => 101,
-            'created_at' => $yesterday,
-        ]);
+            'created_at' => $yesterday]);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 2,
             'notify_theme_id' => 102,
-            'created_at' => $today,
-        ]);
+            'created_at' => $today]);
 
         NotifyThemeable::create([
             'model_type' => 'App\Models\Company',
             'model_id' => 1,
             'notify_theme_id' => 201,
-            'created_at' => $tomorrow,
-        ]);
+            'created_at' => $tomorrow]);
 
         $todayThemeables = NotifyThemeable::whereDate('created_at', $today->toDateString())->get();
         $recentThemeables = NotifyThemeable::where('created_at', '>=', $yesterday)->get();

@@ -74,8 +74,7 @@ describe('Mail Template Log PartOne', function (): void {
             'delivered_at',
             'failed_at',
             'opened_at',
-            'clicked_at',
-        ];
+            'clicked_at'];
 
         Assert::assertEquals($expectedFillable, $log->getFillable());
     });
@@ -98,8 +97,7 @@ describe('Mail Template Log PartOne', function (): void {
             'delivered_at' => 'datetime',
             'failed_at' => 'datetime',
             'opened_at' => 'datetime',
-            'clicked_at' => 'datetime',
-        ];
+            'clicked_at' => 'datetime'];
 
         Assert::assertEquals($expectedCasts, $log->getCasts());
     });
@@ -115,9 +113,7 @@ describe('Mail Template Log PartOne', function (): void {
             'variables' => [
                 'name' => 'John Doe',
                 'company' => 'Example Corp',
-                'activation_link' => 'https://example.com/activate',
-            ],
-        ];
+                'activation_link' => 'https://example.com/activate']];
 
         $log = MailTemplateLog::create([
             'template_id' => 123,
@@ -144,14 +140,11 @@ describe('Mail Template Log PartOne', function (): void {
             'error_details' => [
                 'code' => 'SMTP_ERROR',
                 'message' => 'Connection timeout',
-                'retry_count' => 2,
-            ],
+                'retry_count' => 2],
             'performance' => [
                 'queue_time' => 1500,
                 'processing_time' => 2500,
-                'total_time' => 4000,
-            ],
-        ];
+                'total_time' => 4000]];
 
         $log = MailTemplateLog::create([
             'template_id' => 123,
@@ -174,8 +167,7 @@ describe('Mail Template Log PartOne', function (): void {
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
-            'status' => 'pending',
-        ]);
+            'status' => 'pending']);
 
         $log->update([
             'status' => 'sent',
@@ -215,8 +207,7 @@ describe('Mail Template Log PartOne', function (): void {
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
-            'status' => 'pending',
-        ]);
+            'status' => 'pending']);
 
         $log->update([
             'status' => 'failed',

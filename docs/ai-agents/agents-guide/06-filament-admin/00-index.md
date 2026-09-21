@@ -1,16 +1,3 @@
----
-title: "📋 06 filament admin Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 06 filament admin index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./filament-admin-patterns.md"
----
-
 # 📋 06 filament admin Index
 
 **Path**: `docs/agents-guide/06-filament-admin/`

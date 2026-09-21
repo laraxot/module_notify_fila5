@@ -22,9 +22,6 @@ use Modules\Xot\Tests\ModuleRemainingCoverage;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionMethod;
-use Modules\User\Models\User;
-
-uses(TestCase::class)->group('no-notify-db');
 
 afterEach(function (): void {
     Mockery::close();
@@ -66,9 +63,9 @@ describe('Notify coverage 100 — final sweep', function (): void {
         Assert::assertFalse($dummy->belongsToTenant('altro'));
 
         try {
-            Assert::assertInstanceOf(\Illuminate\Database\Eloquent\Relations\MorphMany::class, $dummy->notifications());
-            Assert::assertInstanceOf(\Illuminate\Database\Eloquent\Relations\MorphMany::class, $dummy->unreadNotifications());
-            Assert::assertInstanceOf(\Illuminate\Database\Eloquent\Relations\MorphMany::class, $dummy->readNotifications());
+            Assert::assertInstanceOf(MorphMany::class, $dummy->notifications());
+            Assert::assertInstanceOf(MorphMany::class, $dummy->unreadNotifications());
+            Assert::assertInstanceOf(MorphMany::class, $dummy->readNotifications());
 
             $query = NotifyTenantDummyModel::query();
             $scoped = $dummy->scopeForTenant($query, 'tenant-cov');
@@ -84,8 +81,7 @@ describe('Notify coverage 100 — final sweep', function (): void {
             SendPushNotificationPage::class,
             SendTelegram::class,
             SendEmail::class,
-            TestSmtpPage::class,
-        ] as $class) {
+            TestSmtpPage::class] as $class) {
             $page = notifyPageWithoutConstructor($class);
             $ref = new ReflectionClass($class);
             foreach (['getForms', 'getNotificationFormActions', 'fillForms'] as $method) {

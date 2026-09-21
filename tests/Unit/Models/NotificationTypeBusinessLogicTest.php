@@ -6,10 +6,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Models\NotificationType;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('NotificationType Business Logic', function () {
     test('notification type extends eloquent model', function () {
@@ -28,8 +25,7 @@ describe('NotificationType Business Logic', function () {
         $expectedFillable = [
             'name',
             'description',
-            'template',
-        ];
+            'template'];
 
         Assert::assertEquals($expectedFillable, $property->getValue($reflection->newInstanceWithoutConstructor()));
     });

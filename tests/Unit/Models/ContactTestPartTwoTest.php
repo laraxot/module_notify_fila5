@@ -24,14 +24,12 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Notify\Models\Contact;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class)->group('notify-db');
+use function Pest\Laravel\withoutExceptionHandling;
 
 beforeEach(function (): void {
-    /** @var TestCase $this */
-    $this->disableExceptionHandling();
+    withoutExceptionHandling();
 });
 
 describe('Contact PartTwo', function (): void {
@@ -41,8 +39,7 @@ describe('Contact PartTwo', function (): void {
             'model_id' => '123',
             'contact_type' => 'phone',
             'value' => '+393331234567',
-            'mobile_phone' => '+393331234567',
-        ]);
+            'mobile_phone' => '+393331234567']);
 
         $foundContact = Contact::where('mobile_phone', '+393331234567')->first();
 
@@ -59,8 +56,7 @@ describe('Contact PartTwo', function (): void {
             'contact_type' => 'email',
             'value' => 'john@example.com',
             'first_name' => 'John',
-            'last_name' => 'Doe',
-        ]);
+            'last_name' => 'Doe']);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
@@ -68,8 +64,7 @@ describe('Contact PartTwo', function (): void {
             'contact_type' => 'email',
             'value' => 'jane@example.com',
             'first_name' => 'Jane',
-            'last_name' => 'Smith',
-        ]);
+            'last_name' => 'Smith']);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
@@ -77,8 +72,7 @@ describe('Contact PartTwo', function (): void {
             'contact_type' => 'email',
             'value' => 'bob@example.com',
             'first_name' => 'Bob',
-            'last_name' => 'Johnson',
-        ]);
+            'last_name' => 'Johnson']);
 
         $johnContacts = Contact::where('first_name', 'like', '%John%')->get();
         $doeContacts = Contact::where('last_name', 'like', '%Doe%')->get();
@@ -97,8 +91,7 @@ describe('Contact PartTwo', function (): void {
             'model_id' => '123',
             'contact_type' => 'email',
             'value' => 'test@example.com',
-            'token' => 'unique-token-123',
-        ]);
+            'token' => 'unique-token-123']);
 
         $foundContact = Contact::where('token', 'unique-token-123')->first();
 
@@ -113,16 +106,14 @@ describe('Contact PartTwo', function (): void {
             'model_id' => '123',
             'contact_type' => 'email',
             'value' => 'verified@example.com',
-            'verified_at' => now(),
-        ]);
+            'verified_at' => now()]);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '456',
             'contact_type' => 'email',
             'value' => 'unverified@example.com',
-            'verified_at' => null,
-        ]);
+            'verified_at' => null]);
 
         $verifiedContacts = Contact::whereNotNull('verified_at')->get();
         $unverifiedContacts = Contact::whereNull('verified_at')->get();
@@ -140,8 +131,7 @@ describe('Contact PartTwo', function (): void {
             'contact_type' => 'phone',
             'value' => '+393331234567',
             'sms_status_code' => '200',
-            'sms_status_txt' => 'Delivered',
-        ]);
+            'sms_status_txt' => 'Delivered']);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
@@ -149,8 +139,7 @@ describe('Contact PartTwo', function (): void {
             'contact_type' => 'phone',
             'value' => '+393339876543',
             'sms_status_code' => '400',
-            'sms_status_txt' => 'Failed',
-        ]);
+            'sms_status_txt' => 'Failed']);
 
         $deliveredSms = Contact::where('sms_status_code', '200')->get();
         $failedSms = Contact::where('sms_status_code', '400')->get();
@@ -170,8 +159,7 @@ describe('Contact PartTwo', function (): void {
             'contact_type' => 'email',
             'value' => 'low@example.com',
             'sms_count' => 1,
-            'mail_count' => 2,
-        ]);
+            'mail_count' => 2]);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
@@ -179,8 +167,7 @@ describe('Contact PartTwo', function (): void {
             'contact_type' => 'email',
             'value' => 'high@example.com',
             'sms_count' => 10,
-            'mail_count' => 25,
-        ]);
+            'mail_count' => 25]);
 
         $lowSmsContacts = Contact::where('sms_count', '<=', 5)->get();
         $highMailContacts = Contact::where('mail_count', '>=', 20)->get();
@@ -199,8 +186,7 @@ describe('Contact PartTwo', function (): void {
             'value' => 'manager@example.com',
             'attribute_1' => 'Position',
             'attribute_2' => 'Manager',
-            'attribute_3' => 'IT Department',
-        ]);
+            'attribute_3' => 'IT Department']);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
@@ -209,8 +195,7 @@ describe('Contact PartTwo', function (): void {
             'value' => 'developer@example.com',
             'attribute_1' => 'Position',
             'attribute_2' => 'Developer',
-            'attribute_3' => 'IT Department',
-        ]);
+            'attribute_3' => 'IT Department']);
 
         $managers = Contact::where('attribute_2', 'Manager')->get();
         $itDepartment = Contact::where('attribute_3', 'IT Department')->get();
@@ -232,8 +217,7 @@ describe('Contact PartTwo', function (): void {
             'value' => 'verified@example.com',
             'verified_at' => now(),
             'sms_count' => 5,
-            'attribute_1' => 'Manager',
-        ]);
+            'attribute_1' => 'Manager']);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
@@ -242,8 +226,7 @@ describe('Contact PartTwo', function (): void {
             'value' => 'unverified@example.com',
             'verified_at' => null,
             'sms_count' => 2,
-            'attribute_1' => 'Developer',
-        ]);
+            'attribute_1' => 'Developer']);
 
         $verifiedManagers = Contact::whereNotNull('verified_at')
             ->where('attribute_1', 'Manager')
@@ -268,8 +251,7 @@ describe('Contact PartTwo', function (): void {
             'email' => null,
             'mobile_phone' => null,
             'verified_at' => null,
-            'token' => null,
-        ]);
+            'token' => null]);
 
         Assert::assertNull($contact->first_name);
         Assert::assertNull($contact->last_name);
@@ -283,24 +265,21 @@ describe('Contact PartTwo', function (): void {
             'model_id' => '123',
             'contact_type' => 'email',
             'value' => 'third@example.com',
-            'order_column' => 3,
-        ]);
+            'order_column' => 3]);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '456',
             'contact_type' => 'email',
             'value' => 'first@example.com',
-            'order_column' => 1,
-        ]);
+            'order_column' => 1]);
 
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '789',
             'contact_type' => 'email',
             'value' => 'second@example.com',
-            'order_column' => 2,
-        ]);
+            'order_column' => 2]);
 
         $orderedContacts = Contact::orderBy('order_column')->get();
 

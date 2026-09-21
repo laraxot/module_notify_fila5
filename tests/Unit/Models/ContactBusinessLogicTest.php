@@ -4,13 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
-use Modules\User\Models\User;
+use Illuminate\Support\Carbon;
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\Contact;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('no-notify-db');
 
 describe('Contact Business Logic', function () {
     test('contact extends base model', function () {

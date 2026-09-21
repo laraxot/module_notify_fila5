@@ -7,7 +7,6 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Override;
 
@@ -25,15 +24,6 @@ use Override;
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
- *
- * @method static Builder<static>|NotificationType whereCreatedAt($value)
- * @method static Builder<static>|NotificationType whereCreatedBy($value)
- * @method static Builder<static>|NotificationType whereDescription($value)
- * @method static Builder<static>|NotificationType whereId($value)
- * @method static Builder<static>|NotificationType whereName($value)
- * @method static Builder<static>|NotificationType whereTemplate($value)
- * @method static Builder<static>|NotificationType whereUpdatedAt($value)
- * @method static Builder<static>|NotificationType whereUpdatedBy($value)
  *
  * @mixin \Eloquent
  */

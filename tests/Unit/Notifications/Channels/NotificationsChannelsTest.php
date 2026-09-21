@@ -15,10 +15,8 @@ use Modules\Notify\Notifications\Channels\TelegramChannel;
 use Modules\Notify\Notifications\ThemeNotification;
 use Modules\Notify\Tests\Fixtures\NetfunChannelNotifiableDummy;
 use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('no-notify-db');
+use PHPUnit\Framework\Assert;
 
 function makeThemeNotificationDummy(): ThemeNotification
 {
@@ -29,8 +27,7 @@ function makeThemeNotificationDummy(): ThemeNotification
             return SmsData::from([
                 'from' => 'Xot',
                 'recipient' => '+391234567890',
-                'body' => 'Body',
-            ]);
+                'body' => 'Body']);
         }
     };
 }

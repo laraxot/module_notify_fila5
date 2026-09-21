@@ -19,10 +19,7 @@ use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes
 use Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers\LinkableRelationManager;
 use Modules\Notify\Filament\Tables\Columns\ContactColumn;
 use Modules\Notify\Tests\Fixtures\EditNotifyThemeTestProxy;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('no-notify-db');
 
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {
@@ -42,8 +39,7 @@ test('notify theme resource field options are configured', function (): void {
 });
 
 test('notify theme resource form schema exposes expected components', function (): void {
-    $schema = NotifyThemeResource::getFormSchema();
-    $schema = NotifyThemeResource::getFormSchemaOld();
+    $schema = app(NotifyThemeResource::class)->getFormSchema();
     Assert::assertArrayHasKey('post_id', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['post_id']);
     Assert::assertArrayHasKey('logo', $schema);

@@ -1,7 +1,5 @@
 # Changelog Migrazioni Notify Module
 
-## 2024-03-20: Aggiunta Campo Slug a Mail Templates
-=======
 ## [DATE]: Aggiunta Campo Slug a Mail Templates
 
 ### Modifiche

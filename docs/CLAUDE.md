@@ -1,7 +1,3 @@
-<!-- CLAUDE SPLIT STUB
-- Split index: .agents/docs/root-claude/INDEX.md
-- AI docs index: .agents/docs/INDEX.md
-=======
 ---
 title: "claude root stub"
 type: concept
@@ -33,10 +29,6 @@ Questo file e' uno stub corto per ridurre token.
 
 ## leggi prima
 
-- [Root CLAUDE index](./.agents/docs/root-claude/INDEX.md)
-- [AI docs index](./.agents/docs/INDEX.md)
-- [Docs CLAUDE index](./.agents/docs/claude/INDEX.md)
-=======
 - [Root CLAUDE index](./.agents/docs/root-claude/index.md)
 - [AI docs index](./.agents/docs/index.md)
 - [Docs CLAUDE index](./.agents/docs/claude/index.md)

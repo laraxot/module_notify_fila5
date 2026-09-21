@@ -7,7 +7,6 @@ namespace Modules\Notify\Actions\Push;
 use DateTime;
 use Illuminate\Support\Facades\Cache;
 use Modules\Notify\Datas\PushNotificationData;
-use Spatie\QueueableAction\ActionJob;
 use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Spatie\QueueableAction\QueueableAction;
 

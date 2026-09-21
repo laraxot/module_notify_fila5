@@ -27,11 +27,9 @@ describe('Mail Template', function (): void {
             'text_template' => 'Benvenuto {{name}}! Grazie per esserti registrato.',
             'sms_template' => [
                 'message' => 'Benvenuto {{name}}! Grazie per esserti registrato.',
-                'variables' => ['name'],
-            ],
+                'variables' => ['name']],
             'params' => ['name', 'email'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
         XotBasePest::assertTableHas('notify', 'mail_templates', [
             'id' => $template->id,
             'mailable' => 'App\Mail\WelcomeMail',
@@ -40,8 +38,7 @@ describe('Mail Template', function (): void {
             'html_template' => '<h1>Benvenuto {{name}}!</h1><p>Grazie per esserti registrato.</p>',
             'text_template' => 'Benvenuto {{name}}! Grazie per esserti registrato.',
             'params' => json_encode(['name', 'email']),
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         Assert::assertInstanceOf(MailTemplate::class, $template);
     });
@@ -58,8 +55,7 @@ describe('Mail Template', function (): void {
             'text_template',
             'sms_template',
             'params',
-            'counter',
-        ];
+            'counter'];
 
         Assert::assertEquals($expectedFillable, $template->getFillable());
     });
@@ -70,8 +66,7 @@ describe('Mail Template', function (): void {
         $expectedCasts = [
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-        ];
+            'deleted_at' => 'datetime'];
 
         Assert::assertEquals($expectedCasts, $template->getCasts());
     });
@@ -83,8 +78,7 @@ describe('Mail Template', function (): void {
             'subject',
             'html_template',
             'text_template',
-            'sms_template',
-        ];
+            'sms_template'];
 
         Assert::assertEquals($expectedTranslatable, $template->translatable);
     });
@@ -102,14 +96,12 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         Assert::assertEquals('test-email-template', $template->slug);
         XotBasePest::assertTableHas('notify', 'mail_templates', [
             'id' => $template->id,
-            'slug' => 'test-email-template',
-        ]);
+            'slug' => 'test-email-template']);
     });
 
     test('_can_store_json_params', function (): void {
@@ -138,8 +130,7 @@ describe('Mail Template', function (): void {
             'message' => 'Benvenuto {{name}}! La tua email è {{email}}',
             'variables' => ['name', 'email'],
             'max_length' => 160,
-            'encoding' => 'GSM7',
-        ];
+            'encoding' => 'GSM7'];
 
         $template = MailTemplateFactory::new()->createOne([
             'mailable' => 'App\Mail\SmsMail',
@@ -166,8 +157,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         Assert::assertEquals(0, $template->counter);
 
@@ -185,15 +175,13 @@ describe('Mail Template', function (): void {
             'subject' => 'Original Subject',
             'html_template' => '<p>Original content</p>',
             'params' => ['original'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         $template->update([
             'name' => 'Updated Name',
             'subject' => 'Updated Subject',
             'html_template' => '<p>Updated content</p>',
-            'params' => ['updated'],
-        ]);
+            'params' => ['updated']]);
         XotBasePest::assertTableHas('notify', 'mail_templates', [
             'id' => $template->id,
             'name' => 'Updated Name',
@@ -211,8 +199,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         $foundTemplate = MailTemplate::where('mailable', 'App\Mail\FindMail')
             ->where('slug', 'find-test-template')
@@ -231,8 +218,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         $foundTemplate = MailTemplate::where('name', 'Name Search Template')->first();
 
@@ -248,8 +234,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Welcome to our platform',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         $foundTemplates = MailTemplate::where('subject', 'like', '%Welcome%')->get();
 
@@ -264,8 +249,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['name', 'email', 'company'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         $foundTemplates = MailTemplate::whereJsonContains('params', 'name')->get();
 
@@ -281,8 +265,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 5,
-        ]);
+            'counter' => 5]);
 
         MailTemplateFactory::new()->createOne([
             'mailable' => 'App\Mail\HighCounterMail',
@@ -290,8 +273,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 50,
-        ]);
+            'counter' => 50]);
 
         $lowCounterTemplates = MailTemplate::where('counter', '<=', 10)->get();
         $highCounterTemplates = MailTemplate::where('counter', '>=', 25)->get();
@@ -309,8 +291,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => [],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
         Assert::assertEmpty($template->params);
     });
 
@@ -322,8 +303,7 @@ describe('Mail Template', function (): void {
             'html_template' => '<p>Test content</p>',
             'sms_template' => [],
             'params' => ['test'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
         Assert::assertEmpty($template->sms_template);
     });
 
@@ -336,14 +316,11 @@ describe('Mail Template', function (): void {
             'fallback' => [
                 'enabled' => true,
                 'message' => 'Welcome {{name}}!',
-                'language' => 'en',
-            ],
+                'language' => 'en'],
             'delivery_options' => [
                 'priority' => 'high',
                 'retry_count' => 3,
-                'timeout' => 30,
-            ],
-        ];
+                'timeout' => 30]];
 
         $template = MailTemplateFactory::new()->createOne([
             'mailable' => 'App\Mail\ComplexSmsMail',
@@ -372,8 +349,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Welcome to our platform',
             'html_template' => '<p>Test content</p>',
             'params' => ['name', 'email'],
-            'counter' => 10,
-        ]);
+            'counter' => 10]);
 
         MailTemplateFactory::new()->createOne([
             'mailable' => 'App\Mail\AnotherMultiCriteriaMail',
@@ -381,8 +357,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Welcome to our platform',
             'html_template' => '<p>Test content</p>',
             'params' => ['name', 'email'],
-            'counter' => 20,
-        ]);
+            'counter' => 20]);
 
         $foundTemplates = MailTemplate::where('subject', 'like', '%Welcome%')
             ->whereJsonContains('params', 'name')
@@ -403,8 +378,7 @@ describe('Mail Template', function (): void {
             'text_template' => null,
             'sms_template' => null,
             'params' => null,
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         Assert::assertNull($template->subject);
         Assert::assertNull($template->text_template);
@@ -419,8 +393,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         MailTemplateFactory::new()->createOne([
             'mailable' => 'App\Mail\UniqueSlugMail2',
@@ -428,8 +401,7 @@ describe('Mail Template', function (): void {
             'subject' => 'Test Subject',
             'html_template' => '<p>Test content</p>',
             'params' => ['test'],
-            'counter' => 0,
-        ]);
+            'counter' => 0]);
 
         $templates = MailTemplate::where('name', 'Test Template')->get();
 

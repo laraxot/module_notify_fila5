@@ -10,11 +10,8 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Modules\Notify\Factories\TelegramActionFactory;
 use Modules\Notify\Factories\WhatsAppActionFactory;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('notify-db');
+use PHPUnit\Framework\Assert;
 
 test('sms action resolves default smsfactor driver instance', function () {
     config()->set('sms.default', 'smsfactor');

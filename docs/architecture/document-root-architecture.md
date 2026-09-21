@@ -8,7 +8,6 @@ qmd: "document-root-architecture document root architecture"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "../../../Xot/docs/wiki/rules/public-path-public-html.md"
   - "./config-structure.md"
   - "./dto-structure-conventions.md"
   - "./dto-structure-rules.md"
@@ -20,8 +19,6 @@ related:
 ---
 
 # Document Root Architecture
-
-> **SSoT progetto:** [public-path-is-public-html](../../../../../docs/wiki/memories/public-path-is-public-html.md) — `public_path()` = `public_html/`, mai `laravel/public/`.
 
 ## Overview
 

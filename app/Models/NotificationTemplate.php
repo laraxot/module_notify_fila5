@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
@@ -49,31 +47,6 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array<int, string> $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array<int, string> $locales)
- *
- * @method static Builder<static>|NotificationTemplate whereBodyHtml($value)
- * @method static Builder<static>|NotificationTemplate whereBodyText($value)
- * @method static Builder<static>|NotificationTemplate whereCategory($value)
- * @method static Builder<static>|NotificationTemplate whereChannels($value)
- * @method static Builder<static>|NotificationTemplate whereCode($value)
- * @method static Builder<static>|NotificationTemplate whereConditions($value)
- * @method static Builder<static>|NotificationTemplate whereCreatedAt($value)
- * @method static Builder<static>|NotificationTemplate whereCreatedBy($value)
- * @method static Builder<static>|NotificationTemplate whereDeletedAt($value)
- * @method static Builder<static>|NotificationTemplate whereDeletedBy($value)
- * @method static Builder<static>|NotificationTemplate whereDescription($value)
- * @method static Builder<static>|NotificationTemplate whereGrapesjsData($value)
- * @method static Builder<static>|NotificationTemplate whereId($value)
- * @method static Builder<static>|NotificationTemplate whereIsActive($value)
- * @method static Builder<static>|NotificationTemplate whereMetadata($value)
- * @method static Builder<static>|NotificationTemplate whereName($value)
- * @method static Builder<static>|NotificationTemplate wherePreviewData($value)
- * @method static Builder<static>|NotificationTemplate whereSubject($value)
- * @method static Builder<static>|NotificationTemplate whereTenantId($value)
- * @method static Builder<static>|NotificationTemplate whereType($value)
- * @method static Builder<static>|NotificationTemplate whereUpdatedAt($value)
- * @method static Builder<static>|NotificationTemplate whereUpdatedBy($value)
- * @method static Builder<static>|NotificationTemplate whereVariables($value)
- * @method static Builder<static>|NotificationTemplate whereVersion($value)
  *
  * @mixin \Eloquent
  */

@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
-use Modules\Notify\Tests\TestCase;
-
-uses(TestCase::class)->group('notify-db');
-
 /**
  * Theme Management Business Logic Tests.
  *

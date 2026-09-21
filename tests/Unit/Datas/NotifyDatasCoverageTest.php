@@ -15,27 +15,20 @@ use Modules\Notify\Datas\SMS\SmsFactorData;
 use Modules\Notify\Datas\SmsMessageData;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Notify\Datas\WhatsAppData;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class);
+use PHPUnit\Framework\Assert;
 
 test('netfun sms request and response data can be created from arrays', function () {
     $request = NetfunSmsRequestData::fromArray([
         'token' => 'abc-token',
         'messages' => [
-            ['recipient' => '+391234', 'text' => 'hello'],
-        ],
-    ]);
+            ['recipient' => '+391234', 'text' => 'hello']]]);
 
     $response = NetfunSmsResponseData::fromArray([
         'status' => 'ok',
         'batchId' => 'batch-1',
         'messages' => [
-            ['id' => 'm1', 'status' => 'queued'],
-        ],
-    ]);
+            ['id' => 'm1', 'status' => 'queued']]]);
 
     Assert::assertSame('abc-token', $request->token);
     Assert::assertCount(1, XotBasePest::assertArray($request->messages));
@@ -67,8 +60,7 @@ test('netfun sms message-style data objects keep values', function () {
 
 test('sms driver data classes expose auth headers and defaults', function () {
     config()->set('sms.drivers.smsfactor', [
-        'token' => 'tok',
-    ]);
+        'token' => 'tok']);
 
     $smsfactor = SmsFactorData::make();
 
