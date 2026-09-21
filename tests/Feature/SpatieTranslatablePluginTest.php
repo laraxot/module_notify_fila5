@@ -10,6 +10,7 @@ use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 use Livewire\Livewire;
 use Modules\Notify\Database\Factories\MailTemplateFactory;
 use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
+<<<<<<< HEAD
 use Modules\User\Database\Factories\UserFactory;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
@@ -17,6 +18,19 @@ use PHPUnit\Framework\Assert;
 use function Pest\Laravel\actingAs;
 
 beforeEach(function (): void {
+=======
+use Modules\Notify\Tests\TestCase;
+use Modules\User\Database\Factories\UserFactory;
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+
+use function Pest\Laravel\actingAs;
+
+uses(TestCase::class)->group('notify-db');
+
+beforeEach(function (): void {
+    /** @var TestCase $this */
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     $user = UserFactory::new()->createOne();
     Assert::assertInstanceOf(Authenticatable::class, $user);
     $user->assignRole('notify::admin');

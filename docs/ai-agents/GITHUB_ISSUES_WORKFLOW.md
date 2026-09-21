@@ -6,6 +6,14 @@
 
 ## Repository
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- **URL**: https://github.com/laraxot/base_predict_fila5
+- **Remote**: `origin` (git@github.com:laraxot/base_predict_fila5.git)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 - **URL**: https://github.com/laraxot/base_ptvx_fila5
 - **Remote**: `origin` (git@github.com:laraxot/base_ptvx_fila5.git)
 
@@ -16,6 +24,13 @@
 ### Method 1: GitHub Web Interface
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+1. Vai su: https://github.com/laraxot/base_predict_fila5/issues
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 1. Vai su: https://github.com/laraxot/base_ptvx_fila5/issues
 2. Clicca "New issue"
 3. Scegli template
@@ -101,6 +116,13 @@ gh pr create --title "Fix: ..." --body "Fixes #123"
 3. 💬 **Comments Section** - HIGH priority
 4. 📤 **Share Buttons** - MEDIUM priority
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+**Create issues on GitHub**: https://github.com/laraxot/base_predict_fila5/issues
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 **Create issues on GitHub**: https://github.com/laraxot/base_ptvx_fila5/issues
 
 ---

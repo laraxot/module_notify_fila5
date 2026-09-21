@@ -12,11 +12,21 @@ use Modules\Notify\Actions\NotificationManager as NotificationManagerAction;
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSAction;
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSv1Action;
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSv2Action;
+<<<<<<< HEAD
 use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Notifications\FirebaseAndroidNotification;
 use PHPUnit\Framework\Assert;
 
+=======
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Notifications\FirebaseAndroidNotification;
+use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+
+uses(TestCase::class)->group('no-notify-db');
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 afterEach(function (): void {
     Mockery::close();
 });
@@ -29,17 +39,32 @@ describe('Notify zero-coverage actions boost', function (): void {
             'notify.sms.agiletelecom.sender' => 'TEST',
             'notify.sms.agiletelecom.user' => 'user',
             'notify.sms.agiletelecom.password' => 'pass',
+<<<<<<< HEAD
             'notify.sms.agiletelecom.timeout' => 5]);
+=======
+            'notify.sms.agiletelecom.timeout' => 5,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $sms = SmsData::from([
             'from' => 'Test',
             'recipient' => '+393331112233',
+<<<<<<< HEAD
             'body' => 'hello agile']);
+=======
+            'body' => 'hello agile',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         foreach ([
             SendAgiletelecomSMSAction::class,
             SendAgiletelecomSMSv1Action::class,
+<<<<<<< HEAD
             SendAgiletelecomSMSv2Action::class] as $class) {
+=======
+            SendAgiletelecomSMSv2Action::class,
+        ] as $class) {
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             try {
                 $result = app($class)->execute($sms);
                 Assert::assertIsArray($result);
@@ -66,11 +91,20 @@ describe('Notify zero-coverage actions boost', function (): void {
     });
 
     test('firebase android notification exposes channels and payload', function (): void {
+<<<<<<< HEAD
         $data = FirebaseNotificationData::from([
             'type' => 'test',
             'title' => 'Hello',
             'body' => 'World',
             'data' => ['k' => 'v']]);
+=======
+        $data = \Modules\Notify\Datas\FirebaseNotificationData::from([
+            'type' => 'test',
+            'title' => 'Hello',
+            'body' => 'World',
+            'data' => ['k' => 'v'],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $notification = new FirebaseAndroidNotification($data);
         $notifiable = new class
         {

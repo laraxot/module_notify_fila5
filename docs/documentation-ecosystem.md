@@ -4,7 +4,10 @@ type: concept
 tags: [documentation, ecosystem]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "documentation-ecosystem fixcity documentation ecosystem - visual map"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd: "documentation-ecosystem ptv documentation ecosystem - visual map"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -177,7 +180,10 @@ Theme: Sixteen
     │
     ├─→ Cms Module
     │   └─ Displays: Pages, blocks, content
+<<<<<<< HEAD
     │   └─ Via: config/local/fixcity/database/content/pages/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     │   └─ Via: config/local/ptv/database/content/pages/
     │   └─ Renders: Block components
     │
@@ -387,7 +393,10 @@ docs/
 
 laravel/
 ├── claude.md                       ← Framework rules (38.7 KB)
+<<<<<<< HEAD
 ├── AGENTS.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ├── agents.md
 └── .windsurfrules                 ← Windsurf rules
 ```

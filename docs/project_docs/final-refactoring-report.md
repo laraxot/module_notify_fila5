@@ -20,7 +20,10 @@ related:
 
 # 🐮 Super Mucca - Final Refactoring Report
 
+<<<<<<< HEAD
 **Project:** base_fixcity_fila5_mono  
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Project:** base_ptvx_fila5_mono  
 **Date:** 2025-10-01  
 **Analyzer:** Super Mucca 🐮  
@@ -113,7 +116,10 @@ Successfully analyzed and refactored the entire codebase, reducing cyclomatic co
 2. **Activity** - 0 high-complexity methods
 3. **Cms** - 0 high-complexity methods
 4. **Comment** - 0 high-complexity methods
+<<<<<<< HEAD
 5. **Fixcity** - 0 high-complexity methods
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 5. **App** - 0 high-complexity methods
 6. **Gdpr** - 0 high-complexity methods
 7. **Job** - 0 high-complexity methods

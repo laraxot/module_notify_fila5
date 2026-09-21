@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # 🏆 ROADMAP QUALITÀ - FIXCITY PLATFORM
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # 🏆 ROADMAP QUALITÀ - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -7,7 +10,10 @@
 **Priorità**: ALTA  
 
 ## 🎯 Obiettivo
+<<<<<<< HEAD
 Raggiungere e mantenere standard di qualità enterprise per il progetto FixCity, garantendo affidabilità, sicurezza e manutenibilità del codice.
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Raggiungere e mantenere standard di qualità enterprise per il progetto Notify, garantendo affidabilità, sicurezza e manutenibilità del codice.
 
 ## 📊 Stato Attuale
@@ -396,7 +402,10 @@ jobs:
 #### Obiettivi
 - [ ] Advanced static analysis
 - [ ] Machine learning quality
+<<<<<<< HEAD
 - [ ] Predictive quality
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] Forecasting quality
 - [ ] Quality automation
 
@@ -414,7 +423,10 @@ composer require --dev phpstan/phpstan-phpunit
 #### Deliverables
 - [ ] Advanced static analysis
 - [ ] ML quality tools
+<<<<<<< HEAD
 - [ ] Predictive quality
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] Forecasting quality
 - [ ] Quality automation
 
@@ -526,7 +538,10 @@ composer require --dev phpstan/phpstan-phpunit
 ### Milestone 4: Quality Culture (Dicembre 2025)
 - ✅ Quality training
 - ✅ Advanced tools
+<<<<<<< HEAD
 - ✅ Predictive quality
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - ✅ Forecasting quality
 - ✅ Continuous improvement
 
@@ -575,8 +590,11 @@ composer require --dev phpstan/phpstan-phpunit
 **📞 Contatti Quality**
 - **Quality Lead**: Quality Assurance Team
 - **Email**: quality@laraxot.com
+<<<<<<< HEAD
 - **Slack**: #fixcity-quality
 - **GitHub**: [FixCity Quality](https://github.com/laraxot/fixcity-quality)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Slack**: #laraxot-quality
 - **GitHub**: [Notify Quality](https://github.com/laraxot/laraxot-quality)
 

@@ -19,8 +19,16 @@ use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes
 use Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers\LinkableRelationManager;
 use Modules\Notify\Filament\Tables\Columns\ContactColumn;
 use Modules\Notify\Tests\Fixtures\EditNotifyThemeTestProxy;
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
+=======
+use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+
+uses(TestCase::class)->group('no-notify-db');
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {
     return new EditNotifyThemeTestProxy;
@@ -39,7 +47,15 @@ test('notify theme resource field options are configured', function (): void {
 });
 
 test('notify theme resource form schema exposes expected components', function (): void {
+<<<<<<< HEAD
     $schema = app(NotifyThemeResource::class)->getFormSchema();
+=======
+<<<<<<< HEAD
+    $schema = NotifyThemeResource::getFormSchema();
+=======
+    $schema = NotifyThemeResource::getFormSchemaOld();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
     Assert::assertArrayHasKey('post_id', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['post_id']);
     Assert::assertArrayHasKey('logo', $schema);

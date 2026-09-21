@@ -191,4 +191,12 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 
 ---
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: [DATE]*
+=======
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-05-12*
+=======
+*Ultimo aggiornamento: [DATE]*
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)

@@ -4,7 +4,10 @@ Regole di architettura modulare per il progetto.
 
 ## Modulo Agnosticism - REGOLA FONDAMENTALE
 
+<<<<<<< HEAD
 **Il modulo Predict (e tutti i moduli) devono essere AGONISTICI!**
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Il modulo Forecast (e tutti i moduli) devono essere AGONISTICI!**
 
 Non usare MAI dipendenze hardcoded come `Modules\Blog\Models\User`. Usa sempre `XotData`:
@@ -134,6 +137,9 @@ git rm path/to/submodule
 - [Indice AGENTS](./agents-split-index.md)
 - [module-dependencies.md](./module-dependencies.md) - Più dettagliato
 - [git-submodules.md](./git-submodules.md) - Dettagli git
+<<<<<<< HEAD
 - [AGENTS.md originale](../../AGENTS.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [agents.md originale](../../agents.md)
 - [Index principale](./index.md)

@@ -15,8 +15,15 @@ use Modules\Notify\Notifications\Channels\TelegramChannel;
 use Modules\Notify\Notifications\ThemeNotification;
 use Modules\Notify\Tests\Fixtures\NetfunChannelNotifiableDummy;
 use Modules\Notify\Tests\TestCase;
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
+=======
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+
+uses(TestCase::class)->group('no-notify-db');
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 function makeThemeNotificationDummy(): ThemeNotification
 {
@@ -27,7 +34,12 @@ function makeThemeNotificationDummy(): ThemeNotification
             return SmsData::from([
                 'from' => 'Xot',
                 'recipient' => '+391234567890',
+<<<<<<< HEAD
                 'body' => 'Body']);
+=======
+                'body' => 'Body',
+            ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
     };
 }

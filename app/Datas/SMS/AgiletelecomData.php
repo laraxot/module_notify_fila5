@@ -54,18 +54,33 @@ class AgiletelecomData extends Data
             case 'api_key':
                 return [
                     'Authorization' => 'Api-Key '.$this->api_key,
+<<<<<<< HEAD
                     'Content-Type' => 'application/json'];
+=======
+                    'Content-Type' => 'application/json',
+                ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             case 'oauth':
                 return [
                     'Authorization' => 'OAuth '.$this->oauth_token,
+<<<<<<< HEAD
                     'Content-Type' => 'application/json'];
+=======
+                    'Content-Type' => 'application/json',
+                ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             case 'basic':
             default:
                 return [
                     'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
+<<<<<<< HEAD
                     'Content-Type' => 'application/json'];
+=======
+                    'Content-Type' => 'application/json',
+                ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
     }
 }

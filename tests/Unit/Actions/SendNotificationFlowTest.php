@@ -6,14 +6,29 @@ namespace Modules\Notify\Tests\Unit\Actions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection;
+<<<<<<< HEAD
 use Mockery;
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
+<<<<<<< HEAD
 use Modules\User\Database\Factories\UserFactory;
 use PHPUnit\Framework\Assert;
+<<<<<<< HEAD
+=======
+use Modules\User\Models\User;
+=======
+use Modules\Notify\Tests\TestCase;
+use Modules\User\Database\Factories\UserFactory;
+use PHPUnit\Framework\Assert;
+
+uses(TestCase::class)->group('notify-db');
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+>>>>>>> 7e6063a3 (.)
 
 describe('Send notification flow', function (): void {
     test('template lookup returns null when code missing', function (): void {
@@ -28,7 +43,12 @@ describe('Send notification flow', function (): void {
     test('template lookup returns model when code exists', function (): void {
         $template = NotificationTemplateFactory::new()->createOne([
             'code' => 'send-test-template',
+<<<<<<< HEAD
             'is_active' => true]);
+=======
+            'is_active' => true,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $result = NotificationTemplate::query()
             ->where('code', 'send-test-template')
@@ -49,16 +69,29 @@ describe('Send notification flow', function (): void {
     });
 
     test('send action can be invoked with mocked handle', function (): void {
+<<<<<<< HEAD
         NotificationTemplateFactory::new()->createOne([
             'code' => 'action-send-template',
             'is_active' => true]);
+=======
+        /** @var TestCase $this */
+        NotificationTemplateFactory::new()->createOne([
+            'code' => 'action-send-template',
+            'is_active' => true,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $recipient = UserFactory::new()->createOne();
         $notification = NotificationFactory::new()->createOne();
 
         $calls = 0;
+<<<<<<< HEAD
         $action = Mockery::mock(SendNotificationAction::class);
         $action->shouldReceive('handle')->andReturnUsing(function () use (&$calls, $notification): Notification {
+=======
+        $action = $this->createUnitMock(SendNotificationAction::class);
+        $action->method('handle')->willReturnCallback(function () use (&$calls, $notification): Notification {
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             $calls++;
 
             return $notification;
@@ -79,14 +112,27 @@ describe('Send notification flow', function (): void {
     });
 
     test('send action throws when template missing', function (): void {
+<<<<<<< HEAD
         $recipient = UserFactory::new()->createOne();
 
         expect(fn () => app(SendNotificationAction::class)->handle(
+=======
+        /** @var TestCase $this */
+        $this->expectApplicationException(Exception::class);
+
+        $recipient = UserFactory::new()->createOne();
+
+        app(SendNotificationAction::class)->handle(
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             $recipient,
             'invalid_template',
             [],
             [],
             [],
+<<<<<<< HEAD
         ))->toThrow(Exception::class);
+=======
+        );
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     });
 });
