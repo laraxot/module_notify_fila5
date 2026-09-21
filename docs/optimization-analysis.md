@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # Analisi di Ottimizzazione - Modulo Notify
-=======
-<<<<<<< HEAD
-# notify module documentation optimization analysis
->>>>>>> 7e6063a3 (.)
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
 
@@ -72,8 +67,6 @@ class NotificationTemplateCache
 ---
 *Stato: 🟡 Funzionale ma Necessita Reliability Enhancement*
 
-<<<<<<< HEAD
-=======
 ## action plan
 1. audit all notification documentation for duplication
 2. consolidate notification patterns into comprehensive guides
@@ -158,5 +151,3 @@ class NotificationTemplateCache
 ---
 *Stato: 🟡 Funzionale ma Necessita Reliability Enhancement*
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

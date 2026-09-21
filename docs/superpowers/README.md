@@ -305,10 +305,7 @@ class User extends Model {
 ### File Structure
 
 ```
-<<<<<<< HEAD
 base_fixcity_fila5/
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 base_ptvx_fila5/
 ├── .cursor/
 │   ├── superpowers-config.json    ← Optional configuration

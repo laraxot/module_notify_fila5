@@ -73,59 +73,33 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
             'timeout' => $this->timeout,
             'headers' => [
                 'Authorization' => 'Bearer '.$this->accessToken,
-<<<<<<< HEAD
                 'Content-Type' => 'application/json']]);
-=======
-                'Content-Type' => 'application/json',
-            ],
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $endpoint = $this->baseUrl.'/'.$this->phoneNumberId.'/messages';
 
         $payload = [
             'messaging_product' => 'whatsapp',
             'recipient_type' => 'individual',
-<<<<<<< HEAD
             'to' => $whatsAppData->recipient];
-=======
-            'to' => $whatsAppData->recipient,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'text') {
             $payload['type'] = 'text';
             $payload['text'] = [
                 'preview_url' => false,
-<<<<<<< HEAD
                 'body' => $whatsAppData->body];
-=======
-                'body' => $whatsAppData->body,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
-<<<<<<< HEAD
                 'link' => $whatsAppData->media[0]];
-=======
-                'link' => $whatsAppData->media[0],
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         try {
             $response = $client->post($endpoint, [
-<<<<<<< HEAD
                 'json' => $payload]);
-=======
-                'json' => $payload,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -139,12 +113,7 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
 
             Log::debug('WhatsApp Facebook inviato con successo', [
                 'to' => $whatsAppData->recipient,
-<<<<<<< HEAD
                 'response_code' => $statusCode]);
-=======
-                'response_code' => $statusCode,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             /** @var array<string, mixed>|null $messages */
             $messages = $responseData['messages'] ?? null;
@@ -159,12 +128,7 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $messageId,
                 'response' => $responseData,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
@@ -179,12 +143,7 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
             Log::warning('Errore invio WhatsApp Facebook', [
                 'to' => $whatsAppData->recipient,
                 'status' => $statusCode,
-<<<<<<< HEAD
                 'response' => $responseBody]);
-=======
-                'response' => $responseBody,
-            ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             /** @var array<string, mixed>|null $error */
             $error = $responseBody['error'] ?? null;
@@ -197,12 +156,7 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
                 'success' => false,
                 'error' => $errorMessage,
                 'status_code' => $statusCode,
-<<<<<<< HEAD
                 'vars' => $this->vars];
-=======
-                'vars' => $this->vars,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
     }
 }

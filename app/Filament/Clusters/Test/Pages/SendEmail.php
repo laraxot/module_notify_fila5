@@ -54,13 +54,7 @@ class SendEmail extends XotBasePage
                             ->email()
                             ->required(),
                         TextInput::make('subject')->required(),
-<<<<<<< HEAD
                         RichEditor::make('body_html')->required()])])
-=======
-                        RichEditor::make('body_html')->required(),
-                    ]),
-            ])
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             ->model($this->getUser())
             ->statePath('emailData');
     }
@@ -83,24 +77,14 @@ class SendEmail extends XotBasePage
     protected function getForms(): array
     {
         return [
-<<<<<<< HEAD
             'emailForm'];
-=======
-            'emailForm',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /** @return array<string, Action> */
     protected function getEmailFormActions(): array
     {
         return [
-<<<<<<< HEAD
             'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
-=======
-            'submit' => Action::make('emailFormActions')->submit('emailFormActions'),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     protected function getUser(): Authenticatable&Model

@@ -37,7 +37,6 @@ use function Safe\file_get_contents;
 abstract class TestCase extends XotBaseTestCase
 {
     /**
-<<<<<<< HEAD
      * @return array<string, mixed>
      */
     public static function assertNotifyArray(mixed $value): array
@@ -49,8 +48,6 @@ abstract class TestCase extends XotBaseTestCase
     }
 
     /**
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
      * @template T of object
      *
      * @param  ReflectionClass<T>  $reflection
@@ -269,12 +266,8 @@ abstract class TestCase extends XotBaseTestCase
         return [
             ...parent::getPackageProviders($app),
             UserServiceProvider::class,
-<<<<<<< HEAD
-            NotifyServiceProvider::class];
-=======
             NotifyServiceProvider::class,
         ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**

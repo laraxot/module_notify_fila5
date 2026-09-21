@@ -23,10 +23,7 @@ return view($viewName, $viewParams);
 
 ```php
 /** @phpstan-var view-string $viewName */
-<<<<<<< HEAD
 $viewName = 'fixcity::components.blocks.ticket-list';
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 $viewName = 'ptv::components.blocks.ticket-list';
 $viewParams = [
     'tickets' => $this->tickets,
@@ -49,8 +46,5 @@ return view((string) $view);
 ## Collegamenti
 
 - [phpstan_critical_rules](../.cursor/rules/phpstan_critical_rules.md)
-<<<<<<< HEAD
 - [AGENTS.md](../AGENTS.md)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [agents.md](../agents.md)

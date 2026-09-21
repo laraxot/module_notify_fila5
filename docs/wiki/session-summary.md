@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_AJqkFi
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ---
 title: "LLM Wiki Integration - Session Summary"
 type: concept
@@ -118,11 +114,7 @@ Complete Obsidian setup in `docs/.obsidian/`:
 
 ### 6. ✅ Tool Installation
 
-<<<<<<< HEAD
 - **qmd**: Installed globally (`npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd`)
-=======
-- **qmd**: Installed globally (`npm install -g qmd`)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   - Local markdown search engine
   - Hybrid BM25 + vector + LLM re-ranking
   - Usage: `qmd serve ./docs/wiki`
@@ -330,11 +322,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 <!-- Merged from SESSION-SUMMARY.md, which collided with this file on case-insensitive filesystems. -->
 
-<<<<<<< HEAD
 =======
->>>>>>> .merge_file_SIMIXa
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # LLM Wiki Integration - Session Summary
 
 > **Date**: 2026-04-15
@@ -358,11 +346,7 @@ Created complete wiki structure in `./docs/wiki/`:
 ```
 docs/wiki/
 ├── README.md                 # Complete integration guide
-<<<<<<< HEAD
 ├── AGENTS.md                 # Schema file for LLM agents (16KB)
-=======
-├── agents.md                 # Schema file for LLM agents (16KB)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ├── QUICK-REFERENCE.md        # Quick daily reference
 ├── overview.md               # High-level synthesis
 ├── index.md                  # Content catalog
@@ -390,11 +374,7 @@ docs/wiki/
     └── _archive/
 ```
 
-<<<<<<< HEAD
 ### 3. ✅ Agent Instructions (AGENTS.md)
-=======
-### 3. ✅ Agent Instructions (agents.md)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 Created comprehensive 16KB schema file with:
 
@@ -439,11 +419,7 @@ Complete Obsidian setup in `docs/.obsidian/`:
 
 ### 6. ✅ Tool Installation
 
-<<<<<<< HEAD
 - **qmd**: Installed globally (`npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd`)
-=======
-- **qmd**: Installed globally (`npm install -g qmd`)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   - Local markdown search engine
   - Hybrid BM25 + vector + LLM re-ranking
   - Usage: `qmd serve ./docs/wiki`
@@ -454,15 +430,9 @@ Created `bashscripts/ai/init-llm-wiki.sh`:
 
 - Initialize wiki structure for any module or theme
 - Usage: `bashscripts/ai/init-llm-wiki.sh {module|theme} {Name}`
-<<<<<<< HEAD
 - Example: `bashscripts/ai/init-llm-wiki.sh module Fixcity`
 - Creates complete directory structure with templates
 - Generates module-specific AGENTS.md
-=======
-- Example: `bashscripts/ai/init-llm-wiki.sh module App`
-- Creates complete directory structure with templates
-- Generates module-specific agents.md
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ### 8. ✅ Documentation Updates
 
@@ -490,11 +460,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 |-------|----------|---------|----------|
 | **raw/** | `docs/raw/` | Immutable sources | ❌ NEVER |
 | **wiki/** | `docs/wiki/` | LLM-generated knowledge | ✅ YES |
-<<<<<<< HEAD
 | **schema** | `docs/wiki/AGENTS.md` | Agent instructions | ✅ YES |
-=======
-| **schema** | `docs/wiki/agents.md` | Agent instructions | ✅ YES |
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ### Module Wiki
 
@@ -502,11 +468,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 |-------|----------|---------|
 | **raw/** | `Modules/{Name}/docs/llm-wiki/raw/` | Module sources | ❌ NEVER |
 | **wiki/** | `Modules/{Name}/docs/llm-wiki/` | Module knowledge | ✅ YES |
-<<<<<<< HEAD
 | **schema** | `Modules/{Name}/docs/llm-wiki/AGENTS.md` | Module agent rules | ✅ YES |
-=======
-| **schema** | `Modules/{Name}/docs/llm-wiki/agents.md` | Module agent rules | ✅ YES |
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ## Workflows
 
@@ -564,13 +526,8 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 3. **Initialize Module Wikis** (if not already done):
    ```bash
-<<<<<<< HEAD
    bashscripts/ai/init-llm-wiki.sh module Fixcity
    bashscripts/ai/init-llm-wiki.sh module Predict
-=======
-   bashscripts/ai/init-llm-wiki.sh module App
-   bashscripts/ai/init-llm-wiki.sh module Forecast
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
    bashscripts/ai/init-llm-wiki.sh theme Sixteen
    ```
 
@@ -604,11 +561,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 ### Project Root (docs/)
 
 - ✅ `docs/wiki/README.md` - Integration guide
-<<<<<<< HEAD
 - ✅ `docs/wiki/AGENTS.md` - Agent instructions (16KB)
-=======
-- ✅ `docs/wiki/agents.md` - Agent instructions (16KB)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - ✅ `docs/wiki/QUICK-REFERENCE.md` - Quick reference
 - ✅ `docs/wiki/overview.md` - High-level synthesis
 - ✅ `docs/wiki/index.md` - Content catalog
@@ -649,11 +602,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [Complete Integration Guide](docs/wiki/README.md)
-<<<<<<< HEAD
 - [Agent Instructions](docs/wiki/AGENTS.md)
-=======
-- [Agent Instructions](docs/wiki/agents.md)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Quick Reference](docs/wiki/QUICK-REFERENCE.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
 - [Obsidian Setup](docs/.obsidian/README.md)

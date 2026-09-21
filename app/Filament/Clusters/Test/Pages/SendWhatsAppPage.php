@@ -55,12 +55,7 @@ class SendWhatsAppPage extends XotBasePage
     protected function getForms(): array
     {
         return [
-<<<<<<< HEAD
             'whatsappForm'];
-=======
-            'whatsappForm',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     protected function fillForms(): void
@@ -100,15 +95,8 @@ class SendWhatsAppPage extends XotBasePage
                     'image' => 'Immagine',
                     'video' => 'Video',
                     'document' => 'Documento',
-<<<<<<< HEAD
                     'audio' => 'Audio'])
                 ->helperText('Tipo di media (opzionale)')];
-=======
-                    'audio' => 'Audio',
-                ])
-                ->helperText('Tipo di media (opzionale)'),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     public function sendWhatsApp(): void
@@ -125,12 +113,7 @@ class SendWhatsAppPage extends XotBasePage
                     'template' => $data['template'] ?? null,
                     'parameters' => $data['parameters'] ?? null,
                     'media_url' => $data['media_url'] ?? null,
-<<<<<<< HEAD
                     'media_type' => $data['media_type'] ?? null]),
-=======
-                    'media_type' => $data['media_type'] ?? null,
-                ]),
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             );
 
             FilamentNotification::make()
@@ -152,12 +135,7 @@ class SendWhatsAppPage extends XotBasePage
     protected function getWhatsAppFormActions(): array
     {
         return [
-<<<<<<< HEAD
             'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions')];
-=======
-            'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions'),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
     protected function getUser(): Authenticatable&Model
     {

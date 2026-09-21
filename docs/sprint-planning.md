@@ -1,13 +1,7 @@
 ---
-<<<<<<< HEAD
-title: "Sprint Planning: Notify Module"
-=======
-<<<<<<< HEAD
 title: "Notify Module - Sprint Planning"
 =======
 title: "Sprint Planning: Notify Module"
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -15,13 +9,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< HEAD
-# Sprint Planning: Notify Module
-
-## 🏁 Sprint Goal
-Finalize documentation and validation for Notify.
-=======
-<<<<<<< HEAD
 # Notify Module - Sprint Planning
 
 **Module:** Notify  
@@ -94,5 +81,3 @@ Implement core notification system with email and in-app notifications.
 
 ## 🏁 Sprint Goal
 Finalize documentation and validation for Notify.
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

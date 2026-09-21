@@ -546,10 +546,7 @@ ls -la .planning/
 # Check skills
 /gsd-help
 
-<<<<<<< HEAD
 # Review AGENTS.md for GSD commands
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Review agents.md for GSD commands
 ```
 
@@ -573,10 +570,7 @@ cat .ralph/iteration-log.md
 - [OpenViking Integration](./openviking-integration.md)
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
-<<<<<<< HEAD
 - [AGENTS.md](../AGENTS.md)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [agents.md](../agents.md)
 
 ### Scripts

@@ -138,19 +138,13 @@ File: `.qwen-code-rules.md`
 ## 🔗 Related Documentation
 
 ### AI Agents Docs
-<<<<<<< HEAD
 - **[Rules Index](00-INDEX.md)** - All rules
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **[Rules Index](00-index.md)** - All rules
 - **[XotBase Extension Rule](xotbase-extension-rule.md)** - XotBase philosophy
 
 ### Project Rules
 - **[Qwen Code Rules](../../.qwen-code-rules.md)** - Project-specific rules
-<<<<<<< HEAD
 - **[AGENTS.md](../../AGENTS.md)** - Project agents guide
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **[agents.md](../../AGENTS.md)** - Project agents guide
 
 ---

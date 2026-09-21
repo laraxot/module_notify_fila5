@@ -31,26 +31,16 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 
 #### Step 1: Update Ticket Creation Form
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **File**: `Modules/Fixcity/resources/views/tickets/create.blade.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **File**: `Modules/App/resources/views/tickets/create.blade.php`
 
 ```blade
 <x-app-layout>
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-6">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             {{ __('fixcity::ticket.create.title') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             {{ __('laraxot::ticket.create.title') }}
         </h1>
         
@@ -75,12 +65,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 {{-- Step 1: Privacy Consent --}}
                 <x-ui::stepper-step 
                     :number="1" 
-<<<<<<< HEAD
-                    :title="__('laraxot::ticket.create.privacy_title')"
-                >
-                    @include('laraxot::tickets.steps.privacy')
-=======
-<<<<<<< HEAD
                     :title="__('fixcity::ticket.create.privacy_title')"
                 >
                     @include('fixcity::tickets.steps.privacy')
@@ -88,19 +72,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                     :title="__('laraxot::ticket.create.privacy_title')"
                 >
                     @include('laraxot::tickets.steps.privacy')
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 </x-ui::stepper-step>
                 
                 {{-- Step 2: Data Entry --}}
                 <x-ui::stepper-step 
                     :number="2" 
-<<<<<<< HEAD
-                    :title="__('laraxot::ticket.create.data_title')"
-                >
-                    @include('laraxot::tickets.steps.data')
-=======
-<<<<<<< HEAD
                     :title="__('fixcity::ticket.create.data_title')"
                 >
                     @include('fixcity::tickets.steps.data')
@@ -108,19 +84,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                     :title="__('laraxot::ticket.create.data_title')"
                 >
                     @include('laraxot::tickets.steps.data')
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 </x-ui::stepper-step>
                 
                 {{-- Step 3: Summary --}}
                 <x-ui::stepper-step 
                     :number="3" 
-<<<<<<< HEAD
-                    :title="__('laraxot::ticket.create.summary_title')"
-                >
-                    @include('laraxot::tickets.steps.summary')
-=======
-<<<<<<< HEAD
                     :title="__('fixcity::ticket.create.summary_title')"
                 >
                     @include('fixcity::tickets.steps.summary')
@@ -128,19 +96,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                     :title="__('laraxot::ticket.create.summary_title')"
                 >
                     @include('laraxot::tickets.steps.summary')
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 </x-ui::stepper-step>
                 
                 {{-- Step 4: Confirmation --}}
                 <x-ui::stepper-step 
                     :number="4" 
-<<<<<<< HEAD
-                    :title="__('laraxot::ticket.create.confirmation_title')"
-                >
-                    @include('laraxot::tickets.steps.confirmation')
-=======
-<<<<<<< HEAD
                     :title="__('fixcity::ticket.create.confirmation_title')"
                 >
                     @include('fixcity::tickets.steps.confirmation')
@@ -148,8 +108,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                     :title="__('laraxot::ticket.create.confirmation_title')"
                 >
                     @include('laraxot::tickets.steps.confirmation')
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 </x-ui::stepper-step>
             </x-ui::stepper>
         </form>
@@ -176,13 +134,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 submitForm() {
                     // Validate all steps
                     if (!this.validateAllSteps()) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                         alert('{{ __("fixcity::ticket.create.validation_error") }}');
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                         alert('{{ __("laraxot::ticket.create.validation_error") }}');
                         return;
                     }
@@ -206,25 +159,14 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 
 #### Step 2: Create Step Partials
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **File**: `Modules/Fixcity/resources/views/tickets/steps/privacy.blade.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **File**: `Modules/App/resources/views/tickets/steps/privacy.blade.php`
 
 ```blade
 <div class="privacy-step">
     <div class="alert alert-info mb-4">
         <h3 class="alert-heading">
-<<<<<<< HEAD
-            {{ __('laraxot::ticket.privacy.heading') }}
-        </h3>
-        <p>{{ __('laraxot::ticket.privacy.intro') }}</p>
-=======
-<<<<<<< HEAD
             {{ __('fixcity::ticket.privacy.heading') }}
         </h3>
         <p>{{ __('fixcity::ticket.privacy.intro') }}</p>
@@ -232,21 +174,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             {{ __('laraxot::ticket.privacy.heading') }}
         </h3>
         <p>{{ __('laraxot::ticket.privacy.intro') }}</p>
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     </div>
     
     <div class="card mb-4">
         <div class="card-body">
             <h4 class="card-title">
-<<<<<<< HEAD
-                {{ __('laraxot::ticket.privacy.policy_title') }}
-            </h4>
-            
-            <div class="privacy-policy-text" style="max-height: 300px; overflow-y: auto;">
-                {!! __('laraxot::ticket.privacy.policy_content') !!}
-=======
-<<<<<<< HEAD
                 {{ __('fixcity::ticket.privacy.policy_title') }}
             </h4>
             
@@ -258,8 +190,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             
             <div class="privacy-policy-text" style="max-height: 300px; overflow-y: auto;">
                 {!! __('laraxot::ticket.privacy.policy_content') !!}
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             </div>
         </div>
     </div>
@@ -273,38 +203,23 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             required
         >
         <label class="form-check-label" for="privacy_consent">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             {{ __('fixcity::ticket.privacy.consent_label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             {{ __('laraxot::ticket.privacy.consent_label') }}
             <span class="text-danger">*</span>
         </label>
     </div>
     
     <p class="text-muted small mt-2">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
         {{ __('fixcity::ticket.privacy.required_info') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         {{ __('laraxot::ticket.privacy.required_info') }}
     </p>
 </div>
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **File**: `Modules/Fixcity/resources/views/tickets/steps/data.blade.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **File**: `Modules/App/resources/views/tickets/steps/data.blade.php`
 
 ```blade
@@ -312,13 +227,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     {{-- Category Selection --}}
     <fieldset class="mb-4">
         <legend class="h5">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             {{ __('fixcity::ticket.fields.category.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             {{ __('laraxot::ticket.fields.category.label') }}
             <span class="text-danger">*</span>
         </legend>
@@ -330,14 +240,9 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             x-model="formData.category_id"
             required
         >
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             <option value="">{{ __('fixcity::ticket.fields.category.placeholder') }}</option>
             @foreach(\Modules\Fixcity\Enums\TicketTypeEnum::cases() as $type)
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             <option value="">{{ __('laraxot::ticket.fields.category.placeholder') }}</option>
             @foreach(\Modules\App\Enums\TicketTypeEnum::cases() as $type)
                 <option value="{{ $type->value }}">{{ $type->label() }}</option>
@@ -348,21 +253,13 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     {{-- Location --}}
     <fieldset class="mb-4">
         <legend class="h5">
-<<<<<<< HEAD
             {{ __('laraxot::ticket.fields.location.label') }}
-=======
-<<<<<<< HEAD
-            {{ __('fixcity::ticket.fields.location.label') }}
->>>>>>> 7e6063a3 (.)
             <span class="text-danger">*</span>
         </legend>
         <p class="text-muted small">
             {{ __('laraxot::ticket.fields.location.help') }}
         </p>
         
-<<<<<<< HEAD
-        <x-laraxot::map-picker
-=======
         <x-fixcity::map-picker
             <span class="text-danger">*</span>
         </legend>
@@ -380,8 +277,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         </p>
         
         <x-laraxot::map-picker
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             name="location"
             :center="[41.9028, 12.4964]"
             :zoom="13"
@@ -398,25 +293,15 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     {{-- Issue Details --}}
     <fieldset class="mb-4">
         <legend class="h5">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             {{ __('fixcity::ticket.fields.details.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             {{ __('laraxot::ticket.fields.details.label') }}
         </legend>
         
         <div class="mb-3">
             <label for="title" class="form-label">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                 {{ __('fixcity::ticket.fields.title.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 {{ __('laraxot::ticket.fields.title.label') }}
                 <span class="text-danger">*</span>
             </label>
@@ -426,13 +311,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 id="title"
                 name="title"
                 x-model="formData.title"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                 :placeholder="__('fixcity::ticket.fields.title.placeholder')"
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 :placeholder="__('laraxot::ticket.fields.title.placeholder')"
                 required
                 maxlength="255"
@@ -441,13 +321,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         
         <div class="mb-3">
             <label for="description" class="form-label">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                 {{ __('fixcity::ticket.fields.description.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 {{ __('laraxot::ticket.fields.description.label') }}
                 <span class="text-danger">*</span>
             </label>
@@ -457,14 +332,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 name="description"
                 rows="5"
                 x-model="formData.description"
-<<<<<<< HEAD
-                :placeholder="__('laraxot::ticket.fields.description.placeholder')"
-                required
-            ></textarea>
-            <div class="form-text">
-                {{ __('laraxot::ticket.fields.description.help') }}
-=======
-<<<<<<< HEAD
                 :placeholder="__('fixcity::ticket.fields.description.placeholder')"
                 required
             ></textarea>
@@ -476,20 +343,13 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             ></textarea>
             <div class="form-text">
                 {{ __('laraxot::ticket.fields.description.help') }}
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             </div>
         </div>
         
         <div class="mb-3">
             <label for="photos" class="form-label">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                 {{ __('fixcity::ticket.fields.photos.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 {{ __('laraxot::ticket.fields.photos.label') }}
             </label>
             <input 
@@ -502,13 +362,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 @change="formData.photos = Array.from($event.target.files)"
             >
             <div class="form-text">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                 {{ __('fixcity::ticket.fields.photos.help') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 {{ __('laraxot::ticket.fields.photos.help') }}
             </div>
         </div>
@@ -517,26 +372,16 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     {{-- Reporter Information --}}
     <fieldset class="mb-4">
         <legend class="h5">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             {{ __('fixcity::ticket.fields.reporter.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             {{ __('laraxot::ticket.fields.reporter.label') }}
         </legend>
         
         <div class="row">
             <div class="col-md-6 mb-3">
                 <label for="name" class="form-label">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                     {{ __('fixcity::ticket.fields.name.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                     {{ __('laraxot::ticket.fields.name.label') }}
                     <span class="text-danger">*</span>
                 </label>
@@ -552,13 +397,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             
             <div class="col-md-6 mb-3">
                 <label for="email" class="form-label">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                     {{ __('fixcity::ticket.fields.email.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                     {{ __('laraxot::ticket.fields.email.label') }}
                     <span class="text-danger">*</span>
                 </label>
@@ -575,13 +415,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         
         <div class="mb-3">
             <label for="phone" class="form-label">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                 {{ __('fixcity::ticket.fields.phone.label') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 {{ __('laraxot::ticket.fields.phone.label') }}
             </label>
             <input 
@@ -592,13 +427,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 x-model="formData.phone"
             >
             <div class="form-text">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                 {{ __('fixcity::ticket.fields.phone.help') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 {{ __('laraxot::ticket.fields.phone.help') }}
             </div>
         </div>
@@ -606,26 +436,15 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 </div>
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **File**: `Modules/Fixcity/resources/views/tickets/steps/summary.blade.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **File**: `Modules/App/resources/views/tickets/steps/summary.blade.php`
 
 ```blade
 <div class="summary-step">
     <div class="alert alert-warning">
-<<<<<<< HEAD
         <strong>{{ __('laraxot::ticket.summary.review_heading') }}</strong>
         <p>{{ __('laraxot::ticket.summary.review_text') }}</p>
-=======
-<<<<<<< HEAD
-        <strong>{{ __('fixcity::ticket.summary.review_heading') }}</strong>
-        <p>{{ __('fixcity::ticket.summary.review_text') }}</p>
->>>>>>> 7e6063a3 (.)
     </div>
     
     <dl class="row">
@@ -650,9 +469,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <dt class="col-sm-3">{{ __('laraxot::ticket.fields.email.label') }}</dt>
         <dd class="col-sm-9" x-text="formData.email"></dd>
         
-<<<<<<< HEAD
-        <dt class="col-sm-3">{{ __('laraxot::ticket.fields.phone.label') }}</dt>
-=======
         <dt class="col-sm-3">{{ __('fixcity::ticket.fields.phone.label') }}</dt>
     </div>
     
@@ -707,8 +523,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <dd class="col-sm-9" x-text="formData.email"></dd>
         
         <dt class="col-sm-3">{{ __('laraxot::ticket.fields.phone.label') }}</dt>
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         <dd class="col-sm-9" x-text="formData.phone || 'N/A'"></dd>
     </dl>
     
@@ -716,27 +530,17 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <svg class="icon icon-info" aria-hidden="true">
             <use href="#it-info-circle"></use>
         </svg>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
         <strong>{{ __('fixcity::ticket.summary.notification_heading') }}</strong>
         <p>{{ __('fixcity::ticket.summary.notification_text', ['email' => '']) }}</p>
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         <strong>{{ __('laraxot::ticket.summary.notification_heading') }}</strong>
         <p>{{ __('laraxot::ticket.summary.notification_text', ['email' => '']) }}</p>
     </div>
 </div>
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **File**: `Modules/Fixcity/resources/views/tickets/steps/confirmation.blade.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **File**: `Modules/App/resources/views/tickets/steps/confirmation.blade.php`
 
 ```blade
@@ -747,13 +551,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         </svg>
     </div>
     
-<<<<<<< HEAD
-    <h2 class="mb-3">{{ __('laraxot::ticket.confirmation.success_heading') }}</h2>
-    
-    <p class="lead text-muted">
-        {{ __('laraxot::ticket.confirmation.success_text') }}
-=======
-<<<<<<< HEAD
     <h2 class="mb-3">{{ __('fixcity::ticket.confirmation.success_heading') }}</h2>
     
     <p class="lead text-muted">
@@ -763,21 +560,10 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     
     <p class="lead text-muted">
         {{ __('laraxot::ticket.confirmation.success_text') }}
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     </p>
     
     <div class="alert alert-success my-4">
         <p class="mb-0">
-<<<<<<< HEAD
-            <strong>{{ __('laraxot::ticket.confirmation.next_steps_heading') }}</strong>
-        </p>
-        <ol class="text-start mt-3">
-            <li>{{ __('laraxot::ticket.confirmation.step_1') }}</li>
-            <li>{{ __('laraxot::ticket.confirmation.step_2') }}</li>
-            <li>{{ __('laraxot::ticket.confirmation.step_3') }}</li>
-=======
-<<<<<<< HEAD
             <strong>{{ __('fixcity::ticket.confirmation.next_steps_heading') }}</strong>
         </p>
         <ol class="text-start mt-3">
@@ -791,8 +577,6 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             <li>{{ __('laraxot::ticket.confirmation.step_1') }}</li>
             <li>{{ __('laraxot::ticket.confirmation.step_2') }}</li>
             <li>{{ __('laraxot::ticket.confirmation.step_3') }}</li>
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         </ol>
     </div>
 </div>
@@ -820,26 +604,14 @@ Create FAQ pages with AGID-compliant accordion UI.
 
 ### 💻 Implementation
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **File**: `Modules/Fixcity/resources/views/faq/index.blade.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **File**: `Modules/App/resources/views/faq/index.blade.php`
 
 ```blade
 <x-app-layout>
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-2">
-<<<<<<< HEAD
-            {{ __('laraxot::faq.title') }}
-        </h1>
-        <p class="text-lg text-gray-600 mb-8">
-            {{ __('laraxot::faq.subtitle') }}
-=======
-<<<<<<< HEAD
             {{ __('fixcity::faq.title') }}
         </h1>
         <p class="text-lg text-gray-600 mb-8">
@@ -849,8 +621,6 @@ Create FAQ pages with AGID-compliant accordion UI.
         </h1>
         <p class="text-lg text-gray-600 mb-8">
             {{ __('laraxot::faq.subtitle') }}
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         </p>
         
         {{-- Search FAQ --}}
@@ -859,13 +629,8 @@ Create FAQ pages with AGID-compliant accordion UI.
                 <input 
                     type="search" 
                     class="form-control"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                     placeholder="{{ __('fixcity::faq.search_placeholder') }}"
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                     placeholder="{{ __('laraxot::faq.search_placeholder') }}"
                     x-data
                     x-on:input.debounce.300ms="searchFaq($event.target.value)"
@@ -894,13 +659,8 @@ Create FAQ pages with AGID-compliant accordion UI.
                             
                             @if($faq->related_links)
                                 <div class="related-links mt-3">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                                     <strong>{{ __('fixcity::faq.related_links') }}:</strong>
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                                     <strong>{{ __('laraxot::faq.related_links') }}:</strong>
                                     <ul>
                                         @foreach($faq->related_links as $link)
@@ -923,20 +683,12 @@ Create FAQ pages with AGID-compliant accordion UI.
         <div class="card bg-light mt-8">
             <div class="card-body text-center">
                 <h3 class="card-title">
-<<<<<<< HEAD
                     {{ __('laraxot::faq.need_help_title') }}
-=======
-<<<<<<< HEAD
-                    {{ __('fixcity::faq.need_help_title') }}
->>>>>>> 7e6063a3 (.)
                 </h3>
                 <p class="card-text">
                     {{ __('laraxot::faq.need_help_text') }}
                 </p>
                 <a href="{{ route('contact') }}" class="btn btn-primary">
-<<<<<<< HEAD
-                    {{ __('laraxot::faq.contact_button') }}
-=======
                     {{ __('fixcity::faq.contact_button') }}
                 </h3>
                 <p class="card-text">
@@ -952,8 +704,6 @@ Create FAQ pages with AGID-compliant accordion UI.
                 </p>
                 <a href="{{ route('contact') }}" class="btn btn-primary">
                     {{ __('laraxot::faq.contact_button') }}
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                 </a>
             </div>
         </div>
@@ -961,13 +711,8 @@ Create FAQ pages with AGID-compliant accordion UI.
 </x-app-layout>
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **Model**: `Modules/Fixcity/app/Models/Faq.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **Model**: `Modules/App/app/Models/Faq.php`
 
 ```php
@@ -975,13 +720,8 @@ Create FAQ pages with AGID-compliant accordion UI.
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 namespace Modules\Fixcity\Models;
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 namespace Modules\App\Models;
 
 use Illuminate\Database\Eloquent\Model;
@@ -1017,13 +757,8 @@ class Faq extends Model
 
 **Migration**:
 ```bash
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 php artisan make:migration create_faqs_table --path=Modules/Fixcity/database/Migrations
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 php artisan make:migration create_faqs_table --path=Modules/App/database/Migrations
 ```
 
@@ -1068,13 +803,8 @@ MEILISEARCH_KEY=your-master-key
 
 ### 💻 Implementation
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **Model**: `Modules/Fixcity/app/Models/Ticket.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **Model**: `Modules/App/app/Models/Ticket.php`
 
 ```php
@@ -1111,13 +841,8 @@ class Ticket extends Model
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **Controller**: `Modules/Fixcity/app/Http/Controllers/SearchController.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **Controller**: `Modules/App/app/Http/Controllers/SearchController.php`
 
 ```php
@@ -1125,13 +850,6 @@ class Ticket extends Model
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-namespace Modules\App\Http\Controllers;
-
-use Illuminate\Http\Request;
-use Modules\App\Models\Ticket;
-=======
-<<<<<<< HEAD
 namespace Modules\Fixcity\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -1141,8 +859,6 @@ namespace Modules\App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Modules\App\Models\Ticket;
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 class SearchController
 {
@@ -1151,13 +867,8 @@ class SearchController
         $query = $request->input('q');
         
         if (empty($query)) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             return view('fixcity::search.index', [
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             return view('laraxot::search.index', [
                 'query' => '',
                 'results' => collect(),
@@ -1169,13 +880,8 @@ class SearchController
             ->query(fn ($builder) => $builder->with(['owner', 'responsible']))
             ->paginate(20);
         
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
         return view('fixcity::search.index', [
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         return view('laraxot::search.index', [
             'query' => $query,
             'results' => $results,
@@ -1190,26 +896,16 @@ class SearchController
 Route::get('/search', [SearchController::class, 'index'])->name('search');
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **View**: `Modules/Fixcity/resources/views/search/index.blade.php`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 **View**: `Modules/App/resources/views/search/index.blade.php`
 
 ```blade
 <x-app-layout>
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-6">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             {{ __('fixcity::search.title') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
             {{ __('laraxot::search.title') }}
         </h1>
         
@@ -1221,13 +917,8 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
                     name="q" 
                     class="form-control form-control-lg"
                     value="{{ $query }}"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                     placeholder="{{ __('fixcity::search.placeholder') }}"
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                     placeholder="{{ __('laraxot::search.placeholder') }}"
                     autofocus
                 >
@@ -1235,13 +926,8 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
                     <svg class="icon icon-white" aria-hidden="true">
                         <use href="#it-search"></use>
                     </svg>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                     {{ __('fixcity::search.button') }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                     {{ __('laraxot::search.button') }}
                 </button>
             </div>
@@ -1250,33 +936,18 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
         @if($query)
             <div class="search-results">
                 <p class="text-muted mb-4">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                     {{ trans_choice('fixcity::search.results_count', $total, ['count' => $total, 'query' => $query]) }}
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                     {{ trans_choice('laraxot::search.results_count', $total, ['count' => $total, 'query' => $query]) }}
                 </p>
                 
                 @if($results->isEmpty())
                     <div class="alert alert-info">
                         <h3 class="alert-heading">
-<<<<<<< HEAD
                             {{ __('laraxot::search.no_results_heading') }}
-=======
-<<<<<<< HEAD
-                            {{ __('fixcity::search.no_results_heading') }}
->>>>>>> 7e6063a3 (.)
                         </h3>
                         <p>{{ __('laraxot::search.no_results_text') }}</p>
                         <ul>
-<<<<<<< HEAD
-                            <li>{{ __('laraxot::search.tip_1') }}</li>
-                            <li>{{ __('laraxot::search.tip_2') }}</li>
-                            <li>{{ __('laraxot::search.tip_3') }}</li>
-=======
                             <li>{{ __('fixcity::search.tip_1') }}</li>
                             <li>{{ __('fixcity::search.tip_2') }}</li>
                             <li>{{ __('fixcity::search.tip_3') }}</li>
@@ -1294,8 +965,6 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
                             <li>{{ __('laraxot::search.tip_1') }}</li>
                             <li>{{ __('laraxot::search.tip_2') }}</li>
                             <li>{{ __('laraxot::search.tip_3') }}</li>
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
                         </ul>
                     </div>
                 @else
@@ -1337,13 +1006,8 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
 
 **Index tickets**:
 ```bash
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 php artisan scout:import "Modules\\Fixcity\\Models\\Ticket"
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 php artisan scout:import "Modules\\App\\Models\\Ticket"
 ```
 

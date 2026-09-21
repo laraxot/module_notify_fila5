@@ -153,13 +153,8 @@ bash -n bashscripts/git/subtrees/sync_remote_repo.sh && echo "✅ OK"
 ### CLI Mode (Sviluppo Locale)
 
 ```bash
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 cd /var/www/_bases/base_ptvx_fila5
 bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 ```

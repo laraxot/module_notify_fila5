@@ -127,15 +127,9 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 ## 📂 DOCUMENTI IMPORTANTI DA LEGGERE
 
 ### Prima di Iniziare (5 minuti)
-<<<<<<< HEAD
-1. **[Session Summary](./phpstan/session-summary.md)** - Recap ieri
-=======
-<<<<<<< HEAD
 1. **[Session Summary](./phpstan/session-summary-2025-10-01.md)** - Recap ieri
 =======
 1. **[Session Summary](./phpstan/session-summary.md)** - Recap ieri
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 ### Durante il Lavoro (reference)
 2. **[Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)** - Errori dettagliati Xot
@@ -143,15 +137,9 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status
-<<<<<<< HEAD
-5. **[Analisi Completa](./analisi-completa-progetto-fixcity.md)** - Executive summary
-=======
-<<<<<<< HEAD
 5. **[Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)** - Executive summary
 =======
 5. **[Analisi Completa](./analisi-completa-progetto-fixcity.md)** - Executive summary
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 
 ---
 

@@ -5,11 +5,6 @@ declare(strict_types=1);
 return [
     'navigation' => ['group' => 'Sistema', 'label' => 'Temi Notifiche', 'icon' => 'notify-theme-animated', 'sort' => 50, 'description' => 'Gestione dei temi per le notifiche'],
     'fields' => [
-<<<<<<< HEAD
-        'name' => ['label' => 'Nome', 'tooltip' => 'Nome del tema', 'placeholder' => 'es: Tema Aziendale', 'help' => 'Inserisci un nome descrittivo per il tema', 'helper_text' => '', 'description' => ''],
-        'description' => ['label' => 'Descrizione', 'tooltip' => 'Descrizione del tema', 'placeholder' => 'es: Tema standard per le comunicazioni aziendali', 'help' => 'Breve descrizione dello scopo del tema', 'helper_text' => '', 'description' => ''],
-=======
-<<<<<<< HEAD
         'name' => [
             'label' => 'Nome',
             'tooltip' => 'Nome del tema',
@@ -24,11 +19,6 @@ return [
             'help' => 'Breve descrizione dello scopo del tema',
             'helper_text' => '',
             'description' => ''],
-=======
-        'name' => ['label' => 'Nome', 'tooltip' => 'Nome del tema', 'placeholder' => 'es: Tema Aziendale', 'help' => 'Inserisci un nome descrittivo per il tema', 'helper_text' => '', 'description' => ''],
-        'description' => ['label' => 'Descrizione', 'tooltip' => 'Descrizione del tema', 'placeholder' => 'es: Tema standard per le comunicazioni aziendali', 'help' => 'Breve descrizione dello scopo del tema', 'helper_text' => '', 'description' => ''],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         'colors' => [
             'label' => 'Colori',
             'tooltip' => 'Schema colori del tema',
@@ -39,25 +29,11 @@ return [
                 'accent' => ['label' => 'Accento', 'tooltip' => 'Colore di accento per elementi in evidenza', 'placeholder' => 'es: #F5A623'],
                 'success' => ['label' => 'Successo', 'tooltip' => 'Colore per messaggi di successo', 'placeholder' => 'es: #7CBD5C'],
                 'warning' => ['label' => 'Attenzione', 'tooltip' => 'Colore per messaggi di avviso', 'placeholder' => 'es: #F5A623'],
-<<<<<<< HEAD
                 'error' => ['label' => 'Errore', 'tooltip' => 'Colore per messaggi di errore', 'placeholder' => 'es: #D0021B'],
             ],
             'helper_text' => '',
             'description' => '',
         ],
-=======
-<<<<<<< HEAD
-                'error' => ['label' => 'Errore', 'tooltip' => 'Colore per messaggi di errore', 'placeholder' => 'es: #D0021B']],
-            'helper_text' => '',
-            'description' => ''],
-=======
-                'error' => ['label' => 'Errore', 'tooltip' => 'Colore per messaggi di errore', 'placeholder' => 'es: #D0021B'],
-            ],
-            'helper_text' => '',
-            'description' => '',
-        ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         'typography' => [
             'label' => 'Tipografia',
             'tooltip' => 'Impostazioni tipografiche',
@@ -69,18 +45,6 @@ return [
                     'label' => 'Dimensioni font',
                     'tooltip' => 'Dimensioni dei caratteri',
                     'options' => [
-<<<<<<< HEAD
-                        'small' => ['label' => 'Piccolo', 'tooltip' => 'Testo piccolo (es: note]'],
-                        'normal' => ['label' => 'Normale', 'tooltip' => 'Testo normale'],
-                        'large' => ['label' => 'Grande', 'tooltip' => 'Testo grande (es: titoli]'],
-                    ],
-                ],
-            ],
-            'helper_text' => '',
-            'description' => '',
-        ],
-=======
-<<<<<<< HEAD
                         'small' => [
                             'label' => 'Piccolo',
                             'tooltip' => 'Testo piccolo (es: note]'],
@@ -92,18 +56,6 @@ return [
                             'tooltip' => 'Testo grande (es: titoli]']]]],
             'helper_text' => '',
             'description' => ''],
-=======
-                        'small' => ['label' => 'Piccolo', 'tooltip' => 'Testo piccolo (es: note]'],
-                        'normal' => ['label' => 'Normale', 'tooltip' => 'Testo normale'],
-                        'large' => ['label' => 'Grande', 'tooltip' => 'Testo grande (es: titoli]'],
-                    ],
-                ],
-            ],
-            'helper_text' => '',
-            'description' => '',
-        ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         'layout' => [
             'label' => 'Layout',
             'tooltip' => 'Impostazioni del layout',
@@ -111,25 +63,11 @@ return [
             'options' => [
                 'header' => ['label' => 'Intestazione', 'tooltip' => 'Stile dell\'intestazione'],
                 'footer' => ['label' => 'Piè di pagina', 'tooltip' => 'Stile del piè di pagina'],
-<<<<<<< HEAD
                 'spacing' => ['label' => 'Spaziatura', 'tooltip' => 'Spaziatura tra gli elementi'],
             ],
             'helper_text' => '',
             'description' => '',
         ],
-=======
-<<<<<<< HEAD
-                'spacing' => ['label' => 'Spaziatura', 'tooltip' => 'Spaziatura tra gli elementi']],
-            'helper_text' => '',
-            'description' => ''],
-=======
-                'spacing' => ['label' => 'Spaziatura', 'tooltip' => 'Spaziatura tra gli elementi'],
-            ],
-            'helper_text' => '',
-            'description' => '',
-        ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         'assets' => [
             'label' => 'Risorse',
             'tooltip' => 'Risorse del tema',
@@ -137,25 +75,11 @@ return [
             'options' => [
                 'logo' => ['label' => 'Logo', 'tooltip' => 'Logo da utilizzare nelle notifiche'],
                 'background' => ['label' => 'Sfondo', 'tooltip' => 'Immagine di sfondo'],
-<<<<<<< HEAD
                 'icons' => ['label' => 'Icone', 'tooltip' => 'Set di icone del tema'],
             ],
             'helper_text' => '',
             'description' => '',
         ],
-=======
-<<<<<<< HEAD
-                'icons' => ['label' => 'Icone', 'tooltip' => 'Set di icone del tema']],
-            'helper_text' => '',
-            'description' => ''],
-=======
-                'icons' => ['label' => 'Icone', 'tooltip' => 'Set di icone del tema'],
-            ],
-            'helper_text' => '',
-            'description' => '',
-        ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         'is_default' => ['label' => 'Predefinito', 'tooltip' => 'Imposta come tema predefinito', 'help' => 'Il tema predefinito verrà utilizzato per tutte le notifiche senza tema specifico', 'helper_text' => '', 'description' => ''],
         'is_active' => ['label' => 'Attivo', 'tooltip' => 'Stato di attivazione del tema', 'help' => 'Solo i temi attivi possono essere utilizzati', 'helper_text' => '', 'description' => ''],
         'id' => ['label' => 'id'],
@@ -166,17 +90,8 @@ return [
         'from_email' => ['label' => 'from_email'],
         'created_at' => ['label' => 'created_at'],
         'updated_at' => ['label' => 'updated_at'],
-<<<<<<< HEAD
         'post_type' => ['label' => 'post_type'],
     ],
-=======
-<<<<<<< HEAD
-        'post_type' => ['label' => 'post_type']],
-=======
-        'post_type' => ['label' => 'post_type'],
-    ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     'actions' => [
         'preview' => ['label' => 'Anteprima', 'tooltip' => 'Visualizza anteprima del tema', 'icon' => 'heroicon-o-eye', 'color' => 'primary'],
         'duplicate' => [
@@ -184,17 +99,8 @@ return [
             'tooltip' => 'Crea una copia del tema',
             'icon' => 'heroicon-o-document-duplicate',
             'color' => 'info',
-<<<<<<< HEAD
             'confirmation' => ['title' => 'Conferma duplicazione', 'message' => 'Vuoi creare una copia di questo tema?', 'confirm' => 'Sì, duplica', 'cancel' => 'No, annulla'],
         ],
-=======
-<<<<<<< HEAD
-            'confirmation' => ['title' => 'Conferma duplicazione', 'message' => 'Vuoi creare una copia di questo tema?', 'confirm' => 'Sì, duplica', 'cancel' => 'No, annulla']],
-=======
-            'confirmation' => ['title' => 'Conferma duplicazione', 'message' => 'Vuoi creare una copia di questo tema?', 'confirm' => 'Sì, duplica', 'cancel' => 'No, annulla'],
-        ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
         'export' => ['label' => 'Esporta', 'tooltip' => 'Esporta configurazione del tema', 'icon' => 'heroicon-o-arrow-down-tray', 'color' => 'success'],
         'import' => ['label' => 'Importa', 'tooltip' => 'Importa configurazione del tema', 'icon' => 'heroicon-o-arrow-up-tray', 'color' => 'warning'],
         'set_default' => [
@@ -202,7 +108,6 @@ return [
             'tooltip' => 'Imposta questo tema come predefinito',
             'icon' => 'heroicon-o-star',
             'color' => 'primary',
-<<<<<<< HEAD
             'confirmation' => ['title' => 'Conferma impostazione predefinito', 'message' => 'Vuoi impostare questo tema come predefinito?', 'confirm' => 'Sì, imposta', 'cancel' => 'No, annulla'],
         ],
         'create' => ['label' => 'create', 'icon' => 'create', 'tooltip' => 'create'],
@@ -211,40 +116,11 @@ return [
         'view' => ['label' => 'view', 'icon' => 'view', 'tooltip' => 'view'],
         'edit' => ['label' => 'edit', 'icon' => 'edit', 'tooltip' => 'edit'],
     ],
-=======
-<<<<<<< HEAD
-            'confirmation' => ['title' => 'Conferma impostazione predefinito', 'message' => 'Vuoi impostare questo tema come predefinito?', 'confirm' => 'Sì, imposta', 'cancel' => 'No, annulla']],
-        'create' => ['label' => 'create', 'icon' => 'create', 'tooltip' => 'create']],
-=======
-            'confirmation' => ['title' => 'Conferma impostazione predefinito', 'message' => 'Vuoi impostare questo tema come predefinito?', 'confirm' => 'Sì, imposta', 'cancel' => 'No, annulla'],
-        ],
-        'create' => ['label' => 'create', 'icon' => 'create', 'tooltip' => 'create'],
-    ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     'messages' => [
         'preview_title' => ['title' => 'Anteprima Tema', 'message' => 'Questa è un\'anteprima di come apparirà il tema'],
         'duplicated' => ['title' => 'Tema Duplicato', 'message' => 'Il tema è stato duplicato con successo'],
         'export_success' => ['title' => 'Esportazione Completata', 'message' => 'La configurazione del tema è stata esportata con successo'],
         'import_success' => ['title' => 'Importazione Completata', 'message' => 'La configurazione del tema è stata importata con successo'],
-<<<<<<< HEAD
-        'set_default_success' => ['title' => 'Tema Predefinito', 'message' => 'Il tema è stato impostato come predefinito'],
-    ],
-=======
-<<<<<<< HEAD
-        'set_default_success' => ['title' => 'Tema Predefinito', 'message' => 'Il tema è stato impostato come predefinito']],
->>>>>>> 7e6063a3 (.)
-    'filters' => [
-        'status' => ['label' => 'Stato', 'tooltip' => 'Filtra per stato di attivazione'],
-        'type' => ['label' => 'Tipo', 'tooltip' => 'Filtra per tipo di tema'],
-    ],
-    'label' => 'Notify Themes',
-<<<<<<< HEAD
-    'plural_label' => 'Notify Themes (Plurale)',
-];
-=======
-    'plural_label' => 'Notify Themes (Plurale)'];
-=======
         'set_default_success' => ['title' => 'Tema Predefinito', 'message' => 'Il tema è stato impostato come predefinito'],
     ],
     'filters' => [
@@ -254,5 +130,3 @@ return [
     'label' => 'Notify Themes',
     'plural_label' => 'Notify Themes (Plurale)',
 ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

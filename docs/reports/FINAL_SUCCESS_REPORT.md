@@ -159,15 +159,10 @@ test -f bashscripts/git/subtrees/sync_remote_repo.sh || { echo "sync_remote_repo
 ## 🔗 Resources
 
 ### GitHub Links
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 - [Sync Remote Repo Action](https://github.com/laraxot/base_fixcity_fila5/actions/workflows/sync-remote-repo.yml)
 - [Sync Subtrees Action](https://github.com/laraxot/base_fixcity_fila5/actions/workflows/sync-subtrees.yml)
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 - [Sync Remote Repo Action](https://github.com/laraxot/platform/actions/workflows/sync-remote-repo.yml)
 - [Sync Subtrees Action](https://github.com/laraxot/platform/actions/workflows/sync-subtrees.yml)
 - [Actions Tab](https://github.com/laraxot/platform/actions)

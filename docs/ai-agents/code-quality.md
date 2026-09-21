@@ -39,9 +39,6 @@ bash laravel/tools/phpmd.sh laravel text phpmd.xml --exclude vendor,node_modules
 
 **Di ritorno:**
 - → [CLAUDE.md - Code Quality](../../CLAUDE.md)
-<<<<<<< HEAD
 - → [AGENTS.md - Quality Checks](../../AGENTS.md#quality-checks-obbligatori-dopo-ogni-modifica)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - → [agents.md - Quality Checks](../../agents.md#quality-checks-obbligatori-dopo-ogni-modifica)
 - → [INDEX](index.md)

@@ -59,12 +59,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
             tags: ['appointment', $type],
             metadata: [
                 'appointment_id' => is_object($appointment) && isset($appointment->id) ? $appointment->id : null,
-<<<<<<< HEAD
                 'type' => $type],
-=======
-                'type' => $type,
-            ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         );
     }
 
@@ -90,12 +85,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
                 'appointment' => $this->notificationData['appointment'],
                 'patient' => $this->notificationData['patient'],
                 'type' => $type,
-<<<<<<< HEAD
                 'additionalData' => $this->notificationData['additionalData'] ?? []],
-=======
-                'additionalData' => $this->notificationData['additionalData'] ?? [],
-            ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         );
     }
 

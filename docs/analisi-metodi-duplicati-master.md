@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION"
 type: concept
@@ -563,7 +561,6 @@ public function getTableFilters(): array
 
 <!-- Merged from analisi-metodi-duplicati-MASTER.md, which collided with this file on case-insensitive filesystems. -->
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # 🐄✨ ANALISI DIVINA METODI DUPLICATI - MASTER EDITION ✨🐄
 
 **Data Analisi:** 2025-10-15  

@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # Notify Module - PHPStan Level 10 Fixes - Marzo 2026
-=======
-<<<<<<< HEAD
-# PHPStan Errori Modulo Notify - 2025-01-22
->>>>>>> 7e6063a3 (.)
 
 ## ✅ **Stato Completato**
 
@@ -71,11 +66,6 @@ class SendNotificationAction
 - `docs/phpstan-level10-guide.md`: Guida completa PHPStan Level 10
 
 ---
-<<<<<<< HEAD
-*Ultimo aggiornamento: Marzo 2026*
-*Stato: ✅ Completato - 0 errori PHPStan*
-=======
-
 ## Error 2: WhatsAppActionFactory.php:46
 
 **Error:** Part $normalizedDriver (array<string>|string) of encapsed string cannot be cast to string.
@@ -202,5 +192,3 @@ class SendNotificationAction
 ---
 *Ultimo aggiornamento: Marzo 2026*
 *Stato: ✅ Completato - 0 errori PHPStan*
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

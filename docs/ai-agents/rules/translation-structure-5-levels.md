@@ -58,12 +58,9 @@ La **COLLEZIONE** di elementi.
 
 ### Level 4: Element
 ```
-<<<<<<< HEAD
 predict::user.fields.first_name.
 predict::fields.outcome.title.
 predict::labels.market.status.
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 forecast::user.fields.first_name.
 forecast::fields.outcome.title.
 forecast::labels.market.status.
@@ -145,10 +142,7 @@ __('forecast::labels.market.status')      // ❌ SOLO 4! (manca .label)
 
 ### Level 1: Organization
 ```
-<<<<<<< HEAD
 predict::  → Modulo Predict
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 forecast::  → Modulo Forecast
 blog::     → Modulo Blog
 user::     → Modulo User
@@ -167,10 +161,7 @@ titles::   → Titoli
 ### Level 3: Collection
 ```
 outcome::  → Collezione outcome
-<<<<<<< HEAD
 predict::  → Collezione predict
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 forecast::  → Collezione forecast
 market::   → Collezione market
 ```
@@ -216,12 +207,9 @@ status::     → Elemento status
 
 ```php
 // 🚩 RED FLAG: MENO di 5 livelli
-<<<<<<< HEAD
 __('predict::titles.outcomes')      // 🚩 SOLO 2!
 __('predict::labels.volume')        // 🚩 SOLO 2!
 __('predict::fields.title')         // 🚩 SOLO 2!
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 __('forecast::titles.outcomes')      // 🚩 SOLO 2!
 __('forecast::labels.volume')        // 🚩 SOLO 2!
 __('forecast::fields.title')         // 🚩 SOLO 2!
@@ -230,12 +218,9 @@ __('forecast::fields.title')         // 🚩 SOLO 2!
 **Immediate Fix**:
 ```php
 // ✅ CORRETTO: 5 livelli
-<<<<<<< HEAD
 __('predict::titles.outcome.title.label')
 __('predict::labels.market.volume.label')
 __('predict::fields.predict.title.label')
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 __('forecast::titles.outcome.title.label')
 __('forecast::labels.market.volume.label')
 __('forecast::fields.forecast.title.label')
@@ -282,20 +267,14 @@ __('forecast::fields.outcome.title.label')  // aggiunto .label
 ## 🔗 Related Documentation
 
 ### AI Agents Docs
-<<<<<<< HEAD
 - **[Rules Index](00-INDEX.md)** - All rules
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **[Rules Index](00-index.md)** - All rules
 - **[Multi-Outcome Universal](multi-outcome-universal.md)** - Core principle
 - **[Use Models Not DB::Table](use-models-not-db-table.md)** - Model usage
 
 ### Module Docs
-<<<<<<< HEAD
 - **[Translation Structure](../../laravel/Modules/Predict/docs/translation-structure.md)** - Translation guide
 - **[ADR-003 Deprecate Binary Fields](../../laravel/Modules/Predict/docs/ADR-003_DEPRECATE_BINARY_CREDIT_FIELDS.md)** - Deprecation plan
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **[Translation Structure](../../laravel/Modules/Forecast/docs/translation-structure.md)** - Translation guide
 - **[ADR-003 Deprecate Binary Fields](../../laravel/Modules/Forecast/docs/ADR-003_DEPRECATE_BINARY_CREDIT_FIELDS.md)** - Deprecation plan
 

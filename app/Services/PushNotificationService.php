@@ -38,7 +38,6 @@ class PushNotificationService
         $this->config = [
             'fcm' => [
                 'server_key' => config('notify.fcm.server_key'),
-<<<<<<< HEAD
                 'url' => 'https://fcm.googleapis.com/fcm/send'],
             'apns' => [
                 'certificate' => config('notify.apns.certificate'),
@@ -48,21 +47,6 @@ class PushNotificationService
                 'vapid_public' => config('notify.webpush.vapid_public'),
                 'vapid_private' => config('notify.webpush.vapid_private'),
                 'vapid_subject' => config('notify.webpush.vapid_subject')]];
-=======
-                'url' => 'https://fcm.googleapis.com/fcm/send',
-            ],
-            'apns' => [
-                'certificate' => config('notify.apns.certificate'),
-                'passphrase' => config('notify.apns.passphrase'),
-                'url' => config('notify.apns.url'),
-            ],
-            'webpush' => [
-                'vapid_public' => config('notify.webpush.vapid_public'),
-                'vapid_private' => config('notify.webpush.vapid_private'),
-                'vapid_subject' => config('notify.webpush.vapid_subject'),
-            ],
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -83,21 +67,11 @@ class PushNotificationService
                 Log::error("Push notification failed for platform {$platform}", [
                     'error' => $e->getMessage(),
                     'token' => $token,
-<<<<<<< HEAD
                     'notification' => $notification]);
 
                 $results[$platform] = [
                     'success' => false,
                     'error' => $e->getMessage()];
-=======
-                    'notification' => $notification,
-                ]);
-
-                $results[$platform] = [
-                    'success' => false,
-                    'error' => $e->getMessage(),
-                ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             }
         }
 
@@ -125,23 +99,13 @@ class PushNotificationService
             } catch (Exception $e) {
                 Log::error("Batch push notification failed for platform {$platform}", [
                     'error' => $e->getMessage(),
-<<<<<<< HEAD
                     'token_count' => count($platformTokens)]);
-=======
-                    'token_count' => count($platformTokens),
-                ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
                 $results[$platform] = [
                     'success' => false,
                     'error' => $e->getMessage(),
                     'sent' => 0,
-<<<<<<< HEAD
                     'failed' => count($platformTokens)];
-=======
-                    'failed' => count($platformTokens),
-                ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             }
         }
 
@@ -165,21 +129,11 @@ class PushNotificationService
             } catch (Exception $e) {
                 Log::error("Topic push notification failed for platform {$platform}", [
                     'error' => $e->getMessage(),
-<<<<<<< HEAD
                     'topic' => $topic]);
 
                 $results[$platform] = [
                     'success' => false,
                     'error' => $e->getMessage()];
-=======
-                    'topic' => $topic,
-                ]);
-
-                $results[$platform] = [
-                    'success' => false,
-                    'error' => $e->getMessage(),
-                ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             }
         }
 
@@ -198,12 +152,7 @@ class PushNotificationService
         if ($tokens === []) {
             return [
                 'success' => false,
-<<<<<<< HEAD
                 'message' => 'No active tokens found'];
-=======
-                'message' => 'No active tokens found',
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         return $this->sendToDevices($tokens, $notification, $data);
@@ -222,12 +171,7 @@ class PushNotificationService
             'tokens' => $tokens,
             'notification' => $notification,
             'data' => $data,
-<<<<<<< HEAD
             'schedule_time' => $scheduleTime->getTimestamp()], $scheduleTime);
-=======
-            'schedule_time' => $scheduleTime->getTimestamp(),
-        ], $scheduleTime);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         SendScheduledPushNotification::dispatch($jobId)
             ->delay($scheduleTime);
@@ -268,12 +212,7 @@ class PushNotificationService
         if ($tokens === []) {
             return [
                 'success' => false,
-<<<<<<< HEAD
                 'message' => 'No tokens found matching criteria'];
-=======
-                'message' => 'No tokens found matching criteria',
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         return $this->sendToDevices($tokens, $notification, $data);
@@ -308,19 +247,10 @@ class PushNotificationService
                 'body' => $notification['body'],
                 'icon' => $notification['icon'] ?? '/icons/icon-192x192.png',
                 'sound' => $notification['sound'] ?? 'default',
-<<<<<<< HEAD
                 'badge' => $notification['badge'] ?? 1],
             'data' => $data,
             'priority' => $notification['priority'] ?? 'high',
             'ttl' => $notification['ttl'] ?? 3600];
-=======
-                'badge' => $notification['badge'] ?? 1,
-            ],
-            'data' => $data,
-            'priority' => $notification['priority'] ?? 'high',
-            'ttl' => $notification['ttl'] ?? 3600,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $fcmConfig = $this->config['fcm'] ?? [];
         Assert::isArray($fcmConfig, 'FCM config must be an array');
@@ -329,12 +259,7 @@ class PushNotificationService
 
         $response = Http::withHeaders([
             'Authorization' => 'key='.$serverKey,
-<<<<<<< HEAD
             'Content-Type' => 'application/json'])->post($url, $payload);
-=======
-            'Content-Type' => 'application/json',
-        ])->post($url, $payload);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         if ($response instanceof PromiseInterface) {
             $response = $response->wait();
@@ -350,12 +275,7 @@ class PushNotificationService
             return [
                 'success' => true,
                 'message_id' => is_array($responseData) && isset($responseData['message_id']) ? $responseData['message_id'] : null,
-<<<<<<< HEAD
                 'response' => $responseData];
-=======
-                'response' => $responseData,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         throw new Exception('FCM request failed: '.$response->body());
@@ -371,12 +291,7 @@ class PushNotificationService
         return [
             'success' => true,
             'message' => 'APNS notification sent (simulated)',
-<<<<<<< HEAD
             'platform' => 'apns'];
-=======
-            'platform' => 'apns',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -394,22 +309,12 @@ class PushNotificationService
             'data' => $data,
             'actions' => $notification['actions'] ?? [],
             'requireInteraction' => $notification['requireInteraction'] ?? false,
-<<<<<<< HEAD
             'silent' => $notification['silent'] ?? false]);
-=======
-            'silent' => $notification['silent'] ?? false,
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         return [
             'success' => true,
             'message' => 'Web Push notification sent (simulated)',
-<<<<<<< HEAD
             'platform' => 'webpush'];
-=======
-            'platform' => 'webpush',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -439,12 +344,7 @@ class PushNotificationService
                 $results[] = [
                     'success' => false,
                     'error' => $e->getMessage(),
-<<<<<<< HEAD
                     'token' => $token];
-=======
-                    'token' => $token,
-                ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             }
         }
 
@@ -453,12 +353,7 @@ class PushNotificationService
             'sent' => $successCount,
             'failed' => $failureCount,
             'total' => count($tokens),
-<<<<<<< HEAD
             'results' => $results];
-=======
-            'results' => $results,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -488,15 +383,8 @@ class PushNotificationService
             'notification' => [
                 'title' => $notification['title'],
                 'body' => $notification['body'],
-<<<<<<< HEAD
                 'icon' => $notification['icon'] ?? '/icons/icon-192x192.png'],
             'data' => $data];
-=======
-                'icon' => $notification['icon'] ?? '/icons/icon-192x192.png',
-            ],
-            'data' => $data,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $fcmConfig = $this->config['fcm'] ?? [];
         Assert::isArray($fcmConfig, 'FCM config must be an array');
@@ -505,12 +393,7 @@ class PushNotificationService
 
         $response = Http::withHeaders([
             'Authorization' => 'key='.$serverKey,
-<<<<<<< HEAD
             'Content-Type' => 'application/json'])->post($url, $payload);
-=======
-            'Content-Type' => 'application/json',
-        ])->post($url, $payload);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         if ($response instanceof PromiseInterface) {
             $response = $response->wait();
@@ -525,12 +408,7 @@ class PushNotificationService
 
             return [
                 'success' => true,
-<<<<<<< HEAD
                 'message_id' => is_array($responseData) && isset($responseData['message_id']) ? $responseData['message_id'] : null];
-=======
-                'message_id' => is_array($responseData) && isset($responseData['message_id']) ? $responseData['message_id'] : null,
-            ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         }
 
         throw new Exception('FCM topic request failed: '.$response->body());
@@ -584,33 +462,17 @@ class PushNotificationService
                 'title' => 'Nuovo Ticket Creato',
                 'body' => 'È stato creato un nuovo ticket: {ticket_title}',
                 'icon' => '/icons/ticket.png',
-<<<<<<< HEAD
                 'data' => ['type' => 'ticket_created']],
-=======
-                'data' => ['type' => 'ticket_created'],
-            ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             'ticket_updated' => [
                 'title' => 'Ticket Aggiornato',
                 'body' => 'Il ticket {ticket_title} è stato aggiornato',
                 'icon' => '/icons/update.png',
-<<<<<<< HEAD
                 'data' => ['type' => 'ticket_updated']],
-=======
-                'data' => ['type' => 'ticket_updated'],
-            ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             'ticket_resolved' => [
                 'title' => 'Ticket Risolto',
                 'body' => 'Il ticket {ticket_title} è stato risolto',
                 'icon' => '/icons/check.png',
-<<<<<<< HEAD
                 'data' => ['type' => 'ticket_resolved']]];
-=======
-                'data' => ['type' => 'ticket_resolved'],
-            ],
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         return $templates[$templateId] ?? null;
     }
@@ -656,12 +518,7 @@ class PushNotificationService
         return [
             'success' => true,
             'message' => 'APNS topic notification sent (simulated)',
-<<<<<<< HEAD
             'platform' => 'apns'];
-=======
-            'platform' => 'apns',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -674,11 +531,6 @@ class PushNotificationService
         return [
             'success' => true,
             'message' => 'Web Push topic notification sent (simulated)',
-<<<<<<< HEAD
             'platform' => 'webpush'];
-=======
-            'platform' => 'webpush',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

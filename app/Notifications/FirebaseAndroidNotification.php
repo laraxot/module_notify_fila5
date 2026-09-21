@@ -47,12 +47,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     public function via(object $_notifiable): array
     {
         return [
-<<<<<<< HEAD
             FcmChannel::class];
-=======
-            FcmChannel::class,
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -66,12 +61,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
         // Create a valid Android configuration (Creiamo una configurazione Android valida)
         $androidConfig = [
             'ttl' => '3600s',
-<<<<<<< HEAD
             'priority' => 'high'];
-=======
-            'priority' => 'high',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // Add notification only if data is in a valid format (Aggiungiamo la notifica solo se i dati sono in un formato valido)
         // Verify that $this->data->data is accessible (Verifichiamo che $this->data->data sia accessibile)

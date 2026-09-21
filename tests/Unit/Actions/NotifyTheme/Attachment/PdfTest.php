@@ -7,14 +7,6 @@ namespace Modules\Notify\Tests\Unit\Actions\NotifyTheme\Attachment;
 use Modules\Notify\Actions\NotifyTheme\Attachment\Pdf;
 use Modules\Notify\Datas\AttachmentData;
 use Modules\Notify\Tests\TestCase;
-<<<<<<< HEAD
-use Modules\Xot\Tests\XotBasePest;
-use PHPUnit\Framework\Assert;
-use Spatie\QueueableAction\QueueableAction;
-
-use function Safe\class_uses;
-
-=======
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Tests\XotBasePest;
@@ -23,7 +15,6 @@ use function Safe\class_uses;
 
 uses(TestCase::class)->group('notify-db');
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 describe('NotifyTheme\Attachment\Pdf', function () {
     it('can be instantiated', function () {
         Assert::assertTrue(class_exists(Pdf::class));

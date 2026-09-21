@@ -1,13 +1,7 @@
 ---
-<<<<<<< HEAD
-title: "Notify - Product Launch Plan"
-=======
-<<<<<<< HEAD
 title: "Notify Module - Product Launch Plan"
 =======
 title: "Notify - Product Launch Plan"
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -15,12 +9,7 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< HEAD
 # Notify - Product Launch Plan
-=======
-<<<<<<< HEAD
-# Notify Module - Product Launch Plan
->>>>>>> 7e6063a3 (.)
 
 > Piano di lancio. Modulo.
 > Launch readiness stimata: 60%.
@@ -67,8 +56,6 @@ Rilasciare **Notify** in modo controllato, misurabile e coerente con il suo ruol
 
 ## Rischi
 
-<<<<<<< HEAD
-=======
 *Last Updated: March 12, 2026*
 =======
 # Notify - Product Launch Plan
@@ -118,7 +105,6 @@ Rilasciare **Notify** in modo controllato, misurabile e coerente con il suo ruol
 
 ## Rischi
 
->>>>>>> 7e6063a3 (.)
 - lancio di superfici non ancora supportate dal backend
 - documentazione non aderente al codice reale
 - dipendenze inter-modulo sottostimate
@@ -128,7 +114,3 @@ Rilasciare **Notify** in modo controllato, misurabile e coerente con il suo ruol
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
-<<<<<<< HEAD
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

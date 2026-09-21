@@ -7,16 +7,12 @@ namespace Modules\Notify\Tests\Unit\Services;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Mockery;
-<<<<<<< HEAD
-=======
 use Mockery\MockInterface;
 use Modules\Notify\Actions\SendNotificationAction;
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Modules\Notify\Services\NotificationManager;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
 /**
  * Unit test del NotificationManager.
  *
@@ -26,24 +22,11 @@ use PHPUnit\Framework\Assert;
 class NotificationManagerTest extends TestCase
 {
     private NotificationManager $serviceManager;
-=======
-class NotificationManagerTest extends TestCase
-{
-    private NotificationManager $serviceNotificationManager;
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     protected function setUp(): void
     {
         parent::setUp();
-<<<<<<< HEAD
-        $this->serviceManager = new NotificationManager;
-=======
-<<<<<<< HEAD
-        $this->serviceManager = new NotificationManager();
-=======
         $this->serviceNotificationManager = new NotificationManager;
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     }
 
     protected function tearDown(): void
@@ -53,14 +36,6 @@ class NotificationManagerTest extends TestCase
     }
 
     /** @test */
-<<<<<<< HEAD
-    public function it_throws_exception_when_template_not_found(): void
-    {
-        $recipient = $this->recipient();
-
-        try {
-            $this->serviceManager->send($recipient, 'invalid_template');
-=======
     public function it_can_send_notification_to_single_recipient(): void
     {
         $recipient = $this->recipient();
@@ -129,7 +104,6 @@ class NotificationManagerTest extends TestCase
 
         try {
             $this->serviceNotificationManager->send($recipient, $templateCode);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             Assert::fail('Expected Exception was not thrown');
         } catch (Exception $exception) {
             Assert::assertSame('Template not found: invalid_template', $exception->getMessage());
@@ -137,19 +111,6 @@ class NotificationManagerTest extends TestCase
     }
 
     /** @test */
-<<<<<<< HEAD
-    public function it_can_get_template_by_code_returns_null_when_missing(): void
-    {
-        Assert::assertNull($this->serviceManager->getTemplate('test_template'));
-    }
-
-    /** @test */
-    public function it_can_get_templates_by_category_returns_empty_collection(): void
-    {
-        $result = $this->serviceManager->getTemplatesByCategory('test_category');
-
-        Assert::assertCount(0, $result);
-=======
     public function it_returns_array_from_send_method(): void
     {
         $recipient = $this->recipient();
@@ -177,31 +138,18 @@ class NotificationManagerTest extends TestCase
         $result = $this->serviceNotificationManager->sendMultiple($recipients, $templateCode);
 
         $this->assertCount(1, $result);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     private function recipient(): Model
     {
-<<<<<<< HEAD
-        return new class extends Model
-=======
-<<<<<<< HEAD
         return new class() extends Model
->>>>>>> 7e6063a3 (.)
         {
             /** @var list<string> */
-=======
-        return new class extends Model
-        {
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             protected $guarded = [];
 
             public $timestamps = false;
         };
     }
-<<<<<<< HEAD
-=======
-
     /**
      * @return MockInterface&SendNotificationAction
      */
@@ -212,5 +160,4 @@ class NotificationManagerTest extends TestCase
 
         return $mock;
     }
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 }

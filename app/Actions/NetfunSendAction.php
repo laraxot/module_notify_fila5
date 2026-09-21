@@ -45,12 +45,7 @@ class NetfunSendAction
         $endpoint = 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json';
         $headers = [
             'Cache-Control' => 'no-cache',
-<<<<<<< HEAD
             'Content-Type' => 'application/json'];
-=======
-            'Content-Type' => 'application/json',
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // dddx([ord($this->body[0]), $this->body]);
 
@@ -87,13 +82,7 @@ class NetfunSendAction
                      * 'code' => '1234',
                      * ],
                      */
-<<<<<<< HEAD
                 ]]];
-=======
-                ],
-            ],
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // dddx($body);
 

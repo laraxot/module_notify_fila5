@@ -8,13 +8,8 @@
 
 ## Summary
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 Analisi e fix delle GitHub Actions del repository base_fixcity_fila5.
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 Analisi e fix delle GitHub Actions del repository base_ptv_fila5.
 
 ---

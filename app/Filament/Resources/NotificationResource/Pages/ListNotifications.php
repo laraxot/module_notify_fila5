@@ -28,12 +28,7 @@ class ListNotifications extends XotBaseListRecords
             'data' => TextColumn::make('data')->searchable(),
             'read_at' => TextColumn::make('read_at')->dateTime()->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
-<<<<<<< HEAD
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()];
-=======
-            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable(),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -53,32 +48,18 @@ class ListNotifications extends XotBaseListRecords
                     'info' => 'Info',
                     'success' => 'Success',
                     'warning' => 'Warning',
-<<<<<<< HEAD
                     'error' => 'Error'])
                 ->multiple()];
-=======
-                    'error' => 'Error',
-                ])
-                ->multiple(),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
-<<<<<<< HEAD
-=======
-
     #[Override]
     public function getTableColumns(): array
     {
         return self::notificationTableColumns();
     }
-<<<<<<< HEAD
 
     #[Override]
->>>>>>> 7e6063a3 (.)
     public function getTableFilters(): array
     {
         return self::notificationTableFilters();
     }
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 }

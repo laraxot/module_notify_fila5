@@ -48,10 +48,7 @@ related:
 | Gdpr | ✅ | ✅ | 0 | 🟢 Bassa |
 | Lang | ❌ | ✅ | 0 | 🟢 Bassa |
 | Job | ❌ | ✅ | 0 | 🟢 Bassa |
-<<<<<<< HEAD
 | Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | App | ✅ | ❌ | 0 | 🟢 Bassa |
 | **Xot** | ❌ | ✅ | 0 | ⚡ **CORE** |
 
@@ -162,10 +159,7 @@ abstract class BasePivot extends XotBasePivot
 - Gdpr
 - Lang
 - Job
-<<<<<<< HEAD
 - Fixcity
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - App
 
 **Script automatico:**
@@ -182,10 +176,7 @@ MODULES=(
     "Gdpr"
     "Lang"
     "Job"
-<<<<<<< HEAD
     "Fixcity"
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     "App"
 )
 
@@ -279,10 +270,7 @@ php artisan benchmark:pivot-queries
 
 ```bash
 # Test ogni modulo singolarmente
-<<<<<<< HEAD
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job App; do
     echo "Testing $module..."
     php artisan test --testsuite=$module || echo "❌ $module FAILED"
@@ -300,10 +288,7 @@ done
 1. ✅ `Modules/Xot/docs/architecture/xotbasepivot-analysis.md` (già fatto)
 2. ✅ `docs/architecture/xotbasepivot-strategy.md` (questo file)
 3. `Modules/Xot/README.md` → aggiungere sezione XotBasePivot
-<<<<<<< HEAD
 4. `docs/CHANGELOG.md` → entry per breaking change
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 4. `docs/changelog.md` → entry per breaking change
 5. Per ogni modulo: `Modules/{Module}/docs/models/pivot-migration.md`
 

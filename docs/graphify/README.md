@@ -2,13 +2,10 @@
 
 ## Overview
 
-<<<<<<< HEAD
 > `graphify-out/` è output generato (`graphify extract`), ignorato da `.gitignore`
 > del modulo e non versionato dal 2 settembre 2026 (story 5.82): 730 file di
 > cache erano finiti in git. Si rigenera, non si committa.
 
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 This directory contains the knowledge graph for the **Notify** module, generated using [Graphify](https://graphify.dev/). The graph provides a comprehensive visualization of code dependencies, architecture, and relationships within the module.
 
 ## Quick Start

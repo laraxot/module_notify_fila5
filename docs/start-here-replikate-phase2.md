@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "🚀 START HERE - REPLIKATE Phase 2"
 type: concept
@@ -20,7 +18,6 @@ related:
   - "./action-plan-immediate.md"
 ---
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # 🚀 START HERE - REPLIKATE Phase 2
 
 **Status**: Phase 1 Analysis Complete ✅  
@@ -175,11 +172,7 @@ Blade Template:
   laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
 
 JSON Content:
-<<<<<<< HEAD
   laravel/config/local/fixcity/database/content/pages/tests.homepage.json
-=======
-  laravel/config/local/ptv/database/content/pages/tests.homepage.json
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 CSS Files:
   laravel/Themes/Sixteen/resources/css/
@@ -198,11 +191,7 @@ Local URL:
 
 ```bash
 # Go to project
-<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
-=======
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 # View analysis results
 cat /tmp/replikate_analysis_homepage/structure-analysis.txt

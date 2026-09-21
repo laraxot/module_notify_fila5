@@ -12,16 +12,11 @@ use Modules\Notify\Filament\Actions\SendRecordsNotificationBulkAction;
 use Modules\Notify\Filament\Forms\Components\ChannelCheckboxList;
 use Modules\Notify\Filament\Forms\Components\MailTemplateSelect;
 use Modules\Notify\Tests\Fixtures\SendRecordsNotificationBulkActionSpy;
-<<<<<<< HEAD
-use Modules\Xot\Tests\XotBasePest;
-use PHPUnit\Framework\Assert;
-=======
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
 
 uses(TestCase::class)->group('no-notify-db');
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 /**
  * @param  array<string, mixed>  $attributes
@@ -79,21 +74,11 @@ test('send records notification bulk action delegates to send records action', f
 
     $records = new EloquentCollection([
         makeDummyNotifyBulkModel(['id' => 1]),
-<<<<<<< HEAD
         makeDummyNotifyBulkModel(['id' => 2])]);
 
     $callback($records, [
         'mail_template_slug' => 'template-a',
         'channels' => ['mail', 'sms']]);
-=======
-        makeDummyNotifyBulkModel(['id' => 2]),
-    ]);
-
-    $callback($records, [
-        'mail_template_slug' => 'template-a',
-        'channels' => ['mail', 'sms'],
-    ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     Assert::assertNotNull($spy->received);
     Assert::assertSame(2, $spy->received['count']);

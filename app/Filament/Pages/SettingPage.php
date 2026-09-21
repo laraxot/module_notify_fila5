@@ -18,7 +18,6 @@ class SettingPage extends XotBasePage
         $only = [
             'debugbar_enabled',
             // 'google_maps_api_key',
-<<<<<<< HEAD
             'telegram_bot_token',
             'sms_driver',
             'netfun_token',
@@ -31,20 +30,9 @@ class SettingPage extends XotBasePage
             'mail_from_address',
             'mail_from_name',
         ];
-=======
-<<<<<<< HEAD
-            'telegram_bot_token'];
->>>>>>> 7e6063a3 (.)
-
-        return [
-            EnvWidget::make(['only' => $only])];
-=======
-            'telegram_bot_token',
-        ];
 
         return [
             EnvWidget::make(['only' => $only]),
         ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

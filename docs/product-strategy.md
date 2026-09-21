@@ -1,11 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Notify - Product Strategy"
-module: notify
-type: product
-tags: [product, modules, notify]
-=======
-<<<<<<< HEAD
 title: "Notify Module - Product Strategy"
 module: notify
 type: integration
@@ -15,18 +8,11 @@ title: "Notify - Product Strategy"
 module: notify
 type: product
 tags: [product, modules, notify]
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< HEAD
 # Notify - Product Strategy
-=======
-<<<<<<< HEAD
-# Notify Module - Product Strategy
->>>>>>> 7e6063a3 (.)
 
 > Strategia prodotto. Modulo.
 > Allineamento strategico stimato: 60%.
@@ -76,11 +62,6 @@ Portare **Notify** a uno stato in cui il progetto ottiene un vantaggio netto e m
 
 ## Regola architetturale
 
-<<<<<<< HEAD
-- Action-first: niente generic `Services` per la business logic
-- Standard operativo: `spatie/laravel-queueable-action`
-- Convenzione: Action con metodo `execute()` e dispatch tramite container
-=======
 ### Phase 1: Core (Q1 2026)
 - Email notifications
 - In-app notifications
@@ -181,5 +162,3 @@ Portare **Notify** a uno stato in cui il progetto ottiene un vantaggio netto e m
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

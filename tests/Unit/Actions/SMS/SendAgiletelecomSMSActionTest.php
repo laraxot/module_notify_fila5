@@ -71,17 +71,9 @@ it('SendAgiletelecomSMSAction has required imports', function () {
     expect($content)->toContain('use Modules\\Notify\\Datas\\SmsData;');
 });
 
-<<<<<<< HEAD
 it('SendAgiletelecomSMSAction does not use QueueableAction trait', function () {
     $action = new SendAgiletelecomSMSAction;
     $traits = \Safe\class_uses($action);
 
     expect($traits)->not->toContain('Spatie\\QueueableAction\\QueueableAction');
-=======
-it('SendAgiletelecomSMSAction uses QueueableAction trait', function () {
-    $action = new SendAgiletelecomSMSAction;
-    $traits = \Safe\class_uses($action);
-
-    expect($traits)->toContain('Spatie\\QueueableAction\\QueueableAction');
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 });

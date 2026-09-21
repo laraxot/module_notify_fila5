@@ -33,15 +33,8 @@ class NotificationsTable extends XotBaseResourceTable
                     'info' => 'Info',
                     'success' => 'Success',
                     'warning' => 'Warning',
-<<<<<<< HEAD
                     'error' => 'Error'])
                 ->multiple()];
-=======
-                    'error' => 'Error',
-                ])
-                ->multiple(),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -55,16 +48,7 @@ class NotificationsTable extends XotBaseResourceTable
             'notifiable_id' => TextColumn::make('notifiable_id')->searchable()->sortable(),
             'read_at' => TextColumn::make('read_at')->dateTime()->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
-<<<<<<< HEAD
             'id' => TextColumn::make('id')->searchable()->sortable()->toggleable(isToggledHiddenByDefault: true),
         ];
-=======
-<<<<<<< HEAD
-            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true)];
-=======
-            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true),
-        ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     }
 }

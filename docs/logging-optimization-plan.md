@@ -238,10 +238,7 @@ After:
 // Remove all Log::info() examples
 // Add error handling examples only
 
-<<<<<<< HEAD
 // docs/sms_best_practices.md
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 // docs/sms-best-practices.md
 // Update to reflect new logging practices
 ```

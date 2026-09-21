@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Architecture Diagrams & Visual Reference"
 type: concept
@@ -462,7 +460,6 @@ Modules/ModuleName/
 
 <!-- Merged from ARCHITECTURE-DIAGRAMS.md, which collided with this file on case-insensitive filesystems. -->
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Architecture Diagrams & Visual Reference
 
 **📍 Cross-References:**
@@ -587,11 +584,7 @@ themes/
 │
 ├── Sixteen/  ← ACTIVE THEME
 │   ├── docs/
-<<<<<<< HEAD
 │   │   ├── 00-INDEX.md ◄────────────────┐
-=======
-│   │   ├── 00-index.md ◄────────────────┐
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │   │   ├── architecture/                │
 │   │   │   ├── layout-hierarchy.md      │
 │   │   │   └── component-structure.md   │
@@ -664,11 +657,7 @@ HTTP Request: /it/tests/homepage
 ┌──────────────────────────────────────┐
 │  PageSlugMiddleware                  │
 │  Load from JSON config               │
-<<<<<<< HEAD
 │  laravel/config/local/fixcity/       │
-=======
-│  laravel/config/local/ptv/       │
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │  database/content/pages/[slug].json  │
 └───────┬──────────────────────────────┘
         │
@@ -744,11 +733,7 @@ Admin Panel
 
 ```
 1. HTTP Request
-<<<<<<< HEAD
    ├─ URL: http://fixcity.local/it/tests/homepage
-=======
-   ├─ URL: http://ptv.local/it/tests/homepage
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
    └─ Method: GET
 
 2. Routing (Folio)
@@ -761,17 +746,10 @@ Admin Panel
 
 4. Middleware Chain
    ├─ PageSlugMiddleware
-<<<<<<< HEAD
    │  ├─ Read APP_URL → fixcity.local
    │  ├─ Extract domain → fixcity.local
    │  ├─ Reverse parts → [local, fixcity]
    │  ├─ Build config path → local/fixcity
-=======
-   │  ├─ Read APP_URL → ptv.local
-   │  ├─ Extract domain → ptv.local
-   │  ├─ Reverse parts → [local, ptv]
-   │  ├─ Build config path → local/ptv
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
    │  ├─ Load theme: Sixteen
    │  └─ Load JSON: pages/homepage.json
    │
@@ -887,11 +865,7 @@ Modules/ModuleName/
 │       └── XxxSeeder.php
 │
 ├── docs/
-<<<<<<< HEAD
 │   ├── 00-INDEX.md
-=======
-│   ├── 00-index.md
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/

@@ -104,10 +104,7 @@ class SendNotificationAction
             throw new Exception('Il destinatario non supporta le notifiche email');
         }
 
-<<<<<<< HEAD
         /** @var mixed $email */
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $email = $recipient->routeNotificationForMail();
         if (! is_string($email) || $email === '') {
             throw new Exception('Email destinatario non disponibile');
@@ -161,13 +158,7 @@ class SendNotificationAction
                 'template_code' => $template->code,
                 'template_id' => $template->getKey(),
                 'payload' => $data,
-<<<<<<< HEAD
                 'options' => $options]]);
-=======
-                'options' => $options,
-            ],
-        ]);
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $notification->save();
 
         return $notification;
@@ -185,10 +176,7 @@ class SendNotificationAction
             throw new Exception('Il destinatario non supporta le notifiche SMS');
         }
 
-<<<<<<< HEAD
         /** @var mixed $phone */
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $phone = $recipient->routeNotificationForSms();
         if (! is_string($phone) || $phone === '') {
             throw new Exception('Numero di telefono destinatario non disponibile');

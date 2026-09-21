@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # 🗺️ FixCity Design System - Product Roadmap
-=======
-<<<<<<< HEAD
-# Notify Module Roadmap 2026
->>>>>>> 7e6063a3 (.)
 
 > **Central hub consolidating 355+ scattered planning files into unified vision**  
 > Last Updated: April 3, 2026  
@@ -367,9 +362,6 @@ laravel/Modules/*/docs/
 
 ### Theme Documentation
 ```
-<<<<<<< HEAD
-=======
-
 #### **Priority 5: Advanced Template Engine** ⭐⭐
 **Goal**: Next-generation template system with AI-powered content optimization
 
@@ -853,27 +845,17 @@ laravel/Modules/*/docs/
 
 ### Theme Documentation
 ```
->>>>>>> 7e6063a3 (.)
 laravel/Themes/Sixteen/docs/
 ├── README.md - Theme guide
 ├── HEADER_FOOTER_ARCHITECTURE.md - Component structure
 ├── BLOCK_ARCHITECTURE.md - Block types and usage
 ├── homepage-visual-parity.md - Phase 10 verification
 └── screenshots/ - Visual comparisons
-<<<<<<< HEAD
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 ```
 
 ---
 
-<<<<<<< HEAD
 ## 📦 Archived Roadmap Files
-=======
-<<<<<<< HEAD
-## 🏗️ Implementation Strategy
->>>>>>> 7e6063a3 (.)
 
 All old roadmap files have been archived to preserve history. See **[MIGRATION_GUIDE.md](./archive/roadmaps/MIGRATION_GUIDE.md)** for complete mapping.
 
@@ -901,9 +883,6 @@ All old roadmap files have been archived to preserve history. See **[MIGRATION_G
 ## 📊 Phase Timeline Visualization
 
 ```
-<<<<<<< HEAD
-=======
-
 ### **Testing Standards**
 ```php
 // REQUIRED TEST COVERAGE
@@ -940,7 +919,6 @@ All old roadmap files have been archived to preserve history. See **[MIGRATION_G
 ## 📊 Phase Timeline Visualization
 
 ```
->>>>>>> 7e6063a3 (.)
 Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
   │                 │                 │                 │               │
   ├─ Phase 0 ──────┤ (COMPLETE)      │                 │               │
@@ -949,20 +927,11 @@ Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
                                                         ├─ Phase 12-13  ├─ Phase 14-15
                                                         │ (PLANNED)      │ (PLANNED)
                                                         └────────────────┘
-<<<<<<< HEAD
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 ```
 
 ---
 
-<<<<<<< HEAD
 ## 🎯 Current Priorities
-=======
-<<<<<<< HEAD
-## 📈 Success Metrics
->>>>>>> 7e6063a3 (.)
 
 **Week of April 3, 2026**:
 
@@ -1009,11 +978,6 @@ Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
 
 ---
 
-<<<<<<< HEAD
-**Last Consolidated**: April 3, 2026  
-**Consolidation Agent**: GitHub Copilot CLI  
-**Next Review**: May 1, 2026
-=======
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **Notify** gestisce tutto il sistema di notifiche della piattaforma FixCity, inclusa la gestione delle notifiche in-app, email, SMS, push notifications e l'integrazione con servizi di terze parti.
@@ -1280,5 +1244,3 @@ Notify Module
 **Last Consolidated**: April 3, 2026  
 **Consolidation Agent**: GitHub Copilot CLI  
 **Next Review**: May 1, 2026
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)

@@ -492,11 +492,7 @@ Log::channel('email')->info('Email sent', [
 - **Team Laraxot** - Core implementation
 - **Xot Module** - PDF generation support
 
-<<<<<<< HEAD
 ## Documentation
-=======
----
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 **Ultimo aggiornamento:** 2025-01-22  
 **Versione:** 2.1.0  

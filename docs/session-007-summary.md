@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "SESSION 007 - PHASE 1 EXECUTION ORCHESTRATION"
 type: concept
@@ -471,7 +469,6 @@ Must achieve ALL criteria:
 
 <!-- Merged from SESSION-007-SUMMARY.md, which collided with this file on case-insensitive filesystems. -->
 
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # SESSION 007 - PHASE 1 EXECUTION ORCHESTRATION
 ## Researcher Agent Summary
 
@@ -578,11 +575,7 @@ laravel/Themes/Sixteen/docs/:
 
 ### Modified Files
 ```
-<<<<<<< HEAD
 laravel/Themes/Sixteen/docs/00-INDEX.md
-=======
-laravel/Themes/Sixteen/docs/00-index.md
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ├─ Added PHASE 1 EXECUTION DOCUMENTS section
 ├─ Added MULTI-AGENT WORKFLOW section
 ├─ Added CURRENT STATUS section
@@ -652,15 +645,9 @@ Total Documents: 5 (created Session 006)
 Total Characters: ~63,000
 - PHASE-1-STRATEGY.md (22,938 chars)
 - GSD-PHASE-1-EXECUTION.md (19,499 chars)
-<<<<<<< HEAD
 - bashscripts/docs/html/INDEX.md (8,531 chars)
 - bashscripts/html/extract-body-html.py (4,156 chars)
 - 00-INDEX.md (12,926 chars)
-=======
-- bashscripts/docs/html/index.md (8,531 chars)
-- bashscripts/html/extract-body-html.py (4,156 chars)
-- 00-index.md (12,926 chars)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ### Phase 1 (Execution) - IN PROGRESS 🟠
 Documents Created This Session: 8
@@ -758,11 +745,7 @@ Must achieve ALL criteria:
 - [ ] Filter checkboxes with `.form-check-input`/`.form-check-label`
 - [ ] Card grid with `.card.card-report` pattern
 - [ ] Bootstrap semantic classes (`.bg-light`, `.btn-primary`, etc.)
-<<<<<<< HEAD
 - [ ] All user-visible text using `trans('fixcity::...')`
-=======
-- [ ] All user-visible text using `trans('ptv::...')`
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] ARIA attributes present and correct
 - [ ] Comparison reports saved in docs/
 - [ ] Findings documented (PHASE-1-FINDINGS.md)
@@ -856,11 +839,7 @@ Must achieve ALL criteria:
 - EXECUTOR-2-SUBTASKS-3-4.md (for Executor #2)
 
 **Tools**:
-<<<<<<< HEAD
 - bashscripts/docs/html/INDEX.md (comparison tools)
-=======
-- bashscripts/docs/html/index.md (comparison tools)
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ---
 

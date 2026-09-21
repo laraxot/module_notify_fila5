@@ -226,13 +226,8 @@ Themes/Sixteen/resources/views/pages/
 ## 📞 Contatti
 
 Per informazioni:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 - **Repository**: `/var/www/_bases/base_fixcity_fila5`
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 - **Repository**: `/var/www/_bases/base_ptv_fila5`
 - **Tema**: `Themes/Sixteen`
 - **Documentazione**: `docs/PAGINE_CREATE.md`

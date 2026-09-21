@@ -33,14 +33,9 @@ This project adheres to a Code of Conduct that all contributors are expected to 
 
 ```bash
 # Clone the repository
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 git clone https://github.com/your-org/fixcity.git
 cd fixcity/laravel
 =======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
 git clone https://github.com/your-org/ptv.git
 cd ptv/laravel
 

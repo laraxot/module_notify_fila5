@@ -302,15 +302,9 @@ class SmsIntegrationTest extends TestCase
 ### 1. Log Structure
 ```json
 {
-<<<<<<< HEAD
-    "timestamp": "[DATE] 10:00:00",
-=======
-<<<<<<< HEAD
     "timestamp": "2024-03-20 10:00:00",
 =======
     "timestamp": "[DATE] 10:00:00",
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
->>>>>>> 7e6063a3 (.)
     "template_id": 1,
     "recipient": "+1234567890",
     "content": "Test message",

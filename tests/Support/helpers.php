@@ -2,11 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 use Mockery\Expectation;
-=======
-use Mockery\CompositeExpectation;
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Mockery\MockInterface;
 
 if (! function_exists('typedMock')) {
@@ -52,15 +48,9 @@ if (! function_exists('mockExpectation')) {
      * quei metodi restano disponibili senza `method.notFound`/`method.nonObject`
      * sparsi in ogni test.
      */
-<<<<<<< HEAD
     function mockExpectation(MockInterface $mock, string $method): Expectation
     {
         /** @var Expectation $expectation */
-=======
-    function mockExpectation(MockInterface $mock, string $method): CompositeExpectation
-    {
-        /** @var CompositeExpectation $expectation */
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $expectation = $mock->shouldReceive($method);
 
         return $expectation;
