@@ -99,11 +99,8 @@ return [
         'create' => ['label' => 'create', 'icon' => 'create', 'tooltip' => 'create'],
         'layout' => ['label' => 'layout', 'icon' => 'layout', 'tooltip' => 'layout'],
         'delete' => ['label' => 'delete', 'icon' => 'delete', 'tooltip' => 'delete'],
-<<<<<<< .merge_file_1fzR6D
-=======
         'view' => ['label' => 'view', 'icon' => 'view', 'tooltip' => 'view'],
         'edit' => ['label' => 'edit', 'icon' => 'edit', 'tooltip' => 'edit'],
->>>>>>> .merge_file_KCYCYg
     ],
     'messages' => [
         'preview_title' => ['title' => 'Anteprima Tema', 'message' => 'Questa è un\'anteprima di come apparirà il tema'],

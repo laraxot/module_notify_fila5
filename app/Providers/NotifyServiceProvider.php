@@ -21,11 +21,15 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
+
+    #[Override]
     public function register(): void
     {
         parent::register();
         $this->mergeNotifyModuleConfigFromEnv();
     }
+
+    #[Override]
     public function boot(): void
     {
         parent::boot();

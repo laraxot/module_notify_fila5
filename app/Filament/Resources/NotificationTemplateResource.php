@@ -12,11 +12,6 @@ use Override;
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static ?string $model = NotificationTemplate::class;
-<<<<<<< .merge_file_J2qpnI
-
-    #[Override]
-=======
->>>>>>> .merge_file_l9Cgwi
     public static function getPages(): array
     {
         return [
