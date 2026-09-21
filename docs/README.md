@@ -52,6 +52,7 @@ Modules\Notify\Models\NotificationTemplateVersion
 
 ## Collegamenti
 
+- [Inventario Livewire → widget](./bmad/livewire-inventory.md) — hook `database-notifications` resta vendor; story [12.1](./stories/12.1.notify-notifications-fqcn.story.md)
 - [Xot Base](../Xot/docs/) - Core framework
 - [User Module](../User/docs/) - User management integration
 
