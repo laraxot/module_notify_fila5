@@ -25,7 +25,6 @@ CHANGELOG.md export-ignore
 *.eot binary !filter
 *.otf binary !filter
 *.mp4 binary !filter
-*.psd binary !filter
 *.phar binary !filter
 *.db binary !filter
 *.sqlite binary !filter
