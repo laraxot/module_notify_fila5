@@ -27,8 +27,8 @@ function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 }
 
 test('list notification templates page returns empty table columns array', function (): void {
-    /** @phpstan-ignore method.deprecated */
-    $columns = (new ListNotificationTemplates())->getTableColumns();
+    $reflection = new ReflectionMethod(ListNotificationTemplates::class, 'getTableColumns');
+    $columns = $reflection->invoke(new ListNotificationTemplates());
     Assert::assertSame([], $columns);
 });
 
