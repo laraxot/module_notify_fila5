@@ -12,14 +12,11 @@ use Override;
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static ?string $model = NotificationTemplate::class;
-
-    #[Override]
     public static function getPages(): array
     {
         return [
             ...parent::getPages(),
-            'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
-        ];
+            'preview' => PreviewNotificationTemplate::route('/{record}/preview')];
     }
 
     /*

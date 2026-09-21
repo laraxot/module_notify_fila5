@@ -5,10 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Feature;
 
 use Illuminate\Support\Facades\File;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('Email Templates', function (): void {
     test('_html_template_contains_optional_function', function (): void {

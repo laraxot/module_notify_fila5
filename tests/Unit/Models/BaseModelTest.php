@@ -6,10 +6,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Models\BaseModel;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('no-notify-db');
 
 test('base model extends eloquent model', function () {
     $baseModel = new class extends BaseModel

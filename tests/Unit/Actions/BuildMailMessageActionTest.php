@@ -7,13 +7,11 @@ namespace Modules\Notify\Tests\Unit\Actions;
 use Illuminate\Notifications\Messages\MailMessage;
 use Modules\Notify\Actions\BuildMailMessageAction;
 use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Tests\XotBasePest;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('BuildMailMessageAction', function () {
     // Test strutturali - non richiede container per la classe

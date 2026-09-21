@@ -1,18 +1,3 @@
----
-title: "📋 01 project overview Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 01 project overview index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./guidelines.md"
-  - "./links.md"
-  - "./project-overview.md"
----
-
 # 📋 01 project overview Index
 
 **Path**: `docs/agents-guide/01-project-overview/`

@@ -5,16 +5,13 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Mail\Mailable;
 use Modules\Notify\Models\MailTemplate;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
@@ -72,7 +69,7 @@ describe('MailTemplate Business Logic', function () {
     });
 
     test('mail template can be queried by mailable', function () {
-        $mailable = new class extends \Illuminate\Mail\Mailable
+        $mailable = new class extends Mailable
         {
             public function build(): static
             {

@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Notifications;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use Modules\User\Models\User;
@@ -33,22 +31,18 @@ class TicketAssignedNotification extends Notification
 
     public function toMail(object $notifiable): MailMessage
     {
-        $name = $this->assignedBy instanceof User ? ($this->assignedBy->name ?? null) : null;
-        $displayName = is_string($name) ? $name : 'Unknown';
-
         return (new MailMessage)
             ->subject('New Ticket Assigned')
-            ->line('A new ticket has been assigned to you by '.$displayName)
+            ->line("A new ticket has been assigned to you by {$this->assignedBy->name}")
             ->action('View Ticket', url('/'));
     }
 
     /**
      * @return array{assigned_by: string}
      */
-    public function toArray(mixed $notifiable): array
+    public function toArray(object $notifiable): array
     {
         return [
-            'assigned_by' => $this->assignedBy->id,
-        ];
+            'assigned_by' => $this->assignedBy->id];
     }
 }

@@ -14,8 +14,6 @@
 Illuminate\Database\QueryException
 SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
 
-Database: /var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
-=======
 Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
 SQL: insert or ignore into "cache" ("key", "value", "expiration") 
   values (laravel_cache_livewire-checksum-failures:172.23.16.1:timer, i:1774863199;, 1774863199)
@@ -24,8 +22,6 @@ SQL: insert or ignore into "cache" ("key", "value", "expiration")
 ### Root Cause
 
 Il file del database SQLite aveva permessi errati:
-- **File**: `laravel/database/fixcity_data.sqlite`
-=======
 - **File**: `laravel/database/notify_data.sqlite`
 - **Problema**: Il file era scrivibile (`rw-rw-rw-`) ma il processo web non poteva scrivere
 
@@ -36,8 +32,6 @@ Il file del database SQLite aveva permessi errati:
 ### Command Executed
 
 ```bash
-cd /var/www/_bases/base_fixcity_fila5
-=======
 cd /var/www/_bases/base_ptvx_fila5
 
 # Fix permissions (775 = rwxrwxr-x)
@@ -51,8 +45,6 @@ chown -R zorin:zorin laravel/database/
 
 ```
 drwxrwxr-x  4 zorin zorin       4096 Mar 30 11:14 .
--rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 fixcity_data.sqlite
-=======
 -rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 notify_data.sqlite
 ```
 
@@ -60,8 +52,6 @@ drwxrwxr-x  4 zorin zorin       4096 Mar 30 11:14 .
 
 ```
 drwxrwxr-x  4 zorin zorin    4096 Mar 30 11:14 .
--rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 fixcity_data.sqlite
-=======
 -rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 notify_data.sqlite
 ```
 
@@ -78,12 +68,6 @@ drwxrwxr-x  4 zorin zorin    4096 Mar 30 11:14 .
 
 ```bash
 # Check permissions
-ls -la laravel/database/fixcity_data.sqlite
-# Should show: -rwxrwxr-x
-
-# Test site
-firefox http://fixcity.local/it
-=======
 ls -la laravel/database/notify_data.sqlite
 # Should show: -rwxrwxr-x
 
@@ -171,8 +155,6 @@ Create `bashscripts/fix-permissions.sh`:
 #!/bin/bash
 # Fix Laravel permissions
 
-PROJECT_ROOT="/var/www/_bases/base_fixcity_fila5"
-=======
 PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
 
 # Database
@@ -202,10 +184,6 @@ bash bashscripts/fix-permissions.sh
 | Document | Location |
 |----------|----------|
 | **Vite Fix** | `VITE_FIX_AND_EXECUTION_PLAN.md` |
-| **Improvement Plan** | `.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md` |
-| **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
-| **Start Here** | `FIXCITY_IMPROVEMENT_START_HERE.md` |
-=======
 | **Improvement Plan** | `.planning/improvements/NOTIFY_IT_IMPROVEMENT_PLAN.md` |
 | **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
 | **Start Here** | `NOTIFY_IMPROVEMENT_START_HERE.md` |
@@ -219,8 +197,6 @@ bash bashscripts/fix-permissions.sh
 - [x] Database permissions fixed (775)
 - [x] Ownership set to zorin:zorin
 - [x] OpenViking updated
-- [ ] Site tested (http://fixcity.local/it)
-=======
 - [ ] Site tested (http://laraxot.local/it)
 - [ ] Livewire components working
 - [ ] Cache operations working
@@ -230,8 +206,6 @@ bash bashscripts/fix-permissions.sh
 - [ ] Add permission fix to deployment docs
 - [ ] Create bash script for permissions
 - [ ] Add to pre-deployment checklist
-- [ ] Document in AGENTS.md
-=======
 - [ ] Document in agents.md
 
 ---
@@ -251,8 +225,6 @@ php artisan config:clear
 php artisan view:clear
 
 # Test site
-firefox http://fixcity.local/it
-=======
 firefox http://laraxot.local/it
 ```
 
@@ -281,6 +253,4 @@ firefox http://laraxot.local/it
 **Next**: Test site + Continue P0 tasks  
 **ETA Phase 0**: 2026-04-13 (unchanged)
 
-**FixCity database ora scrivibile! 🚀**
-=======
 **Notify database ora scrivibile! 🚀**

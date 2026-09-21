@@ -5,12 +5,8 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Models\Notification;
-use Modules\User\Models\User;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('notify-db');
+use PHPUnit\Framework\Assert;
 
 describe('Notification Business Logic', function () {
     test('notification extends xot base model', function () {
@@ -22,8 +18,7 @@ describe('Notification Business Logic', function () {
     test('notification can store polymorphic notifiable relationships', function () {
         $notification = new Notification([
             'notifiable_type' => 'App\\Models\\User',
-            'notifiable_id' => 1,
-        ]);
+            'notifiable_id' => 1]);
 
         Assert::assertSame('App\\Models\\User', $notification->notifiable_type);
         Assert::assertSame(1, $notification->notifiable_id);
@@ -56,8 +51,7 @@ describe('Notification Business Logic', function () {
     test('notification can track tenant and user', function () {
         $notification = new Notification([
             'tenant_id' => 1,
-            'user_id' => 5,
-        ]);
+            'user_id' => 5]);
 
         Assert::assertSame(1, $notification->tenant_id);
         Assert::assertSame(5, $notification->user_id);
@@ -66,8 +60,7 @@ describe('Notification Business Logic', function () {
     test('notification can store polymorphic subject relationships', function () {
         $notification = new Notification([
             'subject_type' => 'App\\Models\\Order',
-            'subject_id' => 123,
-        ]);
+            'subject_id' => 123]);
 
         Assert::assertSame('App\\Models\\Order', $notification->subject_type);
         Assert::assertSame(123, $notification->subject_id);

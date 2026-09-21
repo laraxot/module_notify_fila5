@@ -14,12 +14,9 @@ use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationChannel;
 use Modules\Notify\Models\NotificationLog;
 use Modules\Notify\Models\NotificationTemplate;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 use function Safe\json_encode;
-
-uses(TestCase::class)->group('notify-db');
 
 it('can create a notification', function () {
     $notification = NotificationFactory::new()->createOne([
@@ -39,8 +36,7 @@ it('can create a notification with read status', function () {
         'type' => 'App\Notifications\Welcome',
         'notifiable_type' => 'Modules\User\Models\User',
         'notifiable_id' => 1,
-        'read_at' => now(),
-    ]);
+        'read_at' => now()]);
 
     Assert::assertInstanceOf(Carbon::class, $notification->read_at);
 });
@@ -87,8 +83,7 @@ it('can create a notification with custom data', function () {
         'type' => 'App\Notifications\Custom',
         'notifiable_type' => 'Modules\User\Models\User',
         'notifiable_id' => (string) Str::uuid(),
-        'data' => $payload,
-    ]);
+        'data' => $payload]);
 
     Assert::assertSame($payload, $notification->data);
 });

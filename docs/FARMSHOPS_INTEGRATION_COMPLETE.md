@@ -180,16 +180,12 @@ Map Render → User Feedback
 #### 1. Visualizzazione Segnalazioni
 ```php
 // Homepage con mappa
-<livewire:fixcity::ticket-map />
-=======
 <livewire:ptv::ticket-map />
 ```
 
 #### 2. Ricerca Geografica
 ```php
 // Trova segnalazioni vicine
-<livewire:fixcity::ticket-map 
-=======
 <livewire:ptv::ticket-map 
     :center="[$userLat, $userLng]" 
     :zoom="15" 
@@ -199,8 +195,6 @@ Map Render → User Feedback
 #### 3. Dashboard Operatori
 ```php
 // Mappa con filtri per operatori
-<livewire:fixcity::ticket-map 
-=======
 <livewire:ptv::ticket-map 
     :filters="['status' => 'open']" 
 />
@@ -209,8 +203,6 @@ Map Render → User Feedback
 #### 4. Reporting
 ```php
 // Mappa per report geografici
-<livewire:fixcity::ticket-map 
-=======
 <livewire:ptv::ticket-map 
     :filters="['priority' => 'urgent']" 
 />

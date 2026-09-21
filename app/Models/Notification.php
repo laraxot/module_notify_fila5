@@ -6,7 +6,6 @@ namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
-use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 use Override;
@@ -42,20 +41,7 @@ use Override;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
- * @property int|null $tenant_id
- * @property int|null $user_id
- * @property string|null $subject_type
- * @property int|null $subject_id
- * @property list<string>|null $channels
- * @property string|null $status
- * @property Carbon|null $sent_at
- * @property-read ProfileContract|null $creator
- * @property-read ProfileContract|null $updater
  *
- * @method static NotificationFactory factory($count = null, $state = [])
- * @method static Builder<static>|Notification newModelQuery()
- * @method static Builder<static>|Notification newQuery()
- * @method static Builder<static>|Notification query()
  * @method static Builder<static>|Notification whereCreatedAt($value)
  * @method static Builder<static>|Notification whereCreatedBy($value)
  * @method static Builder<static>|Notification whereData($value)
@@ -68,9 +54,6 @@ use Override;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
- * @property-read \Modules\User\Models\Profile|null $deleter
- *
- * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

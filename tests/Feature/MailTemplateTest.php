@@ -6,11 +6,8 @@ namespace Modules\Notify\Tests\Feature;
 
 use Modules\Notify\Database\Factories\MailTemplateFactory;
 use Modules\Notify\Models\MailTemplate;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('notify-db');
+use PHPUnit\Framework\Assert;
 
 describe('MailTemplate Model Tests', function () {
     it('can create a mail template', function () {
@@ -29,8 +26,7 @@ describe('MailTemplate Model Tests', function () {
         XotBasePest::assertTableHas('notify', 'mail_templates', [
             'id' => $template->id,
             'name' => 'Test Template',
-            'slug' => $template->slug,
-        ]);
+            'slug' => $template->slug]);
     });
 
     it('can update a mail template', function () {
@@ -58,7 +54,6 @@ describe('MailTemplate Model Tests', function () {
         $template->delete();
 
         XotBasePest::assertTableMissing('notify', 'mail_templates', [
-            'id' => $templateId,
-        ]);
+            'id' => $templateId]);
     });
 });

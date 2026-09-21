@@ -8,11 +8,8 @@ use Modules\Notify\Database\Factories\MailTemplateFactory;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('notify-db');
+use PHPUnit\Framework\Assert;
 
 describe('Mail Template Version Business Logic', function (): void {
     test('_can_create_mail_template_version_with_basic_information', function (): void {
@@ -38,8 +35,7 @@ describe('Mail Template Version Business Logic', function (): void {
     test('_can_manage_mail_template_version_relationships', function (): void {
         $template = MailTemplateFactory::new()->createOne();
         $version = MailTemplateVersionFactory::new()->createOne([
-            'template_id' => $template->id,
-        ]);
+            'template_id' => $template->id]);
 
         Assert::assertInstanceOf(MailTemplate::class, $version->template);
         Assert::assertSame($template->id, $version->template->id);
@@ -49,15 +45,13 @@ describe('Mail Template Version Business Logic', function (): void {
         $template = MailTemplateFactory::new()->createOne();
         $metadata = [
             'author' => 'admin@example.com',
-            'review_status' => 'approved',
-        ];
+            'review_status' => 'approved'];
 
         $version = MailTemplateVersionFactory::new()->createOne([
             'template_id' => $template->id,
             'metadata' => $metadata,
             'version' => 1,
-            'html_template' => '<p>v1</p>',
-        ]);
+            'html_template' => '<p>v1</p>']);
 
         $fresh = $version->fresh();
         Assert::assertInstanceOf(MailTemplateVersion::class, $fresh);
@@ -75,8 +69,7 @@ describe('Mail Template Version Business Logic', function (): void {
             'subject' => 'Versione Precedente',
             'html_template' => '<p>Template versione precedente</p>',
             'text_template' => 'Template versione precedente',
-            'version' => 1,
-        ]);
+            'version' => 1]);
 
         $template->update([
             'subject' => $version->subject,

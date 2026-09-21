@@ -1,18 +1,3 @@
----
-title: "📋 08 testing Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 08 testing index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./coverage-gaps-analysis-guide.md"
-  - "./pest-coverage-guide.md"
-  - "./testing-guidelines.md"
----
-
 # 📋 08 testing Index
 
 **Path**: `docs/agents-guide/08-testing/`

@@ -1,6 +1,4 @@
 ---
-title: "Notify Module - Product Launch Plan"
-=======
 title: "Notify - Product Launch Plan"
 module: notify
 type: integration
@@ -9,55 +7,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-# Notify - Product Launch Plan
-
-> Piano di lancio. Modulo.
-> Launch readiness stimata: 60%.
-
-## Obiettivo del lancio
-
-Rilasciare **Notify** in modo controllato, misurabile e coerente con il suo ruolo: notifiche applicative multi-canale.
-
-## Audience interna
-
-- owner di modulo o tema
-- admin/operatori
-- sviluppatori che dipendono dal componente
-
-## Criteri di readiness
-
-- PRD e roadmap aggiornati
-- test critici verdi
-- smoke test del runtime completato
-- gap P0 documentati o chiusi
-
-## Piano di rilascio
-
-### Fase 1 - Internal readiness
-- confermare scope
-- verificare quality gates
-- aggiornare docs e issue
-
-### Fase 2 - Controlled rollout
-- abilitare il componente nel flusso reale
-- monitorare errori, regressioni e feedback
-
-### Fase 3 - Post-launch review
-- confrontare outcome e target
-- spostare i gap residui nel backlog
-
-## Metriche di lancio
-
-| Metrica | Target |
-|--------|--------|
-| Regressioni P0 | 0 |
-| Issue bloccanti dopo rilascio | < 5% delle issue aperte |
-| Documentazione di supporto aggiornata | 100% |
-
-## Rischi
-
-*Last Updated: March 12, 2026*
-=======
 # Notify - Product Launch Plan
 
 > Piano di lancio. Modulo.

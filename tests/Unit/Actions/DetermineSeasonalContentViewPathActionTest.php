@@ -6,13 +6,11 @@ namespace Modules\Notify\Tests\Unit\Actions;
 
 use Modules\Notify\Actions\DetermineSeasonalContentViewPathAction;
 use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Tests\XotBasePest;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('no-notify-db');
 
 describe('DetermineSeasonalContentViewPathAction', function () {
     it('can be instantiated', function () {

@@ -6,10 +6,7 @@ namespace Modules\Notify\Tests\Unit;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Notifications\GenericNotification;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('no-notify-db');
 
 // Basic unit tests focusing on business logic of recipient name resolution
 
@@ -38,8 +35,7 @@ describe('GenericNotification getRecipientName', function (): void {
         $model = new class extends Model
         {
             protected $attributes = [
-                'full_name' => 'Jane Roe',
-            ];
+                'full_name' => 'Jane Roe'];
         };
 
         $ref = new \ReflectionClass(GenericNotification::class);

@@ -1,17 +1,3 @@
----
-title: "📋 02 tooling Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 02 tooling index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./build-lint-test-commands.md"
-  - "./quick-commands.md"
----
-
 # 📋 02 tooling Index
 
 **Path**: `docs/agents-guide/02-tooling/`

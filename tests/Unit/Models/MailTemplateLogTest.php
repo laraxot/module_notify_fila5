@@ -60,8 +60,7 @@ describe('Mail Template Log', function (): void {
             'delivered_at',
             'failed_at',
             'opened_at',
-            'clicked_at',
-        ];
+            'clicked_at'];
 
         Assert::assertEquals($expectedFillable, $log->getFillable());
     });
@@ -84,8 +83,7 @@ describe('Mail Template Log', function (): void {
             'delivered_at' => 'datetime',
             'failed_at' => 'datetime',
             'opened_at' => 'datetime',
-            'clicked_at' => 'datetime',
-        ];
+            'clicked_at' => 'datetime'];
 
         Assert::assertEquals($expectedCasts, $log->getCasts());
     });
@@ -101,9 +99,7 @@ describe('Mail Template Log', function (): void {
             'variables' => [
                 'name' => 'John Doe',
                 'company' => 'Example Corp',
-                'activation_link' => 'https://example.com/activate',
-            ],
-        ];
+                'activation_link' => 'https://example.com/activate']];
 
         $log = MailTemplateLog::create([
             'template_id' => 123,
@@ -130,14 +126,11 @@ describe('Mail Template Log', function (): void {
             'error_details' => [
                 'code' => 'SMTP_ERROR',
                 'message' => 'Connection timeout',
-                'retry_count' => 2,
-            ],
+                'retry_count' => 2],
             'performance' => [
                 'queue_time' => 1500,
                 'processing_time' => 2500,
-                'total_time' => 4000,
-            ],
-        ];
+                'total_time' => 4000]];
 
         $log = MailTemplateLog::create([
             'template_id' => 123,
@@ -160,8 +153,7 @@ describe('Mail Template Log', function (): void {
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
-            'status' => 'pending',
-        ]);
+            'status' => 'pending']);
 
         $log->update([
             'status' => 'sent',
@@ -201,8 +193,7 @@ describe('Mail Template Log', function (): void {
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
-            'status' => 'pending',
-        ]);
+            'status' => 'pending']);
 
         $log->update([
             'status' => 'failed',
@@ -258,22 +249,19 @@ describe('Mail Template Log', function (): void {
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
-            'status' => 'sent',
-        ]);
+            'status' => 'sent']);
 
         MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\WelcomeMail',
             'mailable_id' => 789,
-            'status' => 'sent',
-        ]);
+            'status' => 'sent']);
 
         MailTemplateLog::create([
             'template_id' => 456,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 101,
-            'status' => 'sent',
-        ]);
+            'status' => 'sent']);
 
         $template123Logs = MailTemplateLog::where('template_id', 123)->get();
         $template456Logs = MailTemplateLog::where('template_id', 456)->get();
@@ -290,22 +278,19 @@ describe('Mail Template Log', function (): void {
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
-            'status' => 'sent',
-        ]);
+            'status' => 'sent']);
 
         MailTemplateLog::create([
             'template_id' => 124,
             'mailable_type' => 'App\Mail\WelcomeMail',
             'mailable_id' => 789,
-            'status' => 'failed',
-        ]);
+            'status' => 'failed']);
 
         MailTemplateLog::create([
             'template_id' => 125,
             'mailable_type' => 'App\Mail\NewsletterMail',
             'mailable_id' => 101,
-            'status' => 'delivered',
-        ]);
+            'status' => 'delivered']);
 
         $sentLogs = MailTemplateLog::where('status', 'sent')->get();
         $failedLogs = MailTemplateLog::where('status', 'failed')->get();
@@ -324,22 +309,19 @@ describe('Mail Template Log', function (): void {
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
-            'status' => 'sent',
-        ]);
+            'status' => 'sent']);
 
         MailTemplateLog::create([
             'template_id' => 124,
             'mailable_type' => 'App\Mail\WelcomeMail',
             'mailable_id' => 789,
-            'status' => 'sent',
-        ]);
+            'status' => 'sent']);
 
         MailTemplateLog::create([
             'template_id' => 125,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 101,
-            'status' => 'sent',
-        ]);
+            'status' => 'sent']);
 
         $testMailLogs = MailTemplateLog::where('mailable_type', 'App\Mail\TestMail')->get();
         $welcomeMailLogs = MailTemplateLog::where('mailable_type', 'App\Mail\WelcomeMail')->get();
@@ -361,24 +343,21 @@ describe('Mail Template Log', function (): void {
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
             'status' => 'sent',
-            'sent_at' => $yesterday,
-        ]);
+            'sent_at' => $yesterday]);
 
         MailTemplateLog::create([
             'template_id' => 124,
             'mailable_type' => 'App\Mail\WelcomeMail',
             'mailable_id' => 789,
             'status' => 'sent',
-            'sent_at' => $today,
-        ]);
+            'sent_at' => $today]);
 
         MailTemplateLog::create([
             'template_id' => 125,
             'mailable_type' => 'App\Mail\NewsletterMail',
             'mailable_id' => 101,
             'status' => 'sent',
-            'sent_at' => $tomorrow,
-        ]);
+            'sent_at' => $tomorrow]);
 
         $todayLogs = MailTemplateLog::whereDate('sent_at', $today->toDateString())->get();
         $recentLogs = MailTemplateLog::where('sent_at', '>=', $yesterday)->get();
@@ -397,9 +376,7 @@ describe('Mail Template Log', function (): void {
             'data' => [
                 'to' => 'user@example.com',
                 'subject' => 'Welcome to our platform',
-                'template' => 'welcome_template',
-            ],
-        ]);
+                'template' => 'welcome_template']]);
 
         MailTemplateLog::create([
             'template_id' => 124,
@@ -409,9 +386,7 @@ describe('Mail Template Log', function (): void {
             'data' => [
                 'to' => 'admin@example.com',
                 'subject' => 'System notification',
-                'template' => 'system_template',
-            ],
-        ]);
+                'template' => 'system_template']]);
 
         $welcomeSubjectLogs = MailTemplateLog::whereJsonPath('data.subject', 'like', '%Welcome%')->get();
         $welcomeTemplateLogs = MailTemplateLog::whereJsonPath('data.template', 'like', '%welcome%')->get();
@@ -431,9 +406,7 @@ describe('Mail Template Log', function (): void {
             'metadata' => [
                 'provider' => 'smtp',
                 'queue_id' => 'queue_123',
-                'attempts' => 1,
-            ],
-        ]);
+                'attempts' => 1]]);
 
         MailTemplateLog::create([
             'template_id' => 124,
@@ -443,9 +416,7 @@ describe('Mail Template Log', function (): void {
             'metadata' => [
                 'provider' => 'ses',
                 'queue_id' => 'queue_456',
-                'attempts' => 1,
-            ],
-        ]);
+                'attempts' => 1]]);
 
         $smtpLogs = MailTemplateLog::whereJsonPath('metadata.provider', 'smtp')->get();
         $sesLogs = MailTemplateLog::whereJsonPath('metadata.provider', 'ses')->get();
@@ -464,13 +435,10 @@ describe('Mail Template Log', function (): void {
             'status' => 'sent',
             'data' => [
                 'to' => 'user@example.com',
-                'subject' => 'Welcome email',
-            ],
+                'subject' => 'Welcome email'],
             'metadata' => [
                 'provider' => 'smtp',
-                'attempts' => 1,
-            ],
-        ]);
+                'attempts' => 1]]);
 
         MailTemplateLog::create([
             'template_id' => 124,
@@ -479,13 +447,10 @@ describe('Mail Template Log', function (): void {
             'status' => 'failed',
             'data' => [
                 'to' => 'admin@example.com',
-                'subject' => 'System notification',
-            ],
+                'subject' => 'System notification'],
             'metadata' => [
                 'provider' => 'smtp',
-                'attempts' => 3,
-            ],
-        ]);
+                'attempts' => 3]]);
 
         $smtpWelcomeLogs = MailTemplateLog::where('status', 'sent')
             ->whereJsonPath('metadata.provider', 'smtp')
@@ -511,8 +476,7 @@ describe('Mail Template Log', function (): void {
             'delivered_at' => null,
             'failed_at' => null,
             'opened_at' => null,
-            'clicked_at' => null,
-        ]);
+            'clicked_at' => null]);
 
         Assert::assertNull($log->template_id);
         Assert::assertNull($log->mailable_type);

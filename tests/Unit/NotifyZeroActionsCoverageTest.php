@@ -34,8 +34,7 @@ describe('Notify zero-coverage actions boost', function (): void {
         $sms = SmsData::from([
             'from' => 'Test',
             'recipient' => '+393331112233',
-            'body' => 'hello agile',
-        ]);
+            'body' => 'hello agile']);
 
         foreach ([
             SendAgiletelecomSMSAction::class,

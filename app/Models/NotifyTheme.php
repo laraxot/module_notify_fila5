@@ -37,10 +37,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $subject
  * @property string|null $body
  * @property string|null $from
- * @property Carbon|null $created_at
- * @property string|null $created_by
- * @property Carbon|null $updated_at
- * @property string|null $updated_by
  * @property string|null $post_type
  * @property int|null $post_id
  * @property string|null $body_html

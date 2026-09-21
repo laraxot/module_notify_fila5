@@ -10,13 +10,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
- * @property int|string $id
  * @property int|null $template_id
  * @property string|null $mailable_type
  * @property int|string|null $mailable_id

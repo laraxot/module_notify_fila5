@@ -21,14 +21,11 @@ use Modules\Notify\Notifications\ThemeNotification;
 use Modules\Notify\Notifications\TicketAssignedNotification;
 use Modules\Notify\Notifications\TicketStatusChangedNotification;
 use Modules\Notify\Notifications\WhatsAppNotification;
-use Modules\Notify\Tests\TestCase;
 use Modules\User\Models\User;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('no-notify-db');
 
 function notificationsCoverageTicketModel(int $id = 10): Model
 {
@@ -59,8 +56,7 @@ function makeThemeNotifiableDummy(): CanThemeNotificationContract
                 'from' => 'System',
                 'recipient' => 'user@example.test',
                 'body' => 'Body',
-                'channels' => ['mail', 'sms'],
-            ]);
+                'channels' => ['mail', 'sms']]);
         }
 
         public function getModel(): Model
@@ -107,8 +103,7 @@ test('email data notification exposes mail channel and array payload', function 
         'from_email' => 'from@example.test',
         'subject' => 'Subject',
         'body_html' => '<p>Body</p>',
-        'body' => 'Body',
-    ]);
+        'body' => 'Body']);
 
     $notification = new EmailDataNotification($emailData);
 

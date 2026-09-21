@@ -1,16 +1,3 @@
----
-title: "📋 15 chaos monkey Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 15 chaos monkey index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./chaos-monkey-readiness.md"
----
-
 # 📋 15 chaos monkey Index
 
 **Path**: `docs/agents-guide/15-chaos-monkey/`

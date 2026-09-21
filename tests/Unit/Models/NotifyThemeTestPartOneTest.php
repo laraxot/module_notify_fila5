@@ -48,9 +48,7 @@ describe('Notify Theme PartOne', function (): void {
             'view_params' => [
                 'company_name' => 'Example Corp',
                 'primary_color' => '#3b82f6',
-                'secondary_color' => '#64748b',
-            ],
-        ]);
+                'secondary_color' => '#64748b']]);
         XotBasePest::assertTableHas('notify', 'notify_themes', [
             'id' => $theme->id,
             'lang' => 'it',
@@ -69,9 +67,7 @@ describe('Notify Theme PartOne', function (): void {
             'view_params' => json_encode([
                 'company_name' => 'Example Corp',
                 'primary_color' => '#3b82f6',
-                'secondary_color' => '#64748b',
-            ]),
-        ]);
+                'secondary_color' => '#64748b'])]);
 
         Assert::assertInstanceOf(NotifyTheme::class, $theme);
     });
@@ -94,8 +90,7 @@ describe('Notify Theme PartOne', function (): void {
             'logo_src',
             'logo_width',
             'logo_height',
-            'view_params',
-        ];
+            'view_params'];
 
         Assert::assertEquals($expectedFillable, $theme->getFillable());
     });
@@ -112,8 +107,7 @@ describe('Notify Theme PartOne', function (): void {
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
-            'view_params' => 'array',
-        ];
+            'view_params' => 'array'];
 
         Assert::assertEquals($expectedCasts, $theme->getCasts());
     });
@@ -134,14 +128,11 @@ describe('Notify Theme PartOne', function (): void {
             'accent_color' => '#10b981',
             'fonts' => [
                 'primary' => 'Inter',
-                'secondary' => 'Roboto',
-            ],
+                'secondary' => 'Roboto'],
             'layout' => [
                 'max_width' => '1200px',
                 'padding' => '20px',
-                'border_radius' => '8px',
-            ],
-        ];
+                'border_radius' => '8px']];
 
         $theme = NotifyTheme::create([
             'type' => 'email',
@@ -162,8 +153,7 @@ describe('Notify Theme PartOne', function (): void {
             'subject' => 'Logo Test Theme',
             'logo_src' => '/images/custom-logo.png',
             'logo_width' => 300,
-            'logo_height' => 120,
-        ]);
+            'logo_height' => 120]);
 
         $logo = $theme->logo;
         Assert::assertArrayHasKey('path', $logo);
@@ -215,20 +205,17 @@ describe('Notify Theme PartOne', function (): void {
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Italian Welcome',
-            'lang' => 'it',
-        ]);
+            'lang' => 'it']);
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'English Welcome',
-            'lang' => 'en',
-        ]);
+            'lang' => 'en']);
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'German Welcome',
-            'lang' => 'de',
-        ]);
+            'lang' => 'de']);
 
         $italianThemes = NotifyTheme::where('lang', 'it')->get();
         $englishThemes = NotifyTheme::where('lang', 'en')->get();

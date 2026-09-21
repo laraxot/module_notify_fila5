@@ -6,13 +6,11 @@ namespace Modules\Notify\Tests\Unit\Actions;
 
 use Modules\Notify\Actions\NormalizePhoneNumberAction;
 use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Tests\XotBasePest;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('no-notify-db');
 
 describe('NormalizePhoneNumberAction', function () {
     it('can be instantiated', function () {

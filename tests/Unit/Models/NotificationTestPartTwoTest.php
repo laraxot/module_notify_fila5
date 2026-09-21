@@ -42,20 +42,17 @@ describe('Notification PartTwo', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'User 123 notification',
             'type' => 'info',
-            'user_id' => 123,
-        ]);
+            'user_id' => 123]);
 
         NotificationFactory::new()->createOne([
             'message' => 'User 456 notification',
             'type' => 'info',
-            'user_id' => 456,
-        ]);
+            'user_id' => 456]);
 
         NotificationFactory::new()->createOne([
             'message' => 'User 123 another notification',
             'type' => 'warning',
-            'user_id' => 123,
-        ]);
+            'user_id' => 123]);
 
         $user123Notifications = Notification::where('user_id', 123)->get();
         $user456Notifications = Notification::where('user_id', 456)->get();
@@ -72,22 +69,19 @@ describe('Notification PartTwo', function (): void {
             'message' => 'User subject notification',
             'type' => 'info',
             'subject_type' => 'App\Models\User',
-            'subject_id' => 123,
-        ]);
+            'subject_id' => 123]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Company subject notification',
             'type' => 'info',
             'subject_type' => 'App\Models\Company',
-            'subject_id' => 456,
-        ]);
+            'subject_id' => 456]);
 
         NotificationFactory::new()->createOne([
             'message' => 'User subject another notification',
             'type' => 'warning',
             'subject_type' => 'App\Models\User',
-            'subject_id' => 789,
-        ]);
+            'subject_id' => 789]);
 
         $userSubjectNotifications = Notification::where('subject_type', 'App\Models\User')->get();
         $companySubjectNotifications = Notification::where('subject_type', 'App\Models\Company')->get();
@@ -103,14 +97,12 @@ describe('Notification PartTwo', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'Mail notification',
             'type' => 'info',
-            'channels' => ['mail'],
-        ]);
+            'channels' => ['mail']]);
 
         NotificationFactory::new()->createOne([
             'message' => 'SMS notification',
             'type' => 'info',
-            'channels' => ['sms'],
-        ]);
+            'channels' => ['sms']]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Multi-channel notification',
@@ -132,27 +124,21 @@ describe('Notification PartTwo', function (): void {
             'type' => 'alert',
             'data' => [
                 'priority' => 'high',
-                'category' => 'security',
-            ],
-        ]);
+                'category' => 'security']]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Low priority notification',
             'type' => 'info',
             'data' => [
                 'priority' => 'low',
-                'category' => 'general',
-            ],
-        ]);
+                'category' => 'general']]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Medium priority notification',
             'type' => 'warning',
             'data' => [
                 'priority' => 'medium',
-                'category' => 'maintenance',
-            ],
-        ]);
+                'category' => 'maintenance']]);
 
         $highPriorityNotifications = Notification::whereJsonPath('data.priority', 'high')->get();
         $securityNotifications = Notification::whereJsonPath('data.category', 'security')->get();
@@ -167,20 +153,17 @@ describe('Notification PartTwo', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'Unread notification',
             'type' => 'info',
-            'read_at' => null,
-        ]);
+            'read_at' => null]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Read notification',
             'type' => 'info',
-            'read_at' => now(),
-        ]);
+            'read_at' => now()]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Another unread notification',
             'type' => 'warning',
-            'read_at' => null,
-        ]);
+            'read_at' => null]);
 
         $unreadNotifications = Notification::whereNull('read_at')->get();
         $readNotifications = Notification::whereNotNull('read_at')->get();
@@ -196,20 +179,17 @@ describe('Notification PartTwo', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'Unsent notification',
             'type' => 'info',
-            'sent_at' => null,
-        ]);
+            'sent_at' => null]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Sent notification',
             'type' => 'info',
-            'sent_at' => now(),
-        ]);
+            'sent_at' => now()]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Another unsent notification',
             'type' => 'warning',
-            'sent_at' => null,
-        ]);
+            'sent_at' => null]);
 
         $unsentNotifications = Notification::whereNull('sent_at')->get();
         $sentNotifications = Notification::whereNotNull('sent_at')->get();
@@ -229,20 +209,17 @@ describe('Notification PartTwo', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'Yesterday notification',
             'type' => 'info',
-            'created_at' => $yesterday,
-        ]);
+            'created_at' => $yesterday]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Today notification',
             'type' => 'info',
-            'created_at' => $today,
-        ]);
+            'created_at' => $today]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Tomorrow notification',
             'type' => 'info',
-            'created_at' => $tomorrow,
-        ]);
+            'created_at' => $tomorrow]);
 
         $todayNotifications = Notification::whereDate('created_at', $today->toDateString())->get();
         $recentNotifications = Notification::where('created_at', '>=', $yesterday)->get();
@@ -260,9 +237,7 @@ describe('Notification PartTwo', function (): void {
             'tenant_id' => 1,
             'data' => [
                 'priority' => 'high',
-                'category' => 'security',
-            ],
-        ]);
+                'category' => 'security']]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Low priority general info',
@@ -271,9 +246,7 @@ describe('Notification PartTwo', function (): void {
             'tenant_id' => 1,
             'data' => [
                 'priority' => 'low',
-                'category' => 'general',
-            ],
-        ]);
+                'category' => 'general']]);
 
         NotificationFactory::new()->createOne([
             'message' => 'Medium priority maintenance warning',
@@ -282,9 +255,7 @@ describe('Notification PartTwo', function (): void {
             'tenant_id' => 2,
             'data' => [
                 'priority' => 'medium',
-                'category' => 'maintenance',
-            ],
-        ]);
+                'category' => 'maintenance']]);
 
         $pendingHighPriorityTenant1 = Notification::where('status', 'pending')
             ->where('tenant_id', 1)
@@ -331,8 +302,7 @@ describe('Notification PartTwo', function (): void {
             'channels' => null,
             'status' => null,
             'sent_at' => null,
-            'data' => null,
-        ]);
+            'data' => null]);
 
         Assert::assertNull($notification->tenant_id);
         Assert::assertNull($notification->user_id);

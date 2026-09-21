@@ -7,12 +7,10 @@ namespace Modules\Notify\Tests\Feature;
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Modules\Notify\Models\NotificationType;
 use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
 use function Safe\json_encode;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('Notification Type Business Logic', function () {
     it('can create notification type with basic information', function () {
@@ -21,8 +19,7 @@ describe('Notification Type Business Logic', function () {
             'slug' => 'appointment-reminder',
             'description' => 'Promemoria per appuntamenti',
             'category' => 'healthcare',
-            'is_active' => true,
-        ];
+            'is_active' => true];
 
         $type = NotificationTypeFactory::new()->createOne($typeData);
 
@@ -38,8 +35,7 @@ describe('Notification Type Business Logic', function () {
             'slug' => 'appointment-reminder',
             'description' => 'Promemoria per appuntamenti',
             'category' => 'healthcare',
-            'is_active' => true,
-        ]);
+            'is_active' => true]);
     });
 
     it('can manage notification type channels', function () {
@@ -48,16 +44,12 @@ describe('Notification Type Business Logic', function () {
             'email' => [
                 'enabled' => true,
                 'priority' => 'high',
-                'template' => 'email.appointment-reminder',
-            ],
+                'template' => 'email.appointment-reminder'],
             'sms' => [
                 'enabled' => true,
-                'max_length' => 160,
-            ],
+                'max_length' => 160],
             'push' => [
-                'enabled' => false,
-            ],
-        ];
+                'enabled' => false]];
 
         $type->update(['channels' => $channels]);
 
@@ -85,8 +77,7 @@ describe('Notification Type Business Logic', function () {
             'retry_delay' => 300,
             'batch_size' => 100,
             'timezone_aware' => true,
-            'encryption_required' => false,
-        ];
+            'encryption_required' => false];
 
         $type->update(['settings' => $settings]);
 
@@ -111,8 +102,7 @@ describe('Notification Type Business Logic', function () {
 
         XotBasePest::assertTableHas('notify', 'notification_types', [
             'id' => $type->id,
-            'template' => $template,
-        ]);
+            'template' => $template]);
 
         Assert::assertSame($template, XotBasePest::assertFreshModel($type, NotificationType::class)->template);
     });
@@ -133,8 +123,7 @@ describe('Notification Type Business Logic', function () {
         $originalType = NotificationTypeFactory::new()->createOne([
             'name' => 'Original Type',
             'slug' => 'original-type',
-            'category' => 'system',
-        ]);
+            'category' => 'system']);
 
         $duplicateType = $originalType->replicate();
         $duplicateType->name = 'Duplicate Type';
@@ -144,7 +133,6 @@ describe('Notification Type Business Logic', function () {
         XotBasePest::assertTableHas('notify', 'notification_types', [
             'id' => $duplicateType->id,
             'name' => 'Duplicate Type',
-            'slug' => 'duplicate-type',
-        ]);
+            'slug' => 'duplicate-type']);
     });
 });

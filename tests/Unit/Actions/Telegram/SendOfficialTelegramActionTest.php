@@ -7,12 +7,10 @@ namespace Modules\Notify\Tests\Unit\Actions\Telegram;
 use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('no-notify-db');
 
 describe('SendOfficialTelegramAction', function () {
     it('can be referenced via ReflectionClass without instantiation', function () {

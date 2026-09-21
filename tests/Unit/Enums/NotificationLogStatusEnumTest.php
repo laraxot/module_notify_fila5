@@ -5,10 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Enums;
 
 use Modules\Notify\Enums\NotificationLogStatusEnum;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('no-notify-db');
 
 test('it exposes all expected statuses', function () {
     $values = array_map(static fn (NotificationLogStatusEnum $case): string => $case->value, NotificationLogStatusEnum::cases());
@@ -19,8 +16,7 @@ test('it exposes all expected statuses', function () {
         'delivered',
         'failed',
         'opened',
-        'clicked',
-    ], $values);
+        'clicked'], $values);
 });
 
 test('it returns expected label color and icon', function () {

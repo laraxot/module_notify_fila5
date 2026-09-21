@@ -34,20 +34,6 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
-     * `SendRecordNotificationAction` invia sempre tramite
-     * `Notification::route($channel, $to)->notify(...)` (anche quando il
-     * destinatario reale è un modello Eloquent) — il "notifiable" che
-     * arriva a `Illuminate\Notifications\Events\NotificationSent` è quindi
-     * sempre un `AnonymousNotifiable`, mai `$record`. Chi deve risalire al
-     * modello originale (es. un listener su `NotificationSent`) deve
-     * leggerlo da qui, non da `$event->notifiable`.
-     */
-    public function getRecord(): Model
-    {
-        return $this->record;
-    }
-
-    /**
      * Get the notification's delivery channels.
      *
      * Determines channels based on the notifiable's routing capabilities.
@@ -128,16 +114,6 @@ class RecordNotification extends Notification implements ShouldQueue
 
         // Build SMS content using SpatieEmail (which handles template resolution and placeholder replacement)
         $smsBody = $email->buildSms();
-
-        // Story quaeris-send-invite-migrate-to-record-notification.md, Difetto 17
-        // (AC7, 2026-09-15): un survey senza sms_template configurato non lancia
-        // nessuna eccezione qui — buildSms() ritorna semplicemente stringa vuota
-        // (Mustache::render('', ...)). Senza questo controllo, un SMS reale con
-        // corpo vuoto veniva spedito per davvero al gateway. `trim()` per non far
-        // passare un corpo fatto di soli spazi.
-        if (trim($smsBody) === '') {
-            return null;
-        }
 
         // Story quaeris-send-invite-migrate-to-record-notification.md, Difetto 9:
         // il mittente era il letterale 'Xot'. Ora SpatieEmail lo risolve dal

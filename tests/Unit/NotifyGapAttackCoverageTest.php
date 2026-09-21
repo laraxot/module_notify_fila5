@@ -22,14 +22,6 @@ use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
-use Modules\Notify\Actions\Push\SendPushToAllUsersAction;
-use Modules\Notify\Actions\Push\SendPushToDeviceAction;
-use Modules\Notify\Actions\Push\SendPushToDevicesAction;
-use Modules\Notify\Actions\Push\SendPushToTopicAction;
-use Modules\Notify\Actions\Push\SendPushWithTemplateAction;
-use Modules\Notify\Actions\Push\SendScheduledPushNotificationAction;
-use Modules\Notify\Actions\SMS\SendSmsAction;
-use Modules\Notify\Datas\PushNotificationData;
 use Modules\Notify\Emails\SpatieEmail;
 use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Modules\Notify\Mail\AppointmentNotificationMail;
@@ -47,8 +39,7 @@ afterEach(function (): void {
 describe('Notify gap attack — highest miss providers', function (): void {
     test('HTTP SMS WhatsApp Telegram actions con Http::fake', function (): void {
         Http::fake([
-            '*' => Http::response(['ok' => true, 'sid' => 'SM123', 'message_id' => '1'], 200),
-        ]);
+            '*' => Http::response(['ok' => true, 'sid' => 'SM123', 'message_id' => '1'], 200)]);
 
         config([
             'notify.sms.twilio.sid' => 'AC123',
@@ -62,8 +53,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
             'services.nexmo.key' => 'key',
             'services.nexmo.secret' => 'secret',
             'services.plivo.auth_id' => 'id',
-            'services.plivo.auth_token' => 'token',
-        ]);
+            'services.plivo.auth_token' => 'token']);
 
         $payload = [
             'to' => '+393331112233',
@@ -72,8 +62,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
             'message' => 'test message',
             'phone' => '+393331112233',
             'chat_id' => '123',
-            'text' => 'hello',
-        ];
+            'text' => 'hello'];
 
         foreach ([
             SendTwilioSMSAction::class,
@@ -86,8 +75,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
             SendOfficialTelegramAction::class,
             SendNutgramTelegramAction::class,
             SendBotmanTelegramAction::class,
-            EsendexSendAction::class,
-        ] as $class) {
+            EsendexSendAction::class] as $class) {
             if (! class_exists($class)) {
                 continue;
             }
@@ -129,7 +117,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
     });
 
-    test('Push actions SendSmsAction e FCM channel', function (): void {
+    test('PushNotificationService SmsService e FCM channel', function (): void {
         Http::fake(['*' => Http::response(['success' => 1], 200)]);
 
         try {
@@ -211,7 +199,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
 
         try {
-            $recordModel = new class extends \Illuminate\Database\Eloquent\Model
+            $recordModel = new class extends Model
             {
                 protected $guarded = [];
             };
@@ -238,9 +226,9 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
 
         try {
-            $action = new SendScheduledPushNotificationAction;
-            $action->execute('job-cov-1');
-            Assert::assertInstanceOf(SendScheduledPushNotificationAction::class, $action);
+            $job = new SendScheduledPushNotification('job-cov-1');
+            $job->handle();
+            Assert::assertInstanceOf(SendScheduledPushNotification::class, $job);
         } catch (\Throwable $e) {
             Assert::assertNotSame('', $e->getMessage());
         }

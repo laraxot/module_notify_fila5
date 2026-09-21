@@ -1,18 +1,3 @@
----
-title: "📋 10 file patterns Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 10 file patterns index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./file-patterns-and-docs-standards.md"
-  - "./model-and-docs-naming-governance.md"
-  - "./modules-themes-docs-audit.md"
----
-
 # 📋 10 file patterns Index
 
 **Path**: `docs/agents-guide/10-file-patterns/`

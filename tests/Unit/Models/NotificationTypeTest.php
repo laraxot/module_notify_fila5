@@ -6,15 +6,13 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Modules\Notify\Models\NotificationType;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
-uses(TestCase::class)->group('notify-db');
+use function Pest\Laravel\withoutExceptionHandling;
 
 beforeEach(function (): void {
-    /** @var TestCase $this */
-    $this->disableExceptionHandling();
+    withoutExceptionHandling();
 });
 
 describe('Notification Type', function (): void {
@@ -27,8 +25,7 @@ describe('Notification Type', function (): void {
             'id' => $notificationType->id,
             'name' => 'Email Notification',
             'description' => 'Email notification type for sending emails',
-            'template' => 'email_template_1',
-        ]);
+            'template' => 'email_template_1']);
 
         Assert::assertInstanceOf(NotificationType::class, $notificationType);
     });
@@ -39,25 +36,21 @@ describe('Notification Type', function (): void {
         $expectedFillable = [
             'name',
             'description',
-            'template',
-        ];
+            'template'];
 
         Assert::assertEquals($expectedFillable, $notificationType->getFillable());
     });
 
     test('_can_update_notification_type', function (): void {
-        /** @var TestCase $this */
         $notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'Original Name',
             'description' => 'Original description',
-            'template' => 'original_template',
-        ]);
+            'template' => 'original_template']);
 
         $notificationType->update([
             'name' => 'Updated Name',
             'description' => 'Updated description',
-            'template' => 'updated_template',
-        ]);
+            'template' => 'updated_template']);
         XotBasePest::assertTableHas('notify', 'notification_types', [
             'id' => $notificationType->id,
             'name' => 'Updated Name',
@@ -74,8 +67,7 @@ describe('Notification Type', function (): void {
         $notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'SMS Notification',
             'description' => 'SMS notification type',
-            'template' => 'sms_template',
-        ]);
+            'template' => 'sms_template']);
 
         $found = NotificationType::where('name', 'SMS Notification')->first();
 
@@ -90,14 +82,12 @@ describe('Notification Type', function (): void {
         NotificationTypeFactory::new()->createOne([
             'name' => 'Email Type 1',
             'description' => 'First email template',
-            'template' => 'email_template_1',
-        ]);
+            'template' => 'email_template_1']);
 
         NotificationTypeFactory::new()->createOne([
             'name' => 'Email Type 2',
             'description' => 'Second email template',
-            'template' => 'email_template_2',
-        ]);
+            'template' => 'email_template_2']);
 
         $template1Types = NotificationType::where('template', 'email_template_1')->get();
         $template2Types = NotificationType::where('template', 'email_template_2')->get();
@@ -112,20 +102,17 @@ describe('Notification Type', function (): void {
         NotificationTypeFactory::new()->createOne([
             'name' => 'Email Type',
             'description' => 'Email notification type for users',
-            'template' => 'email_template',
-        ]);
+            'template' => 'email_template']);
 
         NotificationTypeFactory::new()->createOne([
             'name' => 'SMS Type',
             'description' => 'SMS notification type for users',
-            'template' => 'sms_template',
-        ]);
+            'template' => 'sms_template']);
 
         NotificationTypeFactory::new()->createOne([
             'name' => 'Push Type',
             'description' => 'Push notification type for mobile',
-            'template' => 'push_template',
-        ]);
+            'template' => 'push_template']);
 
         $userTypes = NotificationType::where('description', 'like', '%for users%')->get();
         $mobileTypes = NotificationType::where('description', 'like', '%mobile%')->get();
@@ -144,16 +131,14 @@ describe('Notification Type', function (): void {
         $notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'No Description Type',
             'description' => null,
-            'template' => null,
-        ]);
+            'template' => null]);
 
         Assert::assertNull($notificationType->description);
         Assert::assertNull($notificationType->template);
         XotBasePest::assertTableHas('notify', 'notification_types', [
             'id' => $notificationType->id,
             'description' => null,
-            'template' => null,
-        ]);
+            'template' => null]);
     });
 
     test('_can_create_multiple_types', function (): void {
@@ -194,14 +179,12 @@ describe('Notification Type', function (): void {
         NotificationTypeFactory::new()->createOne([
             'name' => 'Low Priority Email',
             'description' => 'Low priority email notifications',
-            'template' => 'low_priority_email',
-        ]);
+            'template' => 'low_priority_email']);
 
         NotificationTypeFactory::new()->createOne([
             'name' => 'High Priority SMS',
             'description' => 'High priority SMS notifications',
-            'template' => 'high_priority_sms',
-        ]);
+            'template' => 'high_priority_sms']);
 
         $highPriorityEmailTypes = NotificationType::where('name', 'like', '%High Priority%')
             ->where('description', 'like', '%email%')

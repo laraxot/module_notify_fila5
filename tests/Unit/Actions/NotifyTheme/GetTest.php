@@ -7,13 +7,11 @@ namespace Modules\Notify\Tests\Unit\Actions\NotifyTheme;
 use Modules\Notify\Actions\NotifyTheme\Get;
 use Modules\Notify\Datas\NotifyThemeData;
 use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Tests\XotBasePest;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('NotifyTheme\Get', function () {
     it('can be instantiated', function () {

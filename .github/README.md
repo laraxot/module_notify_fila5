@@ -17,10 +17,7 @@ Benvenuto nel sistema di tracking delle issue per il progetto **Design Comuni Re
 Replicating **38 Design Comuni static pages** using **Tailwind CSS + Alpine.js** with **JSON-driven content blocks**.
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/  
-<<<<<<< HEAD
 **Target**: http://fixcity.local/it/tests/[page-slug]  
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Target**: http://ptv.local/it/tests/[page-slug]  
 **Timeline**: 12 weeks (April 1 - June 30, 2026)
 

@@ -18,14 +18,10 @@ use Modules\Notify\Models\MailTemplateVersion;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationType;
-use Modules\User\Models\User;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
 use function Safe\json_encode;
-
-uses(TestCase::class)->group('notify-db');
 
 describe('Notification Management Business Logic', function () {
     it('can create notification with core fields', function () {
@@ -34,10 +30,8 @@ describe('Notification Management Business Logic', function () {
             'status' => 'pending',
             'data' => [
                 'subject' => 'Test subject',
-                'message' => 'Test body',
-            ],
-            'channels' => ['mail'],
-        ]);
+                'message' => 'Test body'],
+            'channels' => ['mail']]);
 
         Assert::assertInstanceOf(Notification::class, $notification);
         Assert::assertSame('email', $notification->type);
@@ -46,8 +40,7 @@ describe('Notification Management Business Logic', function () {
         XotBasePest::assertTableHas('notify', 'notifications', [
             'id' => $notification->id,
             'type' => 'email',
-            'status' => 'pending',
-        ]);
+            'status' => 'pending']);
     });
 
     it('can create notification template with valid schema', function () {
@@ -58,8 +51,7 @@ describe('Notification Management Business Logic', function () {
             'body_html' => '<p>Benvenuto {{user_name}}</p>',
             'channels' => ['mail'],
             'variables' => ['user_name'],
-            'is_active' => true,
-        ]);
+            'is_active' => true]);
 
         Assert::assertInstanceOf(NotificationTemplate::class, $template);
         Assert::assertSame('Welcome Email Template', $template->name);
@@ -69,8 +61,7 @@ describe('Notification Management Business Logic', function () {
             'id' => $template->id,
             'name' => 'Welcome Email Template',
             'code' => 'welcome-email',
-            'is_active' => true,
-        ]);
+            'is_active' => true]);
     });
 
     it('can create notification type with valid schema', function () {
@@ -79,8 +70,7 @@ describe('Notification Management Business Logic', function () {
             'slug' => 'welcome-email',
             'description' => 'Email inviata ai nuovi utenti registrati',
             'category' => 'onboarding',
-            'is_active' => true,
-        ]);
+            'is_active' => true]);
 
         Assert::assertInstanceOf(NotificationType::class, $type);
         Assert::assertSame('welcome_email', $type->name);
@@ -90,8 +80,7 @@ describe('Notification Management Business Logic', function () {
             'id' => $type->id,
             'name' => 'welcome_email',
             'slug' => 'welcome-email',
-            'is_active' => true,
-        ]);
+            'is_active' => true]);
     });
 
     it('can create contact for notification delivery', function () {
@@ -119,8 +108,7 @@ describe('Notification Management Business Logic', function () {
             'status' => 'sent',
             'data' => ['recipient' => 'patient@example.com'],
             'metadata' => ['campaign_id' => 'welcome_001'],
-            'sent_at' => now(),
-        ]);
+            'sent_at' => now()]);
 
         Assert::assertInstanceOf(MailTemplateLog::class, $log);
         Assert::assertSame('sent', $log->status);
@@ -162,15 +150,13 @@ describe('Notification Management Business Logic', function () {
 
         XotBasePest::assertTableHas('notify', 'notifications', [
             'id' => $notification->id,
-            'status' => 'sent',
-        ]);
+            'status' => 'sent']);
     });
 
     it('can store notification type channel configuration', function () {
         $channels = [
             'email' => ['enabled' => true],
-            'sms' => ['enabled' => false],
-        ];
+            'sms' => ['enabled' => false]];
 
         $type = NotificationTypeFactory::new()->createOne(['channels' => $channels]);
 

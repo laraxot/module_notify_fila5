@@ -7,11 +7,8 @@ namespace Modules\Notify\Tests\Unit\Models;
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
-use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
-
-uses(TestCase::class)->group('notify-db');
+use PHPUnit\Framework\Assert;
 
 it('extends base model', function (): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
@@ -38,8 +35,7 @@ it('has correct fillable attributes', function (): void {
         'conditions',
         'version',
         'created_by',
-        'change_notes',
-    ];
+        'change_notes'];
 
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $instance = $reflection->newInstanceWithoutConstructor();

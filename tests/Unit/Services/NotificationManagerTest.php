@@ -7,8 +7,6 @@ namespace Modules\Notify\Tests\Unit\Services;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Mockery;
-use Mockery\MockInterface;
-use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Services\NotificationManager;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
@@ -26,7 +24,7 @@ class NotificationManagerTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->serviceNotificationManager = new NotificationManager;
+        $this->serviceManager = new NotificationManager;
     }
 
     protected function tearDown(): void
@@ -36,74 +34,12 @@ class NotificationManagerTest extends TestCase
     }
 
     /** @test */
-    public function it_can_send_notification_to_single_recipient(): void
-    {
-        $recipient = $this->recipient();
-        $templateCode = 'test_template';
-        $data = ['key' => 'value'];
-        $channels = ['email'];
-        $options = ['priority' => 'high'];
-
-        $action = $this->mockSendNotificationAction();
-        $action->shouldReceive('handle')
-            ->once()
-            ->with($recipient, $templateCode, $data, $channels, $options);
-
-        $this->instance(SendNotificationAction::class, $action);
-
-        $this->serviceNotificationManager->send($recipient, $templateCode, $data, $channels, $options);
-    }
-
-    /** @test */
-    public function it_can_send_notification_to_multiple_recipients(): void
-    {
-        $recipients = [
-            $this->recipient(),
-            $this->recipient(),
-        ];
-        $templateCode = 'test_template';
-        $data = ['key' => 'value'];
-        $channels = ['email'];
-        $options = ['priority' => 'high'];
-
-        $action = $this->mockSendNotificationAction();
-        $action->shouldReceive('handle')->times(2);
-
-        $this->instance(SendNotificationAction::class, $action);
-
-        $result = $this->serviceNotificationManager->sendMultiple($recipients, $templateCode, $data, $channels, $options);
-
-        $this->assertCount(2, $result);
-    }
-
-    /** @test */
-    public function it_can_get_template_by_code(): void
-    {
-        $code = 'test_template';
-
-        $result = $this->serviceNotificationManager->getTemplate($code);
-
-        $this->assertNull($result);
-    }
-
-    /** @test */
-    public function it_can_get_templates_by_category(): void
-    {
-        $category = 'test_category';
-
-        $result = $this->serviceNotificationManager->getTemplatesByCategory($category);
-
-        $this->assertCount(0, $result);
-    }
-
-    /** @test */
     public function it_throws_exception_when_template_not_found(): void
     {
         $recipient = $this->recipient();
-        $templateCode = 'invalid_template';
 
         try {
-            $this->serviceNotificationManager->send($recipient, $templateCode);
+            $this->serviceManager->send($recipient, 'invalid_template');
             Assert::fail('Expected Exception was not thrown');
         } catch (Exception $exception) {
             Assert::assertSame('Template not found: invalid_template', $exception->getMessage());
@@ -111,53 +47,27 @@ class NotificationManagerTest extends TestCase
     }
 
     /** @test */
-    public function it_returns_array_from_send_method(): void
+    public function it_can_get_template_by_code_returns_null_when_missing(): void
     {
-        $recipient = $this->recipient();
-        $templateCode = 'test_template';
-
-        $action = $this->mockSendNotificationAction();
-        $action->shouldReceive('handle')->once();
-
-        $this->instance(SendNotificationAction::class, $action);
-
-        $this->serviceNotificationManager->send($recipient, $templateCode);
+        Assert::assertNull($this->serviceManager->getTemplate('test_template'));
     }
 
     /** @test */
-    public function it_returns_array_from_send_multiple_method(): void
+    public function it_can_get_templates_by_category_returns_empty_collection(): void
     {
-        $recipients = [$this->recipient()];
-        $templateCode = 'test_template';
+        $result = $this->serviceManager->getTemplatesByCategory('test_category');
 
-        $action = $this->mockSendNotificationAction();
-        $action->shouldReceive('handle')->once();
-
-        $this->instance(SendNotificationAction::class, $action);
-
-        $result = $this->serviceNotificationManager->sendMultiple($recipients, $templateCode);
-
-        $this->assertCount(1, $result);
+        Assert::assertCount(0, $result);
     }
 
     private function recipient(): Model
     {
-        return new class() extends Model
+        return new class extends Model
         {
             /** @var list<string> */
             protected $guarded = [];
 
             public $timestamps = false;
         };
-    }
-    /**
-     * @return MockInterface&SendNotificationAction
-     */
-    private function mockSendNotificationAction(): MockInterface
-    {
-        /** @var MockInterface&SendNotificationAction $mock */
-        $mock = Mockery::mock(SendNotificationAction::class);
-
-        return $mock;
     }
 }

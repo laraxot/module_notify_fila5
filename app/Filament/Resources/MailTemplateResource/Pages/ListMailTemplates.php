@@ -13,18 +13,6 @@ class ListMailTemplates extends LangBaseListRecords
 {
     protected static string $resource = MailTemplateResource::class;
 
-    /**
-     * @return array<string, TextColumn>
-     */
-    public static function mailTemplateTableColumns(): array
-    {
-        return [
-            'slug' => TextColumn::make('slug')->searchable()->sortable(),
-            // TextColumn::make('mailable')->searchable()->sortable(),
-            'subject' => TextColumn::make('subject')->searchable()->sortable(),
-            'counter' => TextColumn::make('counter')->searchable()->sortable(),
-        ];
-    }
 
 
 

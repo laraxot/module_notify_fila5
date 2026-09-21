@@ -11,8 +11,6 @@ use Modules\Notify\Models\NotifyThemeable;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class)->group('notify-db');
-
 function notifyThemeableTestDomain(): string
 {
     $domain = config('app.domain', 'example.com');
@@ -51,8 +49,7 @@ describe('Notify Themeable Business Logic', function () {
         $themeable = NotifyThemeableFactory::new()->createOne([
             'model_type' => 'App\Models\EmailTemplate',
             'model_id' => 456,
-            'notify_theme_id' => $theme->id,
-        ]);
+            'notify_theme_id' => $theme->id]);
 
         Assert::assertSame('App\Models\EmailTemplate', $themeable->model_type);
         Assert::assertSame(456, $themeable->model_id);
@@ -67,15 +64,13 @@ describe('Notify Themeable Business Logic', function () {
             'App\Models\EmailTemplate',
             'App\Models\SmsTemplate',
             'App\Models\PushTemplate',
-            'App\Models\WhatsappTemplate',
-        ];
+            'App\Models\WhatsappTemplate'];
 
         foreach ($modelTypes as $index => $modelType) {
             $themeable = NotifyThemeableFactory::new()->createOne([
                 'model_type' => $modelType,
                 'model_id' => $index + 1,
-                'notify_theme_id' => $theme->id,
-            ]);
+                'notify_theme_id' => $theme->id]);
 
             Assert::assertSame($modelType, $themeable->model_type);
             Assert::assertSame($index + 1, $themeable->model_id);
@@ -139,8 +134,7 @@ describe('Notify Themeable Business Logic', function () {
         $newTheme = NotifyThemeFactory::new()->createOne(['subject' => 'Tema Nuovo']);
 
         $themeable = NotifyThemeableFactory::new()->createOne([
-            'notify_theme_id' => $oldTheme->id,
-        ]);
+            'notify_theme_id' => $oldTheme->id]);
 
         Assert::assertSame($oldTheme->id, $themeable->notify_theme_id);
         Assert::assertSame('Tema Vecchio', TestCase::notifyThemeForThemeable($themeable)->subject);
@@ -161,8 +155,7 @@ describe('Notify Themeable Business Logic', function () {
             'model_type' => null,
             'model_id' => null,
             'created_by' => null,
-            'updated_by' => null,
-        ]);
+            'updated_by' => null]);
 
         Assert::assertNull($themeable->model_type);
         Assert::assertNull($themeable->model_id);
@@ -180,15 +173,13 @@ describe('Notify Themeable Business Logic', function () {
             'App\Models\SmsTemplate',
             'App\Models\PushNotification',
             'App\Models\WhatsappMessage',
-            'App\Models\InAppNotification',
-        ];
+            'App\Models\InAppNotification'];
 
         foreach ($validModelTypes as $modelType) {
             $themeable = NotifyThemeableFactory::new()->createOne([
                 'model_type' => $modelType,
                 'model_id' => rand(1, 1000),
-                'notify_theme_id' => $theme->id,
-            ]);
+                'notify_theme_id' => $theme->id]);
 
             Assert::assertSame($modelType, $themeable->model_type);
             Assert::assertContains($modelType, $validModelTypes);
@@ -224,8 +215,7 @@ describe('Notify Themeable Business Logic', function () {
         $theme = NotifyThemeFactory::new()->createOne();
 
         $themeable = NotifyThemeableFactory::new()->createOne([
-            'notify_theme_id' => $theme->id,
-        ]);
+            'notify_theme_id' => $theme->id]);
 
         Assert::assertNotNull($themeable->notify_theme_id);
         Assert::assertSame($theme->id, $themeable->notify_theme_id);
@@ -265,8 +255,7 @@ describe('Notify Themeable Business Logic', function () {
             NotifyThemeableFactory::new()->createOne([
                 'model_type' => 'App\Models\NotificationTemplate',
                 'model_id' => $modelId,
-                'notify_theme_id' => $theme1->id,
-            ]);
+                'notify_theme_id' => $theme1->id]);
         }
 
         $theme1Assignments = NotifyThemeable::where('notify_theme_id', $theme1->id)->get();

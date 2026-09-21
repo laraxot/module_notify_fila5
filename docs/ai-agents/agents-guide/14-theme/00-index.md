@@ -1,17 +1,3 @@
----
-title: "📋 14 theme Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📋 14 theme index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./pub-theme-namespace-critical-rule.md"
-  - "./theme-translations-critical-rule.md"
----
-
 # 📋 14 theme Index
 
 **Path**: `docs/agents-guide/14-theme/`

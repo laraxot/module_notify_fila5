@@ -5,34 +5,10 @@ declare(strict_types=1);
 return [
     'navigation' => ['group' => 'Sistema', 'label' => 'Contatti Notifiche', 'icon' => 'notify-contacts-animated', 'sort' => 49, 'description' => 'Gestione dei contatti per l\'invio delle notifiche'],
     'fields' => [
-        'name' => [
-            'label' => 'Nome',
-            'tooltip' => 'Nome del contatto',
-            'placeholder' => 'es: Mario Rossi',
-            'help' => 'Inserisci il nome completo del contatto',
-            'helper_text' => '',
-            'description' => ''],
-        'email' => [
-            'label' => 'Email',
-            'tooltip' => 'Indirizzo email del contatto',
-            'placeholder' => 'es: mario.rossi@example.com',
-            'help' => 'Inserisci un indirizzo email valido',
-            'helper_text' => '',
-            'description' => ''],
-        'phone' => [
-            'label' => 'Telefono',
-            'tooltip' => 'Numero di telefono del contatto',
-            'placeholder' => 'es: +39 123 456 7890',
-            'help' => 'Inserisci il numero con prefisso internazionale',
-            'helper_text' => '',
-            'description' => ''],
-        'telegram_chat_id' => [
-            'label' => 'Chat ID Telegram',
-            'tooltip' => 'ID della chat Telegram del contatto',
-            'placeholder' => 'es: 123456789',
-            'help' => 'ID numerico fornito dal bot Telegram',
-            'helper_text' => '',
-            'description' => ''],
+        'name' => ['label' => 'Nome', 'tooltip' => 'Nome del contatto', 'placeholder' => 'es: Mario Rossi', 'help' => 'Inserisci il nome completo del contatto', 'helper_text' => '', 'description' => ''],
+        'email' => ['label' => 'Email', 'tooltip' => 'Indirizzo email del contatto', 'placeholder' => 'es: mario.rossi@example.com', 'help' => 'Inserisci un indirizzo email valido', 'helper_text' => '', 'description' => ''],
+        'phone' => ['label' => 'Telefono', 'tooltip' => 'Numero di telefono del contatto', 'placeholder' => 'es: +39 123 456 7890', 'help' => 'Inserisci il numero con prefisso internazionale', 'helper_text' => '', 'description' => ''],
+        'telegram_chat_id' => ['label' => 'Chat ID Telegram', 'tooltip' => 'ID della chat Telegram del contatto', 'placeholder' => 'es: 123456789', 'help' => 'ID numerico fornito dal bot Telegram', 'helper_text' => '', 'description' => ''],
         'group' => [
             'label' => 'Gruppo',
             'tooltip' => 'Gruppo di appartenenza del contatto',

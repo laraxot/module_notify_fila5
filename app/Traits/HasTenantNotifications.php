@@ -21,8 +21,6 @@ use Webmozart\Assert\Assert;
 trait HasTenantNotifications
 {
     /**
-     * Ottiene tutte le notifiche per il tenant corrente.
-     *
      * @return MorphMany<NotificationLog, $this>
      */
     public function notifications(): MorphMany
@@ -31,8 +29,6 @@ trait HasTenantNotifications
     }
 
     /**
-     * Ottiene le notifiche non lette per il tenant corrente.
-     *
      * @return MorphMany<NotificationLog, $this>
      */
     public function unreadNotifications(): MorphMany
@@ -41,8 +37,6 @@ trait HasTenantNotifications
     }
 
     /**
-     * Ottiene le notifiche lette per il tenant corrente.
-     *
      * @return MorphMany<NotificationLog, $this>
      */
     public function readNotifications(): MorphMany
@@ -51,8 +45,6 @@ trait HasTenantNotifications
     }
 
     /**
-     * Scope per filtrare le notifiche per tenant.
-     *
      * @param  Builder<static>  $query
      * @return Builder<static>
      */

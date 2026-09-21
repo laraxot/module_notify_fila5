@@ -8,12 +8,10 @@ use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
 use Modules\Notify\Models\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Tests\TestCase;
-use PHPUnit\Framework\Assert;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
 use function Safe\class_uses;
-
-uses(TestCase::class)->group('no-notify-db');
 
 describe('SendSmsFactorSMSAction', function () {
     it('can be referenced via ReflectionClass without instantiation', function () {
