@@ -34,14 +34,12 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
-     * Get the model this notification was built for.
+     * Modello per cui è stata costruita la notifica.
      *
-     * Used by listeners on `NotificationSent` (e.g.
-     * `Modules\Quaeris\Listeners\UpdateContactInviteCountersListener`) that
-     * need the real record: `$event->notifiable` is always an
-     * `AnonymousNotifiable` here, since sending goes through
-     * `Notification::route($channel, $to)->notify(...)`, never through the
-     * model itself.
+     * `SendRecordNotificationAction` invia sempre con
+     * `Notification::route($channel, $to)->notify(...)`: il notifiable in
+     * `NotificationSent` è un `AnonymousNotifiable`, mai `$record`. I listener
+     * (es. `UpdateContactInviteCountersListener`) leggono il modello da qui.
      */
     public function getRecord(): Model
     {
