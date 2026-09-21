@@ -3,15 +3,17 @@ title: "Architecture — Notify"
 type: architecture
 module: Notify
 related:
+  - ./livewire-inventory.md
   - ./livewire-widget-prd.md
 ---
 
 # Architecture Notify
 
 ```
-XotData.disable_database_notifications
-  └─ false → trigger + polling + hook USER_MENU_BEFORE
-                 └─ @livewire(DatabaseNotifications::class)
+XotData.disable_database_notifications (default true, XotData.php:61)
+  └─ false → trigger + polling(60s) + hook panels::user-menu.before
+                 └─ @livewire(Filament\Notifications\Livewire\DatabaseNotifications::class)
+                      (già FQCN in AdminPanelProvider.php:37)
 ```
 
-ADR: vendor resta vendor. Solo il **riferimento** diventa tipizzato.
+ADR: vendor resta vendor. Il riferimento è **già** tipizzato — nessun PHP da toccare. Verdetto: [livewire-inventory.md](./livewire-inventory.md).

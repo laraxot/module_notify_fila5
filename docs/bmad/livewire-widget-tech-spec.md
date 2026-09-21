@@ -3,13 +3,14 @@ title: "Tech spec — Notify FQCN"
 type: tech-spec
 module: Notify
 related:
+  - ./livewire-inventory.md
   - ./livewire-widget-prd.md
 ---
 
 # Tech spec Notify
 
-File unico PHP futuro: `app/Providers/Filament/AdminPanelProvider.php` blocco hook.
+Gate verificato: `find Modules/Notify/app/Http/Livewire -name '*.php'` = 0 file reali (solo `_components.json` `[]` + 2 `.fila2` inerti).
 
-Target (non committare ora): `Blade::render('@livewire(\'' . DatabaseNotifications::class . '\')')` con `use` già presente. Polling e trigger invariati.
+Blocco hook `AdminPanelProvider.php:32-39`: **già** `Blade::render('@livewire(\'' . DatabaseNotifications::class . '\')')` con `use` a riga 7. Trigger `notify::livewire.database-notifications-trigger` (riga 33) → `resources/views/livewire/database-notifications-trigger.blade.php`. Polling `60s` (riga 35).
 
-Test: `/admin` autenticato mostra campanella se flag off; nessun 500 se flag on (hook assente).
+Nessun PHP da committare: il target FQCN è già lo stato attuale. Test di regressione: `/admin` autenticato mostra la campanella solo se `disable_database_notifications = false` (default `true` → hook assente, nessun errore).
