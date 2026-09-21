@@ -12,18 +12,18 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ViewColumn;
-use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\ListNotificationTemplates;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
-use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers\LinkableRelationManager;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Schemas\NotifyThemeForm;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Tables\NotifyThemesTable;
 use Modules\Notify\Filament\Tables\Columns\ContactColumn;
 use Modules\Notify\Tests\Fixtures\EditNotifyThemeTestProxy;
 use PHPUnit\Framework\Assert;
 
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {
-    return new EditNotifyThemeTestProxy;
+    return new EditNotifyThemeTestProxy();
 }
 
 test('list notification templates page returns empty table columns array', function (): void {
@@ -39,7 +39,7 @@ test('notify theme resource field options are configured', function (): void {
 });
 
 test('notify theme resource form schema exposes expected components', function (): void {
-    $schema = app(NotifyThemeResource::class)->getFormSchema();
+    $schema = app(NotifyThemeForm::class)->getFormSchema();
     Assert::assertArrayHasKey('post_id', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['post_id']);
     Assert::assertArrayHasKey('logo', $schema);
@@ -61,8 +61,7 @@ test('edit notify theme page exposes delete header action', function (): void {
 });
 
 test('list notify themes columns are configured', function (): void {
-    /** @phpstan-ignore method.deprecated */
-    $columns = (new ListNotifyThemes())->getTableColumns();
+    $columns = app(NotifyThemesTable::class)->getTableColumns();
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
     Assert::assertArrayHasKey('lang', $columns);
@@ -71,7 +70,7 @@ test('list notify themes columns are configured', function (): void {
 });
 
 test('linkable relation manager exposes text input form schema', function (): void {
-    $manager = new LinkableRelationManager;
+    $manager = new LinkableRelationManager();
     $schema = $manager->getFormSchema();
     Assert::assertNotEmpty($schema);
     Assert::assertInstanceOf(TextInput::class, $schema[0]);
