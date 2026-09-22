@@ -12,11 +12,8 @@ use ReflectionClass;
 use ReflectionNamedType;
 use Spatie\QueueableAction\QueueableAction;
 
-<<<<<<< HEAD
-=======
 use function Safe\json_encode;
 
->>>>>>> laraxot/dev
 test('netfun sms action has the expected public contract', function (): void {
     $reflection = new ReflectionClass(SendNetfunSMSAction::class);
     $method = $reflection->getMethod('execute');
@@ -33,8 +30,6 @@ test('netfun sms action has the expected public contract', function (): void {
     Assert::assertInstanceOf(ReflectionNamedType::class, $returnType);
     Assert::assertSame('array', $returnType->getName());
 });
-<<<<<<< HEAD
-=======
 
 function invokeIsSuccessfulResponse(int $statusCode, string $statusTxt): bool
 {
@@ -57,7 +52,8 @@ test('netfun sms response with http 200 and error 0 is treated as success, not l
         'error' => 0,
         'credit' => 315848,
         'sending_contacts_count' => 1,
-        'sending_batch_id' => '26263325060281687']);
+        'sending_batch_id' => '26263325060281687',
+    ]);
 
     Assert::assertTrue(invokeIsSuccessfulResponse(200, $statusTxt));
 });
@@ -66,7 +62,8 @@ test('netfun sms response with error field set is treated as a real failure', fu
     $statusTxt = json_encode([
         'async' => true,
         'error' => 1,
-        'error_message' => 'Credito insufficiente']);
+        'error_message' => 'Credito insufficiente',
+    ]);
 
     Assert::assertFalse(invokeIsSuccessfulResponse(200, $statusTxt));
 });
@@ -78,4 +75,3 @@ test('netfun sms response with non-2xx http status is treated as a real failure'
 test('netfun sms response with malformed body is treated as a real failure', function (): void {
     Assert::assertFalse(invokeIsSuccessfulResponse(200, 'not json'));
 });
->>>>>>> laraxot/dev
