@@ -8,7 +8,6 @@ return [
         'group' => 'Notifiche',
         'icon' => 'heroicon-o-envelope',
         'color' => 'primary',
-<<<<<<< HEAD
         'sort' => 10,
     ],
     'model' => [
@@ -16,13 +15,6 @@ return [
         'plural' => 'Email AWS',
         'description' => 'Gestione invio email tramite servizio Amazon SES',
     ],
-=======
-        'sort' => 10],
-    'model' => [
-        'label' => 'Email AWS',
-        'plural' => 'Email AWS',
-        'description' => 'Gestione invio email tramite servizio Amazon SES'],
->>>>>>> laraxot/dev
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -30,60 +22,40 @@ return [
             'help' => 'Indirizzo email del destinatario principale del messaggio',
             'tooltip' => '',
             'helper_text' => '',
-<<<<<<< HEAD
             'description' => '',
         ],
-=======
-            'description' => ''],
->>>>>>> laraxot/dev
         'subject' => [
             'label' => 'Oggetto Email',
             'placeholder' => 'Inserisci l\'oggetto del messaggio',
             'help' => 'Testo che apparirà come oggetto dell\'email ricevuta',
             'tooltip' => '',
             'helper_text' => '',
-<<<<<<< HEAD
             'description' => '',
         ],
-=======
-            'description' => ''],
->>>>>>> laraxot/dev
         'body_html' => [
             'label' => 'Corpo HTML',
             'placeholder' => 'Inserisci il contenuto HTML dell\'email',
             'help' => 'Contenuto formattato in HTML per email con layout avanzato',
             'tooltip' => '',
             'helper_text' => '',
-<<<<<<< HEAD
             'description' => '',
         ],
-=======
-            'description' => ''],
->>>>>>> laraxot/dev
         'template' => [
             'label' => 'Template Email',
             'placeholder' => 'Seleziona un template predefinito',
             'help' => 'Template predefinito da utilizzare per la formattazione dell\'email',
             'tooltip' => '',
             'helper_text' => '',
-<<<<<<< HEAD
             'description' => '',
         ],
-=======
-            'description' => ''],
->>>>>>> laraxot/dev
         'add_attachments' => [
             'label' => 'Allegati Email',
             'placeholder' => 'Carica file da allegare al messaggio',
             'help' => 'File allegati che verranno inviati insieme all\'email',
             'tooltip' => '',
             'helper_text' => '',
-<<<<<<< HEAD
             'description' => '',
         ],
-=======
-            'description' => ''],
->>>>>>> laraxot/dev
         'recipient' => [
             'label' => 'recipient',
             'placeholder' => 'recipient',
@@ -97,9 +69,5 @@ return [
         'profile' => ['label' => 'profile', 'icon' => 'profile', 'tooltip' => 'profile']],
     'messages' => ['loading' => 'Preparazione email in corso...', 'sent' => 'Email inviata correttamente', 'queue' => 'Email aggiunta alla coda di invio', 'failed' => 'Invio email fallito'],
     'label' => 'Send Aws Email',
-<<<<<<< HEAD
     'plural_label' => 'Send Aws Email (Plurale)',
 ];
-=======
-    'plural_label' => 'Send Aws Email (Plurale)'];
->>>>>>> laraxot/dev
