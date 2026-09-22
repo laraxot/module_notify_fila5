@@ -2,7 +2,7 @@
 title: Layout HTML mail "puliti" (senza header/footer) di Notify invisibili nel tab Inviti
 epic: null
 story: null
-status: backlog
+status: done
 module: Notify
 date: 2026-09-22
 ---
@@ -96,17 +96,27 @@ del modulo Notify) — permette di scegliere/creare un `MailTemplate` con
 `html_layout_path = clean.html` e inviare una mail di prova per vedere
 l'invio reale senza header/footer.
 
-## Prossimi passi
+## Decisione del team (2026-09-22)
 
-- [ ] Decidere l'opzione (discussion collegata, vedi issue)
-- [ ] Se opzione 3: modificare 3 file — `XotData.php`
-      (`getMailHtmlLayoutPaths(): array`), `HtmlLayoutPathSelect.php` (scan
-      multi-cartella ricorsivo), `SpatieEmail::getHtmlLayout()` (stesso ordine
-      di ricerca); a quel punto rimuovere `clean.html` dal tema
+Il team ha risposto sulla discussion: **duplicazione consentita** in questo
+caso specifico, perché si tratta di un file HTML statico (nessuna logica,
+nessun comportamento programmato) — non ricade nel principio DRY nello stesso
+modo di codice duplicato. `clean.html` resta quindi definitivo, non un
+workaround temporaneo: **non va rimosso**, e l'opzione 3 (ricerca su più
+cartelle) non verrà implementata per questo caso.
+
+Story chiusa. Issue e discussion collegate chiuse di conseguenza.
+
+## Prossimi passi (storico, non più attivi)
+
+- [x] Decidere l'opzione — deciso: duplicazione, vedi sopra
+- [ ] ~~Se opzione 3: modificare 3 file...~~ — non applicabile, opzione 3 scartata
 - [ ] Verifica manuale via `notify/admin/test/send-spatie-email-page` con
-      `html_layout_path = clean.html`
-- [ ] Aggiungere test: select mostra `default.html` di Notify, invio con quel
-      layout produce mail senza header/footer
+      `html_layout_path = clean.html` — resta valida come verifica funzionale,
+      indipendente dalla decisione
+- [ ] ~~Aggiungere test: select mostra `default.html`...~~ — non applicabile,
+      `default.html` resta solo il sorgente di riferimento in Notify, non
+      un'opzione da esporre in select
 
 ## Riferimenti
 - [HtmlLayoutPathSelect.php](../../app/Filament/Forms/Components/HtmlLayoutPathSelect.php)
