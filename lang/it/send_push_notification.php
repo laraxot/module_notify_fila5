@@ -25,7 +25,7 @@ return [
         'data' => ['label' => 'Dati Aggiuntivi', 'description' => 'Dati in formato JSON da inviare con la notifica', 'tooltip' => '', 'helper_text' => '', 'placeholder' => 'data'],
         'deviceToken' => ['label' => 'deviceToken', 'placeholder' => 'deviceToken', 'helper_text' => 'deviceToken', 'description' => 'deviceToken'],
         'name' => ['label' => 'name', 'placeholder' => 'name', 'helper_text' => 'name', 'description' => 'name'],
-        'value' => ['label' => 'value', 'placeholder' => 'value', 'helper_text' => 'value', 'description' => 'value']],
+        'value' => ['label' => 'value', 'placeholder' => 'value', 'helper_text' => '', 'description' => 'value']],
     'actions' => [
         'send' => ['label' => 'Invia Notifica', 'success' => 'Notifica push inviata con successo', 'error' => 'Errore durante l\'invio della notifica push'],
         'preview' => ['label' => 'Anteprima'],
