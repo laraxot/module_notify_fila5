@@ -10,15 +10,10 @@ use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Models\Contracts\SmsActionContract;
-<<<<<<< HEAD
-use Spatie\QueueableAction\QueueableAction;
-
-=======
 use Safe\Exceptions\JsonException;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
->>>>>>> laraxot/dev
 use function Safe\mb_convert_encoding;
 
 final class SendNetfunSMSAction implements SmsActionContract
@@ -106,15 +101,6 @@ final class SendNetfunSMSAction implements SmsActionContract
         $this->vars['status_code'] = $response->getStatusCode();
         $this->vars['status_txt'] = $response->getBody()->getContents();
 
-<<<<<<< HEAD
-        Log::channel('daily')->error('Netfun SMS response', [
-            'request' => $body,
-            'status_code' => $this->vars['status_code'],
-            'status_txt' => $this->vars['status_txt']]);
-
-        return $this->vars;
-    }
-=======
         if (! $this->isSuccessfulResponse($this->vars['status_code'], $this->vars['status_txt'])) {
             $redactedRequest = $body;
             $redactedRequest['api_token'] = '***redacted***';
@@ -153,5 +139,4 @@ final class SendNetfunSMSAction implements SmsActionContract
 
         return in_array($error, [null, 0, '0', false], true);
     }
->>>>>>> laraxot/dev
 }
