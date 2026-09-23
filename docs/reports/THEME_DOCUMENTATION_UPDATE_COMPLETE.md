@@ -11,8 +11,6 @@
 - **Purpose**: Single source of truth for theme configuration
 - **Contents**:
   - Active theme: Sixteen
-  - Domain: fixcity.local
-=======
   - Domain: laraxot.local
   - Config path: `laravel/config/localhost/xra.php`
   - Theme detection logic
@@ -22,8 +20,6 @@
 - **File**: `laravel/Modules/docs/README.md`
 - **Added**: "Active Theme" section with:
   - Current theme name (Sixteen)
-  - Domain (fixcity.local)
-=======
   - Domain (laraxot.local)
   - Config reference
   - Links to theme documentation
@@ -43,8 +39,6 @@
 - **File**: `laravel/Themes/Sixteen/docs/README.md`
 - **Added**: "✅ STATO TEMA" section at top
   - Status: ✅ **TEMA ATTIVO**
-  - Domain: fixcity.local
-=======
   - Domain: laraxot.local
   - Config: `laravel/config/localhost/xra.php` → `pub_theme`
   - Document root: `public_html/`
@@ -63,8 +57,6 @@ Each module README now includes:
 ## Active Theme
 
 **Current Theme**: **Sixteen** (AGID/Bootstrap Italia compliant)  
-**Domain**: `fixcity.local`  
-=======
 **Domain**: `laraxot.local`  
 **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 
@@ -78,8 +70,6 @@ Each module README now includes:
 3. ✅ Blog
 4. ✅ Cms
 5. ✅ Comment
-6. ✅ Fixcity
-=======
 6. ✅ App
 7. ✅ Gdpr
 8. ✅ Geo
@@ -124,9 +114,6 @@ Each module README now includes:
 | Item | Value |
 |------|-------|
 | **Document Root** | `public_html/` |
-| **APP_URL** | `http://fixcity.local` |
-| **Domain** | `fixcity.local` |
-=======
 | **APP_URL** | `http://laraxot.local` |
 | **Domain** | `laraxot.local` |
 | **Config File** | `laravel/config/localhost/xra.php` |
