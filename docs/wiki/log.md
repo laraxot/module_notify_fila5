@@ -1,24 +1,26 @@
-## [2026-07-12] deadcode | swarm — root duplicate Actions
+## [2026-09-11] fix | invito automatico — Difetto 11/12, regola un-canale
 
-- Rimosso `Actions/NormalizePhoneNumberAction.php` (root) — 0 consumer prod; canonico `SMS/NormalizePhoneNumberAction`
-- Rimosso `Actions/NotificationManager.php` + test dedicato — 0 consumer prod (wrapper su `SendNotificationAction` mai chiamato)
-- Rimosso `tests/Unit/Actions/NormalizePhoneNumberActionTest.php` (testava duplicato root)
-- Issue [#372](https://github.com/laraxot/base_fixcity_fila5/issues/372)
+- **Difetto 11 (bloccante SMS)**: `SendRecordNotificationAction` instradava l'SMS con `Notification::route(SmsChannel::class, …)` (FQCN come chiave), ma `RecordNotification::via()`/`toSms()` cercano il recapito sotto `'sms'` → `via()` tornava `[]` → l'SMS dell'invito automatico non partiva, in silenzio. Fix: `Notification::route($channelEnum->value, …)`. Commit `f150a9a54`.
+- **Difetto 12 (pagina di test)**: `SendNetfunSmsPage::sendSms` ≠ blade `sendSMS` (Livewire `MethodNotFoundException`); `SmsNotification::via()` → `['sms']` alias non registrato → `Driver [sms] not supported`. Fix: `sendSMS`, `SmsNotification::via()` → `[SmsChannel::class]`. Commit `bb340eec0`. SMS reale via Netfun ricevuto dalla pagina sistemata.
+- `SendInviteAction` (Quaeris) ora sceglie **un solo canale** (priorità mail), come il legacy `Contact::getNotificationData()`. Commit `a492c917c`.
+- Verifica end-to-end (tinker): mail lancia `TypeError getHtmlTemplate(): null` per 22/40 template `survey-pdf-*` (senza `html_template`/`subject`); SMS instrada ok ma `config('sms.default')` = `smsfactor` non configurato (manca `SMS_DRIVER=netfun` in `.env`, anche prod). Dettaglio: story `../../../Quaeris/docs/stories/quaeris-send-invite-migrate-to-record-notification.md` §"Stato dell'invio automatico"; log progetto `docs/wiki/log.md` voce `2026-09-11 (2)`.
 
-## [2026-07-12] phpstan | PushNotificationPlatformDelivery — rimossi metodi topic duplicati
+## [2026-09-11] compliance | `SmsActionContract` → `Models/Contracts/`, `SmsData` → Spatie Data
 
-- Causa: stub multi-agente su `sendFCM/APNS/WebPushTopicNotification` accanto all’implementazione FCM HTTP
-- Fix: una sola definizione; FCM topic reale, apns/webpush simulati con `topic` in response
-- PHPStan Modules: 0 errori
-- Doc: [concepts/no-app-support-queueable-actions.md](concepts/no-app-support-queueable-actions.md) § token vs topic
+- Violazioni `start.md §3` corrette: `SmsActionContract` spostato da `app/Contracts/SMS/` a `app/Models/Contracts/` (namespace `Modules\Notify\Models\Contracts`), duplicato morto `app/Contracts/SmsActionContract.php` rimosso; `SmsData` ora `extends Spatie\LaravelData\Data`. 9 `Send*SMSAction` + `SmsActionFactory` + ~12 test aggiornati. PHPStan 0 errori, phpmd pulito.
+- Concept: [concepts/sms-channel-driver-selection.md](concepts/sms-channel-driver-selection.md) §"Posizione contratto e forma di SmsData". Log di progetto: `docs/wiki/log.md` voce `2026-09-11`.
 
-## [2026-07-12] security | rimossi dddx attivi (Wave F claude-audit)
+## [2026-09-10] feature | `SmsChannel` config-driven + `sms_from` (Difetto 9/10 story invito Quaeris)
 
-- `SmtpMailSendAction`: `RuntimeException` al posto di `dddx('WIP')` (action non implementata)
-- `EsendexSendAction`: rimosso `dddx($res)` dopo decode JSON
-- `SendPushNotificationPage` / `SendPushNotification`: `Log::error` + Filament notification danger (pattern `SendFirebasePushNotificationPage`)
-- `tests/Pest.php`: `uses(TestCase::class)->in('Feature','Unit')` per discovery static audit
-- Audit static post-fix: **79/100** — HIGH residuo «No Tests Found» = falso negativo (135+ file in `tests/`)
+- `SmsChannel` non più cablato su SMSFactor (regressione `b8321c567`): sceglie il driver da `config('sms.default')` via `SmsActionFactory` (mappa esplicita). `SMS_DRIVER=netfun` → inviti SMS via Netfun.
+- `MailTemplate.sms_from` (mittente SMS per template) + `SpatieEmail::buildSmsFrom()` + wiring in `RecordNotification::toSms()`. `MailTemplate::getSlugOptions()->preventOverwrite()` (Difetto 10: `SpatieEmail::__construct()` corrompeva lo slug).
+- Concept: [concepts/sms-channel-driver-selection.md](concepts/sms-channel-driver-selection.md), [concepts/mail-template-slug-prevent-overwrite.md](concepts/mail-template-slug-prevent-overwrite.md). Story: `../../../Quaeris/docs/stories/quaeris-send-invite-migrate-to-record-notification.md`.
+
+## [2026-08-27] quality | PHPStan `Modules/Notify/app` — XOT-5.43
+
+- `GenericNotification::via()` — PHPDoc `@param object` allineato al type hint nativo
+- `HasNotificationTracking` / `HasTenantNotifications` — `@phpstan-ignore trait.unused` (trait composable, coverage in `tests/Unit/Traits/`)
+- Doc: [concepts/phpstan-pest-test-doubles.md](concepts/phpstan-pest-test-doubles.md) §2b
 
 ## [2026-06-10] schema | notifications owner Notify — XotBaseMigration
 
@@ -30,6 +32,8 @@
 
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
+- GitHub: [#272](https://github.com/laraxot/platform/issues/272) / [D#273](https://github.com/laraxot/platform/discussions/273)
 
 ---
 title: "Notify Wiki Activity Log"
@@ -42,6 +46,7 @@ module: "Notify"
 
 - Created wiki structure: rules/, skills/, commands/, memories/, concepts/
 - Created INDEX.md for each section
+- Created index.md for each section
 - Created module index.md
 - Ready for on-demand loading via QMD
 
@@ -54,4 +59,17 @@ module: "Notify"
 - Solo `XotBaseMigration` — mai `extends Migration`
 - Vietato duplicato in User/ (es. pattern `2026_07_02_*` con bigint morphs)
 
-- 2026-07-13: PHPStan L10: `HasNotificationTracking` usa `preg_replace_callback` nativo con fallback `is_string($result) ? $result : $html`; non importare `Safe\preg_replace_callback` se la funzione Safe non e disponibile.
+## 2026-09-17 — Campi "SMS driver" e "Netfun token" in Impostazioni: `SMS_DRIVER`/`NETFUN_TOKEN` editabili senza SSH (module_quaeris_fila5#38)
+
+- Il `.env` di produzione ha `NETFUN_TOKEN` ma non `SMS_DRIVER` → gli SMS di invito automatico falliscono (default `smsfactor`, non configurato). Nessun accesso SSH/FTP disponibile in produzione per editarlo a mano.
+- Aggiunto campo "SMS driver" (`Select`, opzioni chiuse sui driver mappati in `SmsActionFactory`) alla pagina `SettingPage` via `EnvWidget` (modulo Xot) — scrive `SMS_DRIVER` dentro `.env` dal pannello admin.
+- Su richiesta dell'utente, aggiunto anche il campo "Netfun token" (`TextInput`) sulla stessa pagina: permette sia di correggere `NETFUN_TOKEN` sia — soprattutto — di **verificarne il valore attuale** in produzione senza SSH, dato che il form si pre-compila col valore corrente del `.env` all'apertura.
+- Dettagli: [concepts/sms-channel-driver-selection.md](concepts/sms-channel-driver-selection.md#cambiare-sms_driver-in-produzione-senza-sshftp), meccanismo generale in [Xot — env-widget-no-ssh-env-editor](../../../Xot/docs/wiki/concepts/env-widget-no-ssh-env-editor.md).
+- PHPStan pulito. Non ancora usato in produzione: manca il deploy e la selezione/salvataggio effettivi da parte dell'utente, poi eventualmente `config:cache` via `ArtisanCommandsManager` (Xot) se la config è cache-ata.
+
+## 2026-09-20 — Campi mail in Impostazioni: `MAIL_*` SMTP + mittente `MAIL_FROM_ADDRESS`/`MAIL_FROM_NAME` (module_quaeris_fila5#46/#47)
+
+- `SettingPage` passa a `EnvWidget` (modulo Xot) i campi `mail_mailer`, `mail_host`, `mail_port`, `mail_encryption`, `mail_username`, `mail_password`, e in un secondo momento `mail_from_address` e `mail_from_name`: la configurazione mail si legge e modifica da admin senza SSH, come già per SMS.
+- Il form ora raggruppa i campi in Section (General/SMS/Mail) e legge label/helper da `Xot/lang/it/env.php`.
+- Attenzione: `MAIL_FROM_NAME="${APP_NAME}"` compare già risolto; la riga non viene riscritta se il campo resta invariato.
+- Dettagli e motivazioni: [Xot — env-widget-no-ssh-env-editor](../../../Xot/docs/wiki/concepts/env-widget-no-ssh-env-editor.md), story [quaeris-envwidget-mail-config-fields](../../../Quaeris/docs/stories/quaeris-envwidget-mail-config-fields.md).

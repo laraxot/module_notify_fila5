@@ -21,7 +21,11 @@ Modules/ModuleName/
 ├── docs/
 │   ├── README.md                    # Module overview and quick reference
 │   ├── 00-index.md                  # Alternative index (if needed)
+<<<<<<< .merge_file_UIKIEr
 │   ├── CHANGELOG.md                 # Module changelog
+=======
+│   ├── changelog.md                 # Module changelog
+>>>>>>> .merge_file_qaC0zm
 │   ├── architecture/                # Architecture decisions and patterns
 │   │   ├── overview.md
 │   │   └── decisions/               # ADRs (Architectural Decision Records)
@@ -423,7 +427,11 @@ jobs:
 
 ## 📚 Related Documents
 
+<<<<<<< .merge_file_UIKIEr
 - [AGENTS.md](../../../AGENTS.md) - Agent guidelines
+=======
+- [agents.md](../../../agents.md) - Agent guidelines
+>>>>>>> .merge_file_qaC0zm
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 - [DOCUMENTATION_INDEX.md](../../../docs/DOCUMENTATION_INDEX.md) - Master index
 

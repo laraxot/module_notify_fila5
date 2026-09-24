@@ -1,3 +1,15 @@
+<<<<<<< .merge_file_qNBUc2
+=======
+---
+title: "Multi-Agent AI Coordination - Critical Rules"
+module: notify
+type: integration
+tags: [integrations, modules, notify]
+created: 2026-08-24
+updated: 2026-08-24
+---
+
+>>>>>>> .merge_file_eDY5Pp
 # 🤖 Multi-Agent AI Coordination - Critical Rules
 
 > **Last Updated**: 2026-03-13  

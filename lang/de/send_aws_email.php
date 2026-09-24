@@ -2,23 +2,17 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/de/send_aws_email.php
 return [
     'navigation' => [
         'label' => 'Invio Email (AWS)',
         'group' => 'Notifiche',
         'icon' => 'heroicon-o-envelope',
         'color' => 'primary',
-        'sort' => '10',
-    ],
+        'sort' => '10'],
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
-        'description' => 'Gestione invio email tramite servizio Amazon SES',
-    ],
+        'description' => 'Gestione invio email tramite servizio Amazon SES'],
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -26,41 +20,35 @@ return [
             'help' => 'Indirizzo email del destinatario principale del messaggio',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'subject' => [
             'label' => 'Oggetto Email',
             'placeholder' => 'Inserisci l\'oggetto del messaggio',
             'help' => 'Testo che apparirà come oggetto dell\'email ricevuta',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'body_html' => [
             'label' => 'Corpo HTML',
             'placeholder' => 'Inserisci il contenuto HTML dell\'email',
             'help' => 'Contenuto formattato in HTML per email con layout avanzato',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'template' => [
             'label' => 'Template Email',
             'placeholder' => 'Seleziona un template predefinito',
             'help' => 'Template predefinito da utilizzare per la formattazione dell\'email',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'add_attachments' => [
             'label' => 'Allegati Email',
             'placeholder' => 'Carica file da allegare al messaggio',
             'help' => 'File allegati che verranno inviati insieme all\'email',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
-    ],
+            'description' => '']],
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -70,15 +58,11 @@ return [
             'modal_description' => 'Sei sicuro di voler inviare questa email?',
             'success' => 'Email inviata con successo tramite AWS SES',
             'error' => 'Errore durante l\'invio dell\'email',
-            'confirmation' => 'L\'email verrà inviata immediatamente',
-        ],
-    ],
+            'confirmation' => 'L\'email verrà inviata immediatamente']],
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',
         'queue' => 'Email aggiunta alla coda di invio',
-        'failed' => 'Invio email fallito',
-    ],
+        'failed' => 'Invio email fallito'],
     'label' => 'Missing Label',
-    'plural_label' => 'Missing Plural label',
-];
+    'plural_label' => 'Missing Plural label'];

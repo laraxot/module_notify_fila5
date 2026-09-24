@@ -59,7 +59,11 @@ All documentation, scripts, and configuration files have been created successful
 ## File Structure
 
 ```
+<<<<<<< .merge_file_fzw7aO
 base_fixcity_fila5/
+=======
+base_ptv_fila5/
+>>>>>>> .merge_file_hReuGM
 ├── docs/
 │   ├── openviking-integration.md          ✅ NEW
 │   ├── bmad-gsd-ralph-integration.md      ✅ NEW
@@ -94,7 +98,11 @@ sudo systemctl start openviking
 
 ```bash
 # Navigate to project
+<<<<<<< .merge_file_fzw7aO
 cd /var/www/_bases/base_fixcity_fila5
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> .merge_file_hReuGM
 
 # Run initialization
 bash bashscripts/ai/openviking-init.sh
@@ -345,8 +353,13 @@ cat .ralph/iteration-log.md
 ls -la _bmad/
 ls -la .planning/
 
+<<<<<<< .merge_file_fzw7aO
 # Review AGENTS.md
 cat AGENTS.md
+=======
+# Review agents.md
+cat agents.md
+>>>>>>> .merge_file_hReuGM
 ```
 
 ## Resources
@@ -356,7 +369,11 @@ cat AGENTS.md
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
 - [Unified Workflow](./unified-ai-workflow.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
+<<<<<<< .merge_file_fzw7aO
 - [AGENTS.md](../AGENTS.md)
+=======
+- [agents.md](../agents.md)
+>>>>>>> .merge_file_hReuGM
 
 ### Scripts
 - OpenViking Init: `bashscripts/ai/openviking-init.sh`

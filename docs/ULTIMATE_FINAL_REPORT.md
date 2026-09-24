@@ -27,7 +27,11 @@ Trasformato FixCity da progetto con documentazione parziale a piattaforma enterp
 4. PROJECT_COMPLETION_STATUS.md
 5. EXCELLENCE_2025.md
 6. FINAL_SUMMARY.md
+<<<<<<< .merge_file_PPRnxb
 7. WORK_COMPLETED_2025-10-01.md
+=======
+7. work-completed.md
+>>>>>>> .merge_file_Zx7s0M
 8. GAP_ANALYSIS_IMPLEMENTATION.md
 9. IMPLEMENTATIONS_COMPLETED.md
 10. SUPER_MUCCA_COMPLETION.md
@@ -256,7 +260,11 @@ Trasformato FixCity da progetto con documentazione parziale a piattaforma enterp
 ## 📚 STRUTTURA FINALE COMPLETA
 
 ```
+<<<<<<< .merge_file_PPRnxb
 base_fixcity_fila5_mono/
+=======
+base_ptv_fila5_mono/
+>>>>>>> .merge_file_Zx7s0M
 │
 ├── 📊 ROOT DOCS (15 files)
 │   ├── Strategic documentation

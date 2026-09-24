@@ -1,6 +1,10 @@
 # Convenzioni di Naming per Filament 
 
+<<<<<<< .merge_file_pmqhvR
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema Quaeris, con particolare attenzione alle pagine e alle risorse.
+=======
+Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
+>>>>>>> .merge_file_Niw9Jo
 
 ## Convenzioni di Naming per Pagine Filament
 
@@ -143,4 +147,8 @@ Prima di ogni commit, verificare che:
 1. Tutte le classi nella cartella `app/Filament/Clusters/*/Pages` terminino con "Page"
 2. Tutte le classi nella cartella `app/Filament/Resources` terminino con "Resource"
 3. Tutte le classi nella cartella `app/Filament/Widgets` terminino con "Widget"
+<<<<<<< .merge_file_pmqhvR
 4. Tutte le viste Blade seguano la convenzione di naming
+=======
+4. Tutte le viste Blade seguano la convenzione di naming
+>>>>>>> .merge_file_Niw9Jo
