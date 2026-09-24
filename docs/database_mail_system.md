@@ -302,10 +302,18 @@ php artisan notify:mail-template:test
 
 ## Collegamenti
 - [Notify Module](../README.md)
+<<<<<<< .merge_file_9Ju4zO
+- [Notify Module](../readme.md)
+=======
+>>>>>>> .merge_file_YUpfD3
 - [Email Templates](email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< .merge_file_9Ju4zO
 - [Spatie Packages](https://spatie.be/open-source)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> .merge_file_YUpfD3

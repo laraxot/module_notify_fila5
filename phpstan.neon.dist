@@ -1,6 +1,10 @@
 includes:
     - phpstan-baseline.neon
+<<<<<<< .merge_file_y4SMLA
     - ./vendor/larastan/larastan/extension.neon
+=======
+    - ../../vendor/larastan/larastan/extension.neon
+>>>>>>> .merge_file_r6oZdo
     - ./vendor/thecodingmachine/phpstan-safe-rule/phpstan-safe-rule.neon
     #- ./vendor/symplify/phpstan-rules/config/code-complexity-rules.neon
     #- ./vendor/symplify/phpstan-rules/config/collector-rules.neon

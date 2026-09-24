@@ -8,7 +8,14 @@ parameters:
     checkGenericClassInNonGenericObjectType: false
     
 includes:
+<<<<<<< .merge_file_Pe3mJ0
     - vendor/phpstan/phpstan-deprecation-rules/rules.neon
     - vendor/phpstan/phpstan-strict-rules/rules.neon
     - vendor/phpstan/phpstan-phpunit/extension.neon
     - vendor/thecodingmachine/phpstan-safe-rule/phpstan-safe-rule.neon 
+=======
+    - vendor/phpstan/phpstan-deprecation-rules/rules.neon (?)
+    - vendor/phpstan/phpstan-strict-rules/rules.neon (?)
+    - vendor/phpstan/phpstan-phpunit/extension.neon (?)
+    - vendor/thecodingmachine/phpstan-safe-rule/phpstan-safe-rule.neon  (?)
+>>>>>>> .merge_file_VWq7uK
