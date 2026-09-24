@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_sjXjkH
-=======
 ---
 title: "Links"
 type: concept
@@ -20,7 +18,6 @@ related:
   - "./repos.md"
 ---
 
->>>>>>> .merge_file_Hvs1pq
 
 ----------------------------------------------------------------------------------
 Laravel Mailator for Configuring Email Scheduler & Templates

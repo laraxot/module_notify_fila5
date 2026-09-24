@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_eIhDlm
-=======
 ---
 title: "Notifications"
 type: concept
@@ -20,5 +18,4 @@ related:
   - "./repos.md"
 ---
 
->>>>>>> .merge_file_3SZX8d
 https://medium.com/@peterhrobar/push-notifications-with-laravel-61049ab9aec6
