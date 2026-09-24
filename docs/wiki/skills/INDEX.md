@@ -1,3 +1,14 @@
+<<<<<<< .merge_file_8G1DN6
+=======
+<<<<<<< .merge_file_nOTcLO
+=======
+<<<<<<< .merge_file_IxokHY
+=======
+<<<<<<< .merge_file_k3XTxD
+=======
+>>>>>>> .merge_file_7EqhMv
+>>>>>>> .merge_file_e2IWGl
+>>>>>>> .merge_file_c2d68F
 ---
 title: "Notify Module - skills Index"
 type: index
@@ -17,6 +28,16 @@ related:
   - ../../integrations/readme.md
   - ../../templates/readme.md
 ---
+<<<<<<< .merge_file_8G1DN6
+=======
+<<<<<<< .merge_file_nOTcLO
+=======
+<<<<<<< .merge_file_IxokHY
+=======
+>>>>>>> .merge_file_496KZT
+>>>>>>> .merge_file_7EqhMv
+>>>>>>> .merge_file_e2IWGl
+>>>>>>> .merge_file_c2d68F
 # Notify Module - skills Index
 
 ## Purpose
