@@ -224,13 +224,20 @@ Questo documento definisce le best practices per la creazione di template email 
 - [Struttura Template](./MAIL_TEMPLATES_STRUCTURE.md)
 - [Best Practices HTML](./EMAIL_HTML_BEST_PRACTICES.md)
 - [Template Base](./BASE_TEMPLATES.md)
+<<<<<<< .merge_file_7yYQq6
 - [Struttura Template](./mail_templates_structure.md)
 - [Best Practices HTML](./email_html_best_practices.md)
 - [Template Base](./base_templates.md)
+=======
+>>>>>>> .merge_file_b76vNT
 
 ## Supporto
 
 Per supporto tecnico:
 - Email: support@example.com
 - Documentazione: https://docs.example.com
+<<<<<<< .merge_file_7yYQq6
 - Repository: https://github.com/organization/notify 
+=======
+- Repository: https://github.com/organization/notify 
+>>>>>>> .merge_file_b76vNT

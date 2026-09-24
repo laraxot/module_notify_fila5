@@ -22,19 +22,10 @@ accoppiato a `ThemeNotification`.)
 
 ## `send(object $notifiable, Notification $notification): ?array`
 
-1. `$notification->toSms($notifiable)` → `?SmsData`. `null` è un salto
-   intenzionale (niente destinatario, o niente da dire — vedi sotto) e
-   `send()` ritorna `null` senza chiamare nessun driver; qualunque altro
-   valore che non sia un'istanza di `SmsData` è invece un errore di
-   programmazione e fa lanciare `Exception` (story
-   `quaeris-send-invite-migrate-to-record-notification.md`, Difetto 17,
-   2026-09-15 — prima anche `null` faceva lanciare l'eccezione, rompendo il
-   contratto `?SmsData` che `RecordNotification::toSms()` dichiara). `SmsData`
-   porta `from` / `recipient` / `body` già pronti (il corpo lo compone chi
-   implementa `toSms()`, es. `SpatieEmail::buildSms()` per
-   `RecordNotification`, che ritorna `null` anche quando il corpo costruito è
-   vuoto — survey senza `sms_template` configurato — invece di spedire
-   davvero un SMS a corpo vuoto).
+1. `$notification->toSms($notifiable)` → deve restituire uno `SmsData` (altrimenti
+   `Exception`). `SmsData` porta `from` / `recipient` / `body` già pronti (il
+   corpo lo compone chi implementa `toSms()`, es. `SpatieEmail::buildSms()` per
+   `RecordNotification`).
 2. Driver: se la notifica espone `getProvider(): ?string` (es. `SmsNotification`)
    usa quello; altrimenti `null`.
 3. `SmsActionFactory::create($driver)` — con `$driver === null` la factory usa

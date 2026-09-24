@@ -34,6 +34,19 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
+     * Modello per cui è stata costruita la notifica.
+     *
+     * `SendRecordNotificationAction` invia sempre con
+     * `Notification::route($channel, $to)->notify(...)`: il notifiable in
+     * `NotificationSent` è un `AnonymousNotifiable`, mai `$record`. I listener
+     * (es. `UpdateContactInviteCountersListener`) leggono il modello da qui.
+     */
+    public function getRecord(): Model
+    {
+        return $this->record;
+    }
+
+    /**
      * Get the notification's delivery channels.
      *
      * Determines channels based on the notifiable's routing capabilities.
@@ -104,9 +117,9 @@ class RecordNotification extends Notification implements ShouldQueue
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $to = $notifiable->routeNotificationFor('sms');
         }
-        $fallback_to = config('sms.fallback_to');
-        if (is_string($fallback_to)) {
-            $to = $fallback_to;
+        $fallbackTo = config('sms.fallback_to');
+        if (is_string($fallbackTo)) {
+            $to = $fallbackTo;
         }
         if ($to === null) {
             return null;

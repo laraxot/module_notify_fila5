@@ -1,98 +1,196 @@
 ---
 title: "Notify Module Documentation"
 type: documentation
-tags: [module, documentation, notify, notifications, mail, sms, whatsapp, telegram]
+tags: [module, documentation]
 created: 2026-06-05
-updated: 2026-09-17
+updated: 2026-08-02
 ---
 
-# Modulo Notify
+# Documentation
 
-Modulo Laraxot per l'invio e il tracciamento di notifiche multi-canale (email, SMS, WhatsApp,
-Telegram, push, database) con template gestiti da database e log di ogni invio.
+This directory contains documentation for the Notify module.
 
-## Canali di notifica supportati
+## Structure
 
-| Canale | Channel/Action | Provider disponibili |
-|---|---|---|
-| Email | `app/Emails/SpatieEmail.php`, `app/Emails/EmailDataEmail.php` | SMTP, Mailtrap (`Actions/Mail/SendMailtrapMailAction.php`) |
-| SMS | `app/Channels/SmsChannel.php` | SMSFactor (default), Netfun, Twilio, Nexmo, Plivo, Gammu, Agiletelecom (`app/Actions/SMS/Send*SMSAction.php`) |
-| WhatsApp | `app/Channels/WhatsAppChannel.php` | Twilio (default), Vonage, Facebook Cloud API, 360dialog (`app/Actions/WhatsApp/Send*WhatsAppAction.php`) |
-| Telegram | `app/Channels/TelegramChannel.php` | Bot API ufficiale (default), BotMan, Nutgram (`app/Actions/Telegram/Send*TelegramAction.php`) |
-| Netfun | `app/Channels/NetfunChannel.php` | Provider SMS/voce Netfun dedicato |
-| Push (Firebase) | `app/Notifications/FirebaseAndroidNotification.php` | `app/Actions/Push/Send*Action.php` (device, topic, targeting, schedulato) |
-| Database | Laravel notification database channel | Persistenza standard Laravel per notifiche in-app |
+- **architecture.md** - Module architecture and design patterns
+- **README.md** - This file
 
-Ogni canale ha un driver di default configurabile in `config/sms.php`, `config/whatsapp.php`,
-`config/telegram.php`; ogni config espone anche `retry`, `rate_limit`, `circuit_breaker`,
-`timeout` e `logging` per la resilienza degli invii.
+## Guidelines
 
-## Template
+Documentation should be:
+- Clear and concise
+- Example-driven
+- Updated with code changes
+- Use Markdown format (.md)
 
-- **`Modules\Notify\Models\MailTemplate`** — estende `Spatie\MailTemplates\Models\MailTemplate`,
-  con `HasSlug` (Spatie Sluggable) e `HasTranslations` (Spatie Translatable) sui campi
-  `subject`, `html_template`, `text_template`. Placeholder dinamici, preview in admin panel.
-- **`MailTemplateVersion`** — storicizza le versioni di un `MailTemplate` (versioning dei
-  contenuti).
-- **`MailTemplateLog`** — un record per ogni invio effettuato da un template: `mailable_type`/
-  `mailable_id` (relazione polimorfica al Mailable), `status`, `status_message`, `sent_at`,
-  `delivered_at`, `failed_at`, `opened_at`, `clicked_at`.
-- **`NotificationTemplate`** / **`NotificationTemplateVersion`** — equivalenti per le notifiche
-  multi-canale (non email), con lo stesso pattern di versioning.
-- **`NotificationType`** — anagrafica dei tipi di notifica (`slug`, `category`, `channels`,
-  `settings`, `template`).
-- **`EmailTemplate`** — modello di supporto per template email legacy/minimali.
+## Sistemi di Notificazione
 
-## Log e tracciamento
+- Mail notifications
+- Database notifications
+- Template management
+- Queue integration
 
-- **`NotificationLog`** — un record per ogni notifica multi-canale inviata: `notifiable_type`/
-  `notifiable_id` (morph al destinatario), `channel`, `template_id`, `status`, `status_message`,
-  `data`, `metadata`, timestamp di `sent_at`/`delivered_at`/`failed_at`/`opened_at`/`clicked_at`.
-  Scope disponibili: `forChannel()`, `forNotifiable()`, `withStatus()`.
-- **`MailTemplateLog`** — vedi sopra, stesso pattern applicato alle email.
-- **`NotificationChannel`** — configurazione persistita dei canali attivi (`driver`, `config`,
-  `is_enabled`, `priority`), usata per abilitare/disabilitare provider da admin panel senza
-  deploy.
-
-## Notifiche applicative principali
-
-- **`RecordNotification`** — notifica generica basata su un record Eloquent + slug di template,
-  con supporto ad allegati (path o contenuto binario) e invio multi-canale
-  (`Notification::route('mail', ...)->route('sms', ...)->route('whatsapp', ...)`).
-- **`GenericNotification`**, **`EmailDataNotification`**, **`SmsNotification`**,
-  **`WhatsAppNotification`**, **`TelegramNotification`**, **`ThemeNotification`**,
-  **`TicketAssignedNotification`**, **`TicketStatusChangedNotification`**,
-  **`FirebaseAndroidNotification`** — notifiche specializzate per dominio/canale.
-
-## Admin panel (Filament)
-
-Risorse in `app/Filament/Resources/`:
-`MailTemplateResource`, `NotificationResource`, `NotificationLogResource`,
-`NotificationTemplateResource`, `NotifyThemeResource`, `ContactResource`.
-Ogni Resource segue il pattern `Schemas/` (form) + `Tables/` (colonne) + `Pages/`
-(non schema/colonne inline nella classe Resource).
-
-## Modelli principali (verificato contro `app/Models/`)
+## Modelli Principali (verificato 2026-07-24 contro `app/Models/`)
 
 ```php
 Modules\Notify\Models\MailTemplate
 Modules\Notify\Models\MailTemplateVersion
 Modules\Notify\Models\MailTemplateLog
-Modules\Notify\Models\EmailTemplate
 Modules\Notify\Models\Notification
 Modules\Notify\Models\NotificationLog
 Modules\Notify\Models\NotificationType
 Modules\Notify\Models\NotificationChannel
 Modules\Notify\Models\NotificationTemplate
 Modules\Notify\Models\NotificationTemplateVersion
-Modules\Notify\Models\Contact
-Modules\Notify\Models\NotifyTheme
-Modules\Notify\Models\NotifyThemeable
 ```
 
-## Quick start
+## Traits
 
-### Email semplice
+> **Verificato 2026-07-24**: `Modules\Notify\Models\Traits\HasNotify` **non esiste** (unico trait presente in
+> `app/Models/Traits/` è `HasContact.php`). Se questo trait serve, va creato, non documentato come
+> già presente.
+
+## Collegamenti
+
+- [Xot Base](../Xot/docs/) - Core framework
+- [User Module](../User/docs/) - User management integration
+
+## Risorse
+
+- [PHPStan Config](./phpstan/) - Type checking configuration
+- [On-Demand Pattern](./on-demand-pattern.md) — Pattern per caricamento efficiente
+- [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
+- [Performance](./performance-optimization.md) — Metriche e best practice
+- [Project Structure](./project-structure.md) — Directory layout
+
+---
+
+<!-- Merged from readme.md, which collided with this file on case-insensitive filesystems. -->
+
+---
+title: "Modulo Notify - Documentazione"
+type: index
+tags: [notify, docs]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione readme modulo notify - documentazione index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - README.md
+  - wiki/index.md
+  - notifications/readme.md
+  - integrations/readme.md
+  - templates/readme.md
+---
+# Modulo Notify - Documentazione
+
+## 📚 Overview
+
+Il modulo **Notify** è il sistema centrale per **email, notifiche, SMS e comunicazioni** nel framework Laraxot.  
+Supporta template dinamici, allegati binari, multi-canale e integrazione completa con Spatie Laravel Mail Templates.
+
+---
+
+## 🎯 Funzionalità Principali
+
+### 1. **Sistema Email con Template Database**
+- Template email salvati su database (Spatie Mail Templates)
+- Placeholder dinamici con Mustache
+- Supporto HTML/Text/SMS
+- Preview email in admin panel
+
+### 2. **Allegati Email Avanzati**
+- ⭐ **Allegati da contenuto binario** (PDF generati al volo)
+- Allegati da file esistenti
+- Multiple attachment support
+- Auto-detection MIME types
+
+### 3. **Multi-Channel Notifications**
+- Email (SMTP, Mailgun, SES, ecc.)
+- SMS (Twilio, Vonage, ecc.)
+- WhatsApp (Twilio API)
+- Database notifications
+
+### 4. **Integrazione Filament**
+- Admin panel per gestione template
+- Preview email real-time
+- Testing tools integrati
+
+---
+
+## 📖 Documentazione Disponibile
+
+### Guide Complete
+
+#### Email System
+- **[Email Attachments Usage](./email-sending/attachments_usage.md)** ⭐  
+  Guida completa agli allegati email (path e binary data)
+
+- **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
+  Sistema template email database
+
+- **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
+  Best practices layout email
+
+#### Notifications
+- **[Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)**  
+  Come implementare notifiche custom
+
+- **[RecordNotification Usage](./notifications/record-notification.md)**  
+  Notifiche basate su record Eloquent
+
+#### SMS & WhatsApp
+- **[WhatsApp Provider Architecture](./whatsapp_provider_architecture.md)**  
+  Architettura provider WhatsApp
+
+---
+
+## 🏗️ Architettura
+
+### Componenti Chiave
+
+```
+Modules/Notify/
+├── app/
+│   ├── Emails/
+│   │   ├── SpatieEmail.php              ⭐ Email con allegati binari
+│   │   └── EmailDataEmail.php
+│   │  
+│   ├── Notifications/
+│   │   ├── RecordNotification.php       ⭐ Notifica generica per record
+│   │   ├── ThemeNotification.php
+│   │   └── SendSchedeNotification.php
+│   │  
+│   ├── Datas/
+│   │   ├── EmailData.php                # DTO Email
+│   │   ├── SmtpData.php                 # DTO SMTP config
+│   │   ├── SmsData.php                  # DTO SMS
+│   │   └── EmailAttachmentData.php      # DTO Attachment
+│   │  
+│   ├── Actions/
+│   │   └── BuildMailMessageAction.php
+│   │  
+│   └── Channels/
+│       ├── SmsChannel.php
+│       └── WhatsAppChannel.php
+│  
+└── docs/                                 # Documentazione
+    ├── README.md                         ⭐ QUESTO FILE
+    ├── email-sending/
+    │   └── attachments_usage.md
+    └── notifications/
+        └── record-notification.md
+```
+
+---
+
+## 🚀 Quick Start
+
+### 1. Invio Email Semplice
 
 ```php
 use Modules\Notify\Emails\SpatieEmail;
@@ -104,75 +202,299 @@ $email = new SpatieEmail($user, 'welcome');
 Mail::to('user@example.com')->send($email);
 ```
 
-### Notifica multi-canale basata su record
-
-```php
-use Modules\Notify\Notifications\RecordNotification;
-use Illuminate\Support\Facades\Notification;
-
-$notify = new RecordNotification($record, 'template-slug');
-$notify = $notify->mergeData(['custom_var' => 'value']);
-
-Notification::route('mail', 'user@example.com')
-    ->route('sms', '+393331234567')
-    ->route('whatsapp', '+393331234567')
-    ->notify($notify);
-```
-
-### Email con allegato PDF binario
+### 2. Email con Allegato PDF Dinamico ⭐
 
 ```php
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
 use Illuminate\Support\Facades\Notification;
 
+// Genera PDF binario
 $pdfContent = app(GetPdfContentByRecordAction::class)->execute($record);
 
-$notify = (new RecordNotification($record, 'template-slug'))
-    ->addAttachments([
-        ['data' => $pdfContent, 'as' => 'documento.pdf', 'mime' => 'application/pdf'],
-    ]);
+// Prepara allegato
+$attachments = [
+    [
+        'data' => $pdfContent,           // Contenuto binario PDF
+        'as' => 'documento.pdf',         // Nome file nell'email
+        'mime' => 'application/pdf',     // MIME type
+    ],
+];
+
+// Crea e invia notifica
+$notify = new RecordNotification($record, 'template-slug');
+$notify = $notify->addAttachments($attachments);
 
 Notification::route('mail', 'destinatario@example.com')->notify($notify);
 ```
 
-## Testing
+### 3. Email con File Esistente
+
+```php
+$attachments = [
+    [
+        'path' => storage_path('pdfs/contratto.pdf'),
+        'as' => 'contratto.pdf',
+        'mime' => 'application/pdf',
+    ],
+];
+
+$email = new SpatieEmail($user, 'contract-template');
+$email->addAttachments($attachments);
+
+Mail::to($user->email)->send($email);
+```
+
+### 4. Notifica Multi-Canale
+
+```php
+use Modules\Notify\Notifications\RecordNotification;
+
+$notify = new RecordNotification($record, 'multi-channel-template');
+
+// Invia via Email + SMS + WhatsApp
+Notification::route('mail', 'user@example.com')
+    ->route('sms', '+393331234567')
+    ->route('whatsapp', '+393331234567')
+    ->notify($notify);
+```
+
+---
+
+## 💡 Pattern e Best Practices
+
+### Pattern 1: Allegati Binari (Raccomandato)
+
+**Quando usare:**
+- PDF generati dinamicamente
+- File creati al volo
+- Contenuti non salvati su filesystem
+
+**Vantaggi:**
+- ✅ No file temporanei
+- ✅ Performance migliori
+- ✅ Thread-safe
+- ✅ Scalabilità
+
+```php
+$attachments = [
+    [
+        'data' => $binaryContent,    // Contenuto binario
+        'as' => 'filename.pdf',
+        'mime' => 'application/pdf',
+    ],
+];
+```
+
+### Pattern 2: Allegati da Path
+
+**Quando usare:**
+- File esistenti su filesystem
+- PDF pre-generati e cachati
+- Asset statici
+
+```php
+$attachments = [
+    [
+        'path' => storage_path('files/doc.pdf'),
+        'as' => 'documento.pdf',
+        'mime' => 'application/pdf',
+    ],
+];
+```
+
+### Pattern 3: RecordNotification (Raccomandato)
+
+**Quando usare:**
+- Notifiche basate su record Eloquent
+- Template dinamici da database
+- Multi-canale support
+
+```php
+$notify = new RecordNotification($record, 'template-slug');
+$notify = $notify->mergeData(['custom_var' => 'value']);
+$notify = $notify->addAttachments($attachments);
+
+Notification::route('mail', 'to@example.com')->notify($notify);
+```
+
+---
+
+**Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
+**Versione**: 1.1  
+**Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
+**Prossimi passi**: Completamento test modelli base  
+**Changelog**: [changelog.md](./CHANGELOG.md)
+
+## 🔗 Collegamenti
+
+### Moduli Correlati
+
+#### Ptv (Schede Valutazione)
+- **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
+  Caso d'uso completo: invio schede valutazione con PDF
+
+- **[SendMailByRecord Action](../../Ptv/app/Actions/Scheda/SendMailByRecord.php)**  
+  Implementation reference
+
+#### Xot (Core Framework)
+- **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
+  Generazione PDF binario da record
+
+- **[PDF Actions](../../Xot/app/Actions/Pdf/)**  
+  Actions per gestione PDF
+
+### Documentazione Interna
+
+#### Email System
+- [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+- [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
+
+#### Notifications
+- [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
+- [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
+
+---
+
+## 🧪 Testing
+
+### Test Email con Allegati
+
+```php
+use Tests\TestCase;
+use Modules\Notify\Emails\SpatieEmail;
+
+class SpatieEmailTest extends TestCase
+{
+    /** @test */
+    public function it_attaches_binary_pdf_content(): void
+    {
+        $pdfContent = '%PDF-1.4...'; // Mock binary
+        
+        $attachments = [
+            [
+                'data' => $pdfContent,
+                'as' => 'test.pdf',
+                'mime' => 'application/pdf',
+            ],
+        ];
+        
+        $email = new SpatieEmail($record, 'test-template');
+        $email->addAttachments($attachments);
+        
+        $this->assertCount(1, $email->attachments());
+    }
+}
+```
+
+### Test Notifiche
 
 ```bash
 php artisan test --filter=RecordNotificationTest
 ```
 
-## Struttura
+---
 
-- **`app/Actions/`** — un'Action per provider/canale (`Mail`, `SMS`, `WhatsApp`, `Telegram`,
-  `Push`, `NotifyTheme`), pattern Spatie Queueable Actions.
-- **`app/Channels/`** — implementazioni `NotificationChannel` di Laravel per SMS, WhatsApp,
-  Telegram, Netfun.
-- **`app/Notifications/`** — classi notifica applicative.
-- **`app/Emails/`** — Mailable basati su `MailTemplate`.
-- **`app/Models/`** — modelli Eloquent (vedi sopra).
-- **`app/Filament/`** — Resources/Schemas/Tables per l'admin panel.
-- **`config/`** — `notify.php`, `sms.php`, `whatsapp.php`, `telegram.php`, `beautymail.php`,
-  `config.php`.
+## 🛠️ Troubleshooting
 
-## Collegamenti
+### Email Non Arriva
 
-- [Changelog](./CHANGELOG.md)
-- [Architettura](./architecture.md)
-- [Project structure](./project-structure.md)
-- [Performance](./performance-optimization.md)
-- [On-Demand Pattern](./on-demand-pattern.md)
-- [QMD Setup](./qmd-setup.md)
-- [Email attachments usage](./email-sending/attachments_usage.md)
-- [Spatie Mail Templates deep dive](./spatie-database-mail-templates-deep-dive.md)
-- [Notifications implementation guide](./notifications/notifications_implementation_guide.md)
-- [RecordNotification usage](./notifications/record-notification.md)
-- [WhatsApp provider architecture](./whatsapp_provider_architecture.md)
-- [PHPStan config](./phpstan/)
-- [Xot Base](../../Xot/docs/) — core framework
-- [User Module](../../User/docs/) — integrazione utenti
+**Checklist:**
+- [ ] Configurazione SMTP corretta (`.env`)
+- [ ] Template email esiste nel database
+- [ ] Destinatario valido
+- [ ] Allegati corretti (path esiste o data non vuoto)
+- [ ] Log errori (`storage/logs/laravel.log`)
+
+**Debug:**
+```bash
+php artisan tinker
+>>> Mail::raw('Test', fn($m) => $m->to('test@example.com'));
+>>> Mail::failures();
+```
+
+### Allegato Non Arriva
+
+**Cause comuni:**
+- Array allegati malformato
+- MIME type errato
+- Contenuto binario corrotto
+- File path non esistente
+
+**Test:**
+```php
+// Verifica formato allegato
+$attachments = [
+    [
+        'data' => $content,  // DEVE essere presente
+        'as' => 'file.pdf',  // DEVE essere stringa
+        'mime' => 'application/pdf', // DEVE essere stringa
+    ],
+];
+```
 
 ---
 
-**Ultimo aggiornamento**: 2026-09-17
-**PHPStan Level**: 10
+## 📊 Performance
+
+### Ottimizzazioni Applicate
+
+1. **Lazy Template Loading** - Template caricati on-demand
+2. **Queue Support** - Notifiche in coda per performance
+3. **Binary Attachments** - No file I/O per allegati dinamici
+4. **Cache Templates** - Template cachati in produzione
+
+### Monitoring
+
+```php
+use Illuminate\Support\Facades\Log;
+
+Log::channel('email')->info('Email sent', [
+    'to' => $recipient,
+    'template' => $slug,
+    'attachments_count' => count($attachments),
+]);
+```
+
+---
+
+## 🔐 Sicurezza
+
+### Controlli Implementati
+
+- ✅ **Email Validation** - Validazione indirizzi email (Webmozart Assert)
+- ✅ **MIME Type Validation** - Validazione tipi file
+- ✅ **File Existence Check** - Controllo esistenza file path
+- ✅ **Input Sanitization** - Sanitizzazione input utente
+- ✅ **Rate Limiting** - Throttle su invii massivi
+
+---
+
+## 📝 Changelog
+
+### v2.1.0 (2025-01-22)
+- ✨ Supporto allegati binari (data field)
+- ✅ PHPStan Level 10 compliance
+- 📚 Documentazione completa aggiornata
+- 🐛 Fix tipizzazione SpatieEmail
+- 🐛 Fix validazione RecordNotification
+
+### v2.0.0
+- Integrazione Spatie Mail Templates
+- Multi-canale support
+- Template database
+
+---
+
+## 👥 Contributors
+
+- **Team Laraxot** - Core implementation
+- **Xot Module** - PDF generation support
+
+## Documentation
+
+**Ultimo aggiornamento:** 2025-01-22  
+**Versione:** 2.1.0  
+**Stato:** ✅ Production Ready  
+**PHPStan Level:** 10

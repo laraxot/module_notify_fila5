@@ -17,19 +17,20 @@ use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
-use Modules\Notify\Filament\Resources\ContactResource;
-use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
-use Modules\Notify\Filament\Resources\MailTemplateResource;
-use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
-use Modules\Notify\Filament\Resources\NotificationResource;
-use Modules\Notify\Filament\Resources\NotificationResource\Pages\ListNotifications;
-use Modules\Notify\Filament\Resources\NotificationResource\Schemas\NotificationInfolist;
+use Modules\Notify\Filament\Resources\ContactResource\Schemas\ContactForm;
+use Modules\Notify\Filament\Resources\ContactResource\Tables\ContactsTable;
+use Modules\Notify\Filament\Resources\MailTemplateResource\Schemas\MailTemplateForm;
+use Modules\Notify\Filament\Resources\MailTemplateResource\Tables\MailTemplatesTable;
 use Modules\Notify\Filament\Resources\NotificationLogResource;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Schemas\NotificationLogForm;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Schemas\NotificationLogInfolist;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Tables\NotificationLogsTable;
+use Modules\Notify\Filament\Resources\NotificationResource\Pages\ListNotifications;
+use Modules\Notify\Filament\Resources\NotificationResource\Schemas\NotificationForm;
+use Modules\Notify\Filament\Resources\NotificationResource\Schemas\NotificationInfolist;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Schemas\NotificationTemplateForm;
 use Modules\Notify\Tests\Fixtures\EditContactTestProxy;
 use Modules\Notify\Tests\Fixtures\PreviewMailTemplateTestProxy;
 use Modules\Notify\Tests\TestCase;
@@ -52,7 +53,7 @@ function makePreviewNotificationTemplateTestProxy(): PreviewNotificationTemplate
 }
 
 test('contact resource form schema exposes expected fields', function (): void {
-    $schema = TestCase::assertNotifyArray(app(ContactResource::class)->getFormSchema());
+    $schema = TestCase::assertNotifyArray(app(ContactForm::class)->getFormSchema());
 
     Assert::assertArrayHasKey('name', $schema);
     Assert::assertArrayHasKey('email', $schema);
@@ -68,7 +69,7 @@ test('edit contact page exposes delete header action', function (): void {
 });
 
 test('list contacts page exposes expected table columns', function (): void {
-    $columns = XotBasePest::assertArray((new ListContacts())->getTableColumns()); /** @phpstan-ignore method.deprecated */
+    $columns = XotBasePest::assertArray(ContactsTable::contactTableColumns());
 
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
@@ -76,9 +77,8 @@ test('list contacts page exposes expected table columns', function (): void {
     Assert::assertInstanceOf(IconColumn::class, $columns['is_read']);
 });
 
-
 test('list mail templates page exposes expected table columns', function (): void {
-    $columns = \assertNotifyArray((new ListMailTemplates())->getTableColumns()); /** @phpstan-ignore method.deprecated */
+    $columns = XotBasePest::assertArray(MailTemplatesTable::mailTemplateTableColumns());
 
     Assert::assertArrayHasKey('slug', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['slug']);
@@ -126,7 +126,7 @@ test('mail template resource form schema exposes expected components', function 
     // Nessuna fixture da creare: HtmlLayoutPathSelect legge
     // XotData::make()->getMailHtmlLayoutPath(), cioe' Themes/<pub_theme>/resources/mail-layouts,
     // e in questo progetto pub_theme e' 'Zero', che i suoi layout ce li ha gia'.
-    $schema = XotBasePest::assertArray(app(MailTemplateResource::class)->getFormSchema());
+    $schema = XotBasePest::assertArray(app(MailTemplateForm::class)->getFormSchema());
 
     Assert::assertArrayHasKey('mailable_slug_group', $schema);
     Assert::assertInstanceOf(Group::class, $schema['mailable_slug_group']);
@@ -141,7 +141,7 @@ test('mail template resource form schema exposes expected components', function 
 });
 
 test('notification resource form schema exposes expected components', function (): void {
-    $schema = TestCase::assertNotifyArray(app(NotificationResource::class)->getFormSchema());
+    $schema = TestCase::assertNotifyArray(app(NotificationForm::class)->getFormSchema());
 
     Assert::assertArrayHasKey('type', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['type']);
@@ -152,7 +152,7 @@ test('notification resource form schema exposes expected components', function (
 });
 
 test('notification template resource form schema and pages are configured', function (): void {
-    $schema = TestCase::assertNotifyArray(app(NotificationTemplateResource::class)->getFormSchema());
+    $schema = TestCase::assertNotifyArray(app(NotificationTemplateForm::class)->getFormSchema());
     $pages = TestCase::assertNotifyArray(NotificationTemplateResource::getPages());
 
     Assert::assertArrayHasKey('name', $schema);

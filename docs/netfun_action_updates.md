@@ -2,7 +2,11 @@
 
 ## Panoramica delle Modifiche
 
+<<<<<<< .merge_file_E3bBqM
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto Quaeris e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
+=======
+La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
+>>>>>>> .merge_file_8LiJ75
 
 ## 1. Correzioni alla Configurazione
 
@@ -306,7 +310,11 @@ protected function normalizePhoneNumber(string $phoneNumber): string
 
 ## 6. Conclusioni
 
+<<<<<<< .merge_file_E3bBqM
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto Quaeris e con i pattern di configurazione standardizzati.
+=======
+Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
+>>>>>>> .merge_file_8LiJ75
 
 Questi miglioramenti garantiscono:
 1. Maggiore manutenibilità del codice
@@ -318,4 +326,7 @@ Questi miglioramenti garantiscono:
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
+<<<<<<< .merge_file_E3bBqM
 *Ultimo aggiornamento: 2023-05-12*
+=======
+>>>>>>> .merge_file_8LiJ75
