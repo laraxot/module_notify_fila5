@@ -34,7 +34,8 @@ class BuildMailMessageAction
 
         /** @var NotifyThemeData $theme */
         $theme = app(Get::class)->execute($name, $type, $view_params);
-        $view_html = 'notify::email';
+        /** @var view-string $viewHtml */
+        $viewHtml = 'notify::email';
         // dddx([$theme, $view_params]);
         /** @var string $fromAddress */
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
@@ -52,7 +53,7 @@ class BuildMailMessageAction
         $email = (new MailMessage)
             ->from($fromAddress, $fromName)
             ->subject($subject)
-            ->view($view_html, $viewParams);
+            ->view($viewHtml, $viewParams);
 
         if (is_array($attachments)) {
             foreach ($attachments as $attachment) {
