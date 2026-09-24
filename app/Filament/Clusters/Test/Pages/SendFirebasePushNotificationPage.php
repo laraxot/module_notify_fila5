@@ -22,7 +22,6 @@ use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\PushNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 
 /**
  * @property Schema $pushForm
@@ -46,8 +45,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
     protected function getForms(): array
     {
         return [
-            'pushForm',
-        ];
+            'pushForm'];
     }
 
     protected function fillForms(): void
@@ -88,8 +86,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                     'message' => 'Message',
                     'alert' => 'Alert',
                     'reminder' => 'Reminder',
-                    'update' => 'Update',
-                ])
+                    'update' => 'Update'])
                 ->default('message')
                 ->required(),
             'high_priority' => Toggle::make('high_priority')
@@ -100,8 +97,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->label(__('notify::push.form.custom_data.label'))
                 ->keyLabel(__('notify::push.form.custom_data.key_label'))
                 ->valueLabel(__('notify::push.form.custom_data.value_label'))
-                ->helperText(__('notify::push.form.custom_data.helper')),
-        ];
+                ->helperText(__('notify::push.form.custom_data.helper'))];
     }
 
     public function sendPushNotification(): void
@@ -114,8 +110,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 'type' => $data['notification_type'] ?? 'message',
                 'title' => $data['title'] ?? '',
                 'body' => $data['body'] ?? '',
-                'data' => $data['custom_data'] ?? [],
-            ]);
+                'data' => $data['custom_data'] ?? []]);
 
             // TODO: Implementare PushNotification class
             // Inviare la notifica push
@@ -133,14 +128,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
             Log::debug('Notifica push inviata con successo', [
                 'token' => $data['token'],
                 'title' => $data['title'],
-                'type' => $data['notification_type'],
-            ]);
+                'type' => $data['notification_type']]);
         } catch (Exception $e) {
             // Loggare l'errore
             Log::error('Errore durante l\'invio della notifica push', [
                 'error' => $e->getMessage(),
-                'token' => $data['token'],
-            ]);
+                'token' => $data['token']]);
 
             // Notificare l'errore
             FilamentNotification::make()
@@ -151,17 +144,15 @@ class SendFirebasePushNotificationPage extends XotBasePage
         }
     }
 
-    /** @return array<string, \Filament\Actions\Action> */
+    /** @return array<string, Action> */
     protected function getPushFormActions(): array
     {
         return [
             'submit' => Action::make('sendPushNotification')
                 ->label(__('notify::push.actions.send'))
-                ->submit('sendPushNotification'),
-        ];
+                ->submit('sendPushNotification')];
     }
 
-    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

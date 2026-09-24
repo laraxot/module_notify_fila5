@@ -2,24 +2,12 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/en/test_smtp.php
 return [
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
     'navigation' => [
         'label' => 'SMTP Test',
         'group' => 'Notifications',
         'icon' => 'heroicon-o-envelope-open',
-        'sort' => 47,
-    ],
+        'sort' => 47],
     'label' => 'SMTP Test',
     'plural_label' => 'SMTP Tests',
     'fields' => [
@@ -27,101 +15,80 @@ return [
             'label' => 'ID',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'name' => [
             'label' => 'Name',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'host' => [
             'label' => 'Host',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'port' => [
             'label' => 'Port',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'username' => [
             'label' => 'Username',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'password' => [
             'label' => 'Password',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'encryption' => [
             'label' => 'Encryption',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'from_address' => [
             'label' => 'From Address',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'from_name' => [
             'label' => 'From Name',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'status' => [
             'label' => 'Status',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'last_tested_at' => [
             'label' => 'Last Tested At',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'created_at' => [
             'label' => 'Created At',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'body_html' => [
             'description' => 'HTML Body',
             'helper_text' => 'HTML content of the email',
             'label' => '',
-            'tooltip' => '',
-        ],
-    ],
+            'tooltip' => '']],
     'actions' => [
         'logout' => [
             'tooltip' => 'Logout',
             'icon' => 'logout',
-            'label' => 'Logout',
-        ],
+            'label' => 'Logout'],
         'emailFormActions' => [
             'tooltip' => 'Email Form Actions',
             'icon' => 'emailFormActions',
-            'label' => 'Email Form Actions',
-        ],
+            'label' => 'Email Form Actions'],
         'profile' => [
             'tooltip' => 'Profile',
-            'icon' => 'profile',
-        ],
+            'icon' => 'profile'],
         'send_test_email' => [
-            'label' => 'Send Test Email',
-        ],
+            'label' => 'Send Test Email'],
         'test_connection' => [
-            'label' => 'Test Connection',
-        ],
-    ],
-];
+            'label' => 'Test Connection']]];

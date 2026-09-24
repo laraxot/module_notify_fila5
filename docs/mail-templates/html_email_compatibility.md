@@ -2,7 +2,7 @@
 
 ## Introduzione
 
-Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di Quaeris con i diversi client email.
+Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di <nome progetto> con i diversi client email.
 
 ## Compatibilità Client Email
 
@@ -128,8 +128,6 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 
 ## Riferimenti
 
-- [Guida ai Layout Email](../MAIL_LAYOUTS_GUIDE.md)
-- [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
 - [Guida ai Layout Email](../MAIL_LAYOUTS_GUIDE.md)
 - [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
 - [Campaign Monitor Guide](https://www.campaignmonitor.com/css/)

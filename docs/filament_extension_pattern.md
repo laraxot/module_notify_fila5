@@ -1,6 +1,6 @@
 # Pattern di Estensione per Componenti Filament 
 
-Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema Quaeris, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
 
 ## Regola Fondamentale
 
@@ -20,7 +20,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 
 ## Motivazione
 
-1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per Quaeris, mantenendo la coerenza in tutta l'applicazione.
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -47,7 +47,6 @@ Queste proprietà e metodi sono già configurati in `XotBaseResource` per garant
 
 **Collegamenti correlati**:
 - [Linee Guida XotBaseResource](../Modules/Patient/docs/xot-base-resource-guidelines.md)
-- [Linee Guida XotBaseResource](../modules/patient/docs/xot-base-resource-guidelines.md)
 
 ## Esempio di Implementazione Corretta
 
@@ -91,7 +90,7 @@ class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 
 ### 1. Personalizzazione Centralizzata
 
-Le classi XotBase possono implementare comportamenti specifici per Quaeris, come:
+Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici

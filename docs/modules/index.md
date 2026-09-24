@@ -1,3 +1,22 @@
+---
+title: "📦 Moduli del Sistema"
+type: index
+tags: [notify, docs, modules]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione modules index 📦 moduli del sistema index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../README.md
+  - ../wiki/index.md
+  - ../notifications/readme.md
+  - ../integrations/readme.md
+  - ../templates/readme.md
+---
 # 📦 Moduli del Sistema
 
 > **Architettura**: Nwidart + Laraxot - Modular Monolith
@@ -224,6 +243,7 @@
 |--------|---------|---------|-------|------|
 | Xot | ✅ Active | Level 9 | ✅ 80% | ✅ Complete |  
 | Fixcity | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
+| App | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
 | User | ✅ Active | Level 8 | ✅ 75% | ✅ Complete |
 | UI | ✅ Active | Level 8 | ✅ 70% | ✅ Complete |
 | Cms | ✅ Active | Level 7 | ⚠️ 65% | ✅ Complete |

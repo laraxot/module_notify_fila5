@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -10,16 +9,19 @@ use Modules\Notify\Database\Factories\MailTemplateFactory;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
+use Modules\Notify\Models\NotificationType;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
 /*
  * Bootstrap Pest — modulo Notify.
- * Ogni file test dichiara uses(\Modules\Notify\Tests\TestCase::class).
- * Vietato pest()->extend() e expect()->extend() qui (PHPStan method.internalClass).
+ * `pest()->extend(TestCase::class)->in(...)` è la forma **consigliata** (XOT-5.41).
+ * Non duplicare `uses(\Modules\Notify\Tests\TestCase::class)` nei file: XOR → TestCaseAlreadyInUse.
+ * Il divieto storico per method.internalClass è decaduto con pest-plugin-phpstan.
  */
 
 /**
@@ -50,21 +52,19 @@ function assertNotifyTableMissing(string $table, array $where): void
     Assert::assertFalse($query->exists());
 }
 
-if (! function_exists('assertFreshModel')) {
-    /**
-     * @template T of Model
-     *
-     * @param  T  $model
-     * @param  class-string<T>  $class
-     * @return T
-     */
-    function assertFreshModel(Model $model, string $class)
-    {
-        $fresh = $model->fresh();
-        Assert::assertInstanceOf($class, $fresh);
+/**
+ * @template T of Model
+ *
+ * @param  T  $model
+ * @param  class-string<T>  $class
+ * @return T
+ */
+function assertFreshModel(Model $model, string $class)
+{
+    $fresh = $model->fresh();
+    Assert::assertInstanceOf($class, $fresh);
 
-        return $fresh;
-    }
+    return $fresh;
 }
 
 /**
@@ -84,6 +84,9 @@ function assertFirstModel(EloquentCollection|Collection $collection, string $cla
 }
 
 /**
+ * Type-guard helper: `mixed $value` e' il punto — accetta un valore
+ * arbitrario e asserisce che sia un array.
+ *
  * @return array<string, mixed>
  */
 function assertNotifyArray(mixed $value): array
@@ -94,15 +97,15 @@ function assertNotifyArray(mixed $value): array
     return $value;
 }
 
-function assertReflectionNamedType(?\ReflectionType $type): \ReflectionNamedType
+function assertReflectionNamedType(?ReflectionType $type): ReflectionNamedType
 {
     Assert::assertNotNull($type);
-    Assert::assertInstanceOf(\ReflectionNamedType::class, $type);
+    Assert::assertInstanceOf(ReflectionNamedType::class, $type);
 
     return $type;
 }
 
-function assertReflectionTypeName(?\ReflectionType $type, string $expected): void
+function assertReflectionTypeName(?ReflectionType $type, string $expected): void
 {
     Assert::assertSame($expected, assertReflectionNamedType($type)->getName());
 }
@@ -116,13 +119,13 @@ function assertListContains(string $needle, array $haystack): void
 }
 
 /**
- * @param  class-string<\Throwable>  $exceptionClass
+ * @param  class-string<Throwable>  $exceptionClass
  */
 function assertNotifyThrows(callable $callback, string $exceptionClass): void
 {
     try {
         $callback();
-    } catch (\Throwable $exception) {
+    } catch (Throwable $exception) {
         Assert::assertInstanceOf($exceptionClass, $exception);
 
         return;
@@ -135,13 +138,12 @@ function assertNotifyThrows(callable $callback, string $exceptionClass): void
  * @template T of object
  *
  * @param  ReflectionClass<T>  $reflection
- *
  * @return list<string>
  */
-function notifyReflectionPropertyNames(\ReflectionClass $reflection): array
+function notifyReflectionPropertyNames(ReflectionClass $reflection): array
 {
     return array_map(
-        static fn (\ReflectionProperty $property): string => $property->getName(),
+        static fn (ReflectionProperty $property): string => $property->getName(),
         $reflection->getProperties(),
     );
 }
@@ -151,7 +153,7 @@ function notifyReflectionPropertyNames(\ReflectionClass $reflection): array
  *
  * @param  ReflectionClass<T>  $reflection
  */
-function assertReflectionFilename(\ReflectionClass $reflection): string
+function assertReflectionFilename(ReflectionClass $reflection): string
 {
     $filename = $reflection->getFileName();
     Assert::assertNotFalse($filename);
@@ -164,13 +166,14 @@ function assertReflectionFilename(\ReflectionClass $reflection): string
  *
  * @param  ReflectionClass<T>  $reflection
  */
-function notifyReflectionSource(\ReflectionClass $reflection): string
+function notifyReflectionSource(ReflectionClass $reflection): string
 {
     return file_get_contents(assertReflectionFilename($reflection));
 }
 
 /**
  * @param  array<mixed, mixed>|null  $array
+ * @return mixed Il valore in fondo alla catena di chiavi e' eterogeneo per definizione
  */
 function notifyArrayGet(?array $array, int|string ...$keys): mixed
 {
@@ -201,9 +204,10 @@ function notifyArrayGet(?array $array, int|string ...$keys): mixed
 /**
  * @return array<string, array<string, mixed>>
  */
-function notifyFreshTypeChannels(\Modules\Notify\Models\NotificationType $type): array
+function notifyFreshTypeChannels(NotificationType $type): array
 {
-    $channels = assertFreshModel($type, \Modules\Notify\Models\NotificationType::class)->channels;
+    $channels = assertFreshModel($type, NotificationType::class)->channels;
+
     /** @var array<string, array<string, mixed>> $channels */
     return $channels;
 }
@@ -211,9 +215,10 @@ function notifyFreshTypeChannels(\Modules\Notify\Models\NotificationType $type):
 /**
  * @return array<string, mixed>
  */
-function notifyFreshTypeSettings(\Modules\Notify\Models\NotificationType $type): array
+function notifyFreshTypeSettings(NotificationType $type): array
 {
-    $settings = assertFreshModel($type, \Modules\Notify\Models\NotificationType::class)->settings;
+    $settings = assertFreshModel($type, NotificationType::class)->settings;
+
     /** @var array<string, mixed> $settings */
     return $settings;
 }
@@ -259,3 +264,5 @@ function notifyThemeForThemeable(NotifyThemeable $themeable): NotifyTheme
 
     return $theme;
 }
+
+pest()->extend(TestCase::class)->in(__DIR__.'/Unit', __DIR__.'/Feature');

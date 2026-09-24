@@ -6,21 +6,25 @@ Le azioni dei provider in Notify seguono il pattern di Spatie Queueable Actions 
 
 ### 1. Interfaccia Comune
 
-Tutte le azioni di invio SMS devono implementare `SmsProviderActionInterface` per garantire un'interfaccia unificata:
+Tutte le azioni di invio SMS devono implementare `Modules\Notify\Contracts\SMS\SmsActionContract` per garantire un'interfaccia unificata:
 
 ```php
-interface SmsProviderActionInterface
+namespace Modules\Notify\Contracts\SMS;
+
+use Modules\Notify\Datas\SmsData;
+
+interface SmsActionContract
 {
     public function execute(SmsData $smsData): array;
 }
 ```
 
-Questo assicura che qualsiasi client possa utilizzare qualsiasi provider senza modificare il codice di utilizzo.
+Questo assicura che qualsiasi client possa utilizzare qualsiasi provider senza modificare il codice di utilizzo. Ogni Action usa `Spatie\QueueableAction\QueueableAction` e implementa `execute()` come unico entrypoint pubblico (pattern QueueableAction, coerente col resto del modulo dopo la migrazione da `app/Services`).
 
 ### 2. Posizione delle Azioni
 
 Le azioni specifiche dei provider SMS si trovano nella directory:
-- `/var/www/html/Quaeris/laravel/Modules/Notify/app/Actions/SMS/`
+- `laravel/Modules/Notify/app/Actions/SMS/`
 
 ### 3. Convenzioni di Nomenclatura
 

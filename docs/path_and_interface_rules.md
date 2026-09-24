@@ -16,7 +16,7 @@
 
 ### Directory Fisiche (path su disco)
 ```
-/var/www/html/Quaeris/laravel/Modules/Notify/
+/var/www/html/saluteora/laravel/Modules/Notify/
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email
