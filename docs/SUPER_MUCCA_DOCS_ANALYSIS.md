@@ -204,5 +204,8 @@ touch laravel/Modules/Seo/docs/README.md
 *"Non avrai altro path all'infuori del relativo"* - Commandamento Laraxot
 
 
+<<<<<<< .merge_file_5MP0cm
 
 
+=======
+>>>>>>> .merge_file_CU3GKT

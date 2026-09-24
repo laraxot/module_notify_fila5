@@ -1,7 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_ecNk4z
 
+=======
+<<<<<<< .merge_file_9KOLhQ
+
+=======
+>>>>>>> .merge_file_N1xV1y
+>>>>>>> .merge_file_M5tRl0
 /*
  * Chiavi lette da Modules\Xot\Traits\EnumTrait tramite TransTrait::transClass():
  * la chiave e' `<modulo>::<snake(NomeClasse)>.values.<valore>.<attributo>`.

@@ -1,17 +1,10 @@
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
-Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify.
-
-> Nota (verificato 2026-09-17): il testo originale faceva riferimento al path
-> `/var/www/html/Quaeris/laravel/Modules/Notify/lang/it`, che appartiene a un altro progetto
-> Laraxot (Quaeris), non a questo monorepo. Il path corretto qui e' `laravel/Modules/Notify/lang/it/`.
-> I nomi file "errati" elencati sotto (`send_s_m_s.php` ecc.) non esistono piu' in questo modulo;
-> restano pero' doppioni non risolti come `send_whats_app.php` accanto a `send_whatsapp.php` e
-> `send_netfun_sms.php` accanto a `send_netfun_sms_corrected.php` — vedi finding dedicato.
+Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di Quaeris.
 
 ## Analisi della Situazione Attuale
 
-Dall'analisi dei file di traduzione nella cartella `lang/it/`, sono stati identificati i seguenti problemi (alcuni gia' risolti, vedi nota sopra):
+Dall'analisi dei file di traduzione nella cartella `/var/www/html/Quaeris/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`

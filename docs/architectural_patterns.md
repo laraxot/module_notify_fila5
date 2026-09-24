@@ -1,6 +1,10 @@
 # Pattern Architetturali per le Notifiche
 
+<<<<<<< .merge_file_Bjm795
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di Quaeris, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+=======
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+>>>>>>> .merge_file_YTwlXz
 
 ## Confronto tra Pattern Architetturali
 
@@ -134,4 +138,8 @@ Basandoci sull'analisi dei vantaggi e degli svantaggi:
 
 Il **Pattern Factory** offre il miglior equilibrio tra separazione delle responsabilità, riutilizzabilità e testabilità. Tuttavia, il **Pattern Attuale** è comunque una soluzione valida, specialmente per progetti di dimensioni ridotte o quando la coerenza con il framework è prioritaria.
 
+<<<<<<< .merge_file_Bjm795
 Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola il principio di Responsabilità Singola e crea un accoppiamento non necessario tra il DTO e la configurazione del sistema.
+=======
+Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola il principio di Responsabilità Singola e crea un accoppiamento non necessario tra il DTO e la configurazione del sistema.
+>>>>>>> .merge_file_YTwlXz

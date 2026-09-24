@@ -64,7 +64,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 - **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
   Sistema template email database
 
-- **[Email Layouts Best Practices](./mail-templates/email-layouts-best-practices.md)**  
+- **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
   Best practices layout email
 
 #### Notifications
@@ -261,10 +261,12 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 ### Moduli Correlati
 
-> Nota: la sezione "Ptv (Schede Valutazione)" che compariva qui puntava a un modulo
-> `Modules/Ptv` che non esiste in questo monorepo (probabile contenuto ereditato da
-> un altro progetto Laraxot). Rimossa perche' i link erano morti; se questo modulo
-> viene introdotto in futuro, va ridocumentato da zero verificando i path reali.
+#### Ptv (Schede Valutazione)
+- **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
+  Caso d'uso completo: invio schede valutazione con PDF
+
+- **[SendMailByRecord Action](../../Ptv/app/Actions/Scheda/SendMailByRecord.php)**  
+  Implementation reference
 
 #### Xot (Core Framework)
 - **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
@@ -276,13 +278,13 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Documentazione Interna
 
 #### Email System
-- [Email Layouts Best Practices](./mail-templates/email-layouts-best-practices.md)
-- [Spatie Mail Templates Structure](./mail-templates/spatie-mail-templates-structure.md)
-- [Email Troubleshooting](./email-sending/email-troubleshooting.md)
+- [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+- [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
 
 #### Notifications
 - [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
-- [Notifications Index](./notifications/index.md)
+- [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
 
 ---
 

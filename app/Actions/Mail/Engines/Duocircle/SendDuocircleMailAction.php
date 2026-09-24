@@ -1,11 +1,18 @@
 <?php
 
+<<<<<<< .merge_file_0RJtIm
+=======
+declare(strict_types=1);
+>>>>>>> .merge_file_VV16pj
 /**
  * @see https://smsvi-docs.web.app/docs/restful/send-batch/
  */
 
+<<<<<<< .merge_file_0RJtIm
 declare(strict_types=1);
 
+=======
+>>>>>>> .merge_file_VV16pj
 namespace Modules\Notify\Actions\Mail\Engines\Duocircle;
 
 use RuntimeException;

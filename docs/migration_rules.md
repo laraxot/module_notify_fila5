@@ -191,4 +191,8 @@ return new class () extends XotBaseMigration {
 Per supporto tecnico:
 - Email: support@example.com
 - Documentazione: https://docs.example.com
+<<<<<<< .merge_file_G7c5Ky
 - Repository: https://github.com/organization/notify 
+=======
+- Repository: https://github.com/organization/notify 
+>>>>>>> .merge_file_SnHLXe
