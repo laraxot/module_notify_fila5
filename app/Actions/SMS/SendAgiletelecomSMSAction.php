@@ -4,9 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
-use Override;
+use Modules\Notify\Models\Contracts\SmsActionContract;
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -19,7 +18,6 @@ class SendAgiletelecomSMSAction implements SmsActionContract
     /**
      * @return array<string, mixed>
      */
-    #[Override]
     public function execute(SmsData $data): array
     {
         return app(SendAgiletelecomSMSv2Action::class)->execute($data);

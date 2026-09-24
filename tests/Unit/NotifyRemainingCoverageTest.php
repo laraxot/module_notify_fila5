@@ -19,7 +19,10 @@ use Modules\Notify\Channels\NetfunChannel;
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Channels\TelegramChannel;
 use Modules\Notify\Channels\WhatsAppChannel;
+<<<<<<< .merge_file_x6x38W
 use Modules\Notify\Models\Contracts\SmsActionContract;
+=======
+>>>>>>> .merge_file_1c2AJ5
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Datas\NotificationData;
@@ -33,6 +36,10 @@ use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Factories\SmsActionFactory;
 use Modules\Notify\Factories\TelegramActionFactory;
 use Modules\Notify\Factories\WhatsAppActionFactory;
+<<<<<<< .merge_file_x6x38W
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+>>>>>>> .merge_file_1c2AJ5
 use Modules\Notify\Models\Notification as NotificationModel;
 use Modules\Notify\Tests\Fixtures\NotifyCoveragePivotStub;
 use Modules\Notify\Tests\Fixtures\NotifyNetfunNotifiableStub;

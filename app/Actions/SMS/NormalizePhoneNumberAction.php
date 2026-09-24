@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use Spatie\QueueableAction\QueueableAction;
-
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match;

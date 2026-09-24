@@ -6,8 +6,8 @@ namespace Modules\Notify\Tests\Unit\Console\Commands;
 
 use Illuminate\Console\Command;
 use Modules\Notify\Console\Commands\SendMailCommand;
-
 use PHPUnit\Framework\Assert;
+
 describe('SendMailCommand', function () {
     it('has correct signature', function () {
         $command = new SendMailCommand;
@@ -29,8 +29,11 @@ describe('SendMailCommand', function () {
         Assert::assertInstanceOf(Command::class, $command);
     });
 
-    it('has handle method', function () {
+    it('handle is a public command entrypoint', function () {
         $command = new SendMailCommand;
+        $method = new \ReflectionMethod($command, 'handle');
 
-            });
+        Assert::assertTrue($method->isPublic());
+        Assert::assertSame('handle', $method->getName());
+    });
 });

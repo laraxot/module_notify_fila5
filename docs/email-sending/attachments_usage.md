@@ -16,13 +16,13 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 // Formato corretto - allegato da file su filesystem
 $attachments = [
     [
-'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+        'path' => '[project-root]/public_html/images/avatars/default-3.svg',
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
-'path' => '/var/www/html/Quaeris/public_html/documents/terms.pdf',
+        'path' => '[project-root]/public_html/documents/terms.pdf',
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
@@ -208,7 +208,6 @@ Ogni allegato può utilizzare **due formati** a seconda della fonte:
 
 ### Esempio: Email con PDF di Scheda Valutazione
 
-Vedi [Email PDF Attachments](../../../Ptv/docs/email-pdf-attachments.md) per un esempio completo di generazione e invio PDF come allegato email.
 Vedi [Email PDF Attachments](../../../Ptv/docs/email-pdf-attachments.md) per un esempio completo di generazione e invio PDF come allegato email.
 
 ## Esempi Completi

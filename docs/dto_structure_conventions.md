@@ -161,4 +161,3 @@ Prima di creare un nuovo DTO, verificare che:
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
-*Ultimo aggiornamento: 2025-05-12*

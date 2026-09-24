@@ -1,11 +1,18 @@
 <?php
 
+<<<<<<< .merge_file_SzlGP4
+=======
+declare(strict_types=1);
+>>>>>>> .merge_file_kcsDzc
 /**
  * @see https://smsvi-docs.web.app/docs/restful/send-batch/
  */
 
+<<<<<<< .merge_file_SzlGP4
 declare(strict_types=1);
 
+=======
+>>>>>>> .merge_file_kcsDzc
 namespace Modules\Notify\Services\MailEngines;
 
 use Illuminate\Mail\Message;

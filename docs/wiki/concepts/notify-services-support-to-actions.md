@@ -6,10 +6,15 @@ created: 2026-07-13
 updated: 2026-07-13
 qmd: "Notify app Services Support converted to QueueableAction migration mapping"
 issues:
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/372"
 related:
-  - no-app-support-queueable-actions.md
-  - ../../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
+  - "./claude-audit-static.md"
+  - "./code-redundancy-notify.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
 ---
 
 # Notify `app/Services` -> `app/Actions` migration
@@ -44,6 +49,27 @@ via `git mv`, mai `git rm`):
 Rimane `app/Services/.gitkeep` a preservare la directory (archivio).
 
 Callers repo-wide di `Modules\Notify\Services\*`: 0 (solo riferimenti in `docs/*.md`).
+
+## Aggiornamento 2026-07-16 — pulizia residui
+
+Verifica finale monorepo-wide (`laravel/Modules/*`, `laravel/Themes/*`,
+`laravel/app/`): l'unico riferimento a codice `Modules\Notify\Services\*`
+rimasto era in `app/Facades/NotificationFacade.php`, che importava la classe
+gia` eliminata `Modules\Notify\Services\NotificationService` e puntava a un
+accessor `notify.service` mai registrato in nessun provider. Facade morta e
+non referenziata (nessun uso repo-wide, `SendNotificationAction` usa il facade
+nativo `Illuminate\Support\Facades\Notification`): archiviata come
+`app/Facades/NotificationFacade.php.bak` (convenzione archivio, mai `git rm`).
+
+Riferimenti a `Modules\Notify\Services\` in codice PHP dopo l'archiviazione: 0
+(solo `docs/*.md` e file `.bak`).
+
+Aggiunto il trait `Spatie\QueueableAction\QueueableAction` alle 6 Action che ne
+erano prive (flag di `audit-queueable-action-trait.sh`):
+`Actions\SMS\FormatSmsMessageAction`, `Actions\SMS\NormalizePhoneNumberAction`,
+`Actions\SMS\SendAgiletelecomSMSAction`, `Actions\SMS\SendAgiletelecomSMSv1Action`,
+`Actions\SMS\SendAgiletelecomSMSv2Action`, `Actions\SmtpMailSendAction`.
+Dopo la fix l'audit non riporta piu` alcuna Action Notify senza trait.
 
 ## Quality gate (pre-esistenti, non introdotti da questa migrazione)
 
