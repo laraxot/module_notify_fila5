@@ -1,3 +1,5 @@
+<<<<<<< .merge_file_c7C51W
+=======
 ---
 title: "config/services.php"
 type: concept
@@ -18,6 +20,7 @@ related:
   - "./qwen.md"
 ---
 
+>>>>>>> .merge_file_XSPS4c
 https://dev.to/millykhamroev/laravel-package-to-integrate-telegram-bot-api-3l6e
 
 https://medium.com/modulr/send-telegram-notifications-with-laravel-9-342cc87b406

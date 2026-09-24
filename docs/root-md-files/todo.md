@@ -1,3 +1,5 @@
+<<<<<<< .merge_file_kSPZbn
+=======
 ---
 title: "Todo"
 type: concept
@@ -18,5 +20,6 @@ related:
   - "./qwen.md"
 ---
 
+>>>>>>> .merge_file_7LB7Is
 http://laradevsbd.com/story/laravel-notifications-with-database
 
