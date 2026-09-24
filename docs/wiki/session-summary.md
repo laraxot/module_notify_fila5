@@ -1,4 +1,3 @@
-<<<<<<< .merge_file_AJqkFi
 ---
 title: "LLM Wiki Integration - Session Summary"
 type: concept
@@ -323,8 +322,6 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 <!-- Merged from SESSION-SUMMARY.md, which collided with this file on case-insensitive filesystems. -->
 
-=======
->>>>>>> .merge_file_SIMIXa
 # LLM Wiki Integration - Session Summary
 
 > **Date**: 2026-04-15
