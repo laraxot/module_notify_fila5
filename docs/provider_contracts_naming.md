@@ -2,7 +2,11 @@
 
 ## Regola Fondamentale
 
+<<<<<<< .merge_file_2Z3JXY
+Nel sistema Quaeris, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+=======
 Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> .merge_file_JWSyWz
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`
@@ -60,4 +64,8 @@ interface SmsProviderContract
 ## Risorse Correlate
 
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
+<<<<<<< .merge_file_2Z3JXY
 - [PHP-FIG Interface Naming Conventions](https://www.php-fig.org/psr/psr-1/)
+=======
+- [PHP-FIG Interface Naming Conventions](https://www.php-fig.org/psr/psr-1/)
+>>>>>>> .merge_file_JWSyWz

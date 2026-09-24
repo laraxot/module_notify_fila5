@@ -23,7 +23,11 @@
 
 ```bash
 # After creating/modifying files
+<<<<<<< .merge_file_9F3yaj
+cd /var/www/_bases/base_fixcity_fila5
+=======
 cd /var/www/_bases/base_ptv_fila5
+>>>>>>> .merge_file_foMCB5
 
 # 1. Add all changes
 git add .
@@ -42,7 +46,11 @@ git commit -m "Add feature X with documentation
 git push origin dev
 
 # 5. Verify on GitHub
+<<<<<<< .merge_file_9F3yaj
+gh run list --repo laraxot/base_fixcity_fila5
+=======
 gh run list --repo laraxot/base_ptv_fila5
+>>>>>>> .merge_file_foMCB5
 ```
 
 ---
@@ -67,7 +75,11 @@ gh run list --repo laraxot/base_ptv_fila5
 sleep 120
 
 # Check workflow status
+<<<<<<< .merge_file_9F3yaj
+gh run list --repo laraxot/base_fixcity_fila5
+=======
 gh run list --repo laraxot/base_ptv_fila5
+>>>>>>> .merge_file_foMCB5
 
 # View logs
 gh run view <run-id> --log
@@ -273,7 +285,11 @@ git push origin dev
 git log -n 3 --oneline
 
 # Compare with:
+<<<<<<< .merge_file_9F3yaj
+# https://github.com/laraxot/base_fixcity_fila5/commits/dev
+=======
 # https://github.com/laraxot/base_ptv_fila5/commits/dev
+>>>>>>> .merge_file_foMCB5
 ```
 
 ---

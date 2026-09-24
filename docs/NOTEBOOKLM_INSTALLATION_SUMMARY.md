@@ -26,7 +26,11 @@ ls -la ~/.claude/skills/notebooklm/
 # - scripts/ (automation scripts)
 # - data/ (authentication + library)
 # - requirements.txt
+<<<<<<< .merge_file_0VaSPr
+# - README.md, CHANGELOG.md, LICENSE
+=======
 # - README.md, changelog.md, LICENSE
+>>>>>>> .merge_file_V5YHGv
 ```
 
 ## What is NotebookLM Skill?
@@ -221,7 +225,11 @@ Every NotebookLM answer ends with: **"Is that ALL you need to know?"**
 Create these NotebookLM notebooks:
 
 ### 1. Laraxot Framework Docs
+<<<<<<< .merge_file_0VaSPr
+- **Upload**: Laraxot documentation, AGENTS.md, .windsurfrules
+=======
 - **Upload**: Laraxot documentation, agents.md, .windsurfrules
+>>>>>>> .merge_file_V5YHGv
 - **Topics**: laravel, architecture, modules, filament, xot
 - **Use**: Technical research, implementation verification
 
@@ -237,7 +245,11 @@ Create these NotebookLM notebooks:
 
 ### 4. Project Documentation
 - **Upload**: FixCity docs, module docs, theme docs
+<<<<<<< .merge_file_0VaSPr
+- **Topics**: fixcity, project, conventions, documentation
+=======
 - **Topics**: ptv, project, conventions, documentation
+>>>>>>> .merge_file_V5YHGv
 - **Use**: Project-specific queries
 
 ## Files Created/Updated
@@ -298,7 +310,11 @@ TYPING_WPM_MIN=160
 TYPING_WPM_MAX=240
 
 # Default notebook (FixCity docs)
+<<<<<<< .merge_file_0VaSPr
+DEFAULT_NOTEBOOK_ID=fixcity-project-docs
+=======
 DEFAULT_NOTEBOOK_ID=ptv-project-docs
+>>>>>>> .merge_file_V5YHGv
 ```
 
 ### Data Storage

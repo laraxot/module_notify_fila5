@@ -1,3 +1,5 @@
+<<<<<<< .merge_file_RoElpL
+=======
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -240,6 +242,7 @@ public function sendReminder(Appointment $appointment)
         // Invia il promemoria
         $appointment->patient->notify(
             new AppointmentReminderNotification(
+>>>>>>> .merge_file_23sXZt
                 appointmentDate: $appointment->date,
                 doctorName: $appointment->doctor->name,
                 location: $appointment->location,
@@ -924,3 +927,9 @@ class NetfunNotificationIntegrationTest extends TestCase
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php) 
+<<<<<<< .merge_file_RoElpL
+# Netfun Examples
+
+This document provides examples for Netfun integration.
+=======
+>>>>>>> .merge_file_23sXZt
