@@ -4,24 +4,6 @@ type: concept
 status: canonical
 module: Notify
 created: 2026-09-10
-<<<<<<< .merge_file_yiK2VG
-=======
-<<<<<<< .merge_file_mDdsBA
-=======
-<<<<<<< .merge_file_ZZ3nvt
->>>>>>> .merge_file_nYPQ4O
->>>>>>> .merge_file_yo3oV0
-updated: 2026-09-11
-tags: [sms, channel, driver, netfun, smsfactor, factory, config, gotcha, contracts, datas]
-qmd: "smschannel sms driver selection factory config sms.default SMS_DRIVER netfun smsfactor SendNetfunSMSAction SmsActionFactory hardcoded regression b8321c567 SmsActionContract Models/Contracts SmsData Spatie LaravelData Data"
-related:
-  - ./one-migration-consolidamento-wave2.md
-  - ../../../../Quaeris/docs/stories/quaeris-send-invite-migrate-to-record-notification.md
-<<<<<<< .merge_file_yiK2VG
-=======
-<<<<<<< .merge_file_mDdsBA
-=======
-=======
 updated: 2026-09-17
 tags: [sms, channel, driver, netfun, smsfactor, factory, config, gotcha, contracts, datas, env-widget, no-ssh]
 qmd: "smschannel sms driver selection factory config sms.default SMS_DRIVER netfun smsfactor SendNetfunSMSAction SmsActionFactory hardcoded regression b8321c567 SmsActionContract Models/Contracts SmsData Spatie LaravelData Data EnvWidget no ssh production"
@@ -29,9 +11,6 @@ related:
   - ./one-migration-consolidamento-wave2.md
   - ../../../../Quaeris/docs/stories/quaeris-send-invite-migrate-to-record-notification.md
   - ../../../../Xot/docs/wiki/concepts/env-widget-no-ssh-env-editor.md
->>>>>>> .merge_file_QLiZBc
->>>>>>> .merge_file_nYPQ4O
->>>>>>> .merge_file_yo3oV0
 ---
 
 # `SmsChannel` sceglie il driver da `config('sms.default')`
@@ -52,12 +31,6 @@ Quindi **`SMS_DRIVER=netfun`** + `config('sms.drivers.netfun')` valorizzato
 (`NETFUN_TOKEN`) fa passare gli SMS — inclusi quelli di invito survey — da
 **Netfun**, senza toccare codice. Default: `smsfactor`.
 
-<<<<<<< .merge_file_yiK2VG
-=======
-<<<<<<< .merge_file_mDdsBA
-=======
-<<<<<<< .merge_file_ZZ3nvt
-=======
 ## Cambiare `SMS_DRIVER` in produzione senza SSH/FTP
 
 Il `.env` di produzione ha già `NETFUN_TOKEN` valorizzato ma non `SMS_DRIVER`
@@ -92,9 +65,6 @@ all'apertura della pagina (nessuna azione aggiuntiva richiesta per vederlo).
 `.env` di produzione — resta il blocco #1 della lista "Manca ancora" nella
 story, in attesa di deploy e di un click dell'utente.
 
->>>>>>> .merge_file_QLiZBc
->>>>>>> .merge_file_nYPQ4O
->>>>>>> .merge_file_yo3oV0
 ## `SmsActionFactory`: mappa esplicita, non convenzione
 
 `create()` usa una mappa `driver => Send{Provider}SMSAction::class`

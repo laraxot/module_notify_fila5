@@ -68,13 +68,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
-<<<<<<< .merge_file_4k6Qvu
-- [Architettura Filament](../../../../../docs/project/architecture/filament.md)
-- [Gestione Pagine](../../../../../docs/project/architecture/pages.md)
-=======
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Pagine](../../../../project_docs/architecture/pages.md)
->>>>>>> .merge_file_GGIeZ6
 
 ### Collegamenti ai Moduli
 - [XotBaseListRecords](../../Xot/project_docs/filament-pages.md#XotBaseListRecords)
@@ -88,8 +83,4 @@ class EditNotificationTemplate extends XotBaseEditRecord
 2. Non si sovrascrivono metodi se non necessario
 3. Si mantiene la coerenza con il resto del sistema
 4. La documentazione va mantenuta aggiornata
-<<<<<<< .merge_file_4k6Qvu
 5. I namespace seguono le convenzioni standard 
-=======
-5. I namespace seguono le convenzioni standard 
->>>>>>> .merge_file_GGIeZ6

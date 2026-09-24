@@ -24,13 +24,7 @@ CHANGELOG.md export-ignore
 *.ttf binary !filter
 *.eot binary !filter
 *.otf binary !filter
-<<<<<<< .merge_file_dABEat
-=======
-<<<<<<< .merge_file_7rhjuL
-=======
 *.mp4 binary !filter
->>>>>>> .merge_file_PQ4lNc
->>>>>>> .merge_file_LISCgC
 *.phar binary !filter
 *.db binary !filter
 *.sqlite binary !filter
