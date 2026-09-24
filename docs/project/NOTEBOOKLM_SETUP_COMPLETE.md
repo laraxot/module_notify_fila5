@@ -1,6 +1,6 @@
 # NotebookLM Skill - Configuration & Usage Guide
 
-**Project**: FixCity  
+**Project**: Notify  
 **Skill Location**: `~/.claude/skills/notebooklm/`  
 **Status**: ✅ **INSTALLED & READY**  
 **Last Updated**: 2026-03-30
@@ -107,12 +107,12 @@ notebooklm/
    - 📚 GitHub repositories
    - 🎥 YouTube transcripts
 
-**Per FixCity**:
+**Per Notify**:
 ```
-Notebook Name: "FixCity Documentation"
+Notebook Name: "Notify Documentation"
 Sources:
-  - AGENTS.md
-  - laravel/AGENTS.md
+  - agents.md
+  - laravel/agents.md
   - docs/**/*.md
   - .planning/**/*.md
   - laravel/Modules/docs/README.md
@@ -133,7 +133,7 @@ Sources:
 
 Oppure (smart):
 ```
-"Query this notebook about FixCity and add it to my library: [LINK]"
+"Query this notebook about Notify and add it to my library: [LINK]"
 ```
 
 ---
@@ -148,8 +148,8 @@ Oppure (smart):
 | `"Set up NotebookLM authentication"` | Login Google |
 | `"Add [LINK] to my NotebookLM library"` | Aggiungi notebook |
 | `"Show my NotebookLM notebooks"` | Lista notebook |
-| `"Ask my FixCity docs about [topic]"` | Query notebook |
-| `"Use the FixCity notebook"` | Set active |
+| `"Ask my Notify docs about [topic]"` | Query notebook |
+| `"Use the Notify notebook"` | Set active |
 | `"Clear NotebookLM data"` | Reset (keep library) |
 | `"Reset NotebookLM authentication"` | Re-auth |
 
@@ -158,7 +158,7 @@ Oppure (smart):
 #### 1. Query su Documentazione
 
 ```
-User: "What does the FixCity documentation say about theme configuration?"
+User: "What does the Notify documentation say about theme configuration?"
 
 Claude → NotebookLM → Gemini synthesizes answer from docs → Claude responds
 ```
@@ -174,32 +174,32 @@ Result: Source-grounded answer with citations
 #### 3. Multi-Source Correlation
 
 ```
-User: "How do FixCity tickets integrate with the Geo module for location tracking?"
+User: "How do Notify tickets integrate with the Geo module for location tracking?"
 
 Result: Gemini connects info from multiple docs
 ```
 
 ---
 
-## 🔧 Configurazione FixCity
+## 🔧 Configurazione Notify
 
 ### Notebook Structure Consigliata
 
-**Notebook 1: FixCity Core**
+**Notebook 1: Notify Core**
 ```
 Sources:
-  - AGENTS.md
-  - laravel/AGENTS.md
+  - agents.md
+  - laravel/agents.md
   - .planning/PROJECT.md
   - .planning/config.json
-  - FIXCITY_IMPROVEMENT_PLAN.md
+  - NOTIFY_IMPROVEMENT_PLAN.md
 ```
 
 **Notebook 2: Module Documentation**
 ```
 Sources:
   - laravel/Modules/docs/README.md
-  - laravel/Modules/Fixcity/docs/
+  - laravel/Modules/App/docs/
   - laravel/Modules/User/docs/
   - laravel/Modules/Cms/docs/
   - ... (altri moduli)
@@ -233,7 +233,7 @@ I notebook vengono salvati in:
 {
   "notebooks": [
     {
-      "name": "FixCity Core",
+      "name": "Notify Core",
       "url": "https://notebooklm.google.com/notebook/...",
       "topics": ["architecture", "configuration", "setup"],
       "added_date": "2026-03-30"
@@ -356,7 +356,7 @@ pip install -r requirements.txt
 
 ```bash
 # OpenViking per context management
-openviking add-memory "NotebookLM: FixCity docs indexed"
+openviking add-memory "NotebookLM: Notify docs indexed"
 
 # Claude usa NotebookLM per query source-grounded
 ```
@@ -406,14 +406,14 @@ claude
 "Set up NotebookLM authentication"
 
 # 4. Crea notebook su notebooklm.google.com
-#    - Upload AGENTS.md, docs/**/*.md
+#    - Upload agents.md, docs/**/*.md
 #    - Share → Copy link
 
 # 5. Aggiungi a library
 "Add [LINK] to my NotebookLM library"
 
 # 6. Query
-"What does FixCity documentation say about theme configuration?"
+"What does Notify documentation say about theme configuration?"
 ```
 
 ---
@@ -444,7 +444,7 @@ claude
 - [x] Skill installato (`~/.claude/skills/notebooklm/`)
 - [ ] Autenticazione completata
 - [ ] Notebook creato su notebooklm.google.com
-- [ ] Documenti uploadati (AGENTS.md, docs/, etc.)
+- [ ] Documenti uploadati (agents.md, docs/, etc.)
 - [ ] Notebook condiviso pubblicamente
 - [ ] Link aggiunto a Claude library
 - [ ] Prima query testata
@@ -457,14 +457,14 @@ claude
 User: "Show my NotebookLM notebooks"
 
 Claude: You have 1 notebook:
-  - FixCity Documentation (added 2026-03-30)
+  - Notify Documentation (added 2026-03-30)
     Topics: architecture, configuration, laravel, fil
 
-User: "Ask my FixCity docs about the active theme"
+User: "Ask my Notify docs about the active theme"
 
-Claude: Based on your FixCity Documentation notebook:
+Claude: Based on your Notify Documentation notebook:
 
-  The active theme is **Sixteen** for the domain fixcity.local.
+  The active theme is **Sixteen** for the domain laraxot.local.
   
   Configuration is stored in `laravel/config/localhost/xra.php`:
   
@@ -475,13 +475,13 @@ Claude: Based on your FixCity Documentation notebook:
   ];
   ```
   
-  **Source**: FixCity Theme Context documentation
+  **Source**: Notify Theme Context documentation
 
 User: "Perfect! Now check what modules are available"
 
-Claude: Your FixCity Documentation lists 18 active modules:
+Claude: Your Notify Documentation lists 18 active modules:
 
-  1. Fixcity - Ticket management
+  1. App - Ticket management
   2. User - Authentication
   3. Cms - Content management
   ... (continues)

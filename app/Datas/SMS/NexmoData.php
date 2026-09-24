@@ -25,7 +25,7 @@ class NexmoData extends Data
     {
         if (! (self::$instance instanceof NexmoData)) {
             /*
-             * $data = app(\Modules\Tenant\Actions\Config\GetTenantConfigArrayAction::class)->execute('sms');
+             * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.nexmo', []);
              */
             $data = Config::array('sms.drivers.nexmo');
@@ -45,8 +45,7 @@ class NexmoData extends Data
             default:
                 return [
                     'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
-                    'Content-Type' => 'application/json',
-                ];
+                    'Content-Type' => 'application/json'];
         }
     }
 

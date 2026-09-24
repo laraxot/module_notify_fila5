@@ -20,14 +20,3 @@
 ## Nota di governance
 
 La sua ricomparsa va trattata come regressione architetturale, non come semplice refactor incompleto.
-
-## Nota tecnica: `Safe\preg_replace_callback` non esiste
-
-`Modules\Notify\Traits\HasNotificationTracking` importava `use function
-Safe\preg_replace_callback;`, ma `thecodingmachine/safe` non genera un
-wrapper per questa funzione (non è nella lista `pcre.php` del pacchetto —
-solo `preg_match`, `preg_match_all`, `preg_grep`, `preg_split`). L'import era
-morto (PHPStan `function.notFound`) e avrebbe fatto fatal error a runtime se
-il trait fosse mai stato usato fuori dai test. Fix: `preg_replace_callback`
-globale, che già ritorna `null` in caso di errore — gestito con
-`is_string($result) ? $result : $html`.

@@ -6,12 +6,16 @@ created: 2026-07-12
 updated: 2026-07-12
 qmd: "Notify module no app Support QueueableAction push mail Mailtrap"
 issues:
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/372"
 discussions:
-  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
 related:
-  - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
-  - claude-audit-static.md
+  - "./claude-audit-static.md"
+  - "./code-redundancy-notify.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
 ---
 
 # no `app/Support/` — business logic in QueueableAction

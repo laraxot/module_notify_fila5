@@ -3,20 +3,11 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Console\Commands;
+
 use Illuminate\Console\Command;
 use Modules\Notify\Console\Commands\AnalyzeTranslationFiles;
-use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
-
-uses(\Modules\Notify\Tests\TestCase::class);
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
 
 describe('AnalyzeTranslationFiles', function () {
     it('has correct signature', function () {
@@ -83,11 +74,9 @@ describe('AnalyzeTranslationFiles', function () {
         $input = [
             'parent' => [
                 'child1' => 'value1',
-                'child2' => 'value2',
-            ],
-        ];
+                'child2' => 'value2']];
 
-        $result = \assertNotifyArray($method->invoke($command, $input));
+        $result = XotBasePest::assertArray($method->invoke($command, $input));
 
         Assert::assertArrayHasKey('parent.child1', $result);
         Assert::assertArrayHasKey('parent.child2', $result);
@@ -101,7 +90,7 @@ describe('AnalyzeTranslationFiles', function () {
         $method = $reflection->getMethod('flattenArray');
         $method->setAccessible(true);
 
-        $result = \assertNotifyArray($method->invoke($command, []));
+        $result = XotBasePest::assertArray($method->invoke($command, []));
 
         Assert::assertEmpty($result);
     });
@@ -116,12 +105,9 @@ describe('AnalyzeTranslationFiles', function () {
         $input = [
             'level1' => [
                 'level2' => [
-                    'level3' => 'deep value',
-                ],
-            ],
-        ];
+                    'level3' => 'deep value']]];
 
-        $result = \assertNotifyArray($method->invoke($command, $input));
+        $result = XotBasePest::assertArray($method->invoke($command, $input));
 
         Assert::assertArrayHasKey('level1.level2.level3', $result);
         Assert::assertSame('deep value', $result['level1.level2.level3']);
@@ -136,7 +122,7 @@ describe('AnalyzeTranslationFiles', function () {
 
         $input = ['key' => 'value'];
 
-        $result = \assertNotifyArray($method->invoke($command, $input, 'prefix'));
+        $result = XotBasePest::assertArray($method->invoke($command, $input, 'prefix'));
 
         Assert::assertArrayHasKey('prefix.key', $result);
     });

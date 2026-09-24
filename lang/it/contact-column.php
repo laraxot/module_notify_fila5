@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/it/contact-column.php
 return [
     'label' => 'Contatti',
     'no_contacts' => 'Nessun contatto disponibile',
@@ -15,54 +11,41 @@ return [
         'email' => 'Clicca per inviare email',
         'pec' => 'Clicca per inviare PEC',
         'whatsapp' => 'Clicca per aprire WhatsApp',
-        'fax' => 'Numero fax',
-    ],
+        'fax' => 'Numero fax'],
     'aria_labels' => [
         'contact_list' => 'Lista contatti',
         'contact_link' => 'Collegamento contatto',
-        'no_contacts' => 'Nessun contatto disponibile',
-    ],
+        'no_contacts' => 'Nessun contatto disponibile'],
     'plural_label' => 'Contact Column (Plurale)',
     'navigation' => [
         'name' => 'Contact Column',
         'plural' => 'Contact Column',
         'group' => [
             'name' => 'General',
-            'description' => 'General Settings',
-        ],
+            'description' => 'General Settings'],
         'label' => 'Contact Column',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
-    ],
+        'icon' => 'heroicon-o-collection'],
     'fields' => [
         'id' => [
             'label' => 'Identificativo',
             'tooltip' => 'Identificativo univoco del record',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'created_at' => [
             'label' => 'Data Creazione',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'updated_at' => [
             'label' => 'Ultima Modifica',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
-    ],
+            'description' => '']],
     'actions' => [
         'create' => [
-            'label' => 'Crea Contact Column',
-        ],
+            'label' => 'Crea Contact Column'],
         'edit' => [
-            'label' => 'Modifica Contact Column',
-        ],
+            'label' => 'Modifica Contact Column'],
         'delete' => [
-            'label' => 'Elimina Contact Column',
-        ],
-    ],
-];
+            'label' => 'Elimina Contact Column']]];

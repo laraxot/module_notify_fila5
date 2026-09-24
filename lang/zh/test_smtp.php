@@ -2,19 +2,12 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/zh/test_smtp.php
-// Notify — SMTP test form labels (Filament admin only).
-// claude-audit doc-ratio: translation keys only, no runtime logic.
 return [
     'navigation' => [
         'label' => 'SMTP测试',
         'group' => '通知',
         'icon' => 'heroicon-o-envelope-open',
-        'sort' => 47,
-    ],
+        'sort' => 47],
     'label' => 'SMTP测试',
     'plural_label' => 'SMTP测试',
     'fields' => [
@@ -22,81 +15,64 @@ return [
             'label' => 'ID',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'name' => [
             'label' => '名称',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'host' => [
             'label' => '主机',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'port' => [
             'label' => '端口',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'username' => [
             'label' => '用户名',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'password' => [
             'label' => '密码',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'encryption' => [
             'label' => '加密',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'from_address' => [
             'label' => '发件人地址',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'from_name' => [
             'label' => '发件人名称',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'status' => [
             'label' => '状态',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'last_tested_at' => [
             'label' => '最后测试时间',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'created_at' => [
             'label' => '创建时间',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
-    ],
+            'description' => '']],
     'actions' => [
         'send_test_email' => [
-            'label' => '发送测试邮件',
-        ],
+            'label' => '发送测试邮件'],
         'test_connection' => [
-            'label' => '测试连接',
-        ],
-    ],
-];
+            'label' => '测试连接']]];

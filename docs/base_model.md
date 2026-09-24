@@ -62,9 +62,14 @@ class NotificationTemplate extends BaseModel
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< .merge_file_4l0iml
 - [XotBaseModel](../../Xot/project_docs/XotBaseModel.md)
 - [Architettura dei Modelli](../../../../../docs/project/architecture/models.md)
 - [Gestione Notifiche](../../../../../docs/project/architecture/notifications.md)
+=======
+- [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
+- [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
+>>>>>>> .merge_file_bc2ngm
 
 ### Collegamenti ai Moduli
 - [XotBaseModel](../../Xot/project_docs/XotBaseModel.md)
@@ -76,4 +81,8 @@ class NotificationTemplate extends BaseModel
 2. I cast sono gestiti tramite il metodo `casts()`
 3. Il namespace non include il segmento `app`
 4. Le funzionalità comuni vanno implementate qui
+<<<<<<< .merge_file_4l0iml
 5. La documentazione va mantenuta aggiornata 
+=======
+5. La documentazione va mantenuta aggiornata 
+>>>>>>> .merge_file_bc2ngm

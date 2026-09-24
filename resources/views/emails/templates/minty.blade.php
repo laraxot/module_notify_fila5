@@ -1,15 +1,6 @@
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
 <?php
 
 declare(strict_types=1);
-
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,16 +17,6 @@ declare(strict_types=1);
         </style>
     @endif
 </head>
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
 
 <body>
 

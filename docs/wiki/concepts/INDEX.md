@@ -10,9 +10,9 @@ updated: 2026-06-10
 
 Concetti specifici del modulo Notify. Carica on-demand via `qmd search` o consulta il [trigger map root](/docs/wiki/rules/00-TRIGGER_MAP.md).
 
-## Quality
+## SMS (2026-09-10 / 2026-09-17)
 
-- [claude-audit-static](claude-audit-static.md) — `--static` 80/0, push Actions + test split
+- [sms-channel-driver-selection.md](sms-channel-driver-selection.md) — `SmsChannel`/`SmsActionFactory` scelgono il driver da `config('sms.default')` (env `SMS_DRIVER`); come cambiarlo in produzione senza SSH/FTP via `EnvWidget`
 
 ## Schema notifications (2026-06-10)
 
