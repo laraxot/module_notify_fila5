@@ -14,11 +14,20 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 ## Collegamenti tra versioni di test-smtp-page.md
 * [test-smtp-page.md](../../../Notify/project_docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/project_docs/test-smtp-page.md)
+<<<<<<< .merge_file_QQupsp
+* [test-smtp-page.md](../../../Notify/project_docs/test-smtp-page.md)
+* [test-smtp-page.md](../../../Cms/project_docs/test-smtp-page.md)
+=======
+>>>>>>> .merge_file_qggUys
 
 
 ### Versione Incoming
 
 Inseriti le varie impostazioni, si potrà verificare il funzionamento di una determinata configurazione email.
 
+<<<<<<< .merge_file_QQupsp
+---
+=======
 ---
 
+>>>>>>> .merge_file_qggUys

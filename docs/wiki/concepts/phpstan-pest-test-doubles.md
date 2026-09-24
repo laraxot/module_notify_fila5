@@ -3,7 +3,15 @@ title: "Notify — test doubles e helper PHPStan"
 type: concept
 tags: [notify, phpstan, pest, testing, doubles]
 created: 2026-06-13
+<<<<<<< .merge_file_3gKxcN
 updated: 2026-07-06
+=======
+<<<<<<< .merge_file_chzMgU
+updated: 2026-06-13
+=======
+updated: 2026-07-06
+>>>>>>> .merge_file_iZZjgn
+>>>>>>> .merge_file_eIn41s
 qmd: "Notify NotificationManager test doubles trait PHPStan Pest mockService"
 issues:
   - "https://github.com/laraxot/module_fixcity_fila5/issues/52"
@@ -51,12 +59,21 @@ Espongono metodi `public` che delegano ai `protected` del trait — pattern KISS
 
 Preferire `createStub` / `createUnitMock` + `expectsOnce()` da `XotBaseTestCase`, non `Mockery::shouldReceive()->once()` (PHPStan L10 su union Mockery).
 
+<<<<<<< .merge_file_3gKxcN
+=======
+<<<<<<< .merge_file_chzMgU
+=======
+>>>>>>> .merge_file_eIn41s
 ### 4. Test reflection PHPStan-safe
 
 - Usare `Safe\class_uses()` e `Safe\file_get_contents()` nei test strutturali.
 - Prima di chiamare `ReflectionType::getName()`, restringere a `ReflectionNamedType`; `ReflectionUnionType` e `ReflectionIntersectionType` non espongono `getName()`.
 - `ReflectionClass::getFileName()` puo restituire `false`: verificare e passare una stringa a `file_get_contents()`.
 
+<<<<<<< .merge_file_3gKxcN
+=======
+>>>>>>> .merge_file_iZZjgn
+>>>>>>> .merge_file_eIn41s
 ## Cosa resta per Notify
 
 | Task | Priorità |
@@ -73,6 +90,11 @@ cd laravel
 ./vendor/bin/phpstan analyse Modules/Notify/tests
 ./vendor/bin/pest Modules/Notify/tests
 ```
+<<<<<<< .merge_file_3gKxcN
+=======
+<<<<<<< .merge_file_chzMgU
+=======
+>>>>>>> .merge_file_eIn41s
 
 Aggiornamento 2026-07-06:
 
@@ -80,3 +102,7 @@ Aggiornamento 2026-07-06:
 - `NotificationManagerTest` usa recipient reali Eloquent nei punti in cui il servizio richiede `Model`.
 - I test helper globali condivisi tra moduli devono essere idempotenti (`function_exists`) quando PHPStan carica piu suite nello stesso processo.
 - PHPStan globale su `Modules` e tornato a zero errori; PHPMD resta bloccato dall'assenza locale di `tools/phpmd.phar`.
+<<<<<<< .merge_file_3gKxcN
+=======
+>>>>>>> .merge_file_iZZjgn
+>>>>>>> .merge_file_eIn41s

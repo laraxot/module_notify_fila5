@@ -27,10 +27,19 @@ use stdClass;
  * nel sorgente: la chiamata al factory e' l'ultima istruzione del metodo,
  * dopo i due controlli qui testati).
  */
+<<<<<<< .merge_file_ER03Va
+=======
+<<<<<<< .merge_file_MYWYZo
+=======
+>>>>>>> .merge_file_0y5Xzk
 /**
  * `mixed` voluto: lo stub viola di proposito il contratto `toSms(): ?SmsData`
  * per testare i rami di errore di SmsChannel::send() (null, stringa, ecc.).
  */
+<<<<<<< .merge_file_ER03Va
+=======
+>>>>>>> .merge_file_VHTnGU
+>>>>>>> .merge_file_0y5Xzk
 function notificationStubReturningFromToSms(mixed $toSmsResult): Notification
 {
     return new class($toSmsResult) extends Notification
@@ -48,7 +57,15 @@ it('returns null without throwing when toSms() returns null (Difetto 17)', funct
     $channel = app(SmsChannel::class);
     $notification = notificationStubReturningFromToSms(null);
 
+<<<<<<< .merge_file_ER03Va
     $result = $channel->send(new stdClass, $notification);
+=======
+<<<<<<< .merge_file_MYWYZo
+    $result = $channel->send(new stdClass(), $notification);
+=======
+    $result = $channel->send(new stdClass, $notification);
+>>>>>>> .merge_file_VHTnGU
+>>>>>>> .merge_file_0y5Xzk
 
     Assert::assertNull($result);
 });
@@ -57,7 +74,15 @@ it('still throws when toSms() returns something that is neither SmsData nor null
     $channel = app(SmsChannel::class);
     $notification = notificationStubReturningFromToSms('not-sms-data');
 
+<<<<<<< .merge_file_ER03Va
     expect(fn () => $channel->send(new stdClass, $notification))
+=======
+<<<<<<< .merge_file_MYWYZo
+    expect(fn () => $channel->send(new stdClass(), $notification))
+=======
+    expect(fn () => $channel->send(new stdClass, $notification))
+>>>>>>> .merge_file_VHTnGU
+>>>>>>> .merge_file_0y5Xzk
         ->toThrow(Exception::class, 'toSms method must return an instance of SmsData');
 });
 
@@ -65,6 +90,14 @@ it('still throws when the notification has no toSms method at all', function ():
     $channel = app(SmsChannel::class);
     $notification = new class extends Notification {};
 
+<<<<<<< .merge_file_ER03Va
     expect(fn () => $channel->send(new stdClass, $notification))
+=======
+<<<<<<< .merge_file_MYWYZo
+    expect(fn () => $channel->send(new stdClass(), $notification))
+=======
+    expect(fn () => $channel->send(new stdClass, $notification))
+>>>>>>> .merge_file_VHTnGU
+>>>>>>> .merge_file_0y5Xzk
         ->toThrow(Exception::class, 'Notification does not have toSms method');
 });
