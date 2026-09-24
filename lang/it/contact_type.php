@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/it/contact_type.php
 return [
     'fields' => [
         'phone' => [
@@ -13,51 +9,43 @@ return [
             'placeholder' => 'phone',
             'helper_text' => '',
             'description' => 'phone',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'mobile' => [
             'label' => 'mobile',
             'placeholder' => 'mobile',
             'helper_text' => '',
             'description' => 'mobile',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'email' => [
             'label' => 'email',
             'placeholder' => 'email',
             'helper_text' => '',
             'description' => 'email',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'pec' => [
             'label' => 'pec',
             'placeholder' => 'pec',
             'helper_text' => '',
             'description' => 'pec',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'whatsapp' => [
             'label' => 'whatsapp',
             'placeholder' => 'whatsapp',
             'helper_text' => '',
             'description' => 'whatsapp',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'fax' => [
             'label' => 'fax',
             'placeholder' => 'fax',
             'helper_text' => '',
             'description' => 'fax',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'notes' => [
             'description' => 'notes',
             'helper_text' => 'notes',
             'placeholder' => 'notes',
             'label' => 'notes',
-            'tooltip' => '',
-        ],
-    ],
+            'tooltip' => '']],
     'label' => 'Contact Type',
     'plural_label' => 'Contact Type (Plurale)',
     'navigation' => [
@@ -65,21 +53,14 @@ return [
         'plural' => 'Contact Type',
         'group' => [
             'name' => 'General',
-            'description' => 'General Settings',
-        ],
+            'description' => 'General Settings'],
         'label' => 'Contact Type',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
-    ],
+        'icon' => 'heroicon-o-collection'],
     'actions' => [
         'create' => [
-            'label' => 'Crea Contact Type',
-        ],
+            'label' => 'Crea Contact Type'],
         'edit' => [
-            'label' => 'Modifica Contact Type',
-        ],
+            'label' => 'Modifica Contact Type'],
         'delete' => [
-            'label' => 'Elimina Contact Type',
-        ],
-    ],
-];
+            'label' => 'Elimina Contact Type']]];

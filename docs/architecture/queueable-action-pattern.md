@@ -1,3 +1,22 @@
+---
+title: "QueueableAction Pattern Guide"
+type: concept
+tags: [notify, docs, architecture, queueable, action, pattern]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione architecture queueable action pattern queueableaction pattern guide frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../README.md
+  - README.md
+  - ../conventions/README.md
+  - ../rules/README.md
+  - ../best-practices/naming-conventions.md
+---
 # QueueableAction Pattern Guide
 
 ## 📖 **Introduzione**

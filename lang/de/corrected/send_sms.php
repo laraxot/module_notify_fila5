@@ -2,30 +2,23 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/de/corrected/send_sms.php
 return [
     'navigation' => [
         'label' => 'SMS senden',
-        'group' => 'Test',
-    ],
+        'group' => 'Test'],
     'fields' => [
         'to' => [
             'label' => 'Empfänger',
             'placeholder' => 'Telefonnummer eingeben',
             'helper_text' => 'Telefonnummer mit internationaler Vorwahl eingeben (z.B. +49)',
             'tooltip' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'message' => [
             'label' => 'Nachricht',
             'placeholder' => 'Nachrichtentext eingeben',
             'helper_text' => 'Nachricht darf 160 Zeichen nicht überschreiten',
             'tooltip' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'driver' => [
             'label' => 'Anbieter',
             'placeholder' => 'SMS-Anbieter auswählen',
@@ -36,22 +29,15 @@ return [
                 'nexmo' => 'Nexmo',
                 'plivo' => 'Plivo',
                 'gammu' => 'Gammu',
-                'netfun' => 'Netfun',
-            ],
+                'netfun' => 'Netfun'],
             'tooltip' => '',
-            'description' => '',
-        ],
-    ],
+            'description' => '']],
     'actions' => [
         'send' => [
             'label' => 'SMS senden',
-            'tooltip' => 'SMS-Nachricht an den Empfänger senden',
-        ],
-    ],
+            'tooltip' => 'SMS-Nachricht an den Empfänger senden']],
     'messages' => [
         'success' => 'SMS erfolgreich gesendet',
-        'error' => 'Fehler beim Senden der SMS: :error',
-    ],
+        'error' => 'Fehler beim Senden der SMS: :error'],
     'label' => 'Missing Label',
-    'plural_label' => 'Missing Plural label',
-];
+    'plural_label' => 'Missing Plural label'];

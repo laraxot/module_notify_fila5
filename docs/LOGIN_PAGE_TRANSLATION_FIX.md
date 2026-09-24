@@ -1,3 +1,15 @@
+<<<<<<< .merge_file_JqQY4X
+=======
+---
+title: "Fix Traduzioni Pagina Login"
+module: notify
+type: integration
+tags: [integrations, modules, notify]
+created: 2026-08-24
+updated: 2026-08-24
+---
+
+>>>>>>> .merge_file_5Nncgw
 # 🔧 Fix Traduzioni Pagina Login
 
 **Data**: 14 Ottobre 2025  

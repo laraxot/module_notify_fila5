@@ -6,7 +6,7 @@ namespace Modules\Notify\Factories;
 
 use Exception;
 use Illuminate\Support\Facades\Config;
-use Modules\Notify\Contracts\WhatsAppProviderActionContract;
+use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace;
@@ -24,11 +24,11 @@ final class WhatsAppActionFactory
      * Utilizza una formula per calcolare il nome della classe dell'azione.
      *
      * @param  string|null  $driver  Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
-     * @return WhatsAppProviderActionContract Azione WhatsApp corrispondente al driver
+     * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
      *
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
-    public function create(?string $driver = null): WhatsAppProviderActionContract
+    public function create(?string $driver = null): WhatsAppProviderActionInterface
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
         Assert::string($driver, 'Driver must be a string');
@@ -51,14 +51,14 @@ final class WhatsAppActionFactory
         }
 
         // Verifica se la classe implementa l'interfaccia richiesta
-        if (! is_subclass_of($className, WhatsAppProviderActionContract::class)) {
-            throw new Exception("Class {$className} does not implement WhatsAppProviderActionContract.");
+        if (! is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
+            throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
 
         $instance = app($className);
-        Assert::isInstanceOf($instance, WhatsAppProviderActionContract::class);
+        Assert::isInstanceOf($instance, WhatsAppProviderActionInterface::class);
 
-        /** @var WhatsAppProviderActionContract $instance */
+        /** @var WhatsAppProviderActionInterface $instance */
         return $instance;
     }
 }

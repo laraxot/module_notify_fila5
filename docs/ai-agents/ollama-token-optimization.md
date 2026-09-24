@@ -3,11 +3,13 @@
 ## Parametri Chiave per Ridurre i Token
 
 ### 1. `num_predict` - Limite Token Output
+### 1. `num_forecast` - Limite Token Output
 Limita il numero massimo di token generati nella risposta.
 
 ```json
 {
   "num_predict": 256
+  "num_forecast": 256
 }
 ```
 **Impatto**: Direttamente proporzionale alla riduzione. Valori consigliati: 128-512 per risposte brevi.
@@ -86,6 +88,7 @@ curl http://localhost:11434/api/chat -d '{
   ],
   "options": {
     "num_predict": 150,
+    "num_forecast": 150,
     "temperature": 0.3,
     "top_k": 20,
     "top_p": 0.7,
@@ -98,7 +101,7 @@ curl http://localhost:11434/api/chat -d '{
 ## Utilizzo in Laravel con QueueableActions
 
 ### Azioni Disponibili
-Le azioni sono in `Modules\Xot\Actions\AI\Ollama\`:
+Le azioni sono in `Modules\AI\Actions\Ollama\`:
 - `ChatOllamaAction` - Chat conversazionale
 - `GenerateOllamaAction` - Generazione testo
 
@@ -118,7 +121,7 @@ OLLAMA_THINKING=low
 ### Utilizzo
 
 ```php
-use Modules\User\Actions\Ollama\ChatOllamaAction;
+use Modules\AI\Actions\Ollama\ChatOllamaAction;
 
 // Usage standard ottimizzato
 $result = (new ChatOllamaAction())->executeOptimized('tua domanda');
@@ -130,6 +133,7 @@ $result = (new ChatOllamaAction())->executeMinimal('tua domanda');
 $result = (new ChatOllamaAction())->execute('tua domanda', [
     'options' => [
         'num_predict' => 128,
+        'num_forecast' => 128,
         'temperature' => 0.1,
     ],
     'think' => 'low',
@@ -145,6 +149,7 @@ echo $result['tokens']['total']; // Token totali usati
 | Parametro | Impatto Stimato |
 |-----------|-----------------|
 | num_predict: 256 | 50-70% riduzione output |
+| num_forecast: 256 | 50-70% riduzione output |
 | temperature: 0.3 | 10-20% riduzione |
 | think: "low" | 27-51% riduzione ragionamento |
 | top_k: 20 | 5-15% riduzione |

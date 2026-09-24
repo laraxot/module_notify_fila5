@@ -1,15 +1,6 @@
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
 <?php
 
 declare(strict_types=1);
-
 ?>
 <html>
 	<head>
@@ -26,13 +17,6 @@ declare(strict_types=1);
 	{{--
 	[{{ optional($_theme)->cssInLine('notify::css/ark.css') }}]
 	<pre>{{ print_r($logo) }}</pre>
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot — see module docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
 	--}}
 	<table id="background-table" border="0" cellpadding="0" cellspacing="0" width="100%">
 		<tbody>

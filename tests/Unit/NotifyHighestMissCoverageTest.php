@@ -230,7 +230,19 @@ describe('Notify highest-miss coverage', function (): void {
         $emptyTarget = $service->sendWithTargeting(['platform' => 'unknown'], $notification);
         Assert::assertFalse($emptyTarget['success']);
 
+<<<<<<< .merge_file_CFP9Zg
         expect(fn (): mixed => $service->sendWithTemplate('missing', ['t']))
+=======
+<<<<<<< .merge_file_BZnYnY
+        expect(fn (): mixed => $service->sendWithTemplate('missing', ['t']))
+=======
+<<<<<<< .merge_file_LGHXco
+        expect(fn (): mixed => $service->sendWithTemplate('missing', ['t']))
+=======
+        expect(fn (): array => $service->sendWithTemplate('missing', ['t']))
+>>>>>>> .merge_file_9e3mCW
+>>>>>>> .merge_file_xHpmB4
+>>>>>>> .merge_file_XJv3si
             ->toThrow(\Exception::class);
 
         $jobId = $service->scheduleNotification(['t1'], $notification, [], new DateTime('+1 hour'));
@@ -406,7 +418,19 @@ describe('Notify highest-miss coverage', function (): void {
         Assert::assertNull($result);
         Notification::assertSentTo($recipient, GenericNotification::class);
 
+<<<<<<< .merge_file_CFP9Zg
         expect(fn (): mixed => (new SendNotificationAction)->handle(
+=======
+<<<<<<< .merge_file_BZnYnY
+        expect(fn (): mixed => (new SendNotificationAction)->handle(
+=======
+<<<<<<< .merge_file_LGHXco
+        expect(fn (): mixed => (new SendNotificationAction)->handle(
+=======
+        expect(fn (): ?Model => (new SendNotificationAction)->handle(
+>>>>>>> .merge_file_9e3mCW
+>>>>>>> .merge_file_xHpmB4
+>>>>>>> .merge_file_XJv3si
             $recipient,
             'missing-template',
         ))->toThrow(\Exception::class);

@@ -42,7 +42,7 @@ class SmtpData extends Data
     public static function make(string $name = 'smtp'): self
     {
         if (! isset(self::$instance[$name]) || ! (self::$instance[$name] instanceof self)) {
-            // $data = app(\Modules\Tenant\Actions\Config\GetTenantConfigArrayAction::class)->execute('mail');
+            // $data = TenantService::getConfig('mail');
             Assert::isArray($data = config('mail'));
             $data_name = Arr::get($data, 'mailers.'.$name);
             self::$instance[$name] = self::from($data_name);
@@ -54,7 +54,6 @@ class SmtpData extends Data
     public function toArray(): array
     {
         return [
-// Laraxot module file — see docs/wiki for domain contract.
             'transport' => $this->transport,
             'host' => $this->host,
             'port' => $this->port,
@@ -62,8 +61,7 @@ class SmtpData extends Data
             'username' => $this->username,
             'password' => $this->password,
             'timeout' => $this->timeout,
-            'local_domain' => $this->local_domain,
-        ];
+            'local_domain' => $this->local_domain];
     }
 
     public function getTransport(): EsmtpTransport

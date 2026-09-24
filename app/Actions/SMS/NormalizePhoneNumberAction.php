@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-use Webmozart\Assert\Assert;
 use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
 
 use function Safe\preg_match;
 use function Safe\preg_replace;

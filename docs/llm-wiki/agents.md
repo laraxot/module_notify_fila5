@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_IK9pEP
 ---
 title: "Agent instructions"
 type: reference
@@ -11,6 +12,8 @@ related:
   - ./coding-agent-manifests.md
 ---
 
+=======
+>>>>>>> .merge_file_yYCz73
 # Notify {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** Notify

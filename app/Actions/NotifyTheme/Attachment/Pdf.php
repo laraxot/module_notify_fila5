@@ -35,16 +35,15 @@ class Pdf
         $file_path = Storage::disk('cache')->path($file_name);
 
         app(HtmlToPdfAction::class)->execute(
+            filename: $file_path,
             html: $html,
             out: 'file',
             pdforientation: 'P',
-            filename: $file_path,
         );
 
         return AttachmentData::from([
             'path' => $file_path,
             'as' => $file_name,
-            'mime' => 'application/pdf',
-        ]);
+            'mime' => 'application/pdf']);
     }
 }

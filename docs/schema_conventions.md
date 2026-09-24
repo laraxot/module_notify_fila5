@@ -57,11 +57,21 @@ Here's a complete example of a properly formatted schema:
 ## Collegamenti tra versioni di schema_conventions.md
 * [schema_conventions.md](docs/schema_conventions.md)
 * [schema_conventions.md](../../../Notify/docs/schema_conventions.md)
+<<<<<<< .merge_file_JfGDMp
 * [schema_conventions.md](../../../notify/docs/schema_conventions.md)
+=======
+>>>>>>> .merge_file_qOMzAv
 
 
 ### Versione Incoming
 
 ```
 
+<<<<<<< .merge_file_JfGDMp
 ---
+=======
+---
+
+
+```
+>>>>>>> .merge_file_qOMzAv
