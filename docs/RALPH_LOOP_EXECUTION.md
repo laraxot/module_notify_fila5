@@ -311,7 +311,11 @@ Aggiungere feedback module con stelle
 
 ### Clear Cache
 ```bash
+<<<<<<< .merge_file_fhR1O4
+cd /var/www/_bases/base_fixcity_fila5/laravel
+=======
 cd /var/www/_bases/base_ptv_fila5/laravel
+>>>>>>> .merge_file_FrDTSF
 rm -rf storage/framework/views/* bootstrap/cache/*.php
 php artisan view:clear
 ```

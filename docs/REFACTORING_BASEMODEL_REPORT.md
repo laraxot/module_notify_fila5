@@ -100,7 +100,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;
     
+<<<<<<< .merge_file_35BMrr
+    protected $connection = 'fixcity';
+=======
     protected $connection = 'ptv';
+>>>>>>> .merge_file_I9JEt7
     
     // ❌ DUPLICATO
     protected $fillable = ['id'];
@@ -116,7 +120,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;  // ✅ Specifico
     
+<<<<<<< .merge_file_35BMrr
+    protected $connection = 'fixcity';
+=======
     protected $connection = 'ptv';
+>>>>>>> .merge_file_I9JEt7
     
     // ✅ RIMOSSO: $fillable (eredita da parent)
     // ✅ RIMOSSO: $dates (deprecato)

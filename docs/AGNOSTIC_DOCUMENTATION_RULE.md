@@ -37,15 +37,25 @@ Replace specific names with placeholders:
 | Instead Of | Use |
 |------------|-----|
 | `FixCity` | `[PROJECT_NAME]` or `[Platform Name]` |
+<<<<<<< .merge_file_kO1Ofw
+| `fixcity.local` | `[DOMAIN]` or `your-project.local` |
+| `fixcity::` | `module_name::` or `your_module::` |
+=======
 | `ptv.local` | `[DOMAIN]` or `your-project.local` |
 | `ptv::` | `module_name::` or `your_module::` |
+>>>>>>> .merge_file_smicPC
 | `laravel/Modules/Fixcity` | `laravel/Modules/[ModuleName]` |
 
 ### 3. File Naming
 
 **❌ WRONG**:
+<<<<<<< .merge_file_kO1Ofw
+- `fixcity-pages-content-blocks.md`
+- `fixcity-integration.md`
+=======
 - `ptv-pages-content-blocks.md`
 - `ptv-integration.md`
+>>>>>>> .merge_file_smicPC
 - `project-name-setup.md`
 
 **✅ CORRECT**:
@@ -58,8 +68,13 @@ Replace specific names with placeholders:
 **❌ WRONG**:
 ```php
 namespace Modules\Fixcity\Models;
+<<<<<<< .merge_file_kO1Ofw
+route('fixcity.tickets.index')
+config('fixcity.settings')
+=======
 route('ptv.tickets.index')
 config('ptv.settings')
+>>>>>>> .merge_file_smicPC
 ```
 
 **✅ CORRECT**:
@@ -75,7 +90,11 @@ When linking to other docs, use **relative paths** without project names:
 
 **❌ WRONG**:
 ```markdown
+<<<<<<< .merge_file_kO1Ofw
+- [FixCity Integration](../../fixcity/docs/roadmap.md)
+=======
 - [FixCity Integration](../../ptv/docs/roadmap.md)
+>>>>>>> .merge_file_smicPC
 - [See Fixcity Module](../../../Modules/Fixcity/docs/)
 ```
 

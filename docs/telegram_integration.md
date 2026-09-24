@@ -1,6 +1,10 @@
 # Integrazione Telegram 
 
+<<<<<<< .merge_file_X9HkuL
+Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto Quaeris, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
+=======
 Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto SaluteOra, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
+>>>>>>> .merge_file_H5nxjf
 
 ## Architettura
 
@@ -174,4 +178,8 @@ TELEGRAM_PARSE_MODE=HTML
 1. **Token del bot**: Conservare sempre il token del bot in variabili d'ambiente, mai nel codice
 2. **Rate limiting**: Utilizzare il rate limiting per prevenire abusi
 3. **Validazione input**: Validare sempre i dati in ingresso prima dell'invio
+<<<<<<< .merge_file_X9HkuL
 4. **Logging**: Registrare tutte le operazioni critiche nei log, ma evitare di loggare dati sensibili
+=======
+4. **Logging**: Registrare tutte le operazioni critiche nei log, ma evitare di loggare dati sensibili
+>>>>>>> .merge_file_H5nxjf

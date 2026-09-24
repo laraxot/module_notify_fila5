@@ -1,3 +1,5 @@
+<<<<<<< .merge_file_UhJ6kp
+=======
 ---
 title: "Login"
 type: concept
@@ -18,6 +20,7 @@ related:
   - "./repos.md"
 ---
 
+>>>>>>> .merge_file_cvSDc8
 -----------------------------------------------------------------------------------------------
 A Blade Component to Quickly Login to Your Local Environment
 https://codebrisk.com/blog/a-blade-component-to-quickly-login-to-your-local-environment
