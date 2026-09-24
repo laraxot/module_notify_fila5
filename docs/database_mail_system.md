@@ -302,7 +302,6 @@ php artisan notify:mail-template:test
 
 ## Collegamenti
 - [Notify Module](../README.md)
-- [Notify Module](../readme.md)
 - [Email Templates](email-templates.md)
 - [Mail Queue](mail-queue.md)
 

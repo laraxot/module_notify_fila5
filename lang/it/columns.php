@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/it/columns.php
 return [
     'contact' => [
         'label' => 'Contatto',
@@ -17,9 +13,7 @@ return [
             'type' => 'Tipo',
             'verified' => 'Verificato',
             'sms_sent' => 'SMS inviati',
-            'email_sent' => 'Email inviate',
-        ],
-    ],
+            'email_sent' => 'Email inviate']],
     'label' => 'Columns',
     'plural_label' => 'Columns (Plurale)',
     'navigation' => [
@@ -27,41 +21,30 @@ return [
         'plural' => 'Columns',
         'group' => [
             'name' => 'General',
-            'description' => 'General Settings',
-        ],
+            'description' => 'General Settings'],
         'label' => 'Columns',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
-    ],
+        'icon' => 'heroicon-o-collection'],
     'fields' => [
         'id' => [
             'label' => 'Identificativo',
             'tooltip' => 'Identificativo univoco del record',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'created_at' => [
             'label' => 'Data Creazione',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'updated_at' => [
             'label' => 'Ultima Modifica',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
-    ],
+            'description' => '']],
     'actions' => [
         'create' => [
-            'label' => 'Crea Columns',
-        ],
+            'label' => 'Crea Columns'],
         'edit' => [
-            'label' => 'Modifica Columns',
-        ],
+            'label' => 'Modifica Columns'],
         'delete' => [
-            'label' => 'Elimina Columns',
-        ],
-    ],
-];
+            'label' => 'Elimina Columns']]];

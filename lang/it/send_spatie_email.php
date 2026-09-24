@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/it/send_spatie_email.php
 return [
     'navigation' => [
         'label' => 'Invio Email (Spatie]',
@@ -15,6 +11,7 @@ return [
         'emailFormActions' => [
             'label' => 'emailFormActions',
             'tooltip' => 'emailFormActions',
+            'icon' => 'emailFormActions',
         ],
         'logout' => [
             'tooltip' => 'logout',
@@ -24,6 +21,12 @@ return [
         'profile' => [
             'tooltip' => 'profile',
             'icon' => 'profile',
+            'label' => 'profile',
+        ],
+        'save' => [
+            'label' => 'save',
+            'icon' => 'save',
+            'tooltip' => 'save',
         ],
     ],
     'fields' => [

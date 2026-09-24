@@ -1,15 +1,6 @@
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{--
 /**

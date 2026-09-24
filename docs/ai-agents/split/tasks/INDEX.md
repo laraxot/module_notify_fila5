@@ -1,6 +1,25 @@
+---
+title: "BMad Tasks Index"
+type: index
+tags: [notify, docs, ai-agents, split, tasks]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione ai agents split tasks index bmad tasks index index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../../../README.md
+  - ../../../wiki/index.md
+  - ../../../notifications/readme.md
+  - ../../../integrations/readme.md
+  - ../../../templates/readme.md
+---
 # BMad Tasks Index
 
-**Source**: [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md) (lines 905-5349)  
+**Source**: [`../../../../agents.md`](../../../../../../../../../../agents.md) (lines 905-5349)  
 **Total Tasks**: 22  
 **Total Lines**: ~4445  
 **Last Updated**: 2026-04-11  
@@ -63,14 +82,14 @@
 ## Cross-References
 
 ### Related Documentation
-- ← [BMad Agents Index](../../agents/INDEX.md) — 10 agent definitions
-- ← [CLAUDE Index](../claude/INDEX.md) — Laravel Boost guidelines
-- ← [GEMINI Index](../gemini/INDEX.md) — Gemini-specific rules
-- ← [Main AI Docs Index](../INDEX.md) — Master index
+- ← [BMad Agents Index](../../agents/index.md) — 10 agent definitions
+- ← [CLAUDE Index](../claude/index.md) — Laravel Boost guidelines
+- ← [GEMINI Index](../gemini/index.md) — Gemini-specific rules
+- ← [Main AI Docs Index](../index.md) — Master index
 
 ### Bidirectional Links
-- ← Back to [Main AI Docs Index](../INDEX.md)
-- ← Back to [../../../../AGENTS.md](../../../../../../../../../../AGENTS.md) (original source)
+- ← Back to [Main AI Docs Index](../index.md)
+- ← Back to [../../../../agents.md](../../../../../../../../../../agents.md) (original source)
 - ← Back to [Project Docs](../../../docs/README.md)
 
 ---
@@ -82,7 +101,7 @@ Tasks are referenced by name when executing workflows:
 - "Execute trace-requirements for epic 3"
 - "Apply qa-gate to story 2.1"
 
-For full task definitions, see the original [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md).
+For full task definitions, see the original [`../../../../agents.md`](../../../../../../../../../../agents.md).
 
 ---
 

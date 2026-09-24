@@ -2,48 +2,35 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/it/create_mail_template.php
 return [
     'fields' => [
         'mailable' => [
             'label' => 'mailable',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'subject' => [
             'label' => 'subject',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'html_template' => [
             'label' => 'html_template',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'text_template' => [
             'label' => 'text_template',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
-    ],
+            'description' => '']],
     'actions' => [
         'create' => [
-            'label' => 'create',
-        ],
+            'label' => 'create'],
         'createAnother' => [
-            'label' => 'createAnother',
-        ],
+            'label' => 'createAnother'],
         'cancel' => [
-            'label' => 'cancel',
-        ],
-    ],
+            'label' => 'cancel']],
     'label' => 'Create Mail Template',
     'plural_label' => 'Create Mail Template (Plurale)',
     'navigation' => [
@@ -51,10 +38,7 @@ return [
         'plural' => 'Create Mail Template',
         'group' => [
             'name' => 'General',
-            'description' => 'General Settings',
-        ],
+            'description' => 'General Settings'],
         'label' => 'Create Mail Template',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
-    ],
-];
+        'icon' => 'heroicon-o-collection']];

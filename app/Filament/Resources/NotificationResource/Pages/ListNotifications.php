@@ -10,7 +10,6 @@ use Filament\Tables\Filters\SelectFilter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Override;
 
 class ListNotifications extends XotBaseListRecords
 {
@@ -19,8 +18,7 @@ class ListNotifications extends XotBaseListRecords
     /**
      * @return array<string, TextColumn>
      */
-    #[Override]
-    public function getTableColumns(): array
+    public static function notificationTableColumns(): array
     {
         return [
             'id' => TextColumn::make('id')->numeric()->sortable(),
@@ -29,15 +27,13 @@ class ListNotifications extends XotBaseListRecords
             'data' => TextColumn::make('data')->searchable(),
             'read_at' => TextColumn::make('read_at')->dateTime()->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
-            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable(),
-        ];
+            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()];
     }
 
     /**
      * @return array<string, Filter|SelectFilter>
      */
-    #[Override]
-    public function getTableFilters(): array
+    public static function notificationTableFilters(): array
     {
         return [
             'read' => Filter::make('is_read')
@@ -51,9 +47,12 @@ class ListNotifications extends XotBaseListRecords
                     'info' => 'Info',
                     'success' => 'Success',
                     'warning' => 'Warning',
-                    'error' => 'Error',
-                ])
-                ->multiple(),
-        ];
+                    'error' => 'Error'])
+                ->multiple()];
+    }
+
+    public function getTableFilters(): array
+    {
+        return self::notificationTableFilters();
     }
 }

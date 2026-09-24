@@ -1,15 +1,6 @@
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
 <?php
 
 declare(strict_types=1);
-
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 	"http://www.w3.org/TR/html4/loose.dtd">
@@ -26,19 +17,6 @@ declare(strict_types=1);
 			color:#e1d8c1;
 			font-size:16px;
 			line-height:26px;
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot — see module docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
 			font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
 			margin-top:0;
 			margin-bottom:0;

@@ -1,15 +1,6 @@
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
 <?php
 
 declare(strict_types=1);
-
 ?>
 @extends('notify::mail-layouts.base.default')
 
@@ -26,15 +17,6 @@ declare(strict_types=1);
             <td style="text-align: center;">
                 <h1 style="color: #2D3748; font-size: 24px; margin: 0 0 20px 0;">
                     {{ __('notify::mail.order.confirmation_title') }}
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot — see module docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
                 </h1>
                 <p style="color: #4A5568; font-size: 16px; margin: 0 0 30px 0;">
                     {{ __('notify::mail.order.confirmation_message', ['order_id' => $order->id]) }}

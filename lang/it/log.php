@@ -2,67 +2,53 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/it/log.php
 return [
     'fields' => [
         'recipient' => [
             'label' => 'recipient',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'subject' => [
             'label' => 'subject',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'status' => [
             'label' => 'status',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'sent_at' => [
             'label' => 'sent_at',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'created_at' => [
             'label' => 'created_at',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'view' => [
             'label' => 'view',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'openFilters' => [
             'label' => 'openFilters',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'applyFilters' => [
             'label' => 'applyFilters',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
+            'description' => ''],
         'resetFilters' => [
             'label' => 'resetFilters',
             'tooltip' => '',
             'helper_text' => '',
-            'description' => '',
-        ],
-    ],
+            'description' => '']],
     'label' => 'Log',
     'plural_label' => 'Log (Plurale)',
     'navigation' => [
@@ -70,21 +56,14 @@ return [
         'plural' => 'Log',
         'group' => [
             'name' => 'General',
-            'description' => 'General Settings',
-        ],
+            'description' => 'General Settings'],
         'label' => 'Log',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
-    ],
+        'icon' => 'heroicon-o-collection'],
     'actions' => [
         'create' => [
-            'label' => 'Crea Log',
-        ],
+            'label' => 'Crea Log'],
         'edit' => [
-            'label' => 'Modifica Log',
-        ],
+            'label' => 'Modifica Log'],
         'delete' => [
-            'label' => 'Elimina Log',
-        ],
-    ],
-];
+            'label' => 'Elimina Log']]];

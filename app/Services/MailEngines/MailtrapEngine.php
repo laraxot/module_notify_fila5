@@ -1,11 +1,18 @@
 <?php
 
+<<<<<<< .merge_file_SzlGP4
+=======
+declare(strict_types=1);
+>>>>>>> .merge_file_kcsDzc
 /**
  * @see https://smsvi-docs.web.app/docs/restful/send-batch/
  */
 
+<<<<<<< .merge_file_SzlGP4
 declare(strict_types=1);
 
+=======
+>>>>>>> .merge_file_kcsDzc
 namespace Modules\Notify\Services\MailEngines;
 
 use Illuminate\Mail\Message;
@@ -33,7 +40,7 @@ class MailtrapEngine
     public static function getInstance(): self
     {
         if (! (self::$instance instanceof self)) {
-            self::$instance = new self();
+            self::$instance = new self;
         }
 
         return self::$instance;
@@ -58,9 +65,7 @@ class MailtrapEngine
 
     public function send(): self
     {
-        dddx('WIP');
-
-        return $this;
+        throw new \RuntimeException('Removed debug dddx');
     }
 
     public function try(): void

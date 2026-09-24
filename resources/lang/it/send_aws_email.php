@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: resources/lang/it/send_aws_email.php
 return [
     'fields' => [
         'recipient' => [
@@ -13,52 +9,41 @@ return [
             'placeholder' => 'recipient',
             'helper_text' => 'recipient',
             'description' => 'recipient',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'subject' => [
             'helper_text' => 'subject',
             'description' => 'subject',
             'label' => '',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'body_html' => [
             'helper_text' => 'body_html',
             'description' => 'body_html',
             'label' => '',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'template' => [
             'helper_text' => 'template',
             'description' => 'template',
             'label' => '',
-            'tooltip' => '',
-        ],
+            'tooltip' => ''],
         'add_attachments' => [
             'helper_text' => 'add_attachments',
             'description' => 'add_attachments',
             'label' => '',
-            'tooltip' => '',
-        ],
-    ],
+            'tooltip' => '']],
     'actions' => [
         'sendEmail' => [
             'label' => 'sendEmail',
             'icon' => 'sendEmail',
-            'tooltip' => 'sendEmail',
-        ],
+            'tooltip' => 'sendEmail'],
         'profile' => [
             'label' => 'profile',
             'icon' => 'profile',
-            'tooltip' => 'profile',
-        ],
-    ],
+            'tooltip' => 'profile']],
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
         'group' => 'Missing Group',
         'icon' => 'heroicon-o-puzzle-piece',
-        'sort' => 100,
-    ],
+        'sort' => 100],
     'label' => 'Missing Label',
-    'plural_label' => 'Missing Plural label',
-];
+    'plural_label' => 'Missing Plural label'];

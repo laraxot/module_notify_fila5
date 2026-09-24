@@ -11,6 +11,8 @@ use RuntimeException;
 
 /**
  * Classe per l'invio di SMS.
+ *
+ * @SuppressWarnings("PHPMD.ShortVariable") Trade-off: la proprieta pubblica `$to` e parte dell API SMS esistente.
  */
 class SmsService
 {
@@ -62,9 +64,18 @@ class SmsService
      */
     public function setLocalVars(array $vars): self
     {
-        foreach ($vars as $k => $v) {
-            $this->{$k} = $v;
+        // Set SMS properties if they exist in the input
+        if (isset($vars['to']) && is_string($vars['to'])) {
+            $this->to = $vars['to'];
         }
+        if (isset($vars['from']) && is_string($vars['from'])) {
+            $this->from = $vars['from'];
+        }
+        if (isset($vars['body']) && is_string($vars['body'])) {
+            $this->body = $vars['body'];
+        }
+
+        // Merge all vars into the template vars array
         $this->vars = array_merge($this->vars, $vars);
 
         return $this;
@@ -84,6 +95,8 @@ class SmsService
 
     /**
      * Invia l'SMS utilizzando il driver configurato.
+     *
+     * @SuppressWarnings("PHPMD.CyclomaticComplexity") Trade-off: mantiene il flusso legacy senza refactor comportamentale.
      */
     public function send(): self
     {

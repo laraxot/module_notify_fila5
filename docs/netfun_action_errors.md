@@ -192,4 +192,3 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
-*Ultimo aggiornamento: 2025-05-12*
