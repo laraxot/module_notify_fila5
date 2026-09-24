@@ -42,23 +42,7 @@ Questa sezione contiene la documentazione per la configurazione e l'utilizzo di 
 
 ### File di Bootstrap
 - `./phpstan_constants.php`
-<<<<<<< .merge_file_9cacKp
 - `./Modules/Xot/helpers/Helper.php`
-=======
-<<<<<<< .merge_file_jLEbpB
-- `./Modules/Xot/helpers/Helper.php`
-=======
-<<<<<<< .merge_file_EjsOsY
-- `./Modules/Xot/helpers/Helper.php`
-=======
-<<<<<<< .merge_file_iWDxJA
-- `./Modules/Xot/Helpers/Helper.php`
-=======
-- `./Modules/Xot/helpers/Helper.php`
->>>>>>> .merge_file_2xywml
->>>>>>> .merge_file_L4Af1S
->>>>>>> .merge_file_UCT4W1
->>>>>>> .merge_file_PE8Jtk
 
 ## Processo di Analisi
 
