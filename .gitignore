@@ -188,3 +188,8 @@ phpunit.xml.dist
 !/CHANGELOG.md
 !/LICENSE.md
 
+
+# Artefatti audit vietati (rule: tests-auditcoverage-forbidden)
+tests/AuditCoverage/
+audit-coverage/
+.claude-audit/
