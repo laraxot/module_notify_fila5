@@ -9,21 +9,7 @@ use Exception;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Jobs\SendScheduledPushNotification;
-<<<<<<< .merge_file_lMgPAv
 use Modules\Notify\Support\PushNotificationPlatformDelivery;
-=======
-<<<<<<< .merge_file_2LXu11
-use Modules\Notify\Support\PushNotificationPlatformDelivery;
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
-=======
-use Modules\Notify\Support\PushNotificationPlatformDelivery;
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -39,23 +25,7 @@ final class SendPushNotificationAction
     private PushNotificationPlatformDelivery $delivery;
 
     /** @var list<string> */
-<<<<<<< .merge_file_lMgPAv
     private array $platformNames = ["fcm", "apns", "webpush"];
-=======
-<<<<<<< .merge_file_2LXu11
-    private array $platformNames = ["fcm", "apns", "webpush"];
-=======
-<<<<<<< .merge_file_6PHWMs
-    private array $platformNames = ['fcm', 'apns', 'webpush'];
-=======
-<<<<<<< .merge_file_HXTuul
-    private array $platformNames = ['fcm', 'apns', 'webpush'];
-=======
-    private array $platformNames = ["fcm", "apns", "webpush"];
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
 
     public function __construct(?PushNotificationPlatformDelivery $delivery = null)
     {
@@ -63,18 +33,6 @@ final class SendPushNotificationAction
     }
 
     /**
-<<<<<<< .merge_file_lMgPAv
-     * @param array<string, mixed> $notification
-     * @param array<string, mixed> $data
-=======
-<<<<<<< .merge_file_2LXu11
-     * @param array<string, mixed> $notification
-     * @param array<string, mixed> $data
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
->>>>>>> .merge_file_ZmD9J7
      * @param  list<string>  $tokens
      * @param  array<string, mixed>  $notification
      * @param  array<string, mixed>  $data
@@ -88,27 +46,12 @@ final class SendPushNotificationAction
     /**
      * @param  array<string, mixed>  $notification
      * @param  array<string, mixed>  $data
-<<<<<<< .merge_file_6PHWMs
-=======
-=======
      * @param array<string, mixed> $notification
      * @param array<string, mixed> $data
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
      * @return array<string, array<string, mixed>>
      */
     public function sendToDevice(string $token, array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_lMgPAv
-=======
-<<<<<<< .merge_file_2LXu11
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
->>>>>>> .merge_file_ZmD9J7
         return $this->sendToDeviceInternal($token, $notification, $data);
     }
 
@@ -119,13 +62,6 @@ final class SendPushNotificationAction
      */
     private function sendToDeviceInternal(string $token, array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_6PHWMs
-=======
-=======
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
         $results = [];
 
         foreach ($this->platformNames as $platform) {
@@ -158,14 +94,6 @@ final class SendPushNotificationAction
      */
     public function sendToDevices(array $tokens, array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_lMgPAv
-=======
-<<<<<<< .merge_file_2LXu11
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
->>>>>>> .merge_file_ZmD9J7
         return $this->execute($tokens, $notification, $data);
     }
 
@@ -177,13 +105,6 @@ final class SendPushNotificationAction
      */
     private function sendToDevicesInternal(array $tokens, array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_6PHWMs
-=======
-=======
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
         $results = [];
 
         $tokensByPlatform = $this->delivery->groupTokensByPlatform($tokens);
@@ -219,14 +140,6 @@ final class SendPushNotificationAction
      */
     public function sendToTopic(string $topic, array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_lMgPAv
-=======
-<<<<<<< .merge_file_2LXu11
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
->>>>>>> .merge_file_ZmD9J7
         return $this->sendToTopicInternal($topic, $notification, $data);
     }
 
@@ -237,13 +150,6 @@ final class SendPushNotificationAction
      */
     private function sendToTopicInternal(string $topic, array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_6PHWMs
-=======
-=======
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
         $results = [];
 
         foreach ($this->platformNames as $platform) {
@@ -274,14 +180,6 @@ final class SendPushNotificationAction
      */
     public function sendToAll(array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_lMgPAv
-=======
-<<<<<<< .merge_file_2LXu11
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
->>>>>>> .merge_file_ZmD9J7
         return $this->sendToAllInternal($notification, $data);
     }
 
@@ -292,13 +190,6 @@ final class SendPushNotificationAction
      */
     private function sendToAllInternal(array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_6PHWMs
-=======
-=======
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
         $tokens = $this->delivery->getAllActiveTokens();
 
         if ($tokens === []) {
@@ -308,23 +199,7 @@ final class SendPushNotificationAction
             ];
         }
 
-<<<<<<< .merge_file_lMgPAv
         return $this->sendToDevices($tokens, $notification, $data);
-=======
-<<<<<<< .merge_file_2LXu11
-        return $this->sendToDevices($tokens, $notification, $data);
-=======
-<<<<<<< .merge_file_6PHWMs
-        return $this->sendToDevicesInternal($tokens, $notification, $data);
-=======
-<<<<<<< .merge_file_HXTuul
-        return $this->sendToDevicesInternal($tokens, $notification, $data);
-=======
-        return $this->sendToDevices($tokens, $notification, $data);
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
     }
 
     /**
@@ -334,14 +209,6 @@ final class SendPushNotificationAction
      */
     public function scheduleNotification(array $tokens, array $notification, array $data, DateTime $scheduleTime): string
     {
-<<<<<<< .merge_file_lMgPAv
-=======
-<<<<<<< .merge_file_2LXu11
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
->>>>>>> .merge_file_ZmD9J7
         return $this->scheduleNotificationInternal($tokens, $notification, $data, $scheduleTime);
     }
 
@@ -352,13 +219,6 @@ final class SendPushNotificationAction
      */
     private function scheduleNotificationInternal(array $tokens, array $notification, array $data, DateTime $scheduleTime): string
     {
-<<<<<<< .merge_file_6PHWMs
-=======
-=======
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
         $jobId = uniqid('push_', true);
 
         Cache::put("scheduled_push:{$jobId}", [
@@ -381,14 +241,6 @@ final class SendPushNotificationAction
      */
     public function sendWithTemplate(string $templateId, array $tokens, array $variables = []): array
     {
-<<<<<<< .merge_file_lMgPAv
-=======
-<<<<<<< .merge_file_2LXu11
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
->>>>>>> .merge_file_ZmD9J7
         return $this->sendWithTemplateInternal($templateId, $tokens, $variables);
     }
 
@@ -399,13 +251,6 @@ final class SendPushNotificationAction
      */
     private function sendWithTemplateInternal(string $templateId, array $tokens, array $variables = []): array
     {
-<<<<<<< .merge_file_6PHWMs
-=======
-=======
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
         $template = $this->delivery->getTemplate($templateId);
 
         if ($template === null) {
@@ -416,23 +261,7 @@ final class SendPushNotificationAction
         /** @var array<string, mixed> $data */
         $data = isset($template['data']) && is_array($template['data']) ? $template['data'] : [];
 
-<<<<<<< .merge_file_lMgPAv
         return $this->sendToDevices($tokens, $notification, $data);
-=======
-<<<<<<< .merge_file_2LXu11
-        return $this->sendToDevices($tokens, $notification, $data);
-=======
-<<<<<<< .merge_file_6PHWMs
-        return $this->sendToDevicesInternal($tokens, $notification, $data);
-=======
-<<<<<<< .merge_file_HXTuul
-        return $this->sendToDevicesInternal($tokens, $notification, $data);
-=======
-        return $this->sendToDevices($tokens, $notification, $data);
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
     }
 
     /**
@@ -443,14 +272,6 @@ final class SendPushNotificationAction
      */
     public function sendWithTargeting(array $criteria, array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_lMgPAv
-=======
-<<<<<<< .merge_file_2LXu11
-=======
-<<<<<<< .merge_file_6PHWMs
-=======
-<<<<<<< .merge_file_HXTuul
->>>>>>> .merge_file_ZmD9J7
         return $this->sendWithTargetingInternal($criteria, $notification, $data);
     }
 
@@ -462,13 +283,6 @@ final class SendPushNotificationAction
      */
     private function sendWithTargetingInternal(array $criteria, array $notification, array $data = []): array
     {
-<<<<<<< .merge_file_6PHWMs
-=======
-=======
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW
         $tokens = $this->delivery->getTokensByCriteria($criteria);
 
         if ($tokens === []) {
@@ -478,33 +292,7 @@ final class SendPushNotificationAction
             ];
         }
 
-<<<<<<< .merge_file_lMgPAv
         return $this->sendToDevices($tokens, $notification, $data);
     }
 }
     
-=======
-<<<<<<< .merge_file_2LXu11
-        return $this->sendToDevices($tokens, $notification, $data);
-    }
-}
-    
-=======
-<<<<<<< .merge_file_6PHWMs
-        return $this->sendToDevicesInternal($tokens, $notification, $data);
-    }
-}
-=======
-<<<<<<< .merge_file_HXTuul
-        return $this->sendToDevicesInternal($tokens, $notification, $data);
-    }
-}
-=======
-        return $this->sendToDevices($tokens, $notification, $data);
-    }
-}
-    
->>>>>>> .merge_file_KKcnSP
->>>>>>> .merge_file_ZmD9J7
->>>>>>> .merge_file_JbUay0
->>>>>>> .merge_file_p0izeW

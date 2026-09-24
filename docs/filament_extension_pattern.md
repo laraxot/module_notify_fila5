@@ -1,10 +1,6 @@
 # Pattern di Estensione per Componenti Filament 
 
-<<<<<<< .merge_file_p3Diwl
-Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema Quaeris, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
-=======
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
->>>>>>> .merge_file_MaQXZk
 
 ## Regola Fondamentale
 
@@ -24,11 +20,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 
 ## Motivazione
 
-<<<<<<< .merge_file_p3Diwl
-1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per Quaeris, mantenendo la coerenza in tutta l'applicazione.
-=======
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
->>>>>>> .merge_file_MaQXZk
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -55,10 +47,6 @@ Queste proprietà e metodi sono già configurati in `XotBaseResource` per garant
 
 **Collegamenti correlati**:
 - [Linee Guida XotBaseResource](../Modules/Patient/docs/xot-base-resource-guidelines.md)
-<<<<<<< .merge_file_p3Diwl
-- [Linee Guida XotBaseResource](../modules/patient/docs/xot-base-resource-guidelines.md)
-=======
->>>>>>> .merge_file_MaQXZk
 
 ## Esempio di Implementazione Corretta
 
@@ -102,11 +90,7 @@ class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 
 ### 1. Personalizzazione Centralizzata
 
-<<<<<<< .merge_file_p3Diwl
-Le classi XotBase possono implementare comportamenti specifici per Quaeris, come:
-=======
 Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
->>>>>>> .merge_file_MaQXZk
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici
@@ -151,8 +135,4 @@ Prima di ogni commit, verificare che:
 
 ## Conclusione
 
-<<<<<<< .merge_file_p3Diwl
 Il pattern di estensione XotBase è fondamentale per la manutenibilità e la coerenza del codice . Seguire questo pattern garantisce che l'applicazione possa evolversi in modo controllato e che le personalizzazioni siano gestite in modo centralizzato.
-=======
-Il pattern di estensione XotBase è fondamentale per la manutenibilità e la coerenza del codice . Seguire questo pattern garantisce che l'applicazione possa evolversi in modo controllato e che le personalizzazioni siano gestite in modo centralizzato.
->>>>>>> .merge_file_MaQXZk

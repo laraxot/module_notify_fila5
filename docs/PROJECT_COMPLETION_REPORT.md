@@ -133,15 +133,9 @@ FIXCITY_ANALYTICS_ENABLED=true
 /comune/eventi             # Eventi
 
 // API Fixcity
-<<<<<<< .merge_file_4C0XRo
-/api/fixcity/tickets       # Gestione ticket
-/api/fixcity/map/tickets   # Mappa ticket
-/api/fixcity/statistics    # Statistiche
-=======
 /api/ptv/tickets       # Gestione ticket
 /api/ptv/map/tickets   # Mappa ticket
 /api/ptv/statistics    # Statistiche
->>>>>>> .merge_file_OiAZu0
 ```
 
 ## Test Implementati

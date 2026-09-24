@@ -161,7 +161,3 @@ Prima di creare un nuovo DTO, verificare che:
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
-<<<<<<< .merge_file_nXDrjb
-*Ultimo aggiornamento: 2025-05-12*
-=======
->>>>>>> .merge_file_UfZPJ2

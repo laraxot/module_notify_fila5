@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_U8qGCC
-=======
 ---
 title: "Whatsapp"
 type: concept
@@ -20,7 +18,6 @@ related:
   - "./qwen.md"
 ---
 
->>>>>>> .merge_file_UWIv98
 https://levelup.gitconnected.com/how-to-send-whatsapp-messages-with-laravel-ed6426b4be96
 
 tutorial

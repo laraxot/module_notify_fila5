@@ -101,13 +101,6 @@ class MigrateNotifyThemesToMailTemplateCommand extends Command
 
             if ($smsTheme !== null) {
                 $data['sms_template'] = $this->convertPlaceholders($this->decodeRichText((string) $smsTheme->body));
-<<<<<<< .merge_file_fxPbDw
-=======
-<<<<<<< .merge_file_8wpC1O
-=======
-<<<<<<< .merge_file_OvGmzG
-=======
->>>>>>> .merge_file_wyoCOK
 
                 // Difetto 9 punto 5 (quaeris-send-invite-migrate-to-record-notification.md):
                 // rinviato inizialmente per decisione dell'utente ("i mittenti li
@@ -120,11 +113,6 @@ class MigrateNotifyThemesToMailTemplateCommand extends Command
                 if (! empty($smsTheme->from)) {
                     $data['sms_from'] = $smsTheme->from;
                 }
-<<<<<<< .merge_file_8wpC1O
-=======
->>>>>>> .merge_file_Ydqicx
->>>>>>> .merge_file_wyoCOK
->>>>>>> .merge_file_kBWX1W
             }
 
             $this->line(

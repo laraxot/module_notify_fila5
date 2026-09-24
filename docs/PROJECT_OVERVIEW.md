@@ -458,21 +458,13 @@ Team
 - Cache: File
 
 **Staging**:
-<<<<<<< .merge_file_QolNBp
-- URL: https://staging.fixcity.it
-=======
 - URL: https://staging.ptv.it
->>>>>>> .merge_file_lnmlCe
 - DB: PostgreSQL
 - Queue: Redis
 - Cache: Redis
 
 **Production**:
-<<<<<<< .merge_file_QolNBp
-- URL: https://fixcity.it
-=======
 - URL: https://ptv.it
->>>>>>> .merge_file_lnmlCe
 - DB: PostgreSQL (replicated)
 - Queue: Redis Cluster
 - Cache: Redis Cluster
