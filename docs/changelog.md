@@ -2,8 +2,6 @@
 
 Tutte le modifiche significative al modulo Notify saranno documentate in questo file.
 
-<<<<<<< .merge_file_KtJA7Y
-=======
 ## [2025-06-04] - Fix PSR-4 Autoloading
 
 ### Fixed
@@ -33,7 +31,6 @@ Tutte le modifiche significative al modulo Notify saranno documentate in questo 
 
 Tutte le modifiche significative al modulo Notify saranno documentate in questo file.
 
->>>>>>> .merge_file_W8hnm2
 ## [[DATE]] - Fix PSR-4 Autoloading
 
 ### Fixed
