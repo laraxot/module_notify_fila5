@@ -73,7 +73,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
-'sender' => env('NETFUN_SENDER', 'Quaeris'),
+'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),
@@ -111,10 +111,6 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./sms_provider_architecture.md)
-- [SMS Implementation](./sms_implementation.md)
-- [SMS Best Practices](./sms_best_practices.md)
-- [Netfun Authentication Methods](./netfun_authentication_methods.md)
 - [SMS Provider Architecture](./SMS_PROVIDER_ARCHITECTURE.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [SMS Best Practices](./SMS_BEST_PRACTICES.md)

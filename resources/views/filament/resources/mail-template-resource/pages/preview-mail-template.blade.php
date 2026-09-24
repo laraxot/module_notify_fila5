@@ -1,15 +1,6 @@
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
-@php
-// Notify Blade view — see Modules/Notify/docs/wiki.
-@endphp
-
 <?php
 
 declare(strict_types=1);
-
 ?>
 <x-filament::page>
     <x-filament::card>
@@ -26,15 +17,6 @@ declare(strict_types=1);
             <div class="space-y-4">
                 <div>
                     <h4 class="text-sm font-medium text-gray-900 dark:text-gray-100">
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot — see module docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
                         {{ __('notify::mail.template.preview.html_version') }}
                     </h4>
                     <div class="mt-2 prose dark:prose-invert max-w-none">

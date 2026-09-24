@@ -1,3 +1,22 @@
+---
+title: "Modulo Notify"
+type: concept
+tags: [notify, docs, architecture, structure]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione architecture structure modulo notify frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../README.md
+  - README.md
+  - ../conventions/README.md
+  - ../rules/README.md
+  - ../best-practices/naming-conventions.md
+---
 # Modulo Notify
 
 Data: 2025-04-23 19:09:56

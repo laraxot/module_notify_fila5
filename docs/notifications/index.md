@@ -1,3 +1,22 @@
+---
+title: "Indice Documentazione Notifiche"
+type: index
+tags: [notify, docs, notifications]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione notifications index indice documentazione notifiche index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../README.md
+  - ../wiki/index.md
+  - readme.md
+  - ../integrations/readme.md
+  - ../templates/readme.md
+---
 # Indice Documentazione Notifiche
 
 ## Collegamenti Correlati
@@ -24,6 +43,8 @@
 ## Architettura e Pattern
 - [Factory Pattern per Provider](../factory_pattern_analysis.md) - Analisi del pattern Factory per i provider
 - [Provider vs DTO](../channel_vs_dto_provider_selection.md) - Selezione tra provider e DTO
+- [Factory Pattern per Provider](../factory-pattern-analysis.md) - Analisi del pattern Factory per i provider
+- [Provider vs DTO](../channel-vs-dto-provider-selection.md) - Selezione tra provider e DTO
 - [Architettura Provider](../provider_actions_architecture.md) - Architettura delle azioni provider
 
 ## Documentazione Correlata

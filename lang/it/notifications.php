@@ -2,32 +2,23 @@
 
 declare(strict_types=1);
 
-// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/Notify/docs/wiki — domain i18n only.
-// File: lang/it/notifications.php
 return [
     'fields' => [
-        'id' => [
-            'label' => 'id',
-        ],
-        'type' => [
-            'label' => 'type',
-        ],
-        'status' => [
-            'label' => 'status',
-        ],
-        'read_at' => [
-            'label' => 'read_at',
-        ],
-        'sent_at' => [
-            'label' => 'sent_at',
-        ],
-        'created_at' => [
-            'label' => 'created_at',
-        ],
-        'updated_at' => [
-            'label' => 'updated_at',
-        ],
+        'id' => ['label' => 'id'],
+        'type' => ['label' => 'type'],
+        'status' => ['label' => 'status'],
+        'read_at' => ['label' => 'read_at'],
+        'sent_at' => ['label' => 'sent_at'],
+        'created_at' => ['label' => 'created_at'],
+        'updated_at' => ['label' => 'updated_at'],
+        'is_read' => ['label' => 'is_read'],
+        'is_unread' => ['label' => 'is_unread'],
+        'notifiable_type' => ['label' => 'notifiable_type'],
+        'notifiable_id' => ['label' => 'notifiable_id'],
+    ],
+    'actions' => [
+        'create' => ['label' => 'create', 'icon' => 'create', 'tooltip' => 'create'],
+        'layout' => ['label' => 'layout', 'icon' => 'layout', 'tooltip' => 'layout'],
+        'delete' => ['label' => 'delete', 'icon' => 'delete', 'tooltip' => 'delete'],
     ],
 ];

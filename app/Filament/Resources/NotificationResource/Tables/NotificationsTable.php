@@ -9,13 +9,16 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
 use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\Tables\XotBaseResourceTable;
 
 class NotificationsTable extends XotBaseResourceTable
 {
     /**
-     * @return array<string, Filter|SelectFilter>
+     * @var class-string<Notification>
      */
+    protected static string $model = Notification::class;
+
     public function getTableFilters(): array
     {
         return [
@@ -30,10 +33,8 @@ class NotificationsTable extends XotBaseResourceTable
                     'info' => 'Info',
                     'success' => 'Success',
                     'warning' => 'Warning',
-                    'error' => 'Error',
-                ])
-                ->multiple(),
-        ];
+                    'error' => 'Error'])
+                ->multiple()];
     }
 
     /**
@@ -42,13 +43,12 @@ class NotificationsTable extends XotBaseResourceTable
     public function getTableColumns(): array
     {
         return [
-            'id' => TextColumn::make('id')->sortable(),
-            'type' => TextColumn::make('type')->sortable(),
-            'status' => TextColumn::make('status')->sortable(),
+            'type' => TextColumn::make('type')->searchable()->sortable()->badge()->wrap(),
+            'notifiable_type' => TextColumn::make('notifiable_type')->searchable()->sortable()->toggleable(isToggledHiddenByDefault: true),
+            'notifiable_id' => TextColumn::make('notifiable_id')->searchable()->sortable(),
             'read_at' => TextColumn::make('read_at')->dateTime()->sortable(),
-            'sent_at' => TextColumn::make('sent_at')->dateTime()->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
-            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true),
+            'id' => TextColumn::make('id')->searchable()->sortable()->toggleable(isToggledHiddenByDefault: true),
         ];
     }
 }

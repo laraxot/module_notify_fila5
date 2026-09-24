@@ -252,4 +252,3 @@ Seguire questo pattern garantisce:
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
-*Ultimo aggiornamento: 2023-05-12*

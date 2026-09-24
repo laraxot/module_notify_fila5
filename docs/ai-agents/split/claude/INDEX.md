@@ -1,3 +1,22 @@
+---
+title: "Laravel Boost Guidelines (../../../../docs/CLAUDE.md) Index"
+type: index
+tags: [notify, docs, ai-agents, split, claude]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione ai agents split claude index laravel boost guidelines (../../../../docs/claude.md) index index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../../../README.md
+  - ../../../wiki/index.md
+  - ../../../notifications/readme.md
+  - ../../../integrations/readme.md
+  - ../../../templates/readme.md
+---
 # Laravel Boost Guidelines (../../../../docs/CLAUDE.md) Index
 
 **Source**: [`docs/../../../../docs/CLAUDE.md`](../../../../../../docs/../../../../docs/CLAUDE.md) (833 lines)  
@@ -64,20 +83,20 @@
 |---------|----|----|----|
 | Pennant Rules | [pennant-rules.md](pennant-rules.md) | 8 | Laravel Pennant feature flags |
 | Theme Build | [theme-build-rules.md](theme-build-rules.md) | 33 | Theme build process (CRITICAL) |
-| Project Architecture | [project-architecture.md](project-architecture.md) | 130 | FixCity project architecture |
+| Project Architecture | [project-architecture.md](project-architecture.md) | 130 | Notify project architecture |
 
 ---
 
 ## Cross-References
 
 ### Related Documentation
-- ← [BMad Agents Index](../../agents/INDEX.md) — 10 agent definitions
-- ← [BMad Tasks Index](../tasks/INDEX.md) — 22 reusable tasks
-- ← [GEMINI Index](../gemini/INDEX.md) — Gemini-specific rules
-- ← [Main AI Docs Index](../INDEX.md) — Master index
+- ← [BMad Agents Index](../../agents/index.md) — 10 agent definitions
+- ← [BMad Tasks Index](../tasks/index.md) — 22 reusable tasks
+- ← [GEMINI Index](../gemini/index.md) — Gemini-specific rules
+- ← [Main AI Docs Index](../index.md) — Master index
 
 ### Bidirectional Links
-- ← Back to [Main AI Docs Index](../INDEX.md)
+- ← Back to [Main AI Docs Index](../index.md)
 - ← Back to [../../../../docs/CLAUDE.md](../../../../../../docs/../../../../docs/CLAUDE.md) (original source)
 - ← Back to [Project Docs](../../../docs/README.md)
 
