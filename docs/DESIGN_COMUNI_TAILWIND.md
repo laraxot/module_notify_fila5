@@ -1,3 +1,15 @@
+<<<<<<< .merge_file_gQ0KXb
+=======
+---
+title: "Design Comuni con Tailwind CSS Puro"
+module: notify
+type: integration
+tags: [integrations, modules, notify]
+created: 2026-08-24
+updated: 2026-08-24
+---
+
+>>>>>>> .merge_file_lLvQJK
 # 🎨 Design Comuni con Tailwind CSS Puro
 
 ## Obiettivo

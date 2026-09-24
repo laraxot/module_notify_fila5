@@ -20,10 +20,3 @@
 ## Nota di governance
 
 La sua ricomparsa va trattata come regressione architetturale, non come semplice refactor incompleto.
-
-## Stato attuale (verificato 2026-09-17)
-
-`Modules/Notify/app/Http/Controllers/NotificationTrackingController.php` esiste ancora nel
-codebase. Non e' stato toccato in questa sessione (solo documentazione), ma la regola sopra
-e' attualmente violata: serve una review dedicata per decidere se rimuoverlo/rifattorizzarlo
-o aggiornare questa regola se il controller e' stato reintrodotto per un motivo valido.

@@ -22,7 +22,11 @@ Questo significa che:
 ### Opzione 1: Commit Forzato
 
 ```bash
+<<<<<<< .merge_file_5SrImv
 cd /var/www/_bases/base_fixcity_fila5
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> .merge_file_vFFOUn
 
 # Aggiungi forzatamente bashscripts
 git add -f bashscripts/git/subtrees/sync_remote_repo.sh
@@ -136,7 +140,11 @@ git commit -m "fix: Description of fix"
 git push origin dev
 
 # 6. Monitora
+<<<<<<< .merge_file_5SrImv
 gh run list --repo laraxot/base_fixcity_fila5
+=======
+gh run list --repo laraxot/base_ptv_fila5
+>>>>>>> .merge_file_vFFOUn
 ```
 
 ---
