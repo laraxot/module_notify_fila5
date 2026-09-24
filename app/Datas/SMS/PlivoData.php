@@ -25,7 +25,7 @@ class PlivoData extends Data
     {
         if (! (self::$instance instanceof PlivoData)) {
             /*
-             * $data = app(\Modules\Tenant\Actions\Config\GetTenantConfigArrayAction::class)->execute('sms');
+             * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.plivo', []);
              */
             $data = Config::array('sms.drivers.plivo');
@@ -45,8 +45,7 @@ class PlivoData extends Data
             default:
                 return [
                     'Authorization' => 'Basic '.base64_encode($this->auth_id.':'.$this->auth_token),
-                    'Content-Type' => 'application/json',
-                ];
+                    'Content-Type' => 'application/json'];
         }
     }
 

@@ -1,10 +1,9 @@
 <?php
 
+declare(strict_types=1);
 /**
  * @see https://smsvi-docs.web.app/docs/restful/send-batch/
  */
-
-declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Mail\Engines\Duocircle;
 
@@ -30,7 +29,7 @@ class SendDuocircleMailAction
     public array $vars = [];
 
     /**
-     * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
      *
      * @throws RuntimeException
      */
@@ -44,6 +43,6 @@ class SendDuocircleMailAction
 
         $this->vars = array_merge($this->vars, $vars);
 
-        throw new RuntimeException('WIP ['.__LINE__.']['.__CLASS__.']');
+        throw new RuntimeException('WIP ['.__LINE__.']['.self::class.']');
     }
 }

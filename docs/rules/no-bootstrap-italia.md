@@ -1,3 +1,22 @@
+---
+title: "No Bootstrap Italia Rule"
+type: rule
+tags: [notify, docs, rules, no, bootstrap, italia]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione rules no bootstrap italia no bootstrap italia rule frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../README.md
+  - ../architecture/README.md
+  - ../conventions/README.md
+  - README.md
+  - ../best-practices/naming-conventions.md
+---
 # No Bootstrap Italia Rule
 
 ## Rule

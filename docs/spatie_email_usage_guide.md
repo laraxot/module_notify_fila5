@@ -175,7 +175,7 @@ public function getHtmlLayout(): string
 ```php
 namespace Modules\User\Actions;
 
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 use Modules\Notify\Actions\SendTemplatedEmailAction;
 use Spatie\QueueableAction\QueueableAction;
 
