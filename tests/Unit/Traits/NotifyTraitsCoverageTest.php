@@ -81,7 +81,8 @@ describe('Notify Traits Coverage', function (): void {
 
             Assert::assertTrue($dummy->belongsToTenant('tenant-42'));
             Assert::assertFalse($dummy->belongsToTenant('other-tenant'));
-            Assert::assertStringContainsString('tenant_id', $dummy->applyForTenantScope($dummy->newQuery())->toSql());
+            $scoped = $dummy->applyForTenantScope($dummy->newQuery());
+            Assert::assertStringContainsString('tenant_id', $scoped->toSql());
 
             Filament::setTenant(null, isQuiet: true);
         } catch (Throwable $e) {
