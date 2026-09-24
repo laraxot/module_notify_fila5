@@ -12,52 +12,23 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ViewColumn;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\ListNotificationTemplates;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers\LinkableRelationManager;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Schemas\NotifyThemeForm;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Tables\NotifyThemesTable;
-<<<<<<< HEAD
-=======
-=======
-use Filament\Tables\Filters\SelectFilter;
-use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\ListNotificationTemplates;
-use Modules\Notify\Filament\Resources\NotifyThemeResource;
-use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
-use Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers\LinkableRelationManager;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 use Modules\Notify\Filament\Tables\Columns\ContactColumn;
 use Modules\Notify\Tests\Fixtures\EditNotifyThemeTestProxy;
 use PHPUnit\Framework\Assert;
 
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-    return new EditNotifyThemeTestProxy();
-}
-
-test('list notification templates page returns empty table columns array', function (): void {
-    $reflection = new \ReflectionMethod(ListNotificationTemplates::class, 'getTableColumns');
-    $columns = $reflection->invoke(new ListNotificationTemplates());
-<<<<<<< HEAD
-=======
-=======
     return new EditNotifyThemeTestProxy;
 }
 
 test('list notification templates page returns empty table columns array', function (): void {
-    /** @phpstan-ignore method.deprecated */
-    $columns = (new ListNotificationTemplates())->getTableColumns();
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+    $reflection = new \ReflectionMethod(ListNotificationTemplates::class, 'getTableColumns');
+    $columns = $reflection->invoke(new ListNotificationTemplates);
     Assert::assertSame([], $columns);
 });
 
@@ -68,15 +39,7 @@ test('notify theme resource field options are configured', function (): void {
 });
 
 test('notify theme resource form schema exposes expected components', function (): void {
-<<<<<<< HEAD
     $schema = app(NotifyThemeForm::class)->getFormSchema();
-=======
-<<<<<<< HEAD
-    $schema = app(NotifyThemeForm::class)->getFormSchema();
-=======
-    $schema = app(NotifyThemeResource::class)->getFormSchema();
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     Assert::assertArrayHasKey('post_id', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['post_id']);
     Assert::assertArrayHasKey('logo', $schema);
@@ -98,16 +61,7 @@ test('edit notify theme page exposes delete header action', function (): void {
 });
 
 test('list notify themes columns are configured', function (): void {
-<<<<<<< HEAD
     $columns = app(NotifyThemesTable::class)->getTableColumns();
-=======
-<<<<<<< HEAD
-    $columns = app(NotifyThemesTable::class)->getTableColumns();
-=======
-    /** @phpstan-ignore method.deprecated */
-    $columns = (new ListNotifyThemes())->getTableColumns();
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
     Assert::assertArrayHasKey('lang', $columns);
@@ -116,15 +70,7 @@ test('list notify themes columns are configured', function (): void {
 });
 
 test('linkable relation manager exposes text input form schema', function (): void {
-<<<<<<< HEAD
-    $manager = new LinkableRelationManager();
-=======
-<<<<<<< HEAD
-    $manager = new LinkableRelationManager();
-=======
     $manager = new LinkableRelationManager;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     $schema = $manager->getFormSchema();
     Assert::assertNotEmpty($schema);
     Assert::assertInstanceOf(TextInput::class, $schema[0]);
