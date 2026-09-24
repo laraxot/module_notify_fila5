@@ -21,7 +21,7 @@ class GammuData extends Data
     {
         if (! (self::$instance instanceof GammuData)) {
             /*
-             * $data = app(\Modules\Tenant\Actions\Config\GetTenantConfigArrayAction::class)->execute('sms');
+             * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.gammu', []);
              */
             $data = Config::array('sms.drivers.gammu');

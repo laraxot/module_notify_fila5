@@ -52,8 +52,7 @@ class SpatieEmail extends TemplateMailable
         $tpl = MailTemplate::firstOrCreate(
             [
                 'mailable' => self::class,
-                'slug' => $this->slug,
-            ],
+                'slug' => $this->slug],
             [
                 'subject' => 'Benvenuto, {{ first_name }}',
                 'html_template' => '<p>Gentile {{ first_name }} {{ last_name }},</p><p>La tua registrazione  è in attesa di approvazione. Ti contatteremo presto.</p>['.
@@ -64,8 +63,7 @@ class SpatieEmail extends TemplateMailable
                         ']',
                 'sms_template' => 'Gentile {{ first_name }} {{ last_name }}, la tua registrazione  è in attesa di approvazione. Ti contatteremo presto.['.
                         $this->slug.
-                        ']',
-            ],
+                        ']'],
         );
 
         if ($tpl !== null) {
@@ -191,7 +189,6 @@ class SpatieEmail extends TemplateMailable
         $res = Attachment::fromData(static fn () => $attachment['data']);
         /** @var string|null $asRaw */
         $asRaw = $attachment['as'] ?? null;
-        $as = \is_string($asRaw) ? $asRaw : '';
 
         $mime = Arr::get($attachment, 'mime', null); // ?? File::mimeType($as);   file vuole un file esistente
         /** @var string $asForPathinfo */
@@ -215,7 +212,7 @@ class SpatieEmail extends TemplateMailable
     /**
      * Add attachments to the email.
      *
-     * @param  array<int, array<string, string>>  $attachments  Array of attachment data
+     * @param  array<int, array{path?: string, data?: mixed, as?: string|null, mime?: string|null}>  $attachments
      */
     public function addAttachments(array $attachments): self
     {
@@ -229,8 +226,7 @@ class SpatieEmail extends TemplateMailable
                 $pathAttachment = [
                     'path' => $path,
                     'as' => $item['as'] ?? null,
-                    'mime' => $item['mime'] ?? null,
-                ];
+                    'mime' => $item['mime'] ?? null];
                 $attachment = $this->getAttachmentFromPath($pathAttachment);
             }
 
@@ -268,5 +264,28 @@ class SpatieEmail extends TemplateMailable
         $mustache = app(Mustache_Engine::class);
 
         return $mustache->render($smsTemplateString, $this->data);
+    }
+
+    /**
+     * Mittente dell'SMS per questo template.
+     *
+     * Story quaeris-send-invite-migrate-to-record-notification.md, Difetto 9:
+     * prima `RecordNotification::toSms()` scriveva il letterale 'Xot'. Catena:
+     * `MailTemplate.sms_from` (per-survey, es. "VIVASERVIZI") → `config('sms.from')`
+     * (globale) → `null` (il gateway usa il default del suo account).
+     */
+    public function buildSmsFrom(): ?string
+    {
+        /** @var MailTemplate $mailTemplate */
+        $mailTemplate = $this->getMailTemplate();
+
+        $smsFrom = $mailTemplate->sms_from;
+        if (\is_string($smsFrom) && $smsFrom !== '') {
+            return $smsFrom;
+        }
+
+        $configFrom = config('sms.from');
+
+        return \is_string($configFrom) && $configFrom !== '' ? $configFrom : null;
     }
 }

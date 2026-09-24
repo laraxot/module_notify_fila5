@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\Push;
 
 use Exception;
+use Modules\Notify\Datas\PushNotificationData;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -28,7 +29,7 @@ class SendPushWithTemplateAction
             throw new Exception("Template {$templateId} not found");
         }
 
-        $notification = $this->processTemplate($template, $variables);
+        $notification = PushNotificationData::from($this->processTemplate($template, $variables));
         /** @var array<string, mixed> $data */
         $data = isset($template['data']) && is_array($template['data']) ? $template['data'] : [];
 
@@ -46,21 +47,17 @@ class SendPushWithTemplateAction
                 'title' => 'Nuovo Ticket Creato',
                 'body' => 'È stato creato un nuovo ticket: {ticket_title}',
                 'icon' => '/icons/ticket.png',
-                'data' => ['type' => 'ticket_created'],
-            ],
+                'data' => ['type' => 'ticket_created']],
             'ticket_updated' => [
                 'title' => 'Ticket Aggiornato',
                 'body' => 'Il ticket {ticket_title} è stato aggiornato',
                 'icon' => '/icons/update.png',
-                'data' => ['type' => 'ticket_updated'],
-            ],
+                'data' => ['type' => 'ticket_updated']],
             'ticket_resolved' => [
                 'title' => 'Ticket Risolto',
                 'body' => 'Il ticket {ticket_title} è stato risolto',
                 'icon' => '/icons/check.png',
-                'data' => ['type' => 'ticket_resolved'],
-            ],
-        ];
+                'data' => ['type' => 'ticket_resolved']]];
 
         return $templates[$templateId] ?? null;
     }

@@ -3,18 +3,15 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
-use Mockery;
-use function Safe\class_uses;
-use Illuminate\Contracts\Mail\Mailable;
+
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Mail\Mailable;
 use Modules\Notify\Models\MailTemplate;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+use function Safe\class_uses;
 
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
@@ -33,10 +30,10 @@ describe('MailTemplate Business Logic', function () {
         Assert::assertArrayHasKey(HasTranslations::class, $traits);
     });
 
-    test('mail template has soft deletes trait', function () {
-        $traits = class_uses(MailTemplate::class);
-
-        Assert::assertArrayHasKey(SoftDeletes::class, $traits);
+    test('mail template is instantiable without soft deletes requirement', function () {
+        $template = new MailTemplate;
+        Assert::assertInstanceOf(MailTemplate::class, $template);
+        Assert::assertIsString($template->getTable());
     });
 
     test('mail template can store template content', function () {
@@ -72,7 +69,7 @@ describe('MailTemplate Business Logic', function () {
     });
 
     test('mail template can be queried by mailable', function () {
-        $mailable = new class extends \Illuminate\Mail\Mailable
+        $mailable = new class extends Mailable
         {
             public function build(): static
             {

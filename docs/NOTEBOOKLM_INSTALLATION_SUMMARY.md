@@ -26,7 +26,7 @@ ls -la ~/.claude/skills/notebooklm/
 # - scripts/ (automation scripts)
 # - data/ (authentication + library)
 # - requirements.txt
-# - README.md, CHANGELOG.md, LICENSE
+# - README.md, changelog.md, LICENSE
 ```
 
 ## What is NotebookLM Skill?
@@ -221,7 +221,7 @@ Every NotebookLM answer ends with: **"Is that ALL you need to know?"**
 Create these NotebookLM notebooks:
 
 ### 1. Laraxot Framework Docs
-- **Upload**: Laraxot documentation, AGENTS.md, .windsurfrules
+- **Upload**: Laraxot documentation, agents.md, .windsurfrules
 - **Topics**: laravel, architecture, modules, filament, xot
 - **Use**: Technical research, implementation verification
 
@@ -237,7 +237,7 @@ Create these NotebookLM notebooks:
 
 ### 4. Project Documentation
 - **Upload**: FixCity docs, module docs, theme docs
-- **Topics**: fixcity, project, conventions, documentation
+- **Topics**: ptv, project, conventions, documentation
 - **Use**: Project-specific queries
 
 ## Files Created/Updated
@@ -298,7 +298,7 @@ TYPING_WPM_MIN=160
 TYPING_WPM_MAX=240
 
 # Default notebook (FixCity docs)
-DEFAULT_NOTEBOOK_ID=fixcity-project-docs
+DEFAULT_NOTEBOOK_ID=ptv-project-docs
 ```
 
 ### Data Storage

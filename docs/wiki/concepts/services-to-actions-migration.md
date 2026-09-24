@@ -6,12 +6,16 @@ created: 2026-07-13
 updated: 2026-07-13
 qmd: "Notify PushNotificationService removed SendPushNotificationAction scheduled job"
 issues:
-  - "https://github.com/laraxot/base_predict_fila5/issues/704"
 discussions:
-  - "https://github.com/laraxot/base_predict_fila5/discussions/705"
 related:
-  - claude-audit-static.md
-  - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
+  - "./claude-audit-static.md"
+  - "./code-redundancy-notify.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
 ---
 
 # Notify — `PushNotificationService` eliminato

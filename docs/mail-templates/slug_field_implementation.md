@@ -169,6 +169,3 @@ L'implementazione del campo `slug` nella tabella `mail_templates` segue le migli
 - [Migration Structure](./MIGRATION_STRUCTURE.md)
 - [Email Templates](../EMAIL_TEMPLATES.md)
 - [Spatie Email Usage Guide](../SPATIE_EMAIL_USAGE_GUIDE.md)
-- [Migration Structure](./MIGRATION_STRUCTURE.md)
-- [Email Templates](../EMAIL_TEMPLATES.md)
-- [Spatie Email Usage Guide](../SPATIE_EMAIL_USAGE_GUIDE.md)

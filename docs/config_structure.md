@@ -1,4 +1,4 @@
-# Struttura di Configurazione nei Moduli Quaeris
+# Struttura di Configurazione nei Moduli SaluteOra
 
 ## Principi di Configurazione
 

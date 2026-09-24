@@ -8,7 +8,6 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Override;
 
 class ListNotifyThemes extends XotBaseListRecords
 {
@@ -35,18 +34,13 @@ class ListNotifyThemes extends XotBaseListRecords
             'updated_at' => TextColumn::make('updated_at')
                 ->dateTime()
                 ->sortable()
-                ->toggleable(isToggledHiddenByDefault: true),
-        ];
+                ->toggleable(isToggledHiddenByDefault: true)];
     }
 
-    #[Override]
-    public function getTableColumns(): array
-    {
-        return self::getNotifyThemeTableColumns();
-    }
-
-    #[Override]
-    public function getTableFilters(): array
+    /**
+     * @return array<string, SelectFilter>
+     */
+    public static function getNotifyThemeTableFilters(): array
     {
         return [
             'lang' => SelectFilter::make('lang')->options(
@@ -57,7 +51,11 @@ class ListNotifyThemes extends XotBaseListRecords
             ),
             'type' => SelectFilter::make('type')->options(
                 fn (): array => NotifyThemeResource::fieldOptions('type'),
-            ),
-        ];
+            )];
+    }
+
+    public function getTableFilters(): array
+    {
+        return self::getNotifyThemeTableFilters();
     }
 }
