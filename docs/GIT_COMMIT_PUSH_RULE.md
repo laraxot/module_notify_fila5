@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_zoVQMb
-=======
 ---
 title: "Git Commit & Push Workflow - AI Agent Rules"
 module: notify
@@ -9,7 +7,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
->>>>>>> .merge_file_6D9ctK
 # Git Commit & Push Workflow - AI Agent Rules
 
 **Status**: ✅ Active  

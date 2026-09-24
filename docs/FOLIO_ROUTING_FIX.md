@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_Muw8O5
-=======
 ---
 title: "Fix Routing Folio per Login Page"
 module: notify
@@ -9,7 +7,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
->>>>>>> .merge_file_ABN3N5
 # 🔧 Fix Routing Folio per Login Page
 
 **Data**: 14 Ottobre 2025  

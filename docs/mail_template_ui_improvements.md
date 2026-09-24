@@ -160,11 +160,6 @@ Section::make('Informazioni Template')
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Best Practices UI/UX](./BEST-PRACTICES.md)
 - [Componenti Filament](./FILAMENT_COMPONENTS.md)
-<<<<<<< .merge_file_1wylXU
-- [Best Practices UI/UX](./BEST-PRACTICES.md)
-- [Componenti Filament](./FILAMENT_COMPONENTS.md)
-=======
->>>>>>> .merge_file_x40Sim
 
 ## Note Importanti
 
@@ -178,8 +173,4 @@ Section::make('Informazioni Template')
 Per supporto tecnico:
 - Email: support@example.com
 - Documentazione: https://docs.example.com
-<<<<<<< .merge_file_1wylXU
 - Repository: https://github.com/organization/notify 
-=======
-- Repository: https://github.com/organization/notify 
->>>>>>> .merge_file_x40Sim

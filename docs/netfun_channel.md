@@ -373,11 +373,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Global SMS configuration
 SMS_FROM_NAME=<nome progetto>
-<<<<<<< .merge_file_o2K0tX
-SMS_FROM_NAME=Quaeris
-=======
 SMS_FROM_NAME=SaluteOra
->>>>>>> .merge_file_4gVxzx
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -688,8 +684,4 @@ Log::info('SMS inviato', [
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
-<<<<<<< .merge_file_o2K0tX
 - [Laravel Cache](https://laravel.com/docs/cache) 
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> .merge_file_4gVxzx

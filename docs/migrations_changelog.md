@@ -32,9 +32,3 @@
 - [Proposta Slug](./SPATIE_EMAIL_SLUG_PROPOSAL.md)
 - [Sistema Template Email](./EMAIL_TEMPLATES.md)
 - [Email Dottori](./DOCTOR_EMAILS.md) 
-<<<<<<< .merge_file_9Z3j7U
-- [Proposta Slug](./spatie_email_slug_proposal.md)
-- [Sistema Template Email](./email_templates.md)
-- [Email Dottori](./doctor_emails.md) 
-=======
->>>>>>> .merge_file_9xGjoH

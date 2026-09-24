@@ -5,12 +5,6 @@
 - [README del modulo Notify](./README.md)
 - [Guida all'utilizzo di SpatieEmail](./SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Documentazione Template Email](./EMAIL_TEMPLATES.md)
-<<<<<<< .merge_file_77xu7f
-- [README del modulo Notify](./README.md)
-- [Guida all'utilizzo di SpatieEmail](./SPATIE_EMAIL_USAGE_GUIDE.md)
-- [Documentazione Template Email](./EMAIL_TEMPLATES.md)
-=======
->>>>>>> .merge_file_zSjNdm
 - [Documentazione Root](../../../../docs/collegamenti-documentazione.md)
 
 ## Panoramica
@@ -212,8 +206,4 @@ Si raccomanda un approccio graduale:
 
 ## Conclusione
 
-<<<<<<< .merge_file_77xu7f
 L'implementazione del campo `slug` nei template email rappresenta un miglioramento significativo in termini di flessibilità e manutenibilità. Nonostante l'aumento di complessità, i vantaggi in termini di resilienza ai cambiamenti e usabilità giustificano ampiamente questa evoluzione.
-=======
-L'implementazione del campo `slug` nei template email rappresenta un miglioramento significativo in termini di flessibilità e manutenibilità. Nonostante l'aumento di complessità, i vantaggi in termini di resilienza ai cambiamenti e usabilità giustificano ampiamente questa evoluzione.
->>>>>>> .merge_file_zSjNdm
