@@ -1,3 +1,5 @@
+<<<<<<< .merge_file_9TqQtp
+=======
 ---
 title: "Design Comuni con Tailwind CSS Puro - Completato"
 module: notify
@@ -7,6 +9,7 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+>>>>>>> .merge_file_Ri9k2r
 # ✅ Design Comuni con Tailwind CSS Puro - Completato
 
 ## Data: 2026-03-31

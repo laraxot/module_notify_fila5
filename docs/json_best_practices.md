@@ -209,6 +209,12 @@ protected function rollback(): void
 - [Documentazione Migrazioni](./MIGRATION_RULES.md)
 - [Gestione Errori](./ERROR_HANDLING.md)
 - [Best Practices Database](./DATABASE_BEST_PRACTICES.md)
+<<<<<<< .merge_file_VIr4J9
+- [Documentazione Migrazioni](./MIGRATION_RULES.md)
+- [Gestione Errori](./ERROR_HANDLING.md)
+- [Best Practices Database](./DATABASE_BEST_PRACTICES.md)
+=======
+>>>>>>> .merge_file_s9P4R0
 
 ## Note Importanti
 
@@ -222,4 +228,8 @@ protected function rollback(): void
 Per supporto tecnico:
 - Email: support@example.com
 - Documentazione: https://docs.example.com
+<<<<<<< .merge_file_VIr4J9
 - Repository: https://github.com/organization/notify 
+=======
+- Repository: https://github.com/organization/notify 
+>>>>>>> .merge_file_s9P4R0

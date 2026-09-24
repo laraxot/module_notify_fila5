@@ -1,3 +1,5 @@
+<<<<<<< .merge_file_V1rKau
+=======
 ---
 title: "SUPER MUCCA - LOGIN PAGE COMPLETATA!"
 module: notify
@@ -7,6 +9,7 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+>>>>>>> .merge_file_Y8XRI3
 # 🐄 SUPER MUCCA - LOGIN PAGE COMPLETATA!
 
 **Data Completamento**: 14 Ottobre 2025  

@@ -39,3 +39,7 @@ $action->dispatch($user);
 ## Collegamenti
 - [Documentazione ufficiale](https://github.com/spatie/laravel-queueable-action)
 - [README Notify](README.md)
+<<<<<<< .merge_file_1uLnDo
+- [README Notify](readme.md)
+=======
+>>>>>>> .merge_file_O1fD3J

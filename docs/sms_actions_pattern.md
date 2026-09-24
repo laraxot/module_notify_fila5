@@ -252,3 +252,7 @@ Seguire questo pattern garantisce:
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
+<<<<<<< .merge_file_uMKt1N
+*Ultimo aggiornamento: 2023-05-12*
+=======
+>>>>>>> .merge_file_6K7OaS

@@ -1,3 +1,5 @@
+<<<<<<< .merge_file_pTNMEh
+=======
 ---
 title: "Riepilogo Implementazione Login Widget Filament 4"
 module: notify
@@ -7,6 +9,7 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+>>>>>>> .merge_file_F1Bl1V
 # 🎯 Riepilogo Implementazione Login Widget Filament 4
 
 **Data**: 14 Ottobre 2025  

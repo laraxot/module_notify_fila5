@@ -152,6 +152,10 @@ public function sendEmail(): void
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
 - [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
+<<<<<<< .merge_file_UV8PAI
+- [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
+=======
+>>>>>>> .merge_file_jqgNcV
 
 ## 📝 Note
 
@@ -168,4 +172,8 @@ public function sendEmail(): void
 ### Zen
 - Semplificare dove possibile
 - Mantenere l'equilibrio tra funzionalità e complessità
+<<<<<<< .merge_file_UV8PAI
 - Seguire il principio "meno è più" 
+=======
+- Seguire il principio "meno è più" 
+>>>>>>> .merge_file_jqgNcV
