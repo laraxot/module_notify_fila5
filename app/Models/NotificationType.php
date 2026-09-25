@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
+use Override;
 
 /**
  * @property int $id

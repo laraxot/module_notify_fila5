@@ -104,7 +104,7 @@ class SendNotificationAction
             throw new Exception('Il destinatario non supporta le notifiche email');
         }
 
-        /** @var string|array<string, string>|null $email */
+        /** @var mixed $email */
         $email = $recipient->routeNotificationForMail();
         if (! is_string($email) || $email === '') {
             throw new Exception('Email destinatario non disponibile');
@@ -141,18 +141,13 @@ class SendNotificationAction
     ): NotificationModel {
         $bodyHtml = $compiled['body_html'];
         $message = $compiled['body_text'] ?? ($bodyHtml !== null ? strip_tags($bodyHtml) : '');
-        /** @var int|string|null $recipientKey */
-        $recipientKey = $recipient->getKey();
-        /** @var int|string|null $userId */
-        $userId = $recipient->getAttribute('user_id');
-
         $notification = new NotificationModel;
         $notification->forceFill([
             'type' => is_string($template->type) && $template->type !== '' ? $template->type : 'generic',
             'message' => $message,
             'notifiable_type' => $recipient->getMorphClass(),
-            'notifiable_id' => $this->normalizeModelKey($recipientKey),
-            'user_id' => $this->normalizeModelKey($userId),
+            'notifiable_id' => $this->normalizeModelKey($recipient->getKey()),
+            'user_id' => $this->normalizeModelKey($recipient->getAttribute('user_id')),
             'channels' => ['database'],
             'status' => 'sent',
             'sent_at' => now(),
@@ -181,7 +176,7 @@ class SendNotificationAction
             throw new Exception('Il destinatario non supporta le notifiche SMS');
         }
 
-        /** @var string|null $phone */
+        /** @var mixed $phone */
         $phone = $recipient->routeNotificationForSms();
         if (! is_string($phone) || $phone === '') {
             throw new Exception('Numero di telefono destinatario non disponibile');
@@ -200,10 +195,7 @@ class SendNotificationAction
         return null;
     }
 
-    /**
-     * Chiavi Eloquent sono int|string; null per chiavi assenti.
-     */
-    protected function normalizeModelKey(int|string|null $value): ?int
+    protected function normalizeModelKey(mixed $value): ?int
     {
         if (is_int($value)) {
             return $value;

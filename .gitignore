@@ -71,6 +71,7 @@ _bmad
 .ai*
 .c*
 .claude*
+.cursor/
 .env
 .env.*
 .git-blame-ignore-revs
@@ -148,6 +149,7 @@ public/storage
 public_html
 public_html/hot
 public_html/storage
+rector.php
 resources/views/Components_old
 resources/views/Components_old/
 storage/*.key
@@ -186,25 +188,3 @@ phpunit.xml.dist
 !/CHANGELOG.md
 !/LICENSE.md
 
-
-# Artefatti audit vietati (rule: tests-auditcoverage-forbidden)
-tests/AuditCoverage/
-.claude-audit/
-.rector.php
-.phpinsights.php
-
-# Laraxot — root quality tool configs
-
-# Root agent tooling and PHP quality configuration
-/.agents/
-/.codex/
-/.cursor/
-/.opencode/
-/.qwen/
-/rector.php
-/phpinsights.php
-/.php-cs-fixer.php
-/.php-cs-fixer.dist.php
-
-# Generated Claude audit coverage scaffold (never commit)
-/audit-coverage/
