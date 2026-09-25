@@ -21,6 +21,7 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
+use Override;
 
 /**
  * @property Schema $emailForm
@@ -141,7 +142,6 @@ class SendAwsEmailPage extends XotBasePage
         return [
             'submit' => Action::make('sendEmail')->label(__('notify::email.actions.send'))->submit('sendEmail')];
     }
-
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
