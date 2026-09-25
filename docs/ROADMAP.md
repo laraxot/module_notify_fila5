@@ -392,7 +392,7 @@ All old roadmap files have been archived to preserve history. See **[MIGRATION_G
 | **Product Manager** | [Phase Overview](#current-phase-phase-11) |
 | **Developer** | [Module Roadmaps](#-module-specific-roadmaps) |
 | **DevOps** | [Infrastructure Guide](../docs/deployment/) |
-| **Contributor** | [Contributing Guide](./contributing.md) |
+| **Contributor** | [Contributing Guide](../CONTRIBUTING.md) |
 | **Archivist** | [Migration Guide](./archive/roadmaps/MIGRATION_GUIDE.md) |
 
 ---

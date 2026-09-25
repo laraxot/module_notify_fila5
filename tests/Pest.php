@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -84,9 +85,6 @@ function assertFirstModel(EloquentCollection|Collection $collection, string $cla
 }
 
 /**
- * Type-guard helper: `mixed $value` e' il punto — accetta un valore
- * arbitrario e asserisce che sia un array.
- *
  * @return array<string, mixed>
  */
 function assertNotifyArray(mixed $value): array
@@ -173,7 +171,6 @@ function notifyReflectionSource(ReflectionClass $reflection): string
 
 /**
  * @param  array<mixed, mixed>|null  $array
- * @return mixed Il valore in fondo alla catena di chiavi e' eterogeneo per definizione
  */
 function notifyArrayGet(?array $array, int|string ...$keys): mixed
 {
