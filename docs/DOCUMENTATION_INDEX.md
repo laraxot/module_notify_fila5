@@ -276,18 +276,8 @@
 ## 📞 Support & Community
 
 ### Support Channels
-<<<<<<< .merge_file_vW5Df0
-<<<<<<< .merge_file_1jrIWG
-- **📧 Email**: support@fixcity.com
-- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
-=======
 - **📧 Email**: support@ptv.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/ptv/issues)
->>>>>>> .merge_file_7hwbNo
-=======
-- **📧 Email**: support@ptv.com
-- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/ptv/issues)
->>>>>>> .merge_file_7nZXoQ
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)
 - **📚 Docs**: [Documentation Portal](https://docs.laraxot.com)
 

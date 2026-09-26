@@ -48,11 +48,3 @@ return [
 ### Riferimenti
 - [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
-<<<<<<< .merge_file_GCK0tW
-<<<<<<< .merge_file_3ftNkN
-- [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation_keys_rules.md)
-- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation_keys_best_practices.md) 
-=======
->>>>>>> .merge_file_MBjRlh
-=======
->>>>>>> .merge_file_DxAxjP

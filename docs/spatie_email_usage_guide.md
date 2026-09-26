@@ -175,15 +175,7 @@ public function getHtmlLayout(): string
 ```php
 namespace Modules\User\Actions;
 
-<<<<<<< .merge_file_8PBCPu
-<<<<<<< .merge_file_TTQceG
-use Modules\User\Models\User;
-=======
 use Modules\Xot\Contracts\UserContract;
->>>>>>> .merge_file_tlXByk
-=======
-use Modules\Xot\Contracts\UserContract;
->>>>>>> .merge_file_teQWmO
 use Modules\Notify\Actions\SendTemplatedEmailAction;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -273,12 +265,4 @@ class DoctorRegistrationEmail extends SpatieEmail
 
 ## Conclusione
 
-<<<<<<< .merge_file_8PBCPu
-<<<<<<< .merge_file_TTQceG
 L'utilizzo di `SpatieEmail` nel sistema permette di gestire in modo flessibile e centralizzato i template delle email, con supporto multilingua e personalizzazione avanzata. Seguendo le best practices e utilizzando le Queueable Actions, è possibile implementare un sistema di notifiche email robusto e manutenibile.
-=======
-L'utilizzo di `SpatieEmail` nel sistema permette di gestire in modo flessibile e centralizzato i template delle email, con supporto multilingua e personalizzazione avanzata. Seguendo le best practices e utilizzando le Queueable Actions, è possibile implementare un sistema di notifiche email robusto e manutenibile.
->>>>>>> .merge_file_tlXByk
-=======
-L'utilizzo di `SpatieEmail` nel sistema permette di gestire in modo flessibile e centralizzato i template delle email, con supporto multilingua e personalizzazione avanzata. Seguendo le best practices e utilizzando le Queueable Actions, è possibile implementare un sistema di notifiche email robusto e manutenibile.
->>>>>>> .merge_file_teQWmO

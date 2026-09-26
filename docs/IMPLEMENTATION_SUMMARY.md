@@ -135,21 +135,9 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 /comune/eventi             # Eventi
 
 // API Fixcity
-<<<<<<< .merge_file_UlV90v
-<<<<<<< .merge_file_wLKGgj
-/api/fixcity/tickets       # Gestione ticket
-/api/fixcity/map/tickets   # Mappa ticket
-/api/fixcity/statistics    # Statistiche
-=======
 /api/ptv/tickets       # Gestione ticket
 /api/ptv/map/tickets   # Mappa ticket
 /api/ptv/statistics    # Statistiche
->>>>>>> .merge_file_UWcu2n
-=======
-/api/ptv/tickets       # Gestione ticket
-/api/ptv/map/tickets   # Mappa ticket
-/api/ptv/statistics    # Statistiche
->>>>>>> .merge_file_RM9vj2
 ```
 
 ## Benefici dell'Implementazione

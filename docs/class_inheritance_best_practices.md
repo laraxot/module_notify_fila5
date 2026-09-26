@@ -1,14 +1,6 @@
 # Best Practices per l'Ereditarietà delle Classi
 
-<<<<<<< .merge_file_FvlUtm
-<<<<<<< .merge_file_AtH3z1
-Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema Quaeris, con particolare attenzione alle classi che estendono `XotBasePage`.
-=======
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
->>>>>>> .merge_file_W3w38R
-=======
-Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
->>>>>>> .merge_file_OP1xS8
 
 ## Analisi dell'Ereditarietà di XotBasePage
 
@@ -85,12 +77,4 @@ Per le classi esistenti, rimuovere le interfacce e i traits ridondanti:
 
 ## Conclusione
 
-<<<<<<< .merge_file_FvlUtm
-<<<<<<< .merge_file_AtH3z1
 Seguire queste best practices garantisce un codice più pulito, manutenibile e meno soggetto a errori. La comprensione dell'ereditarietà delle classi è fondamentale per lo sviluppo di un sistema robusto e scalabile.
-=======
-Seguire queste best practices garantisce un codice più pulito, manutenibile e meno soggetto a errori. La comprensione dell'ereditarietà delle classi è fondamentale per lo sviluppo di un sistema robusto e scalabile.
->>>>>>> .merge_file_W3w38R
-=======
-Seguire queste best practices garantisce un codice più pulito, manutenibile e meno soggetto a errori. La comprensione dell'ereditarietà delle classi è fondamentale per lo sviluppo di un sistema robusto e scalabile.
->>>>>>> .merge_file_OP1xS8

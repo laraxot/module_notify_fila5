@@ -1,8 +1,3 @@
-<<<<<<< .merge_file_mni8d7
-<<<<<<< .merge_file_qBOKFb
-=======
-=======
->>>>>>> .merge_file_RUoZko
 ---
 title: "Multi-Agent Collaboration Guide"
 module: notify
@@ -12,10 +7,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< .merge_file_mni8d7
->>>>>>> .merge_file_csrD6T
-=======
->>>>>>> .merge_file_RUoZko
 # 🤖 Multi-Agent Collaboration Guide
 
 **Version**: 1.0  

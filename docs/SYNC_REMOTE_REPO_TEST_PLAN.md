@@ -236,18 +236,8 @@ Test is considered successful when:
 
 - [Script Documentation](../../../bashscripts/docs/git/subtrees/sync-remote-repo-guide.md)
 - [Workflow Configuration](../../../.github/workflows/sync-remote-repo.yml)
-<<<<<<< .merge_file_t0SrBj
-<<<<<<< .merge_file_nTqzLF
-- [GitHub Issue #11](https://github.com/laraxot/base_fixcity_fila5/issues/11)
-- [GitHub Issue #12](https://github.com/laraxot/base_fixcity_fila5/issues/12)
-=======
 - [GitHub Issue #11](https://github.com/laraxot/base_ptv_fila5/issues/11)
 - [GitHub Issue #12](https://github.com/laraxot/base_ptv_fila5/issues/12)
->>>>>>> .merge_file_N4VQgC
-=======
-- [GitHub Issue #11](https://github.com/laraxot/base_ptv_fila5/issues/11)
-- [GitHub Issue #12](https://github.com/laraxot/base_ptv_fila5/issues/12)
->>>>>>> .merge_file_g5X7oT
 
 ---
 

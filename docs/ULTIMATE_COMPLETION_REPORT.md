@@ -90,15 +90,7 @@ Trasformato FixCity da MVP documentato a piattaforma enterprise-ready con implem
 ## 🗂️ STRUTTURA FINALE PROGETTO
 
 ```
-<<<<<<< .merge_file_j18y4H
-<<<<<<< .merge_file_k026Xg
-base_fixcity_fila5_mono/
-=======
 base_ptv_fila5_mono/
->>>>>>> .merge_file_E0YSZ9
-=======
-base_ptv_fila5_mono/
->>>>>>> .merge_file_seZyvf
 │
 ├── 📊 ROOT DOCS (13 files)
 │   ├── DOCUMENTATION_INDEX.md          ✅ Indice completo
@@ -107,15 +99,7 @@ base_ptv_fila5_mono/
 │   ├── EXCELLENCE_2025.md              ✅ Visione eccellenza
 │   ├── PROJECT_COMPLETION_STATUS.md    ✅ Tracking
 │   ├── FINAL_SUMMARY.md                ✅ Summary sessione 1
-<<<<<<< .merge_file_j18y4H
-<<<<<<< .merge_file_k026Xg
-│   ├── WORK_COMPLETED_2025-10-01.md    ✅ Riepilogo tecnico
-=======
 │   ├── work-completed.md    ✅ Riepilogo tecnico
->>>>>>> .merge_file_E0YSZ9
-=======
-│   ├── work-completed.md    ✅ Riepilogo tecnico
->>>>>>> .merge_file_seZyvf
 │   ├── GAP_ANALYSIS_IMPLEMENTATION.md  ✅ Gap analysis
 │   ├── IMPLEMENTATIONS_COMPLETED.md    ✅ Implementazioni
 │   ├── SUPER_MUCCA_COMPLETION.md       ✅ Super Mucca mode
