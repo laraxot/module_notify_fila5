@@ -1,8 +1,3 @@
-<<<<<<< .merge_file_QQYml0
-<<<<<<< .merge_file_dWbL31
-=======
-=======
->>>>>>> .merge_file_bL0NO2
 ---
 title: "Composer & Laravel-Modules Architecture"
 module: notify
@@ -12,10 +7,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< .merge_file_QQYml0
->>>>>>> .merge_file_9inV0O
-=======
->>>>>>> .merge_file_bL0NO2
 # Composer & Laravel-Modules Architecture
 
 **Data**: 2026-03-30  

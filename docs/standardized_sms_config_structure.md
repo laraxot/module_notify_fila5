@@ -156,27 +156,9 @@ $debug = $config['drivers'][$driver]['debug'] ?? $config['debug'];
 
 ## Collegamenti
 
-<<<<<<< .merge_file_IqtiTy
-<<<<<<< .merge_file_DnGGRc
-- [Configurazione Netfun](./netfun_config_requirements.md)
-- [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
-
----
-
-=======
->>>>>>> .merge_file_gjrula
-=======
->>>>>>> .merge_file_9sdmzJ
 - [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
 
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
-<<<<<<< .merge_file_IqtiTy
-<<<<<<< .merge_file_DnGGRc
-*Ultimo aggiornamento: 2025-05-12*
-=======
->>>>>>> .merge_file_gjrula
-=======
->>>>>>> .merge_file_9sdmzJ

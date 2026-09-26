@@ -40,15 +40,7 @@ The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be r
             :data="$block->data"
         />
     @empty
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-        <p>{{ trans('fixcity::common.no_content') }}</p>
-=======
         <p>{{ trans('ptv::common.no_content') }}</p>
->>>>>>> .merge_file_jgDVFm
-=======
-        <p>{{ trans('ptv::common.no_content') }}</p>
->>>>>>> .merge_file_z4U6xS
     @endforelse
 </x-layouts.app>
 ```
@@ -69,55 +61,21 @@ The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be r
 
 #### ✅ CORRECT Pattern
 ```
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-fixcity::<module>.<context>.<key>.<type>
-=======
 ptv::<module>.<context>.<key>.<type>
->>>>>>> .merge_file_jgDVFm
-=======
-ptv::<module>.<context>.<key>.<type>
->>>>>>> .merge_file_z4U6xS
 ```
 
 **Valid Examples**:
 ```
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-fixcity::segnalazione.fields.title.label
-fixcity::segnalazione.fields.title.placeholder
-fixcity::segnalazione.heading.title.label
-fixcity::segnalazione.actions.submit.label
-fixcity::common.errors.not_found.message
-=======
-=======
->>>>>>> .merge_file_z4U6xS
 ptv::segnalazione.fields.title.label
 ptv::segnalazione.fields.title.placeholder
 ptv::segnalazione.heading.title.label
 ptv::segnalazione.actions.submit.label
 ptv::common.errors.not_found.message
-<<<<<<< .merge_file_nFWnQI
->>>>>>> .merge_file_jgDVFm
-=======
->>>>>>> .merge_file_z4U6xS
 ```
 
 #### ❌ WRONG Patterns
 ```
 SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE     ← Namespace case, missing type
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-fixcity::segnalazione.heading.title_label   ← Underscore instead of dot
-segnalazione::segnalazione.fields.title     ← Module case, missing type
-fixcity::fields.title.label                 ← Missing module
-```
-
-#### Rules
-- **Namespace**: Always `fixcity` (not module name)
-=======
-=======
->>>>>>> .merge_file_z4U6xS
 ptv::segnalazione.heading.title_label   ← Underscore instead of dot
 segnalazione::segnalazione.fields.title     ← Module case, missing type
 ptv::fields.title.label                 ← Missing module
@@ -125,10 +83,6 @@ ptv::fields.title.label                 ← Missing module
 
 #### Rules
 - **Namespace**: Always `ptv` (not module name)
-<<<<<<< .merge_file_nFWnQI
->>>>>>> .merge_file_jgDVFm
-=======
->>>>>>> .merge_file_z4U6xS
 - **Module**: lowercase kebab-case (e.g., `segnalazione`)
 - **Context**: lowercase kebab-case (e.g., `fields`, `heading`, `actions`)
 - **Key**: lowercase kebab-case (e.g., `title`, `description`, `submit`)
@@ -268,21 +222,9 @@ docs/
 <button>Invia</button>
 
 <!-- ✅ CORRECT -->
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-<h1>{{ trans('fixcity::segnalazione.heading.title.label') }}</h1>
-<label>{{ trans('fixcity::segnalazione.fields.title.label') }}</label>
-<button>{{ trans('fixcity::segnalazione.actions.submit.label') }}</button>
-=======
 <h1>{{ trans('ptv::segnalazione.heading.title.label') }}</h1>
 <label>{{ trans('ptv::segnalazione.fields.title.label') }}</label>
 <button>{{ trans('ptv::segnalazione.actions.submit.label') }}</button>
->>>>>>> .merge_file_jgDVFm
-=======
-<h1>{{ trans('ptv::segnalazione.heading.title.label') }}</h1>
-<label>{{ trans('ptv::segnalazione.fields.title.label') }}</label>
-<button>{{ trans('ptv::segnalazione.actions.submit.label') }}</button>
->>>>>>> .merge_file_z4U6xS
 ```
 
 **Why**: Multilingual support requires dynamic strings. No hardcoded text ever.
@@ -301,15 +243,7 @@ docs/
     @forelse($blocks as $block)
         <x-dynamic-component :component="$block->view" :data="$block->data" />
     @empty
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-        <p>{{ trans('fixcity::common.no_content') }}</p>
-=======
         <p>{{ trans('ptv::common.no_content') }}</p>
->>>>>>> .merge_file_jgDVFm
-=======
-        <p>{{ trans('ptv::common.no_content') }}</p>
->>>>>>> .merge_file_z4U6xS
     @endforelse
 </x-layouts.app>
 ```
@@ -349,15 +283,7 @@ bashscripts/html/html-structure-compare.sh              # In category
 ### Mistake #6: Direct Theme Refs in Scripts
 ```bash
 # ❌ WRONG in bashscripts/html/script.sh
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-OUTPUT_DIR="/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/..."
-=======
 OUTPUT_DIR="/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/docs/..."
->>>>>>> .merge_file_jgDVFm
-=======
-OUTPUT_DIR="/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/docs/..."
->>>>>>> .merge_file_z4U6xS
 
 # ✅ CORRECT
 OUTPUT_DIR="${PROJECT_ROOT}/laravel/Themes/${THEME_NAME}/docs/..."
@@ -375,25 +301,11 @@ trans('SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE')
 trans('segnalazione::segnalazione.fields.title_label')
 
 // ✅ CORRECT
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-trans('fixcity::segnalazione.fields.title.label')
-trans('fixcity::segnalazione.heading.title.label')
-```
-
-**Why**: Namespace is the project name (`fixcity`), not the module. Keys use dots, not underscores.
-=======
-=======
->>>>>>> .merge_file_z4U6xS
 trans('ptv::segnalazione.fields.title.label')
 trans('ptv::segnalazione.heading.title.label')
 ```
 
 **Why**: Namespace is the project name (`ptv`), not the module. Keys use dots, not underscores.
-<<<<<<< .merge_file_nFWnQI
->>>>>>> .merge_file_jgDVFm
-=======
->>>>>>> .merge_file_z4U6xS
 
 ---
 
@@ -433,15 +345,7 @@ trans('ptv::segnalazione.heading.title.label')
 
 - [ ] Blade uses `<x-layouts.app>` only
 - [ ] NO hardcoded strings (all use `trans()`)
-<<<<<<< .merge_file_nFWnQI
-<<<<<<< .merge_file_Za5aT4
-- [ ] Translation keys follow pattern: `fixcity::<module>.<context>.<key>.<type>`
-=======
 - [ ] Translation keys follow pattern: `ptv::<module>.<context>.<key>.<type>`
->>>>>>> .merge_file_jgDVFm
-=======
-- [ ] Translation keys follow pattern: `ptv::<module>.<context>.<key>.<type>`
->>>>>>> .merge_file_z4U6xS
 - [ ] Scripts in `bashscripts/<category>/`
 - [ ] Script outputs to theme docs (not hardcoded paths)
 - [ ] Documentation in theme docs + bashscripts docs

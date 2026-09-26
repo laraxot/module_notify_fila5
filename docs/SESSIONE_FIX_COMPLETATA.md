@@ -1,8 +1,3 @@
-<<<<<<< .merge_file_pcQtt1
-<<<<<<< .merge_file_1fD4dp
-=======
-=======
->>>>>>> .merge_file_i00x7R
 ---
 title: "Sessione Completata - Fix Homepage Bootstrap Italia"
 module: notify
@@ -12,10 +7,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< .merge_file_pcQtt1
->>>>>>> .merge_file_mVaqAu
-=======
->>>>>>> .merge_file_i00x7R
 # ✅ Sessione Completata - Fix Homepage Bootstrap Italia
 
 ## 📋 Riepilogo Esecuzione

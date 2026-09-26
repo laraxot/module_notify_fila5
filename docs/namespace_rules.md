@@ -31,21 +31,5 @@ namespace Modules\Notify\Console\Commands;
 ---
 
 **Ultimo aggiornamento:** 2025-05-13
-<<<<<<< .merge_file_gHIEE2
-<<<<<<< .merge_file_HR0EhF
-- Questa regola è valida per tutti i moduli: vedi [Xot Namespace Rules](../../xot/docs/namespace_rules.md)
-- Collegamento alla documentazione generale: [Regole Namespace Moduli - Root Docs](../../../../docs/namespace-moduli.md)
-
----
-
-**Ultimo aggiornamento:** 2025-05-13
 
 **Link bidirezionale:** Aggiornare anche la root docs e la docs di Xot per riferimenti e cross-link.
-=======
-
-**Link bidirezionale:** Aggiornare anche la root docs e la docs di Xot per riferimenti e cross-link.
->>>>>>> .merge_file_aqjpZ0
-=======
-
-**Link bidirezionale:** Aggiornare anche la root docs e la docs di Xot per riferimenti e cross-link.
->>>>>>> .merge_file_IzpHGq

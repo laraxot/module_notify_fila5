@@ -243,15 +243,7 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
               ▼                ▼
         Individual            Individual
         Module Docs           Theme Docs
-<<<<<<< .merge_file_oLW4ZE
-<<<<<<< .merge_file_EoXPxJ
-        (00-INDEX.md)         (00-INDEX.md)
-=======
         (00-index.md)         (00-index.md)
->>>>>>> .merge_file_XwbNjh
-=======
-        (00-index.md)         (00-index.md)
->>>>>>> .merge_file_HiqfyP
         ├─ architecture/      ├─ architecture/
         ├─ guides/            ├─ guides/
         ├─ reference/         ├─ reference/
@@ -334,29 +326,13 @@ VISUAL COMPONENTS
 METRIC                          STATUS      SCORE
 ────────────────────────────────────────────────────
 Module Documentation Completeness    ✅      100%
-<<<<<<< .merge_file_oLW4ZE
-<<<<<<< .merge_file_EoXPxJ
-├─ 00-INDEX.md                       ✅      19/19
-=======
 ├─ 00-index.md                       ✅      19/19
->>>>>>> .merge_file_XwbNjh
-=======
-├─ 00-index.md                       ✅      19/19
->>>>>>> .merge_file_HiqfyP
 ├─ Architecture files                ✅      19/19
 ├─ Guide files                       ✅      19/19
 └─ Reference files                   ✅      19/19
 
 Theme Documentation Completeness     ✅      100%
-<<<<<<< .merge_file_oLW4ZE
-<<<<<<< .merge_file_EoXPxJ
-├─ 00-INDEX.md                       ✅      2/2
-=======
 ├─ 00-index.md                       ✅      2/2
->>>>>>> .merge_file_XwbNjh
-=======
-├─ 00-index.md                       ✅      2/2
->>>>>>> .merge_file_HiqfyP
 ├─ Architecture files                ✅      2/2
 ├─ Guide files                       ✅      2/2
 └─ Component files                   ✅      2/2
@@ -397,15 +373,7 @@ TASK: "Add a new content block"
     ▼
   docs/THEMES_DOCUMENTATION_INDEX.md
     ▼
-<<<<<<< .merge_file_oLW4ZE
-<<<<<<< .merge_file_EoXPxJ
-  laravel/Themes/Sixteen/docs/00-INDEX.md
-=======
   laravel/Themes/Sixteen/docs/00-index.md
->>>>>>> .merge_file_XwbNjh
-=======
-  laravel/Themes/Sixteen/docs/00-index.md
->>>>>>> .merge_file_HiqfyP
     ▼
   guides/adding-components.md
     ▼
@@ -464,15 +432,7 @@ TASK: "Understand system architecture"
 
 ```
 Filesystem Server
-<<<<<<< .merge_file_oLW4ZE
-<<<<<<< .merge_file_EoXPxJ
-└─ Reads: /var/www/_bases/base_fixcity_fila5/
-=======
 └─ Reads: /var/www/_bases/base_ptv_fila5/
->>>>>>> .merge_file_XwbNjh
-=======
-└─ Reads: /var/www/_bases/base_ptv_fila5/
->>>>>>> .merge_file_HiqfyP
    └─ Indexes all docs
    └─ Enables fast file navigation
 

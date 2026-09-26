@@ -1,8 +1,3 @@
-<<<<<<< .merge_file_znjPRW
-<<<<<<< .merge_file_wEjAIP
-=======
-=======
->>>>>>> .merge_file_Nms3P5
 ---
 title: "Analisi della Sicurezza"
 module: notify
@@ -12,10 +7,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< .merge_file_znjPRW
->>>>>>> .merge_file_JJKLHG
-=======
->>>>>>> .merge_file_Nms3P5
 # Analisi della Sicurezza
 
 ## Vulnerabilità Comuni

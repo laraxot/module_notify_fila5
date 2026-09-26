@@ -192,10 +192,3 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
-<<<<<<< .merge_file_OGgbeS
-<<<<<<< .merge_file_Lv8hh0
-*Ultimo aggiornamento: 2025-05-12*
-=======
->>>>>>> .merge_file_OCK2Dm
-=======
->>>>>>> .merge_file_IizMAu

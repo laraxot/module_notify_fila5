@@ -74,15 +74,7 @@ Ogni documento deve essere:
 
 ```bash
 # ❌ CATTIVO
-<<<<<<< .merge_file_Mmp0W0
-<<<<<<< .merge_file_ik5zUp
-phpstan-analysis-2026-03-02.md
-=======
 phpstan-analysis.md
->>>>>>> .merge_file_naaEfs
-=======
-phpstan-analysis.md
->>>>>>> .merge_file_7W8A6X
 session-report-january.md
 achievement-2025-10-10.md
 

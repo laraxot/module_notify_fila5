@@ -56,15 +56,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         // Credenziali e parametri di connessione
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
-<<<<<<< .merge_file_zVHEDQ
-<<<<<<< .merge_file_OuM4OL
-'sender' => env('NETFUN_SENDER', 'Quaeris'),
-=======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> .merge_file_FRQ09O
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> .merge_file_TB4B0k
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -121,15 +113,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
     'netfun' => [
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
-<<<<<<< .merge_file_zVHEDQ
-<<<<<<< .merge_file_OuM4OL
-'sender' => env('NETFUN_SENDER', 'Quaeris'),
-=======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> .merge_file_FRQ09O
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> .merge_file_TB4B0k
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun
@@ -165,27 +149,9 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## Collegamenti
 
-<<<<<<< .merge_file_zVHEDQ
-<<<<<<< .merge_file_OuM4OL
-- [Configurazione Netfun](./netfun_config_requirements.md)
-- [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
-
----
-
-=======
->>>>>>> .merge_file_FRQ09O
-=======
->>>>>>> .merge_file_TB4B0k
 - [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
 
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
-<<<<<<< .merge_file_zVHEDQ
-<<<<<<< .merge_file_OuM4OL
-*Ultimo aggiornamento: 2025-05-12*
-=======
->>>>>>> .merge_file_FRQ09O
-=======
->>>>>>> .merge_file_TB4B0k

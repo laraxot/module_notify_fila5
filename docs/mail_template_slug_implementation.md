@@ -5,15 +5,6 @@
 - [README del modulo Notify](./README.md)
 - [Guida all'utilizzo di SpatieEmail](./SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Documentazione Template Email](./EMAIL_TEMPLATES.md)
-<<<<<<< .merge_file_2YRHuq
-<<<<<<< .merge_file_giwBxF
-- [README del modulo Notify](./README.md)
-- [Guida all'utilizzo di SpatieEmail](./SPATIE_EMAIL_USAGE_GUIDE.md)
-- [Documentazione Template Email](./EMAIL_TEMPLATES.md)
-=======
->>>>>>> .merge_file_mmK5ur
-=======
->>>>>>> .merge_file_k3YE5C
 - [Documentazione Root](../../../../docs/collegamenti-documentazione.md)
 
 ## Approccio Corretto per l'Implementazione
@@ -234,12 +225,4 @@ class SpatieEmail extends TemplateMailable
 
 ## Conclusione
 
-<<<<<<< .merge_file_2YRHuq
-<<<<<<< .merge_file_giwBxF
 L'implementazione del campo `slug` nel sistema di templating delle email offrirà maggiore flessibilità e manutenibilità, mantenendo al contempo la coerenza con l'architettura del progetto. Seguendo l'approccio di `XotBaseMigration`, tutte le modifiche allo schema devono essere applicate modificando il file di migrazione esistente piuttosto che creando nuovi file di migrazione separati.
-=======
-L'implementazione del campo `slug` nel sistema di templating delle email offrirà maggiore flessibilità e manutenibilità, mantenendo al contempo la coerenza con l'architettura del progetto. Seguendo l'approccio di `XotBaseMigration`, tutte le modifiche allo schema devono essere applicate modificando il file di migrazione esistente piuttosto che creando nuovi file di migrazione separati.
->>>>>>> .merge_file_mmK5ur
-=======
-L'implementazione del campo `slug` nel sistema di templating delle email offrirà maggiore flessibilità e manutenibilità, mantenendo al contempo la coerenza con l'architettura del progetto. Seguendo l'approccio di `XotBaseMigration`, tutte le modifiche allo schema devono essere applicate modificando il file di migrazione esistente piuttosto che creando nuovi file di migrazione separati.
->>>>>>> .merge_file_k3YE5C

@@ -1,11 +1,3 @@
-<<<<<<< .merge_file_pdpZOa
-<<<<<<< .merge_file_IxokHY
-=======
-<<<<<<< .merge_file_k3XTxD
-=======
->>>>>>> .merge_file_7EqhMv
-=======
->>>>>>> .merge_file_gJWYav
 ---
 title: "Notify Module - skills Index"
 type: index
@@ -25,13 +17,6 @@ related:
   - ../../integrations/readme.md
   - ../../templates/readme.md
 ---
-<<<<<<< .merge_file_pdpZOa
-<<<<<<< .merge_file_IxokHY
-=======
->>>>>>> .merge_file_496KZT
->>>>>>> .merge_file_7EqhMv
-=======
->>>>>>> .merge_file_gJWYav
 # Notify Module - skills Index
 
 ## Purpose

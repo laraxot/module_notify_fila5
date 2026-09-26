@@ -1,22 +1,3 @@
-<<<<<<< .merge_file_Dz9jND
-<<<<<<< .merge_file_IK9pEP
----
-title: "Agent instructions"
-type: reference
-tags: [agents, coding-agent, llm-wiki]
-created: 2026-07-01
-updated: 2026-07-01
-qmd: "istruzioni agenti LLM wiki modulo"
-issues: []
-discussions: []
-related:
-  - ./coding-agent-manifests.md
----
-
-=======
->>>>>>> .merge_file_yYCz73
-=======
->>>>>>> .merge_file_u1AECs
 # Notify {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** Notify

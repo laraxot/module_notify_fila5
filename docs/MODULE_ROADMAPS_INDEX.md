@@ -253,15 +253,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 
 - [Laraxot Architecture Rules](./laravel/Modules/Xot/docs/laraxot-architecture-rules.md)
 - [Project Roadmap](./PROJECT_ROADMAP.md)
-<<<<<<< .merge_file_hULTKo
-<<<<<<< .merge_file_OpTurj
-- [AGENTS.md](./AGENTS.md)
-=======
 - [agents.md](./AGENTS.md)
->>>>>>> .merge_file_KMhTrz
-=======
-- [agents.md](./AGENTS.md)
->>>>>>> .merge_file_W7LvVL
 - [Getting Started](./QUICK_START.md)
 
 ## 🤝 Contributing
