@@ -122,11 +122,14 @@ $attachments = [
 - [Documentazione MailPace](https://github.com/mailpace/templates)
 - [Best Practices Email HTML](./EMAIL_HTML_BEST_PRACTICES.md)
 - [Guida Testing](./EMAIL_TESTING.md)
+<<<<<<< .merge_file_mlsRF6
 <<<<<<< .merge_file_3mZXy9
 - [Best Practices Email HTML](./EMAIL_HTML_BEST_PRACTICES.md)
 - [Guida Testing](./EMAIL_TESTING.md)
 =======
 >>>>>>> .merge_file_NWTHLe
+=======
+>>>>>>> .merge_file_hs4JZ0
 
 ## Supporto
 
@@ -224,8 +227,12 @@ Per supporto tecnico:
 2. I path relativi sono preferibili
 3. I mime type devono essere corretti
 4. La documentazione deve essere aggiornata
+<<<<<<< .merge_file_mlsRF6
 <<<<<<< .merge_file_3mZXy9
 5. I test devono essere completi 
 =======
 5. I test devono essere completi 
 >>>>>>> .merge_file_NWTHLe
+=======
+5. I test devono essere completi 
+>>>>>>> .merge_file_hs4JZ0

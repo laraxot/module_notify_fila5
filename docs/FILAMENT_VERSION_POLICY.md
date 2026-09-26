@@ -30,11 +30,15 @@ Filament è gestito dai moduli.
 
 ```json
 {
+<<<<<<< .merge_file_fnfXjm
 <<<<<<< .merge_file_BhwFh2
     "name": "fixcity/module-name",
 =======
     "name": "ptv/module-name",
 >>>>>>> .merge_file_D8duro
+=======
+    "name": "ptv/module-name",
+>>>>>>> .merge_file_a7YusB
     "require": {
         "php": "^8.2",
         "filament/filament": "^5.0",

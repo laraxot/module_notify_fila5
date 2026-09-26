@@ -56,11 +56,15 @@ notebooklm create "FixCity Research"
 # Add sources
 notebooklm use <notebook_id>
 notebooklm source add "https://laravel.com/docs/11.x"
+<<<<<<< .merge_file_OxDebQ
 <<<<<<< .merge_file_qFY5SC
 notebooklm source add "./docs/ARCHITECTURE.md"
 =======
 notebooklm source add "./docs/architecture.md"
 >>>>>>> .merge_file_Qx8Nj8
+=======
+notebooklm source add "./docs/architecture.md"
+>>>>>>> .merge_file_dNrye4
 
 # Chat with sources
 notebooklm ask "How does the XotBase pattern work?"
@@ -84,11 +88,15 @@ Once authenticated, you can ask Claude Code to:
 
 Recommended notebooks to create:
 
+<<<<<<< .merge_file_OxDebQ
 <<<<<<< .merge_file_qFY5SC
 1. **FixCity Architecture** - AGENTS.md, docs/architecture/*
 =======
 1. **FixCity Architecture** - agents.md, docs/architecture/*
 >>>>>>> .merge_file_Qx8Nj8
+=======
+1. **FixCity Architecture** - agents.md, docs/architecture/*
+>>>>>>> .merge_file_dNrye4
 2. **FixCity Modules** - laravel/Modules/*/docs/README.md
 3. **FixCity API** - API documentation, Swagger specs
 

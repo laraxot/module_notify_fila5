@@ -62,11 +62,15 @@ class AppServiceProvider extends ServiceProvider
 
 ```json
 {
+<<<<<<< .merge_file_pn8dAf
 <<<<<<< .merge_file_zxdsYg
     "name": "fixcity/theme-sixteen",
 =======
     "name": "ptv/theme-sixteen",
 >>>>>>> .merge_file_BW0Ujp
+=======
+    "name": "ptv/theme-sixteen",
+>>>>>>> .merge_file_rl9niP
     "extra": {
         "laravel": {
             "providers": [
@@ -246,11 +250,15 @@ class AppServiceProvider extends ServiceProvider
 ### 2. Theme composer.json Complete
 ```json
 {
+<<<<<<< .merge_file_pn8dAf
 <<<<<<< .merge_file_zxdsYg
     "name": "fixcity/theme-sixteen",
 =======
     "name": "ptv/theme-sixteen",
 >>>>>>> .merge_file_BW0Ujp
+=======
+    "name": "ptv/theme-sixteen",
+>>>>>>> .merge_file_rl9niP
     "extra": {
         "laravel": {
             "providers": [

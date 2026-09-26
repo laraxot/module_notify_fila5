@@ -1,19 +1,4 @@
-<<<<<<< .merge_file_A06l76
----
-title: "roadmap — puntatore"
-type: reference
-updated: 2026-05-21
----
-
-# Policy globale (puntatore)
-
-Contenuto in wiki di progetto — non duplicare nei moduli ([#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)).
-
-→ [docs/wiki/rules/00-TRIGGER_MAP.md](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-=======
 # 🗺️ FixCity Design System - Product Roadmap
-
-<!-- docs/ROADMAP.md (uppercase) rimosso: era un duplicato byte-per-byte di questo file, collisione su filesystem case-insensitive. Nessun contenuto perso. -->
 
 > **Central hub consolidating 355+ scattered planning files into unified vision**  
 > Last Updated: April 3, 2026  
@@ -407,7 +392,7 @@ All old roadmap files have been archived to preserve history. See **[MIGRATION_G
 | **Product Manager** | [Phase Overview](#current-phase-phase-11) |
 | **Developer** | [Module Roadmaps](#-module-specific-roadmaps) |
 | **DevOps** | [Infrastructure Guide](../docs/deployment/) |
-| **Contributor** | [Contributing Guide](./root-md-files/contributing.md) |
+| **Contributor** | [Contributing Guide](../CONTRIBUTING.md) |
 | **Archivist** | [Migration Guide](./archive/roadmaps/MIGRATION_GUIDE.md) |
 
 ---
@@ -477,4 +462,3 @@ Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
 **Last Consolidated**: April 3, 2026  
 **Consolidation Agent**: GitHub Copilot CLI  
 **Next Review**: May 1, 2026
->>>>>>> .merge_file_MPx8Mp

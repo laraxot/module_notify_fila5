@@ -220,11 +220,15 @@ FixCity Fila5 Documentation
 | **Codebase Analysis** | `codebase/` | 3,170 | Technical analysis |
 
 **Cross-References:**
+<<<<<<< .merge_file_OaIP79
 <<<<<<< .merge_file_CokOET
 - ← [Master Index](#master-documentation-index---fixcity-fila5) - This document
 =======
 - ← [Master Index](#master-documentation-index---ptv-fila5) - This document
 >>>>>>> .merge_file_NYMvfY
+=======
+- ← [Master Index](#master-documentation-index---ptv-fila5) - This document
+>>>>>>> .merge_file_IBfwVZ
 - ← [Module Docs](#module-documentation-indexes) - Module documentation
 - ← [Theme Docs](#theme-documentation-indexes) - Theme documentation
 
@@ -375,11 +379,15 @@ Themes/Sixteen/docs/
 
 ### Project Resources
 
+<<<<<<< .merge_file_OaIP79
 <<<<<<< .merge_file_CokOET
 - [GitHub Repository](https://github.com/fixcity/fila5)
 =======
 - [GitHub Repository](https://github.com/ptv/fila5)
 >>>>>>> .merge_file_NYMvfY
+=======
+- [GitHub Repository](https://github.com/ptv/fila5)
+>>>>>>> .merge_file_IBfwVZ
 - [Laravel Docs](https://laravel.com/docs)
 - [Filament Docs](https://filamentphp.com/docs)
 - [Vite Docs](https://vitejs.dev/)
@@ -429,11 +437,15 @@ Main content here.
 
 ### Finding Documentation
 
+<<<<<<< .merge_file_OaIP79
 <<<<<<< .merge_file_CokOET
 1. Start at [Master Index](#master-documentation-index---fixcity-fila5)
 =======
 1. Start at [Master Index](#master-documentation-index---ptv-fila5)
 >>>>>>> .merge_file_NYMvfY
+=======
+1. Start at [Master Index](#master-documentation-index---ptv-fila5)
+>>>>>>> .merge_file_IBfwVZ
 2. Navigate to module/theme category
 3. Use search (Ctrl+F) for keywords
 4. Check cross-references in related docs

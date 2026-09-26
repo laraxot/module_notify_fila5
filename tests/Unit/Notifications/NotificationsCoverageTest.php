@@ -7,8 +7,6 @@ namespace Modules\Notify\Tests\Unit\Notifications;
 use Illuminate\Bus\Queueable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Notifications\Notification;
-use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Contracts\CanThemeNotificationContract;
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\NotificationData;
@@ -91,7 +89,7 @@ function makeGenericNotifiableDummy(): Model
             return 'Mario Rossi';
         }
 
-        public function routeNotificationForTwilio(Notification $notification): string
+        public function routeNotificationForTwilio(mixed $notification): string
         {
             return '+39000111222';
         }
@@ -127,7 +125,7 @@ test('sms notification builds sms payload and provider config', function () {
     $sms = $notification->toSms(new \stdClass);
 
     Assert::assertInstanceOf(SmsData::class, $sms);
-    Assert::assertSame([SmsChannel::class], $notification->via(new \stdClass));
+    Assert::assertSame([\Modules\Notify\Channels\SmsChannel::class], $notification->via(new \stdClass));
     Assert::assertSame('+39123', $sms->recipient);
     Assert::assertSame('netfun', $notification->getProvider());
     Assert::assertArrayHasKey('provider', $notification->getConfig());

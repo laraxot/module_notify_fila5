@@ -56,11 +56,15 @@ public function handleHTTPRequest(): void
 
 # Convenzioni di Naming per le Azioni di Notifica
 
+<<<<<<< .merge_file_yv1wq3
 <<<<<<< .merge_file_prZnwF
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema Quaeris, supportando la risoluzione dinamica delle classi implementata nei factory.
 =======
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
 >>>>>>> .merge_file_8c1CmY
+=======
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
+>>>>>>> .merge_file_fUMyue
 
 ## Pattern di Naming
 
@@ -182,8 +186,12 @@ Per driver con nomi composti (es. 'sms_factor'), ogni parola deve iniziare con u
 $normalizedDriver = str_replace(' ', '', ucwords(str_replace('_', ' ', $driver)));
 ```
 
+<<<<<<< .merge_file_yv1wq3
 <<<<<<< .merge_file_prZnwF
 Esempio: 'sms_factor' → 'SendSmsFactorSMSAction'
 =======
 Esempio: 'sms_factor' → 'SendSmsFactorSMSAction'
 >>>>>>> .merge_file_8c1CmY
+=======
+Esempio: 'sms_factor' → 'SendSmsFactorSMSAction'
+>>>>>>> .merge_file_fUMyue

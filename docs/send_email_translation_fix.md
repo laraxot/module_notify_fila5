@@ -125,6 +125,7 @@ Ogni campo ora ha la struttura espansa completa:
 
 ## Collegamenti
 
+<<<<<<< .merge_file_Jagpl0
 <<<<<<< .merge_file_1zQXu4
 - [Documentazione Root](../../docs/translation_standards_links.md)
 - [Regole Helper Text](../../docs/translation-helper-text-standards.md)
@@ -132,12 +133,17 @@ Ogni campo ora ha la struttura espansa completa:
 - [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Best Practices Filament](../../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
 =======
+=======
+>>>>>>> .merge_file_78S8Yh
 - [Documentazione Root](../docs/translation_standards_links.md)
 - [Regole Helper Text](../docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 - [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
+<<<<<<< .merge_file_Jagpl0
 >>>>>>> .merge_file_l0mzAw
+=======
+>>>>>>> .merge_file_78S8Yh
 - [Regole Helper Text](../project_docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../project_docs/filament_translation_best_practices.md)
 
@@ -163,7 +169,10 @@ Ogni campo ora ha la struttura espansa completa:
 ```
 
 *Ultimo aggiornamento: 2025-01-06* 
+<<<<<<< .merge_file_Jagpl0
 <<<<<<< .merge_file_1zQXu4
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 >>>>>>> .merge_file_l0mzAw
+=======
+>>>>>>> .merge_file_78S8Yh

@@ -1,5 +1,8 @@
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 =======
+=======
+>>>>>>> .merge_file_MBR4Gu
 ---
 title: "Notify Module Documentation"
 type: index
@@ -19,7 +22,10 @@ related:
   - integrations/readme.md
   - templates/readme.md
 ---
+<<<<<<< .merge_file_nj8LQ2
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 # Notify Module Documentation
 
 ## Overview
@@ -68,6 +74,7 @@ This document serves as the central index for the Notify module, providing guida
 - Update this index if new features or significant changes are introduced to the Notify module.
 
 ## Links to Related Documentation
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - [Architecture Overview](./architecture.md)
 - [Notification Channels Implementation](./notification_channels_implementation.md)
@@ -76,6 +83,8 @@ This document serves as the central index for the Notify module, providing guida
 - [Troubleshooting](./troubleshooting.md)
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 - [Architecture Overview](./ARCHITECTURE.md)
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
@@ -97,6 +106,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - **Configurazione**: Offre opzioni di configurazione flessibili per diversi provider di notifica
 
 ## Collegamenti Correlati
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - [Documentazione Generale <nome progetto>](../../../../docs/README.md)
 - [Documentazione Generale PTV](../../../../docs/README.md)
@@ -105,18 +115,24 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Documentazione Generale <nome progetto>](../../../../docs/README.md)
 - [Documentazione Generale <nome progetto>](../../../../docs/README.md)
 =======
+=======
+>>>>>>> .merge_file_MBR4Gu
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 - [Documentazione Generale PTV](../../../../docs/README.md)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
+<<<<<<< .merge_file_nj8LQ2
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
 - [Modulo Lang](../../Lang/docs/README.md)
 - [Modulo UI](../../UI/docs/README.md)
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - [Documentazione Generale SaluteOra](../../../../../docs/readme.md)
 - [Documentazione Generale PTV](../../../../../docs/readme.md)
@@ -131,6 +147,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Modulo UI](../../ui/docs/readme.md)
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 
 
 
@@ -140,11 +158,14 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Architettura e Struttura
 - [README](./README.md) - Panoramica generale del modulo
 - [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - [README](./readme.md) - Panoramica generale del modulo
 - [Architettura](./architecture.md) - Architettura generale del modulo
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 - [Struttura](./structure.md) - Struttura delle directory e dei componenti
 - [Modelli](./models.md) - Documentazione dei modelli Eloquent
 - [Eventi](./events.md) - Eventi e listeners
@@ -152,6 +173,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Sistema Email
 - [Sistema Email Database](./database-mail-system.md) - Sistema di gestione delle email basato su database
 - [Code Email](./database_mail_queue.md) - Sistema di code per l'invio di email
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - [Template Email](./email_templates.md) - Struttura e utilizzo dei template email
 - [Best Practices Email](./email_best_practices.md) - Linee guida per le email
@@ -164,6 +186,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Telegram](./telegram_channel.md) - Implementazione del canale Telegram
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 - [Template Email](./EMAIL_TEMPLATES.md) - Struttura e utilizzo dei template email
 - [Best Practices Email](./EMAIL_BEST_PRACTICES.md) - Linee guida per le email
 - [Template Responsivi](./RESPONSIVE_EMAIL_TEMPLATES.md) - Implementazione di template email responsivi
@@ -177,6 +201,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Filament UI
 - [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
 - [Pagine Filament](./filament-pages.md) - Componenti Filament Pages
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - [Convenzioni Filament](./filament_extension_pattern.md) - Pattern di estensione per Filament
 
@@ -200,6 +225,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Testing](./testing.md) - Strategie e approcci per il testing
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 - [Convenzioni Filament](./FILAMENT_EXTENSION_PATTERN.md) - Pattern di estensione per Filament
 
 ### Configurazione
@@ -268,6 +295,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Sottocartelle
 
 ### Mail Templates
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - [Index](./mail-templates/index.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail-templates/mail_template_slug_implementation.md) - Implementazione del campo slug
@@ -283,6 +311,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - [Troubleshooting](./troubleshooting.md)
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 - [Index](./mail-templates/INDEX.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
 
@@ -303,21 +333,27 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 Ultimo aggiornamento: 14 Maggio 2025
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - Vedi anche: [../../../../../docs/README.md](../../../../../docs/readme.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -341,20 +377,26 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 Ultimo aggiornamento: 14 Maggio 2025
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - Vedi anche: [../../../../../docs/README.md](../../../../../docs/readme.md)
 Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - Vedi anche: [../../../../../docs/README.md](../../../../../docs/readme.md)
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
@@ -365,6 +407,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 - Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/readme.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
@@ -378,6 +421,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 - Vedi anche: [../../../../../docs/README.md](../../../../../docs/readme.md)
 =======
+=======
+>>>>>>> .merge_file_MBR4Gu
 - Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
@@ -389,12 +434,16 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< .merge_file_nj8LQ2
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< .merge_file_nj8LQ2
 <<<<<<< .merge_file_C9OsWn
 # Notify Module Documentation
 
@@ -472,3 +521,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 =======
 >>>>>>> .merge_file_dI5dcR
+=======
+>>>>>>> .merge_file_MBR4Gu

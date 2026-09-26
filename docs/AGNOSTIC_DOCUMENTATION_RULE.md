@@ -37,6 +37,7 @@ Replace specific names with placeholders:
 | Instead Of | Use |
 |------------|-----|
 | `FixCity` | `[PROJECT_NAME]` or `[Platform Name]` |
+<<<<<<< .merge_file_tMgThi
 <<<<<<< .merge_file_kO1Ofw
 | `fixcity.local` | `[DOMAIN]` or `your-project.local` |
 | `fixcity::` | `module_name::` or `your_module::` |
@@ -44,11 +45,16 @@ Replace specific names with placeholders:
 | `ptv.local` | `[DOMAIN]` or `your-project.local` |
 | `ptv::` | `module_name::` or `your_module::` |
 >>>>>>> .merge_file_smicPC
+=======
+| `ptv.local` | `[DOMAIN]` or `your-project.local` |
+| `ptv::` | `module_name::` or `your_module::` |
+>>>>>>> .merge_file_p4LiSI
 | `laravel/Modules/Fixcity` | `laravel/Modules/[ModuleName]` |
 
 ### 3. File Naming
 
 **❌ WRONG**:
+<<<<<<< .merge_file_tMgThi
 <<<<<<< .merge_file_kO1Ofw
 - `fixcity-pages-content-blocks.md`
 - `fixcity-integration.md`
@@ -56,6 +62,10 @@ Replace specific names with placeholders:
 - `ptv-pages-content-blocks.md`
 - `ptv-integration.md`
 >>>>>>> .merge_file_smicPC
+=======
+- `ptv-pages-content-blocks.md`
+- `ptv-integration.md`
+>>>>>>> .merge_file_p4LiSI
 - `project-name-setup.md`
 
 **✅ CORRECT**:
@@ -68,6 +78,7 @@ Replace specific names with placeholders:
 **❌ WRONG**:
 ```php
 namespace Modules\Fixcity\Models;
+<<<<<<< .merge_file_tMgThi
 <<<<<<< .merge_file_kO1Ofw
 route('fixcity.tickets.index')
 config('fixcity.settings')
@@ -75,6 +86,10 @@ config('fixcity.settings')
 route('ptv.tickets.index')
 config('ptv.settings')
 >>>>>>> .merge_file_smicPC
+=======
+route('ptv.tickets.index')
+config('ptv.settings')
+>>>>>>> .merge_file_p4LiSI
 ```
 
 **✅ CORRECT**:
@@ -90,11 +105,15 @@ When linking to other docs, use **relative paths** without project names:
 
 **❌ WRONG**:
 ```markdown
+<<<<<<< .merge_file_tMgThi
 <<<<<<< .merge_file_kO1Ofw
 - [FixCity Integration](../../fixcity/docs/roadmap.md)
 =======
 - [FixCity Integration](../../ptv/docs/roadmap.md)
 >>>>>>> .merge_file_smicPC
+=======
+- [FixCity Integration](../../ptv/docs/roadmap.md)
+>>>>>>> .merge_file_p4LiSI
 - [See Fixcity Module](../../../Modules/Fixcity/docs/)
 ```
 

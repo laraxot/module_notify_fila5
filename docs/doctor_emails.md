@@ -172,8 +172,12 @@ try {
 - [Documentazione Modulo Notify](./README.md)
 - [Documentazione Template Email](./EMAIL_TEMPLATES.md)
 - [Guida all'utilizzo di SpatieEmail](./SPATIE_EMAIL_USAGE_GUIDE.md)
+<<<<<<< .merge_file_muRnDg
 <<<<<<< .merge_file_NlRXSi
 - [Documentazione Filament Resources](./filament-resources.md)
 =======
 - [Documentazione Filament Resources](./filament-resources.md)
 >>>>>>> .merge_file_kf7LhX
+=======
+- [Documentazione Filament Resources](./filament-resources.md)
+>>>>>>> .merge_file_FgnsRP

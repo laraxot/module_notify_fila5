@@ -20,11 +20,15 @@ Questo assicura che qualsiasi client possa utilizzare qualsiasi provider senza m
 ### 2. Posizione delle Azioni
 
 Le azioni specifiche dei provider SMS si trovano nella directory:
+<<<<<<< .merge_file_Nc581E
 <<<<<<< .merge_file_0hNxpQ
 - `/var/www/html/Quaeris/laravel/Modules/Notify/app/Actions/SMS/`
 =======
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> .merge_file_NhaMGj
+=======
+- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
+>>>>>>> .merge_file_xvHTvd
 
 ### 3. Convenzioni di Nomenclatura
 
@@ -79,10 +83,13 @@ Le azioni di provider devono sempre:
        sender: $smsData->from,
        reference: null,
        scheduledDate: null
+<<<<<<< .merge_file_Nc581E
 <<<<<<< .merge_file_0hNxpQ
        scheduledDate: null
 =======
 >>>>>>> .merge_file_NhaMGj
+=======
+>>>>>>> .merge_file_xvHTvd
    );
    ```
 
@@ -117,8 +124,12 @@ Tutte le azioni devono gestire correttamente gli errori:
 
 1. Log appropriati degli errori
 2. Lancio di eccezioni in caso di errori critici
+<<<<<<< .merge_file_Nc581E
 <<<<<<< .merge_file_0hNxpQ
 3. Restituzione di un array con `'success' => false` in caso di errori non critici
 =======
 3. Restituzione di un array con `'success' => false` in caso di errori non critici
 >>>>>>> .merge_file_NhaMGj
+=======
+3. Restituzione di un array con `'success' => false` in caso di errori non critici
+>>>>>>> .merge_file_xvHTvd

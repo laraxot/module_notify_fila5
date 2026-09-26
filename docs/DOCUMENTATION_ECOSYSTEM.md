@@ -156,11 +156,15 @@ Theme: Sixteen
     │
     ├─→ Cms Module
     │   └─ Displays: Pages, blocks, content
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
     │   └─ Via: config/local/fixcity/database/content/pages/
 =======
     │   └─ Via: config/local/ptv/database/content/pages/
 >>>>>>> .merge_file_ABJXg7
+=======
+    │   └─ Via: config/local/ptv/database/content/pages/
+>>>>>>> .merge_file_rfYpeD
     │   └─ Renders: Block components
     │
     ├─→ Media Module
@@ -248,6 +252,7 @@ Xot (Core) ◄──────────────────────
 
 | I Need... | Start Here | Then Go To | Then Go To |
 |-----------|-----------|-----------|-----------|
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 | Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](ARCHITECTURE-DIAGRAMS.md) | Your task |
 | Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-INDEX.md` | Details |
@@ -257,6 +262,11 @@ Xot (Core) ◄──────────────────────
 | Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-index.md` | Details |
 | Theme overview | [Theme Index](THEMES_DOCUMENTATION_INDEX.md) | `Themes/{Name}/docs/00-index.md` | Details |
 >>>>>>> .merge_file_ABJXg7
+=======
+| Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](architecture-diagrams.md) | Your task |
+| Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-index.md` | Details |
+| Theme overview | [Theme Index](THEMES_DOCUMENTATION_INDEX.md) | `Themes/{Name}/docs/00-index.md` | Details |
+>>>>>>> .merge_file_rfYpeD
 | Create content | [Cms Docs](../laravel/Modules/Cms/docs/) | [Block Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md) | Examples |
 | Add component | [Component Guide](../laravel/Themes/Sixteen/docs/guides/adding-components.md) | [Layout Hierarchy](../laravel/Themes/Sixteen/docs/layout-hierarchy.md) | Code |
 | Authentication | [User Docs](../laravel/Modules/User/docs/) | [Auth Guide](../laravel/Modules/User/docs/guides/) | Examples |
@@ -264,11 +274,15 @@ Xot (Core) ◄──────────────────────
 | Send notifications | [Notify Docs](../laravel/Modules/Notify/docs/) | [Channels](../laravel/Modules/Notify/docs/guides/) | Examples |
 | Track changes | [Activity Docs](../laravel/Modules/Activity/docs/) | [Audit Trail](../laravel/Modules/Activity/docs/guides/) | Examples |
 | Code standards | [CLAUDE.md](../laravel/CLAUDE.md) | [Copilot Inst.](../../.github/copilot-instructions.md) | Review |
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 | Architecture | [Architecture](ARCHITECTURE-DIAGRAMS.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
 =======
 | Architecture | [Architecture](architecture-diagrams.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
 >>>>>>> .merge_file_ABJXg7
+=======
+| Architecture | [Architecture](architecture-diagrams.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
+>>>>>>> .merge_file_rfYpeD
 
 ---
 
@@ -292,11 +306,15 @@ Relevant Master Index (MODULE or THEME)
   │ (Module Index or Theme Index)
   │
   ▼
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 Module/Theme 00-INDEX.md
 =======
 Module/Theme 00-index.md
 >>>>>>> .merge_file_ABJXg7
+=======
+Module/Theme 00-index.md
+>>>>>>> .merge_file_rfYpeD
   │ (Component details)
   │
   ▼
@@ -329,11 +347,15 @@ Module Documentation (MODULE_DOCS_INDEX.md)
   │ (Get module overview)
   │
   ▼
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 Module 00-INDEX.md
 =======
 Module 00-index.md
 >>>>>>> .merge_file_ABJXg7
+=======
+Module 00-index.md
+>>>>>>> .merge_file_rfYpeD
   │ (Dependencies, classes)
   │
   ▼
@@ -387,11 +409,15 @@ docs/
 
 laravel/
 ├── CLAUDE.md                       ← Framework rules (38.7 KB)
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 ├── AGENTS.md
 =======
 ├── agents.md
 >>>>>>> .merge_file_ABJXg7
+=======
+├── agents.md
+>>>>>>> .merge_file_rfYpeD
 └── .windsurfrules                 ← Windsurf rules
 ```
 
@@ -400,21 +426,29 @@ laravel/
 ```
 laravel/Modules/
 ├── Xot/docs/
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 │   ├── 00-INDEX.md
 =======
 │   ├── 00-index.md
 >>>>>>> .merge_file_ABJXg7
+=======
+│   ├── 00-index.md
+>>>>>>> .merge_file_rfYpeD
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/
 │
 ├── Cms/docs/
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 │   ├── 00-INDEX.md
 =======
 │   ├── 00-index.md
 >>>>>>> .merge_file_ABJXg7
+=======
+│   ├── 00-index.md
+>>>>>>> .merge_file_rfYpeD
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/
@@ -427,11 +461,15 @@ laravel/Modules/
 ```
 laravel/Themes/
 ├── Sixteen/docs/
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 │   ├── 00-INDEX.md
 =======
 │   ├── 00-index.md
 >>>>>>> .merge_file_ABJXg7
+=======
+│   ├── 00-index.md
+>>>>>>> .merge_file_rfYpeD
 │   ├── architecture/
 │   ├── design-comuni/
 │   ├── components/
@@ -440,11 +478,15 @@ laravel/Themes/
 │   └── screenshots/
 │
 └── TwentyOne/docs/
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
     ├── 00-INDEX.md
 =======
     ├── 00-index.md
 >>>>>>> .merge_file_ABJXg7
+=======
+    ├── 00-index.md
+>>>>>>> .merge_file_rfYpeD
     └── (similar structure)
 ```
 
@@ -456,11 +498,15 @@ laravel/Themes/
 
 **I want to learn about:**
 
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 - **System Architecture** → [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
 =======
 - **System Architecture** → [ARCHITECTURE-DIAGRAMS.md](architecture-diagrams.md)
 >>>>>>> .merge_file_ABJXg7
+=======
+- **System Architecture** → [ARCHITECTURE-DIAGRAMS.md](architecture-diagrams.md)
+>>>>>>> .merge_file_rfYpeD
 - **Module Development** → [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
 - **Theme Development** → [THEMES_DOCUMENTATION_INDEX.md](THEMES_DOCUMENTATION_INDEX.md)
 - **Code Quality** → [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
@@ -502,11 +548,15 @@ laravel/Themes/
    - General? → docs/
 
 2. Follow structure:
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
    - 00-INDEX.md (always)
 =======
    - 00-index.md (always)
 >>>>>>> .merge_file_ABJXg7
+=======
+   - 00-index.md (always)
+>>>>>>> .merge_file_rfYpeD
    - architecture/ (how it works)
    - guides/ (how-to)
    - reference/ (API)
@@ -552,11 +602,15 @@ Master Indexes:
 ├─ MODULE_DOCS_INDEX.md (Module hub)
 ├─ THEMES_DOCUMENTATION_INDEX.md (Theme hub)
 ├─ ARCHITECTURE-DIAGRAMS.md (System overview)
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 ├─ docs/00-INDEX.md (Root index)
 =======
 ├─ docs/00-index.md (Root index)
 >>>>>>> .merge_file_ABJXg7
+=======
+├─ docs/00-index.md (Root index)
+>>>>>>> .merge_file_rfYpeD
 └─ DOCUMENTATION_ECOSYSTEM.md (You are here)
 
 Connected Via:
@@ -574,6 +628,7 @@ Connected Via:
 ### For Developers
 
 1. Start: [Copilot Instructions](../../.github/copilot-instructions.md)
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 2. Understand: [Architecture Diagrams](ARCHITECTURE-DIAGRAMS.md)
 3. Explore: [Module Index](MODULE_DOCS_INDEX.md) or [Theme Index](THEMES_DOCUMENTATION_INDEX.md)
@@ -583,16 +638,25 @@ Connected Via:
 3. Explore: [Module Index](MODULE_DOCS_INDEX.md) or [Theme Index](THEMES_DOCUMENTATION_INDEX.md)
 4. Deep Dive: Relevant module/theme 00-index.md
 >>>>>>> .merge_file_ABJXg7
+=======
+2. Understand: [Architecture Diagrams](architecture-diagrams.md)
+3. Explore: [Module Index](MODULE_DOCS_INDEX.md) or [Theme Index](THEMES_DOCUMENTATION_INDEX.md)
+4. Deep Dive: Relevant module/theme 00-index.md
+>>>>>>> .merge_file_rfYpeD
 5. Implement: Using guides and examples
 6. Validate: Against CLAUDE.md standards
 
 ### For Architects
 
+<<<<<<< .merge_file_7PraPQ
 <<<<<<< .merge_file_A5zBZ4
 1. Start: [Architecture Diagrams](ARCHITECTURE-DIAGRAMS.md)
 =======
 1. Start: [Architecture Diagrams](architecture-diagrams.md)
 >>>>>>> .merge_file_ABJXg7
+=======
+1. Start: [Architecture Diagrams](architecture-diagrams.md)
+>>>>>>> .merge_file_rfYpeD
 2. Understand: [Module Relationships](MODULE_DOCS_INDEX.md#cross-module-communication)
 3. Design: Using module/theme structure
 4. Review: [Code Quality Standards](CODE_QUALITY_STANDARDS.md)

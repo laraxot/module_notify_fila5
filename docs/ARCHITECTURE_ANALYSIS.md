@@ -1096,11 +1096,15 @@ The frontend follows Italian Public Administration design guidelines:
 <x-ui.marketing.breadcrumbs :crumbs="[...]" />
 
 // Ticket List (AGID-compliant)
+<<<<<<< .merge_file_CmO2w1
 <<<<<<< .merge_file_jewbKK
 <x-fixcity::blocks.ticket_list.agid />
 =======
 <x-ptv::blocks.ticket_list.agid />
 >>>>>>> .merge_file_hLvWRp
+=======
+<x-ptv::blocks.ticket_list.agid />
+>>>>>>> .merge_file_3HwD38
 
 // Forms (Filament + Custom CSS)
 - Titillium Web font family
@@ -1624,11 +1628,15 @@ Tasks:
 
 ### Recommended New Documentation
 ```
+<<<<<<< .merge_file_CmO2w1
 <<<<<<< .merge_file_jewbKK
 1. ARCHITECTURE.md
 =======
 1. architecture.md
 >>>>>>> .merge_file_hLvWRp
+=======
+1. architecture.md
+>>>>>>> .merge_file_3HwD38
    - System architecture diagrams
    - Module dependency graph
    - Database schema diagrams
