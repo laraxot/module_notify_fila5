@@ -1,8 +1,3 @@
-<<<<<<< .merge_file_9cWf40
-<<<<<<< .merge_file_yjdRHV
-=======
-=======
->>>>>>> .merge_file_UeMT6B
 ---
 title: "Repos"
 type: reference
@@ -14,10 +9,6 @@ note: "Convertito da _repos.txt (documento) da convert-docs-txt-to-md.py."
 
 # Repos
 
-<<<<<<< .merge_file_9cWf40
->>>>>>> .merge_file_jRkr4j
-=======
->>>>>>> .merge_file_UeMT6B
 -------------------------------------------------------------
 Add Simple Facet Filtering in Your Laravel Applications
 https://codebrisk.com/blog/add-simple-facet-filtering-in-your-laravel-applications

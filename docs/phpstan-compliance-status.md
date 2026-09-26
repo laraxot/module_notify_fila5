@@ -1,19 +1,12 @@
 # PHPStan Level 10 Compliance Status
 
-<<<<<<< .merge_file_PuQJvj
-**Last Updated**: 2026-06-13 (sessione test doubles + helper manager)
-=======
 **Last Updated**: 2026-07-06
->>>>>>> .merge_file_SRAfGS
 **Status**: ✅ FULLY COMPLIANT (0 errors, level max)
 
 Baseline STORY-289: 279 → 0. Pattern: `notify-env.php` + `MergesNotifyConfigFromEnv`, PushNotificationService PHPDoc.
 
-<<<<<<< .merge_file_PuQJvj
-=======
 Baseline sessione 2026-07-06: 193 → 0. Molti file in `tests/Unit/Actions` (SMS providers) mancavano di `namespace` e/o `uses(TestCase::class)`, oppure avevano un helper `assertReflectionTypeName()` locale corrotto (parametri senza nome, sintassi rotta) che duplicava quello già definito in `tests/Pest.php`. Corretti aggiungendo namespace/`uses()` mancanti e rimuovendo le ridefinizioni corrotte.
 
->>>>>>> .merge_file_SRAfGS
 ## Summary
 The Notify module is now fully compliant with PHPStan Level 10 analysis. All static analysis errors have been resolved, ensuring type safety and code quality.
 
@@ -82,8 +75,6 @@ To maintain PHPStan compliance:
 - [Push Notification Services](push-notification-services.md)
 - [Notification Patterns](notification-patterns.md)
 - [Service Architecture](service-architecture.md)
-<<<<<<< .merge_file_PuQJvj
-=======
 
 ## Aggiornamento 2026-07-06
 
@@ -102,4 +93,3 @@ Fix applicati in questa sessione:
   `Modules/Xot/docs/wiki/concepts/phpstan-trait-probes.md`.
 
 Dettagli completi: `docs/chat/phpstan-notify-module-zero-2026-07-06.md` (root repo).
->>>>>>> .merge_file_SRAfGS

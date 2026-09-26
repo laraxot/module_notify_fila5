@@ -219,26 +219,10 @@ Questo documento definisce le best practices per la creazione di template HTML p
 - [Documentazione MailPace](https://github.com/mailpace/templates)
 - [Struttura Template](./MAIL_TEMPLATES_STRUCTURE.md)
 - [Template Base](./BASE_TEMPLATES.md)
-<<<<<<< .merge_file_fkmTRL
-<<<<<<< .merge_file_WGjs62
-- [Struttura Template](./mail_templates_structure.md)
-- [Template Base](./base_templates.md)
-=======
->>>>>>> .merge_file_4i35uV
-=======
->>>>>>> .merge_file_ZnrGPB
 
 ## Supporto
 
 Per supporto tecnico:
 - Email: support@example.com
 - Documentazione: https://docs.example.com
-<<<<<<< .merge_file_fkmTRL
-<<<<<<< .merge_file_WGjs62
 - Repository: https://github.com/organization/notify 
-=======
-- Repository: https://github.com/organization/notify 
->>>>>>> .merge_file_4i35uV
-=======
-- Repository: https://github.com/organization/notify 
->>>>>>> .merge_file_ZnrGPB

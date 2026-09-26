@@ -246,14 +246,6 @@ Nonostante i potenziali svantaggi, i benefici superano i costi di implementazion
 - [Documentazione Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [Sistema di Template Email](./EMAIL_TEMPLATES.md)
 - [Email per i Dottori](./DOCTOR_EMAILS.md)
-<<<<<<< .merge_file_v94dGy
-<<<<<<< .merge_file_nWLXI9
-- [Sistema di Template Email](./email_templates.md)
-- [Email per i Dottori](./doctor_emails.md)
-=======
->>>>>>> .merge_file_AuVpQZ
-=======
->>>>>>> .merge_file_iqYOWf
 - [Filament Resources](./filament-resources.md)
 
 ## Implementazione Migrazione
@@ -287,12 +279,4 @@ $this->tableUpdate(
    - Facile da testare
    - Facile da estendere
 
-<<<<<<< .merge_file_v94dGy
-<<<<<<< .merge_file_nWLXI9
 // ... existing code ... 
-=======
-// ... existing code ... 
->>>>>>> .merge_file_AuVpQZ
-=======
-// ... existing code ... 
->>>>>>> .merge_file_iqYOWf

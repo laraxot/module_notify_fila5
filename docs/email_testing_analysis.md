@@ -171,13 +171,6 @@ public function sendEmail(): void
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
 - [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
-<<<<<<< .merge_file_WflAck
-<<<<<<< .merge_file_gWCUDA
-- [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
-=======
->>>>>>> .merge_file_XfbL3e
-=======
->>>>>>> .merge_file_ttue2t
 
 ## 📋 Checklist
 
@@ -190,12 +183,4 @@ public function sendEmail(): void
 - [ ] Aggiungere logging
 - [ ] Migliorare la documentazione
 - [ ] Aggiungere test unitari
-<<<<<<< .merge_file_WflAck
-<<<<<<< .merge_file_gWCUDA
 - [ ] Implementare caching 
-=======
-- [ ] Implementare caching 
->>>>>>> .merge_file_XfbL3e
-=======
-- [ ] Implementare caching 
->>>>>>> .merge_file_ttue2t

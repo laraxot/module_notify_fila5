@@ -1,8 +1,3 @@
-<<<<<<< .merge_file_LsZgm7
-<<<<<<< .merge_file_gQ0KXb
-=======
-=======
->>>>>>> .merge_file_CPLM4B
 ---
 title: "Design Comuni con Tailwind CSS Puro"
 module: notify
@@ -12,10 +7,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< .merge_file_LsZgm7
->>>>>>> .merge_file_lLvQJK
-=======
->>>>>>> .merge_file_CPLM4B
 # 🎨 Design Comuni con Tailwind CSS Puro
 
 ## Obiettivo

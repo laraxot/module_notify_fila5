@@ -43,15 +43,7 @@ Le azioni SMS sono organizzate secondo questa struttura:
 $smsData = new SmsData(
     to: '+393331234567',
     body: 'Il tuo codice OTP è: 123456',
-<<<<<<< .merge_file_yPb39X
-<<<<<<< .merge_file_ayOY97
-from: 'Quaeris'
-=======
     from: 'SaluteOra'
->>>>>>> .merge_file_EAtYT5
-=======
-    from: 'SaluteOra'
->>>>>>> .merge_file_JE2FnY
 );
 
 $action = new SendNetfunSMSAction();
@@ -78,12 +70,4 @@ $result = $action->execute($smsData);
 4. **Sicurezza**:
    - Validare l'input degli utenti
    - Sanitizzare i messaggi
-<<<<<<< .merge_file_yPb39X
-<<<<<<< .merge_file_ayOY97
    - Proteggere le chiavi API
-=======
-   - Proteggere le chiavi API
->>>>>>> .merge_file_EAtYT5
-=======
-   - Proteggere le chiavi API
->>>>>>> .merge_file_JE2FnY

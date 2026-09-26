@@ -130,16 +130,6 @@ protected $casts = [
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_6hHgqi
-<<<<<<< .merge_file_8xj2E2
-- [Modifiche Migrazione](./migration_changes.md)
-- [Regole Migrazioni](./migration_rules.md)
-- [Documentazione Template](./email_templates.md)
-- [Best Practices](./best-practices.md)
-=======
->>>>>>> .merge_file_YlNBk3
-=======
->>>>>>> .merge_file_kzDovZ
 - [Modifiche Migrazione](./MIGRATION_CHANGES.md)
 - [Regole Migrazioni](./MIGRATION_RULES.md)
 - [Documentazione Template](./EMAIL_TEMPLATES.md)
@@ -157,12 +147,4 @@ protected $casts = [
 Per supporto tecnico:
 - Email: support@example.com
 - Documentazione: https://docs.example.com
-<<<<<<< .merge_file_6hHgqi
-<<<<<<< .merge_file_8xj2E2
 - Repository: https://github.com/organization/notify 
-=======
-- Repository: https://github.com/organization/notify 
->>>>>>> .merge_file_YlNBk3
-=======
-- Repository: https://github.com/organization/notify 
->>>>>>> .merge_file_kzDovZ

@@ -423,25 +423,11 @@ docs/
 ├── README.md (✅ Project Overview)
 ├── MASTER_PLAN.md (✅ This document)
 ├── PROJECT_STATUS.md (✅ Status Report)
-<<<<<<< .merge_file_iPMcjs
-<<<<<<< .merge_file_LwByVy
-├── ARCHITECTURE.md (📋 Technical Architecture)
-├── API_REFERENCE.md (📋 API Documentation)
-├── DEPLOYMENT.md (📋 Deployment Guide)
-└── modules/
-    ├── fixcity/ (✅ Business Logic + Roadmap)
-=======
-=======
->>>>>>> .merge_file_HraLDb
 ├── architecture.md (📋 Technical Architecture)
 ├── API_REFERENCE.md (📋 API Documentation)
 ├── DEPLOYMENT.md (📋 Deployment Guide)
 └── modules/
     ├── ptv/ (✅ Business Logic + Roadmap)
-<<<<<<< .merge_file_iPMcjs
->>>>>>> .merge_file_CwU6Gc
-=======
->>>>>>> .merge_file_HraLDb
     ├── user/ (✅ IAM + Roadmap)
     ├── notify/ (✅ Notifications + Roadmap)
     ├── geo/ (✅ Geolocation + Roadmap)
@@ -496,13 +482,5 @@ FixCity è posizionata per diventare la **piattaforma leader europea** per il ci
 - *Technical capabilities e constraints*
 - *Team composition e roadmap feasibility*
 
-<<<<<<< .merge_file_iPMcjs
-<<<<<<< .merge_file_LwByVy
-**Per domande o approfondimenti**: development@fixcity.io
-=======
 **Per domande o approfondimenti**: development@ptv.io
->>>>>>> .merge_file_CwU6Gc
-=======
-**Per domande o approfondimenti**: development@ptv.io
->>>>>>> .merge_file_HraLDb
 

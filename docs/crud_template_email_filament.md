@@ -54,15 +54,7 @@ class EmailTemplateResource extends Resource
 {
     protected static string $model = EmailTemplate::class;
 
-<<<<<<< .merge_file_w6MRsQ
-<<<<<<< .merge_file_uu3x1F
-    public static function getFormSchema(): array
-=======
     public function getFormSchema(): array
->>>>>>> .merge_file_06L87x
-=======
-    public function getFormSchema(): array
->>>>>>> .merge_file_p3SIZO
     {
         return [
             'mailable_class' => Forms\Components\TextInput::make('mailable_class')->required(),

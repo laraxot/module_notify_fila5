@@ -242,26 +242,10 @@ Ogni template accetta le seguenti variabili comuni:
 - [Documentazione MailPace](https://github.com/mailpace/templates)
 - [Struttura Template](./MAIL_TEMPLATES_STRUCTURE.md)
 - [Best Practices](./EMAIL_HTML_BEST_PRACTICES.md)
-<<<<<<< .merge_file_SRbySG
-<<<<<<< .merge_file_v14Yjd
-- [Struttura Template](./mail_templates_structure.md)
-- [Best Practices](./email_html_best_practices.md)
-=======
->>>>>>> .merge_file_JNKD4V
-=======
->>>>>>> .merge_file_WAEua4
 
 ## Supporto
 
 Per supporto tecnico:
 - Email: support@example.com
 - Documentazione: https://docs.example.com
-<<<<<<< .merge_file_SRbySG
-<<<<<<< .merge_file_v14Yjd
 - Repository: https://github.com/organization/notify 
-=======
-- Repository: https://github.com/organization/notify 
->>>>>>> .merge_file_JNKD4V
-=======
-- Repository: https://github.com/organization/notify 
->>>>>>> .merge_file_WAEua4
