@@ -302,18 +302,25 @@ module.exports = {
 - Ogni sezione ha il suo README.md specifico
 
 ## Contribuire
+<<<<<<< .merge_file_vtMBWW
 <<<<<<< .merge_file_R71kdQ
 =======
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
 >>>>>>> .merge_file_egF3yT
+=======
+Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
+
+## Collegamenti Completi
+>>>>>>> .merge_file_IHv1O4
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md). 
+<<<<<<< .merge_file_vtMBWW
 <<<<<<< .merge_file_R71kdQ
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../../docs/regole_collegamenti_documentazione.md).
 
@@ -326,3 +333,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/project/README_links.md). 
 =======
 >>>>>>> .merge_file_egF3yT
+=======
+>>>>>>> .merge_file_IHv1O4

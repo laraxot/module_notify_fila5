@@ -19,11 +19,15 @@
 - [Coding Standards](./conventions/README.md)
 
 ### Per AI Agents
+<<<<<<< .merge_file_wpLL97
 <<<<<<< .merge_file_UvzGiU
 - [Project Context](./project/PROJECT.md)
 =======
 - [Project Context](./project/project.md)
 >>>>>>> .merge_file_yQJz8q
+=======
+- [Project Context](./project/project.md)
+>>>>>>> .merge_file_VZTzsF
 - [Agent Coordination](./MULTI_AGENT_COLLABORATION.md)
 - [OpenViking Context](../bashscripts/ai/openviking.md)
 
@@ -107,17 +111,23 @@ find docs -name "*.md" | xargs grep -l "keyword"
 
 ### Indici per Categoria
 
+<<<<<<< .merge_file_wpLL97
 <<<<<<< .merge_file_UvzGiU
 - [Architecture Index](./architecture/INDEX.md)
 - [Guides Index](./guides/INDEX.md)
 - [Reports Index](./reports/INDEX.md)
 - [Conventions Index](./conventions/INDEX.md)
 =======
+=======
+>>>>>>> .merge_file_VZTzsF
 - [Architecture Index](./architecture/index.md)
 - [Guides Index](./guides/index.md)
 - [Reports Index](./reports/index.md)
 - [Conventions Index](./conventions/index.md)
+<<<<<<< .merge_file_wpLL97
 >>>>>>> .merge_file_yQJz8q
+=======
+>>>>>>> .merge_file_VZTzsF
 
 ---
 

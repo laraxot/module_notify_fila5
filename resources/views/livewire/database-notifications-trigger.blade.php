@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 <x-filament::icon-button
     :badge="$unreadNotificationsCount"

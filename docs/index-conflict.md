@@ -46,11 +46,15 @@ This document serves as the central index for the Notify module, providing guida
 - Update this index if new features or significant changes are introduced to the Notify module.
 
 ## Links to Related Documentation
+<<<<<<< .merge_file_FXE7kj
 <<<<<<< .merge_file_SgkISs
 - [Architecture Overview](./ARCHITECTURE.md)
 =======
 - [Architecture Overview](./architecture.md)
 >>>>>>> .merge_file_1skm6M
+=======
+- [Architecture Overview](./architecture.md)
+>>>>>>> .merge_file_ihEKSk
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
@@ -88,11 +92,15 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Architettura e Struttura
 - [README](./README.md) - Panoramica generale del modulo
+<<<<<<< .merge_file_FXE7kj
 <<<<<<< .merge_file_SgkISs
 - [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
 =======
 - [Architettura](./architecture.md) - Architettura generale del modulo
 >>>>>>> .merge_file_1skm6M
+=======
+- [Architettura](./architecture.md) - Architettura generale del modulo
+>>>>>>> .merge_file_ihEKSk
 - [Struttura](./structure.md) - Struttura delle directory e dei componenti
 - [Modelli](./models.md) - Documentazione dei modelli Eloquent
 - [Eventi](./events.md) - Eventi e listeners
@@ -132,11 +140,15 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Testing e Qualità
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
+<<<<<<< .merge_file_FXE7kj
 <<<<<<< .merge_file_SgkISs
 - [Testing](./TESTING.md) - Strategie e approcci per il testing
 =======
 - [Testing](./testing.md) - Strategie e approcci per il testing
 >>>>>>> .merge_file_1skm6M
+=======
+- [Testing](./testing.md) - Strategie e approcci per il testing
+>>>>>>> .merge_file_ihEKSk
 
 ## Linee Guida per l'Implementazione
 
@@ -185,6 +197,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Sottocartelle
 
 ### Mail Templates
+<<<<<<< .merge_file_FXE7kj
 <<<<<<< .merge_file_SgkISs
 - [Index](./mail-templates/INDEX.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
@@ -195,6 +208,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
 =======
+=======
+>>>>>>> .merge_file_ihEKSk
 - [Index](./mail-templates/index.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
 
@@ -203,7 +218,10 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./architecture.md)
+<<<<<<< .merge_file_FXE7kj
 >>>>>>> .merge_file_1skm6M
+=======
+>>>>>>> .merge_file_ihEKSk
 - [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Template Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)

@@ -13,11 +13,15 @@
 - ✅ **DOCUMENTATION_STATUS.md** - Stato completo documentazione
 - ✅ **DOCUMENTATION_INDEX.md** - Indice generale completo
 - ✅ **QUICK_START.md** - Guida rapida sviluppatori
+<<<<<<< .merge_file_iOmCXp
 <<<<<<< .merge_file_pfXCBO
 - ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 =======
 - ✅ **work-completed.md** - Riepilogo aggiornamenti
 >>>>>>> .merge_file_G8Pgrl
+=======
+- ✅ **work-completed.md** - Riepilogo aggiornamenti
+>>>>>>> .merge_file_YshGok
 
 ### 🎫 Modulo Fixcity (85% → 90%)
 - ✅ **ROADMAP_2025.md** - Aggiornato timeline Q4 2025-Q2 2026
@@ -157,11 +161,15 @@
 1. **DOCUMENTATION_STATUS.md** - Stato documentazione completo
 2. **DOCUMENTATION_INDEX.md** - Indice generale navigabile
 3. **QUICK_START.md** - Guida rapida sviluppatori
+<<<<<<< .merge_file_iOmCXp
 <<<<<<< .merge_file_pfXCBO
 4. **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 =======
 4. **work-completed.md** - Riepilogo aggiornamenti
 >>>>>>> .merge_file_G8Pgrl
+=======
+4. **work-completed.md** - Riepilogo aggiornamenti
+>>>>>>> .merge_file_YshGok
 5. **PROJECT_COMPLETION_STATUS.md** - Questo documento
 
 ### Modulo Fixcity (3 documenti)
@@ -182,11 +190,15 @@
 ## 🔗 STRUTTURA DOCUMENTAZIONE
 
 ```
+<<<<<<< .merge_file_iOmCXp
 <<<<<<< .merge_file_pfXCBO
 base_fixcity_fila5_mono/
 =======
 base_ptv_fila5_mono/
 >>>>>>> .merge_file_G8Pgrl
+=======
+base_ptv_fila5_mono/
+>>>>>>> .merge_file_YshGok
 ├── DOCUMENTATION_INDEX.md          # ✅ Indice generale
 ├── QUICK_START.md                  # ✅ Guida rapida
 ├── ROADMAP_STATUS_SUMMARY.md       # ✅ Status master
@@ -256,6 +268,7 @@ base_ptv_fila5_mono/
 - **Doc Lead**: Documentazione
 
 ### Supporto
+<<<<<<< .merge_file_iOmCXp
 <<<<<<< .merge_file_pfXCBO
 - **Email**: dev@fixcity.it
 - **Docs**: docs@fixcity.it
@@ -265,6 +278,11 @@ base_ptv_fila5_mono/
 - **Docs**: docs@ptv.it
 - **Slack**: #ptv-dev
 >>>>>>> .merge_file_G8Pgrl
+=======
+- **Email**: dev@ptv.it
+- **Docs**: docs@ptv.it
+- **Slack**: #ptv-dev
+>>>>>>> .merge_file_YshGok
 
 ---
 

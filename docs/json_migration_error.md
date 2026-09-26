@@ -147,12 +147,15 @@ if ($validRecords !== $totalRecords) {
 - [Documentazione Migrazioni](./MIGRATION_RULES.md)
 - [Best Practices JSON](./JSON_BEST_PRACTICES.md)
 - [Gestione Errori](./ERROR_HANDLING.md)
+<<<<<<< .merge_file_OZJ8pc
 <<<<<<< .merge_file_p4IPS0
 - [Documentazione Migrazioni](./MIGRATION_RULES.md)
 - [Best Practices JSON](./JSON_BEST_PRACTICES.md)
 - [Gestione Errori](./ERROR_HANDLING.md)
 =======
 >>>>>>> .merge_file_jIOtTP
+=======
+>>>>>>> .merge_file_ioErTQ
 
 ## Note Importanti
 
@@ -166,8 +169,12 @@ if ($validRecords !== $totalRecords) {
 Per supporto tecnico:
 - Email: support@example.com
 - Documentazione: https://docs.example.com
+<<<<<<< .merge_file_OZJ8pc
 <<<<<<< .merge_file_p4IPS0
 - Repository: https://github.com/organization/notify 
 =======
 - Repository: https://github.com/organization/notify 
 >>>>>>> .merge_file_jIOtTP
+=======
+- Repository: https://github.com/organization/notify 
+>>>>>>> .merge_file_ioErTQ

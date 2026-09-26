@@ -1,5 +1,8 @@
+<<<<<<< .merge_file_W4OkXq
 <<<<<<< .merge_file_ErSB94
 =======
+=======
+>>>>>>> .merge_file_d0ZezP
 ---
 title: "Multi-Agent Collaboration Rules & Guidelines"
 module: notify
@@ -9,7 +12,10 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+<<<<<<< .merge_file_W4OkXq
 >>>>>>> .merge_file_V3jAFV
+=======
+>>>>>>> .merge_file_d0ZezP
 # Multi-Agent Collaboration Rules & Guidelines
 
 > **Purpose**: Establish rules, memories, and skills for effective multi-agent AI collaboration  

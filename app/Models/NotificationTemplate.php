@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Xot\Contracts\ProfileContract;
+use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\Translatable\HasTranslations;
@@ -33,7 +34,7 @@ use Spatie\Translatable\HasTranslations;
  * @property-read list<string> $translatable_columns_from
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
- * @property-read array<string, array<string, mixed>> $translations
+ * @property-read mixed $translations
  * @property-read ProfileContract|null $updater
  *
  * @method static Builder<static>|NotificationTemplate active()

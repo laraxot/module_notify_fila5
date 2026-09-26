@@ -120,12 +120,15 @@ public static function generateUniqueSlug(string $subject): string
 - [Proposta Slug](./SPATIE_EMAIL_SLUG_PROPOSAL.md)
 - [Changelog Migrazioni](./MIGRATIONS_CHANGELOG.md)
 - [Best Practices Email](./EMAIL_BEST_PRACTICES.md)
+<<<<<<< .merge_file_Si1CTQ
 <<<<<<< .merge_file_2HBNDS
 - [Proposta Slug](./spatie_email_slug_proposal.md)
 - [Changelog Migrazioni](./migrations_changelog.md)
 - [Best Practices Email](./email_best_practices.md)
 =======
 >>>>>>> .merge_file_c27hMr
+=======
+>>>>>>> .merge_file_qt0OBw
 
 ## Note di Implementazione
 
@@ -152,8 +155,12 @@ $slug = MailTemplate::generateUniqueSlug('Welcome to our platform');
 ### 3. Manutenzione
 - Monitorare la lunghezza degli slug
 - Verificare la gestione dei duplicati
+<<<<<<< .merge_file_Si1CTQ
 <<<<<<< .merge_file_2HBNDS
 - Controllare le performance delle query 
 =======
 - Controllare le performance delle query 
 >>>>>>> .merge_file_c27hMr
+=======
+- Controllare le performance delle query 
+>>>>>>> .merge_file_qt0OBw

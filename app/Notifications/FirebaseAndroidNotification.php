@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 /**
  * @see https://iftikhar-ahmed.medium.com/send-push-notifications-in-laravel-using-firebase-on-your-android-device-f585621db900
  */
@@ -17,6 +18,7 @@ use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use NotificationChannels\Fcm\FcmChannel;
+use Override;
 
 /**
  * Class for sending notifications via Firebase Cloud Messaging to Android devices.

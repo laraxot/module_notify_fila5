@@ -241,6 +241,7 @@ public static function getTableActions(): array
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< .merge_file_JIgCBz
 <<<<<<< .merge_file_pBYJUW
 - [XotBaseResource](../../Xot/project_docs/XotBaseResource.md)
 - [Architettura Filament](../../../../../docs/project/architecture/filament.md)
@@ -249,6 +250,10 @@ public static function getTableActions(): array
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 >>>>>>> .merge_file_CaDmt0
+=======
+- [Architettura Filament](../../../../project_docs/architecture/filament.md)
+- [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
+>>>>>>> .merge_file_cL9Za2
 
 ### Collegamenti ai Moduli
 - [XotBaseResource](../../Xot/project_docs/XotBaseResource.md)
@@ -270,6 +275,7 @@ public static function getTableActions(): array
 6. I campi JSON sono validati correttamente
 7. Le traduzioni seguono la struttura corretta 
 ## Collegamenti tra versioni di filament-resources.md
+<<<<<<< .merge_file_JIgCBz
 <<<<<<< .merge_file_pBYJUW
 * [filament-resources.md](../../../../../docs/project/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../../docs/project/regole/filament-resources.md)
@@ -277,15 +283,24 @@ public static function getTableActions(): array
 * [filament-resources.md](../../../../project_docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../project_docs/regole/filament-resources.md)
 >>>>>>> .merge_file_CaDmt0
+=======
+* [filament-resources.md](../../../../project_docs/tecnico/filament/filament-resources.md)
+* [filament-resources.md](../../../../project_docs/regole/filament-resources.md)
+>>>>>>> .merge_file_cL9Za2
 * [filament-resources.md](../../Gdpr/project_docs/filament-resources.md)
 * [filament-resources.md](../../Xot/project_docs/filament-resources.md)
 * [filament-resources.md](../../Patient/project_docs/filament-resources.md)
 * [filament-resources.md](../../Cms/project_docs/filament-resources.md)
 
 
+<<<<<<< .merge_file_JIgCBz
 <<<<<<< .merge_file_pBYJUW
 ---
 =======
 ---
 
 >>>>>>> .merge_file_CaDmt0
+=======
+---
+
+>>>>>>> .merge_file_cL9Za2

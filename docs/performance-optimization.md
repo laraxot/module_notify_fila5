@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_6WV4Uz
 <<<<<<< .merge_file_xUPqkV
 # Analisi e Ottimizzazione delle Performance
 
@@ -241,6 +242,8 @@ return [
 - Ottimizzare continuamente
 - Testare su diversi ambienti 
 =======
+=======
+>>>>>>> .merge_file_ExNBbR
 ---
 title: "Performance Optimization — Module Notify"
 type: documentation
@@ -362,4 +365,7 @@ context-mode ctx-stats
 
 ---
 *Status: Ottimizzato | Token risparmiati: ~48K per session*
+<<<<<<< .merge_file_6WV4Uz
 >>>>>>> .merge_file_w8c7PD
+=======
+>>>>>>> .merge_file_ExNBbR

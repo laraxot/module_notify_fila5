@@ -92,8 +92,12 @@
 - [Regole Migrazioni](./MIGRATION_RULES.md)
 - [Documentazione Template](./EMAIL_TEMPLATES.md)
 - [Best Practices Database](../../../docs/best-practices/database.md)
+<<<<<<< .merge_file_1G5sVi
 <<<<<<< .merge_file_uBf9gn
 - [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md) 
 =======
 - [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md) 
 >>>>>>> .merge_file_8ElFF8
+=======
+- [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md) 
+>>>>>>> .merge_file_zFEMOx

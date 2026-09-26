@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ZqsIqP
 <<<<<<< .merge_file_WTLq9t
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
@@ -538,6 +539,8 @@ public function getTableFilters(): array
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
 =======
+=======
+>>>>>>> .merge_file_0ImKmW
 ---
 module: Notify
 topic: METODI_DUPLICATI_ANALISI
@@ -1481,4 +1484,7 @@ Elenco dei metodi duplicati (cross-file e cross-modulo) che coinvolgono il modul
 
 ---
 _Report generato automaticamente — fonte: `/tmp/metodi_duplicati_domain_report.md`_
+<<<<<<< .merge_file_ZqsIqP
 >>>>>>> .merge_file_vIVIix
+=======
+>>>>>>> .merge_file_0ImKmW

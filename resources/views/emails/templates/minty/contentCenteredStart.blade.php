@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 <div class="block">
 	<!-- start textbox-with-title -->

@@ -37,9 +37,6 @@ use function Safe\file_get_contents;
 abstract class TestCase extends XotBaseTestCase
 {
     /**
-     * Type-guard helper: `mixed $value` e' il punto — accetta un valore
-     * arbitrario e asserisce che sia un array.
-     *
      * @return array<string, mixed>
      */
     public static function assertNotifyArray(mixed $value): array
@@ -81,7 +78,6 @@ abstract class TestCase extends XotBaseTestCase
      * Legge una catena di chiavi annidate, asserendo a ogni livello che esista.
      *
      * @param  array<mixed, mixed>|null  $array
-     * @return mixed Il valore in fondo alla catena di chiavi e' eterogeneo per definizione
      */
     public static function notifyArrayGet(?array $array, int|string ...$keys): mixed
     {

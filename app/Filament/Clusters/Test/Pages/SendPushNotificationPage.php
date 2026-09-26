@@ -22,6 +22,7 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Override;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -61,22 +62,26 @@ class SendPushNotificationPage extends XotBasePage
         /**
          * Callback per mappare i dispositivi in opzioni per il select.
          */
-        $callback = static function (DeviceUser $item): array {
+        $callback = static function (mixed $item): array {
+            if (! is_object($item)) {
+                return [];
+            }
+
             // Relations & attributes (Laravel-safe)
-            $profile = $item->getRelationValue('profile');
+            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
             if (! is_object($profile)) {
                 return [];
             }
             $fullNameRaw = data_get($profile, 'full_name');
             $fullName = is_scalar($fullNameRaw) ? (string) $fullNameRaw : 'Utente';
 
-            $tokenAttr = $item->getAttribute('push_notifications_token');
+            $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
             $token = is_string($tokenAttr) ? $tokenAttr : '';
             if ($token === '' || $token === 'unknown') {
                 return [];
             }
 
-            $device = $item->getRelationValue('device');
+            $device = method_exists($item, 'getRelationValue') ? $item->getRelationValue('device') : null;
             $robotVal = data_get($device, 'robot');
             $robot = is_string($robotVal) ? $robotVal : null;
 
@@ -90,8 +95,13 @@ class SendPushNotificationPage extends XotBasePage
         /**
          * Callback per filtrare i dispositivi.
          */
-        $filterCallback = static function (DeviceUser $item): bool {
-            return is_object($item->getRelationValue('profile'));
+        $filterCallback = static function (mixed $item): bool {
+            if (! is_object($item)) {
+                return false;
+            }
+            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
+
+            return is_object($profile);
         };
 
         $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
@@ -206,7 +216,6 @@ class SendPushNotificationPage extends XotBasePage
 
                 ->submit('notificationFormActions')];
     }
-
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

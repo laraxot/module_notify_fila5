@@ -1,5 +1,8 @@
+<<<<<<< .merge_file_IUIKue
 <<<<<<< .merge_file_JqQY4X
 =======
+=======
+>>>>>>> .merge_file_FuImtp
 ---
 title: "Fix Traduzioni Pagina Login"
 module: notify
@@ -9,7 +12,10 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+<<<<<<< .merge_file_IUIKue
 >>>>>>> .merge_file_5Nncgw
+=======
+>>>>>>> .merge_file_FuImtp
 # 🔧 Fix Traduzioni Pagina Login
 
 **Data**: 14 Ottobre 2025  
