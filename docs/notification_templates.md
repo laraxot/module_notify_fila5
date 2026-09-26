@@ -100,6 +100,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 
 ## Link Correlati
 
+<<<<<<< .merge_file_Y3VZq5
 <<<<<<< .merge_file_DWGHmN
 - [Documentazione Filament](../../../../docs/project/filament.md)
 - [Documentazione Media Library](../../../../docs/project/media-library.md)
@@ -109,3 +110,8 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 - [Documentazione Media Library](../../../project_docs/media-library.md)
 - [Documentazione Traduzioni](../../../project_docs/translations.md) 
 >>>>>>> .merge_file_r6XNNS
+=======
+- [Documentazione Filament](../../../project_docs/filament.md)
+- [Documentazione Media Library](../../../project_docs/media-library.md)
+- [Documentazione Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> .merge_file_lCPbEr

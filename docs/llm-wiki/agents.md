@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Dz9jND
 <<<<<<< .merge_file_IK9pEP
 ---
 title: "Agent instructions"
@@ -14,6 +15,8 @@ related:
 
 =======
 >>>>>>> .merge_file_yYCz73
+=======
+>>>>>>> .merge_file_u1AECs
 # Notify {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** Notify

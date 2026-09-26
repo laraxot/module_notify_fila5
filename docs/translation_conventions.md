@@ -1,8 +1,11 @@
+<<<<<<< .merge_file_d9Dp1W
 <<<<<<< .merge_file_aYqGx5
 # Translation Conventions
 
 Conventions for naming and structure of translation keys.
 =======
+=======
+>>>>>>> .merge_file_gjQhaK
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali
@@ -238,4 +241,7 @@ Le traduzioni devono essere oneste, non ingannevoli, non manipolatorie e non off
 
 ## Zen
 La traduzione perfetta è quella che non si nota: è naturale, fluida, non distrae e non crea attrito. Ogni parola superflua va eliminata, ogni concetto va reso con la massima semplicità e armonia.
+<<<<<<< .merge_file_d9Dp1W
 >>>>>>> .merge_file_Ru1n1z
+=======
+>>>>>>> .merge_file_gjQhaK

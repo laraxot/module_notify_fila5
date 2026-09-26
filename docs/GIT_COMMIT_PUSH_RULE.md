@@ -1,5 +1,8 @@
+<<<<<<< .merge_file_imicW7
 <<<<<<< .merge_file_zoVQMb
 =======
+=======
+>>>>>>> .merge_file_Imiuj3
 ---
 title: "Git Commit & Push Workflow - AI Agent Rules"
 module: notify
@@ -9,7 +12,10 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+<<<<<<< .merge_file_imicW7
 >>>>>>> .merge_file_6D9ctK
+=======
+>>>>>>> .merge_file_Imiuj3
 # Git Commit & Push Workflow - AI Agent Rules
 
 **Status**: ✅ Active  

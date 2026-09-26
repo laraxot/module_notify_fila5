@@ -1,8 +1,11 @@
+<<<<<<< .merge_file_0DBLIj
 <<<<<<< .merge_file_vHUH2J
 # Translation Cleanup Plan
 
 Plan for cleaning up and standardizing translations across the module.
 =======
+=======
+>>>>>>> .merge_file_NnhXpe
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
@@ -101,4 +104,7 @@ return [
 ## Implementazione
 
 L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify seguano gli standard definiti, migliorando la manutenibilità e la coerenza del codice.
+<<<<<<< .merge_file_0DBLIj
 >>>>>>> .merge_file_3ZN6mC
+=======
+>>>>>>> .merge_file_NnhXpe

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 use PHPUnit\Framework\Assert;
 
 it('does not contain the legacy notification tracking controller', function (): void {

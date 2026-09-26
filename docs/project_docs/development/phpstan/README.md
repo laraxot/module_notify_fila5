@@ -42,11 +42,15 @@ Questa sezione contiene la documentazione per la configurazione e l'utilizzo di 
 
 ### File di Bootstrap
 - `./phpstan_constants.php`
+<<<<<<< .merge_file_z7JTJP
 <<<<<<< .merge_file_iWDxJA
 - `./Modules/Xot/Helpers/Helper.php`
 =======
 - `./Modules/Xot/helpers/Helper.php`
 >>>>>>> .merge_file_2xywml
+=======
+- `./Modules/Xot/helpers/Helper.php`
+>>>>>>> .merge_file_p4VCsc
 
 ## Processo di Analisi
 

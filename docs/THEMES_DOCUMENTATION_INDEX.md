@@ -16,11 +16,15 @@ Connects all theme docs with bidirectional links and visual architecture.
 **Tech Stack:** Tailwind CSS + Alpine.js + Livewire Volt
 
 **Core Documentation:**
+<<<<<<< .merge_file_5WITq2
 <<<<<<< .merge_file_6Kmjtu
 - [00-INDEX.md](../laravel/Themes/Sixteen/docs/00-INDEX.md) - Start here
 =======
 - [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md) - Start here
 >>>>>>> .merge_file_BS8leb
+=======
+- [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md) - Start here
+>>>>>>> .merge_file_Gfyq5a
 - [Design Comuni Integration](../laravel/Themes/Sixteen/docs/design-comuni-integration.md)
 - [Component Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md)
 - [Layout Architecture](../laravel/Themes/Sixteen/docs/layout-hierarchy.md)
@@ -29,11 +33,15 @@ Connects all theme docs with bidirectional links and visual architecture.
 ```
 Sixteen/
 ├── docs/                          ← 200+ documentation files
+<<<<<<< .merge_file_5WITq2
 <<<<<<< .merge_file_6Kmjtu
 │   ├── 00-INDEX.md               ← MASTER INDEX
 =======
 │   ├── 00-index.md               ← MASTER INDEX
 >>>>>>> .merge_file_BS8leb
+=======
+│   ├── 00-index.md               ← MASTER INDEX
+>>>>>>> .merge_file_Gfyq5a
 │   ├── architecture/             ← Diagrams & architecture
 │   ├── design-comuni/            ← Design Comuni project
 │   ├── components/               ← Component docs
@@ -235,11 +243,15 @@ Request: GET /it/tests/homepage
    @mount('tests.homepage')
    
 4. Middleware loads JSON:
+<<<<<<< .merge_file_5WITq2
 <<<<<<< .merge_file_6Kmjtu
    config/local/fixcity/database/content/pages/homepage.json
 =======
    config/local/ptv/database/content/pages/homepage.json
 >>>>>>> .merge_file_BS8leb
+=======
+   config/local/ptv/database/content/pages/homepage.json
+>>>>>>> .merge_file_Gfyq5a
 
 5. Data passed to view:
    @props('content' => $content)
@@ -393,6 +405,7 @@ Integrates with:
 
 **Via .env:**
 ```bash
+<<<<<<< .merge_file_5WITq2
 <<<<<<< .merge_file_6Kmjtu
 APP_URL=http://fixcity.local
 # Theme detected from APP_URL → fixcity → Sixteen (or override via config)
@@ -400,15 +413,23 @@ APP_URL=http://fixcity.local
 APP_URL=http://ptv.local
 # Theme detected from APP_URL → ptv → Sixteen (or override via config)
 >>>>>>> .merge_file_BS8leb
+=======
+APP_URL=http://ptv.local
+# Theme detected from APP_URL → ptv → Sixteen (or override via config)
+>>>>>>> .merge_file_Gfyq5a
 ```
 
 **Via Config:**
 ```php
+<<<<<<< .merge_file_5WITq2
 <<<<<<< .merge_file_6Kmjtu
 // laravel/config/local/fixcity/xra.php
 =======
 // laravel/config/local/ptv/xra.php
 >>>>>>> .merge_file_BS8leb
+=======
+// laravel/config/local/ptv/xra.php
+>>>>>>> .merge_file_Gfyq5a
 'pub_theme' => 'Sixteen',  // or 'TwentyOne'
 ```
 
@@ -462,6 +483,7 @@ public_html/assets/
 
 ## See Also
 
+<<<<<<< .merge_file_5WITq2
 <<<<<<< .merge_file_6Kmjtu
 - **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
 - **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
@@ -471,6 +493,11 @@ public_html/assets/
 - **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
 - **Master Index:** [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md)
 >>>>>>> .merge_file_BS8leb
+=======
+- **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](architecture-diagrams.md)
+- **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
+- **Master Index:** [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md)
+>>>>>>> .merge_file_Gfyq5a
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules:** [../laravel/CLAUDE.md](../laravel/CLAUDE.md)
 

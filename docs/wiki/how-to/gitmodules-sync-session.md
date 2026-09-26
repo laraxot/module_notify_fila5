@@ -3,6 +3,7 @@ title: "Gitmodules sync session — note modulo/tema"
 type: how-to
 tags: [git, gitmodules, sync, quality-gates, merge-conflict]
 created: 2026-07-21
+<<<<<<< .merge_file_kNJXD1
 <<<<<<< .merge_file_UNnwLm
 =======
 <<<<<<< .merge_file_lwHYOw
@@ -23,6 +24,8 @@ related:
 <<<<<<< .merge_file_lwHYOw
 =======
 =======
+=======
+>>>>>>> .merge_file_uBXiKL
 updated: 2026-09-21
 qmd: "gitmodules sync session module theme git-C nested repo not submodule"
 issues:
@@ -32,13 +35,17 @@ related:
   - "../../../../../../docs/wiki/memories/no-git-submodules-module-repos.md"
   - "../../../../../../docs/wiki/rules/gitmodules-ini-paths-only.md"
   - "../../../../../../docs/wiki/how-to/per-module-git-sync-verification.md"
+<<<<<<< .merge_file_kNJXD1
 >>>>>>> .merge_file_iLNzAt
 >>>>>>> .merge_file_EHr8gi
 >>>>>>> .merge_file_Zh8c9z
+=======
+>>>>>>> .merge_file_uBXiKL
 ---
 
 # Gitmodules sync session
 
+<<<<<<< .merge_file_kNJXD1
 <<<<<<< .merge_file_UNnwLm
 =======
 <<<<<<< .merge_file_lwHYOw
@@ -64,6 +71,8 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 <<<<<<< .merge_file_lwHYOw
 =======
 =======
+=======
+>>>>>>> .merge_file_uBXiKL
 Notify è una **repository Git autonoma** (`path` in `gitmodules.ini`), non un submodule.
 Isolamento: `git -C laravel/Modules/Notify` + `rev-parse --show-toplevel` uguale al path.
 Mai Shell `working_directory`. Git solo avanti: fetch + merge (no rebase, no restore).
@@ -79,6 +88,9 @@ Mai Shell `working_directory`. Git solo avanti: fetch + merge (no rebase, no res
 
 - [no-git-submodules-module-repos.md](../../../../../../docs/wiki/memories/no-git-submodules-module-repos.md)
 - Prompt: [17-gitmodules-path-iteration.md](../../../../../../bashscripts/docs/prompts/17-gitmodules-path-iteration.md)
+<<<<<<< .merge_file_kNJXD1
 >>>>>>> .merge_file_iLNzAt
 >>>>>>> .merge_file_EHr8gi
 >>>>>>> .merge_file_Zh8c9z
+=======
+>>>>>>> .merge_file_uBXiKL

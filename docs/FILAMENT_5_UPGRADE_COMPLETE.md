@@ -94,11 +94,15 @@ composer show livewire/livewire
 ### 1. Clear Cache
 
 ```bash
+<<<<<<< .merge_file_DFSwYG
 <<<<<<< .merge_file_OzPxxA
 cd /var/www/_bases/base_fixcity_fila5/laravel
 =======
 cd /var/www/_bases/base_ptv_fila5/laravel
 >>>>>>> .merge_file_buF3HV
+=======
+cd /var/www/_bases/base_ptv_fila5/laravel
+>>>>>>> .merge_file_RQwiMf
 php artisan config:clear
 php artisan cache:clear
 php artisan view:clear
@@ -109,17 +113,23 @@ php artisan route:clear
 
 ```bash
 # Test homepage
+<<<<<<< .merge_file_DFSwYG
 <<<<<<< .merge_file_OzPxxA
 http://fixcity.local/it/tests/homepage
 
 # Test Filament admin
 http://fixcity.local/admin
 =======
+=======
+>>>>>>> .merge_file_RQwiMf
 http://ptv.local/it/tests/homepage
 
 # Test Filament admin
 http://ptv.local/admin
+<<<<<<< .merge_file_DFSwYG
 >>>>>>> .merge_file_buF3HV
+=======
+>>>>>>> .merge_file_RQwiMf
 ```
 
 ### 3. Check for Breaking Changes

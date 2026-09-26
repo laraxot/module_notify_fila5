@@ -489,11 +489,15 @@ Funzionalità:
 - [ ] Report performance mensili
 
 **File da creare**:
+<<<<<<< .merge_file_GCg0Xl
 <<<<<<< .merge_file_EBNZbk
 - `config/fixcity-sla.php`
 =======
 - `config/ptv-sla.php`
 >>>>>>> .merge_file_H4BB4n
+=======
+- `config/ptv-sla.php`
+>>>>>>> .merge_file_jl442s
 - `Modules/Fixcity/app/Services/SlaTrackingService.php`
 - `Modules/Fixcity/app/Jobs/CheckSlaViolationsJob.php`
 

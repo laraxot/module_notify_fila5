@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Traits;
 
+<<<<<<< .merge_file_SPQPgQ
+=======
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> .merge_file_d8h3G9
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Modules\Notify\Models\NotificationLog;
@@ -15,7 +19,11 @@ final class NotifyRateLimitDummy
 {
     use HasNotificationRateLimiting;
 
+<<<<<<< .merge_file_SPQPgQ
     public function key(string $type, mixed $identifier): string
+=======
+    public function key(string $type, int|string $identifier): string
+>>>>>>> .merge_file_d8h3G9
     {
         return $this->getNotificationRateLimitKey($type, $identifier);
     }
@@ -63,6 +71,24 @@ final class NotifyTrackingDummy
     {
         return $this->isTrackingEnabled();
     }
+<<<<<<< .merge_file_SPQPgQ
+=======
+
+    public function pixelTrackingEnabled(): bool
+    {
+        return $this->isPixelTrackingEnabled();
+    }
+
+    public function linkTrackingEnabled(): bool
+    {
+        return $this->isLinkTrackingEnabled();
+    }
+
+    public function generatedTrackingId(): string
+    {
+        return $this->generateTrackingId();
+    }
+>>>>>>> .merge_file_d8h3G9
 }
 
 final class NotifyTenantDummyModel extends Model
@@ -80,4 +106,16 @@ final class NotifyTenantDummyModel extends Model
     {
         return $this->morphMany(NotificationLog::class, 'notifiable');
     }
+<<<<<<< .merge_file_SPQPgQ
+=======
+
+    /**
+     * @param  Builder<static>  $query
+     * @return Builder<static>
+     */
+    public function applyForTenantScope(Builder $query): Builder
+    {
+        return $this->scopeForTenant($query);
+    }
+>>>>>>> .merge_file_d8h3G9
 }
