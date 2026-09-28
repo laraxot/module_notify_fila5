@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "openviking integration.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: openviking-integration.md"
 module: Notify
 type: note

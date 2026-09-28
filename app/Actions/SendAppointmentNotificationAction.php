@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 // This file references <nome progetto> models that do not exist in this project
 
 namespace Modules\Notify\Actions;

@@ -1,4 +1,14 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "adr architecture decision"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 name: Architecture Decision Record
 about: Propose an architecture decision for Design Comuni replication
 title: 'ADR: [Title]'

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ZEN OF DOCUMENTATION.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: ZEN_OF_DOCUMENTATION.md"
 module: Notify
 type: note

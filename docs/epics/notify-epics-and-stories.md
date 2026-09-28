@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "notify epics and stories"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Epics and User Stories"
 type: user_stories
 tags: [user stories, epics, notify]

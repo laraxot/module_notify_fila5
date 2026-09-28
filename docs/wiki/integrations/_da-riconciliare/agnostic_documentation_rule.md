@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "agnostic documentation rule"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Agnostic Documentation Rule"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "email templates guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email templates guide"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Guida ai Template Email Responsive
 
 Questa guida descrive i template email responsive disponibili nel modulo Notify, la loro struttura e come utilizzarli nelle comunicazioni con gli utenti.

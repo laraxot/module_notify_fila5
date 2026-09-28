@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "pagine create.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: pagine-create.md"
 module: Notify
 type: note

@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 use Filament\Facades\Filament;
 use Illuminate\Support\Facades\Route;
 use Modules\Notify\Tests\Unit\Traits\NotifyRateLimitDummy;
@@ -28,7 +32,11 @@ describe('Notify Traits Coverage', function (): void {
 
             $dummy->reset($key);
             Assert::assertTrue($dummy->shouldSend($key));
+<<<<<<< HEAD
         } catch (\Throwable $e) {
+=======
+        } catch (Throwable $e) {
+>>>>>>> laraxot/dev
             Assert::markTestSkipped('Rate limiter/cache non disponibile offline: '.$e->getMessage());
         }
     });
@@ -84,7 +92,11 @@ describe('Notify Traits Coverage', function (): void {
             Assert::assertStringContainsString('tenant_id', $dummy->applyForTenantScope($dummy->newQuery())->toSql());
 
             Filament::setTenant(null, isQuiet: true);
+<<<<<<< HEAD
         } catch (\Throwable $e) {
+=======
+        } catch (Throwable $e) {
+>>>>>>> laraxot/dev
             Assert::markTestSkipped('Tenant/Filament non disponibile offline: '.$e->getMessage());
         }
     });

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "body structure parity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "body structure parity"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Body Structure Parity Bridge
 
 This note links the agnostic comparison tooling in `bashscripts` with the Sixteen theme parity reports.

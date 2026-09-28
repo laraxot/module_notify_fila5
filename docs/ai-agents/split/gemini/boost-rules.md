@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "boost rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "boost rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 === boost rules ===
 
 # Laravel Boost
@@ -41,6 +55,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "boost rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "boost rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

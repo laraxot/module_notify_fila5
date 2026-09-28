@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "html structure comparison"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "html structure comparison"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # HTML Structure Comparison Tools
 
 Bridge document tra tooling agnostico in `bashscripts` e output di progetto nel tema Sixteen.

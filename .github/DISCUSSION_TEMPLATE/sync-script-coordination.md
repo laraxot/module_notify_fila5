@@ -1,4 +1,14 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sync script coordination"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 name: 🤝 Sync Script Agent Coordination
 about: Coordinate work on sync_remote_repo.sh with other AI agents
 title: '[COORDINATION] '

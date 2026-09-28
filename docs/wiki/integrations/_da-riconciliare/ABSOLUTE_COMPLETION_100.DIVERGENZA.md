@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ABSOLUTE COMPLETION 100.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: ABSOLUTE_COMPLETION_100.md"
 module: Notify
 type: note

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "claude pitfalls"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude pitfalls"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # CLAUDE Common Pitfalls
 
 Errori comuni da evitare.
@@ -9,6 +23,17 @@ Errori comuni da evitare.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "claude pitfalls"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude pitfalls"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ### 2. ❌ Connessioni Per-Modulo in Config
 **✅ CORRETTO**: Seguire Laravel 12 standard - solo driver connections
 

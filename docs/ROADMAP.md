@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ROADMAP"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🗺️ FixCity Design System - Product Roadmap
 
 > **Central hub consolidating 355+ scattered planning files into unified vision**  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ROADMAP"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 Roadmap Overview
 
 FixCity is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 4.x + Tailwind CSS + Alpine.js.
@@ -392,7 +417,11 @@ All old roadmap files have been archived to preserve history. See **[MIGRATION_G
 | **Product Manager** | [Phase Overview](#current-phase-phase-11) |
 | **Developer** | [Module Roadmaps](#-module-specific-roadmaps) |
 | **DevOps** | [Infrastructure Guide](../docs/deployment/) |
+<<<<<<< HEAD
 | **Contributor** | [Contributing Guide](./contributing.md) |
+=======
+| **Contributor** | [Contributing Guide](../CONTRIBUTING.md) |
+>>>>>>> laraxot/dev
 | **Archivist** | [Migration Guide](./archive/roadmaps/MIGRATION_GUIDE.md) |
 
 ---

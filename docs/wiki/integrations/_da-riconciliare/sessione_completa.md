@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "sessione completa"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Sessione Completata - Allineamento Bootstrap Italia"
 module: notify
 type: integration

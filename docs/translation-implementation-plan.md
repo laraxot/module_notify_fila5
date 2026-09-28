@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "translation implementation plan"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translation implementation plan"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .

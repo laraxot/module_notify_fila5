@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "html comparison config"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "HTML Structure Comparison Configuration"
 module: notify
 type: integration

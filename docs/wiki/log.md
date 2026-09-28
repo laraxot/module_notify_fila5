@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "log"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "log"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ## [2026-09-11] fix | invito automatico — Difetto 11/12, regola un-canale
 
 - **Difetto 11 (bloccante SMS)**: `SendRecordNotificationAction` instradava l'SMS con `Notification::route(SmsChannel::class, …)` (FQCN come chiave), ma `RecordNotification::via()`/`toSms()` cercano il recapito sotto `'sms'` → `via()` tornava `[]` → l'SMS dell'invito automatico non partiva, in silenzio. Fix: `Notification::route($channelEnum->value, …)`. Commit `f150a9a54`.
@@ -36,6 +50,16 @@
 - GitHub: [#272](https://github.com/laraxot/platform/issues/272) / [D#273](https://github.com/laraxot/platform/discussions/273)
 
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "log"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Wiki Activity Log"
 module: "Notify"
 ---
@@ -58,6 +82,7 @@ module: "Notify"
 - Unica `create_notifications_table` in Notify; `model_class` = `User\Models\Notification`
 - Solo `XotBaseMigration` — mai `extends Migration`
 - Vietato duplicato in User/ (es. pattern `2026_07_02_*` con bigint morphs)
+<<<<<<< HEAD
 
 ## 2026-09-17 — Campi "SMS driver" e "Netfun token" in Impostazioni: `SMS_DRIVER`/`NETFUN_TOKEN` editabili senza SSH (module_quaeris_fila5#38)
 
@@ -73,3 +98,5 @@ module: "Notify"
 - Il form ora raggruppa i campi in Section (General/SMS/Mail) e legge label/helper da `Xot/lang/it/env.php`.
 - Attenzione: `MAIL_FROM_NAME="${APP_NAME}"` compare già risolto; la riga non viene riscritta se il campo resta invariato.
 - Dettagli e motivazioni: [Xot — env-widget-no-ssh-env-editor](../../../Xot/docs/wiki/concepts/env-widget-no-ssh-env-editor.md), story [quaeris-envwidget-mail-config-fields](../../../Quaeris/docs/stories/quaeris-envwidget-mail-config-fields.md).
+=======
+>>>>>>> laraxot/dev

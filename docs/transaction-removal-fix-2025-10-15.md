@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "transaction removal fix 2025 10 15"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "transaction removal fix 2025 10 15"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Fix Transaction Model - Migrate Fresh Error
 
 **Data**: 15 Ottobre 2025  

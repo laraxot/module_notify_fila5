@@ -18,7 +18,11 @@ use Spatie\Translatable\HasTranslations;
 /**
  * @property-read list<string> $translatable_columns_from
  * @property-read array<string, mixed> $variables
+<<<<<<< HEAD
  * @property-read array<string, array<string, mixed>> $translations
+=======
+ * @property-read mixed $translations
+>>>>>>> laraxot/dev
  *
  * @method static Builder<static>|MailTemplate forMailable(\Illuminate\Contracts\Mail\Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()

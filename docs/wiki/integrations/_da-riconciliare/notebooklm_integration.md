@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "notebooklm integration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "NotebookLM Integration"
 module: notify
 type: integration

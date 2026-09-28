@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "LOGGING_OPTIMIZATION_SUMMARY_2026-03-02"
 type: concept
 tags: [deprecated]

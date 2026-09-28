@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "approfondimento tailwind"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "approfondimento tailwind"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Approfondimento Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Architettura e Configurazione

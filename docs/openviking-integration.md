@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "openviking integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "openviking integration"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # OpenViking Integration Guide
 
 ## Overview
@@ -423,6 +437,17 @@ openviking status
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "openviking integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "openviking integration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Last Updated**: 2026-03-30  
 **Version**: 1.0.0  
 **Status**: Initial Implementation

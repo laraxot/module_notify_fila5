@@ -34,6 +34,7 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
+<<<<<<< HEAD
      * Modello per cui è stata costruita la notifica.
      *
      * `SendRecordNotificationAction` invia sempre con
@@ -47,6 +48,8 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
+=======
+>>>>>>> laraxot/dev
      * Get the notification's delivery channels.
      *
      * Determines channels based on the notifiable's routing capabilities.
@@ -117,9 +120,15 @@ class RecordNotification extends Notification implements ShouldQueue
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $to = $notifiable->routeNotificationFor('sms');
         }
+<<<<<<< HEAD
         $fallbackTo = config('sms.fallback_to');
         if (is_string($fallbackTo)) {
             $to = $fallbackTo;
+=======
+        $fallback_to = config('sms.fallback_to');
+        if (is_string($fallback_to)) {
+            $to = $fallback_to;
+>>>>>>> laraxot/dev
         }
         if ($to === null) {
             return null;
@@ -128,6 +137,7 @@ class RecordNotification extends Notification implements ShouldQueue
         // Build SMS content using SpatieEmail (which handles template resolution and placeholder replacement)
         $smsBody = $email->buildSms();
 
+<<<<<<< HEAD
         // Story quaeris-send-invite-migrate-to-record-notification.md, Difetto 17
         // (AC7, 2026-09-15): un survey senza sms_template configurato non lancia
         // nessuna eccezione qui — buildSms() ritorna semplicemente stringa vuota
@@ -138,6 +148,8 @@ class RecordNotification extends Notification implements ShouldQueue
             return null;
         }
 
+=======
+>>>>>>> laraxot/dev
         // Story quaeris-send-invite-migrate-to-record-notification.md, Difetto 9:
         // il mittente era il letterale 'Xot'. Ora SpatieEmail lo risolve dal
         // MailTemplate (colonna sms_from), con fallback a config('sms.from').

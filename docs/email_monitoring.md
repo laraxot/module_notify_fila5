@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "email monitoring"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email monitoring"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Sistema Monitoraggio Email 
 
 ## Panoramica

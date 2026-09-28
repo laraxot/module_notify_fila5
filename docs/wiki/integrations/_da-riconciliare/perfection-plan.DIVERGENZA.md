@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "perfection plan.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: perfection-plan.md"
 module: Notify
 type: note

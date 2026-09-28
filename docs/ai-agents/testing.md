@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "testing"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "testing"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Testing Guide
 
 > Guida completa per i test in PTVX Fila5 Mono.

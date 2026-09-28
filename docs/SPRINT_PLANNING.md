@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "SPRINT PLANNING"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Module - Sprint Planning"
 module: notify
 type: integration

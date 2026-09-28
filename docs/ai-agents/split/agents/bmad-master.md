@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "bmad master"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bmad master"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### BMad Master Task Executor (id: bmad-master)
 Source: .bmad-core/agents/bmad-master.md
 
@@ -108,6 +122,17 @@ dependencies:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "bmad master"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bmad master"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

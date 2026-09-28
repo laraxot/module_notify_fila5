@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan error analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan error analysis"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi Errori PHPStan - Modulo Notify
 
 **Data**: 2025-12-23

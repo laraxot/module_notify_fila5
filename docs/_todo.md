@@ -1,4 +1,11 @@
 ---
+<<<<<<< HEAD
+=======
+tags: [documentation]
+qmd: " todo"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Todo"
 type: reference
 status: active

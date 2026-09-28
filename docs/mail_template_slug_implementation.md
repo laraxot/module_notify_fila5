@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mail template slug implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail template slug implementation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Implementazione del Campo Slug in MailTemplate
 
 ## Collegamenti correlati

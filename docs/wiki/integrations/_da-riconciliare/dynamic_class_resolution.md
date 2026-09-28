@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "dynamic class resolution"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Risoluzione Dinamica delle Classi nei Factory Pattern"
 module: notify
 type: integration

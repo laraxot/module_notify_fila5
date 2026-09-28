@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "spatie email slug proposal"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "spatie email slug proposal"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Proposta: Aggiunta Slug a SpatieEmail e MailTemplate
 
 ## Introduzione

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "quick start.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: quick-start.md"
 module: Notify
 type: note

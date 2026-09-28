@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "send email translation improvement 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send email translation improvement 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Miglioramento File Traduzione send_email.php
 
 ## 🔍 Analisi del Problema
@@ -1194,5 +1208,16 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "send email translation improvement 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send email translation improvement 1"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Ultimo aggiornamento**: Gennaio 2025
 **Autore**: Sistema di miglioramento automatico

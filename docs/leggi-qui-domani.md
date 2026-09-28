@@ -1,9 +1,34 @@
+<<<<<<< HEAD
+=======
+---
+title: "leggi qui domani"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "leggi qui domani"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📖 LEGGI QUI DOMANI MATTINA - 2 Ottobre 2025
 
 Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "leggi qui domani"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "leggi qui domani"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## ✅ COSA ABBIAMO FATTO IERI (1 Ottobre)
 
 ### 🎉 SUCCESSO STRAORDINARIO: 83% COMPLETATO!

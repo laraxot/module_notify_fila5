@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ARCHITECTURE DIAGRAMS.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: ARCHITECTURE-DIAGRAMS.md"
 module: Notify
 type: note

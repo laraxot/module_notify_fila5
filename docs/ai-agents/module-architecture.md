@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "module architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "module architecture"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Module Architecture
 
 > Architettura modulare Laravel per PTVX.

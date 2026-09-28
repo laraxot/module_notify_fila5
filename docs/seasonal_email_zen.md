@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "seasonal email zen"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "seasonal email zen"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # The Zen of Seasonal Emails
 
 **Date**: 2025-12-19

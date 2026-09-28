@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mcp index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp index"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # MCP Index
 
 **Last Updated**: 2026-04-09

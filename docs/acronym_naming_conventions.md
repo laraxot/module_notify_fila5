@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "acronym naming conventions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "acronym naming conventions"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Convenzioni di Naming per Acronimi 
 
 ## Regola Fondamentale

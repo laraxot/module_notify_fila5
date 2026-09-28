@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "vhost fixcity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vhost fixcity"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Apache VirtualHost - fixcity.local
 
 **Status**: ✅ Active  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "vhost fixcity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vhost fixcity"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Configuration Summary
 
 | Parametro | Valore |

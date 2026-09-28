@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "AI AGENT LESSONS LEARNED"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "AI AGENT LESSONS LEARNED"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🤖 AI Agent Lessons Learned - 2026-03-13
 
 > **Date**: 2026-03-13  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "AI AGENT LESSONS LEARNED"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "AI AGENT LESSONS LEARNED"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## ❌ What Went Wrong
 
 ### Initial Task

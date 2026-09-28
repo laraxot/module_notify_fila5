@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "pest rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pest rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 === pest/core rules ===
 
 ## Pest
@@ -11,6 +25,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "pest rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pest rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

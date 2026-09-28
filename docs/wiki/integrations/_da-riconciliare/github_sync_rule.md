@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "github sync rule"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Sync .github with bashscripts/ai/.github"
 module: notify
 type: integration

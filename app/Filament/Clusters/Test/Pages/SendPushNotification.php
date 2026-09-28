@@ -61,22 +61,40 @@ class SendPushNotification extends XotBasePage
         /**
          * Callback per mappare i dispositivi in opzioni per il select.
          */
+<<<<<<< HEAD
         $callback = static function (DeviceUser $item): array {
             // Relations & attributes in a Laravel-safe way
             $profile = $item->getRelationValue('profile');
+=======
+        $callback = static function (mixed $item): array {
+            if (! is_object($item)) {
+                return [];
+            }
+
+            // Relations & attributes in a Laravel-safe way
+            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
+>>>>>>> laraxot/dev
             if (! is_object($profile)) {
                 return [];
             }
             $fullNameRaw = data_get($profile, 'full_name');
             $fullName = is_scalar($fullNameRaw) ? (string) $fullNameRaw : 'Utente';
 
+<<<<<<< HEAD
             $tokenAttr = $item->getAttribute('push_notifications_token');
+=======
+            $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
+>>>>>>> laraxot/dev
             $token = is_string($tokenAttr) ? $tokenAttr : '';
             if ($token === '' || $token === 'unknown') {
                 return [];
             }
 
+<<<<<<< HEAD
             $device = $item->getRelationValue('device');
+=======
+            $device = method_exists($item, 'getRelationValue') ? $item->getRelationValue('device') : null;
+>>>>>>> laraxot/dev
             $robotVal = data_get($device, 'robot');
             $robot = is_string($robotVal) ? $robotVal : null;
 
@@ -90,8 +108,18 @@ class SendPushNotification extends XotBasePage
         /**
          * Callback per filtrare i dispositivi.
          */
+<<<<<<< HEAD
         $filterCallback = static function (DeviceUser $item): bool {
             return is_object($item->getRelationValue('profile'));
+=======
+        $filterCallback = static function (mixed $item): bool {
+            if (! is_object($item)) {
+                return false;
+            }
+            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
+
+            return is_object($profile);
+>>>>>>> laraxot/dev
         };
 
         $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();

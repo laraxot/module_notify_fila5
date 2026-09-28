@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "agid implementation guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agid implementation guide"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🚀 AGID Implementation Guide - Practical Developer Guide
 
 **Date**: 2025-10-02  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "agid implementation guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agid implementation guide"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📚 Table of Contents
 
 1. [Multi-Step Form Wizard](#multi-step-form-wizard)

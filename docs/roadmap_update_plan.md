@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "roadmap update plan"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap update plan"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Roadmap Update Plan - All Modules
 
 **Date**: 2026-03-02  

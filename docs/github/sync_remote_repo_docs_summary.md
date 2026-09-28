@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "sync remote repo docs summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sync remote repo docs summary"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Sync Remote Repo Documentation - Creation Summary
 
 > **Date**: 2026-03-13  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "sync remote repo docs summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sync remote repo docs summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📦 Files Created
 
 ### Core Documentation (bashscripts/docs/git/)

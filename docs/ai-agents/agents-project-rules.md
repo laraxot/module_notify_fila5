@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "agents project rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents project rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # AGENTS Project Rules
 
 Regole generali del progetto.
@@ -28,6 +42,17 @@ Regole generali del progetto.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "agents project rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents project rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## JSON Page File Naming
 
 ### CRITICAL Rule

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "config structure.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: config_structure.md"
 module: Notify
 type: note

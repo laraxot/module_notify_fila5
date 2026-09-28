@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "packages spatie"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages spatie"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Spatie Packages Reference
 
 Pacchetti Spatie installati in Quaeris Fila5 Mono.
@@ -27,6 +41,17 @@ Pacchetti Spatie installati in App Fila5 Mono.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "packages spatie"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages spatie"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## spatie/laravel-data 4.19.1
 
 **Uso**: DTOs tipizzati per validazione, API response, TypeScript generation.

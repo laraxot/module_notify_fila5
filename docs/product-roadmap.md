@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "product roadmap"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product roadmap"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Notify - Product Roadmap
 
 > Documento vivente. Modulo.

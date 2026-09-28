@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "factory advantages.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: factory-advantages.md"
 module: Notify
 type: note

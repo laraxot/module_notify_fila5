@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📋 12 checklist Index
 
 **Path**: `docs/agents-guide/12-checklist/`
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 Statistics
 
 | Metric | Count |

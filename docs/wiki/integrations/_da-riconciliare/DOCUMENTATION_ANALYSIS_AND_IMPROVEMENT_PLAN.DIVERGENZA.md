@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "DOCUMENTATION ANALYSIS AND IMPROVEMENT PLAN.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md"
 module: Notify
 type: note

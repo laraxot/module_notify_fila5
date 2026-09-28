@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "plugin spatie translatable not registered"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "plugin spatie translatable not registered"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Errore: Plugin spatie-translatable Not Registered
 
 ## Errore
@@ -367,6 +381,17 @@ Prima di usare `LangBase*`:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "plugin spatie translatable not registered"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "plugin spatie translatable not registered"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Status**: ⏳ ATTENDE DECISIONE  
 **Priority**: P1 (blocca funzionalità)  
 **Next Step**: Decidere se MailTemplate deve essere traducibile

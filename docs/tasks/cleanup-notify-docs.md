@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "cleanup notify docs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cleanup notify docs"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Task: Cleanup Notify Docs
 
 ## 📋 Obiettivo

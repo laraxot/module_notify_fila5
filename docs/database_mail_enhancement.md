@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "database mail enhancement"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database mail enhancement"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Database Mail Enhancement (Open Source)
 
 Questo documento descrive un approccio in-house per la gestione e l'invio di email da database, ispirato al plugin a pagamento `martin-petricko-database-mail` per Filament e alle soluzioni open source di Spatie.
@@ -87,6 +101,17 @@ testable class SendEmailTemplateAction {
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "database mail enhancement"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database mail enhancement"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Collegamenti**:
 
 - [martin-petricko Database Mail](https://filamentphp.com/plugins/martin-petricko-database-mail)

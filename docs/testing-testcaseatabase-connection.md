@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "testing testcaseatabase connection"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "testing testcaseatabase connection"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Fix: Notify TestCase - Database Connection Configuration
 
 **Problema**: Test Notify falliscono con InvalidArgumentException per database connection 'notify'
@@ -88,5 +102,16 @@ protected function setUp(): void
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "testing testcaseatabase connection"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "testing testcaseatabase connection"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Status**: Completed
 **Risultato**: Test Notify ora configurano correttamente le connessioni database

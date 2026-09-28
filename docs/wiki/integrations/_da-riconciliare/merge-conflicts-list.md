@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "merge conflicts list"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Merge conflict markers — Notify"
 module: notify
 type: integration

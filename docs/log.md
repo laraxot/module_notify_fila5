@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "log"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Wiki Log"
 module: notify
 type: integration

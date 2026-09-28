@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ref struct"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Ref struct'
 module: Notify
 type: reference

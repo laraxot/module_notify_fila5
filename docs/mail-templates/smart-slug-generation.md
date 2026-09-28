@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "smart slug generation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "smart slug generation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Generazione Intelligente di Slug in Filament
 
 ## Introduzione

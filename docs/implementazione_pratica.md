@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "implementazione pratica"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "implementazione pratica"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale

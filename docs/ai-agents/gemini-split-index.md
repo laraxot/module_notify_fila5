@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "gemini split index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gemini split index"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # GEMINI.md Split Index
 
 > Documentazione GEMINI.md spezzata in file più piccoli.

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "antigravity integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "antigravity integration"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # antigravity e bmad method: integrazione e contesto fixcity
 
 ## scopo

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "GITHUB ACTION SETUP REQUIRED"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "GITHUB ACTION SETUP REQUIRED"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🚨 IMPORTANT: GitHub Action Setup Required
 
 > **Date**: 2026-03-13  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "GITHUB ACTION SETUP REQUIRED"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "GITHUB ACTION SETUP REQUIRED"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## ❗ Action Status
 
 **Workflow**: 🔄 Sync Subtrees  

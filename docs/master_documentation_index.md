@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "master documentation index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "master documentation index"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📚 Master Documentation Index
 
 **Ultimo Aggiornamento**: 2026-03-30  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "master documentation index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "master documentation index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Quick Navigation
 
 ### Per Nuovi Arrivati

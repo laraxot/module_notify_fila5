@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "GEMINI"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Gemini Rules (Modular)"
 module: notify
 type: integration

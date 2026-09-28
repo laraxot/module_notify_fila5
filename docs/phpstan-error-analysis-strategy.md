@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan error analysis strategy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan error analysis strategy"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Strategia Correzione Errori PHPStan - SendEmailPage.php
 
 **Data**: 2025-12-23

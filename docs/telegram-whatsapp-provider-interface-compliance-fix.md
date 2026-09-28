@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "telegram whatsapp provider interface compliance fix"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "telegram whatsapp provider interface compliance fix"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Telegram/WhatsApp provider action interface compliance fix
 
 ## Summary

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "xotbasepivot executive summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbasepivot executive summary"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # XotBasePivot - Executive Summary
 
 ## 🎯 Decisione Strategica: APPROVATO
@@ -9,6 +23,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "xotbasepivot executive summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbasepivot executive summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 The Bottom Line
 
 ### Problema

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "DOCUMENT ROOT ARCHITECTURE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENT ROOT ARCHITECTURE"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Document Root Architecture
 
 ## Overview

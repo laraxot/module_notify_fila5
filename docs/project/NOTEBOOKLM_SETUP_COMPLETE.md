@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "NOTEBOOKLM SETUP COMPLETE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "NOTEBOOKLM SETUP COMPLETE"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # NotebookLM Skill - Configuration & Usage Guide
 
 **Project**: Notify  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "NOTEBOOKLM SETUP COMPLETE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "NOTEBOOKLM SETUP COMPLETE"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cos'è NotebookLM
 
 **Google NotebookLM** è un AI research assistant che:

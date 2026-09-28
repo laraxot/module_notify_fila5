@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "dependency injection patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dependency injection patterns"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Dependency Injection Pattern in QueueableActions
 
 **Date**: 18 Dicembre 2025  
@@ -91,4 +105,15 @@ This approach aligns with:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "dependency injection patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dependency injection patterns"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Documento conforme agli standard Laraxot - DRY + KISS + SOLID*

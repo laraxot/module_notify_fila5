@@ -19,6 +19,10 @@ use Modules\Notify\Channels\NetfunChannel;
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Channels\TelegramChannel;
 use Modules\Notify\Channels\WhatsAppChannel;
+<<<<<<< HEAD
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+>>>>>>> laraxot/dev
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Datas\NotificationData;
@@ -32,7 +36,10 @@ use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Factories\SmsActionFactory;
 use Modules\Notify\Factories\TelegramActionFactory;
 use Modules\Notify\Factories\WhatsAppActionFactory;
+<<<<<<< HEAD
 use Modules\Notify\Models\Contracts\SmsActionContract;
+=======
+>>>>>>> laraxot/dev
 use Modules\Notify\Models\Notification as NotificationModel;
 use Modules\Notify\Tests\Fixtures\NotifyCoveragePivotStub;
 use Modules\Notify\Tests\Fixtures\NotifyNetfunNotifiableStub;

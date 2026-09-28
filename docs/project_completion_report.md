@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "project completion report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project completion report"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Report di Completamento Progetto Fixcity
 
 ## Panoramica
@@ -284,6 +298,17 @@ MIT License - Vedi file LICENSE per dettagli.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "project completion report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project completion report"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Data Completamento**: 2024-01-15  
 **Versione**: 1.0.0  
 **Status**: ✅ COMPLETATO

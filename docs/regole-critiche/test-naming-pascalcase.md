@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "test naming pascalcase"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "test naming pascalcase"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Regola Critica: Naming File Test - PascalCase Obbligatorio
 
 **Data:** 10 Ottobre 2025  
@@ -219,6 +233,17 @@ find tests/ -name "*Test*" | sort -f | uniq -i -d
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "test naming pascalcase"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "test naming pascalcase"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Regola Critica: Test File Naming**  
 **SEMPRE PascalCase - MAI minuscolo** 🎯
 

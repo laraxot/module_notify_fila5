@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "title with slug component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "title with slug component"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi del Componente TitleWithSlugInput per Filament
 
 ## Introduzione

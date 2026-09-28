@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ai module"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ai module"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # AI Module
 
 > Updated: 2026-04-15

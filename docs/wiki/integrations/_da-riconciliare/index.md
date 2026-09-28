@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "notify — integrations"
 module: notify
 type: integration

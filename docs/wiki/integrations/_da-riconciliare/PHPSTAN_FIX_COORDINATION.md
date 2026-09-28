@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "PHPSTAN FIX COORDINATION"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "PHPStan Fix Coordination Plan"
 module: notify
 type: integration

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "implementazione completa finale"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "IMPLEMENTAZIONE COMPLETA - REPORT FINALE ✨🐄"
 module: notify
 type: integration

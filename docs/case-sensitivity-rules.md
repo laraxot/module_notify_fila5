@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "case sensitivity rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "case sensitivity rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Case Sensitivity Rules - Notify Module
 
 ## Problema / Problem

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "dependency injections"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Dependency Injection Pattern in QueueableActions"
 module: notify
 type: integration

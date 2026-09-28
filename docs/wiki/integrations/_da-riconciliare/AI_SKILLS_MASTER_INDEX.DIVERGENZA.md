@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "AI SKILLS MASTER INDEX.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: AI_SKILLS_MASTER_INDEX.md"
 module: Notify
 type: note

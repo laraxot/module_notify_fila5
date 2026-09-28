@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "packages filament livewire"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages filament livewire"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Filament 5 + Livewire 4 — API Reference
 
 Riferimento completo per Filament 5.2.2, Livewire 4.1.4 e pacchetti correlati nel progetto Laraxot.
@@ -20,6 +34,17 @@ Riferimento completo per Filament 5.2.2, Livewire 4.1.4 e pacchetti correlati ne
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "packages filament livewire"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages filament livewire"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Regole critiche Filament 5 in Laraxot
 
 ### Regola 1: sempre XotBase (MAI Filament diretto)

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "xot base classes convention"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xot base classes convention"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Convenzioni per le Classi Base Xot
 
 ## Regola di Estensione

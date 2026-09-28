@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "xotbase extension rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbase extension rule"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🔴 XotBase Extension Rule - PHILOSOPHY
 
 **Path**: `.agents/docs/rules/xotbase-extension-rule.md`  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "xotbase extension rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbase extension rule"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 The Rule
 
 > **TUTTI** i widget FILAMENT devono estendere `XotBaseWidget`

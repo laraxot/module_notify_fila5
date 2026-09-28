@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "notify test coverage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "notify test coverage"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Task: Rafforzamento Test Suite Notify (Pest)
 
 **Modulo**: Notify  

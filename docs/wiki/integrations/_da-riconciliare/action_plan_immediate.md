@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "action plan immediate"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "PIANO D'AZIONE IMMEDIATO - Notify Platform"
 module: notify
 type: integration

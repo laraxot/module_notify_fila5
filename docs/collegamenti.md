@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "collegamenti"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "collegamenti"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Collegamenti Documentazione Notify
 
 - [README Notify](readme.md)

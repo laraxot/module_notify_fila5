@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "BOOST SKILL INSTALLATION ERROR.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: BOOST_SKILL_INSTALLATION_ERROR.md"
 module: Notify
 type: note

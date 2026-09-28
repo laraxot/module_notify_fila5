@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "template improvement"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "template improvement"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Roadmap Implementazione Sistema Avanzato di Template Email
 
 ## Obiettivo

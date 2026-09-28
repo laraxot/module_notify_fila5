@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "DESIGN COMUNI TAILWIND"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Design Comuni con Tailwind CSS Puro"
 module: notify
 type: integration

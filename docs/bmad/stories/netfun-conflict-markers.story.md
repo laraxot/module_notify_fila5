@@ -1,4 +1,11 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 id: "notify-netfun-conflict-markers"
 title: "Notify: marker in SendNetfunSMSAction + lang"
 status: review

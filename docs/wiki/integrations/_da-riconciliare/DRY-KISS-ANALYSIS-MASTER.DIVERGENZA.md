@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "DRY KISS ANALYSIS MASTER.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: DRY-KISS-ANALYSIS-MASTER.md"
 module: Notify
 type: note

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "status"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "status"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Homepage CSS/JS Fix - Status
 
 ## Build Completo
@@ -38,5 +52,16 @@ npm run copy    # ✓ Completato
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "status"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "status"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Last Updated: 2026-04-07*
 *Status: in_progress*

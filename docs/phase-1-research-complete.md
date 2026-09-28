@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phase 1 research complete"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phase 1 research complete"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ PHASE 1 - RICERCA COMPLETATA
 
 **Data**: 2026-04-08  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phase 1 research complete"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phase 1 research complete"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 CONSUNTIVO LAVORO SVOLTO
 
 ### Documenti Creati (5 principali)

@@ -1,4 +1,13 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+updated: 2026-09-26
+qmd: "docs frontmatter batch enrichment.story"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify docs/ frontmatter batch enrichment (pattern riusato da Xot)"
 status: backlog
 module: Notify

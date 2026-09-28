@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ZEN OF DOCUMENTATION"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Zen of Documentation - Filosofia Unificata"
 module: notify
 type: integration

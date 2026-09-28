@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "contact column icon"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contact column icon"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ContactColumn Icon Issue - Analisi e Risoluzione
 
 ## 🚨 PROBLEMA IDENTIFICATO
@@ -135,6 +149,17 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "contact column icon"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contact column icon"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Data Analisi**: [DATE]  
 **Priorità**: 🔴 ALTA (Funzionalità core non funzionante)  
 **Tempo Stimato Fix**: 5 minuti  

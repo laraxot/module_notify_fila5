@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ralph loop execution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ralph loop execution"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix
 
 ## Session: 2026-03-31
@@ -5,6 +19,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "ralph loop execution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ralph loop execution"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Iteration 1: Header Slim Component
 
 ### Task

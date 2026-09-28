@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "README"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "README"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Configuration - Progetto Base FixCity Fila3 Mono
 
 ## Panoramica
@@ -166,5 +180,16 @@ public function getConfig(): array {
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "README"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "README"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: Gennaio 2025*
 *Responsabile: AI Assistant con poteri supermucca*

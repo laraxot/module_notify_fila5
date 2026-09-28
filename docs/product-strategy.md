@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "product strategy"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify - Product Strategy"
 module: notify
 type: product

@@ -8,12 +8,20 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Models\Contracts\SmsActionContract;
 use Safe\Exceptions\JsonException;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+use Modules\Notify\Datas\SmsData;
+use Override;
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> laraxot/dev
 use function Safe\mb_convert_encoding;
 
 final class SendNetfunSMSAction implements SmsActionContract
@@ -69,8 +77,12 @@ final class SendNetfunSMSAction implements SmsActionContract
     {
         $headers = [
             'Cache-Control' => 'no-cache',
+<<<<<<< HEAD
             'Content-Type' => 'application/json',
         ];
+=======
+            'Content-Type' => 'application/json'];
+>>>>>>> laraxot/dev
 
         // Normalizza il numero di telefono usando l'azione dedicata
         $recipient = app(NormalizePhoneNumberAction::class)->execute($smsData->recipient);
@@ -86,6 +98,7 @@ final class SendNetfunSMSAction implements SmsActionContract
             'utf8_enabled' => true,
             'destinations' => [
                 [
+<<<<<<< HEAD
                     'number' => $recipient,
                 ],
             ],
@@ -96,6 +109,13 @@ final class SendNetfunSMSAction implements SmsActionContract
             $response = $client->post($this->endpoint, [
                 'json' => $body,
             ]);
+=======
+                    'number' => $recipient]]];
+
+        $client = new Client($headers);
+        try {
+            $response = $client->post($this->endpoint, ['json' => $body]);
+>>>>>>> laraxot/dev
         } catch (ClientException $clientException) {
             throw new Exception(
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
@@ -107,6 +127,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         $this->vars['status_code'] = $response->getStatusCode();
         $this->vars['status_txt'] = $response->getBody()->getContents();
 
+<<<<<<< HEAD
         if (! $this->isSuccessfulResponse($this->vars['status_code'], $this->vars['status_txt'])) {
             $redactedRequest = $body;
             $redactedRequest['api_token'] = '***redacted***';
@@ -146,4 +167,13 @@ final class SendNetfunSMSAction implements SmsActionContract
 
         return in_array($error, [null, 0, '0', false], true);
     }
+=======
+        Log::channel('daily')->error('Netfun SMS response', [
+            'request' => $body,
+            'status_code' => $this->vars['status_code'],
+            'status_txt' => $this->vars['status_txt']]);
+
+        return $this->vars;
+    }
+>>>>>>> laraxot/dev
 }

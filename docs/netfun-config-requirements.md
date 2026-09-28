@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "netfun config requirements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun config requirements"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Requisiti di Configurazione per Netfun SMS
 
 Questa guida descrive la configurazione necessaria per utilizzare il provider Netfun come driver SMS nel modulo Notify.
@@ -92,6 +106,17 @@ Per problemi di configurazione o domande sull'integrazione con Netfun, consultar
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "netfun config requirements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun config requirements"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: [DATE]*
 
 ## 2. Esempio di .env

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "contact column"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contact column"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Correzione Errori ContactColumn - Modulo Notify
 
 ## 📋 Riepilogo della Correzione

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "case conflicts"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "case conflicts"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Case-Insensitive File Conflicts
 
 Duplicati individuati nel modulo `Notify`:

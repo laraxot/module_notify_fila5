@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "notebooklm installation summary.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: NOTEBOOKLM_INSTALLATION_SUMMARY.md"
 module: Notify
 type: note

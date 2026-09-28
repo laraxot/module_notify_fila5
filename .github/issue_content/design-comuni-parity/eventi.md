@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "eventi"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "eventi"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Converti pagina: Eventi (eventi.html)
 
 ## Obiettivo

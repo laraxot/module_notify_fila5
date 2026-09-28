@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ision log removal seasonal action"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Decision Log: Rimozione Azioni Seasonal Over-Engineered"
 module: notify
 type: integration

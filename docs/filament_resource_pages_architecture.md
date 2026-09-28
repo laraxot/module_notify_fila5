@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament resource pages architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament resource pages architecture"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Architettura delle Pagine di Risorse Filament 
 
 ## Regola Fondamentale

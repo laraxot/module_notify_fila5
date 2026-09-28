@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "bulk notification action"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bulk notification action"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Bulk Notification Action
 
 **Date**: 18 Dicembre 2025  
@@ -130,4 +144,15 @@ Full multi-language support with:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "bulk notification action"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bulk notification action"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*

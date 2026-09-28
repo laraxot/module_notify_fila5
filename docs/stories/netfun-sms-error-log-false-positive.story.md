@@ -1,4 +1,15 @@
 ---
+<<<<<<< HEAD
+=======
+title: "netfun sms error log false positive.story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun sms error log false positive.story"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 name: netfun-sms-error-log-false-positive
 description: SendNetfunSMSAction loggava ogni risposta Netfun a livello error() a prescindere dall'esito, segnalando come errore anche gli SMS partiti correttamente, e scriveva api_token in chiaro nel log
 metadata:

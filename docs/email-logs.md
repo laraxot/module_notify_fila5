@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "email logs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email logs"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Sistema Log Email 
 
 ## Panoramica

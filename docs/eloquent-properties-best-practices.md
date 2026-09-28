@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "eloquent properties best practices"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Best Practices per Proprietà Modelli Eloquent - Modulo Notify"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "fluxui rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "fluxui rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 === fluxui-free/core rules ===
 
 ## Flux UI Free
@@ -25,6 +39,17 @@ avatar, badge, brand, breadcrumbs, button, callout, checkbox, dropdown, field, h
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "fluxui rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "fluxui rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

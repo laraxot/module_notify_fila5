@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "whatsapp consolidated"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "whatsapp — Consolidated Documentation"
 module: notify
 type: integration

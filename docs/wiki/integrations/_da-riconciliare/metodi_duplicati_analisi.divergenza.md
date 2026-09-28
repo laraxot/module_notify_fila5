@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "metodi duplicati analisi.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: metodi_duplicati_analisi.md"
 module: Notify
 type: note

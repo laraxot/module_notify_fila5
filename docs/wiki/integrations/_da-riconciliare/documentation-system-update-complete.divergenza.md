@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "documentation system update complete.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: DOCUMENTATION_SYSTEM_UPDATE_COMPLETE.md"
 module: Notify
 type: note

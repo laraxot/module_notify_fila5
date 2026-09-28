@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "responsive email templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "responsive email templates"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Responsive Email Templates - Guida Completa
 
 ## Introduzione

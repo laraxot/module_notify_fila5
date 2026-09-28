@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "binary assets"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Asset binari"
 module: notify
 type: integration

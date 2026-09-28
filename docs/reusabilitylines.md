@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "reusabilitylines"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "reusabilitylines"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Linee Guida per la Riusabilità del Modulo Notify
 
 ## Principio Fondamentale

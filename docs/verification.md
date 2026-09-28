@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "verification"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Verification Report - Compliance and XotBase Refactoring"
 module: notify
 type: integration

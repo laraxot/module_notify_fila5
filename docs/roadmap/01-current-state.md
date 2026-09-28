@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "01 current state"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "01 current state"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Current State - Notify
 
 ## Baseline

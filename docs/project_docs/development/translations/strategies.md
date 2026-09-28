@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "strategies"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "strategies"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Strategie di Gestione delle Traduzioni
 
 ## Indice
@@ -255,5 +269,16 @@ php artisan translation:extract
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "strategies"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "strategies"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: Agosto 2025*
 *Fonte: laravel/Modules/Lang/docs/TRANSLATION_STRATEGIES.md* 

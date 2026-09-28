@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "contactcolumns and antipatterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contactcolumns and antipatterns"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ContactColumn.php - Errori Critici e Anti-Pattern (Modulo Notify)
 
 ## 🚨 **AUDIT CRITICO - ERRORI GRAVI IDENTIFICATI**
@@ -217,6 +231,17 @@ Implementare ContactColumn che:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "contactcolumns and antipatterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contactcolumns and antipatterns"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Audit completato: [DATE]*  
 *Gravità: CRITICA*  
 *Stato: REFACTOR RICHIESTO*  

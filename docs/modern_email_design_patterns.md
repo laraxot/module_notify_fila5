@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "modern email design patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "modern email design patterns"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Pattern di Design per Email Moderne
 
 ## Introduzione

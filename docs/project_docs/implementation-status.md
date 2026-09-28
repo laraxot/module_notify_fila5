@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "IMPLEMENTATION_STATUS_2025-10-02"
 type: concept
 tags: [deprecated]

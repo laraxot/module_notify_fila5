@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "notify filament v5"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "notify filament v5"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Task: Notify Filament v5 Alignment (Clusters)
 
 ## 📋 Obiettivo

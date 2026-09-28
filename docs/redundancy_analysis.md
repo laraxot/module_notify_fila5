@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "redundancy analysis"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "REDUNDANCY ANALYSIS"
 module: notify
 type: integration

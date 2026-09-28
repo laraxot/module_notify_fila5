@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ANALISI COLORI HEADER FOOTER"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ANALISI COLORI HEADER FOOTER"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
 # 📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia
 
@@ -5,6 +19,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "ANALISI COLORI HEADER FOOTER"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ANALISI COLORI HEADER FOOTER"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  

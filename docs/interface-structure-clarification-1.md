@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "interface structure clarification 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "interface structure clarification 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Chiarimento sulla Struttura delle Interfacce
 
 ## Struttura Corretta per le Interfacce SMS

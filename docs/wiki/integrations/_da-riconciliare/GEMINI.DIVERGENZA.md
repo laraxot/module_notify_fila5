@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "GEMINI.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: GEMINI.md"
 module: Notify
 type: note

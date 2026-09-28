@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "dto consolidated"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "dto — Consolidated Documentation"
 module: notify
 type: integration

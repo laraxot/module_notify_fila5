@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "final statistics"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "final statistics"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📊 Final Project Statistics
 
 **Project:** FixCity - Base Fila4 Mono  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "final statistics"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "final statistics"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Overall Achievement: 100%
 
 ```

@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 
+=======
+---
+title: "analysis detailed"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analysis detailed"
+issues: []
+discussions: []
+---
+>>>>>>> laraxot/dev

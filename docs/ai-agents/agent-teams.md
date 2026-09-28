@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "agent teams"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agent teams"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Agent teams (Experimental - Opus 4.6)
 
 > Source: [CLAUDE.md](../../CLAUDE.md)

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ALLINEAMENTO BOOTSTRAP ITALIA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Allineamento HTML con Bootstrap Italia"
 module: notify
 type: integration

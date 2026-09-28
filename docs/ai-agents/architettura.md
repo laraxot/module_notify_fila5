@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "architettura"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architettura"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Architettura e Struttura
 
 Il progetto utilizza un'architettura modulare basata su Laravel con il framework Laraxot, seguendo un pattern di estensioni base per tutti i componenti:

@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Quality Report — Notify"
 type: report
 tags: [quality, phpstan, pest, coverage]

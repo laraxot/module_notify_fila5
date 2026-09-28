@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "webcrunch tailwind collection"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "webcrunch tailwind collection"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi collezione Tailwind CSS (Webcrunch)
 
 Documento di sintesi e approfondimento per le risorse Tailwind CSS elencate in:
@@ -13,6 +27,17 @@ Le guide trattate:
 7. Card Components in Tailwind
 
 ---
+<<<<<<< HEAD
+=======
+title: "webcrunch tailwind collection"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "webcrunch tailwind collection"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 1. Tailwind CSS Border Gradients Tutorial
 URL: https://webcrunch.com/posts/tailwind-css-border-gradients
 **Obiettivo**: applicare gradient solo al bordo di un container.

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "fix tests homepage.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: FIX_TESTS_HOMEPAGE.md"
 module: Notify
 type: note

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "volt rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "volt rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 === volt/core rules ===
 
 ## Livewire Volt
@@ -115,6 +129,17 @@ $delete = fn(Product $product) => $product->delete();
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "volt rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "volt rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

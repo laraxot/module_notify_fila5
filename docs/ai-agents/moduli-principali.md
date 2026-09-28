@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "moduli principali"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "moduli principali"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Moduli Principali
 
 Il sistema è suddiviso in 35 moduli indipendenti:

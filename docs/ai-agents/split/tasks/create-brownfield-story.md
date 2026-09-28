@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "create brownfield story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "create brownfield story"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Task: create-brownfield-story
 Source: .bmad-core/tasks/create-brownfield-story.md
 - How to use: "Use task create-brownfield-story with the appropriate agent" and paste relevant parts as needed.
@@ -322,6 +336,17 @@ The brownfield story creation is successful when:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "create brownfield story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "create brownfield story"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

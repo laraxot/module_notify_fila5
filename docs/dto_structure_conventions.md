@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "dto structure conventions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dto structure conventions"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Convenzioni per la Struttura dei DTO nel Modulo Notify
 
 ## Introduzione
@@ -160,4 +174,15 @@ Prima di creare un nuovo DTO, verificare che:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "dto structure conventions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dto structure conventions"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-05-12*

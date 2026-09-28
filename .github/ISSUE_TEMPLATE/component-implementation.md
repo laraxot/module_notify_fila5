@@ -1,4 +1,14 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "component implementation"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 name: Component Implementation
 about: Implement a reusable component for Design Comuni replication
 title: 'Component: [Component Name]'

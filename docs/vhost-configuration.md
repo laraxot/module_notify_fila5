@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "vhost configuration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vhost configuration"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🌐 VHost Configuration Guide
 
 > **Last Updated**: 2026-03-31  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "vhost configuration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vhost configuration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📋 Overview
 
 This guide covers the Apache VirtualHost configuration for FixCity local development environments.

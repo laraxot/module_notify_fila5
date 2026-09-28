@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "view-cache-components-fix-2025-10-15"
 type: concept
 tags: [deprecated]

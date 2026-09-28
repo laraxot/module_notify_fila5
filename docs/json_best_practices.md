@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "json best practices"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "json best practices"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Best Practices per Migrazioni JSON
 
 ## Introduzione

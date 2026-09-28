@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "migration structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "migration structure"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Struttura della Migrazione MailTemplate
 
 ## Informazioni Generali

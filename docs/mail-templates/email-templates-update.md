@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "email templates update"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email templates update"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Email Templates Update Guide
 
 ## Struttura Corretta per i Layout Email

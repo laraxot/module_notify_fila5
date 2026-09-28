@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan syntaxs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan syntaxs"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Syntax Errors Fix - Notify Module
 
 **Modulo**: Notify  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phpstan syntaxs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan syntaxs"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 Errori Risolti
 
 ### 1. `Models/EmailTemplate.php`

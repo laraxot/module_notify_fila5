@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "FIX COLORI HEADER FOOTER"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Fix Colori Header e Footer - Bootstrap Italia"
 module: notify
 type: integration

@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 /*--work in progress
  * use Modules\Notify\Http\Controllers\TelegramNotificationController;
  *

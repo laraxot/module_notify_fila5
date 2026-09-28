@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "docs first workflow"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "docs first workflow"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Docs-First Workflow (Notify)
 
 ## Regola locale

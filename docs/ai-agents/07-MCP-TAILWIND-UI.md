@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "07 MCP TAILWIND UI"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "07 MCP TAILWIND UI"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🎨 MCP Servers per Tailwind CSS & UI Frameworks
 
 **Data**: 2026-03-20  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "07 MCP TAILWIND UI"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "07 MCP TAILWIND UI"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📋 Panoramica
 
 Questo progetto utilizza **MCP (Model Context Protocol)** per integrare AI assistants con:

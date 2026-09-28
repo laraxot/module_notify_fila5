@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "implementation summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Riepilogo Implementazione Design Comuni"
 module: notify
 type: integration

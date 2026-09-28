@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "final master report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "final master report"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🏆 FIXCITY - FINAL MASTER REPORT
 
 **Data Completamento**: 2025-10-01  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "final master report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "final master report"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 TOTALE ASSOLUTO: 38 FILES
 
 ### 📚 Documentazione Strategica (12)

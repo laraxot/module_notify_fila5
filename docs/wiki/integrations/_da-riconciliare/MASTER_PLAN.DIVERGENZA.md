@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "MASTER PLAN.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: MASTER_PLAN.md"
 module: Notify
 type: note

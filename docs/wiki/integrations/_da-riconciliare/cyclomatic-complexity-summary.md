@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "cyclomatic complexity summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Cyclomatic Complexity - Project Summary Report"
 module: notify
 type: integration

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "start here replikate phase2.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: start-here-replikate-phase2.md"
 module: Notify
 type: note

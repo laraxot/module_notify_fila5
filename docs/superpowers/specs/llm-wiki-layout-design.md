@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "2026-04-15-llm-wiki-layout-design"
 type: concept
 tags: [deprecated]

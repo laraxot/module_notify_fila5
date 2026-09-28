@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "prd"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "PRD: Notify Module"
 module: notify
 type: integration

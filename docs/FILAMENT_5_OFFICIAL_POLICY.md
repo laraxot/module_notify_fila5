@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "FILAMENT 5 OFFICIAL POLICY"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "FILAMENT 5 - OFFICIAL POLICY"
 module: notify
 type: integration

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "security"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Analisi della Sicurezza"
 module: notify
 type: integration

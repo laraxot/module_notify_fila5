@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "packages laravel core"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages laravel core"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Laravel 12 + Qualita Codice — Pacchetti Core
 
 Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
@@ -23,6 +37,17 @@ Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "packages laravel core"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages laravel core"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Laravel 12 — Principali novita
 
 - PHP 8.2+ minimo, pieno supporto PHP 8.4

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "sms configuration access pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms configuration access pattern"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Pattern di Accesso alla Configurazione SMS
 
 ## Problema Identificato

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "progetto completato 100 percento.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: progetto-completato-100-percento.md"
 module: Notify
 type: note

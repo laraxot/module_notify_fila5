@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "translations implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translations implementation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica

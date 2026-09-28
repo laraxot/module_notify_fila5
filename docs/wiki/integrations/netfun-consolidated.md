@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "netfun consolidated"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "netfun — Consolidated Documentation"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mcp servers"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp servers"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # MCP Servers - Master Index
 
 **Project**: FixCity Platform  
@@ -209,4 +223,15 @@ Each module has specific MCP usage guidelines. See module-specific docs:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "mcp servers"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp servers"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *This document follows DRY+KISS principles. For questions or updates, edit this file and update cross-references.*

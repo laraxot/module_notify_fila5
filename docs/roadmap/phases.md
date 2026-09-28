@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phases"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phases"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Fasi di sviluppo - Notify Module
 
 ## Fase 1: Stabilizzazione (In Progress)

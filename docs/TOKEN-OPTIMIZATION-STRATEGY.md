@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "TOKEN OPTIMIZATION STRATEGY"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Token Optimization Strategy (2026)"
 module: notify
 type: integration

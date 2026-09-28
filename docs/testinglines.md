@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "testinglines"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "testinglines"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Notify Module - Testing Guidelines
 
 ## Testing Framework Configuration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "email template slug proposal"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email template slug proposal"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Proposta: Aggiunta del Parametro Slug per Email Template
 
 ## Introduzione

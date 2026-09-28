@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "REFACTORING COMPLETATO"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "REFACTORING BASEMODEL - COMPLETATO! ✨🐄"
 module: notify
 type: integration

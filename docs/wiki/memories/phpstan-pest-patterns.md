@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "phpstan-pest-patterns-2026-07-06"
 type: concept
 tags: [deprecated]

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "SESSIONE ANALISI HOMEPAGE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SESSIONE ANALISI HOMEPAGE"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ Sessione Completata - Homepage Analysis & Documentation
 
 ## 📋 Riepilogo Lavoro
@@ -32,6 +46,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "SESSIONE ANALISI HOMEPAGE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SESSIONE ANALISI HOMEPAGE"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 #### 2. Screenshot Analysis
 **File**: `docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md`
 

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "provider contracts naming.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: provider_contracts_naming.md"
 module: Notify
 type: note

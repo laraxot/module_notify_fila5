@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan notify session"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan notify session"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # phpstan notify session
 
 ## modifiche eseguite

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "zen of schema"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "zen of schema"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🧘 The Zen of Schema (Filament 4)
 
 ## 🕉️ Philosophy: Schema Over Form

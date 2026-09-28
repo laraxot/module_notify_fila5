@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "CONFERMA CLASSI BOOTSTRAP"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Conferma: Classi Bootstrap Italia Corrette"
 module: notify
 type: integration

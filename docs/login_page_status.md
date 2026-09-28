@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "login page status"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "login page status"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Status pagina login — documento estraneo (deprecato)
 
 Questo documento descriveva una pagina di login basata su

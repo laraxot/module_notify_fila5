@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "VHOST CONFIGURATION SUMMARY"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "VHOST CONFIGURATION SUMMARY"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🌐 VHost Configuration Summary
 
 > **Date**: 2026-03-31  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "VHOST CONFIGURATION SUMMARY"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "VHOST CONFIGURATION SUMMARY"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📋 Overview
 
 This document summarizes the complete VHost configuration implementation for the Notify platform.

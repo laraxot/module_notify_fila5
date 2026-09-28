@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "claude"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 <!-- CLAUDE SPLIT STUB
 - Split index: .agents/docs/root-claude/INDEX.md
 - AI docs index: .agents/docs/INDEX.md

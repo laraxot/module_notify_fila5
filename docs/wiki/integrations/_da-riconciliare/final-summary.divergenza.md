@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "final summary.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: final-summary.md"
 module: Notify
 type: note

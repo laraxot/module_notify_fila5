@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "vhost configuration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "VHost Configuration Guide"
 module: notify
 type: integration

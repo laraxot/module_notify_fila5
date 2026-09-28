@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "appuntamento 02 data orario"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "appuntamento 02 data orario"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🎨 Design Comuni: Appuntamento - Data/Ora
 
 ## Pagina
@@ -28,4 +42,15 @@ Da definire dopo l'analisi strutturale.
 - [ ] Documentazione
 
 ---
+<<<<<<< HEAD
+=======
+title: "appuntamento 02 data orario"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "appuntamento 02 data orario"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Generato automaticamente da bashscripts/design-comuni-parity/create-github-issues.sh*

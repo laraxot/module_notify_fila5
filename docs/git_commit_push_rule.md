@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "git commit push rule"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Git Commit & Push Workflow - AI Agent Rules"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "summary report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "summary report"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Code Quality Analysis Summary
 
 **Generated:** Wed Oct  1 21:12:15 CEST 2025

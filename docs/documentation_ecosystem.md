@@ -1,9 +1,34 @@
+<<<<<<< HEAD
+=======
+---
+title: "documentation ecosystem"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "documentation ecosystem"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # FixCity Documentation Ecosystem - Visual Map
 
 **📍 Complete Bidirectional Links & Cross-References**
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "documentation ecosystem"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "documentation ecosystem"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🗺️ Documentation Ecosystem Overview
 
 ```

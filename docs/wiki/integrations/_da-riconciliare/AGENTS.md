@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "AGENTS"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Project Agents (Modular)"
 module: notify
 type: integration

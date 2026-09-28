@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "nested resources.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: nested-resources.md"
 module: Notify
 type: note

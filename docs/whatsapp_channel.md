@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "whatsapp channel"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "whatsapp channel"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Implementazione Canale WhatsApp
 
 ## 1. Struttura Base

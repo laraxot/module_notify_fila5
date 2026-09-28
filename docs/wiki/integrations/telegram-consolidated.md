@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "telegram consolidated"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "telegram — Consolidated Documentation"
 module: notify
 type: integration

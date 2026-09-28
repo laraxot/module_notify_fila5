@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "index conflict"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Module Documentation"
 module: notify
 type: integration

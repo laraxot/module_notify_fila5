@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "session 007 summary.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: session-007-summary.md"
 module: Notify
 type: note

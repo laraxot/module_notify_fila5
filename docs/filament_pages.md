@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament pages"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament pages"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Pagine Filament del Modulo Notify
 
 ## Panoramica

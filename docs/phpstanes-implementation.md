@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstanes implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstanes implementation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Implementazione Correzioni PHPStan - Modulo Notify
 
 ## 🎯 Errori Risolti

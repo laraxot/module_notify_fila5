@@ -1,4 +1,11 @@
 ---
+<<<<<<< HEAD
+=======
+updated: 2026-09-26
+qmd: "database schema"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Module Database Schema"
 type: reference
 tags: [notify, database, schema]

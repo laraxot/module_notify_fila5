@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "tailwind layouts"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tailwind layouts"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Layout con Filament Components
 
 ## Introduzione

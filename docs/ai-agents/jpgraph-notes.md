@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "jpgraph notes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "jpgraph notes"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # JpGraph notes
 
 - JpGraph is dual-licensed.

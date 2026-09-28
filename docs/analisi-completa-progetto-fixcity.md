@@ -1,8 +1,33 @@
+<<<<<<< HEAD
+=======
+---
+title: "analisi completa progetto fixcity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analisi completa progetto fixcity"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📊 ANALISI COMPLETA PROGETTO FIXCITY
 ## Data: 1 Ottobre 2025
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "analisi completa progetto fixcity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analisi completa progetto fixcity"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 EXECUTIVE SUMMARY
 
 **FixCity** è una piattaforma di segnalazione cittadina **enterprise-ready** con:

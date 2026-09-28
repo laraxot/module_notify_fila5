@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "xot base classes analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xot base classes analysis"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi: Utilizzo delle Classi Base Xot
 
 ## Contesto

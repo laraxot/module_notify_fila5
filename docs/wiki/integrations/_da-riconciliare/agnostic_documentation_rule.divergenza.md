@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "agnostic documentation rule.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: AGNOSTIC_DOCUMENTATION_RULE.md"
 module: Notify
 type: note

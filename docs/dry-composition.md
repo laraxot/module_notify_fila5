@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "dry composition"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry composition"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Pattern DRY: Composizione Actions Bulk → Single
 
 **Modulo**: Notify  
@@ -202,6 +216,17 @@ Prima di creare una bulk action:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "dry composition"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry composition"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Filosofia**: "Una volta, una sola volta, in un solo posto" - DRY Principle  
 **Pattern**: Bulk Action compone Single Action  
 **Naming**: Bulk Action con plurale nel nome (Records, not Record)

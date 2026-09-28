@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "token efficiency religion"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "token efficiency religion"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Token Optimization — La Religione dell'Efficienza
 
 > **Canonico**: questo è l'unico file attivo su token optimization in
@@ -17,6 +31,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "token efficiency religion"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "token efficiency religion"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## LA REGOLA AUREA
 
 **Massimizzare risultato, minimizzare token.**  

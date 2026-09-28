@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "allineamento bootstrap italia.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: allineamento-bootstrap-italia.md"
 module: Notify
 type: note

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "composer update report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "composer update report"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ Composer Update - COMPLETATO
 
 **Data**: 2026-03-30  
@@ -158,6 +172,17 @@ composer update -W
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "composer update report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "composer update report"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Stato**: ✅ **COMPOSER UPDATE COMPLETATO**  
 **Filament Version**: **5.x**  
 **Strategia**: **Root minimale, moduli specifici**  

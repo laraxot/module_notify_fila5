@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify — scopo, confini e come servirlo meglio"
 type: concept
 module: Notify

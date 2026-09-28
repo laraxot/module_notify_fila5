@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "DOCUMENTATION GOVERNANCE.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: DOCUMENTATION_GOVERNANCE.md"
 module: Notify
 type: note

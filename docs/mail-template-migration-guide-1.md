@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mail template migration guide 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail template migration guide 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Guida alla Migrazione di MailTemplate
 
 ## Panoramica

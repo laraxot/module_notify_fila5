@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "kdown linking conventions"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Convenzioni per i Collegamenti nei File Markdown"
 module: notify
 type: integration

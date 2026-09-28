@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "translations"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translations"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Traduzioni del Modulo Notify
 
 ## Panoramica
@@ -125,3 +139,14 @@ Notification::make()
 * [translations.md](../../../Cms/docs/translations.md)
 
 ---
+<<<<<<< HEAD
+=======
+title: "translations"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translations"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev

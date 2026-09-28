@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "COMPLETE SUCCESS.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: COMPLETE_SUCCESS.md"
 module: Notify
 type: note

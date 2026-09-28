@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "launch.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: launch.md"
 module: Notify
 type: note

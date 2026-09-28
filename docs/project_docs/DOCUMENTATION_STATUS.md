@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "DOCUMENTATION STATUS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION STATUS"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📚 DOCUMENTATION STATUS - Ottobre 2025
 
 **Data Aggiornamento**: 2025-10-01  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "DOCUMENTATION STATUS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION STATUS"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 EXECUTIVE SUMMARY
 
 Stato della documentazione del progetto Notify aggiornato a Ottobre 2025. La documentazione è in fase di

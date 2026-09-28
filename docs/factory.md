@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "factory"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Analisi del Pattern Factory per le Notifiche"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "correct course"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "correct course"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Task: correct-course
 Source: .bmad-core/tasks/correct-course.md
 - How to use: "Use task correct-course with the appropriate agent" and paste relevant parts as needed.
@@ -80,6 +94,17 @@ Source: .bmad-core/tasks/correct-course.md
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "correct course"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "correct course"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

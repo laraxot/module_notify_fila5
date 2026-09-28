@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "cyclomatic complexity summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cyclomatic complexity summary"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Cyclomatic Complexity - Project Summary Report
 
 **Generated:** 2025-10-01 19:44:12  
@@ -5,6 +19,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "cyclomatic complexity summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cyclomatic complexity summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 Global Statistics
 
 | Metric | Value |

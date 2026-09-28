@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "readme en"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "readme en"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📬 Notify — English presentation
 
 [![Domain-Notify](https://img.shields.io/badge/Domain-Notifications-E65100.svg)](#)
@@ -14,6 +28,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "readme en"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "readme en"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Why it exists
 
 Closes the feedback loop: state changes become traceable messages.
