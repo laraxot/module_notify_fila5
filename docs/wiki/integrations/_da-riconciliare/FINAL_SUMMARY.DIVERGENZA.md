@@ -1,4 +1,7 @@
 ---
+qmd: "FINAL SUMMARY.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: FINAL_SUMMARY.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "bashscripts gitignore workaround"
+issues: []
+discussions: []
 title: "CRITICAL: bashscripts/ in .gitignore"
 module: notify
 type: integration

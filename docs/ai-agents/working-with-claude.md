@@ -1,3 +1,14 @@
+---
+title: "working with claude"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "working with claude"
+issues: []
+discussions: []
+---
+
 # Working with Claude
 
 ## Expectations

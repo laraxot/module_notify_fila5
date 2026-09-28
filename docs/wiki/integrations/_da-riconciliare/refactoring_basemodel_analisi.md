@@ -1,4 +1,7 @@
 ---
+qmd: "refactoring basemodel analisi"
+issues: []
+discussions: []
 title: "ANALISI REFACTORING BASEMODEL - Eliminazione Duplicazioni"
 module: notify
 type: integration

@@ -1,4 +1,7 @@
 ---
+qmd: "CSS ARCHITECTURE"
+issues: []
+discussions: []
 title: "Documentazione Finale - Sixteen Theme CSS Architecture"
 module: notify
 type: integration

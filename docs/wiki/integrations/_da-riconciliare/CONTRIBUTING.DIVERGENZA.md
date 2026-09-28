@@ -1,4 +1,7 @@
 ---
+qmd: "CONTRIBUTING.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: CONTRIBUTING.md"
 module: Notify
 type: note

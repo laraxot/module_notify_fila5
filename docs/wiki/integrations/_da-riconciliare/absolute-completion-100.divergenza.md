@@ -1,4 +1,7 @@
 ---
+qmd: "absolute completion 100.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: ABSOLUTE_COMPLETION_100.md"
 module: Notify
 type: note

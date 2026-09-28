@@ -1,4 +1,7 @@
 ---
+qmd: "RALPH LOOP EXECUTION.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: RALPH_LOOP_EXECUTION.md"
 module: Notify
 type: note

@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "FINAL_IMPLEMENTATION_REPORT_2025-10-02.deprecated"
 type: concept
 tags: [deprecated]

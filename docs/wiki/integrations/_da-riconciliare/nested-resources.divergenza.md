@@ -1,4 +1,7 @@
 ---
+qmd: "nested resources.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: nested-resources.md"
 module: Notify
 type: note

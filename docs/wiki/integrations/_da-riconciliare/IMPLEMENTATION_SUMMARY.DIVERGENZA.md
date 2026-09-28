@@ -1,4 +1,7 @@
 ---
+qmd: "IMPLEMENTATION SUMMARY.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: IMPLEMENTATION_SUMMARY.md"
 module: Notify
 type: note

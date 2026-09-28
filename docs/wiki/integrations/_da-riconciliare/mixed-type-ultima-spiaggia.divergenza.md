@@ -1,4 +1,7 @@
 ---
+qmd: "mixed type ultima spiaggia.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: mixed-type-ultima-spiaggia.md"
 module: Notify
 type: note

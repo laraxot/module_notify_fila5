@@ -1,3 +1,14 @@
+---
+title: "quick reference"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "quick reference"
+issues: []
+discussions: []
+---
+
 # LLM Wiki Quick Reference
 
 > **Based on**: Karpathy's LLM Wiki pattern
@@ -67,6 +78,9 @@ What happens:
 
 ```yaml
 ---
+qmd: "quick reference"
+issues: []
+discussions: []
 title: "Page Title"                    # Required
 type: concept|entity|source|comparison|decision|troubleshooting  # Required
 sources: ["raw/articles/file.md"]      # Required (array)

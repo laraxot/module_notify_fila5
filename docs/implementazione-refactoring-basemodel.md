@@ -1,3 +1,14 @@
+---
+title: "implementazione refactoring basemodel"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "implementazione refactoring basemodel"
+issues: []
+discussions: []
+---
+
 # 🐄✨ IMPLEMENTAZIONE REFACTORING BASEMODEL - REPORT
 
 **Data Implementazione:** 2025-10-15  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "implementazione refactoring basemodel"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "implementazione refactoring basemodel"
+issues: []
+discussions: []
 ## 📊 MODULI COMPLETATI
 
 ### ✅ Moduli Refactorati (10)

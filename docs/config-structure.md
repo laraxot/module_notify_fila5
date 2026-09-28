@@ -1,3 +1,14 @@
+---
+title: "config structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "config structure"
+issues: []
+discussions: []
+---
+
 # Struttura di Configurazione nei Moduli
 # Struttura di Configurazione nei Moduli <nome progetto>
 

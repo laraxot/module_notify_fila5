@@ -1,3 +1,14 @@
+---
+title: "DESIGN COMUNI CONVERSION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI CONVERSION"
+issues: []
+discussions: []
+---
+
 # Design Comuni Pages Conversion Project
 
 > **Goal**: Convert all 32 Design Comuni pages from Bootstrap Italia to Tailwind CSS + Alpine.js  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "DESIGN COMUNI CONVERSION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI CONVERSION"
+issues: []
+discussions: []
 ## 📊 Project Overview
 
 ### Pages to Convert: 32

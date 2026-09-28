@@ -1,4 +1,7 @@
 ---
+qmd: "composer dependencies"
+issues: []
+discussions: []
 title: "Composer Dependencies - Modulo Notify"
 module: notify
 type: integration

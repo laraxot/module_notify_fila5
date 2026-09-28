@@ -1,4 +1,7 @@
 ---
+qmd: "prd"
+issues: []
+discussions: []
 title: "PRD: Notify Module"
 module: notify
 type: integration

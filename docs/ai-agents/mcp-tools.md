@@ -1,3 +1,14 @@
+---
+title: "mcp tools"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp tools"
+issues: []
+discussions: []
+---
+
 # MCP Tools
 
 > Strumenti MCP (Model Context Protocol) per Laravel Boost.

@@ -1,3 +1,14 @@
+---
+title: "installation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "installation"
+issues: []
+discussions: []
+---
+
 # 🦸 Superpowers Installation Guide
 
 > **Last Updated**: 2026-03-31  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "installation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "installation"
+issues: []
+discussions: []
 ## 📋 Prerequisites
 
 ### Required

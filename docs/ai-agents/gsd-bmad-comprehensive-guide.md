@@ -1,3 +1,14 @@
+---
+title: "gsd bmad comprehensive guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gsd bmad comprehensive guide"
+issues: []
+discussions: []
+---
+
 # GSD & BMAD — Guida Completa per Agenti AI
 
 > **Scopo**: Questa guida è la risorsa definitiva per tutti gli agenti AI che lavorano sul progetto PTVX Fila5.
@@ -8,6 +19,14 @@
 
 ---
 
+title: "gsd bmad comprehensive guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gsd bmad comprehensive guide"
+issues: []
+discussions: []
 ## 📖 Indice
 
 1. [Introduzione](#introduzione)

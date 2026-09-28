@@ -1,4 +1,7 @@
 ---
+qmd: "locations standards.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: locations_standards.md"
 module: Notify
 type: note

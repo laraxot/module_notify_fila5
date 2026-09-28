@@ -1,4 +1,7 @@
 ---
+qmd: "index"
+issues: []
+discussions: []
 title: "notify — product"
 module: notify
 type: product

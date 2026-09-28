@@ -1,4 +1,7 @@
 ---
+qmd: "conferma classi bootstrap.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: conferma-classi-bootstrap.md"
 module: Notify
 type: note

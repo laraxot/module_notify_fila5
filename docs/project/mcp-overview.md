@@ -1,3 +1,14 @@
+---
+title: "mcp overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp overview"
+issues: []
+discussions: []
+---
+
 # MCP Servers - Project Overview
 
 **Project**: Notify Platform  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "mcp overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp overview"
+issues: []
+discussions: []
 ## 🎯 Purpose
 
 MCP (Model Context Protocol) servers enhance AI agent capabilities for:

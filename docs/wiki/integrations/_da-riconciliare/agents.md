@@ -1,4 +1,7 @@
 ---
+qmd: "agents"
+issues: []
+discussions: []
 title: "Project Agents (Modular)"
 module: notify
 type: integration

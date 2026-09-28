@@ -1,3 +1,14 @@
+---
+title: "phpstan analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan analysis"
+issues: []
+discussions: []
+---
+
 # PHPStan Analysis Report
 
 **Data**: 2025-01-11
@@ -231,6 +242,14 @@ test('example', function (): void {
 
 ---
 
+title: "phpstan analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan analysis"
+issues: []
+discussions: []
 **Documento creato**: 2025-01-11
 **Autore**: Claude Code Analysis
 **Versione**: 1.0

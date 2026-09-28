@@ -1,4 +1,7 @@
 ---
+qmd: "agnostic documentation rule.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: AGNOSTIC_DOCUMENTATION_RULE.md"
 module: Notify
 type: note

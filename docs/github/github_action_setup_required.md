@@ -1,3 +1,14 @@
+---
+title: "github action setup required"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "github action setup required"
+issues: []
+discussions: []
+---
+
 # 🚨 IMPORTANT: GitHub Action Setup Required
 
 > **Date**: 2026-03-13  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "github action setup required"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "github action setup required"
+issues: []
+discussions: []
 ## ❗ Action Status
 
 **Workflow**: 🔄 Sync Subtrees  

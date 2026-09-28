@@ -1,4 +1,7 @@
 ---
+qmd: "sessione consolidated"
+issues: []
+discussions: []
 title: "sessione — Consolidated Documentation"
 module: notify
 type: integration

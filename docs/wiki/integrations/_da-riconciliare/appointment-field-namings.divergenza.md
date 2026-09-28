@@ -1,4 +1,7 @@
 ---
+qmd: "appointment field namings.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: appointment-field-namings.md"
 module: Notify
 type: note

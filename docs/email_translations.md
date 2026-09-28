@@ -1,3 +1,14 @@
+---
+title: "email translations"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email translations"
+issues: []
+discussions: []
+---
+
 # Integrazione Traduzioni Email - il progetto
 
 ## Panoramica

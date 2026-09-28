@@ -1,3 +1,14 @@
+---
+title: "phpstan syntaxs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan syntaxs"
+issues: []
+discussions: []
+---
+
 # PHPStan Syntax Errors Fix - Notify Module
 
 **Modulo**: Notify  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "phpstan syntaxs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan syntaxs"
+issues: []
+discussions: []
 ## 📊 Errori Risolti
 
 ### 1. `Models/EmailTemplate.php`

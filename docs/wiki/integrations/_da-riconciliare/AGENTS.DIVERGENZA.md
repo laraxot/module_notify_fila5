@@ -1,4 +1,7 @@
 ---
+qmd: "AGENTS.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: AGENTS.md"
 module: Notify
 type: note

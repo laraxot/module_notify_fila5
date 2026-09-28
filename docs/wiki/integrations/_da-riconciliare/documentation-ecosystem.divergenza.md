@@ -1,4 +1,7 @@
 ---
+qmd: "documentation ecosystem.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: DOCUMENTATION_ECOSYSTEM.md"
 module: Notify
 type: note

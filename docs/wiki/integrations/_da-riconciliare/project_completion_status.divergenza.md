@@ -1,4 +1,7 @@
 ---
+qmd: "project completion status.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: PROJECT_COMPLETION_STATUS.md"
 module: Notify
 type: note

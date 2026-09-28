@@ -1,3 +1,14 @@
+---
+title: "APP IMPROVEMENT START HERE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "APP IMPROVEMENT START HERE"
+issues: []
+discussions: []
+---
+
 # ✅ Notify Improvement Plan - START HERE
 
 **URL**: http://laraxot.local/it  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "APP IMPROVEMENT START HERE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "APP IMPROVEMENT START HERE"
+issues: []
+discussions: []
 ## 🎯 Quick Start
 
 ### 1. Leggi i Documenti Principali

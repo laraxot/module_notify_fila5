@@ -1,4 +1,7 @@
 ---
+qmd: "docs monitoring system"
+issues: []
+discussions: []
 title: "DOCS MONITORING SYSTEM - Sistema di Monitoraggio Documentazione"
 module: notify
 type: integration

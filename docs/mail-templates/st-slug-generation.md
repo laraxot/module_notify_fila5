@@ -1,3 +1,14 @@
+---
+title: "st slug generation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "st slug generation"
+issues: []
+discussions: []
+---
+
 # Generazione Intelligente di Slug in Filament
 
 ## Introduzione

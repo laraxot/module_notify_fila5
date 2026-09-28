@@ -1,4 +1,7 @@
 ---
+qmd: "token optimization.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: token-optimization.md"
 module: Notify
 type: note

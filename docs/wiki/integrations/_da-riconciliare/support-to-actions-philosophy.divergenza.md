@@ -1,4 +1,7 @@
 ---
+qmd: "support to actions philosophy.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: support-to-actions-philosophy.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "UI UX PRO MAX SKILLS INTEGRATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "UI UX PRO MAX SKILLS INTEGRATION"
+issues: []
+discussions: []
+---
+
 # 🎨 UI/UX Pro Max Skills - Integration Guide
 
 **Data**: 2026-03-30  
@@ -237,5 +248,13 @@ Build a landing page with:
 
 ---
 
+title: "UI UX PRO MAX SKILLS INTEGRATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "UI UX PRO MAX SKILLS INTEGRATION"
+issues: []
+discussions: []
 **Stato**: ✅ **SKILLS INSTALLATE E CONFIGURATE**  
 **Prossimo**: 🧪 Testing e creazione esempi

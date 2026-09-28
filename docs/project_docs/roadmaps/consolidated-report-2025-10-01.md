@@ -1,3 +1,14 @@
+---
+title: "consolidated report 2025 10 01"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "consolidated report 2025 10 01"
+issues: []
+discussions: []
+---
+
 # 📊 REPORT CONSOLIDATO ROADMAP - 2025-10-01
 
 ## 🎯 OVERVIEW
@@ -100,6 +111,14 @@ Report consolidato delle roadmap di tutti i moduli e temi del progetto FixCity.
 
 ---
 
+title: "consolidated report 2025 10 01"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "consolidated report 2025 10 01"
+issues: []
+discussions: []
 **Report generato**: 2025-10-01 21:20:03  
 **Prossimo aggiornamento**: 2025-10-08  
 **Status**: 🚧 ACTIVE DEVELOPMENT  

@@ -1,4 +1,7 @@
 ---
+qmd: "missing features"
+issues: []
+discussions: []
 title: "Analisi Funzionalità Mancanti - Modulo Notify"
 module: notify
 type: integration

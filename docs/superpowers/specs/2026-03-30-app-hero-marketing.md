@@ -1,3 +1,14 @@
+---
+title: "2026 03 30 app hero marketing"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "2026 03 30 app hero marketing"
+issues: []
+discussions: []
+---
+
 # Notify Hero Marketing Section - Design Spec
 
 ## Overview

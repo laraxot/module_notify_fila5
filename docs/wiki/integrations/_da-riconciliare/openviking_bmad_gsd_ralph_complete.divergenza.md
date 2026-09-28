@@ -1,4 +1,7 @@
 ---
+qmd: "openviking bmad gsd ralph complete.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md"
 module: Notify
 type: note

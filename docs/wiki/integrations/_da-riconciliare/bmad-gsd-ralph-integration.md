@@ -1,4 +1,7 @@
 ---
+qmd: "bmad gsd ralph integration"
+issues: []
+discussions: []
 title: "BMAD + GSD + Ralph Loop Integration Guide"
 module: notify
 type: integration

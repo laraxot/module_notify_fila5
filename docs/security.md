@@ -1,4 +1,7 @@
 ---
+qmd: "security"
+issues: []
+discussions: []
 title: "Analisi della Sicurezza"
 module: notify
 type: integration

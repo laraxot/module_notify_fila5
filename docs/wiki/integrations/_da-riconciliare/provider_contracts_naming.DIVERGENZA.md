@@ -1,4 +1,7 @@
 ---
+qmd: "provider contracts naming.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: provider_contracts_naming.md"
 module: Notify
 type: note

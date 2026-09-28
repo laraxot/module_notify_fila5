@@ -1,4 +1,7 @@
 ---
+qmd: "NOTEBOOKLM INTEGRATION"
+issues: []
+discussions: []
 title: "NotebookLM Integration"
 module: notify
 type: integration

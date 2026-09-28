@@ -1,3 +1,14 @@
+---
+title: "mail template slug proposal"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail template slug proposal"
+issues: []
+discussions: []
+---
+
 # Proposta: Implementazione Campo Slug nei Template Email
 
 ## Collegamenti correlati

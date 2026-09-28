@@ -1,4 +1,7 @@
 ---
+qmd: "factory"
+issues: []
+discussions: []
 title: "Analisi del Pattern Factory per le Notifiche"
 module: notify
 type: integration

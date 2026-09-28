@@ -1,4 +1,7 @@
 ---
+qmd: "sessione completa.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: SESSIONE_COMPLETA.md"
 module: Notify
 type: note

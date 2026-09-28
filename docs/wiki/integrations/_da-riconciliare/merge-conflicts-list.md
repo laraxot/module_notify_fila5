@@ -1,4 +1,7 @@
 ---
+qmd: "merge conflicts list"
+issues: []
+discussions: []
 title: "Merge conflict markers — Notify"
 module: notify
 type: integration

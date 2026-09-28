@@ -1,4 +1,10 @@
 ---
+type: note
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pest xotbasepest"
+issues: []
+discussions: []
 title: pest bootstrap con xotbasepest
 description: Come il modulo Notify usa il bootstrap Pest condiviso di Xot senza tests/Support.
 document_type: concept

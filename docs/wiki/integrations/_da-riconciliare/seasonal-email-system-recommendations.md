@@ -1,4 +1,7 @@
 ---
+qmd: "seasonal email system recommendations"
+issues: []
+discussions: []
 title: "Raccomandazioni per lo Sviluppo del Sistema Email Stagionali"
 module: notify
 type: integration

@@ -1,3 +1,14 @@
+---
+title: "phpmd phar installation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpmd phar installation"
+issues: []
+discussions: []
+---
+
 # 🔧 PHPMD Installation - .phar NOT Composer
 
 **Path**: `.agents/docs/rules/phpmd-phar-installation.md`  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "phpmd phar installation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpmd phar installation"
+issues: []
+discussions: []
 ## 🎯 The Rule
 
 > **SEMPRE** installare PHPMD come **.phar** standalone.
