@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "leggi qui domani.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: leggi-qui-domani.md"
 module: Notify
 type: note

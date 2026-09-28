@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "sistema notifiche"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sistema notifiche"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Sistema Notifiche
 
 ## Architettura

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "netfun examples"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun examples"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP

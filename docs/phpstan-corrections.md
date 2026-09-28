@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan corrections"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan corrections"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Corrections - Modulo Notify
 
 ## Status: ✅ COMPLETATO (0 errori)
@@ -335,6 +349,17 @@ Sistema di notifiche multi-canale (email, SMS, database, Telegram, WhatsApp) con
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phpstan corrections"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan corrections"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO
 **Data completamento**: [DATE]
 **Files corretti**: 13

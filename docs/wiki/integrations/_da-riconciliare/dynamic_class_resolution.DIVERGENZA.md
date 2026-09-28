@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "dynamic class resolution.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: dynamic_class_resolution.md"
 module: Notify
 type: note

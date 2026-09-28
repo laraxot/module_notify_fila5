@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "SESSIONE COMPLETA"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SESSIONE COMPLETA"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ Sessione Completata - Allineamento Bootstrap Italia
 
 ## 📋 Riepilogo Lavoro
@@ -147,6 +161,17 @@ GET /it/tests/amministrazione → tests.view (slug=amministrazione)
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "SESSIONE COMPLETA"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SESSIONE COMPLETA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO  
 **Data**: 2026-03-31  
 **URL Test**: http://ptv.local/it/tests/homepage

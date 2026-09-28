@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "bash commands auto allow"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bash commands auto allow"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🔧 Bash Commands - Auto-Allow List
 
 **Path**: `.agents/docs/rules/bash-commands-auto-allow.md`  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "bash commands auto allow"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bash commands auto allow"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Rule
 
 > **SEMPRE** permettere questi comandi bash SENZA chiedere conferma.

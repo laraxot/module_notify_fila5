@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "agents module architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents module architecture"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # AGENTS Module Architecture
 
 Regole di architettura modulare per il progetto.
@@ -22,6 +36,17 @@ Questo permette al modulo di funzionare in qualsiasi progetto senza dipendere da
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "agents module architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents module architecture"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Module Directory Structure
 
 Ogni modulo segue questa struttura:

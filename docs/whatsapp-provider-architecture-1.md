@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "whatsapp provider architecture 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "whatsapp provider architecture 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Architettura WhatsApp Provider per <nome progetto>
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS ed email.

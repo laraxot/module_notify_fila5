@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "critical rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "critical rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Regole Critiche
 
 Summary obbligatorio per tutti gli agenti. Vedi [index](index.md) per navigazione completa.

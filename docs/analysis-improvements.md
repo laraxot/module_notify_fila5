@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "analysis improvements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analysis improvements"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi e Miglioramenti del Modulo Notify
 
 ## Analisi delle Soluzioni Esistenti

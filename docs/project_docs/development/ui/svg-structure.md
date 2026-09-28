@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "svg structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg structure"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Struttura SVG nei Moduli
 
 ## Panoramica
@@ -181,5 +195,16 @@ Lo script `bashscripts/create_svg_structure.sh` è stato utilizzato per creare a
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "svg structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg structure"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Struttura SVG creata: Agosto 2025*
 *Responsabile: DRY + KISS SVG Structure* 

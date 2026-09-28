@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "composer updatees"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Composer Update Fixes - 24 Novembre 2025"
 module: notify
 type: integration

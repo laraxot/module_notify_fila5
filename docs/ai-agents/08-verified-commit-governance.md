@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "08 verified commit governance"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "08 verified commit governance"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Verified Commit Governance
 
 ## Regola

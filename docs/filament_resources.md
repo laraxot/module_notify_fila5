@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament resources"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament resources"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Risorse Filament del Modulo Notify
 
 ### Versione HEAD
@@ -17,6 +31,17 @@ MailTemplateResource gestisce i template delle email nel sistema. Estende `XotBa
 ---
 
 
+<<<<<<< HEAD
+=======
+title: "filament resources"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament resources"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ### Schema del Form
 
 ```php

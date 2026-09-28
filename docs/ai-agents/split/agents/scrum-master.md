@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "scrum master"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "scrum master"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Scrum Master (id: sm)
 Source: .bmad-core/agents/sm.md
 
@@ -63,6 +77,17 @@ dependencies:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "scrum master"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "scrum master"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "PROJECT ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PROJECT ROADMAP"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🗺️ FIXCITY - PROJECT ROADMAP COMPLETA
 
 > **Data**: 2025-10-01
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "PROJECT ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PROJECT ROADMAP"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 EXECUTIVE SUMMARY
 
 **FixCity** è una piattaforma di civic engagement per la gestione delle segnalazioni urbane. Architettura **modular monolith** basata su Nwidart + Laraxot, con backend Filament 3.x e frontend Folio + Volt + Livewire 3.x.

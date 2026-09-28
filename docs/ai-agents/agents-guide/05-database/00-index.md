@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📋 05 database Index
 
 **Path**: `docs/agents-guide/05-database/`
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 Statistics
 
 | Metric | Count |

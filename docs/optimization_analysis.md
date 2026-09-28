@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "optimization analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "optimization analysis"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # notify module documentation optimization analysis
 
 ## current state analysis

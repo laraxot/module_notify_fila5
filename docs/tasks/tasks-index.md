@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "tasks index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tasks index"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Indice task - Modulo Notify
 
 Lista dei task del modulo con link ai file .md separati. Ogni task è un file nella cartella `tasks/`. Dettagli dalla [roadmap](../roadmap.md).

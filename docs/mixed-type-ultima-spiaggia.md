@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mixed type ultima spiaggia"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mixed type ultima spiaggia"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Mixed (tipo di dato) - Solo come Ultima Spiaggia
 
 **Regola**: `mixed` solo quando non esiste un tipo più stretto. Non è un shortcut per PHPStan.

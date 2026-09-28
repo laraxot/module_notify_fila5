@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "html structure comparison"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "HTML Structure Comparison Tools"
 module: notify
 type: integration

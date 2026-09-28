@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "quick commands"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "quick commands"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Quick Commands
 
 ## Testing
@@ -40,4 +54,15 @@ composer go
 ```
 
 ---
+<<<<<<< HEAD
+=======
+title: "quick commands"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "quick commands"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 [Back to index](../index.md)

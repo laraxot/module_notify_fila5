@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "token efficiency religion"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Token Optimization — La Religione dell'Efficienza"
 module: notify
 type: integration

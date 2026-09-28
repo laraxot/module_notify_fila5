@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "segnalazione 02 dati"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "segnalazione 02 dati"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Converti pagina: Segnalazione - Dati (segnalazione-02-dati.html)
 
 ## Obiettivo

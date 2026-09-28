@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan corrections summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan corrections summary"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🎯 PHPStan Corrections Summary - Gennaio 2025
 
 **Data**: 27 Gennaio 2025  
@@ -188,6 +202,17 @@ class TaskCompleted extends Notification implements ShouldQueue
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phpstan corrections summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan corrections summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🏆 **CONCLUSIONI**
 
 **Missione Completata con Successo!** 🎉

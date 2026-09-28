@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "contactcolumn anti patterns and errors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contactcolumn anti patterns and errors"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ERRORI CRITICI ContactColumn.php - Anti-Pattern da NON Ripetere MAI
 
 ## 🚨 ERRORI ARCHITETTURALI GRAVISSIMI COMMESSI
@@ -129,6 +143,17 @@ private function formatContacts(Client $record): string
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "contactcolumn anti patterns and errors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contactcolumn anti patterns and errors"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **GRAVITÀ**: CRITICA  
 **IMPATTO**: Alto - Pattern sbagliato potrebbe essere copiato  
 **PRIORITÀ**: Immediata - Correggere subito  

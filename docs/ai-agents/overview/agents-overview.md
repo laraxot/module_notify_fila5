@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "agents overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents overview"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🎯 AI Agents Overview
 
 **File**: `.agents/docs/overview/agents-overview.md`  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "agents overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents overview"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 Project Stack
 
 ### Core Technology

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "lista risorse"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "lista risorse"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Converti pagina: Lista Risorse (lista-risorse.html)
 
 ## Obiettivo

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "conflict resolution smschannel"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "conflict resolution smschannel"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Risoluzione Conflitti SmsChannel.php
 
 ## Contesto del Conflitto

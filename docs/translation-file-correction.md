@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "translation file correction"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translation file correction"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione

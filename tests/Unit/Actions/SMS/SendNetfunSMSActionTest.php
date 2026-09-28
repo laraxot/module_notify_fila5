@@ -5,15 +5,23 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Actions\SMS;
 
 use Modules\Notify\Actions\SMS\SendNetfunSMSAction;
+<<<<<<< HEAD
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Models\Contracts\SmsActionContract;
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+use Modules\Notify\Datas\SmsData;
+>>>>>>> laraxot/dev
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionNamedType;
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 use function Safe\json_encode;
 
+=======
+>>>>>>> laraxot/dev
 test('netfun sms action has the expected public contract', function (): void {
     $reflection = new ReflectionClass(SendNetfunSMSAction::class);
     $method = $reflection->getMethod('execute');
@@ -30,6 +38,7 @@ test('netfun sms action has the expected public contract', function (): void {
     Assert::assertInstanceOf(ReflectionNamedType::class, $returnType);
     Assert::assertSame('array', $returnType->getName());
 });
+<<<<<<< HEAD
 
 function invokeIsSuccessfulResponse(int $statusCode, string $statusTxt): bool
 {
@@ -75,3 +84,5 @@ test('netfun sms response with non-2xx http status is treated as a real failure'
 test('netfun sms response with malformed body is treated as a real failure', function (): void {
     Assert::assertFalse(invokeIsSuccessfulResponse(200, 'not json'));
 });
+=======
+>>>>>>> laraxot/dev

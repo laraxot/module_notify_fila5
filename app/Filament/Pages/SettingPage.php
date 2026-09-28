@@ -18,6 +18,7 @@ class SettingPage extends XotBasePage
         $only = [
             'debugbar_enabled',
             // 'google_maps_api_key',
+<<<<<<< HEAD
             'telegram_bot_token',
             'sms_driver',
             'netfun_token',
@@ -30,6 +31,9 @@ class SettingPage extends XotBasePage
             'mail_from_address',
             'mail_from_name',
         ];
+=======
+            'telegram_bot_token'];
+>>>>>>> laraxot/dev
 
         return [
             EnvWidget::make(['only' => $only])];

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "comparison"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Comparison Title"
 type: comparison
 sources: ["raw/articles/source-1.md", "raw/articles/source-2.md"]

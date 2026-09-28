@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "superpowers"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "superpowers"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Superpowers - Agentic Skills Framework
 
 **Source**: https://github.com/obra/superpowers  
@@ -8,6 +22,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "superpowers"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "superpowers"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cosa è
 
 Superpowers è un framework di skill componibili per coding agent (OpenCode, Claude Code, Cursor, Gemini CLI). Fornisce un workflow completo di sviluppo software autonomo basato su:

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "USER RESEARCH"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Module - User Research"
 module: notify
 type: integration

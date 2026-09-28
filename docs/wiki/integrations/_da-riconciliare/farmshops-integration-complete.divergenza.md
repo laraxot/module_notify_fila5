@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "farmshops integration complete.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: farmshops-integration-complete.md"
 module: Notify
 type: note

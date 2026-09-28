@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ai rules critical"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "AI Agent Rules - CRITICAL UPDATE"
 module: notify
 type: integration

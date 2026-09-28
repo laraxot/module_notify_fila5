@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "phpstan-real-situation-2025-10-10"
 type: concept
 tags: [deprecated]

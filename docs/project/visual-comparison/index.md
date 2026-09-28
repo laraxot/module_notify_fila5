@@ -1,9 +1,34 @@
+<<<<<<< HEAD
+=======
+---
+title: "index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "index"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Project Visual Comparison - Homepage Parity
 
 **Date**: 2026-04-02
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Objective
 
 Make local homepage (http://127.0.0.1:8000/it/tests/homepage) visually identical to reference (https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html)

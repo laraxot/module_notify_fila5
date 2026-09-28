@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "project completion status"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "NOTIFY - STATO COMPLETAMENTO PROGETTO"
 module: notify
 type: integration

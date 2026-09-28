@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "factory advantages"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Analisi del Pattern Factory per la Selezione dei Provider SMS"
 module: notify
 type: integration

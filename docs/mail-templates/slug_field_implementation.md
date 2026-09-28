@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "slug field implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "slug field implementation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Implementazione del Campo `slug` in MailTemplate
 
 ## Introduzione

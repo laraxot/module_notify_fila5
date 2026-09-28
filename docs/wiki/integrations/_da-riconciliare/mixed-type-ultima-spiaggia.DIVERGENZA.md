@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "mixed type ultima spiaggia.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: mixed-type-ultima-spiaggia.md"
 module: Notify
 type: note

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "boost skill fix summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Boost Skill Fix Summary - Notify Module"
 module: notify
 type: integration

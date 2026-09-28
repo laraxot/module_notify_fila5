@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "MODULAR DOCUMENTATION REFACTORING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MODULAR DOCUMENTATION REFACTORING"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📚 MODULAR DOCUMENTATION REFACTORING REPORT
 
 **Data**: 2026-03-20  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "MODULAR DOCUMENTATION REFACTORING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MODULAR DOCUMENTATION REFACTORING"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 OBIETTIVO
 
 Organizzare la documentazione AI agents in file modulari più piccoli e gestibili, con collegamenti bidirezionali.

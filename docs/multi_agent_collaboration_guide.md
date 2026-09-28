@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "multi agent collaboration guide"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Multi-Agent Collaboration Rules & Guidelines"
 module: notify
 type: integration

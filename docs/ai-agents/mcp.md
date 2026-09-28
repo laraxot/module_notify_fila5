@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mcp"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Model Context Protocol
 
 ## Configuration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "notifications system"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "notifications system"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Sistema di Notifiche
 
 ## Panoramica

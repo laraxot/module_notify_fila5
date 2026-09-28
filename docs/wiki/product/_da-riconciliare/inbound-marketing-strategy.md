@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "inbound marketing strategy"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Strategia Inbound Marketing - App"
 module: notify
 type: product

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "css architecture.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: CSS_ARCHITECTURE.md"
 module: Notify
 type: note

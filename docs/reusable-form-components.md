@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "reusable form components"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Reusable Form Components"
 module: notify
 type: integration

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "BASHSCRIPTS GITIGNORE WORKAROUND.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: BASHSCRIPTS_GITIGNORE_WORKAROUND.md"
 module: Notify
 type: note

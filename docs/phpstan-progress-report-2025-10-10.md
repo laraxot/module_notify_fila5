@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan progress report 2025 10 10"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan progress report 2025 10 10"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Progress Report - Sessione Correzioni
 
 **Data**: 2025-10-10  
@@ -303,6 +317,17 @@ Non usare `@mixin IdeHelperModel` - causa errori PHPStan
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phpstan progress report 2025 10 10"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan progress report 2025 10 10"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Report generato**: 2025-10-10T11:45:43+02:00  
 **Analista**: Cascade AI  
 **Livello PHPStan**: MAX (9)  

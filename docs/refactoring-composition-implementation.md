@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "refactoring composition implementation"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Refactoring Summary: SendRecordsNotificationBulkAction Implementation"
 module: notify
 type: integration

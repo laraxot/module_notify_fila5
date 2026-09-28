@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "FIX COLORI HEADER FOOTER.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: FIX_COLORI_HEADER_FOOTER.md"
 module: Notify
 type: note

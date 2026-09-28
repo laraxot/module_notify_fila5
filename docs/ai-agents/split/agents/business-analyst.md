@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "business analyst"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "business analyst"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Business Analyst (id: analyst)
 Source: .bmad-core/agents/analyst.md
 
@@ -86,6 +100,17 @@ These are reusable task briefs you can reference directly in Codex.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "business analyst"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "business analyst"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

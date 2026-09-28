@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "record notification zen delegation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "record notification zen delegation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Refactoring RecordNotification - Zen Delegation Pattern
 
 **Stato**: ✅ Implementato  
@@ -259,5 +273,16 @@ $client->notify($notification); // via() determina canali da routeNotificationFo
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "record notification zen delegation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "record notification zen delegation"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Delegation over duplication, bridge over God Object, simplicity over complexity"*

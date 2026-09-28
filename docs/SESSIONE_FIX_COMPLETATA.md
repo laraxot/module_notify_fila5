@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "SESSIONE FIX COMPLETATA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Sessione Completata - Fix Homepage Bootstrap Italia"
 module: notify
 type: integration

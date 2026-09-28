@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "bmad method setup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bmad method setup"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # BMAD Method - Guida Installazione e Configurazione
 
 **Versione:** 6.2.2  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "bmad method setup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bmad method setup"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## documentazione canonica (naming stabile)
 
 - [setup e configurazione](../bmad/setup-guide.md)

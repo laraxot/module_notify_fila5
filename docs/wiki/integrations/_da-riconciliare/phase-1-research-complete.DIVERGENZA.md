@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "phase 1 research complete.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: phase-1-research-complete.md"
 module: Notify
 type: note

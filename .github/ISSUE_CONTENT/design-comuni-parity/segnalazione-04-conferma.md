@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "segnalazione 04 conferma"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "segnalazione 04 conferma"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Converti pagina: Segnalazione - Conferma (segnalazione-04-conferma.html)
 
 ## Obiettivo

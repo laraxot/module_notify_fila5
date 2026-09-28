@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "github actions status"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "GitHub Actions Status & Fixes"
 module: notify
 type: integration

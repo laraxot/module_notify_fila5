@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "header fix complete"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Header Notify Fixato - 100% Conforme Bootstrap Italia"
 module: notify
 type: integration

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "enum config usage"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Utilizzo di Enum e Config"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "whatsapp channel"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "whatsapp channel"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # `WhatsAppChannel`
 
 This document describes the `WhatsAppChannel`, a custom Laravel Notification Channel designed to send WhatsApp messages. It provides a placeholder for integration with WhatsApp API providers and aims to extend the application's notification capabilities.

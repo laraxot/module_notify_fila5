@@ -29,10 +29,17 @@ class NotificationLogInfolist extends XotBaseResourceInfolist
             'notifiable_id' => TextEntry::make('notifiable_id'),
             'status_message' => TextEntry::make('status_message'),
             'data' => TextEntry::make('data')
+<<<<<<< HEAD
                 ->formatStateUsing(fn (array|string|null $state): string => $this->formatJsonState($state))
                 ->columnSpanFull(),
             'metadata' => TextEntry::make('metadata')
                 ->formatStateUsing(fn (array|string|null $state): string => $this->formatJsonState($state))
+=======
+                ->formatStateUsing(fn (mixed $state): string => $this->formatJsonState($state))
+                ->columnSpanFull(),
+            'metadata' => TextEntry::make('metadata')
+                ->formatStateUsing(fn (mixed $state): string => $this->formatJsonState($state))
+>>>>>>> laraxot/dev
                 ->columnSpanFull(),
             'tenant_id' => TextEntry::make('tenant_id'),
             'sent_at' => TextEntry::make('sent_at')->dateTime(),
@@ -44,10 +51,14 @@ class NotificationLogInfolist extends XotBaseResourceInfolist
         ];
     }
 
+<<<<<<< HEAD
     /**
      * @param  array<array-key, mixed>|string|null  $state  Stato di colonna JSON (cast `array`) o stringa grezza
      */
     private function formatJsonState(array|string|null $state): string
+=======
+    private function formatJsonState(mixed $state): string
+>>>>>>> laraxot/dev
     {
         if (\is_array($state)) {
             return json_encode($state, JSON_PRETTY_PRINT | JSON_THROW_ON_ERROR);

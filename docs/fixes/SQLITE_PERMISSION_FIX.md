@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "SQLITE PERMISSION FIX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SQLITE PERMISSION FIX"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ SQLite Database Permission Fix - COMPLETE
 
 **Date**: 2026-03-30  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "SQLITE PERMISSION FIX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SQLITE PERMISSION FIX"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🚨 Error Details
 
 ### Original Error

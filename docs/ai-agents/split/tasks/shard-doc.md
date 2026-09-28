@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "shard doc"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "shard doc"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Task: shard-doc
 Source: .bmad-core/tasks/shard-doc.md
 - How to use: "Use task shard-doc with the appropriate agent" and paste relevant parts as needed.
@@ -66,6 +80,17 @@ If the user has @kayvan/markdown-tree-parser installed, use it and skip the manu
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "shard doc"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "shard doc"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Manual Method (if @kayvan/markdown-tree-parser is not available or user indicated manual method)
 
 ### Task Instructions

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament extension rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament extension rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Regole di Estensione delle Classi Filament
 
 ## Regola Fondamentale

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "product launch plan"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Module - Product Launch Plan"
 module: notify
 type: integration

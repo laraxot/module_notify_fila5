@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "CSS ARCHITECTURE"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Documentazione Finale - Sixteen Theme CSS Architecture"
 module: notify
 type: integration

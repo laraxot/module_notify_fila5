@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "sync remote repo test plan"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Sync Remote Repo - Test Plan"
 module: notify
 type: integration

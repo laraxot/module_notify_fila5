@@ -1,9 +1,34 @@
+<<<<<<< HEAD
+=======
+---
+title: "analisi metodi duplicati index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analisi metodi duplicati index"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📚 INDICE COMPLETO - Analisi Metodi Duplicati
 
 > 🐄✨ **Navigazione Completa dei Documenti di Analisi**
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "analisi metodi duplicati index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analisi metodi duplicati index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Documenti Principali (START HERE!)
 
 ### 1. 🏆 MASTER EDITION - Il Documento Definitivo

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "custom charts deep dive"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom charts deep dive"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Custom Question Types - Deep Dive Technical Guide
 
 **Version**: 1.0.0  
@@ -8,6 +22,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "custom charts deep dive"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom charts deep dive"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Table of Contents
 
 1. [Executive Summary](#executive-summary)

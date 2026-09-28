@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "spatieatabase mail templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "spatieatabase mail templates"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Integrazione con Spatie Laravel Database Mail Templates
 
 Questa guida documenta l'uso del pacchetto [spatie/laravel-database-mail-templates](https://github.com/spatie/laravel-database-mail-templates) all'interno del modulo **Notify**.

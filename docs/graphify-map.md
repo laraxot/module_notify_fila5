@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "graphify map"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Module — Mappa Graphify"
 module: notify
 type: integration

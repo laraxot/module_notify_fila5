@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "MULTI AGENT COORDINATION RULES"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Multi-Agent AI Coordination - Critical Rules"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "qwen split index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen split index"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # QWEN.md Split Index
 
 > Documentazione QWEN.md spezzata in file più piccoli.

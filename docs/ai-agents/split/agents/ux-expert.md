@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ux expert"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ux expert"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### UX Expert (id: ux-expert)
 Source: .bmad-core/agents/ux-expert.md
 
@@ -67,6 +81,17 @@ dependencies:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "ux expert"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ux expert"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

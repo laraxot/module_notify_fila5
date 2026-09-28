@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "record notification zen constructor"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "record notification zen constructor"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🧘 RecordNotification Zen Delegation Strategy
 
 ## 🕉️ Philosophy: Zen Delegation

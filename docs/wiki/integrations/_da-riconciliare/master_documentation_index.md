@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "master documentation index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Master Documentation Index"
 module: notify
 type: integration

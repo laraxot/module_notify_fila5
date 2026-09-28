@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "readme phase 1 execution.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: readme-phase-1-execution.md"
 module: Notify
 type: note

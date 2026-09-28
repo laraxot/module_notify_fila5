@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "drytraitmethods"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "drytraitmethods"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # DRY Principle for Trait Methods
 
 ## Critical Rule: Never Duplicate Trait Methods

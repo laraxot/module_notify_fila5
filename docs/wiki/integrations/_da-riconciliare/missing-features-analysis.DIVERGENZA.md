@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "missing features analysis.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: missing-features-analysis.md"
 module: Notify
 type: note

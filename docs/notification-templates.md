@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "notification templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "notification templates"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Template delle Notifiche
 
 ## Architettura

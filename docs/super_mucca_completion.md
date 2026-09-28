@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "super mucca completion"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "SUPER MUCCA MODE - COMPLETAMENTO TOTALE"
 module: notify
 type: integration

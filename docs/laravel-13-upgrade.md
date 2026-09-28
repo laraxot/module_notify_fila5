@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "laravel 13 upgrade"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Upgrade Laravel 13 - Notify 🐄✨"
 module: notify
 type: integration

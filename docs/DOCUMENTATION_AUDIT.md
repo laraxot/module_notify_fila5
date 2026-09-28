@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "DOCUMENTATION AUDIT"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION AUDIT"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Documentation Audit Report
 
 **Analysis Date:** 2026-03-30  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "DOCUMENTATION AUDIT"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION AUDIT"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Executive Summary
 
 ### Key Findings

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "whatsapp integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "whatsapp integration"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Integrazione WhatsApp 
 
 ## Panoramica
@@ -536,4 +550,15 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "whatsapp integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "whatsapp integration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2023-05-12*

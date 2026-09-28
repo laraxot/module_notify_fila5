@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "sms factorata implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms factorata implementation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # SmsFactorData Implementation Summary
 
 ## Overview

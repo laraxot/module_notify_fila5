@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Architectural Rules & Guidelines
 
 This module adheres to the **Laraxot Architecture** and **Super Cow Methodology**.
@@ -63,6 +77,17 @@ This document outlines the architectural design of the Notify module, focusing o
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 <!-- Merged from ARCHITECTURE.md, which collided with this file on case-insensitive filesystems. -->
 
 ---

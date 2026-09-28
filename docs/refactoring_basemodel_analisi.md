@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "refactoring basemodel analisi"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "refactoring basemodel analisi"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📋 ANALISI REFACTORING BASEMODEL - Eliminazione Duplicazioni
 
 **Data Analisi**: 2025-10-15
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "refactoring basemodel analisi"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "refactoring basemodel analisi"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Domanda Iniziale
 
 > "Perciò tutti i BaseModel devono estendere XotBaseModel e togliere i metodi e parametri doppi?"

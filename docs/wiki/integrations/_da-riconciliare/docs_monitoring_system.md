@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "docs monitoring system"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "DOCS MONITORING SYSTEM - Sistema di Monitoraggio Documentazione"
 module: notify
 type: integration

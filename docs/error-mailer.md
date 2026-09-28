@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "error mailer"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "error mailer"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Error Mailer System
 
 ## Panoramica

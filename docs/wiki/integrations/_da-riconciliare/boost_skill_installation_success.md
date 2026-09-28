@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "boost skill installation success"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Boost Skill Installation - Success Report"
 module: notify
 type: integration

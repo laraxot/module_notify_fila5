@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "header fix analysis.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: header-fix-analysis.md"
 module: Notify
 type: note

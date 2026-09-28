@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "SUPER MUCCA DOCS ANALYSIS"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "SUPER MUCCA - Analisi Completa Documentazione"
 module: notify
 type: integration

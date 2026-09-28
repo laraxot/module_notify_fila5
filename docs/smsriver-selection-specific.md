@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "smsriver selection specific"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "smsriver selection specific"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi Specifica: Validazione e Selezione Driver in SmsData
 
 ## Contesto Specifico

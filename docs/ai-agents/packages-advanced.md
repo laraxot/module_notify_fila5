@@ -1,9 +1,34 @@
+<<<<<<< HEAD
+=======
+---
+title: "packages advanced"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages advanced"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Packages advanced — reference
 
 Packages not covered in `packages-spatie.md`, `packages-laravel-core.md`, `packages-filament-livewire.md`, or `packages-other.md`. All confirmed present in `composer.json` as of February 2026.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "packages advanced"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages advanced"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Eloquent model patterns
 
 ### tightenco/parental 1.5.0

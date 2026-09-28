@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan test mai escludere"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan test mai escludere"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🚨 REGOLA CRITICA PROGETTO: PHPStan e Test
 
 ## ⚠️ REGOLA ASSOLUTA - NON DEROGABILE
@@ -151,6 +165,17 @@ I test devono sempre essere analizzati da PHPStan.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phpstan test mai escludere"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan test mai escludere"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Data:** 10 Ottobre 2025  
 **Priorità:** 🚨 MASSIMA  
 **Categoria:** Regola Critica Non Derogabile  

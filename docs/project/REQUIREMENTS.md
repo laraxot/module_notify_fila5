@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "REQUIREMENTS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "REQUIREMENTS"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # REQUIREMENTS: FixCity Platform
 
 ## Phase 2: Feature Expansion (Q1 2026) - CURRENT

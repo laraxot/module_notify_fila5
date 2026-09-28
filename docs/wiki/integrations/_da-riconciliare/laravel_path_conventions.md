@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "laravel path conventions"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Convenzioni dei Path in Laravel e <nome progetto>"
 module: notify
 type: integration

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "optimization consolidated"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "optimization — Consolidated Documentation"
 module: notify
 type: integration

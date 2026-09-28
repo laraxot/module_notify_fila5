@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "phpstan central config rule"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: PHPStan Central Config Rule
 type: concept
 tags: [phpstan, quality, workflow, governance]

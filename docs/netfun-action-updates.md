@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "netfun action updates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun action updates"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Aggiornamenti a SendNetfunSMSAction
 
 ## Panoramica delle Modifiche
@@ -319,4 +333,15 @@ Questi miglioramenti garantiscono:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "netfun action updates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun action updates"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: [DATE]*

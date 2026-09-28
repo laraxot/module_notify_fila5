@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan error resolution roadmap"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan error resolution roadmap"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Notify Module PHPStan Error Resolution Roadmap
 
 ## Overview

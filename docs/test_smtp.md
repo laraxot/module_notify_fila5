@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "test smtp"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Test smtp'
 module: Notify
 type: reference

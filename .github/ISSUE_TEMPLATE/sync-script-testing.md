@@ -1,4 +1,14 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sync script testing"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 name: 🧪 Sync Script Testing
 about: Track testing of sync_remote_repo.sh script and GitHub Actions workflow
 title: '[TEST] '

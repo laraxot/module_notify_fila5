@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "contracts"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Contracts"
 module: notify
 type: integration

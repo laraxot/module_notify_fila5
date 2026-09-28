@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "super mucca final summary.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: SUPER_MUCCA_FINAL_SUMMARY.md"
 module: Notify
 type: note

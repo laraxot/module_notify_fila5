@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "netfunchannel conflict resolution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfunchannel conflict resolution"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Risoluzione conflitto NetfunChannel.php
 
 ## Motivazione

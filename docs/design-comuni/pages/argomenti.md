@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "argomenti"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "argomenti"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Argomenti Page Analysis
 
 ## Status: IN PROGRESS
@@ -32,6 +46,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "argomenti"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "argomenti"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Created: 2026-04-07*
 *Page: argomenti*
 *Category: design-comuni*

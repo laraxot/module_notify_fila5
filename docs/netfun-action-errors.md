@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "netfun action errors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun action errors"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Errori in SendNetfunSMSAction e Correzioni
 
 ## Errori Identificati
@@ -191,4 +205,15 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "netfun action errors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun action errors"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: [DATE]*

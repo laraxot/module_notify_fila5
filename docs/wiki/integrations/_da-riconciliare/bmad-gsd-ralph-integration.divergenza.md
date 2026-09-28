@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "bmad gsd ralph integration.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: bmad-gsd-ralph-integration.md"
 module: Notify
 type: note

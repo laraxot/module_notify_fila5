@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "composer dependencies"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Composer Dependencies - Modulo Notify"
 module: notify
 type: integration

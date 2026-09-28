@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "GAP ANALYSIS IMPLEMENTATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "GAP ANALYSIS IMPLEMENTATION"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN
 
 **Data**: 2025-10-01  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "GAP ANALYSIS IMPLEMENTATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "GAP ANALYSIS IMPLEMENTATION"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 SCOPO DEL PROGETTO
 
 ### Business Goal

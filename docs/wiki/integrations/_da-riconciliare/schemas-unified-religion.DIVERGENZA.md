@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "schemas unified religion.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: schemas-unified-religion.md"
 module: Notify
 type: note

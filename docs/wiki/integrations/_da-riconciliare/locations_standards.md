@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "locations standards"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Standard di Posizionamento dei File in Notify"
 module: notify
 type: integration

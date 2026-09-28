@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "architecture analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture analysis"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
 **Generated**: 2025-10-01
 **Project**: FixCity Civic Engagement Platform
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "architecture analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture analysis"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📋 EXECUTIVE SUMMARY
 
 ### Project Overview

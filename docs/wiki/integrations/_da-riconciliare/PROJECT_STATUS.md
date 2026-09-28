@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "PROJECT STATUS"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Platform - Project Status Report"
 module: notify
 type: integration

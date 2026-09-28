@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "SUPER MUCCA FINAL SUMMARY"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "SUPER MUCCA - Missione Completata"
 module: notify
 type: integration

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "migration plan"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Documentation Agnostic Migration Plan"
 module: notify
 type: integration

@@ -1,9 +1,34 @@
+<<<<<<< HEAD
+=======
+---
+title: "github issues workflow"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "github issues workflow"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # GitHub Issues - CORRECT WORKFLOW
 
 **CRITICAL RULE**: GitHub Issues e Discussions si creano **ONLINE** su GitHub, NON come file locali!
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "github issues workflow"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "github issues workflow"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Repository
 
 - **URL**: https://github.com/laraxot/base_predict_fila5

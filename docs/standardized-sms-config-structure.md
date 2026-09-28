@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "standardized sms config structure"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Struttura Standardizzata della Configurazione SMS"
 module: notify
 type: integration

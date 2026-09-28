@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "loc struct"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Loc struct'
 module: Notify
 type: reference

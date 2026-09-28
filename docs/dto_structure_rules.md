@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "dto structure rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dto structure rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Regole per la Struttura dei DTO
 
 ## Directory e Namespace

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "theme translations critical rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "theme translations critical rule"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 14. Theme Translations - CRITICAL RULE
 
 **ALWAYS use `pub_theme::` namespace for theme translations, NEVER the theme name!**

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "tailwind apply bootstrap italia"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Tailwind @apply per Bootstrap Italia - Completato"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "agents"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Project Agents (Modular)
 
 This file provides guidance and memory for Codex CLI. The content has been split into modular files for better efficiency.
@@ -65,6 +79,17 @@ docs/
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "agents"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Reusable Tasks
 
 - [Task: validate-next-story](./.agents/docs/main-rules/task-validate-next-story.md)

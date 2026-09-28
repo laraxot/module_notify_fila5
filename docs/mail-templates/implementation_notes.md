@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "implementation notes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "implementation notes"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni

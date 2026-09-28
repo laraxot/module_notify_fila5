@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "concepts index — Notify"
 type: index
 tags: [concepts, Notify]

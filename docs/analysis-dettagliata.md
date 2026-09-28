@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "analysis dettagliata"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analysis dettagliata"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify
 
 ## 1. Analisi delle Soluzioni di Template Email

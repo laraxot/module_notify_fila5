@@ -21,6 +21,10 @@ use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> laraxot/dev
 
 /**
  * @property Schema $emailForm
@@ -96,7 +100,10 @@ class SendEmailPage extends XotBasePage
 
                 ->submit('emailFormActions')];
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

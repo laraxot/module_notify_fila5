@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "conferma classi bootstrap.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: CONFERMA_CLASSI_BOOTSTRAP.md"
 module: Notify
 type: note

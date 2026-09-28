@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "master plan"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Platform - Master Plan 🚀"
 module: notify
 type: integration

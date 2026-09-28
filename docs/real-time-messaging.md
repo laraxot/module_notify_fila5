@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "real time messaging"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Real-time Messaging"
 module: notify
 type: integration

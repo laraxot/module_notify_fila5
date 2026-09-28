@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstanes critical"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstanes critical"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Correzioni PHPStan Critiche - Modulo Notify
 
 ## 🚨 Problemi Identificati

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "sms action factory resolution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms action factory resolution"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Risoluzione dinamica vs match esplicito in SmsActionFactory
 
 ## Contesto
@@ -6,6 +20,17 @@ Nel factory `SmsActionFactory`, invece di usare un `match` esplicito per risolve
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "sms action factory resolution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms action factory resolution"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 1. Esempio di match esplicito
 
 ```php

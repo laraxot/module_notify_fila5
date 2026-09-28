@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "xotbase table columns enforcement"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "XotBaseResourceTable Columns Enforcement — Notify Module"
 type: concept
 sources: []

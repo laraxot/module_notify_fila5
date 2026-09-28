@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mail templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail templates"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Mail Templates in Notify Module
 
 ## Panoramica

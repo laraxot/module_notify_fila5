@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "sessione 100 percent"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Sessione 100% Completata - Homepage Bootstrap Italia"
 module: notify
 type: integration

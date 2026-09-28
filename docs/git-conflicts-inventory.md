@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "git conflicts inventory"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "git conflicts inventory"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Inventario Conflitti Git - Notify Module
 
 ## File con conflitti di merge non risolti

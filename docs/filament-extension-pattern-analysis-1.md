@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament extension pattern analysis 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament extension pattern analysis 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "migrations changelog"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "migrations changelog"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Changelog Migrazioni Notify Module
 
 ## 2024-03-20: Aggiunta Campo Slug a Mail Templates

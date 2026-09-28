@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "dependency intelligence"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Dependency Intelligence - Module Notify"
 module: notify
 type: integration

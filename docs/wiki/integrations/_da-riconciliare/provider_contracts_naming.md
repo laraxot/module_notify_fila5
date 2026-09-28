@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "provider contracts naming"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Convenzioni di Naming per i Contracts"
 module: notify
 type: integration

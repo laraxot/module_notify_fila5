@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "agents gsd bmad"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents gsd bmad"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # AGENTS GSD BMAD Workflow
 
 Workflow per AI-driven development usando GSD e BMAD.
@@ -30,6 +44,17 @@ $gsd-quick "task"
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "agents gsd bmad"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents gsd bmad"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## BMAD (Breakthrough Method for Agile AI-Driven Development)
 
 **Path**: `_bmad/` (installato localmente)

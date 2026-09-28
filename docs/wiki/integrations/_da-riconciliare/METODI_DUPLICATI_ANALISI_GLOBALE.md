@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "METODI DUPLICATI ANALISI GLOBALE"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "ANALISI GLOBALE METODI DUPLICATI"
 module: notify
 type: integration

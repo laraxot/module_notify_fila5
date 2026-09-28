@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "translations structure template"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translations structure template"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Template di Struttura per le Traduzioni
 
 ## Struttura Generale per i File di Traduzione

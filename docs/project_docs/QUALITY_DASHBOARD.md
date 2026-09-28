@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "QUALITY DASHBOARD"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "QUALITY DASHBOARD"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📊 Quality Dashboard - Notify Project
 
 **Last Updated:** 2025-10-01 21:35  
@@ -5,6 +19,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "QUALITY DASHBOARD"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "QUALITY DASHBOARD"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Overall Quality Score: **94.5%** (A+)
 
 ```

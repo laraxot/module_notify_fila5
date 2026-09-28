@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mail template model changes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail template model changes"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Modifiche al Modello MailTemplate
 
 ## Introduzione

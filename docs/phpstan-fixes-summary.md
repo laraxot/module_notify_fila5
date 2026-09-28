@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan fixes summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan fixes summary"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🔧 PHPStan Fixes Summary - FixCity
 
 > **Memoria del progetto**: Correzioni PHPStan applicate seguendo principi DRY + KISS
@@ -22,6 +36,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phpstan fixes summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan fixes summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🆕 NUOVE Correzioni - Modulo Geo (Level 1)
 
 ### 1. CalculateDistanceAction.php (Lines 52-53)

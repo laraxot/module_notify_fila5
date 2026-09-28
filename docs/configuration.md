@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "configuration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Configuration"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "AGNOSTIC DOCUMENTATION RULE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "AGNOSTIC DOCUMENTATION RULE"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Agnostic Documentation Rule
 
 ## Principle
@@ -199,6 +213,17 @@ Replace `[PROJECT_NAME]`, `[DOMAIN]`, and `[ModuleName]` with your actual projec
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "AGNOSTIC DOCUMENTATION RULE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "AGNOSTIC DOCUMENTATION RULE"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Version**: 1.0  
 **Effective Date**: 2026-03-30  
 **Applies To**: All Modules/*/docs/ and Themes/*/docs/ directories

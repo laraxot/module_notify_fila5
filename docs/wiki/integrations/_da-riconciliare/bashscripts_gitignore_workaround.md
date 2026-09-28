@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "bashscripts gitignore workaround"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "CRITICAL: bashscripts/ in .gitignore"
 module: notify
 type: integration

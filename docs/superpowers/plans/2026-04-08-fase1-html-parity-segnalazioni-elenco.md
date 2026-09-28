@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "2026 04 08 fase1 html parity segnalazioni elenco"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "2026 04 08 fase1 html parity segnalazioni elenco"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # FASE 1 — HTML Parity 90% (segnalazioni-elenco) Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
@@ -10,6 +24,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "2026 04 08 fase1 html parity segnalazioni elenco"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "2026 04 08 fase1 html parity segnalazioni elenco"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## File Map
 
 | File | Azione | Responsabilità |

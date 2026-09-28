@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "send record notification action"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send record notification action"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Refactoring Plan: SendRecordNotificationAction
 
 ## Goal

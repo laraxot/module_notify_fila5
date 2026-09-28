@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "HTML PARITY RULES"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "HTML Parity Analysis Rules"
 module: notify
 type: integration

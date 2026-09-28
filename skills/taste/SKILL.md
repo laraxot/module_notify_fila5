@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "SKILL"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SKILL"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Taste Skill - High-End Design Intelligence
 
 ## 🎯 Panoramica
@@ -326,6 +340,17 @@ git clone https://github.com/Leonxlnx/taste-skill.git skills/taste
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "SKILL"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SKILL"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Version**: 1.0  
 **Date**: 2026-03-30  
 **Status**: ✅ Ready to Use  

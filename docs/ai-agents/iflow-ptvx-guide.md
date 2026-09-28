@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "iflow ptvx guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "iflow ptvx guide"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Utilizzo di iFlow con il Progetto PTVX
 
 ## Best Practices Specifiche

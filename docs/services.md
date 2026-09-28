@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "services"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "services"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Queueable Actions del Modulo Notify
 
 ## SendNotificationAction

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "workstreams"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "workstreams"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Workstreams - Notify
 
 ## WS1 Architecture

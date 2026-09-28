@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "baseuser-refactoring-completed-2025-10-15"
 type: concept
 tags: [deprecated]

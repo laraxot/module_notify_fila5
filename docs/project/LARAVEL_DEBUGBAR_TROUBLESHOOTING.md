@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "LARAVEL DEBUGBAR TROUBLESHOOTING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "LARAVEL DEBUGBAR TROUBLESHOOTING"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Laravel Debugbar Troubleshooting Guide
 
 ## Problem: Debugbar Not Showing
@@ -304,6 +318,17 @@ For better performance with many queries:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "LARAVEL DEBUGBAR TROUBLESHOOTING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "LARAVEL DEBUGBAR TROUBLESHOOTING"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Last Updated**: 2026-04-01  
 **Author**: Qwen Code AI Assistant  
 **Status**: ✅ Resolved

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "email templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email templates"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Sistema di Email Template
 
 ## Introduzione
@@ -332,6 +346,17 @@ php artisan tinker
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "email templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email templates"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Ultimo aggiornamento**: 26 Giugno 2025  
 **Status**: Aggiornato per errore critico MissingMailTemplate  
 **Priorità**: URGENT - Fix sistema registrazione

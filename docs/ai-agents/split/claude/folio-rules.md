@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "folio rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "folio rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 === folio/core rules ===
 
 ## Laravel Folio
@@ -48,6 +62,17 @@ middleware(['auth', 'verified', 'can:manage-products']);
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "folio rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "folio rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

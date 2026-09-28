@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "SUPERMEMORY QUICKSTART.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: SUPERMEMORY_QUICKSTART.md"
 module: Notify
 type: note

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📋 10 file patterns Index
 
 **Path**: `docs/agents-guide/10-file-patterns/`
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 Statistics
 
 | Metric | Count |

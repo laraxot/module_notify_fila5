@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "zen strategy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "zen strategy"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🧘 Zen Seasonal Strategy - Notify & Xot
 
 ## 🕉️ Philosophy

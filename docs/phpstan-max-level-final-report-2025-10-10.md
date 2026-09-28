@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan max level final report 2025 10 10"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan max level final report 2025 10 10"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan MAX Level - Final Report
 
 **Data**: 2025-10-10  
@@ -294,6 +308,17 @@ return \Mockery::mock(SpecificType::class);
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phpstan max level final report 2025 10 10"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan max level final report 2025 10 10"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Report generato**: 2025-10-10T09:16:26+02:00  
 **Analista**: Cascade AI  
 **Livello PHPStan**: MAX (9)  

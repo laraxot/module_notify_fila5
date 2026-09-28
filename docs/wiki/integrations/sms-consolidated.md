@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "sms consolidated"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "sms — Consolidated Documentation"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "html parity rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "html parity rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # HTML Parity Analysis Rules
 
 > **Status**: Active  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "html parity rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "html parity rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Core Philosophy
 
 **HTML structural parity is ESSENTIAL** - it is the foundation, not optional.

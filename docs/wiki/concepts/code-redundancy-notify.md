@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "code redundancy notify"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "ridondanza codice e documentazione — modulo Notify"
 module: Notify
 type: concept

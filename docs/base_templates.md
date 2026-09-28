@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "base templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "base templates"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Template Email di Base
 
 ## Introduzione

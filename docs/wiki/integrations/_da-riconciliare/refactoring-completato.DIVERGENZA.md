@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "refactoring completato.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: refactoring-completato.md"
 module: Notify
 type: note

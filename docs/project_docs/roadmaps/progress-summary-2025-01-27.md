@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "progress summary 2025 01 27"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "progress summary 2025 01 27"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM
 
 **Data**: 27 Gennaio 2025  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "progress summary 2025 01 27"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "progress summary 2025 01 27"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 OBIETTIVI COMPLETATI
 
 ### ✅ Analisi e Comprensione Progetto

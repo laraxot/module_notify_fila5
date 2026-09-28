@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "FILAMENT VERSION POLICY.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: FILAMENT_VERSION_POLICY.md"
 module: Notify
 type: note

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "segnalazione 01 privacy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "segnalazione 01 privacy"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Converti pagina: Segnalazione - Privacy (segnalazione-01-privacy.html)
 
 ## Obiettivo

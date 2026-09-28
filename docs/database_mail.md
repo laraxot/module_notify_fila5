@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "database mail"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database mail"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Database Mail System
 
 ## Regola sulle rotte
@@ -13,6 +27,17 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "database mail"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database mail"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
 - [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "LOGIN TIMEOUT ISSUE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "LOGIN TIMEOUT ISSUE"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🚨 Problema Timeout Pagina Login - Diagnosi e Soluzione
 
 **Data**: 14 Ottobre 2025  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "LOGIN TIMEOUT ISSUE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "LOGIN TIMEOUT ISSUE"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📋 Sintomi
 
 ### Errore Rilevato

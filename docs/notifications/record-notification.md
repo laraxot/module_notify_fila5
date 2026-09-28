@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "record notification"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "record notification"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # `RecordNotification`
 
 This document describes the `RecordNotification` class, a Laravel Notification that acts as a **Bridge** between Laravel's notification system and the `SpatieEmail` mailable system. It delegates all template resolution, placeholder replacement, and layout logic to `SpatieEmail`, following the **Zen Delegation Pattern**.

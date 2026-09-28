@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "dependencies"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Dependencies (Module Notify)"
 module: notify
 type: integration

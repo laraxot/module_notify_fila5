@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "communication systems architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "communication systems architecture"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Notify Module - Communication Systems Architecture
 
 ## 🎯 Module Overview

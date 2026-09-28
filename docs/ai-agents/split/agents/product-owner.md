@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "product owner"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product owner"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Product Owner (id: po)
 Source: .bmad-core/agents/po.md
 
@@ -77,6 +91,17 @@ dependencies:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "product owner"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product owner"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

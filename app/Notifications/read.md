@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "read"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "read"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 Mail::send([], [], function($message) use ($data) {
     $message->from($data['from']);
     $message->to($data['to']);

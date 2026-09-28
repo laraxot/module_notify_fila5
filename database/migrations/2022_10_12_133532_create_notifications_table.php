@@ -1,7 +1,13 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 // https://blog.quickadminpanel.com/laravel-notifications-with-database-driver-internal-messages/
+=======
+// https://blog.quickadminpanel.com/laravel-notifications-with-database-driver-internal-messages/
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 

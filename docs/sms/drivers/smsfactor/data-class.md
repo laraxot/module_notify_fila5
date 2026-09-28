@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "data class"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "data class"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # SmsFactorData Class Documentation
 
 ## Overview

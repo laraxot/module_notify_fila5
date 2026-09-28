@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "limesurvey charts pdf"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "limesurvey charts pdf"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # LimeSurvey Integration & Professional Charts
 
 Guida per Claude: integrazione LimeSurvey, Chart.js, JpGraph, PDF.

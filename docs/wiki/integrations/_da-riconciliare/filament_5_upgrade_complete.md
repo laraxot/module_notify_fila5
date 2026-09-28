@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "filament 5 upgrade complete"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Filament 5 Upgrade - COMPLETO ✅"
 module: notify
 type: integration

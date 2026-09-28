@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "missing features analysis"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Analisi Funzionalità Mancanti - Modulo Notify"
 module: notify
 type: integration

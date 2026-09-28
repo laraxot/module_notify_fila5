@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "risk profile"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "risk profile"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Task: risk-profile
 Source: .bmad-core/tasks/risk-profile.md
 - How to use: "Use task risk-profile with the appropriate agent" and paste relevant parts as needed.
@@ -363,6 +377,17 @@ Risk profile: qa.qaLocation/assessments/{epic}.{story}-risk-{YYYYMMDD}.md
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "risk profile"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "risk profile"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

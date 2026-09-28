@@ -1,9 +1,34 @@
+<<<<<<< HEAD
+=======
+---
+title: "qwen web design"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen web design"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # QWEN Web Design Study
 
 Studio web design basato su 31 fonti italiane.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "qwen web design"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen web design"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 10 Priorità (70% Successo Sito)
 
 1. **Mobile First** — 70%+ traffico mobile

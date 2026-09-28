@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "conflitti git"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "conflitti git"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Risoluzione Conflitti Git - Modulo Notify
 
 ## Conflitti nelle definizioni dei componenti JSON

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "refactoring basemodel analisi"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "ANALISI REFACTORING BASEMODEL - Eliminazione Duplicazioni"
 module: notify
 type: integration

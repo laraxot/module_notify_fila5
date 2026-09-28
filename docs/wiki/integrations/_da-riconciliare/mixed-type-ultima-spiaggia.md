@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "mixed type ultima spiaggia"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Mixed (tipo di dato) - Solo come Ultima Spiaggia"
 module: notify
 type: integration

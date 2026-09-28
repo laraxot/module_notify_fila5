@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "verifica homepage"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Verifica Visiva Homepage Notify"
 module: notify
 type: integration

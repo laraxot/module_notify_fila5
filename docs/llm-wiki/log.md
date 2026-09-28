@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "log"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "log"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Notify Activity Log
 
 > **Module**: Notify
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "log"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "log"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## [2026-04-15] maintenance | Initial wiki setup
 - Created: llm-wiki/ directory structure
 - Created: AGENTS.md (agent instructions)

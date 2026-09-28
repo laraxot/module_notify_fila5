@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "model and docs naming governance"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "model and docs naming governance"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Model And Docs Naming Governance
 
 ## Scope

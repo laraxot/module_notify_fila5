@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "html parity rules.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: HTML_PARITY_RULES.md"
 module: Notify
 type: note

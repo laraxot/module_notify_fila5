@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "form schema conventions"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Convenzioni per i Form Schema"
 module: notify
 type: integration

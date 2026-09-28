@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "layout structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "layout structure"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Struttura Layout Email
 
 ## 1. Separazione dei File

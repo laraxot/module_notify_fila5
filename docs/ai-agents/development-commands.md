@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "development commands"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "development commands"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Common Development Commands
 
 Guida per Claude: comandi di sviluppo, testing, qualità, Composer, Filament.

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "installation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "installation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🦸 Superpowers Installation Guide
 
 > **Last Updated**: 2026-03-31  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "installation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "installation"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📋 Prerequisites
 
 ### Required

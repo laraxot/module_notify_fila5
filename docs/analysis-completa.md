@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "analysis completa"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analysis completa"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi Completa del Modulo Notify
 
 ## Indice

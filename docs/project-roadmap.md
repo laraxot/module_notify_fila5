@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "project roadmap"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project roadmap"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ROADMAP PRINCIPALE - Progetto Fixcity
 
 ## Scopo del Progetto

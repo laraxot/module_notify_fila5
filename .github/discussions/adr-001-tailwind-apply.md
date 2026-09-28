@@ -1,4 +1,14 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "adr 001 tailwind apply"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "ADR: Use Tailwind @apply Instead of Bootstrap Italia CDN"
 category: "Architecture Decisions"
 labels: ["adr", "architecture", "tailwind", "bootstrap-italia"]

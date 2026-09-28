@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "claude architecture rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude architecture rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # CLAUDE Architecture Rules
 
 Regole architetturali critiche del progetto.
@@ -25,6 +39,17 @@ npm run copy  # OBbligatorio per vedere modifiche CSS/JS
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "claude architecture rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude architecture rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 2. BelongsToMany - CRITICAL
 
 **NEVER use `$this->belongsToMany()` for many-to-many. ALWAYS use `$this->belongsToManyX()`.**

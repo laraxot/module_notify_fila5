@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "milestones"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "milestones"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Milestones - Notify
 
 ## M1 Documentation Baseline

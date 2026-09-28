@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "reusabilitylines"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Linee Guida per la Riusabilità del Modulo Notify"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "conflict resolution sendsmspage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "conflict resolution sendsmspage"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Risoluzione Conflitti SendSmsPage.php
 
 ## Contesto del Conflitto

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "refactoring basemodel analisi.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: refactoring-basemodel-analisi.md"
 module: Notify
 type: note

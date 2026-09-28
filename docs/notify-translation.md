@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "notify translation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "notify translation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Guida alle Traduzioni nel Modulo Notify
 
 ## Introduzione

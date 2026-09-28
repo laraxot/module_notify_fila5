@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "PERFECTION PLAN"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "NOTIFY - PERFECTION PLAN"
 module: notify
 type: integration

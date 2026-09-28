@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "nested resources"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Module - Nested Resource Implementation Guide"
 module: notify
 type: integration

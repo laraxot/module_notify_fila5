@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "xotbaseserviceprovider"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbaseserviceprovider"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # XotBaseServiceProvider
 
 ## Panoramica
@@ -138,3 +152,14 @@ public function boot(): void
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "xotbaseserviceprovider"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbaseserviceprovider"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev

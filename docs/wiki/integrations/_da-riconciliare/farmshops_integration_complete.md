@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "farmshops integration complete"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "FARMSHOPS.EU INTEGRATION - COMPLETE"
 module: notify
 type: integration

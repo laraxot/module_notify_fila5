@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "qwen overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen overview"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # QWEN Overview
 
 Panoramica e stato attuale del progetto Base Predict Fila5.
@@ -21,6 +35,17 @@ Panoramica e stato attuale del progetto Base Forecast Fila5.
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "qwen overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen overview"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Obiettivo Principale
 
 **Creare la MIGLIORE predict platform di TUTTI i competitors**

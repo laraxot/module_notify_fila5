@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "final summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "NOTIFY - RIEPILOGO FINALE COMPLETAMENTO"
 module: notify
 type: integration

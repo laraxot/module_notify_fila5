@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "1 database naming"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "1 database naming"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📁 Database Directory Naming Best Practices
 
 **Discussion ID**: #1  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "1 database naming"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "1 database naming"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 Ciao a tutti! 👋
 
 Ho appena creato una nuova convention document per standardizzare il naming delle directory del database in tutti i moduli Laravel.

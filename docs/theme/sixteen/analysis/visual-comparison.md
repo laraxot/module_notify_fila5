@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "visual comparison"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "visual comparison"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Homepage Visual Comparison - CSS Fixes Required
 
 ## Screenshots Analysis

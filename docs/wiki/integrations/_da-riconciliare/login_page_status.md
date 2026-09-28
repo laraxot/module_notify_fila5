@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "login page status"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Status Pagina Login - Verifica Tecnica"
 module: notify
 type: integration

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "results"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "results"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Homepage Visual Comparison - RESULTS
 
 ## Comparison Screenshots
@@ -38,5 +52,16 @@ npm run copy     # ✓
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "results"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "results"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Last Updated: 2026-04-07*
 *Status: COMPLETED*

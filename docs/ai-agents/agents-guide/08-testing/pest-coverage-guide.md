@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "pest coverage guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pest coverage guide"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Pest Coverage Guide
 
 ## Overview

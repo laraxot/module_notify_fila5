@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "2026-03-30-fixcity-hero-marketing"
 type: concept
 tags: [deprecated]

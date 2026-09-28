@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "phpinsights phar build"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Build PHPInsights .phar"
 module: notify
 type: integration

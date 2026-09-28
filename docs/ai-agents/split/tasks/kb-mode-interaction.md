@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "kb mode interaction"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "kb mode interaction"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Task: kb-mode-interaction
 Source: .bmad-core/tasks/kb-mode-interaction.md
 - How to use: "Use task kb-mode-interaction with the appropriate agent" and paste relevant parts as needed.
@@ -85,6 +99,17 @@ Or ask me about anything else related to BMad-Method!
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "kb mode interaction"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "kb mode interaction"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

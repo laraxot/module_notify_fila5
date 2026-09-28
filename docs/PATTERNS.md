@@ -1,4 +1,11 @@
 ---
+<<<<<<< HEAD
+=======
+updated: 2026-09-26
+qmd: "PATTERNS"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Notify Module Patterns"
 type: guide
 tags: [notify, patterns]

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament template conventions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament template conventions"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Convenzioni per Template Blade di Filament
 
 ## Struttura Standard dei Template di Pagina

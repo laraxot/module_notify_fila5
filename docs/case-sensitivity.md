@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "case sensitivity"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Case Sensitivity Rules - Notify Module"
 module: notify
 type: integration

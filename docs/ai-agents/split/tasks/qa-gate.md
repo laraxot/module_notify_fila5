@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "qa gate"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qa gate"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Task: qa-gate
 Source: .bmad-core/tasks/qa-gate.md
 - How to use: "Use task qa-gate with the appropriate agent" and paste relevant parts as needed.
@@ -172,6 +186,17 @@ Gate: CONCERNS → qa.qaLocation/gates/{epic}.{story}-{slug}.yml
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "qa gate"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qa gate"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

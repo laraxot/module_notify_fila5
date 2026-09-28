@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "PROJECT OVERVIEW"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "NOTIFY - Civic Engagement Platform"
 module: notify
 type: integration

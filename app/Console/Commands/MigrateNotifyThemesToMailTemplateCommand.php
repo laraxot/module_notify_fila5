@@ -101,6 +101,7 @@ class MigrateNotifyThemesToMailTemplateCommand extends Command
 
             if ($smsTheme !== null) {
                 $data['sms_template'] = $this->convertPlaceholders($this->decodeRichText((string) $smsTheme->body));
+<<<<<<< HEAD
 
                 // Difetto 9 punto 5 (quaeris-send-invite-migrate-to-record-notification.md):
                 // rinviato inizialmente per decisione dell'utente ("i mittenti li
@@ -113,6 +114,8 @@ class MigrateNotifyThemesToMailTemplateCommand extends Command
                 if (! empty($smsTheme->from)) {
                     $data['sms_from'] = $smsTheme->from;
                 }
+=======
+>>>>>>> laraxot/dev
             }
 
             $this->line(

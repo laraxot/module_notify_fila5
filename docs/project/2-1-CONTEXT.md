@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "2 1 CONTEXT"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "2 1 CONTEXT"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHASE 2 - EPIC 2.1: Citizen Dashboard - CONTEXT
 
 ## Purpose

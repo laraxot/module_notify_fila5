@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "seasonal email system recommendations.divergenza"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: seasonal-email-system-recommendations.md"
 module: Notify
 type: note

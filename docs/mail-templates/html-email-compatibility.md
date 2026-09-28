@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "html email compatibility"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "html email compatibility"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Guida alla Compatibilità HTML per Email
 
 ## Introduzione

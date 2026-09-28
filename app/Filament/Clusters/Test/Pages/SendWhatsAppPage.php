@@ -21,6 +21,10 @@ use Modules\Notify\Enums\WhatsAppDriverEnum;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> laraxot/dev
 
 /**
  * @property Schema $whatsappForm
@@ -136,7 +140,10 @@ class SendWhatsAppPage extends XotBasePage
         return [
             'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions')];
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

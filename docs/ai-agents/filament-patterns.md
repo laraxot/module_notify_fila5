@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament patterns"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Filament Patterns
 
 ## Module Development

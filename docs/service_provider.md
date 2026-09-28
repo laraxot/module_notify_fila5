@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "service provider"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "service provider"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Service Provider del Modulo Notify
 
 Il `NotifyServiceProvider` estende `XotBaseServiceProvider` e gestisce il bootstrap dei componenti del modulo e la registrazione dei binding.

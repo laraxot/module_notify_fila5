@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "verifica homepage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "verifica homepage"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 📸 Verifica Visiva Homepage FixCity
 
 ## Confronto con Bootstrap Italia Reference
@@ -7,6 +21,17 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "verifica homepage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "verifica homepage"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## ✅ Elementi Implementati Correttamente
 
 ### 1. Hero Section - "Contenuti in Evidenza"

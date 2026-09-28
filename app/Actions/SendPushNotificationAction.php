@@ -25,11 +25,19 @@ final class SendPushNotificationAction
     private PushNotificationPlatformDelivery $delivery;
 
     /** @var list<string> */
+<<<<<<< HEAD
     private array $platformNames = ["fcm", "apns", "webpush"];
 
     public function __construct(?PushNotificationPlatformDelivery $delivery = null)
     {
         $this->delivery = $delivery ?? new PushNotificationPlatformDelivery();
+=======
+    private array $platformNames = ['fcm', 'apns', 'webpush'];
+
+    public function __construct(?PushNotificationPlatformDelivery $delivery = null)
+    {
+        $this->delivery = $delivery ?? new PushNotificationPlatformDelivery;
+>>>>>>> laraxot/dev
     }
 
     /**
@@ -46,8 +54,13 @@ final class SendPushNotificationAction
     /**
      * @param  array<string, mixed>  $notification
      * @param  array<string, mixed>  $data
+<<<<<<< HEAD
      * @param array<string, mixed> $notification
      * @param array<string, mixed> $data
+=======
+     * @param  array<string, mixed>  $notification
+     * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
      * @return array<string, array<string, mixed>>
      */
     public function sendToDevice(string $token, array $notification, array $data = []): array
@@ -295,4 +308,7 @@ final class SendPushNotificationAction
         return $this->sendToDevices($tokens, $notification, $data);
     }
 }
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev

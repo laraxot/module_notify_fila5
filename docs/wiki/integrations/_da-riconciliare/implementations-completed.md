@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "implementations completed"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "NOTIFY - IMPLEMENTAZIONI COMPLETATE"
 module: notify
 type: integration

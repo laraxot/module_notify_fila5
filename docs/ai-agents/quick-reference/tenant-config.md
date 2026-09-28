@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "tenant config"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tenant config"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Quick Reference - Tenant Config
 
 ## Verifiche base

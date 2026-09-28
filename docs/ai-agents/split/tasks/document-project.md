@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "document project"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "document project"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ### Task: document-project
 Source: .bmad-core/tasks/document-project.md
 - How to use: "Use task document-project with the appropriate agent" and paste relevant parts as needed.
@@ -353,6 +367,17 @@ Apply the advanced elicitation task after major sections to refine based on user
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "document project"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "document project"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

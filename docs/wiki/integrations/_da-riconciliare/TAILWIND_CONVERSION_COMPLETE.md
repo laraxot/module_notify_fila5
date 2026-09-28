@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "TAILWIND CONVERSION COMPLETE"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "TAILWIND CONVERSION COMPLETE - Design Comuni"
 module: notify
 type: integration

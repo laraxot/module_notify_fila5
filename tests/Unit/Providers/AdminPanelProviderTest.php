@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -15,3 +16,6 @@ test('admin panel provider returns a panel instance', function () {
 
     Assert::assertInstanceOf(Panel::class, $panel);
 });
+=======
+sed: can't read Modules/Notify/tests/Unit/Providers/AdminPanelProviderTest.php: No such file or directory
+>>>>>>> laraxot/dev

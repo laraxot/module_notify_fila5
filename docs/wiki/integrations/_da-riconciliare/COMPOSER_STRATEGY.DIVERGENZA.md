@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "COMPOSER STRATEGY.DIVERGENZA"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: COMPOSER_STRATEGY.md"
 module: Notify
 type: note

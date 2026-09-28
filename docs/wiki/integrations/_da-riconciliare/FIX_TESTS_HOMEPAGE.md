@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "FIX TESTS HOMEPAGE"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Fix Applicati - Tests Homepage"
 module: notify
 type: integration
