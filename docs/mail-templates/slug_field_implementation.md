@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "slug field implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione del Campo `slug` in MailTemplate
 
 ## Introduzione

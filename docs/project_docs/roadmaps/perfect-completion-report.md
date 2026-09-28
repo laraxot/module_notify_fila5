@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "PERFECT_COMPLETION_REPORT_2025-10-02"
 type: concept
 tags: [deprecated]

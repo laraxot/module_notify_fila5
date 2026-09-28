@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "semantic css"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 Semantic CSS - AI Agents Documentation
 
 **Path**: `bashscripts/ai/.agents/docs/frontend/semantic-css.md`  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "semantic css"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "semantic css"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Core Principle
 
 > **"Name classes based on what an element *is*, not what it *looks like*."**

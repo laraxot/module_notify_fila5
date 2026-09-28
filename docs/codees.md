@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "codees"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Module - Code Fixes & Improvements (2025)"
 module: notify
 type: integration

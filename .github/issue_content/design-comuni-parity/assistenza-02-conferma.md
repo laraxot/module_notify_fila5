@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "assistenza 02 conferma"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Assistenza - Conferma (assistenza-02-conferma.html)
 
 ## Obiettivo

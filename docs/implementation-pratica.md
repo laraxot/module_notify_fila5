@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "implementation pratica"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale

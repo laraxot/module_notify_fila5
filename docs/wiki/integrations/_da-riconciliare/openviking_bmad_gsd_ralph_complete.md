@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "openviking bmad gsd ralph complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "OpenViking + BMAD + GSD + Ralph Loop - Setup Complete Report"
 module: notify
 type: integration

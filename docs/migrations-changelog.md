@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migrations changelog"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Changelog Migrazioni Notify Module
 
 ## [DATE]: Aggiunta Campo Slug a Mail Templates

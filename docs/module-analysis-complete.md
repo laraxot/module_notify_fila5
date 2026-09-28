@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module analysis complete"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Completa Modulo Notify - Factory, Seeder e Test
 
 ## 📊 Panoramica Generale
@@ -269,8 +266,6 @@ Il modulo Notify è il sistema di gestione notifiche e comunicazioni riutilizzab
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "module analysis complete"
 type: note
 tags: [documentation]
@@ -279,7 +274,6 @@ updated: 2026-09-26
 qmd: "module analysis complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Ultimo aggiornamento**: Dicembre 2024
 **Versione**: 1.0
 **Stato**: In Progress

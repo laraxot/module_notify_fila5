@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project docs curated"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Project Docs Curated Map (Codex)
 
 Questa mappa e una vista operativa "figlia" della documentazione ufficiale del progetto.

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "riepilogo svg structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Riepilogo Creazione Struttura SVG - DRY + KISS
 
 ## 🎯 Obiettivo Completato
@@ -198,8 +195,6 @@ FilamentIcon::register([
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "riepilogo svg structure"
 type: note
 tags: [documentation]
@@ -208,6 +203,5 @@ updated: 2026-09-26
 qmd: "riepilogo svg structure"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Struttura SVG creata: Agosto 2025*
 *Responsabile: DRY + KISS SVG Structure* 

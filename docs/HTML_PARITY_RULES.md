@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "HTML PARITY RULES"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # HTML Parity Analysis Rules
 
 > **Status**: Active  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "HTML PARITY RULES"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "HTML PARITY RULES"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Core Philosophy
 
 **HTML structural parity is ESSENTIAL** - it is the foundation, not optional.

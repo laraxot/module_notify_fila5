@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "2026 03 30 app hero marketing"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Hero Marketing Section - Design Spec
 
 ## Overview

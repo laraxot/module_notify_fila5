@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "record notification constructor refactoring"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # RecordNotification Constructor Refactoring
 
 **Date**: December 19, 2025  
@@ -175,8 +172,6 @@ The change reflects the understanding that `RecordNotification` should be respon
 The refactoring successfully transforms the `RecordNotification` constructor from a complex object dependency to a simple string identifier, while maintaining all functionality and improving the overall architecture. The change follows established principles and patterns within the project.
 
 ---
-<<<<<<< HEAD
-=======
 title: "record notification constructor refactoring"
 type: note
 tags: [documentation]
@@ -185,6 +180,5 @@ updated: 2026-09-26
 qmd: "record notification constructor refactoring"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Author**: iFlow CLI  
 **Review Status**: Automated Quality Check Passed

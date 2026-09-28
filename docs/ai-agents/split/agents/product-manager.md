@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "product manager"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Product Manager (id: pm)
 Source: .bmad-core/agents/pm.md
 
@@ -96,8 +93,6 @@ dependencies:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "product manager"
 type: note
 tags: [documentation]
@@ -106,7 +101,6 @@ updated: 2026-09-26
 qmd: "product manager"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

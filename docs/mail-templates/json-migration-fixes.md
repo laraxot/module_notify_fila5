@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "json migration fixes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Correzioni per le Migrazioni JSON in Laravel
 
 ## Problema Identificato

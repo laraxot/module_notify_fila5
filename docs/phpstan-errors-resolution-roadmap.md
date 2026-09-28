@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan errors resolution roadmap"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - PHPStan Level 10 Errors Resolution Roadmap
 
 ## 📊 Stato Attuale
@@ -135,8 +132,6 @@ Ridurre gli errori PHPStan a **0** mantenendo la funzionalità esistente.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan errors resolution roadmap"
 type: note
 tags: [documentation]
@@ -145,5 +140,4 @@ updated: 2026-09-26
 qmd: "phpstan errors resolution roadmap"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Roadmap creata il: Gennaio 2025*

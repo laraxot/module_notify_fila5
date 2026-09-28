@@ -1,11 +1,8 @@
 ---
-<<<<<<< HEAD
-=======
 tags: [documentation]
 qmd: " repos"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Repos"
 type: reference
 status: active

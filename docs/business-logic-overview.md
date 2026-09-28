@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "business logic overview"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Business Logic Overview
 
 ## Core Purpose

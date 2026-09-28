@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "tailwind rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === tailwindcss/core rules ===
 
 ## Tailwind Core
@@ -40,8 +37,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "tailwind rules"
 type: note
 tags: [documentation]
@@ -50,7 +45,6 @@ updated: 2026-09-26
 qmd: "tailwind rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "header fix analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
 
 ## Data: 2026-03-31
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "header fix analysis"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "header fix analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🔴 Problemi Identificati
 
 ### 1. Logo non visibile ❌

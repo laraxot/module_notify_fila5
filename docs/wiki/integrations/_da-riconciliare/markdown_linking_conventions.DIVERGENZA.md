@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "markdown linking conventions.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: markdown_linking_conventions.md"
 module: Notify
 type: note

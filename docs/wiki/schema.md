@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "schema"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # LLM Wiki Schema — FixCity
 
 Questo file è il "AGENTS.md" della wiki: istruzioni per l'LLM su come mantenere la wiki.
@@ -21,8 +18,6 @@ Questo file è il "agents.md" della wiki: istruzioni per l'LLM su come mantenere
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "schema"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "schema"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Regole Fondamentali
 
 ### R1 — Raw è Immutabile

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "spatie consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "spatie — Consolidated Documentation"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "pull request template"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ## Description
 <!-- Describe your changes in detail -->
 

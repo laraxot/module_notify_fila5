@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email tests"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Test Sistema Email - il progetto
 
 ## Panoramica

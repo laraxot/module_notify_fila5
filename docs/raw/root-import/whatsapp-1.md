@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "whatsapp 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://levelup.gitconnected.com/how-to-send-whatsapp-messages-with-laravel-ed6426b4be96
 
 tutorial

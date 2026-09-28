@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "QWEN"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Qwen Added Memories (Modular)"
 module: notify
 type: integration

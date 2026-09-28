@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "test smtp page"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Test smtp page
 
 ![test smtp page](test-smtp-page.jpg)
@@ -36,8 +33,6 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "test smtp page"
 type: note
 tags: [documentation]
@@ -46,4 +41,3 @@ updated: 2026-09-26
 qmd: "test smtp page"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

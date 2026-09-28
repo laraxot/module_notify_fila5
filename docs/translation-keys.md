@@ -1,7 +1,5 @@
 ---
 
-<<<<<<< HEAD
-=======
 title: "translation keys"
 type: note
 tags: [documentation]
@@ -26,7 +24,6 @@ updated: 2026-09-26
 qmd: "translation keys"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## [[DATE]] Aggiornamento regole e best practice traduzioni modulo Notify
 
 ### Errori riscontrati

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "mcp configuration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "MCP Server Configuration - Notify Module"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Comprehensive Analysis
 
 ## Module Overview

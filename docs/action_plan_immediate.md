@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "action plan immediate"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform
 
 ## 📋 Sommario Esecutivo
@@ -24,8 +21,6 @@ Questo documento identifica le **azioni immediate** da intraprendere per portare
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "action plan immediate"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "action plan immediate"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚨 Priorità CRITICHE (Settimana 1-2)
 
 ### 1. ✅ Correzioni Tecniche Base (COMPLETATE)

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === filament/filament rules ===
 
 ## Filament
@@ -166,8 +163,6 @@ livewire(ListUsers::class)
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament rules"
 type: note
 tags: [documentation]
@@ -176,7 +171,6 @@ updated: 2026-09-26
 qmd: "filament rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

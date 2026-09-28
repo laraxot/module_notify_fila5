@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament extension rules 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole di Estensione delle Classi Filament
 
 ## Regola Fondamentale

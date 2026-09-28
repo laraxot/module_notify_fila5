@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "duplicate methods analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Metodi Duplicati - Modulo Notify
 
 **Data Generazione**: 2025-10-15 06:41:17
@@ -67,8 +64,6 @@ public function linkable(): void
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "duplicate methods analysis"
 type: note
 tags: [documentation]
@@ -77,7 +72,6 @@ updated: 2026-09-26
 qmd: "duplicate methods analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ### 2. Metodo: `make`
 
 **Tipo Refactoring**: `Trait` | **Complessità**: 🟢 Low | **Confidenza**: ✅ 100%

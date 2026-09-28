@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "pest rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === pest/core rules ===
 
 ## Pest
@@ -69,8 +66,6 @@ it('has emails', function (string $email) {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "pest rules"
 type: note
 tags: [documentation]
@@ -79,7 +74,6 @@ updated: 2026-09-26
 qmd: "pest rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

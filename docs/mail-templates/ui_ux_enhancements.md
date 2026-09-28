@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ui ux enhancements"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI/UX Enhancements per i Campi `name` e `slug` in MailTemplateResource
 
 ## Introduzione

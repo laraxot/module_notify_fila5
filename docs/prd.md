@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "prd"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PRD: Notify Module
 
 ## 📋 Overview
@@ -27,8 +24,6 @@ Specialized logic for Notify needs a dedicated, type-safe Module to ensure maint
 - **Goal 2:** Seamless integration with XotBase.
 ---
 
-<<<<<<< HEAD
-=======
 title: "prd"
 type: note
 tags: [documentation]
@@ -37,7 +32,6 @@ updated: 2026-09-26
 qmd: "prd"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 <!-- Merged from PRD.md, which collided with this file on case-insensitive filesystems. -->
 
 ---

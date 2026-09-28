@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "IMPLEMENTAZIONE BUILDERS REPORT"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎉 IMPLEMENTAZIONE BUILDERS & ANALISI PIVOT - REPORT FINALE
 
 **Data Completamento**: 15 Ottobre 2025, 09:50 UTC+2  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "IMPLEMENTAZIONE BUILDERS REPORT"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "IMPLEMENTAZIONE BUILDERS REPORT"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 RISULTATI IMPLEMENTAZIONE
 
 ### ✅ Builders Creati (3 file)

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "base model"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "BaseModel del Modulo Notify"
 module: notify
 type: integration

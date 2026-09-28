@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "quality tools ecosystem"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔧 ECOSISTEMA STRUMENTI QUALITÀ - FIXCITY PLATFORM
 # 🔧 ECOSISTEMA STRUMENTI QUALITÀ - NOTIFY PLATFORM
 
@@ -719,8 +716,6 @@ jobs:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "quality tools ecosystem"
 type: note
 tags: [documentation]
@@ -729,7 +724,6 @@ updated: 2026-09-26
 qmd: "quality tools ecosystem"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **🔄 Ultimo Aggiornamento**: Gennaio 2025  
 **📊 Status**: Sistema in sviluppo  
 **🎯 Prossimo Milestone**: Setup Base (Settimana 1)  

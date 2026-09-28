@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "final refactoring report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐮 Super Mucca - Final Refactoring Report
 
 **Project:** base_fixcity_fila5_mono  
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "final refactoring report"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "final refactoring report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Executive Summary
 
 ### Mission Accomplished! 🚀

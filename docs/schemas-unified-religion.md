@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "schemas unified religion"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament Schemas Unificati — Regola Canonica
 
 **Status**: Active  
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "schemas unified religion"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "schemas unified religion"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Tesi
 
 In Filament 5.x esiste **un solo sistema di schema**: `Filament\Schemas\Schema`.

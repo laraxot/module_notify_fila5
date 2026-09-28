@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "architecture analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "NOTIFY ARCHITECTURE DEEP DIVE ANALYSIS"
 module: notify
 type: integration

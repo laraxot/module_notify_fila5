@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "NOTEBOOKLM INTEGRATION.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: NOTEBOOKLM_INTEGRATION.md"
 module: Notify
 type: note

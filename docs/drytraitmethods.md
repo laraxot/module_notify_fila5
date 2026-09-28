@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "drytraitmethods"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # DRY Principle for Trait Methods
 
 ## Critical Rule: Never Duplicate Trait Methods

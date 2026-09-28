@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "services"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Queueable Actions del Modulo Notify
 
 ## SendNotificationAction

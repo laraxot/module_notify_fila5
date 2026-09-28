@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mail template migration guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida alla Migrazione di MailTemplate
 
 ## Panoramica

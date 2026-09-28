@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "architecture diagrams"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Architecture Diagrams & Visual Reference"
 module: notify
 type: integration

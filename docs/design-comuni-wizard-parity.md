@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "design comuni wizard parity"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Design Comuni Wizard Parity
 
 **Status**: Active  
@@ -23,8 +20,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "design comuni wizard parity"
 type: note
 tags: [documentation]
@@ -33,7 +28,6 @@ updated: 2026-09-26
 qmd: "design comuni wizard parity"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Obiettivo
 
 Wizard step 2 deve avere **alto HTML parity** e **altissimo visual parity** con:

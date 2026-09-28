@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms integration"
 type: note
@@ -11,5 +9,4 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # SMS Integration

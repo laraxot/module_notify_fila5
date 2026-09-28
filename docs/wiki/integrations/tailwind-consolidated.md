@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "tailwind consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "tailwind — Consolidated Documentation"
 module: notify
 type: integration

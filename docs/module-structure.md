@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "module structure"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Module — Structure & Discipline"
 module: notify
 type: integration

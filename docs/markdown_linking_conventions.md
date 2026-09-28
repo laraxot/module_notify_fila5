@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "markdown linking conventions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni per i Collegamenti nei File Markdown
 
 ## Regola Fondamentale

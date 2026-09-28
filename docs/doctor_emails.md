@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "doctor emails"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Email per i Dottori
 
 ## Introduzione

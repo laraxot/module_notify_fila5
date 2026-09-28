@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan max level analysis 2025 10 10"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan MAX Level Analysis - 2025-10-10
 
 ## Executive Summary
@@ -340,8 +337,6 @@ grep -r "\$[a-zA-Z_][a-zA-Z0-9_]*->" Modules/ | grep -v "?->"
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan max level analysis 2025 10 10"
 type: note
 tags: [documentation]
@@ -350,7 +345,6 @@ updated: 2026-09-26
 qmd: "phpstan max level analysis 2025 10 10"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Generato**: 2025-10-10T08:51:27+02:00  
 **Analisi**: PHPStan MAX Level  
 **Comando**: `./vendor/bin/phpstan analyse Modules --memory-limit=4G`

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "documentation system update complete"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation System Update - Complete
 
 **Date:** 2026-04-01  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "documentation system update complete"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "documentation system update complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Executive Summary
 
 Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:

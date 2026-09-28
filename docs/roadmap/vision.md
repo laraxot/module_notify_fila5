@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "vision"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Visione - Notify Module
 
 Modulo per il sistema di notifiche:

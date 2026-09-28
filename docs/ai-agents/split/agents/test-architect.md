@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "test architect"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Test Architect & Quality Advisor (id: qa)
 Source: .bmad-core/agents/qa.md
 
@@ -99,8 +96,6 @@ dependencies:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "test architect"
 type: note
 tags: [documentation]
@@ -109,7 +104,6 @@ updated: 2026-09-26
 qmd: "test architect"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

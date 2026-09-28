@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "interface consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "interface — Consolidated Documentation"
 module: notify
 type: integration

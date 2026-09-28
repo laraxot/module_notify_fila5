@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "final completion report 2025 10 01"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏆 FINAL COMPLETION REPORT - FixCity 2025
 
 **Date**: 2025-10-01T21:48:00+02:00  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "final completion report 2025 10 01"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "final completion report 2025 10 01"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎉 MISSION ACCOMPLISHED
 
 Il progetto FixCity ha raggiunto **TUTTI GLI OBIETTIVI** per diventare la piattaforma civic tech migliore del 2025.

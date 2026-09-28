@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "optimization analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # notify module documentation optimization analysis
 
 ## current state analysis

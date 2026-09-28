@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "contact type enum"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ContactTypeEnum - The Universal Contact Field Schema
 
 ## Scopo (Purpose)
@@ -437,8 +434,6 @@ return [
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "contact type enum"
 type: note
 tags: [documentation]
@@ -447,6 +442,5 @@ updated: 2026-09-26
 qmd: "contact type enum"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 > **Nota**: Questo documento segue la filosofia del progetto: Scopo, Logica, Filosofia, Politica, Religione, Zen.
 > Ogni modifica all'enum DEVE essere documentata e tradotta.

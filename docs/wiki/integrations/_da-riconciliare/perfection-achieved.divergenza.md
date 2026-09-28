@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "perfection achieved.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: perfection-achieved.md"
 module: Notify
 type: note

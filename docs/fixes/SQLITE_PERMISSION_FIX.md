@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "SQLITE PERMISSION FIX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ SQLite Database Permission Fix - COMPLETE
 
 **Date**: 2026-03-30  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "SQLITE PERMISSION FIX"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "SQLITE PERMISSION FIX"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚨 Error Details
 
 ### Original Error

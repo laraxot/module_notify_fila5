@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "folio rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === folio/core rules ===
 
 # Laravel Folio
@@ -23,8 +20,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "folio rules"
 type: note
 tags: [documentation]
@@ -33,7 +28,6 @@ updated: 2026-09-26
 qmd: "folio rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

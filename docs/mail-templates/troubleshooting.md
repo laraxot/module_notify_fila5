@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "troubleshooting"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Troubleshooting Email
 
 ## Errori Comuni e Soluzioni

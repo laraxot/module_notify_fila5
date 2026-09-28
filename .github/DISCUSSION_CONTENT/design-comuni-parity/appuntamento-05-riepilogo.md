@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "appuntamento 05 riepilogo"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 Design Comuni: Appuntamento - Riepilogo
 
 ## Pagina
@@ -42,8 +39,6 @@ Da definire dopo l'analisi strutturale.
 - [ ] Documentazione
 
 ---
-<<<<<<< HEAD
-=======
 title: "appuntamento 05 riepilogo"
 type: note
 tags: [documentation]
@@ -52,5 +47,4 @@ updated: 2026-09-26
 qmd: "appuntamento 05 riepilogo"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Generato automaticamente da bashscripts/design-comuni-parity/create-github-issues.sh*

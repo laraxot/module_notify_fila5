@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "progress report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📊 FIXCITY PROJECT - PROGRESS REPORT
 
 **Data Report**: 2025-01-01  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "progress report"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "progress report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Executive Summary
 
 Il progetto **FixCity** ha comple

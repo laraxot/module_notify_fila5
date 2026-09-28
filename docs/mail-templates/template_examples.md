@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "template examples"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Esempi di Template Email
 
 ## 1. Email di Benvenuto

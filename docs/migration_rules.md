@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migration rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole per le Migrazioni nel Modulo Notify
 
 ## Principi Fondamentali

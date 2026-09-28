@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "segnalazione 01 privacy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Segnalazione - Privacy (segnalazione-01-privacy.html)
 
 ## Obiettivo

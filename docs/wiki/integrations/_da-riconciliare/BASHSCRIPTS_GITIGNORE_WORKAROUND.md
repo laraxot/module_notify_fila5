@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "BASHSCRIPTS GITIGNORE WORKAROUND"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "CRITICAL: bashscripts/ in .gitignore"
 module: notify
 type: integration

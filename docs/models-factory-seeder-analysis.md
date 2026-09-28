@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "models factory seeder analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Modelli, Factory e Seeder - Modulo Notify
 
 ## Riepilogo Modelli
@@ -68,8 +65,6 @@ discussions: []
 ## Stato Generale: ✅ COMPLETO
 
 ---
-<<<<<<< HEAD
-=======
 title: "models factory seeder analysis"
 type: note
 tags: [documentation]
@@ -78,6 +73,5 @@ updated: 2026-09-26
 qmd: "models factory seeder analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-06*
 

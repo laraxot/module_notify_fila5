@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "claude split index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # CLAUDE.md Split Index
 
 > Documentazione CLAUDE.md originale spezzata in file più piccoli.

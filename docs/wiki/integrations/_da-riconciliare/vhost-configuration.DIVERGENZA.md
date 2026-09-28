@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "vhost configuration.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: vhost-configuration.md"
 module: Notify
 type: note

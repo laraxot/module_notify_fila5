@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "modelli factory seeder analisi"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Analisi Modelli, Factory e Seeder - Modulo Notify"
 module: notify
 type: integration

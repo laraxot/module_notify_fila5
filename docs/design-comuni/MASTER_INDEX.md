@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "MASTER INDEX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Design Comuni Italia - Master Documentation Index
 
 ## Panoramica Progetto
@@ -33,8 +30,6 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "MASTER INDEX"
 type: note
 tags: [documentation]
@@ -43,7 +38,6 @@ updated: 2026-09-26
 qmd: "MASTER INDEX"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📚 Documentazione per Modulo/Tema
 
 ### 🎨 Tema Sixteen

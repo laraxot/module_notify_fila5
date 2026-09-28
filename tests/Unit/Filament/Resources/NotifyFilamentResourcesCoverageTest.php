@@ -39,29 +39,17 @@ use PHPUnit\Framework\Assert;
 
 function makeEditContactTestProxy(): EditContactTestProxy
 {
-<<<<<<< HEAD
-    return new EditContactTestProxy;
-=======
     return new EditContactTestProxy();
->>>>>>> laraxot/dev
 }
 
 function makePreviewMailTemplateTestProxy(): PreviewMailTemplateTestProxy
 {
-<<<<<<< HEAD
-    return new PreviewMailTemplateTestProxy;
-=======
     return new PreviewMailTemplateTestProxy();
->>>>>>> laraxot/dev
 }
 
 function makePreviewNotificationTemplateTestProxy(): PreviewNotificationTemplate
 {
-<<<<<<< HEAD
-    return new class extends PreviewNotificationTemplate {};
-=======
     return new class() extends PreviewNotificationTemplate {};
->>>>>>> laraxot/dev
 }
 
 test('contact resource form schema exposes expected fields', function (): void {

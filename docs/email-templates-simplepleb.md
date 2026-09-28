@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email templates simplepleb"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Approfondimento: simplepleb/laravel-email-templates
 
 **Repository:** https://github.com/simplepleb/laravel-email-templates

@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "MailTemplate slug — preventOverwrite obbligatorio"
 type: concept
 status: canonical

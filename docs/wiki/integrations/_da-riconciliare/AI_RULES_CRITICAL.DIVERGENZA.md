@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "AI RULES CRITICAL.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: AI_RULES_CRITICAL.md"
 module: Notify
 type: note

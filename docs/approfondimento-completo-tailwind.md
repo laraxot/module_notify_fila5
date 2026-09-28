@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "approfondimento completo tailwind"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "approfondimento completo tailwind"
 module: notify
 type: integration

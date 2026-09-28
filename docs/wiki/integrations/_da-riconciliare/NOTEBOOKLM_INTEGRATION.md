@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "NOTEBOOKLM INTEGRATION"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "NotebookLM Integration"
 module: notify
 type: integration

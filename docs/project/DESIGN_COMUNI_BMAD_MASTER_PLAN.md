@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DESIGN COMUNI BMAD MASTER PLAN"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Design Comuni Italia - BMad Master Plan
 
 **Project:** Notify Fila5
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "DESIGN COMUNI BMAD MASTER PLAN"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "DESIGN COMUNI BMAD MASTER PLAN"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Mission Statement
 
 Replicare **ESATTAMENTE** le 38 pagine statiche di Design Comuni Italia utilizzando:

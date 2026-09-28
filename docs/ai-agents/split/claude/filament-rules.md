@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === filament/core rules ===
 
 ## Filament
@@ -98,8 +95,6 @@ Forms\Components\Select::make('user_id')
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament rules"
 type: note
 tags: [documentation]
@@ -108,7 +103,6 @@ updated: 2026-09-26
 qmd: "filament rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

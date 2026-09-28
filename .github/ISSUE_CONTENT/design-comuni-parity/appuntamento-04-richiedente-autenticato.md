@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "appuntamento 04 richiedente autenticato"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Appuntamento - Auth (appuntamento-04-richiedente-autenticato.html)
 
 ## Obiettivo

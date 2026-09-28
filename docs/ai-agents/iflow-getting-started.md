@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "iflow getting started"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # IFLOW Getting Started
 
 Come iniziare a lavorare sul progetto.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "iflow getting started"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "iflow getting started"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚀 In 3 Passi
 
 > Non serve essere "guru": serve voglia di imparare e rispetto per le regole del progetto.

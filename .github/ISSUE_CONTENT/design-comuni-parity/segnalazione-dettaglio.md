@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "segnalazione dettaglio"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Segnalazione Dettaglio (segnalazione-dettaglio.html)
 
 ## Obiettivo

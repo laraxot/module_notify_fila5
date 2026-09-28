@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "kilo configuration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Kilo Configuration Guide
 
 **File**: `.kilo/kilo.jsonc`  
@@ -375,8 +372,6 @@ kilo chat --model "google/gemini-2.5-pro"
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "kilo configuration"
 type: note
 tags: [documentation]
@@ -385,7 +380,6 @@ updated: 2026-09-26
 qmd: "kilo configuration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Last Updated**: 2026-03-30  
 **Configuration Version**: 1.0.0  
 **Status**: ✅ Active

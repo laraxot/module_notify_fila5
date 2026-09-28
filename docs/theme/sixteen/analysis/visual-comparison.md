@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "visual comparison"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Homepage Visual Comparison - CSS Fixes Required
 
 ## Screenshots Analysis

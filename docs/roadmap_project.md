@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "roadmap project"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🚀 ROADMAP GENERALE - FixCity Platform
 
 ## 📋 Sommario Esecutivo
@@ -24,8 +21,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "roadmap project"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "roadmap project"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Obiettivi Strategici
 
 ### 1. Completare le Funzionalità Core (Priorità Alta)

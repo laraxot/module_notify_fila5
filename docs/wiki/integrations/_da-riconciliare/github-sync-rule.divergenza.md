@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "github sync rule.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: GITHUB_SYNC_RULE.md"
 module: Notify
 type: note

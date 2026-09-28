@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "changelog docs update 2025 10 01"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📚 Docs Update Changelog – 2025-10-01
 
 ## Summary

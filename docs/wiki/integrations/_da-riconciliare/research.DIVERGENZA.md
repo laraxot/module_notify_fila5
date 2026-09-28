@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "research.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: research.md"
 module: Notify
 type: note

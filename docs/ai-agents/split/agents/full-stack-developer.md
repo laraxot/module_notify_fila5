@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "full stack developer"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Full Stack Developer (id: dev)
 Source: .bmad-core/agents/dev.md
 
@@ -93,8 +90,6 @@ dependencies:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "full stack developer"
 type: note
 tags: [documentation]
@@ -103,7 +98,6 @@ updated: 2026-09-26
 qmd: "full stack developer"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

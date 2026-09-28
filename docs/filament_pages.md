@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament pages"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pagine Filament del Modulo Notify
 
 ## Panoramica

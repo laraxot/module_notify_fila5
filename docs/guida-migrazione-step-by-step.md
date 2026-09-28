@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "guida migrazione step by step"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida Migrazione Step-by-Step: Modulo Notify - Filament 4
 
 ## Panoramica Migrazione

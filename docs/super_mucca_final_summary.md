@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "super mucca final summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐄 SUPER MUCCA - Missione Completata
 
 **Report Finale**: 14 Ottobre 2025  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "super mucca final summary"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "super mucca final summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Missioni Completate
 
 ### ✅ 1. Risolto Errore ParseError Login (CRITICO)

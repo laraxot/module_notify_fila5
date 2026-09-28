@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "supermemory quickstart"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "SuperMemory - AI Memory Infrastructure"
 module: notify
 type: integration

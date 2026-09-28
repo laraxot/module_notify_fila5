@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "roadmap documentation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📚 ROADMAP DOCUMENTAZIONE - FIXCITY PLATFORM
 # 📚 ROADMAP DOCUMENTAZIONE - NOTIFY PLATFORM
 
@@ -631,8 +628,6 @@ paths:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "roadmap documentation"
 type: note
 tags: [documentation]
@@ -641,7 +636,6 @@ updated: 2026-09-26
 qmd: "roadmap documentation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **📞 Contatti Documentazione**
 - **Tech Writer**: Documentation Team
 - **Email**: docs@laraxot.com

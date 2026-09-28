@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "segnalazione wizard design"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Design: Ticket Wizard Widget (Filament)
 
 ## Obiettivo

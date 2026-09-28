@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "error mailer"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Error Mailer System
 
 ## Panoramica

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "tailwind layouts"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Layout con Filament Components
 
 ## Introduzione

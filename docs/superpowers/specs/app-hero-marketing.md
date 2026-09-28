@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "2026-03-30-laraxot-hero-marketing"
 type: concept
 tags: [deprecated]

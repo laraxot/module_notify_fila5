@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sessione 100 percent"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎉 Sessione 100% Completata - Homepage Bootstrap Italia
 
 ## Data: 2026-03-31
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "sessione 100 percent"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "sessione 100 percent"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Conformità Raggiunta
 
 **100%** - Tutti i task completati!

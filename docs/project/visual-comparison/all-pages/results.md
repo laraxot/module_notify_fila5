@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "results"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # All Pages Visual Comparison Results
 
 ## Summary

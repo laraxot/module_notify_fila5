@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "conflict resolution mailtemplate"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione Conflitti MailTemplate.php
 
 ## Contesto del Conflitto

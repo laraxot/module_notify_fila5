@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "development commands"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Common Development Commands
 
 Guida per Claude: comandi di sviluppo, testing, qualità, Composer, Filament.

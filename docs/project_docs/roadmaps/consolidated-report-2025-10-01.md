@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "consolidated report 2025 10 01"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📊 REPORT CONSOLIDATO ROADMAP - 2025-10-01
 
 ## 🎯 OVERVIEW
@@ -114,8 +111,6 @@ Report consolidato delle roadmap di tutti i moduli e temi del progetto FixCity.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "consolidated report 2025 10 01"
 type: note
 tags: [documentation]
@@ -124,7 +119,6 @@ updated: 2026-09-26
 qmd: "consolidated report 2025 10 01"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Report generato**: 2025-10-01 21:20:03  
 **Prossimo aggiornamento**: 2025-10-08  
 **Status**: 🚧 ACTIVE DEVELOPMENT  

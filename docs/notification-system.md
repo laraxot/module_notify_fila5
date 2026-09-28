@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notification system"
 type: note
@@ -11,5 +9,4 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notification System

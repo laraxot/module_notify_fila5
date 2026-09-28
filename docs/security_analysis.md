@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "security analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi della Sicurezza
 
 ## Vulnerabilità Comuni

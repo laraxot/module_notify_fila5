@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "naming conventions"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Convenzioni di Naming"
 module: notify
 type: integration

@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "phpstan-progress-report-2025-10-10"
 type: concept
 tags: [deprecated]

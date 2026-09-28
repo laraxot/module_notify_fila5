@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "skills reference"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AI Skills Reference - Laraxot Project
 
 ## Overview

@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "BUGFIX_REPORT_2025-01-14"
 type: concept
 tags: [deprecated]

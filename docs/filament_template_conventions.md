@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament template conventions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni per Template Blade di Filament 
 
 ## Struttura Standard dei Template di Pagina

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "domande frequenti"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Domande Frequenti (domande-frequenti.html)
 
 ## Obiettivo

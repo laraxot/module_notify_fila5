@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "schemas unified religion"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Filament Schemas Unificati — Regola Canonica"
 module: notify
 type: integration

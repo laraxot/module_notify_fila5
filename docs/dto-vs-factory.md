@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "dto vs factory"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi: Logica di Selezione del Driver nel DTO vs Factory vs Canale
 
 Questo documento analizza in dettaglio i vantaggi e gli svantaggi di posizionare la logica di selezione del driver SMS all'interno del DTO `SmsData`, confrontando questo approccio con il pattern Factory implementato e con l'approccio originale (nel canale).

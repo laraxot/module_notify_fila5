@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "improvements"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Module - Improvements Roadmap"
 module: notify
 type: integration

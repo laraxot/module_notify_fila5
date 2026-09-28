@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "vhost configuration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🌐 Notify Local VHost Configuration
 
 > **Last Updated**: 2026-03-31
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "vhost configuration"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "vhost configuration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Overview
 
 This document describes the Apache VirtualHost configuration for local development of the Notify platform using the domain `laraxot.local`.

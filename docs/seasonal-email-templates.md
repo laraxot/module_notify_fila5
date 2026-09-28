@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "seasonal email templates"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Seasonal Email Templates - Guida Completa
 
 **Status**: ✅ Implementato
@@ -30,8 +27,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "seasonal email templates"
 type: note
 tags: [documentation]
@@ -40,7 +35,6 @@ updated: 2026-09-26
 qmd: "seasonal email templates"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Overview
 
 Il sistema di **Seasonal Email Templates** permette di utilizzare layout HTML tematici per email stagionali mantenendo la stessa infrastruttura di `SpatieEmail`.

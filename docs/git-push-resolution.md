@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "git push resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: Notify Push Execution and Resolution — 2026-07-29 Continuation
 date: 2026-07-29
 ---

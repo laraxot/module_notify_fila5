@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "GITHUB ACTIONS STATUS"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GitHub Actions Status & Fixes
 
 **Date**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "GITHUB ACTIONS STATUS"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "GITHUB ACTIONS STATUS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Summary
 
 Analisi e fix delle GitHub Actions del repository base_ptv_fila5.

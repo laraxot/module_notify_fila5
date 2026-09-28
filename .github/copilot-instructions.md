@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "copilot instructions"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Copilot Instructions for FixCity
 
 This file helps Copilot sessions work effectively in this repository. It captures essential commands, architecture, conventions, and critical patterns to maintain code quality and consistency.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "copilot instructions"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "copilot instructions"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚀 Quick Commands
 
 ### Development

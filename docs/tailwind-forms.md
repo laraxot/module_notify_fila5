@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "tailwind forms"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Form con Filament Components
 
 ## Introduzione

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notifications 1"
 type: note
@@ -11,5 +9,4 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://medium.com/@peterhrobar/push-notifications-with-laravel-61049ab9aec6

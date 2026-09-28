@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "laraxot model rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Laraxot model rules
 
 > Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md)

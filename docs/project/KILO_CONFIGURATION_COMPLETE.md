@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "KILO CONFIGURATION COMPLETE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ Kilo (OpenCode) Configuration - COMPLETE
 
 **Date**: 2026-03-30  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "KILO CONFIGURATION COMPLETE"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "KILO CONFIGURATION COMPLETE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cos'è Kilo Code
 
 **Kilo Code** (ora **OpenCode**) è un AI coding assistant open source che:

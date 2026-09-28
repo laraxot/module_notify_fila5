@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "sprint.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: sprint.md"
 module: Notify
 type: note

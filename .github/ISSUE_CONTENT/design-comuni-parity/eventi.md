@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "eventi"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Eventi (eventi.html)
 
 ## Obiettivo

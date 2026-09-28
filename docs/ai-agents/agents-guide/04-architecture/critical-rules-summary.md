@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "critical rules summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Critical Rules Summary
 
 1. **PHPStan Level 10** — all errors must be fixed (no ignores).
@@ -29,8 +26,6 @@ discussions: []
 13. **Source code in `app/` only** — Data Objects, Actions, Models, Services MUST be in `app/`, NEVER in module root.
 
 ---
-<<<<<<< HEAD
-=======
 title: "critical rules summary"
 type: note
 tags: [documentation]
@@ -39,5 +34,4 @@ updated: 2026-09-26
 qmd: "critical rules summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 [Back to index](../index.md) | [Full Rules](../critical-rules.md)

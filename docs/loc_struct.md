@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "loc struct"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Loc Struct
 
 <body class="">

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "pint rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === pint/core rules ===
 
 # Laravel Pint Code Formatter
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "pint rules"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "pint rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

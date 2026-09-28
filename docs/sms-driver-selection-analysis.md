@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms driver selection analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi: Spostamento Logica Selezione Driver in SmsData
 
 ## Contesto Attuale

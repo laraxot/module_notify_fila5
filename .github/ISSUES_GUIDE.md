@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ISSUES GUIDE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GitHub Issues Guide - Design Comuni Replication
 
 ## Overview
@@ -43,8 +40,6 @@ Epic #6: Polish & Documentation (Weeks 11-12)
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "ISSUES GUIDE"
 type: note
 tags: [documentation]
@@ -53,7 +48,6 @@ updated: 2026-09-26
 qmd: "ISSUES GUIDE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ### 2. Architecture Decision Records (ADR)
 **Template**: `adr-architecture-decision.md`  
 **Purpose**: Document important architectural decisions  

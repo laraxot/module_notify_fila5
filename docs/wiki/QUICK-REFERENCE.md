@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "QUICK REFERENCE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # LLM Wiki Quick Reference
 
 > **Based on**: Karpathy's LLM Wiki pattern
@@ -81,12 +78,9 @@ What happens:
 
 ```yaml
 ---
-<<<<<<< HEAD
-=======
 qmd: "QUICK REFERENCE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Page Title"                    # Required
 type: concept|entity|source|comparison|decision|troubleshooting  # Required
 sources: ["raw/articles/file.md"]      # Required (array)

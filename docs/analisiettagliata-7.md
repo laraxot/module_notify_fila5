@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analisiettagliata 7"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
 
 ## 7. Manutenzione e Backup

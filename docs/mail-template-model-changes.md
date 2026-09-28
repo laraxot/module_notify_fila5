@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mail template model changes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Modifiche al Modello MailTemplate
 
 ## Introduzione

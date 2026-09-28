@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "NOTEBOOKLM INTEGRATION"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # NotebookLM Integration
 
 ## Overview

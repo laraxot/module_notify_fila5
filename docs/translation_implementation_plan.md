@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation implementation plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "baseuser consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "baseuser — Consolidated Documentation"
 module: notify
 type: integration

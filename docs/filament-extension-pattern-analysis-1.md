@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament extension pattern analysis 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore

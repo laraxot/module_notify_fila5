@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "IMPLEMENTATION_SUMMARY_2025-01-27.deprecated"
 type: concept
 tags: [deprecated]

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation structure 5 levels mandatory"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔴 TRANSLATION STRUCTURE - 5 LEVELS MANDATORY
 
 **Path**: `.agents/docs/rules/translation-structure-5-levels-mandatory.md`  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "translation structure 5 levels mandatory"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "translation structure 5 levels mandatory"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 The Rule
 
 > **SEMPRE** usare traduzioni a **5 LIVELLI** con `__()`:

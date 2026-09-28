@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email layouts best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Email Layouts Best Practices 
 
 Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di Quaeris.

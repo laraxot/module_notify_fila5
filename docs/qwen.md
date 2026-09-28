@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "qwen"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Qwen Added Memories (Modular)
 
 Questa documentazione è stata divisa in moduli per una gestione più efficiente del contesto.
@@ -30,8 +27,6 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [LLM Wiki Pattern](./docs/wiki/README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
 
 ---
-<<<<<<< HEAD
-=======
 title: "qwen"
 type: note
 tags: [documentation]
@@ -40,7 +35,6 @@ updated: 2026-09-26
 qmd: "qwen"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **See also:**
 - [CLAUDE.md](./CLAUDE.md)
 - [AGENTS.md](./AGENTS.md)

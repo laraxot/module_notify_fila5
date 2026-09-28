@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "AGENTS"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Platform - agents.md
 
 This file contains comprehensive guidelines and commands for AI agents working on the Notify Laravel application.
@@ -975,8 +972,6 @@ Log::info('Payment processed', ['order_id' => $order->id, 'amount' => $order->am
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "AGENTS"
 type: note
 tags: [documentation]
@@ -985,7 +980,6 @@ updated: 2026-09-26
 qmd: "AGENTS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🔍 PHPSTAN LEVEL 10 COMPLIANCE GUIDE
 
 ### Critical Error Patterns and Prevention

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analysisettagliata 3"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 
 ## 3. Servizi Core

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "fix colori header footer.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: fix-colori-header-footer.md"
 module: Notify
 type: note

@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
-=======
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Services/Support -> Actions migration"
 type: concept
 tags: [notify, actions, queueable-action, services, refactor]

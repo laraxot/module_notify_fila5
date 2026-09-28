@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents gsd bmad"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🚀 GSD + BMAD Workflow
 
 **File**: `.agents/docs/workflow/agents-gsd-bmad.md`  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "agents gsd bmad"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "agents gsd bmad"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 GSD (Get Shit Done)
 
 ### Comandi Principali

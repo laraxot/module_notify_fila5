@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "PRODUCT STRATEGY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Module - Product Strategy"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "test smtp 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # test_smtp
 
 <!-- Contenuto migrato da _docs/test_smtp.txt -->

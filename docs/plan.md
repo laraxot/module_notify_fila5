@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Appointment Field Naming Correction Plan
 
 ## Overview

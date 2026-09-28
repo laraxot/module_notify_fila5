@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "tailwind implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Configurazione Base

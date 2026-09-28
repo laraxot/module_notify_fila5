@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "testing guidelines"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 8. Testing Guidelines
 
 - Use Pest PHP
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "testing guidelines"
 type: note
 tags: [documentation]
@@ -31,4 +26,3 @@ updated: 2026-09-26
 qmd: "testing guidelines"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

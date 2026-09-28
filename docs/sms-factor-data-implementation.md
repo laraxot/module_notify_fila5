@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms factor data implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # SmsFactorData Implementation Summary
 
 ## Overview

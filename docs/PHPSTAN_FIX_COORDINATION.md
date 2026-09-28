@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PHPSTAN FIX COORDINATION"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Fix Coordination Plan
 
 **Project:** Base FixCity Fila5  
@@ -196,8 +193,6 @@ git push
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "PHPSTAN FIX COORDINATION"
 type: note
 tags: [documentation]
@@ -206,7 +201,6 @@ updated: 2026-09-26
 qmd: "PHPSTAN FIX COORDINATION"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Multi-Agent Coordination Notes:**
 - This is a COLLABORATIVE effort with multiple AI agents
 - Always check git log before starting work

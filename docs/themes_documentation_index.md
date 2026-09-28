@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "themes documentation index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Theme Documentation Master Index
 
 **📍 Central Hub for All Theme Documentation**
@@ -20,8 +17,6 @@ Connects all theme docs with bidirectional links and visual architecture.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "themes documentation index"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "themes documentation index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🗺️ Active Themes
 
 ### Sixteen - PRIMARY THEME ⭐

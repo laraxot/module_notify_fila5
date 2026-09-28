@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "assistenza 01 dati"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Assistenza - Dati (assistenza-01-dati.html)
 
 ## Obiettivo

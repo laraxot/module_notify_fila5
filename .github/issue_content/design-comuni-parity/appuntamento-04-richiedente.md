@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "appuntamento 04 richiedente"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Appuntamento - Richiedente (appuntamento-04-richiedente.html)
 
 ## Obiettivo

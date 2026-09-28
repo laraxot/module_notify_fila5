@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "git conflicts resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
 # Risoluzione Conflitti Git - Progetto Base Notify Fila3 Mono
 
@@ -195,8 +192,6 @@ git diff --name-only --diff-filter=U
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "git conflicts resolution"
 type: note
 tags: [documentation]
@@ -205,7 +200,6 @@ updated: 2026-09-26
 qmd: "git conflicts resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: giugno 2025*
 *Autore: AI Assistant*
 *Stato: Completato*

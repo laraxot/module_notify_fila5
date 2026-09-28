@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "enum config usage.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: enum_config_usage.md"
 module: Notify
 type: note

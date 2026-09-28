@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament slug generation 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Generazione di Slug in Filament
 
 ## Panoramica

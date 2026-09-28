@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament table vs blade component"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 Filament Table vs Blade Component - Decision Guide
 
 **Data**: 2026-03-26  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament table vs blade component"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "filament table vs blade component"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚨 REGOLA FONDAMENTALE
 
 > **LIST-like public surface** = Filament Table Widget  

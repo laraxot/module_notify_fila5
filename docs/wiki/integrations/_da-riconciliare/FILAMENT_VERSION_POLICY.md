@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "FILAMENT VERSION POLICY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Filament Version Policy - ALWAYS LATEST"
 module: notify
 type: integration

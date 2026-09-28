@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "UI UX PRO MAX SKILLS INTEGRATION.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: UI_UX_PRO_MAX_SKILLS_INTEGRATION.md"
 module: Notify
 type: note

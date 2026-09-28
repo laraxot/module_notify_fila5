@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "tech stack"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Technology Stack
 
 Stack tecnologico completo di Quaeris Fila5 Mono - Laravel 12 + Filament 5 + PHP 8.3

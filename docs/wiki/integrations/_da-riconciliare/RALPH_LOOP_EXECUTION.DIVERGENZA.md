@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "RALPH LOOP EXECUTION.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: RALPH_LOOP_EXECUTION.md"
 module: Notify
 type: note

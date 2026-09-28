@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "xot base classes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi: Utilizzo delle Classi Base Xot
 
 ## Contesto

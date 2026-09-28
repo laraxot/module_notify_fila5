@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "README"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Mail Layouts
 
 Questa directory contiene i layout HTML base per le email. I layout sono file HTML statici che definiscono la struttura base delle email, con il placeholder `{{{ body }}}` per il contenuto dinamico.

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "immediate action plan 30 days"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "IMMEDIATE ACTION PLAN - 30 DAYS"
 module: notify
 type: integration

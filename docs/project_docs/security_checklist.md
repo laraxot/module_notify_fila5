@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "security checklist"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔒 FixCity Security Checklist
 # 🔒 Notify Security Checklist
 
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "security checklist"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "security checklist"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Security Compliance Overview
 
 - ✅ OWASP Top 10 2023 Compliance

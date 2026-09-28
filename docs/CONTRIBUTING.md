@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "CONTRIBUTING"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Contributing to FixCity
 
 First off, thank you for considering contributing to FixCity! 🎉
@@ -28,8 +25,6 @@ First off, thank you for considering contributing to FixCity! 🎉
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "CONTRIBUTING"
 type: note
 tags: [documentation]
@@ -38,7 +33,6 @@ updated: 2026-09-26
 qmd: "CONTRIBUTING"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📜 Code of Conduct
 
 This project adheres to a Code of Conduct that all contributors are expected to follow. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing.

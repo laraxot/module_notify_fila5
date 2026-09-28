@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "acronym naming conventions.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: acronym_naming_conventions.md"
 module: Notify
 type: note

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "componenti chiave"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Chiave
 
 ## Modulo Xot

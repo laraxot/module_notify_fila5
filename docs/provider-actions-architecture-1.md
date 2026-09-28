@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "provider actions architecture 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura delle Azioni dei Provider in Notify
 
 ## Struttura e Principi Fondamentali

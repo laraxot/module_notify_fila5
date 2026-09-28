@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "script automazione"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Script e Automazione
 
 La cartella `bashscripts/` contiene script organizzati per categoria:

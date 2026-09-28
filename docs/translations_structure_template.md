@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translations structure template"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Template di Struttura per le Traduzioni
 
 ## Struttura Generale per i File di Traduzione

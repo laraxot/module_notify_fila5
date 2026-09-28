@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "2 1 1 PLAN"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHASE 2 - EPIC 2.1 - TASK 1: Create /my-tickets Folio Page
 
 ## Goal

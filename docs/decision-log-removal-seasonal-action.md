@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "decision log removal seasonal action"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Decision Log: Rimozione Azioni Seasonal Over-Engineered
 
 **Data**: 19 Dicembre 2025  

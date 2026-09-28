@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "documentation ecosystem"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Documentation Ecosystem - Visual Map"
 module: notify
 type: integration

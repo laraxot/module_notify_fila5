@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "baseuser-dry-violation-2025-10-15.deprecated"
 type: concept
 tags: [deprecated]

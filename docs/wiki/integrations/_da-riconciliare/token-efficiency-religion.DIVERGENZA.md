@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "token efficiency religion.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: token-efficiency-religion.md"
 module: Notify
 type: note

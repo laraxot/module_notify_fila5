@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "visual analysis report"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation Visual Analysis Report
 
 **📊 Complete Visual Documentation Audit with Diagrams**
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "visual analysis report"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "visual analysis report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Executive Summary
 
 This project now has comprehensive visual documentation with:

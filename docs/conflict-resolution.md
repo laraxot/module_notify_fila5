@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "conflict resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Conflict Resolution — Module Notify
 
 ## Summary

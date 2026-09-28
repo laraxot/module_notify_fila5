@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament naming conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni di Naming per Filament
 
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema <nome progetto>, con particolare attenzione alle pagine e alle risorse.

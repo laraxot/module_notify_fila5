@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms channel action resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Dove posizionare la logica di risoluzione dell'action SMS?
 
 ## Contesto
@@ -35,8 +32,6 @@ $action = match ($driver) {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "sms channel action resolution"
 type: note
 tags: [documentation]
@@ -45,7 +40,6 @@ updated: 2026-09-26
 qmd: "sms channel action resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Analisi delle due soluzioni
 
 ### 1. Logica nel Canale (`SmsChannel`)

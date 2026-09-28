@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project overview"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Panoramica del Progetto (Claude Context)
 
 **Nome Progetto**: PTVX - Sistema Gestione Personale PA  

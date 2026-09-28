@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ?>
 <tr>
 	<td class="w580" width="580" colspan="3">

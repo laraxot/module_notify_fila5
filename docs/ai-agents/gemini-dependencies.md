@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "gemini dependencies"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GEMINI Dependencies
 
 Gestione dipendenze Composer e moduli.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "gemini dependencies"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "gemini dependencies"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Regola Critica
 
 Il `composer.json` nella **root** (`laravel/composer.json`) **NON DEVE ESSERE MODIFICATO** per aggiungere dipendenze specifiche di un modulo.

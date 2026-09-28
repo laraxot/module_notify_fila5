@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "livewire rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === livewire/core rules ===
 
 ## Livewire Core
@@ -64,8 +61,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "livewire rules"
 type: note
 tags: [documentation]
@@ -74,7 +69,6 @@ updated: 2026-09-26
 qmd: "livewire rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "qwen 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ## Qwen Added Memories
 
 - **Documentation System:** Master index at docs/MODULE_DOCS_INDEX.md with 7,305+ files (6,812 module docs, 325 theme docs, 15+ BMad docs, 153 project docs). All docs must have bidirectional links (min 3 cross-references). Vite config outDir: './public' is CORRECT - builds to local public/, then npm run copy copies to public_html/themes/Sixteen/.

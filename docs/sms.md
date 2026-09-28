@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 sms skebby
 
 

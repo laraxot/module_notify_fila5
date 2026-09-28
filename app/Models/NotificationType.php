@@ -8,10 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
-<<<<<<< HEAD
-=======
 use Override;
->>>>>>> laraxot/dev
 
 /**
  * @property int $id

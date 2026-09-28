@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "no consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "no — Consolidated Documentation"
 module: notify
 type: integration

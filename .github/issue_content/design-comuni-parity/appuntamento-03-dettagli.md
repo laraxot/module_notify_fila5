@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "appuntamento 03 dettagli"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Appuntamento - Dettagli (appuntamento-03-dettagli.html)
 
 ## Obiettivo

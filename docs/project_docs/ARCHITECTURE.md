@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ARCHITECTURE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # FixCity - Architecture Documentation
 
 **Version:** 4.0  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "ARCHITECTURE"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📐 System Architecture
 
 ### High-Level Overview

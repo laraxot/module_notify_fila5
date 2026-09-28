@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "iflow stack"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # IFLOW Tech Stack
 
 Stack tecnologico del progetto.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "iflow stack"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "iflow stack"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Backend
 
 | Tecnologia | Descrizione |

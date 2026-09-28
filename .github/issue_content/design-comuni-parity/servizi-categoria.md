@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "servizi categoria"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Servizi per Categoria (servizi-categoria.html)
 
 ## Obiettivo

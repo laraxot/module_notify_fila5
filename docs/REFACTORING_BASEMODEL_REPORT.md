@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "REFACTORING BASEMODEL REPORT"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎉 REFACTORING BASEMODEL - REPORT FINALE
 
 **Data Completamento**: 15 Ottobre 2025, 09:23 UTC+2  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "REFACTORING BASEMODEL REPORT"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "REFACTORING BASEMODEL REPORT"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 RISULTATI
 
 ### Moduli Refactorati

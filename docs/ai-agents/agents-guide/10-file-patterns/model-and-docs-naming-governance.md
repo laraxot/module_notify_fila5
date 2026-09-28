@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "model and docs naming governance"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Model And Docs Naming Governance
 
 ## Scope

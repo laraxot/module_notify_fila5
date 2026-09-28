@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notification errors"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Errori Comuni nelle Notifiche
 
 ## 1. Errore Destinatario Mancante

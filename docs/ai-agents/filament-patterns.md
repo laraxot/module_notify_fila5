@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament patterns"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament Patterns
 
 ## Module Development

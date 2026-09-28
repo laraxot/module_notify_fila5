@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "report finale"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📊 Report Finale - FixCity Sixteen Theme
 
 ## 🎯 Obiettivo Completato
@@ -19,8 +16,6 @@ Creazione pagine mancanti per il tema Sixteen (FixCity) utilizzando metodologie 
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "report finale"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "report finale"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📈 Risultati
 
 ### Pagine Create in Questa Sessione: **15**

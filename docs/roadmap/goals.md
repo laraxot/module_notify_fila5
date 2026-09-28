@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "goals"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Goals - Notify
 
 ## Short Term

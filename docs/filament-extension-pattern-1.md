@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament extension pattern 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pattern di Estensione per Componenti Filament
 
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.

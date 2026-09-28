@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "interface naming convention"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzione di Naming per le Interfacce
 
 ## Regola Fondamentale

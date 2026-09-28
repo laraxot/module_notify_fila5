@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "approfondimento completo"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Approfondimento Completo Modulo Notify
 
 ## 1. Architettura del Sistema

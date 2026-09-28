@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "telegram channel 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione Canale Telegram
 
 ## 1. Struttura Base

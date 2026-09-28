@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "baseuser dry violation 2025 10 15"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # BaseUser DRY Violation - Analisi e Refactoring
 
 **Data**: 15 Ottobre 2025  

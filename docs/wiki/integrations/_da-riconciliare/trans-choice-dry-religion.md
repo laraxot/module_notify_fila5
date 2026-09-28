@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "trans choice dry religion"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "TransChoice DRY — La Religione dell'Unica Fonte di Verita"
 module: notify
 type: integration

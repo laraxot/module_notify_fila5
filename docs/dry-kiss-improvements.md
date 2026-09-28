@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "dry kiss improvements"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - DRY + KISS Improvements
 
 ## Current State Analysis

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "dry kiss analysis master"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐄✨ DRY & KISS MASTER ANALYSIS - PROGETTO COMPLETO ✨🐄
 
 **Data Analisi:** 2025-10-15  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "dry kiss analysis master"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "dry kiss analysis master"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 EXECUTIVE SUMMARY
 
 ### Dati Globali Progetto

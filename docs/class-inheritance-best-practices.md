@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "class inheritance best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Best Practices per l'Ereditarietà delle Classi
 
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema , con particolare attenzione alle classi che estendono `XotBasePage`.

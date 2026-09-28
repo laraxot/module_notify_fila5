@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "validate next story"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Task: validate-next-story
 Source: .bmad-core/tasks/validate-next-story.md
 - How to use: "Use task validate-next-story with the appropriate agent" and paste relevant parts as needed.
@@ -158,8 +155,6 @@ Provide a structured validation report including:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "validate next story"
 type: note
 tags: [documentation]
@@ -168,7 +163,6 @@ updated: 2026-09-26
 qmd: "validate next story"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

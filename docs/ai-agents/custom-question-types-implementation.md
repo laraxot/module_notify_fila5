@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "custom question types implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Custom Question Types Implementation - 2026-03-17
 
 ## Summary
@@ -20,8 +17,6 @@ Implementazione completa delle custom question types da Fila4 a Fila5, con integ
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "custom question types implementation"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "custom question types implementation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Custom Question Types Implementate
 
 ### 1. RootGroupedBf ✅

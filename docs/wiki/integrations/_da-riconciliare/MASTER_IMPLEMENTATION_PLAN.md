@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "MASTER IMPLEMENTATION PLAN"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "NOTIFY - MASTER IMPLEMENTATION PLAN"
 module: notify
 type: integration

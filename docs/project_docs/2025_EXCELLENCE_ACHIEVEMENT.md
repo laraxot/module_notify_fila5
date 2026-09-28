@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "2025 EXCELLENCE ACHIEVEMENT"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏆 2025 Excellence Achievement Report
 
 **Project:** Notify - Base Fila4 Mono  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "2025 EXCELLENCE ACHIEVEMENT"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "2025 EXCELLENCE ACHIEVEMENT"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎉 Executive Summary
 
 **Notify has achieved EXCELLENCE status for 2025!**

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "documentation analysis and improvement plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation Analysis and Improvement Plan
 
 **Date**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "documentation analysis and improvement plan"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "documentation analysis and improvement plan"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Executive Summary
 
 ### Current State

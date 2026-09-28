@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "enum config usage"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Utilizzo di Enum e Config 
 
 Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema SaluteOra, con particolare attenzione alla gestione delle opzioni nei componenti Filament.

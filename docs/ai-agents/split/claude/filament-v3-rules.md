@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament v3 rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === filament/v3 rules ===
 
 ## Filament 3
@@ -30,8 +27,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament v3 rules"
 type: note
 tags: [documentation]
@@ -40,7 +35,6 @@ updated: 2026-09-26
 qmd: "filament v3 rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

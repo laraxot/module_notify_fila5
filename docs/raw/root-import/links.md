@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "links"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 
 ----------------------------------------------------------------------------------
 Laravel Mailator for Configuring Email Scheduler & Templates

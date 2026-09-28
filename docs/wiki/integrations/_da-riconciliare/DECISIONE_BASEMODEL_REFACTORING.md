@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "DECISIONE BASEMODEL REFACTORING"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "DECISIONE: BaseModel Refactoring - Analisi Approfondita"
 module: notify
 type: integration

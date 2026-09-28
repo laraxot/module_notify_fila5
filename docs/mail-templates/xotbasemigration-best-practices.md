@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "xotbasemigration best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # XotBaseMigration: Best Practices
 
 ## Introduzione

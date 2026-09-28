@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "ai methodologies"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "AI Methodologies Handbook"
 module: notify
 type: integration

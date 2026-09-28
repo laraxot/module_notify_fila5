@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation cleanup plan 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.

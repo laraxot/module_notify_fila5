@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents split index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # agents.md Split Index
 
 > Documentazione agents.md originale spezzata in file più piccoli e organizzati.

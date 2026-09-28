@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "NOTEBOOKLM INSTALLATION SUMMARY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "NotebookLM Skill - Installation & Integration Summary"
 module: notify
 type: integration

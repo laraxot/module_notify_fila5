@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "factory pattern analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi del Pattern Factory per le Notifiche
 
 Questo documento analizza l'implementazione del pattern Factory per la gestione delle notifiche , confrontando l'approccio originale con quello basato su Factory.

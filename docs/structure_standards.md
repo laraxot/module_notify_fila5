@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "structure standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Standard di Struttura nel Modulo Notify
 
 ## Directory Principali e Convenzioni di Denominazione
@@ -97,8 +94,6 @@ Tutte le classi nella cartella `app/Filament/Clusters/*/Pages` **devono terminar
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "structure standards"
 type: note
 tags: [documentation]
@@ -107,7 +102,6 @@ updated: 2026-09-26
 qmd: "structure standards"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Esempio
 
 - File: `SendNetfunSMS.php` → `SendNetfunSMSPage.php`

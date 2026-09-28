@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "FIXCITY IMPROVEMENT START HERE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ FixCity Improvement Plan - START HERE
 
 **URL**: http://fixcity.local/it  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "FIXCITY IMPROVEMENT START HERE"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "FIXCITY IMPROVEMENT START HERE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Quick Start
 
 ### 1. Leggi i Documenti Principali

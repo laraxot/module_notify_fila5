@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan strategy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Strategia Correzione Errori PHPStan - SendEmailPage.php
 
 **File**: `app/Filament/Clusters/Test/Pages/SendEmailPage.php`

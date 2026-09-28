@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "foundation rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # claudeMd
 Codebase and user instructions are shown below. Be sure to adhere to these instructions. IMPORTANT: These instructions OVERRIDE any default behavior and you MUST follow them exactly as written.
 
@@ -68,8 +65,6 @@ This application is a Laravel application and its main Laravel ecosystems packag
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "foundation rules"
 type: note
 tags: [documentation]
@@ -78,7 +73,6 @@ updated: 2026-09-26
 qmd: "foundation rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

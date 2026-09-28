@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Base Fixcity Fila5 — PROJECT.md
 
 ## Context

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "qwen split index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # QWEN.md Split Index
 
 > Documentazione QWEN.md spezzata in file più piccoli.

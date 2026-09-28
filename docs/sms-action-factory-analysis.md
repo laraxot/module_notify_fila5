@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms action factory analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi: Sostituzione Match con Formula nel SmsActionFactory
 
 ## Contesto Attuale

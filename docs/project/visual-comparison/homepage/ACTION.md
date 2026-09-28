@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ACTION"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Homepage Visual Parity - Action Items
 
 ## Current Status

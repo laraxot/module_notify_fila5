@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "packages other"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pacchetti Altri — Riferimento
 
 Riferimento per i pacchetti non-Spatie, non-Filament del progetto.
@@ -58,8 +55,6 @@ php artisan module:make-action MyAction --module=Job
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "packages other"
 type: note
 tags: [documentation]
@@ -68,7 +63,6 @@ updated: 2026-09-26
 qmd: "packages other"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## File e media
 
 ### pbmedia/laravel-ffmpeg 8.8.0

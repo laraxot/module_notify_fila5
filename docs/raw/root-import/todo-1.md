@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "todo 1"
 type: note
@@ -11,6 +9,5 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 http://laradevsbd.com/story/laravel-notifications-with-database
 

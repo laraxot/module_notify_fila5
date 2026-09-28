@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms global vs specific params"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Parametri a Livello di Root vs Specifici per Provider nella Configurazione SMS
 
 ## Introduzione
@@ -191,8 +188,6 @@ Prima di modificare la configurazione SMS, verificare che:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "sms global vs specific params"
 type: note
 tags: [documentation]
@@ -201,5 +196,4 @@ updated: 2026-09-26
 qmd: "sms global vs specific params"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-05-12*

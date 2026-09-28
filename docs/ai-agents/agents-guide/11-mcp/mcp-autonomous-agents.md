@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mcp autonomous agents"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 12. MCP (Model Context Protocol) for Autonomous AI Agents
 
 LaravelPizza project includes complete MCP configuration for autonomous AI agent capabilities across multiple development environments (Claude Desktop, Cursor, Windsurf, Antigravity).
@@ -104,8 +101,6 @@ With MCP, AI agents can:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "mcp autonomous agents"
 type: note
 tags: [documentation]
@@ -114,4 +109,3 @@ updated: 2026-09-26
 qmd: "mcp autonomous agents"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

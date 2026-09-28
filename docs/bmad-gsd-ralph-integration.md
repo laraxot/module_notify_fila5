@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "bmad gsd ralph integration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # BMAD + GSD + Ralph Loop Integration Guide
 
 ## Overview
@@ -477,8 +474,6 @@ vendor/bin/phpstan analyse --level=10
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "bmad gsd ralph integration"
 type: note
 tags: [documentation]
@@ -487,7 +482,6 @@ updated: 2026-09-26
 qmd: "bmad gsd ralph integration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Version**: 1.0.0  
 **Last Updated**: 2026-03-30  
 **Status**: Initial Implementation

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sessione completa"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ Sessione Completata - Allineamento Bootstrap Italia
 
 ## 📋 Riepilogo Lavoro
@@ -161,8 +158,6 @@ GET /it/tests/amministrazione → tests.view (slug=amministrazione)
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "sessione completa"
 type: note
 tags: [documentation]
@@ -171,7 +166,6 @@ updated: 2026-09-26
 qmd: "sessione completa"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO  
 **Data**: 2026-03-31  
 **URL Test**: http://fixcity.local/it/tests/homepage

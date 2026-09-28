@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "template improvement roadmap"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Roadmap Implementazione Sistema Avanzato di Template Email
 
 ## Obiettivo

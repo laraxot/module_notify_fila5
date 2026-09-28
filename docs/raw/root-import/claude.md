@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "claude"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 <!-- CLAUDE SPLIT STUB
 - Split index: .agents/docs/root-claude/INDEX.md
 - AI docs index: .agents/docs/INDEX.md

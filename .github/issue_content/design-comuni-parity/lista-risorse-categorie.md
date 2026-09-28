@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "lista risorse categorie"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Lista Risorse per Categoria (lista-risorse-categorie.html)
 
 ## Obiettivo

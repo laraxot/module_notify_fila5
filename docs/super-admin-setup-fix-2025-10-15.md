@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "super admin setup fix 2025 10 15"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Fix Super Admin Setup - Tabella Roles Mancante
 
 **Data**: 15 Ottobre 2025  

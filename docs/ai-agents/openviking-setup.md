@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "openviking setup"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # OpenViking Setup
 
 **Path**: `.agents/docs/openviking-setup.md`  

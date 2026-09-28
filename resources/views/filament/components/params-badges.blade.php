@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ?>
 {{-- Visualizzazione parametri come badge --}}
 @if(!empty($params))

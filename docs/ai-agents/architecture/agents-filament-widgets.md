@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents filament widgets"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏛 Filament Widgets Architecture
 
 **File**: `.agents/docs/architecture/agents-filament-widgets.md`  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "agents filament widgets"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "agents filament widgets"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🔴 REGOLA FONDAMENTALE
 
 > **SEMPRE usare Filament Table Widgets per le liste**  

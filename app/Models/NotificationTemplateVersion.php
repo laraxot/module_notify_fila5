@@ -9,10 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
-<<<<<<< HEAD
-=======
 use Override;
->>>>>>> laraxot/dev
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 

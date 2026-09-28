@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "00 INDEX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Roadmap
 
 > Sistema notifiche: email, in-app, SMS, push, template, scheduling.

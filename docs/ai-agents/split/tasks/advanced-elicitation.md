@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "advanced elicitation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Task: advanced-elicitation
 Source: .bmad-core/tasks/advanced-elicitation.md
 - How to use: "Use task advanced-elicitation with the appropriate agent" and paste relevant parts as needed.
@@ -142,8 +139,6 @@ Choose a number (0-8) or 9 to proceed:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "advanced elicitation"
 type: note
 tags: [documentation]
@@ -152,7 +147,6 @@ updated: 2026-09-26
 qmd: "advanced elicitation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

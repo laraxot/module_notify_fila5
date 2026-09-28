@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "legacy roadmap"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module Roadmap
 
 Vedi [roadmap/00-index](roadmap/00-index.md).

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "errori azione netfun"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi degli Errori in SendNetfunSMSAction
 
 ## Errori di Configurazione

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "logging optimization summary 2026 03 02"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Logging Optimization Summary - 2026-03-02
 
 ## Session Overview
@@ -507,8 +504,6 @@ This session successfully:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "logging optimization summary 2026 03 02"
 type: note
 tags: [documentation]
@@ -517,7 +512,6 @@ updated: 2026-09-26
 qmd: "logging optimization summary 2026 03 02"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Session Date**: 2026-03-02
 **Analyst**: iFlow CLI
 **Session Outcome**: SUCCESSFUL

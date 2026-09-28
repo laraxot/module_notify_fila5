@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analisi dettagliata 8"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 
 ## 8. Note Finali

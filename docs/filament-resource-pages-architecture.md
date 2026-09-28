@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament resource pages architecture"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura delle Pagine di Risorse Filament
 
 ## Regola Fondamentale

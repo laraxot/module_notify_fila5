@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "novita dettaglio"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Novità Dettaglio (novita-dettaglio.html)
 
 ## Obiettivo

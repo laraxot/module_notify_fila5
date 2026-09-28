@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "conflict resolution sendsmspage"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione Conflitti SendSmsPage.php
 
 ## Contesto del Conflitto

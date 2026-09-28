@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email templates spatie"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Approfondimento: spatie/laravel-database-mail-templates
 
 **Repository:** https://github.com/spatie/laravel-database-mail-templates

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "vhost app"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Apache VirtualHost - laraxot.local
 
 **Status**: ✅ Active  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "vhost app"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "vhost app"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Configuration Summary
 
 | Parametro | Valore |

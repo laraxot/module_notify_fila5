@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "appointment field namings"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Appointment Field Naming Issues"
 module: notify
 type: integration

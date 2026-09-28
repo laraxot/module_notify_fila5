@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sprint"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sprint Planning Meeting - FixCity Platform
 
 > **Version**: 1.0.0

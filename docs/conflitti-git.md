@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "conflitti git"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione Conflitti Git - Modulo Notify
 
 ## Conflitti nelle definizioni dei componenti JSON

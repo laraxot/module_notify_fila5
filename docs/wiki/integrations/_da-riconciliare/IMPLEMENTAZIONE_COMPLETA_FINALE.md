@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "IMPLEMENTAZIONE COMPLETA FINALE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "IMPLEMENTAZIONE COMPLETA - REPORT FINALE ✨🐄"
 module: notify
 type: integration

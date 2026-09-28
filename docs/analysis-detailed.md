@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 ---
 title: "analysis detailed"
 type: note
@@ -11,4 +8,3 @@ qmd: "analysis detailed"
 issues: []
 discussions: []
 ---
->>>>>>> laraxot/dev

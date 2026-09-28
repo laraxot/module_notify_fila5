@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "lista risorse"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 Design Comuni: Lista Risorse
 
 ## Pagina
@@ -42,8 +39,6 @@ Da definire dopo l'analisi strutturale.
 - [ ] Documentazione
 
 ---
-<<<<<<< HEAD
-=======
 title: "lista risorse"
 type: note
 tags: [documentation]
@@ -52,5 +47,4 @@ updated: 2026-09-26
 qmd: "lista risorse"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Generato automaticamente da bashscripts/design-comuni-parity/create-github-issues.sh*

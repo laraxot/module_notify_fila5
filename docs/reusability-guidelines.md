@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "reusability guidelines"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Linee Guida per la Riusabilità del Modulo Notify
 
 ## Principio Fondamentale

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notebooklm installation summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # NotebookLM Skill - Installation & Integration Summary
 
 **Date**: 2026-03-30  
@@ -368,8 +365,6 @@ DEFAULT_NOTEBOOK_ID=ptv-project-docs
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "notebooklm installation summary"
 type: note
 tags: [documentation]
@@ -378,7 +373,6 @@ updated: 2026-09-26
 qmd: "notebooklm installation summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: ✅ Ready for authentication and notebook creation  
 **Last Updated**: 2026-03-30  
 **Integrated By**: AI Agent (BMAD + GSD + Ralph Workflow)

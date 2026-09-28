@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "COMPLETE REFACTORING ANALYSIS"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Complete Cyclomatic Complexity Refactoring Analysis
 
 **Date:** 2025-10-01  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "COMPLETE REFACTORING ANALYSIS"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "COMPLETE REFACTORING ANALYSIS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Executive Summary
 
 ### Global Statistics (After Initial Refactoring)

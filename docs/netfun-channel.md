@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "netfun channel"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione Canale Netfun
 
 ## 1. Struttura Base

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email testing analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica

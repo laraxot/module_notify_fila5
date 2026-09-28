@@ -230,11 +230,7 @@ describe('Notify highest-miss coverage', function (): void {
         $emptyTarget = $service->sendWithTargeting(['platform' => 'unknown'], $notification);
         Assert::assertFalse($emptyTarget['success']);
 
-<<<<<<< HEAD
-        expect(fn (): array => $service->sendWithTemplate('missing', ['t']))
-=======
         expect(fn (): mixed => $service->sendWithTemplate('missing', ['t']))
->>>>>>> laraxot/dev
             ->toThrow(\Exception::class);
 
         $jobId = $service->scheduleNotification(['t1'], $notification, [], new DateTime('+1 hour'));
@@ -410,11 +406,7 @@ describe('Notify highest-miss coverage', function (): void {
         Assert::assertNull($result);
         Notification::assertSentTo($recipient, GenericNotification::class);
 
-<<<<<<< HEAD
-        expect(fn (): ?Model => (new SendNotificationAction)->handle(
-=======
         expect(fn (): mixed => (new SendNotificationAction)->handle(
->>>>>>> laraxot/dev
             $recipient,
             'missing-template',
         ))->toThrow(\Exception::class);

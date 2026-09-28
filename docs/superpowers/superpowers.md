@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "superpowers"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Superpowers - Documentazione Installazione e Utilizzo
 
 ## Cos'è Superpowers
@@ -37,8 +34,6 @@ Il sistema impone metodologie rigorose:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "superpowers"
 type: note
 tags: [documentation]
@@ -47,7 +42,6 @@ updated: 2026-09-26
 qmd: "superpowers"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Installazione Effettuata
 
 ### Metodo usato: Claude Code Plugin via Marketplace GitHub

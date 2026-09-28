@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "dry consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "dry — Consolidated Documentation"
 module: notify
 type: integration

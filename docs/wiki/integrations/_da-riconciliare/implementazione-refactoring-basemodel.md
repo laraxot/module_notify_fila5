@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "implementazione refactoring basemodel"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "IMPLEMENTAZIONE REFACTORING BASEMODEL - REPORT"
 module: notify
 type: integration

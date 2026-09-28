@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "missione super mucca completata.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: MISSIONE_SUPER_MUCCA_COMPLETATA.md"
 module: Notify
 type: note

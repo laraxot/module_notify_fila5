@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "factory pattern advantages 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi del Pattern Factory per la Selezione dei Provider SMS
 
 Questo documento analizza il pattern Factory attualmente implementato  per la selezione dei provider SMS, confrontandolo con l'alternativa di integrare la selezione nel DTO `SmsData`.

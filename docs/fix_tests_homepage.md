@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "fix tests homepage"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ Fix Applicati - Tests Homepage
 
 ## Problemi Risolti

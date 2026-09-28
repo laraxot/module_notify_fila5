@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "MASTER IMPLEMENTATION PLAN"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 FIXCITY - MASTER IMPLEMENTATION PLAN
 **Data Creazione**: 2025-10-01
 **Status**: 🚀 ATTIVO
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "MASTER IMPLEMENTATION PLAN"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "MASTER IMPLEMENTATION PLAN"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 STATO ATTUALE
 
 ### Completamento Generale

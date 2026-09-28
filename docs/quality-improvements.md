@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "quality improvements"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Miglioramenti Qualità Codice - Modulo Notify
 
 ## Data

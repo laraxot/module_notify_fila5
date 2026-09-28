@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ROADMAP"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Project Roadmap
 
 ## Goals

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ZEN OF DOCUMENTATION"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🧘 Zen of Documentation - Filosofia Unificata
 
 ## Premessa Fondamentale
@@ -22,8 +19,6 @@ Questo non significa non documentare. Significa documentare in modo **intelligen
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "ZEN OF DOCUMENTATION"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "ZEN OF DOCUMENTATION"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 I Cinque Principi dello Zen
 
 ### 1. 📦 **Single Source of Truth (SSOT)**

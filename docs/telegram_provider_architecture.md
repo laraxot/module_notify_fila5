@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "telegram provider architecture"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura Telegram Provider per SaluteOra
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.

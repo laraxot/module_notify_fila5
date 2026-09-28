@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation file correction"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione

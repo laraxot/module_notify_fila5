@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "issue multi agent collaboration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Multi-Agent Collaboration: Sync Remote Repo Documentation
 
 > **Date**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "issue multi agent collaboration"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "issue multi agent collaboration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Mission
 
 Create comprehensive documentation for `bashscripts/git/subtrees/sync_remote_repo.sh` that:

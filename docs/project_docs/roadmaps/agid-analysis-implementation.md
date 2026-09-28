@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "AGID_ANALYSIS_IMPLEMENTATION_2025-10-02"
 type: concept
 tags: [deprecated]

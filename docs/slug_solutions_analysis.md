@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "slug solutions analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Soluzioni per Slug in Filament
 
 ## Introduzione

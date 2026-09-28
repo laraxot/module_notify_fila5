@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament admin patterns"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 6. Filament (Admin) Patterns
 
 - ALWAYS extend XotBase classes (NOT raw Filament classes)
@@ -27,8 +24,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament admin patterns"
 type: note
 tags: [documentation]
@@ -37,4 +32,3 @@ updated: 2026-09-26
 qmd: "filament admin patterns"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

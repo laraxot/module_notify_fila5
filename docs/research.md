@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "research"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # User Research - FixCity Platform
 
 > **Version**: 1.0.0

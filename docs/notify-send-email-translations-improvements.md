@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notify send email translations improvements"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistemazione e Miglioramenti File Traduzione send_email.php - Modulo Notify
 
 ## Introduzione

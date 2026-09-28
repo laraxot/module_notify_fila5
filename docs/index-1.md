@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "index 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module Documentation
 
 ## Overview

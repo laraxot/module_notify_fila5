@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "volt rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === volt/core rules ===
 
 # Livewire Volt
@@ -24,8 +21,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "volt rules"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "volt rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "00 index 1"
 type: note
@@ -11,5 +9,4 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation Index

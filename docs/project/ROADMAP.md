@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ROADMAP"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ROADMAP: FixCity Platform
 
 ## Milestone 1: Performance & Stability (COMPLETED ✅)

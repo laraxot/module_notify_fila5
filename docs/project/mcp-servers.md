@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mcp servers"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # MCP Servers Configuration
 
 **Ultimo aggiornamento**: 2026-04-09  

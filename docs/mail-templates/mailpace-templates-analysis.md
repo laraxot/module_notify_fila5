@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mailpace templates analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Mailpace Templates
 
 ## Introduzione

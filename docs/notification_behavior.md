@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notification behavior"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notification System Behavior
 
 ## Notification Channels Behavior

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mail layouts"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Layout delle Email
 
 ## Introduzione

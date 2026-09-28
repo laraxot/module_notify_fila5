@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "architecture principles"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architecture Principles
 
 Key architectural rules for Quaeris Fila5 Mono (Laraxot / Laravel 12 / Filament 5).

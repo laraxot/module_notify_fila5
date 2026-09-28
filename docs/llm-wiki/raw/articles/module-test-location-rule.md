@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module test location rule"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regola: Posizione dei Test nei Moduli Laraxot
 
 **Fonte:** Incidente del 2026-04-21 — test del modulo Notify creati erroneamente nella root del progetto
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "module test location rule"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "module test location rule"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Il Problema
 
 Il 2026-04-21 i seguenti test sono stati creati nel percorso errato:

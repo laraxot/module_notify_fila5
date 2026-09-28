@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "dry violation analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ DRY Violation Analysis - Risoluzione delle Cagatas Seasonal
 
 **Data**: 19 Dicembre 2025 16:30 CET
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "dry violation analysis"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "dry violation analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Successo: "Fare GetSeasonalEmailLayoutAction e DetermineSeasonalLayoutPathAction era una cagata!"
 
 ### Problema Identificato e Risolto

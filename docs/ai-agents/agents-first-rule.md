@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents first rule"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Agents first rule: Read → Reason → Study → Update → Improve
 
 > Source: [AGENTS.md](../../AGENTS.md)

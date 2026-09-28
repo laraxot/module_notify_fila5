@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "regole critiche"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole Critiche Laraxot
 
 ## 1. Estensioni Classi

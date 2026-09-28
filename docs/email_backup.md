@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email backup"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema Backup Email 
 
 ## Panoramica

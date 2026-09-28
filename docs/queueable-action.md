@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "queueable action"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Spatie Laravel Queueable Action
 
 In <nome progetto>, **NON si utilizza il pattern Service**. Per la business logic asincrona e la gestione di azioni riutilizzabili si adotta SEMPRE il package [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action).

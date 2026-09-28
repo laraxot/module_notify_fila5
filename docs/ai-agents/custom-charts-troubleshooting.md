@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "custom charts troubleshooting"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Custom Charts Troubleshooting Guide
 
 **Version**: 1.0.0  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "custom charts troubleshooting"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "custom charts troubleshooting"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Quick Reference
 
 | Error | Severity | Quick Fix |

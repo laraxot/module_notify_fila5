@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "correzioni phpstan completate"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ CORREZIONI PHPSTAN COMPLETATE - Modulo Notify
 
 ## 🎯 Obiettivo Raggiunto
@@ -141,8 +138,6 @@ I pattern di type safety implementati possono essere applicati a:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "correzioni phpstan completate"
 type: note
 tags: [documentation]
@@ -151,7 +146,6 @@ updated: 2026-09-26
 qmd: "correzioni phpstan completate"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## ✅ MISSIONE COMPLETATA
 
 **Tutti gli errori PHPStan del modulo Notify sono stati risolti** mantenendo la riusabilità e migliorando la type safety. Il modulo è ora pronto per essere utilizzato in qualsiasi progetto Laraxot.

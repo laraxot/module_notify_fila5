@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "AI AGENT TEAMS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "AI Agent Teams - Coordination Hub"
 module: notify
 type: integration

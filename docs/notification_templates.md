@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notification templates"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Template delle Notifiche
 
 ## Architettura

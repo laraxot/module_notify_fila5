@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "super mucca docs analysis.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: SUPER_MUCCA_DOCS_ANALYSIS.md"
 module: Notify
 type: note

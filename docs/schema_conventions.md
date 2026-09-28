@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "schema conventions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Schema Conventions in Notify Module
 
 ## Field Definitions
@@ -80,8 +77,6 @@ Here's a complete example of a properly formatted schema:
 ---
 
 
-<<<<<<< HEAD
-=======
 title: "schema conventions"
 type: note
 tags: [documentation]
@@ -90,5 +85,4 @@ updated: 2026-09-26
 qmd: "schema conventions"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ```

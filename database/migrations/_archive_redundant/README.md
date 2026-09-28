@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "README"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Migration archiviate (Notify)
 
 Queste migration **non devono essere eseguite** su installazione pulita (`migrate` / fresh install). Laravel carica solo i file in `database/migrations/` (non le sottocartelle); restano qui per storico e confronto.

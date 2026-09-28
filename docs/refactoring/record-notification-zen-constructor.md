@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "record notification zen constructor"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🧘 RecordNotification Zen Delegation Strategy
 
 ## 🕉️ Philosophy: Zen Delegation

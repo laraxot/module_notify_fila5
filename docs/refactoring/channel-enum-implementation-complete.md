@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "channel enum implementation complete"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Refactoring Complete: ChannelEnum Implementation in SendRecordNotificationAction
 
 **Date**: 18 Dicembre 2025  
@@ -169,8 +166,6 @@ The `transClass()` method automatically resolves to `notify::channel_enum.{value
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "channel enum implementation complete"
 type: note
 tags: [documentation]
@@ -179,5 +174,4 @@ updated: 2026-09-26
 qmd: "channel enum implementation complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*

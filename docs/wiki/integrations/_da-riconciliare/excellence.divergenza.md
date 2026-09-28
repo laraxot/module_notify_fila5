@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "excellence.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: excellence.md"
 module: Notify
 type: note

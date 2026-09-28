@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "xot base classes checklist"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Checklist: Verifica Classi Base Xot
 
 ## 1. Import

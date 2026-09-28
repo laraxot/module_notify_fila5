@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phases"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Fasi di sviluppo - Notify Module
 
 ## Fase 1: Stabilizzazione (In Progress)

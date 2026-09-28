@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "command approval discipline"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Command Approval Discipline
 
 > Indice: [./00-INDEX.md](./00-INDEX.md)

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "iflow ptvx guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Utilizzo di iFlow con il Progetto PTVX
 
 ## Best Practices Specifiche

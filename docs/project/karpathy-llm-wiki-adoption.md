@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "karpathy llm wiki adoption"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Karpathy LLM Wiki per Notify
 
 > Stato: proposta applicata al repository

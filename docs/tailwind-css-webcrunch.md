@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "tailwind css webcrunch"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Tailwind CSS: Approfondimento Collezione Webcrunch
 
 Fonte: https://webcrunch.com/collections/tailwind-css

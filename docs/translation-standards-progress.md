@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation standards progress"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Progresso Standardizzazione Traduzioni
 
 ## Stato Attuale - 12/05/2025

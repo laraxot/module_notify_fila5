@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "SESSION SUMMARY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # LLM Wiki Integration - Session Summary
 
 > **Date**: 2026-04-15
@@ -310,8 +307,6 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "SESSION SUMMARY"
 type: note
 tags: [documentation]
@@ -320,5 +315,4 @@ updated: 2026-09-26
 qmd: "SESSION SUMMARY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Session Complete** - Ready for first ingestion! 🚀

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "rules index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Module Rules Index"
 module: notify
 type: integration

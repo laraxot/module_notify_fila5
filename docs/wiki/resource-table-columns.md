@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "resource table columns"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Resource table columns
 
 ## BMAD story and evidence

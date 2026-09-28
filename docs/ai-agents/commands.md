@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "commands"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Comandi Essenziali
 
 Vedi [index](index.md) per navigazione completa.

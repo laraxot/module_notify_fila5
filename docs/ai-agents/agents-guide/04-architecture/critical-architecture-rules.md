@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "critical architecture rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 4. Critical Architecture Rules
 
 ### Translation Management - AUTOMATIC ONLY!
@@ -400,8 +397,6 @@ url('/en/path')
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "critical architecture rules"
 type: note
 tags: [documentation]
@@ -410,4 +405,3 @@ updated: 2026-09-26
 qmd: "critical architecture rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

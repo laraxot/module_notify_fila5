@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "PROJECT STATUS.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: PROJECT_STATUS.md"
 module: Notify
 type: note

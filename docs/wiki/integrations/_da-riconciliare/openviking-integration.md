@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "openviking integration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "OpenViking Integration Guide"
 module: notify
 type: integration

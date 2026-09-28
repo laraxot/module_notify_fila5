@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "supermemory setup"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Supermemory Configuration
 
 ## Setup Complete

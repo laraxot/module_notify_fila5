@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DESIGN COMUNI PROGRESS 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ Design Comuni Replication - PROGRESS REPORT #1
 
 **Date**: 2026-03-30  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "DESIGN COMUNI PROGRESS 1"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "DESIGN COMUNI PROGRESS 1"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Objective
 
 Replicate all 38 static pages from [Design Comuni Pagine Statiche](https://github.com/italia/design-comuni-pagine-statiche) as reusable Blade components.

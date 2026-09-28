@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notification system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task 001: Implement Multi-Channel Notification System
 
 ## Description
@@ -262,8 +259,6 @@ The Notify module needs a robust multi-channel notification system for sending m
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "notification system"
 type: note
 tags: [documentation]
@@ -272,6 +267,5 @@ updated: 2026-09-26
 qmd: "notification system"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: Pending
 **Assignee**: TBD

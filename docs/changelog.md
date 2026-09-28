@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "changelog"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Changelog - Modulo Notify
 
 Tutte le modifiche significative al modulo Notify saranno documentate in questo file.
@@ -30,8 +27,6 @@ Tutte le modifiche significative al modulo Notify saranno documentate in questo 
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "changelog"
 type: note
 tags: [documentation]
@@ -40,7 +35,6 @@ updated: 2026-09-26
 qmd: "changelog"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Convenzioni
 
 - Namespace modulo: `Modules\Notify\{Subdirectory}`

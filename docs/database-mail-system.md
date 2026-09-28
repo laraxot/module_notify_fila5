@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "database mail system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica

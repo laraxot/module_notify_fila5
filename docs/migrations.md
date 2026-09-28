@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migrations"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Database Migrations
 
 ## Email Templates
@@ -240,8 +237,6 @@ public function template(): BelongsTo
 * [migrations.md](../../Activity/docs/database/migrations.md)
 
 ---
-<<<<<<< HEAD
-=======
 title: "migrations"
 type: note
 tags: [documentation]
@@ -250,4 +245,3 @@ updated: 2026-09-26
 qmd: "migrations"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analisi colori header footer"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
 # 📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia
 
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "analisi colori header footer"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "analisi colori header footer"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  

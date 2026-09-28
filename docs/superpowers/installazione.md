@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "installazione"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Superpowers - Installazione e Configurazione
 
 ## Panoramica
@@ -96,8 +93,6 @@ Per pinning versione specifica:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "installazione"
 type: note
 tags: [documentation]
@@ -106,5 +101,4 @@ updated: 2026-09-26
 qmd: "installazione"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Documento creato: 2026-03-31*

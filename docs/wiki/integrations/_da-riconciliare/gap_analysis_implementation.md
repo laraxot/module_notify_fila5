@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "gap analysis implementation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "NOTIFY - GAP ANALYSIS & IMPLEMENTATION PLAN"
 module: notify
 type: integration

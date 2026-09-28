@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament xot architecture 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura Filament : Pattern XotBase
 
 ## Introduzione

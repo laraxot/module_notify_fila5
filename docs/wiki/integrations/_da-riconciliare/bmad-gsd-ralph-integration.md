@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "bmad gsd ralph integration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "BMAD + GSD + Ralph Loop Integration Guide"
 module: notify
 type: integration

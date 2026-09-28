@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "openviking bmad gsd ralph complete.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: openviking-bmad-gsd-ralph-complete.md"
 module: Notify
 type: note

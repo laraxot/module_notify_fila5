@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "laravel v11 rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === laravel/v11 rules ===
 
 ## Laravel 11
@@ -43,8 +40,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "laravel v11 rules"
 type: note
 tags: [documentation]
@@ -53,7 +48,6 @@ updated: 2026-09-26
 qmd: "laravel v11 rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

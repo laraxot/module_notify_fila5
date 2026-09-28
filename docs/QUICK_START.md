@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "QUICK START"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI
 
 **Versione**: 1.0  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "QUICK START"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "QUICK START"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 PREREQUISITI
 
 ### Software Richiesto

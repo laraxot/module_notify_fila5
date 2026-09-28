@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "LOGIN PAGE TRANSLATION FIX"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Fix Traduzioni Pagina Login"
 module: notify
 type: integration

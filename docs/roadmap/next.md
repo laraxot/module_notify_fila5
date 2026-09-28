@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "next"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Next (Module Notify)
 
 ## Features

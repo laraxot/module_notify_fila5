@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "tailwind best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Best Practices Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Organizzazione del Codice

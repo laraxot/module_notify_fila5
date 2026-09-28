@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "ABSOLUTE COMPLETION 100"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "NOTIFY - COMPLETAMENTO ASSOLUTO 100%"
 module: notify
 type: integration

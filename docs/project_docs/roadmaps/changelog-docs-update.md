@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "CHANGELOG-docs-update-2025-10-01"
 type: concept
 tags: [deprecated]

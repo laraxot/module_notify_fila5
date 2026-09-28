@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "SUPERMEMORY QUICKSTART"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # SuperMemory - AI Memory Infrastructure
 
 **Project**: FixCity Platform  
@@ -209,8 +206,6 @@ supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "SUPERMEMORY QUICKSTART"
 type: note
 tags: [documentation]
@@ -219,5 +214,4 @@ updated: 2026-09-26
 qmd: "SUPERMEMORY QUICKSTART"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *This document follows DRY+KISS principles. For general MCP server info, see the master doc.*

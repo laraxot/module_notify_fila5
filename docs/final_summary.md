@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "final summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO
 
 **Data Completamento**: 2025-10-01  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "final summary"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "final summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Completamento sistematico della documentazione e delle roadmap del progetto FixCity per renderlo la piattaforma

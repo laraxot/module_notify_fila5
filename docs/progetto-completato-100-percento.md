@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "progetto completato 100 percento"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
 
 **Data**: 1 Ottobre 2025 - Ore 22:30  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "progetto completato 100 percento"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "progetto completato 100 percento"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎉 RISULTATO FINALE
 
 ```

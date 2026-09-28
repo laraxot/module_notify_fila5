@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "database mail queue"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema di Code per Email - il progetto
 
 ## Panoramica

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ollama token optimization"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Ollama Token Optimization Guide
 
 ## Parametri Chiave per Ridurre i Token

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan error analysis strategy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Strategia Correzione Errori PHPStan - SendEmailPage.php
 
 **Data**: 2025-12-23

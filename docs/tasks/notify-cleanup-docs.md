@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notify cleanup docs"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task: Notify Docs Cleanup
 
 ## 📋 Obiettivo

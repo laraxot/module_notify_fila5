@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email templates laravel mailables notifications"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Approfondimento: Mailables & Notifications Laravel
 
 ## Funzionalità principali

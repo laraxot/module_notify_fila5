@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "riepilogo-risoluzione-conflitti-2025-09-30.deprecated"
 type: concept
 tags: [deprecated]

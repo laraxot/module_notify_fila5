@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "bashscripts gitignore workaround"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🚨 CRITICAL: bashscripts/ in .gitignore
 
 > **Last Updated**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "bashscripts gitignore workaround"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "bashscripts gitignore workaround"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Problem
 
 **bashscripts/ è nel .gitignore del repository principale**

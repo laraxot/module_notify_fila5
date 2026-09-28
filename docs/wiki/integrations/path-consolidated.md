@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "path consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "path — Consolidated Documentation"
 module: notify
 type: integration

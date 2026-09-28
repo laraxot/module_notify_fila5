@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agent teams"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Agent teams (Experimental - Opus 4.6)
 
 > Source: [CLAUDE.md](../../CLAUDE.md)

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "cyclomatic complexity summary.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: cyclomatic-complexity-summary.md"
 module: Notify
 type: note

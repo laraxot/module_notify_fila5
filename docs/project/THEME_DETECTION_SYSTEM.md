@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "THEME DETECTION SYSTEM"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Theme Detection System - Notify Fila5
 
 **Project:** Notify Fila5
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "THEME DETECTION SYSTEM"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "THEME DETECTION SYSTEM"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Scopo
 
 Questo documento spiega il sistema di rilevamento del tema basato su `APP_URL` e il percorso di configurazione dinamico.

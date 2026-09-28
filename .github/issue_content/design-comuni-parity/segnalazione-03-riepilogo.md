@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "segnalazione 03 riepilogo"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Segnalazione - Riepilogo (segnalazione-03-riepilogo.html)
 
 ## Obiettivo

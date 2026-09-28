@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "appointment field namings.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: appointment-field-namings.md"
 module: Notify
 type: note

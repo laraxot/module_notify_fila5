@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "2026 03 30 fixcity hero marketing"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # FixCity Hero Marketing Section - Design Spec
 
 ## Overview

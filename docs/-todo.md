@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: " todo"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: " todo"
 module: notify
 type: integration

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "installazione strumenti.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: installazione-strumenti.md"
 module: Notify
 type: note

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "INSTALLAZIONE STRUMENTI"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🚀 Installazione Strumenti di Sviluppo
 
 ## Superpowers
@@ -75,8 +72,6 @@ Aggiungi a `~/.cursor/mcp.json`:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "INSTALLAZIONE STRUMENTI"
 type: note
 tags: [documentation]
@@ -85,7 +80,6 @@ updated: 2026-09-26
 qmd: "INSTALLAZIONE STRUMENTI"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Documentazione Progetto
 
 ### Struttura

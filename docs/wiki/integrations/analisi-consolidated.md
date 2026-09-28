@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "analisi consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "analisi — Consolidated Documentation"
 module: notify
 type: integration

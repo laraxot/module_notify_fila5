@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "testing"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Testing Guide
 
 > Guida completa per i test in PTVX Fila5 Mono.

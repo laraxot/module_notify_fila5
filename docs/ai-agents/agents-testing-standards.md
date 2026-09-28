@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents testing standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AGENTS Testing Standards
 
 Standard e convenzioni per i test.
@@ -27,8 +24,6 @@ tests/
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "agents testing standards"
 type: note
 tags: [documentation]
@@ -37,7 +32,6 @@ updated: 2026-09-26
 qmd: "agents testing standards"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Pest Testing Format
 
 ```php

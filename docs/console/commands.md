@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "commands"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔧 Console Commands FixCity
 # 🔧 Console Commands Notify
 
@@ -298,8 +295,6 @@ dev:reset-demo
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "commands"
 type: note
 tags: [documentation]
@@ -308,7 +303,6 @@ updated: 2026-09-26
 qmd: "commands"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚨 REGOLA CRITICA - Frontend
 
 **MAI dimenticare dopo modifiche CSS/JS**:

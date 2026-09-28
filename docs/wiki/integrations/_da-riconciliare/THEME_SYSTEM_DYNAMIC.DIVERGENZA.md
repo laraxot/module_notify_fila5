@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "THEME SYSTEM DYNAMIC.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: THEME_SYSTEM_DYNAMIC.md"
 module: Notify
 type: note

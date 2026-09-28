@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "structure standards"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Standard di Struttura nel Modulo Notify"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament page naming convention 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale

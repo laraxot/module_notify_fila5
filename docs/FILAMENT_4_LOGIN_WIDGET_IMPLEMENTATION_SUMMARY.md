@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "FILAMENT 4 LOGIN WIDGET IMPLEMENTATION SUMMARY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Riepilogo Implementazione Login Widget Filament 4"
 module: notify
 type: integration

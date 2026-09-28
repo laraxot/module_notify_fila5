@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "correzioni phpstan completate 3"
 type: note
 tags: [documentation]
@@ -348,7 +346,6 @@ I pattern di type safety implementati possono essere applicati a:
 *Risultato: 0 errori PHPStan Level 9*
 ---
 ---
->>>>>>> laraxot/dev
 title: "Correzioni Phpstan Completate 3"
 type: concept
 tags: [correzioni, phpstan, completate]

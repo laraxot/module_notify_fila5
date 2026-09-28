@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "claude patterns"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # CLAUDE Patterns
 
 Pattern architetturali comuni.
@@ -46,8 +43,6 @@ class CreateEventAction
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "claude patterns"
 type: note
 tags: [documentation]
@@ -56,7 +51,6 @@ updated: 2026-09-26
 qmd: "claude patterns"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 2. Data Transfer Objects
 
 Use Spatie Laravel Data per DTOs:

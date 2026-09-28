@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "PRD"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Product Requirements Document (PRD) - Notify Module"
 module: "Notify"
 type: concept

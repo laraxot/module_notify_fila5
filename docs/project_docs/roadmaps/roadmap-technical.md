@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "roadmap technical"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🛠️ ROADMAP TECNICA - FIXCITY PLATFORM
 # 🛠️ ROADMAP TECNICA - NOTIFY PLATFORM
 
@@ -471,8 +468,6 @@ jobs:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "roadmap technical"
 type: note
 tags: [documentation]
@@ -481,7 +476,6 @@ updated: 2026-09-26
 qmd: "roadmap technical"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **📞 Contatti**
 - **Tech Lead**: Laraxot Development Team
 - **Email**: tech@laraxot.com

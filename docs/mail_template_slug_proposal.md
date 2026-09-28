@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mail template slug proposal"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Proposta: Implementazione Campo Slug nei Template Email
 
 ## Collegamenti correlati

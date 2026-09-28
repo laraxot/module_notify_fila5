@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notify filament v5"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task: Notify Filament v5 Alignment (Clusters)
 
 ## 📋 Obiettivo

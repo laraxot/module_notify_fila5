@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "login timeout issue"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Problema Timeout Pagina Login - Diagnosi e Soluzione"
 module: notify
 type: integration

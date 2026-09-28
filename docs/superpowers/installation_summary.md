@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "installation summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🦸 Superpowers Installation Summary
 
 > **Date**: 2026-03-31  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "installation summary"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "installation summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Overview
 
 Successfully installed and configured the **Superpowers** agentic skills framework for the FixCity platform.

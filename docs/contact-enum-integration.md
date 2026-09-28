@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "contact enum integration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ContactTypeEnum Integration Guide
 
 ## Overview

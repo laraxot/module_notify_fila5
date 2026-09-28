@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "json migration connection"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Connessione Database nelle Migrazioni JSON
 
 ## Importanza della Connessione Corretta

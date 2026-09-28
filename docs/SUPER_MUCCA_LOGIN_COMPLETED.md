@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "SUPER MUCCA LOGIN COMPLETED"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "SUPER MUCCA - LOGIN PAGE COMPLETATA!"
 module: notify
 type: integration

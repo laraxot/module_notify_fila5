@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "netfun examples"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP

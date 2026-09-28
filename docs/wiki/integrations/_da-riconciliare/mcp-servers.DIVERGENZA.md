@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "mcp servers.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: mcp-servers.md"
 module: Notify
 type: note

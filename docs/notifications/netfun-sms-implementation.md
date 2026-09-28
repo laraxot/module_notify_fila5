@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "netfun sms implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione Netfun SMS 
 
 ## Introduzione

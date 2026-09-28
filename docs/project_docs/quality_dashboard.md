@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "quality dashboard"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📊 Quality Dashboard - FixCity Project
 # 📊 Quality Dashboard - Notify Project
 
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "quality dashboard"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "quality dashboard"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Overall Quality Score: **94.5%** (A+)
 
 ```

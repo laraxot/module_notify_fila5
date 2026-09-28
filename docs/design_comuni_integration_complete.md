@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "design comuni integration complete"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏛️ DESIGN COMUNI ITALIANI - INTEGRATION COMPLETE
 
 **Data**: 2025-10-02  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "design comuni integration complete"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "design comuni integration complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in FixCity per garantire la conformità AGID 100%.

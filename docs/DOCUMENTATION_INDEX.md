@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DOCUMENTATION INDEX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📚 Indice Generale Documentazione - Fixcity
 
 > **Navigazione Completa della Documentazione del Progetto**
@@ -27,8 +24,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "DOCUMENTATION INDEX"
 type: note
 tags: [documentation]
@@ -37,7 +32,6 @@ updated: 2026-09-26
 qmd: "DOCUMENTATION INDEX"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📖 Overview
 
 ### Documentazione Principale

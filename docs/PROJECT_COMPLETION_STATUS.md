@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PROJECT COMPLETION STATUS"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
 
 **Data**: 2025-10-01  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "PROJECT COMPLETION STATUS"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "PROJECT COMPLETION STATUS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## ✅ LAVORO COMPLETATO OGGI
 
 ### 📚 Documentazione Strategica

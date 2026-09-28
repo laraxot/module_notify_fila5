@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "collegamenti"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Collegamenti Documentazione Notify
 
 - [README Notify](readme.md)

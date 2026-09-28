@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "key documentation references"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Key Documentation References
 
 - `laravel/docs/bug-injection-recovery-playbook.md` - Recovery da bug/file infetti introdotti deliberatamente

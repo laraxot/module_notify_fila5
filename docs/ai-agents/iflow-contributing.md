@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "iflow contributing"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # IFLOW Contributing
 
 Come contribuire al progetto.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "iflow contributing"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "iflow contributing"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🤝 Come Contribuire
 
 > Anche se è la tua prima volta, il tuo contributo è benvenuto!

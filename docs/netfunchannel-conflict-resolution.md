@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "netfunchannel conflict resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione conflitto NetfunChannel.php
 
 ## Motivazione

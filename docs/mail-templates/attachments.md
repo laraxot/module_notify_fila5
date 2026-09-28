@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "attachments"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Gestione degli Allegati nelle Email
 
 ## Implementazione Corretta

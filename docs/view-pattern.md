@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "view pattern"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pattern view() — Variabile view-string + Parametri Espliciti
 
 **Regola**: Per ogni chiamata a view() usare variabile tipizzata view-string e parametri espliciti.

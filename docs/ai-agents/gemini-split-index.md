@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "gemini split index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GEMINI.md Split Index
 
 > Documentazione GEMINI.md spezzata in file più piccoli.

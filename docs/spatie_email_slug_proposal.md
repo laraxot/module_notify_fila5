@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "spatie email slug proposal"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Proposta: Aggiunta Slug a SpatieEmail e MailTemplate
 
 ## Introduzione

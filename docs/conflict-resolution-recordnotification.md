@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "conflict resolution recordnotification"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione Conflitti RecordNotification.php
 
 ## Contesto del Conflitto

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email templates best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Best Practices per Template Email
 
 ## 1. Struttura Base

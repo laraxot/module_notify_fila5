@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "links"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Key Documentation Links
 
 - [Agent docs index](../index.md)
@@ -28,8 +25,6 @@ discussions: []
 - [MCP Guide](../mcp.md)
 
 ---
-<<<<<<< HEAD
-=======
 title: "links"
 type: note
 tags: [documentation]
@@ -38,5 +33,4 @@ updated: 2026-09-26
 qmd: "links"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 [Back to index](../index.md) | [Overview](project-overview.md) | [Guidelines](guidelines.md)

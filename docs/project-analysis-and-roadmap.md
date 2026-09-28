@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project analysis and roadmap"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # FixCity - Analisi Completa del Progetto e Roadmap
 
 **Data Analisi**: 1 Ottobre 2025  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "project analysis and roadmap"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "project analysis and roadmap"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 SCOPO DEL PROGETTO
 
 ### Cos'è FixCity?

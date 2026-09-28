@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "limesurvey charts pdf"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # LimeSurvey Integration & Professional Charts
 
 Guida per Claude: integrazione LimeSurvey, Chart.js, JpGraph, PDF.

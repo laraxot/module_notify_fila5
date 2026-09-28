@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DOCUMENT ROOT ARCHITECTURE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Document Root Architecture
 
 ## Overview

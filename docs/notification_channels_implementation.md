@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notification channels implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione dei Canali di Notifica 
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.

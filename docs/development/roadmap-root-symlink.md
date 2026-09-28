@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "roadmap root symlink"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 roadmap.md
 ## Collegamenti tra versioni di roadmap_root_symlink.md
 * [roadmap_root_symlink.md](../../../Notify/docs/roadmap_root_symlink.md)

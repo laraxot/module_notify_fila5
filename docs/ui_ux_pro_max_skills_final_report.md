@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ui ux pro max skills final report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 UI/UX Pro Max Skills - Final Report
 
 **Data**: 2026-03-30  
@@ -291,8 +288,6 @@ Each skill includes:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "ui ux pro max skills final report"
 type: note
 tags: [documentation]
@@ -301,7 +296,6 @@ updated: 2026-09-26
 qmd: "ui ux pro max skills final report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Stato**: ✅ **COMPLETAMENTE INTEGRATO E PRONTO ALL'USO**  
 **Qualità**: ⭐⭐⭐⭐⭐  
 **Prossimo**: 🧪 Testing e training team

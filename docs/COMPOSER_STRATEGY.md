@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "COMPOSER STRATEGY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 Laravel-Modules Composer Strategy
 
 **Data**: 2026-03-30  
@@ -280,8 +277,6 @@ Composer vede:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "COMPOSER STRATEGY"
 type: note
 tags: [documentation]
@@ -290,7 +285,6 @@ updated: 2026-09-26
 qmd: "COMPOSER STRATEGY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Stato**: ✅ **CONFIGURATO - Composer minimale con merge-plugin**  
 **Principio**: **Root minimale, moduli specifici**  
 **Merge Plugin**: **wikimedia/composer-merge-plugin**

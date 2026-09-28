@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "transaction removal fix 2025 10 15"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Fix Transaction Model - Migrate Fresh Error
 
 **Data**: 15 Ottobre 2025  

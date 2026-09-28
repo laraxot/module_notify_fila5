@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # LLM Wiki Agent Instructions
 
 > **Purpose**: This file transforms generic LLM agents into disciplined LLM Wiki maintainers
@@ -97,12 +94,9 @@ Themes/{Name}/docs/llm-wiki/
 
 ```yaml
 ---
-<<<<<<< HEAD
-=======
 qmd: "agents"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Descriptive Title"
 type: concept  # concept | entity | source | comparison | decision | troubleshooting
 sources: ["raw/articles/source-filename.md"]

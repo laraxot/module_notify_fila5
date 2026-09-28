@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "qualita codice"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Qualità del Codice
 
 ## PHPStan Level 10

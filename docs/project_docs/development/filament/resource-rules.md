@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "resource rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole per le Risorse Filament
 
 ## Panoramica
@@ -203,8 +200,6 @@ class DoctorResource extends XotBaseResource
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "resource rules"
 type: note
 tags: [documentation]
@@ -213,6 +208,5 @@ updated: 2026-09-26
 qmd: "resource rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: Agosto 2025*
 *Fonte: laravel/Modules/Xot/docs/FILAMENT_RESOURCE_RULES.md* 

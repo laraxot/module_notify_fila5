@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "readme en"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify — English presentation"
 module: notify
 type: integration

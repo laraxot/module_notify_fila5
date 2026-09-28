@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "MISSION ACCOMPLISHED"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎉 MISSION ACCOMPLISHED! 🏆
 
 ## Notify - Base Fila4 Mono
@@ -23,8 +20,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "MISSION ACCOMPLISHED"
 type: note
 tags: [documentation]
@@ -33,7 +28,6 @@ updated: 2026-09-26
 qmd: "MISSION ACCOMPLISHED"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🌟 OBIETTIVI RAGGIUNTI: 100%
 
 ```

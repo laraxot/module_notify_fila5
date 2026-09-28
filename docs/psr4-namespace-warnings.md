@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "psr4 namespace warnings"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PSR-4 Namespace Warnings - Modulo Notify
 
 ## ⚠️ Warning Rilevati
@@ -103,8 +100,6 @@ php artisan optimize:clear
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "psr4 namespace warnings"
 type: note
 tags: [documentation]
@@ -113,7 +108,6 @@ updated: 2026-09-26
 qmd: "psr4 namespace warnings"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Verifica**: Gennaio 2025  
 **Status**: ✅ File conformi PSR-4  
 **Azione**: Nessuna (già corretti)

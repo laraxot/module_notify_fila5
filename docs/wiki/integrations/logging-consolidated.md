@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "logging consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "logging — Consolidated Documentation"
 module: notify
 type: integration

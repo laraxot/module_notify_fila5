@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "json migration error"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Errore di Migrazione JSON e Soluzione
 
 ## Errore Riscontrato

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "rifattorizzazione completata"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Rifattorizzazione Completa delle Cartelle Docs
 
 ## Obiettivo Raggiunto

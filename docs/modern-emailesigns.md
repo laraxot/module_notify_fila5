@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "modern emailesigns"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Pattern di Design per Email Moderne"
 module: notify
 type: integration

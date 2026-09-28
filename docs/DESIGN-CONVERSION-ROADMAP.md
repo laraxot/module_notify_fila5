@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DESIGN CONVERSION ROADMAP"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Design Comuni Conversion Roadmap
 
 **Status**: 🟢 Phase 1 Complete - Visual Parity Assessment Done
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "DESIGN CONVERSION ROADMAP"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "DESIGN CONVERSION ROADMAP"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Executive Summary
 
 ### Current State

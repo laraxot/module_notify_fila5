@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "nfr assess"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Task: nfr-assess
 Source: .bmad-core/tasks/nfr-assess.md
 - How to use: "Use task nfr-assess with the appropriate agent" and paste relevant parts as needed.
@@ -321,8 +318,6 @@ maintainability:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "nfr assess"
 type: note
 tags: [documentation]
@@ -331,7 +326,6 @@ updated: 2026-09-26
 qmd: "nfr assess"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Appendix: ISO 25010 Reference
 
 <details>

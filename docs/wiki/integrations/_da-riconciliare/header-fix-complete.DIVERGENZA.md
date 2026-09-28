@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "header fix complete.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: header-fix-complete.md"
 module: Notify
 type: note

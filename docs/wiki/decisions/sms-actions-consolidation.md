@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "sms-actions-consolidation-2026-06-30"
 type: concept
 tags: [deprecated]

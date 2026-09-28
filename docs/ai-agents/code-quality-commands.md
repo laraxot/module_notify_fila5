@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "code quality commands"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Code quality commands
 
 ## Laravel Pint (formatting)

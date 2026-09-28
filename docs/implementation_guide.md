@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "implementation guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida all'Implementazione dei Template Email
 
 ## Setup Iniziale

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpmd phar installation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔧 PHPMD Installation - .phar NOT Composer
 
 **Path**: `.agents/docs/rules/phpmd-phar-installation.md`  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpmd phar installation"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "phpmd phar installation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 The Rule
 
 > **SEMPRE** installare PHPMD come **.phar** standalone.

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "push notifications"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Push Notifications"
 module: notify
 type: integration

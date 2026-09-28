@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email logs"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema Log Email 
 
 ## Panoramica

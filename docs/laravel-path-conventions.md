@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "laravel path conventions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni dei Path in Laravel e
 
 ## Regole Fondamentali per i Path di Cartelle

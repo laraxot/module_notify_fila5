@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "working with claude"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Working with Claude
 
 ## Expectations

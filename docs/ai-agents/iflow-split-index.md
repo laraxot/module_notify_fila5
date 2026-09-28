@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "iflow split index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # IFLOW.md Split Index
 
 > Documentazione IFLOW.md spezzata in file più piccoli.

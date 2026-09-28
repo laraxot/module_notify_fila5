@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "llm wiki index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # LLM Wiki Index
 
 Deprecated compatibility entrypoint.

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "documentation index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Indice Generale Documentazione - App"
 module: notify
 type: integration

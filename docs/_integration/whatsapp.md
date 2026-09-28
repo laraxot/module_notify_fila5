@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "whatsapp"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # whatsapp
 
 <!-- Contenuto migrato da _docs/whatsapp.txt -->

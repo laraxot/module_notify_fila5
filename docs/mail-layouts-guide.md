@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mail layouts guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida ai Layout Email nel Modulo Notify
 
 ## Introduzione

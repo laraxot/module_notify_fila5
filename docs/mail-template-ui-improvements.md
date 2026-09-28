@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mail template ui improvements"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Miglioramenti UI/UX per MailTemplateResource
 
 ## Introduzione

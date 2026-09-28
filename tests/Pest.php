@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -88,12 +85,6 @@ function assertFirstModel(EloquentCollection|Collection $collection, string $cla
 }
 
 /**
-<<<<<<< HEAD
- * Type-guard helper: `mixed $value` e' il punto — accetta un valore
- * arbitrario e asserisce che sia un array.
- *
-=======
->>>>>>> laraxot/dev
  * @return array<string, mixed>
  */
 function assertNotifyArray(mixed $value): array
@@ -132,11 +123,7 @@ function assertNotifyThrows(callable $callback, string $exceptionClass): void
 {
     try {
         $callback();
-<<<<<<< HEAD
-    } catch (\Throwable $exception) {
-=======
     } catch (Throwable $exception) {
->>>>>>> laraxot/dev
         Assert::assertInstanceOf($exceptionClass, $exception);
 
         return;
@@ -184,10 +171,6 @@ function notifyReflectionSource(ReflectionClass $reflection): string
 
 /**
  * @param  array<mixed, mixed>|null  $array
-<<<<<<< HEAD
- * @return mixed Il valore in fondo alla catena di chiavi e' eterogeneo per definizione
-=======
->>>>>>> laraxot/dev
  */
 function notifyArrayGet(?array $array, int|string ...$keys): mixed
 {

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Analysis Report
 
 **Data**: 2025-01-11
@@ -245,8 +242,6 @@ test('example', function (): void {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan analysis"
 type: note
 tags: [documentation]
@@ -255,7 +250,6 @@ updated: 2026-09-26
 qmd: "phpstan analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Documento creato**: 2025-01-11
 **Autore**: Claude Code Analysis
 **Versione**: 1.0

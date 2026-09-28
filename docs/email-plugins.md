@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email plugins"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Plugin Email per Filament - il progetto
 
 ## Panoramica

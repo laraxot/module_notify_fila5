@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "IMPLEMENTATION SUMMARY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Riepilogo Implementazione Design Comuni
 
 ## Panoramica

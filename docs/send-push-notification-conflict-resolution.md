@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "send push notification conflict resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione conflitto git su SendPushNotification.php
 
 ## Intent

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "firebase"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Firebase Push Notifications
 
 ## Resources

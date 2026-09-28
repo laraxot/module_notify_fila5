@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notification implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notification System Implementation Plan
 
 ## Overview

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "html structure comparison"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # HTML Structure Comparison Tools
 
 Bridge document tra tooling agnostico in `bashscripts` e output di progetto nel tema Sixteen.

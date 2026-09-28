@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents overview"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 AI Agents Overview
 
 **File**: `.agents/docs/overview/agents-overview.md`  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "agents overview"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "agents overview"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Project Stack
 
 ### Core Technology

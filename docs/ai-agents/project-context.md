@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project context"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Project Context
 
 > Contesto generale del progetto PTVX Fila5 Mono.

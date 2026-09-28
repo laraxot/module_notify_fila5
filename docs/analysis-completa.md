@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analysis completa"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Completa del Modulo Notify
 
 ## Indice

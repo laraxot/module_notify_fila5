@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "openviking bmad gsd ralph complete"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # OpenViking + BMAD + GSD + Ralph Loop - Setup Complete Report
 
 ## Executive Summary
@@ -419,8 +416,6 @@ This integration provides:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "openviking bmad gsd ralph complete"
 type: note
 tags: [documentation]
@@ -429,7 +424,6 @@ updated: 2026-09-26
 qmd: "openviking bmad gsd ralph complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Version**: 1.0.0  
 **Created**: 2026-03-30  
 **Status**: ✅ Infrastructure Complete, ⚠️ Server Setup Required  

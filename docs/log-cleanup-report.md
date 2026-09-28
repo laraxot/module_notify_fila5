@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "log cleanup report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Log Cleanup Report - Performance Optimization
 
 **Date:** 2026-03-02  
@@ -168,8 +165,6 @@ time curl http://localhost:8000/api/endpoint
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "log cleanup report"
 type: note
 tags: [documentation]
@@ -178,5 +173,4 @@ updated: 2026-09-26
 qmd: "log cleanup report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Next Step:** Begin Phase 1 cleanup of high-priority files

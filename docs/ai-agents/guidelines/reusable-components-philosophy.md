@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "reusable components philosophy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🧩 Componenti Riutilizzabili - Filosofia Zen
 
 **Version**: 1.0.0  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "reusable components philosophy"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "reusable components philosophy"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 The Zen of Reusable Components
 
 > "Un componente, infiniti usi. Scrivi una volta, usa ovunque."

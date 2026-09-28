@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "current work status"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Stato Attuale del Lavoro - 12 Maggio 2025"
 module: notify
 type: integration

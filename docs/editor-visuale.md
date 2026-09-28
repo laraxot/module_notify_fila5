@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "editor visuale"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Editor Visuale Template
 
 ## Architettura

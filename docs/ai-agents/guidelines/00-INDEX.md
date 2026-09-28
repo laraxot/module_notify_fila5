@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "00 INDEX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📖 Guidelines Index
 
 **Path**: `.agents/docs/guidelines/`  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "00 INDEX"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Purpose
 
 Guidelines sono **best practices** e **raccomandazioni** per AI agents.  

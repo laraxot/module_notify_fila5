@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan test fixes strategy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Test Fixes Strategy - 2025-10-10
 
 ## 🎯 Obiettivo
@@ -309,8 +306,6 @@ php artisan test --coverage
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan test fixes strategy"
 type: note
 tags: [documentation]
@@ -319,7 +314,6 @@ updated: 2026-09-26
 qmd: "phpstan test fixes strategy"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Creato**: 2025-10-10T08:57:05+02:00  
 **Obiettivo**: 0 errori PHPStan MAX in ~2.5 ore  
 **Status**: 🚀 READY TO START

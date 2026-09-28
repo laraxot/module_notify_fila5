@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "super mucca completion report 2025 10 01"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐄⚡ SUPER MUCCA MODE - Completion Report
 
 **Data**: 2025-10-01T21:39:00+02:00
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "super mucca completion report 2025 10 01"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "super mucca completion report 2025 10 01"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Obiettivi Session
 
 Completamento intensivo del progetto FixCity per diventare la piattaforma migliore del 2025:

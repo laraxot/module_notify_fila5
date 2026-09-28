@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email troubleshooting"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione dei Problemi nelle Email 
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.

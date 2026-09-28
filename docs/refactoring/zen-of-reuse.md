@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "zen of reuse"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🧘 The Zen of Reuse (Filament Components)
 
 ## 🕉️ Philosophy: Centralized Composition

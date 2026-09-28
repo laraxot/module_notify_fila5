@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "quality tools setup"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Setup strumenti qualità codice"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "firebase"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # firebase
 
 <!-- Contenuto migrato da _docs/firebase.txt -->

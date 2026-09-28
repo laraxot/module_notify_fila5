@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "riepilogo risoluzione conflitti 2025 09 30"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Riepilogo Risoluzione Conflitti – 2025-09-30
 
 ## Obiettivo

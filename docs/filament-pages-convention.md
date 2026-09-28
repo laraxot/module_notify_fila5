@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament pages convention"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni per le Pagine Filament
 
 ## Regola del Suffisso "Page"

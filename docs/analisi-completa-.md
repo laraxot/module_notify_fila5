@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "ANALISI-COMPLETA-2025-10-01.deprecated"
 type: concept
 tags: [deprecated]

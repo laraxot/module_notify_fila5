@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents error handling"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AGENTS Error Handling
 
 Pattern e best practices per la gestione degli errori.
@@ -33,8 +30,6 @@ try {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "agents error handling"
 type: note
 tags: [documentation]
@@ -43,7 +38,6 @@ updated: 2026-09-26
 qmd: "agents error handling"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Validation
 
 - Use **Form Request classes** for validation (not inline)

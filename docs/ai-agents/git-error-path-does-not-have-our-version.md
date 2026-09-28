@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "git error path does not have our version"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Git Error: "path does not have our version"
 
 **Severity**: HIGH ⚠️  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "git error path does not have our version"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "git error path does not have our version"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Error Message
 
 ```

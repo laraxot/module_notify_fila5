@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "livewire v3 rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ## Livewire 3
 
 ### Key Changes From Livewire 2
@@ -49,8 +46,6 @@ document.addEventListener('livewire:init', function () {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "livewire v3 rules"
 type: note
 tags: [documentation]
@@ -59,7 +54,6 @@ updated: 2026-09-26
 qmd: "livewire v3 rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

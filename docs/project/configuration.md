@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "configuration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Project Configuration
 
 **Last Updated**: 2026-03-30  
@@ -210,8 +207,6 @@ QUEUE_CONNECTION=sync
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "configuration"
 type: note
 tags: [documentation]
@@ -220,5 +215,4 @@ updated: 2026-09-26
 qmd: "configuration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Maintenance**: Update this file when APP_URL or theme configuration changes

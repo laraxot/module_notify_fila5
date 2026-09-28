@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan test analysis rule"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🚨 REGOLA CRITICA: Test e Analisi PHPStan
 
 ## ⚠️ REGOLA ASSOLUTA
@@ -198,8 +195,6 @@ assert(is_string($result));
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan test analysis rule"
 type: note
 tags: [documentation]
@@ -208,7 +203,6 @@ updated: 2026-09-26
 qmd: "phpstan test analysis rule"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Data Creazione:** 10 Ottobre 2025  
 **Motivo:** Errore critico durante correzione PHPStan Activity  
 **Importanza:** ⚠️ MASSIMA  

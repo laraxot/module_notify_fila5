@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "gemini super mucca"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GEMINI Super Mucca
 
 > Metodologia "Super Mucca" - Laraxot Zen
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "gemini super mucca"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "gemini super mucca"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Concetto Fondamentale
 
 La metodologia "Super Mucca" si basa su tre pilastri:

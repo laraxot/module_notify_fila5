@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "seasonal email zen"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # The Zen of Seasonal Emails
 
 **Date**: 2025-12-19

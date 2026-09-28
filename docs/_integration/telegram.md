@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "telegram"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # telegram
 
 <!-- Contenuto migrato da _docs/telegram.txt -->

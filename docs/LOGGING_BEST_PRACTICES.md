@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "LOGGING BEST PRACTICES"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Logging Best Practices - Performance & Quality"
 module: notify
 type: integration

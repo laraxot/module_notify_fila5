@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email template slug proposal"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Proposta: Aggiunta del Parametro Slug per Email Template
 
 ## Introduzione

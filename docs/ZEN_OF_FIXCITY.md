@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ZEN OF FIXCITY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🧘 Zen of FixCity - Complete Philosophy
 
 **Version**: 2.0  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "ZEN OF FIXCITY"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "ZEN OF FIXCITY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 The Five Pillars
 
 ### 1. **Git Forward-Only** 🚀

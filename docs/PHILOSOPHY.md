@@ -1,11 +1,8 @@
 ---
-<<<<<<< HEAD
-=======
 updated: 2026-09-26
 qmd: "PHILOSOPHY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: Notify Module Philosophy
 type: manifesto
 tags: [notify, philosophy, architecture, async]

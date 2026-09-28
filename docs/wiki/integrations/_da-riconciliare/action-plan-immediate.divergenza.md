@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "action plan immediate.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: action-plan-immediate.md"
 module: Notify
 type: note

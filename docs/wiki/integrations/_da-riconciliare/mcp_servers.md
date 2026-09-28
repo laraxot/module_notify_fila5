@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "mcp servers"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "MCP Servers - Master Index"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sistema notifiche"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema Notifiche
 
 ## Architettura

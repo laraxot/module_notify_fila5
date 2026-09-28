@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation file structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida alla Struttura dei File di Traduzione
 
 ## Struttura Standard Obbligatoria

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament blade components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Standard <nome progetto>: Componenti Blade Filament
 
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).

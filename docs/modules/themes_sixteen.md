@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "themes sixteen"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Gestione asset Vite per il tema Sixteen
 
 Se riscontri l'errore:
@@ -35,8 +32,6 @@ Questo comando pubblica gli asset necessari e risolve l'errore.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "themes sixteen"
 type: note
 tags: [documentation]
@@ -45,7 +40,6 @@ updated: 2026-09-26
 qmd: "themes sixteen"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Collegamenti
 - [Documentazione asset Vite nel tema](../../Themes/Sixteen/docs/assets.md)
 - [Indice gestione temi e asset](../temi_asset.md) *(creare se non esiste)*

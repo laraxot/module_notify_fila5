@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "FARMSHOPS INTEGRATION COMPLETE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🗺️ FARMSHOPS.EU INTEGRATION - COMPLETE
 
 **Data**: 2025-10-02  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "FARMSHOPS INTEGRATION COMPLETE"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "FARMSHOPS INTEGRATION COMPLETE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in FixCity per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.

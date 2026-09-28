@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "cases"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Case-Insensitive File Conflicts"
 module: notify
 type: integration

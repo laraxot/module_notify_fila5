@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analysis dettagliata 5"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 5: Testing
 
 ## 5. Testing

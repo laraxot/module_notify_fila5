@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "contact column implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ContactColumn - Implementazione DRY/KISS Centralizzata
 
 ## 🎯 Obiettivo

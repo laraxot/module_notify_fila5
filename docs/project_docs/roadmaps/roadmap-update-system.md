@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "roadmap update system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - NOTIFY PLATFORM
 
@@ -152,8 +149,6 @@ class RoadmapMetricsUpdater
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "roadmap update system"
 type: note
 tags: [documentation]
@@ -162,7 +157,6 @@ updated: 2026-09-26
 qmd: "roadmap update system"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 MODULE OVERVIEW
 [Module description and architecture]
 

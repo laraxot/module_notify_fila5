@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phase 1 execution dashboard"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 PHASE 1 EXECUTION DASHBOARD
 ## Multi-Agent Coordination Board
 
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phase 1 execution dashboard"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "phase 1 execution dashboard"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚨 CURRENT STATUS
 
 | Component | Status | Progress | ETA |

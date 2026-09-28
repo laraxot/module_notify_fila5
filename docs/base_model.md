@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "base model"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # BaseModel del Modulo Notify
 
 ## Panoramica

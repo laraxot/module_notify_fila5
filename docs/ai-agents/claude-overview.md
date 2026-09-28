@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "claude overview"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # CLAUDE Overview
 
 Panoramica del progetto LaravelPizza/Base Predict Fila5.
@@ -29,8 +26,6 @@ Panoramica del progetto LaravelPizza/Base Forecast Fila5.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "claude overview"
 type: note
 tags: [documentation]
@@ -39,7 +34,6 @@ updated: 2026-09-26
 qmd: "claude overview"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Stack Tecnologico
 
 | Tecnologia | Descrizione |

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "DOCUMENTATION IMPROVEMENT PLAN MULTI AGENT"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Documentation Improvement Plan - Multi-Agent Edition"
 module: notify
 type: integration

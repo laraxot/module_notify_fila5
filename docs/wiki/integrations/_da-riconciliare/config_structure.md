@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "config structure"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Struttura di Configurazione nei Moduli <nome progetto>"
 module: notify
 type: integration

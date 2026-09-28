@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "gemini ptvx guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Utilizzo di Gemini con il Progetto LaravelPizza
 
 ## Best Practices Specifiche

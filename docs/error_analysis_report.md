@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "error analysis report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐛 ERROR ANALYSIS REPORT - FIXCITY
 
 **Data**: 2025-10-02 20:50  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "error analysis report"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "error analysis report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🔴 ERRORE PRINCIPALE
 
 ```

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "wiki schema"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # LLM Wiki Schema
 
 Questo documento istruisce l'LLM su come costruire e mantenere la Wiki Knowledge Base secondo il pattern Karpathy.
@@ -81,12 +78,9 @@ nome-panoramica.md
 ### Frontmatter
 ```yaml
 ---
-<<<<<<< HEAD
-=======
 qmd: "wiki schema"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: Nome Visualizzato
 type: concept|entity|summary|comparison|overview
 tags: [tag1, tag2]

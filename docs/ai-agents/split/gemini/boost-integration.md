@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "boost integration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 <laravel-boost-guidelines>
 === .ai/laravel-boost rules ===
 
@@ -154,8 +151,6 @@ Laravel Boost is currently in beta and receives frequent updates. Always leverag
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "boost integration"
 type: note
 tags: [documentation]
@@ -164,7 +159,6 @@ updated: 2026-09-26
 qmd: "boost integration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

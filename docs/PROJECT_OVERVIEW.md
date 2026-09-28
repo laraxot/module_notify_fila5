@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PROJECT OVERVIEW"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏛️ FIXCITY - Civic Engagement Platform
 
 > **Piattaforma di segnalazione civica per la gestione intelligente dei disservizi urbani**
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "PROJECT OVERVIEW"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "PROJECT OVERVIEW"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Project Purpose
 
 **FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.

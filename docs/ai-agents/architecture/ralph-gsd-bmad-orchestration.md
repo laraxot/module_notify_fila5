@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ralph gsd bmad orchestration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Ralph + GSD + BMAD Orchestration
 
 **Path**: `bashscripts/ai/.agents/docs/architecture/ralph-gsd-bmad-orchestration.md`

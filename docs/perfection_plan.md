@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "perfection plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 FIXCITY - PERFECTION PLAN
 
 **Data**: 2025-10-01  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "perfection plan"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "perfection plan"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 STRATEGIA PERFEZIONE
 
 ### Processo per OGNI Feature

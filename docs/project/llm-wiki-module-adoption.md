@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "llm wiki module adoption"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # LLM Wiki — Adozione per Moduli e Temi
 
 > Stato: adottato

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms provider architecture"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura dei Provider SMS 
 
 ## Convenzioni delle Interfacce
