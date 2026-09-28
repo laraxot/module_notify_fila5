@@ -1,3 +1,14 @@
+---
+title: "ponytail audit 2026 07 02"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ponytail audit 2026 07 02"
+issues: []
+discussions: []
+---
+
 # Ponytail-audit 2026-07-02: Notify module findings
 
 Source: repo-wide ponytail-audit, published as GitHub issues [#103](https://github.com/laraxot/base_quaeris_fila5/issues/103) and [#112](https://github.com/laraxot/base_quaeris_fila5/issues/112), summarized in discussion [#114](https://github.com/laraxot/base_quaeris_fila5/discussions/114).

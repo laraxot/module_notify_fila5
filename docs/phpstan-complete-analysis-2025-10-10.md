@@ -1,3 +1,14 @@
+---
+title: "phpstan complete analysis 2025 10 10"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan complete analysis 2025 10 10"
+issues: []
+discussions: []
+---
+
 # Analisi Completa PHPStan - 10 Ottobre 2025
 
 ## Sommario Generale

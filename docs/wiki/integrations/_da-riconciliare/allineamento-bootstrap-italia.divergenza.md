@@ -1,4 +1,7 @@
 ---
+qmd: "allineamento bootstrap italia.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: allineamento-bootstrap-italia.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "email consolidated"
+issues: []
+discussions: []
 title: "email — Consolidated Documentation"
 module: notify
 type: integration

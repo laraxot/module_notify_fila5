@@ -1,4 +1,7 @@
 ---
+qmd: "MASTER PLAN"
+issues: []
+discussions: []
 title: "Notify Platform - Master Plan 🚀"
 module: notify
 type: integration

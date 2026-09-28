@@ -1,4 +1,7 @@
 ---
+qmd: "multi agent collaboration guide"
+issues: []
+discussions: []
 title: "Multi-Agent Collaboration Rules & Guidelines"
 module: notify
 type: integration

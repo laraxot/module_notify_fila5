@@ -1,4 +1,7 @@
 ---
+qmd: "LOGIN TIMEOUT ISSUE.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: LOGIN_TIMEOUT_ISSUE.md"
 module: Notify
 type: note

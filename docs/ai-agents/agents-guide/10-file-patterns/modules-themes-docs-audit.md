@@ -1,3 +1,14 @@
+---
+title: "modules themes docs audit"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "modules themes docs audit"
+issues: []
+discussions: []
+---
+
 # Modules/Themes Docs Audit (2026-03-10)
 
 ## Scope

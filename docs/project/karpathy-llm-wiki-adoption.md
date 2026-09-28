@@ -1,3 +1,14 @@
+---
+title: "karpathy llm wiki adoption"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "karpathy llm wiki adoption"
+issues: []
+discussions: []
+---
+
 # Karpathy LLM Wiki per Notify
 
 > Stato: proposta applicata al repository

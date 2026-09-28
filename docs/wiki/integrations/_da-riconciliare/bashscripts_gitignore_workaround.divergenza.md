@@ -1,4 +1,7 @@
 ---
+qmd: "bashscripts gitignore workaround.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: BASHSCRIPTS_GITIGNORE_WORKAROUND.md"
 module: Notify
 type: note

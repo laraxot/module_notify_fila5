@@ -1,3 +1,14 @@
+---
+title: "agents security guidelines"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents security guidelines"
+issues: []
+discussions: []
+---
+
 # AGENTS Security Guidelines
 
 Linee guida per la sicurezza.
@@ -11,6 +22,14 @@ Linee guida per la sicurezza.
 
 ---
 
+title: "agents security guidelines"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents security guidelines"
+issues: []
+discussions: []
 ## Data Protection
 
 - Never commit credentials (use .env)

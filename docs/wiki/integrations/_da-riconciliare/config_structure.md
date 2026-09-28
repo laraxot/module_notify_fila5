@@ -1,4 +1,7 @@
 ---
+qmd: "config structure"
+issues: []
+discussions: []
 title: "Struttura di Configurazione nei Moduli <nome progetto>"
 module: notify
 type: integration

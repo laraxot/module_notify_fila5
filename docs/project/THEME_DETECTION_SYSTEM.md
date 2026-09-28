@@ -1,3 +1,14 @@
+---
+title: "THEME DETECTION SYSTEM"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "THEME DETECTION SYSTEM"
+issues: []
+discussions: []
+---
+
 # Theme Detection System - Notify Fila5
 
 **Project:** Notify Fila5
@@ -7,6 +18,14 @@
 
 ---
 
+title: "THEME DETECTION SYSTEM"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "THEME DETECTION SYSTEM"
+issues: []
+discussions: []
 ## 🎯 Scopo
 
 Questo documento spiega il sistema di rilevamento del tema basato su `APP_URL` e il percorso di configurazione dinamico.

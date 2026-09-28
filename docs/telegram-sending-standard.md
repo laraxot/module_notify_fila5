@@ -1,3 +1,14 @@
+---
+title: "telegram sending standard"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "telegram sending standard"
+issues: []
+discussions: []
+---
+
 # Standard per Invio Messaggi Telegram nel Modulo Notify
 
 ## Introduzione
@@ -5,6 +16,14 @@ Questa guida definisce lo standard per l'invio di messaggi Telegram all'interno 
 
 ---
 
+title: "telegram sending standard"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "telegram sending standard"
+issues: []
+discussions: []
 ## 1. Struttura delle Azioni Telegram
 
 - Ogni provider Telegram deve avere una propria action in `app/Actions/Telegram`.

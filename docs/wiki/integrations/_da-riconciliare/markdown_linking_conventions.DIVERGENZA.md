@@ -1,4 +1,7 @@
 ---
+qmd: "markdown linking conventions.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: markdown_linking_conventions.md"
 module: Notify
 type: note

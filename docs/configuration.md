@@ -1,4 +1,7 @@
 ---
+qmd: "configuration"
+issues: []
+discussions: []
 title: "Configuration"
 module: notify
 type: integration

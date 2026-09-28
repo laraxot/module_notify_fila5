@@ -1,3 +1,14 @@
+---
+title: "baseuser dry violation 2025 10 15"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "baseuser dry violation 2025 10 15"
+issues: []
+discussions: []
+---
+
 # BaseUser DRY Violation - Analisi e Refactoring
 
 **Data**: 15 Ottobre 2025  

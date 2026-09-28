@@ -1,4 +1,7 @@
 ---
+qmd: "decisione basemodel refactoring"
+issues: []
+discussions: []
 title: "DECISIONE: BaseModel Refactoring - Analisi Approfondita"
 module: notify
 type: integration

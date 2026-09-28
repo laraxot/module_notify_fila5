@@ -1,4 +1,7 @@
 ---
+qmd: "inbound marketing strategy"
+issues: []
+discussions: []
 title: "Strategia Inbound Marketing - App"
 module: notify
 type: product

@@ -1,3 +1,14 @@
+---
+title: "dry composition pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry composition pattern"
+issues: []
+discussions: []
+---
+
 # Pattern DRY: Composizione Actions Bulk → Single
 
 **Data**: 2025-01-18  
@@ -203,6 +214,14 @@ Prima di creare una bulk action:
 
 ---
 
+title: "dry composition pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry composition pattern"
+issues: []
+discussions: []
 **Filosofia**: "Una volta, una sola volta, in un solo posto" - DRY Principle  
 **Pattern**: Bulk Action compone Single Action  
 **Naming**: Bulk Action con plurale nel nome (Records, not Record)

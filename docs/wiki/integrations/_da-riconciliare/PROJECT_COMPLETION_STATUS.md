@@ -1,4 +1,7 @@
 ---
+qmd: "PROJECT COMPLETION STATUS"
+issues: []
+discussions: []
 title: "NOTIFY - STATO COMPLETAMENTO PROGETTO"
 module: notify
 type: integration

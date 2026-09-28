@@ -1,4 +1,7 @@
 ---
+qmd: "structure standards"
+issues: []
+discussions: []
 title: "Standard di Struttura nel Modulo Notify"
 module: notify
 type: integration

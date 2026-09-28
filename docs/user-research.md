@@ -1,4 +1,7 @@
 ---
+qmd: "user research"
+issues: []
+discussions: []
 title: "User Research: Notify Module"
 module: notify
 type: integration

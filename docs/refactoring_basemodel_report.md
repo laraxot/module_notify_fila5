@@ -1,3 +1,14 @@
+---
+title: "refactoring basemodel report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "refactoring basemodel report"
+issues: []
+discussions: []
+---
+
 # 🎉 REFACTORING BASEMODEL - REPORT FINALE
 
 **Data Completamento**: 15 Ottobre 2025, 09:23 UTC+2  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "refactoring basemodel report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "refactoring basemodel report"
+issues: []
+discussions: []
 ## 📊 RISULTATI
 
 ### Moduli Refactorati

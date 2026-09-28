@@ -1,3 +1,14 @@
+---
+title: "BASHSCRIPTS GITIGNORE WORKAROUND"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "BASHSCRIPTS GITIGNORE WORKAROUND"
+issues: []
+discussions: []
+---
+
 # 🚨 CRITICAL: bashscripts/ in .gitignore
 
 > **Last Updated**: 2026-03-13  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "BASHSCRIPTS GITIGNORE WORKAROUND"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "BASHSCRIPTS GITIGNORE WORKAROUND"
+issues: []
+discussions: []
 ## 🎯 Problem
 
 **bashscripts/ è nel .gitignore del repository principale**

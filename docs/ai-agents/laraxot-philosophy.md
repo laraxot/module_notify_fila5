@@ -1,3 +1,14 @@
+---
+title: "laraxot philosophy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "laraxot philosophy"
+issues: []
+discussions: []
+---
+
 # Laraxot single source of truth philosophy
 
 > Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md)
@@ -9,6 +20,14 @@ In Laraxot architecture, every category of file (database files, test files, mig
 
 ---
 
+title: "laraxot philosophy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "laraxot philosophy"
+issues: []
+discussions: []
 ## File structure philosophy
 
 Database-related files (migrations, seeders, factories) must be in the traditional Laravel structure, never duplicated in `app/`.

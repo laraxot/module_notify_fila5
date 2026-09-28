@@ -1,3 +1,14 @@
+---
+title: "gitattributes cleanup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gitattributes cleanup"
+issues: []
+discussions: []
+---
+
 # 🧹 GitAttributes Cleanup Report
 
 > **Date**: 2026-03-13  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "gitattributes cleanup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gitattributes cleanup"
+issues: []
+discussions: []
 ## 📋 Summary
 
 Tutti i file `.gitattributes` sono stati rimossi dal progetto e sostituiti con regole `.gitignore` più complete.

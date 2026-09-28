@@ -1,9 +1,28 @@
+---
+title: "gemini action patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gemini action patterns"
+issues: []
+discussions: []
+---
+
 # GEMINI Action Patterns
 
 Action Execution Rules - Spatie Queueable Actions.
 
 ---
 
+title: "gemini action patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gemini action patterns"
+issues: []
+discussions: []
 ## Regola 1: Il Metodo Pubblico è SEMPRE `execute()`
 
 ### ❌ SBAGLIATO

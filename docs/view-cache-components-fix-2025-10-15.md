@@ -1,3 +1,14 @@
+---
+title: "view cache components fix 2025 10 15"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "view cache components fix 2025 10 15"
+issues: []
+discussions: []
+---
+
 # Fix View Cache - Componenti Mancanti
 **Data**: 15 Ottobre 2025  
 **Stato**: ✅ Completato  

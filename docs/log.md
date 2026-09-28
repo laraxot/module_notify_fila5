@@ -1,4 +1,7 @@
 ---
+qmd: "log"
+issues: []
+discussions: []
 title: "Wiki Log"
 module: notify
 type: integration

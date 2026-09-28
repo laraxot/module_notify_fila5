@@ -1,4 +1,7 @@
 ---
+qmd: "ARCHITECTURE.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: ARCHITECTURE.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "netfun actions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun actions"
+issues: []
+discussions: []
+---
+
 # Errori in SendNetfunSMSAction e Correzioni
 
 ## Errori Identificati
@@ -191,3 +202,11 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 
 ---
 
+title: "netfun actions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun actions"
+issues: []
+discussions: []

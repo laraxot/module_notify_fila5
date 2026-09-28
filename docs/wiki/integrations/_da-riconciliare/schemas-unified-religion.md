@@ -1,4 +1,7 @@
 ---
+qmd: "schemas unified religion"
+issues: []
+discussions: []
 title: "Filament Schemas Unificati — Regola Canonica"
 module: notify
 type: integration

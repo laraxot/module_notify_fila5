@@ -1,4 +1,7 @@
 ---
+qmd: "naming conventions.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: naming_conventions.md"
 module: Notify
 type: note

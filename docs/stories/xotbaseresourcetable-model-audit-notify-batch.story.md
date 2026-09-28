@@ -1,3 +1,14 @@
+---
+title: "xotbaseresourcetable model audit notify batch.story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbaseresourcetable model audit notify batch.story"
+issues: []
+discussions: []
+---
+
 # Story: XotBaseResourceTable $model audit — Notify batch
 
 **Fase BMAD**: Qualita del codice (contratto esplicito `$model` su `XotBaseResourceTable`) + verifica

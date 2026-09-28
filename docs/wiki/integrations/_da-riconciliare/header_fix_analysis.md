@@ -1,4 +1,7 @@
 ---
+qmd: "header fix analysis"
+issues: []
+discussions: []
 title: "Header Notify vs Bootstrap Italia - Analisi e Fix"
 module: notify
 type: integration

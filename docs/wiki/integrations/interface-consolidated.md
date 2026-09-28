@@ -1,4 +1,7 @@
 ---
+qmd: "interface consolidated"
+issues: []
+discussions: []
 title: "interface — Consolidated Documentation"
 module: notify
 type: integration

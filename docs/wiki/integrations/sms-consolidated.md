@@ -1,4 +1,7 @@
 ---
+qmd: "sms consolidated"
+issues: []
+discussions: []
 title: "sms — Consolidated Documentation"
 module: notify
 type: integration

@@ -1,4 +1,7 @@
 ---
+qmd: "factory advantages"
+issues: []
+discussions: []
 title: "Analisi del Pattern Factory per la Selezione dei Provider SMS"
 module: notify
 type: integration

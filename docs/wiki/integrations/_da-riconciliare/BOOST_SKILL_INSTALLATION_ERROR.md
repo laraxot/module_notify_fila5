@@ -1,4 +1,7 @@
 ---
+qmd: "BOOST SKILL INSTALLATION ERROR"
+issues: []
+discussions: []
 title: "Boost Skill Installation Error Analysis"
 module: notify
 type: integration

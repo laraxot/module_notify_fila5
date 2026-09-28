@@ -1,4 +1,7 @@
 ---
+qmd: "super mucca completion"
+issues: []
+discussions: []
 title: "SUPER MUCCA MODE - COMPLETAMENTO TOTALE"
 module: notify
 type: integration

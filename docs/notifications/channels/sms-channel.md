@@ -1,3 +1,14 @@
+---
+title: "sms channel"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms channel"
+issues: []
+discussions: []
+---
+
 # `SmsChannel`
 
 Canale di notifica Laravel per l'invio di SMS. Non contiene la logica di

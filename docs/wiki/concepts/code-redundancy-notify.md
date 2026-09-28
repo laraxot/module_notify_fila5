@@ -1,4 +1,7 @@
 ---
+qmd: "code redundancy notify"
+issues: []
+discussions: []
 title: "ridondanza codice e documentazione — modulo Notify"
 module: Notify
 type: concept

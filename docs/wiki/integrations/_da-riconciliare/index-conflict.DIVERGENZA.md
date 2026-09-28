@@ -1,4 +1,7 @@
 ---
+qmd: "index conflict.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: index-conflict.md"
 module: Notify
 type: note

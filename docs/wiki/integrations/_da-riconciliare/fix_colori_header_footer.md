@@ -1,4 +1,7 @@
 ---
+qmd: "fix colori header footer"
+issues: []
+discussions: []
 title: "Fix Colori Header e Footer - Bootstrap Italia"
 module: notify
 type: integration

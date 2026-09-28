@@ -1,3 +1,14 @@
+---
+title: "claude theme dev"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude theme dev"
+issues: []
+discussions: []
+---
+
 # CLAUDE Theme Development
 
 Guida allo sviluppo del tema Meetup.
@@ -18,6 +29,14 @@ Il tema deve far dire "WOW!" ai visitatori.
 
 ---
 
+title: "claude theme dev"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude theme dev"
+issues: []
+discussions: []
 ## Setup & Build
 
 ```bash

@@ -1,4 +1,7 @@
 ---
+qmd: "reusabilitylines"
+issues: []
+discussions: []
 title: "Linee Guida per la Riusabilità del Modulo Notify"
 module: notify
 type: integration

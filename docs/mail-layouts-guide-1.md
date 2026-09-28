@@ -1,3 +1,14 @@
+---
+title: "mail layouts guide 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail layouts guide 1"
+issues: []
+discussions: []
+---
+
 # Guida ai Layout Email nel Modulo Notify
 
 ## Introduzione

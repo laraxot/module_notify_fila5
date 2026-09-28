@@ -1,4 +1,7 @@
 ---
+qmd: "sprint.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: sprint.md"
 module: Notify
 type: note

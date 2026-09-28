@@ -1,3 +1,14 @@
+---
+title: "project setup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project setup"
+issues: []
+discussions: []
+---
+
 # Project setup and running
 
 > Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md)

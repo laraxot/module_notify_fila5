@@ -1,3 +1,14 @@
+---
+title: "product manager"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product manager"
+issues: []
+discussions: []
+---
+
 ### Product Manager (id: pm)
 Source: .bmad-core/agents/pm.md
 
@@ -82,6 +93,14 @@ dependencies:
 
 ---
 
+title: "product manager"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product manager"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

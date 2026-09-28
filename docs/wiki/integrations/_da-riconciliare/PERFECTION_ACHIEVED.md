@@ -1,4 +1,7 @@
 ---
+qmd: "PERFECTION ACHIEVED"
+issues: []
+discussions: []
 title: "NOTIFY - PERFEZIONE RAGGIUNTA"
 module: notify
 type: integration

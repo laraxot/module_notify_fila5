@@ -1,4 +1,7 @@
 ---
+qmd: "seasonal email system recommendations.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: seasonal-email-system-recommendations.md"
 module: Notify
 type: note

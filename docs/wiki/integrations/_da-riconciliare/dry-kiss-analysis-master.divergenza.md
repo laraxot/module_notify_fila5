@@ -1,4 +1,7 @@
 ---
+qmd: "dry kiss analysis master.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: DRY-KISS-ANALYSIS-MASTER.md"
 module: Notify
 type: note

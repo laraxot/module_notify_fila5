@@ -1,4 +1,7 @@
 ---
+qmd: "documentation ecosystem"
+issues: []
+discussions: []
 title: "Notify Documentation Ecosystem - Visual Map"
 module: notify
 type: integration

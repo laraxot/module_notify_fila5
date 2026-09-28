@@ -1,4 +1,7 @@
 ---
+qmd: "boost skill solution plan.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: boost-skill-solution-plan.md"
 module: Notify
 type: note

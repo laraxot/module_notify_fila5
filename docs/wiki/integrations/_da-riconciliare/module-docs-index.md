@@ -1,4 +1,7 @@
 ---
+qmd: "module docs index"
+issues: []
+discussions: []
 title: "Master Documentation Index - Notify Fila5"
 module: notify
 type: integration

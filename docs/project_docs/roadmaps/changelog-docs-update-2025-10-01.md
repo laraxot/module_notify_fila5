@@ -1,3 +1,14 @@
+---
+title: "changelog docs update 2025 10 01"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "changelog docs update 2025 10 01"
+issues: []
+discussions: []
+---
+
 # 📚 Docs Update Changelog – 2025-10-01
 
 ## Summary

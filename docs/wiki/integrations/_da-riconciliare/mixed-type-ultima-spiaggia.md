@@ -1,4 +1,7 @@
 ---
+qmd: "mixed type ultima spiaggia"
+issues: []
+discussions: []
 title: "Mixed (tipo di dato) - Solo come Ultima Spiaggia"
 module: notify
 type: integration

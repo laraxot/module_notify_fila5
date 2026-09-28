@@ -1,3 +1,14 @@
+---
+title: "index docs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "index docs"
+issues: []
+discussions: []
+---
+
 ### Task: index-docs
 Source: .bmad-core/tasks/index-docs.md
 - How to use: "Use task index-docs with the appropriate agent" and paste relevant parts as needed.
@@ -183,6 +194,14 @@ Would you like to proceed with documentation indexing? Please provide the requir
 
 ---
 
+title: "index docs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "index docs"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

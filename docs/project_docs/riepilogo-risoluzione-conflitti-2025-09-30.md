@@ -1,3 +1,14 @@
+---
+title: "riepilogo risoluzione conflitti 2025 09 30"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "riepilogo risoluzione conflitti 2025 09 30"
+issues: []
+discussions: []
+---
+
 # Riepilogo Risoluzione Conflitti – 2025-09-30
 
 ## Obiettivo

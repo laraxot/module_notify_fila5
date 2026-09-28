@@ -1,4 +1,7 @@
 ---
+qmd: "immediate action plan 30 days"
+issues: []
+discussions: []
 title: "IMMEDIATE ACTION PLAN - 30 DAYS"
 module: notify
 type: integration

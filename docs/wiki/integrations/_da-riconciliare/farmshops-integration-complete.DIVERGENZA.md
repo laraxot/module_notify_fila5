@@ -1,4 +1,7 @@
 ---
+qmd: "farmshops integration complete.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: farmshops-integration-complete.md"
 module: Notify
 type: note

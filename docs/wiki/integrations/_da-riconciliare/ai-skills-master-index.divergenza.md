@@ -1,4 +1,7 @@
 ---
+qmd: "ai skills master index.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: ai-skills-master-index.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "git conflicts resolution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "git conflicts resolution"
+issues: []
+discussions: []
+---
+
 # Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
 # Risoluzione Conflitti Git - Progetto Base Notify Fila3 Mono
 
@@ -181,6 +192,14 @@ git diff --name-only --diff-filter=U
 
 ---
 
+title: "git conflicts resolution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "git conflicts resolution"
+issues: []
+discussions: []
 *Ultimo aggiornamento: giugno 2025*
 *Autore: AI Assistant*
 *Stato: Completato*

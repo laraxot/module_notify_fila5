@@ -1,3 +1,14 @@
+---
+title: "svg icons"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg icons"
+issues: []
+discussions: []
+---
+
 # 7. SVG Icons
 
 - Store SVGs in `Modules/Meetup/resources/svg/`
@@ -6,3 +17,11 @@
 
 ---
 
+title: "svg icons"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg icons"
+issues: []
+discussions: []

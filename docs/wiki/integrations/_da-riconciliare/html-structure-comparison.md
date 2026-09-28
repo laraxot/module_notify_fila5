@@ -1,4 +1,7 @@
 ---
+qmd: "html structure comparison"
+issues: []
+discussions: []
 title: "HTML Structure Comparison Tools"
 module: notify
 type: integration

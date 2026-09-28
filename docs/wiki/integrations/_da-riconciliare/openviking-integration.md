@@ -1,4 +1,7 @@
 ---
+qmd: "openviking integration"
+issues: []
+discussions: []
 title: "OpenViking Integration Guide"
 module: notify
 type: integration
