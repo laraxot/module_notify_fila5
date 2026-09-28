@@ -1,4 +1,7 @@
 ---
+qmd: "excellence.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: excellence.md"
 module: Notify
 type: note

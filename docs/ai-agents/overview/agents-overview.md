@@ -1,3 +1,14 @@
+---
+title: "agents overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents overview"
+issues: []
+discussions: []
+---
+
 # 🎯 AI Agents Overview
 
 **File**: `.agents/docs/overview/agents-overview.md`  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "agents overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents overview"
+issues: []
+discussions: []
 ## 📊 Project Stack
 
 ### Core Technology

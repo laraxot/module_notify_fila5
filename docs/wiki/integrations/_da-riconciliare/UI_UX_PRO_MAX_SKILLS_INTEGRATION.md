@@ -1,4 +1,7 @@
 ---
+qmd: "UI UX PRO MAX SKILLS INTEGRATION"
+issues: []
+discussions: []
 title: "UI/UX Pro Max Skills - Integration Guide"
 module: notify
 type: integration

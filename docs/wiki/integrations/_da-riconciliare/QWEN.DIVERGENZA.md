@@ -1,4 +1,7 @@
 ---
+qmd: "QWEN.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: QWEN.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "refactoring composition implementation"
+issues: []
+discussions: []
 title: "Refactoring Summary: SendRecordsNotificationBulkAction Implementation"
 module: notify
 type: integration

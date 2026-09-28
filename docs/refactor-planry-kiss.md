@@ -1,4 +1,7 @@
 ---
+qmd: "refactor planry kiss"
+issues: []
+discussions: []
 title: "Piano di Refactor DRY/KISS - Documentazione Modulo Notify"
 module: notify
 type: integration

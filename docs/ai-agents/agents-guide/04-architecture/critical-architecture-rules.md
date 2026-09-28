@@ -1,3 +1,14 @@
+---
+title: "critical architecture rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "critical architecture rules"
+issues: []
+discussions: []
+---
+
 # 4. Critical Architecture Rules
 
 ### Translation Management - AUTOMATIC ONLY!
@@ -386,3 +397,11 @@ url('/en/path')
 
 ---
 
+title: "critical architecture rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "critical architecture rules"
+issues: []
+discussions: []

@@ -1,4 +1,7 @@
 ---
+qmd: "BOOST SKILL INSTALLATION SUCCESS"
+issues: []
+discussions: []
 title: "Boost Skill Installation - Success Report"
 module: notify
 type: integration

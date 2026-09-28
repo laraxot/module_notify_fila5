@@ -1,3 +1,14 @@
+---
+title: "one migration per model"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "one migration per model"
+issues: []
+discussions: []
+---
+
 # 🔴 ONE MIGRATION PER MODEL - CRITICAL RULE
 
 **Path**: `.agents/docs/rules/one-migration-per-model.md`  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "one migration per model"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "one migration per model"
+issues: []
+discussions: []
 ## 🎯 The Rule
 
 > **SEMPRE** 1 MIGRAZIONE PER 1 MODELLO.

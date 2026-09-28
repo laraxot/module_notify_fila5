@@ -1,4 +1,7 @@
 ---
+qmd: "phpinsights phar build"
+issues: []
+discussions: []
 title: "Build PHPInsights .phar"
 module: notify
 type: integration

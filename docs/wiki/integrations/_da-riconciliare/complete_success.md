@@ -1,4 +1,7 @@
 ---
+qmd: "complete success"
+issues: []
+discussions: []
 title: "NOTIFY - COMPLETE SUCCESS"
 module: notify
 type: integration

@@ -1,3 +1,14 @@
+---
+title: "pub theme namespace critical rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pub theme namespace critical rule"
+issues: []
+discussions: []
+---
+
 # 5.1. Theme & pub_theme Namespace - CRITICAL RULE
 
 **ALWAYS use `pub_theme::` namespace for theme components, NOT the theme name!**
@@ -33,3 +44,11 @@ The current active theme is configured via `config('xra.pub_theme')` which retur
 
 ---
 
+title: "pub theme namespace critical rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pub theme namespace critical rule"
+issues: []
+discussions: []

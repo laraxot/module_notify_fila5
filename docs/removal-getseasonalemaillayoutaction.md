@@ -1,3 +1,14 @@
+---
+title: "removal getseasonalemaillayoutaction"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "removal getseasonalemaillayoutaction"
+issues: []
+discussions: []
+---
+
 # Rimozione GetSeasonalEmailLayoutAction - Report Completo
 
 **Data**: 19 Dicembre 2025  
@@ -115,5 +126,13 @@ Delega semplice invece di azione complessa separata.
 
 ---
 
+title: "removal getseasonalemaillayoutaction"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "removal getseasonalemaillayoutaction"
+issues: []
+discussions: []
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Type safety first, simplicity second, DRY always"*

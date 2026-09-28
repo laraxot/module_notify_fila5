@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "SmsChannel — selezione driver da config"
 type: concept
 status: canonical

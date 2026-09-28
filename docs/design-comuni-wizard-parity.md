@@ -1,3 +1,14 @@
+---
+title: "design comuni wizard parity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "design comuni wizard parity"
+issues: []
+discussions: []
+---
+
 # Design Comuni Wizard Parity
 
 **Status**: Active  
@@ -9,6 +20,14 @@
 
 ---
 
+title: "design comuni wizard parity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "design comuni wizard parity"
+issues: []
+discussions: []
 ## Obiettivo
 
 Wizard step 2 deve avere **alto HTML parity** e **altissimo visual parity** con:

@@ -1,4 +1,7 @@
 ---
+qmd: "tailwind conversion complete"
+issues: []
+discussions: []
 title: "TAILWIND CONVERSION COMPLETE - Design Comuni"
 module: notify
 type: integration

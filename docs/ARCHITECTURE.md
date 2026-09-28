@@ -1,4 +1,7 @@
 ---
+qmd: "ARCHITECTURE"
+issues: []
+discussions: []
 title: "Notify Module Architecture"
 type: architecture
 tags: [module, architecture, notifications]

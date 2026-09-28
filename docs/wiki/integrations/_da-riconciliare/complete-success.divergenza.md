@@ -1,4 +1,7 @@
 ---
+qmd: "complete success.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: complete-success.md"
 module: Notify
 type: note

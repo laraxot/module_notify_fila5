@@ -1,4 +1,7 @@
 ---
+qmd: "gap analysis implementation.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: gap-analysis-implementation.md"
 module: Notify
 type: note

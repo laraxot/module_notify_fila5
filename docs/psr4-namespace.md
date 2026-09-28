@@ -1,4 +1,7 @@
 ---
+qmd: "psr4 namespace"
+issues: []
+discussions: []
 title: "Fix Namespace PSR-4 - Modulo Notify"
 module: notify
 type: integration

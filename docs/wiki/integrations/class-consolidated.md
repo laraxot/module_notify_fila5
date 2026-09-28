@@ -1,4 +1,7 @@
 ---
+qmd: "class consolidated"
+issues: []
+discussions: []
 title: "class — Consolidated Documentation"
 module: notify
 type: integration

@@ -1,3 +1,14 @@
+---
+title: "code quality commands"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "code quality commands"
+issues: []
+discussions: []
+---
+
 # Code quality commands
 
 ## Laravel Pint (formatting)

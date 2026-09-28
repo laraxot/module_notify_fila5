@@ -1,4 +1,7 @@
 ---
+qmd: "openviking bmad gsd ralph complete"
+issues: []
+discussions: []
 title: "OpenViking + BMAD + GSD + Ralph Loop - Setup Complete Report"
 module: notify
 type: integration

@@ -1,4 +1,7 @@
 ---
+qmd: "schemas unified religion.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: schemas-unified-religion.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "cyclomatic complexity summary"
+issues: []
+discussions: []
 title: "Cyclomatic Complexity - Project Summary Report"
 module: notify
 type: integration

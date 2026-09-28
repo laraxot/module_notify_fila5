@@ -1,4 +1,7 @@
 ---
+qmd: "token efficiency religion.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: token-efficiency-religion.md"
 module: Notify
 type: note

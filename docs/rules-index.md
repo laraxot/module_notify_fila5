@@ -1,4 +1,7 @@
 ---
+qmd: "rules index"
+issues: []
+discussions: []
 title: "Notify Module Rules Index"
 module: notify
 type: integration

@@ -1,4 +1,7 @@
 ---
+qmd: "readme en"
+issues: []
+discussions: []
 title: "Notify — English presentation"
 module: notify
 type: integration

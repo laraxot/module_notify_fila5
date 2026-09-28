@@ -1,4 +1,7 @@
 ---
+qmd: "AI AGENT TEAMS.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: AI_AGENT_TEAMS.md"
 module: Notify
 type: note

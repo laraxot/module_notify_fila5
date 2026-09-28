@@ -1,4 +1,7 @@
 ---
+qmd: "form schema conventions"
+issues: []
+discussions: []
 title: "Convenzioni per i Form Schema"
 module: notify
 type: integration

@@ -1,4 +1,7 @@
 ---
+qmd: "tailwind consolidated"
+issues: []
+discussions: []
 title: "tailwind — Consolidated Documentation"
 module: notify
 type: integration

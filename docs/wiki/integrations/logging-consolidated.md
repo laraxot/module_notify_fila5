@@ -1,4 +1,7 @@
 ---
+qmd: "logging consolidated"
+issues: []
+discussions: []
 title: "logging — Consolidated Documentation"
 module: notify
 type: integration

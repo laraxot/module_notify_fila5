@@ -1,4 +1,7 @@
 ---
+qmd: "README ANALISI DUPLICATI"
+issues: []
+discussions: []
 title: "Analisi Metodi Duplicati - Guida Rapida"
 module: notify
 type: integration

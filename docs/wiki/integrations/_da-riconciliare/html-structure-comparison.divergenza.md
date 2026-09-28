@@ -1,4 +1,7 @@
 ---
+qmd: "html structure comparison.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: html-structure-comparison.md"
 module: Notify
 type: note

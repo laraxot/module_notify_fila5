@@ -1,4 +1,7 @@
 ---
+qmd: "ZEN OF FIXCITY.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: ZEN_OF_FIXCITY.md"
 module: Notify
 type: note

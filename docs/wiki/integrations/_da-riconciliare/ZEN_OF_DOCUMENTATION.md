@@ -1,4 +1,7 @@
 ---
+qmd: "ZEN OF DOCUMENTATION"
+issues: []
+discussions: []
 title: "Zen of Documentation - Filosofia Unificata"
 module: notify
 type: integration

@@ -1,4 +1,7 @@
 ---
+qmd: "kdown linking conventions"
+issues: []
+discussions: []
 title: "Convenzioni per i Collegamenti nei File Markdown"
 module: notify
 type: integration

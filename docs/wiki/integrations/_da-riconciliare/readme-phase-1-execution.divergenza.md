@@ -1,4 +1,7 @@
 ---
+qmd: "readme phase 1 execution.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: readme-phase-1-execution.md"
 module: Notify
 type: note

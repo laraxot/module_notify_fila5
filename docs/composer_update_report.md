@@ -1,3 +1,14 @@
+---
+title: "composer update report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "composer update report"
+issues: []
+discussions: []
+---
+
 # ✅ Composer Update - COMPLETATO
 
 **Data**: 2026-03-30  
@@ -158,6 +169,14 @@ composer update -W
 
 ---
 
+title: "composer update report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "composer update report"
+issues: []
+discussions: []
 **Stato**: ✅ **COMPOSER UPDATE COMPLETATO**  
 **Filament Version**: **5.x**  
 **Strategia**: **Root minimale, moduli specifici**  

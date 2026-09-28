@@ -1,4 +1,7 @@
 ---
+qmd: "theme system dynamic.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: THEME_SYSTEM_DYNAMIC.md"
 module: Notify
 type: note

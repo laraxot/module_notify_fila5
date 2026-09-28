@@ -1,4 +1,7 @@
 ---
+qmd: "fix colori header footer.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: fix-colori-header-footer.md"
 module: Notify
 type: note

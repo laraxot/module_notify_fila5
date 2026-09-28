@@ -1,4 +1,7 @@
 ---
+qmd: "html parity rules.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: html-parity-rules.md"
 module: Notify
 type: note

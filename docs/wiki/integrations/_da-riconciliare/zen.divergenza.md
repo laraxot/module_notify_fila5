@@ -1,4 +1,7 @@
 ---
+qmd: "zen.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: ZEN.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "DESIGN COMUNI BMAD MASTER PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI BMAD MASTER PLAN"
+issues: []
+discussions: []
+---
+
 # Design Comuni Italia - BMad Master Plan
 
 **Project:** Notify Fila5
@@ -8,6 +19,14 @@
 
 ---
 
+title: "DESIGN COMUNI BMAD MASTER PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI BMAD MASTER PLAN"
+issues: []
+discussions: []
 ## 🎯 Mission Statement
 
 Replicare **ESATTAMENTE** le 38 pagine statiche di Design Comuni Italia utilizzando:

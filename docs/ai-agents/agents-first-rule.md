@@ -1,3 +1,14 @@
+---
+title: "agents first rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents first rule"
+issues: []
+discussions: []
+---
+
 # Agents first rule: Read → Reason → Study → Update → Improve
 
 > Source: [AGENTS.md](../../AGENTS.md)

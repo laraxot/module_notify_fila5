@@ -1,4 +1,7 @@
 ---
+qmd: "code fixes "
+issues: []
+discussions: []
 title: "Notify Module - Code Fixes & Improvements (2025)"
 module: notify
 type: integration

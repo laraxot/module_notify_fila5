@@ -1,4 +1,7 @@
 ---
+qmd: "netfun consolidated"
+issues: []
+discussions: []
 title: "netfun — Consolidated Documentation"
 module: notify
 type: integration

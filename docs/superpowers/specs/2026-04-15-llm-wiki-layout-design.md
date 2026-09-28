@@ -1,3 +1,14 @@
+---
+title: "2026 04 15 llm wiki layout design"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "2026 04 15 llm wiki layout design"
+issues: []
+discussions: []
+---
+
 # Design Spec – Shared AI‑Agent Documentation Layout (LLM‑Wiki)
 
 **Date:** 2026‑04‑15
@@ -68,4 +79,12 @@ The bullet should be placed under the **“leggi prima”** section or a dedicat
 - `qmd embed` runs without errors and the new docs are searchable.
 
 ---
+title: "2026 04 15 llm wiki layout design"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "2026 04 15 llm wiki layout design"
+issues: []
+discussions: []
 *Spec written according to the Superpowers brainstorming workflow. Please review and approve before proceeding to implementation.*

@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "2026-04-08-fase1-html-parity-segnalazioni-elenco"
 type: concept
 tags: [deprecated]

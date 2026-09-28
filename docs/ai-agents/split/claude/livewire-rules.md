@@ -1,3 +1,14 @@
+---
+title: "livewire rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "livewire rules"
+issues: []
+discussions: []
+---
+
 === livewire/core rules ===
 
 ## Livewire Core
@@ -50,6 +61,14 @@
 
 ---
 
+title: "livewire rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "livewire rules"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

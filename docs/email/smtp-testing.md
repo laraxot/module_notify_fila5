@@ -1,3 +1,14 @@
+---
+title: "smtp testing"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "smtp testing"
+issues: []
+discussions: []
+---
+
 # SMTP Testing Guide
 
 ## Test Laravel SMTP Mail via Tinker

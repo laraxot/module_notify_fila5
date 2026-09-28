@@ -1,4 +1,7 @@
 ---
+qmd: "refactoring completato"
+issues: []
+discussions: []
 title: "REFACTORING BASEMODEL - COMPLETATO! ✨🐄"
 module: notify
 type: integration

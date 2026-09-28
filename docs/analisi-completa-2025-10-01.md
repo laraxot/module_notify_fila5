@@ -1,8 +1,27 @@
+---
+title: "analisi completa 2025 10 01"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analisi completa 2025 10 01"
+issues: []
+discussions: []
+---
+
 # 📊 ANALISI COMPLETA PROGETTO FIXCITY
 ## Data: 1 Ottobre 2025
 
 ---
 
+title: "analisi completa 2025 10 01"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analisi completa 2025 10 01"
+issues: []
+discussions: []
 ## 🎯 EXECUTIVE SUMMARY
 
 **FixCity** è una piattaforma di segnalazione cittadina **enterprise-ready** con:

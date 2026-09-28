@@ -1,4 +1,7 @@
 ---
+qmd: "metodiuplicati analisi"
+issues: []
+discussions: []
 title: "ANALISI METODI DUPLICATI - SUPER MUCCA EDITION"
 module: notify
 type: integration

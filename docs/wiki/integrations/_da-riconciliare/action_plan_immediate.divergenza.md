@@ -1,4 +1,7 @@
 ---
+qmd: "action plan immediate.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: action_plan_immediate.md"
 module: Notify
 type: note
