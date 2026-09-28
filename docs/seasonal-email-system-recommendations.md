@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "seasonal email system recommendations"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Raccomandazioni per lo Sviluppo del Sistema Email Stagionali
 
 **Data**: 19 Dicembre 2025  
@@ -238,8 +235,6 @@ Queste raccomandazioni rappresentano un punto di riferimento per tutti gli svilu
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "seasonal email system recommendations"
 type: note
 tags: [documentation]
@@ -248,7 +243,6 @@ updated: 2026-09-26
 qmd: "seasonal email system recommendations"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Autore**: iFlow CLI  
 **Data**: 19 Dicembre 2025  
 **Versione**: 1.0  

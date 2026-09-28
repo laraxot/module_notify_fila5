@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translations implementation status 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica

@@ -20,10 +20,7 @@ use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Filament\Pages\XotBasePage;
-<<<<<<< HEAD
-=======
 use Override;
->>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 /**
@@ -118,10 +115,6 @@ class TestSmtpPage extends XotBasePage
         return [
             'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

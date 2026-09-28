@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "GETTING STARTED"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Getting Started with $MOD
 
 ## Installation

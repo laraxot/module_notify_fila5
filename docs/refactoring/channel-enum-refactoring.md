@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "channel enum refactoring"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Refactoring: Replace CHANNEL_CONFIG with Smart Enum
 
 ## Goal

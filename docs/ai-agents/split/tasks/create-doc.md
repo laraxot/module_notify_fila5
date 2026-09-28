@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "create doc"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Task: create-doc
 Source: .bmad-core/tasks/create-doc.md
 - How to use: "Use task create-doc with the appropriate agent" and paste relevant parts as needed.
@@ -125,8 +122,6 @@ User can type `#yolo` to toggle to YOLO mode (process all sections at once).
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "create doc"
 type: note
 tags: [documentation]
@@ -135,7 +130,6 @@ updated: 2026-09-26
 qmd: "create doc"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

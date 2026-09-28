@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "database mail 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.

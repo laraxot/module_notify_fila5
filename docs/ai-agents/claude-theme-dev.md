@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "claude theme dev"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # CLAUDE Theme Development
 
 Guida allo sviluppo del tema Meetup.
@@ -32,8 +29,6 @@ Il tema deve far dire "WOW!" ai visitatori.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "claude theme dev"
 type: note
 tags: [documentation]
@@ -42,7 +37,6 @@ updated: 2026-09-26
 qmd: "claude theme dev"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Setup & Build
 
 ```bash

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "database mail system tests 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica

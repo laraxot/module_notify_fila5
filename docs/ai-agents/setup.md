@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "setup"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Setup Codex locale
 
 1. Eseguire `./bashscripts/ai/ai_init.sh` per creare i symlink dot-folder.

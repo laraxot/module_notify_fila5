@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "no orphan http controllers"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # No Orphan Http Controllers
 
 ## Regola

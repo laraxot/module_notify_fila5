@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Standard per le Traduzioni 
 
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.

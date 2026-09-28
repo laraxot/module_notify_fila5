@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "contacttypeenum migration best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ContactTypeEnum Migration Best Practices
 
 ## Overview

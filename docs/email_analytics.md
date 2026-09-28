@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email analytics"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analytics Email - il progetto
 
 ## Panoramica

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "testing guidelines"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Testing Guidelines
 
 ## Testing Framework Configuration

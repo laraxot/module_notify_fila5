@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "approfondimento tailwind"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Approfondimento Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Architettura e Configurazione

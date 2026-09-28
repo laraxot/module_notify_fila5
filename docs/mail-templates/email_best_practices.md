@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Best Practices per Email Transazionali
 
 ## Introduzione

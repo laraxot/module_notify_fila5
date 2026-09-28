@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "php coding standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHP coding standards (strict)
 
 ## Always required

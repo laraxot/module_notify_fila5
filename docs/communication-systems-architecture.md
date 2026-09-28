@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "communication systems architecture"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Communication Systems Architecture
 
 ## 🎯 Module Overview

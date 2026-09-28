@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "telegram 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://dev.to/millykhamroev/laravel-package-to-integrate-telegram-bot-api-3l6e
 
 https://medium.com/modulr/send-telegram-notifications-with-laravel-9-342cc87b406

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sync remote repo test plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sync Remote Repo - Test Plan
 
 **Date**: 2026-03-13  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "sync remote repo test plan"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "sync remote repo test plan"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Test Objective
 
 Verify that `sync_remote_repo.sh` works correctly for **bidirectional sync**:

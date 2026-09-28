@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "chart widgets"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Chart widgets (Chart.js + Filament v5)
 
 ## Centralized plugin registration

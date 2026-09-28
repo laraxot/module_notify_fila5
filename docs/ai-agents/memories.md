@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "memories"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Agent Memory Updates
 
 ## 🚨 CRITICAL RULE: NEVER CREATE NEW MODULES

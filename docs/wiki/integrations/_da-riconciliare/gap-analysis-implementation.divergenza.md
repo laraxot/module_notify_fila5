@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "gap analysis implementation.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: gap-analysis-implementation.md"
 module: Notify
 type: note

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "refactoring completato"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐄✨ REFACTORING BASEMODEL - COMPLETATO! ✨🐄
 
 **Data:** 2025-10-15  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "refactoring completato"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "refactoring completato"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 RISULTATI FINALI
 
 ### Statistiche Precise

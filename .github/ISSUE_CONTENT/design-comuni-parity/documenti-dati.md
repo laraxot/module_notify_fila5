@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "documenti dati"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Documenti e Dati (documenti-dati.html)
 
 ## Obiettivo

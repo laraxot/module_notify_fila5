@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "title with slug component"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi del Componente TitleWithSlugInput per Filament
 
 ## Introduzione

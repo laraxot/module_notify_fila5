@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "naming conventions.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: naming_conventions.md"
 module: Notify
 type: note

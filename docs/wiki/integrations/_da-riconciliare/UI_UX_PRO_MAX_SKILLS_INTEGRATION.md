@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "UI UX PRO MAX SKILLS INTEGRATION"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI/UX Pro Max Skills - Integration Guide"
 module: notify
 type: integration

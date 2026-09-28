@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "smtp testing"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # SMTP Testing Guide
 
 ## Test Laravel SMTP Mail via Tinker

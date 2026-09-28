@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "05 front office audit"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📋 Front Office Pages Audit Checklist
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "05 front office audit"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "05 front office audit"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🔍 Mandatory Checklist (Before Commit)
 
 ### 1. Routing Multilingual

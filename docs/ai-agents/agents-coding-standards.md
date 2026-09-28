@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents coding standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AGENTS Coding Standards
 
 Standard di codifica PHP e naming conventions.
@@ -33,8 +30,6 @@ Standard di codifica PHP e naming conventions.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "agents coding standards"
 type: note
 tags: [documentation]
@@ -43,7 +38,6 @@ updated: 2026-09-26
 qmd: "agents coding standards"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Naming Conventions
 
 | Element | Convention | Example |

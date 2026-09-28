@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "logging optimization plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Logging Optimization Plan
 
 ## Current Issues

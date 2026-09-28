@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "SUPER_MUCCA_COMPLETION_REPORT_2025-10-01"
 type: concept
 tags: [deprecated]

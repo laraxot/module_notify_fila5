@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "composer modules architecture"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Composer & Laravel-Modules Architecture"
 module: notify
 type: integration

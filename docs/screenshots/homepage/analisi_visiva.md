@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analisi visiva"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
 # 📸 Analisi Visiva Homepage Notify vs Bootstrap Italia
 
@@ -24,8 +21,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "analisi visiva"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "analisi visiva"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 1. Header Structure
 
 ### Bootstrap Italia

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "servizio dettaglio"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Servizio Dettaglio (servizio-dettaglio.html)
 
 ## Obiettivo

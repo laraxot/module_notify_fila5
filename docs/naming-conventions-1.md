@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "naming conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni di Naming
 
 ## Regole Generali

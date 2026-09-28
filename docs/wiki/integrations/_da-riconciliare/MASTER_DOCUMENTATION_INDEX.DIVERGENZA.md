@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "MASTER DOCUMENTATION INDEX.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: MASTER_DOCUMENTATION_INDEX.md"
 module: Notify
 type: note

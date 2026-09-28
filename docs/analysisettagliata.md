@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analysisettagliata"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify
 
 ## 1. Analisi delle Soluzioni di Template Email

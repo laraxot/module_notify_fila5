@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament widget tables policy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament Widget Tables Policy
 
 > Indice: [./00-INDEX.md](./00-INDEX.md)

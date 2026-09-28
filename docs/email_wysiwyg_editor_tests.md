@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email wysiwyg editor tests"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari

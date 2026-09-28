@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DOCUMENTATION GOVERNANCE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation Governance Framework
 
 **Version**: 1.0  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "DOCUMENTATION GOVERNANCE"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "DOCUMENTATION GOVERNANCE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Purpose
 
 This document establishes the governance framework for all documentation in the FixCity platform, ensuring consistency, quality, and maintainability across all modules and themes.

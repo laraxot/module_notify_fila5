@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "STATE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # STATE: FixCity Platform
 
 ## Current Position

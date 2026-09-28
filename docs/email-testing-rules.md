@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email testing rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole per il Testing delle Email
 
 ## 🎯 Scopo

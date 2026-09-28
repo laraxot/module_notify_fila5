@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "XotBasePivot Executive Summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # XotBasePivot - Executive Summary
 
 ## 🎯 Decisione Strategica: APPROVATO
@@ -23,8 +20,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "XotBasePivot Executive Summary"
 type: note
 tags: [documentation]
@@ -33,7 +28,6 @@ updated: 2026-09-26
 qmd: "XotBasePivot Executive Summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 The Bottom Line
 
 ### Problema

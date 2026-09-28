@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "overview"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Overview
 
 ## Project

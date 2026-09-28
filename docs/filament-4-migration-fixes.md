@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament 4 migration fixes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament 3 to 4 Migration - Component Fixes
 
 **Date**: 2025-12-04

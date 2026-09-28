@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "analisi metodi duplicati master"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "ANALISI METODI DUPLICATI - SUPER MUCCA EDITION"
 module: notify
 type: integration

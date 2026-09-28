@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation file naming rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole di Naming per i File di Traduzione
 
 ## Principi Fondamentali per il Naming dei File

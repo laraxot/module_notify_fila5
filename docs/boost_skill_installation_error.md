@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "boost skill installation error"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Boost Skill Installation Error Analysis
 
 **Date**: 2026-03-02  

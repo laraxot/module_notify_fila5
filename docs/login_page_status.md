@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "login page status"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Status pagina login — documento estraneo (deprecato)
 
 Questo documento descriveva una pagina di login basata su

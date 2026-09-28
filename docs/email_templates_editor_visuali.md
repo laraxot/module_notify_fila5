@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email templates editor visuali"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Approfondimento: Editor Visuali ed Esterni (Mailgun, MJML, BeeFree, Stripo, ecc.)
 
 ## Strumenti Analizzati

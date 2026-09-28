@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "readme analisi duplicati"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Analisi Metodi Duplicati - Guida Rapida"
 module: notify
 type: integration

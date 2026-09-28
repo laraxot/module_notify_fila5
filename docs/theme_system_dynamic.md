@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "theme system dynamic"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 Theme System - Dynamic Theme Registration
 
 **Date**: 2026-03-30  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "theme system dynamic"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "theme system dynamic"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 How It Works
 
 ### 1. Theme Configuration

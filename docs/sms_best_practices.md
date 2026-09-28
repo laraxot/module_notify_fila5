@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Best Practices per l'Invio SMS
 
 ## 1. Gestione dei Template

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "folio volt best practices"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Laravel Folio + Volt - Best Practices and Patterns Analysis"
 module: notify
 type: integration

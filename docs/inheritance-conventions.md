@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "inheritance conventions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni di Ereditarietà
 
 ## Regole Generali

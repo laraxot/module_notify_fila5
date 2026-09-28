@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "xotbaseresourcetable model audit notify batch.story"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Story: XotBaseResourceTable $model audit — Notify batch
 
 **Fase BMAD**: Qualita del codice (contratto esplicito `$model` su `XotBaseResourceTable`) + verifica

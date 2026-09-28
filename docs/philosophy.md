@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "philosophy"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Filosofia del Modulo Notify"
 module: notify
 type: integration

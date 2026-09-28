@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "perfection achieved"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "NOTIFY - PERFEZIONE RAGGIUNTA"
 module: notify
 type: integration

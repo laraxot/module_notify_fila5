@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "sync multi agent testing"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "[TEST] Sync Remote Repo Script - Multi-Agent Testing Coordination"
 labels: ["testing", "sync-script", "multi-agent", "priority-high"]
 assignees: []

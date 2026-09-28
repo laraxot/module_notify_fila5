@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "configurazione"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Configurazione e Setup
 
 ## Requisiti

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents overview"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Agents overview
 
 Panoramica delle preferenze utente e del canone operativo del repository.

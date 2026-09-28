@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "errori comuni da evitare"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 
 ## Errori di Struttura Directory e Namespace

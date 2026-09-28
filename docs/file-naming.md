@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "file naming"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Regole di Naming per File"
 module: notify
 type: integration

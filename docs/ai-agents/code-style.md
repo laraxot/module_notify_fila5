@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "code style"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Code Style Guidelines
 
 Vedi [index](index.md) per navigazione completa.

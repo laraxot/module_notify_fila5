@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "fix colori header footer"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 Fix Colori Header e Footer - Bootstrap Italia
 
 ## Data: 2026-03-31
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "fix colori header footer"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "fix colori header footer"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Colori Ufficiali Bootstrap Italia
 
 ### Header

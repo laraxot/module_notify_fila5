@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "docs governance"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation Governance
 
 ## Purpose

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "json best practices"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Best Practices per Migrazioni JSON"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "implementation notes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni

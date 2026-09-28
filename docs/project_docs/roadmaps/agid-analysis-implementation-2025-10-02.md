@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agid analysis implementation 2025 10 02"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏛️ AGID Analysis & Implementation Report
 
 **Date**: 2025-10-02T20:19:00+02:00  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "agid analysis implementation 2025 10 02"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "agid analysis implementation 2025 10 02"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Executive Summary
 
 Comprehensive analysis of AGID (Agenzia per l'Italia Digitale) design system for Italian municipal websites, gap analysis against FixCity project, complete documentation, and implementation of critical missing components.

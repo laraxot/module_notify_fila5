@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "verification report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Verification Report - Compliance and XotBase Refactoring
 
 **Date**: 2025-12-18
@@ -52,8 +49,6 @@ This report verifies the compliance of Bulk Actions with strict Filament extensi
 All active Bulk Actions in the scope are now compliant with the strict architectural rules imposed.
 
 ---
-<<<<<<< HEAD
-=======
 title: "verification report"
 type: note
 tags: [documentation]
@@ -62,5 +57,4 @@ updated: 2026-09-26
 qmd: "verification report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Verified by**: iFlow CLI

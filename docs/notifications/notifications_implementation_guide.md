@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notifications implementation guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida all'Implementazione delle Notifiche
 
 Questa documentazione descrive come implementare correttamente le notifiche utilizzando Laravel Notifications nel modulo Notify.

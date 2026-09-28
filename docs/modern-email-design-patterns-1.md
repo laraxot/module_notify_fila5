@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "modern email design patterns 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pattern di Design per Email Moderne
 
 ## Introduzione

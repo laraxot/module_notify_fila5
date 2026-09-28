@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation namespace religion"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Translation Namespace Philosophy — La Religione del Dominio
 
 **Status**: Active  
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "translation namespace religion"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "translation namespace religion"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## LA REGOLA AUREA
 
 **Le traduzioni sono organizzate per DOMINIO, non per componente UI.**

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "master documentation index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📚 Master Documentation Index
 
 **Ultimo Aggiornamento**: 2026-03-30  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "master documentation index"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "master documentation index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Quick Navigation
 
 ### Per Nuovi Arrivati

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "models"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Rating Module Models Documentation
 
 ## Overview

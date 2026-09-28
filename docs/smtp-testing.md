@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "smtp testing"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi del Sistema di Test SMTP
 
 ## Panoramica

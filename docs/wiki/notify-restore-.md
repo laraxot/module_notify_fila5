@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "notify-restore-2026-04-21.deprecated"
 type: concept
 tags: [deprecated]

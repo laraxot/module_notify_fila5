@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "token efficiency"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Token Efficiency
 
 ## Fonti ufficiali studiate

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "locations standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "fix plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🚀 Fix Homepage Bootstrap Italia - Piano Esecutivo
 
 ## Panoramica
@@ -22,8 +19,6 @@ Allineare la homepage FixCity (`/it/tests/homepage`) al design Bootstrap Italia 
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "fix plan"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "fix plan"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Fase 1: Header & Hero (Settimana 1)
 
 ### Task 1.1: Header Slim Component

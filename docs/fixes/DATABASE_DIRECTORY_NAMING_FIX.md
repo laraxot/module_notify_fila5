@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DATABASE DIRECTORY NAMING FIX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Database Directory Naming Convention Fix
 
 **Date**: 2026-03-13  

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms driver selection specific analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Specifica: Validazione e Selezione Driver in SmsData
 
 ## Contesto Specifico

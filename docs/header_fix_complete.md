@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "header fix complete"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
 
 ## Data: 2026-03-31
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "header fix complete"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "header fix complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🔴 Problemi Risolti
 
 ### 1. Logo non visibile ✅ RISOLTO

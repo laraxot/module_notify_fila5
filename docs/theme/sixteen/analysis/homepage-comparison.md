@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "homepage comparison"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Homepage Comparison Analysis
 
 ## Overview
@@ -188,8 +185,6 @@ npm run copy    # Copy assets
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "homepage comparison"
 type: note
 tags: [documentation]
@@ -198,6 +193,5 @@ updated: 2026-09-26
 qmd: "homepage comparison"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Generated: 2026-04-07*
 *Last Updated: 2026-04-07*

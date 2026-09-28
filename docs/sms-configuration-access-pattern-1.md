@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms configuration access pattern 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pattern di Accesso alla Configurazione SMS
 
 ## Problema Identificato

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms troubleshooting 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni

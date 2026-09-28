@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "SYNC REMOTE REPO TEST PLAN"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sync Remote Repo - Test Plan
 
 > **Purpose**: Verify that sync_remote_repo.sh and GitHub Actions workflow work correctly  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "SYNC REMOTE REPO TEST PLAN"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "SYNC REMOTE REPO TEST PLAN"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Test Objectives
 
 ### Primary Goal

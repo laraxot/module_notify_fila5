@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "pest coverage guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pest Coverage Guide
 
 ## Overview

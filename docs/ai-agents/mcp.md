@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mcp"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Model Context Protocol
 
 ## Configuration

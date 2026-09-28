@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "template system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema Template Email
 
 ## Architettura

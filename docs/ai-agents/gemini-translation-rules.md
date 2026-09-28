@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "gemini translation rules"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GEMINI Translation Rules
 
 Regole gestione traduzioni.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "gemini translation rules"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "gemini translation rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Regola Critica
 
 Tutti i file di traduzione per i moduli Laraxot (`Modules/{ModuleName}/lang/{locale}/{resource}.php`) DEVONO contenere le seguenti chiavi di primo livello:

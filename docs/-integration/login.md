@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "login"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # login
 
 <!-- Contenuto migrato da _docs/login.txt -->

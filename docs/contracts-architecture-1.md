@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "contracts architecture 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura delle Interfacce (Contracts) in Notify
 
 ## Principi Architetturali Fondamentali

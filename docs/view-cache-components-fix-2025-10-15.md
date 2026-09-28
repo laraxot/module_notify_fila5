@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "view cache components fix 2025 10 15"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Fix View Cache - Componenti Mancanti
 **Data**: 15 Ottobre 2025  
 **Stato**: ✅ Completato  

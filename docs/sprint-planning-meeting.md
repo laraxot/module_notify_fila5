@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sprint planning meeting"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify - Sprint Planning Meeting
 
 > Documento operativo per sprint planning. Modulo.

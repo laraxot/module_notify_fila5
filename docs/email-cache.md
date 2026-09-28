@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email cache"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema Cache Email 
 
 ## Panoramica

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstanes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 
 **Status**: ✅ COMPLETATO CON SUCCESSO
@@ -253,8 +250,6 @@ public function toMail(object $notifiable): MailMessage
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstanes"
 type: note
 tags: [documentation]
@@ -263,7 +258,6 @@ updated: 2026-09-26
 qmd: "phpstanes"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **🔄 Ultimo aggiornamento**: 27 Gennaio 2025
 **📦 Versione**: 1.0
 **🐛 PHPStan Level**: 9 ✅

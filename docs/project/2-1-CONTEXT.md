@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "2 1 CONTEXT"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHASE 2 - EPIC 2.1: Citizen Dashboard - CONTEXT
 
 ## Purpose

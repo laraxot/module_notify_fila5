@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "FILAMENT VERSION POLICY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 Filament Version Policy - ALWAYS LATEST
 
 **Data**: 2026-03-30  
@@ -271,8 +268,6 @@ composer update "filament/*" -W
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "FILAMENT VERSION POLICY"
 type: note
 tags: [documentation]
@@ -281,7 +276,6 @@ updated: 2026-09-26
 qmd: "FILAMENT VERSION POLICY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Stato**: ✅ **POLITICA UFFICIALE - SEMPRE FILAMENT 5**  
 **Versione Attuale**: **Filament 5.x**  
 **Prossimo Aggiornamento**: **Quando esce Filament 6**  

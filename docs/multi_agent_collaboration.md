@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "multi agent collaboration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Multi-Agent Collaboration Guide"
 module: notify
 type: integration

@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "page implementation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 name: Page Implementation
 about: Implement a Design Comuni page replication
 title: 'Page: [Page Name] - /it/tests/[slug]'

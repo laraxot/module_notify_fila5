@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: " repos"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # _repos
 
 <!-- Contenuto migrato da _docs/_repos.txt -->

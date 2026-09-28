@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "AGNOSTIC DOCUMENTATION RULE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Agnostic Documentation Rule"
 module: notify
 type: integration

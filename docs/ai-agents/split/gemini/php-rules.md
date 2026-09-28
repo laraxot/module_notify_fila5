@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "php rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === php rules ===
 
 # PHP
@@ -52,8 +49,6 @@ protected function isAccessible(User $user, ?string $path = null): bool
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "php rules"
 type: note
 tags: [documentation]
@@ -62,7 +57,6 @@ updated: 2026-09-26
 qmd: "php rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

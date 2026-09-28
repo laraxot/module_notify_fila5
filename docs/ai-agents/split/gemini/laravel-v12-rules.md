@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "laravel v12 rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === laravel/v12 rules ===
 
 # Laravel 12
@@ -40,8 +37,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "laravel v12 rules"
 type: note
 tags: [documentation]
@@ -50,7 +45,6 @@ updated: 2026-09-26
 qmd: "laravel v12 rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

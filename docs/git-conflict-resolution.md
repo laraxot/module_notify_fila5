@@ -1,13 +1,10 @@
 ---
-<<<<<<< HEAD
-=======
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
 qmd: "git conflict resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Audit collisioni Git committate in bashscripts"
 type: report
 module: Notify

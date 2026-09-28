@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "README"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GitHub Issues & Discussions - Design Comuni Replication
 
 Benvenuto nel sistema di tracking delle issue per il progetto **Design Comuni Replication**.
@@ -26,8 +23,6 @@ Benvenuto nel sistema di tracking delle issue per il progetto **Design Comuni Re
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "README"
 type: note
 tags: [documentation]
@@ -36,7 +31,6 @@ updated: 2026-09-26
 qmd: "README"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 What We're Building
 
 Replicating **38 Design Comuni static pages** using **Tailwind CSS + Alpine.js** with **JSON-driven content blocks**.

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "antigravity integration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # antigravity e bmad method: integrazione e contesto fixcity
 
 ## scopo

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "architecture summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PTVX Architecture Summary
 
 > **Status**: Consolidated from Deep Study (2026-03-10)
@@ -54,8 +51,6 @@ Themes are decoupled from business logic.
 - Documentation: `docs/` (global) and `laravel/Modules/{Name}/docs/` (local).
 
 ---
-<<<<<<< HEAD
-=======
 title: "architecture summary"
 type: note
 tags: [documentation]
@@ -64,6 +59,5 @@ updated: 2026-09-26
 qmd: "architecture summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 [Return to Documentation Index](../../AGENTS.md)
 [Return to Documentation Index](../../agents.md)

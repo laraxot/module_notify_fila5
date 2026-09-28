@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ponytail audit 2026 07 02"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Ponytail-audit 2026-07-02: Notify module findings
 
 Source: repo-wide ponytail-audit, published as GitHub issues [#103](https://github.com/laraxot/base_quaeris_fila5/issues/103) and [#112](https://github.com/laraxot/base_quaeris_fila5/issues/112), summarized in discussion [#114](https://github.com/laraxot/base_quaeris_fila5/discussions/114).

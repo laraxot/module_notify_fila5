@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analisi miglioramenti"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi e Miglioramenti del Modulo Notify
 
 ## Analisi delle Soluzioni Esistenti

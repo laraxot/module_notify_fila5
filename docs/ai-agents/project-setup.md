@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project setup"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Project setup and running
 
 > Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md)

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "launch"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Product Launch Plan - FixCity Platform
 
 > **Version**: 1.0.0

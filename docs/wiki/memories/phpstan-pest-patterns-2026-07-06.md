@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "PHPStan + Pest — pattern risolti nel modulo Notify"
 type: memory
 module: Notify

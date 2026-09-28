@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "database patterns"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Database patterns
 
 > Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md)

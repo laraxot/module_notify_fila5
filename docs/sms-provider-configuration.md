@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms provider configuration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Configurazione Corretta dei Provider SMS
 
 ## Regola Fondamentale

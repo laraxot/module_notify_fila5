@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "current work status"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Stato Attuale del Lavoro - 12 Maggio 2025
 
 ## Problematiche Identificate

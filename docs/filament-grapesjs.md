@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament grapesjs"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Abilitare il plugin `gjs-blocks-basic` in GrapesJS
 
 Di seguito i passi per includere e attivare il plugin `gjs-blocks-basic` nel tuo `MailTemplateResource`:

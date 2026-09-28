@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "implementazione refactoring basemodel"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐄✨ IMPLEMENTAZIONE REFACTORING BASEMODEL - REPORT
 
 **Data Implementazione:** 2025-10-15  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "implementazione refactoring basemodel"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "implementazione refactoring basemodel"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 MODULI COMPLETATI
 
 ### ✅ Moduli Refactorati (10)

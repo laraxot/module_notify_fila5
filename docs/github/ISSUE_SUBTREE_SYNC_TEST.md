@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ISSUE SUBTREE SYNC TEST"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🧪 Test: Git Subtree Synchronization
 
 > **Created**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "ISSUE SUBTREE SYNC TEST"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "ISSUE SUBTREE SYNC TEST"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Overview
 
 This issue tracks the testing of git subtree synchronization between the main repository and module repositories.

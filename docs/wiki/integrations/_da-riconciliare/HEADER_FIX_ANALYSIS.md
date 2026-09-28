@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "HEADER FIX ANALYSIS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Header Notify vs Bootstrap Italia - Analisi e Fix"
 module: notify
 type: integration

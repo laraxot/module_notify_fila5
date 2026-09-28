@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify — mai Filament\*, sempre XotBase*"
 type: concept
 module: Notify

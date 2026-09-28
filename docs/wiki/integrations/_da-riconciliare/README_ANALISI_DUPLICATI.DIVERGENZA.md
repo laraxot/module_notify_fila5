@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "README ANALISI DUPLICATI.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: README_ANALISI_DUPLICATI.md"
 module: Notify
 type: note

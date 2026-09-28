@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "roadmap miglioramenti"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Roadmap — Notify, il modulo che parla con sei canali e con sé stesso 4533 volte
 
 > Numeri misurati: [`docs/cosa-migliorare.md`](cosa-migliorare.md) (80,

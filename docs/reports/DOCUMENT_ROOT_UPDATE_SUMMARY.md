@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DOCUMENT ROOT UPDATE SUMMARY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation Update Summary - public_html Document Root
 
 **Date**: March 30, 2026
@@ -222,8 +219,6 @@ Next Review: 2026-04-30
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "DOCUMENT ROOT UPDATE SUMMARY"
 type: note
 tags: [documentation]
@@ -232,7 +227,6 @@ updated: 2026-09-26
 qmd: "DOCUMENT ROOT UPDATE SUMMARY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: ✅ Complete
 **Date**: March 30, 2026
 **Verified By**: AI Agent

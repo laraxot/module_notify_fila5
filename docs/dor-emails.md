@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "dor emails"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Email per i Dottori"
 module: notify
 type: integration

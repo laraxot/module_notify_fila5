@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project roadmap"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ROADMAP PRINCIPALE - Progetto Fixcity
 
 ## Scopo del Progetto

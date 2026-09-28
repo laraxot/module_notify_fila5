@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "agents filament migration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AGENTS Filament Migration
 
 Guida alla migrazione da Filament v3/v4 a v5.
@@ -27,8 +24,6 @@ Guida alla migrazione da Filament v3/v4 a v5.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "agents filament migration"
 type: note
 tags: [documentation]
@@ -37,7 +32,6 @@ updated: 2026-09-26
 qmd: "agents filament migration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Migration Process
 
 ```bash

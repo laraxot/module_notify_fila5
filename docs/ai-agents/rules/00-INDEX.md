@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "00 INDEX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔴 CRITICAL RULES - AI Agents
 
 **Path**: `./.agents/docs/rules/00-INDEX.md`  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "00 INDEX"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Rule #1: Filament Tables for Lists
 
 > **MAI** creare blade personalizzati per liste di outcomes, predict, o dati tabellari.

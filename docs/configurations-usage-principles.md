@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "configurations usage principles"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Principi di Utilizzo delle Configurazioni 
 
 ## Regola Fondamentale

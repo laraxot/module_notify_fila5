@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "llm wiki rule"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "llm wiki rule"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 name: llm-wiki rule
 description: Ensure every module and theme includes a `docs/wiki/` directory and related llm‑wiki scaffolding.
 ---

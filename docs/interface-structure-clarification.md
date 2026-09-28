@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "interface structure clarification"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Chiarimento sulla Struttura delle Interfacce
 
 ## Struttura Corretta per le Interfacce SMS

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "AI SKILLS MASTER INDEX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AI Skills Master Index
 
 > *"Le skill giuste trasformano un agente AI da strumento a collaboratore."*
@@ -22,8 +19,6 @@ Questa documentazione elenca tutte le skill AI installate e configurate per il p
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "AI SKILLS MASTER INDEX"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "AI SKILLS MASTER INDEX"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📦 Skill Installate
 
 ### 1. **UI/UX Pro Max Skill** ✨

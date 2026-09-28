@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "sprint"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Sprint Planning Meeting - Notify Platform"
 module: notify
 type: integration

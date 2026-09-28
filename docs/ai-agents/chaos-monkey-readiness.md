@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "chaos monkey readiness"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Chaos Monkey Readiness - LaravelPizza
 
 ## Obiettivo

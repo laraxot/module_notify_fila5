@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "boost skill solution plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Boost Skill Installation - Solution Plan
 
 **Date**: 2026-03-02  

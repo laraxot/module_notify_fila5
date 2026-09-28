@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "spatie mail templates structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Spatie Mail Templates: Struttura Corretta
 
 Questa documentazione spiega la struttura corretta dell'implementazione di `spatie/laravel-database-mail-templates` nel modulo Notify.

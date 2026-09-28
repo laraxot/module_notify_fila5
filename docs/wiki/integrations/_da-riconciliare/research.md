@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "research"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "User Research - Notify Platform"
 module: notify
 type: integration

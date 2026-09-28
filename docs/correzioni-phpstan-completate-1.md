@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "correzioni phpstan completate 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Correzioni PHPStan Completate - Modulo Notify
 
 ## 1. Introduzione

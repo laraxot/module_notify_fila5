@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PAGINE CREATE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pagine Create - FixCity Sixteen Theme
 
 ## Data: {{ date('Y-m-d') }}

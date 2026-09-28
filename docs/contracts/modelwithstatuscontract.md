@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "modelwithstatuscontract"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ModelWithStatusContract
 
 Per la documentazione completa, consulta il file originale in [Modules/Xot/docs/contracts/ModelWithStatusContract.md](../../Modules/Xot/docs/contracts/ModelWithStatusContract.md)

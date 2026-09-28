@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "critical rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole Critiche
 
 Summary obbligatorio per tutti gli agenti. Vedi [index](index.md) per navigazione completa.

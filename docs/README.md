@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "README"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Module Documentation"
 type: documentation
 tags: [module, documentation]

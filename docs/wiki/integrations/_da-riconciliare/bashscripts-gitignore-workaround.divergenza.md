@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "bashscripts gitignore workaround.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: bashscripts-gitignore-workaround.md"
 module: Notify
 type: note

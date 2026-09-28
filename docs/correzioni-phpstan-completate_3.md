@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "correzioni phpstan completate 3"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione Conflitti Git e Correzione Errori PHPStan - Modulo Notify
 
 ## Data
@@ -197,8 +194,6 @@ Durante la risoluzione:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "correzioni phpstan completate 3"
 type: note
 tags: [documentation]
@@ -207,7 +202,6 @@ updated: 2026-09-26
 qmd: "correzioni phpstan completate 3"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**:  **COMPLETATO**
 **Verificato**:  S� - PHPStan passa senza errori
 **Testato**:  S� - Analisi completa su 3715 file

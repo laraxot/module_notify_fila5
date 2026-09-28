@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PRODUCT ROADMAP"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Product Roadmap
 
 **Module:** Notify  
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "PRODUCT ROADMAP"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "PRODUCT ROADMAP"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Vision Statement
 
 To build a **unified notification system** that delivers the right message to the right user at the right time through their preferred channel, driving engagement while respecting user preferences.

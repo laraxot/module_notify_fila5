@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "decisione basemodel refactoring"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 DECISIONE: BaseModel Refactoring - Analisi Approfondita
 
 **Data**: 15 Ottobre 2025  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "decisione basemodel refactoring"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "decisione basemodel refactoring"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Situazione Attuale (VERIFICATA)
 
 ### Stato dei 18 Moduli

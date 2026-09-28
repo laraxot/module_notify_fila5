@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "zen of fixcity"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Zen of <nome progetto> - Complete Philosophy"
 module: notify
 type: integration

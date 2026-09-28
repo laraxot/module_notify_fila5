@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "typescript"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # TypeScript Guidelines
 
 ## Strict Mode Requirements

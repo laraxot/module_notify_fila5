@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament4 migration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament v4 Migration Complete - Notify Module
 
 **Date**: [DATE]

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "quick reference"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # bmad method: quick reference (fixcity)
 # bmad method: quick reference (laraxot)
 

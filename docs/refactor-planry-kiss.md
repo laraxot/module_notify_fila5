@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "refactor planry kiss"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Piano di Refactor DRY/KISS - Documentazione Modulo Notify"
 module: notify
 type: integration

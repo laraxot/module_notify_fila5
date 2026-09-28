@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "base templates"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Template Email di Base
 
 ## Introduzione

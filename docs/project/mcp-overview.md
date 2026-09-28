@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mcp overview"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # MCP Servers - Project Overview
 
 **Project**: Notify Platform  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "mcp overview"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "mcp overview"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Purpose
 
 MCP (Model Context Protocol) servers enhance AI agent capabilities for:

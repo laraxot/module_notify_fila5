@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "boost skill solution plan.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: boost-skill-solution-plan.md"
 module: Notify
 type: note

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "design comuni integration complete.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: design-comuni-integration-complete.md"
 module: Notify
 type: note

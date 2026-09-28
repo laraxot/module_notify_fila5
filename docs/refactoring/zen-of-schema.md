@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "zen of schema"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🧘 The Zen of Schema (Filament 4)
 
 ## 🕉️ Philosophy: Schema Over Form

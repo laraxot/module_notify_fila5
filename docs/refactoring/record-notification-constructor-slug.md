@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "record notification constructor slug"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Refactoring RecordNotification Constructor - Slug Pattern
 
 **Stato**: ✅ Implementato  
@@ -264,8 +261,6 @@ Il pattern attuale di `RecordNotification` è **Zen Delegation**: invece di riso
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "record notification constructor slug"
 type: note
 tags: [documentation]
@@ -274,6 +269,5 @@ updated: 2026-09-26
 qmd: "record notification constructor slug"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Intent over implementation, lazy over eager, simple over complex"*

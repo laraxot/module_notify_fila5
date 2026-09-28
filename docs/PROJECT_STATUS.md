@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PROJECT STATUS"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # FixCity Platform - Project Status Report
 
 **Data**: 2025-01-01  
@@ -187,8 +184,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "PROJECT STATUS"
 type: note
 tags: [documentation]
@@ -197,7 +192,6 @@ updated: 2026-09-26
 qmd: "PROJECT STATUS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
 **Contact**: development@ptv.io

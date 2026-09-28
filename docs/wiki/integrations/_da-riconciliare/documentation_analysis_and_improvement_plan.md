@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "documentation analysis and improvement plan"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Documentation Analysis and Improvement Plan"
 module: notify
 type: integration

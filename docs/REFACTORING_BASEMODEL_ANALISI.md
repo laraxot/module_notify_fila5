@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "REFACTORING BASEMODEL ANALISI"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📋 ANALISI REFACTORING BASEMODEL - Eliminazione Duplicazioni
 
 **Data Analisi**: 2025-10-15
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "REFACTORING BASEMODEL ANALISI"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "REFACTORING BASEMODEL ANALISI"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Domanda Iniziale
 
 > "Perciò tutti i BaseModel devono estendere XotBaseModel e togliere i metodi e parametri doppi?"

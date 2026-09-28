@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "appointment notifications"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica

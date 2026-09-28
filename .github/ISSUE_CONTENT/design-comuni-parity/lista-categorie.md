@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "lista categorie"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Lista Categorie (lista-categorie.html)
 
 ## Obiettivo

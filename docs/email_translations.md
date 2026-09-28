@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email translations"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Integrazione Traduzioni Email - il progetto
 
 ## Panoramica

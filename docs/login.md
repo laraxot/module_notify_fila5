@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "login"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 -----------------------------------------------------------------------------------------------
 A Blade Component to Quickly Login to Your Local Environment
 https://codebrisk.com/blog/a-blade-component-to-quickly-login-to-your-local-environment

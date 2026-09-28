@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notify test coverage"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task: Rafforzamento Test Suite Notify (Pest)
 
 **Modulo**: Notify  

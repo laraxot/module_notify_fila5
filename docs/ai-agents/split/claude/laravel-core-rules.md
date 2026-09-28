@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "laravel core rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === laravel/core rules ===
 
 ## Do Things the Laravel Way
@@ -61,8 +58,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "laravel core rules"
 type: note
 tags: [documentation]
@@ -71,7 +66,6 @@ updated: 2026-09-26
 qmd: "laravel core rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

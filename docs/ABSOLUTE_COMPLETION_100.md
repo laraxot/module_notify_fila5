@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ABSOLUTE COMPLETION 100"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%
 
 **Data**: 2025-10-01  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "ABSOLUTE COMPLETION 100"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "ABSOLUTE COMPLETION 100"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 MISSIONE IMPOSSIBILE → POSSIBILE
 
 Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbiamo raggiunto:

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "themes documentation index.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: THEMES_DOCUMENTATION_INDEX.md"
 module: Notify
 type: note

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migration changes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Modifiche alla Migrazione Mail Templates
 
 ## Modifiche Effettuate

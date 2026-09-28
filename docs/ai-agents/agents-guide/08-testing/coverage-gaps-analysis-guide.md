@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "coverage gaps analysis guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Coverage Gaps Analysis & Test Implementation Guide
 
 ## Overview

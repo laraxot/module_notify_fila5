@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "installazione strumenti"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Installazione Strumenti di Sviluppo"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "later"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Later (Module Notify)
 
 ## Longer-term ideas

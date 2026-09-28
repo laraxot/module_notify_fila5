@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "refactor plan dry kiss"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Piano di Refactor DRY/KISS - Documentazione Modulo Notify
 
 ## Problema Identificato
@@ -160,8 +157,6 @@ Creare sistema di navigazione coerente:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "refactor plan dry kiss"
 type: note
 tags: [documentation]
@@ -170,7 +165,6 @@ updated: 2026-09-26
 qmd: "refactor plan dry kiss"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Stato**: In corso  
 **Priorità**: Alta  
 **Responsabile**: Sistema automatico  

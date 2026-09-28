@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "slug solutions"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Analisi Soluzioni per Slug in Filament"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PHPSTAN FIXES"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Error Fixes - Notify Module
 
 ## Error: Method Name Mismatch in Actions

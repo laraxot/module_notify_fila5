@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "template content more examples"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Esempi Aggiuntivi di Contenuto per Template Email
 
 Questo documento contiene esempi aggiuntivi di contenuto HTML per template email da memorizzare nel database, seguendo l'architettura corretta di `spatie/laravel-database-mail-templates`.

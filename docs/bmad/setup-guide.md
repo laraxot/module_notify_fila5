@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "setup guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # bmad method: setup e configurazione (fixcity)
 
 ## scopo

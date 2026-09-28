@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "GITHUB ACTIONS STATUS.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: GITHUB_ACTIONS_STATUS.md"
 module: Notify
 type: note

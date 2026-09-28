@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "architecture structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura e Struttura (Claude Context)
 
 Il progetto utilizza un'architettura modulare basata su Laravel con il framework Laraxot, seguendo un pattern di estensioni base per tutti i componenti.

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "IMPLEMENTATION SUMMARY.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: IMPLEMENTATION_SUMMARY.md"
 module: Notify
 type: note

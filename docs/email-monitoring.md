@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email monitoring"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema Monitoraggio Email 
 
 ## Panoramica

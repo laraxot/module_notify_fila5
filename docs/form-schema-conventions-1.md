@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "form schema conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni per i Form Schema
 
 ## Regola Fondamentale per Array di Schema

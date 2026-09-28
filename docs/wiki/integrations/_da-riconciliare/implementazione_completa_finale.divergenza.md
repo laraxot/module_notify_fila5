@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "implementazione completa finale.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: IMPLEMENTAZIONE_COMPLETA_FINALE.md"
 module: Notify
 type: note

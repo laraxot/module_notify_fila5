@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "user creation infinite loop fix"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Fix: Infinite Loop in User Creation (make:filament-user)
 
 ## Data

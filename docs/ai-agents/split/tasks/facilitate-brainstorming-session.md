@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "facilitate brainstorming session"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Task: facilitate-brainstorming-session
 Source: .bmad-core/tasks/facilitate-brainstorming-session.md
 - How to use: "Use task facilitate-brainstorming-session with the appropriate agent" and paste relevant parts as needed.
@@ -24,8 +21,6 @@ template: '.bmad-core/templates/brainstorming-output-tmpl.yaml'
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "facilitate brainstorming session"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "facilitate brainstorming session"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 # Facilitate Brainstorming Session Task
 
 Facilitate interactive brainstorming sessions with users. Be creative and adaptive in applying techniques.

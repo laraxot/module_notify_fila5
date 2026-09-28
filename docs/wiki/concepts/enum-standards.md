@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "enum standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Enum Standards - Notify Module
 
 ## Overview

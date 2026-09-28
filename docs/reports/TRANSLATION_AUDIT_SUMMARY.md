@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "TRANSLATION AUDIT SUMMARY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # FixCity Translation Audit - Execution Summary
 
 **Date:** 2026-03-30  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "TRANSLATION AUDIT SUMMARY"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "TRANSLATION AUDIT SUMMARY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Mission Accomplished
 
 Comprehensive Italian translation audit completed for FixCity urban issue management platform.

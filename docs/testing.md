@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "testing"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Testing Rules Summary
 
 ## Coverage baseline (story 5.26)
@@ -505,8 +502,6 @@ Remember: Good tests are the foundation of reliable software development.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "testing"
 type: note
 tags: [documentation]
@@ -515,7 +510,6 @@ updated: 2026-09-26
 qmd: "testing"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Last updated: January 2025*
 
 ---

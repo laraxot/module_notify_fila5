@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analysis dettagliata 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
 
 ## 1. Architettura del Sistema

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan corrections summary final"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Corrections Summary - Final Report
 
 ## 🎯 **RISULTATI FINALI**
@@ -207,8 +204,6 @@ public function __construct(string $output)
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan corrections summary final"
 type: note
 tags: [documentation]
@@ -217,7 +212,6 @@ updated: 2026-09-26
 qmd: "phpstan corrections summary final"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Data**: Gennaio 2025  
 **Autore**: AI Assistant  
 **Versione**: 1.0  

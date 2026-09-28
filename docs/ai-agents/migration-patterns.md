@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migration patterns"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Migration patterns
 
 > Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md) | [IFLOW.md](../../bashscripts/ai/IFLOW.md)

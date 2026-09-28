@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "removal getseasonalemaillayoutaction"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Rimozione GetSeasonalEmailLayoutAction - Report Completo
 
 **Data**: 19 Dicembre 2025  
@@ -129,8 +126,6 @@ Delega semplice invece di azione complessa separata.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "removal getseasonalemaillayoutaction"
 type: note
 tags: [documentation]
@@ -139,6 +134,5 @@ updated: 2026-09-26
 qmd: "removal getseasonalemaillayoutaction"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Type safety first, simplicity second, DRY always"*

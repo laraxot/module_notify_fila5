@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "namespace"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Regole Namespace PSR-4 per il Modulo Notify"
 module: notify
 type: integration

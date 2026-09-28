@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email wysiwyg editor"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Editor WYSIWYG per Email - il progetto
 
 ## Panoramica

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "SKILL"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI/UX Pro Max Skill
 
 ## 🎯 Panoramica
@@ -317,8 +314,6 @@ Agent: "I'll create using:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "SKILL"
 type: note
 tags: [documentation]
@@ -327,7 +322,6 @@ updated: 2026-09-26
 qmd: "SKILL"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Version**: 1.0  
 **Date**: 2026-03-30  
 **Status**: ✅ Ready to Use  

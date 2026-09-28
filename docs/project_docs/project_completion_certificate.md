@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project completion certificate"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏆 PROJECT COMPLETION CERTIFICATE
 
 ## FixCity - Base Fila4 Mono
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "project completion certificate"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "project completion certificate"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📜 Official Certification
 
 This document certifies that the project **FixCity - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.

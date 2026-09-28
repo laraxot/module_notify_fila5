@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "performance optimization"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi e Ottimizzazione delle Performance
 
 ## Analisi delle Performance

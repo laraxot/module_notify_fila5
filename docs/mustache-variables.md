@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mustache variables"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Mustache Variables - SpatieEmail Template System
 
 **Date**: 2025-12-19  
@@ -24,8 +21,6 @@ I template email utilizzano il motore di rendering **Mustache** per sostituire v
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "mustache variables"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "mustache variables"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Variabili Automatiche (Sempre Disponibili)
 
 Queste variabili sono automaticamente popolate da `SpatieEmail` durante la costruzione dell'email.

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mission accomplished"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎉 MISSION ACCOMPLISHED! 🏆
 
 ## FixCity - Base Fila4 Mono
@@ -24,8 +21,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "mission accomplished"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "mission accomplished"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🌟 OBIETTIVI RAGGIUNTI: 100%
 
 ```

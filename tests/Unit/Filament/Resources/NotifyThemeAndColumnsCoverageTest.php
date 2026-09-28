@@ -23,20 +23,12 @@ use PHPUnit\Framework\Assert;
 
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {
-<<<<<<< HEAD
-    return new EditNotifyThemeTestProxy;
-=======
     return new EditNotifyThemeTestProxy();
->>>>>>> laraxot/dev
 }
 
 test('list notification templates page returns empty table columns array', function (): void {
     $reflection = new \ReflectionMethod(ListNotificationTemplates::class, 'getTableColumns');
-<<<<<<< HEAD
-    $columns = $reflection->invoke(new ListNotificationTemplates);
-=======
     $columns = $reflection->invoke(new ListNotificationTemplates());
->>>>>>> laraxot/dev
     Assert::assertSame([], $columns);
 });
 
@@ -78,11 +70,7 @@ test('list notify themes columns are configured', function (): void {
 });
 
 test('linkable relation manager exposes text input form schema', function (): void {
-<<<<<<< HEAD
-    $manager = new LinkableRelationManager;
-=======
     $manager = new LinkableRelationManager();
->>>>>>> laraxot/dev
     $schema = $manager->getFormSchema();
     Assert::assertNotEmpty($schema);
     Assert::assertInstanceOf(TextInput::class, $schema[0]);

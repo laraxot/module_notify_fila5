@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "readme phase 1 execution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📖 README - PHASE 1 EXECUTION
 ## Entry Point for All Team Members
 
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "readme phase 1 execution"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "readme phase 1 execution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 QUICK ORIENTATION
 
 **WHERE AM I?**

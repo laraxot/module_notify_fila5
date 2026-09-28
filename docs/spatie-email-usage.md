@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "spatie email usage"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida all'utilizzo di SpatieEmail
 
 ## Introduzione

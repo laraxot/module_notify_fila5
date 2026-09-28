@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "architecture"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Module Architecture"
 type: architecture
 tags: [module, architecture, notifications]

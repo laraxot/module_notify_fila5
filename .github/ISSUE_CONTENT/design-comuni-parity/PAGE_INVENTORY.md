@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PAGE INVENTORY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Design Comuni Pages - Conversion Inventory
 
 **Reference:** https://italia.github.io/design-comuni-pagine-statiche/sito/

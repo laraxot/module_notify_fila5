@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "custom chart implementation report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Custom Chart Implementation Report - 2026-03-17
 
 ## Executive Summary
@@ -20,8 +17,6 @@ Implementazione completa delle funzionalità di grafici custom da Fila4 a Fila5,
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "custom chart implementation report"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "custom chart implementation report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 1. Analisi Fila4 vs Fila5
 
 ### Fila4 Features Studiate

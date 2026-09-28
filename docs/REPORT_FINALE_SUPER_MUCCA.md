@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "REPORT FINALE SUPER MUCCA"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐄✨ REPORT FINALE - SUPER MUCCA LIVELLO INFINITO ✨🐄
 
 **Data:** 2025-10-15  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "REPORT FINALE SUPER MUCCA"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "REPORT FINALE SUPER MUCCA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 OBIETTIVO INIZIALE
 
 Tu hai chiesto:

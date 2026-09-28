@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "code style guidelines"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 3. Code Style Guidelines
 
 ### PHP Strict Types
@@ -79,8 +76,6 @@ protected function casts(): array
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "code style guidelines"
 type: note
 tags: [documentation]
@@ -89,4 +84,3 @@ updated: 2026-09-26
 qmd: "code style guidelines"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

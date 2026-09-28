@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "templates"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Email Templates
 
 ## Panoramica

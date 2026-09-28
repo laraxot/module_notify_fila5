@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module notify"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Modulo Notify
 
 ## Informazioni Generali
@@ -139,8 +136,6 @@ Le modifiche vengono tracciate nel repository GitHub.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "module notify"
 type: note
 tags: [documentation]
@@ -149,4 +144,3 @@ updated: 2026-09-26
 qmd: "module notify"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

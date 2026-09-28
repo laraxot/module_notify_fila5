@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email templateseepive"
 type: note
@@ -11,14 +9,11 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Deep Dive: Soluzioni di Template Email in Laravel
 
 Un'analisi dettagliata delle risorse, pacchetti, editor e tecniche per gestire i template email in Laravel.
 
 ---
-<<<<<<< HEAD
-=======
 title: "email templateseepive"
 type: note
 tags: [documentation]
@@ -27,7 +22,6 @@ updated: 2026-09-26
 qmd: "email templateseepive"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 1. Core Laravel Mail System
 
 ### 1.1 Blade Templates

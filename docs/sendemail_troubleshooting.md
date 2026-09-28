@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sendemail troubleshooting"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Troubleshooting SendEmail
 
 ## Problema

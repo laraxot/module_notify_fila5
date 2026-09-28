@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "model factory seeder audit"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Model/Factory/Seeder Audit
 
 Generated: 2025-08-22 16:29

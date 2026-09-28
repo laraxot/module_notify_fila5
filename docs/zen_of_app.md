@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "zen of app"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Zen of Notify - Complete Philosophy"
 module: notify
 type: integration

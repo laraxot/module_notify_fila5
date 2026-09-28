@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "login page status.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: login-page-status.md"
 module: Notify
 type: note

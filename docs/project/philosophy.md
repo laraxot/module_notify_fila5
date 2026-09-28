@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "philosophy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify - Filosofia, Logica, Visione e Zen del Progetto
 
 ## La Visione
@@ -137,8 +134,6 @@ Notify è più di un progetto software. È un esperimento sociale tecnologico ch
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "philosophy"
 type: note
 tags: [documentation]
@@ -147,7 +142,6 @@ updated: 2026-09-26
 qmd: "philosophy"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Riferimenti
 
 - [PROJECT.md](./project.md) - Visione e obiettivi

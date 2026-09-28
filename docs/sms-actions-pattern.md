@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms actions pattern"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pattern per le Azioni SMS 
 
 ## Struttura e Convenzioni
@@ -265,8 +262,6 @@ Seguire questo pattern garantisce:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "sms actions pattern"
 type: note
 tags: [documentation]
@@ -275,5 +270,4 @@ updated: 2026-09-26
 qmd: "sms actions pattern"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: [DATE]*

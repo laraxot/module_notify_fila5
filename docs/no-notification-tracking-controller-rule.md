@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "no notification tracking controller rule"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Rule: No NotificationTrackingController
 
 Nel modulo Notify non deve esistere `app/Http/Controllers/NotificationTrackingController.php`.

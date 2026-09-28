@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "02 bmad workflow"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 BMAD Workflow (Breakthrough Method for Agile AI-Driven Development)
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "02 bmad workflow"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "02 bmad workflow"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Overview
 
 BMAD is an AI-driven agile development framework with 12+ specialized agents.

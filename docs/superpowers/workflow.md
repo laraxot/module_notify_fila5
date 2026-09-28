@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "workflow"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🦸 Superpowers Workflow Guide
 
 > **Last Updated**: 2026-03-31  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "workflow"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "workflow"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Overview
 
 The Superpowers workflow is a structured development process that ensures quality through:

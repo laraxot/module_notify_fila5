@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "appointment field naming issues 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Appointment Field Naming Issues
 
 ## Overview

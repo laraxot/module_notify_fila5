@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "brownfield create epic"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Task: brownfield-create-epic
 Source: .bmad-core/tasks/brownfield-create-epic.md
 - How to use: "Use task brownfield-create-epic with the appropriate agent" and paste relevant parts as needed.
@@ -148,8 +145,6 @@ Once the epic is validated, provide this handoff to the Story Manager:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "brownfield create epic"
 type: note
 tags: [documentation]
@@ -158,7 +153,6 @@ updated: 2026-09-26
 qmd: "brownfield create epic"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Story Manager Handoff:**
 
 "Please develop detailed user stories for this brownfield epic. Key considerations:

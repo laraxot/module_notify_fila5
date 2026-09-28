@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "theme build rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === theme build rules ===
 
 ## CRITICAL: Theme Build Process
@@ -49,8 +46,6 @@ This is a fundamental rule that must NEVER be forgotten when working with themes
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "theme build rules"
 type: note
 tags: [documentation]
@@ -59,7 +54,6 @@ updated: 2026-09-26
 qmd: "theme build rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

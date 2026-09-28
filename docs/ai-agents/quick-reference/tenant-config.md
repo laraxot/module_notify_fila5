@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "tenant config"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Quick Reference - Tenant Config
 
 ## Verifiche base

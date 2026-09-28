@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "email sending troubleshooting"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Troubleshooting: Sistema di Invio Email in Notify
 
 ## Problema: `SendEmail.php` vs `TestSmtpPage.php`

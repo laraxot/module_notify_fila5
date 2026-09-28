@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "DOCUMENTATION SYSTEM UPDATE COMPLETE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Documentation System Update - Complete"
 module: notify
 type: integration

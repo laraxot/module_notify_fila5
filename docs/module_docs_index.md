@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module docs index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Master Documentation Index - FixCity Fila5
 
 **Project:** FixCity Fila5  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "module docs index"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "module docs index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Purpose
 
 Questo documento crea un **sistema di indicizzazione centrale** con collegamenti bidirezionali tra:

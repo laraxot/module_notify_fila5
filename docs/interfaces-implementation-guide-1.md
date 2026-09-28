@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "interfaces implementation guide 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce

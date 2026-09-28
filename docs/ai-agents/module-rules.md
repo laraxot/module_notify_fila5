@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole Specifiche del Progetto
 
 Vedi [index](index.md) per navigazione completa.

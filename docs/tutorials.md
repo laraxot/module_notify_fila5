@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "tutorials"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "tutorials"
 module: notify
 type: integration

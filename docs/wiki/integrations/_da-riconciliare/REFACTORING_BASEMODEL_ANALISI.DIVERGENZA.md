@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "REFACTORING BASEMODEL ANALISI.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: REFACTORING_BASEMODEL_ANALISI.md"
 module: Notify
 type: note

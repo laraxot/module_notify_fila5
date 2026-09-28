@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migration json conversion"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Gestione Conversioni JSON nelle Migrazioni
 
 ## Problema Comune

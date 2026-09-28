@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "iflow overview"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # IFLOW Overview
 
 Panoramica del progetto LaravelPizza.com.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "iflow overview"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "iflow overview"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🍕 LaravelPizza.com
 
 **Il side-project Laravel che vorrai mostrare al prossimo meetup**

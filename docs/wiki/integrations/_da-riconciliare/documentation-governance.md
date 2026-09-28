@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "documentation governance"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Documentation Governance Framework"
 module: notify
 type: integration

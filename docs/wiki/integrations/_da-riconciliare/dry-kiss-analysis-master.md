@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "dry kiss analysis master"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "DRY & KISS MASTER ANALYSIS - PROGETTO COMPLETO ✨🐄"
 module: notify
 type: integration

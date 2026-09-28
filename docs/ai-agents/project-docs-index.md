@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "project docs index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Project docs index (curated)
 
 Indice generato automaticamente da file markdown in cartelle docs (esclusi vendor/node_modules/archive).

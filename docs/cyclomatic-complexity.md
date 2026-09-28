@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "cyclomatic complexity"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Cyclomatic Complexity Report - Module: Notify"
 module: notify
 type: integration

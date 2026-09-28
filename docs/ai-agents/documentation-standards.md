@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "documentation standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation standards
 
 > Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md) | [CLAUDE.md](../../CLAUDE.md)

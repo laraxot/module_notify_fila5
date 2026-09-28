@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Regole per lo Sviluppo"
 module: notify
 type: integration

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "config structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Struttura di Configurazione nei Moduli SaluteOra
 
 ## Principi di Configurazione

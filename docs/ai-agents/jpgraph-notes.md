@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "jpgraph notes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # JpGraph notes
 
 - JpGraph is dual-licensed.

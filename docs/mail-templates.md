@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mail templates"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Mail Templates in Notify Module
 
 ## Panoramica

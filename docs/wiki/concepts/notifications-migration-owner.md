@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "notifications migration owner"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notifications Migration Ownership"
 type: concept
 sources: []

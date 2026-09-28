@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ottimizzazioni correzioni"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Ottimizzazioni e Correzioni
 
 ## Panoramica

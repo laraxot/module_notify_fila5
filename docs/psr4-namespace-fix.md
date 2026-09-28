@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "psr4 namespace fix"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Fix Namespace PSR-4 - Modulo Notify
 
 > **Versione**: 1.0  

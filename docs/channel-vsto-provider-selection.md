@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "channel vsto provider selection"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects"
 module: notify
 type: integration

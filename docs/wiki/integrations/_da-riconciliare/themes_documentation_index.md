@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "themes documentation index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Theme Documentation Master Index"
 module: notify
 type: integration

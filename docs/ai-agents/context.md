@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "context"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Claude - Docs index
 
 ## Context

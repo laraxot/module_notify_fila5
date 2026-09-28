@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "reusabilitylines.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: reusabilitylines.md"
 module: Notify
 type: note

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "whatsapp sending standard"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Standard per Invio Messaggi WhatsApp nel Modulo Notify
 
 ## Introduzione
@@ -19,8 +16,6 @@ Questa guida definisce lo standard per l'invio di messaggi WhatsApp all'interno 
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "whatsapp sending standard"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "whatsapp sending standard"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 1. Struttura delle Azioni WhatsApp
 
 - Ogni provider WhatsApp deve avere una propria action in `app/Actions/WhatsApp`.

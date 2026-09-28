@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "zen strategy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🧘 Zen Seasonal Strategy - Notify & Xot
 
 ## 🕉️ Philosophy

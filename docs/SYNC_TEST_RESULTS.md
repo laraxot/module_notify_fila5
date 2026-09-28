@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "SYNC TEST RESULTS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "SYNC TEST RESULTS"
 module: notify
 type: integration

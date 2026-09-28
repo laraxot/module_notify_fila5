@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "spatie queueable action"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Spatie Queueable Action
 
 **REGOLA ASSOLUTA**: MAI creare Service classes. Tutta la business logic va in QueueableAction.

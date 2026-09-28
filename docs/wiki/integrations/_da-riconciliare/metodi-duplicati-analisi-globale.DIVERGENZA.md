@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "metodi duplicati analisi globale.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: metodi-duplicati-analisi-globale.md"
 module: Notify
 type: note

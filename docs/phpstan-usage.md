@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan usage"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Utilizzo di PHPStan nel Progetto <nome progetto>
 
 ## Esecuzione di PHPStan
@@ -138,8 +135,6 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan usage"
 type: note
 tags: [documentation]
@@ -148,4 +143,3 @@ updated: 2026-09-26
 qmd: "phpstan usage"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "summary report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Code Quality Analysis Summary
 
 **Generated:** Wed Oct  1 21:12:15 CEST 2025

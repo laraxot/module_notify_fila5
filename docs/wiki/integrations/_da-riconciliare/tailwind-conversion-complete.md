@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "tailwind conversion complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "TAILWIND CONVERSION COMPLETE - Design Comuni"
 module: notify
 type: integration

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "decisione basemodel refactoring.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: DECISIONE_BASEMODEL_REFACTORING.md"
 module: Notify
 type: note

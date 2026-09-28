@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "netfun action updates 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Aggiornamenti a SendNetfunSMSAction
 
 ## Panoramica delle Modifiche
@@ -331,8 +328,6 @@ Questi miglioramenti garantiscono:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "netfun action updates 1"
 type: note
 tags: [documentation]
@@ -341,5 +336,4 @@ updated: 2026-09-26
 qmd: "netfun action updates 1"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2023-05-12*

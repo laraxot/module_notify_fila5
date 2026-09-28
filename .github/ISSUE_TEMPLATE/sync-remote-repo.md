@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "sync remote repo"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 name: 🔄 Sync Remote Repo Script Issue
 about: Report a bug or request a feature for the sync_remote_repo.sh script
 title: '[SYNC] '

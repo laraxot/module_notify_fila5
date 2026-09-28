@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "christmas email templates v4 implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Christmas Email Templates v4.0 - Implementation Report
 
 **Data**: 2025-12-19
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "christmas email templates v4 implementation"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "christmas email templates v4 implementation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Sommario Esecutivo
 
 Implementazione di 3 nuovi template email natalizi professionali e festivi per Sottana Service, con animazioni CSS avanzate, design premium e brand identity.

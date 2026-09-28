@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "riepilogo risoluzione conflitti backup"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Riepilogo Risoluzione Conflitti File Backup
 
 ## Data Risoluzione
@@ -133,8 +130,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "riepilogo risoluzione conflitti backup"
 type: note
 tags: [documentation]
@@ -143,7 +138,6 @@ updated: 2026-09-26
 qmd: "riepilogo risoluzione conflitti backup"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: ✅ Completato  
 **Validazione**: ✅ Tutti i conflitti risolti  
 **Documentazione**: ✅ Aggiornata e collegata  

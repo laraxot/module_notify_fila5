@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "gits resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione Conflitti Git - Modulo Notify
 
 ## Data Risoluzione
@@ -83,8 +80,6 @@ Tutti i file risolti rispettano:
 - [Notification Channels](./notification_channels_implementation.md)
 
 ---
-<<<<<<< HEAD
-=======
 title: "gits resolution"
 type: note
 tags: [documentation]
@@ -93,5 +88,4 @@ updated: 2026-09-26
 qmd: "gits resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "qmd local docs search"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # QMD — ricerca locale su documentazione e note
 
 **Riferimento upstream**: [github.com/tobi/qmd](https://github.com/tobi/qmd) (MIT). Documentazione dettagliata: [README](https://github.com/tobi/qmd/blob/main/README.md), [CHANGELOG](https://github.com/tobi/qmd/blob/main/changelog.md), sintassi query: [docs/SYNTAX.md](https://github.com/tobi/qmd/blob/main/docs/SYNTAX.md) (se presente nel tag che usi).

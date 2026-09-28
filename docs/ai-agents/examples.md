@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "examples"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Example Patterns
 
 ## Error Handling

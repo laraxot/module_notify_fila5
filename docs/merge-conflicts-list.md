@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "merge conflicts list"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Merge conflict markers — Notify
 
 ## Stato (2026-05-26)

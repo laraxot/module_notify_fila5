@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migration structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Struttura della Migrazione MailTemplate
 
 ## Informazioni Generali

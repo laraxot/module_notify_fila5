@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "README"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🚀 GitHub Actions per la Viralità del Progetto healthcare_app Fila5 Mono
 
 ## 📋 Sommario delle Azioni Virali
@@ -20,8 +17,6 @@ Questo documento descrive le GitHub Actions complete per promuovere il progetto 
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "README"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "README"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 **Obiettivi Principali**
 
 1. **Automatizzare la promozione** di ogni rilascio e milestone

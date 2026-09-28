@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "advanced template system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura del Sistema di Notifiche - Best Practices
 
 ## Introduzione

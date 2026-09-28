@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: " repos"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "repos"
 module: notify
 type: reference

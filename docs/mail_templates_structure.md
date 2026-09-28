@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mail templates structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Struttura Template Email
 
 ## Introduzione

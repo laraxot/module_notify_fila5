@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "roadmap and issues"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Roadmap, Issues & Optimization
 
 **Modulo**: Notify (Multi-Channel Notifications)  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "roadmap and issues"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "roadmap and issues"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 STATO ATTUALE
 
 ### Completezza Funzionale: 70%

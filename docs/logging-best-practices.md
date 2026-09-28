@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "logging best practices"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Logging Best Practices - Performance Critical
 
 ## Executive Summary
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "logging best practices"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "logging best practices"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## The Problem
 
 ### Performance Impact

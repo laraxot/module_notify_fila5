@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "QUICK START"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "NOTIFY - GUIDA RAPIDA SVILUPPATORI"
 module: notify
 type: integration

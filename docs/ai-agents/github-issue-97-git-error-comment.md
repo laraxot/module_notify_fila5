@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "github issue 97 git error comment"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ## 🔧 Git Error Resolved: "Does Not Have Our Version"
 
 ### Error Encountered
@@ -153,8 +150,6 @@ During work:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "github issue 97 git error comment"
 type: note
 tags: [documentation]
@@ -163,5 +158,4 @@ updated: 2026-09-26
 qmd: "github issue 97 git error comment"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 Ready for tomorrow's real data testing! 🚀

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan level 10 rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Level 10 Rules & Best Practices
 
 ## Regola immutabile: phpstan.neon
@@ -53,8 +50,6 @@ trait MyTrait {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan level 10 rules"
 type: note
 tags: [documentation]
@@ -63,7 +58,6 @@ updated: 2026-09-26
 qmd: "phpstan level 10 rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ### 2. Collection Type Parameters
 **Severity:** HIGH  
 **Status:** Enforced

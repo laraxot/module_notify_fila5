@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "unified ai workflow"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Unified AI Workflow: OpenViking + BMAD + GSD + Ralph Loop
 
 ## Executive Summary
@@ -653,8 +650,6 @@ Document answers in retrospectives and store in OpenViking.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "unified ai workflow"
 type: note
 tags: [documentation]
@@ -663,7 +658,6 @@ updated: 2026-09-26
 qmd: "unified ai workflow"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Version**: 1.0.0  
 **Last Updated**: 2026-03-30  
 **Status**: Initial Implementation  

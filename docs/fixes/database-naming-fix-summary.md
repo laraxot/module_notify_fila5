@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "database naming fix summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📁 Database Naming Convention - Fix Summary
 
 > **Date**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "database naming fix summary"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "database naming fix summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Summary
 
 Ho corretto tutti i riferimenti errati alle directory del database nel modulo **Blog** e aggiornato la documentazione di progetto per prevenire errori futuri.

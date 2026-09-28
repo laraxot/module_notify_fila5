@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "module docs index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Master Documentation Index - Notify Fila5"
 module: notify
 type: integration

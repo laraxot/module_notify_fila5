@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "missing features"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Funzionalità Mancanti - Modulo Notify
 
 **Data Analisi**: [DATE]  
@@ -248,8 +245,6 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "missing features"
 type: note
 tags: [documentation]
@@ -258,5 +253,4 @@ updated: 2026-09-26
 qmd: "missing features"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Prossima Revisione**: [DATE]

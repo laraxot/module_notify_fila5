@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "svg icons"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 7. SVG Icons
 
 - Store SVGs in `Modules/Meetup/resources/svg/`
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "svg icons"
 type: note
 tags: [documentation]
@@ -30,4 +25,3 @@ updated: 2026-09-26
 qmd: "svg icons"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

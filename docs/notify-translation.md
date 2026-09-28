@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notify translation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida alle Traduzioni nel Modulo Notify
 
 ## Introduzione

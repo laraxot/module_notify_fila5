@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "foundation rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === foundation rules ===
 
 # Laravel Boost Guidelines
@@ -100,8 +97,6 @@ applications.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "foundation rules"
 type: note
 tags: [documentation]
@@ -110,7 +105,6 @@ updated: 2026-09-26
 qmd: "foundation rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "QUICK START"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify Module Quick Start"
 type: guide
 tags: [notify, notifications]

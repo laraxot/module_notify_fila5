@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notify restore 2026 04 21"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Ripristino struttura Notify - 2026-04-21
 
 ## Problema

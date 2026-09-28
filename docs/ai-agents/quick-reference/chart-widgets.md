@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "chart widgets"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Quick Reference - Chart Widgets
 
 ## Errori comuni

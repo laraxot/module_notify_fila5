@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "reusable components and indexes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Reusable Components And Indexes
 
 > Indice: [./00-INDEX.md](./00-INDEX.md)

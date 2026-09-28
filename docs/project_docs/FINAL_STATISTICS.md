@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "FINAL STATISTICS"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📊 Final Project Statistics
 
 **Project:** Notify - Base Fila4 Mono  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "FINAL STATISTICS"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "FINAL STATISTICS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Overall Achievement: 100%
 
 ```

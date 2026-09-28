@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "class inheritance principles 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Principi di Ereditarietà nelle Classi <nome progetto>
 # Principi di Ereditarietà nelle Classi <nome progetto>
 # Principi di Ereditarietà nelle Classi <nome progetto>

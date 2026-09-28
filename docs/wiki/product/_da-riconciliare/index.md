@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "notify — product"
 module: notify
 type: product

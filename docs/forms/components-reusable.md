@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "components reusable"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Form Riutilizzabili - Notify Module
 
 **Stato**: ✅ Implementato  
@@ -316,8 +313,6 @@ Lo schema deve sempre avere chiavi string per conformità Filament:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "components reusable"
 type: note
 tags: [documentation]
@@ -326,6 +321,5 @@ updated: 2026-09-26
 qmd: "components reusable"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Define once, reuse everywhere - DRY over duplication, simplicity over complexity"*

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "troubleshooting"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Troubleshooting Notification Issues in Laravel Modules"
 module: notify
 type: integration

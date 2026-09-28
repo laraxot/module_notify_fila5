@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "codebrisk tools"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Analisi Tool CodeBrisk per Email in Laravel"
 module: notify
 type: integration

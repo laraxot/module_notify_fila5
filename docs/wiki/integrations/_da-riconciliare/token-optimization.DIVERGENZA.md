@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "token optimization.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: token-optimization.md"
 module: Notify
 type: note

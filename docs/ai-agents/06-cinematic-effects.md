@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "06 cinematic effects"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 Cinematic Effects & Particles
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "06 cinematic effects"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "06 cinematic effects"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Quick Reference
 
 ### CSS-only Particles (Recommended)

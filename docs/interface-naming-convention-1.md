@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "interface naming convention 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.

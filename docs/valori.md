@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "valori"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Politica, Filosofia, Religione, Etica, Zen – Modulo Notify
 
 ## Politica

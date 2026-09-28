@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "AI AGENT TEAMS"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AI Agent Teams - Coordination Hub
 
 **Created**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "AI AGENT TEAMS"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "AI AGENT TEAMS"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Why Agent Teams?
 
 Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same FixCity platform. Without coordination:

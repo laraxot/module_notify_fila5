@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "contributing"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Contributing to Notify"
 module: notify
 type: integration

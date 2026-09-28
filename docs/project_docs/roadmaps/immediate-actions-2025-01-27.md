@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "immediate actions 2025 01 27"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎯 AZIONI IMMEDIATE - FIXCITY PLATFORM
 
 **Data**: 27 Gennaio 2025  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "immediate actions 2025 01 27"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "immediate actions 2025 01 27"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚨 PRIORITÀ CRITICHE
 
 ### 1. Test Coverage Implementation (CRITICAL)

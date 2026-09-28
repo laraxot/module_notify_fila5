@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms channel"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # `SmsChannel`
 
 Canale di notifica Laravel per l'invio di SMS. Non contiene la logica di

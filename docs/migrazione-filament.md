@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migrazione filament"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Migrazione a Filament 4
 
 ## Panoramica Notify Module

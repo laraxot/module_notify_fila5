@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "filament 5 official policy"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "FILAMENT 5 - OFFICIAL POLICY"
 module: notify
 type: integration

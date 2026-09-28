@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "workflow"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Workflow (Claude)
 
 ## Operating mode

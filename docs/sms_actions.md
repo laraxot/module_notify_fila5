@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms actions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Azioni SMS
 
 ## Interfaccia

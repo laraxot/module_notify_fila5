@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ai module"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AI Module
 
 > Updated: 2026-04-15

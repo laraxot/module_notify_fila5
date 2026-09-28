@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "DOCS MONITORING SYSTEM"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📚 DOCS MONITORING SYSTEM - Sistema di Monitoraggio Documentazione
 
 **Data Creazione**: 2025-01-27  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "DOCS MONITORING SYSTEM"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "DOCS MONITORING SYSTEM"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 OBIETTIVO
 
 Monitorare costantemente tutte le cartelle `docs` dei moduli e temi per:

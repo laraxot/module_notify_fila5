@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "architect"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Architect (id: architect)
 Source: .bmad-core/agents/architect.md
 
@@ -97,8 +94,6 @@ dependencies:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "architect"
 type: note
 tags: [documentation]
@@ -107,7 +102,6 @@ updated: 2026-09-26
 qmd: "architect"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "bmad orchestrator"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### BMad Master Orchestrator (id: bmad-orchestrator)
 Source: .bmad-core/agents/bmad-orchestrator.md
 
@@ -159,8 +156,6 @@ dependencies:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "bmad orchestrator"
 type: note
 tags: [documentation]
@@ -169,7 +164,6 @@ updated: 2026-09-26
 qmd: "bmad orchestrator"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

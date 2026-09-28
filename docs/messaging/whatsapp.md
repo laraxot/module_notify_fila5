@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "whatsapp"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # WhatsApp Integration
 
 ## Resources

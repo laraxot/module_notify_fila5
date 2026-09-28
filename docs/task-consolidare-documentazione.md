@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "task consolidare documentazione"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task: Consolidare Documentazione - Notify
 
 **Modulo**: Notify
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "task consolidare documentazione"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "task consolidare documentazione"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Descrizione
 
 749 file di documentazione - il piu' alto di tutti i moduli. Serve pulizia urgente.

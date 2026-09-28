@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "qwen memories"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # QWEN Memories
 
 Memorie e lesson learned accumulate da Qwen.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "qwen memories"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "qwen memories"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Error Fix Pattern
 
 Quando si lavora con date in blade:

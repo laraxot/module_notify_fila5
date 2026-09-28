@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "index docs"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Task: index-docs
 Source: .bmad-core/tasks/index-docs.md
 - How to use: "Use task index-docs with the appropriate agent" and paste relevant parts as needed.
@@ -197,8 +194,6 @@ Would you like to proceed with documentation indexing? Please provide the requir
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "index docs"
 type: note
 tags: [documentation]
@@ -207,7 +202,6 @@ updated: 2026-09-26
 qmd: "index docs"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

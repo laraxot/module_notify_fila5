@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpmd analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPMD Analysis - Modulo Notify
 
 ## 📊 Analisi Filosofica Errori PHPMD
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpmd analysis"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "phpmd analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Errori Rilevati e Filosofia
 
 ### 1. ShortVariable: $to, $as

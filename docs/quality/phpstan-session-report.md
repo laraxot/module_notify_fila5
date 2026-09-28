@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan session report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Session Report - Ottobre 2025
 
 ## 🎆 RISULTATI FINALI STRAORDINARI
@@ -35,8 +32,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan session report"
 type: note
 tags: [documentation]
@@ -45,7 +40,6 @@ updated: 2026-09-26
 qmd: "phpstan session report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🏆 ACHIEVEMENTS UNLOCKED
 
 ### Moduli Completamente Puliti

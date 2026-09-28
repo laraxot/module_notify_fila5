@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module architecture"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Module Architecture
 
 > Architettura modulare Laravel per PTVX.

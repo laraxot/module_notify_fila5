@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "GITHUB SYNC RULE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔄 Sync .github with bashscripts/ai/.github
 
 > **Last Updated**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "GITHUB SYNC RULE"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "GITHUB SYNC RULE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Rule Statement
 
 **QUANDO aggiorni `.github/` → DEVI sincronizzare `bashscripts/ai/.github/`**

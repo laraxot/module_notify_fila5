@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "task template preview"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task: Implementare Template Preview - Notify
 
 **Modulo**: Notify
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "task template preview"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "task template preview"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Descrizione
 
 Aggiungere preview real-time dei template email/SMS nell'admin Filament.

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "architecture diagrams"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architecture Diagrams & Visual Reference
 
 **📍 Cross-References:**
@@ -23,8 +20,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "architecture diagrams"
 type: note
 tags: [documentation]
@@ -33,7 +28,6 @@ updated: 2026-09-26
 qmd: "architecture diagrams"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## System Architecture Overview
 
 ```

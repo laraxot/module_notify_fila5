@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "SUMMARY"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Bug Fixes Summary
 
 ## 2025-01-14: User Creation Infinite Loop Fix
@@ -55,8 +52,6 @@ php artisan tinker --execute="
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "SUMMARY"
 type: note
 tags: [documentation]
@@ -65,7 +60,6 @@ updated: 2026-09-26
 qmd: "SUMMARY"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Prossimi Bug da Analizzare
 
 Nessuno al momento.

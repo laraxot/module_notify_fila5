@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "st slug generation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Generazione Intelligente di Slug in Filament
 
 ## Introduzione

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "design comuni theme audit"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Design Comuni Theme Audit & Improvement Roadmap
 
 **Date**: 2026-04-08  

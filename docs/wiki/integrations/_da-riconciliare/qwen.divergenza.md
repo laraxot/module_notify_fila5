@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "qwen.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: QWEN.md"
 module: Notify
 type: note

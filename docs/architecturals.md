@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "architecturals"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Pattern Architetturali per le Notifiche"
 module: notify
 type: integration

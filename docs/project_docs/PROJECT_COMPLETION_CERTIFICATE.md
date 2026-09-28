@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PROJECT COMPLETION CERTIFICATE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏆 PROJECT COMPLETION CERTIFICATE
 
 ## Notify - Base Fila4 Mono
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "PROJECT COMPLETION CERTIFICATE"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "PROJECT COMPLETION CERTIFICATE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📜 Official Certification
 
 This document certifies that the project **Notify - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.

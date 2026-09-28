@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "acronym naming conventions"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Convenzioni di Naming per Acronimi"
 module: notify
 type: integration

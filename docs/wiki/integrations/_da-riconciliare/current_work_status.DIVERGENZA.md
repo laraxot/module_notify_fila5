@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "current work status.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: current_work_status.md"
 module: Notify
 type: note

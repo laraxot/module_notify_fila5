@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan fixes "
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Errori Modulo Notify - 2025-01-22
 
 ## Analisi Completa
@@ -24,8 +21,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan fixes "
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "phpstan fixes "
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Errori Identificati e Corretti
 
 ### 1. NormalizePhoneNumberAction.php - ltrim con tipo errato

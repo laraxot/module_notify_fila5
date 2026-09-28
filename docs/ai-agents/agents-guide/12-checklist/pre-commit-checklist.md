@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "pre commit checklist"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 13. Pre-Commit Checklist
 
 Before committing or pushing:
@@ -30,8 +27,6 @@ Before committing or pushing:
 - [ ] JSON pages for dynamic content
 
 ---
-<<<<<<< HEAD
-=======
 title: "pre commit checklist"
 type: note
 tags: [documentation]
@@ -40,4 +35,3 @@ updated: 2026-09-26
 qmd: "pre commit checklist"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

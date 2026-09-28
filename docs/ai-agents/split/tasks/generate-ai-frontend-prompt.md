@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "generate ai frontend prompt"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Task: generate-ai-frontend-prompt
 Source: .bmad-core/tasks/generate-ai-frontend-prompt.md
 - How to use: "Use task generate-ai-frontend-prompt with the appropriate agent" and paste relevant parts as needed.
@@ -75,8 +72,6 @@ You will now synthesize the inputs and the above principles into a final, compre
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "generate ai frontend prompt"
 type: note
 tags: [documentation]
@@ -85,7 +80,6 @@ updated: 2026-09-26
 qmd: "generate ai frontend prompt"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

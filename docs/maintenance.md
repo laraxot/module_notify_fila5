@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "maintenance"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Manutenzione del Modulo Notify
 
 ## Gestione delle Code

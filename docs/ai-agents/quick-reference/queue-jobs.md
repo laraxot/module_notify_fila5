@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "queue jobs"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Quick Reference - Queue / Jobs
 
 ## Errori comuni

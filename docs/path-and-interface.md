@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "path and interface"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole di Percorso e Interfacce nel Modulo Notify
 
 ## Principi Fondamentali

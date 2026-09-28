@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "qwen critical rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # QWEN Critical Rules
 
 Regole critiche del progetto Base Predict.
@@ -19,8 +16,6 @@ Regole critiche del progetto Base Forecast.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "qwen critical rules"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "qwen critical rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🔴 REGOLA 1: FILAMENT WIDGETS FOR LISTS
 
 ### Principio Core

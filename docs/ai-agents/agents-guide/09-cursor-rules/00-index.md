@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "00 index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 📋 09 cursor rules Index
 
 **Path**: `docs/agents-guide/09-cursor-rules/`
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "00 index"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "00 index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Statistics
 
 | Metric | Count |

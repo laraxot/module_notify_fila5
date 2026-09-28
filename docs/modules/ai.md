@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ai"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Modulo AI – Collegamento Bidirezionale
 
 - Documentazione PHPStan livello 1: [Modules/AI/docs/phpstan/level_1.md](../../Modules/AI/docs/phpstan/level_1.md)
@@ -24,8 +21,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "ai"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "ai"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Descrizione modulo
 Modulo dedicato alle azioni di intelligenza artificiale, sentiment analysis, integrazione con transformers e strumenti correlati.
 

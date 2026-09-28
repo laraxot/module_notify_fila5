@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "boost skill solution plan"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Boost Skill Installation - Solution Plan"
 module: notify
 type: integration

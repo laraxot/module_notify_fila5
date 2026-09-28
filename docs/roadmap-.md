@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "roadmap "
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module Roadmap 2026
 
 ## 📡 Sacred Philosophy: "One Message, Many Paths"
@@ -28,8 +25,6 @@ Transform communication from a technical challenge into a **business superpower*
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "roadmap "
 type: note
 tags: [documentation]
@@ -38,7 +33,6 @@ updated: 2026-09-26
 qmd: "roadmap "
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Current Architecture Assessment
 
 ### ✅ Architectural Strengths

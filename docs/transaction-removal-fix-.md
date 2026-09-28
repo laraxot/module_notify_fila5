@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "transaction-removal-fix-2025-10-15.deprecated"
 type: concept
 tags: [deprecated]

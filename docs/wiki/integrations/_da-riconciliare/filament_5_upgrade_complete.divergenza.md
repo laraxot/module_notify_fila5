@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "filament 5 upgrade complete.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: FILAMENT_5_UPGRADE_COMPLETE.md"
 module: Notify
 type: note

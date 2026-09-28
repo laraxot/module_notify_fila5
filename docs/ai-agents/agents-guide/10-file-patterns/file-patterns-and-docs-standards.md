@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "file patterns and docs standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 10. File Patterns
 
 ### Include
@@ -96,8 +93,6 @@ Indice centralizzato: `laravel/docs/roadmap/00-index.md`
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "file patterns and docs standards"
 type: note
 tags: [documentation]
@@ -106,4 +101,3 @@ updated: 2026-09-26
 qmd: "file patterns and docs standards"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

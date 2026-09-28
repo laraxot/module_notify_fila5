@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "REQUIREMENTS"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # REQUIREMENTS: FixCity Platform
 
 ## Phase 2: Feature Expansion (Q1 2026) - CURRENT

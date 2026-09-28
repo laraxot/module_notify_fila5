@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02"
 type: concept
 tags: [deprecated]

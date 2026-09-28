@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "send record notification action"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Refactoring Plan: SendRecordNotificationAction
 
 ## Goal

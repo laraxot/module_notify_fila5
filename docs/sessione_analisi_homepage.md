@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sessione analisi homepage"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ Sessione Completata - Homepage Analysis & Documentation
 
 ## 📋 Riepilogo Lavoro
@@ -46,8 +43,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "sessione analisi homepage"
 type: note
 tags: [documentation]
@@ -56,7 +51,6 @@ updated: 2026-09-26
 qmd: "sessione analisi homepage"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 #### 2. Screenshot Analysis
 **File**: `docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md`
 

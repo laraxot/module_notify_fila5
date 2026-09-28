@@ -34,22 +34,6 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
-<<<<<<< HEAD
-     * Modello per cui è stata costruita la notifica.
-     *
-     * `SendRecordNotificationAction` invia sempre con
-     * `Notification::route($channel, $to)->notify(...)`: il notifiable in
-     * `NotificationSent` è un `AnonymousNotifiable`, mai `$record`. I listener
-     * (es. `UpdateContactInviteCountersListener`) leggono il modello da qui.
-     */
-    public function getRecord(): Model
-    {
-        return $this->record;
-    }
-
-    /**
-=======
->>>>>>> laraxot/dev
      * Get the notification's delivery channels.
      *
      * Determines channels based on the notifiable's routing capabilities.
@@ -120,15 +104,9 @@ class RecordNotification extends Notification implements ShouldQueue
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $to = $notifiable->routeNotificationFor('sms');
         }
-<<<<<<< HEAD
-        $fallbackTo = config('sms.fallback_to');
-        if (is_string($fallbackTo)) {
-            $to = $fallbackTo;
-=======
         $fallback_to = config('sms.fallback_to');
         if (is_string($fallback_to)) {
             $to = $fallback_to;
->>>>>>> laraxot/dev
         }
         if ($to === null) {
             return null;
@@ -137,19 +115,6 @@ class RecordNotification extends Notification implements ShouldQueue
         // Build SMS content using SpatieEmail (which handles template resolution and placeholder replacement)
         $smsBody = $email->buildSms();
 
-<<<<<<< HEAD
-        // Story quaeris-send-invite-migrate-to-record-notification.md, Difetto 17
-        // (AC7, 2026-09-15): un survey senza sms_template configurato non lancia
-        // nessuna eccezione qui — buildSms() ritorna semplicemente stringa vuota
-        // (Mustache::render('', ...)). Senza questo controllo, un SMS reale con
-        // corpo vuoto veniva spedito per davvero al gateway. `trim()` per non far
-        // passare un corpo fatto di soli spazi.
-        if (trim($smsBody) === '') {
-            return null;
-        }
-
-=======
->>>>>>> laraxot/dev
         // Story quaeris-send-invite-migrate-to-record-notification.md, Difetto 9:
         // il mittente era il letterale 'Xot'. Ora SpatieEmail lo risolve dal
         // MailTemplate (colonna sms_from), con fallback a config('sms.from').

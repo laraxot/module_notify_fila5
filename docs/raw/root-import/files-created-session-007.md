@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "files created session 007"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Files Created in Session 007
 
 **Session**: 007 - Complete Visual Parity Assessment & Roadmap
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "files created session 007"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "files created session 007"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 File Inventory
 
 ### Scripts (Executable)

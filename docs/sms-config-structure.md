@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "sms config structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Struttura della Configurazione SMS 
 
 ## Introduzione
@@ -170,8 +167,6 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "sms config structure"
 type: note
 tags: [documentation]
@@ -180,5 +175,4 @@ updated: 2026-09-26
 qmd: "sms config structure"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: [DATE]*

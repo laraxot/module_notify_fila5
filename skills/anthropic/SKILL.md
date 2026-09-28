@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "SKILL"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Anthropic Skills Integration
 
 ## 🎯 Panoramica
@@ -143,8 +140,6 @@ my-custom-skill/
 
 ```markdown
 ---
-<<<<<<< HEAD
-=======
 title: "SKILL"
 type: note
 tags: [documentation]
@@ -153,7 +148,6 @@ updated: 2026-09-26
 qmd: "SKILL"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 name: my-custom-skill
 description: Complete description of what this skill does and when to use it
 version: 1.0.0

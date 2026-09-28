@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "title with slug analysis 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi del Pacchetto Filament Title With Slug
 
 ## Panoramica

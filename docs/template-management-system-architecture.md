@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "template management system architecture"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notification Template Management System
 
 ## System Architecture

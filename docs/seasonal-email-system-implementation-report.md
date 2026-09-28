@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "seasonal email system implementation report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Report di Revisione Sistema Email Stagionali - Dicembre 2025
 
 **Data**: 19 Dicembre 2025  

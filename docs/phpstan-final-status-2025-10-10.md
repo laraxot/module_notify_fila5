@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan final status 2025 10 10"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Final Status Report
 
 **Data**: 2025-10-10T11:55:17+02:00  
@@ -335,8 +332,6 @@ Gli errori rimanenti (13,996) sono **SOLO nei test** e sono opzionali da corregg
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan final status 2025 10 10"
 type: note
 tags: [documentation]
@@ -345,7 +340,6 @@ updated: 2026-09-26
 qmd: "phpstan final status 2025 10 10"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Report generato**: 2025-10-10T11:55:17+02:00  
 **Analista**: Cascade AI  
 **Livello PHPStan**: MAX (9)  

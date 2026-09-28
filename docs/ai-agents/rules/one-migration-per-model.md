@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "one migration per model"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔴 ONE MIGRATION PER MODEL - CRITICAL RULE
 
 **Path**: `.agents/docs/rules/one-migration-per-model.md`  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "one migration per model"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "one migration per model"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 The Rule
 
 > **SEMPRE** 1 MIGRAZIONE PER 1 MODELLO.

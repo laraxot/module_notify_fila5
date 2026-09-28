@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "CONTRIBUTING.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: CONTRIBUTING.md"
 module: Notify
 type: note

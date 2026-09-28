@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "seasonal email system implementation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Report di Revisione Sistema Email Stagionali - Dicembre 2025"
 module: notify
 type: integration

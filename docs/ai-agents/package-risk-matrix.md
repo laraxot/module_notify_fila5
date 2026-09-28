@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "package risk matrix"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Package Risk Matrix (2026-03-02)
 
 ## Fonte

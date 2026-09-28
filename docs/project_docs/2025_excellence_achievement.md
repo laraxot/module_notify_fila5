@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "2025 excellence achievement"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏆 2025 Excellence Achievement Report
 
 **Project:** FixCity - Base Fila4 Mono  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "2025 excellence achievement"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "2025 excellence achievement"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎉 Executive Summary
 
 **FixCity has achieved EXCELLENCE status for 2025!**

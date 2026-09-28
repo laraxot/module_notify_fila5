@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "layout structure"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Struttura Layout Email
 
 ## 1. Separazione dei File

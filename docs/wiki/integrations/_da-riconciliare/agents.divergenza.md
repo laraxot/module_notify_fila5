@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "agents.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: AGENTS.md"
 module: Notify
 type: note

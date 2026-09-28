@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "DESIGN COMUNI INTEGRATION COMPLETE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "DESIGN COMUNI ITALIANI - INTEGRATION COMPLETE"
 module: notify
 type: integration

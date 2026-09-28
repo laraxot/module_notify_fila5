@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "telegram notifications guide"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notifiche Telegram
 
 Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di <nome progetto>.

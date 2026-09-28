@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "VERIFICA HOMEPAGE.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: VERIFICA_HOMEPAGE.md"
 module: Notify
 type: note

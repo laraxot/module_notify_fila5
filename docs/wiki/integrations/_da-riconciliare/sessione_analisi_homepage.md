@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "sessione analisi homepage"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Sessione Completata - Homepage Analysis & Documentation"
 module: notify
 type: integration

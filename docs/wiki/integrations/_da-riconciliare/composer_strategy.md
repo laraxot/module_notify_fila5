@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "composer strategy"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Laravel-Modules Composer Strategy"
 module: notify
 type: integration

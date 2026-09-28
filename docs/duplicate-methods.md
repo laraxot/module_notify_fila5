@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "duplicate methods"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Metodi Duplicati - Modulo Notify
 
 **Totale Gruppi di Duplicati**: 
@@ -66,8 +63,6 @@ public function linkable(): void
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "duplicate methods"
 type: note
 tags: [documentation]
@@ -76,7 +71,6 @@ updated: 2026-09-26
 qmd: "duplicate methods"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ### 2. Metodo: `make`
 
 **Tipo Refactoring**: `Trait` | **Complessità**: 🟢 Low | **Confidenza**: ✅ 100%

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "model changes"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Modifiche al Modello MailTemplate"
 module: notify
 type: integration

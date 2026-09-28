@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "technology stack"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Technology Stack
 
 Vedi [index](index.md) per navigazione completa.

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "no http controllers"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # No HTTP controllers in any module
 
 ## Rule

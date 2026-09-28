@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "FIX IS CI CONTEXT NOT FOUND"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Fix Risolto: Errore `is_ci_context: command not found`
 
 > **Data**: 2026-03-13  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "FIX IS CI CONTEXT NOT FOUND"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "FIX IS CI CONTEXT NOT FOUND"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🚨 Problema
 
 ### Errori Segnalati

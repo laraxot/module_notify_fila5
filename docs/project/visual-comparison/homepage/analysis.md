@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Homepage Visual Comparison Analysis
 
 ## Goal

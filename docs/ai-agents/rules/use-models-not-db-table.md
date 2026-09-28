@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "use models not db table"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🔴 USE MODELS, NOT DB::TABLE() - CRITICAL RULE
 
 **Path**: `.agents/docs/rules/use-models-not-db-table.md`  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "use models not db table"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "use models not db table"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 The Rule
 
 > **MAI** usare `DB::table()` quando esiste un **MODELLO**.

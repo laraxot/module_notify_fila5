@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "data class"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # SmsFactorData Class Documentation
 
 ## Overview

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "mappa sito"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Converti pagina: Mappa del Sito (mappa-sito.html)
 
 ## Obiettivo

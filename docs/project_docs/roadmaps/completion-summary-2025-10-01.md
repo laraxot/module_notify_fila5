@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "completion summary 2025 10 01"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🏆 FixCity Project Completion Summary – 2025-10-01
 
 ## Executive Summary
@@ -32,8 +29,6 @@ Diventare la piattaforma civic tech leader in Italia con:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "completion summary 2025 10 01"
 type: note
 tags: [documentation]
@@ -42,7 +37,6 @@ updated: 2026-09-26
 qmd: "completion summary 2025 10 01"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Stato Attuale (2025-10-01)
 
 ### Moduli Principali

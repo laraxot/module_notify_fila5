@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "migration plan"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Documentation Agnostic Migration Plan
 
 ## Executive Summary
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "migration plan"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "migration plan"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Impact Analysis
 
 ### Scope

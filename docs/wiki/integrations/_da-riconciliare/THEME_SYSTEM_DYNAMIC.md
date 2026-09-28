@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "THEME SYSTEM DYNAMIC"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Theme System - Dynamic Theme Registration"
 module: notify
 type: integration

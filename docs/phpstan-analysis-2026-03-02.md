@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan analysis 2026 03 02"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Level 10 Analysis Report - 2026-03-02
 
 ## Executive Summary
@@ -36,8 +33,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan analysis 2026 03 02"
 type: note
 tags: [documentation]
@@ -46,7 +41,6 @@ updated: 2026-09-26
 qmd: "phpstan analysis 2026 03 02"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Critical Issues Fixed
 
 ### 1. SushiToJsons.php - Syntax Error (Line 38)

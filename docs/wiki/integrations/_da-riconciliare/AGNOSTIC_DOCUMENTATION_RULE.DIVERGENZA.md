@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "AGNOSTIC DOCUMENTATION RULE.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: AGNOSTIC_DOCUMENTATION_RULE.md"
 module: Notify
 type: note

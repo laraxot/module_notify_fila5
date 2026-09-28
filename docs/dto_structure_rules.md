@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "dto structure rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole per la Struttura dei DTO
 
 ## Directory e Namespace

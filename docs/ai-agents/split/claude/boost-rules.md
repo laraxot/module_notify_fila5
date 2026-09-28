@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "boost rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 === boost rules ===
 
 ## Laravel Boost
@@ -52,8 +49,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "boost rules"
 type: note
 tags: [documentation]
@@ -62,7 +57,6 @@ updated: 2026-09-26
 qmd: "boost rules"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

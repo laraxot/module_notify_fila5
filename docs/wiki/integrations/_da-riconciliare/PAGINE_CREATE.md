@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "PAGINE CREATE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Pagine Create - Notify Sixteen Theme"
 module: notify
 type: integration

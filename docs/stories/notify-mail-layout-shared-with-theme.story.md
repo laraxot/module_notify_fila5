@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "notify mail layout shared with theme.story"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: Layout HTML mail "puliti" (senza header/footer) di Notify invisibili nel tab Inviti
 epic: null
 story: null

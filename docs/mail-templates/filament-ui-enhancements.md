@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament ui enhancements"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Miglioramenti UI/UX per MailTemplateResource
 
 ## Componenti Filament Consigliati

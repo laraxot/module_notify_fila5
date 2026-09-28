@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "contact consolidated"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "contact — Consolidated Documentation"
 module: notify
 type: integration

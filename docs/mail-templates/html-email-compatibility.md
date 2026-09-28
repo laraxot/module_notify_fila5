@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "html email compatibility"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Guida alla Compatibilità HTML per Email
 
 ## Introduzione

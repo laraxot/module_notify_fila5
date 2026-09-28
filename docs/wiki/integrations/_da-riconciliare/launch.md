@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "launch"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Product Launch Plan - Notify Platform"
 module: notify
 type: integration

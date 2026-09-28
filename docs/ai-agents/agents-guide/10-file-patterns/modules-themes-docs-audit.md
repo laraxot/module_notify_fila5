@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "modules themes docs audit"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Modules/Themes Docs Audit (2026-03-10)
 
 ## Scope

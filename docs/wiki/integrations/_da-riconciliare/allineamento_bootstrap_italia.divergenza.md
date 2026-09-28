@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "allineamento bootstrap italia.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: ALLINEAMENTO_BOOTSTRAP_ITALIA.md"
 module: Notify
 type: note

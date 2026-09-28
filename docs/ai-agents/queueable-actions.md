@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "queueable actions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Spatie QueueableAction
 
 ## Fonte studiata

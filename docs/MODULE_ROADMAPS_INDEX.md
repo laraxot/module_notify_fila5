@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "MODULE ROADMAPS INDEX"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Laraxot Module Roadmaps - Master Index
 
 ## 📋 Overview
@@ -290,8 +287,6 @@ For questions about module roadmaps:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "MODULE ROADMAPS INDEX"
 type: note
 tags: [documentation]
@@ -300,5 +295,4 @@ updated: 2026-09-26
 qmd: "MODULE ROADMAPS INDEX"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Maintainer**: Laraxot Team

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "conferma classi bootstrap"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ Conferma: Classi Bootstrap Italia Corrette
 
 ## Architettura CSS Sixteen Theme

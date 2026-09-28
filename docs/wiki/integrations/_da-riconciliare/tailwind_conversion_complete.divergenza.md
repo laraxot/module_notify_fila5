@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "tailwind conversion complete.divergenza"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: TAILWIND_CONVERSION_COMPLETE.md"
 module: Notify
 type: note

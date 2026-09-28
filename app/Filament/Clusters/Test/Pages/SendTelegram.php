@@ -1,19 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-declare(strict_types=1);
-=======
->>>>>>> laraxot/dev
 /**
  * @see https://medium.com/modulr/send-telegram-notifications-with-laravel-9-342cc87b406
  * @see https://laravel-notification-channels.com/telegram/#usage
  */
 
-<<<<<<< HEAD
-=======
 declare(strict_types=1);
 
->>>>>>> laraxot/dev
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 use Exception;

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "seasonal email system recommendations"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Raccomandazioni per lo Sviluppo del Sistema Email Stagionali"
 module: notify
 type: integration

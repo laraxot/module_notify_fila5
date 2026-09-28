@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "contact column"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Correzione Errori ContactColumn - Modulo Notify
 
 ## 📋 Riepilogo della Correzione

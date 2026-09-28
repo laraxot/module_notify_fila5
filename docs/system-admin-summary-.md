@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "SYSTEM_ADMIN_SUMMARY_2026-03-13.deprecated"
 type: concept
 tags: [deprecated]

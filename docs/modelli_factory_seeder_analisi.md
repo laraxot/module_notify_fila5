@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "modelli factory seeder analisi"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Modelli, Factory e Seeder - Modulo Notify
 
 ## Panoramica

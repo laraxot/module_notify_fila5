@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "FILAMENT 5 UPGRADE COMPLETE"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament 5 Upgrade - COMPLETO ✅
 
 **Data**: 2026-03-30  
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "FILAMENT 5 UPGRADE COMPLETE"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "FILAMENT 5 UPGRADE COMPLETE"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎉 Upgrade Completato
 
 ### Versioni Installate

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "08 verified commit governance"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Verified Commit Governance
 
 ## Regola

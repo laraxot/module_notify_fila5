@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "metodi duplicati analisi globale"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🐮 ANALISI GLOBALE METODI DUPLICATI
 ## Super Cow Edition - FixCity Project
 
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "metodi duplicati analisi globale"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "metodi duplicati analisi globale"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 Executive Summary
 
 ### 💰 Impatto Economico

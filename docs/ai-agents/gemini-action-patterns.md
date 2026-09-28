@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "gemini action patterns"
 type: note
@@ -11,15 +9,12 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GEMINI Action Patterns
 
 Action Execution Rules - Spatie Queueable Actions.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "gemini action patterns"
 type: note
 tags: [documentation]
@@ -28,7 +23,6 @@ updated: 2026-09-26
 qmd: "gemini action patterns"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Regola 1: Il Metodo Pubblico è SEMPRE `execute()`
 
 ### ❌ SBAGLIATO

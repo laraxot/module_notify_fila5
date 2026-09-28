@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "overview extended"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Modulo Notify - Documentazione"
 module: notify
 type: integration

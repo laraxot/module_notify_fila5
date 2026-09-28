@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "configuration architecture"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Architettura delle Configurazioni nei Moduli Laravel
 
 ## Struttura Base di Configurazione

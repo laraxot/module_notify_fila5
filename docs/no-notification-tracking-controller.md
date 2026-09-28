@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "no notification tracking controller"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify: no NotificationTrackingController
 
 ## Regola

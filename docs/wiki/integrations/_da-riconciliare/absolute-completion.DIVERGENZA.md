@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "absolute completion.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: absolute-completion.md"
 module: Notify
 type: note

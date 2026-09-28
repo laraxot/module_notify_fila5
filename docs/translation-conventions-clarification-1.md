@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translation conventions clarification 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 
 ## Identificazione di Convenzioni Contrastanti

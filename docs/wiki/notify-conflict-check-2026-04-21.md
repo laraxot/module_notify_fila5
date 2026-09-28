@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "notify conflict check 2026 04 21"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Controllo conflitti Notify - 2026-04-21
 
 ## Esito

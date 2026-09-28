@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament v4 upgrade notes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Notify Module - Filament v4 Upgrade Notes
 
 This document outlines specific considerations and changes for the `Notify` module during the Filament v4 upgrade. For a comprehensive overview of the Filament v4 upgrade process, refer to the main project documentation: [`docs/filament_v4_upgrade.md`](../../../docs/Filament_Upgrade_v4.md).

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "discussion ai work summary"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🤖 AI Agent Work Summary - GitHub Actions & Documentation
 
 > **Date**: 2026-03-13  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "discussion ai work summary"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "discussion ai work summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Overview
 
 This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the FixCity platform.

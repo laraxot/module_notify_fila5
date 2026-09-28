@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "ai skills master index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "AI Skills Master Index"
 module: notify
 type: integration

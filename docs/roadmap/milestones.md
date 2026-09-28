@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "milestones"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Milestones - Notify
 
 ## M1 Documentation Baseline

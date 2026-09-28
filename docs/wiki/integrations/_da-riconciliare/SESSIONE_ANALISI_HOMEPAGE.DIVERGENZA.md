@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "SESSIONE ANALISI HOMEPAGE.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: SESSIONE_ANALISI_HOMEPAGE.md"
 module: Notify
 type: note

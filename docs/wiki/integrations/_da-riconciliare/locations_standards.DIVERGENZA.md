@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "locations standards.DIVERGENZA"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Divergenza da riconciliare: locations_standards.md"
 module: Notify
 type: note
