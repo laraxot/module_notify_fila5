@@ -1,14 +1,3 @@
----
-title: "contacttypeenum migration best practices"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "contacttypeenum migration best practices"
-issues: []
-discussions: []
----
-
 # ContactTypeEnum Migration Best Practices
 
 ## Overview

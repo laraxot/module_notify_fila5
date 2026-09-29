@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "MODULES_VALIDATION_REPORT_2025-10-02"
 type: concept
 tags: [deprecated]

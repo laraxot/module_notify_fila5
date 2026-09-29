@@ -1,14 +1,3 @@
----
-title: "project completion status"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "project completion status"
-issues: []
-discussions: []
----
-
 # 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
 
 **Data**: 2025-10-01  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "project completion status"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "project completion status"
-issues: []
-discussions: []
 ## ✅ LAVORO COMPLETATO OGGI
 
 ### 📚 Documentazione Strategica

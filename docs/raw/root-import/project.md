@@ -1,14 +1,3 @@
----
-title: "project"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "project"
-issues: []
-discussions: []
----
-
 # Base Fixcity Fila5 — PROJECT.md
 # Base App Fila5 — PROJECT.md
 

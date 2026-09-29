@@ -1,14 +1,3 @@
----
-title: "design conversion roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design conversion roadmap"
-issues: []
-discussions: []
----
-
 # Design Comuni Conversion Roadmap
 
 **Status**: 🟢 Phase 1 Complete - Visual Parity Assessment Done
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "design conversion roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design conversion roadmap"
-issues: []
-discussions: []
 ## 📊 Executive Summary
 
 ### Current State

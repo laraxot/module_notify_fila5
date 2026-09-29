@@ -1,14 +1,3 @@
----
-title: "AGENTS"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "AGENTS"
-issues: []
-discussions: []
----
-
 # Project Agents (Modular)
 
 This file provides guidance and memory for Codex CLI. The content has been split into modular files for better efficiency.
@@ -74,14 +63,6 @@ docs/
 
 ---
 
-title: "AGENTS"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "AGENTS"
-issues: []
-discussions: []
 ## Reusable Tasks
 
 - [Task: validate-next-story](./.agents/docs/main-rules/task-validate-next-story.md)

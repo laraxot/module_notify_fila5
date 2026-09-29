@@ -1,14 +1,3 @@
----
-title: "extract method pattern"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "extract method pattern"
-issues: []
-discussions: []
----
-
 # 🧘 Pattern: Extract Method (Clean Code)
 
 **Status**: ✅ Pattern Consolidato  
@@ -457,14 +446,6 @@ Prima di estrarre metodi:
 
 ---
 
-title: "extract method pattern"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "extract method pattern"
-issues: []
-discussions: []
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Small methods, clear names, single responsibility - the path to maintainable code"*  
 **Pattern**: Extract Method (Clean Code Refactoring)

@@ -1,14 +1,3 @@
----
-title: "improved email templates"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "improved email templates"
-issues: []
-discussions: []
----
-
 # Versione Migliorata: Filament Email Templates In-House
 
 In questo documento proponiamo un’implementazione open source per la gestione di template email nel DB con UI Filament, ispirata e migliorata rispetto ai plugin:
@@ -24,14 +13,6 @@ In questo documento proponiamo un’implementazione open source per la gestione 
 
 ---
 
-title: "improved email templates"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "improved email templates"
-issues: []
-discussions: []
 ## 1. Gap dei Plugin Esistenti
 
 1. Plugin commerciali a pagamento o non mantenuti

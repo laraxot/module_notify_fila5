@@ -1,7 +1,4 @@
 ---
-qmd: "sprint planning"
-issues: []
-discussions: []
 title: "Notify Module - Sprint Planning"
 module: notify
 type: integration

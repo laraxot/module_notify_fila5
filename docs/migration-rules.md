@@ -1,14 +1,3 @@
----
-title: "migration rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "migration rules"
-issues: []
-discussions: []
----
-
 # Regole per le Migrazioni nel Modulo Notify
 
 ## Principi Fondamentali

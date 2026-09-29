@@ -1,14 +1,3 @@
----
-title: "servizi categoria"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "servizi categoria"
-issues: []
-discussions: []
----
-
 # 🎨 Design Comuni: Servizi per Categoria
 
 ## Pagina
@@ -39,12 +28,4 @@ Da definire dopo l'analisi strutturale.
 - [ ] Documentazione
 
 ---
-title: "servizi categoria"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "servizi categoria"
-issues: []
-discussions: []
 *Generato automaticamente da bashscripts/design-comuni-parity/create-github-issues.sh*

@@ -1,14 +1,3 @@
----
-title: "argomenti"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "argomenti"
-issues: []
-discussions: []
----
-
 # Argomenti Page Analysis
 
 ## Status: IN PROGRESS
@@ -43,14 +32,6 @@ discussions: []
 
 ---
 
-title: "argomenti"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "argomenti"
-issues: []
-discussions: []
 *Created: 2026-04-07*
 *Page: argomenti*
 *Category: design-comuni*

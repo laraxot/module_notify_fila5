@@ -1,7 +1,4 @@
 ---
-qmd: "module test location rule"
-issues: []
-discussions: []
 title: "Module Test Location Rule"
 type: concept
 sources: ["raw/articles/module-test-location-rule.md"]

@@ -1,14 +1,3 @@
----
-title: "contributing"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "contributing"
-issues: []
-discussions: []
----
-
 # Contributing to FixCity
 
 First off, thank you for considering contributing to FixCity! 🎉
@@ -25,14 +14,6 @@ First off, thank you for considering contributing to FixCity! 🎉
 
 ---
 
-title: "contributing"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "contributing"
-issues: []
-discussions: []
 ## 📜 Code of Conduct
 
 This project adheres to a Code of Conduct that all contributors are expected to follow. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing.

@@ -1,14 +1,3 @@
----
-title: "GITHUB SYNC RULE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "GITHUB SYNC RULE"
-issues: []
-discussions: []
----
-
 # 🔄 Sync .github with bashscripts/ai/.github
 
 > **Last Updated**: 2026-03-13  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "GITHUB SYNC RULE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "GITHUB SYNC RULE"
-issues: []
-discussions: []
 ## 🎯 Rule Statement
 
 **QUANDO aggiorni `.github/` → DEVI sincronizzare `bashscripts/ai/.github/`**

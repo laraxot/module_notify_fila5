@@ -1,29 +1,5 @@
 ---
 
-title: "translation keys"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translation keys"
-issues: []
-discussions: []
-title: "translation keys"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translation keys"
-issues: []
-discussions: []
-title: "translation keys"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translation keys"
-issues: []
-discussions: []
 ## [[DATE]] Aggiornamento regole e best practice traduzioni modulo Notify
 
 ### Errori riscontrati

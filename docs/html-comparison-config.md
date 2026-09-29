@@ -1,7 +1,4 @@
 ---
-qmd: "html comparison config"
-issues: []
-discussions: []
 title: "HTML Structure Comparison Configuration"
 module: notify
 type: integration

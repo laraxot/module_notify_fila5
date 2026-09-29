@@ -1,14 +1,3 @@
----
-title: "analisi miglioramenti"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analisi miglioramenti"
-issues: []
-discussions: []
----
-
 # Analisi e Miglioramenti del Modulo Notify
 
 ## Analisi delle Soluzioni Esistenti

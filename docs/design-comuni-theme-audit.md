@@ -1,14 +1,3 @@
----
-title: "design comuni theme audit"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design comuni theme audit"
-issues: []
-discussions: []
----
-
 # Design Comuni Theme Audit & Improvement Roadmap
 
 **Date**: 2026-04-08  

@@ -1,8 +1,4 @@
 ---
-updated: 2026-09-26
-qmd: "DATABASE SCHEMA"
-issues: []
-discussions: []
 title: "Notify Module Database Schema"
 type: reference
 tags: [notify, database, schema]

@@ -1,9 +1,4 @@
 ---
-tags: [documentation]
-updated: 2026-09-26
-qmd: "PHPSTAN L10"
-issues: []
-discussions: []
 title: PHPStan Level 10 Compliance — Notify Module
 module: Notify
 type: quality-gate

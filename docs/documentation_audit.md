@@ -1,14 +1,3 @@
----
-title: "documentation audit"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "documentation audit"
-issues: []
-discussions: []
----
-
 # Documentation Audit Report
 
 **Analysis Date:** 2026-03-30  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "documentation audit"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "documentation audit"
-issues: []
-discussions: []
 ## Executive Summary
 
 ### Key Findings

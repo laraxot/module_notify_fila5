@@ -1,7 +1,4 @@
 ---
-qmd: "SESSIONE FIX COMPLETATA"
-issues: []
-discussions: []
 title: "Sessione Completata - Fix Homepage Bootstrap Italia"
 module: notify
 type: integration

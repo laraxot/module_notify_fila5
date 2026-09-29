@@ -1,14 +1,3 @@
----
-title: "MIGRATION PLAN"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MIGRATION PLAN"
-issues: []
-discussions: []
----
-
 # Documentation Agnostic Migration Plan
 
 ## Executive Summary
@@ -19,14 +8,6 @@ discussions: []
 
 ---
 
-title: "MIGRATION PLAN"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MIGRATION PLAN"
-issues: []
-discussions: []
 ## Impact Analysis
 
 ### Scope

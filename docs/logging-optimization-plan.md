@@ -1,14 +1,3 @@
----
-title: "logging optimization plan"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "logging optimization plan"
-issues: []
-discussions: []
----
-
 # Notify Module - Logging Optimization Plan
 
 ## Current Issues

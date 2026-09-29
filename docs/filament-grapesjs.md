@@ -1,14 +1,3 @@
----
-title: "filament grapesjs"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament grapesjs"
-issues: []
-discussions: []
----
-
 # Abilitare il plugin `gjs-blocks-basic` in GrapesJS
 
 Di seguito i passi per includere e attivare il plugin `gjs-blocks-basic` nel tuo `MailTemplateResource`:

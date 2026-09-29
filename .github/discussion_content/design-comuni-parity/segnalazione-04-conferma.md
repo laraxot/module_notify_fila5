@@ -1,14 +1,3 @@
----
-title: "segnalazione 04 conferma"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "segnalazione 04 conferma"
-issues: []
-discussions: []
----
-
 # 🎨 Design Comuni: Segnalazione - Conferma
 
 ## Pagina
@@ -39,12 +28,4 @@ Da definire dopo l'analisi strutturale.
 - [ ] Documentazione
 
 ---
-title: "segnalazione 04 conferma"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "segnalazione 04 conferma"
-issues: []
-discussions: []
 *Generato automaticamente da bashscripts/design-comuni-parity/create-github-issues.sh*

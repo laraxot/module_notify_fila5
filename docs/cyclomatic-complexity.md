@@ -1,7 +1,4 @@
 ---
-qmd: "cyclomatic complexity"
-issues: []
-discussions: []
 title: "Cyclomatic Complexity Report - Module: Notify"
 module: notify
 type: integration

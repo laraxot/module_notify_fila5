@@ -1,7 +1,4 @@
 ---
-qmd: "Test SMTP"
-issues: []
-discussions: []
 title: 'Test smtp'
 module: Notify
 type: reference

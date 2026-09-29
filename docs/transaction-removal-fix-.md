@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "transaction-removal-fix-2025-10-15.deprecated"
 type: concept
 tags: [deprecated]

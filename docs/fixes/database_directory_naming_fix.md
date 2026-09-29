@@ -1,14 +1,3 @@
----
-title: "database directory naming fix"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "database directory naming fix"
-issues: []
-discussions: []
----
-
 # Database Directory Naming Convention Fix
 
 **Date**: 2026-03-13  

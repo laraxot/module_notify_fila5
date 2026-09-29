@@ -1,14 +1,3 @@
----
-title: "duplicate files to remove"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "duplicate files to remove"
-issues: []
-discussions: []
----
-
 # File Duplicati da Eliminare - Modulo Notify
 
 ## 🗑️ File da Eliminare (Case Sensitivity)
@@ -114,14 +103,6 @@ git commit -m "fix: remove lowercase duplicate files (case sensitivity complianc
 
 ---
 
-title: "duplicate files to remove"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "duplicate files to remove"
-issues: []
-discussions: []
 **Riferimenti**: 
 - [Xot File Naming Rules](../../xot/docs/file-naming-case-sensitivity.md)
 - [Bashscripts Location Policy](../../xot/docs/bashscripts-location-policy.md)

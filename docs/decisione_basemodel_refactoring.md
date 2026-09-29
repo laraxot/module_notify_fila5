@@ -1,14 +1,3 @@
----
-title: "decisione basemodel refactoring"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "decisione basemodel refactoring"
-issues: []
-discussions: []
----
-
 # 🎯 DECISIONE: BaseModel Refactoring - Analisi Approfondita
 
 **Data**: 15 Ottobre 2025  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "decisione basemodel refactoring"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "decisione basemodel refactoring"
-issues: []
-discussions: []
 ## 📊 Situazione Attuale (VERIFICATA)
 
 ### Stato dei 18 Moduli

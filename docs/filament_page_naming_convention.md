@@ -1,14 +1,3 @@
----
-title: "filament page naming convention"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament page naming convention"
-issues: []
-discussions: []
----
-
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale

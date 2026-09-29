@@ -1,14 +1,3 @@
----
-title: "dry kiss analysis master"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "dry kiss analysis master"
-issues: []
-discussions: []
----
-
 # 🐄✨ DRY & KISS MASTER ANALYSIS - PROGETTO COMPLETO ✨🐄
 
 **Data Analisi:** 2025-10-15  
@@ -18,14 +7,6 @@ discussions: []
 
 ---
 
-title: "dry kiss analysis master"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "dry kiss analysis master"
-issues: []
-discussions: []
 ## 🎯 EXECUTIVE SUMMARY
 
 ### Dati Globali Progetto

@@ -8,7 +8,6 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Override;
 
 class ListNotifyThemes extends XotBaseListRecords
 {
@@ -54,8 +53,6 @@ class ListNotifyThemes extends XotBaseListRecords
                 fn (): array => NotifyThemeResource::fieldOptions('type'),
             )];
     }
-    public function getTableFilters(): array
-    {
-        return self::getNotifyThemeTableFilters();
-    }
+
+
 }

@@ -1,14 +1,3 @@
----
-title: "editor visuale"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "editor visuale"
-issues: []
-discussions: []
----
-
 # Editor Visuale Template
 
 ## Architettura

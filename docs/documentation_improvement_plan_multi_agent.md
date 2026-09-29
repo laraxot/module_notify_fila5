@@ -1,7 +1,4 @@
 ---
-qmd: "documentation improvement plan multi agent"
-issues: []
-discussions: []
 title: "Documentation Improvement Plan - Multi-Agent Edition"
 module: notify
 type: integration

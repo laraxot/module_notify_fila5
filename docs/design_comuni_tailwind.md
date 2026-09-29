@@ -1,7 +1,4 @@
 ---
-qmd: "design comuni tailwind"
-issues: []
-discussions: []
 title: "Design Comuni con Tailwind CSS Puro"
 module: notify
 type: integration

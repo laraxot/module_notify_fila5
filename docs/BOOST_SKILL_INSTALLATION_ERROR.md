@@ -1,14 +1,3 @@
----
-title: "BOOST SKILL INSTALLATION ERROR"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "BOOST SKILL INSTALLATION ERROR"
-issues: []
-discussions: []
----
-
 # Boost Skill Installation Error Analysis
 
 **Date**: 2026-03-02  

@@ -1,14 +1,3 @@
----
-title: "email templates simplepleb"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "email templates simplepleb"
-issues: []
-discussions: []
----
-
 # Approfondimento: simplepleb/laravel-email-templates
 
 **Repository:** https://github.com/simplepleb/laravel-email-templates

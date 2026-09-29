@@ -1,7 +1,4 @@
 ---
-qmd: "MODULE STRUCTURE"
-issues: []
-discussions: []
 title: "Notify Module — Structure & Discipline"
 module: notify
 type: integration

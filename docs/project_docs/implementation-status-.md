@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "IMPLEMENTATION_STATUS_2025-10-02.deprecated"
 type: concept
 tags: [deprecated]

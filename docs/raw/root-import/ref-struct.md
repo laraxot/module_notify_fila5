@@ -1,7 +1,4 @@
 ---
-qmd: "ref struct"
-issues: []
-discussions: []
 title: 'Ref struct'
 module: Notify
 type: reference

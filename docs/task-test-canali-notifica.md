@@ -1,14 +1,3 @@
----
-title: "task test canali notifica"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "task test canali notifica"
-issues: []
-discussions: []
----
-
 # Task: Test Canali Notifica - Notify
 
 **Modulo**: Notify
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "task test canali notifica"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "task test canali notifica"
-issues: []
-discussions: []
 ## Descrizione
 
 Testare tutti i canali di notifica con mock dei servizi esterni.

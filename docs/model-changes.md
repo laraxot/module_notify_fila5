@@ -1,7 +1,4 @@
 ---
-qmd: "model changes"
-issues: []
-discussions: []
 title: "Modifiche al Modello MailTemplate"
 module: notify
 type: integration

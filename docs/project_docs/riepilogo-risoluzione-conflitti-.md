@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "riepilogo-risoluzione-conflitti-2025-09-30.deprecated"
 type: concept
 tags: [deprecated]

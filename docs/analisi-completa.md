@@ -1,14 +1,3 @@
----
-title: "analisi completa"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analisi completa"
-issues: []
-discussions: []
----
-
 # Analisi Completa del Modulo Notify
 
 ## Indice

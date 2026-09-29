@@ -1,7 +1,4 @@
 ---
-qmd: "git commit push rule"
-issues: []
-discussions: []
 title: "Git Commit & Push Workflow - AI Agent Rules"
 module: notify
 type: integration

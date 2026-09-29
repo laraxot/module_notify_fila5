@@ -1,7 +1,4 @@
 ---
-qmd: "monitoring"
-issues: []
-discussions: []
 title: "Monitoraggio del Modulo Notify"
 module: notify
 type: integration

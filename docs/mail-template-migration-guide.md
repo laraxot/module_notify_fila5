@@ -1,14 +1,3 @@
----
-title: "mail template migration guide"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "mail template migration guide"
-issues: []
-discussions: []
----
-
 # Guida alla Migrazione di MailTemplate
 
 ## Panoramica

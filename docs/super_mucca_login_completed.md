@@ -1,7 +1,4 @@
 ---
-qmd: "super mucca login completed"
-issues: []
-discussions: []
 title: "SUPER MUCCA - LOGIN PAGE COMPLETATA!"
 module: notify
 type: integration

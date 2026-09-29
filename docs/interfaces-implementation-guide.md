@@ -1,14 +1,3 @@
----
-title: "interfaces implementation guide"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "interfaces implementation guide"
-issues: []
-discussions: []
----
-
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce

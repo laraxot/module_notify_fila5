@@ -1,7 +1,4 @@
 ---
-qmd: "models factory seeder"
-issues: []
-discussions: []
 title: "Analisi Modelli, Factory e Seeder - Modulo Notify"
 module: notify
 type: integration

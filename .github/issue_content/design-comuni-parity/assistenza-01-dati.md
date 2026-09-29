@@ -1,14 +1,3 @@
----
-title: "assistenza 01 dati"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "assistenza 01 dati"
-issues: []
-discussions: []
----
-
 # Converti pagina: Assistenza - Dati (assistenza-01-dati.html)
 
 ## Obiettivo
