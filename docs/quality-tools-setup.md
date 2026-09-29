@@ -1,7 +1,4 @@
 ---
-qmd: "quality tools setup"
-issues: []
-discussions: []
 title: "Setup strumenti qualità codice"
 module: notify
 type: integration

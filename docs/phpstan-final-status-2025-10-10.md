@@ -1,14 +1,3 @@
----
-title: "phpstan final status 2025 10 10"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan final status 2025 10 10"
-issues: []
-discussions: []
----
-
 # PHPStan Final Status Report
 
 **Data**: 2025-10-10T11:55:17+02:00  
@@ -332,14 +321,6 @@ Gli errori rimanenti (13,996) sono **SOLO nei test** e sono opzionali da corregg
 
 ---
 
-title: "phpstan final status 2025 10 10"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan final status 2025 10 10"
-issues: []
-discussions: []
 **Report generato**: 2025-10-10T11:55:17+02:00  
 **Analista**: Cascade AI  
 **Livello PHPStan**: MAX (9)  

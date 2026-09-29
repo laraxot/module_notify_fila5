@@ -1,8 +1,4 @@
 ---
-type: note
-tags: [documentation]
-issues: []
-discussions: []
 id: "notify-netfun-conflict-markers"
 title: "Notify: marker in SendNetfunSMSAction + lang"
 status: review

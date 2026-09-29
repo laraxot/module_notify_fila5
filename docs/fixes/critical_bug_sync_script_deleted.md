@@ -1,14 +1,3 @@
----
-title: "critical bug sync script deleted"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "critical bug sync script deleted"
-issues: []
-discussions: []
----
-
 # 🚨 CRITICAL BUG: sync_remote_repo.sh Deleted
 
 > **Date**: 2026-03-13  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "critical bug sync script deleted"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "critical bug sync script deleted"
-issues: []
-discussions: []
 ## 🐛 What Happened
 
 **File**: `bashscripts/git/subtrees/sync_remote_repo.sh`  

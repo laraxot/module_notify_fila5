@@ -1,12 +1,4 @@
 ---
-title: "no model extends eloquent directly.story"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "no model extends eloquent directly.story"
-issues: []
-discussions: []
 name: no-model-extends-eloquent-directly
 description: Theme/EmailTemplate/NotificationType extended Eloquent Model directly instead of Notify's own BaseModel
 metadata:

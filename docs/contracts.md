@@ -1,7 +1,4 @@
 ---
-qmd: "contracts"
-issues: []
-discussions: []
 title: "Contracts"
 module: notify
 type: integration

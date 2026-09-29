@@ -1,14 +1,3 @@
----
-title: "installazione"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "installazione"
-issues: []
-discussions: []
----
-
 # Superpowers - Installazione e Configurazione
 
 ## Panoramica
@@ -93,12 +82,4 @@ Per pinning versione specifica:
 
 ---
 
-title: "installazione"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "installazione"
-issues: []
-discussions: []
 *Documento creato: 2026-03-31*

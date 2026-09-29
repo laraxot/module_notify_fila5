@@ -1,14 +1,3 @@
----
-title: "advanced template system"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "advanced template system"
-issues: []
-discussions: []
----
-
 # Architettura del Sistema di Notifiche - Best Practices
 
 ## Introduzione

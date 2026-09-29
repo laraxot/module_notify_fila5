@@ -1,14 +1,3 @@
----
-title: "pagine create"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "pagine create"
-issues: []
-discussions: []
----
-
 # Pagine Create - FixCity Sixteen Theme
 
 ## Data: {{ date('Y-m-d') }}

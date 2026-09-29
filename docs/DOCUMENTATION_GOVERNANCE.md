@@ -1,14 +1,3 @@
----
-title: "DOCUMENTATION GOVERNANCE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "DOCUMENTATION GOVERNANCE"
-issues: []
-discussions: []
----
-
 # Documentation Governance Framework
 
 **Version**: 1.0  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "DOCUMENTATION GOVERNANCE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "DOCUMENTATION GOVERNANCE"
-issues: []
-discussions: []
 ## 🎯 Purpose
 
 This document establishes the governance framework for all documentation in the FixCity platform, ensuring consistency, quality, and maintainability across all modules and themes.

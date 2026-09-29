@@ -1,14 +1,3 @@
----
-title: "PROGETTO COMPLETATO 100 PERCENTO"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "PROGETTO COMPLETATO 100 PERCENTO"
-issues: []
-discussions: []
----
-
 # 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
 
 **Data**: 1 Ottobre 2025 - Ore 22:30  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "PROGETTO COMPLETATO 100 PERCENTO"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "PROGETTO COMPLETATO 100 PERCENTO"
-issues: []
-discussions: []
 ## 🎉 RISULTATO FINALE
 
 ```

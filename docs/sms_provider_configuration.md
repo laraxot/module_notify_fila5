@@ -1,14 +1,3 @@
----
-title: "sms provider configuration"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sms provider configuration"
-issues: []
-discussions: []
----
-
 # Configurazione Corretta dei Provider SMS 
 
 ## Regola Fondamentale

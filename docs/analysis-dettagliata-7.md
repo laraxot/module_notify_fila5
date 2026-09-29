@@ -1,14 +1,3 @@
----
-title: "analysis dettagliata 7"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analysis dettagliata 7"
-issues: []
-discussions: []
----
-
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
 
 ## 7. Manutenzione e Backup
@@ -652,3 +641,5 @@ class MaintainTemplatesCommand extends Command
         return 0;
     }
 } 
+
+```

@@ -1,14 +1,3 @@
----
-title: "duplicate methods"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "duplicate methods"
-issues: []
-discussions: []
----
-
 # Analisi Metodi Duplicati - Modulo Notify
 
 **Totale Gruppi di Duplicati**: 
@@ -63,14 +52,6 @@ public function linkable(): void
 
 ---
 
-title: "duplicate methods"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "duplicate methods"
-issues: []
-discussions: []
 ### 2. Metodo: `make`
 
 **Tipo Refactoring**: `Trait` | **Complessità**: 🟢 Low | **Confidenza**: ✅ 100%

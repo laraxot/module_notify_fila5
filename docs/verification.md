@@ -1,7 +1,4 @@
 ---
-qmd: "verification"
-issues: []
-discussions: []
 title: "Verification Report - Compliance and XotBase Refactoring"
 module: notify
 type: integration

@@ -1,14 +1,3 @@
----
-title: "sms driver enum translations"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sms driver enum translations"
-issues: []
-discussions: []
----
-
 # Traduzioni SmsDriverEnum - Modulo Notify
 
 ## Panoramica
@@ -199,11 +188,3 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ---
 
-title: "sms driver enum translations"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sms driver enum translations"
-issues: []
-discussions: []

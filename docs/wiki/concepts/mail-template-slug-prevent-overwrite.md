@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "MailTemplate slug — preventOverwrite obbligatorio"
 type: concept
 status: canonical

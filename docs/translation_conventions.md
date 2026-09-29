@@ -1,14 +1,3 @@
----
-title: "translation conventions"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translation conventions"
-issues: []
-discussions: []
----
-
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali

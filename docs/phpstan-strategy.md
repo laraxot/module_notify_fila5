@@ -1,14 +1,3 @@
----
-title: "phpstan strategy"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan strategy"
-issues: []
-discussions: []
----
-
 # Strategia Correzione Errori PHPStan - SendEmailPage.php
 
 **File**: `app/Filament/Clusters/Test/Pages/SendEmailPage.php`

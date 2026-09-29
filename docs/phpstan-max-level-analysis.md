@@ -1,9 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
-issues: []
-discussions: []
->>>>>>> laraxot/dev
 title: "phpstan-max-level-analysis-2025-10-10"
 type: concept
 tags: [deprecated]

@@ -1,14 +1,3 @@
----
-title: "skills reference"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "skills reference"
-issues: []
-discussions: []
----
-
 # 🦸 Superpowers Skills Reference
 
 > **Last Updated**: 2026-03-31  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "skills reference"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "skills reference"
-issues: []
-discussions: []
 ## 📋 Overview
 
 This document lists all available Superpowers skills with descriptions, triggers, and examples.

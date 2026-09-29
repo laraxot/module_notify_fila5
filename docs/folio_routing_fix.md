@@ -1,7 +1,4 @@
 ---
-qmd: "folio routing fix"
-issues: []
-discussions: []
 title: "Fix Routing Folio per Login Page"
 module: notify
 type: integration

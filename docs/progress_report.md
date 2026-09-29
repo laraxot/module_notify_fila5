@@ -1,14 +1,3 @@
----
-title: "progress report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "progress report"
-issues: []
-discussions: []
----
-
 # 📊 FIXCITY PROJECT - PROGRESS REPORT
 
 **Data Report**: 2025-01-01  
@@ -18,14 +7,6 @@ discussions: []
 
 ---
 
-title: "progress report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "progress report"
-issues: []
-discussions: []
 ## 🎯 Executive Summary
 
 Il progetto **FixCity** ha comple

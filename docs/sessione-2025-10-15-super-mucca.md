@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-=======
----
-title: "sessione 2025 10 15 super mucca"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sessione 2025 10 15 super mucca"
-issues: []
-discussions: []
----
-
->>>>>>> laraxot/dev
 # 🐮 Sessione Super Mucca - 2025-10-15
 
 ## 🎯 Obiettivo
@@ -20,17 +6,6 @@ Analizzare e documentare la necessità di creare `XotBasePivot` seguendo princip
 
 ---
 
-<<<<<<< HEAD
-=======
-title: "sessione 2025 10 15 super mucca"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sessione 2025 10 15 super mucca"
-issues: []
-discussions: []
->>>>>>> laraxot/dev
 ## ✅ Lavoro Completato
 
 ### 1. Analisi Architettuale Completa (2 ore)

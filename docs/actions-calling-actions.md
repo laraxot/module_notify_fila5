@@ -1,7 +1,4 @@
 ---
-qmd: "actions calling actions"
-issues: []
-discussions: []
 title: "Pattern: Actions che chiamano altre Actions"
 module: notify
 type: integration

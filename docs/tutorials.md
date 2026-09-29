@@ -1,7 +1,4 @@
 ---
-qmd: "tutorials"
-issues: []
-discussions: []
 title: "tutorials"
 module: notify
 type: integration

@@ -1,14 +1,3 @@
----
-title: "conflict resolution recordnotification"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "conflict resolution recordnotification"
-issues: []
-discussions: []
----
-
 # Risoluzione Conflitti RecordNotification.php
 
 ## Contesto del Conflitto

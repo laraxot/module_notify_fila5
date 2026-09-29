@@ -1,8 +1,4 @@
 ---
-tags: [documentation]
-qmd: "notify pest suite database resolver broken.story"
-issues: []
-discussions: []
 title: "Modules/Notify: la suite Pest non riesce a interrogare il database in modo affidabile — la maggior parte dei file di test fallisce per il bootstrap, non per la logica"
 type: story
 module: Notify

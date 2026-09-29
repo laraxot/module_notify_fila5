@@ -1,7 +1,4 @@
 ---
-qmd: "current work"
-issues: []
-discussions: []
 title: "Stato Attuale del Lavoro - 12 Maggio 2025"
 module: notify
 type: integration

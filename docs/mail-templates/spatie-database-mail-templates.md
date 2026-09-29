@@ -1,14 +1,3 @@
----
-title: "spatie database mail templates"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "spatie database mail templates"
-issues: []
-discussions: []
----
-
 # Spatie Laravel Database Mail Templates
 
 ## Introduzione

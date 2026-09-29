@@ -1,14 +1,3 @@
----
-title: "netfun authentication methods"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "netfun authentication methods"
-issues: []
-discussions: []
----
-
 # Autenticazione Netfun SMS
 
 ## Introduzione
@@ -81,12 +70,4 @@ public function send($notifiable, Notification $notification)
 
 ---
 
-title: "netfun authentication methods"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "netfun authentication methods"
-issues: []
-discussions: []
 *Ultimo aggiornamento: [DATE]*

@@ -1,7 +1,4 @@
 ---
-qmd: "real time messaging"
-issues: []
-discussions: []
 title: "Real-time Messaging"
 module: notify
 type: integration

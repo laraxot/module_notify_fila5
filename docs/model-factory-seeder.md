@@ -1,7 +1,4 @@
 ---
-qmd: "model factory seeder"
-issues: []
-discussions: []
 title: "Model/Factory/Seeder Audit"
 module: notify
 type: integration

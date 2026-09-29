@@ -1,7 +1,4 @@
 ---
-qmd: "ai methodologies"
-issues: []
-discussions: []
 title: "AI Methodologies Handbook"
 module: notify
 type: integration

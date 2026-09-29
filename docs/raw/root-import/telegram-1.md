@@ -1,12 +1,21 @@
 ---
-title: "telegram 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "telegram 1"
-issues: []
-discussions: []
+title: "config/services.php"
+type: concept
+tags: [telegram]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "telegram-1 config/services.php"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./agents.md"
+  - "./changelog.md"
+  - "./claude.md"
+  - "./design-conversion-roadmap-1.md"
+  - "./design-conversion-roadmap.md"
+  - "./files-created-session-007-1.md"
+  - "./files-created-session-007.md"
+  - "./files-created-session-replikate.md"
 ---
 
 https://dev.to/millykhamroev/laravel-package-to-integrate-telegram-bot-api-3l6e

@@ -1,7 +1,4 @@
 ---
-qmd: "redundancy analysis"
-issues: []
-discussions: []
 title: "REDUNDANCY ANALYSIS"
 module: notify
 type: integration

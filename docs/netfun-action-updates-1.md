@@ -1,14 +1,3 @@
----
-title: "netfun action updates 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "netfun action updates 1"
-issues: []
-discussions: []
----
-
 # Aggiornamenti a SendNetfunSMSAction
 
 ## Panoramica delle Modifiche
@@ -328,12 +317,4 @@ Questi miglioramenti garantiscono:
 
 ---
 
-title: "netfun action updates 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "netfun action updates 1"
-issues: []
-discussions: []
 *Ultimo aggiornamento: 2023-05-12*

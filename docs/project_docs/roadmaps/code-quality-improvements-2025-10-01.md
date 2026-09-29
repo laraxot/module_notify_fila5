@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-=======
----
-title: "code quality improvements 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "code quality improvements 2025 10 01"
-issues: []
-discussions: []
----
-
->>>>>>> laraxot/dev
 # 🔧 Code Quality Improvements Report – 2025-10-01
 
 ## Executive Summary
@@ -209,17 +195,6 @@ The codebase maintains **PHPStan Level 9 with 0 errors**, demonstrating excellen
 
 ---
 
-<<<<<<< HEAD
-=======
-title: "code quality improvements 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "code quality improvements 2025 10 01"
-issues: []
-discussions: []
->>>>>>> laraxot/dev
 **Report Generated**: 2025-10-01
 **Status**: 🚧 ACTIVE IMPROVEMENT  
 **Confidence Level**: 95%  

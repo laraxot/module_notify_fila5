@@ -1,14 +1,3 @@
----
-title: "tailwind best practices"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "tailwind best practices"
-issues: []
-discussions: []
----
-
 # Best Practices Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Organizzazione del Codice

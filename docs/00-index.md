@@ -1,14 +1,3 @@
----
-title: "00 index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "00 index"
-issues: []
-discussions: []
----
-
 # 📚 **Indice Documentazione Modulo Notify**
 
 **Status**: ✅ PHPStan Level 10 Compliant
@@ -54,14 +43,6 @@ discussions: []
 - [User](../../user/docs/readme.md) - Definizione dei destinatari e preferenze.
 
 ---
-title: "00 index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "00 index"
-issues: []
-discussions: []
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
 
 ## Dependency Intelligence

@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13"
 type: concept
 tags: [deprecated]

@@ -1,14 +1,3 @@
----
-title: "agnostic documentation rule"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agnostic documentation rule"
-issues: []
-discussions: []
----
-
 # Agnostic Documentation Rule
 
 ## Principle
@@ -217,14 +206,6 @@ Replace `[PROJECT_NAME]`, `[DOMAIN]`, and `[ModuleName]` with your actual projec
 
 ---
 
-title: "agnostic documentation rule"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agnostic documentation rule"
-issues: []
-discussions: []
 **Version**: 1.0  
 **Effective Date**: 2026-03-30  
 **Applies To**: All Modules/*/docs/ and Themes/*/docs/ directories

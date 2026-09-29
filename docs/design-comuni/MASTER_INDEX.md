@@ -1,14 +1,3 @@
----
-title: "MASTER INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MASTER INDEX"
-issues: []
-discussions: []
----
-
 # Design Comuni Italia - Master Documentation Index
 
 ## Panoramica Progetto
@@ -30,14 +19,6 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 
 ---
 
-title: "MASTER INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MASTER INDEX"
-issues: []
-discussions: []
 ## 📚 Documentazione per Modulo/Tema
 
 ### 🎨 Tema Sixteen

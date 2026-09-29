@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "corpi metodo duplicati — Notify"
 type: analysis
 module: Notify

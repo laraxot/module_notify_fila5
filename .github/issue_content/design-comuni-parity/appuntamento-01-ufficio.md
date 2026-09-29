@@ -1,14 +1,3 @@
----
-title: "appuntamento 01 ufficio"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "appuntamento 01 ufficio"
-issues: []
-discussions: []
----
-
 # Converti pagina: Appuntamento - Ufficio (appuntamento-01-ufficio.html)
 
 ## Obiettivo

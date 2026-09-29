@@ -1,14 +1,3 @@
----
-title: "THEME SYSTEM DYNAMIC"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "THEME SYSTEM DYNAMIC"
-issues: []
-discussions: []
----
-
 # 🎨 Theme System - Dynamic Theme Registration
 
 **Date**: 2026-03-30  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "THEME SYSTEM DYNAMIC"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "THEME SYSTEM DYNAMIC"
-issues: []
-discussions: []
 ## 🎯 How It Works
 
 ### 1. Theme Configuration

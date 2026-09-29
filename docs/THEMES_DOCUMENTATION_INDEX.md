@@ -1,14 +1,3 @@
----
-title: "THEMES DOCUMENTATION INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "THEMES DOCUMENTATION INDEX"
-issues: []
-discussions: []
----
-
 # Theme Documentation Master Index
 
 **📍 Central Hub for All Theme Documentation**
@@ -17,14 +6,6 @@ Connects all theme docs with bidirectional links and visual architecture.
 
 ---
 
-title: "THEMES DOCUMENTATION INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "THEMES DOCUMENTATION INDEX"
-issues: []
-discussions: []
 ## 🗺️ Active Themes
 
 ### Sixteen - PRIMARY THEME ⭐

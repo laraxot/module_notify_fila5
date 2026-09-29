@@ -1,14 +1,3 @@
----
-title: "implementation"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "implementation"
-issues: []
-discussions: []
----
-
 # Guida all'Implementazione dei Template Email
 
 ## Setup Iniziale

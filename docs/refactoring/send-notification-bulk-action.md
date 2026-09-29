@@ -1,14 +1,3 @@
----
-title: "send notification bulk action"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "send notification bulk action"
-issues: []
-discussions: []
----
-
 # Send Notification Bulk Action - DRY Refactoring
 
 **Status**: 🚧 In Progress
@@ -330,12 +319,4 @@ public function getTableBulkActions(): array
 
 ---
 
-title: "send notification bulk action"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "send notification bulk action"
-issues: []
-discussions: []
 **Next Steps**: Implement Step 1 (Result DTO) and verify architecture.

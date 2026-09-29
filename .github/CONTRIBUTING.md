@@ -1,14 +1,3 @@
----
-title: "CONTRIBUTING"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "CONTRIBUTING"
-issues: []
-discussions: []
----
-
 # Contributing
 
 Contributions are **welcome** and will be fully **credited**.
@@ -67,14 +56,6 @@ If the project maintainer has any additional requirements, you will find them li
 
 ---
 
-title: "CONTRIBUTING"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "CONTRIBUTING"
-issues: []
-discussions: []
 <!-- Merged from contributing.md, which collided with this file on case-insensitive filesystems. -->
 
 # Contributing

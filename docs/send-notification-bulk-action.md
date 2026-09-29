@@ -1,14 +1,3 @@
----
-title: "send notification bulk action"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "send notification bulk action"
-issues: []
-discussions: []
----
-
 # SendNotificationBulkAction - Implementazione Completa
 
 **Status**: ✅ Implementazione completata e PHPStan Level 10 compliant  
@@ -333,14 +322,6 @@ Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
 
 ---
 
-title: "send notification bulk action"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "send notification bulk action"
-issues: []
-discussions: []
 **Ultimo aggiornamento**: [DATE]  
 **PHPStan Level**: ✅ 10  
 **Quality**: ✅ PHPMD, PHPInsights compliant

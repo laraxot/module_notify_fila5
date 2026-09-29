@@ -1,14 +1,3 @@
----
-title: "zen of reuse"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "zen of reuse"
-issues: []
-discussions: []
----
-
 # 🧘 The Zen of Reuse (Filament Components)
 
 ## 🕉️ Philosophy: Centralized Composition
