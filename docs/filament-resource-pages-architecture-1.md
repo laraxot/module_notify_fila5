@@ -1,14 +1,3 @@
----
-title: "filament resource pages architecture 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament resource pages architecture 1"
-issues: []
-discussions: []
----
-
 # Architettura delle Pagine di Risorse Filament
 
 ## Regola Fondamentale

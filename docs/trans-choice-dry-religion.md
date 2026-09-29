@@ -1,14 +1,3 @@
----
-title: "trans choice dry religion"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "trans choice dry religion"
-issues: []
-discussions: []
----
-
 # TransChoice DRY — La Religione dell'Unica Fonte di Verita
 
 **Status**: Active  
@@ -19,14 +8,6 @@ discussions: []
 
 ---
 
-title: "trans choice dry religion"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "trans choice dry religion"
-issues: []
-discussions: []
 ## LA REGOLA AUREA
 
 **UNA chiave `trans_choice` gestisce TUTTI i casi (0, 1, molti).**

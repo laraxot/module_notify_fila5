@@ -1,14 +1,3 @@
----
-title: "lista categorie"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "lista categorie"
-issues: []
-discussions: []
----
-
 # 🎨 Design Comuni: Lista Categorie
 
 ## Pagina
@@ -39,12 +28,4 @@ Da definire dopo l'analisi strutturale.
 - [ ] Documentazione
 
 ---
-title: "lista categorie"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "lista categorie"
-issues: []
-discussions: []
 *Generato automaticamente da bashscripts/design-comuni-parity/create-github-issues.sh*

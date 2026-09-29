@@ -1,7 +1,4 @@
 ---
-qmd: "namespace"
-issues: []
-discussions: []
 title: "Regole Namespace PSR-4 per il Modulo Notify"
 module: notify
 type: integration

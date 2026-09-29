@@ -1,14 +1,3 @@
----
-title: "riepilogo risoluzione conflitti git"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "riepilogo risoluzione conflitti git"
-issues: []
-discussions: []
----
-
 # Riepilogo Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
 # Riepilogo Risoluzione Conflitti Git - Progetto Base Notify Fila3 Mono
 
@@ -204,14 +193,6 @@ composer dump-autoload
 
 ---
 
-title: "riepilogo risoluzione conflitti git"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "riepilogo risoluzione conflitti git"
-issues: []
-discussions: []
 ## Riepilogo Finale
 
 🎯 **Obiettivo Raggiunto**: Tutti i conflitti Git sono stati risolti sistematicamente

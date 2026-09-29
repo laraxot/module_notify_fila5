@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "notify-conflict-check-2026-04-21"
 type: concept
 tags: [deprecated]

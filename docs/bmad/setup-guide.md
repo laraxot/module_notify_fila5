@@ -1,14 +1,3 @@
----
-title: "setup guide"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "setup guide"
-issues: []
-discussions: []
----
-
 # bmad method: setup e configurazione (fixcity)
 
 ## scopo

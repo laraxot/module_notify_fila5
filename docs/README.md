@@ -1,7 +1,4 @@
 ---
-qmd: "README"
-issues: []
-discussions: []
 title: "Notify Module Documentation"
 type: documentation
 tags: [module, documentation]

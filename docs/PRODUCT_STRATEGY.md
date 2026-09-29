@@ -1,7 +1,4 @@
 ---
-qmd: "PRODUCT STRATEGY"
-issues: []
-discussions: []
 title: "Notify Module - Product Strategy"
 module: notify
 type: integration

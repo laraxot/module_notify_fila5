@@ -1,7 +1,4 @@
 ---
-qmd: "modern emailesigns"
-issues: []
-discussions: []
 title: "Pattern di Design per Email Moderne"
 module: notify
 type: integration

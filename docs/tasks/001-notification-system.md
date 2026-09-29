@@ -1,14 +1,3 @@
----
-title: "001 notification system"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "001 notification system"
-issues: []
-discussions: []
----
-
 # Task 001: Implement Multi-Channel Notification System
 
 ## Description
@@ -259,13 +248,5 @@ The Notify module needs a robust multi-channel notification system for sending m
 
 ---
 
-title: "001 notification system"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "001 notification system"
-issues: []
-discussions: []
 **Status**: Pending
 **Assignee**: TBD

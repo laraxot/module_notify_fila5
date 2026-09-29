@@ -1,14 +1,3 @@
----
-title: "quick start"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "quick start"
-issues: []
-discussions: []
----
-
 # 🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI
 
 **Versione**: 1.0  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "quick start"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "quick start"
-issues: []
-discussions: []
 ## 📋 PREREQUISITI
 
 ### Software Richiesto

@@ -1,7 +1,4 @@
 ---
-qmd: "chaos readiness"
-issues: []
-discussions: []
 title: "Notify Chaos Readiness - 2026-03-02"
 module: notify
 type: integration

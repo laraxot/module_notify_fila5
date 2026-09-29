@@ -1,7 +1,4 @@
 ---
-qmd: "case sensitivity"
-issues: []
-discussions: []
 title: "Case Sensitivity Rules - Notify Module"
 module: notify
 type: integration

@@ -1,14 +1,3 @@
----
-title: "mail layouts"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "mail layouts"
-issues: []
-discussions: []
----
-
 # Layout delle Email
 
 ## Introduzione

@@ -1,7 +1,4 @@
 ---
-qmd: "dependency injections"
-issues: []
-discussions: []
 title: "Dependency Injection Pattern in QueueableActions"
 module: notify
 type: integration

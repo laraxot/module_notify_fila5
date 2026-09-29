@@ -1,7 +1,4 @@
 ---
-qmd: "OLLAMA OPTIMIZATION GUIDE"
-issues: []
-discussions: []
 title: "Ollama Optimization Guide - Intel i5-8400 (32GB RAM)"
 module: notify
 type: integration

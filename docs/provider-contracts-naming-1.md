@@ -1,14 +1,3 @@
----
-title: "provider contracts naming 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "provider contracts naming 1"
-issues: []
-discussions: []
----
-
 # Convenzioni di Naming per i Contracts
 
 ## Regola Fondamentale

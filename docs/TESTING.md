@@ -1,8 +1,4 @@
 ---
-updated: 2026-09-26
-qmd: "TESTING"
-issues: []
-discussions: []
 title: "Notify Module Testing"
 type: guide
 tags: [notify, testing, pest]

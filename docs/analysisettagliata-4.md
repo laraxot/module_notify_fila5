@@ -1,14 +1,3 @@
----
-title: "analysisettagliata 4"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analysisettagliata 4"
-issues: []
-discussions: []
----
-
 # Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
 
 ## 4. Integrazione con Filament
@@ -694,3 +683,4 @@ class TemplateTestPage extends Page
         $this->notify('success', 'Email inviata con successo');
     }
 } 
+```

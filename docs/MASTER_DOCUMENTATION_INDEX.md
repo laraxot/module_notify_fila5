@@ -1,14 +1,3 @@
----
-title: "MASTER DOCUMENTATION INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MASTER DOCUMENTATION INDEX"
-issues: []
-discussions: []
----
-
 # 📚 Master Documentation Index
 
 **Ultimo Aggiornamento**: 2026-03-30  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "MASTER DOCUMENTATION INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MASTER DOCUMENTATION INDEX"
-issues: []
-discussions: []
 ## 🎯 Quick Navigation
 
 ### Per Nuovi Arrivati

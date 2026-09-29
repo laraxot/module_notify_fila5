@@ -1,14 +1,3 @@
----
-title: "architecture diagrams"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "architecture diagrams"
-issues: []
-discussions: []
----
-
 # Architecture Diagrams & Visual Reference
 
 **📍 Cross-References:**
@@ -20,14 +9,6 @@ discussions: []
 
 ---
 
-title: "architecture diagrams"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "architecture diagrams"
-issues: []
-discussions: []
 ## System Architecture Overview
 
 ```

@@ -1,7 +1,4 @@
 ---
-qmd: " todo"
-issues: []
-discussions: []
 title: " todo"
 module: notify
 type: integration

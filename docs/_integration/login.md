@@ -1,14 +1,3 @@
----
-title: "login"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "login"
-issues: []
-discussions: []
----
-
 # login
 
 <!-- Contenuto migrato da _docs/login.txt -->

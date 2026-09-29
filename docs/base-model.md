@@ -1,7 +1,4 @@
 ---
-qmd: "base model"
-issues: []
-discussions: []
 title: "BaseModel del Modulo Notify"
 module: notify
 type: integration

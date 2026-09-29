@@ -1,14 +1,3 @@
----
-title: "analisi metodi duplicati master"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analisi metodi duplicati master"
-issues: []
-discussions: []
----
-
 # 🐄✨ ANALISI DIVINA METODI DUPLICATI - MASTER EDITION ✨🐄
 
 **Data Analisi:** 2025-10-15  
@@ -20,14 +9,6 @@ discussions: []
 
 ---
 
-title: "analisi metodi duplicati master"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analisi metodi duplicati master"
-issues: []
-discussions: []
 ## 🎯 Executive Summary Ultra-Preciso
 
 ### Dati Reali dal Codebase

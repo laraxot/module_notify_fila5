@@ -1,14 +1,3 @@
----
-title: "ISSUE SUBTREE SYNC TEST"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ISSUE SUBTREE SYNC TEST"
-issues: []
-discussions: []
----
-
 # 🧪 Test: Git Subtree Synchronization
 
 > **Created**: 2026-03-13  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "ISSUE SUBTREE SYNC TEST"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ISSUE SUBTREE SYNC TEST"
-issues: []
-discussions: []
 ## 📋 Overview
 
 This issue tracks the testing of git subtree synchronization between the main repository and module repositories.

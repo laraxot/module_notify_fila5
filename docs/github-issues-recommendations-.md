@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.deprecated"
 type: concept
 tags: [deprecated]

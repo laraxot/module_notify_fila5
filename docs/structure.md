@@ -1,7 +1,4 @@
 ---
-qmd: "structure"
-issues: []
-discussions: []
 title: "Modulo Notify"
 module: notify
 type: integration

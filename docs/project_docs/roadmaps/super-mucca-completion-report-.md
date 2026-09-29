@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "SUPER_MUCCA_COMPLETION_REPORT_2025-10-01.deprecated"
 type: concept
 tags: [deprecated]

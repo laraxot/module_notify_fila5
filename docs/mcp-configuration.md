@@ -1,7 +1,4 @@
 ---
-qmd: "mcp configuration"
-issues: []
-discussions: []
 title: "MCP Server Configuration - Notify Module"
 module: notify
 type: integration

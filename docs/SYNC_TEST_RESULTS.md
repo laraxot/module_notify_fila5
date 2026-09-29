@@ -1,7 +1,4 @@
 ---
-qmd: "SYNC TEST RESULTS"
-issues: []
-discussions: []
 title: "SYNC TEST RESULTS"
 module: notify
 type: integration

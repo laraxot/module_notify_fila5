@@ -1,7 +1,4 @@
 ---
-qmd: "graphify map"
-issues: []
-discussions: []
 title: "Notify Module — Mappa Graphify"
 module: notify
 type: integration

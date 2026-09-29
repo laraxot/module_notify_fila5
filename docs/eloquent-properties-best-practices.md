@@ -1,7 +1,4 @@
 ---
-qmd: "eloquent properties best practices"
-issues: []
-discussions: []
 title: "Best Practices per Proprietà Modelli Eloquent - Modulo Notify"
 module: notify
 type: integration

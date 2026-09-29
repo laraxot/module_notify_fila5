@@ -1,14 +1,3 @@
----
-title: "analysis dettagliata 5"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analysis dettagliata 5"
-issues: []
-discussions: []
----
-
 # Analisi Dettagliata del Modulo Notify - Parte 5: Testing
 
 ## 5. Testing

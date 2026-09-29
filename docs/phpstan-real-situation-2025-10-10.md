@@ -1,14 +1,3 @@
----
-title: "phpstan real situation 2025 10 10"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan real situation 2025 10 10"
-issues: []
-discussions: []
----
-
 # PHPStan - Situazione Reale e Piano Correzione
 
 **Data**: 2025-10-10T09:39:07+02:00  
@@ -174,13 +163,5 @@ private function unusedMethod(): string
 
 ---
 
-title: "phpstan real situation 2025 10 10"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan real situation 2025 10 10"
-issues: []
-discussions: []
 **Aggiornato**: 2025-10-10T09:39:07+02:00  
 **Tempo rimanente stimato**: 17-19 ore

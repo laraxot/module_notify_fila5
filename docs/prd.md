@@ -1,14 +1,3 @@
----
-title: "prd"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "prd"
-issues: []
-discussions: []
----
-
 # PRD: Notify Module
 
 ## 📋 Overview
@@ -24,14 +13,6 @@ Specialized logic for Notify needs a dedicated, type-safe Module to ensure maint
 - **Goal 2:** Seamless integration with XotBase.
 ---
 
-title: "prd"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "prd"
-issues: []
-discussions: []
 <!-- Merged from PRD.md, which collided with this file on case-insensitive filesystems. -->
 
 ---

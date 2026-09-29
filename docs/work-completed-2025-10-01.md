@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-=======
----
-title: "work completed 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "work completed 2025 10 01"
-issues: []
-discussions: []
----
-
->>>>>>> laraxot/dev
 # ✅ LAVORO COMPLETATO - 2025-10-01
 
 **Data**: 2025-10-01  
@@ -20,17 +6,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
-title: "work completed 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "work completed 2025 10 01"
-issues: []
-discussions: []
->>>>>>> laraxot/dev
 ## 🎯 OBIETTIVO
 
 Aggiornare e sincronizzare tutte le roadmap e la documentazione dei moduli e temi del progetto FixCity,

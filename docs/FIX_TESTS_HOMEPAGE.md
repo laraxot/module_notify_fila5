@@ -1,14 +1,3 @@
----
-title: "FIX TESTS HOMEPAGE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "FIX TESTS HOMEPAGE"
-issues: []
-discussions: []
----
-
 # ✅ Fix Applicati - Tests Homepage
 
 ## Problemi Risolti

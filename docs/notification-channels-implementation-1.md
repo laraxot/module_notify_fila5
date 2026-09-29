@@ -1,14 +1,3 @@
----
-title: "notification channels implementation 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "notification channels implementation 1"
-issues: []
-discussions: []
----
-
 # Implementazione dei Canali di Notifica
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
@@ -158,8 +147,8 @@ L'architettura implementata facilita la manutenibilità:
 L'implementazione dei canali di notifica  segue un'architettura coerente e ben strutturata, basata sul pattern Factory. Questo approccio garantisce separazione delle responsabilità, riutilizzabilità, testabilità e manutenibilità, facilitando l'estensione del sistema con nuovi provider e tipi di comunicazione.
 
 ## Collegamenti a Documentazione Correlata
-- [Modulo di Notifica](./INDEX.md)
-- [Panoramica dell'Architettura](./ARCHITECTURE.md)
+- [Modulo di Notifica](./index.md)
+- [Panoramica dell'Architettura](./architecture.md)
 - [Modelli di Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)

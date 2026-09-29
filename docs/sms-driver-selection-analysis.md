@@ -1,14 +1,3 @@
----
-title: "sms driver selection analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sms driver selection analysis"
-issues: []
-discussions: []
----
-
 # Analisi: Spostamento Logica Selezione Driver in SmsData
 
 ## Contesto Attuale

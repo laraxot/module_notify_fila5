@@ -1,14 +1,3 @@
----
-title: "roadmap project"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap project"
-issues: []
-discussions: []
----
-
 # 🚀 ROADMAP GENERALE - FixCity Platform
 
 ## 📋 Sommario Esecutivo
@@ -21,14 +10,6 @@ discussions: []
 
 ---
 
-title: "roadmap project"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap project"
-issues: []
-discussions: []
 ## 🎯 Obiettivi Strategici
 
 ### 1. Completare le Funzionalità Core (Priorità Alta)

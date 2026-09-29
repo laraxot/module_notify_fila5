@@ -1,14 +1,3 @@
----
-title: "translation file correction guide"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translation file correction guide"
-issues: []
-discussions: []
----
-
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione

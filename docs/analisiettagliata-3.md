@@ -1,14 +1,3 @@
----
-title: "analisiettagliata 3"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analisiettagliata 3"
-issues: []
-discussions: []
----
-
 # Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 
 ## 3. Servizi Core

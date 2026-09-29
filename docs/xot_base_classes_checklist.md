@@ -1,14 +1,3 @@
----
-title: "xot base classes checklist"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "xot base classes checklist"
-issues: []
-discussions: []
----
-
 # Checklist: Verifica Classi Base Xot
 
 ## 1. Import

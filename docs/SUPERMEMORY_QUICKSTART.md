@@ -1,14 +1,3 @@
----
-title: "SUPERMEMORY QUICKSTART"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SUPERMEMORY QUICKSTART"
-issues: []
-discussions: []
----
-
 # SuperMemory - AI Memory Infrastructure
 
 **Project**: FixCity Platform  
@@ -206,12 +195,4 @@ supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 
 ---
 
-title: "SUPERMEMORY QUICKSTART"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SUPERMEMORY QUICKSTART"
-issues: []
-discussions: []
 *This document follows DRY+KISS principles. For general MCP server info, see the master doc.*

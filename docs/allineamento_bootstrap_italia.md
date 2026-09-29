@@ -1,14 +1,3 @@
----
-title: "allineamento bootstrap italia"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "allineamento bootstrap italia"
-issues: []
-discussions: []
----
-
 # 🎯 Allineamento HTML con Bootstrap Italia
 
 ## Problema
@@ -19,14 +8,6 @@ Creare componenti compatibili Bootstrap Italia.
 
 ---
 
-title: "allineamento bootstrap italia"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "allineamento bootstrap italia"
-issues: []
-discussions: []
 ## Componenti da Fixare
 
 ### 1. Hero Homepage

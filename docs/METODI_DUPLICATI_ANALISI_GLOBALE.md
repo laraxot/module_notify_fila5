@@ -1,14 +1,3 @@
----
-title: "METODI DUPLICATI ANALISI GLOBALE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "METODI DUPLICATI ANALISI GLOBALE"
-issues: []
-discussions: []
----
-
 # 🐮 ANALISI GLOBALE METODI DUPLICATI
 ## Super Cow Edition - FixCity Project
 
@@ -18,14 +7,6 @@ discussions: []
 
 ---
 
-title: "METODI DUPLICATI ANALISI GLOBALE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "METODI DUPLICATI ANALISI GLOBALE"
-issues: []
-discussions: []
 ## 🎯 Executive Summary
 
 ### 💰 Impatto Economico

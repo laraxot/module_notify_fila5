@@ -1,14 +1,3 @@
----
-title: "README ANALISI DUPLICATI"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "README ANALISI DUPLICATI"
-issues: []
-discussions: []
----
-
 # 🐄 Analisi Metodi Duplicati - Guida Rapida
 
 ## 📍 Dove Trovare i Documenti
@@ -233,14 +222,6 @@ A: 5 settimane totali, ma benefici visibili già dopo Fase 1.
 
 ---
 
-title: "README ANALISI DUPLICATI"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "README ANALISI DUPLICATI"
-issues: []
-discussions: []
 **🐄 Super Mucca Approved**: Documento basato su analisi REALE del codice con confidenza 99.9%.
 
 **Ultima Revisione**: 15 Ottobre 2025

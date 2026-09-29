@@ -1,14 +1,3 @@
----
-title: "product roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "product roadmap"
-issues: []
-discussions: []
----
-
 # Notify Module - Product Roadmap
 
 **Module:** Notify  
@@ -19,14 +8,6 @@ discussions: []
 
 ---
 
-title: "product roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "product roadmap"
-issues: []
-discussions: []
 ## Vision Statement
 
 To build a **unified notification system** that delivers the right message to the right user at the right time through their preferred channel, driving engagement while respecting user preferences.

@@ -1,8 +1,4 @@
 ---
-updated: 2026-09-26
-qmd: "PHILOSOPHY"
-issues: []
-discussions: []
 title: Notify Module Philosophy
 type: manifesto
 tags: [notify, philosophy, architecture, async]

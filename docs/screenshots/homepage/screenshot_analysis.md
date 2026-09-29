@@ -1,14 +1,3 @@
----
-title: "screenshot analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "screenshot analysis"
-issues: []
-discussions: []
----
-
 # 📸 Screenshot Analysis - Homepage FixCity
 # 📸 Screenshot Analysis - Homepage Notify
 
@@ -37,14 +26,6 @@ URL: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 
 ---
 
-title: "screenshot analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "screenshot analysis"
-issues: []
-discussions: []
 ### 2. Hero Section
 ```
 Screenshot: hero_bootstrap_italia.png

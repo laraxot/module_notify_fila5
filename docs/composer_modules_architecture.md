@@ -1,7 +1,4 @@
 ---
-qmd: "composer modules architecture"
-issues: []
-discussions: []
 title: "Composer & Laravel-Modules Architecture"
 module: notify
 type: integration

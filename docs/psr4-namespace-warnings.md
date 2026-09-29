@@ -1,14 +1,3 @@
----
-title: "psr4 namespace warnings"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "psr4 namespace warnings"
-issues: []
-discussions: []
----
-
 # PSR-4 Namespace Warnings - Modulo Notify
 
 ## ⚠️ Warning Rilevati
@@ -100,14 +89,6 @@ php artisan optimize:clear
 
 ---
 
-title: "psr4 namespace warnings"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "psr4 namespace warnings"
-issues: []
-discussions: []
 **Verifica**: Gennaio 2025  
 **Status**: ✅ File conformi PSR-4  
 **Azione**: Nessuna (già corretti)

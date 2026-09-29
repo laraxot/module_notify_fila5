@@ -1,11 +1,4 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design comuni page replication"
-issues: []
-discussions: []
 name: Design Comuni Page Replication
 about: Replicate a static page from Design Comuni Italia
 title: '[DESIGN COMUNI] Replicate [pagina-name].html'

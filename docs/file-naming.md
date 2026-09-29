@@ -1,7 +1,4 @@
 ---
-qmd: "file naming"
-issues: []
-discussions: []
 title: "Regole di Naming per File"
 module: notify
 type: integration

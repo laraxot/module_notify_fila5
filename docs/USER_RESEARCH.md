@@ -1,7 +1,4 @@
 ---
-qmd: "USER RESEARCH"
-issues: []
-discussions: []
 title: "Notify Module - User Research"
 module: notify
 type: integration
