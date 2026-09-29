@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "final implementation report 2025 10 02"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "final implementation report 2025 10 02"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ AGID Implementation - Final Report
 
 **Date**: 2025-10-02T20:48:00+02:00  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "final implementation report 2025 10 02"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "final implementation report 2025 10 02"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Obiettivo Raggiunto
 
 **Implementazione completa AGID compliance per FixCity**
