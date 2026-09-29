@@ -1,14 +1,3 @@
----
-title: "completion summary 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "completion summary 2025 10 01"
-issues: []
-discussions: []
----
-
 # 🏆 FixCity Project Completion Summary – 2025-10-01
 
 ## Executive Summary
@@ -29,14 +18,6 @@ Diventare la piattaforma civic tech leader in Italia con:
 
 ---
 
-title: "completion summary 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "completion summary 2025 10 01"
-issues: []
-discussions: []
 ## 📊 Stato Attuale (2025-10-01)
 
 ### Moduli Principali

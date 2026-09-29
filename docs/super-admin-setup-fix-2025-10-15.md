@@ -1,14 +1,3 @@
----
-title: "super admin setup fix 2025 10 15"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "super admin setup fix 2025 10 15"
-issues: []
-discussions: []
----
-
 # Fix Super Admin Setup - Tabella Roles Mancante
 
 **Data**: 15 Ottobre 2025  

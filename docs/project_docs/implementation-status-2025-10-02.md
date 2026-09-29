@@ -1,14 +1,3 @@
----
-title: "implementation status 2025 10 02"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "implementation status 2025 10 02"
-issues: []
-discussions: []
----
-
 # ✅ AGID Implementation Status - 02/10/2025
 
 ## 🎯 Completato Oggi

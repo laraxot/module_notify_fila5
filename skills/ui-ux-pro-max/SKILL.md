@@ -1,14 +1,3 @@
----
-title: "SKILL"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SKILL"
-issues: []
-discussions: []
----
-
 # UI/UX Pro Max Skill
 
 ## 🎯 Panoramica
@@ -314,14 +303,6 @@ Agent: "I'll create using:
 
 ---
 
-title: "SKILL"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SKILL"
-issues: []
-discussions: []
 **Version**: 1.0  
 **Date**: 2026-03-30  
 **Status**: ✅ Ready to Use  

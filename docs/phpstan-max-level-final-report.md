@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "phpstan-max-level-final-report-2025-10-10"
 type: concept
 tags: [deprecated]

@@ -1,14 +1,3 @@
----
-title: "phpstan fixes critical"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan fixes critical"
-issues: []
-discussions: []
----
-
 # Correzioni PHPStan Critiche - Modulo Notify
 
 ## 🚨 Problemi Identificati
@@ -44,4 +33,4 @@ Implementato pattern corretto per factory riutilizzabili con namespace dinamico.
 - **Type safety** migliorata per configurazioni
 
 *Ultimo aggiornamento: gennaio 2025*
-*Ultimo aggiornamento: gennaio 2025*
+
