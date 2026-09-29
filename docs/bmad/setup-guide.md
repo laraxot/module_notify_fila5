@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_1s49aj
 <<<<<<< .merge_file_AowJp7
 ---
 title: "Notify — setup guide"
@@ -17,6 +18,8 @@ related:
 
 # Notify — setup guide
 =======
+=======
+>>>>>>> .merge_file_BwfTcl
 # bmad method: setup e configurazione (fixcity)
 >>>>>>> .merge_file_M8fYQ9
 

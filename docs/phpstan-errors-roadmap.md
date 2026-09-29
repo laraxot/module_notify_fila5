@@ -1,14 +1,3 @@
----
-title: "phpstan errors roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan errors roadmap"
-issues: []
-discussions: []
----
-
 # PHPStan Level 10 Errors Roadmap - Notify Module
 
 **Data**: 2026-01-09  
@@ -18,14 +7,6 @@ discussions: []
 
 ---
 
-title: "phpstan errors roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan errors roadmap"
-issues: []
-discussions: []
 ## 📊 Errori Identificati
 
 ### Totale Errori: 4

@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "phpstan-analysis-2026-03-02"
 type: concept
 tags: [deprecated]

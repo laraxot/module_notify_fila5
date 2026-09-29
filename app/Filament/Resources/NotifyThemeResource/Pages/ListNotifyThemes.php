@@ -54,5 +54,12 @@ class ListNotifyThemes extends XotBaseListRecords
             )];
     }
 
+<<<<<<< .merge_file_1cSPaL
 
+=======
+    public function getTableFilters(): array
+    {
+        return self::getNotifyThemeTableFilters();
+    }
+>>>>>>> .merge_file_qjwZIe
 }

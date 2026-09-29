@@ -51,5 +51,12 @@ class ListNotifications extends XotBaseListRecords
                 ->multiple()];
     }
 
+<<<<<<< .merge_file_tY7ZiH
 
+=======
+    public function getTableFilters(): array
+    {
+        return self::notificationTableFilters();
+    }
+>>>>>>> .merge_file_8lLjEo
 }

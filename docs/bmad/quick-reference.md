@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_OXwiRu
 <<<<<<< .merge_file_dO12SL
 ---
 title: "Notify — quick reference"
@@ -64,6 +65,8 @@ related:
 
 | Action | File | Scopo |
 =======
+=======
+>>>>>>> .merge_file_dG5whE
 # bmad method: quick reference (fixcity)
 # bmad method: quick reference (laraxot)
 
