@@ -1,4 +1,7 @@
 ---
+qmd: "DESIGN COMUNI INTEGRATION COMPLETE.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: DESIGN_COMUNI_INTEGRATION_COMPLETE.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "examples"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "examples"
+issues: []
+discussions: []
+---
+
 # Example Patterns
 
 ## Error Handling

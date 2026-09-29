@@ -1,4 +1,7 @@
 ---
+qmd: "product requirements"
+issues: []
+discussions: []
 title: "Product Requirements Document (PRD)"
 module: notify
 type: integration

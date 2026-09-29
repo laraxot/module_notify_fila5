@@ -1,4 +1,7 @@
 ---
+qmd: "allineamento bootstrap italia"
+issues: []
+discussions: []
 title: "Allineamento HTML con Bootstrap Italia"
 module: notify
 type: integration

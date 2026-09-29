@@ -1,3 +1,14 @@
+---
+title: "smtp testing analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "smtp testing analysis"
+issues: []
+discussions: []
+---
+
 # Analisi del Sistema di Test SMTP
 
 ## Panoramica

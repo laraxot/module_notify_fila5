@@ -1,4 +1,7 @@
 ---
+qmd: "sessione analisi homepage.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: SESSIONE_ANALISI_HOMEPAGE.md"
 module: Notify
 type: note

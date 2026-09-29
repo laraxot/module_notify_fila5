@@ -1,4 +1,7 @@
 ---
+qmd: "optimization consolidated"
+issues: []
+discussions: []
 title: "optimization — Consolidated Documentation"
 module: notify
 type: integration

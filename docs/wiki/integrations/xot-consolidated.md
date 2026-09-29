@@ -1,4 +1,7 @@
 ---
+qmd: "xot consolidated"
+issues: []
+discussions: []
 title: "xot — Consolidated Documentation"
 module: notify
 type: integration

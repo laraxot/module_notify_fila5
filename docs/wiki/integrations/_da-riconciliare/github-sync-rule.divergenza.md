@@ -1,4 +1,7 @@
 ---
+qmd: "github sync rule.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: GITHUB_SYNC_RULE.md"
 module: Notify
 type: note

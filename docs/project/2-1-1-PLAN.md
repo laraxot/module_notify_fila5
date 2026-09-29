@@ -1,3 +1,14 @@
+---
+title: "2 1 1 PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "2 1 1 PLAN"
+issues: []
+discussions: []
+---
+
 # PHASE 2 - EPIC 2.1 - TASK 1: Create /my-tickets Folio Page
 
 ## Goal

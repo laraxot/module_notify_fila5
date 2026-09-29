@@ -1,3 +1,14 @@
+---
+title: "path and interface"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "path and interface"
+issues: []
+discussions: []
+---
+
 # Regole di Percorso e Interfacce nel Modulo Notify
 
 ## Principi Fondamentali

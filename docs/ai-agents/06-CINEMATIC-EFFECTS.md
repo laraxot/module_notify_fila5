@@ -1,3 +1,14 @@
+---
+title: "06 CINEMATIC EFFECTS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "06 CINEMATIC EFFECTS"
+issues: []
+discussions: []
+---
+
 # 🎨 Cinematic Effects & Particles
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -5,6 +16,14 @@
 
 ---
 
+title: "06 CINEMATIC EFFECTS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "06 CINEMATIC EFFECTS"
+issues: []
+discussions: []
 ## 📋 Quick Reference
 
 ### CSS-only Particles (Recommended)

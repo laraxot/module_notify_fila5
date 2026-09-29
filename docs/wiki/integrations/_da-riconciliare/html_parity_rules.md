@@ -1,4 +1,7 @@
 ---
+qmd: "html parity rules"
+issues: []
+discussions: []
 title: "HTML Parity Analysis Rules"
 module: notify
 type: integration

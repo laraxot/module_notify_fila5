@@ -1,4 +1,7 @@
 ---
+qmd: "PHPSTAN FIX COORDINATION"
+issues: []
+discussions: []
 title: "PHPStan Fix Coordination Plan"
 module: notify
 type: integration

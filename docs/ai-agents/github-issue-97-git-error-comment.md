@@ -1,3 +1,14 @@
+---
+title: "github issue 97 git error comment"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "github issue 97 git error comment"
+issues: []
+discussions: []
+---
+
 ## 🔧 Git Error Resolved: "Does Not Have Our Version"
 
 ### Error Encountered
@@ -139,4 +150,12 @@ During work:
 
 ---
 
+title: "github issue 97 git error comment"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "github issue 97 git error comment"
+issues: []
+discussions: []
 Ready for tomorrow's real data testing! 🚀

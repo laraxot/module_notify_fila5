@@ -1,4 +1,7 @@
 ---
+qmd: "TAILWIND CSS MIGRATION COMPLETE"
+issues: []
+discussions: []
 title: "Design Comuni con Tailwind CSS Puro - Completato"
 module: notify
 type: integration

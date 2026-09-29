@@ -1,4 +1,7 @@
 ---
+qmd: "theme system dynamic"
+issues: []
+discussions: []
 title: "Theme System - Dynamic Theme Registration"
 module: notify
 type: integration

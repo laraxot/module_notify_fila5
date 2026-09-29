@@ -1,4 +1,7 @@
 ---
+qmd: "installazione strumenti"
+issues: []
+discussions: []
 title: "Installazione Strumenti di Sviluppo"
 module: notify
 type: integration

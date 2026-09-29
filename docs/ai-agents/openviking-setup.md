@@ -1,3 +1,14 @@
+---
+title: "openviking setup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "openviking setup"
+issues: []
+discussions: []
+---
+
 # OpenViking Setup
 
 **Path**: `.agents/docs/openviking-setup.md`  

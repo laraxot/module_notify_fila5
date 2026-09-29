@@ -1,4 +1,7 @@
 ---
+qmd: "REFACTORING BASEMODEL ANALISI.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: REFACTORING_BASEMODEL_ANALISI.md"
 module: Notify
 type: note

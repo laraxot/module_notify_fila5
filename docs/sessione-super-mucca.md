@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "SESSIONE-2025-10-15-SUPER-MUCCA"
 type: concept
 tags: [deprecated]

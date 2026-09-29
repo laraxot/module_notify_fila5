@@ -1,3 +1,14 @@
+---
+title: "architect"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architect"
+issues: []
+discussions: []
+---
+
 ### Architect (id: architect)
 Source: .bmad-core/agents/architect.md
 
@@ -83,6 +94,14 @@ dependencies:
 
 ---
 
+title: "architect"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architect"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

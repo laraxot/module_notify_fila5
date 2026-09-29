@@ -1,3 +1,14 @@
+---
+title: "approfondimento completo"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "approfondimento completo"
+issues: []
+discussions: []
+---
+
 # Approfondimento Completo Modulo Notify
 
 ## 1. Architettura del Sistema

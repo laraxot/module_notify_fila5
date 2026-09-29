@@ -1,3 +1,14 @@
+---
+title: "channel vs dto provider selection"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "channel vs dto provider selection"
+issues: []
+discussions: []
+---
+
 # Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
 
 Questo documento analizza i vantaggi e gli svantaggi di spostare la logica di selezione del provider SMS dal canale (`SmsChannel`) al Data Transfer Object (`SmsData`).

@@ -1,4 +1,7 @@
 ---
+qmd: "locations standards"
+issues: []
+discussions: []
 title: "Standard di Posizionamento dei File in Notify"
 module: notify
 type: integration

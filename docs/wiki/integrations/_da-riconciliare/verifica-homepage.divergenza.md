@@ -1,4 +1,7 @@
 ---
+qmd: "verifica homepage.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: verifica-homepage.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "XotBasePivot Executive Summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "XotBasePivot Executive Summary"
+issues: []
+discussions: []
+---
+
 # XotBasePivot - Executive Summary
 
 ## 🎯 Decisione Strategica: APPROVATO
@@ -9,6 +20,14 @@
 
 ---
 
+title: "XotBasePivot Executive Summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "XotBasePivot Executive Summary"
+issues: []
+discussions: []
 ## 📊 The Bottom Line
 
 ### Problema

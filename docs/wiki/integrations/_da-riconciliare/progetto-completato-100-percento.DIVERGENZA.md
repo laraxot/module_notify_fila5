@@ -1,4 +1,7 @@
 ---
+qmd: "progetto completato 100 percento.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: progetto-completato-100-percento.md"
 module: Notify
 type: note

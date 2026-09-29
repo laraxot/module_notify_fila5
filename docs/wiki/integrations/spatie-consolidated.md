@@ -1,4 +1,7 @@
 ---
+qmd: "spatie consolidated"
+issues: []
+discussions: []
 title: "spatie — Consolidated Documentation"
 module: notify
 type: integration

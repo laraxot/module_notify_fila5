@@ -1,4 +1,7 @@
 ---
+qmd: "slug solutions"
+issues: []
+discussions: []
 title: "Analisi Soluzioni per Slug in Filament"
 module: notify
 type: integration

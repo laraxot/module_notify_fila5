@@ -1,4 +1,7 @@
 ---
+qmd: "super mucca docs analysis"
+issues: []
+discussions: []
 title: "SUPER MUCCA - Analisi Completa Documentazione"
 module: notify
 type: integration

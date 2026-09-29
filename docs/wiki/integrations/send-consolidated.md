@@ -1,4 +1,7 @@
 ---
+qmd: "send consolidated"
+issues: []
+discussions: []
 title: "send — Consolidated Documentation"
 module: notify
 type: integration

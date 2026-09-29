@@ -1,4 +1,7 @@
 ---
+qmd: "dry consolidated"
+issues: []
+discussions: []
 title: "dry — Consolidated Documentation"
 module: notify
 type: integration

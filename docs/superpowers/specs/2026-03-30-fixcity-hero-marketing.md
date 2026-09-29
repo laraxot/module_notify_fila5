@@ -1,3 +1,14 @@
+---
+title: "2026 03 30 fixcity hero marketing"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "2026 03 30 fixcity hero marketing"
+issues: []
+discussions: []
+---
+
 # FixCity Hero Marketing Section - Design Spec
 
 ## Overview

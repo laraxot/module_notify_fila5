@@ -1,4 +1,7 @@
 ---
+qmd: "contributing"
+issues: []
+discussions: []
 title: "Contributing to Notify"
 module: notify
 type: integration

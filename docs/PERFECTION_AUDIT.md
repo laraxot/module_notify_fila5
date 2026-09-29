@@ -1,3 +1,14 @@
+---
+title: "PERFECTION AUDIT"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PERFECTION AUDIT"
+issues: []
+discussions: []
+---
+
 # Perfection Audit — Notify Module
 
 **Data**: 2026-09-01
@@ -6,6 +17,14 @@
 
 ---
 
+title: "PERFECTION AUDIT"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PERFECTION AUDIT"
+issues: []
+discussions: []
 ## TL;DR
 
 Notify ha **1,516 file .md** (100% uppercase) con **44 stub vuoti**. Secondo modulo più bloat dopo Xot. Tutti i file violano la convenzione `kebab-case.md`. Ogni file è `SOMETHING.md` maiuscolo.

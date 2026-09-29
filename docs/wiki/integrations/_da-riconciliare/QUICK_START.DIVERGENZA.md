@@ -1,4 +1,7 @@
 ---
+qmd: "QUICK START.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: QUICK_START.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "overview extended"
+issues: []
+discussions: []
 title: "Modulo Notify - Documentazione"
 module: notify
 type: integration

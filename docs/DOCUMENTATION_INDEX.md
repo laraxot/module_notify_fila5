@@ -1,3 +1,14 @@
+---
+title: "DOCUMENTATION INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION INDEX"
+issues: []
+discussions: []
+---
+
 # 📚 Indice Generale Documentazione - Fixcity
 
 > **Navigazione Completa della Documentazione del Progetto**
@@ -13,6 +24,14 @@
 
 ---
 
+title: "DOCUMENTATION INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION INDEX"
+issues: []
+discussions: []
 ## 📖 Overview
 
 ### Documentazione Principale

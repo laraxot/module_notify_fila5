@@ -1,4 +1,7 @@
 ---
+qmd: "missing features.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: missing-features.md"
 module: Notify
 type: note

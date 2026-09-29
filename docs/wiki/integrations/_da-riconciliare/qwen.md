@@ -1,4 +1,7 @@
 ---
+qmd: "qwen"
+issues: []
+discussions: []
 title: "Qwen Added Memories (Modular)"
 module: notify
 type: integration

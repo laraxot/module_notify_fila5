@@ -1,3 +1,14 @@
+---
+title: "send record notification action refactoring"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send record notification action refactoring"
+issues: []
+discussions: []
+---
+
 # Refactoring Report: SendRecordNotificationAction
 
 **Date**: 2025-12-18  
@@ -182,6 +193,14 @@ private function sendNotification(Model $record, string $templateSlug, ChannelEn
 
 ---
 
+title: "send record notification action refactoring"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send record notification action refactoring"
+issues: []
+discussions: []
 **Refactored by**: iFlow CLI  
 **Compliance**: 100% DRY + KISS + Clean Code  
 **Status**: Ready for production deployment

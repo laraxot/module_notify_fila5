@@ -1,3 +1,14 @@
+---
+title: "THEME DOCUMENTATION UPDATE COMPLETE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "THEME DOCUMENTATION UPDATE COMPLETE"
+issues: []
+discussions: []
+---
+
 # Theme Documentation Update - Complete
 
 **Date**: March 30, 2026  
@@ -11,7 +22,7 @@
 - **Purpose**: Single source of truth for theme configuration
 - **Contents**:
   - Active theme: Sixteen
-  - Domain: laraxot.local
+  - Domain: fixcity.local
   - Config path: `laravel/config/localhost/xra.php`
   - Theme detection logic
   - Configuration change instructions
@@ -20,7 +31,7 @@
 - **File**: `laravel/Modules/docs/README.md`
 - **Added**: "Active Theme" section with:
   - Current theme name (Sixteen)
-  - Domain (laraxot.local)
+  - Domain (fixcity.local)
   - Config reference
   - Links to theme documentation
 
@@ -39,7 +50,7 @@
 - **File**: `laravel/Themes/Sixteen/docs/README.md`
 - **Added**: "✅ STATO TEMA" section at top
   - Status: ✅ **TEMA ATTIVO**
-  - Domain: laraxot.local
+  - Domain: fixcity.local
   - Config: `laravel/config/localhost/xra.php` → `pub_theme`
   - Document root: `public_html/`
 
@@ -57,7 +68,7 @@ Each module README now includes:
 ## Active Theme
 
 **Current Theme**: **Sixteen** (AGID/Bootstrap Italia compliant)  
-**Domain**: `laraxot.local`  
+**Domain**: `fixcity.local`  
 **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 
 **Theme Documentation**: [Themes Index](../../Themes/docs/README.md)  
@@ -70,7 +81,7 @@ Each module README now includes:
 3. ✅ Blog
 4. ✅ Cms
 5. ✅ Comment
-6. ✅ App
+6. ✅ Fixcity
 7. ✅ Gdpr
 8. ✅ Geo
 9. ✅ Job
@@ -114,8 +125,8 @@ Each module README now includes:
 | Item | Value |
 |------|-------|
 | **Document Root** | `public_html/` |
-| **APP_URL** | `http://laraxot.local` |
-| **Domain** | `laraxot.local` |
+| **APP_URL** | `http://fixcity.local` |
+| **Domain** | `fixcity.local` |
 | **Config File** | `laravel/config/localhost/xra.php` |
 | **Active Theme** | `Sixteen` |
 | **Config Key** | `pub_theme` |
@@ -140,10 +151,10 @@ Each module README now includes:
 When OpenViking server is running, add these memories:
 
 ```bash
-openviking add-memory "Active Theme: Sixteen (laraxot.local)"
+openviking add-memory "Active Theme: Sixteen (fixcity.local)"
 openviking add-memory "Theme Config: laravel/config/localhost/xra.php → pub_theme"
 openviking add-memory "Document Root: public_html/"
-openviking add-memory "Domain: laraxot.local"
+openviking add-memory "Domain: fixcity.local"
 ```
 
 ## Verification Checklist
@@ -161,6 +172,14 @@ openviking add-memory "Domain: laraxot.local"
 
 ---
 
+title: "THEME DOCUMENTATION UPDATE COMPLETE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "THEME DOCUMENTATION UPDATE COMPLETE"
+issues: []
+discussions: []
 **Status**: ✅ **COMPLETE**  
 **Principles**: DRY ✅ | KISS ✅  
 **Total Time**: ~30 minutes  

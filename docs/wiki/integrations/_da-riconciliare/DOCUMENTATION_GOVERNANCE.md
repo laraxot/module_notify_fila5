@@ -1,4 +1,7 @@
 ---
+qmd: "DOCUMENTATION GOVERNANCE"
+issues: []
+discussions: []
 title: "Documentation Governance Framework"
 module: notify
 type: integration

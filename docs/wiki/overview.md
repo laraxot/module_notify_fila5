@@ -1,3 +1,14 @@
+---
+title: "overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "overview"
+issues: []
+discussions: []
+---
+
 # Wiki Overview
 
 > **Purpose**: High-level synthesis of the entire wiki's knowledge
@@ -6,6 +17,14 @@
 
 ---
 
+title: "overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "overview"
+issues: []
+discussions: []
 ## What is This Wiki?
 
 This is a **Karpathy-style LLM Wiki** — a persistent, LLM-maintained knowledge base where knowledge compounds over time. Instead of re-deriving answers from raw documents per query, the LLM incrementally builds structured, interlinked markdown files.

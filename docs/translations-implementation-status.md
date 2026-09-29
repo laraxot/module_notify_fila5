@@ -1,3 +1,14 @@
+---
+title: "translations implementation status"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translations implementation status"
+issues: []
+discussions: []
+---
+
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica

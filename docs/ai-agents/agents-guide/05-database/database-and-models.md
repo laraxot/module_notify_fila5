@@ -1,3 +1,14 @@
+---
+title: "database and models"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database and models"
+issues: []
+discussions: []
+---
+
 # 5. Database & Models
 
 ### Database Config (Laravel 12 Standard)
@@ -85,3 +96,11 @@ This ensures APP_URL and all other variables remain identical to .env.
 
 ---
 
+title: "database and models"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database and models"
+issues: []
+discussions: []

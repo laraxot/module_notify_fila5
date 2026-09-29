@@ -1,3 +1,14 @@
+---
+title: "semantic html css"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "semantic html css"
+issues: []
+discussions: []
+---
+
 # 🎨 Semantic HTML & CSS - Best Practices
 
 **Path**: `.agents/docs/guidelines/semantic-html-css.md`  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "semantic html css"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "semantic html css"
+issues: []
+discussions: []
 ## 🎯 Philosophy
 
 > "Use elements for their **SEMANTIC MEANING**, not their default styling."
