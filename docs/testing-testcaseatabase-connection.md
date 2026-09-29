@@ -1,3 +1,14 @@
+---
+title: "testing testcaseatabase connection"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "testing testcaseatabase connection"
+issues: []
+discussions: []
+---
+
 # Fix: Notify TestCase - Database Connection Configuration
 
 **Problema**: Test Notify falliscono con InvalidArgumentException per database connection 'notify'
@@ -88,5 +99,13 @@ protected function setUp(): void
 
 ---
 
+title: "testing testcaseatabase connection"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "testing testcaseatabase connection"
+issues: []
+discussions: []
 **Status**: Completed
 **Risultato**: Test Notify ora configurano correttamente le connessioni database

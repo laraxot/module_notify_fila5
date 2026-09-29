@@ -1,3 +1,14 @@
+---
+title: "filament composite contacts column"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament composite contacts column"
+issues: []
+discussions: []
+---
+
 # Colonna Contatti Composite per Filament - Modulo Notify
 
 ## Panoramica
@@ -227,6 +238,14 @@ Questo pattern può essere applicato a:
 
 ---
 
+title: "filament composite contacts column"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament composite contacts column"
+issues: []
+discussions: []
 *Ultimo aggiornamento: [DATE]*  
 *Autore: Sistema Laraxot*  
 *Versione: 1.0*

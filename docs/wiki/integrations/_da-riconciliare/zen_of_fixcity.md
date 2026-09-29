@@ -1,4 +1,7 @@
 ---
+qmd: "zen of fixcity"
+issues: []
+discussions: []
 title: "Zen of <nome progetto> - Complete Philosophy"
 module: notify
 type: integration

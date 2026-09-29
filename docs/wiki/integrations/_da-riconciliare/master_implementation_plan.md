@@ -1,4 +1,7 @@
 ---
+qmd: "master implementation plan"
+issues: []
+discussions: []
 title: "NOTIFY - MASTER IMPLEMENTATION PLAN"
 module: notify
 type: integration

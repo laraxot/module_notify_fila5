@@ -1,4 +1,7 @@
 ---
+qmd: "nested resources"
+issues: []
+discussions: []
 title: "Notify Module - Nested Resource Implementation Guide"
 module: notify
 type: integration

@@ -1,4 +1,7 @@
 ---
+qmd: "BOOST SKILL INSTALLATION ERROR.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: BOOST_SKILL_INSTALLATION_ERROR.md"
 module: Notify
 type: note

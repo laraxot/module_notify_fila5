@@ -1,3 +1,14 @@
+---
+title: "email templates spatie"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email templates spatie"
+issues: []
+discussions: []
+---
+
 # Approfondimento: spatie/laravel-database-mail-templates
 
 **Repository:** https://github.com/spatie/laravel-database-mail-templates

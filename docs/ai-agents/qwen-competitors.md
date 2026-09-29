@@ -1,3 +1,14 @@
+---
+title: "qwen competitors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen competitors"
+issues: []
+discussions: []
+---
+
 # QWEN Competitor Analysis
 
 Analisi dei competitor di prediction market.
@@ -5,6 +16,14 @@ Analisi dei competitor di forecast market.
 
 ---
 
+title: "qwen competitors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen competitors"
+issues: []
+discussions: []
 ## 🎯 Competitor Analysis
 
 ### Polymarket (Leader)

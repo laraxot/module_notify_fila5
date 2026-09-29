@@ -1,3 +1,14 @@
+---
+title: "seasonal email system recommendations"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "seasonal email system recommendations"
+issues: []
+discussions: []
+---
+
 # Raccomandazioni per lo Sviluppo del Sistema Email Stagionali
 
 **Data**: 19 Dicembre 2025  
@@ -224,6 +235,14 @@ Queste raccomandazioni rappresentano un punto di riferimento per tutti gli svilu
 
 ---
 
+title: "seasonal email system recommendations"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "seasonal email system recommendations"
+issues: []
+discussions: []
 **Autore**: iFlow CLI  
 **Data**: 19 Dicembre 2025  
 **Versione**: 1.0  

@@ -1,4 +1,7 @@
 ---
+qmd: "COMPOSER STRATEGY"
+issues: []
+discussions: []
 title: "Laravel-Modules Composer Strategy"
 module: notify
 type: integration

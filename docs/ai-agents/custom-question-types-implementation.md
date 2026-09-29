@@ -1,3 +1,14 @@
+---
+title: "custom question types implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom question types implementation"
+issues: []
+discussions: []
+---
+
 # Custom Question Types Implementation - 2026-03-17
 
 ## Summary
@@ -6,6 +17,14 @@ Implementazione completa delle custom question types da Fila4 a Fila5, con integ
 
 ---
 
+title: "custom question types implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom question types implementation"
+issues: []
+discussions: []
 ## Custom Question Types Implementate
 
 ### 1. RootGroupedBf ✅

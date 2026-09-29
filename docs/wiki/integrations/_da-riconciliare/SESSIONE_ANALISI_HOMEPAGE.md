@@ -1,4 +1,7 @@
 ---
+qmd: "SESSIONE ANALISI HOMEPAGE"
+issues: []
+discussions: []
 title: "Sessione Completata - Homepage Analysis & Documentation"
 module: notify
 type: integration

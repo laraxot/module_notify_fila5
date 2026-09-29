@@ -1,4 +1,8 @@
 ---
+updated: 2026-09-26
+qmd: "api"
+issues: []
+discussions: []
 title: "Notify Module API"
 type: reference
 tags: [notify, api, notifications]

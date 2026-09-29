@@ -1,4 +1,7 @@
 ---
+qmd: "sync remote repo test plan.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: SYNC_REMOTE_REPO_TEST_PLAN.md"
 module: Notify
 type: note

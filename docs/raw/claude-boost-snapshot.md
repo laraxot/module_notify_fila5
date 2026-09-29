@@ -1,3 +1,14 @@
+---
+title: "claude boost snapshot"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude boost snapshot"
+issues: []
+discussions: []
+---
+
 # claudeMd
 Codebase and user instructions are shown below. Be sure to adhere to these instructions. IMPORTANT: These instructions OVERRIDE any default behavior and you MUST follow them exactly as written.
 

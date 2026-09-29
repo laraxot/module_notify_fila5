@@ -1,3 +1,14 @@
+---
+title: "analisi comparativa"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analisi comparativa"
+issues: []
+discussions: []
+---
+
 # Analisi Comparativa: Pagine Segnalazioni
 
 ## Obiettivo

@@ -1,3 +1,14 @@
+---
+title: "test design"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "test design"
+issues: []
+discussions: []
+---
+
 ### Task: test-design
 Source: .bmad-core/tasks/test-design.md
 - How to use: "Use task test-design with the appropriate agent" and paste relevant parts as needed.
@@ -184,6 +195,14 @@ Before finalizing, verify:
 
 ---
 
+title: "test design"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "test design"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

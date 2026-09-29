@@ -1,4 +1,7 @@
 ---
+qmd: "telegram consolidated"
+issues: []
+discussions: []
 title: "telegram — Consolidated Documentation"
 module: notify
 type: integration

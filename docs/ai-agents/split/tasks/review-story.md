@@ -1,3 +1,14 @@
+---
+title: "review story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "review story"
+issues: []
+discussions: []
+---
+
 ### Task: review-story
 Source: .bmad-core/tasks/review-story.md
 - How to use: "Use task review-story with the appropriate agent" and paste relevant parts as needed.
@@ -324,6 +335,14 @@ After review:
 
 ---
 
+title: "review story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "review story"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

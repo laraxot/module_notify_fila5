@@ -1,3 +1,14 @@
+---
+title: "key documentation references"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "key documentation references"
+issues: []
+discussions: []
+---
+
 # Key Documentation References
 
 - `laravel/docs/bug-injection-recovery-playbook.md` - Recovery da bug/file infetti introdotti deliberatamente

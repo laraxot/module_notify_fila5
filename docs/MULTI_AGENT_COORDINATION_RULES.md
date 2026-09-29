@@ -1,4 +1,7 @@
 ---
+qmd: "MULTI AGENT COORDINATION RULES"
+issues: []
+discussions: []
 title: "Multi-Agent AI Coordination - Critical Rules"
 module: notify
 type: integration

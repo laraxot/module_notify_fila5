@@ -1,4 +1,7 @@
 ---
+qmd: "DOCUMENTATION INDEX"
+issues: []
+discussions: []
 title: "Indice Generale Documentazione - App"
 module: notify
 type: integration

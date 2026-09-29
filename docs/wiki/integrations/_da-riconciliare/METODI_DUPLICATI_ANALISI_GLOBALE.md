@@ -1,4 +1,7 @@
 ---
+qmd: "METODI DUPLICATI ANALISI GLOBALE"
+issues: []
+discussions: []
 title: "ANALISI GLOBALE METODI DUPLICATI"
 module: notify
 type: integration

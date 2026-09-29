@@ -1,3 +1,14 @@
+---
+title: "validate next story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "validate next story"
+issues: []
+discussions: []
+---
+
 ### Task: validate-next-story
 Source: .bmad-core/tasks/validate-next-story.md
 - How to use: "Use task validate-next-story with the appropriate agent" and paste relevant parts as needed.
@@ -144,6 +155,14 @@ Provide a structured validation report including:
 
 ---
 
+title: "validate next story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "validate next story"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

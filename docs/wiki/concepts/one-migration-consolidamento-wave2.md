@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "Notify — one migration consolidamento wave 2"
 type: concept
 status: canonical

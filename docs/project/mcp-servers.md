@@ -1,3 +1,14 @@
+---
+title: "mcp servers"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp servers"
+issues: []
+discussions: []
+---
+
 # MCP Servers Configuration
 
 **Ultimo aggiornamento**: 2026-04-09  

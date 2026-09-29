@@ -1,4 +1,7 @@
 ---
+qmd: "FILAMENT 5 UPGRADE COMPLETE"
+issues: []
+discussions: []
 title: "Filament 5 Upgrade - COMPLETO ✅"
 module: notify
 type: integration

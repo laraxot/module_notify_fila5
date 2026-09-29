@@ -1,4 +1,7 @@
 ---
+qmd: "philosophy"
+issues: []
+discussions: []
 title: "Filosofia del Modulo Notify"
 module: notify
 type: integration

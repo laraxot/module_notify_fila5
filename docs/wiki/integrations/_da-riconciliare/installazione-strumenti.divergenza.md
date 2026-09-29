@@ -1,4 +1,7 @@
 ---
+qmd: "installazione strumenti.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: installazione-strumenti.md"
 module: Notify
 type: note

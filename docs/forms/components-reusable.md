@@ -1,3 +1,14 @@
+---
+title: "components reusable"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "components reusable"
+issues: []
+discussions: []
+---
+
 # Componenti Form Riutilizzabili - Notify Module
 
 **Stato**: ✅ Implementato  
@@ -302,5 +313,13 @@ Lo schema deve sempre avere chiavi string per conformità Filament:
 
 ---
 
+title: "components reusable"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "components reusable"
+issues: []
+discussions: []
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Define once, reuse everywhere - DRY over duplication, simplicity over complexity"*

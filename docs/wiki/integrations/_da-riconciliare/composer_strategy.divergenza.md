@@ -1,4 +1,7 @@
 ---
+qmd: "composer strategy.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: COMPOSER_STRATEGY.md"
 module: Notify
 type: note

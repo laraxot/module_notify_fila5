@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "super-admin-setup-fix-2025-10-15"
 type: concept
 tags: [deprecated]

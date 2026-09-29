@@ -1,3 +1,14 @@
+---
+title: "zen of fixcity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "zen of fixcity"
+issues: []
+discussions: []
+---
+
 # 🧘 Zen of FixCity - Complete Philosophy
 
 **Version**: 2.0  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "zen of fixcity"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "zen of fixcity"
+issues: []
+discussions: []
 ## 🎯 The Five Pillars
 
 ### 1. **Git Forward-Only** 🚀

@@ -1,4 +1,7 @@
 ---
+qmd: "AI AGENT TEAMS"
+issues: []
+discussions: []
 title: "AI Agent Teams - Coordination Hub"
 module: notify
 type: integration

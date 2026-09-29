@@ -1,3 +1,14 @@
+---
+title: "theme architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "theme architecture"
+issues: []
+discussions: []
+---
+
 # 🎨 Theme Architecture - "Il Tema è un Vestito"
 
 **Data**: 2026-03-30  
@@ -305,6 +316,14 @@ Tema configurabile
 
 ---
 
+title: "theme architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "theme architecture"
+issues: []
+discussions: []
 **Stato**: ✅ **ARCHITETTURA CORRETTA - Tema Configurabile**  
 **Concetto**: **"Il Tema è un Vestito"**  
 **Registrazione**: **Automatica (NON hardcoded)**  

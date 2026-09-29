@@ -1,3 +1,14 @@
+---
+title: "roadmap master index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap master index"
+issues: []
+discussions: []
+---
+
 # 🗺️ FixCity - Master Roadmap Index
 
 **Progetto**: FixCity - Piattaforma Segnalazione Cittadina  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "roadmap master index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap master index"
+issues: []
+discussions: []
 ## 📋 INDICE ROADMAP MODULI
 
 ### 🔴 PRIORITÀ CRITICA - Da Completare Domani

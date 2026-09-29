@@ -1,4 +1,7 @@
 ---
+qmd: "boost skill solution plan"
+issues: []
+discussions: []
 title: "Boost Skill Installation - Solution Plan"
 module: notify
 type: integration

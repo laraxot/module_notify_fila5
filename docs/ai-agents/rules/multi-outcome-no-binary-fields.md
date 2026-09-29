@@ -1,3 +1,14 @@
+---
+title: "multi outcome no binary fields"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "multi outcome no binary fields"
+issues: []
+discussions: []
+---
+
 # 🔴 MULTI-OUTCOME UNIVERSAL - NO BINARY FIELDS
 
 **Path**: `.agents/docs/rules/multi-outcome-no-binary-fields.md`  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "multi outcome no binary fields"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "multi outcome no binary fields"
+issues: []
+discussions: []
 ## 🎯 The Rule
 
 > **NON ESISTONO** predict di tipo SÌ/NO!

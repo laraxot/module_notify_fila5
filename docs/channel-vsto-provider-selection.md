@@ -1,4 +1,7 @@
 ---
+qmd: "channel vsto provider selection"
+issues: []
+discussions: []
 title: "Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects"
 module: notify
 type: integration

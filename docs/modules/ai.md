@@ -1,3 +1,14 @@
+---
+title: "ai"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ai"
+issues: []
+discussions: []
+---
+
 # Modulo AI – Collegamento Bidirezionale
 
 - Documentazione PHPStan livello 1: [Modules/AI/docs/phpstan/level_1.md](../../Modules/AI/docs/phpstan/level_1.md)
@@ -10,6 +21,14 @@
 
 ---
 
+title: "ai"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ai"
+issues: []
+discussions: []
 ## Descrizione modulo
 Modulo dedicato alle azioni di intelligenza artificiale, sentiment analysis, integrazione con transformers e strumenti correlati.
 

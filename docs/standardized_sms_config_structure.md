@@ -1,3 +1,14 @@
+---
+title: "standardized sms config structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "standardized sms config structure"
+issues: []
+discussions: []
+---
+
 # Struttura Standardizzata della Configurazione SMS
 
 ## Introduzione
@@ -161,4 +172,12 @@ $debug = $config['drivers'][$driver]['debug'] ?? $config['debug'];
 
 ---
 
+title: "standardized sms config structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "standardized sms config structure"
+issues: []
+discussions: []
 *Ultimo aggiornamento: 2025-05-12*

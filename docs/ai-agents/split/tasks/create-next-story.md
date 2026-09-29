@@ -1,3 +1,14 @@
+---
+title: "create next story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "create next story"
+issues: []
+discussions: []
+---
+
 ### Task: create-next-story
 Source: .bmad-core/tasks/create-next-story.md
 - How to use: "Use task create-next-story with the appropriate agent" and paste relevant parts as needed.
@@ -122,6 +133,14 @@ ALWAYS cite source documents: `[Source: architecture/{filename}.md#{section}]`
 
 ---
 
+title: "create next story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "create next story"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

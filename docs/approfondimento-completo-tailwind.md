@@ -1,4 +1,7 @@
 ---
+qmd: "approfondimento completo tailwind"
+issues: []
+discussions: []
 title: "approfondimento completo tailwind"
 module: notify
 type: integration

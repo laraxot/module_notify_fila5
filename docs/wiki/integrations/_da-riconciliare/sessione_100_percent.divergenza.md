@@ -1,4 +1,7 @@
 ---
+qmd: "sessione 100 percent.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: SESSIONE_100_PERCENT.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "tailwind v3 rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tailwind v3 rules"
+issues: []
+discussions: []
+---
+
 === tailwindcss/v3 rules ===
 
 ## Tailwind 3
@@ -8,6 +19,14 @@
 
 ---
 
+title: "tailwind v3 rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tailwind v3 rules"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

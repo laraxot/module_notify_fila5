@@ -1,4 +1,7 @@
 ---
+qmd: "decisione basemodel refactoring.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: decisione-basemodel-refactoring.md"
 module: Notify
 type: note

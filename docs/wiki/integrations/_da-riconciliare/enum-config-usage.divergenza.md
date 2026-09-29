@@ -1,4 +1,7 @@
 ---
+qmd: "enum config usage.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: enum_config_usage.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "agents split index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents split index"
+issues: []
+discussions: []
+---
+
 # agents.md Split Index
 
 > Documentazione agents.md originale spezzata in file più piccoli e organizzati.

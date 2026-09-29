@@ -1,4 +1,7 @@
 ---
+qmd: "dependencies"
+issues: []
+discussions: []
 title: "Dependencies (Module Notify)"
 module: notify
 type: integration

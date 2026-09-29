@@ -1,4 +1,8 @@
 ---
+created: 2026-09-26
+qmd: "module root uppercase folders archive"
+issues: []
+discussions: []
 title: "Archivio Modules.bak — modulo Notify"
 type: concept
 module: Notify

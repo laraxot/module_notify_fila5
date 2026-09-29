@@ -1,4 +1,7 @@
 ---
+qmd: "test smtp"
+issues: []
+discussions: []
 title: 'Test smtp'
 module: Notify
 type: reference

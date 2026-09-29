@@ -1,4 +1,7 @@
 ---
+qmd: "seasonal email system implementation"
+issues: []
+discussions: []
 title: "Report di Revisione Sistema Email Stagionali - Dicembre 2025"
 module: notify
 type: integration

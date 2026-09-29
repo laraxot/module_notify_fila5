@@ -1,3 +1,14 @@
+---
+title: "fluxui rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "fluxui rules"
+issues: []
+discussions: []
+---
+
 === fluxui-free/core rules ===
 
 # Flux UI Free
@@ -9,6 +20,14 @@
 
 ---
 
+title: "fluxui rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "fluxui rules"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

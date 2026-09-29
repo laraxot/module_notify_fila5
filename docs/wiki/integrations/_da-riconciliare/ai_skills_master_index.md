@@ -1,4 +1,7 @@
 ---
+qmd: "ai skills master index"
+issues: []
+discussions: []
 title: "AI Skills Master Index"
 module: notify
 type: integration

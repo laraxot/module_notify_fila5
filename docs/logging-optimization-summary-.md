@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "LOGGING_OPTIMIZATION_SUMMARY_2026-03-02.deprecated"
 type: concept
 tags: [deprecated]

@@ -1,3 +1,14 @@
+---
+title: "bmad orchestrator"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bmad orchestrator"
+issues: []
+discussions: []
+---
+
 ### BMad Master Orchestrator (id: bmad-orchestrator)
 Source: .bmad-core/agents/bmad-orchestrator.md
 
@@ -145,6 +156,14 @@ dependencies:
 
 ---
 
+title: "bmad orchestrator"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bmad orchestrator"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

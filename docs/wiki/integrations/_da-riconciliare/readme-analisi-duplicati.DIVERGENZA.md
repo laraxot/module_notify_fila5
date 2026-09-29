@@ -1,4 +1,7 @@
 ---
+qmd: "readme analisi duplicati.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: readme-analisi-duplicati.md"
 module: Notify
 type: note

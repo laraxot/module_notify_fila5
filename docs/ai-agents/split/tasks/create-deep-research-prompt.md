@@ -1,3 +1,14 @@
+---
+title: "create deep research prompt"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "create deep research prompt"
+issues: []
+discussions: []
+---
+
 ### Task: create-deep-research-prompt
 Source: .bmad-core/tasks/create-deep-research-prompt.md
 - How to use: "Use task create-deep-research-prompt with the appropriate agent" and paste relevant parts as needed.
@@ -288,6 +299,14 @@ CRITICAL: collaborate with the user to develop specific, actionable research que
 
 ---
 
+title: "create deep research prompt"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "create deep research prompt"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Tasks Index](index.md) — All 22 BMad tasks

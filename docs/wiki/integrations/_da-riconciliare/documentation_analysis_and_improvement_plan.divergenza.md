@@ -1,4 +1,7 @@
 ---
+qmd: "documentation analysis and improvement plan.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md"
 module: Notify
 type: note

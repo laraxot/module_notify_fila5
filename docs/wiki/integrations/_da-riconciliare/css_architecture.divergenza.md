@@ -1,4 +1,7 @@
 ---
+qmd: "css architecture.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: CSS_ARCHITECTURE.md"
 module: Notify
 type: note

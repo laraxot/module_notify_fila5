@@ -1,3 +1,14 @@
+---
+title: "agents performance"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents performance"
+issues: []
+discussions: []
+---
+
 # AGENTS Performance Optimization
 
 Best practices per l'ottimizzazione delle performance.
@@ -11,6 +22,14 @@ Best practices per l'ottimizzazione delle performance.
 
 ---
 
+title: "agents performance"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents performance"
+issues: []
+discussions: []
 ## Frontend Optimization
 
 - **Minify** CSS/JS assets

@@ -1,4 +1,7 @@
 ---
+qmd: "strategy"
+issues: []
+discussions: []
 title: "Product Strategy: Notify Module"
 module: notify
 type: product

@@ -1,4 +1,7 @@
 ---
+qmd: "openviking integration.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: openviking-integration.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "THEMES DOCUMENTATION INDEX"
+issues: []
+discussions: []
 title: "Theme Documentation Master Index"
 module: notify
 type: integration

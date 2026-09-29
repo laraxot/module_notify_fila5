@@ -1,4 +1,7 @@
 ---
+qmd: "reusabilitylines.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: reusabilitylines.md"
 module: Notify
 type: note

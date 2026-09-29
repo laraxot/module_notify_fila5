@@ -1,4 +1,7 @@
 ---
+qmd: "replikate phase 1 complete.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: replikate-phase-1-complete.md"
 module: Notify
 type: note

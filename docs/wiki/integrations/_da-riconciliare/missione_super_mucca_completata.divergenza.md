@@ -1,4 +1,7 @@
 ---
+qmd: "missione super mucca completata.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: MISSIONE_SUPER_MUCCA_COMPLETATA.md"
 module: Notify
 type: note

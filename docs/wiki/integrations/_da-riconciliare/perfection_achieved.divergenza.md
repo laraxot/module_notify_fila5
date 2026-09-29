@@ -1,4 +1,7 @@
 ---
+qmd: "perfection achieved.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: PERFECTION_ACHIEVED.md"
 module: Notify
 type: note

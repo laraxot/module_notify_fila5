@@ -1,4 +1,7 @@
 ---
+qmd: "SESSIONE 100 PERCENT"
+issues: []
+discussions: []
 title: "Sessione 100% Completata - Homepage Bootstrap Italia"
 module: notify
 type: integration

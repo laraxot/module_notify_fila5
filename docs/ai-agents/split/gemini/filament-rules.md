@@ -1,3 +1,14 @@
+---
+title: "filament rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament rules"
+issues: []
+discussions: []
+---
+
 === filament/filament rules ===
 
 ## Filament
@@ -152,6 +163,14 @@ livewire(ListUsers::class)
 
 ---
 
+title: "filament rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament rules"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

@@ -1,3 +1,14 @@
+---
+title: "sms actions pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms actions pattern"
+issues: []
+discussions: []
+---
+
 # Pattern per le Azioni SMS 
 
 ## Struttura e Convenzioni
@@ -251,4 +262,12 @@ Seguire questo pattern garantisce:
 
 ---
 
+title: "sms actions pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms actions pattern"
+issues: []
+discussions: []
 *Ultimo aggiornamento: 2023-05-12*

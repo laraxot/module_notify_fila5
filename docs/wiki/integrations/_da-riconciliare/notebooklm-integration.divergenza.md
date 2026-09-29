@@ -1,4 +1,7 @@
 ---
+qmd: "notebooklm integration.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: NOTEBOOKLM_INTEGRATION.md"
 module: Notify
 type: note

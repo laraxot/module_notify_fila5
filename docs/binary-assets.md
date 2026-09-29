@@ -1,4 +1,7 @@
 ---
+qmd: "binary assets"
+issues: []
+discussions: []
 title: "Asset binari"
 module: notify
 type: integration

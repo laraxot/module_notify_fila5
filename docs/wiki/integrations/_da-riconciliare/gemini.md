@@ -1,4 +1,7 @@
 ---
+qmd: "gemini"
+issues: []
+discussions: []
 title: "Gemini Rules (Modular)"
 module: notify
 type: integration

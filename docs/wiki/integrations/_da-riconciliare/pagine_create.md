@@ -1,4 +1,7 @@
 ---
+qmd: "pagine create"
+issues: []
+discussions: []
 title: "Pagine Create - Notify Sixteen Theme"
 module: notify
 type: integration
