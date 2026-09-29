@@ -1,7 +1,4 @@
 ---
-qmd: "QUICK START"
-issues: []
-discussions: []
 title: "Notify Module Quick Start"
 type: guide
 tags: [notify, notifications]

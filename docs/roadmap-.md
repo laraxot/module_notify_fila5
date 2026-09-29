@@ -1,14 +1,3 @@
----
-title: "roadmap "
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap "
-issues: []
-discussions: []
----
-
 # Notify Module Roadmap 2026
 
 ## 📡 Sacred Philosophy: "One Message, Many Paths"
@@ -25,14 +14,6 @@ Transform communication from a technical challenge into a **business superpower*
 
 ---
 
-title: "roadmap "
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap "
-issues: []
-discussions: []
 ## 📊 Current Architecture Assessment
 
 ### ✅ Architectural Strengths

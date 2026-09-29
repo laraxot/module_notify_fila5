@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "baseuser-dry-violation-2025-10-15"
 type: concept
 tags: [deprecated]

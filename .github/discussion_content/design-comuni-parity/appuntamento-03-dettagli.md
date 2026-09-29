@@ -1,14 +1,3 @@
----
-title: "appuntamento 03 dettagli"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "appuntamento 03 dettagli"
-issues: []
-discussions: []
----
-
 # 🎨 Design Comuni: Appuntamento - Dettagli
 
 ## Pagina
@@ -39,12 +28,4 @@ Da definire dopo l'analisi strutturale.
 - [ ] Documentazione
 
 ---
-title: "appuntamento 03 dettagli"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "appuntamento 03 dettagli"
-issues: []
-discussions: []
 *Generato automaticamente da bashscripts/design-comuni-parity/create-github-issues.sh*

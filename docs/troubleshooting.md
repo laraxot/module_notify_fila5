@@ -1,7 +1,4 @@
 ---
-qmd: "troubleshooting"
-issues: []
-discussions: []
 title: "Troubleshooting Notification Issues in Laravel Modules"
 module: notify
 type: integration

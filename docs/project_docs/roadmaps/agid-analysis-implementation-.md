@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "AGID_ANALYSIS_IMPLEMENTATION_2025-10-02.deprecated"
 type: concept
 tags: [deprecated]

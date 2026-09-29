@@ -1,14 +1,3 @@
----
-title: "email wysiwyg editor tests"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "email wysiwyg editor tests"
-issues: []
-discussions: []
----
-
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari

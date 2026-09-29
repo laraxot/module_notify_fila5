@@ -1,10 +1,4 @@
 ---
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "git status fleet merge markers notify.story"
-issues: []
-discussions: []
 title: "Bonifica marker merge committati — Notify"
 type: story
 module: Notify

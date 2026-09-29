@@ -1,14 +1,3 @@
----
-title: "migrations"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "migrations"
-issues: []
-discussions: []
----
-
 # Database Migrations
 
 ## Email Templates
@@ -237,11 +226,3 @@ public function template(): BelongsTo
 * [migrations.md](../../Activity/docs/database/migrations.md)
 
 ---
-title: "migrations"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "migrations"
-issues: []
-discussions: []

@@ -1,14 +1,3 @@
----
-title: "translation file structure guide"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translation file structure guide"
-issues: []
-discussions: []
----
-
 # Guida alla Struttura dei File di Traduzione
 
 ## Struttura Standard Obbligatoria

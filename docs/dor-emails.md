@@ -1,7 +1,4 @@
 ---
-qmd: "dor emails"
-issues: []
-discussions: []
 title: "Email per i Dottori"
 module: notify
 type: integration

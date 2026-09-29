@@ -1,14 +1,3 @@
----
-title: "github actions status"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "github actions status"
-issues: []
-discussions: []
----
-
 # GitHub Actions Status & Fixes
 
 **Date**: 2026-03-13  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "github actions status"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "github actions status"
-issues: []
-discussions: []
 ## Summary
 
 Analisi e fix delle GitHub Actions del repository base_fixcity_fila5.

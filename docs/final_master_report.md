@@ -1,14 +1,3 @@
----
-title: "final master report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "final master report"
-issues: []
-discussions: []
----
-
 # 🏆 FIXCITY - FINAL MASTER REPORT
 
 **Data Completamento**: 2025-10-01  
@@ -18,14 +7,6 @@ discussions: []
 
 ---
 
-title: "final master report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "final master report"
-issues: []
-discussions: []
 ## 📊 TOTALE ASSOLUTO: 38 FILES
 
 ### 📚 Documentazione Strategica (12)

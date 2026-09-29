@@ -1,14 +1,3 @@
----
-title: "attachments"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "attachments"
-issues: []
-discussions: []
----
-
 # Gestione degli Allegati nelle Email
 
 ## Implementazione Corretta

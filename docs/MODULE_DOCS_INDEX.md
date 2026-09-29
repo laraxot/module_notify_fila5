@@ -1,14 +1,3 @@
----
-title: "MODULE DOCS INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MODULE DOCS INDEX"
-issues: []
-discussions: []
----
-
 # Master Documentation Index - FixCity Fila5
 
 **Project:** FixCity Fila5  
@@ -18,14 +7,6 @@ discussions: []
 
 ---
 
-title: "MODULE DOCS INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MODULE DOCS INDEX"
-issues: []
-discussions: []
 ## 🎯 Purpose
 
 Questo documento crea un **sistema di indicizzazione centrale** con collegamenti bidirezionali tra:

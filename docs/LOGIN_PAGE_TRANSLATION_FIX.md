@@ -1,7 +1,4 @@
 ---
-qmd: "LOGIN PAGE TRANSLATION FIX"
-issues: []
-discussions: []
 title: "Fix Traduzioni Pagina Login"
 module: notify
 type: integration

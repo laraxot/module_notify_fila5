@@ -1,14 +1,3 @@
----
-title: "email plugins analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "email plugins analysis"
-issues: []
-discussions: []
----
-
 # Analisi Plugin Email per Filament - il progetto
 
 ## Panoramica

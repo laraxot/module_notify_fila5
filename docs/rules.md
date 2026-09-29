@@ -1,7 +1,4 @@
 ---
-qmd: "rules"
-issues: []
-discussions: []
 title: "Regole per lo Sviluppo"
 module: notify
 type: integration

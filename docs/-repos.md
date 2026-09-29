@@ -1,7 +1,4 @@
 ---
-qmd: " repos"
-issues: []
-discussions: []
 title: "repos"
 module: notify
 type: reference

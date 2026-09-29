@@ -1,7 +1,4 @@
 ---
-qmd: "product launch plan"
-issues: []
-discussions: []
 title: "Notify Module - Product Launch Plan"
 module: notify
 type: integration

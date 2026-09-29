@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "COMPLETION_SUMMARY_2025-10-01"
 type: concept
 tags: [deprecated]

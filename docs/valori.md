@@ -1,14 +1,3 @@
----
-title: "valori"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "valori"
-issues: []
-discussions: []
----
-
 # Politica, Filosofia, Religione, Etica, Zen – Modulo Notify
 
 ## Politica

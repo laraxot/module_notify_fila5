@@ -1,14 +1,3 @@
----
-title: "dto structure conventions"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "dto structure conventions"
-issues: []
-discussions: []
----
-
 # Convenzioni per la Struttura dei DTO nel Modulo Notify
 
 ## Introduzione
@@ -171,12 +160,4 @@ Prima di creare un nuovo DTO, verificare che:
 
 ---
 
-title: "dto structure conventions"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "dto structure conventions"
-issues: []
-discussions: []
 *Ultimo aggiornamento: [DATE]*

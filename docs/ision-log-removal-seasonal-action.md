@@ -1,7 +1,4 @@
 ---
-qmd: "ision log removal seasonal action"
-issues: []
-discussions: []
 title: "Decision Log: Rimozione Azioni Seasonal Over-Engineered"
 module: notify
 type: integration

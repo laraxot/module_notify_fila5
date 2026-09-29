@@ -1,14 +1,3 @@
----
-title: "filament extension pattern analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament extension pattern analysis"
-issues: []
-discussions: []
----
-
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore

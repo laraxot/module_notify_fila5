@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "CODE_QUALITY_IMPROVEMENTS_2025-10-01"
 type: concept
 tags: [deprecated]

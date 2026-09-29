@@ -1,14 +1,3 @@
----
-title: "evento dettaglio"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "evento dettaglio"
-issues: []
-discussions: []
----
-
 # Converti pagina: Evento Dettaglio (evento-dettaglio.html)
 
 ## Obiettivo

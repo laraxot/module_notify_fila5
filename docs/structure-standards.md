@@ -1,14 +1,3 @@
----
-title: "structure standards"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "structure standards"
-issues: []
-discussions: []
----
-
 # Standard di Struttura nel Modulo Notify
 
 ## Directory Principali e Convenzioni di Denominazione
@@ -104,14 +93,6 @@ Tutte le classi nella cartella `app/Filament/Clusters/*/Pages` **devono terminar
 
 ---
 
-title: "structure standards"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "structure standards"
-issues: []
-discussions: []
 ## Esempio
 
 - File: `SendNetfunSMS.php` → `SendNetfunSMSPage.php`

@@ -1,14 +1,3 @@
----
-title: "spatie email usage guide"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "spatie email usage guide"
-issues: []
-discussions: []
----
-
 # Guida all'utilizzo di SpatieEmail
 
 ## Introduzione

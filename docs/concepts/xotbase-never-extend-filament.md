@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "Notify — mai Filament\*, sempre XotBase*"
 type: concept
 module: Notify

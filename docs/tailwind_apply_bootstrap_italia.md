@@ -1,7 +1,4 @@
 ---
-qmd: "tailwind apply bootstrap italia"
-issues: []
-discussions: []
 title: "Tailwind @apply per Bootstrap Italia - Completato"
 module: notify
 type: integration

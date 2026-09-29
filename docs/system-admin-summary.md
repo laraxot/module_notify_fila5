@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "SYSTEM_ADMIN_SUMMARY_2026-03-13"
 type: concept
 tags: [deprecated]

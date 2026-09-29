@@ -1,14 +1,3 @@
----
-title: "themes sixteen"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "themes sixteen"
-issues: []
-discussions: []
----
-
 # Gestione asset Vite per il tema Sixteen
 
 Se riscontri l'errore:
@@ -32,14 +21,6 @@ Questo comando pubblica gli asset necessari e risolve l'errore.
 
 ---
 
-title: "themes sixteen"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "themes sixteen"
-issues: []
-discussions: []
 ## Collegamenti
 - [Documentazione asset Vite nel tema](../../Themes/Sixteen/docs/assets.md)
 - [Indice gestione temi e asset](../temi_asset.md) *(creare se non esiste)*

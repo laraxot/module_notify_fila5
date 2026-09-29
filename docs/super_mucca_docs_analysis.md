@@ -1,27 +1,8 @@
----
-title: "super mucca docs analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "super mucca docs analysis"
-issues: []
-discussions: []
----
-
 # 🐄 SUPER MUCCA - Analisi Completa Documentazione
 ## Report Generato: 14 Ottobre 2025
 
 ---
 
-title: "super mucca docs analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "super mucca docs analysis"
-issues: []
-discussions: []
 ## 📊 Executive Summary
 
 ### Statistiche Generali

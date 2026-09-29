@@ -1,14 +1,3 @@
----
-title: "filament 5 upgrade complete"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament 5 upgrade complete"
-issues: []
-discussions: []
----
-
 # Filament 5 Upgrade - COMPLETO ✅
 
 **Data**: 2026-03-30  
@@ -16,14 +5,6 @@ discussions: []
 
 ---
 
-title: "filament 5 upgrade complete"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament 5 upgrade complete"
-issues: []
-discussions: []
 ## 🎉 Upgrade Completato
 
 ### Versioni Installate

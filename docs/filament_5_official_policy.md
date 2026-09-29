@@ -1,7 +1,4 @@
 ---
-qmd: "filament 5 official policy"
-issues: []
-discussions: []
 title: "FILAMENT 5 - OFFICIAL POLICY"
 module: notify
 type: integration

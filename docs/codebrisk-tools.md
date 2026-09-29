@@ -1,7 +1,4 @@
 ---
-qmd: "codebrisk tools"
-issues: []
-discussions: []
 title: "Analisi Tool CodeBrisk per Email in Laravel"
 module: notify
 type: integration

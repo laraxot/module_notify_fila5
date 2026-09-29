@@ -1,28 +1,9 @@
----
-title: "LEGGI QUI DOMANI"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "LEGGI QUI DOMANI"
-issues: []
-discussions: []
----
-
 # 📖 LEGGI QUI DOMANI MATTINA - 2 Ottobre 2025
 
 Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 
 ---
 
-title: "LEGGI QUI DOMANI"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "LEGGI QUI DOMANI"
-issues: []
-discussions: []
 ## ✅ COSA ABBIAMO FATTO IERI (1 Ottobre)
 
 ### 🎉 SUCCESSO STRAORDINARIO: 83% COMPLETATO!

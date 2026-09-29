@@ -1,7 +1,4 @@
 ---
-qmd: "ZEN OF APP"
-issues: []
-discussions: []
 title: "Zen of Notify - Complete Philosophy"
 module: notify
 type: integration
