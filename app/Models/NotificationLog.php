@@ -72,19 +72,19 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  */
 class NotificationLog extends BaseModel
 {
-    public const string STATUS_PENDING = 'pending';
+    public const STATUS_PENDING = 'pending';
 
-    public const string STATUS_PROCESSING = 'processing';
+    public const STATUS_PROCESSING = 'processing';
 
-    public const string STATUS_SENT = 'sent';
+    public const STATUS_SENT = 'sent';
 
-    public const string STATUS_DELIVERED = 'delivered';
+    public const STATUS_DELIVERED = 'delivered';
 
-    public const string STATUS_FAILED = 'failed';
+    public const STATUS_FAILED = 'failed';
 
-    public const string STATUS_OPENED = 'opened';
+    public const STATUS_OPENED = 'opened';
 
-    public const string STATUS_CLICKED = 'clicked';
+    public const STATUS_CLICKED = 'clicked';
 
     protected $table = 'notification_logs';
 
