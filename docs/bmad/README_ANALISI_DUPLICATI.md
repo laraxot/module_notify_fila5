@@ -1,3 +1,13 @@
+---
+title: "Notify Module — Document"
+type: docs/bmad
+status: active
+module: Notify
+scope: documentation
+bmad_version: 1.0
+updated: 2026-10-06
+---
+
 # 🐄 Analisi Metodi Duplicati - Guida Rapida
 
 ## 📍 Dove Trovare i Documenti
