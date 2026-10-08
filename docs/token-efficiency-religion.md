@@ -1,3 +1,14 @@
+---
+title: "token efficiency religion"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "token efficiency religion"
+issues: []
+discussions: []
+---
+
 # Token Optimization — La Religione dell'Efficienza
 
 > **Canonico**: questo è l'unico file attivo su token optimization in
@@ -17,6 +28,14 @@
 
 ---
 
+title: "token efficiency religion"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "token efficiency religion"
+issues: []
+discussions: []
 ## LA REGOLA AUREA
 
 **Massimizzare risultato, minimizzare token.**  

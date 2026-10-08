@@ -1,3 +1,14 @@
+---
+title: "project patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project patterns"
+issues: []
+discussions: []
+---
+
 # Action Pattern (CRITICAL)
 
 PTVX uses Spatie QueueableAction for business logic.
@@ -30,4 +41,12 @@ app(MyAction::class)->createPersonalAccessClient();
 - Central discussion for shared agent learning: `https://github.com/provtv/base_ptv_fila5_mono/discussions/18`
 
 ---
+title: "project patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project patterns"
+issues: []
+discussions: []
 [Back to index](../index.md)

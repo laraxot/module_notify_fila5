@@ -1,4 +1,7 @@
 ---
+qmd: "cyclomatic complexity summary.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: cyclomatic-complexity-summary.md"
 module: Notify
 type: note

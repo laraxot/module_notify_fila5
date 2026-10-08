@@ -1,4 +1,7 @@
 ---
+qmd: "ARCHITECTURE ANALYSIS"
+issues: []
+discussions: []
 title: "NOTIFY ARCHITECTURE DEEP DIVE ANALYSIS"
 module: notify
 type: integration

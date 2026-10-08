@@ -1,4 +1,7 @@
 ---
+qmd: "laravel path conventions.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: laravel_path_conventions.md"
 module: Notify
 type: note

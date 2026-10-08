@@ -1,3 +1,14 @@
+---
+title: "header fix analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "header fix analysis"
+issues: []
+discussions: []
+---
+
 # 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
 
 ## Data: 2026-03-31
@@ -5,6 +16,14 @@
 
 ---
 
+title: "header fix analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "header fix analysis"
+issues: []
+discussions: []
 ## 🔴 Problemi Identificati
 
 ### 1. Logo non visibile ❌

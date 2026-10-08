@@ -1,4 +1,7 @@
 ---
+qmd: "leggi qui domani.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: leggi-qui-domani.md"
 module: Notify
 type: note

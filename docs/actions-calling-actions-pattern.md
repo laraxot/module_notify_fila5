@@ -1,3 +1,14 @@
+---
+title: "actions calling actions pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "actions calling actions pattern"
+issues: []
+discussions: []
+---
+
 # Pattern: Actions che chiamano altre Actions
 
 **Data**: 2025-01-18  
@@ -216,6 +227,14 @@ Prima di aggiungere dependency injection nel costruttore per chiamare altre Acti
 
 ---
 
+title: "actions calling actions pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "actions calling actions pattern"
+issues: []
+discussions: []
 **Filosofia**: "La semplicità è la massima sofisticazione" - Leonardo da Vinci  
 **Principio**: KISS > DI quando non necessaria  
 **Pattern**: `app(Action::class)->execute()` dentro `execute()`

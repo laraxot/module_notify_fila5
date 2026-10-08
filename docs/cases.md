@@ -1,4 +1,7 @@
 ---
+qmd: "cases"
+issues: []
+discussions: []
 title: "Case-Insensitive File Conflicts"
 module: notify
 type: integration

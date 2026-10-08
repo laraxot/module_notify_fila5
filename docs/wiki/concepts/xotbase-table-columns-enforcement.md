@@ -1,4 +1,7 @@
 ---
+qmd: "xotbase table columns enforcement"
+issues: []
+discussions: []
 title: "XotBaseResourceTable Columns Enforcement — Notify Module"
 type: concept
 sources: []

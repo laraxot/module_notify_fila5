@@ -1,3 +1,14 @@
+---
+title: "product owner"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product owner"
+issues: []
+discussions: []
+---
+
 ### Product Owner (id: po)
 Source: .bmad-core/agents/po.md
 
@@ -77,6 +88,14 @@ dependencies:
 
 ---
 
+title: "product owner"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product owner"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

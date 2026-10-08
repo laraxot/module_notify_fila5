@@ -1,4 +1,7 @@
 ---
+qmd: "standardized sms config structure"
+issues: []
+discussions: []
 title: "Struttura Standardizzata della Configurazione SMS"
 module: notify
 type: integration

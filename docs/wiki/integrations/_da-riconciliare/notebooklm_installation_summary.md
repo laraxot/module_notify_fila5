@@ -1,4 +1,7 @@
 ---
+qmd: "notebooklm installation summary"
+issues: []
+discussions: []
 title: "NotebookLM Skill - Installation & Integration Summary"
 module: notify
 type: integration

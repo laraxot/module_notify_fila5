@@ -1,3 +1,14 @@
+---
+title: "command approval discipline"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "command approval discipline"
+issues: []
+discussions: []
+---
+
 # Command Approval Discipline
 
 > Indice: [./00-INDEX.md](./00-INDEX.md)

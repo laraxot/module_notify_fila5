@@ -1,4 +1,7 @@
 ---
+qmd: "token efficiency religion"
+issues: []
+discussions: []
 title: "Token Optimization — La Religione dell'Efficienza"
 module: notify
 type: integration

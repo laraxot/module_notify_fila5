@@ -1,3 +1,14 @@
+---
+title: "reusable components and indexes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "reusable components and indexes"
+issues: []
+discussions: []
+---
+
 # Reusable Components And Indexes
 
 > Indice: [./00-INDEX.md](./00-INDEX.md)

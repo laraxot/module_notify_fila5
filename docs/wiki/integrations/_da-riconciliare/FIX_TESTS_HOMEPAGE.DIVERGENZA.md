@@ -1,4 +1,7 @@
 ---
+qmd: "FIX TESTS HOMEPAGE.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: FIX_TESTS_HOMEPAGE.md"
 module: Notify
 type: note

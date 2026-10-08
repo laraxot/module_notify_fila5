@@ -17,6 +17,12 @@ return [
             'icon' => 'heroicon-o-clock',
             'description' => 'Presa in carico, non ancora inviata',
         ],
+        'processing' => [
+            'label' => 'In elaborazione',
+            'color' => 'warning',
+            'icon' => 'heroicon-o-arrow-path',
+            'description' => 'Invio in corso presso il provider',
+        ],
         'sent' => [
             'label' => 'Inviata',
             'color' => 'info',

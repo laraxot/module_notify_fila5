@@ -1,4 +1,7 @@
 ---
+qmd: "quick start"
+issues: []
+discussions: []
 title: "NOTIFY - GUIDA RAPIDA SVILUPPATORI"
 module: notify
 type: integration

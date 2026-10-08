@@ -1,4 +1,7 @@
 ---
+qmd: "MCP SERVERS"
+issues: []
+discussions: []
 title: "MCP Servers - Master Index"
 module: notify
 type: integration

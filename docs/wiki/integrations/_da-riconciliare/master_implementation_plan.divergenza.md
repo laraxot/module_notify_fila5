@@ -1,4 +1,7 @@
 ---
+qmd: "master implementation plan.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: MASTER_IMPLEMENTATION_PLAN.md"
 module: Notify
 type: note

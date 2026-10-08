@@ -1,4 +1,7 @@
 ---
+qmd: "phase 1 execution dashboard.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: phase-1-execution-dashboard.md"
 module: Notify
 type: note

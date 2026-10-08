@@ -1,3 +1,14 @@
+---
+title: "email testing rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email testing rules"
+issues: []
+discussions: []
+---
+
 # Regole per il Testing delle Email
 
 ## 🎯 Scopo

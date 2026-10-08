@@ -1,3 +1,14 @@
+---
+title: "seasonal email templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "seasonal email templates"
+issues: []
+discussions: []
+---
+
 # Seasonal Email Templates - Guida Completa
 
 **Status**: ✅ Implementato
@@ -16,6 +27,14 @@
 
 ---
 
+title: "seasonal email templates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "seasonal email templates"
+issues: []
+discussions: []
 ## Overview
 
 Il sistema di **Seasonal Email Templates** permette di utilizzare layout HTML tematici per email stagionali mantenendo la stessa infrastruttura di `SpatieEmail`.

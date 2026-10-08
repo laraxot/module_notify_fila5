@@ -1,4 +1,7 @@
 ---
+qmd: "AI RULES CRITICAL.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: AI_RULES_CRITICAL.md"
 module: Notify
 type: note

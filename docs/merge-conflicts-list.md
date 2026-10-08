@@ -1,3 +1,14 @@
+---
+title: "merge conflicts list"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "merge conflicts list"
+issues: []
+discussions: []
+---
+
 # Merge conflict markers — Notify
 
 ## Stato (2026-05-26)

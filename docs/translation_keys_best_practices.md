@@ -1,3 +1,14 @@
+---
+title: "translation keys best practices"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translation keys best practices"
+issues: []
+discussions: []
+---
+
 # Best Practices per le Chiavi di Traduzione
 
 ## Politica

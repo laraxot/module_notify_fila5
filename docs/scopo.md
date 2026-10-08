@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "Notify — scopo, confini e come servirlo meglio"
 type: concept
 module: Notify

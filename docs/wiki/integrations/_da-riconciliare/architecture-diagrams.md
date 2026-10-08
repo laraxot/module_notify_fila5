@@ -1,4 +1,7 @@
 ---
+qmd: "architecture diagrams"
+issues: []
+discussions: []
 title: "Architecture Diagrams & Visual Reference"
 module: notify
 type: integration

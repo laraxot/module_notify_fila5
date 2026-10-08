@@ -1,3 +1,14 @@
+---
+title: "CHANGELOG"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "CHANGELOG"
+issues: []
+discussions: []
+---
+
 # Changelog - Modulo Notify
 
 Tutte le modifiche significative al modulo Notify saranno documentate in questo file.
@@ -16,6 +27,14 @@ Tutte le modifiche significative al modulo Notify saranno documentate in questo 
 
 ---
 
+title: "CHANGELOG"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "CHANGELOG"
+issues: []
+discussions: []
 ## Convenzioni
 
 - Namespace modulo: `Modules\Notify\{Subdirectory}`

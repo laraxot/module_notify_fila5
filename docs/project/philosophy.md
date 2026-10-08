@@ -1,3 +1,14 @@
+---
+title: "philosophy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "philosophy"
+issues: []
+discussions: []
+---
+
 # Notify - Filosofia, Logica, Visione e Zen del Progetto
 
 ## La Visione
@@ -123,6 +134,14 @@ Notify è più di un progetto software. È un esperimento sociale tecnologico ch
 
 ---
 
+title: "philosophy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "philosophy"
+issues: []
+discussions: []
 ## Riferimenti
 
 - [PROJECT.md](./project.md) - Visione e obiettivi

@@ -1,3 +1,14 @@
+---
+title: "queue jobs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "queue jobs"
+issues: []
+discussions: []
+---
+
 # Quick Reference - Queue / Jobs
 
 ## Errori comuni

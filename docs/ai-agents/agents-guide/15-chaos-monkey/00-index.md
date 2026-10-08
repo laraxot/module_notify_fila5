@@ -1,3 +1,14 @@
+---
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
+---
+
 # 📋 15 chaos monkey Index
 
 **Path**: `docs/agents-guide/15-chaos-monkey/`
@@ -6,6 +17,14 @@
 
 ---
 
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
 ## 📊 Statistics
 
 | Metric | Count |

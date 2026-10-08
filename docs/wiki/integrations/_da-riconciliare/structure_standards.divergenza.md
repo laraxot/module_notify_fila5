@@ -1,4 +1,7 @@
 ---
+qmd: "structure standards.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: structure_standards.md"
 module: Notify
 type: note

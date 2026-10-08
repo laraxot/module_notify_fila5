@@ -1,4 +1,7 @@
 ---
+qmd: "metodi duplicati analisi globale.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: metodi-duplicati-analisi-globale.md"
 module: Notify
 type: note

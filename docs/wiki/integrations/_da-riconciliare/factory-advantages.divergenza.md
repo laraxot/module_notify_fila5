@@ -1,4 +1,7 @@
 ---
+qmd: "factory advantages.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: factory-advantages.md"
 module: Notify
 type: note

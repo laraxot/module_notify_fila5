@@ -1,3 +1,14 @@
+---
+title: "AGENTS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "AGENTS"
+issues: []
+discussions: []
+---
+
 # LLM Wiki Agent Instructions
 
 > **Purpose**: This file transforms generic LLM agents into disciplined LLM Wiki maintainers
@@ -83,6 +94,9 @@ Themes/{Name}/docs/llm-wiki/
 
 ```yaml
 ---
+qmd: "AGENTS"
+issues: []
+discussions: []
 title: "Descriptive Title"
 type: concept  # concept | entity | source | comparison | decision | troubleshooting
 sources: ["raw/articles/source-filename.md"]
@@ -138,6 +152,9 @@ related:
 - One query synthesis = one commit (if creating new pages)
 - **Message format**: `docs: {action} {description}`
   - ✅ `docs: ingest karpathy-llm-wiki article`
+  - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
+---
+---
   - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
   - ✅ `docs: lint wiki - resolve contradictions in forecast market concepts`
   - ✅ `docs: query synthesis - LLM wiki integration with Laraxot`
@@ -255,6 +272,7 @@ LLM Agent Actions:
 ### Example:
 
 ```
+---
 User: "How does LMSR work with prediction markets?"
 
 LLM Agent Actions:
@@ -274,6 +292,16 @@ LLM Agent Actions:
    - wiki/concepts/lmsr-mechanics.md
    - wiki/concepts/prediction-market-design.md
    - wiki/entities/predict-module.md
+---
+User: "How does LMSR work with forecast markets?"
+
+LLM Agent Actions:
+1. Search wiki/index.md for "LMSR", "forecast markets"
+2. Read matching pages:
+   - wiki/concepts/lmsr-mechanics.md
+   - wiki/concepts/forecast-market-design.md
+   - wiki/entities/forecast-module.md
+---
 3. Synthesize answer with citations:
    "According to [lmsr-mechanics.md](concepts/lmsr-mechanics.md), LMSR uses
    logarithmic market scoring. The [Forecast module](entities/forecast-module.md)
@@ -339,6 +367,9 @@ LLM Agent Actions:
    ### Contradictions (1)
    ⚠️ concepts/lmsr-mechanics.md says "LMSR is linear"
      vs concepts/prediction-markets.md says "LMSR is logarithmic"
+---
+---
+     vs concepts/prediction-markets.md says "LMSR is logarithmic"
      vs concepts/forecast-markets.md says "LMSR is logarithmic"
      → Action: Merge pages, resolve contradiction
 
@@ -395,6 +426,9 @@ When module wiki references project wiki:
 
 ```markdown
 # In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
+---
+---
+# In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
 # In Modules/App/docs/llm-wiki/concepts/ticket-lifecycle.md
 
 Related:
@@ -407,6 +441,7 @@ Related:
 Same workflow as project ingestion, but scoped to module:
 
 ```
+---
 User: "ingest docs/raw/articles/fixcity-ticket-patterns.md into Fixcity wiki"
 
 LLM Agent Actions:
@@ -414,6 +449,15 @@ LLM Agent Actions:
 2. Create/update pages in Modules/Fixcity/docs/llm-wiki/
 3. Update Modules/Fixcity/docs/llm-wiki/index.md
 4. Update Modules/Fixcity/docs/llm-wiki/log.md
+---
+User: "ingest docs/raw/articles/laraxot-ticket-patterns.md into App wiki"
+
+LLM Agent Actions:
+1. Read source
+2. Create/update pages in Modules/App/docs/llm-wiki/
+3. Update Modules/App/docs/llm-wiki/index.md
+4. Update Modules/App/docs/llm-wiki/log.md
+---
 5. Commit changes
 ```
 
@@ -537,11 +581,17 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 - [[llm-wiki-architecture]] - Three-layer model for persistent knowledge (raw/wiki/schema)
 - [[lmsr-mechanics]] - Logarithmic Market Scoring Rule pricing algorithm
 - [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
+---
+---
+- [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
 - [[forecast-market-design]] - Market clarity, resolution trust, calibration principles
 
 ## Entities
 
 - [[andrej-karpathy]] - Creator of LLM Wiki pattern
+- [[predict-module]] - Laraxot module for prediction markets
+---
+---
 - [[predict-module]] - Laraxot module for prediction markets
 - [[forecast-module]] - Laraxot module for forecast markets
 
@@ -572,11 +622,17 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 ## [2026-04-15] query | LMSR mechanics explanation
 - Read: concepts/lmsr-mechanics.md, entities/predict-module.md
+---
+---
+- Read: concepts/lmsr-mechanics.md, entities/predict-module.md
 - Read: concepts/lmsr-mechanics.md, entities/forecast-module.md
 - Created: comparisons/lmsr-vs-order-book-mechanics.md
 - Commit: docs: query synthesis - LMSR vs order book mechanics
 
 ## [2026-04-15] lint | Weekly health check
+- Resolved: 1 contradiction in prediction market concepts
+---
+---
 - Resolved: 1 contradiction in prediction market concepts
 - Resolved: 1 contradiction in forecast market concepts
 - Added: 3 cross-references to orphan pages

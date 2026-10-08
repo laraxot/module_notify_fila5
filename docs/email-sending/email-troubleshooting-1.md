@@ -1,3 +1,14 @@
+---
+title: "email troubleshooting 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "email troubleshooting 1"
+issues: []
+discussions: []
+---
+
 # Risoluzione dei Problemi nelle Email
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.

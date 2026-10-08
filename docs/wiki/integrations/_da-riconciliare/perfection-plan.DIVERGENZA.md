@@ -1,4 +1,7 @@
 ---
+qmd: "perfection plan.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: perfection-plan.md"
 module: Notify
 type: note

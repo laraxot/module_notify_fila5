@@ -1,3 +1,14 @@
+---
+title: "php quality tools"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "php quality tools"
+issues: []
+discussions: []
+---
+
 # 🔧 STRUMENTI QUALITÀ CODICE PHP - FIXCITY PLATFORM
 # 🔧 STRUMENTI QUALITÀ CODICE PHP - NOTIFY PLATFORM
 
@@ -459,6 +470,14 @@ return (new PhpCsFixer\Config())
 
 ---
 
+title: "php quality tools"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "php quality tools"
+issues: []
+discussions: []
 **🔄 Ultimo Aggiornamento**: Gennaio 2025  
 **📊 Status**: Sistema in sviluppo  
 **🎯 Prossimo Milestone**: Setup Base (Settimana 1)  

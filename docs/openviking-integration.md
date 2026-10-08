@@ -1,3 +1,14 @@
+---
+title: "openviking integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "openviking integration"
+issues: []
+discussions: []
+---
+
 # OpenViking Integration Guide
 
 ## Overview
@@ -423,6 +434,14 @@ openviking status
 
 ---
 
+title: "openviking integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "openviking integration"
+issues: []
+discussions: []
 **Last Updated**: 2026-03-30  
 **Version**: 1.0.0  
 **Status**: Initial Implementation

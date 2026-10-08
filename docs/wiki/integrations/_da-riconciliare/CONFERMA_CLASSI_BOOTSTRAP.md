@@ -1,4 +1,7 @@
 ---
+qmd: "CONFERMA CLASSI BOOTSTRAP"
+issues: []
+discussions: []
 title: "Conferma: Classi Bootstrap Italia Corrette"
 module: notify
 type: integration

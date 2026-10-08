@@ -1,3 +1,14 @@
+---
+title: "analysis dettagliata 6"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analysis dettagliata 6"
+issues: []
+discussions: []
+---
+
 # Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
 
 ## 6. Monitoraggio e Analytics

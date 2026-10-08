@@ -1,4 +1,7 @@
 ---
+qmd: "header fix analysis.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: header-fix-analysis.md"
 module: Notify
 type: note

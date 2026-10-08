@@ -1,3 +1,14 @@
+---
+title: "ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ROADMAP"
+issues: []
+discussions: []
+---
+
 # ROADMAP: FixCity Platform
 
 ## Milestone 1: Performance & Stability (COMPLETED ✅)

@@ -1,3 +1,14 @@
+---
+title: "volt rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "volt rules"
+issues: []
+discussions: []
+---
+
 === volt/core rules ===
 
 # Livewire Volt
@@ -10,6 +21,14 @@
 
 ---
 
+title: "volt rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "volt rules"
+issues: []
+discussions: []
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

@@ -1,3 +1,14 @@
+---
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
+---
+
 # 📖 Guidelines Index
 
 **Path**: `.agents/docs/guidelines/`  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
 ## 🎯 Purpose
 
 Guidelines sono **best practices** e **raccomandazioni** per AI agents.  

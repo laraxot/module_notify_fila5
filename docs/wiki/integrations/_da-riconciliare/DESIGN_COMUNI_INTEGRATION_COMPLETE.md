@@ -1,4 +1,7 @@
 ---
+qmd: "DESIGN COMUNI INTEGRATION COMPLETE"
+issues: []
+discussions: []
 title: "DESIGN COMUNI ITALIANI - INTEGRATION COMPLETE"
 module: notify
 type: integration

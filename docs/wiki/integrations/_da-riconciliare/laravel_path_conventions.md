@@ -1,4 +1,7 @@
 ---
+qmd: "laravel path conventions"
+issues: []
+discussions: []
 title: "Convenzioni dei Path in Laravel e <nome progetto>"
 module: notify
 type: integration
