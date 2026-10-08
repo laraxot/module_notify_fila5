@@ -2918,7 +2918,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/cyclomatic-complexity-report.md` — Cyclomatic Complexity Report - Module: Job
 - `laravel/Modules/Job/docs/data-models.md` — data-models
 - `laravel/Modules/Job/docs/development/roadmap.md` — roadmap
-- `laravel/Modules/Job/docs/dry-kiss-analysis-.md` — DRY & KISS Analysis - Modulo Job
+- `laravel/Modules/Job/docs/dry-kiss-analysis-job-module.md` — DRY & KISS Analysis - Modulo Job
 - `laravel/Modules/Job/docs/dry-kiss-analysis-conflict.md` — DRY & KISS Analysis - Modulo Job
 - `laravel/Modules/Job/docs/dry-kiss-analysis.md` — 🐄 DRY & KISS Analysis - Job
 - `laravel/Modules/Job/docs/dry-kiss.md` — DRY & KISS Analysis - Modulo Job
@@ -2991,7 +2991,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/phpstan-fixes-gennaio-.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-gennaio.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
-- `laravel/Modules/Job/docs/phpstan-fixes-january-.md` — PHPStan Fixes - Gennaio 2025
+- `laravel/Modules/Job/docs/phpstan-fixes-result-model.md` — PHPStan Fixes - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-january-2025.md` — PHPStan Fixes - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-january-conflict.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-january.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
@@ -3013,7 +3013,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/providers/job-service-provider.md` — job-service-provider
 - `laravel/Modules/Job/docs/queueable-action.md` — Standard <nome progetto>: spatie/laravel-queueable-action
 - `laravel/Modules/Job/docs/repo.md` — repo
-- `laravel/Modules/Job/docs/roadmap-.md` — Job Module Roadmap 2026
+- `laravel/Modules/Job/docs/roadmap-strategic-priorities.md` — Job Module Roadmap 2026
 - `laravel/Modules/Job/docs/roadmap-2025.md` — 🎯 JOB MODULE - ROADMAP 2025
 - `laravel/Modules/Job/docs/roadmap.md` — Job Module - Complete Roadmap
 - `laravel/Modules/Job/docs/rules-index.md` — Rules Index
