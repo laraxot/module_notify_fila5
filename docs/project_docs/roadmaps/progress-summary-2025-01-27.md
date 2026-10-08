@@ -1,14 +1,3 @@
----
-title: "progress summary 2025 01 27"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "progress summary 2025 01 27"
-issues: []
-discussions: []
----
-
 # 📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM
 
 **Data**: 27 Gennaio 2025  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "progress summary 2025 01 27"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "progress summary 2025 01 27"
-issues: []
-discussions: []
 ## 🎯 OBIETTIVI COMPLETATI
 
 ### ✅ Analisi e Comprensione Progetto
