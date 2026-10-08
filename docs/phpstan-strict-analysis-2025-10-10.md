@@ -1,3 +1,14 @@
+---
+title: "phpstan strict analysis 2025 10 10"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan strict analysis 2025 10 10"
+issues: []
+discussions: []
+---
+
 # PHPStan STRICT Analysis - Tutti gli Errori
 
 **Data**: 2025-10-10T09:34:25+02:00  
@@ -319,6 +330,14 @@ $value = config('app.key');
 
 ---
 
+title: "phpstan strict analysis 2025 10 10"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan strict analysis 2025 10 10"
+issues: []
+discussions: []
 **Creato**: 2025-10-10T09:34:25+02:00  
 **Status**: 📋 PIANO PRONTO  
 **Obiettivo**: 0 errori in ~18-20 ore di lavoro

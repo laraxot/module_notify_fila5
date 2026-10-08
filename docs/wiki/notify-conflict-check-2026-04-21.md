@@ -1,3 +1,14 @@
+---
+title: "notify conflict check 2026 04 21"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "notify conflict check 2026 04 21"
+issues: []
+discussions: []
+---
+
 # Controllo conflitti Notify - 2026-04-21
 
 ## Esito

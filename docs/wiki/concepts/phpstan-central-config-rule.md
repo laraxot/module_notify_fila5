@@ -1,4 +1,7 @@
 ---
+qmd: "phpstan central config rule"
+issues: []
+discussions: []
 title: PHPStan Central Config Rule
 type: concept
 tags: [phpstan, quality, workflow, governance]
