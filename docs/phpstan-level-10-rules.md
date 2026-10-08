@@ -1,3 +1,14 @@
+---
+title: "phpstan level 10 rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan level 10 rules"
+issues: []
+discussions: []
+---
+
 # PHPStan Level 10 Rules & Best Practices
 
 ## Regola immutabile: phpstan.neon
@@ -39,6 +50,14 @@ trait MyTrait {
 
 ---
 
+title: "phpstan level 10 rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan level 10 rules"
+issues: []
+discussions: []
 ### 2. Collection Type Parameters
 **Severity:** HIGH  
 **Status:** Enforced

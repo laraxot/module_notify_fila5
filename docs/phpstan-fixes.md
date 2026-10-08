@@ -1,3 +1,14 @@
+---
+title: "phpstan fixes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan fixes"
+issues: []
+discussions: []
+---
+
 # Notify Module - PHPStan Level 10 Fixes - Marzo 2026
 
 ## ✅ **Stato Completato**
@@ -66,5 +77,13 @@ class SendNotificationAction
 - `docs/phpstan-level10-guide.md`: Guida completa PHPStan Level 10
 
 ---
+title: "phpstan fixes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan fixes"
+issues: []
+discussions: []
 *Ultimo aggiornamento: Marzo 2026*
 *Stato: ✅ Completato - 0 errori PHPStan*

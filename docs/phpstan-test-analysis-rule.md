@@ -1,3 +1,14 @@
+---
+title: "phpstan test analysis rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan test analysis rule"
+issues: []
+discussions: []
+---
+
 # 🚨 REGOLA CRITICA: Test e Analisi PHPStan
 
 ## ⚠️ REGOLA ASSOLUTA
@@ -184,6 +195,14 @@ assert(is_string($result));
 
 ---
 
+title: "phpstan test analysis rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan test analysis rule"
+issues: []
+discussions: []
 **Data Creazione:** 10 Ottobre 2025  
 **Motivo:** Errore critico durante correzione PHPStan Activity  
 **Importanza:** ⚠️ MASSIMA  

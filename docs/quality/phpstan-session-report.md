@@ -1,3 +1,14 @@
+---
+title: "phpstan session report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan session report"
+issues: []
+discussions: []
+---
+
 # PHPStan Session Report - Ottobre 2025
 
 ## 🎆 RISULTATI FINALI STRAORDINARI
@@ -21,6 +32,14 @@
 
 ---
 
+title: "phpstan session report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan session report"
+issues: []
+discussions: []
 ## 🏆 ACHIEVEMENTS UNLOCKED
 
 ### Moduli Completamente Puliti
