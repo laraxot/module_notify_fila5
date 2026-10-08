@@ -1,4 +1,7 @@
 ---
+qmd: "session 007 summary.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: session-007-summary.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "WIKI SCHEMA"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "WIKI SCHEMA"
+issues: []
+discussions: []
+---
+
 # LLM Wiki Schema
 
 Questo documento istruisce l'LLM su come costruire e mantenere la Wiki Knowledge Base secondo il pattern Karpathy.
@@ -67,6 +78,9 @@ nome-panoramica.md
 ### Frontmatter
 ```yaml
 ---
+qmd: "WIKI SCHEMA"
+issues: []
+discussions: []
 title: Nome Visualizzato
 type: concept|entity|summary|comparison|overview
 tags: [tag1, tag2]

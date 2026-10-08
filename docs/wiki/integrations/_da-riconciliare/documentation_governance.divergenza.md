@@ -1,4 +1,7 @@
 ---
+qmd: "documentation governance.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: DOCUMENTATION_GOVERNANCE.md"
 module: Notify
 type: note

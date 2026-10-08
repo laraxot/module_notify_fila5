@@ -1,4 +1,7 @@
 ---
+qmd: "GITHUB SYNC RULE"
+issues: []
+discussions: []
 title: "Sync .github with bashscripts/ai/.github"
 module: notify
 type: integration

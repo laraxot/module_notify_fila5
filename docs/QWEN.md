@@ -1,3 +1,14 @@
+---
+title: "QWEN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "QWEN"
+issues: []
+discussions: []
+---
+
 # Qwen Added Memories (Modular)
 
 Questa documentazione è stata divisa in moduli per una gestione più efficiente del contesto.
@@ -16,6 +27,14 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [LLM Wiki Pattern](./docs/wiki/README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
 
 ---
+title: "QWEN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "QWEN"
+issues: []
+discussions: []
 **See also:**
 - [CLAUDE.md](./CLAUDE.md)
 - [agents.md](./AGENTS.md)

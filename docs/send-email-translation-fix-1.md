@@ -1,3 +1,14 @@
+---
+title: "send email translation fix 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send email translation fix 1"
+issues: []
+discussions: []
+---
+
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati

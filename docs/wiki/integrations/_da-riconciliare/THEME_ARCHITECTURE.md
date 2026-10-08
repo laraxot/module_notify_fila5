@@ -1,4 +1,7 @@
 ---
+qmd: "THEME ARCHITECTURE"
+issues: []
+discussions: []
 title: "Theme Architecture - 'Il Tema è un Vestito'"
 module: notify
 type: integration

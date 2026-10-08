@@ -1,4 +1,7 @@
 ---
+qmd: "launch.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: launch.md"
 module: Notify
 type: note

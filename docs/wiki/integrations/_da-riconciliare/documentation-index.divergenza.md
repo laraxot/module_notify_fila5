@@ -1,4 +1,7 @@
 ---
+qmd: "documentation index.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: DOCUMENTATION_INDEX.md"
 module: Notify
 type: note

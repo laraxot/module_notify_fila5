@@ -1,4 +1,7 @@
 ---
+qmd: "farmshops integration complete"
+issues: []
+discussions: []
 title: "FARMSHOPS.EU INTEGRATION - COMPLETE"
 module: notify
 type: integration

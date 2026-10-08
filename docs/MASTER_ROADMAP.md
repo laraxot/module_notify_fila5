@@ -1,9 +1,28 @@
+---
+title: "MASTER ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MASTER ROADMAP"
+issues: []
+discussions: []
+---
+
 # 🗺️ FIXCITY - MASTER ROADMAP 2025-2026
 
 > **Roadmap strategica completa per il completamento e l'evoluzione della piattaforma**
 
 ---
 
+title: "MASTER ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MASTER ROADMAP"
+issues: []
+discussions: []
 ## 📊 Executive Summary
 
 **Obiettivo**: Trasformare FixCity da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.

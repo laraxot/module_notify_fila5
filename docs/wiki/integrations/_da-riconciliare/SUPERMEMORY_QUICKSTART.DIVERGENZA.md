@@ -1,4 +1,7 @@
 ---
+qmd: "SUPERMEMORY QUICKSTART.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: SUPERMEMORY_QUICKSTART.md"
 module: Notify
 type: note

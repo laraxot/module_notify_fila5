@@ -1,3 +1,14 @@
+---
+title: "fix is ci context not found"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "fix is ci context not found"
+issues: []
+discussions: []
+---
+
 # Fix Risolto: Errore `is_ci_context: command not found`
 
 > **Data**: 2026-03-13  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "fix is ci context not found"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "fix is ci context not found"
+issues: []
+discussions: []
 ## 🚨 Problema
 
 ### Errori Segnalati

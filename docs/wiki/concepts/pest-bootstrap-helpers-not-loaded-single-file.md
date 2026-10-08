@@ -1,4 +1,7 @@
 ---
+qmd: "pest bootstrap helpers not loaded single file"
+issues: []
+discussions: []
 title: "Pest — helper di tests/Pest.php non sempre caricati per run isolate"
 type: concept
 module: Notify

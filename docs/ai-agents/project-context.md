@@ -1,3 +1,14 @@
+---
+title: "project context"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project context"
+issues: []
+discussions: []
+---
+
 # Project Context
 
 > Contesto generale del progetto PTVX Fila5 Mono.

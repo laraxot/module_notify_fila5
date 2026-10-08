@@ -1,4 +1,7 @@
 ---
+qmd: "SUPER MUCCA FINAL SUMMARY"
+issues: []
+discussions: []
 title: "SUPER MUCCA - Missione Completata"
 module: notify
 type: integration

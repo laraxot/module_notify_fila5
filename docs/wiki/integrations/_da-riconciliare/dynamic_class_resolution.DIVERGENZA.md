@@ -1,4 +1,7 @@
 ---
+qmd: "dynamic class resolution.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: dynamic_class_resolution.md"
 module: Notify
 type: note

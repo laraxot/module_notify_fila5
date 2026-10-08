@@ -1,3 +1,14 @@
+---
+title: "json migration error"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "json migration error"
+issues: []
+discussions: []
+---
+
 # Errore di Migrazione JSON e Soluzione
 
 ## Errore Riscontrato

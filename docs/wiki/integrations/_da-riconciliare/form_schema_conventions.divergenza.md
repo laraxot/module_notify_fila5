@@ -1,4 +1,7 @@
 ---
+qmd: "form schema conventions.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: form_schema_conventions.md"
 module: Notify
 type: note

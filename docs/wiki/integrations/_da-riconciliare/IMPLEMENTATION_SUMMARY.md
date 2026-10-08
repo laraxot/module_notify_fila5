@@ -1,4 +1,7 @@
 ---
+qmd: "IMPLEMENTATION SUMMARY"
+issues: []
+discussions: []
 title: "Riepilogo Implementazione Design Comuni"
 module: notify
 type: integration

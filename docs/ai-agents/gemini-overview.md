@@ -1,3 +1,14 @@
+---
+title: "gemini overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gemini overview"
+issues: []
+discussions: []
+---
+
 # GEMINI Overview
 
 Panoramica del progetto Laravel per agenti Gemini.
@@ -8,6 +19,14 @@ Questo è un progetto Laravel che fornisce un tema "meetup" per Laravel meetups.
 
 ---
 
+title: "gemini overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gemini overview"
+issues: []
+discussions: []
 ## Building and Running
 
 ### Setup

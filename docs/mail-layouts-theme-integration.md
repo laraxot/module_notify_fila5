@@ -1,3 +1,14 @@
+---
+title: "mail layouts theme integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail layouts theme integration"
+issues: []
+discussions: []
+---
+
 # Mail Layouts - Integrazione con Sistema Temi
 
 ## Overview
@@ -351,6 +362,14 @@ class EmailLayoutResource extends XotBaseResource
 
 ---
 
+title: "mail layouts theme integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail layouts theme integration"
+issues: []
+discussions: []
 **Ultimo aggiornamento**: 27 Ottobre 2025  
 **Pattern**: Layout per tema con fallback chain  
 **Status**: ✅ IMPLEMENTATO

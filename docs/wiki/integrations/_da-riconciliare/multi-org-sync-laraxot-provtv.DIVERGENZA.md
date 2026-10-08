@@ -1,4 +1,7 @@
 ---
+qmd: "multi org sync laraxot provtv.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: multi-org-sync-laraxot-provtv.md"
 module: Notify
 type: note

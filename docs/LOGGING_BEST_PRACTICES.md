@@ -1,4 +1,7 @@
 ---
+qmd: "LOGGING BEST PRACTICES"
+issues: []
+discussions: []
 title: "Logging Best Practices - Performance & Quality"
 module: notify
 type: integration

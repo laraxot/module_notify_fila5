@@ -1,4 +1,7 @@
 ---
+qmd: "enum config usage"
+issues: []
+discussions: []
 title: "Utilizzo di Enum e Config"
 module: notify
 type: integration

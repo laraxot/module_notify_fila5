@@ -1,3 +1,14 @@
+---
+title: "contact column error fix"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contact column error fix"
+issues: []
+discussions: []
+---
+
 # Correzione Errori ContactColumn - Modulo Notify
 
 ## 📋 Riepilogo della Correzione

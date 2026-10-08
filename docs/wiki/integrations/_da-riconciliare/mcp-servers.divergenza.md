@@ -1,4 +1,7 @@
 ---
+qmd: "mcp servers.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: mcp-servers.md"
 module: Notify
 type: note

@@ -1,3 +1,14 @@
+---
+title: "agents overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents overview"
+issues: []
+discussions: []
+---
+
 # Agents overview
 
 Panoramica delle preferenze utente e del canone operativo del repository.

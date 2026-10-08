@@ -1,4 +1,7 @@
 ---
+qmd: "bmad gsd ralph integration.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: bmad-gsd-ralph-integration.md"
 module: Notify
 type: note

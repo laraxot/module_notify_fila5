@@ -1,4 +1,7 @@
 ---
+qmd: "implementations completed.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: IMPLEMENTATIONS_COMPLETED.md"
 module: Notify
 type: note

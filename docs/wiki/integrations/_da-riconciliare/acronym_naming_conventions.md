@@ -1,4 +1,7 @@
 ---
+qmd: "acronym naming conventions"
+issues: []
+discussions: []
 title: "Convenzioni di Naming per Acronimi"
 module: notify
 type: integration

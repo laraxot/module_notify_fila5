@@ -1,4 +1,7 @@
 ---
+qmd: "SESSIONE COMPLETA"
+issues: []
+discussions: []
 title: "Sessione Completata - Allineamento Bootstrap Italia"
 module: notify
 type: integration

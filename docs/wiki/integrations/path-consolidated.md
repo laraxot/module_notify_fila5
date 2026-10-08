@@ -1,4 +1,7 @@
 ---
+qmd: "path consolidated"
+issues: []
+discussions: []
 title: "path — Consolidated Documentation"
 module: notify
 type: integration

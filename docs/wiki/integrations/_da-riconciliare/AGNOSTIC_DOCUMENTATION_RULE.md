@@ -1,4 +1,7 @@
 ---
+qmd: "AGNOSTIC DOCUMENTATION RULE"
+issues: []
+discussions: []
 title: "Agnostic Documentation Rule"
 module: notify
 type: integration

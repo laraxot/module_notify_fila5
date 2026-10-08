@@ -1,4 +1,7 @@
 ---
+qmd: "ui ux pro max skills integration.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: ui-ux-pro-max-skills-integration.md"
 module: Notify
 type: note

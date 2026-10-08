@@ -1,3 +1,14 @@
+---
+title: "contact extraction pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contact extraction pattern"
+issues: []
+discussions: []
+---
+
 # Pattern DRY: Estrazione Attributi Contatti da Modelli
 
 **Data**: 2025-01-18  
@@ -204,6 +215,14 @@ Utilizzo:
 
 ---
 
+title: "contact extraction pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "contact extraction pattern"
+issues: []
+discussions: []
 **Filosofia**: "Estrai una volta, usa ovunque" - DRY Principle  
 **Pattern**: Metodo generico + wrapper specifici  
 **Beneficio**: ~30 righe duplicate eliminate, codice più manutenibile

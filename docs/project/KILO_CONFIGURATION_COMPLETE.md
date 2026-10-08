@@ -1,3 +1,14 @@
+---
+title: "KILO CONFIGURATION COMPLETE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "KILO CONFIGURATION COMPLETE"
+issues: []
+discussions: []
+---
+
 # ✅ Kilo (OpenCode) Configuration - COMPLETE
 
 **Date**: 2026-03-30  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "KILO CONFIGURATION COMPLETE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "KILO CONFIGURATION COMPLETE"
+issues: []
+discussions: []
 ## Cos'è Kilo Code
 
 **Kilo Code** (ora **OpenCode**) è un AI coding assistant open source che:

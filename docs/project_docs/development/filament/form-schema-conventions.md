@@ -1,3 +1,14 @@
+---
+title: "form schema conventions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "form schema conventions"
+issues: []
+discussions: []
+---
+
 # Convenzioni per Form Schema in Filament
 
 ## Regola Fondamentale
@@ -139,5 +150,13 @@ class MyResource extends XotBaseResource
 
 ---
 
+title: "form schema conventions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "form schema conventions"
+issues: []
+discussions: []
 *Ultimo aggiornamento: Agosto 2025*
 *Fonte: laravel/Modules/Xot/docs/FILAMENT_FORM_SCHEMA_CONVENTIONS.md* 

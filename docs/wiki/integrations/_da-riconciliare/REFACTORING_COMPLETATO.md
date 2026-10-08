@@ -1,4 +1,7 @@
 ---
+qmd: "REFACTORING COMPLETATO"
+issues: []
+discussions: []
 title: "REFACTORING BASEMODEL - COMPLETATO! ✨🐄"
 module: notify
 type: integration

@@ -1,3 +1,14 @@
+---
+title: "translation standards progress"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translation standards progress"
+issues: []
+discussions: []
+---
+
 # Progresso Standardizzazione Traduzioni
 
 ## Stato Attuale - 12/05/2025

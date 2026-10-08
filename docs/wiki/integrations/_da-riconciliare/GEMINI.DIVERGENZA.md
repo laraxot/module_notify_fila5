@@ -1,4 +1,7 @@
 ---
+qmd: "GEMINI.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: GEMINI.md"
 module: Notify
 type: note

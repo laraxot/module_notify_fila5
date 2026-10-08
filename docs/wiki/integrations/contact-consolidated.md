@@ -1,4 +1,7 @@
 ---
+qmd: "contact consolidated"
+issues: []
+discussions: []
 title: "contact — Consolidated Documentation"
 module: notify
 type: integration

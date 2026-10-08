@@ -1,3 +1,14 @@
+---
+title: "semantic css"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "semantic css"
+issues: []
+discussions: []
+---
+
 # 🎨 Semantic CSS - AI Agents Documentation
 
 **Path**: `bashscripts/ai/.agents/docs/frontend/semantic-css.md`  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "semantic css"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "semantic css"
+issues: []
+discussions: []
 ## 🎯 Core Principle
 
 > **"Name classes based on what an element *is*, not what it *looks like*."**

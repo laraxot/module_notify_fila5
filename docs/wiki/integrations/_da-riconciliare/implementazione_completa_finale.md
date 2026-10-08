@@ -1,4 +1,7 @@
 ---
+qmd: "implementazione completa finale"
+issues: []
+discussions: []
 title: "IMPLEMENTAZIONE COMPLETA - REPORT FINALE ✨🐄"
 module: notify
 type: integration

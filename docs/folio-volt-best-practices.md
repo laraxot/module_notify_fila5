@@ -1,4 +1,7 @@
 ---
+qmd: "folio volt best practices"
+issues: []
+discussions: []
 title: "Laravel Folio + Volt - Best Practices and Patterns Analysis"
 module: notify
 type: integration

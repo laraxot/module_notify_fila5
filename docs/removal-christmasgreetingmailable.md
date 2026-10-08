@@ -1,3 +1,14 @@
+---
+title: "removal christmasgreetingmailable"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "removal christmasgreetingmailable"
+issues: []
+discussions: []
+---
+
 # Rimozione ChristmasGreetingMailable - Report Completo
 
 **Data**: 19 Dicembre 2025  
@@ -184,5 +195,13 @@ Una sola classe (`SpatieEmail`) per tutte le email stagionali, non una per ogni 
 
 ---
 
+title: "removal christmasgreetingmailable"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "removal christmasgreetingmailable"
+issues: []
+discussions: []
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Genericity first, simplicity second, DRY always, KISS forever"*

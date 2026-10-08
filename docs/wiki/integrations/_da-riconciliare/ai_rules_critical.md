@@ -1,4 +1,7 @@
 ---
+qmd: "ai rules critical"
+issues: []
+discussions: []
 title: "AI Agent Rules - CRITICAL UPDATE"
 module: notify
 type: integration

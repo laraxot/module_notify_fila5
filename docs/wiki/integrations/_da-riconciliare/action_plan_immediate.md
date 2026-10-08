@@ -1,4 +1,7 @@
 ---
+qmd: "action plan immediate"
+issues: []
+discussions: []
 title: "PIANO D'AZIONE IMMEDIATO - Notify Platform"
 module: notify
 type: integration

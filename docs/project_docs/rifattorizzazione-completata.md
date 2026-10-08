@@ -1,3 +1,14 @@
+---
+title: "rifattorizzazione completata"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "rifattorizzazione completata"
+issues: []
+discussions: []
+---
+
 # Rifattorizzazione Completa delle Cartelle Docs
 
 ## Obiettivo Raggiunto

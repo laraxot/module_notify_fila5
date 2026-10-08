@@ -1,4 +1,7 @@
 ---
+qmd: "analisi metodi duplicati master.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: ANALISI_METODI_DUPLICATI_MASTER.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "super mucca docs analysis.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: SUPER_MUCCA_DOCS_ANALYSIS.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "PHPSTAN FIX COORDINATION.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: PHPSTAN_FIX_COORDINATION.md"
 module: Notify
 type: note

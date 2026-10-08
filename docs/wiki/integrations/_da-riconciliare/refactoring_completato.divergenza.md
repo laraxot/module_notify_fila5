@@ -1,4 +1,7 @@
 ---
+qmd: "refactoring completato.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: REFACTORING_COMPLETATO.md"
 module: Notify
 type: note

@@ -1,4 +1,7 @@
 ---
+qmd: "perfection plan"
+issues: []
+discussions: []
 title: "NOTIFY - PERFECTION PLAN"
 module: notify
 type: integration

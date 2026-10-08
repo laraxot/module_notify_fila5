@@ -1,4 +1,7 @@
 ---
+qmd: "supermemory quickstart"
+issues: []
+discussions: []
 title: "SuperMemory - AI Memory Infrastructure"
 module: notify
 type: integration

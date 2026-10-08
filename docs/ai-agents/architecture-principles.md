@@ -1,3 +1,14 @@
+---
+title: "architecture principles"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture principles"
+issues: []
+discussions: []
+---
+
 # Architecture Principles
 
 Key architectural rules for Quaeris Fila5 Mono (Laraxot / Laravel 12 / Filament 5).

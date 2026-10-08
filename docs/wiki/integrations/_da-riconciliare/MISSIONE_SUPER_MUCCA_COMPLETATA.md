@@ -1,4 +1,7 @@
 ---
+qmd: "MISSIONE SUPER MUCCA COMPLETATA"
+issues: []
+discussions: []
 title: "MISSIONE SUPER MUCCA - COMPLETAMENTO TOTALE ✨🐄"
 module: notify
 type: integration

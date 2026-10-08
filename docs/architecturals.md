@@ -1,4 +1,7 @@
 ---
+qmd: "architecturals"
+issues: []
+discussions: []
 title: "Pattern Architetturali per le Notifiche"
 module: notify
 type: integration

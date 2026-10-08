@@ -1,4 +1,7 @@
 ---
+qmd: "MIGRATION PLAN.DIVERGENZA"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: MIGRATION_PLAN.md"
 module: Notify
 type: note

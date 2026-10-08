@@ -1,4 +1,7 @@
 ---
+qmd: "naming conventions"
+issues: []
+discussions: []
 title: "Convenzioni di Naming"
 module: notify
 type: integration

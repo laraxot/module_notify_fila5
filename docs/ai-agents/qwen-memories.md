@@ -1,9 +1,28 @@
+---
+title: "qwen memories"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen memories"
+issues: []
+discussions: []
+---
+
 # QWEN Memories
 
 Memorie e lesson learned accumulate da Qwen.
 
 ---
 
+title: "qwen memories"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen memories"
+issues: []
+discussions: []
 ## Error Fix Pattern
 
 Quando si lavora con date in blade:

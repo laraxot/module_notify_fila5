@@ -1,3 +1,14 @@
+---
+title: "refactoring completato"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "refactoring completato"
+issues: []
+discussions: []
+---
+
 # 🐄✨ REFACTORING BASEMODEL - COMPLETATO! ✨🐄
 
 **Data:** 2025-10-15  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "refactoring completato"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "refactoring completato"
+issues: []
+discussions: []
 ## 🎯 RISULTATI FINALI
 
 ### Statistiche Precise

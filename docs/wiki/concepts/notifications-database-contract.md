@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "notifications — schema Notify, runtime User"
 type: concept
 tags: [notify, notifications, migration, database, user-connection, xotbasemigration]

@@ -1,4 +1,7 @@
 ---
+qmd: "config structure.divergenza"
+issues: []
+discussions: []
 title: "Divergenza da riconciliare: config_structure.md"
 module: Notify
 type: note
