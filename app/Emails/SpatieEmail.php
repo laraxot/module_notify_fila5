@@ -63,7 +63,7 @@ class SpatieEmail extends TemplateMailable
         if ($tpl !== null) {
             $tpl->update(['counter' => $tpl->counter + 1]);
         }
-        if ('verify-email' === $this->slug) {
+        if ($this->slug === 'verify-email') {
             $this->syncVerifyEmailTemplate($tpl, app()->getLocale());
         }
         $lang = app()->getLocale();
@@ -147,10 +147,10 @@ class SpatieEmail extends TemplateMailable
     private function syncVerifyEmailTemplate(MailTemplate $tpl, string $lang): void
     {
         $current = SafeStringCastAction::cast($tpl->getTranslation('html_template', $lang, false));
-        if ('' !== $current && str_contains($current, '{{ verification_url }}')) {
+        if ($current !== '' && str_contains($current, '{{ verification_url }}')) {
             return;
         }
-        if ('' !== $current && ! str_contains($current, 'in attesa di approvazione')) {
+        if ($current !== '' && ! str_contains($current, 'in attesa di approvazione')) {
             return; // personalizzato dall'admin
         }
 
@@ -171,7 +171,7 @@ class SpatieEmail extends TemplateMailable
         $mailTemplate = $this->getMailTemplate();
 
         // Template senza layout scelto (es. verify-email appena creato): layout base del tema
-        $layout = is_string($mailTemplate->html_layout_path) && '' !== $mailTemplate->html_layout_path
+        $layout = is_string($mailTemplate->html_layout_path) && $mailTemplate->html_layout_path !== ''
             ? $mailTemplate->html_layout_path
             : 'base.html';
         $html_layout_path = XotData::make()->getMailHtmlLayoutPath($layout);
