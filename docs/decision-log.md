@@ -7,6 +7,18 @@ links: {github_issue: #XXX, discussion: #XXX}
 
 ## Decisions
 
+### 2026-10-08: Riallineamento dell'intero modulo all'ultimo commit buono `ad85f0b08`
+- **Choose**: Confronto a tre vie dell'intero modulo (app, config, routes, resources, lang, database, tests) con l'ultimo commit buono prima degli eventi del 07/10, `ad85f0b08` (07/10 06:38, story `2026-10-06-phpstan-cleanup-notify`, enum `NotificationStatusEnum`/`NotificationLogStatusEnum`).
+- **Over**: Ripristino file per file rispetto allo stato del monorepo al 06/10, come nelle due voci precedenti: non vedeva le modifiche fatte nel sotto-repo dopo il 06/10 (per Notify contava 34 file regrediti, erano 338).
+- **Because**: Il 07/10 la linea buona è stata fusa con una copia vecchia (`6d3d7794a` + merge `29f6307a3`, 11:13) e poi re-importata da zero (`89ae0b10a`, 12:12). Classificazione dei file diversi da `ad85f0b08`:
+  - 322 toccati solo da quegli eventi: riportati ad `ad85f0b08`. Per 138 resta una differenza di solo permesso (`100755` nel commit), con `core.fileMode=false` non modificabile dal working tree.
+  - 16 aggiunti solo dalle copie vecchie: eliminati (`app/Phpstan/TraitProbes.php`, la cartella legacy `resources/lang`, `lang/{de,en}/test_smtp.php`, `tests/Unit/Traits/NotifyTraitTestDoubles.php`).
+  - 13 eliminati da Marco l'08/10 (`5db42bf06`: `Services/*`, `NotificationFacade`, `PushNotificationPlatformDelivery`, ...): restano eliminati, refactoring voluto.
+  - 34 con lavoro nuovo (`5db42bf06` di Marco, `6b444a296` del ripristino di stamattina): merge a tre vie, base = versione prima del commit nuovo, conflitti risolti a favore della versione più recente. `5db42bf06` rifaceva sulla copia vecchia lo stesso lavoro di `ad85f0b08` (enum, stati, targeting push).
+  - Eccezione: `TestSmtpPage`, `NotifyThemeableBusinessLogicTest`, `MailTemplateTest` presi interi da `ad85f0b08`. `5db42bf06` toglieva solo variabili inutilizzate nella copia vecchia, che in `ad85f0b08` sono usate: il merge le lasciava non definite (22 errori PHPStan).
+- **Restano**: `getRecord()`, guard SMS vuoti, `SmsChannel` con `toSms()` nullo; `SmsChannelSendTest` di `ad85f0b08` si aspetta proprio il salto del `null`.
+- **Verifica**: `php -l` pulito, nessun marcatore di conflitto; PHPStan su `Modules/Notify` senza errori. Suite Notify + test Quaeris di listener e `SendInviteAction`, prima e dopo, confronto JUnit test per test: 0 peggiorati, 1 migliorato, 5 test nuovi. I 401 fallimenti presenti in entrambi gli stati sono di bootstrap (*Target class [config] does not exist*: `tests/Pest.php` del modulo non viene caricato lanciando dalla root).
+
 ### 2026-10-08: Ripristino traduzioni e SendNetfunSMSAction regrediti dal re-import del 07/10
 - **Choose**: Ripristinare dallo stato del monorepo al 06/10 `lang/it/{send_push_notification,send_whats_app,send_spatie_email,send_aws_email}.php` e `Actions/SMS/SendNetfunSMSAction.php` (torna `isSuccessfulResponse()`).
 - **Over**: Tenere le versioni del commit `13c52bb06` (07/10 13:02, senza genitori).

@@ -111,22 +111,32 @@ describe('Notify Themeable Business Logic', function () {
         $theme2 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 2']);
         $theme3 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 3']);
 
-        NotifyThemeableFactory::new()->createOne([
+        $themeable1 = NotifyThemeableFactory::new()->createOne([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme1->id]);
 
-        NotifyThemeableFactory::new()->createOne([
+        $themeable2 = NotifyThemeableFactory::new()->createOne([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme2->id]);
 
-        NotifyThemeableFactory::new()->createOne([
+        $themeable3 = NotifyThemeableFactory::new()->createOne([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme3->id]);
 
-        Assert::assertCount(3, NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get());
+        $assignments = NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get();
+
+        Assert::assertCount(3, $assignments);
+        Assert::assertEqualsCanonicalizing(
+            [$themeable1->id, $themeable2->id, $themeable3->id],
+            $assignments->pluck('id')->all(),
+        );
+        Assert::assertEqualsCanonicalizing(
+            [$theme1->id, $theme2->id, $theme3->id],
+            $assignments->pluck('notify_theme_id')->all(),
+        );
     });
 
     it('can handle theme switching', function () {
@@ -247,6 +257,8 @@ describe('Notify Themeable Business Logic', function () {
     it('can handle bulk theme operations', function () {
         $theme1 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 1']);
         $theme2 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 2']);
+        $theme3 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 3']);
+
         $modelIds = [101, 102, 103, 104, 105];
 
         foreach ($modelIds as $modelId) {
@@ -267,5 +279,8 @@ describe('Notify Themeable Business Logic', function () {
         foreach ($theme2Assignments as $assignment) {
             Assert::assertSame('admin@'.notifyThemeableTestDomain(), $assignment->updated_by);
         }
+
+        // Il terzo tema non e' coinvolto nello spostamento: non deve ricevere assegnazioni.
+        Assert::assertCount(0, NotifyThemeable::where('notify_theme_id', $theme3->id)->get());
     });
 });

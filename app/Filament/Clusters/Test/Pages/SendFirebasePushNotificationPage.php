@@ -17,12 +17,14 @@ use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Notification;
+use Kreait\Firebase\Contract\Messaging;
+use Kreait\Firebase\Messaging\CloudMessage;
+use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Filament\Clusters\Test;
-use Modules\Notify\Notifications\PushNotification;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
+use Webmozart\Assert\Assert;
 
 /**
  * @property Schema $pushForm
@@ -138,6 +140,24 @@ class SendFirebasePushNotificationPage extends XotBasePage
         }
     }
 
+    /**
+     * FCM accetta solo coppie chiave non vuota => stringa: il tipo viaggia come chiave `type`.
+     *
+     * @return array<non-empty-string, string>
+     */
+    protected function getMessageData(FirebaseNotificationData $notificationData): array
+    {
+        $messageData = ['type' => $notificationData->type];
+
+        foreach ($notificationData->data as $key => $value) {
+            if ($key !== '') {
+                $messageData[$key] = SafeStringCastAction::cast($value);
+            }
+        }
+
+        return $messageData;
+    }
+
     /** @return array<string, Action> */
     protected function getPushFormActions(): array
     {
@@ -146,6 +166,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->label(__('notify::push.actions.send'))
                 ->submit('sendPushNotification')];
     }
+
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
@@ -71,7 +72,7 @@ it('restore method returns NotificationTemplate', function (): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
 
-    $method = new \ReflectionMethod($version, 'restore');
+    $method = new \ReflectionMethod($version, 'restoreTemplate');
     $returnType = $method->getReturnType();
 
     Assert::assertNotNull($returnType);

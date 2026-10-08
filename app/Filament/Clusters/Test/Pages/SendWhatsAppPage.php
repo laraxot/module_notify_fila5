@@ -21,7 +21,6 @@ use Modules\Notify\Enums\WhatsAppDriverEnum;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 
 /**
  * @property Schema $whatsappForm
@@ -135,6 +134,7 @@ class SendWhatsAppPage extends XotBasePage
         return [
             'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions')];
     }
+
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
