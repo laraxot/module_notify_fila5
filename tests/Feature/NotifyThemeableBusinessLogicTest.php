@@ -111,17 +111,17 @@ describe('Notify Themeable Business Logic', function () {
         $theme2 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 2']);
         $theme3 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 3']);
 
-        $themeable1 = NotifyThemeableFactory::new()->createOne([
+        NotifyThemeableFactory::new()->createOne([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme1->id]);
 
-        $themeable2 = NotifyThemeableFactory::new()->createOne([
+        NotifyThemeableFactory::new()->createOne([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme2->id]);
 
-        $themeable3 = NotifyThemeableFactory::new()->createOne([
+        NotifyThemeableFactory::new()->createOne([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme3->id]);
@@ -247,8 +247,6 @@ describe('Notify Themeable Business Logic', function () {
     it('can handle bulk theme operations', function () {
         $theme1 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 1']);
         $theme2 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 2']);
-        $theme3 = NotifyThemeFactory::new()->createOne(['subject' => 'Tema 3']);
-
         $modelIds = [101, 102, 103, 104, 105];
 
         foreach ($modelIds as $modelId) {

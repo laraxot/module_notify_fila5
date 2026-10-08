@@ -55,8 +55,6 @@ describe('SendVonageWhatsAppAction', function () {
     });
 
     it('has required imports', function () {
-        $reflection = new \ReflectionClass(SendVonageWhatsAppAction::class);
-        $filename = $reflection->getFileName();
         $content = TestCase::notifyReflectionSource(new \ReflectionClass(SendVonageWhatsAppAction::class));
 
         Assert::assertStringContainsString('declare(strict_types=1)', (string) $content);

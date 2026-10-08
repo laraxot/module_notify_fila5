@@ -55,8 +55,6 @@ describe('Send360dialogWhatsAppAction', function () {
     });
 
     it('has required imports', function () {
-        $reflection = new \ReflectionClass(Send360dialogWhatsAppAction::class);
-        $filename = $reflection->getFileName();
         $content = TestCase::notifyReflectionSource(new \ReflectionClass(Send360dialogWhatsAppAction::class));
 
         Assert::assertStringContainsString('declare(strict_types=1)', (string) $content);

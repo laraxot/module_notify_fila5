@@ -146,7 +146,7 @@ class SpatieEmail extends TemplateMailable
      */
     private function syncVerifyEmailTemplate(MailTemplate $tpl, string $lang): void
     {
-        $current = (string) $tpl->getTranslation('html_template', $lang, false);
+        $current = SafeStringCastAction::cast($tpl->getTranslation('html_template', $lang, false));
         if ('' !== $current && str_contains($current, '{{ verification_url }}')) {
             return;
         }

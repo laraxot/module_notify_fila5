@@ -37,6 +37,8 @@ updated: 2026-10-06
 - 🧭 **[No Orphan Http Controllers](./no-orphan-http-controllers.md)** - I controller web senza route o boundary chiaro non devono restare nel modulo.
 - 🚫 **[No NotificationTrackingController](./no-notification-tracking-controller.md)** - Il tracking notifiche non deve vivere in un controller HTTP legacy.
 - 🧹 **[PHPStan cleanup Notify 2026-10-06](../stories/2026-10-06-phpstan-cleanup-notify.dev.md)** - NotificationLog ripristinato + enum, stub push, pagine Test Filament ([story](../stories/2026-10-06-phpstan-cleanup-notify.story.md)).
+- 🧹 **[PHPStan Notify push delivery 2026-10-08](../stories/2026-10-08-phpstan-notify-push-delivery.story.md)** - Tre copie del recapito push ridotte alle Action `Actions/Push/*` (il facade residuo e' stato poi eliminato).
+- 🧹 **[Notify senza Services 2026-10-08](../stories/2026-10-08-services-to-actions-notify.story.md)** - `app/Services` eliminata (test sulle Action), `STATUS_*` -> `NotificationLogStatusEnum`, consegne push simulate tracciate.
 - 🔬 **[Testing Guidelines](./testing.md)** - Mocking dei canali e verifica invio.
 - 📘 **[Docs-First Workflow](./docs-first-workflow.md)** - Sequenza obbligatoria docs -> codice -> tracking GitHub.
 - 🧪 **PSR-4 Test Helpers** - Nei file Pest usare helper anonimi o support file dedicati; evitare classi top-level extra che rompono `composer dump-autoload`.

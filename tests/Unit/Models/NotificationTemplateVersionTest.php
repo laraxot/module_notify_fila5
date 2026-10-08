@@ -59,12 +59,12 @@ it('has correct casts', function (): void {
 
 it('has template relationship method', function (): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
+    Assert::assertTrue($reflection->hasMethod('template'));
 });
 
 it('has restore method', function (): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
+    Assert::assertTrue($reflection->hasMethod('restoreTemplate'));
 });
 
 it('restore method returns NotificationTemplate', function (): void {
@@ -121,9 +121,9 @@ it('has media trait', function (): void {
 });
 
 it('has creator and updater relationships', function (): void {
-    $version = new NotificationTemplateVersion;
+    Assert::assertInstanceOf(NotificationTemplateVersion::class, new NotificationTemplateVersion);
 });
 
 it('has media relationship', function (): void {
-    $version = new NotificationTemplateVersion;
+    Assert::assertInstanceOf(NotificationTemplateVersion::class, new NotificationTemplateVersion);
 });

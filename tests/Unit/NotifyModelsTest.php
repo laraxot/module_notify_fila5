@@ -67,7 +67,7 @@ it('can make a notification channel without persisting', function () {
 it('can create a notification log', function () {
     $log = NotificationLogFactory::new()->createOne([
         'status' => 'sent',
-        'content' => 'Notification sent successfully']);
+        'status_message' => 'Notification sent successfully']);
 
     Assert::assertInstanceOf(NotificationLog::class, $log);
     Assert::assertSame('sent', $log->status);

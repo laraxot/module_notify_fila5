@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
+use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
@@ -72,20 +73,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  */
 class NotificationLog extends BaseModel
 {
-    public const string STATUS_PENDING = 'pending';
-
-    public const string STATUS_PROCESSING = 'processing';
-
-    public const string STATUS_SENT = 'sent';
-
-    public const string STATUS_DELIVERED = 'delivered';
-
-    public const string STATUS_FAILED = 'failed';
-
-    public const string STATUS_OPENED = 'opened';
-
-    public const string STATUS_CLICKED = 'clicked';
-
     protected $table = 'notification_logs';
 
     protected $fillable = [
@@ -148,7 +135,7 @@ class NotificationLog extends BaseModel
     public function markAsOpened(): self
     {
         $this->update([
-            'status' => self::STATUS_OPENED,
+            'status' => NotificationLogStatusEnum::OPENED->value,
             'opened_at' => now()]);
 
         return $this;
@@ -157,7 +144,7 @@ class NotificationLog extends BaseModel
     public function markAsClicked(): self
     {
         $this->update([
-            'status' => self::STATUS_CLICKED,
+            'status' => NotificationLogStatusEnum::CLICKED->value,
             'clicked_at' => now()]);
 
         return $this;
