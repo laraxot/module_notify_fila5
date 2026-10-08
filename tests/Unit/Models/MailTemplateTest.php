@@ -228,7 +228,7 @@ describe('Mail Template', function (): void {
     });
 
     test('_can_find_by_subject_pattern', function (): void {
-        $template = MailTemplateFactory::new()->createOne([
+        MailTemplateFactory::new()->createOne([
             'mailable' => 'App\Mail\PatternMail',
             'name' => 'Pattern Template',
             'subject' => 'Welcome to our platform',

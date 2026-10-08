@@ -74,8 +74,6 @@ describe('FormatSmsMessageAction', function () {
     });
 
     it('is not using QueueableAction trait', function () {
-        $action = new FormatSmsMessageAction;
-
         $traits = class_uses(FormatSmsMessageAction::class);
 
         Assert::assertArrayHasKey(QueueableAction::class, $traits);

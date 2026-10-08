@@ -46,11 +46,8 @@ class TestSmtpPage extends XotBasePage
 
     public function emailForm(Schema $schema): Schema
     {
-        Assert::isArray($mail_config = config('mail'));
-        $smtpConfig = Arr::get($mail_config, 'mailers.smtp');
-
+        Assert::isArray(config('mail'));
         $this->emailData['subject'] = 'test';
-        $defaultEmail = XotData::make()->super_admin;
 
         return $schema->components([
             Section::make('SMTP')
