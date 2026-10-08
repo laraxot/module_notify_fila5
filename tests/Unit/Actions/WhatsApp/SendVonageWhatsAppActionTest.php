@@ -57,7 +57,10 @@ describe('SendVonageWhatsAppAction', function () {
     it('has required imports', function () {
         $content = TestCase::notifyReflectionSource(new \ReflectionClass(SendVonageWhatsAppAction::class));
 
-        Assert::assertStringContainsString('declare(strict_types=1)', (string) $content);
+        Assert::assertStringContainsString('declare(strict_types=1)', $content);
+        Assert::assertStringContainsString('use Modules\\Notify\\Contracts\\WhatsAppProviderActionInterface;', $content);
+        Assert::assertStringContainsString('use Modules\\Notify\\Datas\\WhatsAppData;', $content);
+        Assert::assertStringContainsString('use Spatie\\QueueableAction\\QueueableAction;', $content);
     });
 
     it('uses QueueableAction trait', function () {

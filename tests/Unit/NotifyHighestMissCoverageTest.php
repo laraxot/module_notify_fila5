@@ -434,7 +434,7 @@ describe('Notify highest-miss coverage', function (): void {
         Assert::assertNull($result);
         Notification::assertSentTo($recipient, GenericNotification::class);
 
-        expect(fn (): mixed => (new SendNotificationAction)->handle(
+        expect(fn (): ?Model => (new SendNotificationAction)->handle(
             $recipient,
             'missing-template',
         ))->toThrow(\Exception::class);

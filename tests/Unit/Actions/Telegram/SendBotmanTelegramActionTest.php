@@ -57,7 +57,11 @@ describe('SendBotmanTelegramAction', function () {
     it('has required imports', function () {
         $content = TestCase::notifyReflectionSource(new \ReflectionClass(SendBotmanTelegramAction::class));
 
-        Assert::assertStringContainsString('declare(strict_types=1)', (string) $content);
+        Assert::assertStringContainsString('declare(strict_types=1)', $content);
+        Assert::assertStringContainsString('use Modules\\Notify\\Contracts\\TelegramProviderActionInterface;', $content);
+        Assert::assertStringContainsString('use Modules\\Notify\\Datas\\TelegramData;', $content);
+        Assert::assertStringContainsString('use Spatie\\QueueableAction\\QueueableAction;', $content);
+        Assert::assertStringContainsString('use Modules\\Xot\\Actions\\Cast\\SafeIntCastAction;', $content);
     });
 
     it('uses QueueableAction trait', function () {

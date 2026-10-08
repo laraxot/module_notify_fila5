@@ -1,14 +1,3 @@
----
-title: "README"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "README"
-issues: []
-discussions: []
----
-
 # Migration archiviate (Notify)
 
 Queste migration **non devono essere eseguite** su installazione pulita (`migrate` / fresh install). Laravel carica solo i file in `database/migrations/` (non le sottocartelle); restano qui per storico e confronto.

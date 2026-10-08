@@ -27,14 +27,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationLog newModelQuery()
  * @method static Builder<static>|NotificationLog newQuery()
  * @method static Builder<static>|NotificationLog query()
- * @method static Builder<static>|NotificationLog withStatus(string $status)
+ * @method static Builder<static>|NotificationLog withStatus(NotificationLogStatusEnum $status)
  *
  * @property string $id
  * @property string|null $template_id
  * @property string $notifiable_type
  * @property string $notifiable_id
  * @property string $channel
- * @property string $status
+ * @property NotificationLogStatusEnum $status
  * @property string|null $status_message
  * @property array<array-key, mixed>|null $data
  * @property array<array-key, mixed>|null $metadata
@@ -107,9 +107,9 @@ class NotificationLog extends BaseModel
      * @param  Builder<static>  $query
      * @return Builder<static>
      */
-    public function scopeWithStatus(Builder $query, string $status): Builder
+    public function scopeWithStatus(Builder $query, NotificationLogStatusEnum $status): Builder
     {
-        return $query->where('status', $status);
+        return $query->where('status', $status->value);
     }
 
     /**
@@ -153,6 +153,7 @@ class NotificationLog extends BaseModel
     protected function casts(): array
     {
         return array_merge(parent::casts(), [
+            'status' => NotificationLogStatusEnum::class,
             'data' => 'array',
             'metadata' => 'array',
             'sent_at' => 'datetime',
