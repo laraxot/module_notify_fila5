@@ -126,8 +126,8 @@ bmad-verify-work [N]         # Verifica
 
 - [Indice AGENTS](./agents-split-index.md)
 - [gsd-bmad-comprehensive-guide.md](./gsd-bmad-comprehensive-guide.md)
-- [AGENTS.md originale](../../AGENTS.md)
-- [agents.md originale](../../agents.md)
+- [AGENTS.md originale](../AGENTS.md)
+- [agents.md originale](../agents.md)
 - [Index principale](./index.md)
 
 ## Differenze vs Originale

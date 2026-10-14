@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "telegram whatsapp provider interface compliance fix"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Telegram/WhatsApp provider action interface compliance fix

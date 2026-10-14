@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ACTION"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Homepage Visual Parity - Action Items

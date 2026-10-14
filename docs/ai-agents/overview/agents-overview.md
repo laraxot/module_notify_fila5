@@ -242,8 +242,8 @@ vendor/bin/pest --coverage
 ## 📖 Quick Links
 
 ### Getting Started
-- [Coding Standards](../standards/agents-coding-standards.md)
-- [Module Architecture](../architecture/agents-module-architecture.md)
+- [Coding Standards](../agents-coding-standards.md)
+- [Module Architecture](../agents-module-architecture.md)
 - [Quality Gate](../workflow/agents-quality-gate.md)
 
 ### Critical Rules

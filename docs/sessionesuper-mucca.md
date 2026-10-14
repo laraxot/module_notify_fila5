@@ -50,13 +50,13 @@ discussions: []
    - ✅ Rollback plan
    - ✅ Success metrics e KPI
 
-3. **[User Module Migration](../Modules/User/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
+3. **[User Module Migration](../../User/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
    - ✅ 7 Pivot concreti da aggiornare
    - ✅ Permission system, Teams, Devices
    - ✅ Testing specifico per User module
    - ✅ Priorità: 🔴 ALTA
 
-4. **[Blog Module Migration](../Modules/Blog/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
+4. **[Blog Module Migration](../../Blog/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
    - ✅ 3 Pivot concreti da aggiornare
    - ✅ ⚠️ Caso speciale: SoftDeletes
    - ✅ Pattern a 3 livelli spiegato

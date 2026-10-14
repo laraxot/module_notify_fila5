@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "ponytail audit over engineering"
 issues: []
 discussions: []
+status: stale
 ---
+
+> Nota 2026-10-14 (docs-audit): Dichiara 8 Action SMS e 3 varianti Agiletelecom spostate in .php.bak; il 2026-10-14 app/ non ha alcun .bak tracciato e app/Actions/SMS/ contiene ancora quelle Action. Contenuto non riscritto, verificare prima di usarlo.
 
 # Ponytail audit — Notify (over-engineering)
 

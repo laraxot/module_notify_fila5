@@ -4,6 +4,8 @@ type: report
 status: completed
 module: Notify
 updated: 2026-10-06
+tags: [docs, notify]
+qmd: "before/after report   notify module docs notify"
 ---
 
 # Before/After Report — Notify Module Docs

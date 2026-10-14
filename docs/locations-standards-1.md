@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "locations standards 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Standard di Posizionamento dei File in Notify

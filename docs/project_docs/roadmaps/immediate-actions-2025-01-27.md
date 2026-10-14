@@ -1,3 +1,11 @@
+---
+title: "AZIONI IMMEDIATE - FIXCITY PLATFORM"
+type: note
+status: draft
+updated: 2026-10-08
+tags: [docs, notify, project_docs]
+qmd: "azioni immediate - fixcity platform notify"
+---
 # 🎯 AZIONI IMMEDIATE - FIXCITY PLATFORM
 
 **Data**: 27 Gennaio 2025  

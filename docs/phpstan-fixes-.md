@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan fixes "
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan Errori Modulo Notify - 2025-01-22
@@ -20,15 +21,6 @@ discussions: []
 **Errori Corretti**: 2 ✅
 
 ---
-
-title: "phpstan fixes "
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan fixes "
-issues: []
-discussions: []
 ## Errori Identificati e Corretti
 
 ### 1. NormalizePhoneNumberAction.php - ltrim con tipo errato

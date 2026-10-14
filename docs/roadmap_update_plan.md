@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap update plan"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Roadmap Update Plan - All Modules

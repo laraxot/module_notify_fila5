@@ -34,4 +34,4 @@ updated: 2026-09-26
 qmd: "critical rules summary"
 issues: []
 discussions: []
-[Back to index](../index.md) | [Full Rules](../critical-rules.md)
+[Back to index](../../../index.md) | [Full Rules](../../critical-rules.md)

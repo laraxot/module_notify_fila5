@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "llm wiki module adoption"
 issues: []
 discussions: []
+status: draft
 ---
 
 # LLM Wiki — Adozione per Moduli e Temi

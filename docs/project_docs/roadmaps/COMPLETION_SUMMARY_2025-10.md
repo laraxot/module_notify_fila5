@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "COMPLETION SUMMARY 2025 10 01"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🏆 FixCity Project Completion Summary – 2025-10-01
@@ -28,15 +29,6 @@ Diventare la piattaforma civic tech leader in Italia con:
 - **Filament 4.x** per admin panel moderno
 
 ---
-
-title: "COMPLETION SUMMARY 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "COMPLETION SUMMARY 2025 10 01"
-issues: []
-discussions: []
 ## 📊 Stato Attuale (2025-10-01)
 
 ### Moduli Principali

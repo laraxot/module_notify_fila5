@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "contact column implementation"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ContactColumn - Implementazione DRY/KISS Centralizzata

@@ -77,9 +77,9 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 - [ ] Xot
 
 #### References
-- [Database Naming Convention](conventions/database-naming.md)
-- [AGENTS.md](../../AGENTS.md)
-- [agents.md](../../agents.md)
+- [Database Naming Convention](../conventions/database-naming.md)
+- [AGENTS.md](../AGENTS.md)
+- [agents.md](../agents.md)
 
 ---
 

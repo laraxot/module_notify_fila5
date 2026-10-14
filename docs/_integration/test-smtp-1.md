@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "test smtp 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # test_smtp

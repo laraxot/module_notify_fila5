@@ -175,8 +175,8 @@ private function sendNotification(Model $record, string $templateSlug, ChannelEn
 
 ## Related Documentation
 
-- [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
-- [DRY Composition Pattern](./dry-composition-pattern.md)
+- [Actions Calling Actions Pattern](../actions-calling-actions-pattern.md)
+- [DRY Composition Pattern](../dry-composition-pattern.md)
 - [SendNotificationBulkAction Implementation](./send-notification-bulk-action.md)
 
 ## Review Checklist

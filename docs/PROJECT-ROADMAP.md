@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "PROJECT ROADMAP"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ROADMAP PRINCIPALE - Progetto Fixcity

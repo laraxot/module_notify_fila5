@@ -25,5 +25,5 @@ discussions: []
 
 ## 🔗 Collegamento
 
-- [GEMINI.md originale](../../GEMINI.md)
+- [GEMINI.md originale](../GEMINI.md)
 - [Index principale](./index.md)

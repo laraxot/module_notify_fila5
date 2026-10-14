@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "supermemory setup"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Supermemory Configuration

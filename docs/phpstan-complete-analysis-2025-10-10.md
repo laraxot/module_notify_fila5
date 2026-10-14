@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan complete analysis 2025 10 10"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Completa PHPStan - 10 Ottobre 2025

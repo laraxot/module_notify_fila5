@@ -448,8 +448,8 @@ ralph-loop stop \
 
 ## 🔗 Related Documents
 
-- [Zen of Documentation](docs/zen-of-documentation.md)
-- [Documentation Governance](docs/documentation-governance.md)
+- [Zen of Documentation](zen-of-documentation.md)
+- [Documentation Governance](documentation-governance.md)
 - [OpenViking Context](.qwen/openviking-context.md)
 - [BMAD Thread]( _bmad/threads/zen-documentation.md)
 - [GSD Phases](.planning/phases/)

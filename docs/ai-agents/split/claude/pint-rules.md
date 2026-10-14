@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "pint rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === pint/core rules ===
@@ -19,15 +20,6 @@ discussions: []
 
 
 ---
-
-title: "pint rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "pint rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

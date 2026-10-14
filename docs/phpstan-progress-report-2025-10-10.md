@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan progress report 2025 10 10"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan Progress Report - Sessione Correzioni
@@ -313,15 +314,6 @@ Non usare `@mixin IdeHelperModel` - causa errori PHPStan
 - **Completamento**: 2-3 giorni di lavoro
 
 ---
-
-title: "phpstan progress report 2025 10 10"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan progress report 2025 10 10"
-issues: []
-discussions: []
 **Report generato**: 2025-10-10T11:45:43+02:00  
 **Analista**: Cascade AI  
 **Livello PHPStan**: MAX (9)  

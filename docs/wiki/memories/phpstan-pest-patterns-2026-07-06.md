@@ -8,6 +8,7 @@ created: 2026-07-06
 updated: 2026-07-06
 tags: [phpstan, pest, testing, patterns, sms-actions]
 qmd: "phpstan pest method.internalClass expect beforeEach this action scope notify sms test"
+status: draft
 ---
 
 # PHPStan + Pest — pattern risolti (Notify)

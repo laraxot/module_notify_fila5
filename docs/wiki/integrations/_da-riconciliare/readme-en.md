@@ -60,7 +60,7 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 | Language | Link |
 |----------|------|
-| 🇮🇹 Presentation | [../README.md](../README.md) |
+| 🇮🇹 Presentation | [../README.md](../../README.md) |
 | 🇬🇧 Business card | This file |
 | 📚 Technical wiki | [./](./) |
 

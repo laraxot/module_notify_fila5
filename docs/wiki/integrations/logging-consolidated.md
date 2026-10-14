@@ -1329,7 +1329,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [logging-optimization-summary.md](logging-optimization-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [logging-optimization-summary.md](../../logging-optimization-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 

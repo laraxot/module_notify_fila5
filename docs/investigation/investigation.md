@@ -2,6 +2,10 @@
 type: investigation
 title: "Investigation Email Deliverability"
 links: {github_issue: #XXX}
+status: draft
+updated: 2026-10-08
+tags: [docs, notify, investigation]
+qmd: "investigation: email deliverability notify"
 ---
 # Investigation: Email Deliverability
 

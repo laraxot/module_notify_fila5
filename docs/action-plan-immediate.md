@@ -17,6 +17,7 @@ related:
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./actions-calling-actions-pattern.md"
+status: draft
 ---
 
 # 🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform

@@ -386,8 +386,8 @@ python scripts/run.py ask_question.py \
 
 ## 📚 Risorse Correlate
 
-- [Documentation Governance](../../docs/documentation-governance.md)
-- [Multi-Agent Collaboration](../../docs/multi-agent-collaboration.md)
+- [Documentation Governance](documentation-governance.md)
+- [Multi-Agent Collaboration](multi-agent-collaboration.md)
 - [Filament Blocks System](../blocks/content-blocks-system.md)
 - [OpenViking Global Context](../../bashscripts/ai/openviking.md)
 

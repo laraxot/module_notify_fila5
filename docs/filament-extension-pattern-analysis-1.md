@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament extension pattern analysis 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi del Pattern di Estensione per Componenti Filament

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "claude"
 issues: []
 discussions: []
+status: draft
 ---
 
 <!-- CLAUDE SPLIT STUB

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "analysis dettagliata 7"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup

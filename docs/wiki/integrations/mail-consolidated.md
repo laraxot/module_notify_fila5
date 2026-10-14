@@ -243,14 +243,14 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
-I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
-- [Spatie Email Documentation](./SPATIE_EMAIL_USAGE_GUIDE.md)
+- [Spatie Email Documentation](../../spatie_email_usage_guide.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
-- [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
 
 ---
 
@@ -408,15 +408,15 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
-I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
 I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/mailpace-templates-integration-1.md) per dettagli sull'integrazione.
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
-- [Spatie Email Documentation](./spatie-email-usage-guide.md)
+- [Spatie Email Documentation](../../spatie-email-usage-guide.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
-- [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
 - [Spatie Email Documentation](./spatie-email-usage-guide-1.md)
 - [Email Best Practices](./mail-templates/email-best-practices-1.md)
 - [HTML Email Compatibility Guide](./mail-templates/html-email-compatibility-1.md)
@@ -557,14 +557,14 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
-I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
-- [Spatie Email Documentation](./SPATIE_EMAIL_USAGE_GUIDE.md)
+- [Spatie Email Documentation](../../spatie_email_usage_guide.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
-- [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
 
 ---
 
@@ -913,14 +913,14 @@ class EmailLayoutResource extends XotBaseResource
 ## Collegamenti
 
 ### Documentazione Interna
-- [Spatie Database Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)
-- [Mail Layouts README](../resources/mail-layouts/readme.md)
-- [SpatieEmail Class](../app/Emails/SpatieEmail.php)
+- [Spatie Database Mail Templates Deep Dive](../../spatie-database-mail-templates-deep-dive.md)
+- [Mail Layouts README](../../../resources/mail-layouts/README.md)
+- [SpatieEmail Class](../../../app/Emails/SpatieEmail.php)
 
 ### Esempi Layout
-- [Base Layout](../resources/mail-layouts/base.html)
-- [Default Layout](../resources/mail-layouts/base/default.html)
-- [Responsive Layout](../resources/mail-layouts/base/responsive.html)
+- [Base Layout](../../../resources/mail-layouts/base.html)
+- [Default Layout](../../../resources/mail-layouts/base/default.html)
+- [Responsive Layout](../../../resources/mail-layouts/base/responsive.html)
 
 ---
 
@@ -1185,14 +1185,14 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
-I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
-- [Spatie Email Documentation](./SPATIE_EMAIL_USAGE_GUIDE.md)
+- [Spatie Email Documentation](../../spatie_email_usage_guide.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
-- [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
 
 ---
 

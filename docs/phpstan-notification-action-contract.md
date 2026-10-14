@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan notification action contract"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan Notification Action Contract

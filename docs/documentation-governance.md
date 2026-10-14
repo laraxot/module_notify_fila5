@@ -445,9 +445,9 @@ jobs:
 ## 📚 Related Documents
 
 - [AGENTS.md](../../../AGENTS.md) - Agent guidelines
-- [agents.md](../../../agents.md) - Agent guidelines
+- [agents.md](../../../AGENTS.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
-- [documentation-index.md](../../../docs/documentation-index.md) - Master index
+- [documentation-index.md](documentation-index.md) - Master index
 
 ---
 

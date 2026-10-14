@@ -12,10 +12,10 @@ discussions:
   - "https://github.com/laraxot/module_notify_fila5/discussions/57"
 related:
   - ../README.md
-  - ../wiki/index.md
-  - ../notifications/readme.md
-  - ../integrations/readme.md
-  - ../templates/readme.md
+  - ../index.md
+  - ../../notifications/readme.md
+  - ../../integrations/readme.md
+  - ../../templates/readme.md
 ---
 # Obsidian Setup Guide
 
@@ -189,6 +189,6 @@ LIMIT 10
 
 ## Related Documentation
 
-- [LLM Wiki Integration Guide](../wiki/README.md)
-- [Agent Instructions](../wiki/AGENTS.md)
-- [Wiki Overview](../wiki/overview.md)
+- [LLM Wiki Integration Guide](../README.md)
+- [Agent Instructions](../AGENTS.md)
+- [Wiki Overview](../overview.md)

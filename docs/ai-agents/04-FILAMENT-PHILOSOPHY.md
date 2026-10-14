@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "04 FILAMENT PHILOSOPHY"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎨 Filament Forms & Tables Philosophy
@@ -15,15 +16,6 @@ discussions: []
 **Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 
 ---
-
-title: "04 FILAMENT PHILOSOPHY"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "04 FILAMENT PHILOSOPHY"
-issues: []
-discussions: []
 ## 🔴 Fundamental Rule
 
 **NEVER create custom forms or tables in blade.**

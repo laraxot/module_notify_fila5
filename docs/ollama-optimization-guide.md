@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Ollama Optimization Guide - Intel i5-8400 (32GB RAM)

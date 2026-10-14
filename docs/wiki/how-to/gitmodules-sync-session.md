@@ -12,6 +12,7 @@ related:
   - "../../../../../../docs/wiki/memories/no-git-submodules-module-repos.md"
   - "../../../../../../docs/wiki/rules/gitmodules-ini-paths-only.md"
   - "../../../../../../docs/wiki/how-to/per-module-git-sync-verification.md"
+status: draft
 ---
 
 # Gitmodules sync session

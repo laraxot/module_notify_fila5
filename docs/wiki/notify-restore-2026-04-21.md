@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "notify restore 2026 04 21"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Ripristino struttura Notify - 2026-04-21

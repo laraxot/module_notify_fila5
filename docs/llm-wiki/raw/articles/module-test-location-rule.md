@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "module test location rule"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Regola: Posizione dei Test nei Moduli Laraxot
@@ -15,15 +16,6 @@ discussions: []
 **Scope:** Architettura Laraxot — si applica a TUTTI i moduli e temi
 
 ---
-
-title: "module test location rule"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "module test location rule"
-issues: []
-discussions: []
 ## Il Problema
 
 Il 2026-04-21 i seguenti test sono stati creati nel percorso errato:

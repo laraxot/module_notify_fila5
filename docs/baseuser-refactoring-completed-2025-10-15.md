@@ -262,17 +262,17 @@ Questa è stata la **quinta implementazione** della giornata!
 ## Collegamenti Documentazione
 
 ### Analisi e Piano
-- [DRY Violation Analysis](../Modules/User/docs/baseuser-dry-violation-analysis.md) - Analisi completa
+- [DRY Violation Analysis](../../User/docs/baseuser-dry-violation-analysis.md) - Analisi completa
 - [Refactoring Plan](./baseuser-dry-violation-2025-10-15.md) - Piano esecutivo
 
 ### Completamento
-- [Refactoring Completed](../Modules/User/docs/baseuser-refactoring-completed-2025-10-15.md) - Dettagli implementazione
+- [Refactoring Completed](../../User/docs/baseuser-refactoring-completed-2025-10-15.md) - Dettagli implementazione
 - Questo documento - Riepilogo finale
 
 ### Modulo User
-- [User Module README](../Modules/User/docs/README.md)
-- [Roles & Permissions](../Modules/User/docs/roles-permissions.md)
-- [BaseUser Model](../Modules/User/docs/models/baseuser.md)
+- [User Module README](../../User/docs/README.md)
+- [Roles & Permissions](../../User/docs/roles-permissions.md)
+- [BaseUser Model](../../User/docs/models/baseuser.md)
 
 ### Altri Fix del Giorno
 1. [View Cache Components](./view-cache-components-fix-2025-10-15.md)

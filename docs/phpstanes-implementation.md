@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstanes implementation"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Implementazione Correzioni PHPStan - Modulo Notify

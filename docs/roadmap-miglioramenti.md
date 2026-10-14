@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap miglioramenti"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Roadmap — Notify, il modulo che parla con sei canali e con sé stesso 4533 volte

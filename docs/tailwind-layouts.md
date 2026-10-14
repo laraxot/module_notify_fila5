@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind layouts"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Layout con Filament Components

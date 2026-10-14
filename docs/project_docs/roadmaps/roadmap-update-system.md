@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap update system"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM

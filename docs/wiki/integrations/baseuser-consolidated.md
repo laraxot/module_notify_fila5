@@ -402,7 +402,7 @@ test('hasRole con pipe syntax', function () {
 ### Root Progetto
 - [DRY Violations Analysis](./dry-violations-analysis.md)
 - [Code Quality](./code-quality-analysis.md)
-- [Super Admin Setup](./super-admin-setup-fix.md)
+- [Super Admin Setup](../../super-admin-setup-fix.md)
 
 ### Spatie Documentation
 - [Laravel Permission - Basic Usage](https://spatie.be/docs/laravel-permission/v6/basic-usage/role-permissions)
@@ -412,9 +412,9 @@ test('hasRole con pipe syntax', function () {
 
 Questa è la **quarta analisi** del 15 Ottobre 2025:
 
-1. ✅ [View Cache Components](./view-cache-components-fix.md)
-2. ✅ [Transaction Model Removal](./transaction-removal-fix.md)
-3. ✅ [Super Admin Setup](./super-admin-setup-fix.md)
+1. ✅ [View Cache Components](../../view-cache-components-fix.md)
+2. ✅ [Transaction Model Removal](../../transaction-removal-fix.md)
+3. ✅ [Super Admin Setup](../../super-admin-setup-fix.md)
 4. 📋 **BaseUser DRY Violation** (questa analisi)
 
 **Pattern Consistente**: Analisi approfondita → Documentazione completa → Piano implementazione chiaro
@@ -482,7 +482,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [baseuser-dry-violation.md](baseuser-dry-violation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [baseuser-dry-violation.md](../../baseuser-dry-violation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 
@@ -789,7 +789,7 @@ Questa è stata la **quinta implementazione** della giornata!
 
 ### Analisi e Piano
 - [DRY Violation Analysis](../Modules/User/docs/baseuser-dry-violation-analysis.md) - Analisi completa
-- [Refactoring Plan](./baseuser-dry-violation.md) - Piano esecutivo
+- [Refactoring Plan](../../baseuser-dry-violation.md) - Piano esecutivo
 
 ### Completamento
 - [Refactoring Completed](../Modules/User/docs/baseuser-refactoring-completed-.md.md) - Dettagli implementazione
@@ -801,9 +801,9 @@ Questa è stata la **quinta implementazione** della giornata!
 - [BaseUser Model](../Modules/User/docs/models/baseuser.md)
 
 ### Altri Fix del Giorno
-1. [View Cache Components](./view-cache-components-fix.md)
-2. [Transaction Removal](./transaction-removal-fix.md)
-3. [Super Admin Setup](./super-admin-setup-fix.md)
+1. [View Cache Components](../../view-cache-components-fix.md)
+2. [Transaction Removal](../../transaction-removal-fix.md)
+3. [Super Admin Setup](../../super-admin-setup-fix.md)
 
 ### Spatie Documentation
 - [Laravel Permission Docs](https://spatie.be/docs/laravel-permission)
@@ -945,7 +945,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [baseuser-refactoring-completed.md](baseuser-refactoring-completed.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [baseuser-refactoring-completed.md](../../baseuser-refactoring-completed.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 

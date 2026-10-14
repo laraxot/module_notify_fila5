@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "architectural patterns 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Pattern Architetturali per le Notifiche

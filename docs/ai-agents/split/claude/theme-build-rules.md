@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "theme build rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === theme build rules ===
@@ -45,15 +46,6 @@ This is a fundamental rule that must NEVER be forgotten when working with themes
 
 
 ---
-
-title: "theme build rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "theme build rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

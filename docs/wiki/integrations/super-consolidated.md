@@ -431,10 +431,10 @@ php artisan tinker
 
 Questa è la **terza implementazione** della giornata:
 
-1. **Mattina**: [View Cache Components](./view-cache-components-fix.md)
+1. **Mattina**: [View Cache Components](../../view-cache-components-fix.md)
    - Creati badge.status e badge.priority
    
-2. **Pomeriggio**: [Transaction Model Removal](./transaction-removal-fix.md)
+2. **Pomeriggio**: [Transaction Model Removal](../../transaction-removal-fix.md)
    - Disabilitate TransactionFactory
    
 3. **Sera**: Super Admin Setup ✅ (questa documentazione)
@@ -448,9 +448,9 @@ Questa è la **terza implementazione** della giornata:
 - [User Module README](../Modules/User/docs/README.md)
 
 ### Root Progetto
-- [View Cache Fix](./view-cache-components-fix.md)
-- [Transaction Fix](./transaction-removal-fix.md)
-- [Setup Guide](./setup-guide.md)
+- [View Cache Fix](../../view-cache-components-fix.md)
+- [Transaction Fix](../../transaction-removal-fix.md)
+- [Setup Guide](../../bmad/setup-guide.md)
 
 ### Package Documentation
 - [Spatie Laravel Permission](https://spatie.be/docs/laravel-permission)
@@ -562,7 +562,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [super-admin-setup-fix.md](super-admin-setup-fix.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [super-admin-setup-fix.md](../../super-admin-setup-fix.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 

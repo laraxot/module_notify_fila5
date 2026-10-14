@@ -175,6 +175,6 @@ Modules/Xot/tests/Feature/fixstructuretest.pest.php
 ### Riferimenti Interni
 
 - [../quality/phpstan-fixes.md](../quality/phpstan-fixes.md)
-- [../../Modules/Activity/docs/testing-guidelines.md](../../laravel/Modules/Activity/docs/testing-guidelines.md)
+- [../../Modules/Activity/docs/testing-guidelines.md](../../../Activity/docs/testing-guidelines.md)
 - [./test-structure.md](./test-structure.md)
 

@@ -13,7 +13,10 @@ discussions:
 related:
   - ../../ponytail-audit-over-engineering.md
   - ../../sms-provider-architecture.md
+status: stale
 ---
+
+> Nota 2026-10-14 (docs-audit): Stato 'run #4' non corrispondente al codice del 2026-10-14: Action SMS Twilio, Nexmo, Plivo, Gammu e Agiletelecom sono ancora .php attive e SmsActionFactory mappa anche twilio. Contenuto non riscritto, verificare prima di usarlo.
 
 # Consolidamento Actions/SMS e Contracts (ponytail audit)
 

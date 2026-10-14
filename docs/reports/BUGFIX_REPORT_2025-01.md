@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "BUGFIX REPORT 2025 01 14"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Bug Fix Report - 2025-01-14
@@ -342,13 +343,4 @@ Il bug è stato completamente risolto con una soluzione elegante che:
 **Analista**: Cascade AI
 
 ---
-
-title: "BUGFIX REPORT 2025 01 14"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "BUGFIX REPORT 2025 01 14"
-issues: []
-discussions: []
 *Questo report documenta completamente l'analisi, la soluzione e il testing del bug.*

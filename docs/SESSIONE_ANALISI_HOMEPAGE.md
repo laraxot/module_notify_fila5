@@ -199,9 +199,9 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
-- [Analisi Visiva](docs/screenshots/homepage/ANALISI_VISIVA.md)
-- [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md)
-- [Fix Plan](docs/screenshots/homepage/FIX_PLAN.md)
+- [Analisi Visiva](screenshots/homepage/ANALISI_VISIVA.md)
+- [Screenshot Analysis](screenshots/homepage/SCREENSHOT_ANALYSIS.md)
+- [Fix Plan](screenshots/homepage/FIX_PLAN.md)
 - [OpenViking Context](.openvikings/homepage_alignment_context.md)
 
 ### Link Esterni

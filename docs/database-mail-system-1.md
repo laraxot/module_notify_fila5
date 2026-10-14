@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "database mail system 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sistema di Gestione Email Basato su Database - il progetto

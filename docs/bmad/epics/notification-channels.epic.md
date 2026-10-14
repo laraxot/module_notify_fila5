@@ -11,6 +11,7 @@ related:
   - ../brainstorming.md
   - ./module-roadmap.md
   - ../stories/module-bmad-audit-20260928.story.md
+status: draft
 ---
 
 # Epic 5.251 — canali e provider di notifica Notify

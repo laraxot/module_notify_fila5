@@ -399,7 +399,7 @@ Start at theme index:
 
 ### Finding Documentation
 
-1. **Start Here:** [docs/module-docs-index.md](docs/module-docs-index.md)
+1. **Start Here:** [docs/module-docs-index.md](module-docs-index.md)
 2. **Navigate to:** Module or theme category
 3. **Use Search:** Ctrl+F for keywords
 4. **Follow Links:** Cross-references guide you
@@ -423,7 +423,7 @@ Start at theme index:
 
 ## 📋 Related Documents
 
-- [Master Index](docs/module-docs-index.md) - Central navigation
+- [Master Index](module-docs-index.md) - Central navigation
 - [BMad Workflow](_bmad-output/BMAD-WORKFLOW-COMPLETE.md) - BMad summary
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md) - Theme layouts
 - [Vite Manifest Fix](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build fix

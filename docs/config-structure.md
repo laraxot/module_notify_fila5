@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "config structure"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Struttura di Configurazione nei Moduli

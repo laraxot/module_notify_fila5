@@ -349,12 +349,12 @@ related:
 ## 🎓 Knowledge Base
 
 ### Link Documentazione Moduli
-- [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
-- [Modulo User](../Modules/User/docs/README.md)
-- [Modulo Cms](../Modules/Cms/docs/README.md)
-- [Modulo Geo](../Modules/Geo/docs/README.md)
-- [Modulo Notify](../Modules/Notify/docs/README.md)
-- [Theme Sixteen](../Themes/Sixteen/docs/README.md)
+- [Modulo Fixcity](../../Fixcity/docs/README.md)
+- [Modulo User](../../User/docs/README.md)
+- [Modulo Cms](../../Cms/docs/README.md)
+- [Modulo Geo](../../Geo/docs/README.md)
+- [Modulo Notify](README.md)
+- [Theme Sixteen](../../../Themes/Sixteen/docs/README.md)
 
 ### External Resources
 - [Laravel Documentation](https://laravel.com/docs)

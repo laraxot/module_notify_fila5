@@ -375,14 +375,14 @@ Questa è la **terza implementazione** della giornata:
 ## Collegamenti Documentazione
 
 ### Modulo User
-- [Setup Super Admin - Guida Dettagliata](../Modules/User/docs/setup-super-admin.md)
-- [Roles & Permissions](../Modules/User/docs/roles-permissions.md)
-- [User Module README](../Modules/User/docs/README.md)
+- [Setup Super Admin - Guida Dettagliata](../../User/docs/setup-super-admin.md)
+- [Roles & Permissions](../../User/docs/roles-permissions.md)
+- [User Module README](../../User/docs/README.md)
 
 ### Root Progetto
 - [View Cache Fix](./view-cache-components-fix-2025-10-15.md)
 - [Transaction Fix](./transaction-removal-fix-2025-10-15.md)
-- [Setup Guide](./setup-guide.md)
+- [Setup Guide](./bmad/setup-guide.md)
 
 ### Package Documentation
 - [Spatie Laravel Permission](https://spatie.be/docs/laravel-permission)

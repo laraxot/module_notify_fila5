@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "README PHASE 1 EXECUTION"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📖 README - PHASE 1 EXECUTION
@@ -18,15 +19,6 @@ discussions: []
 **Target**: segnalazioni-elenco → 90% HTML parity
 
 ---
-
-title: "README PHASE 1 EXECUTION"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "README PHASE 1 EXECUTION"
-issues: []
-discussions: []
 ## 🎯 QUICK ORIENTATION
 
 **WHERE AM I?**

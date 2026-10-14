@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "analisi dettagliata 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura

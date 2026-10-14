@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "refactor plan dry kiss"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Piano di Refactor DRY/KISS - Documentazione Modulo Notify
@@ -156,15 +157,6 @@ Creare sistema di navigazione coerente:
 - Onboarding sviluppatori semplificato
 
 ---
-
-title: "refactor plan dry kiss"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "refactor plan dry kiss"
-issues: []
-discussions: []
 **Stato**: In corso  
 **Priorità**: Alta  
 **Responsabile**: Sistema automatico  

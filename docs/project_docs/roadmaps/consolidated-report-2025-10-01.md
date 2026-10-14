@@ -1,3 +1,11 @@
+---
+title: "REPORT CONSOLIDATO ROADMAP - 2025-10-01"
+type: note
+status: draft
+updated: 2026-10-08
+tags: [docs, notify, project_docs]
+qmd: "report consolidato roadmap - 2025-10-01 notify"
+---
 # 📊 REPORT CONSOLIDATO ROADMAP - 2025-10-01
 
 ## 🎯 OVERVIEW

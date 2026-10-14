@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "dynamic class resolution"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Risoluzione Dinamica delle Classi nei Factory Pattern

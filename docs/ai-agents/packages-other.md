@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "packages other"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Pacchetti Altri — Riferimento
@@ -54,15 +55,6 @@ php artisan module:make-action MyAction --module=Job
 ```
 
 ---
-
-title: "packages other"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "packages other"
-issues: []
-discussions: []
 ## File e media
 
 ### pbmedia/laravel-ffmpeg 8.8.0

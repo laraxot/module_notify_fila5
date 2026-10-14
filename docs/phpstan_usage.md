@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan usage"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Utilizzo di PHPStan nel Progetto <nome progetto>

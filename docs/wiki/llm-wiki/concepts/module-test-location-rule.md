@@ -8,6 +8,8 @@ updated: 2026-04-21
 tags: [testing, architecture, laraxot, bounded-context, ddd, modules]
 related:
   - concepts/laraxot-architecture.md
+status: draft
+qmd: "regola: i test appartengono al modulo notify"
 ---
 
 # Regola: I Test Appartengono al Modulo

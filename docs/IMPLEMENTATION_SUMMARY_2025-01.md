@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "IMPLEMENTATION SUMMARY 2025 01 27"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚀 IMPLEMENTATION SUMMARY - 27 Gennaio 2025
@@ -14,15 +15,6 @@ discussions: []
 > **Sessione di implementazione priorità critiche Fixcity Module**
 
 ---
-
-title: "IMPLEMENTATION SUMMARY 2025 01 27"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "IMPLEMENTATION SUMMARY 2025 01 27"
-issues: []
-discussions: []
 ## ✅ COMPLETED TASKS
 
 ### 🎯 Task #1: GeocodeTicketAddressJob + Migration (CRITICAL)

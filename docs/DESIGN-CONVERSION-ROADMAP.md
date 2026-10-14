@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "DESIGN CONVERSION ROADMAP"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Design Comuni Conversion Roadmap
@@ -16,15 +17,6 @@ discussions: []
 **Target**: Make all 54 test pages visually identical to Design Comuni reference using Tailwind CSS + Alpine.js
 
 ---
-
-title: "DESIGN CONVERSION ROADMAP"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "DESIGN CONVERSION ROADMAP"
-issues: []
-discussions: []
 ## 📊 Executive Summary
 
 ### Current State

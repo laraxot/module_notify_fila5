@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "github issues recommendations 2026 03 02"
 issues: []
 discussions: []
+status: draft
 ---
 
 # GitHub Issues and Discussions Recommendations
@@ -15,15 +16,6 @@ discussions: []
 **Current State**: FixCity platform achieved 0 PHPStan errors (Level 10)
 
 ---
-
-title: "github issues recommendations 2026 03 02"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "github issues recommendations 2026 03 02"
-issues: []
-discussions: []
 ## Executive Summary
 
 After studying the reference projects (base_laravelpizza and base_techplanner_fila5) and analyzing the current state of the FixCity platform, I've identified key areas where documentation, best practices, and technical debt should be tracked through GitHub issues and discussions.

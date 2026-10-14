@@ -219,7 +219,7 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 ## Collegamenti
 
 - [Database Guidelines](./database-guidelines.md)
-- [PHPStan Best Practices](../phpstan/best-practices.md)
+- [PHPStan Best Practices](../../../best-practices.md)
 - [Troubleshooting Migrations](../../troubleshooting/errors/migration-errors.md)
 - [Architecture Standards](../../architecture/standards/)
 

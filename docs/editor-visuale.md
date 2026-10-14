@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "editor visuale"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Editor Visuale Template

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "qmd local docs search"
 issues: []
 discussions: []
+status: draft
 ---
 
 # QMD — ricerca locale su documentazione e note

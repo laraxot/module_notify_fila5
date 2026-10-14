@@ -177,17 +177,17 @@ L'implementazione ha risolto con successo il problema della cache delle viste, c
 ## Collegamenti Documentazione
 
 ### Tema Sixteen
-- [Implementazione Badge](../Themes/Sixteen/docs/components/badge-components-implementation.md)
-- [Guida Componenti](../Themes/Sixteen/docs/components.md#badge)
-- [Convenzioni Tema](../Themes/Sixteen/docs/sixteen-theme-naming-conventions.md)
+- [Implementazione Badge](../../../Themes/Sixteen/docs/components/badge-components-implementation.md)
+- [Guida Componenti](../../../Themes/Sixteen/docs/components.md#badge)
+- [Convenzioni Tema](../../../Themes/Sixteen/docs/sixteen-theme-naming-conventions.md)
 
 ### Modulo Fixcity
-- [Componenti Fixcity](../Modules/Fixcity/docs/components.md)
+- [Componenti Fixcity](../../Fixcity/docs/components.md)
 - [Enum Documentation](../Modules/Fixcity/docs/enums.md)
-- [Ticket System](../Modules/Fixcity/docs/README.md)
+- [Ticket System](../../Fixcity/docs/README.md)
 
 ### Root Progetto
-- [Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)
+- [Analisi Completa](./analisi-completa-2025-10-01.md)
 - [Sessione Super Mucca](./SESSIONE-2025-10-15-SUPER-MUCCA.md)
 - [Architecture](./architecture/)
 

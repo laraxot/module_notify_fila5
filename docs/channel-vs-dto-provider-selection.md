@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "channel vs dto provider selection"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects

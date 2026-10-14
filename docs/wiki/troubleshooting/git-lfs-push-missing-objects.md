@@ -31,7 +31,7 @@ this module's history.
 ## Root Cause Check (before assuming corruption)
 
 Unlike the `Modules/User` case (see
-[../../../User/docs/wiki/troubleshooting/git-lfs-orphan-pointer-svg-fix.md](../../../User/docs/wiki/troubleshooting/git-lfs-orphan-pointer-svg-fix.md)),
+[../../../User/docs/wiki/troubleshooting/git-lfs-orphan-pointer-svg-fix.md](../../../../User/docs/wiki/troubleshooting/git-lfs-orphan-pointer-svg-fix.md)),
 here the LFS objects were **not** actually lost:
 
 ```bash

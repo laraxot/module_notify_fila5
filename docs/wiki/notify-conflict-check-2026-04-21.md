@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "notify conflict check 2026 04 21"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Controllo conflitti Notify - 2026-04-21

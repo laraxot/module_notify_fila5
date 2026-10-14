@@ -59,19 +59,19 @@ Successfully implemented a comprehensive documentation governance framework and 
 
 ### Core Documentation
 
-1. **[DOCUMENTATION_GOVERNANCE.md](docs/DOCUMENTATION_GOVERNANCE.md)**
+1. **[DOCUMENTATION_GOVERNANCE.md](DOCUMENTATION_GOVERNANCE.md)**
    - Comprehensive governance framework
    - Standards for all documentation
    - Quality metrics and KPIs
    - Maintenance workflows
 
-2. **[MASTER_DOCUMENTATION_INDEX.md](docs/MASTER_DOCUMENTATION_INDEX.md)**
+2. **[MASTER_DOCUMENTATION_INDEX.md](MASTER_DOCUMENTATION_INDEX.md)**
    - Central navigation hub
    - Links to all module docs
    - Links to all theme docs
    - Categorized by topic
 
-3. **[DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md](docs/DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)**
+3. **[DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md](DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)**
    - Detailed analysis of current state
    - Identified issues across 3,646 files
    - Implementation plan with timelines
@@ -310,9 +310,9 @@ grep -r "Last Updated" laravel/Modules/*/docs/ --include="*.md" | wc -l
 ## 📚 Resources
 
 ### Documentation
-- [Governance Framework](docs/DOCUMENTATION_GOVERNANCE.md)
-- [Master Index](docs/MASTER_DOCUMENTATION_INDEX.md)
-- [Improvement Plan](docs/DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)
+- [Governance Framework](DOCUMENTATION_GOVERNANCE.md)
+- [Master Index](MASTER_DOCUMENTATION_INDEX.md)
+- [Improvement Plan](DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)
 
 ### Rules
 - [AGENTS.md](AGENTS.md) - Full standards

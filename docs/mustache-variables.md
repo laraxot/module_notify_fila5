@@ -361,7 +361,7 @@ $email->mergeData([
 
 - [Mustache Manual](https://mustache.github.io/mustache.5.html)
 - [Spatie Laravel Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
-- [Modules/Notify/app/Emails/SpatieEmail.php](../../app/Emails/SpatieEmail.php)
+- [Modules/Notify/app/Emails/SpatieEmail.php](../app/Emails/SpatieEmail.php)
 - [Seasonal Email Templates](./seasonal-email-templates.md)
 
 ---

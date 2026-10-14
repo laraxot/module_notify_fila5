@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "notification channels implementation"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Implementazione dei Canali di Notifica 

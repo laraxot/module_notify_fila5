@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "WORK COMPLETED 2025 10 01"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ✅ LAVORO COMPLETATO - 2025-10-01
@@ -16,15 +17,6 @@ discussions: []
 **Status**: ✅ COMPLETATO  
 
 ---
-
-title: "WORK COMPLETED 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "WORK COMPLETED 2025 10 01"
-issues: []
-discussions: []
 ## 🎯 OBIETTIVO
 
 Aggiornare e sincronizzare tutte le roadmap e la documentazione dei moduli e temi del progetto FixCity,

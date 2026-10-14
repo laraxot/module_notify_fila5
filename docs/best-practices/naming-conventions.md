@@ -16,6 +16,7 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - ../README.md
+status: draft
 ---
 # Convenzioni di Naming
 

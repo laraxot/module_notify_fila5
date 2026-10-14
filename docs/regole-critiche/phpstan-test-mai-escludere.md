@@ -126,7 +126,7 @@ Ogni developer deve:
 ## 📖 Riferimenti Progetto
 
 - [Regola Critica Activity Module](../laravel/Modules/Activity/docs/phpstan/regola-critica-test-phpstan.md)
-- [PHPStan Compliance](../laravel/Modules/*/docs/phpstan-compliance.md)
+- [PHPStan Compliance](../phpstan-compliance.md)
 - [Testing Guidelines](./testing-guidelines.md)
 
 ## 🔄 Processo di Review

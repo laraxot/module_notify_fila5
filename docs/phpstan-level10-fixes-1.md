@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan level10 fixes 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Correzioni PHPStan Livello 10 - Modulo Notify

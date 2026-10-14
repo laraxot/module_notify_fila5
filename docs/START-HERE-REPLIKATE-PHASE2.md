@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "START HERE REPLIKATE PHASE2"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚀 START HERE - REPLIKATE Phase 2
@@ -16,15 +17,6 @@ discussions: []
 **Time Estimate**: ~50 minutes
 
 ---
-
-title: "START HERE REPLIKATE PHASE2"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "START HERE REPLIKATE PHASE2"
-issues: []
-discussions: []
 ## 📍 You Are Here
 
 ```

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament extension rules 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Regole di Estensione delle Classi Filament

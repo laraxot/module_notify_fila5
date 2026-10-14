@@ -29,13 +29,13 @@ related:
 
 | Assistant | Original File | Split Files | Index |
 |-----------|--------------|----|----|
-| BMad Agents | [AGENTS.md](../../../AGENTS.md) | 32 files | [agents/INDEX.md](agents/INDEX.md) + [tasks/INDEX.md](tasks/INDEX.md) |
+| BMad Agents | [AGENTS.md](../../AGENTS.md) | 32 files | [agents/INDEX.md](agents/INDEX.md) + [tasks/INDEX.md](tasks/INDEX.md) |
 | Claude/Laravel Boost | [CLAUDE.md](../../../docs/CLAUDE.md) | 21 files | [claude/INDEX.md](claude/INDEX.md) |
-| Gemini | [GEMINI.md](../../../laravel/GEMINI.md) | 14 files | [gemini/INDEX.md](gemini/INDEX.md) |
-| BMad Agents | [agents.md](../../../agents.md) | 32 files | [agents/index.md](agents/index.md) + [tasks/index.md](tasks/index.md) |
+| Gemini | [GEMINI.md](../../../../../GEMINI.md) | 14 files | [gemini/INDEX.md](gemini/INDEX.md) |
+| BMad Agents | [agents.md](../../agents.md) | 32 files | [agents/index.md](agents/index.md) + [tasks/index.md](tasks/index.md) |
 | Claude/Laravel Boost | [CLAUDE.md](../../../docs/CLAUDE.md) | 21 files | [claude/index.md](claude/index.md) |
-| Gemini | [GEMINI.md](../../../laravel/GEMINI.md) | 14 files | [gemini/index.md](gemini/index.md) |
-| Qwen | [QWEN.md](../../../QWEN.md) | 1 file (no split needed) | — |
+| Gemini | [GEMINI.md](../../../../../GEMINI.md) | 14 files | [gemini/index.md](gemini/index.md) |
+| Qwen | [QWEN.md](../../QWEN.md) | 1 file (no split needed) | — |
 
 **Total**: 68 split files across 4 assistants
 
@@ -108,9 +108,9 @@ Every split file contains links back to:
 - The original source file
 
 ### Related Documentation
-- [BMad Method Setup](../../docs/bmad/setup-guide.md)
-- [Project Configuration](../../docs/project/configuration.md)
-- [Module Docs Index](../../docs/modules/index.md)
+- [BMad Method Setup](../../bmad/setup-guide.md)
+- [Project Configuration](../../project/configuration.md)
+- [Module Docs Index](../../modules/index.md)
 - [AI Workflow](../../docs/project/ai-workflow/)
 
 ---

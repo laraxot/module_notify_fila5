@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mcp autonomous agents"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 12. MCP (Model Context Protocol) for Autonomous AI Agents
@@ -100,12 +101,3 @@ With MCP, AI agents can:
 - **Integrate with GitHub** for issue/PR management
 
 ---
-
-title: "mcp autonomous agents"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "mcp autonomous agents"
-issues: []
-discussions: []

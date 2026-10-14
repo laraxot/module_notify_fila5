@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament slug generation 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Generazione di Slug in Filament

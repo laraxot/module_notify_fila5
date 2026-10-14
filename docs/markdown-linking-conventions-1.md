@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "markdown linking conventions 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni per i Collegamenti nei File Markdown

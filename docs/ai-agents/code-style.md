@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "code style"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Code Style Guidelines

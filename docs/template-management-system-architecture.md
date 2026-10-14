@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "template management system architecture"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notification Template Management System

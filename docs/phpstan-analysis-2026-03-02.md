@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan analysis 2026 03 02"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan Level 10 Analysis Report - 2026-03-02
@@ -32,15 +33,6 @@ discussions: []
 | `staticMethod.notFound` | 5 | MEDIUM | Missing static methods |
 
 ---
-
-title: "phpstan analysis 2026 03 02"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan analysis 2026 03 02"
-issues: []
-discussions: []
 ## Critical Issues Fixed
 
 ### 1. SushiToJsons.php - Syntax Error (Line 38)

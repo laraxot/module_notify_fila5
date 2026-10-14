@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament v3 rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === filament/v3 rules ===
@@ -26,15 +27,6 @@ discussions: []
 
 
 ---
-
-title: "filament v3 rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament v3 rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

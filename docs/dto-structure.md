@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "dto structure"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Regole per la Struttura dei DTO
