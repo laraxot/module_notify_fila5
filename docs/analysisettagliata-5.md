@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "analysisettagliata 5"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Dettagliata del Modulo Notify - Parte 5: Testing

@@ -145,7 +145,7 @@ class MyResource extends XotBaseResource
 - [Resource Rules](./resource-rules.md)
 - [Form Components](./form-components.md)
 - [Form Validation](./form-validation.md)
-- [Best Practices](./best-practices.md)
+- [Best Practices](../../../best-practices.md)
 - [Troubleshooting Form](../../troubleshooting/errors/form-errors.md)
 
 ---

@@ -41,5 +41,5 @@ discussions: []
 **Precedente:** [INDEX](INDEX.md) | **Successivo:** [Module Architecture](module-architecture.md)
 
 **Di ritorno:**
-- [CLAUDE.md](../../CLAUDE.md)
-- [AGENTS.md](../../AGENTS.md)
+- [CLAUDE.md](../CLAUDE.md)
+- [AGENTS.md](../AGENTS.md)

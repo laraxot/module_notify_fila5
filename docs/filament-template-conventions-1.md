@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament template conventions 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni per Template Blade di Filament

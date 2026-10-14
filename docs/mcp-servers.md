@@ -151,7 +151,7 @@ Main config: `laravel/.mcp.json`
 
 ### Editor Configuration
 - **Cursor**: Uses `.mcp.json` automatically
-- **Windsurf**: Import from [Xot Windsurf Config](../Modules/Xot/docs/windsurf-mcp-config.json)
+- **Windsurf**: Import from [Xot Windsurf Config](../../Xot/docs/windsurf-mcp-config.json)
 - **Claude Desktop**: Copy config to `claude_desktop_config.json`
 
 ### Environment Variables

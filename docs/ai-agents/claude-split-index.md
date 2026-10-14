@@ -25,7 +25,7 @@ discussions: []
 
 ## 🔗 Collegamento all'Originale
 
-- [CLAUDE.md originale](../../CLAUDE.md) - File completo (deprecated)
+- [CLAUDE.md originale](../CLAUDE.md) - File completo (deprecated)
 - [Index principale](./index.md)
 
 ## Modifiche Migliorative

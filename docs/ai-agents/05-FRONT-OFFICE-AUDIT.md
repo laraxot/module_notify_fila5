@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "05 FRONT OFFICE AUDIT"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📋 Front Office Pages Audit Checklist
@@ -15,15 +16,6 @@ discussions: []
 **Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 
 ---
-
-title: "05 FRONT OFFICE AUDIT"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "05 FRONT OFFICE AUDIT"
-issues: []
-discussions: []
 ## 🔍 Mandatory Checklist (Before Commit)
 
 ### 1. Routing Multilingual

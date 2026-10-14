@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "database mail system tests 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Test del Sistema di Gestione Email - il progetto

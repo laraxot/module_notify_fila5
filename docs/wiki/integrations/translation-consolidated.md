@@ -670,9 +670,9 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
-- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Convenzioni Specifiche del Modulo Notify](../../translation_conventions.md)
+- [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 
 ---
 
@@ -782,9 +782,9 @@ return [
 
 ## Conclusione
 
-- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Convenzioni Specifiche del Modulo Notify](./translation-conventions.md)
-- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di App, poiché rappresentano un'eccezione documentata.
 
 ## Riferimenti
@@ -886,9 +886,9 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
-- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Convenzioni Specifiche del Modulo Notify](../../translation_conventions.md)
+- [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 # Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 
 ## Identificazione di Convenzioni Contrastanti
@@ -976,9 +976,9 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
-- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Convenzioni Specifiche del Modulo Notify](../../translation_conventions.md)
+- [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 
 ---
 
@@ -1233,7 +1233,7 @@ This file is deprecated.
 
 Use:
 
-- [translation-file-correction-guide](./translation-file-correction-guide.md)
+- [translation-file-correction-guide](../../translation-file-correction-guide.md)
 
 ---
 
@@ -1421,12 +1421,12 @@ return [
 
 ## Riferimenti
 
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
-- [Progresso della Standardizzazione](./translation-standards-progress.md)
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Progresso della Standardizzazione](../../translation-standards-progress.md)
+- [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
-- [Progresso della Standardizzazione](./translation-standards-progress.md)
+- [Progresso della Standardizzazione](../../translation-standards-progress.md)
 ---
 
 ## translation-file-correction-guide
@@ -1585,9 +1585,9 @@ return [
 
 ## Riferimenti
 
-- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-- [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
-- [Progresso della Standardizzazione](./TRANSLATION_STANDARDS_PROGRESS.md)
+- [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+- [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
+- [Progresso della Standardizzazione](../../translation_standards_progress.md)
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione
@@ -1732,9 +1732,9 @@ declare(strict_types=1);
 
 ## Riferimenti
 
-- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-- [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
-- [Progresso della Standardizzazione](./TRANSLATION_STANDARDS_PROGRESS.md)
+- [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+- [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
+- [Progresso della Standardizzazione](../../translation_standards_progress.md)
 
 ---
 
@@ -1894,9 +1894,9 @@ return [
 
 ## Riferimenti
 
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
-- [Progresso della Standardizzazione](./translation_standards_progress.md)
+- [Progresso della Standardizzazione](../../translation_standards_progress.md)
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione
@@ -2041,9 +2041,9 @@ declare(strict_types=1);
 
 ## Riferimenti
 
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
-- [Progresso della Standardizzazione](./translation_standards_progress.md)
+- [Progresso della Standardizzazione](../../translation_standards_progress.md)
 
 ---
 
@@ -2106,11 +2106,11 @@ Se si identifica un file con naming non conforme:
 3. Rimuovere il file con naming errato
 
 ## Riferimenti
-- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
-- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 ---
 
@@ -2153,9 +2153,9 @@ Se si identifica un file con naming non conforme:
 3. Rimuovere il file con naming errato
 
 ## Riferimenti
-- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 
 ---
 
@@ -2198,9 +2198,9 @@ Se si identifica un file con naming non conforme:
 3. Rimuovere il file con naming errato
 
 ## Riferimenti
-- [Regole Generali per le Traduzioni](../../lang/docs/translation_keys_rules.md)
-- [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices.md)
-- [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Traduzioni](../../../../Lang/docs/translation-keys-best-practices.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 
 ---
 
@@ -2377,10 +2377,10 @@ return [
 ```
 
 ## Riferimenti
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
-- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
-- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+- [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 ---
 
 ## translation-file-structure-guide
@@ -2536,8 +2536,8 @@ return [
 ```
 
 ## Riferimenti
-- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 
 ---
 
@@ -2694,8 +2694,8 @@ return [
 ```
 
 ## Riferimenti
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
-- [Regole Generali per le Traduzioni](../../lang/docs/translation_keys_rules.md)
+- [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 
 ---
 
@@ -2708,7 +2708,7 @@ This file is deprecated.
 
 Use:
 
-- [translation-implementation-plan](./translation-implementation-plan.md)
+- [translation-implementation-plan](../../translation-implementation-plan.md)
 
 ---
 
@@ -3287,8 +3287,8 @@ return [
 ```
 
 ### Riferimenti
-- [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
+- [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
 - [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation-keys-rules-1.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation-keys-best-practices-1.md) 
 ---
@@ -3344,8 +3344,8 @@ return [
 ```
 
 ### Riferimenti
-- [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
+- [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
 ---
 
 ## translation-keys
@@ -3399,8 +3399,8 @@ return [
 ```
 
 ### Riferimenti
-- [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation_keys_rules.md)
-- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation-keys-best-practices.md) 
+- [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation-keys-best-practices.md) 
 ---
 
 ## translation-namespace-religion
@@ -3732,7 +3732,7 @@ Amen.
 - [ticket.php (dominio corretto)](../../Modules/App/lang/it/ticket.php)
 - [ticket.php (dominio corretto)](../../Modules/<nome progetto>/lang/it/ticket.php)
 - [Laravel Localization](https://laravel.com/docs/localization)
-- [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
+- [No Hardcoded Language Religion](../../no-hardcoded-language-religion.md)
 
 ---
 
@@ -4085,13 +4085,13 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
-   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+   - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+   - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+   - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+   - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -4198,12 +4198,12 @@ related:
    - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
    - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules-1.md)
    - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide-1.md)
-   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+   - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+   - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
 2. **Guide Specifiche per Notify**
    - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
-   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+   - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
    - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
@@ -4300,13 +4300,13 @@ related:
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
-   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+   - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+   - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+   - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+   - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -4400,13 +4400,13 @@ Modules/Notify/lang/it/create_mail_template.php
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
-   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+   - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+   - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+   - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+   - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -5015,9 +5015,9 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
-- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Convenzioni Specifiche del Modulo Notify](../../translation_conventions.md)
+- [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 
 ---
 
@@ -5197,9 +5197,9 @@ return [
 
 ## Riferimenti
 
-- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-- [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
-- [Progresso della Standardizzazione](./TRANSLATION_STANDARDS_PROGRESS.md)
+- [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+- [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
+- [Progresso della Standardizzazione](../../translation_standards_progress.md)
 
 ---
 
@@ -5242,9 +5242,9 @@ Se si identifica un file con naming non conforme:
 3. Rimuovere il file con naming errato
 
 ## Riferimenti
-- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 
 ---
 
@@ -5401,8 +5401,8 @@ return [
 ```
 
 ## Riferimenti
-- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+- [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 
 ---
 
@@ -5638,8 +5638,8 @@ return [
 ```
 
 ### Riferimenti
-- [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
+- [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
 
 ---
 
@@ -5854,13 +5854,13 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
-   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+   - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+   - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+   - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
+   - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -6034,10 +6034,10 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
-- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 
 ---
 
@@ -6066,8 +6066,8 @@ related:
 
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
-- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 # Translations Implementation Status
 
 Current status of translation implementation across the module.
@@ -6200,10 +6200,10 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
-- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 
 ---
 
@@ -6334,10 +6334,10 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./translation_conventions_clarification.md)
-- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation_keys_rules.md)
-- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation-keys-best-practices.md)
 
 ---
 
@@ -6454,19 +6454,19 @@ Notification::make()
 ## Collegamenti tra versioni di translations.md
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
-* [translations.md](../../../Gdpr/docs/translations.md)
-* [translations.md](../../../Notify/docs/translations.md)
+* [translations.md](../../../../Gdpr/docs/translations.md)
+* [translations.md](../../translations.md)
 * [translations.md](../../../Xot/docs/roadmap/lang/translations.md)
 * [translations.md](../../../Xot/docs/translations.md)
 * [translations.md](../../../Dental/docs/translations.md)
-* [translations.md](../../../User/docs/translations.md)
+* [translations.md](../../../../User/docs/translations.md)
 * [translations.md](../../../UI/docs/translations.md)
-* [translations.md](../../../Lang/docs/packages/translations.md)
-* [translations.md](../../../Lang/docs/translations.md)
-* [translations.md](../../../Job/docs/translations.md)
-* [translations.md](../../../Media/docs/translations.md)
-* [translations.md](../../../Tenant/docs/translations.md)
-* [translations.md](../../../Activity/docs/translations.md)
+* [translations.md](../../../../Lang/docs/packages/translations.md)
+* [translations.md](../../../../Lang/docs/translations.md)
+* [translations.md](../../../../Job/docs/translations.md)
+* [translations.md](../../../../Media/docs/translations.md)
+* [translations.md](../../../../Tenant/docs/translations.md)
+* [translations.md](../../../../Activity/docs/translations.md)
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
 
@@ -6599,10 +6599,10 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
-- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 
 ---
 

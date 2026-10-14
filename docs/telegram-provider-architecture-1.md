@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "telegram provider architecture 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Architettura Telegram Provider per <nome progetto>

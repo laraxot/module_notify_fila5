@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📖 Guidelines Index
@@ -17,15 +18,6 @@ discussions: []
 **Files**: 2 guidelines
 
 ---
-
-title: "00 INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "00 INDEX"
-issues: []
-discussions: []
 ## 🎯 Purpose
 
 Guidelines sono **best practices** e **raccomandazioni** per AI agents.  

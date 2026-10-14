@@ -43,7 +43,7 @@ This file is deprecated.
 
 Use:
 
-- [database-mail](./database-mail.md)
+- [database-mail](../../database-mail.md)
 
 ---
 
@@ -81,13 +81,13 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
-- [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
-- [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ## Panoramica
 
@@ -741,7 +741,7 @@ This file is deprecated.
 
 Use:
 
-- [database-mail-queue](./database-mail-queue.md)
+- [database-mail-queue](../../database-mail-queue.md)
 
 ---
 
@@ -1172,7 +1172,7 @@ php artisan queue:restart
 ```
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
+- [Database Mail System](../../database-mail-system.md)
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../../docs/queue-configuration.md)
 
@@ -1947,7 +1947,7 @@ php artisan queue:restart
 ```
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
+- [Database Mail System](../../database-mail-system.md)
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../../docs/queue-configuration.md)
 
@@ -2345,7 +2345,7 @@ php artisan notify:mail-template:test
 
 ## Collegamenti
 - [Notify Module](../README.md)
-- [Email Templates](email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -3036,7 +3036,7 @@ php artisan notify:mail-template:test
 ## Collegamenti
 - [Notify Module](../README.md)
 - [Notify Module](../readme.md)
-- [Email Templates](email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -3353,7 +3353,7 @@ php artisan notify:mail-template:test
 
 ## Collegamenti
 - [Notify Module](../readme.md)
-- [Email Templates](email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -3377,13 +3377,13 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
-- [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
-- [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ## Panoramica
 
@@ -3821,13 +3821,13 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
-- [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
-- [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ## Panoramica
 
@@ -4758,7 +4758,7 @@ php artisan queue:restart
 ```
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
+- [Database Mail System](../../database-mail-system.md)
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../docs/queue-configuration.md)
 
@@ -5076,7 +5076,7 @@ php artisan notify:mail-template:test
 
 ## Collegamenti
 - [Notify Module](../README.md)
-- [Email Templates](email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche

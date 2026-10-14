@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan error analysis strategy"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Strategia Correzione Errori PHPStan - SendEmailPage.php

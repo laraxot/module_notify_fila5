@@ -11,7 +11,7 @@ discussions: []
 
 # Agent teams (Experimental - Opus 4.6)
 
-> Source: [CLAUDE.md](../../CLAUDE.md)
+> Source: [CLAUDE.md](../CLAUDE.md)
 > Back: [index](index.md)
 
 Agent Teams coordinate multiple Claude Code instances working together. One session acts as the **team lead** (coordinates, assigns tasks, synthesizes results) while **teammates** work independently in their own context windows.

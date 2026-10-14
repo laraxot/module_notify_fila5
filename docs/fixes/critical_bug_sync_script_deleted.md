@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "critical bug sync script deleted"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚨 CRITICAL BUG: sync_remote_repo.sh Deleted
@@ -16,15 +17,6 @@ discussions: []
 > **Impact**: HIGH
 
 ---
-
-title: "critical bug sync script deleted"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "critical bug sync script deleted"
-issues: []
-discussions: []
 ## 🐛 What Happened
 
 **File**: `bashscripts/git/subtrees/sync_remote_repo.sh`  

@@ -1,3 +1,11 @@
+---
+title: "Bug Fix Report - 2025-01-14"
+type: note
+status: draft
+updated: 2026-10-08
+tags: [docs, notify, reports]
+qmd: "bug fix report - 2025-01-14 notify"
+---
 # Bug Fix Report - 2025-01-14
 
 ## Executive Summary

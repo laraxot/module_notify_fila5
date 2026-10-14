@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "reusable components philosophy"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🧩 Componenti Riutilizzabili - Filosofia Zen
@@ -16,15 +17,6 @@ discussions: []
 **Status**: ✅ PHILOSOPHY DEFINED
 
 ---
-
-title: "reusable components philosophy"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "reusable components philosophy"
-issues: []
-discussions: []
 ## 🎯 The Zen of Reusable Components
 
 > "Un componente, infiniti usi. Scrivi una volta, usa ovunque."

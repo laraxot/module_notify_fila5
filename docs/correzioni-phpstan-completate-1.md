@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "correzioni phpstan completate 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Correzioni PHPStan Completate - Modulo Notify

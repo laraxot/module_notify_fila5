@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "whatsapp provider architecture 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Architettura WhatsApp Provider per <nome progetto>

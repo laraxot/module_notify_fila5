@@ -487,9 +487,9 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
-- [Analisi Visiva](docs/screenshots/homepage/analisi-visiva.md)
+- [Analisi Visiva](../../screenshots/homepage/analisi-visiva.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
-- [Fix Plan](docs/screenshots/homepage/fix-plan.md)
+- [Fix Plan](../../screenshots/homepage/fix-plan.md)
 - [OpenViking Context](.openvikings/homepage_alignment_context.md)
 
 ### Link Esterni
@@ -956,7 +956,7 @@ Analizzare e documentare la necessità di creare `XotBasePivot` seguendo princip
    - ✅ Filosofia Zen e principi SOLID
    - ✅ **Raccomandazione: IMPLEMENTARE ⭐⭐⭐⭐⭐**
 
-2. **[XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)** (3.500+ parole)
+2. **[XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)** (3.500+ parole)
    - ✅ Piano step-by-step (3-4 ore totali)
    - ✅ 13 moduli impattati, 26 file da refactorare
    - ✅ Script di migration automatici
@@ -1265,7 +1265,7 @@ public function getConnectionName(): ?string
 
 **Passi:**
 1. Leggere [XotBasePivot Analysis](./architecture/xotbasepivot-analysis.md)
-2. Seguire [XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)
+2. Seguire [XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)
 3. Iniziare da User module (priorità alta)
 4. Testare continuamente con PHPStan Level 10
 
@@ -1384,7 +1384,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [sessione-super-mucca.md](sessione-super-mucca.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [sessione-super-mucca.md](../../sessione-super-mucca.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 
@@ -1416,7 +1416,7 @@ Analizzare e documentare la necessità di creare `XotBasePivot` seguendo princip
    - ✅ Filosofia Zen e principi SOLID
    - ✅ **Raccomandazione: IMPLEMENTARE ⭐⭐⭐⭐⭐**
 
-2. **[XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)** (3.500+ parole)
+2. **[XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)** (3.500+ parole)
    - ✅ Piano step-by-step (3-4 ore totali)
    - ✅ 13 moduli impattati, 26 file da refactorare
    - ✅ Script di migration automatici
@@ -1725,7 +1725,7 @@ public function getConnectionName(): ?string
 
 **Passi:**
 1. Leggere [XotBasePivot Analysis](./architecture/xotbasepivot-analysis.md)
-2. Seguire [XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)
+2. Seguire [XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)
 3. Iniziare da User module (priorità alta)
 4. Testare continuamente con PHPStan Level 10
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "path and interface rules 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Regole di Percorso e Interfacce nel Modulo Notify

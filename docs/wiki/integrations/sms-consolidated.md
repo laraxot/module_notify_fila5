@@ -1783,7 +1783,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## Collegamenti
 
-- [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
 
 ---
@@ -1971,7 +1971,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ---
 
-- [Configurazione Netfun](./netfun-config-requirements.md)
+- [Configurazione Netfun](../../netfun-config-requirements.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
 
 ---
@@ -2135,7 +2135,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## Collegamenti
 
-- [Configurazione Netfun](./netfun_config_requirements.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
 
 ---
@@ -2189,7 +2189,7 @@ $timeout = (int) config('sms.timeout', 30);
 1. **Coerenza**: Tutte le configurazioni relative agli SMS devono provenire dal file `config/sms.php`
 2. **Modularità**: Ogni modulo gestisce le proprie configurazioni
 3. **Manutenibilità**: Facilita la manutenzione avendo un'unica fonte di verità per le configurazioni
-4. **Standardizzazione**: Segue la struttura standardizzata documentata in [SMS_CONFIG_STRUCTURE.md](./sms_config_structure.md)
+4. **Standardizzazione**: Segue la struttura standardizzata documentata in [SMS_CONFIG_STRUCTURE.md](../../sms_config_structure.md)
 
 ## Checklist di Verifica
 
@@ -2203,9 +2203,9 @@ Per ogni azione SMS, verificare che:
 
 ## Collegamenti
 
-- [Struttura della Configurazione SMS](./sms_config_structure.md)
-- [Requisiti di Configurazione Netfun](./netfun_config_requirements.md)
-- [Pattern Factory per SMS](./sms-action-factory-analysis.md)
+- [Struttura della Configurazione SMS](../../sms_config_structure.md)
+- [Requisiti di Configurazione Netfun](../../netfun_config_requirements.md)
+- [Pattern Factory per SMS](../../sms-action-factory-analysis.md)
 
 ---
 
@@ -2393,369 +2393,369 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ## Collegamenti
 
-- [SmsDriverEnum](../app/Enums/SmsDriverEnum.php)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
 - [TransTrait](../../Xot/app/Traits/TransTrait.php)
-- [Configurazione SMS](../config/sms.php)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
@@ -2963,12 +2963,12 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ## Collegamenti
 
-- [SmsDriverEnum](../app/Enums/SmsDriverEnum.php)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
 - [TransTrait](../../Xot/app/Traits/TransTrait.php)
-- [Configurazione SMS](../config/sms.php)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
@@ -3156,13 +3156,13 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ## Collegamenti
 
-- [SmsDriverEnum](../app/Enums/SmsDriverEnum.php)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
 - [TransTrait](../../Xot/app/Traits/TransTrait.php)
-- [Configurazione SMS](../config/sms.php)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
@@ -4470,7 +4470,7 @@ Prima di modificare la configurazione SMS, verificare che:
 ## Riferimenti
 
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
-- [Configurazione Netfun](./netfun-config-requirements.md)
+- [Configurazione Netfun](../../netfun-config-requirements.md)
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
 - [Configurazione Netfun](./netfun-config-requirements-1.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
@@ -4656,8 +4656,8 @@ Prima di modificare la configurazione SMS, verificare che:
 
 ## Riferimenti
 
-- [Struttura Standardizzata della Configurazione SMS](./standardized_sms_config_structure.md)
-- [Configurazione Netfun](./netfun_config_requirements.md)
+- [Struttura Standardizzata della Configurazione SMS](../../standardized_sms_config_structure.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
 
 ---
@@ -5453,7 +5453,7 @@ SMSFACTOR_SENDER=YourApp
 ## Introduzione
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
-> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./NETFUN_CONFIG_REQUIREMENTS.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun_config_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 
@@ -5547,7 +5547,7 @@ $response = Http::post($endpoint, $payload);
 
 ### 1.2. Configurazione
 
-**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./NETFUN_AUTHENTICATION_METHODS.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun_authentication_methods.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
 
@@ -6008,7 +6008,7 @@ related:
 ## Introduzione
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
-> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun-config-requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun-config-requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 > **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun-config-requirements-1.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
@@ -6103,7 +6103,7 @@ $response = Http::post($endpoint, $payload);
 
 ### 1.2. Configurazione
 
-**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun-authentication-methods.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun-authentication-methods.md).
 **IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun-authentication-methods-1.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
@@ -6546,7 +6546,7 @@ class NetfunSMSTest extends TestCase
 ## Introduzione
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
-> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun_config_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun_config_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 
@@ -6640,7 +6640,7 @@ $response = Http::post($endpoint, $payload);
 
 ### 1.2. Configurazione
 
-**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun_authentication_methods.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun_authentication_methods.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
 
@@ -7346,10 +7346,10 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./SMS_PROVIDER_ARCHITECTURE.md)
-- [SMS Implementation](./SMS_IMPLEMENTATION.md)
-- [SMS Best Practices](./SMS_BEST_PRACTICES.md)
-- [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+- [SMS Provider Architecture](../../sms_provider_architecture.md)
+- [SMS Implementation](../../sms_implementation.md)
+- [SMS Best Practices](../../sms_best_practices.md)
+- [Netfun Authentication Methods](../../netfun_authentication_methods.md)
 
 ---
 
@@ -7493,10 +7493,10 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./sms-implementation-1.md)
 - [SMS Best Practices](./sms-best-practices-1.md)
 - [Netfun Authentication Methods](./netfun-authentication-methods-1.md)
-- [SMS Provider Architecture](./sms-provider-architecture.md)
-- [SMS Implementation](./sms-implementation.md)
-- [SMS Best Practices](./sms-best-practices.md)
-- [Netfun Authentication Methods](./netfun-authentication-methods.md)
+- [SMS Provider Architecture](../../sms-provider-architecture.md)
+- [SMS Implementation](../../sms-implementation.md)
+- [SMS Best Practices](../../sms-best-practices.md)
+- [Netfun Authentication Methods](../../netfun-authentication-methods.md)
 ---
 
 ## sms-provider-configuration-best-practices
@@ -7616,10 +7616,10 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./SMS_PROVIDER_ARCHITECTURE.md)
-- [SMS Implementation](./SMS_IMPLEMENTATION.md)
-- [SMS Best Practices](./SMS_BEST_PRACTICES.md)
-- [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+- [SMS Provider Architecture](../../sms_provider_architecture.md)
+- [SMS Implementation](../../sms_implementation.md)
+- [SMS Best Practices](../../sms_best_practices.md)
+- [Netfun Authentication Methods](../../netfun_authentication_methods.md)
 
 ---
 
@@ -9301,7 +9301,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## Collegamenti
 
-- [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
 
 ---
@@ -9494,12 +9494,12 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ## Collegamenti
 
-- [SmsDriverEnum](../app/Enums/SmsDriverEnum.php)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
 - [TransTrait](../../Xot/app/Traits/TransTrait.php)
-- [Configurazione SMS](../config/sms.php)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
@@ -10105,8 +10105,8 @@ Prima di modificare la configurazione SMS, verificare che:
 
 ## Riferimenti
 
-- [Struttura Standardizzata della Configurazione SMS](./STANDARDIZED_SMS_CONFIG_STRUCTURE.md)
-- [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
+- [Struttura Standardizzata della Configurazione SMS](../../standardized_sms_config_structure.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
 
 ---
@@ -10499,7 +10499,7 @@ SMSFACTOR_SENDER=YourApp
 ## Introduzione
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
-> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./NETFUN_CONFIG_REQUIREMENTS.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun_config_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 
@@ -10593,7 +10593,7 @@ $response = Http::post($endpoint, $payload);
 
 ### 1.2. Configurazione
 
-**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./NETFUN_AUTHENTICATION_METHODS.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun_authentication_methods.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
 
@@ -11280,10 +11280,10 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./SMS_PROVIDER_ARCHITECTURE.md)
-- [SMS Implementation](./SMS_IMPLEMENTATION.md)
-- [SMS Best Practices](./SMS_BEST_PRACTICES.md)
-- [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+- [SMS Provider Architecture](../../sms_provider_architecture.md)
+- [SMS Implementation](../../sms_implementation.md)
+- [SMS Best Practices](../../sms_best_practices.md)
+- [Netfun Authentication Methods](../../netfun_authentication_methods.md)
 
 ---
 
@@ -11676,11 +11676,11 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ## Collegamenti
 
-- [SmsDriverEnum](../app/Enums/SmsDriverEnum.php)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
 - [TransTrait](../../Xot/app/Traits/TransTrait.php)
-- [Configurazione SMS](../config/sms.php)
-- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
-- [Documentazione Traduzioni](../../Lang/docs/)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 

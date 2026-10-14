@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mission accomplished"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎉 MISSION ACCOMPLISHED! 🏆
@@ -20,15 +21,6 @@ discussions: []
 **Certificazione:** 🏆 **EXCELLENCE 2025**
 
 ---
-
-title: "mission accomplished"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "mission accomplished"
-issues: []
-discussions: []
 ## 🌟 OBIETTIVI RAGGIUNTI: 100%
 
 ```

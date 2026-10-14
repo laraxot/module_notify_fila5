@@ -266,16 +266,16 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 
 ### Documentazione Correlata
 - [Notification System](./notification_system.md)
-- [Email Templates](./email_templates.md)
+- [Email Templates](../../../email_templates.md)
 - [Multi-Channel Delivery](./multi_channel_delivery.md)
 - [Template Versioning](./template_versioning.md)
 
 ### Moduli Collegati
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
-- [User Module](../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
-- [Media Module](../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
-- [Lang Module](../../Lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione
+- [User Module](../../../../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
+- [Media Module](../../../../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
+- [Lang Module](../../../../../Lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione
 
 ### Servizi Esterni
 - [Mailgun](https://www.mailgun.com/) - Email delivery service

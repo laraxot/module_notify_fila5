@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament page naming convention 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni di Naming per Pagine Filament

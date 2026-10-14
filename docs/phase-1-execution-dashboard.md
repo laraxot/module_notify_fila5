@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phase 1 execution dashboard"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎯 PHASE 1 EXECUTION DASHBOARD
@@ -18,15 +19,6 @@ discussions: []
 **Scope**: segnalazioni-elenco → 90% HTML Parity
 
 ---
-
-title: "phase 1 execution dashboard"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phase 1 execution dashboard"
-issues: []
-discussions: []
 ## 🚨 CURRENT STATUS
 
 | Component | Status | Progress | ETA |

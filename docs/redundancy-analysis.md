@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 Redundancy analysis available: docs/analysis/redundancies/summary.md

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "cursor rules summary"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 9. Cursor Rules Summary
@@ -21,12 +22,3 @@ From `.cursorrules`:
 - **Performance**: Enable benchmarking, profiling
 
 ---
-
-title: "cursor rules summary"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "cursor rules summary"
-issues: []
-discussions: []

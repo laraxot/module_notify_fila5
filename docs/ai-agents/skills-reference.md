@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "skills reference"
 issues: []
 discussions: []
+status: draft
 ---
 
 # AI Skills Reference - Laraxot Project

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "MODULE DOCS INDEX"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Master Documentation Index - FixCity Fila5
@@ -17,15 +18,6 @@ discussions: []
 **Total Docs:** 7,137+ markdown files  
 
 ---
-
-title: "MODULE DOCS INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MODULE DOCS INDEX"
-issues: []
-discussions: []
 ## 🎯 Purpose
 
 Questo documento crea un **sistema di indicizzazione centrale** con collegamenti bidirezionali tra:

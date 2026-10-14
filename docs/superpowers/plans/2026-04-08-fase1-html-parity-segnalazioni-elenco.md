@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "2026 04 08 fase1 html parity segnalazioni elenco"
 issues: []
 discussions: []
+status: draft
 ---
 
 # FASE 1 — HTML Parity 90% (segnalazioni-elenco) Implementation Plan
@@ -20,15 +21,6 @@ discussions: []
 **Tech Stack:** Python 3 (compare-html-body.py), Bash, Laravel Blade, chiavi traduzione Laravel
 
 ---
-
-title: "2026 04 08 fase1 html parity segnalazioni elenco"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "2026 04 08 fase1 html parity segnalazioni elenco"
-issues: []
-discussions: []
 ## File Map
 
 | File | Azione | Responsabilità |

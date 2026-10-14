@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "antigravity integration"
 issues: []
 discussions: []
+status: draft
 ---
 
 # antigravity e bmad method: integrazione e contesto fixcity

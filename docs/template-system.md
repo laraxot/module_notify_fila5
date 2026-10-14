@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "template system"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sistema Template Email

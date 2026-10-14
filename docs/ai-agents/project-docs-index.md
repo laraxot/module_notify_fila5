@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "project docs index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Project docs index (curated)

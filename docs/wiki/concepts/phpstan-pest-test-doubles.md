@@ -13,6 +13,7 @@ related:
   - ./testing.md
   - ../../phpstan-compliance-status.md
   - ../../../Xot/docs/wiki/concepts/phpstan-pest-bridge-discipline.md
+status: draft
 ---
 
 # Notify — test doubles e helper PHPStan

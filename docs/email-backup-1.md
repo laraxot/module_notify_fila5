@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email backup 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sistema Backup Email

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agid analysis implementation 2025 10 02"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🏛️ AGID Analysis & Implementation Report
@@ -17,15 +18,6 @@ discussions: []
 **User Request**: *"studia a fondo design-comuni-pagine-statiche, documenta tutto, implementa le cose mancanti"*
 
 ---
-
-title: "agid analysis implementation 2025 10 02"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agid analysis implementation 2025 10 02"
-issues: []
-discussions: []
 ## 📋 Executive Summary
 
 Comprehensive analysis of AGID (Agenzia per l'Italia Digitale) design system for Italian municipal websites, gap analysis against FixCity project, complete documentation, and implementation of critical missing components.

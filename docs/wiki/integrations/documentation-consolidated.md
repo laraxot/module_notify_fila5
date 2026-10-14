@@ -446,7 +446,7 @@ echo "  snake_case: $(find laravel/Modules/*/docs/ -name '*_*.md' | wc -l)"
 ## 📚 Related Documents
 
 - [documentation-governance.md](documentation-governance.md) - Governance framework
-- [agents.md](../../../agents.md) - Agent guidelines
+- [agents.md](../../agents.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 
 ---
@@ -732,7 +732,7 @@ Xot (Core) ◄──────────────────────
 
 | I Need... | Start Here | Then Go To | Then Go To |
 |-----------|-----------|-----------|-----------|
-| Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](architecture-diagrams.md) | Your task |
+| Quick start | [Copilot Inst.](../../../.github/copilot-instructions.md) | [Architecture](architecture-diagrams.md) | Your task |
 | Module overview | [Module Index](module-docs-index.md) | `Modules/{Name}/docs/00-index-1.md` | Details |
 | Theme overview | [Theme Index](THEMES_documentation-index.md) | `Themes/{Name}/docs/00-index-1.md` | Details |
 | Create content | [Cms Docs](../laravel/Modules/Cms/docs/) | [Block Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md) | Examples |
@@ -741,7 +741,7 @@ Xot (Core) ◄──────────────────────
 | Handle files | [Media Docs](../laravel/Modules/Media/docs/) | [File Upload](../laravel/Modules/Media/docs/guides/) | Examples |
 | Send notifications | [Notify Docs](../laravel/Modules/Notify/docs/) | [Channels](../laravel/Modules/Notify/docs/guides/) | Examples |
 | Track changes | [Activity Docs](../laravel/Modules/Activity/docs/) | [Audit Trail](../laravel/Modules/Activity/docs/guides/) | Examples |
-| Code standards | [claude.md](../laravel/claude.md) | [Copilot Inst.](../../.github/copilot-instructions.md) | Review |
+| Code standards | [claude.md](../laravel/claude.md) | [Copilot Inst.](../../../.github/copilot-instructions.md) | Review |
 | Architecture | [Architecture](architecture-diagrams.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
 
 ---
@@ -907,7 +907,7 @@ laravel/Themes/
 - **Theme Development** → [THEMES_documentation-index.md](THEMES_documentation-index.md)
 - **Code Quality** → [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules** → [laravel/claude.md](../laravel/claude.md)
-- **Copilot Usage** → [.github/copilot-instructions.md](../../.github/copilot-instructions.md)
+- **Copilot Usage** → [.github/copilot-instructions.md](../../../.github/copilot-instructions.md)
 - **Design Comuni** → Search for `DESIGN_COMUNI_` files
 
 ### By Use Case
@@ -1007,7 +1007,7 @@ Connected Via:
 
 ### For Developers
 
-1. Start: [Copilot Instructions](../../.github/copilot-instructions.md)
+1. Start: [Copilot Instructions](../../../.github/copilot-instructions.md)
 2. Understand: [Architecture Diagrams](architecture-diagrams.md)
 3. Explore: [Module Index](module-docs-index.md) or [Theme Index](THEMES_documentation-index.md)
 4. Deep Dive: Relevant module/theme 00-index-1.md
@@ -1024,7 +1024,7 @@ Connected Via:
 
 ### For New Project Members
 
-1. Read: [Copilot Instructions](../../.github/copilot-instructions.md)
+1. Read: [Copilot Instructions](../../../.github/copilot-instructions.md)
 2. Watch: Architecture diagrams in this file
 3. Explore: Master indexes for your area
 4. Ask: Use GitHub discussions for questions
@@ -1510,7 +1510,7 @@ jobs:
 
 ## 📚 Related Documents
 
-- [agents.md](../../../agents.md) - Agent guidelines
+- [agents.md](../../agents.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 - [documentation-index.md](../../../docs/documentation-index.md) - Master index
 
@@ -2156,7 +2156,7 @@ Successfully implemented a comprehensive documentation governance framework and 
 
 ### Core Documentation
 
-1. **[documentation-governance.md](docs/documentation-governance.md)**
+1. **[documentation-governance.md](../../documentation-governance.md)**
    - Comprehensive governance framework
    - Standards for all documentation
    - Quality metrics and KPIs
@@ -2168,7 +2168,7 @@ Successfully implemented a comprehensive documentation governance framework and 
    - Links to all theme docs
    - Categorized by topic
 
-3. **[documentation-analysis-and-improvement-plan.md](docs/documentation-analysis-and-improvement-plan.md)**
+3. **[documentation-analysis-and-improvement-plan.md](../../documentation-analysis-and-improvement-plan.md)**
    - Detailed analysis of current state
    - Identified issues across 3,646 files
    - Implementation plan with timelines
@@ -2403,9 +2403,9 @@ grep -r "Last Updated" laravel/Modules/*/docs/ --include="*.md" | wc -l
 ## 📚 Resources
 
 ### Documentation
-- [Governance Framework](docs/documentation-governance.md)
+- [Governance Framework](../../documentation-governance.md)
 - [Master Index](docs/MASTER_documentation-index.md)
-- [Improvement Plan](docs/documentation-analysis-and-improvement-plan.md)
+- [Improvement Plan](../../documentation-analysis-and-improvement-plan.md)
 
 ### Rules
 - [agents.md](agents.md) - Full standards
@@ -2501,7 +2501,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [documentation-improvement-summary.md](documentation-improvement-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [documentation-improvement-summary.md](../../documentation-improvement-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 
@@ -2552,7 +2552,7 @@ related:
 - [README Principale](./README.md) - Panoramica progetto completa
 - [Analisi Super Mucca](./super-mucca-docs-analysis.md) - Report qualità documentazione
 - [Architecture](./architecture-analysis.md) - Analisi architetturale
-- [Roadmap](./master-roadmap-2025.md) - Piano sviluppo 2025
+- [Roadmap](../../master-roadmap-2025.md) - Piano sviluppo 2025
 
 ### Guide Rapide
 - [Quick Start](./quick-start.md) - Guida avvio rapido
@@ -2565,7 +2565,7 @@ related:
 
 ### Documentazione Architetturale
 - [Design Patterns](./architecture.md) - Pattern architetturali
-- [Database Schema](./database/schema.md) - Schema database
+- [Database Schema](../schema.md) - Schema database
 - [API Documentation](./api/README.md) - Documentazione API
 - [Security](./security/README.md) - Sicurezza e conformità
 
@@ -2722,19 +2722,19 @@ related:
 ## 🛠️ Guide Sviluppo
 
 ### Development Setup
-- [Environment Setup](./development/setup.md) - Configurazione ambiente
+- [Environment Setup](../../ai-agents/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
-- [Database Setup](./database/setup.md) - Setup database
+- [Database Setup](../../ai-agents/setup.md) - Setup database
 
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
-- [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
+- [Laravel Best Practices](../../html2pdf/laravel.md) - Best practices Laravel
 - [Filament Guidelines](./standards/filament.md) - Linee guida Filament
 - [Blade Components](./standards/blade.md) - Componenti Blade
 
 ### Quality Assurance
 - [PHPStan Configuration](./phpstan/README.md) - Analisi statica
-- [Testing Strategy](./testing/strategy.md) - Strategia testing
+- [Testing Strategy](../../strategy.md) - Strategia testing
 - [CI/CD Pipeline](./ci-cd/README.md) - Continuous integration
 
 ---
@@ -2775,7 +2775,7 @@ related:
 - [Error Tracking](./monitoring/errors.md) - Tracking errori
 
 ### Analytics
-- [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
+- [Usage Analytics](../../html2pdf/usage.md) - Analisi utilizzo
 - [Business Metrics](./analytics/business.md) - Metriche business
 
 ---
@@ -2783,7 +2783,7 @@ related:
 ## 🔒 Security
 
 ### Security Documentation
-- [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
+- [Security Guidelines](../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
 - [GDPR Compliance](./security/gdpr.md) - Conformità GDPR
 - [Authentication](./security/authentication.md) - Sistema autenticazione
 - [Authorization](./security/authorization.md) - Sistema autorizzazioni
@@ -3260,7 +3260,7 @@ Start at theme index:
 
 ### Finding Documentation
 
-1. **Start Here:** [docs/module-docs-index.md](docs/module-docs-index.md)
+1. **Start Here:** [docs/module-docs-index.md](../../module-docs-index.md)
 2. **Navigate to:** Module or theme category
 3. **Use Search:** Ctrl+F for keywords
 4. **Follow Links:** Cross-references guide you
@@ -3284,7 +3284,7 @@ Start at theme index:
 
 ## 📋 Related Documents
 
-- [Master Index](docs/module-docs-index.md) - Central navigation
+- [Master Index](../../module-docs-index.md) - Central navigation
 - [BMad Workflow](_bmad-output/BMAD-WORKFLOW-COMPLETE.md) - BMad summary
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md) - Theme layouts
 - [Vite Manifest Fix](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build fix

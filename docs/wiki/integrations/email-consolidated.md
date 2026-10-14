@@ -524,9 +524,9 @@ class MailTrackingService
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics)
@@ -977,9 +977,9 @@ class MailTrackingService
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics)
@@ -1619,9 +1619,9 @@ class MailBackupDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/docs/storage)
@@ -2639,9 +2639,9 @@ class MailBackupDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/project_docs/storage)
@@ -3281,9 +3281,9 @@ class MailBackupDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/docs/storage)
@@ -3853,9 +3853,9 @@ class MailCacheDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -4337,9 +4337,9 @@ class MailCacheDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -4594,9 +4594,9 @@ Questo documento definisce le best practices per la creazione di template HTML p
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
 - [Struttura Template](./mail-templates-structure.md)
-- [Template Base](./base-templates.md)
+- [Template Base](../../base-templates.md)
 - [Struttura Template](./mail-templates-structure-1.md)
-- [Template Base](./base-templates.md)
+- [Template Base](../../base-templates.md)
 
 ## Supporto
 
@@ -4828,8 +4828,8 @@ Questo documento definisce le best practices per la creazione di template HTML p
 ## Collegamenti Correlati
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
-- [Struttura Template](./MAIL_TEMPLATES_STRUCTURE.md)
-- [Template Base](./BASE_TEMPLATES.md)
+- [Struttura Template](../../mail_templates_structure.md)
+- [Template Base](../../base_templates.md)
 
 ## Supporto
 
@@ -5375,9 +5375,9 @@ class MailLogDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Logging](https://laravel.com/project_docs/logging)
@@ -5893,9 +5893,9 @@ class MailLogDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Logging](https://laravel.com/project_docs/logging)
@@ -6742,9 +6742,9 @@ class MailMonitoringDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -7568,9 +7568,9 @@ class MailMonitoringDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -7967,9 +7967,9 @@ class NotificationDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
@@ -8340,9 +8340,9 @@ class NotificationDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
@@ -8642,9 +8642,9 @@ class MailAnalytics
    - [ ] Integrazioni
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
-- [Mail Queue](database-mail-queue.md)
-- [Testing](database-mail-system-tests.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Mail Queue](../../database-mail-queue.md)
+- [Testing](../../database-mail-system-tests.md)
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
@@ -8920,9 +8920,9 @@ class MailAnalytics
    - [ ] Integrazioni
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
-- [Mail Queue](database-mail-queue.md)
-- [Testing](database-mail-system-tests.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Mail Queue](../../database-mail-queue.md)
+- [Testing](../../database-mail-system-tests.md)
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
@@ -9199,9 +9199,9 @@ class MailAnalytics
    - [ ] Integrazioni
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
-- [Mail Queue](database-mail-queue.md)
-- [Testing](database-mail-system-tests.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Mail Queue](../../database-mail-queue.md)
+- [Testing](../../database-mail-system-tests.md)
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
@@ -9630,9 +9630,9 @@ class MailQueueManager
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Queue](https://laravel.com/project_docs/queues)
@@ -10040,9 +10040,9 @@ class MailQueueManager
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Queue](https://laravel.com/project_docs/queues)
@@ -10448,9 +10448,9 @@ class MailQueueManager
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Queue](https://laravel.com/project_docs/queues)
@@ -11273,9 +11273,9 @@ class TranslationValidator
    - Monitora uso
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Localization](https://laravel.com/project_docs/localization)
@@ -11662,9 +11662,9 @@ class TranslationValidator
    - Monitora uso
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Localization](https://laravel.com/project_docs/localization)
@@ -12123,9 +12123,9 @@ class TemplateValidator
    - Ottimizza storage
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
-- [Mail Queue](database-mail-queue.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
+- [Mail Queue](../../database-mail-queue.md)
 
 ## Vedi Anche
 - [TinyMCE Documentation](https://www.tiny.cloud/docs)
@@ -12563,9 +12563,9 @@ class TemplateValidator
    - Ottimizza storage
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
-- [Mail Queue](database-mail-queue.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
+- [Mail Queue](../../database-mail-queue.md)
 
 ## Vedi Anche
 - [TinyMCE Documentation](https://www.tiny.cloud/docs)
@@ -13016,9 +13016,9 @@ class MailTrackingService
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics)
@@ -13658,9 +13658,9 @@ class MailBackupDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/project_docs/storage)
@@ -14166,9 +14166,9 @@ class MailCacheDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -14398,8 +14398,8 @@ Questo documento definisce le best practices per la creazione di template HTML p
 ## Collegamenti Correlati
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
-- [Struttura Template](./MAIL_TEMPLATES_STRUCTURE.md)
-- [Template Base](./BASE_TEMPLATES.md)
+- [Struttura Template](../../mail_templates_structure.md)
+- [Template Base](../../base_templates.md)
 
 ## Supporto
 
@@ -14918,9 +14918,9 @@ class MailLogDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Logging](https://laravel.com/project_docs/logging)
@@ -15743,9 +15743,9 @@ class MailMonitoringDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -16117,9 +16117,9 @@ class NotificationDebugger
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
@@ -16395,9 +16395,9 @@ class MailAnalytics
    - [ ] Integrazioni
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
-- [Mail Queue](database-mail-queue.md)
-- [Testing](database-mail-system-tests.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Mail Queue](../../database-mail-queue.md)
+- [Testing](../../database-mail-system-tests.md)
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
@@ -16805,9 +16805,9 @@ class MailQueueManager
 ```
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Queue](https://laravel.com/project_docs/queues)
@@ -17392,9 +17392,9 @@ class TranslationValidator
    - Monitora uso
 
 ## Collegamenti
-- [Editor WYSIWYG](email-wysiwyg-editor.md)
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
+- [Editor WYSIWYG](../../email-wysiwyg-editor.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
 
 ## Vedi Anche
 - [Laravel Localization](https://laravel.com/project_docs/localization)
@@ -17832,9 +17832,9 @@ class TemplateValidator
    - Ottimizza storage
 
 ## Collegamenti
-- [Database Mail System](database-mail-system.md)
-- [Email Plugins Analysis](email-plugins-analysis.md)
-- [Mail Queue](database-mail-queue.md)
+- [Database Mail System](../../database-mail-system.md)
+- [Email Plugins Analysis](../../email-plugins-analysis.md)
+- [Mail Queue](../../database-mail-queue.md)
 
 ## Vedi Anche
 - [TinyMCE Documentation](https://www.tiny.cloud/docs)

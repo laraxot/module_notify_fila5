@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "send email translation fix 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Fix Traduzioni File send_email.php - Modulo Notify

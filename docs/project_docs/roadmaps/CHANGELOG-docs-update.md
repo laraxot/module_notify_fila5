@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "CHANGELOG docs update 2025 10 01"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📚 Docs Update Changelog – 2025-10-01

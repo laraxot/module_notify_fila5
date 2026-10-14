@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "llm wiki governance"
 issues: []
 discussions: []
+status: draft
 ---
 
 # LLM Wiki Governance

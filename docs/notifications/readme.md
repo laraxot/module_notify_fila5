@@ -16,5 +16,6 @@ related:
   - "./multi-channel-notifications.md"
   - "./netfun-sms-implementation-1.md"
   - "./netfun-sms-implementation.md"
+status: draft
 ---
 

@@ -232,9 +232,9 @@ TextInput::make('email') // Label da user::fields.email.label
 ## 📚 Riferimenti Documentazione
 
 ### Interna
-- [Filament 4 Login Widget Implementation](../laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
-- [Filament 4 Widget Rendering Guide](../laravel/Modules/User/docs/filament-4-widget-rendering-guide.md)
-- [Auth Widget Rules](../laravel/Modules/User/docs/auth_widget_rules.md)
+- [Filament 4 Login Widget Implementation](../../../Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
+- [Filament 4 Widget Rendering Guide](../../User/docs/filament-4-widget-rendering-guide.md)
+- [Auth Widget Rules](../../User/docs/auth_widget_rules.md)
 - [Laraxot Architecture Rules](../laravel/Modules/Xot/docs/laraxot-architecture-rules.md)
 
 ### Esterna

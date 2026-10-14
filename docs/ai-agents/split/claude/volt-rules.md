@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "volt rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === volt/core rules ===
@@ -125,15 +126,6 @@ $delete = fn(Product $product) => $product->delete();
 
 
 ---
-
-title: "volt rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "volt rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

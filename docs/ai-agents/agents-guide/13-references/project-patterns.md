@@ -49,4 +49,4 @@ updated: 2026-09-26
 qmd: "project patterns"
 issues: []
 discussions: []
-[Back to index](../index.md)
+[Back to index](../../../index.md)

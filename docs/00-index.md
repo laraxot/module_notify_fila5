@@ -50,8 +50,8 @@ discussions: []
 - 🛡️ **[Security Analysis](./security-analysis.md)** - Protezione dei webhook dei provider (es. WhatsApp).
 
 ## 🔗 **Moduli Correlati**
-- [Xot](../../xot/docs/readme.md) - Dispatcher centrale.
-- [User](../../user/docs/readme.md) - Definizione dei destinatari e preferenze.
+- [Xot](../../Xot/docs/README.md) - Dispatcher centrale.
+- [User](../../User/docs/readme.md) - Definizione dei destinatari e preferenze.
 
 ---
 title: "00 index"

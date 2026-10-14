@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan analysis progress"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi PHPStan dei Moduli

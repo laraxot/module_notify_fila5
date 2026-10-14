@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "interface structure clarification"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Chiarimento sulla Struttura delle Interfacce

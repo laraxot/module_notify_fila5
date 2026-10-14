@@ -11,7 +11,7 @@ discussions: []
 
 # Project setup and running
 
-> Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md)
+> Source: [IFLOW.md](../../../../../bashscripts/ai/IFLOW.md)
 > Back: [index](index.md)
 
 ## Prerequisites

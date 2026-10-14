@@ -240,9 +240,9 @@ Questa è la seconda implementazione della giornata:
 ## Collegamenti Documentazione
 
 ### Modulo Blog
-- [Transaction Removal Details](../Modules/Blog/docs/models/transaction-removal.md)
-- [Blog Module README](../Modules/Blog/docs/README.md)
-- [Models Overview](../Modules/Blog/docs/models/)
+- [Transaction Removal Details](../../Blog/docs/models/transaction-removal.md)
+- [Blog Module README](../../Blog/docs/README.md)
+- [Models Overview](../../Blog/docs/models)
 
 ### Root Progetto
 - [View Cache Fix (Sessione 1)](./view-cache-components-fix-2025-10-15.md)
@@ -251,7 +251,7 @@ Questa è la seconda implementazione della giornata:
 
 ### Architettura
 - [Architecture Decisions](./architecture/)
-- [Module Structure](../Modules/Blog/docs/structure.md)
+- [Module Structure](../../Blog/docs/structure.md)
 
 ## Metriche
 

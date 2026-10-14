@@ -1,3 +1,11 @@
+---
+title: "RIEPILOGO PROGRESSI - FIXCITY PLATFORM"
+type: note
+status: draft
+updated: 2026-10-08
+tags: [docs, notify, project_docs]
+qmd: "riepilogo progressi - fixcity platform notify"
+---
 # 📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM
 
 **Data**: 27 Gennaio 2025  

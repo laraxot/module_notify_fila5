@@ -5,6 +5,8 @@ type: decision
 tags: [notify, enum, notification-log, status]
 created: 2026-10-06
 updated: 2026-10-06
+status: draft
+qmd: "notification status notify"
 ---
 
 # Notification status

@@ -63,7 +63,7 @@ title: No AI/tool scaffold directories in module tree
 
 # Perché queste cartelle non devono esistere qui
 
-Regola canonica: [module-theme-root-cleanup.md — Rule 5](../../../../docs/wiki/rules/module-theme-root-cleanup.md).
+Regola canonica: [module-theme-root-cleanup.md — Rule 5](../../../../../../docs/wiki/rules/module-theme-root-cleanup.md).
 
 Rimosse in questo modulo: `_docs/`, `scripts/`, `bashscripts/`, `docs/archive|archived|legacy|workbench/`, `.circleci/`, `.claude-audit/`, `tests/.claude-audit/`, `_bmad-output/`, `test-results/`, `.devcontainer/`, `.kilocode/`, `.kiro/`, `.ralph/` (dove presenti) e aggiunte al `.gitignore` di questo modulo.
 
@@ -1564,7 +1564,7 @@ public function via($notifiable)
 
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
-- [Notification Best Practices](best-practices.md)
+- [Notification Best Practices](../../best-practices.md)
 
 ---
 
@@ -1652,7 +1652,7 @@ public function via($notifiable)
 
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
-- [Notification Best Practices](best-practices.md)
+- [Notification Best Practices](../../best-practices.md)
 
 ---
 
@@ -1956,8 +1956,8 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./ARCHITECTURE.md)
-- [Modelli di Email](./EMAIL_TEMPLATES.md)
-- [Implementazione SMS](./SMS_IMPLEMENTATION.md)
+- [Modelli di Email](../../email_templates.md)
+- [Implementazione SMS](../../sms_implementation.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
 ---
@@ -2137,13 +2137,13 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
-- [Modelli di Email](./email-templates.md)
+- [Modelli di Email](../../email-templates.md)
 - [Implementazione SMS](./sms-implementation-1.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
-- [Modelli di Email](./email-templates.md)
-- [Implementazione SMS](./sms-implementation.md)
+- [Modelli di Email](../../email-templates.md)
+- [Implementazione SMS](../../sms-implementation.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 ---
 
@@ -2303,8 +2303,8 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
-- [Modelli di Email](./email_templates.md)
-- [Implementazione SMS](./sms_implementation.md)
+- [Modelli di Email](../../email_templates.md)
+- [Implementazione SMS](../../sms_implementation.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 
 
@@ -2710,7 +2710,7 @@ Customer List -> Bulk Action -> Modal (Select Template + Channels) -> Submit -> 
     - **Delegation**: Now delegates the per-record logic to `SendRecordNotificationAction`.
     - **Reasoning**: Applies DRY and KISS. The logic to send to *one* record exists in `SendRecordNotificationAction`. The Bulk action should only care about iteration and result aggregation, not the sending implementation details.
 
-Vedi: [DRY Composition Pattern](./dry-composition-pattern.md)
+Vedi: [DRY Composition Pattern](../../dry-composition-pattern.md)
 
 ### Estrazione Attributi Contatti (DRY Pattern)
 
@@ -2721,7 +2721,7 @@ Vedi: [DRY Composition Pattern](./dry-composition-pattern.md)
     - **Pattern**: Metodo generico con validator opzionale per validazione custom (es. email validation)
     - **Reasoning**: DRY + KISS. Logica di estrazione centralizzata in un metodo, wrapper mantengono semantica chiara.
 
-Vedi: [Contact Extraction Pattern](./contact-extraction-pattern.md)
+Vedi: [Contact Extraction Pattern](../../contact-extraction-pattern.md)
 
 ### Dependency Resolution (Runtime Service Resolution)
 
@@ -2729,7 +2729,7 @@ Vedi: [Contact Extraction Pattern](./contact-extraction-pattern.md)
     - **Reasoning**: Spatie Queueable Actions are serialized when queued. Constructor dependencies can cause serialization issues or unnecessary overhead. Using `app()` inside methods ensures lazy loading and cleaner serialization.
     - **Philosophy**: Keep Actions simple, stateless, and serialization-friendly.
 
-Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
+Vedi: [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md)
 
 
 ---
@@ -2870,9 +2870,9 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-- [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
-- [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
-- [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
+- [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
+- [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
 
 ---
 
@@ -3032,12 +3032,12 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-- [PROVIDER_ACTIONS_architecture.md](./provider-actions-architecture.md)
-- [SMS_ACTIONS_PATTERN.md](./sms-actions-pattern.md)
-- [WHATSAPP_PROVIDER_architecture.md](./whatsapp-provider-architecture.md)
-- [PROVIDER_ACTIONS_architecture.md](./provider-actions-architecture.md)
-- [SMS_ACTIONS_PATTERN.md](./sms-actions-pattern.md)
-- [WHATSAPP_PROVIDER_architecture.md](./whatsapp-provider-architecture.md)
+- [PROVIDER_ACTIONS_architecture.md](../../provider-actions-architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms-actions-pattern.md)
+- [WHATSAPP_PROVIDER_architecture.md](../../whatsapp-provider-architecture.md)
+- [PROVIDER_ACTIONS_architecture.md](../../provider-actions-architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms-actions-pattern.md)
+- [WHATSAPP_PROVIDER_architecture.md](../../whatsapp-provider-architecture.md)
 
 ---
 
@@ -3178,9 +3178,9 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-- [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
-- [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
-- [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
+- [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
+- [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
 
 ---
 
@@ -3321,9 +3321,9 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-- [PROVIDER_ACTIONS_ARCHITECTURE.md](./provider_actions_architecture.md)
-- [SMS_ACTIONS_PATTERN.md](./sms_actions_pattern.md)
-- [WHATSAPP_PROVIDER_ARCHITECTURE.md](./whatsapp_provider_architecture.md)
+- [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
+- [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
 
 ---
 
@@ -3418,7 +3418,7 @@ public function via($notifiable)
 
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
-- [Notification Best Practices](best-practices.md)
+- [Notification Best Practices](../../best-practices.md)
 
 ---
 
@@ -3583,8 +3583,8 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./ARCHITECTURE.md)
-- [Modelli di Email](./EMAIL_TEMPLATES.md)
-- [Implementazione SMS](./SMS_IMPLEMENTATION.md)
+- [Modelli di Email](../../email_templates.md)
+- [Implementazione SMS](../../sms_implementation.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
 
@@ -3904,9 +3904,9 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-- [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
-- [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
-- [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
+- [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
+- [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
 
 ---
 
@@ -4049,7 +4049,7 @@ return [
 
 ## Collegamenti
 - [Documentazione API](./api.md)
-- [Template Email](./templates.md)
+- [Template Email](../../templates.md)
 - [Guida Contribuzione](./contributing.md)
 
 ## Note
@@ -4501,11 +4501,11 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
-- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-- [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Standard per le Traduzioni ](../../translation_standards.md)
 
 ---
 
@@ -4710,9 +4710,9 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Standard per le Traduzioni ](./translation-standards-2.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
-- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-- [Standard per le Traduzioni ](./translation-standards.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Standard per le Traduzioni ](../../translation-standards.md)
 ---
 
 ## notify-translation-guide
@@ -4891,11 +4891,11 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
-- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-- [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Standard per le Traduzioni ](../../translation_standards.md)
 
 ---
 
@@ -5075,11 +5075,11 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./translation_conventions_clarification.md)
-- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation_keys_rules.md)
-- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
-- [Standard per le Traduzioni ](./translation_standards.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation-keys-best-practices.md)
+- [Standard per le Traduzioni ](../../translation_standards.md)
 
 ---
 
@@ -5259,11 +5259,11 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
-- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-- [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Standard per le Traduzioni ](../../translation_standards.md)
 
 ---
 

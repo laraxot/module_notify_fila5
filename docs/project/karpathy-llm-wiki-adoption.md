@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "karpathy llm wiki adoption"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Karpathy LLM Wiki per Notify

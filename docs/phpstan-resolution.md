@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan resolution"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Risoluzione conflitto SmsService.php

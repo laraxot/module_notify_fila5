@@ -13,7 +13,7 @@ related:
   - "./dto-structure-rules.md"
   - "./interface-structure-clarification.md"
   - "./mail-templates-structure.md"
-  - "./queueable-action-pattern.md"
+  - "../../architecture/queueable-action-pattern.md"
   - "./sms-config-structure.md"
   - "./standardized-sms-config-structure.md"
 ---

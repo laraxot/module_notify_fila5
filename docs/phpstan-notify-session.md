@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan notify session"
 issues: []
 discussions: []
+status: draft
 ---
 
 # phpstan notify session

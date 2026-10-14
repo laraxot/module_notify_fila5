@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "notification implementation"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notification System Implementation Plan

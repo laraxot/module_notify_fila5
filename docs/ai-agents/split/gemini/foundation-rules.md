@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "foundation rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === foundation rules ===
@@ -96,15 +97,6 @@ applications.
 
 
 ---
-
-title: "foundation rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "foundation rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

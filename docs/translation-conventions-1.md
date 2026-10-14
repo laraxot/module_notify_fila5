@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "translation conventions 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni per le Traduzioni del Modulo Notify

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind best practices"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Best Practices Implementazione Tailwind CSS nel Modulo Notify

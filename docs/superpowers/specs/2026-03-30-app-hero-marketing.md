@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "2026 03 30 app hero marketing"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notify Hero Marketing Section - Design Spec

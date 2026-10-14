@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sms actions 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Azioni SMS

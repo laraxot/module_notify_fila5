@@ -452,8 +452,8 @@ Prima di estrarre metodi:
 
 - [Clean Code - Extract Method](https://refactoring.guru/extract-method) - Refactoring Guru
 - [SendRecordsNotificationBulkAction](../../app/Filament/Actions/SendRecordsNotificationBulkAction.php) - Implementazione esempio
-- [DRY Composition Pattern](./dry-composition-pattern.md) - Pattern composizione Actions
-- [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md) - Pattern per chiamate Actions
+- [DRY Composition Pattern](../dry-composition-pattern.md) - Pattern composizione Actions
+- [Actions Calling Actions Pattern](../actions-calling-actions-pattern.md) - Pattern per chiamate Actions
 
 ---
 

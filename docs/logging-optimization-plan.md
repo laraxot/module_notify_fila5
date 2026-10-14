@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "logging optimization plan"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notify Module - Logging Optimization Plan

@@ -146,4 +146,4 @@ discussions: []
 
 - [PROJECT.md](./project.md) - Visione e obiettivi
 - [agents.md](./AGENTS.md) - Regole per agenti AI
-- [docs/](../docs/) - Documentazione completa
+- [docs/](..) - Documentazione completa

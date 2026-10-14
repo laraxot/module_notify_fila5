@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "pest coverage guide"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Pest Coverage Guide

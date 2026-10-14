@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "analisiettagliata 2"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni

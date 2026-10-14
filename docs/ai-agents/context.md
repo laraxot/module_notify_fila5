@@ -27,4 +27,4 @@ LaravelPizza is a modular meetup/community platform built on Laravel + Filament 
 
 ## Project docs
 
-- [General docs index](../../../../docs/index.md)
+- [General docs index](../../../../../docs/index.md)

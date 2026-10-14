@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "rules testing no migrate fresh"
 issues: []
 discussions: []
+status: draft
 ---
 
 # CRITICAL ARCHITECTURE RULE: NO MIGRATE:FRESH

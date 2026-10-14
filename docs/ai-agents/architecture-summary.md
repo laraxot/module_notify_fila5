@@ -59,5 +59,5 @@ updated: 2026-09-26
 qmd: "architecture summary"
 issues: []
 discussions: []
-[Return to Documentation Index](../../AGENTS.md)
-[Return to Documentation Index](../../agents.md)
+[Return to Documentation Index](../AGENTS.md)
+[Return to Documentation Index](../agents.md)

@@ -100,7 +100,7 @@ discussions: []
 ### Riferimenti
 - [Regole Globali Progetto](./README.md)
 - [Convenzioni Naming](./guides/naming-conventions.md)
-- [Best Practices DRY + KISS](./guides/best-practices.md)
+- [Best Practices DRY + KISS](../best-practices.md)
 
 ## Prossimi Passi
 

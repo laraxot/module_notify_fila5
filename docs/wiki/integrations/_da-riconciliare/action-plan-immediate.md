@@ -10,14 +10,14 @@ qmd: "action-plan-immediate 🎯 piano d'azione immediato - <nome progetto> plat
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "../../../00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "../../../acronym-naming-conventions-1.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
-  - "./actions-calling-actions-pattern.md"
+  - "../../../actions-calling-actions-pattern.md"
 ---
 
 # 🎯 PIANO D'AZIONE IMMEDIATO - Notify Platform

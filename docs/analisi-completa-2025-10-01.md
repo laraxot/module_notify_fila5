@@ -424,17 +424,17 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### 🎯 Module Roadmaps (Dettagliate)
 - [Xot - Core Framework](../Modules/Xot/docs/roadmap-and-issues.md) - 9 errori, 2.5h fix
-- [User - Auth & Profiles](../Modules/User/docs/roadmap-and-issues.md) - 95 errori, 6h fix
+- [User - Auth & Profiles](../../User/docs/roadmap-and-issues.md) - 95 errori, 6h fix
 - [Fixcity - Business Logic](../Modules/Fixcity/docs/roadmap-and-issues.md) - N+1 queries, features
-- [AI - Artificial Intelligence](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization
-- [Notify - Notifications](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time, push
-- [Geo - Geographic](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
+- [AI - Artificial Intelligence](../../AI/docs/roadmap-and-issues.md) - Auto-categorization
+- [Notify - Notifications](roadmap-and-issues.md) - Real-time, push
+- [Geo - Geographic](../../Geo/docs/roadmap-and-issues.md) - Maps integration
 - [UI - Components](../Modules/UI/docs/roadmap-and-issues.md) - Accessibility
-- [Activity - Audit](../Modules/Activity/docs/roadmap-and-issues.md) - Analytics
-- [Cms - Content](../Modules/Cms/docs/roadmap-and-issues.md) - Page builder
+- [Activity - Audit](../../Activity/docs/roadmap-and-issues.md) - Analytics
+- [Cms - Content](../../Cms/docs/roadmap-and-issues.md) - Page builder
 
 ### 🎨 Theme Roadmaps
-- [Sixteen - Frontend Theme](../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
+- [Sixteen - Frontend Theme](../../../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
 
 ### 📖 Main Docs
 - [Index Principale](./index.md)

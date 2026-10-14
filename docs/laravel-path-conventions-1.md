@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "laravel path conventions 1"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni dei Path in Laravel e <nome progetto>

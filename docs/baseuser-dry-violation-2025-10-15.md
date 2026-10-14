@@ -330,9 +330,9 @@ test('hasRole con pipe syntax', function () {
 ## Collegamenti Documentazione
 
 ### Modulo User
-- [Analisi Completa DRY Violation](../Modules/User/docs/baseuser-dry-violation-analysis.md)
-- [BaseUser Model](../Modules/User/docs/models/baseuser.md)
-- [Roles & Permissions](../Modules/User/docs/roles-permissions.md)
+- [Analisi Completa DRY Violation](../../User/docs/baseuser-dry-violation-analysis.md)
+- [BaseUser Model](../../User/docs/models/baseuser.md)
+- [Roles & Permissions](../../User/docs/roles-permissions.md)
 
 ### Root Progetto
 - [DRY Violations Analysis](./dry-violations-analysis.md)

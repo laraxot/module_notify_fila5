@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpmd analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPMD Analysis - Modulo Notify
@@ -16,15 +17,6 @@ discussions: []
 ### 🧘 Principio Zen: "Il nome giusto illumina il codice"
 
 ---
-
-title: "phpmd analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpmd analysis"
-issues: []
-discussions: []
 ## Errori Rilevati e Filosofia
 
 ### 1. ShortVariable: $to, $as
