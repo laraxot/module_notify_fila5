@@ -572,7 +572,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/development/roadmap.md` — Roadmap Modulo Activity
 - `laravel/Modules/Activity/docs/domain-logic.md` — Domain Logic
 - `laravel/Modules/Activity/docs/dry-kiss-analysis-.md` — DRY & KISS Analysis - Modulo Activity
-- `laravel/Modules/Activity/docs/dry-kiss-analysis-1.md` — DRY & KISS Analysis - Modulo Activity
+- `laravel/Modules/Activity/docs/dry-kiss-analysis-modulo-user.md` — DRY & KISS Analysis - Modulo Activity
 - `laravel/Modules/Activity/docs/dry-kiss-analysis-latest.md` — DRY & KISS Analysis - Modulo Activity
 - `laravel/Modules/Activity/docs/dry-kiss-analysis.md` — DRY & KISS Analysis - Modulo Activity
 - `laravel/Modules/Activity/docs/dry-kiss.md` — DRY & KISS Analysis - Modulo Activity
@@ -2008,8 +2008,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/product-management.md` — Gestione Prodotti con Laravel Folio e Volt
 - `laravel/Modules/Cms/docs/product_management.md` — Gestione Prodotti con Laravel Folio e Volt
 - `laravel/Modules/Cms/docs/prompt-rules-link.md` — Regole per i Prompt
-- `laravel/Modules/Cms/docs/quality-status-11.md` — Cms Module - Quality Status (November 2025)
-- `laravel/Modules/Cms/docs/quality-status-2025-11.md` — Cms Module - Quality Status (November 2025)
+- `laravel/Modules/Cms/docs/quality-status-user-module-november.md` — Cms Module - Quality Status (November 2025)
+- `laravel/Modules/Cms/docs/quality-status-activity-module-november.md` — Cms Module - Quality Status (November 2025)
 - `laravel/Modules/Cms/docs/quality-status.md` — Cms Module - Quality Status (November 2025)
 - `laravel/Modules/Cms/docs/quality-tooling.md` — Code Quality Tooling (CMS Module)
 - `laravel/Modules/Cms/docs/quality.md` — Cms Module - Quality Status (November 2025)
@@ -2756,7 +2756,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/phpstan-errors-roadmap-2026-01-12.md` — PHPStan Level Max Errors Roadmap - Geo Module
 - `laravel/Modules/Geo/docs/phpstan-errors-roadmap.md` — PHPStan Level Max Errors Roadmap - Geo Module
 - `laravel/Modules/Geo/docs/phpstan-errors.md` — PHPStan Errors - Geo Module
-- `laravel/Modules/Geo/docs/phpstan-fixes-2.md` — PHPStan Fixes for Geo Module
+- `laravel/Modules/Geo/docs/phpstan-fixes.md` — PHPStan Fixes for Geo Module
 - `laravel/Modules/Geo/docs/phpstan-fixes-2025-01-27.md` — Correzioni PHPStan Modulo Geo - 2025-01-27
 - `laravel/Modules/Geo/docs/phpstan-fixes-3.md` — Correzioni PHPStan Modulo Geo - [DATE]
 - `laravel/Modules/Geo/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
@@ -4685,7 +4685,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/reusabilitylines.md` — Linee Guida per la Riusabilità del Modulo Notify
 - `laravel/Modules/Notify/docs/reusable-form-components.md` — Reusable Form Components
 - `laravel/Modules/Notify/docs/roadmap-.md` — Notify Module Roadmap 2026
-- `laravel/Modules/Notify/docs/roadmap-1.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
+- `laravel/Modules/Notify/docs/roadmap.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
 - `laravel/Modules/Notify/docs/roadmap-2025.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
 - `laravel/Modules/Notify/docs/roadmap-and-issues.md` — Notify Module - Roadmap, Issues & Optimization
 - `laravel/Modules/Notify/docs/roadmap-ands.md` — Notify Module - Roadmap, Issues & Optimization
@@ -5992,7 +5992,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/_integration/two-factor.md` — two_factor
 - `laravel/Modules/User/docs/_integration/two_factor.md` — two_factor
 - `laravel/Modules/User/docs/actions-path-convention.md` — Convenzione dei Percorsi per le Actions
-- `laravel/Modules/User/docs/actions-structure-1.md` — Actions Structure
+- `laravel/Modules/User/docs/actions-structure.md` — Actions Structure
 - `laravel/Modules/User/docs/actions-structure.md` — Actions Structure
 - `laravel/Modules/User/docs/actions.md` — Linee guida per l'uso di Spatie Queueable Action
 - `laravel/Modules/User/docs/actions_path_convention.md` — Convenzione dei Percorsi per le Actions
@@ -6183,7 +6183,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/cyclomatic-complexity.md` — Cyclomatic Complexity Report - Module: User
 - `laravel/Modules/User/docs/database/migrations/model-has-roles.md` — Model Has Roles Migration Documentation
 - `laravel/Modules/User/docs/database-errors.md` — Database Errors in User Module
-- `laravel/Modules/User/docs/database-issues-1.md` — Database Issues in User Module
+- `laravel/Modules/User/docs/database-issues-user-module.md` — Database Issues in User Module
 - `laravel/Modules/User/docs/database-issues.md` — Database Issues in User Module
 - `laravel/Modules/User/docs/database-population.md` — Popolamento Database - Modulo User
 - `laravel/Modules/User/docs/database_errors.md` — Database Errors in User Module
@@ -6215,7 +6215,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/dor-registration.md` — Registrazione Odontoiatra (Doctor)
 - `laravel/Modules/User/docs/dry-kiss-018b09.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-.md` — DRY & KISS Analysis - Modulo User
-- `laravel/Modules/User/docs/dry-kiss-analysis-1.md` — 🐄✨ DRY & KISS Analysis - Modulo User
+- `laravel/Modules/User/docs/dry-kiss-analysis-modulo-user.md` — 🐄✨ DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-conflict-018b09.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-conflict.md` — 🐄✨ DRY & KISS Analysis - Modulo User
@@ -6257,7 +6257,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/filament-4-actions-namespace.md` — Filament 5: Namespace Actions - Filosofia Laraxot
 - `laravel/Modules/User/docs/filament-4-widget-rendering-guide.md` — Guida Rendering Widget Filament 5 - Modulo User
 - `laravel/Modules/User/docs/filament-4-widget-rendering.md` — Guida Rendering Widget Filament 5 - Modulo User
-- `laravel/Modules/User/docs/filament-4x-compatibility-1.md` — Compatibilità Filament 5.x - Modulo User
+- `laravel/Modules/User/docs/filament-4x-compatibility-compatibilita-modulo-user.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/filament-4x-compatibility-conflict.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/filament-5x-compatibility.md` — Filament 5.x compatibility - modulo User
@@ -6408,7 +6408,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/login-issue-resolution-report.md` — Risoluzione Problema Login - Report Finale (Aggiornato)
 - `laravel/Modules/User/docs/login-resolution.md` — Risoluzione Problema Login - Report Finale (Aggiornato)
 - `laravel/Modules/User/docs/login-widget-analysis.md` — Analisi Dettagliata di LoginWidget
-- `laravel/Modules/User/docs/login-widget-conversion-1.md` — Conversione Livewire Auth/Login a Filament LoginWidget
+- `laravel/Modules/User/docs/login-widget-conversion-conversione-livewire-auth-filament.md` — Conversione Livewire Auth/Login a Filament LoginWidget
 - `laravel/Modules/User/docs/login-widget-conversion.md` — Conversione Livewire Auth/Login a Filament LoginWidget
 - `laravel/Modules/User/docs/login-widget-filament-schema-errors-roadmap.md` — LoginWidget Filament Schema JavaScript Errors - Roadmap
 - `laravel/Modules/User/docs/login-widget-filament-schemas.md` — LoginWidget Filament Schema JavaScript Errors - Roadmap
@@ -6699,7 +6699,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/phpstan-fix-plan-.md` — PHPStan Analysis - User Module (Jan 2026)
 - `laravel/Modules/User/docs/phpstan-fixes-.md` — User Module - PHPStan Fixes Session 2025-10-01
 - `laravel/Modules/User/docs/phpstan-fixes-1.md` — Correzioni PHPStan Livello 7 - Modulo User
-- `laravel/Modules/User/docs/phpstan-fixes-2.md` — Correzioni PHPStan - Modulo User
+- `laravel/Modules/User/docs/phpstan-fixes.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-fixes-user-module-session.md` — User Module - PHPStan Fixes Session 2025-10-01
 - `laravel/Modules/User/docs/phpstan-fixes-2025.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-fixes-3.md` — Correzioni PHPStan - Modulo User
@@ -6774,8 +6774,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/quality-analysis/user-module-quality.md` — Analisi Qualità - Modulo User
 - `laravel/Modules/User/docs/quality-improvements-summary.md` — Quality Improvements Summary - PHPStan, PHPMD, PHP Insights
 - `laravel/Modules/User/docs/quality-improvements.md` — Quality Improvements Summary - PHPStan, PHPMD, PHP Insights
-- `laravel/Modules/User/docs/quality-status-11.md` — User Module - Quality Status (November 2025)
-- `laravel/Modules/User/docs/quality-status-2025-11.md` — User Module - Quality Status (November 2025)
+- `laravel/Modules/User/docs/quality-status-user-module-november.md` — User Module - Quality Status (November 2025)
+- `laravel/Modules/User/docs/quality-status-activity-module-november.md` — User Module - Quality Status (November 2025)
 - `laravel/Modules/User/docs/quality-status.md` — User Module - Quality Status (November 2025)
 - `laravel/Modules/User/docs/quality-tooling.md` — Code Quality Tooling (User Module)
 - `laravel/Modules/User/docs/quality-tools-final-report-.md` — Quality Tools Final Report - 2025-01-22
@@ -6797,7 +6797,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/registration-widget-fileupload-fix-1.md` — RegistrationWidget FileUpload Fix
 - `laravel/Modules/User/docs/registration-widget-fileupload-fix.md` — RegistrationWidget FileUpload Fix
 - `laravel/Modules/User/docs/registration-widget-fileupload.md` — RegistrationWidget FileUpload Fix
-- `laravel/Modules/User/docs/registration-widget-update-1.md` — Aggiornamento relativo a DoctorResource.php
+- `laravel/Modules/User/docs/registration-widget-update-aggiornamento-relativo-doctorresource-php.md` — Aggiornamento relativo a DoctorResource.php
 - `laravel/Modules/User/docs/registration-widget-update.md` — Aggiornamento relativo a DoctorResource.php
 - `laravel/Modules/User/docs/registration-widget.md` — Registration Widget Documentation
 - `laravel/Modules/User/docs/registration_widget.md` — Registration Widget Documentation
@@ -6828,7 +6828,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/roadmap/q4-roadmap.md` — User Module Roadmap (2025 Q4)
 - `laravel/Modules/User/docs/roadmap/roadmap.md` — User Module Roadmap (2025 Q4)
 - `laravel/Modules/User/docs/roadmap-.md` — User Module - Complete Roadmap 2026
-- `laravel/Modules/User/docs/roadmap-1.md` — 👥 USER MODULE - ROADMAP 2025
+- `laravel/Modules/User/docs/roadmap.md` — 👥 USER MODULE - ROADMAP 2025
 - `laravel/Modules/User/docs/roadmap-2025.md` — 👥 USER MODULE - ROADMAP 2025
 - `laravel/Modules/User/docs/roadmap-and-issues.md` — User Module - Roadmap, Issues & Optimization
 - `laravel/Modules/User/docs/roadmap-ands.md` — User Module - Roadmap, Issues & Optimization
@@ -8311,7 +8311,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-4-laraxot.md` — Filament 5 + Laraxot Rules - Xot Module
 - `laravel/Modules/Xot/docs/filament-4-migration-guide.md` — Guida alla Migrazione Filament 5
 - `laravel/Modules/Xot/docs/filament-4-migration.md` — Guida alla Migrazione Filament 5
-- `laravel/Modules/Xot/docs/filament-4x-compatibility-1.md` — Compatibilità Filament 5.x - Modulo Xot
+- `laravel/Modules/Xot/docs/filament-4x-compatibility-compatibilita-modulo-user.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/filament-4x-compatibility-conflict.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/filament-5-laraxot-rules.md` — Filament 5 + Laraxot Rules - Xot Module
@@ -8481,7 +8481,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/git-conflicts-inventory.md` — Inventario Conflitti Git - Xot Module
 - `laravel/Modules/Xot/docs/git-conflicts-mal-risolti.md` — Conflitti Git Mal Risolti - Pattern e Fix
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
-- `laravel/Modules/Xot/docs/git-conflicts-resolution-1.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
+- `laravel/Modules/Xot/docs/git-conflicts-resolution.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-2.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md` — git-conflicts-resolution-2025-01-06
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-conflict-5ba246.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
@@ -9038,7 +9038,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-fix-xotbaserelationmanager-finale.md` — Correzione PHPStan XotBaseRelationManager - Versione Finale ✅
 - `laravel/Modules/Xot/docs/phpstan-fixes-.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-1.md` — Correzioni PHPStan Livello 7 - Modulo Xot
-- `laravel/Modules/Xot/docs/phpstan-fixes-2.md` — Correzioni PHPStan - Modulo Xot
+- `laravel/Modules/Xot/docs/phpstan-fixes.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-2025-01-06.md` — Correzioni PHPStan - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-2025.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-3.md` — Correzioni PHPStan - Modulo Xot
@@ -9317,7 +9317,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/roadmap/security/status.md` — Stato Sicurezza
 - `laravel/Modules/Xot/docs/roadmap/testing/status.md` — Stato Testing
 - `laravel/Modules/Xot/docs/roadmap-.md` — Xot Module - Complete Roadmap 2026
-- `laravel/Modules/Xot/docs/roadmap-1.md` — 🏗️ XOT MODULE - ROADMAP 2025
+- `laravel/Modules/Xot/docs/roadmap.md` — 🏗️ XOT MODULE - ROADMAP 2025
 - `laravel/Modules/Xot/docs/roadmap-and-issues.md` — Xot Module - Roadmap, Issues & Optimization
 - `laravel/Modules/Xot/docs/roadmap-ands.md` — Xot Module - Roadmap, Issues & Optimization
 - `laravel/Modules/Xot/docs/roadmap-conflict.md` — 🏗️ XOT MODULE - ROADMAP 2025
