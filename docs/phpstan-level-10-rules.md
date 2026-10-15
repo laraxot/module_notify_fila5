@@ -294,7 +294,7 @@ These rules are enforced through:
 
 ## Related Documentation
 
-- [PHPStan Analysis Report 2026-03-02](./phpstan-analysis-2026-03-02.md)
+- [PHPStan Analysis Report 2026-03-02](./phpstan-analysis-level-report.md)
 - [Cms Module PHPStan Fixes](../../Cms/docs/phpstan-fixes.md)
 - [Fixcity Module PHPStan Fixes](../../Fixcity/docs/phpstan-level-10-fixes.md)
 - [PHPStan Official Documentation](https://phpstan.org/)

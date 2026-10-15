@@ -420,7 +420,7 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 - **[Project Analysis & Roadmap](./project-analysis-and-roadmap.md)** ⭐ BUSINESS VIEW
 - **[Session Summary 2025-10-01](./phpstan/session-summary-2025-10-01.md)** ⭐ TECHNICAL
 - **[Final Report 2025-10-01](./phpstan/final-report-session-2025-10-01.md)**
-- **[Questo Documento](./analisi-completa-2025-10-01.md)** ⭐ EXECUTIVE
+- **[Questo Documento](./analisi-completa-ottobre-data.md)** ⭐ EXECUTIVE
 
 ### 🎯 Module Roadmaps (Dettagliate)
 - [Xot - Core Framework](../Modules/Xot/docs/roadmap-and-issues.md) - 9 errori, 2.5h fix

@@ -9,7 +9,7 @@ qmd: "notify 00-INDEX indice operativo canonico famiglie radice directory canoni
 issues: []
 discussions: []
 related:
-  - ./stories/2026-10-14-docs-ingressi-notify.story.md
+  - ./stories/docs-ingressi-notify.story.md
 ---
 
 # 📚 **Indice Documentazione Modulo Notify**
@@ -30,7 +30,7 @@ dalla passata meccanica del 2026-10-14, 36 sono `deprecated`, 258 non hanno la c
 |---|---|---|
 | `wiki/` | 912 | canonica per regole e concetti, ma con molte copie e stub; ingresso [wiki/index.md](./wiki/index.md), registro [wiki/log.md](./wiki/log.md) |
 | `ai-agents/` | 288 | evidence: copie di guide per agenti AI valide per tutto il repo (GSD, BMAD, bootstrap `claude`/`gemini`/`qwen`/`iflow`; il suo `00-INDEX.md` indica come origine `bashscripts/ai/.agents/docs/`), non specifiche di Notify |
-| `project_docs/` | 130 | evidence: report e cronaca di progetto, in gran parte di ottobre 2025 (`COMPLETION_SUMMARY_2025-10.md`, `FINAL_*_REPORT*`, `roadmaps/*-completion-report*`) |
+| `project_docs/` | 130 | evidence: report e cronaca di progetto, in gran parte di ottobre 2025 (`COMPLETION_SUMMARY.md`, `FINAL_*_REPORT*`, `roadmaps/*-completion-report*`) |
 | `mail-templates/` (67), `notifications/` (23), `email-sending/`, `emails/`, `sms/`, `messaging/` | 67, 23 | documentazione tematica viva, da verificare contro il codice |
 | `project/` | 65 | evidence/legacy: pianificazione |
 | `bmad/` | 54 | canonica per il dossier BMAD ([bmad/architecture.md](./bmad/architecture.md)) |
@@ -79,7 +79,7 @@ Varianti dello stesso nome (maiuscole, `_` contro `-`, suffisso `-N`): 413 grupp
 
 ## 🪮 **Ponytail audit**
 - 📋 **[Over-engineering audit](./ponytail-audit-over-engineering.md)** - SMS multi-driver, policy stub, remediation `.bak`. Lo stato dichiarato (8 Action SMS e 3 varianti Agiletelecom spostate in `.php.bak`) NON corrisponde al codice del 2026-10-14: in `app/` non c'e' nessun `.bak` tracciato e `app/Actions/SMS/` contiene ancora Twilio, Nexmo, Plivo, Gammu e le tre Agiletelecom; `SmsDriverEnum` ha solo `smsfactor`, ma `app/Factories/SmsActionFactory.php` mappa anche `twilio`.
-- 🧾 **Decisione di consolidamento SMS** - il contenuto sta in [wiki/decisions/sms-actions-consolidation-2026-06-30.md](./wiki/decisions/sms-actions-consolidation-2026-06-30.md) (5,8 KB, `status: draft`); [sms-actions-consolidation.md](./wiki/decisions/sms-actions-consolidation.md) e' un rimando di 490 byte `deprecated` che punta a se stesso. Stessa discrepanza con il codice.
+- 🧾 **Decisione di consolidamento SMS** - il contenuto sta in [wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md](./wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md) (5,8 KB, `status: draft`); [sms-actions-consolidation.md](./wiki/decisions/sms-actions-consolidation.md) e' un rimando di 490 byte `deprecated` che punta a se stesso. Stessa discrepanza con il codice.
 
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./translation-cleanup-plan.md)** - Piano di pulizia delle traduzioni italiane, scritto per il progetto Quaeris (cita `/var/www/html/Quaeris/...`); non riguarda la pulizia dei file di docs.
@@ -108,7 +108,7 @@ discussions: []
 - [INDEX.md](./INDEX.md) e [index.md](./index.md) hanno lo stesso testo (16 KB): un indice multilingue con sezioni ripetute ("Documentazione e Aggiornamenti" x5), link a SaluteOra e PTV e a file di `docs/` radice che non esistono; marcati `stale`.
 - [readme.md](./readme.md) e' la seconda meta' di [README.md](./README.md) (che l'ha incorporata): non e' un ingresso.
 - Wiki: [wiki/00-INDEX.md](./wiki/00-INDEX.md) e [wiki/00-index.md](./wiki/00-index.md) copiano questo indice con link relativi sbagliati; [wiki/INDEX.md](./wiki/INDEX.md) (8 KB) e [wiki/index.md](./wiki/index.md) (15 KB) sono copie dell'indice generico del progetto, con bersagli inesistenti: tutte e quattro marcate `stale`. Ingressi della wiki di Notify: [wiki/README.md](./wiki/README.md) (copia identica in `wiki/readme.md`), [wiki/log.md](./wiki/log.md) (registro cronologico), `wiki/concepts/` (30 file), `wiki/rules/`, `wiki/memories/`, `wiki/decisions/`.
-- Pagine marcate `stale` con la ragione in testa al file: [roadmap.md](./roadmap.md), [send-notification-bulk-action.md](./send-notification-bulk-action.md), [monitoring.md](./monitoring.md), [ponytail-audit-over-engineering.md](./ponytail-audit-over-engineering.md), [wiki/decisions/sms-actions-consolidation-2026-06-30.md](./wiki/decisions/sms-actions-consolidation-2026-06-30.md).
+- Pagine marcate `stale` con la ragione in testa al file: [roadmap.md](./roadmap.md), [send-notification-bulk-action.md](./send-notification-bulk-action.md), [monitoring.md](./monitoring.md), [ponytail-audit-over-engineering.md](./ponytail-audit-over-engineering.md), [wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md](./wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md).
 
 ## Documentazione BMAD del modulo
 

@@ -263,10 +263,10 @@ Questa è stata la **quinta implementazione** della giornata!
 
 ### Analisi e Piano
 - [DRY Violation Analysis](../../User/docs/baseuser-dry-violation-analysis.md) - Analisi completa
-- [Refactoring Plan](./baseuser-dry-violation-2025-10-15.md) - Piano esecutivo
+- [Refactoring Plan](./baseuser-dry-violation-analisi-refactoring.md) - Piano esecutivo
 
 ### Completamento
-- [Refactoring Completed](../../User/docs/baseuser-refactoring-completed-2025-10-15.md) - Dettagli implementazione
+- [Refactoring Completed](../../User/docs/baseuser-refactoring-completed.md) - Dettagli implementazione
 - Questo documento - Riepilogo finale
 
 ### Modulo User
@@ -277,7 +277,7 @@ Questa è stata la **quinta implementazione** della giornata!
 ### Altri Fix del Giorno
 1. [View Cache Components](./view-cache-components-fix-2025-10-15.md)
 2. [Transaction Removal](./transaction-removal-fix-2025-10-15.md)
-3. [Super Admin Setup](./super-admin-setup-fix-2025-10-15.md)
+3. [Super Admin Setup](./super-admin-setup-fix-tabella-roles.md)
 
 ### Spatie Documentation
 - [Laravel Permission Docs](https://spatie.be/docs/laravel-permission)

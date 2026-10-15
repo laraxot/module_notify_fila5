@@ -11,7 +11,7 @@ related:
   - "./errori-comuni-da-evitare-1.md"
   - "./errori-comuni-da-evitare.md"
   - "./index.md"
-  - "./multi-channel-notifications-1.md"
+  - "./multi-channel-notifications.md"
   - "./multi-channel-notifications-2.md"
   - "./multi-channel-notifications.md"
   - "./netfun-sms-implementation-1.md"

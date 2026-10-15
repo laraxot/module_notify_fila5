@@ -89,7 +89,7 @@ Applicare convenzioni consistenti:
 - **Gerarchici**: Struttura cartelle logica
 
 #### Esempi Trasformazioni
-- `analisi-dettagliata-1.md` → `architecture/detailed-analysis.md`
+- `analisi-dettagliata-architettura-struttura.md` → `architecture/detailed-analysis.md`
 - `email-templates-spatie.md` → `integrations/spatie-email.md`
 - `sms_netfun_channel.md` → `sms/netfun-provider.md`
 

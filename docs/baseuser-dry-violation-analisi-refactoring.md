@@ -337,7 +337,7 @@ test('hasRole con pipe syntax', function () {
 ### Root Progetto
 - [DRY Violations Analysis](./dry-violations-analysis.md)
 - [Code Quality](./code-quality-analysis.md)
-- [Super Admin Setup](./super-admin-setup-fix-2025-10-15.md)
+- [Super Admin Setup](./super-admin-setup-fix-tabella-roles.md)
 
 ### Spatie Documentation
 - [Laravel Permission - Basic Usage](https://spatie.be/docs/laravel-permission/v6/basic-usage/role-permissions)
@@ -349,7 +349,7 @@ Questa è la **quarta analisi** del 15 Ottobre 2025:
 
 1. ✅ [View Cache Components](./view-cache-components-fix-2025-10-15.md)
 2. ✅ [Transaction Model Removal](./transaction-removal-fix-2025-10-15.md)
-3. ✅ [Super Admin Setup](./super-admin-setup-fix-2025-10-15.md)
+3. ✅ [Super Admin Setup](./super-admin-setup-fix-tabella-roles.md)
 4. 📋 **BaseUser DRY Violation** (questa analisi)
 
 **Pattern Consistente**: Analisi approfondita → Documentazione completa → Piano implementazione chiaro

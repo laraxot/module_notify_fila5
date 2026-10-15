@@ -29,7 +29,7 @@ Consolidated from **8** individual files.
 
 ## optimization-analysis-1
 
-*Consolidated from: `optimization-analysis-1.md`*
+*Consolidated from: `optimization-analysis-user-module-documentation.md`*
 
 title: "notify module documentation optimization analysis"
 type: concept

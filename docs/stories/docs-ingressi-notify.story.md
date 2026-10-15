@@ -8,7 +8,7 @@ module: Notify
 tags: [docs, organizzazione, indice, bmad, verifica-codice, famiglie-radice]
 qmd: "notify docs ingressi README 00-INDEX famiglie radice 3465 file stale SMS consolidamento NotificationTrackingController test vuoto Mail alwaysTo DOC-010 DOC-002"
 related:
-  - ../../../Fixcity/docs/stories/2026-10-13-dcp-56-organizzazione-docs-moduli-e-temi.story.md
+  - ../../../Fixcity/docs/stories/dcp-56-organizzazione-docs-moduli-e-temi.story.md
   - ../../../../../bmad-output/docs-architecture/module-theme-docs-contract.md
 ---
 
@@ -59,7 +59,7 @@ duplicate nel frontmatter; 848 contengono emoji.
   reso commento; sezione "Duplicati e ingressi non canonici".
 - `docs-organizer stale --fix` (status `stale` e nota in testa, contenuto intatto): `INDEX.md`, `index.md`, `roadmap.md`,
   `send-notification-bulk-action.md`, `monitoring.md`, `ponytail-audit-over-engineering.md`, `wiki/00-INDEX.md`,
-  `wiki/00-index.md`, `wiki/INDEX.md`, `wiki/index.md`, `wiki/decisions/sms-actions-consolidation-2026-06-30.md`.
+  `wiki/00-index.md`, `wiki/INDEX.md`, `wiki/index.md`, `wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md`.
 - `wiki/README.md` e `wiki/readme.md` (copie identiche): tolte le chiavi duplicate `title` e `qmd` e il titolo "FixCity LLM Wiki".
 - `wiki/log.md`: voce 2026-10-14; link a file inesistenti ridotti a testo.
 - Nessun file cancellato, spostato o rinominato; nessun `dups --fix`.

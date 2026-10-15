@@ -72,7 +72,7 @@ Consolidated from **51** individual files.
 
 ## translation-cleanup-plan-1
 
-*Consolidated from: `translation-cleanup-plan-1.md`*
+*Consolidated from: `translation-cleanup-plan.md`*
 
 
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
@@ -187,11 +187,11 @@ qmd: "translation-cleanup-plan-2 translation cleanup plan"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -313,7 +313,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 
 ## translation-conventions-1
 
-*Consolidated from: `translation-conventions-1.md`*
+*Consolidated from: `translation-conventions.md`*
 
 
 ## Regole Fondamentali
@@ -565,11 +565,11 @@ qmd: "translation-conventions-2 translation conventions"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -582,7 +582,7 @@ Conventions for naming and structure of translation keys.
 
 ## translation-conventions-clarification-1
 
-*Consolidated from: `translation-conventions-clarification-1.md`*
+*Consolidated from: `translation-conventions-clarification.md`*
 
 
 ## Identificazione di Convenzioni Contrastanti
@@ -689,11 +689,11 @@ qmd: "translation-conventions-clarification-2 chiarimento sulle convenzioni di t
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1226,7 +1226,7 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 
 ## translation-file-correction-guide-1
 
-*Consolidated from: `translation-file-correction-guide-1.md`*
+*Consolidated from: `translation-file-correction-guide-deprecated.md`*
 
 
 This file is deprecated.
@@ -1250,11 +1250,11 @@ qmd: "translation-file-correction-guide-2 guida alla correzione dei file di trad
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2060,11 +2060,11 @@ qmd: "translation-file-naming-rules-1 regole di naming per i file di traduzione"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2217,11 +2217,11 @@ qmd: "translation-file-structure-guide-1 guida alla struttura dei file di traduz
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2701,7 +2701,7 @@ return [
 
 ## translation-implementation-plan-1
 
-*Consolidated from: `translation-implementation-plan-1.md`*
+*Consolidated from: `translation-implementation-plan-deprecated.md`*
 
 
 This file is deprecated.
@@ -2725,11 +2725,11 @@ qmd: "translation-implementation-plan-2 piano di implementazione per la standard
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3165,11 +3165,11 @@ qmd: "translation-keys-best-practices-1 best practices per le chiavi di traduzio
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3229,11 +3229,11 @@ qmd: "translation-keys-rules-1 translation keys rules 1"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3744,7 +3744,7 @@ Amen.
 
 ## translation-standards-1
 
-*Consolidated from: `translation-standards-1.md`*
+*Consolidated from: `translation-standards.md`*
 
 
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
@@ -3891,11 +3891,11 @@ qmd: "translation-standards-2 standard per le traduzioni"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -4036,7 +4036,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 
 ## translation-standards-progress-1
 
-*Consolidated from: `translation-standards-progress-1.md`*
+*Consolidated from: `translation-standards-progress.md`*
 
 
 ## Stato Attuale - 12/05/2025
@@ -4133,11 +4133,11 @@ qmd: "translation-standards-progress-2 progresso standardizzazione traduzioni"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -5911,7 +5911,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 
 ## translations-implementation-status-1
 
-*Consolidated from: `translations-implementation-status-1.md`*
+*Consolidated from: `translations-implementation-status.md`*
 
 
 ## Panoramica
@@ -6054,11 +6054,11 @@ qmd: "translations-implementation-status-2 translations implementation status"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

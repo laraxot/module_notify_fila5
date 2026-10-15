@@ -295,7 +295,7 @@ docs/master/
 
 **Examples:**
 - `phpstan-analysis.md`
-- `documentation-improvement-summary-2026-03-13.md`
+- `documentation-improvement-summary-executive.md`
 - `bugfix-report-2025-01-14.md`
 
 **Problem:** Dates in filenames become stale immediately.
