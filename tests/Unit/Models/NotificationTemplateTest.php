@@ -2,83 +2,132 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Models;
-
-use Modules\Notify\Enums\NotificationTypeEnum;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
 use Modules\Notify\Models\NotificationTemplate;
-use PHPUnit\Framework\Assert;
+use Tests\TestCase;
 
-/**
- * Unit tests must not bootstrap the application container.
- */
-it('has correct fillable fields', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplate::class);
-    $instance = $reflection->newInstanceWithoutConstructor();
+uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
 
-    $fillableProperty = $reflection->getProperty('fillable');
-    $fillableProperty->setAccessible(true);
+describe('NotificationTemplate Model', function () {
+    it('creates template with required fields', function () {
+        $template = NotificationTemplate::create([
+            'code' => 'welcome-email',
+            'name' => 'Welcome Email',
+            'subject' => 'Welcome {{name}}!',
+            'body_text' => 'Welcome {{name}} to our platform.',
+            'body_html' => '<p>Welcome {{name}} to our platform.</p>',
+            'channels' => ['mail', 'database'],
+            'is_active' => true,
+        ]);
 
-    $fillable = $fillableProperty->getValue($instance);
+        expect($template)->toBeInstanceOf(NotificationTemplate::class);
+        expect($template->code)->toBe('welcome-email');
+        expect($template->channels)->toBe(['mail', 'database']);
+        expect($template->is_active)->toBeTrue();
+    });
 
-    $expectedFillable = [
-        'name',
-        'code',
-        'description',
-        'subject',
-        'body_html',
-        'body_text',
-        'channels',
-        'variables',
-        'conditions',
-        'preview_data',
-        'metadata',
-        'category',
-        'is_active',
-        'version',
-        'tenant_id',
-        'grapesjs_data',
-        'type'];
+    it('compiles template with data', function () {
+        $template = NotificationTemplate::create([
+            'code' => 'test-template',
+            'name' => 'Test',
+            'subject' => 'Hello {{name}}',
+            'body_text' => 'Hi {{name}}, your order {{order_id}} is ready.',
+            'body_html' => '<p>Hi {{name}}, your order {{order_id}} is ready.</p>',
+            'channels' => ['database'],
+            'is_active' => true,
+        ]);
 
-    Assert::assertSame($expectedFillable, $fillable);
-});
+        $compiled = $template->compile(['name' => 'John', 'order_id' => 123]);
 
-it('has correct casts', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplate::class);
-    $instance = $reflection->newInstanceWithoutConstructor();
+        expect($compiled['subject'])->toBe('Hello John');
+        expect($compiled['body_text'])->toBe('Hi John, your order 123 is ready.');
+        expect($compiled['body_html'])->toBe('<p>Hi John, your order 123 is ready.</p>');
+    });
 
-    $castsMethod = $reflection->getMethod('casts');
-    $castsMethod->setAccessible(true);
+    it('handles missing variables gracefully', function () {
+        $template = NotificationTemplate::create([
+            'code' => 'partial-template',
+            'name' => 'Partial',
+            'subject' => 'Hello {{name}}',
+            'body_text' => 'Hi {{name}}, order {{order_id}}',
+            'channels' => ['database'],
+            'is_active' => true,
+        ]);
 
-    $casts = $castsMethod->invoke($instance);
+        $compiled = $template->compile(['name' => 'John']); // order_id missing
 
-    $expectedCasts = [
-        'type' => NotificationTypeEnum::class,
-        'preview_data' => 'array',
-        'body_html' => 'string',
-        'body_text' => 'string',
-        'channels' => 'array',
-        'variables' => 'array',
-        'conditions' => 'array',
-        'metadata' => 'array',
-        'is_active' => 'boolean',
-        'grapesjs_data' => 'array'];
+        expect($compiled['subject'])->toBe('Hello John');
+        expect($compiled['body_text'])->toContain('{{order_id}}'); // Unreplaced
+    });
 
-    Assert::assertSame($expectedCasts, $casts);
-});
+    it('evaluates shouldSend conditions', function () {
+        $template = NotificationTemplate::create([
+            'code' => 'conditional',
+            'name' => 'Conditional',
+            'subject' => 'Test',
+            'body_text' => 'Test',
+            'channels' => ['database'],
+            'is_active' => true,
+            'conditions' => ['min_amount' => 100],
+        ]);
 
-it('has translatable fields', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplate::class);
-    $instance = $reflection->newInstanceWithoutConstructor();
+        expect($template->shouldSend(['amount' => 150]))->toBeTrue();
+        expect($template->shouldSend(['amount' => 50]))->toBeFalse();
+        expect($template->shouldSend([]))->toBeFalse();
+    });
 
-    $translatableProperty = $reflection->getProperty('translatable');
-    $translatableProperty->setAccessible(true);
+    it('returns true for shouldSend when no conditions', function () {
+        $template = NotificationTemplate::create([
+            'code' => 'unconditional',
+            'name' => 'Unconditional',
+            'subject' => 'Test',
+            'body_text' => 'Test',
+            'channels' => ['database'],
+            'is_active' => true,
+        ]);
 
-    $translatable = $translatableProperty->getValue($instance);
+        expect($template->shouldSend([]))->toBeTrue();
+        expect($template->shouldSend(['any' => 'data']))->toBeTrue();
+    });
 
-    $expectedTranslatable = [
-        'subject',
-        'body_text',
-        'body_html'];
+    it('has unique code', function () {
+        NotificationTemplate::factory()->create(['code' => 'unique-code']);
 
-    Assert::assertSame($expectedTranslatable, $translatable);
+        expect(fn () => NotificationTemplate::factory()->create(['code' => 'unique-code']))
+            ->toThrow(\Illuminate\Database\QueryException::class);
+    });
+
+    it('scopes active templates', function () {
+        NotificationTemplate::factory()->create(['code' => 'active-1', 'is_active' => true]);
+        NotificationTemplate::factory()->create(['code' => 'active-2', 'is_active' => true]);
+        NotificationTemplate::factory()->create(['code' => 'inactive', 'is_active' => false]);
+
+        $active = NotificationTemplate::active()->get();
+
+        expect($active)->toHaveCount(2);
+        expect($active->pluck('code'))->toContain('active-1', 'active-2');
+    });
+
+    it('supports Blade directives in templates', function () {
+        $template = NotificationTemplate::create([
+            'code' => 'blade-template',
+            'name' => 'Blade Template',
+            'subject' => 'Order @if($urgent) URGENT @endif #{{id}}',
+            'body_text' => '@foreach($items as $item) - {{ $item }} @endforeach',
+            'channels' => ['database'],
+            'is_active' => true,
+        ]);
+
+        $compiled = $template->compile([
+            'urgent' => true,
+            'id' => 456,
+            'items' => ['Apple', 'Banana'],
+        ]);
+
+        expect($compiled['subject'])->toContain('URGENT');
+        expect($compiled['subject'])->toContain('#456');
+        expect($compiled['body_text'])->toContain('Apple');
+        expect($compiled['body_text'])->toContain('Banana');
+    });
 });

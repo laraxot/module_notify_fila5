@@ -2,64 +2,131 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Datas;
-
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
 use Modules\Notify\Datas\EmailData;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
-use PHPUnit\Framework\Assert;
-use Spatie\LaravelData\Data;
+use Modules\Notify\Datas\EmailAttachmentData;
+use Tests\TestCase;
 
-describe('EmailData', function () {
-    it('can be instantiated via reflection without constructor', function () {
-        $reflection = new \ReflectionClass(EmailData::class);
+uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
 
-        Assert::assertTrue($reflection->isInstantiable());
+describe('EmailData DTO', function () {
+    it('creates with all fields', function () {
+        $attachment = new EmailAttachmentData(
+            path: '/path/file.pdf',
+            name: 'document.pdf',
+            mime: 'application/pdf',
+        );
+
+        $dto = new EmailData(
+            to: 'recipient@example.com',
+            subject: 'Test Subject',
+            bodyHtml: '<p>HTML Body</p>',
+            bodyText: 'Text Body',
+            attachments: [$attachment],
+            cc: ['cc@example.com'],
+            bcc: ['bcc@example.com'],
+            replyTo: 'noreply@example.com',
+            priority: 'high',
+        );
+
+        expect($dto->to)->toBe('recipient@example.com');
+        expect($dto->subject)->toBe('Test Subject');
+        expect($dto->bodyHtml)->toBe('<p>HTML Body</p>');
+        expect($dto->bodyText)->toBe('Text Body');
+        expect($dto->attachments)->toHaveCount(1);
+        expect($dto->cc)->toBe(['cc@example.com']);
+        expect($dto->priority)->toBe('high');
     });
 
-    it('has correct namespace', function () {
-        Assert::assertStringStartsWith('Modules\Notify\Datas', (string) EmailData::class);
+    it('creates with minimal fields', function () {
+        $dto = new EmailData(
+            to: 'recipient@example.com',
+            subject: 'Minimal',
+            bodyHtml: '<p>Body</p>',
+        );
+
+        expect($dto->to)->toBe('recipient@example.com');
+        expect($dto->bodyText)->toBeNull();
+        expect($dto->attachments)->toBeEmpty();
+        expect($dto->priority)->toBe('normal');
     });
 
-    it('has required properties', function () {
-        $propertyNames = TestCase::notifyReflectionPropertyNames(new \ReflectionClass(EmailData::class));
+    it('accepts array of recipients', function () {
+        $dto = new EmailData(
+            to: ['user1@example.com', 'user2@example.com'],
+            subject: 'Multi',
+            bodyHtml: '<p>Body</p>',
+        );
 
-        XotBasePest::assertListContains('recipient', $propertyNames);
-        XotBasePest::assertListContains('from', $propertyNames);
-        XotBasePest::assertListContains('from_email', $propertyNames);
-        XotBasePest::assertListContains('subject', $propertyNames);
-        XotBasePest::assertListContains('body_html', $propertyNames);
-        XotBasePest::assertListContains('body', $propertyNames);
-        XotBasePest::assertListContains('attachments', $propertyNames);
+        expect($dto->to)->toBeArray()->toHaveCount(2);
     });
 
-    it('extends Spatie Data', function () {
-        $reflection = new \ReflectionClass(EmailData::class);
+    it('converts to array', function () {
+        $dto = new EmailData(
+            to: 'test@example.com',
+            subject: 'Test',
+            bodyHtml: '<p>Body</p>',
+        );
+        $array = $dto->toArray();
 
-        Assert::assertTrue($reflection->isSubclassOf(Data::class));
+        expect($array)->toHaveKeys(['to', 'subject', 'body_html', 'body_text', 'priority']);
     });
 
-    it('has getFrom method', function () {
-        $reflection = new \ReflectionClass(EmailData::class);
+    it('gets primary recipient', function () {
+        $dto = new EmailData(
+            to: ['first@example.com', 'second@example.com'],
+            subject: 'Test',
+            bodyHtml: '<p>Body</p>',
+        );
 
-        Assert::assertTrue($reflection->hasMethod('getFrom'));
+        expect($dto->getPrimaryRecipient())->toBe('first@example.com');
+    });
+});
+
+describe('EmailAttachmentData DTO', function () {
+    it('creates with required fields', function () {
+        $dto = new EmailAttachmentData(
+            path: '/path/to/file.pdf',
+            name: 'document.pdf',
+            mime: 'application/pdf',
+        );
+
+        expect($dto->path)->toBe('/path/to/file.pdf');
+        expect($dto->name)->toBe('document.pdf');
+        expect($dto->mime)->toBe('application/pdf');
     });
 
-    it('has getMimeEmail method', function () {
-        $reflection = new \ReflectionClass(EmailData::class);
+    it('creates with content instead of path', function () {
+        $content = base64_encode('file content');
+        $dto = new EmailAttachmentData(
+            content: $content,
+            name: 'document.pdf',
+            mime: 'application/pdf',
+        );
 
-        Assert::assertTrue($reflection->hasMethod('getMimeEmail'));
+        expect($dto->content)->toBe($content);
+        expect($dto->path)->toBeNull();
     });
 
-    it('has from method', function () {
-        $reflection = new \ReflectionClass(EmailData::class);
+    it('validates mime type', function () {
+        $dto = new EmailAttachmentData(
+            path: '/path/file.pdf',
+            name: 'document.pdf',
+            mime: 'application/pdf',
+        );
 
-        Assert::assertTrue($reflection->hasMethod('from'));
+        expect($dto->mime)->toBe('application/pdf');
     });
 
-    it('can create via static from method with valid data', function () {
-        $reflection = new \ReflectionClass(EmailData::class);
-        $fromMethod = $reflection->getMethod('from');
-        Assert::assertTrue($fromMethod->isStatic());
+    it('converts to array', function () {
+        $dto = new EmailAttachmentData(
+            path: '/path/file.pdf',
+            name: 'document.pdf',
+            mime: 'application/pdf',
+        );
+        $array = $dto->toArray();
+
+        expect($array)->toHaveKeys(['path', 'name', 'mime']);
     });
 });

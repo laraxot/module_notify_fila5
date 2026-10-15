@@ -2,74 +2,102 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Datas;
-
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
 use Modules\Notify\Datas\SmsData;
-use Tests\Modules\Xot\XotBasePest;
-use PHPUnit\Framework\Assert;
-use Spatie\LaravelData\Data;
+use Modules\Notify\Datas\SmsMessageData;
+use Tests\TestCase;
 
-describe('SmsData', function () {
-    it('can be referenced via reflection without instantiation', function () {
-        $reflection = new \ReflectionClass(SmsData::class);
+uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
 
-        Assert::assertTrue($reflection->isInstantiable());
+describe('SmsData DTO', function () {
+    it('creates with all fields', function () {
+        $dto = new SmsData(
+            to: '+393001234567',
+            body: 'Test SMS message',
+            from: 'MyApp',
+            scheduledAt: null,
+            priority: 'high',
+        );
+
+        expect($dto->to)->toBe('+393001234567');
+        expect($dto->body)->toBe('Test SMS message');
+        expect($dto->from)->toBe('MyApp');
+        expect($dto->priority)->toBe('high');
     });
 
-    it('has correct namespace', function () {
-        Assert::assertStringStartsWith('Modules\Notify\Datas', (string) SmsData::class);
+    it('creates with minimal fields', function () {
+        $dto = new SmsData(
+            to: '+393001234567',
+            body: 'Test',
+        );
+
+        expect($dto->from)->toBeNull();
+        expect($dto->priority)->toBe('normal');
     });
 
-    it('extends Spatie LaravelData Data', function () {
-        $reflection = new \ReflectionClass(SmsData::class);
-
-        Assert::assertTrue($reflection->isSubclassOf(Data::class));
+    it('validates phone number format', function () {
+        expect(fn () => new SmsData(to: 'invalid-phone', body: 'Test'))
+            ->toThrow(\InvalidArgumentException::class);
     });
 
-    it('has required properties', function () {
-        $reflection = new \ReflectionClass(SmsData::class);
-        $properties = $reflection->getProperties();
+    it('converts to array', function () {
+        $dto = new SmsData(
+            to: '+393001234567',
+            body: 'Test',
+        );
+        $array = $dto->toArray();
 
-        $propertyNames = array_map(static fn (\ReflectionProperty $p): string => $p->getName(), $properties);
+        expect($array)->toHaveKeys(['to', 'body', 'from', 'priority']);
+    });
+});
 
-        XotBasePest::assertListContains('from', $propertyNames);
-        XotBasePest::assertListContains('recipient', $propertyNames);
-        XotBasePest::assertListContains('body', $propertyNames);
+describe('SmsMessageData DTO', function () {
+    it('creates message data for provider', function () {
+        $dto = new SmsMessageData(
+            to: '+393001234567',
+            text: 'Message text',
+            from: 'MyApp',
+            flash: false,
+            unicode: true,
+        );
+
+        expect($dto->to)->toBe('+393001234567');
+        expect($dto->text)->toBe('Message text');
+        expect($dto->flash)->toBeFalse();
+        expect($dto->unicode)->toBeTrue();
     });
 
-    it('has from method', function () {
-        $reflection = new \ReflectionClass(SmsData::class);
+    it('handles flash SMS', function () {
+        $dto = new SmsMessageData(
+            to: '+393001234567',
+            text: 'Flash message',
+            flash: true,
+        );
 
-        Assert::assertTrue($reflection->hasMethod('from'));
+        expect($dto->flash)->toBeTrue();
     });
 
-    it('from method is static', function () {
-        $reflection = new \ReflectionClass(SmsData::class);
-        $fromMethod = $reflection->getMethod('from');
+    it('handles unicode detection', function () {
+        $asciiDto = new SmsMessageData(to: '+393001234567', text: 'ASCII only');
+        $unicodeDto = new SmsMessageData(to: '+393001234567', text: 'Messaggio con accenti: àèé');
 
-        Assert::assertTrue($fromMethod->isStatic());
+        expect($asciiDto->unicode)->toBeFalse();
+        expect($unicodeDto->unicode)->toBeTrue();
     });
 
-    it('has constructor', function () {
-        $reflection = new \ReflectionClass(SmsData::class);
+    it('calculates segment count', function () {
+        $shortDto = new SmsMessageData(to: '+39', text: 'Short');
+        $longDto = new SmsMessageData(to: '+39', text: str_repeat('A', 200));
 
-        Assert::assertNotNull($reflection->getConstructor());
+        expect($shortDto->getSegmentCount())->toBe(1);
+        expect($longDto->getSegmentCount())->toBeGreaterThan(1);
     });
 
-    it('constructor promotes typed string properties from, recipient, body', function () {
-        $reflection = new \ReflectionClass(SmsData::class);
-        $constructor = $reflection->getConstructor();
-        Assert::assertNotNull($constructor);
-        $params = $constructor->getParameters();
+    it('converts to array', function () {
+        $dto = new SmsMessageData(to: '+393001234567', text: 'Test');
+        $array = $dto->toArray();
 
-        $names = array_map(static fn (\ReflectionParameter $p): string => $p->getName(), $params);
-        Assert::assertSame(['from', 'recipient', 'body'], $names);
-
-        foreach ($params as $param) {
-            $type = $param->getType();
-            Assert::assertInstanceOf(\ReflectionNamedType::class, $type);
-            Assert::assertSame('string', $type->getName());
-            Assert::assertTrue($param->isDefaultValueAvailable());
-        }
+        expect($array)->toHaveKeys(['to', 'text', 'flash', 'unicode']);
     });
 });
