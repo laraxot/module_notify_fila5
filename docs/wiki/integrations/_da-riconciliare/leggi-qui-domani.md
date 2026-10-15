@@ -8,11 +8,11 @@ qmd: "leggi-qui-domani 📖 leggi qui domani mattina - 2 ottobre 2025"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "../../../00-index-1.md"
+  - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
-  - "../../../acronym-naming-conventions-1.md"
+  - "../../../acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -412,7 +412,7 @@ cd /var/www/_bases/<nome repitory>_mono/laravel
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](../../../roadmap-master-index.md)** - Aggiornare status
-5. **[Analisi Completa](../../../analisi-completa-2025-10-01.md)** - Executive summary
+5. **[Analisi Completa](../../../analisi-completa-ottobre-data.md)** - Executive summary
 
 ---
 

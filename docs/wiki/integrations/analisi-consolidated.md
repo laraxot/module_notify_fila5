@@ -14514,7 +14514,7 @@ related:
 📄 **File:** [../Modules/Xot/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 80 LOC, 87% riduzione possibile  
 🎯 **Priorità:** ALTA - Implementare XotBaseModel qui  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Xot/docs/metodi-duplicati-analisi-1.md) (dettagli Filament methods)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Xot/docs/metodi-duplicati-analisi.md) (dettagli Filament methods)
 
 ---
 
@@ -14531,13 +14531,13 @@ related:
 📊 **Dati:** 9 proprietà duplicate, 72 LOC, 79% riduzione  
 🎯 **Priorità:** ALTA - Business core  
 ⚠️ **Note:** Usa SoftDeletes (trait specifico da mantenere)  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/<nome progetto>/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/<nome progetto>/docs/metodi-duplicati-analisi.md)
 
 #### Cms (Content Management)
 📄 **File:** [../Modules/Cms/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 8 proprietà duplicate, 70 LOC, 86% riduzione  
 🎯 **Priorità:** MEDIA - Gestisce temi  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Cms/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Cms/docs/metodi-duplicati-analisi.md)
 
 ---
 
@@ -14548,27 +14548,27 @@ related:
 📊 **Dati:** 8 proprietà duplicate, 70 LOC, 85% riduzione  
 🎯 **Priorità:** BASSA - Semplice  
 ✅ **Candidato:** Primo per migration test  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Activity/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Activity/docs/metodi-duplicati-analisi.md)
 
 #### Comment (Commenti)
 📄 **File:** (da creare)  
 📊 **Dati:** 7 proprietà duplicate, 65 LOC, 80% riduzione  
 🎯 **Priorità:** BASSA - Più semplice  
 ✅ **Candidato:** PRIMO per migration (meno rischi)  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Comment/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Comment/docs/metodi-duplicati-analisi.md)
 
 #### Blog (Blog Engine)
 📄 **File:** (da creare)  
 📊 **Dati:** 8 proprietà duplicate, 76 LOC, 85% riduzione  
 🎯 **Priorità:** MEDIA  
 ⚠️ **Note:** Usa InteractsWithMedia trait  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Blog/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Blog/docs/metodi-duplicati-analisi.md)
 
 #### AI (Artificial Intelligence)
 📄 **File:** (da creare)  
 📊 **Dati:** TBD  
 🎯 **Priorità:** BASSA  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/AI/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/AI/docs/metodi-duplicati-analisi.md)
 
 ---
 
@@ -14610,7 +14610,7 @@ related:
 ### Per Developer che Inizia il Refactoring
 1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master-1.md) - Leggere TUTTO (2-3 ore)
 2. 📖 [Xot Module](../../analisi-metodi-duplicati.md) - Capire modulo base
-3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/metodi-duplicati-analisi-1.md) - Primo test migration
+3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/metodi-duplicati-analisi.md) - Primo test migration
 4. 🚀 Iniziare implementazione seguendo MASTER guide
 
 ### Per Project Manager / Stakeholder
@@ -14623,7 +14623,7 @@ related:
 1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-master-1.md#implementazione-concreta-pronta-all-uso) (1 ora)
 2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-master-1.md#script-utili) (30 min)
 3. 📖 [Xot Module - Dettagli](../../analisi-metodi-duplicati.md) (30 min)
-4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/metodi-duplicati-analisi-1.md) (1 ora)
+4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/metodi-duplicati-analisi.md) (1 ora)
 5. 🎯 Architecture review e planning
 
 ### Per QA / Tester
@@ -14666,7 +14666,7 @@ related:
 **Target:** Tutti (START HERE!)  
 **Dettaglio:** 📊📊📊📊📊 Altissimo
 
-### 3. `metodi-duplicati-analisi-1.md`
+### 3. `metodi-duplicati-analisi.md`
 **Scopo:** Focus su Filament methods (getTableColumns, getTableActions, ecc.)  
 **Target:** Filament developers  
 **Dettaglio:** 📊📊📊📊 Alto (specifico Filament)
@@ -14680,7 +14680,7 @@ related:
 
 ### "Voglio ridurre codice duplicato in Filament Resources"
 ➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-master-1.md#parte-2-filament-methods---analisi-profonda)  
-➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/metodi-duplicati-analisi-1.md)
+➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/metodi-duplicati-analisi.md)
 
 ### "Voglio codice pronto da usare"
 ➡️ [MASTER - Parte 3: Implementazioni Concrete](./analisi-metodi-duplicati-master-1.md#parte-3-implementazione-concreta-pronta-all-uso)
@@ -14900,7 +14900,7 @@ protected function casts(): array
 
 ### 2.1 Distribuzione ESATTA per Modulo
 
-**Dati Reali dai metodi-duplicati-analisi-1.md:**
+**Dati Reali dai metodi-duplicati-analisi.md:**
 
 | Modulo | getTableColumns | getTableFilters | getTableActions | getTableBulkActions | getHeaderActions | TOTALE |
 |--------|-----------------|-----------------|-----------------|---------------------|------------------|--------|

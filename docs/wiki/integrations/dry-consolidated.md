@@ -287,7 +287,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
 ## dry-kiss-analysis-1
 
-*Consolidated from: `dry-kiss-analysis-1.md`*
+*Consolidated from: `dry-kiss-analysis-modulo-user.md`*
 
 title: "dry-kiss-analysis-2025-10-15"
 type: concept
@@ -307,13 +307,13 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [dry-kiss-analysis-1.md](dry-kiss-analysis-1.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [dry-kiss-analysis-1.md](dry-kiss-analysis-modulo-user.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 
 ## dry-kiss-analysis-2
 
-*Consolidated from: `dry-kiss-analysis-2.md`*
+*Consolidated from: `dry-kiss-analysis.md`*
 
 title: "DRY & KISS Analysis - Modulo Notify"
 type: concept

@@ -72,7 +72,7 @@ mv Modules/Blog/database/Factories/TransactionFactory.php \
 Creata documentazione completa sulla rimozione:
 - ✅ `Modules/Blog/docs/models/transaction-removal.md` - Documentazione tecnica completa
 - ✅ `Modules/Blog/docs/README.md` - Sezione "Modelli Disabilitati" aggiunta
-- ✅ `docs/transaction-removal-fix-2025-10-15.md` - Questo documento
+- ✅ `docs/transaction-removal-fix-migrate-fresh.md` - Questo documento
 
 ## Decisioni Architetturali
 
@@ -126,7 +126,7 @@ class Transaction extends BaseModel
 
 ### Documentazione Creata
 - ✅ `Modules/Blog/docs/models/transaction-removal.md`
-- ✅ `docs/transaction-removal-fix-2025-10-15.md`
+- ✅ `docs/transaction-removal-fix-migrate-fresh.md`
 
 ### Documentazione Aggiornata
 - ✅ `Modules/Blog/docs/README.md` - Sezione "Modelli Disabilitati"

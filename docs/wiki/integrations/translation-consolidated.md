@@ -789,7 +789,7 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
-- [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules-1.md)
+- [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules.md)
 - [Convenzioni Specifiche del Modulo Notify](./translation-conventions-2.md)
 - [Regole per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
 ---
@@ -3218,7 +3218,7 @@ La chiave di traduzione perfetta è quella che non si nota: è naturale, fluida,
 
 ## translation-keys-rules-1
 
-*Consolidated from: `translation-keys-rules-1.md`*
+*Consolidated from: `translation-keys-rules.md`*
 
 title: "Translation Keys Rules 1"
 type: rule
@@ -3289,7 +3289,7 @@ return [
 ### Riferimenti
 - [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
-- [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation-keys-rules-1.md)
+- [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation-keys-rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation-keys-best-practices-1.md) 
 ---
 
@@ -4191,7 +4191,7 @@ related:
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
-   - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules-1.md)
+   - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules.md)
    - [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices-1.md)
 
 2. **Guide Specifiche per Notify**

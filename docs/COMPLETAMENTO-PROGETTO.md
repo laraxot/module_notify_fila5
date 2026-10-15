@@ -278,7 +278,7 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Root Docs
 1. ✅ [LEGGI-QUI-DOMANI.md](./LEGGI-QUI-DOMANI.md) - Piano giornaliero
-2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./analisi-completa-2025-10-01.md) - Executive summary
+2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./analisi-completa-ottobre-data.md) - Executive summary
 3. ✅ [roadmap-master-index.md](./roadmap-master-index.md) - Master index
 4. ✅ [project-analysis-and-roadmap.md](./project-analysis-and-roadmap.md) - Business view
 5. ✅ [phpstan/session-summary-2025-10-01.md](./phpstan/session-summary-2025-10-01.md)
@@ -299,9 +299,9 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 18. ✅ [Cms/docs/roadmap-and-issues.md](../../Cms/docs/roadmap-and-issues.md)
 
 ### Module PHPStan Fixes (3)
-19. ✅ [Gdpr/docs/phpstan-fixes-2025-10-01.md](../Modules/Gdpr/docs/phpstan-fixes-2025-10-01.md)
-20. ✅ [AI/docs/phpstan-fixes-2025-10-01.md](../Modules/AI/docs/phpstan-fixes-2025-10-01.md)
-21. ✅ [User/docs/phpstan-fixes-2025-10-01.md](../../User/docs/phpstan-fixes-user-module-session.md)
+19. ✅ [Gdpr/docs/phpstan-fixes-session-user.md](../Modules/Gdpr/docs/phpstan-fixes-session-user.md)
+20. ✅ [AI/docs/phpstan-fixes-session-user.md](../Modules/AI/docs/phpstan-fixes-session-user.md)
+21. ✅ [User/docs/phpstan-fixes-session-user.md](../../User/docs/phpstan-fixes-user-module-session.md)
 
 ### Theme Docs
 22. ✅ [Sixteen/docs/roadmap-and-issues.md](../../../Themes/Sixteen/docs/roadmap-and-issues.md)
@@ -578,7 +578,7 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Start Here
 - [🌅 Piano Domani](./LEGGI-QUI-DOMANI.md) - Anche se già completato!
-- [📊 Analisi Completa](./analisi-completa-2025-10-01.md) - Executive view
+- [📊 Analisi Completa](./analisi-completa-ottobre-data.md) - Executive view
 - [🗺️ Master Roadmap](./roadmap-master-index.md) - Future planning
 
 ### Technical Docs

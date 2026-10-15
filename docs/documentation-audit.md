@@ -293,11 +293,11 @@ docs/master/
 ### 5.1 Inconsistent Naming Conventions
 
 **Observed patterns:**
-- `snake_case.md` (e.g., `phpstan-fixes-2.md`)
+- `snake_case.md` (e.g., `phpstan-fixes-documentation-themes-shared.md`)
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
-- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-1.md`
+- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
 
 **Recommended Standard:**
 - Lowercase kebab-case: `topic-subtopic.md`
