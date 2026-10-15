@@ -50,9 +50,9 @@
    - [Best Practices per le Traduzioni](../../lang/docs/translation_keys_best_practices.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
-   - [Regole di Naming per i File di Traduzione](./translation_file_naming_rules.md)
-   - [Guida alla Struttura dei File di Traduzione](./translation_file_structure_guide.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 

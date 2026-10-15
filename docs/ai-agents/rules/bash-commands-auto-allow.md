@@ -149,7 +149,7 @@ File: `.qwen-code-rules.md`
 ## 🔗 Related Documentation
 
 ### AI Agents Docs
-- **[Rules Index](00-INDEX.md)** - All rules
+- **[Rules Index](00-index.md)** - All rules
 - **[Rules Index](00-index.md)** - All rules
 - **[XotBase Extension Rule](xotbase-extension-rule.md)** - XotBase philosophy
 

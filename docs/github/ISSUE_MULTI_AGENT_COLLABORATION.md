@@ -51,7 +51,7 @@ Create comprehensive documentation for `bashscripts/git/subtrees/sync_remote_rep
 
 | File | Changes |
 |------|---------|
-| `AGENTS.md` | Added multi-agent coordination section for sync script |
+| `agents.md` | Added multi-agent coordination section for sync script |
 | `.github/workflows/sync-remote-repo.yml` | Minor cleanup |
 
 ### Git Commit

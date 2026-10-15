@@ -55,7 +55,7 @@ related:
 - [Best Practices XotBaseMigration](./xotbasemigration_best_practices.md) - Best practices per l'uso di XotBaseMigration
 
 ## Best Practices
-- [Best Practices Email](./email_best_practices.md) - Best practices generali per le email
+- [Best Practices Email](./email-best-practices.md) - Best practices generali per le email
 - [Best Practices Template](./email_templates_best_practices.md) - Best practices specifiche per i template
 - [Best Practices Email](./email-best-practices.md) - Best practices generali per le email
 - [Best Practices Template](./email-templates-best-practices.md) - Best practices specifiche per i template

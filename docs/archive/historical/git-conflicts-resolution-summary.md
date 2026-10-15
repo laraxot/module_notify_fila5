@@ -65,8 +65,8 @@ Tutti i file risolti rispettano:
 
 - [Documentazione Root Notify](../../../../docs/modules/notify.md)
 - [Architecture Documentation](./architecture.md)
-- [Email Templates](./email_templates.md)
-- [Notification Channels](./notification_channels_implementation.md)
+- [Email Templates](./email-templates.md)
+- [Notification Channels](./notification-channels-implementation.md)
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

@@ -6653,7 +6653,7 @@ class NetfunNotificationIntegrationTest extends TestCase
 
 ## netfun_action_errors
 
-*Consolidated from: `netfun_action_errors.md`*
+*Consolidated from: `netfun-action-errors.md`*
 
 
 ## Errori Identificati
@@ -6853,7 +6853,7 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 
 ## netfun_action_updates
 
-*Consolidated from: `netfun_action_updates.md`*
+*Consolidated from: `netfun-action-updates.md`*
 
 
 ## Panoramica delle Modifiche
@@ -7168,7 +7168,7 @@ Questi miglioramenti garantiscono:
 
 ## netfun_channel
 
-*Consolidated from: `netfun_channel.md`*
+*Consolidated from: `netfun-channel.md`*
 
 
 ## 1. Struttura Base
@@ -7854,7 +7854,7 @@ Log::info('SMS inviato', [
 
 ## netfun_config_requirements
 
-*Consolidated from: `netfun_config_requirements.md`*
+*Consolidated from: `netfun-config-requirements.md`*
 
 
 Questa guida descrive la configurazione necessaria per utilizzare il provider Netfun come driver SMS nel modulo Notify.
@@ -8006,7 +8006,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## netfun_examples
 
-*Consolidated from: `netfun_examples.md`*
+*Consolidated from: `netfun-examples.md`*
 
 
 ## 1. Invio SMS OTP

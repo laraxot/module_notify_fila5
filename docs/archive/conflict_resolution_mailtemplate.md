@@ -65,9 +65,9 @@ Verificare che:
 - Le traduzioni includano le chiavi per `sms_template`
 
 ## Collegamenti
-- [Notify Module Documentation](readme.md)
-- [SMS Implementation Guide](sms_implementation.md)
-- [Mail Templates Structure](mail_templates_structure.md)
-- [Translation Standards](translation_standards.md)
+- [Notify Module Documentation](README.md)
+- [SMS Implementation Guide](sms-implementation.md)
+- [Mail Templates Structure](mail-templates-structure.md)
+- [Translation Standards](translation-standards.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 

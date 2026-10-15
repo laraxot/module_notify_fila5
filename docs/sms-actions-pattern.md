@@ -262,4 +262,4 @@ Seguire questo pattern garantisce:
 4. **Testabilità**: Le azioni sono facilmente testabili grazie all'interfaccia comune
 
 ---
-*Ultimo aggiornamento: [DATE]*
+*Ultimo aggiornamento: 2023-05-12*

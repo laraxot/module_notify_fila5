@@ -1,10 +1,10 @@
 ---
-title: "analisi metodi duplicati master"
+title: "analisi metodi duplicati MASTER"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "analisi metodi duplicati master"
+qmd: "analisi metodi duplicati MASTER"
 issues: []
 discussions: []
 status: draft

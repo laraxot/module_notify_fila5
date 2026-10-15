@@ -52,7 +52,7 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 - [x] `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md`
 - [x] `laravel/Modules/Blog/docs/models/README.md`
 - [x] `laravel/Modules/Blog/docs/models/transaction-removal.md`
-- [x] `AGENTS.md` (added naming convention rule)
+- [x] `agents.md` (added naming convention rule)
 - [x] `docs/conventions/database-naming.md` (new convention doc)
 
 #### Checklist for All Modules

@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `ZEN_OF_DOCUMENTATION.md`
+# Divergenza: `zen-of-documentation.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/ZEN_OF_DOCUMENTATION.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

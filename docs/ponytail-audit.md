@@ -1,12 +1,12 @@
 ---
 issues: []
 discussions: []
-title: "ponytail-audit-2026-07-02"
+title: "ponytail-audit-2026-07-02.deprecated"
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "ponytail-audit-2026-07-02 deprecated"
+qmd: "ponytail-audit-2026-07-02.deprecated deprecated"
 status: deprecated
 related:
   - "./00-index-documentation.md"
@@ -19,4 +19,4 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [ponytail-audit.md](ponytail-audit.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [ponytail-audit-.deprecated.md](ponytail-audit-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

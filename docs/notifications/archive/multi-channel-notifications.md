@@ -791,5 +791,5 @@ TELEGRAM_BOT_TOKEN=12345:ABC...
 ## Collegamenti alla Documentazione Correlata
 
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications_implementation_guide.md)
-- [SMS_PROVIDER_CONFIGURATION.md](./sms_provider_configuration.md)
+- [SMS_PROVIDER_CONFIGURATION.md](./sms-provider-configuration.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./telegram_notifications_guide.md)

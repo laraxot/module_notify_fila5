@@ -540,7 +540,7 @@ php artisan serve
 - GitHub Discussions (features)
 
 ### Contributing
-See `CONTRIBUTING.md`
+See `contributing.md`
 
 ### License
 MIT (to be confirmed)

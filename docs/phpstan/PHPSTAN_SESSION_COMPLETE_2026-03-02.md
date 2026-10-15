@@ -362,7 +362,7 @@ php artisan test --compact
 7. `laravel/Modules/Geo/docs/PHPSTAN_IMMEDIATE_FIXES_2026-03-02.md` - Geo fixes
 
 ### Configuration
-8. `AGENTS.md` - Updated with logging performance rules
+8. `agents.md` - Updated with logging performance rules
 9. `.github/skills/phpstan-level10/SKILL.md` - PHPStan Level 10 skill
 
 ---

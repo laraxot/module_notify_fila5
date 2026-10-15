@@ -1202,7 +1202,7 @@ Questa guida illustra come utilizzare la classe `SpatieEmail` per inviare email 
 
 ## Collegamenti correlati
 
-- [README del modulo Notify](./readme.md)
+- [README del modulo Notify](./README.md)
 - [Documentazione Email Templates](../../email_templates.md)
 - [Email Specifiche per Dottori](../../doctor-emails.md)
 - [Implementazione Database Mail](../../database-mail.md)
@@ -1745,7 +1745,7 @@ Schema::table('mail_templates', function (Blueprint $table) {
 
 ## spatie_email_slug_proposal
 
-*Consolidated from: `spatie_email_slug_proposal.md`*
+*Consolidated from: `spatie-email-slug-proposal.md`*
 
 
 ## Introduzione
@@ -2033,7 +2033,7 @@ $this->tableUpdate(
 
 ## spatie_email_usage_guide
 
-*Consolidated from: `spatie_email_usage_guide.md`*
+*Consolidated from: `spatie-email-usage-guide.md`*
 
 
 ## Introduzione

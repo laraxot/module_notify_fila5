@@ -172,7 +172,7 @@ composer test -- Modules/[ModuleName]
 ## Related Documentation
 
 ### Within Module
-- [ARCHITECTURE.md](./ARCHITECTURE.md) - Design details
+- [ARCHITECTURE.md](./architecture.md) - Design details
 - [architecture.md](./architecture.md) - Design details
 - [Guides](./guides/) - How-to guides
 
