@@ -26,7 +26,7 @@ status: draft
 
 **Files**:
 - ✅ `.github/workflows/sync-subtrees.yml`
-- ✅ `AGENTS.md` (updated)
+- ✅ `agents.md` (updated)
 
 ---
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "database mail system"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sistema di Gestione Email Basato su Database - il progetto
@@ -263,7 +264,6 @@ class TreatmentComplete extends Mailable
 ## Comandi Artisan
 
 ```bash
-
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create

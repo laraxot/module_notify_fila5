@@ -246,7 +246,7 @@ Prima di creare una bulk action:
 
 ## dry-kiss-analysis-
 
-*Consolidated from: `dry-kiss-analysis-.md`*
+*Consolidated from: `dry-kiss-analysis.md`*
 
 
 **Data:** 15 Ottobre 2025

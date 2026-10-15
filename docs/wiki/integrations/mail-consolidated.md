@@ -995,7 +995,7 @@ class WelcomeMail extends TemplateMailable
 
 ## mail_layouts
 
-*Consolidated from: `mail_layouts.md`*
+*Consolidated from: `mail-layouts.md`*
 
 
 ## Introduzione
@@ -1057,7 +1057,7 @@ class WelcomeMail extends TemplateMailable
 
 ## mail_layouts_guide
 
-*Consolidated from: `mail_layouts_guide.md`*
+*Consolidated from: `mail-layouts-guide.md`*
 
 
 ## Introduzione

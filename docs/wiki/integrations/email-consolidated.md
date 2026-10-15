@@ -12575,7 +12575,7 @@ class TemplateValidator
 
 ## email_analytics
 
-*Consolidated from: `email_analytics.md`*
+*Consolidated from: `email-analytics.md`*
 
 
 ## Panoramica
@@ -13028,7 +13028,7 @@ class MailTrackingService
 
 ## email_backup
 
-*Consolidated from: `email_backup.md`*
+*Consolidated from: `email-backup.md`*
 
 
 ## Panoramica
@@ -13670,7 +13670,7 @@ class MailBackupDebugger
 
 ## email_best_practices
 
-*Consolidated from: `email_best_practices.md`*
+*Consolidated from: `email-best-practices.md`*
 
 
 ## Migrazioni Database
@@ -13694,7 +13694,7 @@ class MailBackupDebugger
 
 ## email_cache
 
-*Consolidated from: `email_cache.md`*
+*Consolidated from: `email-cache.md`*
 
 
 ## Panoramica
@@ -14178,7 +14178,7 @@ class MailCacheDebugger
 
 ## email_html_best_practices
 
-*Consolidated from: `email_html_best_practices.md`*
+*Consolidated from: `email-html-best-practices.md`*
 
 
 ## Introduzione
@@ -14412,7 +14412,7 @@ Per supporto tecnico:
 
 ## email_logs
 
-*Consolidated from: `email_logs.md`*
+*Consolidated from: `email-logs.md`*
 
 
 ## Panoramica
@@ -14930,7 +14930,7 @@ class MailLogDebugger
 
 ## email_monitoring
 
-*Consolidated from: `email_monitoring.md`*
+*Consolidated from: `email-monitoring.md`*
 
 
 ## Panoramica
@@ -15756,7 +15756,7 @@ class MailMonitoringDebugger
 
 ## email_notifications
 
-*Consolidated from: `email_notifications.md`*
+*Consolidated from: `email-notifications.md`*
 
 
 ## Panoramica
@@ -16129,7 +16129,7 @@ class NotificationDebugger
 
 ## email_plugins_analysis
 
-*Consolidated from: `email_plugins_analysis.md`*
+*Consolidated from: `email-plugins-analysis.md`*
 
 
 ## Panoramica
@@ -16407,7 +16407,7 @@ class MailAnalytics
 
 ## email_queue
 
-*Consolidated from: `email_queue.md`*
+*Consolidated from: `email-queue.md`*
 
 
 ## Panoramica
@@ -16817,7 +16817,7 @@ class MailQueueManager
 
 ## email_sending_troubleshooting
 
-*Consolidated from: `email_sending_troubleshooting.md`*
+*Consolidated from: `email-sending-troubleshooting.md`*
 
 
 ## Problema: `SendEmail.php` vs `TestSmtpPage.php`
@@ -17015,7 +17015,7 @@ Un esempio completo di implementazione è disponibile in `TestSmtpPage.php`. Si 
 
 ## email_translations
 
-*Consolidated from: `email_translations.md`*
+*Consolidated from: `email-translations.md`*
 
 
 ## Panoramica
@@ -17404,7 +17404,7 @@ class TranslationValidator
 
 ## email_wysiwyg_editor
 
-*Consolidated from: `email_wysiwyg_editor.md`*
+*Consolidated from: `email-wysiwyg-editor.md`*
 
 
 ## Panoramica

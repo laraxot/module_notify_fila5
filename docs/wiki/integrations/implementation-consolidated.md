@@ -1321,7 +1321,7 @@ class TemplateControllerTest extends TestCase
 
 ## implementation-summary-
 
-*Consolidated from: `implementation-summary-.md`*
+*Consolidated from: `implementation-summary.md`*
 
 title: "IMPLEMENTATION_SUMMARY_2025-01-27.deprecated"
 type: concept
@@ -2157,7 +2157,7 @@ class TemplateControllerTest extends TestCase
 
 ## implementation_guide
 
-*Consolidated from: `implementation_guide.md`*
+*Consolidated from: `implementation-guide.md`*
 
 
 ## Setup Iniziale

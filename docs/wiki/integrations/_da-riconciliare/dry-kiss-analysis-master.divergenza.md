@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `DRY-KISS-ANALYSIS-MASTER.md`
+# Divergenza: `dry-kiss-analysis-master.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/DRY-KISS-ANALYSIS-MASTER.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

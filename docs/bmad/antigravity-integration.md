@@ -21,7 +21,7 @@ Evita confusione: **non sono due installazioni obbligatorie**; sono **due ambien
 ## cosa offre il template antigravity (salacoste)
 
 - workflow in `.agent/workflows/` con **slash command** (`/pm`, `/architect`, `/dev`, `/qa`, …)
-- `AGENTS.md` orientato a Codex/agent
+- `agents.md` orientato a Codex/agent
 - script `.gemini/transpose_bmad.py` per rigenerare i workflow da `.bmad-core/`
 - prerequisito: cartella **`.bmad-core/`** (agenti/task/template BMAD) oppure installazione via `npx bmad-method install -f` (vedi README del template)
 

@@ -116,9 +116,9 @@ Esempi di future topic pages ad alto ROI:
 
 Il nostro schema esiste gia in forma distribuita:
 
-- `AGENTS.md`
-- `CLAUDE.md`
-- `PROJECT.md`
+- `agents.md`
+- `claude.md`
+- `project.md`
 - `docs/project/docs-governance.md`
 
 Il pattern Karpathy ci suggerisce di trattarli come configurazione del maintainer agent, non come semplice documentazione umana.

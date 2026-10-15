@@ -36,7 +36,7 @@ Per i moduli o temi toccati bisogna avere:
 
 ## Fonti canoniche
 
-- `AGENTS.md`
+- `agents.md`
 - `bashscripts/ai/.agents/rules/001-no-commit-without-testing.md`
 - `bashscripts/ai/.agents/rules/common/git-workflow.md`
 - `bashscripts/ai/.agents/guidelines/development-workflow.md`

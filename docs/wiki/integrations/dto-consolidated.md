@@ -1364,7 +1364,7 @@ Basandoci sull'analisi percentuale:
 
 ## dto_structure_conventions
 
-*Consolidated from: `dto_structure_conventions.md`*
+*Consolidated from: `dto-structure-conventions.md`*
 
 
 ## Introduzione
@@ -1533,7 +1533,7 @@ Prima di creare un nuovo DTO, verificare che:
 
 ## dto_structure_rules
 
-*Consolidated from: `dto_structure_rules.md`*
+*Consolidated from: `dto-structure-rules.md`*
 
 
 ## Directory e Namespace
@@ -1655,7 +1655,7 @@ Prima di creare un nuovo DTO, verificare che:
 
 ## dto_vs_factory_analysis
 
-*Consolidated from: `dto_vs_factory_analysis.md`*
+*Consolidated from: `dto-vs-factory-analysis.md`*
 
 
 Questo documento analizza in dettaglio i vantaggi e gli svantaggi di posizionare la logica di selezione del driver SMS all'interno del DTO `SmsData`, confrontando questo approccio con il pattern Factory implementato e con l'approccio originale (nel canale).

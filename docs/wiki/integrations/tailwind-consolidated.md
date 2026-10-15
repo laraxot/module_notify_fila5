@@ -5179,7 +5179,7 @@ module.exports = {
 
 ## tailwind_best_practices
 
-*Consolidated from: `tailwind_best_practices.md`*
+*Consolidated from: `tailwind-best-practices.md`*
 
 
 ## 1. Organizzazione del Codice
@@ -5497,7 +5497,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ## tailwind_blade_components
 
-*Consolidated from: `tailwind_blade_components.md`*
+*Consolidated from: `tailwind-blade-components.md`*
 
 
 Questa guida mostra come creare Blade component riutilizzabili, accessibili e responsive usando pattern Tailwind CSS, secondo le best practice Webcrunch e le regole <nome progetto>.
@@ -5665,7 +5665,7 @@ document.querySelectorAll('.group').forEach(card => {
 
 ## tailwind_css_webcrunch
 
-*Consolidated from: `tailwind_css_webcrunch.md`*
+*Consolidated from: `tailwind-css-webcrunch.md`*
 
 
 Fonte: https://webcrunch.com/collections/tailwind-css
@@ -5738,7 +5738,7 @@ La collezione "Tailwind CSS" di Webcrunch raccoglie tutorial, guide pratiche e a
 
 ## tailwind_css_webcrunch_approfondimento
 
-*Consolidated from: `tailwind_css_webcrunch_approfondimento.md`*
+*Consolidated from: `tailwind-css-webcrunch-approfondimento.md`*
 
 
 Fonte: [Webcrunch Tailwind CSS Collection](https://webcrunch.com/collections/tailwind-css)
@@ -5847,7 +5847,7 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 
 ## tailwind_implementation
 
-*Consolidated from: `tailwind_implementation.md`*
+*Consolidated from: `tailwind-implementation.md`*
 
 
 ## 1. Configurazione Base
@@ -6184,7 +6184,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ## tailwind_plugin_guide
 
-*Consolidated from: `tailwind_plugin_guide.md`*
+*Consolidated from: `tailwind-plugin-guide.md`*
 
 
 Questa guida mostra come creare, documentare e integrare plugin custom Tailwind CSS per pattern condivisi (bottoni, alert, badge, ecc.) secondo le best practice Webcrunch e le regole <nome progetto>.

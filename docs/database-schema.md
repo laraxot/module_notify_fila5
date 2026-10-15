@@ -1,6 +1,6 @@
 ---
 updated: 2026-09-26
-qmd: "database schema"
+qmd: "DATABASE SCHEMA"
 issues: []
 discussions: []
 title: "Notify Module Database Schema"

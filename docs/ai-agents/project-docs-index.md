@@ -31,12 +31,12 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `.agents/docs/testing-commands.md` — Testing commands
 - `.agents/docs/workflow.md` — Development Workflow
 - `.devcontainer/README.md` — README
-- `AGENTS.md` — AGENTS.MD - Development Guidelines
-- `CLAUDE.md` — CLAUDE.md
-- `GEMINI.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
+- `agents.md` — AGENTS.MD - Development Guidelines
+- `claude.md` — CLAUDE.md
+- `gemini.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
 - `IFLOW.md` — Quaeris Fila4 Mono - 项目指南
 - `README.md` — Quaeris Fila4 Mono - Laravel Survey Management System
-- `GEMINI.md` — Gemini Project Context: App Fila4 Mono - Laravel Survey Management System
+- `gemini.md` — Gemini Project Context: App Fila4 Mono - Laravel Survey Management System
 - `IFLOW.md` — App Fila4 Mono - 项目指南
 - `README.md` — App Fila4 Mono - Laravel Survey Management System
 - `bashscripts/README.md` — Git Conflict Resolution Scripts

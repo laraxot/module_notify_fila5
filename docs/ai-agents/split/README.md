@@ -104,7 +104,7 @@ Splitting improves:
 Every split file contains links back to:
 - Its section index (e.g., `agents/INDEX.md`)
 - Its section index (e.g., `agents/index.md`)
-- The master index (`INDEX.md`)
+- The master index (`index.md`)
 - The original source file
 
 ### Related Documentation

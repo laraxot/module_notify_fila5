@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `DECISIONE_BASEMODEL_REFACTORING.md`
+# Divergenza: `decisione-basemodel-refactoring.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/DECISIONE_BASEMODEL_REFACTORING.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

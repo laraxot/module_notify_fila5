@@ -246,7 +246,7 @@ Questa è la seconda implementazione della giornata:
 
 ### Root Progetto
 - [View Cache Fix (Sessione 1)](./view-cache-components-fix-componenti-mancanti.md)
-- [Sessione Super Mucca](./SESSIONE-SUPER-MUCCA.md)
+- [Sessione Super Mucca](./sessione-super-mucca.md)
 - [Project Analysis](./project-analysis-and-roadmap.md)
 
 ### Architettura

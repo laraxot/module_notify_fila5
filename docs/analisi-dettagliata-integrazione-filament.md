@@ -1,10 +1,10 @@
 ---
-title: "analisi dettagliata 4 1"
+title: "analisi dettagliata 4"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "analisi dettagliata 4 1"
+qmd: "analisi dettagliata 4"
 issues: []
 discussions: []
 status: draft
@@ -210,7 +210,7 @@ public static function table(Table $table): Table
                 }),
             Tables\Actions\BulkAction::make('deactivate')
                 ->label('Disattiva')
-                ->icon('heroicon-o-x')
+                ->icon('heroicon-o-x-mark')
                 ->action(function (Collection $records) {
                     $records->each->deactivate();
                 })
@@ -694,4 +694,6 @@ class TemplateTestPage extends Page
 
         $this->notify('success', 'Email inviata con successo');
     }
-}
+} 
+
+```
