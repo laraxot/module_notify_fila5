@@ -31,7 +31,7 @@ All module-specific roadmaps remain in their module directories but are listed i
 | Old File | Path | Status |
 |----------|------|--------|
 | `product-roadmap.md` | `/laravel/Modules/Activity/docs/` | ✅ REFERENCED |
-| `PRODUCT_ROADMAP.md` | `/laravel/Modules/Activity/docs/` | ✅ REFERENCED |
+| `product-roadmap.md` | `/laravel/Modules/Activity/docs/` | ✅ REFERENCED |
 | `roadmap-2025.md` | `/laravel/Modules/Activity/docs/` | ✅ REFERENCED |
 | `stabilization-roadmap.md` | `/laravel/Modules/Activity/docs/` | ✅ REFERENCED |
 | `phpstan-roadmap.md` | `/laravel/Modules/Activity/docs/` | ✅ REFERENCED |

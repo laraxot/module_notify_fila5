@@ -244,7 +244,7 @@ Xot/docs/README.md
 
 **Same pattern documented multiple times:**
 - `naming-conventions.md` / `naming-conventions-2.md` / `naming-rules.md`
-- `phpstan-fixes.md` / `phpstan-fixes-.md` / `phpstan-fixes-gennaio.md`
+- `phpstan-fixes.md` / `phpstan-fixes.md` / `phpstan-fixes-gennaio.md`
 - `conflict-resolution.md` appears in 10+ modules with identical content
 
 ---
@@ -297,7 +297,7 @@ docs/master/
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
-- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
+- Mixed with suffixes: `phpstan-fixes.md`, `phpstan-fixes-documentation-themes.md`
 
 **Recommended Standard:**
 - Lowercase kebab-case: `topic-subtopic.md`

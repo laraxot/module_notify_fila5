@@ -76,7 +76,7 @@ Themes/ThemeName/
 - `user-authentication.md` (kebab-case)
 - `00-index.md` (numeric prefix for ordering)
 - `README.md` (standard)
-- `CHANGELOG.md` (standard)
+- `changelog.md` (standard)
 - `best-practices.md` (descriptive, lowercase)
 
 ❌ **WRONG**:

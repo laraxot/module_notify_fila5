@@ -55,7 +55,7 @@ Ho corretto tutti i riferimenti errati alle directory del database nel modulo **
 ### 2. Project-Wide Documentation
 
 **Files Created/Updated**:
-- ✅ `AGENTS.md`
+- ✅ `agents.md`
   - Aggiunta regola: "DATABASE DIRECTORY NAMING - LARAVEL STANDARD"
   - Sezione tra "DRY PRINCIPLE" e "BUILD/LINT/TEST COMMANDS"
 

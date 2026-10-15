@@ -108,7 +108,7 @@ status: draft
 - [x] Creato `docs/implementazione-refactoring-basemodel.md`
 - [x] Creato `docs/REFACTORING_COMPLETATO.md`
 - [x] Creato `docs/IMPLEMENTAZIONE_COMPLETA_FINALE.md` (questo file)
-- [x] Aggiornati **18 file** `METODI_DUPLICATI_ANALISI.md` con sezione implementazione
+- [x] Aggiornati **18 file** `metodi-duplicati-analisi.md` con sezione implementazione
 - [x] Aggiornati documenti per moduli specifici (Xot, User, Cms, App)
 - [x] Aggiornati documenti per moduli specifici (Xot, User, Cms, <nome progetto>)
 - [x] Aggiornati documenti per temi (Sixteen, TwentyOne)
@@ -401,7 +401,7 @@ ROI totale = (1,950 + 310 - 600) / 600 = +276%
 
 ### Da METODI_DUPLICATI_ANALISI.md
 
-I documenti `METODI_DUPLICATI_ANALISI.md` contenevano 4 proposte principali:
+I documenti `metodi-duplicati-analisi.md` contenevano 4 proposte principali:
 
 #### ✅ Proposta 1: Estendere HasXotTable Trait
 **Status:** ✅ IMPLEMENTATO in modo migliore (BaseModel refactoring)  

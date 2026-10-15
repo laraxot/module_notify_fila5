@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `current_work_status.md`
+# Divergenza: `current-work-status.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/current_work_status.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

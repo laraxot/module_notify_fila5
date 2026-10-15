@@ -281,5 +281,5 @@
 
 ## 📚 Reference Documentation
 - `.windsurfrules` - Laraxot architectural rules
-- `AGENTS.md` - Project guidelines
+- `agents.md` - Project guidelines
 - Module-specific fix plans in each module's docs/

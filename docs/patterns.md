@@ -1,6 +1,6 @@
 ---
 updated: 2026-09-26
-qmd: "patterns"
+qmd: "PATTERNS"
 issues: []
 discussions: []
 title: "Notify Module Patterns"

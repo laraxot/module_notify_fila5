@@ -187,7 +187,7 @@ composer phpstan
 ## 🔗 Related Documentation
 
 ### Project Rules
-- **[00-INDEX.md](00-INDEX.md)** - Master rules index
+- **[00-INDEX.md](00-index.md)** - Master rules index
 - **[multi-outcome-universal.md](multi-outcome-universal.md)** - Multi-outcome principle
 - **[container-agnostic.md](container-agnostic.md)** - Container agnostic rule
 - **[actions-over-services.md](actions-over-services.md)** - Actions over services

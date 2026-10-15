@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `PROJECT_STATUS.md`
+# Divergenza: `project-status.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/PROJECT_STATUS.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

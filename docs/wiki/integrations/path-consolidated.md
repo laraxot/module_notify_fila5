@@ -1907,7 +1907,7 @@ Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` d
 
 ## path_and_interface_rules
 
-*Consolidated from: `path_and_interface_rules.md`*
+*Consolidated from: `path-and-interface-rules.md`*
 
 
 ## Principi Fondamentali
@@ -2005,7 +2005,7 @@ Questa struttura garantisce:
 
 ## path_and_namespace_rules
 
-*Consolidated from: `path_and_namespace_rules.md`*
+*Consolidated from: `path-and-namespace-rules.md`*
 
 
 > **ATTENZIONE:** In nessun caso il namespace deve contenere il segmento `App`, anche se il file si trova nella cartella `app/`. Questa è una regola fondamentale e ogni violazione può causare errori di autoloading, incompatibilità con PSR-4 e problemi di coerenza nel progetto. Consulta sempre questa sezione prima di creare nuovi file o correggere errori di namespace.
@@ -2170,7 +2170,7 @@ namespace Modules\Notify\App\Console\Commands;
 
 ## path_conventions
 
-*Consolidated from: `path_conventions.md`*
+*Consolidated from: `path-conventions.md`*
 
 
 ## Regole Fondamentali

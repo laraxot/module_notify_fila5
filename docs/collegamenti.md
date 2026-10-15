@@ -12,7 +12,7 @@ status: draft
 
 # Collegamenti Documentazione Notify
 
-- [README Notify](readme.md)
+- [README Notify](README.md)
 - [Architettura del modulo](architecture.md)
 - [CRUD Template Email Filament](crud-template-email-filament.md)
 - [Panoramica Template Email](email-template-landscape.md)

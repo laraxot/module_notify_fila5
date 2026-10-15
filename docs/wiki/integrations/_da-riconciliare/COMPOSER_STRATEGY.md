@@ -276,7 +276,7 @@ Composer vede:
 - [Composer Documentation](https://getcomposer.org/doc/)
 
 ### Project Documentation
-- [COMPOSER_STRATEGY.md](COMPOSER_STRATEGY.md) - Questo file
+- [COMPOSER_STRATEGY.md](composer-strategy.md) - Questo file
 - [MODULES_ARCHITECTURE.md](MODULES_ARCHITECTURE.md) - Architettura moduli
 
 ---

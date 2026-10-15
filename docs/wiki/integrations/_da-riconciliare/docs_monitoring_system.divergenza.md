@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `DOCS_MONITORING_SYSTEM.md`
+# Divergenza: `docs-monitoring-system.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/DOCS_MONITORING_SYSTEM.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

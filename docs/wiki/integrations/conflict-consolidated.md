@@ -140,7 +140,7 @@ Verificare che:
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
-- [Notify Module Documentation](readme.md)
+- [Notify Module Documentation](README.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
 - [SpatieEmail Integration](spatie-email-usage-guide-1.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
@@ -411,7 +411,7 @@ Verificare che:
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
-- [Notify Module Documentation](readme.md)
+- [Notify Module Documentation](README.md)
 - [SMS Testing Guide](sms/testing.md)
 - [MailTemplate Integration](mail-templates-structure-1.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
@@ -645,7 +645,7 @@ return $action->execute($smsData);
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
-- [Notify Module Documentation](readme.md)
+- [Notify Module Documentation](README.md)
 - [SMS Channel Architecture](sms-channel-action-resolution-1.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
@@ -707,7 +707,7 @@ return $action->execute($smsData);
 - Solo miglioramento della leggibilità del codice
 
 ## Collegamenti
-- [Notify Module Documentation](readme.md)
+- [Notify Module Documentation](README.md)
 - [SMS Channel Architecture](../../sms-channel-action-resolution.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
@@ -1341,7 +1341,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
 ## conflict_resolution_recordnotification
 
-*Consolidated from: `conflict_resolution_recordnotification.md`*
+*Consolidated from: `conflict-resolution-recordnotification.md`*
 
 
 ## Contesto del Conflitto
@@ -1430,7 +1430,7 @@ Verificare che:
 
 ## conflict_resolution_sendsmspage
 
-*Consolidated from: `conflict_resolution_sendsmspage.md`*
+*Consolidated from: `conflict-resolution-sendsmspage.md`*
 
 
 ## Contesto del Conflitto
@@ -1506,7 +1506,7 @@ Verificare che:
 
 ## conflict_resolution_smschannel
 
-*Consolidated from: `conflict_resolution_smschannel.md`*
+*Consolidated from: `conflict-resolution-smschannel.md`*
 
 
 ## Contesto del Conflitto
@@ -1569,7 +1569,7 @@ return $action->execute($smsData);
 
 ## conflict_resolution_smsdriverenum
 
-*Consolidated from: `conflict_resolution_smsdriverenum.md`*
+*Consolidated from: `conflict-resolution-smsdriverenum.md`*
 
 
 ## Problema Identificato

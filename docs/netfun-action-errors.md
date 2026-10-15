@@ -202,4 +202,4 @@ Le correzioni apportate allineano la classe `SendNetfunSMSAction` con:
 Queste correzioni garantiscono che l'azione funzioni correttamente con la configurazione standardizzata e sia più robusta, manutenibile ed estensibile.
 
 ---
-*Ultimo aggiornamento: [DATE]*
+*Ultimo aggiornamento: 2025-05-12*

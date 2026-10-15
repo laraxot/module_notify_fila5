@@ -65,14 +65,14 @@ The FixCity platform has extensive documentation across modules and themes, but 
 
 ❌ **Problems**:
 - 15 files with temporal strings ("Last Updated: March 12, 2026")
-- Duplicate files: `prd.md`, `PRD.md`, `prd.json`
+- Duplicate files: `prd.md`, `prd.md`, `prd.json`
 - Inconsistent naming: `product-strategy.md` vs `product-strategy-documentation-themes.md`
 - Orphaned files: `to-study.md`, `blocks-react.md`
 
 #### Recommended Actions
 
 1. Remove all temporal strings
-2. Consolidate PRD files (keep `prd.md`, remove `PRD.md`)
+2. Consolidate PRD files (keep `prd.md`, remove `prd.md`)
 3. Standardize naming (lowercase kebab-case)
 4. Create proper subdirectory structure
 
@@ -218,7 +218,7 @@ find laravel/Modules/*/docs/ -name "*.md" -exec sed -i.bak \
 
 **Blog Module**:
 - Keep: `prd.md`
-- Remove: `PRD.md`, `prd.json`
+- Remove: `prd.md`, `prd.json`
 - Merge unique content
 
 **Sixteen Theme**:

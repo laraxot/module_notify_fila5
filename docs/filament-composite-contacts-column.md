@@ -217,8 +217,8 @@ Questo pattern può essere applicato a:
 ## Documentazione Correlata
 
 ### Modulo Notify
-- [Filament Resources](filament_resources.md)
-- [Translation Standards](translation_standards.md)
+- [Filament Resources](filament-resources.md)
+- [Translation Standards](translation-standards.md)
 - [Best Practices](best_practices.md)
 
 ### Root Documentation

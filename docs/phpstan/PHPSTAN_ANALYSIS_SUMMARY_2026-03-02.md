@@ -100,7 +100,7 @@ The primary issue affecting 39+ errors is the incomplete `UserContract` interfac
 ## Documentation Updated
 
 ### AGENTS.md
-**Location**: `AGENTS.md`
+**Location**: `agents.md`
 
 **New Sections Added**:
 
@@ -266,7 +266,7 @@ PHPDoc annotations are not optional for PHPStan Level 10. They define the contra
 8. `phpstan-analysis-report-2026-03-02.txt` (raw output)
 
 ### Modified (1 file)
-1. `AGENTS.md` (added PHPStan compliance guide)
+1. `agents.md` (added PHPStan compliance guide)
 
 ### Memories Saved (4 items)
 1. Interface completeness patterns

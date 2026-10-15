@@ -28,7 +28,7 @@ status: draft
 
 | Tecnica | Risparmio stimato | Come applicarla |
 |---------|-------------------|-----------------|
-| CLAUDE.md root terse (< 500 token) | -40% input/sessione | Già applicato: `CLAUDE.md` in root |
+| CLAUDE.md root terse (< 500 token) | -40% input/sessione | Già applicato: `claude.md` in root |
 | `/clear` tra task non correlati | -30-60% contesto | Usare prima di ogni nuova story |
 | `Grep` + `offset/limit` su file grandi | -60-80% per navigazione CSS | NON fare `Read` su file > 500 righe |
 | Tabelle/bullet vs prosa | -20-30% output | Usato in tutte le stories BMAD |
@@ -68,7 +68,7 @@ status: draft
 
 ## Strategia CLAUDE.md/QWEN.md ottimale
 
-Mantenere ≤ 2,000 token (≈ 1,500 parole). Il file root `CLAUDE.md` attuale è ~200 parole: dentro il limite.
+Mantenere ≤ 2,000 token (≈ 1,500 parole). Il file root `claude.md` attuale è ~200 parole: dentro il limite.
 
 `laravel/CLAUDE.md` è ~10,000 token ma è auto-generato da Laravel Boost — non modificabile.
 

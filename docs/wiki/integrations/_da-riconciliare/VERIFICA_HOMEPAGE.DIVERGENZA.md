@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `VERIFICA_HOMEPAGE.md`
+# Divergenza: `verifica-homepage.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/VERIFICA_HOMEPAGE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

@@ -99,14 +99,14 @@ The <nome progetto> platform has extensive documentation across modules and them
 
 ❌ **Problems**:
 - 15 files with temporal strings ("Last Updated: March 12, 2026")
-- Duplicate files: `prd.md`, `PRD.md`, `prd.json`
+- Duplicate files: `prd.md`, `prd.md`, `prd.json`
 - Inconsistent naming: `product-strategy.md` vs `product-strategy-documentation-themes.md`
 - Orphaned files: `to-study.md`, `blocks-react.md`
 
 #### Recommended Actions
 
 1. Remove all temporal strings
-2. Consolidate PRD files (keep `prd.md`, remove `PRD.md`)
+2. Consolidate PRD files (keep `prd.md`, remove `prd.md`)
 3. Standardize naming (lowercase kebab-case)
 4. Create proper subdirectory structure
 
@@ -251,7 +251,7 @@ find laravel/Modules/*/docs/ -name "*.md" -exec sed -i.bak \
 
 **Blog Module**:
 - Keep: `prd.md`
-- Remove: `PRD.md`, `prd.json`
+- Remove: `prd.md`, `prd.json`
 - Merge unique content
 
 **Sixteen Theme**:
@@ -1150,7 +1150,7 @@ Themes/ThemeName/
 - `user-authentication.md` (kebab-case)
 - `00-index.md` (numeric prefix for ordering)
 - `README.md` (standard)
-- `CHANGELOG.md` (standard)
+- `changelog.md` (standard)
 - `best-practices.md` (descriptive, lowercase)
 
 ❌ **WRONG**:
@@ -2068,7 +2068,7 @@ rm docs/DOCUMENTATION_IMPROVEMENT_PLAN.md.lock
 
 ## documentation-improvement-summary-
 
-*Consolidated from: `documentation-improvement-summary-.md`*
+*Consolidated from: `documentation-improvement-summary.md`*
 
 title: "DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.deprecated"
 type: concept
@@ -2233,7 +2233,7 @@ find laravel/Modules/*/docs/ -name "*.md" -exec sed -i \
 ✅ **CORRECT**:
 - `user-authentication.md` (lowercase kebab-case)
 - `00-index.md` (numeric prefix)
-- `README.md`, `CHANGELOG.md` (standards)
+- `README.md`, `changelog.md` (standards)
 
 ❌ **FORBIDDEN**:
 - `UserAuthentication.md` (PascalCase)

@@ -182,7 +182,7 @@ Identified:
 ### Scattered Planning Files (355+ files) 📌 PARTIALLY DOCUMENTED
 
 #### Identified Categories
-1. **Session Planning**: `.planning/ROADMAP.md`, `STATE.md`, `PROJECT.md`
+1. **Session Planning**: `.planning/ROADMAP.md`, `STATE.md`, `project.md`
 2. **Phase Planning**: `.planning/phases/*/` (16+ files)
 3. **Session Artifacts**: `.planning/` (100+ research, notes, summaries)
 4. **Research Files**: `.planning/research/` (50+ files)

@@ -68,7 +68,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
   Notifiche basate su record Eloquent
 
 #### SMS & WhatsApp
-- **[WhatsApp Provider Architecture](./whatsapp_provider_architecture.md)**  
+- **[WhatsApp Provider Architecture](./whatsapp-provider-architecture.md)**  
   Architettura provider WhatsApp
 
 ---
@@ -248,8 +248,8 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
-**Changelog**: [CHANGELOG.md](./CHANGELOG.md)
-**Changelog**: [changelog.md](./CHANGELOG.md)
+**Changelog**: [CHANGELOG.md](./changelog.md)
+**Changelog**: [changelog.md](./changelog.md)
 
 ## 🔗 Collegamenti
 

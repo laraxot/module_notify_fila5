@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `UI_UX_PRO_MAX_SKILLS_INTEGRATION.md`
+# Divergenza: `ui-ux-pro-max-skills-integration.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/UI_UX_PRO_MAX_SKILLS_INTEGRATION.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

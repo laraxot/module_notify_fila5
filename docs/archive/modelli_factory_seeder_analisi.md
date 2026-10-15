@@ -255,7 +255,7 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 
 ### Documentazione Correlata
 - [Notification System](./notification_system.md)
-- [Email Templates](./email_templates.md)
+- [Email Templates](./email-templates.md)
 - [Multi-Channel Delivery](./multi_channel_delivery.md)
 - [Template Versioning](./template_versioning.md)
 

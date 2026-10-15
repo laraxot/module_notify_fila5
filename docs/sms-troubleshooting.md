@@ -89,7 +89,7 @@ status: draft
 ### 1. Struttura Log
 ```json
 {
-    "timestamp": "[DATE] 10:00:00",
+    "timestamp": "2024-03-20 10:00:00",
     "level": "error",
     "message": "SMS sending failed",
     "context": {
@@ -175,10 +175,11 @@ Log::debug('SMS Debug', [
 ### 2. Risorse Utili
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Logging](https://laravel.com/docs/logging)
+- [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queue](https://laravel.com/project_docs/queues)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
-- [Laravel Logging](https://laravel.com/docs/logging)
 
 ## Supporto
 

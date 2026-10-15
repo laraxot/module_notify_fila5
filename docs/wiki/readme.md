@@ -26,7 +26,7 @@ This directory is the canonical compiled wiki layer for the Karpathy-style workf
 
 - Raw corpus: `docs/` excluding `docs/wiki/**`
 - Compiled wiki: `docs/wiki/`
-- Schema layer: `AGENTS.md`, `CLAUDE.md`, `QWEN.md`, `GEMINI.md`, `docs/project/docs-governance.md`
+- Schema layer: `agents.md`, `claude.md`, `qwen.md`, `gemini.md`, `docs/project/docs-governance.md`
 
 ## Operations
 

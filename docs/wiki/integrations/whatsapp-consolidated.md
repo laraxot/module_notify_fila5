@@ -2984,7 +2984,7 @@ https://developers.facebook.com/docs/whatsapp/cloud-api/get-started
 
 ## whatsapp_channel
 
-*Consolidated from: `whatsapp_channel.md`*
+*Consolidated from: `whatsapp-channel.md`*
 
 
 ## 1. Struttura Base
@@ -3331,7 +3331,7 @@ class WhatsAppTest extends TestCase
 
 ## whatsapp_integration
 
-*Consolidated from: `whatsapp_integration.md`*
+*Consolidated from: `whatsapp-integration.md`*
 
 # Integrazione WhatsApp
 
@@ -3914,7 +3914,7 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 
 ## whatsapp_sending_standard
 
-*Consolidated from: `whatsapp_sending_standard.md`*
+*Consolidated from: `whatsapp-sending-standard.md`*
 
 
 ## Introduzione

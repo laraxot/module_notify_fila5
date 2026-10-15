@@ -41,6 +41,6 @@ status: draft
 - Mantenuta compatibilità con codice esistente
 
 ### Collegamenti Correlati
-- [Proposta Slug](./spatie_email_slug_proposal.md)
-- [Sistema Template Email](./email_templates.md)
-- [Email Dottori](./doctor_emails.md) 
+- [Proposta Slug](./spatie-email-slug-proposal.md)
+- [Sistema Template Email](./email-templates.md)
+- [Email Dottori](./doctor-emails.md) 

@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `MIGRATION_PLAN.md`
+# Divergenza: `migration-plan.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/MIGRATION_PLAN.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `REFACTORING_COMPLETATO.md`
+# Divergenza: `refactoring-completato.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/REFACTORING_COMPLETATO.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

@@ -171,4 +171,4 @@ Prima di creare un nuovo DTO, verificare che:
 - [Laravel Data Transfer Objects Best Practices](https://laravel.com/docs/10.x/eloquent-serialization#data-transfer-objects)
 
 ---
-*Ultimo aggiornamento: [DATE]*
+*Ultimo aggiornamento: 2025-05-12*
