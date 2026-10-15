@@ -50,7 +50,7 @@ discussions: []
 | **Notify** | 344 | ✅ 0 | [→ Roadmap](roadmap-and-issues.md) ⭐ |
 | **Activity** | 73 | ✅ 0 | [→ Roadmap](../../Activity/docs/roadmap-and-issues.md) |
 | **Cms** | 293 | ✅ 0 | [→ Roadmap](../../Cms/docs/roadmap-and-issues.md) |
-| **Gdpr** | 81 | ✅ 0 | [→ PHPStan Fixes](../Modules/Gdpr/docs/phpstan-fixes-2025-10-01.md) |
+| **Gdpr** | 81 | ✅ 0 | [→ PHPStan Fixes](../Modules/Gdpr/docs/phpstan-fixes-session-user.md) |
 | **Blog** | 258 | ✅ 0 | Completo |
 | **Comment** | 26 | ✅ 0 | Completo |
 | **Job** | 206 | ✅ 0 | Completo |

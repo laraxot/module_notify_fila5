@@ -301,7 +301,7 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 ### Module PHPStan Fixes (3)
 19. ✅ [Gdpr/docs/phpstan-fixes-2025-10-01.md](../Modules/Gdpr/docs/phpstan-fixes-2025-10-01.md)
 20. ✅ [AI/docs/phpstan-fixes-2025-10-01.md](../Modules/AI/docs/phpstan-fixes-2025-10-01.md)
-21. ✅ [User/docs/phpstan-fixes-2025-10-01.md](../../User/docs/phpstan-fixes-2025-10-01.md)
+21. ✅ [User/docs/phpstan-fixes-2025-10-01.md](../../User/docs/phpstan-fixes-user-module-session.md)
 
 ### Theme Docs
 22. ✅ [Sixteen/docs/roadmap-and-issues.md](../../../Themes/Sixteen/docs/roadmap-and-issues.md)

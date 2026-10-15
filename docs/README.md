@@ -10,7 +10,7 @@ created: 2026-06-05
 updated: 2026-10-14
 related:
   - ./00-INDEX.md
-  - ./stories/2026-10-14-docs-ingressi-notify.story.md
+  - ./stories/docs-ingressi-notify.story.md
 ---
 
 # Documentation

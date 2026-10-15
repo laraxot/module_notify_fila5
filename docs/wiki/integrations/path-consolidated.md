@@ -1743,7 +1743,7 @@ Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` d
 
 ## path-conventions-2
 
-*Consolidated from: `path-conventions-2.md`*
+*Consolidated from: `path-conventions-user.md`*
 
 title: "Path Conventions"
 type: concept

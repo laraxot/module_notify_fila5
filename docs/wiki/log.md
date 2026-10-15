@@ -16,7 +16,7 @@ status: draft
 - `00-INDEX.md`: tolta la "Module Version 2.1.0" senza fonte; dichiarate directory canoniche/evidence/legacy con conteggi (3.465 file, 1.552 nella radice); famiglie dei 1.551 `.md` della radice per nome file; corrette le descrizioni errate (roadmap.md e' del FixCity Design System, `SendNotificationBulkAction` e `TrackNotificationEventAction` non esistono, consolidamento SMS non corrisponde al codice).
 - `INDEX.md`, `index.md`, `wiki/00-INDEX.md`, `wiki/00-index.md`, `wiki/INDEX.md`, `wiki/index.md` marcati `stale` con la ragione; nessun file spostato o cancellato.
 - Verifica oggi su voci di questo log: la voce 2026-09-11 (compliance) dice rimosso il duplicato `app/Contracts/SmsActionContract.php`; il 2026-10-14 `SmsActionContract.php` esiste in tre posizioni (`app/Contracts/`, `app/Contracts/SMS/`, `app/Models/Contracts/`).
-- Story: [2026-10-14-docs-ingressi-notify](../stories/2026-10-14-docs-ingressi-notify.story.md). Nota durevole: `bashscripts/ai/wiki/memories/2026-10-14-docs-notify-activity-media-job-studio.md`.
+- Story: [2026-10-14-docs-ingressi-notify](../stories/docs-ingressi-notify.story.md). Nota durevole: `bashscripts/ai/wiki/memories/docs-notify-activity-media-job-studio.md`.
 
 ## [2026-09-11] fix | invito automatico — Difetto 11/12, regola un-canale
 

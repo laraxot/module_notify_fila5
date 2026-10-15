@@ -1695,7 +1695,7 @@ public function getConnectionName(): ?string
 4. `Modules/Blog/docs/models/xotbasepivot-migration.md` (2.500+ parole)
 5. `docs/architecture/README.md` (1.500+ parole)
 6. `docs/XotBasePivot-Executive-Summary.md` (2.000+ parole)
-7. `docs/SESSIONE-2025-10-15-SUPER-MUCCA.md` (questo documento)
+7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
 
 **Totale:** ~20.000 parole di documentazione professionale
 

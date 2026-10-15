@@ -154,7 +154,7 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status
-5. **[Analisi Completa](./analisi-completa-2025-10-01.md)** - Executive summary
+5. **[Analisi Completa](./analisi-completa-ottobre-data.md)** - Executive summary
 
 ---
 

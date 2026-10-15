@@ -34,7 +34,7 @@ Consolidated from **13** individual files.
 
 ## interface-naming-convention-1
 
-*Consolidated from: `interface-naming-convention-1.md`*
+*Consolidated from: `interface-naming-convention-deprecated.md`*
 
 
 This file is deprecated.
@@ -58,11 +58,11 @@ qmd: "interface-naming-convention-2 convenzione di naming per le interfacce"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -286,7 +286,7 @@ grep -r "interface.*Contract" --include="*.php" Modules
 
 ## interface-structure-clarification-1
 
-*Consolidated from: `interface-structure-clarification-1.md`*
+*Consolidated from: `interface-structure-clarification.md`*
 
 
 ## Struttura Corretta per le Interfacce SMS
@@ -359,11 +359,11 @@ qmd: "interface-structure-clarification-2 chiarimento sulla struttura delle inte
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -704,7 +704,7 @@ if (!($instance instanceof SmsActionContract)) {
 
 ## interfaces-implementation-guide-1
 
-*Consolidated from: `interfaces-implementation-guide-1.md`*
+*Consolidated from: `interfaces-implementation-guide.md`*
 
 
 ## Struttura delle Interfacce
@@ -819,11 +819,11 @@ qmd: "interfaces-implementation-guide-2 guida all'implementazione delle interfac
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

@@ -9,11 +9,11 @@ qmd: "ultimate-final-report 🏆 ptv - ultimate final report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -54,7 +54,7 @@ Trasformato FixCity da progetto con documentazione parziale a piattaforma enterp
 9. implementations-completed.md
 10. super-mucca-completion.md
 11. ultimate-completion-report.md
-12. absolute-completion-100.md
+12. absolute-completion-completamento-assoluto.md
 13. complete-success.md
 14. perfection-plan.md
 15. perfection-achieved.md

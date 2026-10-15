@@ -81,11 +81,11 @@ updated: 2026-07-14
 qmd: "analisi-completa-2025-10-01.deprecated deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -107,11 +107,11 @@ updated: 2026-07-14
 qmd: "analisi-completa-2025-10-01 deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -134,11 +134,11 @@ qmd: "analisi-completa-2 analisi completa del modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -434,11 +434,11 @@ qmd: "analisi-completa-2025-10-01.deprecated 📊 analisi completa progetto <nom
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1228,11 +1228,11 @@ qmd: "analisi-dettagliata-1-1 analisi dettagliata del modulo notify - parte 1: a
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1760,7 +1760,7 @@ return [
 
 ## analisi-dettagliata-1
 
-*Consolidated from: `analisi-dettagliata-1.md`*
+*Consolidated from: `analisi-dettagliata-architettura-struttura.md`*
 
 
 ## 1. Architettura del Sistema
@@ -2294,11 +2294,11 @@ qmd: "analisi-dettagliata-2-1 analisi dettagliata del modulo notify - parte 2: m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2950,7 +2950,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analisi-dettagliata-2
 
-*Consolidated from: `analisi-dettagliata-2.md`*
+*Consolidated from: `analisi-dettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -3608,11 +3608,11 @@ qmd: "analisi-dettagliata-3-1 analisi dettagliata del modulo notify - parte 3: s
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -4268,7 +4268,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisi-dettagliata-3
 
-*Consolidated from: `analisi-dettagliata-3.md`*
+*Consolidated from: `analisi-dettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -4919,7 +4919,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisi-dettagliata-4-1
 
-*Consolidated from: `analisi-dettagliata-4-1.md`*
+*Consolidated from: `analisi-dettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -5621,11 +5621,11 @@ qmd: "analisi-dettagliata-4-2 analisi dettagliata del modulo notify - parte 4: i
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -6323,7 +6323,7 @@ class TemplateTestPage extends Page
 
 ## analisi-dettagliata-4
 
-*Consolidated from: `analisi-dettagliata-4.md`*
+*Consolidated from: `analisi-dettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -7027,11 +7027,11 @@ qmd: "analisi-dettagliata-5-1 analisi dettagliata del modulo notify - parte 5: t
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -7858,7 +7858,7 @@ class WebhookControllerTest extends TestCase
 
 ## analisi-dettagliata-5
 
-*Consolidated from: `analisi-dettagliata-5.md`*
+*Consolidated from: `analisi-dettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -8689,11 +8689,11 @@ qmd: "analisi-dettagliata-6-1 analisi dettagliata del modulo notify - parte 6: m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -9322,7 +9322,7 @@ class AnalyticsExporter
 
 ## analisi-dettagliata-6
 
-*Consolidated from: `analisi-dettagliata-6.md`*
+*Consolidated from: `analisi-dettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -9957,11 +9957,11 @@ qmd: "analisi-dettagliata-7-1 analisi dettagliata del modulo notify - parte 7: m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -10615,7 +10615,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analisi-dettagliata-7
 
-*Consolidated from: `analisi-dettagliata-7.md`*
+*Consolidated from: `analisi-dettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -11277,11 +11277,11 @@ qmd: "analisi-dettagliata-8-1 analisi dettagliata del modulo notify - parte 8: n
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -11512,7 +11512,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 
 ## analisi-dettagliata-8
 
-*Consolidated from: `analisi-dettagliata-8.md`*
+*Consolidated from: `analisi-dettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali
@@ -11749,11 +11749,11 @@ qmd: "analisi-dettagliata-9 analisi dettagliata del modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -14457,11 +14457,11 @@ qmd: "analisi-metodi-duplicati-index 📚 indice completo - analisi metodi dupli
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -14736,11 +14736,11 @@ qmd: "analisi-metodi-duplicati-master-1 🐄✨ analisi divina metodi duplicati 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -15934,11 +15934,11 @@ qmd: "analisi-metodi-duplicati-master 🐄⚡ analisi metodi duplicati - super m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -17115,7 +17115,7 @@ rules:
 
 ## analisi-miglioramenti-1
 
-*Consolidated from: `analisi-miglioramenti-1.md`*
+*Consolidated from: `analisi-miglioramenti-modulo-notify.md`*
 
 
 ## Analisi delle Soluzioni Esistenti
@@ -18499,7 +18499,7 @@ class TemplatePreview extends Component
 
 ## analisi_dettagliata_1
 
-*Consolidated from: `analisi_dettagliata_1.md`*
+*Consolidated from: `analisi_dettagliata-architettura-struttura.md`*
 
 
 ## 1. Architettura del Sistema
@@ -19022,7 +19022,7 @@ return [
 
 ## analisi_dettagliata_2
 
-*Consolidated from: `analisi_dettagliata_2.md`*
+*Consolidated from: `analisi_dettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -19669,7 +19669,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analisi_dettagliata_3
 
-*Consolidated from: `analisi_dettagliata_3.md`*
+*Consolidated from: `analisi_dettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -20320,7 +20320,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisi_dettagliata_4
 
-*Consolidated from: `analisi_dettagliata_4.md`*
+*Consolidated from: `analisi_dettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -21011,7 +21011,7 @@ class TemplateTestPage extends Page
 
 ## analisi_dettagliata_5
 
-*Consolidated from: `analisi_dettagliata_5.md`*
+*Consolidated from: `analisi_dettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -21833,7 +21833,7 @@ class WebhookControllerTest extends TestCase
 
 ## analisi_dettagliata_6
 
-*Consolidated from: `analisi_dettagliata_6.md`*
+*Consolidated from: `analisi_dettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -22457,7 +22457,7 @@ class AnalyticsExporter
 
 ## analisi_dettagliata_7
 
-*Consolidated from: `analisi_dettagliata_7.md`*
+*Consolidated from: `analisi_dettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -23106,7 +23106,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analisi_dettagliata_8
 
-*Consolidated from: `analisi_dettagliata_8.md`*
+*Consolidated from: `analisi_dettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali
@@ -23332,7 +23332,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 
 ## analisiettagliata-2
 
-*Consolidated from: `analisiettagliata-2.md`*
+*Consolidated from: `analisiettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -23981,7 +23981,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analisiettagliata-3
 
-*Consolidated from: `analisiettagliata-3.md`*
+*Consolidated from: `analisiettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -24632,7 +24632,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisiettagliata-4
 
-*Consolidated from: `analisiettagliata-4.md`*
+*Consolidated from: `analisiettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -25323,7 +25323,7 @@ class TemplateTestPage extends Page
 
 ## analisiettagliata-5
 
-*Consolidated from: `analisiettagliata-5.md`*
+*Consolidated from: `analisiettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -26145,7 +26145,7 @@ class WebhookControllerTest extends TestCase
 
 ## analisiettagliata-6
 
-*Consolidated from: `analisiettagliata-6.md`*
+*Consolidated from: `analisiettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -26769,7 +26769,7 @@ class AnalyticsExporter
 
 ## analisiettagliata-7
 
-*Consolidated from: `analisiettagliata-7.md`*
+*Consolidated from: `analisiettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -27418,7 +27418,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analisiettagliata-8
 
-*Consolidated from: `analisiettagliata-8.md`*
+*Consolidated from: `analisiettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali

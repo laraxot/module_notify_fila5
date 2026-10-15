@@ -36,7 +36,7 @@ Consolidated from **15** individual files.
 
 ## database-mail-1
 
-*Consolidated from: `database-mail-1.md`*
+*Consolidated from: `database-mail-deprecated.md`*
 
 
 This file is deprecated.
@@ -60,11 +60,11 @@ qmd: "database-mail-2 database mail system"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -523,11 +523,11 @@ qmd: "database-mail-enhancement-1 database mail enhancement (open source)"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -734,7 +734,7 @@ testable class SendEmailTemplateAction {
 
 ## database-mail-queue-1
 
-*Consolidated from: `database-mail-queue-1.md`*
+*Consolidated from: `database-mail-queue-deprecated.md`*
 
 
 This file is deprecated.
@@ -758,11 +758,11 @@ qmd: "database-mail-queue-2 sistema di code per email - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1964,7 +1964,7 @@ php artisan queue:restart
 
 ## database-mail-system-1
 
-*Consolidated from: `database-mail-system-1.md`*
+*Consolidated from: `database-mail-system.md`*
 
 
 ## Panoramica
@@ -2721,11 +2721,11 @@ qmd: "database-mail-system-2 sistema di gestione email basato su database - il p
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

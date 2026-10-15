@@ -87,7 +87,7 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 #### Reports (5)
 28. super-mucca-completion.md
 29. ultimate-completion-report.md
-30. absolute-completion-100.md (questo)
+30. absolute-completion-notify-completamento-assoluto.md (questo)
 31. Roadmap aggiornate (3)
 
 ---
