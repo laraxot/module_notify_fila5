@@ -1,13 +1,26 @@
+---
+title: "ANALISI VISIVA"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ANALISI VISIVA"
+issues: []
+discussions: []
+status: draft
+---
+
 # 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
+# 📸 Analisi Visiva Homepage Notify vs Bootstrap Italia
 
 ## Data: {{ date('Y-m-d H:i:s') }}
 
 ## Reference
 - **Bootstrap Italia**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 - **FixCity**: http://fixcity.local/it/tests/homepage
+- **Notify**: http://laraxot.local/it/tests/homepage
 
 ---
-
 ## 1. Header Structure
 
 ### Bootstrap Italia
@@ -27,6 +40,7 @@
 - Text: `#1A1A1A`
 
 ### FixCity (Attuale)
+### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Header Component - XotBase]                                │
@@ -68,6 +82,7 @@
 - Card shadow: `shadow-sm`
 
 ### FixCity (Attuale)
+### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Hero Component - Tailwind classes]                         │
@@ -116,6 +131,7 @@
 - Button: `btn btn-outline-primary btn-sm mt-3`
 
 ### FixCity (Attuale)
+### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Governance Component - Tailwind Grid]                      │
@@ -168,6 +184,7 @@
 - Day abbr: `calendar-day text-muted small text-uppercase`
 
 ### FixCity (Attuale)
+### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Events Component - Flexbox Tailwind]                       │
@@ -223,6 +240,7 @@
 - Title: `h6 text-uppercase text-muted mb-3`
 
 ### FixCity (Attuale)
+### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Topics Component - Tailwind Cards]                         │
@@ -269,6 +287,7 @@
 ```
 
 ### FixCity (Attuale)
+### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Footer Component - XotBase]                                │

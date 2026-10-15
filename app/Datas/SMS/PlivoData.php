@@ -44,9 +44,8 @@ class PlivoData extends Data
             case 'basic':
             default:
                 return [
-                    'Authorization' => 'Basic '.base64_encode($this->auth_id.':'.$this->auth_token),
-                    'Content-Type' => 'application/json',
-                ];
+                    'Authorization' => 'Basic '.base64_encode(($this->auth_id ?? '').':'.($this->auth_token ?? '')),
+                    'Content-Type' => 'application/json'];
         }
     }
 

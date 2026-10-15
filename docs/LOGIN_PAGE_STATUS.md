@@ -1,3 +1,14 @@
+---
+title: "LOGIN PAGE STATUS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "LOGIN PAGE STATUS"
+issues: []
+discussions: []
+---
+
 # 📊 Status Pagina Login - Verifica Tecnica
 
 **Data Verifica**: 14 Ottobre 2025  
@@ -5,6 +16,14 @@
 
 ---
 
+title: "LOGIN PAGE STATUS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "LOGIN PAGE STATUS"
+issues: []
+discussions: []
 ## ✅ File Verificati e Corretti
 
 ### 1. Template Login
@@ -254,7 +273,7 @@ FAIL → $this->addError() + rimane su form
 ### 1. Avviare il Server
 
 ```bash
-cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
 php artisan serve --host=127.0.0.1 --port=8000
 ```
 
@@ -285,7 +304,7 @@ Password: password
 
 ## 📚 Documentazione Correlata
 
-1. **[Widget Rendering Analysis](../laravel/Modules/User/docs/WIDGET_RENDERING_ANALYSIS.md)**
+1. **[Widget Rendering Analysis](../../User/docs/WIDGET_RENDERING_ANALYSIS.md)**
    - Analisi completa architettura LoginWidget
    - Diagrammi flusso
    - Best practices

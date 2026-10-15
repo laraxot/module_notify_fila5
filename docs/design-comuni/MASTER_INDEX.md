@@ -1,3 +1,15 @@
+---
+title: "MASTER INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MASTER INDEX"
+issues: []
+discussions: []
+status: draft
+---
+
 # Design Comuni Italia - Master Documentation Index
 
 ## Panoramica Progetto
@@ -18,7 +30,6 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 | Altre 35 pagine | ❌ 0% | ❌ 0% | ❌ 0% | ❌ Assenti | ❌ 0% |
 
 ---
-
 ## 📚 Documentazione per Modulo/Tema
 
 ### 🎨 Tema Sixteen
@@ -120,6 +131,7 @@ FAQ Page (/it/tests/domande-frequenti)
 │
 ├─ JSON Content
 │  └─ laravel/config/local/fixcity/database/content/pages/tests.domande-frequenti.json
+│  └─ laravel/config/local/laraxot/database/content/pages/tests.domande-frequenti.json
 │
 ├─ Blade Templates (Tema Sixteen)
 │  ├─ components/blocks/accordion/default.blade.php

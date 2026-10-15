@@ -1,3 +1,16 @@
+---
+qmd: "eloquent properties best practices"
+issues: []
+discussions: []
+title: "Best Practices per Proprietà Modelli Eloquent - Modulo Notify"
+module: notify
+type: integration
+tags: [integrations, modules, notify]
+created: 2026-08-24
+updated: 2026-08-24
+status: draft
+---
+
 # Best Practices per Proprietà Modelli Eloquent - Modulo Notify
 
 ## ⚠️ Regola Critica: property_exists() VIETATO

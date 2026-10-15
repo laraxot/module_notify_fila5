@@ -1,3 +1,14 @@
+---
+title: "DESIGN COMUNI CONVERSION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI CONVERSION"
+issues: []
+discussions: []
+---
+
 # Design Comuni Pages Conversion Project
 
 > **Goal**: Convert all 32 Design Comuni pages from Bootstrap Italia to Tailwind CSS + Alpine.js  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "DESIGN COMUNI CONVERSION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI CONVERSION"
+issues: []
+discussions: []
 ## 📊 Project Overview
 
 ### Pages to Convert: 32
@@ -25,6 +44,7 @@
 - Base URL: http://127.0.0.1:8000/it/tests/
 - Blade template: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
 - Config system: JSON-driven content in `laravel/config/local/fixcity/database/content/pages/`
+- Config system: JSON-driven content in `laravel/config/local/ptv/database/content/pages/`
 
 ---
 

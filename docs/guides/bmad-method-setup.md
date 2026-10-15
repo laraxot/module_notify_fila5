@@ -1,11 +1,23 @@
+---
+title: "bmad method setup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bmad method setup"
+issues: []
+discussions: []
+status: draft
+---
+
 # BMAD Method - Guida Installazione e Configurazione
 
 **Versione:** 6.2.2  
 **Data Setup:** 2026-04-07  
 **Progetto:** FixCity Fila5 (Laraxot)
+**Progetto:** Notify Fila5 (Laraxot)
 
 ---
-
 ## documentazione canonica (naming stabile)
 
 - [setup e configurazione](../bmad/setup-guide.md)
@@ -48,6 +60,7 @@ Un framework open-source (MIT) per lo sviluppo software guidato da AI che fornis
 
 ```bash
 cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
 npx bmad-method install
 ```
 
@@ -56,6 +69,7 @@ npx bmad-method install
 ```bash
 npx bmad-method install \
   --directory /var/www/_bases/base_fixcity_fila5 \
+  --directory /var/www/_bases/base_ptvx_fila5 \
   --modules bmm \
   --tools windsurf \
   --yes
@@ -66,6 +80,7 @@ npx bmad-method install \
 ```bash
 npx bmad-method install \
   --directory /var/www/_bases/base_fixcity_fila5 \
+  --directory /var/www/_bases/base_ptvx_fila5 \
   --modules bmm \
   --tools windsurf \
   --action update \
@@ -77,6 +92,7 @@ npx bmad-method install \
 ```bash
 npx bmad-method install \
   --directory /var/www/_bases/base_fixcity_fila5 \
+  --directory /var/www/_bases/base_ptvx_fila5 \
   --action quick-update \
   --yes
 ```

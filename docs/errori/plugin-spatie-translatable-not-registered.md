@@ -1,3 +1,14 @@
+---
+title: "plugin spatie translatable not registered"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "plugin spatie translatable not registered"
+issues: []
+discussions: []
+---
+
 # Errore: Plugin spatie-translatable Not Registered
 
 ## Errore
@@ -362,11 +373,19 @@ Prima di usare `LangBase*`:
 - [Spatie Laravel Translatable](https://spatie.be/docs/laravel-translatable/v6/introduction)
 
 ### Documentazione Interna
-- [Lang Module README](../../../lang/docs/readme.md)
+- [Lang Module README](../../../Lang/docs/readme.md)
 - [Filament Panel Configuration](../../../xot/docs/filament/panel-configuration.md)
 
 ---
 
+title: "plugin spatie translatable not registered"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "plugin spatie translatable not registered"
+issues: []
+discussions: []
 **Status**: ⏳ ATTENDE DECISIONE  
 **Priority**: P1 (blocca funzionalità)  
 **Next Step**: Decidere se MailTemplate deve essere traducibile

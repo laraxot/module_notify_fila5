@@ -1,3 +1,14 @@
+---
+title: "sms global vs specific params"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms global vs specific params"
+issues: []
+discussions: []
+---
+
 # Parametri a Livello di Root vs Specifici per Provider nella Configurazione SMS
 
 ## Introduzione
@@ -171,13 +182,18 @@ Prima di modificare la configurazione SMS, verificare che:
 
 ## Riferimenti
 
-- [Struttura Standardizzata della Configurazione SMS](./STANDARDIZED_SMS_CONFIG_STRUCTURE.md)
-- [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
 - [Struttura Standardizzata della Configurazione SMS](./standardized_sms_config_structure.md)
 - [Configurazione Netfun](./netfun_config_requirements.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
 
 ---
 
-*Ultimo aggiornamento: 2025-05-12*
+title: "sms global vs specific params"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms global vs specific params"
+issues: []
+discussions: []
 *Ultimo aggiornamento: 2025-05-12*

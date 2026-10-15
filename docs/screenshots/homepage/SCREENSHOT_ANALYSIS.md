@@ -1,4 +1,17 @@
+---
+title: "SCREENSHOT ANALYSIS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SCREENSHOT ANALYSIS"
+issues: []
+discussions: []
+status: draft
+---
+
 # 📸 Screenshot Analysis - Homepage FixCity
+# 📸 Screenshot Analysis - Homepage Notify
 
 ## Reference: Bootstrap Italia
 
@@ -24,7 +37,6 @@ URL: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 - Hover: `#0052A3`
 
 ---
-
 ### 2. Hero Section
 ```
 Screenshot: hero_bootstrap_italia.png
@@ -123,22 +135,23 @@ Screenshot: footer_bootstrap_italia.png
 
 ---
 
-## FixCity Current State
+## Notify Current State
 
 ### Screenshots
 ```
-Screenshot: fixcity_header_current.png
-Screenshot: fixcity_hero_current.png
-Screenshot: fixcity_governance_current.png
-Screenshot: fixcity_events_current.png
-Screenshot: fixcity_topics_current.png
-Screenshot: fixcity_footer_current.png
-URL: http://fixcity.local/it/tests/homepage
+Screenshot: app_header_current.png
+Screenshot: app_hero_current.png
+Screenshot: app_governance_current.png
+Screenshot: app_events_current.png
+Screenshot: app_topics_current.png
+Screenshot: app_footer_current.png
+URL: http://laraxot.local/it/tests/homepage
 ```
 
 ### Differenze Principali
 
 | Elemento | Bootstrap Italia | FixCity | Status |
+| Elemento | Bootstrap Italia | Notify | Status |
 |----------|-----------------|---------|--------|
 | Header slim | ✅ Presente | ❌ Assente | 🔴 |
 | Hero card-teaser | ✅ Sì | ❌ No | 🔴 |

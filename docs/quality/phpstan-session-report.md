@@ -1,3 +1,14 @@
+---
+title: "phpstan session report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan session report"
+issues: []
+discussions: []
+---
+
 # PHPStan Session Report - Ottobre 2025
 
 ## 🎆 RISULTATI FINALI STRAORDINARI
@@ -21,6 +32,14 @@
 
 ---
 
+title: "phpstan session report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan session report"
+issues: []
+discussions: []
 ## 🏆 ACHIEVEMENTS UNLOCKED
 
 ### Moduli Completamente Puliti
@@ -347,8 +366,8 @@ grep -B2 -A2 "#\[Override\]" Modules/*/app/**/RelationManagers/*.php | grep "@re
 
 ### Documentazione Interna
 - [Naming Conventions](./naming-conventions.md)
-- [PHPStan Fixes Activity](../../laravel/Modules/Activity/docs/phpstan_fixes_activity.md)
-- [Testing Guidelines](../../laravel/Modules/Activity/docs/testing-guidelines.md)
+- [PHPStan Fixes Activity](../../../Activity/docs/phpstan_fixes_activity.md)
+- [Testing Guidelines](../../../Activity/docs/testing-guidelines.md)
 
 ### Documentazione Esterna
 - [PHPStan Documentation](https://phpstan.org/)

@@ -1,4 +1,7 @@
 ---
+qmd: "release marketing standard"
+issues: []
+discussions: []
 title: "Release e README marketing — Notify"
 type: reference
 status: approved
@@ -20,6 +23,7 @@ Ogni modulo/tema deve essere pubblicabile, comprensibile e desiderabile: workflo
 - `../.github/workflows/semantic-release.yml`
 - `../.releaserc.json`
 - `../CHANGELOG.md`
+- `../changelog.md`
 
 ## Confidenza
 

@@ -1,9 +1,29 @@
+---
+title: "qwen competitors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen competitors"
+issues: []
+discussions: []
+---
+
 # QWEN Competitor Analysis
 
 Analisi dei competitor di prediction market.
+Analisi dei competitor di forecast market.
 
 ---
 
+title: "qwen competitors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "qwen competitors"
+issues: []
+discussions: []
 ## 🎯 Competitor Analysis
 
 ### Polymarket (Leader)
@@ -34,6 +54,7 @@ Analisi dei competitor di prediction market.
 ---
 
 ### PredictIt
+### ForecastIt
 
 | Feature | Presente |
 |---------|----------|
@@ -65,6 +86,7 @@ Analisi dei competitor di prediction market.
 | Polymarket | LMSR, order book |
 | Kalshi | Regulated, clean UX |
 | PredictIt | Academic, simple |
+| ForecastIt | Academic, simple |
 | FantaSanremo | Italian, gamification |
 | Prediki | European, mobile-first |
 | Metaculus | Forecasting, accuracy |
@@ -76,5 +98,5 @@ Analisi dei competitor di prediction market.
 ## 🔗 Link
 
 - [Indice QWEN](./qwen-split-index.md)
-- [QWEN.md originale](../../QWEN.md)
+- [QWEN.md originale](../QWEN.md)
 - [Index principale](./index.md)

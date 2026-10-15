@@ -1,3 +1,15 @@
+---
+title: "no http controllers"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "no http controllers"
+issues: []
+discussions: []
+status: draft
+---
+
 # No HTTP controllers in any module
 
 ## Rule

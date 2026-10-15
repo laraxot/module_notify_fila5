@@ -1,3 +1,15 @@
+---
+qmd: "structure"
+issues: []
+discussions: []
+title: "Modulo Notify"
+module: notify
+type: integration
+tags: [integrations, modules, notify]
+created: 2026-08-24
+updated: 2026-08-24
+---
+
 # Modulo Notify
 
 Data: 2025-04-23 19:09:56
@@ -434,20 +446,20 @@ tests/Unit
 
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
-* [structure.md](../../../Gdpr/docs/structure.md)
+* [structure.md](../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
 * [structure.md](../../../Xot/docs/structure.md)
 * [structure.md](../../../Xot/docs/base/structure.md)
 * [structure.md](../../../Xot/docs/config/structure.md)
-* [structure.md](../../../User/docs/structure.md)
+* [structure.md](../../User/docs/structure.md)
 * [structure.md](../../../UI/docs/structure.md)
-* [structure.md](../../../Lang/docs/structure.md)
-* [structure.md](../../../Job/docs/structure.md)
-* [structure.md](../../../Media/docs/structure.md)
-* [structure.md](../../../Tenant/docs/structure.md)
-* [structure.md](../../../Activity/docs/structure.md)
+* [structure.md](../../Lang/docs/structure.md)
+* [structure.md](../../Job/docs/structure.md)
+* [structure.md](../../Media/docs/structure.md)
+* [structure.md](../../Tenant/docs/structure.md)
+* [structure.md](../../Activity/docs/structure.md)
 * [structure.md](../../../Cms/docs/structure.md)
-* [structure.md](../../../Cms/docs/themes/structure.md)
-* [structure.md](../../../Cms/docs/components/structure.md)
+* [structure.md](../../Cms/docs/themes/structure.md)
+* [structure.md](../../Cms/docs/components/structure.md)
 
 ---

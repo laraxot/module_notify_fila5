@@ -1,3 +1,14 @@
+---
+title: "script automazione"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "script automazione"
+issues: []
+discussions: []
+---
+
 # Script e Automazione
 
 La cartella `bashscripts/` contiene script organizzati per categoria:
@@ -15,4 +26,4 @@ La cartella `bashscripts/` contiene script organizzati per categoria:
 ## Chaos readiness
 
 - Script operativo: `bashscripts/ai/chaos-readiness-check.sh`
-- Comando documentato: [chaos-readiness](../commands/chaos-readiness.md)
+- Comando documentato: [chaos-readiness](../chaos-readiness.md)

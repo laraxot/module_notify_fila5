@@ -1,3 +1,14 @@
+---
+title: "SESSIONE ANALISI HOMEPAGE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SESSIONE ANALISI HOMEPAGE"
+issues: []
+discussions: []
+---
+
 # ✅ Sessione Completata - Homepage Analysis & Documentation
 
 ## 📋 Riepilogo Lavoro
@@ -32,6 +43,14 @@
 
 ---
 
+title: "SESSIONE ANALISI HOMEPAGE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SESSIONE ANALISI HOMEPAGE"
+issues: []
+discussions: []
 #### 2. Screenshot Analysis
 **File**: `docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md`
 
@@ -180,15 +199,15 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
-- [Analisi Visiva](docs/screenshots/homepage/ANALISI_VISIVA.md)
-- [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md)
-- [Fix Plan](docs/screenshots/homepage/FIX_PLAN.md)
+- [Analisi Visiva](screenshots/homepage/ANALISI_VISIVA.md)
+- [Screenshot Analysis](screenshots/homepage/SCREENSHOT_ANALYSIS.md)
+- [Fix Plan](screenshots/homepage/FIX_PLAN.md)
 - [OpenViking Context](.openvikings/homepage_alignment_context.md)
 
 ### Link Esterni
 - [Bootstrap Italia Reference](https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html)
 - [Bootstrap Italia Docs](https://italia.github.io/design-web-toolkit/)
-- [FixCity Homepage](http://fixcity.local/it/tests/homepage)
+- [FixCity Homepage](http://ptv.local/it/tests/homepage)
 
 ---
 

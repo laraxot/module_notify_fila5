@@ -1,3 +1,15 @@
+---
+title: "chaos monkey readiness"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "chaos monkey readiness"
+issues: []
+discussions: []
+status: draft
+---
+
 # Chaos Monkey Readiness - LaravelPizza
 
 ## Obiettivo
@@ -33,5 +45,5 @@ bashscripts/ai/chaos-readiness-check.sh
 - Theme: `laravel/Themes/Meetup/docs/chaos-monkey-incident-playbook.md`
 
 ## Package Intelligence
-- Global package risk map: `./package-risk-matrix-2026-03-02.md`
+- Global package risk map: `./package-risk-matrix.md`
 - Full package inventory: `laravel/Modules/Xot/docs/composer-packages-deep-study-2026-03-02.md`

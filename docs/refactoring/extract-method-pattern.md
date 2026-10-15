@@ -1,3 +1,14 @@
+---
+title: "extract method pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "extract method pattern"
+issues: []
+discussions: []
+---
+
 # 🧘 Pattern: Extract Method (Clean Code)
 
 **Status**: ✅ Pattern Consolidato  
@@ -441,11 +452,19 @@ Prima di estrarre metodi:
 
 - [Clean Code - Extract Method](https://refactoring.guru/extract-method) - Refactoring Guru
 - [SendRecordsNotificationBulkAction](../../app/Filament/Actions/SendRecordsNotificationBulkAction.php) - Implementazione esempio
-- [DRY Composition Pattern](./dry-composition-pattern.md) - Pattern composizione Actions
-- [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md) - Pattern per chiamate Actions
+- [DRY Composition Pattern](../dry-composition-pattern.md) - Pattern composizione Actions
+- [Actions Calling Actions Pattern](../actions-calling-actions-pattern.md) - Pattern per chiamate Actions
 
 ---
 
+title: "extract method pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "extract method pattern"
+issues: []
+discussions: []
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Small methods, clear names, single responsibility - the path to maintainable code"*  
 **Pattern**: Extract Method (Clean Code Refactoring)

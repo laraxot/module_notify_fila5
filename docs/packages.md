@@ -1,3 +1,14 @@
+---
+title: "packages"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages"
+issues: []
+discussions: []
+---
+
 # Pacchetti del Modulo Notify
 
 ## Pacchetti Utilizzati
@@ -5,7 +16,7 @@
 ### Core
 - [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
 - [laraxot/module_ui](../ui/docs/packages.md) - Componenti UI e temi
-- [laraxot/module_tenant_fila5](../tenant/docs/packages.md) - Gestione multi-tenant
+- [laraxot/module_tenant_fila5](../../Tenant/docs/packages.md) - Gestione multi-tenant
 
 ### Notifiche
 - [filament/notifications](https://filamentphp.com/docs/notifications) - Sistema notifiche Filament
@@ -56,15 +67,15 @@
 
 
 ## Collegamenti tra versioni di packages.md
-* [packages.md](../../../gdpr/docs/packages.md)
+* [packages.md](../../Gdpr/docs/packages.md)
 * [packages.md](../../../notify/docs/packages.md)
 * [packages.md](../../../xot/docs/packages.md)
-* [packages.md](../../../user/docs/packages.md)
+* [packages.md](../../User/docs/packages.md)
 * [packages.md](../../../ui/docs/packages.md)
-* [packages.md](../../../lang/docs/packages.md)
-* [packages.md](../../../job/docs/packages.md)
-* [packages.md](../../../media/docs/packages.md)
-* [packages.md](../../../tenant/docs/packages.md)
+* [packages.md](../../Lang/docs/packages.md)
+* [packages.md](../../Job/docs/packages.md)
+* [packages.md](../../Media/docs/packages.md)
+* [packages.md](../../Tenant/docs/packages.md)
 
 
 ### Versione Incoming
@@ -72,3 +83,11 @@
 
 ---
 
+title: "packages"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages"
+issues: []
+discussions: []

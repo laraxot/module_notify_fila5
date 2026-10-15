@@ -1,3 +1,14 @@
+---
+title: "QUICK REFERENCE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "QUICK REFERENCE"
+issues: []
+discussions: []
+---
+
 # LLM Wiki Quick Reference
 
 > **Based on**: Karpathy's LLM Wiki pattern
@@ -67,6 +78,9 @@ What happens:
 
 ```yaml
 ---
+qmd: "QUICK REFERENCE"
+issues: []
+discussions: []
 title: "Page Title"                    # Required
 type: concept|entity|source|comparison|decision|troubleshooting  # Required
 sources: ["raw/articles/file.md"]      # Required (array)
@@ -169,5 +183,5 @@ Templates available:
 - [Complete Integration Guide](wiki/README.md)
 - [Agent Instructions](wiki/AGENTS.md)
 - [Wiki Overview](wiki/overview.md)
-- [Obsidian Setup](.obsidian/README.md)
+- [Obsidian Setup](.obsidian/readme.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)

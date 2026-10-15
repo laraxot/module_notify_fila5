@@ -1,3 +1,15 @@
+---
+title: "tailwind forms"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tailwind forms"
+issues: []
+discussions: []
+status: draft
+---
+
 # Form con Filament Components
 
 ## Introduzione

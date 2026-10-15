@@ -1,3 +1,15 @@
+---
+title: "netfun sms implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun sms implementation"
+issues: []
+discussions: []
+status: draft
+---
+
 # Implementazione Netfun SMS 
 
 ## Introduzione
@@ -175,7 +187,7 @@ class AppointmentReminder extends Notification
         $smsData = new NetfunSmsData(
             recipient: $phoneNumber,
             message: "Promemoria: appuntamento il {$this->appointment->date}",
-sender: 'Quaeris',
+            sender: 'SaluteOra',
             reference: 'app_' . $this->appointment->id
         );
         

@@ -1,3 +1,14 @@
+---
+title: "ralph gsd bmad orchestration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ralph gsd bmad orchestration"
+issues: []
+discussions: []
+---
+
 # Ralph + GSD + BMAD Orchestration
 
 **Path**: `bashscripts/ai/.agents/docs/architecture/ralph-gsd-bmad-orchestration.md`
@@ -85,4 +96,4 @@ Nel repo prevalgono sempre i quality gate locali, anche quando il loop Ralph sug
 - [Architecture index](./00-INDEX.md)
 - [Ralph local README](../../ralph/README.md)
 - [GSD + BMAD guide](../gsd-bmad-comprehensive-guide.md)
-- [AGENTS.md](../../../../AGENTS.md)
+- [AGENTS.md](../../../../../AGENTS.md)

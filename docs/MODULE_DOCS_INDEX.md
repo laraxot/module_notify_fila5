@@ -1,3 +1,15 @@
+---
+title: "MODULE DOCS INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MODULE DOCS INDEX"
+issues: []
+discussions: []
+status: draft
+---
+
 # Master Documentation Index - FixCity Fila5
 
 **Project:** FixCity Fila5  
@@ -6,7 +18,6 @@
 **Total Docs:** 7,137+ markdown files  
 
 ---
-
 ## 🎯 Purpose
 
 Questo documento crea un **sistema di indicizzazione centrale** con collegamenti bidirezionali tra:
@@ -220,7 +231,7 @@ FixCity Fila5 Documentation
 | **Codebase Analysis** | `codebase/` | 3,170 | Technical analysis |
 
 **Cross-References:**
-- ← [Master Index](#master-documentation-index---fixcity-fila5) - This document
+- ← [Master Index](#master-documentation-index---ptv-fila5) - This document
 - ← [Module Docs](#module-documentation-indexes) - Module documentation
 - ← [Theme Docs](#theme-documentation-indexes) - Theme documentation
 
@@ -371,7 +382,7 @@ Themes/Sixteen/docs/
 
 ### Project Resources
 
-- [GitHub Repository](https://github.com/fixcity/fila5)
+- [GitHub Repository](https://github.com/ptv/fila5)
 - [Laravel Docs](https://laravel.com/docs)
 - [Filament Docs](https://filamentphp.com/docs)
 - [Vite Docs](https://vitejs.dev/)
@@ -421,7 +432,7 @@ Main content here.
 
 ### Finding Documentation
 
-1. Start at [Master Index](#master-documentation-index---fixcity-fila5)
+1. Start at [Master Index](#master-documentation-index---ptv-fila5)
 2. Navigate to module/theme category
 3. Use search (Ctrl+F) for keywords
 4. Check cross-references in related docs

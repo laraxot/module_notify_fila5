@@ -1,3 +1,15 @@
+---
+title: "tailwind notifications"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tailwind notifications"
+issues: []
+discussions: []
+status: draft
+---
+
 # Sistema di Notifiche con Filament Components
 
 ## Introduzione

@@ -1,3 +1,14 @@
+---
+title: "README"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "README"
+issues: []
+discussions: []
+---
+
 # GitHub Issues & Discussions - Design Comuni Replication
 
 Benvenuto nel sistema di tracking delle issue per il progetto **Design Comuni Replication**.
@@ -12,12 +23,21 @@ Benvenuto nel sistema di tracking delle issue per il progetto **Design Comuni Re
 
 ---
 
+title: "README"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "README"
+issues: []
+discussions: []
 ## 🎯 What We're Building
 
 Replicating **38 Design Comuni static pages** using **Tailwind CSS + Alpine.js** with **JSON-driven content blocks**.
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/  
 **Target**: http://fixcity.local/it/tests/[page-slug]  
+**Target**: http://ptv.local/it/tests/[page-slug]  
 **Timeline**: 12 weeks (April 1 - June 30, 2026)
 
 ---

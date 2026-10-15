@@ -1,3 +1,14 @@
+---
+title: "DOCUMENTATION ANALYSIS AND IMPROVEMENT PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION ANALYSIS AND IMPROVEMENT PLAN"
+issues: []
+discussions: []
+---
+
 # Documentation Analysis and Improvement Plan
 
 **Date**: 2026-03-13  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "DOCUMENTATION ANALYSIS AND IMPROVEMENT PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION ANALYSIS AND IMPROVEMENT PLAN"
+issues: []
+discussions: []
 ## 📊 Executive Summary
 
 ### Current State
@@ -154,7 +173,7 @@ The FixCity platform has extensive documentation across modules and themes, but 
 
 3. **Update Governance**
    - Finalize documentation governance
-   - Add to AGENTS.md
+   - Add to agents.md
    - Add to .windsurfrules
 
 ### Priority 3: Medium (Week 4)
@@ -242,7 +261,7 @@ done
 
 #### Day 15-16: Update Rules
 
-1. Update AGENTS.md
+1. Update agents.md
 2. Update .windsurfrules
 3. Create skills
 
@@ -392,7 +411,7 @@ echo "  snake_case: $(find laravel/Modules/*/docs/ -name '*_*.md' | wc -l)"
 ## 📚 Related Documents
 
 - [DOCUMENTATION_GOVERNANCE.md](DOCUMENTATION_GOVERNANCE.md) - Governance framework
-- [AGENTS.md](../../../AGENTS.md) - Agent guidelines
+- [agents.md](../../../AGENTS.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 
 ---

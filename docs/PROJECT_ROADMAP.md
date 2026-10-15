@@ -1,3 +1,14 @@
+---
+title: "PROJECT ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PROJECT ROADMAP"
+issues: []
+discussions: []
+---
+
 # 🗺️ FIXCITY - PROJECT ROADMAP COMPLETA
 
 > **Data**: 2025-10-01
@@ -6,6 +17,14 @@
 
 ---
 
+title: "PROJECT ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PROJECT ROADMAP"
+issues: []
+discussions: []
 ## 📊 EXECUTIVE SUMMARY
 
 **FixCity** è una piattaforma di civic engagement per la gestione delle segnalazioni urbane. Architettura **modular monolith** basata su Nwidart + Laraxot, con backend Filament 3.x e frontend Folio + Volt + Livewire 3.x.
@@ -489,7 +508,7 @@ Funzionalità:
 - [ ] Report performance mensili
 
 **File da creare**:
-- `config/fixcity-sla.php`
+- `config/ptv-sla.php`
 - `Modules/Fixcity/app/Services/SlaTrackingService.php`
 - `Modules/Fixcity/app/Jobs/CheckSlaViolationsJob.php`
 
@@ -683,7 +702,7 @@ tests/Browser/AdminManageTicketTest.php
 
 ### Best Practices
 - [Laravel Boost Guidelines](CLAUDE.md)
-- [Architecture Patterns](docs/architecture/)
+- [Architecture Patterns](architecture)
 
 ---
 

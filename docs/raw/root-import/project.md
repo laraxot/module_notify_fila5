@@ -1,4 +1,16 @@
+---
+title: "project"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project"
+issues: []
+discussions: []
+---
+
 # Base Fixcity Fila5 — PROJECT.md
+# Base App Fila5 — PROJECT.md
 
 ## Context
 Laravel + Filament v5 modular monolith (Laraxot architecture).
@@ -7,6 +19,7 @@ Frontend wizard: Ticket creation wizard via `CreateTicketWizardWidget` (Filament
 
 ## Current Milestone
 **M0: Fixcity Ticket Wizard — Visual & HTML Parity** ✅ DONE
+**M0: App Ticket Wizard — Visual & HTML Parity** ✅ DONE
 
 Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segnalazione-02-dati.html`
 
@@ -31,3 +44,4 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 - Widget → NO model binding (`getFormModel() → null`)
 - CSS scoped overrides → never mutate Filament markup
 - Multilingual: all strings via `__('fixcity::ticket.*')`
+- Multilingual: all strings via `__('laraxot::ticket.*')`

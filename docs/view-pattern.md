@@ -1,3 +1,14 @@
+---
+title: "view pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "view pattern"
+issues: []
+discussions: []
+---
+
 # Pattern view() — Variabile view-string + Parametri Espliciti
 
 **Regola**: Per ogni chiamata a view() usare variabile tipizzata view-string e parametri espliciti.
@@ -24,6 +35,7 @@ return view($viewName, $viewParams);
 ```php
 /** @phpstan-var view-string $viewName */
 $viewName = 'fixcity::components.blocks.ticket-list';
+$viewName = 'ptv::components.blocks.ticket-list';
 $viewParams = [
     'tickets' => $this->tickets,
     'status' => $this->status,
@@ -45,4 +57,5 @@ return view((string) $view);
 ## Collegamenti
 
 - [phpstan_critical_rules](../.cursor/rules/phpstan_critical_rules.md)
-- [AGENTS.md](../AGENTS.md)
+- [AGENTS.md](../../../AGENTS.md)
+- [agents.md](../../../AGENTS.md)

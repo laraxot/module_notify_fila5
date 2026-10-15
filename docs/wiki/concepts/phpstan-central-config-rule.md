@@ -1,4 +1,7 @@
 ---
+qmd: "phpstan central config rule"
+issues: []
+discussions: []
 title: PHPStan Central Config Rule
 type: concept
 tags: [phpstan, quality, workflow, governance]
@@ -6,6 +9,7 @@ sources: [AGENTS.md]
 created: 2026-04-16
 updated: 2026-04-16
 related: [llm-wiki-governance.md, ../project/qmd-local-docs-search.md]
+status: draft
 ---
 
 # PHPStan Central Config Rule

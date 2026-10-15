@@ -1,6 +1,17 @@
-# FixCity Platform - AGENTS.md
+---
+title: "AGENTS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "AGENTS"
+issues: []
+discussions: []
+---
 
-This file contains comprehensive guidelines and commands for AI agents working on the FixCity Laravel application.
+# Notify Platform - agents.md
+
+This file contains comprehensive guidelines and commands for AI agents working on the Notify Laravel application.
 
 ## 🚨 CRITICAL ARCHITECTURAL RULES
 
@@ -128,7 +139,7 @@ The script `bashscripts/git/subtrees/sync_remote_repo.sh` MUST work in **TWO mod
 
 **1. CLI Mode (Local Development)**:
 ```bash
-cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
 bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 ```
 
@@ -784,7 +795,7 @@ php artisan test --coverage
 ### Trait Usage Rules
 - **MAI duplicare metodi nei modelli quando possono essere definiti nei trait**
 - Se un trait (es. `SushiToJsons`) può fornire un metodo (es. `getJsonFile()`), aggiungerlo **SOLO nel trait**
-- I trait devono essere **self-contained** secondo base_techplanner pattern
+- I trait devono essere **self-contained** secondo base_app pattern
 - Quando PHPStan non trova un metodo chiamato da un modello usando un trait, PRIMA verifica se può essere aggiunto al trait
 - Non aggiungere lo stesso metodo a modelli diversi - viola DRY e crea manutenzione difficoltosa
 
@@ -825,7 +836,7 @@ This project uses `wikimedia/composer-merge-plugin` for modular dependency manag
 #### Module composer.json Pattern
 ```json
 {
-    "name": "fixcity/module-name",
+    "name": "laraxot/module-name",
     "type": "laravel-module",
     "require": {
         "php": "^8.2",
@@ -961,6 +972,14 @@ Log::info('Payment processed', ['order_id' => $order->id, 'amount' => $order->am
 
 ---
 
+title: "AGENTS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "AGENTS"
+issues: []
+discussions: []
 ## 🔍 PHPSTAN LEVEL 10 COMPLIANCE GUIDE
 
 ### Critical Error Patterns and Prevention
@@ -1467,7 +1486,7 @@ When creating or modifying features:
 1. **Update module README**: Describe the feature and usage
 2. **Create/update roadmap**: Track progress and future work
 3. **Document error fixes**: Record how PHPStan errors were resolved
-4. **Update AGENTS.md**: Add new patterns and best practices
+4. **Update agents.md**: Add new patterns and best practices
 5. **Create examples**: Show correct usage patterns
 
 ---
@@ -1679,9 +1698,9 @@ gh run list --limit 10
 
 ### Resources
 
-- **[docs/MULTI_AGENT_COLLABORATION.md](docs/MULTI_AGENT_COLLABORATION.md)** - Complete guide
-- **[Issue #12](https://github.com/laraxot/base_fixcity_fila5/issues/12)** - AI Agent Collaboration
-- **[docs/AI_AGENT_TEAMS.md](docs/AI_AGENT_TEAMS.md)** - Team organization
+- **[docs/MULTI_AGENT_COLLABORATION.md](../MULTI_AGENT_COLLABORATION.md)** - Complete guide
+- **[Issue #12](https://github.com/laraxot/platform/issues/12)** - AI Agent Collaboration
+- **[docs/AI_AGENT_TEAMS.md](../AI_AGENT_TEAMS.md)** - Team organization
 
 ### Success Story: 2026-03-13 Sync Fix
 
@@ -1771,13 +1790,13 @@ git push origin dev
 - Other AI agents can't see unpushed changes
 - Working code ≠ saved code until pushed
 
-**REFERENCE**: [Git Commit & Push Rule](docs/GIT_COMMIT_PUSH_RULE.md)
+**REFERENCE**: [Git Commit & Push Rule](../GIT_COMMIT_PUSH_RULE.md)
 
 ### Documentation Resources
 
-- [Master Documentation Index](docs/MASTER_DOCUMENTATION_INDEX.md)
-- [Documentation Governance](docs/DOCUMENTATION_GOVERNANCE.md)
-- [Documentation Improvement Plan](docs/DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)
+- [Master Documentation Index](../MASTER_DOCUMENTATION_INDEX.md)
+- [Documentation Governance](../DOCUMENTATION_GOVERNANCE.md)
+- [Documentation Improvement Plan](../DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)
 
 ---
 

@@ -1,3 +1,15 @@
+---
+title: "antigravity integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "antigravity integration"
+issues: []
+discussions: []
+status: draft
+---
+
 # antigravity e bmad method: integrazione e contesto fixcity
 
 ## scopo
@@ -18,6 +30,9 @@ Evita confusione: **non sono due installazioni obbligatorie**; sono **due ambien
 ## cosa usa questo repository (fixcity)
 
 | Aspetto | FixCity |
+## cosa usa questo repository (laraxot)
+
+| Aspetto | Notify |
 |--------|---------|
 | installazione BMAD | `npx bmad-method install` (vedi [guida](../guides/bmad-method-setup.md)) |
 | cartella core | **`_bmad/`** (non `.bmad-core/` nel root) — convenzione BMAD-METHOD nel progetto |

@@ -42,10 +42,9 @@ class SmsFactorData extends Data
             case 'bearer':
             default:
                 return [
-                    'Authorization' => 'Bearer '.$this->token,
+                    'Authorization' => 'Bearer '.($this->token ?? ''),
                     'Content-Type' => 'application/json',
-                    'Cache-Control' => 'no-cache',
-                ];
+                    'Cache-Control' => 'no-cache'];
         }
     }
 

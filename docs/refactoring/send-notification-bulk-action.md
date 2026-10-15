@@ -1,3 +1,14 @@
+---
+title: "send notification bulk action"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send notification bulk action"
+issues: []
+discussions: []
+---
+
 # Send Notification Bulk Action - DRY Refactoring
 
 **Status**: 🚧 In Progress
@@ -34,7 +45,7 @@ No reusable BulkAction exists for this common pattern. Each resource would need 
 
 ```
 ┌──────────────────┐
-│  TechPlanner     │
+│  App     │
 │  (Business)      │
 │                  │
 │  "I need to      │
@@ -93,7 +104,7 @@ Layer 2: UI Integration
                     │
 Layer 3: Resource Usage
 ┌─────────────────────────────────────────────────────┐
-│ Modules/TechPlanner/.../ListClients.php             │
+│ .../ListClients.php             │
 │                                                     │
 │ getTableBulkActions(): array {                      │
 │   return [                                          │
@@ -220,13 +231,13 @@ public function execute(
 
 **⚠️ Nota Filament 4**: Il metodo `->form()` è deprecato. Usare sempre `->schema()` per definire lo schema del form nelle Actions e BulkActions.
 
-**✅ Componenti Riutilizzabili**: Usare `MailTemplateSelect` e `ChannelCheckboxList` invece di configurare `Select`/`CheckboxList` inline. Vedi [Componenti Form Riutilizzabili](./forms/components-reusable.md).
+**✅ Componenti Riutilizzabili**: Usare `MailTemplateSelect` e `ChannelCheckboxList` invece di configurare `Select`/`CheckboxList` inline. Vedi [Componenti Form Riutilizzabili](../forms/components-reusable.md).
 
 **🧘 Extract Method Pattern**: Estrarre metodi privati per migliorare leggibilità e manutenibilità. Vedi [Extract Method Pattern](./extract-method-pattern.md).
 
 ### Step 5: Add to ListClients
 
-**File**: `Modules/TechPlanner/.../ListClients.php`
+**File**: `.../ListClients.php`
 
 **Change**:
 ```php
@@ -319,4 +330,12 @@ public function getTableBulkActions(): array
 
 ---
 
+title: "send notification bulk action"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send notification bulk action"
+issues: []
+discussions: []
 **Next Steps**: Implement Step 1 (Result DTO) and verify architecture.

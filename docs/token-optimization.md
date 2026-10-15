@@ -1,4 +1,16 @@
-# Token Optimization — base_fixcity_fila5
+---
+title: "token optimization"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "token optimization"
+issues: []
+discussions: []
+status: draft
+---
+
+# Token Optimization — base_ptv_fila5
 
 ## 🔴 Documento Aggiornato: [token-efficiency-religion.md](./token-efficiency-religion.md)
 
@@ -7,7 +19,6 @@
 **Per regole attive e complete**: Leggi [docs/token-efficiency-religion.md](./token-efficiency-religion.md)
 
 ---
-
 ## Ricerca effettuata: Aprile 2026
 
 ## Tecniche e risparmio atteso
