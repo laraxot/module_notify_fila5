@@ -22,7 +22,6 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 use Webmozart\Assert\Assert;
 
 /**
@@ -57,8 +56,7 @@ class SendSmsPage extends XotBasePage
     protected function getForms(): array
     {
         return [
-            'smsForm',
-        ];
+            'smsForm'];
     }
 
     protected function fillForms(): void
@@ -92,8 +90,7 @@ class SendSmsPage extends XotBasePage
                 ->helperText(__('notify::sms.fields.driver.helper_text')),
             'template_slug' => Select::make('template_slug')
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
-                ->required(),
-        ];
+                ->required()];
     }
 
     public function sendSMS(): void
@@ -145,11 +142,9 @@ class SendSmsPage extends XotBasePage
                 ->label(__('notify::sms.actions.send'))
                 ->icon('heroicon-o-paper-airplane')
                 ->color('primary')
-                ->action('sendSMS'),
-        ];
+                ->action('sendSMS')];
     }
 
-    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

@@ -1,4 +1,7 @@
 ---
+qmd: "module test location rule"
+issues: []
+discussions: []
 title: "Module Test Location Rule"
 type: concept
 sources: ["raw/articles/module-test-location-rule.md"]
@@ -8,6 +11,7 @@ updated: 2026-04-21
 tags: [testing, architecture, laraxot, bounded-context, ddd, modules]
 related:
   - concepts/laraxot-architecture.md
+status: draft
 ---
 
 # Regola: I Test Appartengono al Modulo

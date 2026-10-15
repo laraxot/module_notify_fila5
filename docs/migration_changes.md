@@ -1,3 +1,14 @@
+---
+title: "migration changes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "migration changes"
+issues: []
+discussions: []
+---
+
 # Modifiche alla Migrazione Mail Templates
 
 ## Modifiche Effettuate
@@ -89,7 +100,7 @@
 
 ## Collegamenti Correlati
 
-- [Regole Migrazioni](./MIGRATION_RULES.md)
-- [Documentazione Template](./EMAIL_TEMPLATES.md)
+- [Regole Migrazioni](./migration_rules.md)
+- [Documentazione Template](./email_templates.md)
 - [Best Practices Database](../../../docs/best-practices/database.md)
-- [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md) 
+- [Proposta Slug Template](./email_template_slug_proposal.md) 

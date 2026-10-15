@@ -1,6 +1,17 @@
+---
+title: "DESIGN COMUNI BMAD MASTER PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI BMAD MASTER PLAN"
+issues: []
+discussions: []
+---
+
 # Design Comuni Italia - BMad Master Plan
 
-**Project:** FixCity Fila5
+**Project:** Notify Fila5
 **Date:** 2026-04-01
 **Status:** 🔄 **In Progress**
 **Priority:** 🔴 **CRITICAL**
@@ -8,6 +19,14 @@
 
 ---
 
+title: "DESIGN COMUNI BMAD MASTER PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI BMAD MASTER PLAN"
+issues: []
+discussions: []
 ## 🎯 Mission Statement
 
 Replicare **ESATTAMENTE** le 38 pagine statiche di Design Comuni Italia utilizzando:
@@ -209,7 +228,7 @@ pages/tests/[slug].blade.php  ← UNICO file per TUTTE
 **Comparison:**
 ```
 Design Comuni: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
-FixCity:       http://fixcity.local/it/tests/homepage
+Notify:       http://laraxot.local/it/tests/homepage
 ```
 
 **Checklist:**
@@ -370,7 +389,7 @@ _bmad-output/
 ## Design Comuni Replication - {Page Name}
 
 **URL Design Comuni:** https://italia.github.io/design-comuni-pagine-statiche/sito/{page}.html
-**URL FixCity:** http://fixcity.local/it/tests/{page}
+**URL Notify:** http://laraxot.local/it/tests/{page}
 
 ### Checklist
 
@@ -384,7 +403,7 @@ _bmad-output/
 ### Screenshots
 
 - [ ] Design Comuni screenshot
-- [ ] FixCity screenshot
+- [ ] Notify screenshot
 - [ ] Comparison analysis
 
 ### Analysis
@@ -575,7 +594,7 @@ pages/tests/argomenti.blade.php     # NO
 ### Key Documents
 
 - [Master Index](docs/project/MODULE_DOCS_INDEX.md)
-- [Theme Detection](docs/project/THEME_DETECTION_SYSTEM.md)
+- [Theme Detection](THEME_DETECTION_SYSTEM.md)
 - [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md)
 - [Page Component](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md)
 

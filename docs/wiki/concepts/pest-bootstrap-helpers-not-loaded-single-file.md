@@ -1,10 +1,23 @@
 ---
+qmd: "pest bootstrap helpers not loaded single file"
+issues: []
+discussions: []
 title: "Pest — helper di tests/Pest.php non sempre caricati per run isolate"
 type: concept
 module: Notify
 tags: [pest, bootstrap, helpers, second-brain]
 created: 2026-07-06
 updated: 2026-07-06
+related:
+  - "./claude-audit-static.md"
+  - "./code-redundancy-notify.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
+status: draft
 ---
 
 # Pest — funzioni helper di `tests/Pest.php` non affidabili su run isolate

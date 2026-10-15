@@ -1,3 +1,22 @@
+---
+title: "Modulo Notify - Documentazione"
+type: index
+tags: [notify, docs]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione readme modulo notify - documentazione index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - README.md
+  - wiki/index.md
+  - notifications/readme.md
+  - integrations/readme.md
+  - templates/readme.md
+---
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -45,7 +64,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 - **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
   Sistema template email database
 
-- **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
+- **[Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)**  
   Best practices layout email
 
 #### Notifications
@@ -74,8 +93,7 @@ Modules/Notify/
 │   │  
 │   ├── Notifications/
 │   │   ├── RecordNotification.php       ⭐ Notifica generica per record
-│   │   ├── ThemeNotification.php
-│   │   └── SendSchedeNotification.php
+│   │   └── ThemeNotification.php        # (SendSchedeNotification.php citato in passato: non esiste)
 │   │  
 │   ├── Datas/
 │   │   ├── EmailData.php                # DTO Email
@@ -243,15 +261,12 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Moduli Correlati
 
 #### Ptv (Schede Valutazione)
-- **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
-  Caso d'uso completo: invio schede valutazione con PDF
-
-- **[SendMailByRecord Action](../../Ptv/app/Actions/Scheda/SendMailByRecord.php)**  
-  Implementation reference
+- Il modulo `Ptv` non e' presente in questo repository (verificato 2026-10-14): i due riferimenti che seguivano
+  (`Ptv/docs/pdf-email-attachments-complete-guide.md`, `Ptv/app/Actions/Scheda/SendMailByRecord.php`) sono ridotti a testo.
 
 #### Xot (Core Framework)
-- **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
-  Generazione PDF binario da record
+- **[GetPdfContentByRecordAction](../../Xot/app/Actions/Pdf/GetPdfContentByRecordAction.php)**  
+  Generazione PDF binario da record (codice; la guida `Xot/docs/actions/pdf-content-generation-technical.md` non esiste)
 
 - **[PDF Actions](../../Xot/app/Actions/Pdf/)**  
   Actions per gestione PDF
@@ -259,13 +274,13 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Documentazione Interna
 
 #### Email System
-- [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
-- [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
-- [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
+- [Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)
+- [Spatie Mail Templates Structure](./mail-templates/spatie_mail_templates_structure.md)
+- [Email Troubleshooting](./email-sending/email_troubleshooting.md)
 
 #### Notifications
 - [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
-- [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
+- Notification Management Business Logic: la pagina `notifications/notification-management-business-logic.md` non esiste; il comportamento e' coperto da `tests/Feature/NotificationManagementBusinessLogicTest.php`
 
 ---
 

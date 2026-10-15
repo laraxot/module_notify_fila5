@@ -1,9 +1,28 @@
+---
+title: "gemini super mucca"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gemini super mucca"
+issues: []
+discussions: []
+---
+
 # GEMINI Super Mucca
 
 > Metodologia "Super Mucca" - Laraxot Zen
 
 ---
 
+title: "gemini super mucca"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gemini super mucca"
+issues: []
+discussions: []
 ## 🎯 Concetto Fondamentale
 
 La metodologia "Super Mucca" si basa su tre pilastri:
@@ -103,5 +122,5 @@ Prima di toccare **qualsiasi** codice, devi comprendere:
 
 - [Indice GEMINI](./gemini-split-index.md)
 - [memories.md](./memories.md)
-- [GEMINI.md originale](../../GEMINI.md)
+- [GEMINI.md originale](../GEMINI.md)
 - [Index principale](./index.md)

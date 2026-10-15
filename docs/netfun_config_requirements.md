@@ -1,3 +1,14 @@
+---
+title: "netfun config requirements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun config requirements"
+issues: []
+discussions: []
+---
+
 # Requisiti di Configurazione per Netfun SMS
 
 Questa guida descrive la configurazione necessaria per utilizzare il provider Netfun come driver SMS nel modulo Notify.
@@ -13,13 +24,14 @@ Aggiungi la seguente sezione nel file `config/sms.php`:
 ## Introduzione
 
 Questo documento descrive i requisiti di configurazione per l'integrazione con il provider SMS Netfun nel modulo Notify, seguendo la [struttura standardizzata della configurazione SMS](./STANDARDIZED_SMS_CONFIG_STRUCTURE.md).
-Questo documento descrive i requisiti di configurazione per l'integrazione con il provider SMS Netfun nel modulo Notify, seguendo la [struttura standardizzata della configurazione SMS](./standardized_sms_config_structure.md).
 
 ## Struttura di Configurazione
 
 La configurazione di Netfun segue la struttura standardizzata con parametri globali e specifici:
 
 ### Parametri Globali (a livello di root)
+
+```
 
 ```php
 // Configurazioni globali applicabili a tutti i provider
@@ -82,8 +94,6 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Documentazione Correlata
 
-- [Struttura Standardizzata della Configurazione SMS](./STANDARDIZED_SMS_CONFIG_STRUCTURE.md)
-- [Canale SMS Netfun](./SMS_NETFUN_CHANNEL.md)
 - [Struttura Standardizzata della Configurazione SMS](./standardized_sms_config_structure.md)
 - [Canale SMS Netfun](./sms_netfun_channel.md)
 
@@ -93,7 +103,14 @@ Per problemi di configurazione o domande sull'integrazione con Netfun, consultar
 
 ---
 
-*Ultimo aggiornamento: 2025-05-12*
+title: "netfun config requirements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun config requirements"
+issues: []
+discussions: []
 *Ultimo aggiornamento: 2025-05-12*
 
 ## 2. Esempio di .env
@@ -141,13 +158,10 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Collegamenti
 
-- [Documentazione Completa Netfun Channel](./SMS_NETFUN_CHANNEL.md)
-- [Esempi di Utilizzo Netfun](./NETFUN_EXAMPLES.md)
 - [Documentazione Completa Netfun Channel](./sms_netfun_channel.md)
 - [Esempi di Utilizzo Netfun](./netfun_examples.md)
 - [Risoluzione Conflitti Netfun](./netfunchannel_conflict_resolution.md)
 
 ---
 
-*Ultimo aggiornamento: 2025-05-12*
 *Ultimo aggiornamento: 2025-05-12*

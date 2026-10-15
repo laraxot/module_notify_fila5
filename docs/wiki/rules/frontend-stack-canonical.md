@@ -1,4 +1,9 @@
 ---
+tags: [documentation]
+created: 2026-09-26
+qmd: "frontend stack canonical"
+issues: []
+discussions: []
 title: frontend stack canonico — notify module stub
 type: rule
 module: Notify
@@ -18,8 +23,8 @@ Notifiche e UI Filament Notify: stack admin **Filament v5**. FO email/template s
 ## SSoT
 
 - [Themes/Sixteen/docs/wiki/rules/frontend-stack-canonical.md](../../../../../Themes/Sixteen/docs/wiki/rules/frontend-stack-canonical.md)
-- [docs/wiki/rules/frontend-stack-canonical.md](../../../../../docs/wiki/rules/frontend-stack-canonical.md)
+- [docs/wiki/rules/frontend-stack-canonical.md](../../../../../../docs/wiki/rules/frontend-stack-canonical.md)
 
 ## Story
 
-[STORY-133](../../../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md)
+[STORY-133](../../../../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md)

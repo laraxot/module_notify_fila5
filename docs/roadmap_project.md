@@ -1,3 +1,14 @@
+---
+title: "roadmap project"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap project"
+issues: []
+discussions: []
+---
+
 # 🚀 ROADMAP GENERALE - FixCity Platform
 
 ## 📋 Sommario Esecutivo
@@ -10,6 +21,14 @@
 
 ---
 
+title: "roadmap project"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap project"
+issues: []
+discussions: []
 ## 🎯 Obiettivi Strategici
 
 ### 1. Completare le Funzionalità Core (Priorità Alta)
@@ -328,12 +347,12 @@
 ## 🎓 Knowledge Base
 
 ### Link Documentazione Moduli
-- [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
-- [Modulo User](../Modules/User/docs/README.md)
-- [Modulo Cms](../Modules/Cms/docs/README.md)
-- [Modulo Geo](../Modules/Geo/docs/README.md)
-- [Modulo Notify](../Modules/Notify/docs/README.md)
-- [Theme Sixteen](../Themes/Sixteen/docs/README.md)
+- [Modulo Fixcity](../../Fixcity/docs/README.md)
+- [Modulo User](../../User/docs/README.md)
+- [Modulo Cms](../../Cms/docs/README.md)
+- [Modulo Geo](../../Geo/docs/README.md)
+- [Modulo Notify](README.md)
+- [Theme Sixteen](../../../Themes/Sixteen/docs/README.md)
 
 ### External Resources
 - [Laravel Documentation](https://laravel.com/docs)

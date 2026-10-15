@@ -1,3 +1,14 @@
+---
+title: "mail templates structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail templates structure"
+issues: []
+discussions: []
+---
+
 # Struttura Template Email
 
 ## Introduzione
@@ -120,9 +131,7 @@ $attachments = [
 ## Collegamenti Correlati
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
-- [Best Practices Email HTML](./EMAIL_HTML_BEST_PRACTICES.md)
-- [Guida Testing](./EMAIL_TESTING.md)
-- [Best Practices Email HTML](./EMAIL_HTML_BEST_PRACTICES.md)
+- [Best Practices Email HTML](./email_html_best_practices.md)
 - [Guida Testing](./EMAIL_TESTING.md)
 
 ## Supporto

@@ -1,3 +1,14 @@
+---
+title: "mail template model changes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mail template model changes"
+issues: []
+discussions: []
+---
+
 # Modifiche al Modello MailTemplate
 
 ## Introduzione
@@ -134,10 +145,6 @@ protected $casts = [
 - [Regole Migrazioni](./migration_rules.md)
 - [Documentazione Template](./email_templates.md)
 - [Best Practices](./best-practices.md)
-- [Modifiche Migrazione](./MIGRATION_CHANGES.md)
-- [Regole Migrazioni](./MIGRATION_RULES.md)
-- [Documentazione Template](./EMAIL_TEMPLATES.md)
-- [Best Practices](./BEST-PRACTICES.md)
 
 ## Note Importanti
 

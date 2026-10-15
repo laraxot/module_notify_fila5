@@ -1,6 +1,17 @@
+---
+title: "migration patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "migration patterns"
+issues: []
+discussions: []
+---
+
 # Migration patterns
 
-> Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md) | [IFLOW.md](../../bashscripts/ai/IFLOW.md)
+> Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md) | [IFLOW.md](../../../../../bashscripts/ai/IFLOW.md)
 > Back: [index](index.md) | [laraxot-philosophy.md](laraxot-philosophy.md)
 
 ## XotBaseMigration standard

@@ -1,13 +1,26 @@
+---
+title: "ANALISI COLORI HEADER FOOTER"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ANALISI COLORI HEADER FOOTER"
+issues: []
+discussions: []
+status: draft
+---
+
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
+# 📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia
 
 ## Data: {{ date('Y-m-d H:i:s') }}
 
 ---
-
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
 **FixCity**: http://fixcity.local/it/tests/homepage
+**Notify**: http://laraxot.local/it/tests/homepage
 
 **Differenze Principali**:
 1. ❌ Header: Colori non corretti
@@ -161,6 +174,9 @@
 ## 3. FixCity - Differenze Attuali
 
 ### Header FixCity (Errato)
+## 3. Notify - Differenze Attuali
+
+### Header Notify (Errato)
 
 ```
 ❌ Barra regione: Colore sbagliato
@@ -171,6 +187,7 @@
 ```
 
 ### Footer FixCity (Errato)
+### Footer Notify (Errato)
 
 ```
 ❌ Feedback module: Assente o errato

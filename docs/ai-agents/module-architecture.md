@@ -1,3 +1,14 @@
+---
+title: "module architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "module architecture"
+issues: []
+discussions: []
+---
+
 # Module Architecture
 
 > Architettura modulare Laravel per PTVX.
@@ -61,5 +72,6 @@ class User extends Illuminate\Database\Eloquent\Model
 **Precedente:** [Project Context](project-context.md) | **Successivo:** [Code Style](code-style.md)
 
 **Di ritorno:**
-- [CLAUDE.md - Architecture Section](../../CLAUDE.md)
-- [AGENTS.md - Module Architecture Section](../../AGENTS.md)
+- [CLAUDE.md - Architecture Section](../CLAUDE.md)
+- [AGENTS.md - Module Architecture Section](../AGENTS.md)
+- [agents.md - Module Architecture Section](../agents.md)

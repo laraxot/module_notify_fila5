@@ -1,3 +1,15 @@
+---
+title: "logging optimization plan"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "logging optimization plan"
+issues: []
+discussions: []
+status: draft
+---
+
 # Notify Module - Logging Optimization Plan
 
 ## Current Issues
@@ -239,6 +251,7 @@ After:
 // Add error handling examples only
 
 // docs/sms_best_practices.md
+// docs/sms-best-practices.md
 // Update to reflect new logging practices
 ```
 

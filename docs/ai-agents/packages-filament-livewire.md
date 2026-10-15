@@ -1,3 +1,15 @@
+---
+title: "packages filament livewire"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages filament livewire"
+issues: []
+discussions: []
+status: draft
+---
+
 # Filament 5 + Livewire 4 — API Reference
 
 Riferimento completo per Filament 5.2.2, Livewire 4.1.4 e pacchetti correlati nel progetto Laraxot.
@@ -19,7 +31,6 @@ Riferimento completo per Filament 5.2.2, Livewire 4.1.4 e pacchetti correlati ne
 | livewire/volt | 1.10.3 |
 
 ---
-
 ## Regole critiche Filament 5 in Laraxot
 
 ### Regola 1: sempre XotBase (MAI Filament diretto)
@@ -448,6 +459,7 @@ new class extends Component {
 ```php
 use Livewire\Livewire;
 use Modules\Quaeris\Filament\Widgets\SalesChartWidget;
+use Modules\App\Filament\Widgets\SalesChartWidget;
 
 it('renders chart widget', function (): void {
     Livewire::test(SalesChartWidget::class)

@@ -1,3 +1,15 @@
+---
+title: "packages laravel core"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "packages laravel core"
+issues: []
+discussions: []
+status: draft
+---
+
 # Laravel 12 + Qualita Codice — Pacchetti Core
 
 Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
@@ -22,7 +34,6 @@ Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 | laravel/mcp | 0.5.9 |
 
 ---
-
 ## Laravel 12 — Principali novita
 
 - PHP 8.2+ minimo, pieno supporto PHP 8.4
@@ -141,6 +152,7 @@ XDEBUG_MODE=off ./vendor/bin/pest --coverage --min=80
 
 # Modulo specifico
 XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests
+XDEBUG_MODE=off ./vendor/bin/pest Modules/App/tests
 
 # Via composer
 composer coverage
@@ -288,6 +300,7 @@ Espone l'applicazione all'AI (Claude, ecc.) tramite MCP protocol.
 use Laravel\Mcp\Server;
 
 $server = new Server('quaeris-surveys');
+$server = new Server('this-project-surveys');
 
 // Resources (dati che l'AI puo leggere)
 $server->resource('surveys', new Resource(

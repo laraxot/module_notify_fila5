@@ -1,3 +1,14 @@
+---
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+---
+
 # Architecture Documentation Index
 
 **Path**: `.agents/docs/architecture/`
@@ -28,4 +39,4 @@
 ## Navigation
 
 - [../00-INDEX.md](../00-INDEX.md)
-- [../../../../AGENTS.md](../../../../AGENTS.md)
+- [../../../../AGENTS.md](../../../../../AGENTS.md)

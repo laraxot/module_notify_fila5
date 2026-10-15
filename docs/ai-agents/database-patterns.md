@@ -1,3 +1,15 @@
+---
+title: "database patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database patterns"
+issues: []
+discussions: []
+status: draft
+---
+
 # Database patterns
 
 > Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md)

@@ -1,6 +1,18 @@
+---
+title: "claude overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude overview"
+issues: []
+discussions: []
+---
+
 # CLAUDE Overview
 
 Panoramica del progetto LaravelPizza/Base Predict Fila5.
+Panoramica del progetto LaravelPizza/Base Forecast Fila5.
 
 ## Progetto
 
@@ -14,6 +26,14 @@ Panoramica del progetto LaravelPizza/Base Predict Fila5.
 
 ---
 
+title: "claude overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "claude overview"
+issues: []
+discussions: []
 ## Stack Tecnologico
 
 | Tecnologia | Descrizione |
@@ -77,5 +97,5 @@ Modules/{ModuleName}/
 ## 🔗 Link
 
 - [Indice CLAUDE](./claude-split-index.md)
-- [CLAUDE.md originale](../../CLAUDE.md)
+- [CLAUDE.md originale](../CLAUDE.md)
 - [Index principale](./index.md)

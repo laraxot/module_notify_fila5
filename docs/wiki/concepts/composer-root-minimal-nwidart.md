@@ -12,7 +12,7 @@ discussions:
 related:
   - ../../../Xot/docs/wiki/concepts/composer-root-skeleton-modular.md
   - ../../../../../../docs/wiki/concepts/composer-root-minimal-nwidart.md
-  - ../../composer.json
+  - ../../../composer.json
 ---
 
 # Notify e composer root minimale
@@ -20,6 +20,7 @@ related:
 ## Regola
 
 Dipendenze del dominio **Notify** in `Modules/Notify/composer.json`. Il root `laravel/composer.json` resta skeleton come [base_fixcity_fila5](https://github.com/laraxot/base_fixcity_fila5/blob/dev/laravel/composer.json).
+Dipendenze del dominio **Notify** in `Modules/Notify/composer.json`. Il root `laravel/composer.json` resta skeleton come [base_ptvx_fila5](https://github.com/laraxot/platform/blob/dev/laravel/composer.json).
 
 
 

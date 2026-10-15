@@ -1,3 +1,14 @@
+---
+title: "mcp index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp index"
+issues: []
+discussions: []
+---
+
 # MCP Index
 
 **Last Updated**: 2026-04-09
@@ -14,7 +25,7 @@
 
 ## Configuration
 
-- [Qwen MCP Config](../../.qwen/mcp.json) - MCP server definitions
+- [Qwen MCP Config](../../../../../.qwen/mcp.json) - MCP server definitions
 - [Memory Bank](../../memory-bank/) - Project memory bank (structured docs)
 
 ## Rules

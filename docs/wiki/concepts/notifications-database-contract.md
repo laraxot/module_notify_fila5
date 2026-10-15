@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "notifications — schema Notify, runtime User"
 type: concept
 tags: [notify, notifications, migration, database, user-connection, xotbasemigration]
@@ -16,6 +18,7 @@ qmd: notifications database notify owner xotbasemigration user forbidden
 | **Schema owner** | **Notify** | unica `create_notifications_table` (`XotBaseMigration`) |
 | **Runtime Eloquent** | **User** | `Modules\User\Models\Notification` |
 | **Connessione** | `user` | `fixcity_user` |
+| **Connessione** | `user` | `app_user` |
 
 Notify **persiste** il canale DB; User **è** il notifiable. La migrazione **non** va in User.
 
@@ -60,9 +63,9 @@ php artisan migrate
 
 ## Collegamenti
 
-- [no-notifications-migration-in-user-module](../../User/docs/wiki/rules/no-notifications-migration-in-user-module.md)
-- [notifications-runtime-model](../../User/docs/wiki/concepts/notifications-runtime-model.md)
-- [one-migration-per-model](../../../../../docs/wiki/memories/one-migration-per-model-bump-timestamp.md)
+- [no-notifications-migration-in-user-module](../../../../User/docs/wiki/rules/no-notifications-migration-in-user-module.md)
+- [notifications-runtime-model](../../../../User/docs/wiki/concepts/notifications-runtime-model.md)
+- [one-migration-per-model](../../../../../../docs/wiki/memories/one-migration-per-model-bump-timestamp.md)
 
 
 ## Pagina FO collegata (User + Sixteen)
@@ -76,5 +79,5 @@ La migrazione Notify abilita il DB; la **pagina** e il **link header** sono altr
 | Folio `name('notifications')` | User `pages/notifications/` |
 | `route('notifications')` header | Sixteen |
 
-- [notifications-folio-page.md](../../User/docs/wiki/concepts/notifications-folio-page.md)
-- [folio-list-vs-route-list.md](../../Cms/docs/wiki/concepts/folio-list-vs-route-list.md)
+- [notifications-folio-page.md](../../../../User/docs/wiki/concepts/notifications-folio-page.md)
+- [folio-list-vs-route-list.md](../../../../Cms/docs/wiki/concepts/folio-list-vs-route-list.md)

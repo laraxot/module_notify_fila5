@@ -1,4 +1,7 @@
 ---
+qmd: "code redundancy audit"
+issues: []
+discussions: []
 title: "Code redundancy audit — Notify"
 type: source
 status: draft
@@ -84,6 +87,7 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 
 - Markdown locale + Git restano la base piu' portabile: gli agenti leggono/scrivono file senza database esterni.
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
+- agents.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 - I descrittori architetturali navigabili riducono i passi di localizzazione: ogni owner dovrebbe avere mappa scopo -> file chiave.
 - AI utile = recupero mirato, non pre-caricamento: report atomici, QMD, issue e log.
 

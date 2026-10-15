@@ -1,3 +1,14 @@
+---
+title: "semantic css"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "semantic css"
+issues: []
+discussions: []
+---
+
 # 🎨 Semantic CSS - AI Agents Documentation
 
 **Path**: `bashscripts/ai/.agents/docs/frontend/semantic-css.md`  
@@ -7,6 +18,14 @@
 
 ---
 
+title: "semantic css"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "semantic css"
+issues: []
+discussions: []
 ## 🎯 Core Principle
 
 > **"Name classes based on what an element *is*, not what it *looks like*."**
@@ -28,6 +47,7 @@
 
 <div class="outcomes-grid">
   <x-predict.outcome-card />
+  <x-forecast.outcome-card />
 </div>
 ```
 
@@ -51,6 +71,8 @@
 {{-- ✅ CORRETTO: Semantic Blade --}}
 <x-predict.hero :title="$title" :tagline="$tagline" />
 <x-predict.outcomes-grid :outcomes="$outcomes" />
+<x-forecast.hero :title="$title" :tagline="$tagline" />
+<x-forecast.outcomes-grid :outcomes="$outcomes" />
 
 {{-- ❌ SBAGLIATO: Utility classes --}}
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -85,15 +107,18 @@ class OutcomesTableWidget extends XotBaseTableWidget
 
 - [Semantic CSS Principles](../../../../laravel/Modules/Predict/docs/SEMANTIC_CSS_PRINCIPLES.md) - Complete guide
 - [Blade Minimal Logic](../../../../laravel/Modules/Predict/docs/BLADE_MINIMAL_LOGIC_BEST_PRACTICES.md) - Blade patterns
+- [Semantic CSS Principles](../../../../laravel/Modules/Forecast/docs/SEMANTIC_CSS_PRINCIPLES.md) - Complete guide
+- [Blade Minimal Logic](../../../../laravel/Modules/Forecast/docs/BLADE_MINIMAL_LOGIC_BEST_PRACTICES.md) - Blade patterns
 
 ### For Theme Developers
 
-- [TwentyOne Semantic CSS Guide](../../../../laravel/Themes/TwentyOne/docs/SEMANTIC_CSS_GUIDE.md) - Theme-specific guide
+- [TwentyOne Semantic CSS Guide](../../../../../Themes/TwentyOne/docs/SEMANTIC_CSS_GUIDE.md) - Theme-specific guide
 
 ### Rules & Enforcement
 
 - [Semantic CSS Rule](../../rules/frontend/semantic-css-rule.md) - **MANDATORY** rule
 - [Frontend Rules Index](../../rules/frontend/00-INDEX.md) - All frontend rules
+- [Frontend Rules Index](../../rules/frontend/00-index.md) - All frontend rules
 
 ---
 
@@ -146,6 +171,7 @@ class OutcomesTableWidget extends XotBaseTableWidget
 - [Rule 005: Filament Table for Lists](../../rules/filament/005-filament-table-for-lists.md)
 - [Container Blade Agnostic Rule](../../rules/frontend/container-blade/agnostic-rule.md)
 - [Component-First Architecture](../../../../laravel/Modules/Predict/docs/PHILOSOPHY_AND_VISION.md)
+- [Component-First Architecture](../../../../laravel/Modules/Forecast/docs/PHILOSOPHY_AND_VISION.md)
 
 ---
 

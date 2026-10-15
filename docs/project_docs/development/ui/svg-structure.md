@@ -1,3 +1,14 @@
+---
+title: "svg structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg structure"
+issues: []
+discussions: []
+---
+
 # Struttura SVG nei Moduli
 
 ## Panoramica
@@ -81,6 +92,7 @@ Icona specifica del modulo che rappresenta la funzionalità principale.
 - `form-icon.svg` per il modulo FormBuilder
 - `db-icon.svg` per il modulo DbForge
 - `fixcity-icon.svg` per il modulo Fixcity
+- `laraxot-icon.svg` per il modulo App
 
 ## Moduli Coperti
 
@@ -97,6 +109,7 @@ La struttura SVG è stata creata per i seguenti moduli:
 9. **Geo** - Geolocalizzazione
 10. **Gdpr** - Conformità GDPR
 11. **Fixcity** - Modulo specifico progetto
+11. **App** - Modulo specifico progetto
 12. **Comment** - Sistema commenti
 13. **Chart** - Grafici e statistiche
 14. **Blog** - Sistema blog
@@ -174,10 +187,18 @@ Lo script `bashscripts/create_svg_structure.sh` è stato utilizzato per creare a
 
 - [Struttura Moduli](../architecture/modules/)
 - [Componenti UI](./ui-components.md)
-- [Best Practices Filament](../filament/best-practices.md)
+- [Best Practices Filament](../../../best-practices.md)
 - [Script di Automazione](../../bashscripts/create_svg_structure.sh)
 
 ---
 
+title: "svg structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg structure"
+issues: []
+discussions: []
 *Struttura SVG creata: Agosto 2025*
 *Responsabile: DRY + KISS SVG Structure* 

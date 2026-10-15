@@ -1,3 +1,15 @@
+---
+qmd: "MULTI AGENT COLLABORATION"
+issues: []
+discussions: []
+title: "Multi-Agent Collaboration Guide"
+module: notify
+type: integration
+tags: [integrations, modules, notify]
+created: 2026-08-24
+updated: 2026-08-24
+---
+
 # 🤖 Multi-Agent Collaboration Guide
 
 **Version**: 1.0  
@@ -428,8 +440,8 @@ ralph-loop stop \
 
 ## 🔗 Related Documents
 
-- [Zen of Documentation](docs/ZEN_OF_DOCUMENTATION.md)
-- [Documentation Governance](docs/DOCUMENTATION_GOVERNANCE.md)
+- [Zen of Documentation](ZEN_OF_DOCUMENTATION.md)
+- [Documentation Governance](DOCUMENTATION_GOVERNANCE.md)
 - [OpenViking Context](.qwen/openviking-context.md)
 - [BMAD Thread]( _bmad/threads/zen-documentation.md)
 - [GSD Phases](.planning/phases/)

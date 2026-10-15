@@ -1,3 +1,14 @@
+---
+title: "agents overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents overview"
+issues: []
+discussions: []
+---
+
 # 🎯 AI Agents Overview
 
 **File**: `.agents/docs/overview/agents-overview.md`  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "agents overview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents overview"
+issues: []
+discussions: []
 ## 📊 Project Stack
 
 ### Core Technology
@@ -73,6 +92,7 @@
 **✅ SEMPRE**:
 ```blade
 @livewire(\Modules\Predict\Filament\Widgets\PredictTableWidget::class)
+@livewire(\Modules\Forecast\Filament\Widgets\ForecastTableWidget::class)
 ```
 
 **Perché**:
@@ -222,8 +242,8 @@ vendor/bin/pest --coverage
 ## 📖 Quick Links
 
 ### Getting Started
-- [Coding Standards](../standards/agents-coding-standards.md)
-- [Module Architecture](../architecture/agents-module-architecture.md)
+- [Coding Standards](../agents-coding-standards.md)
+- [Module Architecture](../agents-module-architecture.md)
 - [Quality Gate](../workflow/agents-quality-gate.md)
 
 ### Critical Rules

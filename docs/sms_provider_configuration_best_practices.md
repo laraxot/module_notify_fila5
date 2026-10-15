@@ -1,3 +1,14 @@
+---
+title: "sms provider configuration best practices"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms provider configuration best practices"
+issues: []
+discussions: []
+---
+
 # Best Practices per la Configurazione dei Provider SMS
 
 ## Struttura Corretta della Configurazione
@@ -73,7 +84,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
-'sender' => env('NETFUN_SENDER', 'Quaeris'),
+'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),
@@ -115,7 +126,3 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./sms_implementation.md)
 - [SMS Best Practices](./sms_best_practices.md)
 - [Netfun Authentication Methods](./netfun_authentication_methods.md)
-- [SMS Provider Architecture](./SMS_PROVIDER_ARCHITECTURE.md)
-- [SMS Implementation](./SMS_IMPLEMENTATION.md)
-- [SMS Best Practices](./SMS_BEST_PRACTICES.md)
-- [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
