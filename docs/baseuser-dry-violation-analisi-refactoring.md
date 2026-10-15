@@ -347,7 +347,7 @@ test('hasRole con pipe syntax', function () {
 
 Questa è la **quarta analisi** del 15 Ottobre 2025:
 
-1. ✅ [View Cache Components](./view-cache-components-fix-2025-10-15.md)
+1. ✅ [View Cache Components](./view-cache-components-fix-componenti-mancanti.md)
 2. ✅ [Transaction Model Removal](./transaction-removal-fix-migrate-fresh.md)
 3. ✅ [Super Admin Setup](./super-admin-setup-fix-tabella-roles.md)
 4. 📋 **BaseUser DRY Violation** (questa analisi)

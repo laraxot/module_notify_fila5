@@ -228,7 +228,7 @@ Questa è la seconda implementazione della giornata:
 ### Sessione 1: View Cache Components (Mattina)
 - Creati componenti badge.status e badge.priority
 - Risolto errore view:cache
-- **Documentazione**: [view-cache-components-fix-2025-10-15.md](./view-cache-components-fix-2025-10-15.md)
+- **Documentazione**: [view-cache-components-fix-2025-10-15.md](./view-cache-components-fix-componenti-mancanti.md)
 
 ### Sessione 2: Transaction Model (Pomeriggio)  
 - Disabilitate TransactionFactory
@@ -245,7 +245,7 @@ Questa è la seconda implementazione della giornata:
 - [Models Overview](../../Blog/docs/models)
 
 ### Root Progetto
-- [View Cache Fix (Sessione 1)](./view-cache-components-fix-2025-10-15.md)
+- [View Cache Fix (Sessione 1)](./view-cache-components-fix-componenti-mancanti.md)
 - [Sessione Super Mucca](./SESSIONE-SUPER-MUCCA.md)
 - [Project Analysis](./project-analysis-and-roadmap.md)
 

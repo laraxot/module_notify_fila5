@@ -285,7 +285,7 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 6. ✅ [phpstan/final-report-session-2025-10-01.md](./phpstan/final-report-session-2025-10-01.md)
 7. ✅ [phpstan/filament-v4-fixes-session.md](./phpstan/filament-v4-fixes-session.md)
 8. ✅ [phpstan/phpstan.md](./phpstan/phpstan.md) - Aggiornato
-9. ✅ [QUESTO DOCUMENTO](./completamento-progetto-2025-10-01.md)
+9. ✅ [QUESTO DOCUMENTO](./completamento-progetto-sessione-ottobre.md)
 
 ### Module Roadmaps (9 dettagliate)
 10. ✅ [Xot/docs/roadmap-and-issues.md](../Modules/Xot/docs/roadmap-and-issues.md)

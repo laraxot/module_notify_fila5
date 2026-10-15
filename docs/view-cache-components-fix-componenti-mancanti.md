@@ -73,7 +73,7 @@ L'esecuzione di `php artisan view:cache` falliva a causa di componenti Blade man
 - ✅ `Themes/Sixteen/resources/views/components/data-display/badge/priority.blade.php`
 - ✅ `resources/views/vendor/filament-panels/components/form.blade.php`
 - ✅ `Themes/Sixteen/docs/components/badge-components-implementation.md`
-- ✅ `docs/view-cache-components-fix-2025-10-15.md` (questo file)
+- ✅ `docs/view-cache-components-fix-componenti-mancanti.md` (questo file)
 
 ### Aggiornati
 - ✅ `Themes/Sixteen/docs/components.md` - Sezione Badge espansa
@@ -117,7 +117,7 @@ La documentazione è strutturata con collegamenti bidirezionali tra:
 ## Struttura Collegamenti
 
 ```
-docs/view-cache-components-fix-2025-10-15.md (Root)
+docs/view-cache-components-fix-componenti-mancanti.md (Root)
           ↓
 Themes/Sixteen/docs/components/badge-components-implementation.md (Tema)
           ↓                            ↓
