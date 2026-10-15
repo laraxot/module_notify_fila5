@@ -514,7 +514,7 @@ related:
 
 ## baseuser-refactoring-completed-1
 
-*Consolidated from: `baseuser-refactoring-completed-1.md`*
+*Consolidated from: `baseuser-refactoring-completed.md`*
 
 title: "BaseUser Refactoring COMPLETATO ✅"
 type: concept
