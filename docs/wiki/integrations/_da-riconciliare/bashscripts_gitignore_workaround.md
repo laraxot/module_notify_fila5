@@ -158,8 +158,8 @@ gh run list --repo laraxot/<nome repitory>
 
 ## 📚 Related Documentation
 
-- [Multi-Agent Collaboration Guide](MULTI_AGENT_COLLABORATION_GUIDE.md)
-- [GitHub Sync Rule](GITHUB_SYNC_RULE.md)
+- [Multi-Agent Collaboration Guide](multi-agent-collaboration-guide.md)
+- [GitHub Sync Rule](github-sync-rule.md)
 - [AI Rules](../.qwen/AI_RULES_CRITICAL.md)
 
 ---

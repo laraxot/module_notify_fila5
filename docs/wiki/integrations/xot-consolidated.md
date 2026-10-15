@@ -951,7 +951,7 @@ Questa convenzione dovrebbe essere seguita rigorosamente in tutto il progetto pe
 
 ## xot_base_classes_analysis
 
-*Consolidated from: `xot_base_classes_analysis.md`*
+*Consolidated from: `xot-base-classes-analysis.md`*
 
 
 ## Contesto
@@ -1113,7 +1113,7 @@ Questa convenzione dovrebbe essere seguita rigorosamente in tutto il progetto pe
 
 ## xot_base_classes_checklist
 
-*Consolidated from: `xot_base_classes_checklist.md`*
+*Consolidated from: `xot-base-classes-checklist.md`*
 
 
 ## 1. Import
@@ -1198,7 +1198,7 @@ Per correggere automaticamente i file che non seguono queste convenzioni:
 
 ## xot_base_classes_convention
 
-*Consolidated from: `xot_base_classes_convention.md`*
+*Consolidated from: `xot-base-classes-convention.md`*
 
 
 ## Regola di Estensione

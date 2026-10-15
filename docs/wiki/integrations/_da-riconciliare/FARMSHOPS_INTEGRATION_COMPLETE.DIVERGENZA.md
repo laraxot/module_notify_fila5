@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `FARMSHOPS_INTEGRATION_COMPLETE.md`
+# Divergenza: `farmshops-integration-complete.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/FARMSHOPS_INTEGRATION_COMPLETE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

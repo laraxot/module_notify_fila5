@@ -131,7 +131,7 @@ LaravelLocalization::localizeUrl($path)
 
 **All .md files MUST be lowercase with hyphens**, except:
 - `README.md` (allowed)
-- `CHANGELOG.md` (allowed)
+- `changelog.md` (allowed)
 
 ---
 

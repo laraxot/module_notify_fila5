@@ -26,7 +26,7 @@ discussions: []
 ## 🎯 Documenti Principali (START HERE!)
 
 ### 1. 🏆 MASTER EDITION - Il Documento Definitivo
-📄 **File:** [analisi-metodi-duplicati-MASTER.md](./analisi-metodi-duplicati-MASTER.md)
+📄 **File:** [analisi-metodi-duplicati-MASTER.md](./analisi-metodi-duplicati-master.md)
 
 **Contenuto:**
 - ✅ Dati REALI dal codebase (non stime!)
@@ -158,27 +158,27 @@ discussions: []
 ## 🚀 Percorso di Lettura Consigliato
 
 ### Per Developer che Inizia il Refactoring
-1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-MASTER.md) - Leggere TUTTO (2-3 ore)
+1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master.md) - Leggere TUTTO (2-3 ore)
 2. 📖 [Xot Module](../Modules/Xot/docs/analisi-metodi-duplicati.md) - Capire modulo base
 3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../../Comment/docs/METODI_DUPLICATI_ANALISI.md) - Primo test migration
 4. 🚀 Iniziare implementazione seguendo MASTER guide
 
 ### Per Project Manager / Stakeholder
-1. 📖 [MASTER EDITION - Executive Summary](./analisi-metodi-duplicati-MASTER.md#executive-summary-ultra-preciso) (10 min)
-2. 📖 [MASTER EDITION - ROI Analysis](./analisi-metodi-duplicati-MASTER.md#roi-precisissimo) (5 min)
-3. 📖 [MASTER EDITION - Migration Plan](./analisi-metodi-duplicati-MASTER.md#migration-guide-step-by-step) (15 min)
+1. 📖 [MASTER EDITION - Executive Summary](./analisi-metodi-duplicati-master.md#executive-summary-ultra-preciso) (10 min)
+2. 📖 [MASTER EDITION - ROI Analysis](./analisi-metodi-duplicati-master.md#roi-precisissimo) (5 min)
+3. 📖 [MASTER EDITION - Migration Plan](./analisi-metodi-duplicati-master.md#migration-guide-step-by-step) (15 min)
 4. 🎯 Decisione GO/NO-GO
 
 ### Per Tech Lead / Architect
-1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-MASTER.md#implementazione-concreta-pronta-all-uso) (1 ora)
-2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-MASTER.md#script-utili) (30 min)
+1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-master.md#implementazione-concreta-pronta-all-uso) (1 ora)
+2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-master.md#script-utili) (30 min)
 3. 📖 [Xot Module - Dettagli](../Modules/Xot/docs/analisi-metodi-duplicati.md) (30 min)
 4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/METODI_DUPLICATI_ANALISI.md) (1 ora)
 5. 🎯 Architecture review e planning
 
 ### Per QA / Tester
-1. 📖 [MASTER EDITION - Testing Section](./analisi-metodi-duplicati-MASTER.md#fase-4-testing-massivo-1-settimana) (30 min)
-2. 📖 [MASTER EDITION - KPI Monitoring](./analisi-metodi-duplicati-MASTER.md#kpi-da-monitorare) (15 min)
+1. 📖 [MASTER EDITION - Testing Section](./analisi-metodi-duplicati-master.md#fase-4-testing-massivo-1-settimana) (30 min)
+2. 📖 [MASTER EDITION - KPI Monitoring](./analisi-metodi-duplicati-master.md#kpi-da-monitorare) (15 min)
 3. 🧪 Setup test environments
 4. 🎯 Test plan creation
 
@@ -211,12 +211,12 @@ discussions: []
 **Target:** Tutti  
 **Dettaglio:** 📊📊📊 Medio
 
-### 2. `analisi-metodi-duplicati-MASTER.md`
+### 2. `analisi-metodi-duplicati-master.md`
 **Scopo:** Documento completo e definitivo  
 **Target:** Tutti (START HERE!)  
 **Dettaglio:** 📊📊📊📊📊 Altissimo
 
-### 3. `METODI_DUPLICATI_ANALISI.md`
+### 3. `metodi-duplicati-analisi.md`
 **Scopo:** Focus su Filament methods (getTableColumns, getTableActions, ecc.)  
 **Target:** Filament developers  
 **Dettaglio:** 📊📊📊📊 Alto (specifico Filament)
@@ -226,23 +226,23 @@ discussions: []
 ## 🎯 Quick Links per Caso d'Uso
 
 ### "Voglio ridurre codice duplicato nei BaseModel"
-➡️ [MASTER - Parte 1: BaseModel](./analisi-metodi-duplicati-MASTER.md#parte-1-basemodel---analisi-dettagliata)
+➡️ [MASTER - Parte 1: BaseModel](./analisi-metodi-duplicati-master.md#parte-1-basemodel---analisi-dettagliata)
 
 ### "Voglio ridurre codice duplicato in Filament Resources"
-➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-MASTER.md#parte-2-filament-methods---analisi-profonda)  
+➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-master.md#parte-2-filament-methods---analisi-profonda)  
 ➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/METODI_DUPLICATI_ANALISI.md)
 
 ### "Voglio codice pronto da usare"
-➡️ [MASTER - Parte 3: Implementazioni Concrete](./analisi-metodi-duplicati-MASTER.md#parte-3-implementazione-concreta-pronta-all-uso)
+➡️ [MASTER - Parte 3: Implementazioni Concrete](./analisi-metodi-duplicati-master.md#parte-3-implementazione-concreta-pronta-all-uso)
 
 ### "Voglio sapere ROI e benefici"
-➡️ [MASTER - ROI Analysis](./analisi-metodi-duplicati-MASTER.md#roi-precisissimo)
+➡️ [MASTER - ROI Analysis](./analisi-metodi-duplicati-master.md#roi-precisissimo)
 
 ### "Voglio piano di migration dettagliato"
-➡️ [MASTER - Parte 4: Migration Guide](./analisi-metodi-duplicati-MASTER.md#parte-4-migration-guide-step-by-step)
+➡️ [MASTER - Parte 4: Migration Guide](./analisi-metodi-duplicati-master.md#parte-4-migration-guide-step-by-step)
 
 ### "Voglio script per automatizzare"
-➡️ [MASTER - Appendice: Script Utili](./analisi-metodi-duplicati-MASTER.md#script-utili)
+➡️ [MASTER - Appendice: Script Utili](./analisi-metodi-duplicati-master.md#script-utili)
 
 ---
 

@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `AI_AGENT_TEAMS.md`
+# Divergenza: `ai-agent-teams.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/AI_AGENT_TEAMS.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

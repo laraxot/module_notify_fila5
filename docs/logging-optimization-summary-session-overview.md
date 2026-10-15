@@ -465,7 +465,7 @@ LOG_LEVEL=debug
 ### Documentation
 - `laravel/Modules/Xot/docs/LOGGING_BEST_PRACTICES_2026-03-02.md`
 - `docs/LOGGING_OPTIMIZATION_SUMMARY_2026-03-02.md`
-- `AGENTS.md` - Updated with logging rules
+- `agents.md` - Updated with logging rules
 
 ### Laravel Documentation
 - https://laravel.com/docs/logging

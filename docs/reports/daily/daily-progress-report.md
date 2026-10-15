@@ -30,7 +30,7 @@ Oggi ho completato un'ampia opera di miglioramento della documentazione, pulizia
 - `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md`
 - `laravel/Modules/Blog/docs/models/README.md`
 - `laravel/Modules/Blog/docs/models/transaction-removal.md`
-- `AGENTS.md`
+- `agents.md`
 - `docs/conventions/database-naming.md` (NEW)
 
 **Impact**: ✅ Consistency across all modules

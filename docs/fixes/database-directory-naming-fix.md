@@ -125,7 +125,7 @@ php artisan test
 ## Documentation Updates
 
 ### Updated Files
-- ✅ `AGENTS.md` - Already had correct naming
+- ✅ `agents.md` - Already had correct naming
 - ✅ `.windsurfrules` - No changes needed (didn't mention directory names)
 - ✅ Skills - No skills referenced incorrect paths
 - ✅ `composer.json` files - Already correct

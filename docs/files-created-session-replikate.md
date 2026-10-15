@@ -1,10 +1,10 @@
 ---
-title: "files created session replikate"
+title: "FILES CREATED SESSION REPLIKATE"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "files created session replikate"
+qmd: "FILES CREATED SESSION REPLIKATE"
 issues: []
 discussions: []
 status: draft
@@ -71,7 +71,7 @@ Project Root:
 | replikate-workflow.md | Doc | 2.1K | Script documentation | [View](./bashscripts/design-analysis/docs/replikate-workflow.md) |
 | bashscripts README.md | Module | 1.3K | Module overview | [View](./bashscripts/design-analysis/README.md) |
 | bashscripts docs README.md | Index | 1.3K | Docs index | [View](./bashscripts/design-analysis/docs/README.md) |
-| PHASE-1-COMPLETE.md | Summary | 8.4K | Session completion report | [View](./REPLIKATE-PHASE-1-COMPLETE.md) |
+| PHASE-1-COMPLETE.md | Summary | 8.4K | Session completion report | [View](./replikate-phase-1-complete.md) |
 
 ---
 
@@ -179,7 +179,7 @@ REPLIKATE Master Index
 - [REPLIKATE Master Index](./laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md)
 
 **Phase 1 Output**:
-- [Phase 1 Completion Summary](./REPLIKATE-PHASE-1-COMPLETE.md)
+- [Phase 1 Completion Summary](./replikate-phase-1-complete.md)
 
 **Phase 2 Action Items**:
 - [Homepage Structure Diff](./laravel/Themes/Sixteen/docs/design-comuni/pages/homepage-structure-diff.md)

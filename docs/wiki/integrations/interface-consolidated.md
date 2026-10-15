@@ -547,7 +547,7 @@ if (!($instance instanceof SmsActionContract)) {
 
 ## interface_naming_convention
 
-*Consolidated from: `interface_naming_convention.md`*
+*Consolidated from: `interface-naming-convention.md`*
 
 # Convenzione di Naming per le Interfacce
 ## Regola Fondamentale
@@ -641,7 +641,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 
 ## interface_structure_clarification
 
-*Consolidated from: `interface_structure_clarification.md`*
+*Consolidated from: `interface-structure-clarification.md`*
 
 
 ## Struttura Corretta per le Interfacce SMS
@@ -1338,7 +1338,7 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## interfaces_implementation_guide
 
-*Consolidated from: `interfaces_implementation_guide.md`*
+*Consolidated from: `interfaces-implementation-guide.md`*
 
 
 ## Struttura delle Interfacce

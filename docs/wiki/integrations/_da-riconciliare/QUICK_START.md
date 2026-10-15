@@ -507,8 +507,8 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 ## 🔗 LINK UTILI
 
 ### Documentazione
-- **[Indice Documentazione](./DOCUMENTATION_INDEX.md)**
-- **[Roadmap Status](./ROADMAP_STATUS_SUMMARY.md)**
+- **[Indice Documentazione](./documentation-index.md)**
+- **[Roadmap Status](./roadmap-status-summary.md)**
 - **[Documentation Status](./project_docs/DOCUMENTATION_STATUS.md)**
 
 ### Framework

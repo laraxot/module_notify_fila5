@@ -135,7 +135,7 @@ docs/project/
 - [ ] **1. Leggi Documentazione Esistente**
   - [ ] `docs/project/` per architettura
   - [ ] `.agents/docs/` per regole AI
-  - [ ] `QWEN.md`, `AGENTS.md` per contesto
+  - [ ] `qwen.md`, `agents.md` per contesto
 
 - [ ] **2. Apri GitHub Issue**
   - [ ] Descrivi problema/feature
@@ -242,8 +242,8 @@ jobs:
 ### Documentazione Interna
 - `docs/project/gsd-and-bmad-workflow.md`
 - `docs/project/gsd-agent-coordination.md`
-- `AGENTS.md`
-- `QWEN.md`
+- `agents.md`
+- `qwen.md`
 
 ### Risorse Esterne
 - [GSD GitHub](https://github.com/gsd-build/get-shit-done)

@@ -12,7 +12,7 @@ discussions: []
 # Architecture Diagrams & Visual Reference
 
 **📍 Cross-References:**
-- [← Back to Master Index](MASTER_DOCUMENTATION_INDEX.md)
+- [← Back to Master Index](master-documentation-index.md)
 - [Code Quality Analysis](CODE_QUALITY_ANALYSIS.md)
 - [Module Dependencies](#module-dependencies)
 - [Theme Architecture](#theme-architecture)
@@ -442,8 +442,8 @@ Modules/ModuleName/
 
 ## See Also
 
-- [→ Module Documentation Index](MODULE_DOCS_INDEX.md)
-- [→ Theme Documentation Index](THEMES_DOCUMENTATION_INDEX.md)
+- [→ Module Documentation Index](module-docs-index.md)
+- [→ Theme Documentation Index](themes-documentation-index.md)
 - [→ Component Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md)
 - [→ Filament Integration Guide](../../../Themes/Sixteen/docs/filament-integration.md)
 - [→ Data Flow Analysis](COMPREHENSIVE_CODE_ANALYSIS.md#data-flow)

@@ -7,7 +7,7 @@ type: documentation
 status: active
 tags: [module, documentation]
 created: 2026-06-05
-updated: 2026-10-14
+updated: 2026-10-15
 related:
   - ./00-INDEX.md
   - ./stories/docs-ingressi-notify.story.md
@@ -16,7 +16,7 @@ related:
 # Documentation
 
 Cartella `docs/` del modulo Notify. Indice operativo (directory canoniche, evidence, famiglie dei file della radice):
-[00-INDEX.md](./00-INDEX.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
+[00-INDEX.md](./00-index.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
 `ls` e `grep` su `laravel/Modules/Notify`.
 
 Ownership: pacchetto `laraxot/module_notify_fila5` (repo git separato in `laravel/Modules/Notify`); provider
@@ -146,7 +146,7 @@ related:
 
 # Modulo Notify - Documentazione
 
-> Dalla riga precedente in poi il testo e' la vecchia `readme.md` (file distinto, `readme.md`, ancora presente). I canali
+> Dalla riga precedente in poi il testo e' la vecchia `README.md` (file distinto, `README.md`, ancora presente). I canali
 > elencati sotto vanno letti con la "Mappa del codice" di inizio file: SMS nel codice = Twilio, Nexmo (oggi Vonage), Plivo, Netfun,
 > SmsFactor, Agiletelecom, Gammu; WhatsApp = 360dialog, Facebook, Twilio, Vonage; esistono anche push FCM e Telegram.
 
@@ -206,7 +206,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
   Notifiche basate su record Eloquent
 
 #### SMS & WhatsApp
-- **[WhatsApp Provider Architecture](./whatsapp_provider_architecture.md)**  
+- **[WhatsApp Provider Architecture](./whatsapp-provider-architecture.md)**  
   Architettura provider WhatsApp
 
 ---
@@ -385,7 +385,7 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura: cifra senza fonte, non verificata il 2026-10-14)  
 **Prossimi passi**: Completamento test modelli base  
-**Changelog**: [changelog.md](./CHANGELOG.md)
+**Changelog**: [changelog.md](./changelog.md)
 
 ## 🔗 Collegamenti
 
@@ -557,3 +557,14 @@ Log::channel('email')->info('Email sent', [
 **Versione:** 2.1.0  
 **Stato:** ✅ Production Ready  
 **PHPStan Level:** 10
+
+## Standing order (qualita' + docs)
+
+- **PHPStan a zero** sul codice del modulo: non ignorare errori, non abbassare il livello, non modificare `phpstan.neon` del progetto. Qualita' + docs + BMAD sono standing order, non opzionali.
+- **Cartella test**: solo `tests/` (minuscolo). `Tests/` e' vietato (case-collision su macOS/Windows e confusione PSR-4).
+- **Nomi `.md`**: kebab-case minuscolo, niente date/timestamp nel nome, unica eccezione `README.md`. Se esistono `readme.md` e `README.md`, resta solo `README.md`.
+- **Docs**: solo dentro `docs/` gia' esistente; consolida invece di moltiplicare file; link relativi; focus su scopo/perche'/business logic (DRY + KISS).
+- **Git**: forward-only (patch in avanti); no reset/revert/checkout come scorciatoia.
+- **BMAD + second brain**: indici e decisioni vivono in `docs/` del modulo; aggiornali quando cambia il perche', non solo il come.
+
+Vedi anche: [00-index.md](./00-index.md) · [index.md](./index.md)

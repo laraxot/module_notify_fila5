@@ -589,7 +589,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 ### Configuration
 
-- ✅ `QWEN.md` - Updated with LLM Wiki rules
+- ✅ `qwen.md` - Updated with LLM Wiki rules
 
 ## Tools Installed
 
@@ -602,7 +602,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [Complete Integration Guide](README.md)
-- [Agent Instructions](AGENTS.md)
+- [Agent Instructions](agents.md)
 - [Quick Reference](QUICK-REFERENCE.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
 - [Obsidian Setup](../.obsidian/README.md)

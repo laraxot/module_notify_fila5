@@ -459,8 +459,8 @@ public_html/assets/
 
 ## See Also
 
-- **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
-- **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
+- **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](architecture-diagrams.md)
+- **Module Docs Index:** [MODULE_DOCS_INDEX.md](module-docs-index.md)
 - **Master Index:** [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md)
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules:** [../laravel/CLAUDE.md](../laravel/CLAUDE.md)
