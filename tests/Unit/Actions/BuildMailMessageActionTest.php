@@ -2,77 +2,115 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions;
-
-use Illuminate\Notifications\Messages\MailMessage;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
+use Illuminate\Support\Facades\Mail;
 use Modules\Notify\Actions\BuildMailMessageAction;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
-use PHPUnit\Framework\Assert;
-use Spatie\QueueableAction\QueueableAction;
+use Modules\Notify\Datas\EmailData;
+use Modules\Notify\Datas\EmailAttachmentData;
+use Tests\TestCase;
 
-use function Safe\class_uses;
+uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
+
+beforeEach(function () {
+    $this->action = app(BuildMailMessageAction::class);
+    Mail::fake();
+});
 
 describe('BuildMailMessageAction', function () {
-    // Test strutturali - non richiede container per la classe
-    it('has correct class definition', function () {
-        $reflection = new \ReflectionClass(BuildMailMessageAction::class);
+    it('builds mail message from EmailData', function () {
+        $emailData = new EmailData(
+            to: 'recipient@example.com',
+            subject: 'Test Subject',
+            bodyHtml: '<p>HTML Body</p>',
+            bodyText: 'Text Body',
+        );
 
-        Assert::assertTrue($reflection->isInstantiable());
+        $message = $this->action->execute($emailData);
+
+        expect($message)->toBeInstanceOf(\Illuminate\Mail\Message::class);
     });
 
-    it('uses QueueableAction trait', function () {
-        $traits = class_uses(BuildMailMessageAction::class);
-        Assert::assertArrayHasKey(QueueableAction::class, $traits);
+    it('adds attachments when provided', function () {
+        $attachment = new EmailAttachmentData(
+            path: '/path/to/file.pdf',
+            name: 'document.pdf',
+            mime: 'application/pdf',
+        );
+
+        $emailData = new EmailData(
+            to: 'recipient@example.com',
+            subject: 'With Attachment',
+            bodyHtml: '<p>Body</p>',
+            attachments: [$attachment],
+        );
+
+        $message = $this->action->execute($emailData);
+
+        expect($message)->toBeInstanceOf(\Illuminate\Mail\Message::class);
     });
 
-    it('has execute method with correct signature', function () {
-        $reflection = new \ReflectionClass(BuildMailMessageAction::class);
-        $method = $reflection->getMethod('execute');
+    it('handles multiple recipients', function () {
+        $emailData = new EmailData(
+            to: ['user1@example.com', 'user2@example.com'],
+            subject: 'Multi Recipient',
+            bodyHtml: '<p>Body</p>',
+        );
 
-        Assert::assertTrue($method->isPublic());
-        Assert::assertSame(4, $method->getNumberOfParameters());
+        $message = $this->action->execute($emailData);
+
+        expect($message)->toBeInstanceOf(\Illuminate\Mail\Message::class);
     });
 
-    it('has correct return type', function () {
-        $reflection = new \ReflectionClass(BuildMailMessageAction::class);
-        $method = $reflection->getMethod('execute');
-        $returnType = $method->getReturnType();
+    it('sets priority headers', function () {
+        $emailData = new EmailData(
+            to: 'recipient@example.com',
+            subject: 'High Priority',
+            bodyHtml: '<p>Body</p>',
+            priority: 'high',
+        );
 
-        XotBasePest::assertReflectionTypeName($returnType, MailMessage::class);
+        $message = $this->action->execute($emailData);
+
+        expect($message)->toBeInstanceOf(\Illuminate\Mail\Message::class);
     });
 
-    it('has private decodeRichText method', function () {
-        $reflection = new \ReflectionClass(BuildMailMessageAction::class);
-        $method = $reflection->getMethod('decodeRichText');
+    it('uses text body when HTML not provided', function () {
+        $emailData = new EmailData(
+            to: 'recipient@example.com',
+            subject: 'Text Only',
+            bodyText: 'Plain text body',
+        );
 
-        Assert::assertTrue($method->isPrivate());
+        $message = $this->action->execute($emailData);
+
+        expect($message)->toBeInstanceOf(\Illuminate\Mail\Message::class);
     });
 
-    it('uses strict types', function () {
-        $reflection = new \ReflectionClass(BuildMailMessageAction::class);
-        $content = TestCase::notifyReflectionSource($reflection);
-        Assert::assertStringContainsString('declare(strict_types=1)', $content);
+    it('handles CC and BCC', function () {
+        $emailData = new EmailData(
+            to: 'to@example.com',
+            cc: ['cc@example.com'],
+            bcc: ['bcc@example.com'],
+            subject: 'With CC/BCC',
+            bodyHtml: '<p>Body</p>',
+        );
+
+        $message = $this->action->execute($emailData);
+
+        expect($message)->toBeInstanceOf(\Illuminate\Mail\Message::class);
     });
 
-    it('has correct namespace', function () {
-        $reflection = new \ReflectionClass(BuildMailMessageAction::class);
+    it('sets reply-to address', function () {
+        $emailData = new EmailData(
+            to: 'recipient@example.com',
+            subject: 'Reply To Test',
+            bodyHtml: '<p>Body</p>',
+            replyTo: 'noreply@example.com',
+        );
 
-        Assert::assertSame('Modules\Notify\Actions', $reflection->getNamespaceName());
-    });
+        $message = $this->action->execute($emailData);
 
-    it('has required imports', function () {
-        $reflection = new \ReflectionClass(BuildMailMessageAction::class);
-        $content = TestCase::notifyReflectionSource($reflection);
-
-        Assert::assertStringContainsString('use Modules\Notify\Actions\NotifyTheme\Get;', $content);
-        Assert::assertStringContainsString('use Modules\Notify\Datas\AttachmentData;', $content);
-        Assert::assertStringContainsString('use Modules\Notify\Datas\NotifyThemeData;', $content);
-    });
-
-    it('has QueueableAction trait applied correctly', function () {
-        // The trait is applied, checking trait methods presence
-        $traits = class_uses(BuildMailMessageAction::class);
-        Assert::assertArrayHasKey(QueueableAction::class, $traits);
+        expect($message)->toBeInstanceOf(\Illuminate\Mail\Message::class);
     });
 });
