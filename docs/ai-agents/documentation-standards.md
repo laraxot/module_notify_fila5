@@ -32,7 +32,7 @@ WRONG:   ModelArchitecture.md
 Never include dates in filenames:
 ```
 CORRECT: dry-kiss-analysis.md
-WRONG:   dry-kiss-analysis-2025-10-15.md
+WRONG:   dry-kiss-analysis.md
 WRONG:   phpstan-fixes-january-2026.md
 ```
 

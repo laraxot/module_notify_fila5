@@ -276,7 +276,7 @@ Questa è stata la **quinta implementazione** della giornata!
 
 ### Altri Fix del Giorno
 1. [View Cache Components](./view-cache-components-fix-2025-10-15.md)
-2. [Transaction Removal](./transaction-removal-fix-2025-10-15.md)
+2. [Transaction Removal](./transaction-removal-fix-migrate-fresh.md)
 3. [Super Admin Setup](./super-admin-setup-fix-tabella-roles.md)
 
 ### Spatie Documentation

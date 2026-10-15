@@ -3299,7 +3299,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/phpstan-errors-resolution-roadmap.md` — Lang Module - PHPStan Level 10 Errors Resolution Roadmap
 - `laravel/Modules/Lang/docs/phpstan-fixes.md` — Lang Module - PHPStan Level 7 Fixes - Gennaio 2025
 - `laravel/Modules/Lang/docs/phpstan-issues.md` — PHPStan Level 10 Issues - Detailed Analysis
-- `laravel/Modules/Lang/docs/phpstan-level10-fixes-1.md` — phpstan-level10-fixes-1
+- `laravel/Modules/Lang/docs/phpstan-level10-fixes-correzioni-livello-modulo-media.md` — phpstan-level10-fixes-1
 - `laravel/Modules/Lang/docs/phpstan-level10-fixes.md` — Correzioni PHPStan Livello 10 - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-level10es.md` — Correzioni PHPStan Livello 10 - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-level9-fixes.md` — Correzione conflitto e miglioramento PHPStan livello 9 in Models/Post.php
@@ -3308,7 +3308,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/phpstan-mixed-castings.md` — PHPStan Mixed Type Casting Errors
 - `laravel/Modules/Lang/docs/phpstan-progress-report.md` — 🌍 PHPStan Progress Report - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-progress.md` — 🌍 PHPStan Progress Report - Modulo Lang
-- `laravel/Modules/Lang/docs/phpstan-report-1.md` — Report PHPStan - Modulo Lang
+- `laravel/Modules/Lang/docs/phpstan-report.md` — Report PHPStan - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-report.md` — Report PHPStan - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-roadmap.md` — PHPStan Roadmap - Lang Module
 - `laravel/Modules/Lang/docs/phpstan.md` — Report PHPStan - Modulo Lang
@@ -3859,27 +3859,27 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/advanced-template-system.md` — Architettura del Sistema di Notifiche - Best Practices
 - `laravel/Modules/Notify/docs/analisi-completa.md` — Analisi Completa del Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-dettagliata-1.md` — Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
-- `laravel/Modules/Notify/docs/analisi-dettagliata-2.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
-- `laravel/Modules/Notify/docs/analisi-dettagliata-3.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-modelli.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-servizi.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 - `laravel/Modules/Notify/docs/analisi-dettagliata-4-1.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
-- `laravel/Modules/Notify/docs/analisi-dettagliata-4.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
-- `laravel/Modules/Notify/docs/analisi-dettagliata-5.md` — Analisi Dettagliata del Modulo Notify - Parte 5: Testing
-- `laravel/Modules/Notify/docs/analisi-dettagliata-6.md` — Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
-- `laravel/Modules/Notify/docs/analisi-dettagliata-7.md` — Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
-- `laravel/Modules/Notify/docs/analisi-dettagliata-8.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-integrazione.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-testing.md` — Analisi Dettagliata del Modulo Notify - Parte 5: Testing
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-monitoraggio.md` — Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-manutenzione.md` — Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-note.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 - `laravel/Modules/Notify/docs/analisi-dettagliata.md` — Analisi Dettagliata del Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-miglioramenti-1.md` — Analisi e Miglioramenti Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-miglioramenti.md` — Analisi e Miglioramenti del Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-completa.md` — Analisi Completa del Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-dettagliata.md` — Analisi Dettagliata del Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-dettagliata-1.md` — Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
-- `laravel/Modules/Notify/docs/analisi-dettagliata-2.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
-- `laravel/Modules/Notify/docs/analisi-dettagliata-3.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
-- `laravel/Modules/Notify/docs/analisi-dettagliata-4.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
-- `laravel/Modules/Notify/docs/analisi-dettagliata-5.md` — Analisi Dettagliata del Modulo Notify - Parte 5: Testing
-- `laravel/Modules/Notify/docs/analisi-dettagliata-6.md` — Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
-- `laravel/Modules/Notify/docs/analisi-dettagliata-7.md` — Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
-- `laravel/Modules/Notify/docs/analisi-dettagliata-8.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-modelli.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-servizi.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-integrazione.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-testing.md` — Analisi Dettagliata del Modulo Notify - Parte 5: Testing
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-monitoraggio.md` — Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-manutenzione.md` — Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
+- `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-note.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 - `laravel/Modules/Notify/docs/analisiettagliata-2.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
 - `laravel/Modules/Notify/docs/analisiettagliata-3.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 - `laravel/Modules/Notify/docs/analisiettagliata-4.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
@@ -3891,13 +3891,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/analysis-completa.md` — Analisi Completa del Modulo Notify
 - `laravel/Modules/Notify/docs/analysis-complete.md` — analysis-complete
 - `laravel/Modules/Notify/docs/analysis-detailed-1.md` — analysis-detailed-1
-- `laravel/Modules/Notify/docs/analysis-detailed-2.md` — analysis-detailed-2
-- `laravel/Modules/Notify/docs/analysis-detailed-3.md` — analysis-detailed-3
-- `laravel/Modules/Notify/docs/analysis-detailed-4.md` — analysis-detailed-4
-- `laravel/Modules/Notify/docs/analysis-detailed-5.md` — analysis-detailed-5
-- `laravel/Modules/Notify/docs/analysis-detailed-6.md` — analysis-detailed-6
+- `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-2
+- `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-3
+- `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-4
+- `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-5
+- `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-6
 - `laravel/Modules/Notify/docs/analysis-detailed-7.md` — analysis-detailed-7
-- `laravel/Modules/Notify/docs/analysis-detailed-8.md` — analysis-detailed-8
+- `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-8
 - `laravel/Modules/Notify/docs/analysis-dettagliata-1.md` — Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
 - `laravel/Modules/Notify/docs/analysis-dettagliata-2.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
 - `laravel/Modules/Notify/docs/analysis-dettagliata-3.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
@@ -3915,7 +3915,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/analysisettagliata-5.md` — Analisi Dettagliata del Modulo Notify - Parte 5: Testing
 - `laravel/Modules/Notify/docs/analysisettagliata-6.md` — Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
 - `laravel/Modules/Notify/docs/analysisettagliata-7.md` — Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
-- `laravel/Modules/Notify/docs/analysisettagliata-8.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
+- `laravel/Modules/Notify/docs/analysisettagliata-analisi-dettagliata-modulo-notify.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 - `laravel/Modules/Notify/docs/analysisettagliata.md` — Analisi Dettagliata del Modulo Notify
 - `laravel/Modules/Notify/docs/appointment-field-naming-issues-1.md` — Appointment Field Naming Issues
 - `laravel/Modules/Notify/docs/appointment-field-naming-issues.md` — Appointment Field Naming Issues
@@ -4604,7 +4604,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/phpstan-fixes-january-1.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 - `laravel/Modules/Notify/docs/phpstan-fixes-january.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 - `laravel/Modules/Notify/docs/phpstan-fixes.md` — PHPStan Fixes - Modulo Notify
-- `laravel/Modules/Notify/docs/phpstan-level10-fixes-1.md` — Correzioni PHPStan Livello 10 - Modulo Notify
+- `laravel/Modules/Notify/docs/phpstan-level10-fixes-correzioni-livello-modulo-media.md` — Correzioni PHPStan Livello 10 - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-level10-fixes-root-symlink.md` — phpstan-level10-fixes-root-symlink
 - `laravel/Modules/Notify/docs/phpstan-level10-fixes.md` — Correzioni PHPStan Livello 10 - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-level10es.md` — Correzioni PHPStan Livello 10 - Modulo Notify
@@ -6050,7 +6050,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/baseuser-conflicts.md` — Risoluzione Conflitti in BaseUser.php
 - `laravel/Modules/User/docs/baseuser-dry-violation-analysis.md` — BaseUser - Analisi Violazione Principio DRY
 - `laravel/Modules/User/docs/baseuser-refactoring-completed-.md` — BaseUser Refactoring - Completato
-- `laravel/Modules/User/docs/baseuser-refactoring-completed-2025-10-15.md` — BaseUser Refactoring - Completato
+- `laravel/Modules/User/docs/baseuser-refactoring-completed.md` — BaseUser Refactoring - Completato
 - `laravel/Modules/User/docs/baseuser-refactoring-completed.md` — BaseUser Refactoring - Completato
 - `laravel/Modules/User/docs/baseuser-refactoringd.md` — BaseUser Refactoring - Completato
 - `laravel/Modules/User/docs/baseuser-spatie-duplicates-analysis.md` — Analisi Metodi Duplicati in BaseUser.php
@@ -6216,7 +6216,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/dry-kiss-018b09.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-1.md` — 🐄✨ DRY & KISS Analysis - Modulo User
-- `laravel/Modules/User/docs/dry-kiss-analysis-2025-10-15.md` — DRY & KISS Analysis - Modulo User
+- `laravel/Modules/User/docs/dry-kiss-analysis.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-conflict-018b09.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-conflict.md` — 🐄✨ DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis.md` — 🐄✨ DRY & KISS Analysis - Modulo User
@@ -6245,7 +6245,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/filament/filament-table-columns-1.md` — Convenzione Metodo getTableColumns per Filament Table
 - `laravel/Modules/User/docs/filament/filament-table-columns.md` — Convenzione Metodo getTableColumns per Filament Table
 - `laravel/Modules/User/docs/filament/filament_table_columns.md` — Convenzione Metodo getTableColumns per Filament Table
-- `laravel/Modules/User/docs/filament/teams-relation-manager-1.md` — TeamsRelationManager in User Module
+- `laravel/Modules/User/docs/filament/teams-relation-manager-teamsrelationmanager-user-module.md` — TeamsRelationManager in User Module
 - `laravel/Modules/User/docs/filament/teams-relation-manager.md` — TeamsRelationManager in User Module
 - `laravel/Modules/User/docs/filament/teams_relation_manager.md` — TeamsRelationManager in User Module
 - `laravel/Modules/User/docs/filament/widgets/dashboard-filters-integration.md` — Dashboard Filters Integration per Widget Filament
@@ -6295,7 +6295,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/final.md` — Final Summary - User Module Passport Integration & Architecture Refactoring
 - `laravel/Modules/User/docs/fix-profile-id-uuid.md` — Profile: id autoincrement + colonna uuid
 - `laravel/Modules/User/docs/fixes/base-classes-corrections-.md` — Correzione Estensioni Classi Base - Modulo User
-- `laravel/Modules/User/docs/fixes/base-classes-corrections-2025-10-15.md` — Correzione Estensioni Classi Base - Modulo User
+- `laravel/Modules/User/docs/fixes/base-classes-corrections-correzione-estensioni-classi-modulo.md` — Correzione Estensioni Classi Base - Modulo User
 - `laravel/Modules/User/docs/fixes/base-classes-corrections.md` — Correzione Estensioni Classi Base - Modulo User
 - `laravel/Modules/User/docs/fixes/phpstan-fixes-correzioni-modulo-user.md` — Correzioni PHPStan nel Modulo User
 - `laravel/Modules/User/docs/fixes/phpstan-fixes.md` — Correzioni PHPStan nel Modulo User
@@ -6327,7 +6327,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/get-new-password-action-business-logic.md` — GetNewPasswordAction - Business Logic Analysis
 - `laravel/Modules/User/docs/git-conflict-resolution.md` — Gestione Avanzata dei Conflitti Git
 - `laravel/Modules/User/docs/git-conflicts-resolution-.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
-- `laravel/Modules/User/docs/git-conflicts-resolution-2025-01-27.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
+- `laravel/Modules/User/docs/git-conflicts-resolution.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
 - `laravel/Modules/User/docs/git-conflicts-resolution-conflict-06cb77.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
 - `laravel/Modules/User/docs/git-conflicts-resolution-conflict.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
 - `laravel/Modules/User/docs/git-conflicts-resolution-summary.md` — Risoluzione Conflitti Git - Modulo User
@@ -6689,7 +6689,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/phpstan-corrections-summary.md` — Riepilogo Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-corrections.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-dry-kiss-improvements-.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
-- `laravel/Modules/User/docs/phpstan-dry-kiss-improvements-2025-10-17.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
+- `laravel/Modules/User/docs/phpstan-dry-kiss-improvements.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
 - `laravel/Modules/User/docs/phpstan-dry-kiss-improvements.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
 - `laravel/Modules/User/docs/phpstan-error-roadmap.md` — PHPStan Error Analysis and Resolution Roadmap - User Module
 - `laravel/Modules/User/docs/phpstan-errors-philosophy.md` — Filosofia Laraxot: Risoluzione Errori PHPStan
@@ -8243,7 +8243,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament/hasxtable-visibility-fix.md` — Fix Visibilità Metodi HasXotTable - 2026-01-27
 - `laravel/Modules/Xot/docs/filament/infinite-loop-get-step-by-name-fix.md` — CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 - `laravel/Modules/Xot/docs/filament/infinite-loop-getStepByName-fix.md` — infinite-loop-getStepByName-fix
-- `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix-1.md` — CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
+- `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix.md` — CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 - `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix-2.md` — CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 - `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix.md` — infinite-loop-getstepbyname-fix
 - `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix_2.md` — infinite-loop-getstepbyname-fix_2

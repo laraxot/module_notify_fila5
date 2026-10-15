@@ -151,7 +151,7 @@ Ogni file contiene:
 7. `docs/README_REFACTORING.md` - Quick start
 8. `docs/missione-super-mucca-completata.md` - Missione report
 9. `docs/report-finale-super-mucca.md` - Questo file
-10. Aggiornati 18× `metodi-duplicati-analisi-1.md`
+10. Aggiornati 18× `metodi-duplicati-analisi.md`
 
 ---
 
@@ -261,7 +261,7 @@ Ogni file contiene:
 ✅ 20× dry-kiss-analysis.md (ogni modulo/tema)
 ✅ 1× dry-kiss-analysis-master.md
 ✅ 10× Master docs (analisi, implementazione, reports)
-✅ 18× metodi-duplicati-analisi-1.md (aggiornati)
+✅ 18× metodi-duplicati-analisi.md (aggiornati)
 ```
 
 ### Backup (10 files)

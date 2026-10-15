@@ -366,7 +366,7 @@ Questa è la **terza implementazione** della giornata:
 1. **Mattina**: [View Cache Components](./view-cache-components-fix-2025-10-15.md)
    - Creati badge.status e badge.priority
    
-2. **Pomeriggio**: [Transaction Model Removal](./transaction-removal-fix-2025-10-15.md)
+2. **Pomeriggio**: [Transaction Model Removal](./transaction-removal-fix-migrate-fresh.md)
    - Disabilitate TransactionFactory
    
 3. **Sera**: Super Admin Setup ✅ (questa documentazione)
@@ -381,7 +381,7 @@ Questa è la **terza implementazione** della giornata:
 
 ### Root Progetto
 - [View Cache Fix](./view-cache-components-fix-2025-10-15.md)
-- [Transaction Fix](./transaction-removal-fix-2025-10-15.md)
+- [Transaction Fix](./transaction-removal-fix-migrate-fresh.md)
 - [Setup Guide](./bmad/setup-guide.md)
 
 ### Package Documentation

@@ -187,7 +187,7 @@ L'implementazione ha risolto con successo il problema della cache delle viste, c
 - [Ticket System](../../Fixcity/docs/README.md)
 
 ### Root Progetto
-- [Analisi Completa](./analisi-completa-2025-10-01.md)
+- [Analisi Completa](./analisi-completa-ottobre-data.md)
 - [Sessione Super Mucca](./SESSIONE-SUPER-MUCCA.md)
 - [Architecture](./architecture/)
 

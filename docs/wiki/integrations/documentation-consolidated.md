@@ -100,7 +100,7 @@ The <nome progetto> platform has extensive documentation across modules and them
 ❌ **Problems**:
 - 15 files with temporal strings ("Last Updated: March 12, 2026")
 - Duplicate files: `prd.md`, `PRD.md`, `prd.json`
-- Inconsistent naming: `product-strategy.md` vs `product-strategy-1.md`
+- Inconsistent naming: `product-strategy.md` vs `product-strategy-documentation-themes.md`
 - Orphaned files: `to-study.md`, `blocks-react.md`
 
 #### Recommended Actions
