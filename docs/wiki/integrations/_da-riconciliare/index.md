@@ -284,7 +284,7 @@ Documentation for `notify` module categorized as **integrations**.
 - [`baseuser-dry-violation-1.md`](./baseuser-dry-violation-1.md)
 - [`baseuser-dry-violation.md`](../../../baseuser-dry-violation.md)
 - [`baseuser-refactoring-completed-.md`](../../../baseuser-refactoring-completed-.md)
-- [`baseuser-refactoring-completed-1.md`](./baseuser-refactoring-completed-1.md)
+- [`baseuser-refactoring-completed.md`](./baseuser-refactoring-completed.md)
 - [`baseuser-refactoring-completed.md`](../../../baseuser-refactoring-completed.md)
 - [`bashscripts-gitignore-workaround.md`](./bashscripts-gitignore-workaround.md)
 - [`best-practices-1.md`](../../../best-practices-implementazione.md)

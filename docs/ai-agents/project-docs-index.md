@@ -7584,7 +7584,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/code-optimization.md` — xot module code and documentation optimization analysis
 - `laravel/Modules/Xot/docs/code-quality-01.md` — Code Quality Audit Completo - Gennaio 2025
 - `laravel/Modules/Xot/docs/code-quality-1.md` — Code Quality Guidelines for Laravel Modules
-- `laravel/Modules/Xot/docs/code-quality-analysis-1.md` — Code Quality Analysis - Xot Module
+- `laravel/Modules/Xot/docs/code-quality-analysis.md` — Code Quality Analysis - Xot Module
 - `laravel/Modules/Xot/docs/code-quality-analysis.md` — Code Quality Analysis - Xot Module
 - `laravel/Modules/Xot/docs/code-quality-audit-01.md` — Code Quality Audit Completo - Gennaio 2025
 - `laravel/Modules/Xot/docs/code-quality-audit-1.md` — Code Quality Audit Completo - 22 Gennaio 2025
@@ -8810,7 +8810,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/module-quality-analysis-sumy.md` — Module Quality Analysis Summary
 - `laravel/Modules/Xot/docs/module-quality.md` — Module Quality Analysis Summary
 - `laravel/Modules/Xot/docs/module-service.md` — module-service
-- `laravel/Modules/Xot/docs/module-structure-1.md` — Struttura dei Moduli in il progetto
+- `laravel/Modules/Xot/docs/module-structure.md` — Struttura dei Moduli in il progetto
 - `laravel/Modules/Xot/docs/module-structure.md` — Struttura dei Moduli in il progetto
 - `laravel/Modules/Xot/docs/module-xot.md` — Modulo Xot
 - `laravel/Modules/Xot/docs/module.md` — Xot Module - Comprehensive Analysis
