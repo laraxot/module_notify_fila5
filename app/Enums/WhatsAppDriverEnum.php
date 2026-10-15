@@ -54,7 +54,11 @@ enum WhatsAppDriverEnum: string
      */
     public static function isSupported(string $driver): bool
     {
+<<<<<<< HEAD
         return in_array($driver, array_map(static fn (self $case): string => $case->value, self::cases()), strict: true);
+=======
+        return in_array($driver, array_column(self::cases(), 'value'), strict: true);
+>>>>>>> laraxot/dev
     }
 
     /**
