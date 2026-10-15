@@ -265,12 +265,16 @@ abstract class TestCase extends XotBaseTestCase
         return false;
     }
 
+    /**
+     * @return array<int, class-string<\Illuminate\Support\ServiceProvider>>
+     */
     protected function getPackageProviders(Application $app): array
     {
         return [
             ...parent::getPackageProviders($app),
             UserServiceProvider::class,
-            NotifyServiceProvider::class];
+            NotifyServiceProvider::class,
+        ];
     }
 
     /**
