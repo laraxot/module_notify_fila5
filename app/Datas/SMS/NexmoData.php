@@ -44,7 +44,11 @@ class NexmoData extends Data
             case 'api_key':
             default:
                 return [
+<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode(($this->key ?? '').':'.($this->secret ?? '')),
+=======
+                    'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
+>>>>>>> laraxot/dev
                     'Content-Type' => 'application/json'];
         }
     }

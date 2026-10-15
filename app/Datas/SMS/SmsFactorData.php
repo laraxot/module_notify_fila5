@@ -42,7 +42,11 @@ class SmsFactorData extends Data
             case 'bearer':
             default:
                 return [
+<<<<<<< HEAD
                     'Authorization' => 'Bearer '.($this->token ?? ''),
+=======
+                    'Authorization' => 'Bearer '.$this->token,
+>>>>>>> laraxot/dev
                     'Content-Type' => 'application/json',
                     'Cache-Control' => 'no-cache'];
         }
