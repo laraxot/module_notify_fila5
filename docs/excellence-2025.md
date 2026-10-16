@@ -409,9 +409,9 @@ FixCity è orgogliosamente open source:
 ## 📚 RISORSE
 
 ### Documentazione
-- **[DOCUMENTATION_INDEX.md](./documentation-index.md)** - Indice completo
-- **[QUICK_START.md](./quick-start.md)** - Guida rapida
-- **[PROJECT_COMPLETION_STATUS.md](./project-completion-status.md)** - Status
+- **[DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md)** - Indice completo
+- **[QUICK_START.md](./QUICK_START.md)** - Guida rapida
+- **[PROJECT_COMPLETION_STATUS.md](./PROJECT_COMPLETION_STATUS.md)** - Status
 
 ### Moduli Principali
 - **[Fixcity Docs](./laravel/Modules/Fixcity/docs/)** - Core business

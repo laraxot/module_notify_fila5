@@ -1547,7 +1547,7 @@ Themes/ThemeName/
 ✅ **CORRECT**:
 - `user-authentication.md` (kebab-case, lowercase)
 - `00-index.md` (numeric prefix for ordering)
-- `README.md`, `changelog.md` (standards)
+- `README.md`, `CHANGELOG.md` (standards)
 
 ❌ **WRONG**:
 - `UserAuthentication.md` (PascalCase)
@@ -1680,7 +1680,7 @@ gh run list --limit 10
 
 - **Scripts**: `bashscripts/docs/[category]/[script].md`
 - **Workflows**: `.github/` AND `bashscripts/ai/.github/`
-- **Rules**: `agents.md`, `.windsurfrules`
+- **Rules**: `AGENTS.md`, `.windsurfrules`
 - **Memories**: Save for future reference
 
 **Why**: Other agents (and future you) need to understand your work.

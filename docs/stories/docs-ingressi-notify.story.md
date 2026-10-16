@@ -49,15 +49,15 @@ duplicate nel frontmatter; 848 contengono emoji.
 ## Modifiche
 
 - `README.md`: frontmatter (`status: active`, `qmd`, `updated`, `related`), ownership e dipendenze, mappa del codice,
-  limiti verificati; elenco modelli da 9 a 14; il secondo blocco frontmatter a meta' file (merge di `README.md`) reso
+  limiti verificati; elenco modelli da 9 a 14; il secondo blocco frontmatter a meta' file (merge di `readme.md`) reso
   commento; riferimenti a `Ptv` e a file inesistenti ridotti a testo; link a `GetPdfContentByRecordAction` riportato al
   codice in Xot; cifra "95% copertura" marcata senza fonte.
-- `00-index.md`: `status: active`; tolta la versione "2.1.0" senza fonte; sezione di orientamento con tabella delle directory
+- `00-INDEX.md`: `status: active`; tolta la versione "2.1.0" senza fonte; sezione di orientamento con tabella delle directory
   (canoniche, evidence, legacy) e famiglie della radice; descrizioni corrette (roadmap.md, email-templates.md,
   send-notification-bulk-action.md, monitoring.md, ponytail audit, cleanup plan, security analysis); link a
   `composer-packages-reference.md` e `phpstan-cluster.md` riportati ai file esistenti; pseudo-frontmatter duplicato
   reso commento; sezione "Duplicati e ingressi non canonici".
-- `docs-organizer stale --fix` (status `stale` e nota in testa, contenuto intatto): `index.md`, `index.md`, `roadmap.md`,
+- `docs-organizer stale --fix` (status `stale` e nota in testa, contenuto intatto): `INDEX.md`, `index.md`, `roadmap.md`,
   `send-notification-bulk-action.md`, `monitoring.md`, `ponytail-audit-over-engineering.md`, `wiki/00-INDEX.md`,
   `wiki/00-index.md`, `wiki/INDEX.md`, `wiki/index.md`, `wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md`.
 - `wiki/README.md` e `wiki/readme.md` (copie identiche): tolte le chiavi duplicate `title` e `qmd` e il titolo "FixCity LLM Wiki".
@@ -72,18 +72,18 @@ Misura con `python3 bashscripts/tools/docs/docs-organizer.py --busy-minutes 0 li
 | File | prima | dopo |
 |---|---|---|
 | `README.md` | 5 | 0 (1 verso questa story, ora esistente) |
-| `00-index.md` | 3 | 0 (1 verso questa story, ora esistente) |
+| `00-INDEX.md` | 3 | 0 (1 verso questa story, ora esistente) |
 | `wiki/log.md` | 3 | 0 (1 verso questa story, ora esistente) |
-| `README.md` (copia di servizio di `README.md`, stesse correzioni sui link) | 4 | 0 |
-| `index.md`, `index.md`, `roadmap.md`, `send-notification-bulk-action.md`, `ponytail-audit-over-engineering.md`, `wiki/00-INDEX.md`, `wiki/00-index.md`, `wiki/INDEX.md`, `wiki/index.md` | 2, 2, 7, 2, 2, 10, 10, 9, 19 (63) | invariati: marcati `stale`, link non riscritti |
+| `readme.md` (copia di servizio di `README.md`, stesse correzioni sui link) | 4 | 0 |
+| `INDEX.md`, `index.md`, `roadmap.md`, `send-notification-bulk-action.md`, `ponytail-audit-over-engineering.md`, `wiki/00-INDEX.md`, `wiki/00-index.md`, `wiki/INDEX.md`, `wiki/index.md` | 2, 2, 7, 2, 2, 10, 10, 9, 19 (63) | invariati: marcati `stale`, link non riscritti |
 
-Modulo intero: 7.698 eventi `unresolved` prima, 7.683 dopo. Gli ingressi canonici (`README.md`, `README.md`, `00-index.md`, `wiki/log.md`)
+Modulo intero: 7.698 eventi `unresolved` prima, 7.683 dopo. Gli ingressi canonici (`README.md`, `readme.md`, `00-INDEX.md`, `wiki/log.md`)
 passano da 15 a 0 (misura finale con questa story presente). I link dell'indice sono stati controllati con uno script
 (esistenza su disco di ogni `](./...)`): nessuno mancante tranne quelli dichiarati nel testo. PHPStan e Pest NON rieseguiti.
 
 ## Decisioni
 
-- `00-index.md` resta il solo indice; nessun indice con nome alternativo.
+- `00-INDEX.md` resta il solo indice; nessun indice con nome alternativo.
 - Le pagine false vengono marcate `stale` con la prova, non riscritte e non cancellate.
 - Le 413 famiglie di varianti di grafia e le 21 date-tagliate richiedono la migration map di DOC-004/006: non toccate.
 - Difetto di `docs-organizer.py`: `links`, `frontmatter` e `dups` scartano in silenzio i file con mtime < 10 minuti

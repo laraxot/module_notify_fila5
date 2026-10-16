@@ -1,10 +1,10 @@
 ---
-title: "PROJECT"
+title: "project"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "PROJECT"
+qmd: "project"
 issues: []
 discussions: []
 status: draft

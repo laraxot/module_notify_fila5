@@ -12,7 +12,7 @@ status: draft
 
 # 🚀 GSD Workflow (Get Shit Done)
 
-**Part of**: [00-INDEX.md](00-index.md) — AI Agents Coordination  
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
 **Related**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md) — BMAD Method
 
 ---
@@ -140,10 +140,10 @@ GSD maintains these files always loaded in context:
 
 | File | Purpose |
 |------|---------|
-| `project.md` | Project vision |
+| `PROJECT.md` | Project vision |
 | `research/` | Ecosystem knowledge |
 | `REQUIREMENTS.md` | Scoped requirements v1/v2 |
-| `roadmap.md` | Where you're going |
+| `ROADMAP.md` | Where you're going |
 | `STATE.md` | Decisions, blockers, memory |
 | `PLAN.md` | Atomic task with XML structure |
 | `SUMMARY.md` | What happened, commit history |

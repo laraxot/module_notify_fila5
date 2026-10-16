@@ -27,7 +27,7 @@ Consolidated from **6** individual files.
 
 ## baseuser-dry-violation-
 
-*Consolidated from: `baseuser-dry-violation.md`*
+*Consolidated from: `baseuser-dry-violation-.md`*
 
 title: "baseuser-dry-violation-2025-10-15.deprecated"
 type: concept
@@ -488,7 +488,7 @@ related:
 
 ## baseuser-refactoring-completed-
 
-*Consolidated from: `baseuser-refactoring-completed.md`*
+*Consolidated from: `baseuser-refactoring-completed-.md`*
 
 title: "baseuser-refactoring-completed-2025-10-15.deprecated"
 type: concept

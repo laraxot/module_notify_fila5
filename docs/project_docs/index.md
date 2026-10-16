@@ -33,7 +33,7 @@ related:
 
 1. [**README.md**](../README.md) - Project overview and quick start
 2. [**CONTRIBUTING.md**](../CONTRIBUTING.md) - How to contribute
-3. [**ARCHITECTURE.md**](./architecture.md) - System architecture
+3. [**ARCHITECTURE.md**](./ARCHITECTURE.md) - System architecture
 3. [**ARCHITECTURE.md**](./architecture.md) - System architecture
 4. [**QUALITY_DASHBOARD.md**](./QUALITY_DASHBOARD.md) - Real-time metrics
 

@@ -107,7 +107,7 @@ Queste sono **corrette** perché:
 
 | File | Purpose | Status |
 |------|---------|--------|
-| `agents.md` | Rule architetturali | ✅ Updated |
+| `AGENTS.md` | Rule architetturali | ✅ Updated |
 | `docs/conventions/database-naming.md` | Guida completa | ✅ Created |
 | `docs/github/README.md` | Issues/Discussions tracking | ✅ Created |
 | `docs/github/discussions/1-database-naming.md` | Discussion pubblica | ✅ Created |
@@ -133,7 +133,7 @@ grep -r "database/Seeders" docs/ laravel/Modules/*/docs/
 Alcuni file menzionano le directory con maiuscola in contesto **storico** o **comparativo**:
 
 - `docs/conventions/database-naming.md` - Mostra sia corretto che sbagliato (educational)
-- `agents.md` - Mostra sia corretto che sbagliato (rule)
+- `AGENTS.md` - Mostra sia corretto che sbagliato (rule)
 - `laravel/Modules/Blog/docs/models/README.md` - Nota storica su duplicati rimossi
 
 Questi sono **accettabili** perché:

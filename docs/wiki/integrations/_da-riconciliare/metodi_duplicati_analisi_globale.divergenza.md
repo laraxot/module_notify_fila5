@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `metodi-duplicati-analisi-globale.md`
+# Divergenza: `METODI_DUPLICATI_ANALISI_GLOBALE.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/METODI_DUPLICATI_ANALISI_GLOBALE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

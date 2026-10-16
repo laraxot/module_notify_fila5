@@ -30,7 +30,7 @@ Consolidated from **9** individual files.
 
 ## super-admin-setup-fix-
 
-*Consolidated from: `super-admin-setup-fix.md`*
+*Consolidated from: `super-admin-setup-fix-.md`*
 
 title: "super-admin-setup-fix-2025-10-15.deprecated"
 type: concept

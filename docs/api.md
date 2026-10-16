@@ -1,6 +1,6 @@
 ---
 updated: 2026-09-26
-qmd: "API"
+qmd: "api"
 issues: []
 discussions: []
 title: "Notify Module API"

@@ -8512,7 +8512,7 @@ Log::debug('SMS Debug', [
 
 ## sms_action_factory_analysis
 
-*Consolidated from: `sms-action-factory-analysis.md`*
+*Consolidated from: `sms_action_factory_analysis.md`*
 
 
 ## Contesto Attuale
@@ -8628,7 +8628,7 @@ Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entr
 
 ## sms_action_factory_resolution
 
-*Consolidated from: `sms-action-factory-resolution.md`*
+*Consolidated from: `sms_action_factory_resolution.md`*
 
 
 ## Contesto
@@ -8715,7 +8715,7 @@ La risoluzione dinamica tramite formula è **più scalabile e manutenibile** ris
 
 ## sms_actions
 
-*Consolidated from: `sms-actions.md`*
+*Consolidated from: `sms_actions.md`*
 
 
 ## Interfaccia
@@ -8795,7 +8795,7 @@ $result = $action->execute($smsData);
 
 ## sms_best_practices
 
-*Consolidated from: `sms-best-practices.md`*
+*Consolidated from: `sms_best_practices.md`*
 
 
 ## 1. Gestione dei Template
@@ -9051,7 +9051,7 @@ try {
 
 ## sms_channel_action_resolution
 
-*Consolidated from: `sms-channel-action-resolution.md`*
+*Consolidated from: `sms_channel_action_resolution.md`*
 
 
 ## Contesto
@@ -9139,7 +9139,7 @@ $action = match ($driver) {
 
 ## sms_config_structure
 
-*Consolidated from: `sms-config-structure.md`*
+*Consolidated from: `sms_config_structure.md`*
 
 # Struttura della Configurazione SMS
 ## Introduzione
@@ -9312,7 +9312,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## sms_driver_enum_translations
 
-*Consolidated from: `sms-driver-enum-translations.md`*
+*Consolidated from: `sms_driver_enum_translations.md`*
 
 
 ## Panoramica
@@ -9505,7 +9505,7 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ## sms_driver_selection_analysis
 
-*Consolidated from: `sms-driver-selection-analysis.md`*
+*Consolidated from: `sms_driver_selection_analysis.md`*
 
 
 ## Contesto Attuale
@@ -9634,7 +9634,7 @@ Questa soluzione:
 
 ## sms_driver_selection_specific_analysis
 
-*Consolidated from: `sms-driver-selection-specific-analysis.md`*
+*Consolidated from: `sms_driver_selection_specific_analysis.md`*
 
 
 ## Contesto Specifico
@@ -9742,7 +9742,7 @@ Questa soluzione:
 
 ## sms_factor_data_implementation
 
-*Consolidated from: `sms-factor-data-implementation.md`*
+*Consolidated from: `sms_factor_data_implementation.md`*
 
 
 ## Overview
@@ -9931,7 +9931,7 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 
 ## sms_global_vs_specific_params
 
-*Consolidated from: `sms-global-vs-specific-params.md`*
+*Consolidated from: `sms_global_vs_specific_params.md`*
 
 
 ## Introduzione
@@ -10117,7 +10117,7 @@ Prima di modificare la configurazione SMS, verificare che:
 
 ## sms_implementation
 
-*Consolidated from: `sms-implementation.md`*
+*Consolidated from: `sms_implementation.md`*
 
 
 ## Panoramica
@@ -10493,7 +10493,7 @@ SMSFACTOR_SENDER=YourApp
 
 ## sms_netfun_channel
 
-*Consolidated from: `sms-netfun-channel.md`*
+*Consolidated from: `sms_netfun_channel.md`*
 
 
 ## Introduzione
@@ -11034,7 +11034,7 @@ class NetfunSMSTest extends TestCase
 
 ## sms_provider_configuration
 
-*Consolidated from: `sms-provider-configuration.md`*
+*Consolidated from: `sms_provider_configuration.md`*
 
 # Configurazione Corretta dei Provider SMS
 ## Regola Fondamentale
@@ -11158,7 +11158,7 @@ TWILIO_AUTH_TOKEN=your_auth_token_here
 
 ## sms_provider_configuration_best_practices
 
-*Consolidated from: `sms-provider-configuration-best-practices.md`*
+*Consolidated from: `sms_provider_configuration_best_practices.md`*
 
 
 ## Struttura Corretta della Configurazione
@@ -11289,7 +11289,7 @@ $token = config('services.netfun.token');
 
 ## sms_troubleshooting
 
-*Consolidated from: `sms-troubleshooting.md`*
+*Consolidated from: `sms_troubleshooting.md`*
 
 
 ## Errori Comuni e Soluzioni

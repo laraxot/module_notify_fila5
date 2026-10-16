@@ -8,6 +8,14 @@ updated: 2026-08-02
 
 # Documentation
 
+## Kit BMAD owner (canonico)
+
+- [BMAD Planning](../bmad-planning.md)
+- [BMAD Brainstorming](../bmad-brainstorming.md)
+- [Filament blueprint](./filament-blueprint.md)
+- [Project context](./project-context.md)
+- [Decision log](./decision-log.md)
+
 This directory contains documentation for the Notify module.
 
 ## Structure

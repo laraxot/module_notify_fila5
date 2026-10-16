@@ -497,7 +497,7 @@ Verifica: parity ≥ 90%
 
 ### PASSO 5: Researcher documenta (Subtask 6)
 Crea: `PHASE-1-COMPLETION-REPORT.md`
-Aggiorna: `00-index.md`
+Aggiorna: `00-INDEX.md`
 ⏱️ ~20-25 min
 
 **TOTAL TIME**: 90-150 minuti (120-150 sequenziale, ~90 parallelizzato)

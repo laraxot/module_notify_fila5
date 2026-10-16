@@ -279,7 +279,7 @@ related:
 ## 📝 Changelog & Versioning
 
 ### Version History
-- [Changelog](./changelog.md) - Storico modifiche
+- [Changelog](./CHANGELOG.md) - Storico modifiche
 - [Versioning Strategy](./versioning.md) - Strategia versioning
 - [Migration Guides](./migrations/README.md) - Guide migrazione
 

@@ -71,7 +71,7 @@ Consolidated from **50** individual files.
 
 ## analisi-completa-
 
-*Consolidated from: `analisi-completa.md`*
+*Consolidated from: `analisi-completa-.md`*
 
 title: "ANALISI-COMPLETA-2025-10-01.deprecated"
 type: concept
@@ -12996,7 +12996,7 @@ class TemplatePreview extends Component
 
 ## analisi-metodi-duplicati-INDEX
 
-*Consolidated from: `analisi-metodi-duplicati-index.md`*
+*Consolidated from: `analisi-metodi-duplicati-INDEX.md`*
 
 
 > 🐄✨ **Navigazione Completa dei Documenti di Analisi**
@@ -13006,7 +13006,7 @@ class TemplatePreview extends Component
 ## 🎯 Documenti Principali (START HERE!)
 
 ### 1. 🏆 MASTER EDITION - Il Documento Definitivo
-📄 **File:** [analisi-metodi-duplicati-MASTER.md](./analisi-metodi-duplicati-master.md)
+📄 **File:** [analisi-metodi-duplicati-MASTER.md](./analisi-metodi-duplicati-MASTER.md)
 
 **Contenuto:**
 - ✅ Dati REALI dal codebase (non stime!)
@@ -13144,27 +13144,27 @@ class TemplatePreview extends Component
 ## 🚀 Percorso di Lettura Consigliato
 
 ### Per Developer che Inizia il Refactoring
-1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master.md) - Leggere TUTTO (2-3 ore)
+1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-MASTER.md) - Leggere TUTTO (2-3 ore)
 2. 📖 [Xot Module](../../analisi-metodi-duplicati.md) - Capire modulo base
 3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/METODI_DUPLICATI_ANALISI.md) - Primo test migration
 4. 🚀 Iniziare implementazione seguendo MASTER guide
 
 ### Per Project Manager / Stakeholder
-1. 📖 [MASTER EDITION - Executive Summary](./analisi-metodi-duplicati-master.md#executive-summary-ultra-preciso) (10 min)
-2. 📖 [MASTER EDITION - ROI Analysis](./analisi-metodi-duplicati-master.md#roi-precisissimo) (5 min)
-3. 📖 [MASTER EDITION - Migration Plan](./analisi-metodi-duplicati-master.md#migration-guide-step-by-step) (15 min)
+1. 📖 [MASTER EDITION - Executive Summary](./analisi-metodi-duplicati-MASTER.md#executive-summary-ultra-preciso) (10 min)
+2. 📖 [MASTER EDITION - ROI Analysis](./analisi-metodi-duplicati-MASTER.md#roi-precisissimo) (5 min)
+3. 📖 [MASTER EDITION - Migration Plan](./analisi-metodi-duplicati-MASTER.md#migration-guide-step-by-step) (15 min)
 4. 🎯 Decisione GO/NO-GO
 
 ### Per Tech Lead / Architect
-1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-master.md#implementazione-concreta-pronta-all-uso) (1 ora)
-2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-master.md#script-utili) (30 min)
+1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-MASTER.md#implementazione-concreta-pronta-all-uso) (1 ora)
+2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-MASTER.md#script-utili) (30 min)
 3. 📖 [Xot Module - Dettagli](../../analisi-metodi-duplicati.md) (30 min)
 4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/METODI_DUPLICATI_ANALISI.md) (1 ora)
 5. 🎯 Architecture review e planning
 
 ### Per QA / Tester
-1. 📖 [MASTER EDITION - Testing Section](./analisi-metodi-duplicati-master.md#fase-4-testing-massivo-1-settimana) (30 min)
-2. 📖 [MASTER EDITION - KPI Monitoring](./analisi-metodi-duplicati-master.md#kpi-da-monitorare) (15 min)
+1. 📖 [MASTER EDITION - Testing Section](./analisi-metodi-duplicati-MASTER.md#fase-4-testing-massivo-1-settimana) (30 min)
+2. 📖 [MASTER EDITION - KPI Monitoring](./analisi-metodi-duplicati-MASTER.md#kpi-da-monitorare) (15 min)
 3. 🧪 Setup test environments
 4. 🎯 Test plan creation
 
@@ -13197,12 +13197,12 @@ class TemplatePreview extends Component
 **Target:** Tutti  
 **Dettaglio:** 📊📊📊 Medio
 
-### 2. `analisi-metodi-duplicati-master.md`
+### 2. `analisi-metodi-duplicati-MASTER.md`
 **Scopo:** Documento completo e definitivo  
 **Target:** Tutti (START HERE!)  
 **Dettaglio:** 📊📊📊📊📊 Altissimo
 
-### 3. `metodi-duplicati-analisi.md`
+### 3. `METODI_DUPLICATI_ANALISI.md`
 **Scopo:** Focus su Filament methods (getTableColumns, getTableActions, ecc.)  
 **Target:** Filament developers  
 **Dettaglio:** 📊📊📊📊 Alto (specifico Filament)
@@ -13212,23 +13212,23 @@ class TemplatePreview extends Component
 ## 🎯 Quick Links per Caso d'Uso
 
 ### "Voglio ridurre codice duplicato nei BaseModel"
-➡️ [MASTER - Parte 1: BaseModel](./analisi-metodi-duplicati-master.md#parte-1-basemodel---analisi-dettagliata)
+➡️ [MASTER - Parte 1: BaseModel](./analisi-metodi-duplicati-MASTER.md#parte-1-basemodel---analisi-dettagliata)
 
 ### "Voglio ridurre codice duplicato in Filament Resources"
-➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-master.md#parte-2-filament-methods---analisi-profonda)  
+➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-MASTER.md#parte-2-filament-methods---analisi-profonda)  
 ➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/METODI_DUPLICATI_ANALISI.md)
 
 ### "Voglio codice pronto da usare"
-➡️ [MASTER - Parte 3: Implementazioni Concrete](./analisi-metodi-duplicati-master.md#parte-3-implementazione-concreta-pronta-all-uso)
+➡️ [MASTER - Parte 3: Implementazioni Concrete](./analisi-metodi-duplicati-MASTER.md#parte-3-implementazione-concreta-pronta-all-uso)
 
 ### "Voglio sapere ROI e benefici"
-➡️ [MASTER - ROI Analysis](./analisi-metodi-duplicati-master.md#roi-precisissimo)
+➡️ [MASTER - ROI Analysis](./analisi-metodi-duplicati-MASTER.md#roi-precisissimo)
 
 ### "Voglio piano di migration dettagliato"
-➡️ [MASTER - Parte 4: Migration Guide](./analisi-metodi-duplicati-master.md#parte-4-migration-guide-step-by-step)
+➡️ [MASTER - Parte 4: Migration Guide](./analisi-metodi-duplicati-MASTER.md#parte-4-migration-guide-step-by-step)
 
 ### "Voglio script per automatizzare"
-➡️ [MASTER - Appendice: Script Utili](./analisi-metodi-duplicati-master.md#script-utili)
+➡️ [MASTER - Appendice: Script Utili](./analisi-metodi-duplicati-MASTER.md#script-utili)
 
 ---
 
@@ -13261,7 +13261,7 @@ Che questo indice ti guidi verso la saggezza del refactoring perfetto!
 
 ## analisi-metodi-duplicati-MASTER
 
-*Consolidated from: `analisi-metodi-duplicati-master.md`*
+*Consolidated from: `analisi-metodi-duplicati-MASTER.md`*
 
 
 **Data Analisi:** 2025-10-15  
@@ -17603,7 +17603,7 @@ class TemplatePreview extends Component
 
 ## analisi_completa
 
-*Consolidated from: `analisi-completa.md`*
+*Consolidated from: `analisi_completa.md`*
 
 
 ## Indice
@@ -17881,7 +17881,7 @@ class Template extends Model
 
 ## analisi_dettagliata
 
-*Consolidated from: `analisi-dettagliata.md`*
+*Consolidated from: `analisi_dettagliata.md`*
 
 
 ## 1. Analisi delle Soluzioni di Template Email
@@ -18499,7 +18499,7 @@ class TemplatePreview extends Component
 
 ## analisi_dettagliata_1
 
-*Consolidated from: `analisi-dettagliata-architettura-struttura.md`*
+*Consolidated from: `analisi_dettagliata-architettura-struttura.md`*
 
 
 ## 1. Architettura del Sistema
@@ -19022,7 +19022,7 @@ return [
 
 ## analisi_dettagliata_2
 
-*Consolidated from: `analisi-dettagliata-modelli-relazioni.md`*
+*Consolidated from: `analisi_dettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -19669,7 +19669,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analisi_dettagliata_3
 
-*Consolidated from: `analisi-dettagliata-servizi-core.md`*
+*Consolidated from: `analisi_dettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -20320,7 +20320,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisi_dettagliata_4
 
-*Consolidated from: `analisi-dettagliata-integrazione-filament.md`*
+*Consolidated from: `analisi_dettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -21011,7 +21011,7 @@ class TemplateTestPage extends Page
 
 ## analisi_dettagliata_5
 
-*Consolidated from: `analisi-dettagliata-testing-parte.md`*
+*Consolidated from: `analisi_dettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -21833,7 +21833,7 @@ class WebhookControllerTest extends TestCase
 
 ## analisi_dettagliata_6
 
-*Consolidated from: `analisi-dettagliata-monitoraggio-analytics.md`*
+*Consolidated from: `analisi_dettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -22457,7 +22457,7 @@ class AnalyticsExporter
 
 ## analisi_dettagliata_7
 
-*Consolidated from: `analisi-dettagliata-manutenzione-backup.md`*
+*Consolidated from: `analisi_dettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -23106,7 +23106,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analisi_dettagliata_8
 
-*Consolidated from: `analisi-dettagliata-finali-parte.md`*
+*Consolidated from: `analisi_dettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali

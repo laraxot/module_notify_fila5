@@ -47,4 +47,4 @@ Se si identifica un file con naming non conforme:
 ## Riferimenti
 - [Regole Generali per le Traduzioni](../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Traduzioni](../../Lang/docs/translation_keys_best_practices.md)
-- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)

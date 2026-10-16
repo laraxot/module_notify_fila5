@@ -34,7 +34,7 @@ related:
 
 ### SMS
 - [Implementazione SMS Dettagliata](./sms_implementation_details.md) - Dettagli implementativi per il canale SMS
-- [Configurazione Provider SMS](./sms-provider-configuration.md) - Configurazione dei provider SMS
+- [Configurazione Provider SMS](./sms_provider_configuration.md) - Configurazione dei provider SMS
 - [Implementazione Netfun SMS](./netfun_sms_implementation.md) - Implementazione specifica per il provider Netfun
 
 ### Telegram

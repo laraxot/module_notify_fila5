@@ -212,7 +212,7 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 - `Themes/*/docs/` - Documentazione tema
 
 ### File Originali (Compatti)
-- `agents.md` - Link a tutti i moduli
+- `AGENTS.md` - Link a tutti i moduli
 - `qwen.md` - Contesto Qwen Code
 - `claude.md` - Claude-specific patterns
 - `gemini.md` - Gemini-specific patterns

@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `github-sync-rule.md`
+# Divergenza: `GITHUB_SYNC_RULE.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/GITHUB_SYNC_RULE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

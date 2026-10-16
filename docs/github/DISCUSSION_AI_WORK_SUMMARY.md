@@ -72,7 +72,7 @@ This discussion tracks the AI agent's work on improving GitHub Actions, document
 #### Updated Files
 - `.qwen/AI_MEMORY.md` - Added lessons learned
 - `.qwen/AI_RULES_UPDATED.md` - New testing requirements
-- `agents.md` - Updated with GitHub Actions info
+- `AGENTS.md` - Updated with GitHub Actions info
 
 ---
 

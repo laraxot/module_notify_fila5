@@ -25,10 +25,10 @@ markdown in `docs/`**, contro 233 file PHP in `app/`. Un rapporto di quasi 20
 documenti per ogni file di codice. Questo non è un modulo ben documentato, è
 un modulo che ha smesso di distinguere fra scrivere e ricordare. Prova
 diretta, senza bisogno di aprirli: nella sola root di `docs/` convivono
-`00-index.md`, `00-index-documentation.md`, `00-index-2.md` e `00-index.md` — quattro
+`00-index.md`, `00-index-documentation.md`, `00-index-2.md` e `00-INDEX.md` — quattro
 indici per un unico modulo, nessuno dei quattro probabilmente aggiornato
 dopo la nascita degli altri tre. E poi `absolute-completion.md` insieme ad
-`absolute-completion-100.md`: un modulo che si certifica "completo al 100%"
+`ABSOLUTE_COMPLETION_100.md`: un modulo che si certifica "completo al 100%"
 due volte, con due grafie diverse, è un modulo che non si fida di sé stesso
 abbastanza da cancellare il primo certificato quando scrive il secondo.
 

@@ -30,13 +30,13 @@ updated: 2026-08-24
 
 ### Documentazione Principale
 - [README Principale](./README.md) - Panoramica progetto completa
-- [Analisi Super Mucca](./super-mucca-docs-analysis.md) - Report qualità documentazione
-- [Architecture](./architecture-analysis.md) - Analisi architetturale
-- [Roadmap](./master-roadmap-2025.md) - Piano sviluppo 2025
+- [Analisi Super Mucca](./SUPER_MUCCA_DOCS_ANALYSIS.md) - Report qualità documentazione
+- [Architecture](./ARCHITECTURE_ANALYSIS.md) - Analisi architetturale
+- [Roadmap](./MASTER_ROADMAP_2025.md) - Piano sviluppo 2025
 
 ### Guide Rapide
-- [Quick Start](./quick-start.md) - Guida avvio rapido
-- [Contributing](./contributing.md) - Come contribuire
+- [Quick Start](./QUICK_START.md) - Guida avvio rapido
+- [Contributing](./CONTRIBUTING.md) - Come contribuire
 - [Troubleshooting](./troubleshooting/README.md) - Risoluzione problemi
 
 ---
@@ -282,7 +282,7 @@ updated: 2026-08-24
 ## 🤝 Contributing
 
 ### Contribution Guidelines
-- [How to Contribute](./contributing.md) - Come contribuire
+- [How to Contribute](./CONTRIBUTING.md) - Come contribuire
 - [Code of Conduct](./CODE_OF_CONDUCT.md) - Codice condotta
 - [Pull Request Template](./.github/pull_request_template.md) - Template PR
 

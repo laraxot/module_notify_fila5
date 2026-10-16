@@ -1,12 +1,14 @@
 ---
-title: "standardized sms config structure"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
 qmd: "standardized sms config structure"
 issues: []
 discussions: []
+title: "Struttura Standardizzata della Configurazione SMS"
+module: notify
+type: integration
+tags: [integrations, modules, notify]
+created: 2026-08-24
+updated: 2026-08-24
+status: draft
 ---
 
 # Struttura Standardizzata della Configurazione SMS
@@ -167,17 +169,9 @@ $debug = $config['drivers'][$driver]['debug'] ?? $config['debug'];
 
 ## Collegamenti
 
-- [Configurazione Netfun](./netfun-config-requirements.md)
+- [Configurazione Netfun](./netfun_config_requirements.md)
 - [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
 
 ---
 
-title: "standardized sms config structure"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "standardized sms config structure"
-issues: []
-discussions: []
-*Ultimo aggiornamento: 2025-05-12*
+*Ultimo aggiornamento: [DATE]*

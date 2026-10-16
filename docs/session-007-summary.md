@@ -1,10 +1,10 @@
 ---
-title: "SESSION 007 SUMMARY"
+title: "session 007 summary"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "SESSION 007 SUMMARY"
+qmd: "session 007 summary"
 issues: []
 discussions: []
 status: draft

@@ -2647,7 +2647,7 @@ https://abstractentropy.com/laravel-notifications-telegram-bot/
 
 ## telegram_channel
 
-*Consolidated from: `telegram-channel.md`*
+*Consolidated from: `telegram_channel.md`*
 
 
 ## 1. Struttura Base
@@ -3093,7 +3093,7 @@ class TelegramTest extends TestCase
 
 ## telegram_integration
 
-*Consolidated from: `telegram-integration.md`*
+*Consolidated from: `telegram_integration.md`*
 
 # Integrazione Telegram
 
@@ -3275,7 +3275,7 @@ TELEGRAM_PARSE_MODE=HTML
 
 ## telegram_sending_standard
 
-*Consolidated from: `telegram-sending-standard.md`*
+*Consolidated from: `telegram_sending_standard.md`*
 
 
 ## Introduzione

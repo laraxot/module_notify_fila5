@@ -145,5 +145,5 @@ discussions: []
 ## Riferimenti
 
 - [PROJECT.md](./project.md) - Visione e obiettivi
-- [agents.md](./agents.md) - Regole per agenti AI
+- [agents.md](./AGENTS.md) - Regole per agenti AI
 - [docs/](..) - Documentazione completa

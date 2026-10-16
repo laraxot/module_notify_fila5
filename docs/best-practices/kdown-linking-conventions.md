@@ -43,9 +43,9 @@ status: draft
 ### ✅ CORRETTO: Percorsi Relativi
 
 ```markdown
-[Convenzioni di Naming per le Interfacce](./interface-naming-convention.md)
-[Chiarimento sulla Struttura delle Interfacce](./interface-structure-clarification.md)
-[Architettura dei Contratti](./contracts-architecture.md)
+[Convenzioni di Naming per le Interfacce](./interface_naming_convention.md)
+[Chiarimento sulla Struttura delle Interfacce](./interface_structure_clarification.md)
+[Architettura dei Contratti](./contracts_architecture.md)
 ```
 
 Per collegamenti a documenti in altre directory:

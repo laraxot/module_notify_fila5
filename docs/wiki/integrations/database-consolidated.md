@@ -3809,7 +3809,7 @@ Cordiali saluti,<br>
 
 ## database_mail
 
-*Consolidated from: `database-mail.md`*
+*Consolidated from: `database_mail.md`*
 
 
 ## Regola sulle rotte
@@ -4252,7 +4252,7 @@ Cordiali saluti,<br>
 
 ## database_mail_enhancement
 
-*Consolidated from: `database-mail-enhancement.md`*
+*Consolidated from: `database_mail_enhancement.md`*
 
 
 Questo documento descrive un approccio in-house per la gestione e l'invio di email da database, ispirato al plugin a pagamento `martin-petricko-database-mail` per Filament e alle soluzioni open source di Spatie.
@@ -4353,7 +4353,7 @@ testable class SendEmailTemplateAction {
 
 ## database_mail_queue
 
-*Consolidated from: `database-mail-queue.md`*
+*Consolidated from: `database_mail_queue.md`*
 
 
 ## Panoramica
@@ -4771,7 +4771,7 @@ php artisan queue:restart
 
 ## database_mail_system
 
-*Consolidated from: `database-mail-system.md`*
+*Consolidated from: `database_mail_system.md`*
 
 
 ## Panoramica

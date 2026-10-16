@@ -682,7 +682,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" Modules/
 
 ## class_inheritance_best_practices
 
-*Consolidated from: `class-inheritance-best-practices.md`*
+*Consolidated from: `class_inheritance_best_practices.md`*
 
 
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
@@ -766,7 +766,7 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 
 ## class_inheritance_principles
 
-*Consolidated from: `class-inheritance-principles.md`*
+*Consolidated from: `class_inheritance_principles.md`*
 
 # Principi di Ereditarietà nelle Classi <nome progetto>
 

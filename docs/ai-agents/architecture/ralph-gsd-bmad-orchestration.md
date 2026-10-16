@@ -93,7 +93,7 @@ Nel repo prevalgono sempre i quality gate locali, anche quando il loop Ralph sug
 ## Riferimenti
 
 - [AI agents docs index](../00-INDEX.md)
-- [Architecture index](./00-index.md)
+- [Architecture index](./00-INDEX.md)
 - [Ralph local README](../../ralph/README.md)
 - [GSD + BMAD guide](../gsd-bmad-comprehensive-guide.md)
 - [AGENTS.md](../../../../../AGENTS.md)

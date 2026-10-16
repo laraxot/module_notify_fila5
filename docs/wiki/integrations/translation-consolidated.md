@@ -4574,7 +4574,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 
 ## translation_cleanup_plan
 
-*Consolidated from: `translation-cleanup-plan.md`*
+*Consolidated from: `translation_cleanup_plan.md`*
 
 
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
@@ -4683,7 +4683,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 
 ## translation_conventions
 
-*Consolidated from: `translation-conventions.md`*
+*Consolidated from: `translation_conventions.md`*
 
 
 ## Regole Fondamentali
@@ -4925,7 +4925,7 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 
 ## translation_conventions_clarification
 
-*Consolidated from: `translation-conventions-clarification.md`*
+*Consolidated from: `translation_conventions_clarification.md`*
 
 
 ## Identificazione di Convenzioni Contrastanti
@@ -5023,7 +5023,7 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## translation_file_correction_guide
 
-*Consolidated from: `translation-file-correction-guide.md`*
+*Consolidated from: `translation_file_correction_guide.md`*
 
 
 ## Procedura Sistematica per la Standardizzazione
@@ -5205,7 +5205,7 @@ return [
 
 ## translation_file_naming_rules
 
-*Consolidated from: `translation-file-naming-rules.md`*
+*Consolidated from: `translation_file_naming_rules.md`*
 
 
 ## Principi Fondamentali per il Naming dei File
@@ -5250,7 +5250,7 @@ Se si identifica un file con naming non conforme:
 
 ## translation_file_structure_guide
 
-*Consolidated from: `translation-file-structure-guide.md`*
+*Consolidated from: `translation_file_structure_guide.md`*
 
 
 ## Struttura Standard Obbligatoria
@@ -5408,7 +5408,7 @@ return [
 
 ## translation_implementation_plan
 
-*Consolidated from: `translation-implementation-plan.md`*
+*Consolidated from: `translation_implementation_plan.md`*
 
 
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
@@ -5567,7 +5567,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 
 ## translation_keys_best_practices
 
-*Consolidated from: `translation-keys-best-practices.md`*
+*Consolidated from: `translation_keys_best_practices.md`*
 
 
 ## Politica
@@ -5589,7 +5589,7 @@ La chiave di traduzione perfetta è quella che non si nota: è naturale, fluida,
 
 ## translation_keys_rules
 
-*Consolidated from: `translation-keys-rules.md`*
+*Consolidated from: `translation_keys_rules.md`*
 
 
 ## [2024-07-07] Aggiornamento regole e best practice traduzioni modulo Notify
@@ -5645,7 +5645,7 @@ return [
 
 ## translation_standards
 
-*Consolidated from: `translation-standards.md`*
+*Consolidated from: `translation_standards.md`*
 
 # Standard per le Traduzioni
 
@@ -5788,7 +5788,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 
 ## translation_standards_progress
 
-*Consolidated from: `translation-standards-progress.md`*
+*Consolidated from: `translation_standards_progress.md`*
 
 
 ## Stato Attuale - 12/05/2025
@@ -6474,7 +6474,7 @@ Notification::make()
 
 ## translations_implementation_status
 
-*Consolidated from: `translations-implementation-status.md`*
+*Consolidated from: `translations_implementation_status.md`*
 
 
 ## Panoramica

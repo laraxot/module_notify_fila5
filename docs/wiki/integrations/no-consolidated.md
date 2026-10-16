@@ -1955,7 +1955,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
-- [Panoramica dell'Architettura](./architecture.md)
+- [Panoramica dell'Architettura](./ARCHITECTURE.md)
 - [Modelli di Email](../../email_templates.md)
 - [Implementazione SMS](../../sms_implementation.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
@@ -3336,7 +3336,7 @@ Per implementazioni specifiche, vedere i documenti:
 
 ## notification_behavior
 
-*Consolidated from: `notification-behavior.md`*
+*Consolidated from: `notification_behavior.md`*
 
 
 ## Notification Channels Behavior
@@ -3424,7 +3424,7 @@ public function via($notifiable)
 
 ## notification_channels_implementation
 
-*Consolidated from: `notification-channels-implementation.md`*
+*Consolidated from: `notification_channels_implementation.md`*
 
 # Implementazione dei Canali di Notifica
 
@@ -3582,7 +3582,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
-- [Panoramica dell'Architettura](./architecture.md)
+- [Panoramica dell'Architettura](./ARCHITECTURE.md)
 - [Modelli di Email](../../email_templates.md)
 - [Implementazione SMS](../../sms_implementation.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
@@ -3592,7 +3592,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## notification_errors
 
-*Consolidated from: `notification-errors.md`*
+*Consolidated from: `notification_errors.md`*
 
 
 ## 1. Errore Destinatario Mancante
@@ -3761,7 +3761,7 @@ class YourNotification extends Notification
 
 ## notification_providers_guide
 
-*Consolidated from: `notification-providers-guide.md`*
+*Consolidated from: `notification_providers_guide.md`*
 
 # Guida Completa ai Provider di Notifiche
 
@@ -5085,7 +5085,7 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## notify_translation_guide
 
-*Consolidated from: `notify-translation-guide.md`*
+*Consolidated from: `notify_translation_guide.md`*
 
 
 ## Introduzione

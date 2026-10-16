@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `absolute-completion-100.md`
+# Divergenza: `ABSOLUTE_COMPLETION_100.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/ABSOLUTE_COMPLETION_100.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

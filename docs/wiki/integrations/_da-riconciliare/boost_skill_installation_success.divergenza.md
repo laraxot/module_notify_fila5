@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `boost-skill-installation-success.md`
+# Divergenza: `BOOST_SKILL_INSTALLATION_SUCCESS.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/BOOST_SKILL_INSTALLATION_SUCCESS.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

@@ -1,5 +1,5 @@
 ---
-qmd: "MODULE STRUCTURE"
+qmd: "module structure"
 issues: []
 discussions: []
 title: "Notify Module — Structure & Discipline"
