@@ -97,7 +97,7 @@ Forms\Components\Select::make('user_id')
 ---
 ## Cross-References
 
-- ← [CLAUDE Index](index.md) — All Laravel Boost guidelines
+- ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines
 - ← [Main AI Docs Index](../INDEX.md) — Master index
 - ← [CLAUDE Index](index.md) — All Laravel Boost guidelines
 - ← [Main AI Docs Index](../index.md) — Master index

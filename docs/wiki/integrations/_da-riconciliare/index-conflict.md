@@ -58,7 +58,7 @@ This document serves as the central index for the Notify module, providing guida
 - Update this index if new features or significant changes are introduced to the Notify module.
 
 ## Links to Related Documentation
-- [Architecture Overview](./architecture.md)
+- [Architecture Overview](./ARCHITECTURE.md)
 - [Notification Channels Implementation](../../../notification_channels_implementation.md)
 - [Email Templates](../../../email_templates.md)
 - [SMS Implementation](../../../sms_implementation.md)
@@ -96,7 +96,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Architettura e Struttura
 - [README](./README.md) - Panoramica generale del modulo
-- [Architettura](./architecture.md) - Architettura generale del modulo
+- [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
 - [Struttura](./structure.md) - Struttura delle directory e dei componenti
 - [Modelli](./models.md) - Documentazione dei modelli Eloquent
 - [Eventi](../../../events.md) - Eventi e listeners
@@ -120,23 +120,23 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Convenzioni Filament](../../../filament_extension_pattern.md) - Pattern di estensione per Filament
 
 ### Configurazione
-- [Struttura Config](./config-structure.md) - Struttura dei file di configurazione
+- [Struttura Config](./config_structure.md) - Struttura dei file di configurazione
 - [Configurazione SMS](../../../sms_config_structure.md) - Struttura della configurazione SMS
 - [Principi di Configurazione](../../../configurations_usage_principles.md) - Principi per l'utilizzo delle configurazioni
 
 ### Pattern e Architettura
 - [Pattern Factory](../../../factory_pattern_analysis.md) - Analisi del pattern Factory
-- [Risoluzione Dinamica delle Classi](./dynamic-class-resolution.md) - Pattern di risoluzione dinamica delle classi
+- [Risoluzione Dinamica delle Classi](./dynamic_class_resolution.md) - Pattern di risoluzione dinamica delle classi
 - [Queueable Actions](../../../queueable-action.md) - Utilizzo di Spatie Queueable Actions
 
 ### Standard e Traduzioni
-- [Convenzioni di Naming](./naming-conventions.md) - Standard per i nomi di file e classi
+- [Convenzioni di Naming](./naming_conventions.md) - Standard per i nomi di file e classi
 - [Traduzioni](../../../translations.md) - Sistema di traduzioni
 - [Standard Traduzioni](../../../translation_standards.md) - Standard per le chiavi di traduzione
 
 ### Testing e Qualità
 - [PHPStan Level 10](../../../phpstan_level10_fixes.md) - Correzioni per PHPStan Level 10
-- [Testing](./testing.md) - Strategie e approcci per il testing
+- [Testing](./TESTING.md) - Strategie e approcci per il testing
 
 ## Linee Guida per l'Implementazione
 
@@ -192,7 +192,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - [Index](./notifications/index.md) - Indice della documentazione sulle notifiche
 
 ## Collegamenti alla Documentazione Correlata
-- [Panoramica Architettura](./architecture.md)
+- [Panoramica Architettura](./ARCHITECTURE.md)
 - [Implementazione Canali Notifica](../../../notification_channels_implementation.md)
 - [Template Email](../../../email_templates.md)
 - [Implementazione SMS](../../../sms_implementation.md)
@@ -229,9 +229,9 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
-  - `database-mail-queue.md` - Rimossi marcatori conflitto, aggiornati path di sistema
-  - `database-mail-system.md` - Puliti conflitti nelle sezioni bash e riferimenti
-  - `database-mail.md` - Risolti conflitti nei template e riferimenti esterni
+  - `database_mail_queue.md` - Rimossi marcatori conflitto, aggiornati path di sistema
+  - `database_mail_system.md` - Puliti conflitti nelle sezioni bash e riferimenti
+  - `database_mail.md` - Risolti conflitti nei template e riferimenti esterni
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata

@@ -1,10 +1,10 @@
 ---
-title: "phpstan remediation "
+title: "phpstan remediation"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "phpstan remediation "
+qmd: "phpstan remediation"
 issues: []
 discussions: []
 status: draft

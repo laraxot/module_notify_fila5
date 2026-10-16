@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `sessione-analisi-homepage.md`
+# Divergenza: `SESSIONE_ANALISI_HOMEPAGE.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/SESSIONE_ANALISI_HOMEPAGE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

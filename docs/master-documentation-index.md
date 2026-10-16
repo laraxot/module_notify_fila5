@@ -35,7 +35,7 @@ related:
 
 ### Per Sviluppatori
 - [Architecture Overview](./architecture/README.md)
-- [Getting Started](./getting-started.md)
+- [Getting Started](./GETTING_STARTED.md)
 - [Coding Standards](./conventions/README.md)
 
 ### Per AI Agents

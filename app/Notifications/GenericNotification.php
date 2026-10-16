@@ -89,9 +89,7 @@ class GenericNotification extends Notification implements ShouldQueue
         // Aggiungi eventuali linee aggiuntive
         if (isset($this->data['additional_lines']) && is_array($this->data['additional_lines'])) {
             foreach ($this->data['additional_lines'] as $line) {
-                if (is_scalar($line)) {
-                    $mail->line((string) $line);
-                }
+                $mail->line($line);
             }
         }
 

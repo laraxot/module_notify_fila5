@@ -300,7 +300,7 @@ Semantic HTML **REDUCES** need for ARIA:
 ## 🔗 Related Documentation
 
 ### AI Agents Docs
-- **[Guidelines Index](00-index.md)** - All guidelines
+- **[Guidelines Index](00-INDEX.md)** - All guidelines
 - **[Reusable Components](reusable-components-philosophy.md)** - DRY+KISS
 - **[Rules Index](../rules/00-INDEX.md)** - All rules
 

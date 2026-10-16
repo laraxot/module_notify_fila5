@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `refactoring-basemodel-analisi.md`
+# Divergenza: `REFACTORING_BASEMODEL_ANALISI.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/REFACTORING_BASEMODEL_ANALISI.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

@@ -30,9 +30,9 @@ related:
 This directory contains split documentation files for AI assistants used in the Notify project. Each file is focused on a specific area to improve readability and maintainability.
 
 **Original Files** (kept for backward compatibility):
-- [`agents.md`](../../../../../AGENTS.md) — 5349 lines, comprehensive BMad agents + tasks
+- [`AGENTS.md`](../../../../../AGENTS.md) — 5349 lines, comprehensive BMad agents + tasks
 - [`docs/CLAUDE.md`](../../CLAUDE.md) — 833 lines, Laravel Boost guidelines
-- [`qwen.md`](../../../../QWEN.md) — 47 lines, Qwen output language rules
+- [`QWEN.md`](../../../../QWEN.md) — 47 lines, Qwen output language rules
 - [`laravel/GEMINI.md`](../../../../../GEMINI.md) — 581 lines, Gemini-specific rules
 
 ---

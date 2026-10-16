@@ -3676,7 +3676,7 @@ The `sendWhatsApp()` method was slightly different but still shared the core not
 
 ## send_email_fix
 
-*Consolidated from: `send-email-fix.md`*
+*Consolidated from: `send_email_fix.md`*
 
 
 ## 🔍 Analisi del Problema
@@ -3913,7 +3913,7 @@ class SmtpData extends Data
 
 ## send_email_translation_fix
 
-*Consolidated from: `send-email-translation-fix.md`*
+*Consolidated from: `send_email_translation_fix.md`*
 
 
 ## Problemi Identificati
@@ -4076,7 +4076,7 @@ Ogni campo ora ha la struttura espansa completa:
 
 ## send_email_translation_improvement
 
-*Consolidated from: `send-email-translation-improvement.md`*
+*Consolidated from: `send_email_translation_improvement.md`*
 
 
 ## 🔍 Analisi del Problema
@@ -4820,7 +4820,7 @@ php artisan email:test
 
 ## sendemail_troubleshooting
 
-*Consolidated from: `sendemail-troubleshooting.md`*
+*Consolidated from: `sendemail_troubleshooting.md`*
 
 
 ## Problema

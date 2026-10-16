@@ -44,7 +44,7 @@ class TwilioData extends Data
             case 'basic':
             default:
                 return [
-                    'Authorization' => 'Basic '.base64_encode(($this->account_sid ?? '').':'.($this->auth_token ?? '')),
+                    'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
                     'Content-Type' => 'application/x-www-form-urlencoded'];
         }
     }

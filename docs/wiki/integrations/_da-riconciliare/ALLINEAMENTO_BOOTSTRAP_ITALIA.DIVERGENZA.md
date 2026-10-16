@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `allineamento-bootstrap-italia.md`
+# Divergenza: `ALLINEAMENTO_BOOTSTRAP_ITALIA.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/ALLINEAMENTO_BOOTSTRAP_ITALIA.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

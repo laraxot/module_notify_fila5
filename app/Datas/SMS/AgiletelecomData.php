@@ -53,18 +53,18 @@ class AgiletelecomData extends Data
         switch ($this->auth_type) {
             case 'api_key':
                 return [
-                    'Authorization' => 'Api-Key '.($this->api_key ?? ''),
+                    'Authorization' => 'Api-Key '.$this->api_key,
                     'Content-Type' => 'application/json'];
 
             case 'oauth':
                 return [
-                    'Authorization' => 'OAuth '.($this->oauth_token ?? ''),
+                    'Authorization' => 'OAuth '.$this->oauth_token,
                     'Content-Type' => 'application/json'];
 
             case 'basic':
             default:
                 return [
-                    'Authorization' => 'Basic '.base64_encode(($this->username ?? '').':'.($this->password ?? '')),
+                    'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
                     'Content-Type' => 'application/json'];
         }
     }

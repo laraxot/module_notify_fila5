@@ -245,7 +245,7 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 - [Modulo App](../App/docs/readme.md)
 - [Modulo Quaeris](../Quaeris/docs/readme.md)
 - [Modulo Limesurvey](../limesurvey/docs/readme.md)
-- [Notify README](./README.md)
+- [Notify README](./readme.md)
 
 ---
 

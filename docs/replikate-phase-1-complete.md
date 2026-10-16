@@ -56,7 +56,7 @@ status: draft
 |----------|---------|--------|
 | `replikate.txt` | Execution protocol | ✅ Complete |
 | `homepage-structure-diff.md` | Detailed analysis + fixes | ✅ Complete |
-| `00-index.md` | Navigation hub | ✅ Complete |
+| `00-INDEX.md` | Navigation hub | ✅ Complete |
 
 #### Automation
 | Script | Purpose | Status |

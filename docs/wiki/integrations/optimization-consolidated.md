@@ -1267,7 +1267,7 @@ class NotificationTemplateCache
 
 ## optimization_analysis
 
-*Consolidated from: `optimization-analysis.md`*
+*Consolidated from: `optimization_analysis.md`*
 
 
 ## current state analysis
@@ -1382,7 +1382,7 @@ docs/
 
 ## optimization_recommendations
 
-*Consolidated from: `optimization-recommendations.md`*
+*Consolidated from: `optimization_recommendations.md`*
 
 
 > ⚠️ **Historical Document**: Questo documento contiene riferimenti a progetti legacy (<nome progetto>) non più presenti nel codebase. Le raccomandazioni di ottimizzazione rimangono valide, ma adattare al contesto del progetto corrente (ptvx).

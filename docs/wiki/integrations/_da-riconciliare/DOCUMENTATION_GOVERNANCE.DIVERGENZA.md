@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `documentation-governance.md`
+# Divergenza: `DOCUMENTATION_GOVERNANCE.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/DOCUMENTATION_GOVERNANCE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

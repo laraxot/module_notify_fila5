@@ -43,7 +43,7 @@ status: draft
 
 | File | Changes | Lines Added |
 |------|---------|-------------|
-| `agents.md` | Multi-agent coordination section | ~80 |
+| `AGENTS.md` | Multi-agent coordination section | ~80 |
 | `.github/workflows/sync-remote-repo.yml` | Minor cleanup | ~1 |
 
 ---

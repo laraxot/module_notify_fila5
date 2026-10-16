@@ -293,8 +293,8 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ## 📞 SUPPORTO E COMMUNITY
 
 ### Per Sviluppatori
-- **Quick Start**: [QUICK_START.md](./quick-start.md)
-- **Documentation Index**: [DOCUMENTATION_INDEX.md](./documentation-index.md)
+- **Quick Start**: [QUICK_START.md](./QUICK_START.md)
+- **Documentation Index**: [DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md)
 - **Slack**: #laraxot-dev
 
 ### Per Utenti

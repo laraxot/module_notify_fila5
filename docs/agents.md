@@ -95,9 +95,9 @@ discussions: []
 
 ---
 **See also:**
-- [CLAUDE.md](./claude.md)
-- [QWEN.md](./qwen.md)
-- [GEMINI.md](./gemini.md)
+- [CLAUDE.md](./CLAUDE.md)
+- [QWEN.md](./QWEN.md)
+- [GEMINI.md](./GEMINI.md)
 
 *Ultimo aggiornamento: Aprile 2026*
 
@@ -193,9 +193,9 @@ docs/
 
 ---
 **See also:**
-- [CLAUDE.md](./claude.md)
-- [QWEN.md](./qwen.md)
-- [GEMINI.md](./gemini.md)
+- [CLAUDE.md](./CLAUDE.md)
+- [QWEN.md](./QWEN.md)
+- [GEMINI.md](./GEMINI.md)
 
 *Ultimo aggiornamento: Aprile 2026*
 

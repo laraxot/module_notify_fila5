@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `enum-config-usage.md`
+# Divergenza: `enum_config_usage.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/enum_config_usage.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

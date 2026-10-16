@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `missione-super-mucca-completata.md`
+# Divergenza: `MISSIONE_SUPER_MUCCA_COMPLETATA.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/MISSIONE_SUPER_MUCCA_COMPLETATA.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

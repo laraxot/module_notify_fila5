@@ -60,7 +60,9 @@ class SpatieEmail extends TemplateMailable
                 'sms_template' => 'Gentile {{ first_name }} {{ last_name }}, la tua registrazione è in attesa di approvazione. Ti contatteremo presto.'],
         );
 
-        $tpl->update(['counter' => $tpl->counter + 1]);
+        if ($tpl !== null) {
+            $tpl->update(['counter' => $tpl->counter + 1]);
+        }
         if ($this->slug === 'verify-email') {
             $this->syncVerifyEmailTemplate($tpl, app()->getLocale());
         }
@@ -183,19 +185,22 @@ class SpatieEmail extends TemplateMailable
     }
 
     /**
-     * @param  array{path: string, as?: string|null, mime?: string|null}  $attachment
+     * @param  array<string, string>  $attachment
      */
     public function getAttachmentFromPath(array $attachment): Attachment
     {
+        /** @var string $path */
         $path = $attachment['path'];
         $res = Attachment::fromPath($path);
-        /** @var array{dirname?: string, basename?: string, extension?: string, filename?: string} $info */
+        /** @var array<string, string> $info */
         $info = pathinfo($path);
-        $as = $attachment['as'] ?? null;
-        $basename = $info['basename'] ?? null;
-        $filename = is_string($as) && $as !== '' ? $as : (is_string($basename) && $basename !== '' ? $basename : basename($path));
-        $mimeRaw = $attachment['mime'] ?? File::mimeType($path);
-        $mime = is_string($mimeRaw) && $mimeRaw !== '' ? $mimeRaw : 'application/octet-stream';
+        /** @var string $filename */
+        $filename = $attachment['as'] ?? ($info['basename'] ?? basename($path));
+        /** @var string|null $mime */
+        $mime = $attachment['mime'] ?? File::mimeType($path);
+        if ($mime === null) {
+            $mime = 'application/octet-stream';
+        }
 
         return $res->as($filename)->withMime($mime);
     }
@@ -205,25 +210,24 @@ class SpatieEmail extends TemplateMailable
      */
     public function getAttachmentFromData(array $attachment): Attachment
     {
-        $rawData = $attachment['data'] ?? '';
-        $content = is_string($rawData) ? $rawData : '';
-        $res = Attachment::fromData(static fn (): string => $content);
+        $res = Attachment::fromData(static fn () => $attachment['data']);
+        /** @var string|null $asRaw */
         $asRaw = $attachment['as'] ?? null;
 
         $mime = Arr::get($attachment, 'mime', null); // ?? File::mimeType($as);   file vuole un file esistente
-        $asForPathinfo = is_string($asRaw) ? $asRaw : '';
-        /** @var array{dirname?: string, basename?: string, extension?: string, filename?: string} $info */
+        /** @var string $asForPathinfo */
+        $asForPathinfo = \is_string($attachment['as']) ? $attachment['as'] : '';
         $info = pathinfo($asForPathinfo);
-        $extension = $info['extension'] ?? null;
-        if ($mime === null && is_string($extension) && $extension !== '') {
-            $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($extension));
+        if ($mime === null && isset($info['extension'])) {
+            $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
         }
         if ($mime === null) {
             $mime = 'application/octet-stream';
         }
         Assert::string($mime, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
-        $asForMethod = is_string($asRaw) ? $asRaw : null;
+        /** @var string|null $asForMethod */
+        $asForMethod = \is_string($asRaw) ? $asRaw : null;
         $res = $res->as($asForMethod)->withMime($mime);
 
         return $res;

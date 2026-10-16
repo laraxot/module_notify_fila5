@@ -272,7 +272,7 @@ Log::info('Batch completed', ['count' => $count]); // ✅ ONE LOG
 ## 📚 Related Documentation
 
 - `.windsurfrules` - Complete architectural rules
-- `agents.md` - Project guidelines
+- `AGENTS.md` - Project guidelines
 - Module-specific docs for implementation examples
 ---
 
@@ -762,7 +762,7 @@ By removing excessive logging and implementing proper audit trails:
 
 ## logging-optimization-summary-
 
-*Consolidated from: `logging-optimization-summary.md`*
+*Consolidated from: `logging-optimization-summary-.md`*
 
 title: "LOGGING_OPTIMIZATION_SUMMARY_2026-03-02.deprecated"
 type: concept
@@ -1262,7 +1262,7 @@ LOG_LEVEL=debug
 ### Documentation
 - `laravel/Modules/Xot/docs/LOGGING_BEST_PRACTICES_2026-03-02.md`
 - `docs/LOGGING-OPTIMIZATION-SUMMARY-.md.md`
-- `agents.md` - Updated with logging rules
+- `AGENTS.md` - Updated with logging rules
 
 ### Laravel Documentation
 - https://laravel.com/docs/logging

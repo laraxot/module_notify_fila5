@@ -31,9 +31,9 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 
 ---
 **See also:**
-- [CLAUDE.md](./claude.md)
+- [CLAUDE.md](./CLAUDE.md)
 - [agents.md](./agents.md)
-- [GEMINI.md](./gemini.md)
+- [GEMINI.md](./GEMINI.md)
 
 *Ultimo aggiornamento: Aprile 2026*
 

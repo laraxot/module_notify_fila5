@@ -18,8 +18,8 @@ Questa guida illustra come utilizzare la classe `SpatieEmail` per inviare email 
 ## Collegamenti correlati
 
 - [README del modulo Notify](./README.md)
-- [Documentazione Email Templates](./email-templates.md)
-- [Email Specifiche per Dottori](./doctor-emails.md)
+- [Documentazione Email Templates](./email_templates.md)
+- [Email Specifiche per Dottori](./doctor_emails.md)
 - [Implementazione Database Mail](./database-mail.md)
 - [Documentazione Centrale](../../../../docs/collegamenti-documentazione.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -186,7 +186,7 @@ public function getHtmlLayout(): string
 ```php
 namespace Modules\User\Actions;
 
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 use Modules\Notify\Actions\SendTemplatedEmailAction;
 use Spatie\QueueableAction\QueueableAction;
 

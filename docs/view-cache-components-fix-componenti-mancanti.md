@@ -188,6 +188,6 @@ L'implementazione ha risolto con successo il problema della cache delle viste, c
 
 ### Root Progetto
 - [Analisi Completa](./analisi-completa-ottobre-data.md)
-- [Sessione Super Mucca](./sessione-super-mucca.md)
+- [Sessione Super Mucca](./SESSIONE-SUPER-MUCCA.md)
 - [Architecture](./architecture/)
 

@@ -66,9 +66,9 @@ This document outlines the architectural design of the Notify module, focusing o
 
 ## Links to Related Documentation
 - [Notify Module Index](./index.md)
-- [Notification Channels Implementation](./notification-channels-implementation.md)
-- [Email Templates](./email-templates.md)
-- [SMS Implementation](./sms-implementation.md)
+- [Notification Channels Implementation](./notification_channels_implementation.md)
+- [Email Templates](./email_templates.md)
+- [SMS Implementation](./sms_implementation.md)
 - [Troubleshooting](./troubleshooting.md)
 - [Troubleshooting](./troubleshooting.md)
 

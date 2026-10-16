@@ -303,7 +303,7 @@ Agent: [Systematic debugging]
 - [Installation Guide](installation.md)
 - [Workflow Guide](workflow.md)
 - [Skills Reference](skills-reference.md)
-- [Quick Index](index.md)
+- [Quick Index](INDEX.md)
 - [Quick Index](index.md)
 - [Laravel Integration](laravel/Modules/docs/superpowers.md)
 

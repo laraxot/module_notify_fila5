@@ -197,7 +197,7 @@ git push origin dev
 ### 5. **Document Everything**
 - Scripts → `bashscripts/docs/`
 - Workflows → `.github/` AND `bashscripts/ai/.github/`
-- Rules → `agents.md`, `.windsurfrules`
+- Rules → `AGENTS.md`, `.windsurfrules`
 
 ---
 

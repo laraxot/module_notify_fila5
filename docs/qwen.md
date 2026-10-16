@@ -36,10 +36,10 @@ qmd: "qwen"
 issues: []
 discussions: []
 **See also:**
-- [CLAUDE.md](./claude.md)
-- [AGENTS.md](./agents.md)
-- [agents.md](./agents.md)
-- [GEMINI.md](./gemini.md)
+- [CLAUDE.md](./CLAUDE.md)
+- [AGENTS.md](./AGENTS.md)
+- [agents.md](./AGENTS.md)
+- [GEMINI.md](./GEMINI.md)
 
 *Ultimo aggiornamento: Aprile 2026*
 
@@ -105,9 +105,9 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 
 ---
 **See also:**
-- [claude.md](./claude.md)
-- [agents.md](./agents.md)
-- [gemini.md](./gemini.md)
+- [claude.md](./CLAUDE.md)
+- [agents.md](./AGENTS.md)
+- [gemini.md](./GEMINI.md)
 
 *Ultimo aggiornamento: Aprile 2026*
 
