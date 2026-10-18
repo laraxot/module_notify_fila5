@@ -4,127 +4,165 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Notify\Models\BaseModel;
+use ReflectionClass;
+use ReflectionMethod;
+use Mockery;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
-use Modules\Xot\Tests\XotBasePest;
-use PHPUnit\Framework\Assert;
+use PHPUnit\Framework\TestCase;
 
-it('extends base model', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
+class NotificationTemplateVersionTest extends TestCase
+{
+    protected function tearDown(): void
+    {
+        Mockery::close();
+        parent::tearDown();
+    }
 
-    Assert::assertInstanceOf(BaseModel::class, $version);
-});
+    /** @test */
+    public function it_extends_base_model(): void
+    {
+        $version = new NotificationTemplateVersion();
 
-it('uses updater trait', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $traits = $reflection->getTraitNames();
+        $this->assertInstanceOf(BaseModel::class, $version);
+    }
 
-    Assert::assertContains('Modules\\Xot\\Traits\\Updater', $traits);
-});
+    /** @test */
+    public function it_uses_updater_trait(): void
+    {
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
 
-it('has correct fillable attributes', function (): void {
-    $expectedFillable = [
-        'template_id',
-        'subject',
-        'body_html',
-        'body_text',
-        'channels',
-        'variables',
-        'conditions',
-        'version',
-        'created_by',
-        'change_notes'];
+        $this->assertContains('Modules\Xot\Traits\Updater', $traits);
+    }
 
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $instance = $reflection->newInstanceWithoutConstructor();
-    $fillableProperty = $reflection->getProperty('fillable');
-    $fillableProperty->setAccessible(true);
-    $fillable = $fillableProperty->getValue($instance);
+    /** @test */
+    public function it_has_correct_fillable_attributes(): void
+    {
+        $expectedFillable = [
+            'template_id',
+            'subject',
+            'body_html',
+            'body_text',
+            'channels',
+            'variables',
+            'conditions',
+            'version',
+            'created_by',
+            'change_notes',
+        ];
 
-    Assert::assertSame($expectedFillable, $fillable);
-});
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+    }
 
-it('has correct casts', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $instance = $reflection->newInstanceWithoutConstructor();
-    $castsMethod = $reflection->getMethod('casts');
-    $castsMethod->setAccessible(true);
-    $casts = XotBasePest::assertArray($castsMethod->invoke($instance));
-    Assert::assertSame('array', $casts['channels'] ?? null);
-    Assert::assertSame('array', $casts['variables'] ?? null);
-    Assert::assertSame('array', $casts['conditions'] ?? null);
-});
+    /** @test */
+    public function it_has_correct_casts(): void
+    {
+        $version = new NotificationTemplateVersion();
+        $casts = $version->getCasts();
 
-it('has template relationship method', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    Assert::assertTrue($reflection->hasMethod('template'));
-});
+        $this->assertIsArray($casts);
+        $this->assertEquals('array', $casts['channels']);
+        $this->assertEquals('array', $casts['variables']);
+        $this->assertEquals('array', $casts['conditions']);
+    }
 
-it('has restore method', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    Assert::assertTrue($reflection->hasMethod('restoreTemplate'));
-});
+    /** @test */
+    public function it_has_template_relationship(): void
+    {
+        $version = new NotificationTemplateVersion();
 
-it('restore method returns NotificationTemplate', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
+        $this->assertTrue(method_exists($version, 'template'));
+    }
 
-    $method = new \ReflectionMethod($version, 'restoreTemplate');
-    $returnType = $method->getReturnType();
+    /** @test */
+    public function it_has_restore_method(): void
+    {
+        $version = new NotificationTemplateVersion();
 
-    Assert::assertNotNull($returnType);
-    XotBasePest::assertReflectionTypeName($returnType, NotificationTemplate::class);
-});
+        $this->assertTrue(method_exists($version, 'restore'));
+    }
 
-it('has expected table name', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
+    /** @test */
+    public function restore_method_returns_notification_template(): void
+    {
+        $version = new NotificationTemplateVersion();
 
-    Assert::assertSame('notification_template_versions', $version->getTable());
-});
+        $this->assertTrue(method_exists($version, 'restore'));
 
-it('has expected primary key', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
+        // Verifica che il metodo restituisca NotificationTemplate
+        $reflection = new ReflectionMethod($version, 'restore');
+        $returnType = $reflection->getReturnType();
 
-    Assert::assertSame('id', $version->getKeyName());
-});
+        $this->assertEquals(NotificationTemplate::class, $returnType->getName());
+    }
 
-it('uses timestamps', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
+    /** @test */
+    public function it_has_table_name(): void
+    {
+        $version = new NotificationTemplateVersion();
 
-    Assert::assertTrue($version->usesTimestamps());
-});
+        $this->assertEquals('notification_template_versions', $version->getTable());
+    }
 
-it('has uuids trait', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $traits = $reflection->getTraitNames();
+    /** @test */
+    public function it_has_primary_key(): void
+    {
+        $version = new NotificationTemplateVersion();
 
-    Assert::assertContains('Illuminate\\Database\\Eloquent\\Concerns\\HasUuids', $traits);
-});
+        $this->assertEquals('id', $version->getKeyName());
+    }
 
-it('has factory trait', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $traits = $reflection->getTraitNames();
+    /** @test */
+    public function it_uses_timestamps(): void
+    {
+        $version = new NotificationTemplateVersion();
 
-    Assert::assertContains('Modules\\Xot\\Traits\\HasFactory', $traits);
-});
+        $this->assertTrue($version->usesTimestamps());
+    }
 
-it('has media trait', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $traits = $reflection->getTraitNames();
+    /** @test */
+    public function it_has_soft_deletes(): void
+    {
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
 
-    Assert::assertContains('Spatie\\MediaLibrary\\HasMedia', $traits);
-});
+        $this->assertContains('Illuminate\Database\Eloquent\Concerns\HasUuids', $traits);
+    }
 
-it('has creator and updater relationships', function (): void {
-    Assert::assertInstanceOf(NotificationTemplateVersion::class, new NotificationTemplateVersion);
-});
+    /** @test */
+    public function it_has_factory_trait(): void
+    {
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
 
-it('has media relationship', function (): void {
-    Assert::assertInstanceOf(NotificationTemplateVersion::class, new NotificationTemplateVersion);
-});
+        $this->assertContains('Modules\Xot\Traits\HasFactory', $traits);
+    }
+
+    /** @test */
+    public function it_has_media_trait(): void
+    {
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+        $this->assertContains('Spatie\MediaLibrary\HasMedia', $traits);
+    }
+
+    /** @test */
+    public function it_has_creator_and_updater_relationships(): void
+    {
+        $version = new NotificationTemplateVersion();
+
+        $this->assertTrue(method_exists($version, 'creator'));
+        $this->assertTrue(method_exists($version, 'updater'));
+    }
+
+    /** @test */
+    public function it_has_media_relationship(): void
+    {
+        $version = new NotificationTemplateVersion();
+
+        $this->assertTrue(method_exists($version, 'media'));
+    }
+}
