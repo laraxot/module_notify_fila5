@@ -4,62 +4,91 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
 
-use Filament\Forms\Components\TextInput;
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasColor;
+use ReflectionClass;
+use Filament\Forms\Components\TextInput;
 use Modules\Notify\Enums\ContactTypeEnum;
-use PHPUnit\Framework\Assert;
+use PHPUnit\Framework\TestCase;
 
-it('has correct cases', function (): void {
-    Assert::assertCount(6, ContactTypeEnum::cases());
-    Assert::assertSame('phone', ContactTypeEnum::PHONE->value);
-    Assert::assertSame('mobile', ContactTypeEnum::MOBILE->value);
-    Assert::assertSame('email', ContactTypeEnum::EMAIL->value);
-    Assert::assertSame('pec', ContactTypeEnum::PEC->value);
-    Assert::assertSame('whatsapp', ContactTypeEnum::WHATSAPP->value);
-    Assert::assertSame('fax', ContactTypeEnum::FAX->value);
-});
+class ContactTypeEnumTest extends TestCase
+{
+    /** @test */
+    public function it_has_correct_cases(): void
+    {
+        $this->assertCount(6, ContactTypeEnum::cases());
 
-it('implements filament contracts', function (): void {
-    Assert::assertInstanceOf(HasLabel::class, ContactTypeEnum::PHONE);
-    Assert::assertInstanceOf(HasIcon::class, ContactTypeEnum::PHONE);
-    Assert::assertInstanceOf(HasColor::class, ContactTypeEnum::PHONE);
-});
-
-it('has trans trait', function (): void {
-    $reflection = new \ReflectionClass(ContactTypeEnum::class);
-    $traits = $reflection->getTraitNames();
-
-    Assert::assertContains('Modules\\Xot\\Traits\\EnumTrait', $traits);
-});
-
-it('has required methods', function (): void {
-    foreach (['getLabel', 'getIcon', 'getColor', 'getSearchable', 'getFormSchema'] as $method) {
-        Assert::assertTrue(method_exists(ContactTypeEnum::PHONE, $method));
+        $this->assertEquals('phone', ContactTypeEnum::PHONE->value);
+        $this->assertEquals('mobile', ContactTypeEnum::MOBILE->value);
+        $this->assertEquals('email', ContactTypeEnum::EMAIL->value);
+        $this->assertEquals('pec', ContactTypeEnum::PEC->value);
+        $this->assertEquals('whatsapp', ContactTypeEnum::WHATSAPP->value);
+        $this->assertEquals('fax', ContactTypeEnum::FAX->value);
     }
-});
 
-it('getSearchable returns all values', function (): void {
-    $searchable = ContactTypeEnum::getSearchable();
-    Assert::assertCount(6, $searchable);
-
-    foreach (['phone', 'mobile', 'email', 'pec', 'whatsapp', 'fax'] as $value) {
-        Assert::assertContains($value, $searchable);
+    /** @test */
+    public function it_implements_filament_contracts(): void
+    {
+        $this->assertInstanceOf(HasLabel::class, ContactTypeEnum::PHONE);
+        $this->assertInstanceOf(HasIcon::class, ContactTypeEnum::PHONE);
+        $this->assertInstanceOf(HasColor::class, ContactTypeEnum::PHONE);
     }
-});
 
-it('getFormSchema returns TextInput components', function (): void {
-    $schema = ContactTypeEnum::PHONE->getFormSchema();
-    Assert::assertCount(6, $schema);
-    foreach ($schema as $component) {
-        Assert::assertInstanceOf(TextInput::class, $component);
+    /** @test */
+    public function it_has_trans_trait(): void
+    {
+        $reflection = new ReflectionClass(ContactTypeEnum::class);
+        $traits = $reflection->getTraitNames();
+
+        $this->assertContains('Modules\Xot\Filament\Traits\TransTrait', $traits);
     }
-});
 
-it('each case has a unique value', function (): void {
-    $values = array_map(static fn (ContactTypeEnum $case): string => $case->value, ContactTypeEnum::cases());
-    $uniqueValues = array_unique($values);
+    /** @test */
+    public function it_has_required_methods(): void
+    {
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getLabel'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getColor'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getIcon'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getDescription'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getSearchable'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getFormSchema'));
+    }
 
-    Assert::assertCount(count($values), $uniqueValues);
-});
+    /** @test */
+    public function get_searchable_returns_all_values(): void
+    {
+        $searchable = ContactTypeEnum::getSearchable();
+
+        $this->assertIsArray($searchable);
+        $this->assertCount(6, $searchable);
+        $this->assertContains('phone', $searchable);
+        $this->assertContains('mobile', $searchable);
+        $this->assertContains('email', $searchable);
+        $this->assertContains('pec', $searchable);
+        $this->assertContains('whatsapp', $searchable);
+        $this->assertContains('fax', $searchable);
+    }
+
+    /** @test */
+    public function get_form_schema_returns_text_inputs(): void
+    {
+        $form = ContactTypeEnum::getFormSchema();
+
+        $this->assertIsArray($form);
+        $this->assertCount(6, $form);
+
+        foreach ($form as $component) {
+            $this->assertInstanceOf(TextInput::class, $component);
+        }
+    }
+
+    /** @test */
+    public function each_case_has_unique_value(): void
+    {
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+        $uniqueValues = array_unique($values);
+
+        $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
+    }
+}
