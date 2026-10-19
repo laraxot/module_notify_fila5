@@ -1,17 +1,15 @@
 ---
 issues: []
 discussions: []
-title: "phpstan-pest-patterns-2026-07-06"
+title: "PHPStan + Pest — indice Notify"
 type: concept
-tags: [deprecated]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "phpstan-pest-patterns-2026-07-06 deprecated"
-status: deprecated
-related:
-  - "./merge-collision-notify-lessons.md"
-  - "./phpstan-pest-patterns-.md"
-  - "./phpstan-pest-patterns-1.md"
+tags: [phpstan, pest, notify]
+updated: 2026-10-18
+status: active
 ---
 
-> Questo file è stato rinominato in [phpstan-pest-patterns.md](phpstan-pest-patterns.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+# PHPStan + Pest (Notify)
+
+SSoT: [phpstan-pest-patterns-modulo-notify.md](./phpstan-pest-patterns-modulo-notify.md).
+
+Regola progetto: [phpstan test mai escludere](../../regole-critiche/phpstan-test-mai-escludere.md).
