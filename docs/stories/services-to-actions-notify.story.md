@@ -146,3 +146,10 @@ verde: le stesse asserzioni sui log sono quelle verificate dal probe.
    `notificationtemplateversion.php.up` (le prime due contengono ancora le vecchie `const STATUS_*`).
 8. L'elenco `['fcm', 'apns', 'webpush']` e' ripetuto in 4 Action `Push/*` (e `detectPlatform`): candidato a enum backed `PushPlatformEnum`.
 9. `composer dump-autoload` da lanciare quando la macchina e' libera (classmap ottimizzata con entry di classi cancellate).
+
+## Riesuma 2026-10-20
+
+`SmsService` gia' assente (zombie rimosso da altra lane). Residui non-PHP / MailtrapEngine rimossi di nuovo
+(`MailtrapEngine.php`, `*.test`, `MailService.to_action`). Successore mail: `Actions\Mail\SendMailtrapMailAction`.
+Commenti obsoleti `TenantService::getConfig` nei Data SMS/Smtp aggiornati a puntare `GetTenantConfigArrayAction`.
+

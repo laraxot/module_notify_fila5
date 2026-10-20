@@ -7,7 +7,9 @@ namespace Modules\Notify\Tests\Unit\Models;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
-use Tests\TestCase;
+use Modules\Notify\Tests\TestCase;
+
+use function Safe\json_encode;
 
 class NotificationTemplateTest extends TestCase
 {
@@ -88,22 +90,22 @@ class NotificationTemplateTest extends TestCase
         $template = new NotificationTemplate();
 
         $expectedCasts = [
+            'id' => 'string',
             'type' => NotificationTypeEnum::class,
             'preview_data' => 'array',
-            'body_html' => 'string',
-            'body_text' => 'string',
             'channels' => 'array',
             'variables' => 'array',
             'conditions' => 'array',
             'metadata' => 'array',
             'is_active' => 'boolean',
             'grapesjs_data' => 'array',
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
+            // HasTranslations castra ad array le colonne in $translatable.
+            'subject' => 'array',
+            'body_html' => 'array',
+            'body_text' => 'array',
         ];
 
-        $this->assertEquals($expectedCasts, $template->casts());
+        $this->assertEquals($expectedCasts, $template->getCasts());
     }
 
     /** @test */
@@ -304,8 +306,8 @@ class NotificationTemplateTest extends TestCase
         ]);
 
         $this->assertIsArray($template->grapesjs_data);
-        $this->assertEquals('<div>Custom HTML</div>', $template->grapesjs_data['html']);
-        $this->assertEquals('.custom { color: red; }', $template->grapesjs_data['css']);
+        $this->assertEquals('<div>Custom HTML</div>', TestCase::notifyArrayGet($template->grapesjs_data, 'html'));
+        $this->assertEquals('.custom { color: red; }', TestCase::notifyArrayGet($template->grapesjs_data, 'css'));
         $this->assertEquals(['header', 'content', 'footer'], $template->grapesjs_data['components']);
         $this->assertEquals(['theme' => 'modern'], $template->grapesjs_data['styles']);
     }
@@ -459,8 +461,8 @@ class NotificationTemplateTest extends TestCase
 
         $this->assertCount(1, $activeTemplates);
         $this->assertCount(2, $allTemplates);
-        $this->assertEquals('Active Template', $activeTemplates[0]->name);
-        $this->assertTrue($activeTemplates[0]->is_active);
+        $this->assertEquals('Active Template', $activeTemplates->firstOrFail()->name);
+        $this->assertTrue($activeTemplates->firstOrFail()->is_active);
     }
 
     /** @test */
@@ -550,9 +552,9 @@ class NotificationTemplateTest extends TestCase
 
         $this->assertCount(2, $welcomeTemplates);
         $this->assertCount(1, $reminderTemplates);
-        $this->assertEquals('welcome', $welcomeTemplates[0]->category);
-        $this->assertEquals('welcome', $welcomeTemplates[1]->category);
-        $this->assertEquals('reminder', $reminderTemplates[0]->category);
+        $this->assertEquals('welcome', $welcomeTemplates->firstOrFail()->category);
+        $this->assertEquals('welcome', $welcomeTemplates->skip(1)->firstOrFail()->category);
+        $this->assertEquals('reminder', $reminderTemplates->firstOrFail()->category);
     }
 
     /** @test */
@@ -601,8 +603,8 @@ class NotificationTemplateTest extends TestCase
         $template->setGrapesJSData($newData);
 
         $this->assertEquals($newData, $template->getGrapesJSData());
-        $this->assertEquals('<div>New HTML</div>', $template->grapesjs_data['html']);
-        $this->assertEquals('.new { color: blue; }', $template->grapesjs_data['css']);
+        $this->assertEquals('<div>New HTML</div>', TestCase::notifyArrayGet($template->grapesjs_data, 'html'));
+        $this->assertEquals('.new { color: blue; }', TestCase::notifyArrayGet($template->grapesjs_data, 'css'));
     }
 
     /** @test */

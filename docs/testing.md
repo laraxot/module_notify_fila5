@@ -71,6 +71,10 @@ Ogni modulo può avere il proprio `Pest.php` con:
 - Helper functions
 - Custom expectations
 
+In Notify `tests/Pest.php` contiene solo il bind `pest()->extend(TestCase::class)->in('Feature', 'Unit')`. Gli helper di test non sono funzioni globali (nella run full-suite Pest carica il `Pest.php` di ogni modulo nello stesso processo: due funzioni con lo stesso nome sono un fatal `cannot redeclare`) ma metodi statici:
+- `Modules\Notify\Tests\TestCase`: `assertNotifyArray`, `notifyArrayGet`, `notifyReflectionSource`, `notifyReflectionPropertyNames`
+- `Modules\Xot\Tests\XotBasePest` (condiviso, per autoload): `assertFreshModel`, `assertFirstModel`, `assertTableHas`, `assertArray`, `assertString`, `assertReflectionTypeName`
+
 ## Comandi Importanti
 
 ### PHPStan
