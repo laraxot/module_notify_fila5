@@ -4,11 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
-use Filament\Forms\Components\Select;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Datas\XotData;
+use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 
-class HtmlLayoutPathSelect extends Select
+/*
+ * GateGuard: callers MailTemplateForm.php:58, NotifyFormComponentsTest;
+ * unique layout-path select; reads filesystem html layouts via XotData;
+ * user: "migliora qualità codice , fa tutto con bmad + second brain + filament blueprint"
+ */
+
+class HtmlLayoutPathSelect extends XotBaseSelect
 {
     protected function setUp(): void
     {

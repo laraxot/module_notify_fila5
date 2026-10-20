@@ -9055,7 +9055,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-1.md` — Riassunto delle Correzioni per PHPStan Livello 9
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-2025-08-18.md` — PHPStan Fixes Summary - 18 Agosto 2025
-- `laravel/Modules/Xot/docs/phpstan-fixes-summary-3.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
+- `laravel/Modules/Xot/docs/phpstan-fixes-summary-risultati-finali-gennaio.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-sumy-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
 - `laravel/Modules/Xot/docs/phpstan-fixes-sumy-3.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)

@@ -88,7 +88,7 @@ Verificare che:
 
 ## Collegamenti
 - [Notify Module Documentation](README.md)
-- [RecordNotification Implementation](notifications/record_notification.md)
+- [RecordNotification Implementation](notifications/record-notification.md)
 - [SpatieEmail Integration](spatie-email-usage-guide.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 

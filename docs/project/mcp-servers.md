@@ -81,7 +81,7 @@ Per dettagli completi su configurazione, usage, e best practices:
 
 ## Related Docs
 
-- [Project Configuration](project/configuration.md)
+- [Project Configuration](configuration.md)
 - [AI Workflow](project/ai-workflow/)
 - Module MCP: [MCP-SERVERS-INDEX.md](../../laravel/Modules/Xot/docs/mcp/MCP-SERVERS-INDEX.md)
 - Theme MCP: [MCP-THEME-SETUP.md](../../../../Themes/Sixteen/docs/mcp/MCP-THEME-SETUP.md)

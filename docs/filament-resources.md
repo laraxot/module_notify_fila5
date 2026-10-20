@@ -271,7 +271,7 @@ public static function getTableActions(): array
 
 ### Collegamenti ai Moduli
 - [XotBaseResource](../../Xot/docs/XotBaseResource.md)
-- [Gestione Template](../template-management.md)
+- [Gestione Template](template-management.md)
 
 ## Note Importanti
 

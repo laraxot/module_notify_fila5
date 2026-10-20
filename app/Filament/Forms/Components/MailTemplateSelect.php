@@ -4,10 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
-use Filament\Forms\Components\Select;
 use Modules\Notify\Models\MailTemplate;
+use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 
-class MailTemplateSelect extends Select
+/*
+ * GateGuard: callers SendRecordsNotificationBulkAction.php:39 + NotifyFormComponentsTest;
+ * unique mail-template slug select; reads MailTemplate slug rows;
+ * user: "migliora qualità codice , fa tutto con bmad + second brain + filament blueprint"
+ */
+
+class MailTemplateSelect extends XotBaseSelect
 {
     protected function setUp(): void
     {

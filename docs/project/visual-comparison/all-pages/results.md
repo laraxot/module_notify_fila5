@@ -79,5 +79,5 @@ The task is to make the local pages **visually identical** by fixing CSS, not HT
 
 ## Cross-References
 
-- [Homepage Analysis](./homepage/analysis.md)
+- [Homepage Analysis](../homepage/analysis.md)
 - [BASHSCRIPTS-INDEX.md](../../bashscripts/docs/BASHSCRIPTS-INDEX.md)

@@ -70,6 +70,7 @@ Varianti dello stesso nome (maiuscole, `_` contro `-`, suffisso `-N`): 413 grupp
 
 ## 🧪 **Qualità e Sviluppo**
 - ✅ **Gate Modules a zero (2026-10-20)** — `phpstan analyse Modules`: file_errors 0. Story chiusura NotificationManager: [phpstan-notificationmanager-service-removed](./stories/phpstan-notificationmanager-service-removed.story.md). Hub: [Xot phpstan-modules-zero-wave3](../../Xot/docs/stories/phpstan-modules-zero-wave3.story.md).
+- **[Parita' dei Service cancellati (epic Service verso QueueableAction, W2)](./stories/services-parity-audit-notify.story.md)** - SmsService, NotificationManager e Mail engine contro le Action successore; difetti ereditati (`handle()` al posto di `execute()`, `SendSmsAction` che lancia sempre).
 - ✅ **[PHPStan Analysis](./phpstan-fixes.md)** - Report storici Level 10 (evidence; lo stato vivo e' il gate sopra).
 - 🚨 **[PHPStan Cluster](./phpstan-cluster.md)** - Modelli canonici mancanti per log/canali e impatto su factory/controller (il file con data `phpstan-cluster-2026-03-10.md` non esiste).
 - 🧭 **[No Orphan Http Controllers](./no-orphan-http-controllers.md)** - Regola: i controller web senza route non devono restare nel modulo. Stato del codice: `NotificationTrackingController` esiste ancora, senza rotta (vedi README, "Limiti verificati").

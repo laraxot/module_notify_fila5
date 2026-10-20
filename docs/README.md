@@ -15,9 +15,11 @@ related:
 
 # Documentation
 
-Cartella `docs/` del modulo Notify. Indice operativo (directory canoniche, evidence, famiglie dei file della radice):
-[00-INDEX.md](./00-INDEX.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
-`ls` e `grep` su `laravel/Modules/Notify`.
+Cartella `docs/` del modulo Notify. Convenzione naming/spine:
+[docs-organization](../../Xot/docs/conventions/docs-organization.md).
+Indice operativo: [00-INDEX.md](./00-INDEX.md) · spine: [INDEX.md](./INDEX.md).
+Questo file descrive il codice reale (verificato sul tree Notify).
+Logica di invio: **Actions** / `NotificationManager` in `app/Actions` — nessuna cartella `app/Services/`.
 
 Ownership: pacchetto `laraxot/module_notify_fila5` (repo git separato in `laravel/Modules/Notify`); provider
 `Modules\Notify\Providers\NotifyServiceProvider` e `Providers\Filament\AdminPanelProvider` (`module.json`), su base `Xot`.
