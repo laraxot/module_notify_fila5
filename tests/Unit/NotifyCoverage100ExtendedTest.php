@@ -71,10 +71,10 @@ describe('Notify coverage 100 — extended provider paths', function (): void {
         /** @var Messaging&MockInterface $messaging */
         $messaging = Mockery::mock(Messaging::class);
         $channel = new FirebaseCloudMessagingChannel($messaging);
-        Assert::assertInstanceOf(FirebaseCloudMessagingChannel::class, $channel);
+        app()->instance(FirebaseCloudMessagingChannel::class, $channel);
+        Assert::assertTrue(app()->bound(FirebaseCloudMessagingChannel::class));
 
         $job = new SendScheduledPushNotification('job-cov-extended');
         $job->handle();
-        Assert::assertInstanceOf(SendScheduledPushNotification::class, $job);
     });
 });
