@@ -1,0 +1,6 @@
+LOCKED at 2026-10-15T13:35:16+00:00
+Task: laravel/Modules/Notify/tests/Unit/Actions/Push/SendPushNotificationActionTest.php
+Agent: laravel/Modules/Notify/tests/Feature/NotificationApiTest.php
+Session: unknown
+PID: 3858864
+PID note: subshell di lock.sh, gia' terminato — NON usarlo per giudicare il lock stale, guarda 'LOCKED at'

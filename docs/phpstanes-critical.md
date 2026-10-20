@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstanes critical"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Correzioni PHPStan Critiche - Modulo Notify

@@ -179,7 +179,7 @@ Durante la risoluzione:
 
 - [Git Conflicts Guide](../../geo/docs_project/git-conflicts-resolution-guide.md)
 - [Notify Best Practices](best-practices.md)
-- [PHPStan Configuration](../../phpstan.neon)
+- [PHPStan Configuration](../../../phpstan.neon)
 - [PHPStan User Guide](https://phpstan.org/user-guide/getting-started)
 
 ---
