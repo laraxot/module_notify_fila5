@@ -9,7 +9,7 @@ use PHPUnit\Framework\Assert;
 
 describe('Contact Business Logic', function (): void {
     test('contact extends base model', function (): void {
-        Assert::assertInstanceOf(BaseModel::class, new Contact);
+        Assert::assertSame(BaseModel::class, get_parent_class(Contact::class));
     });
 
     test('contact can store polymorphic model relationships', function (): void {

@@ -5,7 +5,7 @@ status: active
 module: Notify
 scope: documentation
 bmad_version: 1.0
-updated: 2026-10-06
+updated: 2026-10-20
 tags: [docs, notify, bmad]
 qmd: "decision log - modulo notify notify"
 ---
@@ -22,6 +22,12 @@ qmd: "decision log - modulo notify notify"
 - **Conseguenze:** Implicazioni della decisione
 
 ## Registro delle decisioni
+
+### 2026-10-20 — Gate PHPStan Modules — rieseguito OK
+
+- **Verifica:** `cd laravel && php -d memory_limit=2G ./vendor/bin/phpstan analyse Modules/Notify` (batch audit con User, Comment, Activity) → exit 0.
+- **Docs:** `md-filenames.py check` su `docs/` → 0 date/suffissi; ~646 file legacy con maiuscole in radice/storico — solo segnalazione, no rinomina automatica.
+- **Track:** [00-INDEX.md](../00-INDEX.md), [phpstan-fixes.md](../phpstan-fixes.md), [phpstan-modules-zero-gate](../../../Xot/docs/stories/phpstan-modules-zero-gate.story.md).
 
 ### 2026-09-29
 **Decisione:** Usare Spatie Queueable Actions (`QueueableAction`) come pattern per tutta la logica di invio, migrando i precedenti Service

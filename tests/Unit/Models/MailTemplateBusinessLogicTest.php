@@ -14,7 +14,7 @@ use Spatie\Translatable\HasTranslations;
 
 describe('MailTemplate Business Logic', function (): void {
     test('mail template extends spatie mail template', function (): void {
-        Assert::assertInstanceOf(SpatieMailTemplate::class, new MailTemplate);
+        Assert::assertSame(SpatieMailTemplate::class, get_parent_class(MailTemplate::class));
     });
 
     test('mail template has slug trait for url-friendly names', function (): void {
