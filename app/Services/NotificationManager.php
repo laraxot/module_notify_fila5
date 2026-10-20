@@ -20,11 +20,11 @@ class NotificationManager
      *
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
-     * @param array $data I dati per compilare il template
-     * @param array $channels I canali da utilizzare (opzionale)
-     * @param array $options Opzioni aggiuntive per l'invio
+     * @param array<string, mixed> $data I dati per compilare il template
+     * @param array<int, string> $channels I canali da utilizzare (opzionale)
+     * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
      *
-     * @return array
+     * @return array<string, mixed> Riservato: la notifica creata la restituisce Actions\NotificationManager::send()
      */
     public function send(
         Model $recipient,
@@ -40,7 +40,7 @@ class NotificationManager
         }
 
         $action = app(SendNotificationAction::class);
-        $action->execute($recipient, $templateCode, $data, $channels, $options);
+        $action->handle($recipient, $templateCode, $data, $channels, $options);
 
         return [];
     }
@@ -48,13 +48,13 @@ class NotificationManager
     /**
      * Invia una notifica a più destinatari.
      *
-     * @param array $recipients I destinatari delle notifiche
+     * @param array<int, Model> $recipients I destinatari delle notifiche
      * @param string $templateCode Il codice del template da utilizzare
-     * @param array $data I dati per compilare il template
-     * @param array $channels I canali da utilizzare (opzionale)
-     * @param array $options Opzioni aggiuntive per l'invio
+     * @param array<string, mixed> $data I dati per compilare il template
+     * @param array<int, string> $channels I canali da utilizzare (opzionale)
+     * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
      *
-     * @return array<array>
+     * @return list<array<string, mixed>>
      */
     public function sendMultiple(
         array $recipients,
@@ -87,9 +87,9 @@ class NotificationManager
      * Recupera i template per categoria.
      *
      * @param string $category La categoria dei template
-     * @return Collection<NotificationTemplate>
+     * @return Collection<int, NotificationTemplate>
      */
-    public function getTemplatesByCategory(string $category)
+    public function getTemplatesByCategory(string $category): Collection
     {
         return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
     }
@@ -98,9 +98,9 @@ class NotificationManager
      * Recupera i template per canale.
      *
      * @param string $channel Il canale di notifica
-     * @return Collection<NotificationTemplate>
+     * @return Collection<int, NotificationTemplate>
      */
-    public function getTemplatesByChannel(string $channel)
+    public function getTemplatesByChannel(string $channel): Collection
     {
         return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
     }

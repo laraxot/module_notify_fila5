@@ -9,6 +9,8 @@ use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\User\Database\Factories\UserFactory;
 use PHPUnit\Framework\Assert;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 
 beforeEach(function (): void {
     $user = UserFactory::new()->createOne(['email' => 'test@example.com']);
@@ -88,8 +90,8 @@ describe('Notification API', function (): void {
                 ],
             ]);
 
-        $payload = assertNotifyArray($response->json());
-        $data = assertNotifyArray($payload['data'] ?? null);
+        $payload = TestCase::assertNotifyArray($response->json());
+        $data = TestCase::assertNotifyArray($payload['data'] ?? null);
         Assert::assertCount(2, $data);
     });
 
@@ -148,7 +150,7 @@ describe('Notification API', function (): void {
         ]);
 
         $response->assertOk();
-        Assert::assertSame('Updated Name', assertFreshModel($template, NotificationTemplate::class)->name);
+        Assert::assertSame('Updated Name', XotBasePest::assertFreshModel($template, NotificationTemplate::class)->name);
     });
 
     it('DELETE /api/notify/templates/{code} deletes template', function (): void {
@@ -157,6 +159,6 @@ describe('Notification API', function (): void {
         $response = $this->deleteJson('/api/notify/templates/delete-test');
 
         $response->assertNoContent();
-        assertNotifyTableMissing('notification_templates', ['code' => 'delete-test']);
+        XotBasePest::assertTableMissing('notify', 'notification_templates', ['code' => 'delete-test']);
     });
 });

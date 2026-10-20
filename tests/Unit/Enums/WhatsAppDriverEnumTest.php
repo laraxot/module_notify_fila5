@@ -25,7 +25,6 @@ class WhatsAppDriverEnumTest extends TestCase
     {
         $options = WhatsAppDriverEnum::options();
 
-        $this->assertIsArray($options);
         $this->assertCount(4, $options);
         $this->assertEquals('Twilio', $options['twilio']);
         $this->assertEquals('MessageBird', $options['messagebird']);
@@ -38,7 +37,6 @@ class WhatsAppDriverEnumTest extends TestCase
     {
         $labels = WhatsAppDriverEnum::labels();
 
-        $this->assertIsArray($labels);
         $this->assertCount(4, $labels);
         $this->assertArrayHasKey('twilio', $labels);
         $this->assertArrayHasKey('messagebird', $labels);
@@ -87,7 +85,6 @@ class WhatsAppDriverEnumTest extends TestCase
     {
         $cases = WhatsAppDriverEnum::cases();
 
-        $this->assertIsArray($cases);
         $this->assertCount(4, $cases);
 
         foreach ($cases as $case) {

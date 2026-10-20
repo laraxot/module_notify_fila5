@@ -6,7 +6,9 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
-use Tests\TestCase;
+use Modules\Notify\Tests\TestCase;
+
+use function Safe\json_encode;
 
 class MailTemplateTest extends TestCase
 {
@@ -75,12 +77,18 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 
         $expectedCasts = [
+            'id' => 'int',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+            // HasTranslations castra ad array le colonne in $translatable.
+            'subject' => 'array',
+            'html_template' => 'array',
+            'text_template' => 'array',
+            'sms_template' => 'array',
         ];
 
-        $this->assertEquals($expectedCasts, $template->casts());
+        $this->assertEquals($expectedCasts, $template->getCasts());
     }
 
     /** @test */
@@ -199,10 +207,10 @@ class MailTemplateTest extends TestCase
         $this->assertEquals(0, $template->counter);
 
         $template->increment('counter');
-        $this->assertEquals(1, $template->fresh()->counter);
+        $this->assertEquals(1, $template->refresh()->counter);
 
         $template->increment('counter', 5);
-        $this->assertEquals(6, $template->fresh()->counter);
+        $this->assertEquals(6, $template->refresh()->counter);
     }
 
     /** @test */
@@ -232,7 +240,7 @@ class MailTemplateTest extends TestCase
             'params' => json_encode(['updated']),
         ]);
 
-        $this->assertEquals('updated-name', $template->fresh()->slug);
+        $this->assertEquals('updated-name', $template->refresh()->slug);
     }
 
     /** @test */
@@ -279,7 +287,7 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_can_find_by_subject_pattern(): void
     {
-        $template = MailTemplate::create([
+        MailTemplate::create([
             'mailable' => 'App\Mail\PatternMail',
             'name' => 'Pattern Template',
             'subject' => 'Welcome to our platform',
@@ -291,7 +299,7 @@ class MailTemplateTest extends TestCase
         $foundTemplates = MailTemplate::where('subject', 'like', '%Welcome%')->get();
 
         $this->assertCount(1, $foundTemplates);
-        $this->assertEquals('Welcome to our platform', $foundTemplates[0]->subject);
+        $this->assertEquals('Welcome to our platform', $foundTemplates->firstOrFail()->subject);
     }
 
     /** @test */
@@ -309,8 +317,8 @@ class MailTemplateTest extends TestCase
         $foundTemplates = MailTemplate::whereJsonContains('params', 'name')->get();
 
         $this->assertCount(1, $foundTemplates);
-        $this->assertEquals($template->id, $foundTemplates[0]->id);
-        $this->assertContains('name', $foundTemplates[0]->params);
+        $this->assertEquals($template->id, $foundTemplates->firstOrFail()->id);
+        $this->assertContains('name', TestCase::assertNotifyArray($foundTemplates->firstOrFail()->params));
     }
 
     /** @test */
@@ -339,8 +347,8 @@ class MailTemplateTest extends TestCase
 
         $this->assertCount(1, $lowCounterTemplates);
         $this->assertCount(1, $highCounterTemplates);
-        $this->assertEquals(5, $lowCounterTemplates[0]->counter);
-        $this->assertEquals(50, $highCounterTemplates[0]->counter);
+        $this->assertEquals(5, $lowCounterTemplates->firstOrFail()->counter);
+        $this->assertEquals(50, $highCounterTemplates->firstOrFail()->counter);
     }
 
     /** @test */
@@ -411,11 +419,11 @@ class MailTemplateTest extends TestCase
             'sms_template' => json_encode($complexSmsTemplate),
         ]);
 
-        $this->assertEquals('Benvenuto {{name}}!', $template->sms_template['message']);
-        $this->assertEquals(['name', 'email'], $template->sms_template['variables']);
-        $this->assertEquals(160, $template->sms_template['max_length']);
-        $this->assertTrue($template->sms_template['fallback']['enabled']);
-        $this->assertEquals('high', $template->sms_template['delivery_options']['priority']);
+        $this->assertEquals('Benvenuto {{name}}!', TestCase::notifyArrayGet($template->sms_template, 'message'));
+        $this->assertEquals(['name', 'email'], TestCase::notifyArrayGet($template->sms_template, 'variables'));
+        $this->assertEquals(160, TestCase::notifyArrayGet($template->sms_template, 'max_length'));
+        $this->assertTrue(TestCase::notifyArrayGet($template->sms_template, 'fallback', 'enabled'));
+        $this->assertEquals('high', TestCase::notifyArrayGet($template->sms_template, 'delivery_options', 'priority'));
     }
 
     /** @test */
@@ -445,8 +453,8 @@ class MailTemplateTest extends TestCase
             ->get();
 
         $this->assertCount(1, $foundTemplates);
-        $this->assertEquals('Another Multi Criteria Template', $foundTemplates[0]->name);
-        $this->assertEquals(20, $foundTemplates[0]->counter);
+        $this->assertEquals('Another Multi Criteria Template', $foundTemplates->firstOrFail()->name);
+        $this->assertEquals(20, $foundTemplates->firstOrFail()->counter);
     }
 
     /** @test */
@@ -493,7 +501,7 @@ class MailTemplateTest extends TestCase
         $templates = MailTemplate::where('name', 'Test Template')->get();
 
         $this->assertCount(2, $templates);
-        $this->assertEquals('test-template', $templates[0]->slug);
-        $this->assertEquals('test-template-1', $templates[1]->slug);
+        $this->assertEquals('test-template', $templates->firstOrFail()->slug);
+        $this->assertEquals('test-template-1', $templates->skip(1)->firstOrFail()->slug);
     }
 }

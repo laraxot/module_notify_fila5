@@ -18,6 +18,9 @@ use Spatie\Translatable\HasTranslations;
  *
  * @property string|null $name
  * @property string|null $code
+ * @property string|null $description
+ * @property string|null $category
+ * @property array<string, mixed>|null $metadata
  * @property string|null $subject
  * @property bool $is_active
  * @property array<string, mixed>|null $variables

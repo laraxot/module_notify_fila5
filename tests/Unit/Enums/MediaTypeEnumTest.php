@@ -25,7 +25,6 @@ class MediaTypeEnumTest extends TestCase
     {
         $options = MediaTypeEnum::options();
 
-        $this->assertIsArray($options);
         $this->assertCount(4, $options);
         $this->assertEquals('Image', $options['image']);
         $this->assertEquals('Video', $options['video']);
@@ -38,7 +37,6 @@ class MediaTypeEnumTest extends TestCase
     {
         $labels = MediaTypeEnum::labels();
 
-        $this->assertIsArray($labels);
         $this->assertCount(4, $labels);
         $this->assertArrayHasKey('image', $labels);
         $this->assertArrayHasKey('video', $labels);
@@ -88,7 +86,6 @@ class MediaTypeEnumTest extends TestCase
     {
         $cases = MediaTypeEnum::cases();
 
-        $this->assertIsArray($cases);
         $this->assertCount(4, $cases);
 
         foreach ($cases as $case) {
