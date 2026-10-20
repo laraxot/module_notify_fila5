@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email wysiwyg editor tests"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Test Editor WYSIWYG Email - il progetto

@@ -59,4 +59,4 @@ updated: 2026-09-26
 qmd: "quick commands"
 issues: []
 discussions: []
-[Back to index](../index.md)
+[Back to index](../../../index.md)

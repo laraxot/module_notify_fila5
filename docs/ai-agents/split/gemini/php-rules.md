@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "php rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === php rules ===
@@ -48,15 +49,6 @@ protected function isAccessible(User $user, ?string $path = null): bool
 
 
 ---
-
-title: "php rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "php rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

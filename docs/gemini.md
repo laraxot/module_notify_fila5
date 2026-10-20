@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "gemini"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Gemini Rules (Modular)
@@ -24,14 +25,6 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Folio & Volt](./.agents/docs/main-rules/gemini-folio-volt.md)
 
 ---
-title: "gemini"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "gemini"
-issues: []
-discussions: []
 **See also:**
 - [CLAUDE.md](./CLAUDE.md)
 - [agents.md](./AGENTS.md)
@@ -53,11 +46,11 @@ qmd: "gemini gemini rules (modular)"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

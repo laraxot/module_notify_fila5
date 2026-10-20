@@ -326,9 +326,9 @@ Amen.
 
 ## Riferimenti
 
-- [ticket.php (dominio corretto)](../../Modules/Fixcity/lang/it/ticket.php)
+- [ticket.php (dominio corretto)](../../Fixcity/lang/it/ticket.php)
 - [Laravel Localization](https://laravel.com/docs/localization)
-- [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
+- [No Hardcoded Language Religion](no-hardcoded-language-religion.md)
 
 ---
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "boost rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === boost rules ===
@@ -48,15 +49,6 @@ discussions: []
 
 
 ---
-
-title: "boost rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "boost rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

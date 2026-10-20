@@ -7,6 +7,7 @@ title: "Notify Module Patterns"
 type: guide
 tags: [notify, patterns]
 created: 2026-07-28
+status: draft
 ---
 
 # Notify Module — Patterns

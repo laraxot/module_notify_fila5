@@ -259,8 +259,8 @@ php artisan translation:extract
 
 ## Collegamenti
 
-- [Best Practices](./best-practices.md)
-- [Filament Translations](../filament/translations.md)
+- [Best Practices](../../../best-practices.md)
+- [Filament Translations](../../../translations.md)
 - [Troubleshooting Translations](../../troubleshooting/errors/translation-errors.md)
 - [Module Translations](../../modules/lang/)
 

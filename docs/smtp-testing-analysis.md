@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "smtp testing analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi del Sistema di Test SMTP

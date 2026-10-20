@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "07 MCP TAILWIND UI"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎨 MCP Servers per Tailwind CSS & UI Frameworks
@@ -16,15 +17,6 @@ discussions: []
 **Priorità**: CRITICAL
 
 ---
-
-title: "07 MCP TAILWIND UI"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "07 MCP TAILWIND UI"
-issues: []
-discussions: []
 ## 📋 Panoramica
 
 Questo progetto utilizza **MCP (Model Context Protocol)** per integrare AI assistants con:

@@ -287,11 +287,11 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 ## Related Documentation
 
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-- [Complete Integration Guide](docs/wiki/README.md)
-- [Agent Instructions](docs/wiki/AGENTS.md)
-- [Quick Reference](docs/wiki/QUICK-REFERENCE.md)
+- [Complete Integration Guide](README.md)
+- [Agent Instructions](AGENTS.md)
+- [Quick Reference](QUICK-REFERENCE.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
-- [Obsidian Setup](docs/.obsidian/README.md)
+- [Obsidian Setup](../.obsidian/README.md)
 
 ## Success Criteria
 

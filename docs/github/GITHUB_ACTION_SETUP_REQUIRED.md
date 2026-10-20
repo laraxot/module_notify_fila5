@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "GITHUB ACTION SETUP REQUIRED"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚨 IMPORTANT: GitHub Action Setup Required
@@ -16,15 +17,6 @@ discussions: []
 > **Priority**: HIGH
 
 ---
-
-title: "GITHUB ACTION SETUP REQUIRED"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "GITHUB ACTION SETUP REQUIRED"
-issues: []
-discussions: []
 ## ❗ Action Status
 
 **Workflow**: 🔄 Sync Subtrees  

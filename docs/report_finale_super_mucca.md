@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "report finale super mucca"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🐄✨ REPORT FINALE - SUPER MUCCA LIVELLO INFINITO ✨🐄
@@ -16,15 +17,6 @@ discussions: []
 **Status:** ✅ **MISSIONE COMPLETATA AL 100%**
 
 ---
-
-title: "report finale super mucca"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "report finale super mucca"
-issues: []
-discussions: []
 ## 🎯 OBIETTIVO INIZIALE
 
 Tu hai chiesto:

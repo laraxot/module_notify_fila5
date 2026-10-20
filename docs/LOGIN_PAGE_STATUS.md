@@ -304,7 +304,7 @@ Password: password
 
 ## 📚 Documentazione Correlata
 
-1. **[Widget Rendering Analysis](../laravel/Modules/User/docs/WIDGET_RENDERING_ANALYSIS.md)**
+1. **[Widget Rendering Analysis](../../User/docs/WIDGET_RENDERING_ANALYSIS.md)**
    - Analisi completa architettura LoginWidget
    - Diagrammi flusso
    - Best practices

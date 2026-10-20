@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "document root architecture"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Document Root Architecture

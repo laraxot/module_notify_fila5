@@ -12,10 +12,10 @@ discussions:
   - "https://github.com/laraxot/module_notify_fila5/discussions/57"
 related:
   - ../../README.md
-  - ../../wiki/index.md
-  - ../../notifications/readme.md
-  - ../../integrations/readme.md
-  - ../../templates/readme.md
+  - ../../index.md
+  - ../../../notifications/readme.md
+  - ../../../integrations/readme.md
+  - ../../../templates/readme.md
 ---
 # Architettura del Sistema
 
@@ -57,8 +57,8 @@ Standard e convenzioni architetturali.
 - [Struttura Moduli](./modules/)
 - [Pattern Architetturali](./patterns/)
 - [Standard e Convenzioni](./standards/)
-- [Guida Sviluppo](../development/)
-- [Troubleshooting](../troubleshooting/)
+- [Guida Sviluppo](../../../development)
+- [Troubleshooting](../../troubleshooting)
 
 ---
 

@@ -256,10 +256,10 @@ git push origin dev
 
 ## 🔗 Resources
 
-- [Multi-Agent Guide](docs/MULTI_AGENT_COLLABORATION_GUIDE.md)
-- [GitHub Sync Rule](docs/GITHUB_SYNC_RULE.md)
-- [AI Rules](../.qwen/AI_RULES_CRITICAL.md)
-- [AI Memory](../.qwen/AI_MEMORY.md)
+- [Multi-Agent Guide](MULTI_AGENT_COLLABORATION_GUIDE.md)
+- [GitHub Sync Rule](GITHUB_SYNC_RULE.md)
+- [AI Rules](../../../../.qwen/AI_RULES_CRITICAL.md)
+- [AI Memory](../../../../.qwen/AI_MEMORY.md)
 
 ---
 

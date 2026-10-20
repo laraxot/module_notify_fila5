@@ -50,13 +50,13 @@ discussions: []
    - ✅ Rollback plan
    - ✅ Success metrics e KPI
 
-3. **[User Module Migration](../Modules/User/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
+3. **[User Module Migration](../../User/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
    - ✅ 7 Pivot concreti da aggiornare
    - ✅ Permission system, Teams, Devices
    - ✅ Testing specifico per User module
    - ✅ Priorità: 🔴 ALTA
 
-4. **[Blog Module Migration](../Modules/Blog/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
+4. **[Blog Module Migration](../../Blog/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
    - ✅ 3 Pivot concreti da aggiornare
    - ✅ ⚠️ Caso speciale: SoftDeletes
    - ✅ Pattern a 3 livelli spiegato
@@ -321,7 +321,7 @@ public function getConnectionName(): ?string
 4. `Modules/Blog/docs/models/xotbasepivot-migration.md` (2.500+ parole)
 5. `docs/architecture/README.md` (1.500+ parole)
 6. `docs/XotBasePivot-Executive-Summary.md` (2.000+ parole)
-7. `docs/SESSIONE-2025-10-15-SUPER-MUCCA.md` (questo documento)
+7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
 
 **Totale:** ~20.000 parole di documentazione professionale
 

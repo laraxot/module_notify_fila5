@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "templates"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Email Templates

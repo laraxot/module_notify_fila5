@@ -349,9 +349,9 @@ Amen.
 ## Riferimenti
 
 - [Laravel Localization - Pluralization](https://laravel.com/docs/localization#pluralization)
-- [ticket.php (corretto)](../../Modules/Fixcity/lang/it/ticket.php)
-- [Translation Namespace Religion](../../docs/translation-namespace-religion.md)
-- [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
+- [ticket.php (corretto)](../../Fixcity/lang/it/ticket.php)
+- [Translation Namespace Religion](translation-namespace-religion.md)
+- [No Hardcoded Language Religion](no-hardcoded-language-religion.md)
 
 ---
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "NOTEBOOKLM INTEGRATION"
 issues: []
 discussions: []
+status: draft
 ---
 
 # NotebookLM Integration

@@ -42,7 +42,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Type**: Laravel-specific
 - **Command**: `php artisan boost:mcp`
 - **Use**: Laravel 12, Filament, Livewire documentation and best practices
-- **Module Docs**: [Xot MCP Guide](../Modules/Xot/docs/MCP_SERVERS.md) | [Theme MCP Guide](../Themes/Sixteen/docs/MCP_SERVERS.md)
+- **Module Docs**: [Xot MCP Guide](../Modules/Xot/docs/MCP_SERVERS.md) | [Theme MCP Guide](../../../Themes/Sixteen/docs/MCP_SERVERS.md)
 
 ### fetch
 - **Type**: Web content
@@ -140,7 +140,7 @@ Main config: `laravel/.mcp.json`
 
 ### Editor Configuration
 - **Cursor**: Uses `.mcp.json` automatically
-- **Windsurf**: Import from [Xot Windsurf Config](../Modules/Xot/docs/windsurf-mcp-config.json)
+- **Windsurf**: Import from [Xot Windsurf Config](../../Xot/docs/windsurf-mcp-config.json)
 - **Claude Desktop**: Copy config to `claude_desktop_config.json`
 
 ### Environment Variables
@@ -190,7 +190,7 @@ Each module has specific MCP usage guidelines. See module-specific docs:
 
 ## Theme-Specific Usage
 
-- **Sixteen**: [Theme MCP Servers](../Themes/Sixteen/docs/MCP_SERVERS.md)
+- **Sixteen**: [Theme MCP Servers](../../../Themes/Sixteen/docs/MCP_SERVERS.md)
   - Frontoffice page testing
   - Visual parity verification
   - CSS/JS build process

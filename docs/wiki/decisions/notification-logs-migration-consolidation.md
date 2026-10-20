@@ -9,6 +9,7 @@ issues: []
 discussions: []
 related:
   - ../migrations/notifications_table.md
+status: draft
 ---
 
 # Consolidamento migrazioni `notification_logs`

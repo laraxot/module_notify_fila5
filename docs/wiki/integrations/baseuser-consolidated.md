@@ -37,11 +37,11 @@ updated: 2026-07-14
 qmd: "baseuser-dry-violation-2025-10-15.deprecated deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -64,11 +64,11 @@ qmd: "baseuser-dry-violation-2025-10-15.deprecated baseuser dry violation - anal
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -402,7 +402,7 @@ test('hasRole con pipe syntax', function () {
 ### Root Progetto
 - [DRY Violations Analysis](./dry-violations-analysis.md)
 - [Code Quality](./code-quality-analysis.md)
-- [Super Admin Setup](./super-admin-setup-fix.md)
+- [Super Admin Setup](../../super-admin-setup-fix.md)
 
 ### Spatie Documentation
 - [Laravel Permission - Basic Usage](https://spatie.be/docs/laravel-permission/v6/basic-usage/role-permissions)
@@ -412,9 +412,9 @@ test('hasRole con pipe syntax', function () {
 
 Questa è la **quarta analisi** del 15 Ottobre 2025:
 
-1. ✅ [View Cache Components](./view-cache-components-fix.md)
-2. ✅ [Transaction Model Removal](./transaction-removal-fix.md)
-3. ✅ [Super Admin Setup](./super-admin-setup-fix.md)
+1. ✅ [View Cache Components](../../view-cache-components-fix.md)
+2. ✅ [Transaction Model Removal](../../transaction-removal-fix.md)
+3. ✅ [Super Admin Setup](../../super-admin-setup-fix.md)
 4. 📋 **BaseUser DRY Violation** (questa analisi)
 
 **Pattern Consistente**: Analisi approfondita → Documentazione completa → Piano implementazione chiaro
@@ -472,17 +472,17 @@ updated: 2026-07-14
 qmd: "baseuser-dry-violation-2025-10-15 deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [baseuser-dry-violation.md](baseuser-dry-violation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [baseuser-dry-violation.md](../../baseuser-dry-violation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 
@@ -498,11 +498,11 @@ updated: 2026-07-14
 qmd: "baseuser-refactoring-completed-2025-10-15.deprecated deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -514,7 +514,7 @@ related:
 
 ## baseuser-refactoring-completed-1
 
-*Consolidated from: `baseuser-refactoring-completed-1.md`*
+*Consolidated from: `baseuser-refactoring-completed.md`*
 
 title: "BaseUser Refactoring COMPLETATO ✅"
 type: concept
@@ -525,11 +525,11 @@ qmd: "baseuser-refactoring-completed-2025-10-15.deprecated baseuser refactoring 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -789,7 +789,7 @@ Questa è stata la **quinta implementazione** della giornata!
 
 ### Analisi e Piano
 - [DRY Violation Analysis](../Modules/User/docs/baseuser-dry-violation-analysis.md) - Analisi completa
-- [Refactoring Plan](./baseuser-dry-violation.md) - Piano esecutivo
+- [Refactoring Plan](../../baseuser-dry-violation.md) - Piano esecutivo
 
 ### Completamento
 - [Refactoring Completed](../Modules/User/docs/baseuser-refactoring-completed-.md.md) - Dettagli implementazione
@@ -801,9 +801,9 @@ Questa è stata la **quinta implementazione** della giornata!
 - [BaseUser Model](../Modules/User/docs/models/baseuser.md)
 
 ### Altri Fix del Giorno
-1. [View Cache Components](./view-cache-components-fix.md)
-2. [Transaction Removal](./transaction-removal-fix.md)
-3. [Super Admin Setup](./super-admin-setup-fix.md)
+1. [View Cache Components](../../view-cache-components-fix.md)
+2. [Transaction Removal](../../transaction-removal-fix.md)
+3. [Super Admin Setup](../../super-admin-setup-fix.md)
 
 ### Spatie Documentation
 - [Laravel Permission Docs](https://spatie.be/docs/laravel-permission)
@@ -935,17 +935,17 @@ updated: 2026-07-14
 qmd: "baseuser-refactoring-completed-2025-10-15 deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
-> Questo file è stato rinominato in [baseuser-refactoring-completed.md](baseuser-refactoring-completed.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [baseuser-refactoring-completed.md](../../baseuser-refactoring-completed.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 

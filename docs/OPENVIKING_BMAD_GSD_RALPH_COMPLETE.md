@@ -367,7 +367,7 @@ cat agents.md
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
 - [Unified Workflow](./unified-ai-workflow.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
-- [agents.md](../agents.md)
+- [agents.md](../../../AGENTS.md)
 
 ### Scripts
 - OpenViking Init: `bashscripts/ai/openviking-init.sh`

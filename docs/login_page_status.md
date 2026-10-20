@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "login page status"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Status pagina login — documento estraneo (deprecato)

@@ -338,7 +338,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📚 GUIDA RAPIDA ALLA DOCUMENTAZIONE
 
 ### 🌟 START HERE
-**[→ ANALISI COMPLETA](./ANALISI-COMPLETA-2025-10-01.md)** - Executive Summary del progetto
+**[→ ANALISI COMPLETA](./analisi-completa-ottobre-data.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
@@ -351,20 +351,20 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 **Critici**:
 - [Fixcity](../Modules/Fixcity/docs/roadmap-and-issues.md) - Core business + Performance fixes
 - [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
-- [User](../Modules/User/docs/roadmap-and-issues.md) - Authentication
+- [User](../../User/docs/roadmap-and-issues.md) - Authentication
 
 **Features**:
-- [AI](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization roadmap
-- [Notify](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time roadmap
-- [Geo](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
+- [AI](../../AI/docs/roadmap-and-issues.md) - Auto-categorization roadmap
+- [Notify](roadmap-and-issues.md) - Real-time roadmap
+- [Geo](../../Geo/docs/roadmap-and-issues.md) - Maps integration
 
 **Supporto**:
 - [UI](../Modules/UI/docs/roadmap-and-issues.md) - Components
-- [Cms](../Modules/Cms/docs/roadmap-and-issues.md) - Content
-- [Activity](../Modules/Activity/docs/roadmap-and-issues.md) - Audit
+- [Cms](../../Cms/docs/roadmap-and-issues.md) - Content
+- [Activity](../../Activity/docs/roadmap-and-issues.md) - Audit
 
 ### 🎨 THEMES
-- [Sixteen](../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
+- [Sixteen](../../../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
 
 ---
 
@@ -546,7 +546,7 @@ php artisan queue:work --queue=high,notifications,default
 
 - [← Torna all'Indice](./index.md)
 - [← Master Roadmap](./roadmap-master-index.md)
-- [← Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)
+- [← Analisi Completa](./analisi-completa-ottobre-data.md)
 
 ---
 

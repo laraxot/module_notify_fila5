@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "structure standards"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Standard di Struttura nel Modulo Notify
@@ -103,15 +104,6 @@ Tutte le classi nella cartella `app/Filament/Clusters/*/Pages` **devono terminar
 - Non usare mai nomi generici o ambigui (es. `SendNetfunSMS`), ma sempre `SendNetfunSMSPage`.
 
 ---
-
-title: "structure standards"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "structure standards"
-issues: []
-discussions: []
 ## Esempio
 
 - File: `SendNetfunSMS.php` → `SendNetfunSMSPage.php`

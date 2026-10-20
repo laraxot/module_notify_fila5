@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "skills reference"
 issues: []
 discussions: []
+status: draft
 ---
 
 # AI Skills Reference - Laraxot Project
@@ -124,4 +125,4 @@ For comprehensive understanding, read in this order:
 ## Chaos Monkey Skill
 
 - `chaos-monkey-response` - Incident triage and recovery workflow for randomized breakages across CMS/theme/lang/tenant/xot layers.
-- Use together with package matrix: `./package-risk-matrix-2026-03-02.md`
+- Use together with package matrix: `./package-risk-matrix.md`

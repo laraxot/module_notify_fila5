@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # whatsapp — Consolidated Documentation
@@ -33,7 +34,7 @@ Consolidated from **12** individual files.
 
 ## whatsapp-channel-1
 
-*Consolidated from: `whatsapp-channel-1.md`*
+*Consolidated from: `whatsapp-channel-implementazione-canale.md`*
 
 
 ## 1. Struttura Base
@@ -134,11 +135,11 @@ qmd: "whatsapp-channel-2 implementazione canale whatsapp"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -837,7 +838,7 @@ class WhatsAppTest extends TestCase
 
 ## whatsapp-integration-1
 
-*Consolidated from: `whatsapp-integration-1.md`*
+*Consolidated from: `whatsapp-integration.md`*
 
 
 ## Panoramica
@@ -1393,11 +1394,11 @@ qmd: "whatsapp-integration-2 integrazione whatsapp"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2502,11 +2503,11 @@ qmd: "whatsapp-sending-standard-1 standard per invio messaggi whatsapp nel modul
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

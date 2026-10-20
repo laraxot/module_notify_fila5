@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "DOCUMENTATION STATUS"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📚 DOCUMENTATION STATUS - Ottobre 2025
@@ -16,15 +17,6 @@ discussions: []
 **Priorità**: ALTA  
 
 ---
-
-title: "DOCUMENTATION STATUS"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "DOCUMENTATION STATUS"
-issues: []
-discussions: []
 ## 🎯 EXECUTIVE SUMMARY
 
 Stato della documentazione del progetto Notify aggiornato a Ottobre 2025. La documentazione è in fase di

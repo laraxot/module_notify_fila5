@@ -145,5 +145,5 @@ trans('meetup::events.title')
 
 - [Indice CLAUDE](./claude-split-index.md)
 - [queueable-actions.md](./queueable-actions.md)
-- [CLAUDE.md originale](../../CLAUDE.md)
+- [CLAUDE.md originale](../CLAUDE.md)
 - [Index principale](./index.md)

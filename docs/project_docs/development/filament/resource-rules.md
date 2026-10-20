@@ -195,7 +195,7 @@ class DoctorResource extends XotBaseResource
 
 - [Form Schema Conventions](./form-schema-conventions.md)
 - [Traduzioni](../translations/)
-- [Best Practices](./best-practices.md)
+- [Best Practices](../../../best-practices.md)
 - [Troubleshooting Filament](../../troubleshooting/errors/filament-errors.md)
 
 ---

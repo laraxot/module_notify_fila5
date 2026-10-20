@@ -6,6 +6,8 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+tags: [docs, notify, wiki]
+qmd: "homepage visual comparison - css fixes required notify"
 ---
 
 # Homepage Visual Comparison - CSS Fixes Required

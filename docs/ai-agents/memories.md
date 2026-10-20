@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "memories"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Agent Memory Updates

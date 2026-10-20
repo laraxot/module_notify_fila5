@@ -50,4 +50,4 @@ When file access is restricted:
 
 - [Claude docs index](./context.md)
 - [PHPStan workflow prompt](../../../tools/prompts/05-phpstan-patterns.md)
-- [General docs](../../../../docs/index.md)
+- [General docs](../../../../../docs/index.md)

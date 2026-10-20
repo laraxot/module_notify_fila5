@@ -10,6 +10,7 @@ created: {{date}}
 updated: {{date}}
 tags: [comparison, analysis]
 related: []
+status: draft
 ---
 
 # {{title}}

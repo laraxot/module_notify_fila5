@@ -16,6 +16,7 @@ related:
   - ../notifications/readme.md
   - readme.md
   - ../templates/readme.md
+status: draft
 ---
 # Integrazioni
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ALLINEAMENTO BOOTSTRAP ITALIA"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎯 Allineamento HTML con Bootstrap Italia
@@ -18,15 +19,6 @@ I componenti blade usano classi Tailwind ma Bootstrap Italia richiede classi spe
 Creare componenti compatibili Bootstrap Italia.
 
 ---
-
-title: "ALLINEAMENTO BOOTSTRAP ITALIA"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ALLINEAMENTO BOOTSTRAP ITALIA"
-issues: []
-discussions: []
 ## Componenti da Fixare
 
 ### 1. Hero Homepage

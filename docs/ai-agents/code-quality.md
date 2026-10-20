@@ -49,7 +49,7 @@ bash laravel/tools/phpmd.sh laravel text phpmd.xml --exclude vendor,node_modules
 ## 🔗 Link
 
 **Di ritorno:**
-- → [CLAUDE.md - Code Quality](../../CLAUDE.md)
-- → [AGENTS.md - Quality Checks](../../AGENTS.md#quality-checks-obbligatori-dopo-ogni-modifica)
-- → [agents.md - Quality Checks](../../agents.md#quality-checks-obbligatori-dopo-ogni-modifica)
+- → [CLAUDE.md - Code Quality](../CLAUDE.md)
+- → [AGENTS.md - Quality Checks](../AGENTS.md#quality-checks-obbligatori-dopo-ogni-modifica)
+- → [agents.md - Quality Checks](../agents.md#quality-checks-obbligatori-dopo-ogni-modifica)
 - → [INDEX](index.md)

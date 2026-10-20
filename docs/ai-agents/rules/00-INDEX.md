@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🔴 CRITICAL RULES - AI Agents
@@ -17,15 +18,6 @@ discussions: []
 **Priority**: BLOCKER (violation = STOP immediately)
 
 ---
-
-title: "00 INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "00 INDEX"
-issues: []
-discussions: []
 ## 🎯 Rule #1: Filament Tables for Lists
 
 > **MAI** creare blade personalizzati per liste di outcomes, predict, o dati tabellari.

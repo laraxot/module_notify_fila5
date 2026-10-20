@@ -8,6 +8,7 @@ type: guideline
 module: Notify
 updated: 2026-09-01
 qmd: "git lfs vietato gitattributes prototipo binari blob normali notify puntatori immagini"
+status: draft
 ---
 
 # Git LFS non si usa in questo progetto

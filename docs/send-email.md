@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "send email"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Guida alla Correzione di SendEmail.php

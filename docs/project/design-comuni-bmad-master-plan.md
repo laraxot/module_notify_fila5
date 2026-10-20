@@ -595,7 +595,7 @@ pages/tests/argomenti.blade.php     # NO
 ### Key Documents
 
 - [Master Index](docs/project/module-docs-index.md)
-- [Theme Detection](docs/project/theme-detection-system.md)
+- [Theme Detection](theme-detection-system.md)
 - [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md)
 - [Page Component](Modules/Cms/docs/PAGE_COMPONENT_architecture.md)
 

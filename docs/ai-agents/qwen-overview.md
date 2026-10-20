@@ -83,5 +83,5 @@ Never: git revert (only forward!)
 ## 🔗 Link
 
 - [Indice QWEN](./qwen-split-index.md)
-- [QWEN.md originale](../../QWEN.md)
+- [QWEN.md originale](../QWEN.md)
 - [Index principale](./index.md)

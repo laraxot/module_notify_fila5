@@ -94,5 +94,5 @@ ForecastController@index   ← FORBIDDEN!
 ## 🔗 Link
 
 - [Indice CLAUDE](./claude-split-index.md)
-- [CLAUDE.md originale](../../CLAUDE.md)
+- [CLAUDE.md originale](../CLAUDE.md)
 - [Index principale](./index.md)

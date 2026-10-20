@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "laravel v12 rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === laravel/v12 rules ===
@@ -36,15 +37,6 @@ discussions: []
 
 
 ---
-
-title: "laravel v12 rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "laravel v12 rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

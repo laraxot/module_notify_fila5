@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ai rules critical"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🤖 AI Agent Rules - CRITICAL UPDATE
@@ -16,15 +17,6 @@ discussions: []
 > **Version**: 4.0
 
 ---
-
-title: "ai rules critical"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ai rules critical"
-issues: []
-discussions: []
 ## 🚨 CRITICAL RULE #1: GIT COMMIT & PUSH
 
 ### Rule Statement
