@@ -81,5 +81,5 @@ composer run test
 ## 🔗 Link
 
 - [Indice GEMINI](./gemini-split-index.md)
-- [GEMINI.md originale](../../GEMINI.md)
+- [GEMINI.md originale](../GEMINI.md)
 - [Index principale](./index.md)

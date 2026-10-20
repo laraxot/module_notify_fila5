@@ -81,11 +81,11 @@ updated: 2026-07-14
 qmd: "analisi-completa-2025-10-01.deprecated deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -107,11 +107,11 @@ updated: 2026-07-14
 qmd: "analisi-completa-2025-10-01 deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -134,11 +134,11 @@ qmd: "analisi-completa-2 analisi completa del modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -434,11 +434,11 @@ qmd: "analisi-completa-2025-10-01.deprecated 📊 analisi completa progetto <nom
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -855,26 +855,26 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 ## 📚 TUTTA LA DOCUMENTAZIONE
 
 ### 📊 Reports & Analysis
-- **[Master Roadmap Index](./roadmap-master-index.md)** ⭐ START HERE
-- **[Project Analysis & Roadmap](./project-analysis-and-roadmap.md)** ⭐ BUSINESS VIEW
+- **[Master Roadmap Index](../../roadmap-master-index.md)** ⭐ START HERE
+- **[Project Analysis & Roadmap](../../project-analysis-and-roadmap.md)** ⭐ BUSINESS VIEW
 - **[Session Summary 2025-10-01](./phpstan/session-summary-.md.md)** ⭐ TECHNICAL
 - **[Final Report 2025-10-01](./phpstan/final-report-session-.md.md)**
 - **[Questo Documento](./analisi-completa.md)** ⭐ EXECUTIVE
 
 ### 🎯 Module Roadmaps (Dettagliate)
-- [Xot - Core Framework](../Modules/Xot/docs/roadmap-and-issues.md) - 9 errori, 2.5h fix
-- [User - Auth & Profiles](../Modules/User/docs/roadmap-and-issues.md) - 95 errori, 6h fix
-- [App - Business Logic](../Modules/App/docs/roadmap-and-issues.md) - N+1 queries, features
+- [Xot - Core Framework](../../roadmap-and-issues.md) - 9 errori, 2.5h fix
+- [User - Auth & Profiles](../../roadmap-and-issues.md) - 95 errori, 6h fix
+- [App - Business Logic](../../roadmap-and-issues.md) - N+1 queries, features
 - [<nome progetto> - Business Logic](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - N+1 queries, features
-- [AI - Artificial Intelligence](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization
-- [Notify - Notifications](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time, push
-- [Geo - Geographic](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
-- [UI - Components](../Modules/UI/docs/roadmap-and-issues.md) - Accessibility
-- [Activity - Audit](../Modules/Activity/docs/roadmap-and-issues.md) - Analytics
-- [Cms - Content](../Modules/Cms/docs/roadmap-and-issues.md) - Page builder
+- [AI - Artificial Intelligence](../../roadmap-and-issues.md) - Auto-categorization
+- [Notify - Notifications](../../roadmap-and-issues.md) - Real-time, push
+- [Geo - Geographic](../../roadmap-and-issues.md) - Maps integration
+- [UI - Components](../../roadmap-and-issues.md) - Accessibility
+- [Activity - Audit](../../roadmap-and-issues.md) - Analytics
+- [Cms - Content](../../roadmap-and-issues.md) - Page builder
 
 ### 🎨 Theme Roadmaps
-- [Sixteen - Frontend Theme](../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
+- [Sixteen - Frontend Theme](../../roadmap-and-issues.md) - Performance
 
 ### 📖 Main Docs
 - [Index Principale](./index.md)
@@ -1228,11 +1228,11 @@ qmd: "analisi-dettagliata-1-1 analisi dettagliata del modulo notify - parte 1: a
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1760,7 +1760,7 @@ return [
 
 ## analisi-dettagliata-1
 
-*Consolidated from: `analisi-dettagliata-1.md`*
+*Consolidated from: `analisi-dettagliata-architettura-struttura.md`*
 
 
 ## 1. Architettura del Sistema
@@ -2294,11 +2294,11 @@ qmd: "analisi-dettagliata-2-1 analisi dettagliata del modulo notify - parte 2: m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2950,7 +2950,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analisi-dettagliata-2
 
-*Consolidated from: `analisi-dettagliata-2.md`*
+*Consolidated from: `analisi-dettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -3608,11 +3608,11 @@ qmd: "analisi-dettagliata-3-1 analisi dettagliata del modulo notify - parte 3: s
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -4268,7 +4268,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisi-dettagliata-3
 
-*Consolidated from: `analisi-dettagliata-3.md`*
+*Consolidated from: `analisi-dettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -4919,7 +4919,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisi-dettagliata-4-1
 
-*Consolidated from: `analisi-dettagliata-4-1.md`*
+*Consolidated from: `analisi-dettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -5621,11 +5621,11 @@ qmd: "analisi-dettagliata-4-2 analisi dettagliata del modulo notify - parte 4: i
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -6323,7 +6323,7 @@ class TemplateTestPage extends Page
 
 ## analisi-dettagliata-4
 
-*Consolidated from: `analisi-dettagliata-4.md`*
+*Consolidated from: `analisi-dettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -7027,11 +7027,11 @@ qmd: "analisi-dettagliata-5-1 analisi dettagliata del modulo notify - parte 5: t
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -7858,7 +7858,7 @@ class WebhookControllerTest extends TestCase
 
 ## analisi-dettagliata-5
 
-*Consolidated from: `analisi-dettagliata-5.md`*
+*Consolidated from: `analisi-dettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -8689,11 +8689,11 @@ qmd: "analisi-dettagliata-6-1 analisi dettagliata del modulo notify - parte 6: m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -9322,7 +9322,7 @@ class AnalyticsExporter
 
 ## analisi-dettagliata-6
 
-*Consolidated from: `analisi-dettagliata-6.md`*
+*Consolidated from: `analisi-dettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -9957,11 +9957,11 @@ qmd: "analisi-dettagliata-7-1 analisi dettagliata del modulo notify - parte 7: m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -10615,7 +10615,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analisi-dettagliata-7
 
-*Consolidated from: `analisi-dettagliata-7.md`*
+*Consolidated from: `analisi-dettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -11277,11 +11277,11 @@ qmd: "analisi-dettagliata-8-1 analisi dettagliata del modulo notify - parte 8: n
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -11512,7 +11512,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 
 ## analisi-dettagliata-8
 
-*Consolidated from: `analisi-dettagliata-8.md`*
+*Consolidated from: `analisi-dettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali
@@ -11749,11 +11749,11 @@ qmd: "analisi-dettagliata-9 analisi dettagliata del modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -13022,7 +13022,7 @@ class TemplatePreview extends Component
 ---
 
 ### 2. 📖 Documento Originale Completo
-📄 **File:** [analisi-metodi-duplicati.md](./analisi-metodi-duplicati.md)
+📄 **File:** [analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)
 
 **Contenuto:**
 - Panoramica generale
@@ -13041,7 +13041,7 @@ class TemplatePreview extends Component
 ### Moduli Core
 
 #### Xot (Modulo Base)
-📄 **File:** [../Modules/Xot/docs/analisi-metodi-duplicati.md](../Modules/Xot/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Modules/Xot/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 80 LOC, 87% riduzione possibile  
 🎯 **Priorità:** ALTA - Implementare XotBaseModel qui  
 📝 **Alternative:** [METODI_DUPLICATI_ANALISI.md](../Modules/Xot/docs/METODI_DUPLICATI_ANALISI.md) (dettagli Filament methods)
@@ -13051,13 +13051,13 @@ class TemplatePreview extends Component
 ### Moduli Business Logic
 
 #### User (Autenticazione & Autorizzazione)
-📄 **File:** [../Modules/User/docs/analisi-metodi-duplicati.md](../Modules/User/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Modules/User/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 74 LOC, 87% riduzione  
 🎯 **Priorità:** ALTA - Modulo critico  
 ⚠️ **Note:** Testing intensivo necessario (auth)
 
 #### App (Gestione Segnalazioni)
-📄 **File:** [../Modules/App/docs/analisi-metodi-duplicati.md](../Modules/App/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Modules/App/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 72 LOC, 79% riduzione  
 🎯 **Priorità:** ALTA - Business core  
 ⚠️ **Note:** Usa SoftDeletes (trait specifico da mantenere)  
@@ -13070,7 +13070,7 @@ class TemplatePreview extends Component
 📝 **Alternative:** [METODI_DUPLICATI_ANALISI.md](../Modules/<nome progetto>/docs/METODI_DUPLICATI_ANALISI.md)
 
 #### Cms (Content Management)
-📄 **File:** [../Modules/Cms/docs/analisi-metodi-duplicati.md](../Modules/Cms/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Modules/Cms/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 8 proprietà duplicate, 70 LOC, 86% riduzione  
 🎯 **Priorità:** MEDIA - Gestisce temi  
 📝 **Alternative:** [METODI_DUPLICATI_ANALISI.md](../Modules/Cms/docs/METODI_DUPLICATI_ANALISI.md)
@@ -13128,13 +13128,13 @@ class TemplatePreview extends Component
 ## 🎨 Documenti per Tema
 
 ### Theme Sixteen (AGID Compliant)
-📄 **File:** [../Themes/Sixteen/docs/analisi-metodi-duplicati.md](../Themes/Sixteen/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Themes/Sixteen/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 ⭐ **Valutazione:** ⭐⭐⭐⭐⭐ ECCELLENTE  
 🎯 **Priorità:** BASSA (già ottimizzato)  
 📝 **Focus:** Testing e documentazione, NO refactoring necessario
 
 ### Theme TwentyOne (Semplice)
-📄 **File:** [../Themes/TwentyOne/docs/analisi-metodi-duplicati.md](../Themes/TwentyOne/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Themes/TwentyOne/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 ⭐ **Valutazione:** ⭐⭐⭐ BUONO  
 🎯 **Priorità:** MEDIA (opzionale ServiceProvider)  
 📝 **Focus:** Valutare se aggiungere ServiceProvider leggero
@@ -13145,7 +13145,7 @@ class TemplatePreview extends Component
 
 ### Per Developer che Inizia il Refactoring
 1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-MASTER.md) - Leggere TUTTO (2-3 ore)
-2. 📖 [Xot Module](../Modules/Xot/docs/analisi-metodi-duplicati.md) - Capire modulo base
+2. 📖 [Xot Module](../../analisi-metodi-duplicati.md) - Capire modulo base
 3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/METODI_DUPLICATI_ANALISI.md) - Primo test migration
 4. 🚀 Iniziare implementazione seguendo MASTER guide
 
@@ -13158,7 +13158,7 @@ class TemplatePreview extends Component
 ### Per Tech Lead / Architect
 1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-MASTER.md#implementazione-concreta-pronta-all-uso) (1 ora)
 2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-MASTER.md#script-utili) (30 min)
-3. 📖 [Xot Module - Dettagli](../Modules/Xot/docs/analisi-metodi-duplicati.md) (30 min)
+3. 📖 [Xot Module - Dettagli](../../analisi-metodi-duplicati.md) (30 min)
 4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/METODI_DUPLICATI_ANALISI.md) (1 ora)
 5. 🎯 Architecture review e planning
 
@@ -14457,11 +14457,11 @@ qmd: "analisi-metodi-duplicati-index 📚 indice completo - analisi metodi dupli
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -14492,7 +14492,7 @@ related:
 ---
 
 ### 2. 📖 Documento Originale Completo
-📄 **File:** [analisi-metodi-duplicati.md](./analisi-metodi-duplicati.md)
+📄 **File:** [analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)
 
 **Contenuto:**
 - Panoramica generale
@@ -14511,17 +14511,17 @@ related:
 ### Moduli Core
 
 #### Xot (Modulo Base)
-📄 **File:** [../Modules/Xot/docs/analisi-metodi-duplicati.md](../Modules/Xot/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Modules/Xot/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 80 LOC, 87% riduzione possibile  
 🎯 **Priorità:** ALTA - Implementare XotBaseModel qui  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Xot/docs/metodi-duplicati-analisi-1.md) (dettagli Filament methods)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Xot/docs/metodi-duplicati-analisi.md) (dettagli Filament methods)
 
 ---
 
 ### Moduli Business Logic
 
 #### User (Autenticazione & Autorizzazione)
-📄 **File:** [../Modules/User/docs/analisi-metodi-duplicati.md](../Modules/User/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Modules/User/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 74 LOC, 87% riduzione  
 🎯 **Priorità:** ALTA - Modulo critico  
 ⚠️ **Note:** Testing intensivo necessario (auth)
@@ -14531,13 +14531,13 @@ related:
 📊 **Dati:** 9 proprietà duplicate, 72 LOC, 79% riduzione  
 🎯 **Priorità:** ALTA - Business core  
 ⚠️ **Note:** Usa SoftDeletes (trait specifico da mantenere)  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/<nome progetto>/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/<nome progetto>/docs/metodi-duplicati-analisi.md)
 
 #### Cms (Content Management)
-📄 **File:** [../Modules/Cms/docs/analisi-metodi-duplicati.md](../Modules/Cms/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Modules/Cms/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 8 proprietà duplicate, 70 LOC, 86% riduzione  
 🎯 **Priorità:** MEDIA - Gestisce temi  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Cms/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Cms/docs/metodi-duplicati-analisi.md)
 
 ---
 
@@ -14548,27 +14548,27 @@ related:
 📊 **Dati:** 8 proprietà duplicate, 70 LOC, 85% riduzione  
 🎯 **Priorità:** BASSA - Semplice  
 ✅ **Candidato:** Primo per migration test  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Activity/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Activity/docs/metodi-duplicati-analisi.md)
 
 #### Comment (Commenti)
 📄 **File:** (da creare)  
 📊 **Dati:** 7 proprietà duplicate, 65 LOC, 80% riduzione  
 🎯 **Priorità:** BASSA - Più semplice  
 ✅ **Candidato:** PRIMO per migration (meno rischi)  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Comment/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Comment/docs/metodi-duplicati-analisi.md)
 
 #### Blog (Blog Engine)
 📄 **File:** (da creare)  
 📊 **Dati:** 8 proprietà duplicate, 76 LOC, 85% riduzione  
 🎯 **Priorità:** MEDIA  
 ⚠️ **Note:** Usa InteractsWithMedia trait  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Blog/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Blog/docs/metodi-duplicati-analisi.md)
 
 #### AI (Artificial Intelligence)
 📄 **File:** (da creare)  
 📊 **Dati:** TBD  
 🎯 **Priorità:** BASSA  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/AI/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/AI/docs/metodi-duplicati-analisi.md)
 
 ---
 
@@ -14592,13 +14592,13 @@ related:
 ## 🎨 Documenti per Tema
 
 ### Theme Sixteen (AGID Compliant)
-📄 **File:** [../Themes/Sixteen/docs/analisi-metodi-duplicati.md](../Themes/Sixteen/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Themes/Sixteen/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 ⭐ **Valutazione:** ⭐⭐⭐⭐⭐ ECCELLENTE  
 🎯 **Priorità:** BASSA (già ottimizzato)  
 📝 **Focus:** Testing e documentazione, NO refactoring necessario
 
 ### Theme TwentyOne (Semplice)
-📄 **File:** [../Themes/TwentyOne/docs/analisi-metodi-duplicati.md](../Themes/TwentyOne/docs/analisi-metodi-duplicati.md)  
+📄 **File:** [../Themes/TwentyOne/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 ⭐ **Valutazione:** ⭐⭐⭐ BUONO  
 🎯 **Priorità:** MEDIA (opzionale ServiceProvider)  
 📝 **Focus:** Valutare se aggiungere ServiceProvider leggero
@@ -14609,8 +14609,8 @@ related:
 
 ### Per Developer che Inizia il Refactoring
 1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master-1.md) - Leggere TUTTO (2-3 ore)
-2. 📖 [Xot Module](../Modules/Xot/docs/analisi-metodi-duplicati.md) - Capire modulo base
-3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/metodi-duplicati-analisi-1.md) - Primo test migration
+2. 📖 [Xot Module](../../analisi-metodi-duplicati.md) - Capire modulo base
+3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/metodi-duplicati-analisi.md) - Primo test migration
 4. 🚀 Iniziare implementazione seguendo MASTER guide
 
 ### Per Project Manager / Stakeholder
@@ -14622,8 +14622,8 @@ related:
 ### Per Tech Lead / Architect
 1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-master-1.md#implementazione-concreta-pronta-all-uso) (1 ora)
 2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-master-1.md#script-utili) (30 min)
-3. 📖 [Xot Module - Dettagli](../Modules/Xot/docs/analisi-metodi-duplicati.md) (30 min)
-4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/metodi-duplicati-analisi-1.md) (1 ora)
+3. 📖 [Xot Module - Dettagli](../../analisi-metodi-duplicati.md) (30 min)
+4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/metodi-duplicati-analisi.md) (1 ora)
 5. 🎯 Architecture review e planning
 
 ### Per QA / Tester
@@ -14666,7 +14666,7 @@ related:
 **Target:** Tutti (START HERE!)  
 **Dettaglio:** 📊📊📊📊📊 Altissimo
 
-### 3. `metodi-duplicati-analisi-1.md`
+### 3. `metodi-duplicati-analisi.md`
 **Scopo:** Focus su Filament methods (getTableColumns, getTableActions, ecc.)  
 **Target:** Filament developers  
 **Dettaglio:** 📊📊📊📊 Alto (specifico Filament)
@@ -14680,7 +14680,7 @@ related:
 
 ### "Voglio ridurre codice duplicato in Filament Resources"
 ➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-master-1.md#parte-2-filament-methods---analisi-profonda)  
-➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/metodi-duplicati-analisi-1.md)
+➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/metodi-duplicati-analisi.md)
 
 ### "Voglio codice pronto da usare"
 ➡️ [MASTER - Parte 3: Implementazioni Concrete](./analisi-metodi-duplicati-master-1.md#parte-3-implementazione-concreta-pronta-all-uso)
@@ -14736,11 +14736,11 @@ qmd: "analisi-metodi-duplicati-master-1 🐄✨ analisi divina metodi duplicati 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -14900,7 +14900,7 @@ protected function casts(): array
 
 ### 2.1 Distribuzione ESATTA per Modulo
 
-**Dati Reali dai metodi-duplicati-analisi-1.md:**
+**Dati Reali dai metodi-duplicati-analisi.md:**
 
 | Modulo | getTableColumns | getTableFilters | getTableActions | getTableBulkActions | getHeaderActions | TOTALE |
 |--------|-----------------|-----------------|-----------------|---------------------|------------------|--------|
@@ -15934,11 +15934,11 @@ qmd: "analisi-metodi-duplicati-master 🐄⚡ analisi metodi duplicati - super m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -17115,7 +17115,7 @@ rules:
 
 ## analisi-miglioramenti-1
 
-*Consolidated from: `analisi-miglioramenti-1.md`*
+*Consolidated from: `analisi-miglioramenti-modulo-notify.md`*
 
 
 ## Analisi delle Soluzioni Esistenti
@@ -18499,7 +18499,7 @@ class TemplatePreview extends Component
 
 ## analisi_dettagliata_1
 
-*Consolidated from: `analisi_dettagliata_1.md`*
+*Consolidated from: `analisi_dettagliata-architettura-struttura.md`*
 
 
 ## 1. Architettura del Sistema
@@ -19022,7 +19022,7 @@ return [
 
 ## analisi_dettagliata_2
 
-*Consolidated from: `analisi_dettagliata_2.md`*
+*Consolidated from: `analisi_dettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -19669,7 +19669,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analisi_dettagliata_3
 
-*Consolidated from: `analisi_dettagliata_3.md`*
+*Consolidated from: `analisi_dettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -20320,7 +20320,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisi_dettagliata_4
 
-*Consolidated from: `analisi_dettagliata_4.md`*
+*Consolidated from: `analisi_dettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -21011,7 +21011,7 @@ class TemplateTestPage extends Page
 
 ## analisi_dettagliata_5
 
-*Consolidated from: `analisi_dettagliata_5.md`*
+*Consolidated from: `analisi_dettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -21833,7 +21833,7 @@ class WebhookControllerTest extends TestCase
 
 ## analisi_dettagliata_6
 
-*Consolidated from: `analisi_dettagliata_6.md`*
+*Consolidated from: `analisi_dettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -22457,7 +22457,7 @@ class AnalyticsExporter
 
 ## analisi_dettagliata_7
 
-*Consolidated from: `analisi_dettagliata_7.md`*
+*Consolidated from: `analisi_dettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -23106,7 +23106,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analisi_dettagliata_8
 
-*Consolidated from: `analisi_dettagliata_8.md`*
+*Consolidated from: `analisi_dettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali
@@ -23332,7 +23332,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 
 ## analisiettagliata-2
 
-*Consolidated from: `analisiettagliata-2.md`*
+*Consolidated from: `analisiettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -23981,7 +23981,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analisiettagliata-3
 
-*Consolidated from: `analisiettagliata-3.md`*
+*Consolidated from: `analisiettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -24632,7 +24632,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analisiettagliata-4
 
-*Consolidated from: `analisiettagliata-4.md`*
+*Consolidated from: `analisiettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -25323,7 +25323,7 @@ class TemplateTestPage extends Page
 
 ## analisiettagliata-5
 
-*Consolidated from: `analisiettagliata-5.md`*
+*Consolidated from: `analisiettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -26145,7 +26145,7 @@ class WebhookControllerTest extends TestCase
 
 ## analisiettagliata-6
 
-*Consolidated from: `analisiettagliata-6.md`*
+*Consolidated from: `analisiettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -26769,7 +26769,7 @@ class AnalyticsExporter
 
 ## analisiettagliata-7
 
-*Consolidated from: `analisiettagliata-7.md`*
+*Consolidated from: `analisiettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -27418,7 +27418,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analisiettagliata-8
 
-*Consolidated from: `analisiettagliata-8.md`*
+*Consolidated from: `analisiettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email plugins analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Plugin Email per Filament - il progetto

@@ -2,6 +2,10 @@
 type: decision-log
 title: "Decision Log — Notify"
 links: {github_issue: #XXX, discussion: #XXX}
+status: draft
+updated: 2026-10-08
+tags: [docs, notify]
+qmd: "decision log   notify notify"
 ---
 # Decision Log — Notify
 

@@ -379,7 +379,7 @@ trans('ptv::segnalazione.heading.title.label')
 ## 🔗 Related Documentation
 
 - [Translation Conventions](./translation-conventions.md)
-- [Blade Architecture](../laravel/CLAUDE.md#blade-components)
+- [Blade Architecture](../../../CLAUDE.md#blade-components)
 - [Agnostic Scripts](./AGNOSTIC_DOCUMENTATION_RULE.md)
 - [Multi-Agent Coordination](./MULTI_AGENT_COORDINATION_RULES.md)
 

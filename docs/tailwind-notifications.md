@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind notifications"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sistema di Notifiche con Filament Components

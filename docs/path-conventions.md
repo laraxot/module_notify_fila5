@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "path conventions"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni sui Percorsi

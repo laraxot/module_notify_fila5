@@ -8,6 +8,7 @@ type: guideline
 module: Notify
 updated: 2026-09-01
 qmd: "tabella filament resource table class getTableFilters XotBaseResourceTable HasXotTable list page notify"
+status: draft
 ---
 
 # La tabella si configura nella Table class, non nella pagina

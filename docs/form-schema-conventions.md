@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "form schema conventions"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni per i Form Schema

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "provider contracts naming"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni di Naming per i Contracts 

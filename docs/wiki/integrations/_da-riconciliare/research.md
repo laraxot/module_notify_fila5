@@ -41,5 +41,5 @@ updated: 2026-08-24
 - Usability test sul nuovo pannello Filament 5.
 
 ## 6. References
-- [strategy.md](strategy.md)
+- [strategy.md](../../../strategy.md)
 - [prd.md](prd.md)

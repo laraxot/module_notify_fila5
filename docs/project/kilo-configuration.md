@@ -367,8 +367,8 @@ kilo chat --model "google/gemini-2.5-pro"
 
 - [Kilo Official Docs](https://kilo.ai/docs)
 - [BMAD Integration](docs/project/bmad-gsd-ralph-integration.md)
-- [NotebookLM Integration](docs/project/notebooklm-integration.md)
-- [OpenViking Integration](docs/openviking-integration.md)
+- [NotebookLM Integration](notebooklm-integration.md)
+- [OpenViking Integration](../openviking-integration.md)
 
 ---
 

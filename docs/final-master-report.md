@@ -9,14 +9,15 @@ qmd: "final-master-report 🏆 ptv - final master report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 🏆 FIXCITY - FINAL MASTER REPORT
@@ -42,7 +43,7 @@ related:
 9. implementations-completed.md
 10. super-mucca-completion.md
 11. ultimate-completion-report.md
-12. absolute-completion-100.md
+12. absolute-completion-completamento-assoluto.md
 
 ### 📖 Guide Complete (5)
 13. Fixcity/docs/API.md

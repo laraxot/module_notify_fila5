@@ -17,6 +17,7 @@ related:
   - "./llm-wiki-governance.md"
   - "./method-name-homonyms.md"
   - "./module-root-uppercase-folders-archive.md"
+status: draft
 ---
 
 # Pest — funzioni helper di `tests/Pest.php` non affidabili su run isolate

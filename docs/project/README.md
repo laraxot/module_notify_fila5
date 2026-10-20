@@ -123,7 +123,7 @@ echo "127.0.0.1 laraxot.local" | sudo tee -a /etc/hosts
 - [Main Index](../index.md) - Master documentation index
 - [Modules Docs](../../Modules/docs/) - Module documentation
 - [Themes Docs](../../Themes/docs/) - Theme documentation
-- [Bash Scripts](../../../../bashscripts/docs/) - Script documentation
+- [Bash Scripts](../../../../../bashscripts/docs) - Script documentation
 
 ### External
 

@@ -20,5 +20,5 @@ interface CanReceivePushNotifications
      * Get the value of the model's primary key.
      * non si puo usare mixed che cs lo cancella.
      */
-    public function getKey(): string|int|null;
+    public function getKey();
 }

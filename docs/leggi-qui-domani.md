@@ -98,7 +98,7 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 - Trait type hints
 - Relations return types
 
-**Guida**: [User Roadmap](../Modules/User/docs/roadmap-and-issues.md)
+**Guida**: [User Roadmap](../../User/docs/roadmap-and-issues.md)
 
 ---
 
@@ -150,11 +150,11 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 ### Durante il Lavoro (reference)
 2. **[Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)** - Errori dettagliati Xot
-3. **[User Roadmap](../Modules/User/docs/roadmap-and-issues.md)** - Errori dettagliati User
+3. **[User Roadmap](../../User/docs/roadmap-and-issues.md)** - Errori dettagliati User
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status
-5. **[Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)** - Executive summary
+5. **[Analisi Completa](./analisi-completa-ottobre-data.md)** - Executive summary
 
 ---
 

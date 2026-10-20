@@ -421,9 +421,9 @@ return [
 
 ## Riferimenti
 
-- [AddressItemEnum Documentation](../../geo/docs/enums/address-item-enum.md) - Pattern gemello
+- [AddressItemEnum Documentation](../../../Geo/docs/enums/address-item-enum.md) - Pattern gemello
 - [Notify Module Architecture](../architecture.md)
-- [ContactTypeEnum Source](../../Notify/app/Enums/ContactTypeEnum.php)
+- [ContactTypeEnum Source](../../app/Enums/ContactTypeEnum.php)
 
 ## Changelog
 

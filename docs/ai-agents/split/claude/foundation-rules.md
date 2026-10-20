@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "foundation rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 # claudeMd
@@ -64,15 +65,6 @@ This application is a Laravel application and its main Laravel ecosystems packag
 
 
 ---
-
-title: "foundation rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "foundation rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

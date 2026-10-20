@@ -16,6 +16,7 @@ related:
   - "./llm-wiki-governance.md"
   - "./method-name-homonyms.md"
   - "./module-root-uppercase-folders-archive.md"
+status: draft
 ---
 
 # Notify — `PushNotificationService` eliminato
@@ -63,4 +64,4 @@ erano tornati nel working tree. Rifatta e chiusa:
 `app/Services` non esiste piu'. Il recapito APNs/Web Push resta simulato e ora traccia ogni consegna con
 `Actions\Push\LogSimulatedPushDeliveryAction` (collegata a `SendPushToPlatformAction` e `SendPushToTopicAction`).
 Le costanti `NotificationLog::STATUS_*` sono diventate `Enums\NotificationLogStatusEnum` (stessi literal nel DB).
-Story: `../../stories/2026-10-08-services-to-actions-notify.story.md`.
+Story: `../../stories/services-to-actions-notify.story.md`.

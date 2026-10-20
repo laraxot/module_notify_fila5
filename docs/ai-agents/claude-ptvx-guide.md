@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "claude ptvx guide"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Utilizzo di Claude con il Progetto PTVX

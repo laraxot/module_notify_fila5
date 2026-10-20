@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "database patterns"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Database patterns

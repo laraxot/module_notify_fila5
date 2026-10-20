@@ -16,6 +16,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - readme.md
+status: draft
 ---
 # Template Email
 

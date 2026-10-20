@@ -73,4 +73,4 @@ updated: 2026-09-26
 qmd: "project overview"
 issues: []
 discussions: []
-[Back to index](../index.md) | [Guidelines](guidelines.md) | [Links](links.md)
+[Back to index](../../../index.md) | [Guidelines](guidelines.md) | [Links](links.md)

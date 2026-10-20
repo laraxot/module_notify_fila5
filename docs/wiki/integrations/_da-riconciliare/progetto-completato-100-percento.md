@@ -8,11 +8,11 @@ qmd: "progetto-completato-100-percento 🏆 progetto <nome progetto> - 100% comp
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "../../../acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -342,7 +342,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 **[→ ANALISI COMPLETA](./analisi-completa.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
-**[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
+**[→ Master Roadmap Index](../../../roadmap-master-index.md)** - Indice completo roadmap moduli
 
 ### 📊 TECHNICAL
 **[→ Session Summary](./phpstan/session-summary-.md.md)** - Dettagli tecnici sessione
@@ -351,21 +351,21 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 **Critici**:
 - [<nome progetto>](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - Core business + Performance fixes
-- [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
-- [User](../Modules/User/docs/roadmap-and-issues.md) - Authentication
+- [Xot](../../../roadmap-and-issues.md) - Framework base
+- [User](../../../roadmap-and-issues.md) - Authentication
 
 **Features**:
-- [AI](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization roadmap
-- [Notify](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time roadmap
-- [Geo](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
+- [AI](../../../roadmap-and-issues.md) - Auto-categorization roadmap
+- [Notify](../../../roadmap-and-issues.md) - Real-time roadmap
+- [Geo](../../../roadmap-and-issues.md) - Maps integration
 
 **Supporto**:
-- [UI](../Modules/UI/docs/roadmap-and-issues.md) - Components
-- [Cms](../Modules/Cms/docs/roadmap-and-issues.md) - Content
-- [Activity](../Modules/Activity/docs/roadmap-and-issues.md) - Audit
+- [UI](../../../roadmap-and-issues.md) - Components
+- [Cms](../../../roadmap-and-issues.md) - Content
+- [Activity](../../../roadmap-and-issues.md) - Audit
 
 ### 🎨 THEMES
-- [Sixteen](../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
+- [Sixteen](../../../roadmap-and-issues.md) - Frontend cittadini
 
 ---
 
@@ -546,7 +546,7 @@ php artisan queue:work --queue=high,notifications,default
 ## 🔗 LINK FINALI
 
 - [← Torna all'Indice](./index.md)
-- [← Master Roadmap](./roadmap-master-index.md)
+- [← Master Roadmap](../../../roadmap-master-index.md)
 - [← Analisi Completa](./analisi-completa.md)
 
 ---
@@ -906,10 +906,10 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📚 GUIDA RAPIDA ALLA DOCUMENTAZIONE
 
 ### 🌟 START HERE
-**[→ ANALISI COMPLETA](./ANALISI-COMPLETA-2025-10-01.md)** - Executive Summary del progetto
+**[→ ANALISI COMPLETA](../../../analisi-completa-ottobre-data.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
-**[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
+**[→ Master Roadmap Index](../../../roadmap-master-index.md)** - Indice completo roadmap moduli
 
 ### 📊 TECHNICAL
 **[→ Session Summary](./phpstan/session-summary-2025-10-01.md)** - Dettagli tecnici sessione
@@ -917,23 +917,23 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ### 🎯 MODULES (Dettagli per ogni modulo)
 
 **Critici**:
-- [App](../Modules/App/docs/roadmap-and-issues.md) - Core business + Performance fixes
+- [App](../../../roadmap-and-issues.md) - Core business + Performance fixes
 - [<nome progetto>](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - Core business + Performance fixes
-- [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
-- [User](../Modules/User/docs/roadmap-and-issues.md) - Authentication
+- [Xot](../../../roadmap-and-issues.md) - Framework base
+- [User](../../../roadmap-and-issues.md) - Authentication
 
 **Features**:
-- [AI](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization roadmap
-- [Notify](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time roadmap
-- [Geo](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
+- [AI](../../../roadmap-and-issues.md) - Auto-categorization roadmap
+- [Notify](../../../roadmap-and-issues.md) - Real-time roadmap
+- [Geo](../../../roadmap-and-issues.md) - Maps integration
 
 **Supporto**:
-- [UI](../Modules/UI/docs/roadmap-and-issues.md) - Components
-- [Cms](../Modules/Cms/docs/roadmap-and-issues.md) - Content
-- [Activity](../Modules/Activity/docs/roadmap-and-issues.md) - Audit
+- [UI](../../../roadmap-and-issues.md) - Components
+- [Cms](../../../roadmap-and-issues.md) - Content
+- [Activity](../../../roadmap-and-issues.md) - Audit
 
 ### 🎨 THEMES
-- [Sixteen](../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
+- [Sixteen](../../../roadmap-and-issues.md) - Frontend cittadini
 
 ---
 
@@ -1115,8 +1115,8 @@ php artisan queue:work --queue=high,notifications,default
 ## 🔗 LINK FINALI
 
 - [← Torna all'Indice](./index.md)
-- [← Master Roadmap](./roadmap-master-index.md)
-- [← Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)
+- [← Master Roadmap](../../../roadmap-master-index.md)
+- [← Analisi Completa](../../../analisi-completa-ottobre-data.md)
 
 ---
 

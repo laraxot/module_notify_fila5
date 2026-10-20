@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "xot base classes convention"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni per le Classi Base Xot

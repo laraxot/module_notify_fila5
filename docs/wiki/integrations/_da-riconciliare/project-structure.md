@@ -8,11 +8,11 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [structure, architecture, module]
 related:
-  - "./00-index-1.md"
+  - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "../../../acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -106,11 +106,11 @@ graph TD
 
 ## Riferimenti Globali
 
-- [Project Wiki Root](../../docs/wiki/)
-- [Global Rules](../../docs/wiki/rules/)
-- [Global Skills](../../docs/wiki/skills/)
-- [Global Commands](../../docs/wiki/commands/)
-- [Global Memories](../../docs/wiki/memories/)
+- [Project Wiki Root](../..)
+- [Global Rules](../../rules)
+- [Global Skills](../../skills)
+- [Global Commands](../../commands)
+- [Global Memories](../../memories)
 
 ## Setup Iniziale (per nuovi moduli)
 
@@ -233,11 +233,11 @@ graph TD
 
 ## Riferimenti Globali
 
-- [Project Wiki Root](../../docs/wiki/)
-- [Global Rules](../../docs/wiki/rules/)
-- [Global Skills](../../docs/wiki/skills/)
-- [Global Commands](../../docs/wiki/commands/)
-- [Global Memories](../../docs/wiki/memories/)
+- [Project Wiki Root](../..)
+- [Global Rules](../../rules)
+- [Global Skills](../../skills)
+- [Global Commands](../../commands)
+- [Global Memories](../../memories)
 
 ## Setup Iniziale (per nuovi moduli)
 

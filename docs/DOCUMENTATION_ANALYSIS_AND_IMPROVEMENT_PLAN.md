@@ -411,7 +411,7 @@ echo "  snake_case: $(find laravel/Modules/*/docs/ -name '*_*.md' | wc -l)"
 ## 📚 Related Documents
 
 - [DOCUMENTATION_GOVERNANCE.md](DOCUMENTATION_GOVERNANCE.md) - Governance framework
-- [agents.md](../../../agents.md) - Agent guidelines
+- [agents.md](../../../AGENTS.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 
 ---

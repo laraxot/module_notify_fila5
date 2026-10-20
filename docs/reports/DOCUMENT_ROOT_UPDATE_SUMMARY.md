@@ -213,7 +213,7 @@ Next Review: 2026-04-30
 
 - [Master Module Index](laravel/Modules/docs/README.md)
 - [Master Theme Index](laravel/Themes/docs/README.md)
-- [Project Documentation](docs/README.md)
+- [Project Documentation](../README.md)
 - [AGENTS.md](AGENTS.md)
 - [.windsurfrules](.windsurfrules)
 

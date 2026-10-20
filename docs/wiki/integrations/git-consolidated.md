@@ -42,11 +42,11 @@ qmd: "git-commit-push-rule git commit & push workflow - ai agent rules"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -493,8 +493,8 @@ Tutti i file risolti rispettano:
 
 - [Documentazione Root Notify](../../../docs/modules/notify.md)
 - [Architecture Documentation](./architecture.md)
-- [Email Templates](./email_templates.md)
-- [Notification Channels](./notification_channels_implementation.md)
+- [Email Templates](../../email_templates.md)
+- [Notification Channels](../../notification_channels_implementation.md)
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*
@@ -514,11 +514,11 @@ qmd: "git-conflicts-resolution-sumy risoluzione conflitti git - modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -591,7 +591,7 @@ Tutti i file risolti rispettano:
 
 - [Documentazione Root Notify](../../../docs/modules/notify.md)
 - [Architecture Documentation](./architecture.md)
-- [Email Templates](./email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Notification Channels](./notification-channels-implementation-2.md)
 
 ---
@@ -1086,11 +1086,11 @@ qmd: "github-actions-status github actions status & fixes"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1236,11 +1236,11 @@ qmd: "github-sync-rule 🔄 sync .github with bashscripts/ai/.github"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1489,8 +1489,8 @@ Tutti i file risolti rispettano:
 
 - [Documentazione Root Notify](../../../../docs/modules/notify.md)
 - [Architecture Documentation](./architecture.md)
-- [Email Templates](./email_templates.md)
-- [Notification Channels](./notification_channels_implementation.md)
+- [Email Templates](../../email_templates.md)
+- [Notification Channels](../../notification_channels_implementation.md)
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

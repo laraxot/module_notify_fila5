@@ -25,7 +25,7 @@ discussions: []
 
 ## 🔗 Collegamento
 
-- [QWEN.md originale](../../QWEN.md)
+- [QWEN.md originale](../QWEN.md)
 - [Index principale](./index.md)
 
 ## Note

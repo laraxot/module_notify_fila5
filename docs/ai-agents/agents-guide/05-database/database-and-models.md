@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "database and models"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 5. Database & Models
@@ -95,12 +96,3 @@ This ensures APP_URL and all other variables remain identical to .env.
 **CRITICAL RULE FOR TestCase:** NEVER duplicate database connection configuration in setUp() because CreatesApplication already handles it automatically.
 
 ---
-
-title: "database and models"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "database and models"
-issues: []
-discussions: []

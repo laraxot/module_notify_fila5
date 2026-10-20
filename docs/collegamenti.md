@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "collegamenti"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Collegamenti Documentazione Notify

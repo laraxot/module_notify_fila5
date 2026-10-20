@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email migrations"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sistema Migrazione Email 

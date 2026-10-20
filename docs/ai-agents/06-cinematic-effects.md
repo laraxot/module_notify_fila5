@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "06 cinematic effects"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎨 Cinematic Effects & Particles
@@ -15,15 +16,6 @@ discussions: []
 **Related**: [06-CINEMATIC-EFFECTS.md](06-CINEMATIC-EFFECTS.md) — Full guide
 
 ---
-
-title: "06 cinematic effects"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "06 cinematic effects"
-issues: []
-discussions: []
 ## 📋 Quick Reference
 
 ### CSS-only Particles (Recommended)

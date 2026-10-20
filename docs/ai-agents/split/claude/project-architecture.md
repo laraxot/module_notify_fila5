@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "project architecture"
 issues: []
 discussions: []
+status: draft
 ---
 
 === project architecture rules ===
@@ -144,15 +145,6 @@ NEVER proactively create documentation files (*.md) or README files. Only create
       
       IMPORTANT: this context may or may not be relevant to your tasks. You should not respond to this context unless it is highly relevant to your task.
 ---
-
-title: "project architecture"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "project architecture"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

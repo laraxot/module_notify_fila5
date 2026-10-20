@@ -35,11 +35,11 @@ discussions: []
 **Tech Stack:** Tailwind CSS + Alpine.js + Livewire Volt
 
 **Core Documentation:**
-- [00-INDEX.md](../laravel/Themes/Sixteen/docs/00-INDEX.md) - Start here
-- [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md) - Start here
-- [Design Comuni Integration](../laravel/Themes/Sixteen/docs/design-comuni-integration.md)
+- [00-INDEX.md](../../../Themes/Sixteen/docs/00-INDEX.md) - Start here
+- [00-index.md](../../../Themes/Sixteen/docs/00-INDEX.md) - Start here
+- [Design Comuni Integration](../../../Themes/Sixteen/docs/design-comuni-integration.md)
 - [Component Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md)
-- [Layout Architecture](../laravel/Themes/Sixteen/docs/layout-hierarchy.md)
+- [Layout Architecture](../../../Themes/Sixteen/docs/layout-hierarchy.md)
 
 **Directory Structure:**
 ```
@@ -326,7 +326,7 @@ Typography:
 
 | File | Purpose | View |
 |------|---------|------|
-| `layout-hierarchy.md` | Layout component structure | [View](../laravel/Themes/Sixteen/docs/layout-hierarchy.md) |
+| `layout-hierarchy.md` | Layout component structure | [View](../../../Themes/Sixteen/docs/layout-hierarchy.md) |
 | `component-structure.md` | Component organization | [View](../laravel/Themes/Sixteen/docs/component-structure.md) |
 | `data-flow.md` | How data flows through views | [View](../laravel/Themes/Sixteen/docs/data-flow.md) |
 | `styling-system.md` | Tailwind + CSS strategy | [View](../laravel/Themes/Sixteen/docs/styling-system.md) |
@@ -468,9 +468,9 @@ public_html/assets/
 
 - **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
 - **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
-- **Master Index:** [00-INDEX.md](../laravel/Themes/Sixteen/docs/00-INDEX.md)
+- **Master Index:** [00-INDEX.md](../../../Themes/Sixteen/docs/00-INDEX.md)
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
-- **Framework Rules:** [../laravel/CLAUDE.md](../laravel/CLAUDE.md)
+- **Framework Rules:** [../laravel/CLAUDE.md](../../../CLAUDE.md)
 
 ---
 

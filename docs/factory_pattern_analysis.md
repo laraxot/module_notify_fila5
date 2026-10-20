@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "factory pattern analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi del Pattern Factory per le Notifiche

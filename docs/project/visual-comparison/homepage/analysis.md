@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Homepage Visual Comparison Analysis

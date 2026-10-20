@@ -47,11 +47,11 @@ qmd: "conflict-resolution-recordnotification-1 risoluzione conflitti recordnotif
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -229,7 +229,7 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
-- [SpatieEmail Integration](spatie-email-usage-guide.md)
+- [SpatieEmail Integration](../../spatie-email-usage-guide.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -311,7 +311,7 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
-- [SpatieEmail Integration](spatie-email-usage-guide.md)
+- [SpatieEmail Integration](../../spatie-email-usage-guide.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -331,11 +331,11 @@ qmd: "conflict-resolution-sendsmspage-1 risoluzione conflitti sendsmspage.php"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -488,7 +488,7 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [SMS Testing Guide](sms/testing.md)
-- [MailTemplate Integration](mail_templates_structure.md)
+- [MailTemplate Integration](../../mail_templates_structure.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -558,7 +558,7 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [SMS Testing Guide](sms/testing.md)
-- [MailTemplate Integration](mail_templates_structure.md)
+- [MailTemplate Integration](../../mail_templates_structure.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -578,11 +578,11 @@ qmd: "conflict-resolution-smschannel-1 risoluzione conflitti smschannel.php"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -708,7 +708,7 @@ return $action->execute($smsData);
 
 ## Collegamenti
 - [Notify Module Documentation](readme.md)
-- [SMS Channel Architecture](sms-channel-action-resolution.md)
+- [SMS Channel Architecture](../../sms-channel-action-resolution.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -765,7 +765,7 @@ return $action->execute($smsData);
 
 ## Collegamenti
 - [Notify Module Documentation](README.md)
-- [SMS Channel Architecture](sms-channel-action-resolution.md)
+- [SMS Channel Architecture](../../sms-channel-action-resolution.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -785,11 +785,11 @@ qmd: "conflict-resolution-smsdriverenum-1 risoluzione conflitto smsdriverenum"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1014,7 +1014,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
 - [Notify Module](../README.md)
 - [SMS Configuration](../sms-configuration.md)
-- [Translation Standards](../../Lang/project_docs/translation-standards.md)
+- [Translation Standards](../../translation-standards.md)
 - [Filament Integration](../../Xot/project_docs/filament-translations.md)
 
 ## Note per Sviluppatori Futuri
@@ -1255,7 +1255,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
 - [Notify Module](../readme.md)
 - [SMS Configuration](../sms-configuration.md)
-- [Translation Standards](../../lang/docs/translation-standards.md)
+- [Translation Standards](../../../../Lang/docs/translation-standards.md)
 - [Filament Integration](../../xot/docs/filament-translations.md)
 
 ## Note per Sviluppatori Futuri
@@ -1421,7 +1421,7 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
-- [SpatieEmail Integration](spatie-email-usage-guide.md)
+- [SpatieEmail Integration](../../spatie-email-usage-guide.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -1497,7 +1497,7 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [SMS Testing Guide](sms/testing.md)
-- [MailTemplate Integration](mail_templates_structure.md)
+- [MailTemplate Integration](../../mail_templates_structure.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -1560,7 +1560,7 @@ return $action->execute($smsData);
 
 ## Collegamenti
 - [Notify Module Documentation](README.md)
-- [SMS Channel Architecture](sms-channel-action-resolution.md)
+- [SMS Channel Architecture](../../sms-channel-action-resolution.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -1789,7 +1789,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
 - [Notify Module](../README.md)
 - [SMS Configuration](../sms-configuration.md)
-- [Translation Standards](../../Lang/project_docs/translation-standards.md)
+- [Translation Standards](../../translation-standards.md)
 - [Filament Integration](../../Xot/project_docs/filament-translations.md)
 
 ## Note per Sviluppatori Futuri

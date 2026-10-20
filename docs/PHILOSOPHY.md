@@ -7,6 +7,7 @@ title: Notify Module Philosophy
 type: manifesto
 tags: [notify, philosophy, architecture, async]
 created: 2026-09-06
+status: draft
 ---
 
 # Notify Module Philosophy

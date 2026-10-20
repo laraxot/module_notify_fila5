@@ -11,7 +11,7 @@ discussions: []
 
 # Laraxot single source of truth philosophy
 
-> Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md)
+> Source: [IFLOW.md](../../../../../bashscripts/ai/IFLOW.md)
 > Back: [index](index.md) | [critical-rules.md](critical-rules.md)
 
 ## Core principle

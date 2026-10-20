@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email sending troubleshooting"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Troubleshooting: Sistema di Invio Email in Notify

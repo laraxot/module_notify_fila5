@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "project"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Base Fixcity Fila5 — PROJECT.md

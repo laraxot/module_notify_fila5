@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "GETTING STARTED"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Getting Started with $MOD

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ROADMAP STATUS SUMMARY"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📊 ROADMAP STATUS SUMMARY - Ottobre 2025
@@ -19,15 +20,6 @@ discussions: []
 **Production Status**: 🚧 STAGING READY  
 
 ---
-
-title: "ROADMAP STATUS SUMMARY"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ROADMAP STATUS SUMMARY"
-issues: []
-discussions: []
 ## 🎯 EXECUTIVE SUMMARY
 
 Siamo nella Fase 2 della roadmap master (Q4 2025). La Fase 1 (Performance & Stability) è stata completata

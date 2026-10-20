@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "communication systems architecture"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notify Module - Communication Systems Architecture

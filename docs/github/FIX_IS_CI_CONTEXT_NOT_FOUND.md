@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "FIX IS CI CONTEXT NOT FOUND"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Fix Risolto: Errore `is_ci_context: command not found`
@@ -17,15 +18,6 @@ discussions: []
 > **Priorità**: Critica
 
 ---
-
-title: "FIX IS CI CONTEXT NOT FOUND"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "FIX IS CI CONTEXT NOT FOUND"
-issues: []
-discussions: []
 ## 🚨 Problema
 
 ### Errori Segnalati

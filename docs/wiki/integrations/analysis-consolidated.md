@@ -335,7 +335,7 @@ class Template extends Model
 
 ## analysis-detailed-1
 
-*Consolidated from: `analysis-detailed-1.md`*
+*Consolidated from: `analysis-detailed.md`*
 
 title: "Analysis Detailed 1"
 type: concept
@@ -346,11 +346,11 @@ qmd: "analysis-detailed-1 analysis detailed 1"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -362,42 +362,42 @@ related:
 
 ## analysis-detailed-3
 
-*Consolidated from: `analysis-detailed-3.md`*
+*Consolidated from: `analysis-detailed.md`*
 
 
 ---
 
 ## analysis-detailed-4
 
-*Consolidated from: `analysis-detailed-4.md`*
+*Consolidated from: `analysis-detailed.md`*
 
 
 ---
 
 ## analysis-detailed-5
 
-*Consolidated from: `analysis-detailed-5.md`*
+*Consolidated from: `analysis-detailed.md`*
 
 
 ---
 
 ## analysis-detailed-6
 
-*Consolidated from: `analysis-detailed-6.md`*
+*Consolidated from: `analysis-detailed.md`*
 
 
 ---
 
 ## analysis-detailed-7
 
-*Consolidated from: `analysis-detailed-7.md`*
+*Consolidated from: `analysis-detailed.md`*
 
 
 ---
 
 ## analysis-detailed-8
 
-*Consolidated from: `analysis-detailed-8.md`*
+*Consolidated from: `analysis-detailed.md`*
 
 
 ---
@@ -411,7 +411,7 @@ related:
 
 ## analysis-dettagliata-1
 
-*Consolidated from: `analysis-dettagliata-1.md`*
+*Consolidated from: `analysis-dettagliata-architettura-struttura.md`*
 
 
 ## 1. Architettura del Sistema
@@ -6224,17 +6224,17 @@ Modules/Notify/
 
 
 ## Collegamenti tra versioni di analysis.md
-* [analysis.md](../../../notify/docs/analysis.md)
+* [analysis.md](../../analysis.md)
 * [analysis.md](../../../notify/docs/phpstan/analysis.md)
 * [analysis.md](../../../xot/docs/analysis.md)
 * [analysis.md](../../../xot/docs/phpstan/analysis.md)
-* [analysis.md](../../../user/docs/analysis.md)
+* [analysis.md](../../../../User/docs/analysis.md)
 * [analysis.md](../../../user/docs/phpstan/analysis.md)
 * [analysis.md](../../../ui/docs/analysis.md)
 * [analysis.md](../../../ui/docs/phpstan/analysis.md)
-* [analysis.md](../../../job/docs/analysis.md)
+* [analysis.md](../../../../Job/docs/analysis.md)
 * [analysis.md](../../../job/docs/phpstan/analysis.md)
-* [analysis.md](../../../media/docs/analysis.md)
+* [analysis.md](../../../../Media/docs/analysis.md)
 * [analysis.md](../../../media/docs/phpstan/analysis.md)
 * [analysis.md](../../../../themes/one/docs/analysis.md)
 
@@ -6249,7 +6249,7 @@ Modules/Notify/
 
 ## analysisettagliata-2
 
-*Consolidated from: `analysisettagliata-2.md`*
+*Consolidated from: `analysisettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -6896,7 +6896,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analysisettagliata-3
 
-*Consolidated from: `analysisettagliata-3.md`*
+*Consolidated from: `analysisettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -7547,7 +7547,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analysisettagliata-4
 
-*Consolidated from: `analysisettagliata-4.md`*
+*Consolidated from: `analysisettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -8238,7 +8238,7 @@ class TemplateTestPage extends Page
 
 ## analysisettagliata-5
 
-*Consolidated from: `analysisettagliata-5.md`*
+*Consolidated from: `analysisettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -9058,7 +9058,7 @@ class WebhookControllerTest extends TestCase
 
 ## analysisettagliata-6
 
-*Consolidated from: `analysisettagliata-6.md`*
+*Consolidated from: `analysisettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -9682,7 +9682,7 @@ class AnalyticsExporter
 
 ## analysisettagliata-7
 
-*Consolidated from: `analysisettagliata-7.md`*
+*Consolidated from: `analysisettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -10331,7 +10331,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analysisettagliata-8
 
-*Consolidated from: `analysisettagliata-8.md`*
+*Consolidated from: `analysisettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali

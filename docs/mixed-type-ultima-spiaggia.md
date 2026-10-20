@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mixed type ultima spiaggia"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Mixed (tipo di dato) - Solo come Ultima Spiaggia

@@ -29,7 +29,7 @@ Consolidated from **8** individual files.
 
 ## optimization-analysis-1
 
-*Consolidated from: `optimization-analysis-1.md`*
+*Consolidated from: `optimization-analysis-user-module-documentation.md`*
 
 title: "notify module documentation optimization analysis"
 type: concept
@@ -40,11 +40,11 @@ qmd: "optimization-analysis-1 notify module documentation optimization analysis"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -254,7 +254,7 @@ class NotificationTemplateCache
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 
@@ -463,7 +463,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
-- [Linee Guida Riusabilità](reusability_guidelines.md)
+- [Linee Guida Riusabilità](../../reusability_guidelines.md)
 - [Piano Implementazione](../../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)
 
@@ -483,11 +483,11 @@ qmd: "optimization-recommendations-2 raccomandazioni di ottimizzazione - modulo 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -508,7 +508,7 @@ related:
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 
@@ -745,7 +745,7 @@ php artisan notify:benchmark
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 
@@ -954,7 +954,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
-- [Linee Guida Riusabilità](reusability_guidelines.md)
+- [Linee Guida Riusabilità](../../reusability_guidelines.md)
 - [Piano Implementazione](../../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)
 
@@ -973,7 +973,7 @@ php artisan notify:benchmark
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 
@@ -1182,7 +1182,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
-- [Linee Guida Riusabilità](reusability_guidelines.md)
+- [Linee Guida Riusabilità](../../reusability_guidelines.md)
 - [Piano Implementazione](../../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)
 
@@ -1400,7 +1400,7 @@ docs/
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 
@@ -1616,7 +1616,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
-- [Linee Guida Riusabilità](reusability_guidelines.md)
+- [Linee Guida Riusabilità](../../reusability_guidelines.md)
 - [Piano Implementazione](../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)
 
