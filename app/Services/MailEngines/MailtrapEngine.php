@@ -46,6 +46,9 @@ class MailtrapEngine
         return static::getInstance();
     }
 
+    /**
+     * @param  array<string, mixed>  $vars  Valori per le proprieta' pubbliche del motore (from, to, body...)
+     */
     public function setLocalVars(array $vars): self
     {
         foreach ($vars as $k => $v) {

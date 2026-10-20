@@ -4,7 +4,7 @@ type: note
 status: active
 tags: [documentation]
 created: 2026-09-26
-updated: 2026-10-14
+updated: 2026-10-20
 qmd: "notify 00-INDEX indice operativo canonico famiglie radice directory canoniche evidence legacy"
 issues: []
 discussions: []
@@ -73,6 +73,9 @@ Varianti dello stesso nome (maiuscole, `_` contro `-`, suffisso `-N`): 413 grupp
 - 🚨 **[PHPStan Cluster](./phpstan-cluster.md)** - Modelli canonici mancanti per log/canali e impatto su factory/controller (il file con data `phpstan-cluster-2026-03-10.md` non esiste).
 - 🧭 **[No Orphan Http Controllers](./no-orphan-http-controllers.md)** - Regola: i controller web senza route non devono restare nel modulo. Stato del codice: `NotificationTrackingController` esiste ancora, senza rotta (vedi README, "Limiti verificati").
 - 🚫 **[No NotificationTrackingController](./no-notification-tracking-controller.md)** - Regola, non stato: il file e' ancora in `app/Http/Controllers/`; il test d'architettura che dovrebbe vietarlo usa un path errato e non protegge.
+- **[PHPStan test wave, lane notify-b](./stories/phpstan-test-wave-notify-b.story.md)** - 32 file di test portati a 0 errori (2026-10-20): cause, file neutralizzati (`Theme`, `EmailTemplate`) e decisioni aperte (`template_id` vs `mail_template_id`, `mail_template_logs` senza migration).
+- **[PHPStan test wave, lane notify-a](./stories/phpstan-test-wave-notify-a.story.md)** - 34 file (test e produzione) da 835 a 7 errori (2026-10-20): helper di `tests/TestCase.php`, 7 test riportati alla forma allineata dell'8 ottobre, `NotificationManager` che chiamava `execute()` inesistente; `NotificationApiTest` saltato per gate.
+- **[PHPStan test wave, lane notify (residuo)](./stories/phpstan-test-wave-notify.story.md)** - Residuo di `notify-a` e `notify-b` (2026-10-20): `NotificationApiTest` testa un'API REST (`/api/notify/send`, `/api/notify/templates`) senza rotte ne' controller; i quattro `.lock` tracciati in git bloccano il gate.
 - 🔬 **[Testing Guidelines](./testing.md)** - Mocking dei canali e verifica invio.
 - 📘 **[Docs-First Workflow](./docs-first-workflow.md)** - Sequenza obbligatoria docs -> codice -> tracking GitHub.
 - 🧪 **PSR-4 Test Helpers** - Nei file Pest usare helper anonimi o support file dedicati; evitare classi top-level extra che rompono `composer dump-autoload`.

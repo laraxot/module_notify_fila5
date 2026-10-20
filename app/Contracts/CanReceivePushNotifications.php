@@ -18,7 +18,8 @@ interface CanReceivePushNotifications
 
     /**
      * Get the value of the model's primary key.
-     * non si puo usare mixed che cs lo cancella.
+     *
+     * @return mixed Come `Illuminate\Database\Eloquent\Model::getKey()`: chiave int|string, tipo dichiarato dal framework
      */
     public function getKey();
 }
