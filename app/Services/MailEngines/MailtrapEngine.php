@@ -14,14 +14,18 @@ use Exception;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
 use Webmozart\Assert\Assert;
+use Spatie\QueueableAction\QueueableAction;
 
 // ---------CSS------------
 
 /**
- * Class SmsService.
+ * Motore di invio email via Mailtrap.
+ *
+ * Espone {@see execute()} eseguibile sincronicamente o su coda.
  */
 class MailtrapEngine
 {
+    use QueueableAction;
     public null|string $from = null;
 
     public string $to;
@@ -89,5 +93,16 @@ class MailtrapEngine
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');
         // }
+    }
+
+    /**
+     * Entry point per l'invio email via Mailtrap.
+     * Eseguibile in modo sincrono o asincrono su coda tramite QueueableAction.
+     *
+     * @see try()
+     */
+    public function execute(): void
+    {
+        $this->try();
     }
 }
