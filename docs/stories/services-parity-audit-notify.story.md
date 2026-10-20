@@ -72,7 +72,7 @@ Path verificati su disco il 2026-10-20. "Prod" = file di produzione che citano l
 - Nessuna Action nuova per i metodi senza chiamanti (`getTemplateStats`, `getRecipientStats`, `MailService`): il successore esiste o il caso d'uso no.
 - Nessuna Action che incarta una relazione Eloquent (i template e i destinatari hanno gia' le relazioni su model).
 - Non scrivere i motori `Actions/SMS/SmsEngines/*` per far smettere di lanciare `SendSmsAction`.
-- Non toccare `SmsChannel`, `SmsActionFactory` e le `Send*SMSAction`: sono la consegna SMS viva (5 + 2 file di produzione).
+- Non toccare `SmsChannel`, `SmsActionFactory` e le `Send*SMSAction`: sono la consegna SMS viva (consumatori nella tabella sopra).
 - Nessuna modifica a `phpstan.neon` (solo l'utente).
 - Non toccare file in stato di merge (`DU`, `UD`, `UU`); prima di ogni file `rg -c '^(<<<<<<<|=======|>>>>>>>)' <file>`.
 - Non toccare `laravel/tests/Architecture/ModulesArchitectureTest.php`: e' il ratchet di cartella gia' presente.
