@@ -4,7 +4,7 @@ type: note
 status: active
 tags: [documentation]
 created: 2026-09-26
-updated: 2026-10-14
+updated: 2026-10-20
 qmd: "notify 00-INDEX indice operativo canonico famiglie radice directory canoniche evidence legacy"
 issues: []
 discussions: []
@@ -14,10 +14,10 @@ related:
 
 # 📚 **Indice Documentazione Modulo Notify**
 
-**Status**: PHPStan Level 10 dichiarato in vecchie note, non rieseguito il 2026-10-14 (nessun esito di oggi in questo indice).
+**Status gate**: `cd laravel && ./vendor/bin/phpstan analyse Modules` → **file_errors 0**, exit 0 (verificato 2026-10-20). Religione: **scopo → fix** (capire perche' esiste il codice, poi correggere la causa; niente ignore/baseline). **Config unica:** solo `laravel/phpstan.neon` (modifica solo umano; mai `-c` o neon temporanei) — [Xot — phpstan single neon](../../Xot/docs/wiki/memories/phpstan-single-neon-config.md).
 **Versione**: non dichiarata in `composer.json` ne' in `module.json`; il "2.1.0" qui riportato in passato viene solo dal changelog di `README.md` (2025-01-22).
 
-Cosa fa il codice, con path veri e limiti verificati: [README.md](./README.md) (sezioni "Mappa del codice" e "Limiti verificati"). Aprire quel file per primo.
+**Perche' esiste:** [scopo.md](./scopo.md). Cosa fa il codice: [README.md](./README.md) (sezioni "Mappa del codice" e "Limiti verificati"). Wave PHPStan: [stories/phpstan-wave-coord.story.md](./stories/phpstan-wave-coord.story.md) (`.cursor-scratch/phpstan-wave/Notify.tsv`). `Services\NotificationManager` riesumato da merge e **eliminato** (7 errori): [stories/phpstan-notificationmanager-service-removed.story.md](./stories/phpstan-notificationmanager-service-removed.story.md) — canonico `Actions\NotificationManager` con `execute()` tipizzato. Gate Modules a zero: [phpstan-modules-zero-gate](../../Xot/docs/stories/phpstan-modules-zero-gate.story.md). Wave Services→Actions (hub Xot): [services-to-actions-global-wave](../../Xot/docs/stories/services-to-actions-global-wave.story.md). `00-index.md` e' stub verso qui.
 
 ## Come orientarsi in 3.465 file (misurato il 2026-10-14)
 
@@ -69,10 +69,14 @@ Varianti dello stesso nome (maiuscole, `_` contro `-`, suffisso `-N`): 413 grupp
 - 🔄 **[Monitoring](./monitoring.md)** - Metriche e log proposti; cita `TrackNotificationEventAction`, che non esiste in `app/`. Le code reali: `app/Jobs/SendNotificationJob.php` e `SendScheduledPushNotification.php`.
 
 ## 🧪 **Qualità e Sviluppo**
-- ✅ **[PHPStan Analysis](./phpstan-fixes.md)** - Report di conformità Level 10.
+- ✅ **Gate Modules a zero (2026-10-20)** — `phpstan analyse Modules`: file_errors 0. Story chiusura NotificationManager: [phpstan-notificationmanager-service-removed](./stories/phpstan-notificationmanager-service-removed.story.md). Hub: [Xot phpstan-modules-zero-wave3](../../Xot/docs/stories/phpstan-modules-zero-wave3.story.md).
+- ✅ **[PHPStan Analysis](./phpstan-fixes.md)** - Report storici Level 10 (evidence; lo stato vivo e' il gate sopra).
 - 🚨 **[PHPStan Cluster](./phpstan-cluster.md)** - Modelli canonici mancanti per log/canali e impatto su factory/controller (il file con data `phpstan-cluster-2026-03-10.md` non esiste).
 - 🧭 **[No Orphan Http Controllers](./no-orphan-http-controllers.md)** - Regola: i controller web senza route non devono restare nel modulo. Stato del codice: `NotificationTrackingController` esiste ancora, senza rotta (vedi README, "Limiti verificati").
 - 🚫 **[No NotificationTrackingController](./no-notification-tracking-controller.md)** - Regola, non stato: il file e' ancora in `app/Http/Controllers/`; il test d'architettura che dovrebbe vietarlo usa un path errato e non protegge.
+- **[PHPStan test wave, lane notify-b](./stories/phpstan-test-wave-notify-b.story.md)** - 32 file di test portati a 0 errori (2026-10-20): cause, file neutralizzati (`Theme`, `EmailTemplate`) e decisioni aperte (`template_id` vs `mail_template_id`, `mail_template_logs` senza migration).
+- **[PHPStan test wave, lane notify-a](./stories/phpstan-test-wave-notify-a.story.md)** - 34 file (test e produzione) da 835 a 7 errori (2026-10-20): helper di `tests/TestCase.php`, 7 test riportati alla forma allineata dell'8 ottobre, `NotificationManager` che chiamava `execute()` inesistente; `NotificationApiTest` saltato per gate.
+- **[PHPStan test wave, lane notify (residuo)](./stories/phpstan-test-wave-notify.story.md)** - Residuo di `notify-a` e `notify-b` (2026-10-20): `NotificationApiTest` testa un'API REST (`/api/notify/send`, `/api/notify/templates`) senza rotte ne' controller; i quattro `.lock` tracciati in git bloccano il gate.
 - 🔬 **[Testing Guidelines](./testing.md)** - Mocking dei canali e verifica invio.
 - 📘 **[Docs-First Workflow](./docs-first-workflow.md)** - Sequenza obbligatoria docs -> codice -> tracking GitHub.
 - 🧪 **PSR-4 Test Helpers** - Nei file Pest usare helper anonimi o support file dedicati; evitare classi top-level extra che rompono `composer dump-autoload`.
