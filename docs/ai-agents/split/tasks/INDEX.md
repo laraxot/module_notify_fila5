@@ -19,7 +19,7 @@ related:
 ---
 # BMad Tasks Index
 
-**Source**: [`../../../../agents.md`](../../../../../../../../../../agents.md) (lines 905-5349)  
+**Source**: [`../../../../agents.md`](../../../../../../../AGENTS.md) (lines 905-5349)  
 **Total Tasks**: 22  
 **Total Lines**: ~4445  
 **Last Updated**: 2026-04-11  
@@ -82,15 +82,15 @@ related:
 ## Cross-References
 
 ### Related Documentation
-- ← [BMad Agents Index](../../agents/index.md) — 10 agent definitions
+- ← [BMad Agents Index](../agents/index.md) — 10 agent definitions
 - ← [CLAUDE Index](../claude/index.md) — Laravel Boost guidelines
 - ← [GEMINI Index](../gemini/index.md) — Gemini-specific rules
 - ← [Main AI Docs Index](../index.md) — Master index
 
 ### Bidirectional Links
 - ← Back to [Main AI Docs Index](../index.md)
-- ← Back to [../../../../agents.md](../../../../../../../../../../agents.md) (original source)
-- ← Back to [Project Docs](../../../docs/README.md)
+- ← Back to [../../../../agents.md](../../../../../../../AGENTS.md) (original source)
+- ← Back to [Project Docs](../../../README.md)
 
 ---
 
@@ -101,7 +101,7 @@ Tasks are referenced by name when executing workflows:
 - "Execute trace-requirements for epic 3"
 - "Apply qa-gate to story 2.1"
 
-For full task definitions, see the original [`../../../../agents.md`](../../../../../../../../../../agents.md).
+For full task definitions, see the original [`../../../../agents.md`](../../../../../../../AGENTS.md).
 
 ---
 

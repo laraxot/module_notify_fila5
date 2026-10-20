@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan firebase mobile push"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan: Firebase e Mobile Push Notification

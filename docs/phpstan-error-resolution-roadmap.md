@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan error resolution roadmap"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notify Module PHPStan Error Resolution Roadmap

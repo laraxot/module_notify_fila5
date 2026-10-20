@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan fixes summary"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🔧 PHPStan Fixes Summary - FixCity
@@ -32,15 +33,6 @@ discussions: []
 **Legenda**: ✅ Completato | 🔄 In Progress | ⏳ Pending | ⏸️ Bloccato
 
 ---
-
-title: "phpstan fixes summary"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan fixes summary"
-issues: []
-discussions: []
 ## 🆕 NUOVE Correzioni - Modulo Geo (Level 1)
 
 ### 1. CalculateDistanceAction.php (Lines 52-53)

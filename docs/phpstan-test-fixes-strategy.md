@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan test fixes strategy"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan Test Fixes Strategy - 2025-10-10
@@ -305,15 +306,6 @@ php artisan test --coverage
 - [Pest Best Practices](/Modules/Xot/docs/testing/strategy.md)
 
 ---
-
-title: "phpstan test fixes strategy"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan test fixes strategy"
-issues: []
-discussions: []
 **Creato**: 2025-10-10T08:57:05+02:00  
 **Obiettivo**: 0 errori PHPStan MAX in ~2.5 ore  
 **Status**: 🚀 READY TO START

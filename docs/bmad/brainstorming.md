@@ -11,6 +11,7 @@ related:
   - ./brainstorming/module-opportunities.md
   - ./epics/module-roadmap.md
   - ./epics/notification-channels.epic.md
+status: draft
 ---
 
 # Notify — brainstorming

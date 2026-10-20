@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan Analysis Report
@@ -241,15 +242,6 @@ test('example', function (): void {
 - ⚠️ 7,373 Type Safety Improvements Possibili
 
 ---
-
-title: "phpstan analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan analysis"
-issues: []
-discussions: []
 **Documento creato**: 2025-01-11
 **Autore**: Claude Code Analysis
 **Versione**: 1.0

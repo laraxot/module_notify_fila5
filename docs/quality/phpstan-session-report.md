@@ -366,8 +366,8 @@ grep -B2 -A2 "#\[Override\]" Modules/*/app/**/RelationManagers/*.php | grep "@re
 
 ### Documentazione Interna
 - [Naming Conventions](./naming-conventions.md)
-- [PHPStan Fixes Activity](../../laravel/Modules/Activity/docs/phpstan_fixes_activity.md)
-- [Testing Guidelines](../../laravel/Modules/Activity/docs/testing-guidelines.md)
+- [PHPStan Fixes Activity](../../../Activity/docs/phpstan_fixes_activity.md)
+- [Testing Guidelines](../../../Activity/docs/testing-guidelines.md)
 
 ### Documentazione Esterna
 - [PHPStan Documentation](https://phpstan.org/)
