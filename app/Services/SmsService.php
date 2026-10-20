@@ -9,12 +9,16 @@ use ReflectionClass;
 use ReflectionException;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
+use Spatie\QueueableAction\QueueableAction;
 
 /**
- * Classe per l'invio di SMS.
+ * Classe per l'invio di SMS tramite driver configurabile (es. netfun).
+ *
+ * Espone {@see execute()} eseguibile sincronicamente o su coda.
  */
 class SmsService
 {
+    use QueueableAction;
     // ---------CSS------------
     public null|string $to = null;
 
@@ -150,5 +154,16 @@ class SmsService
         }
 
         return $this;
+    }
+
+    /**
+     * Entry point per l'invio dell'SMS.
+     * Eseguibile in modo sincrono o asincrono su coda tramite QueueableAction.
+     *
+     * @see send()
+     */
+    public function execute(): self
+    {
+        return $this->send();
     }
 }
