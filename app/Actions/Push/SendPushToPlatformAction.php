@@ -12,8 +12,6 @@ use Modules\Notify\Datas\PushNotificationData;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
-use function Safe\json_encode;
-
 /**
  * Invia una notifica push a un singolo token su una specifica piattaforma
  * (fcm, apns, webpush).
@@ -30,8 +28,8 @@ class SendPushToPlatformAction
     {
         return match ($platform) {
             'fcm' => $this->sendFCMNotification($token, $notification, $data),
-            'apns' => $this->sendAPNSNotification(),
-            'webpush' => $this->sendWebPushNotification($notification, $data),
+            'apns' => $this->sendAPNSNotification($token, $notification, $data),
+            'webpush' => $this->sendWebPushNotification($token, $notification, $data),
             default => throw new Exception("Unsupported platform: {$platform}")
         };
     }
@@ -85,10 +83,17 @@ class SendPushToPlatformAction
     }
 
     /**
+     * APNs e' simulato: nessun transport reale, la consegna viene solo tracciata nel log.
+     *
+     * @param  array<string, mixed>  $data
      * @return array{success: bool, message: string, platform: string}
      */
-    private function sendAPNSNotification(): array
+    private function sendAPNSNotification(string $token, PushNotificationData $notification, array $data): array
     {
+        app(LogSimulatedPushDeliveryAction::class)->execute('apns', $token, [
+            'notification' => $notification->toArray(),
+            'data' => $data]);
+
         return [
             'success' => true,
             'message' => 'APNS notification sent (simulated)',
@@ -96,12 +101,15 @@ class SendPushToPlatformAction
     }
 
     /**
+     * Web Push e' simulato: il payload che andrebbe al push service viene tracciato nel log
+     * invece di essere scartato.
+     *
      * @param  array<string, mixed>  $data
      * @return array{success: bool, message: string, platform: string}
      */
-    private function sendWebPushNotification(PushNotificationData $notification, array $data): array
+    private function sendWebPushNotification(string $token, PushNotificationData $notification, array $data): array
     {
-        json_encode([
+        app(LogSimulatedPushDeliveryAction::class)->execute('webpush', $token, [
             'title' => $notification->title,
             'body' => $notification->body,
             'icon' => $notification->icon ?? '/icons/icon-192x192.png',

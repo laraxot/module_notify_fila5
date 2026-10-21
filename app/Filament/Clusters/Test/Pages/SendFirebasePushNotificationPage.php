@@ -17,10 +17,9 @@ use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Filament\Clusters\Test;
-use Modules\Notify\Notifications\PushNotification;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Pages\XotBasePage;
 
 /**
@@ -105,13 +104,6 @@ class SendFirebasePushNotificationPage extends XotBasePage
         $data = $this->pushForm->getState();
 
         try {
-            // Creare i dati della notifica Firebase
-            $notificationData = FirebaseNotificationData::from([
-                'type' => $data['notification_type'] ?? 'message',
-                'title' => $data['title'] ?? '',
-                'body' => $data['body'] ?? '',
-                'data' => $data['custom_data'] ?? []]);
-
             // TODO: Implementare PushNotification class
             // Inviare la notifica push
             // Notification::route('firebase', $data['token'])
@@ -142,6 +134,24 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->body($e->getMessage())
                 ->send();
         }
+    }
+
+    /**
+     * FCM accetta solo coppie chiave non vuota => stringa: il tipo viaggia come chiave `type`.
+     *
+     * @return array<non-empty-string, string>
+     */
+    protected function getMessageData(FirebaseNotificationData $notificationData): array
+    {
+        $messageData = ['type' => $notificationData->type];
+
+        foreach ($notificationData->data as $key => $value) {
+            if ($key !== '') {
+                $messageData[$key] = SafeStringCastAction::cast($value);
+            }
+        }
+
+        return $messageData;
     }
 
     /** @return array<string, Action> */
