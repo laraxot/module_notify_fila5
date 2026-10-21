@@ -12,125 +12,6 @@ use Modules\Xot\Models\Traits\HasXotFactory;
 use Modules\Xot\Tests\XotBasePest;
 use Modules\Xot\Traits\Updater;
 use PHPUnit\Framework\Assert;
-<<<<<<< .merge_file_5vVzcS
-
-it('extends base model', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
-
-    Assert::assertInstanceOf(BaseModel::class, $version);
-});
-
-it('uses updater trait', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $traits = $reflection->getTraitNames();
-
-    Assert::assertContains('Modules\\Xot\\Traits\\Updater', $traits);
-});
-
-it('has correct fillable attributes', function (): void {
-    $expectedFillable = [
-        'template_id',
-        'subject',
-        'body_html',
-        'body_text',
-        'channels',
-        'variables',
-        'conditions',
-        'version',
-        'created_by',
-        'change_notes'];
-
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $instance = $reflection->newInstanceWithoutConstructor();
-    $fillableProperty = $reflection->getProperty('fillable');
-    $fillableProperty->setAccessible(true);
-    $fillable = $fillableProperty->getValue($instance);
-
-    Assert::assertSame($expectedFillable, $fillable);
-});
-
-it('has correct casts', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $instance = $reflection->newInstanceWithoutConstructor();
-    $castsMethod = $reflection->getMethod('casts');
-    $castsMethod->setAccessible(true);
-    $casts = XotBasePest::assertArray($castsMethod->invoke($instance));
-    Assert::assertSame('array', $casts['channels'] ?? null);
-    Assert::assertSame('array', $casts['variables'] ?? null);
-    Assert::assertSame('array', $casts['conditions'] ?? null);
-});
-
-it('has template relationship method', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    Assert::assertTrue($reflection->hasMethod('template'));
-});
-
-it('has restore method', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    Assert::assertTrue($reflection->hasMethod('restoreTemplate'));
-});
-
-it('restore method returns NotificationTemplate', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
-
-    $method = new \ReflectionMethod($version, 'restoreTemplate');
-    $returnType = $method->getReturnType();
-
-    Assert::assertNotNull($returnType);
-    XotBasePest::assertReflectionTypeName($returnType, NotificationTemplate::class);
-});
-
-it('has expected table name', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
-
-    Assert::assertSame('notification_template_versions', $version->getTable());
-});
-
-it('has expected primary key', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
-
-    Assert::assertSame('id', $version->getKeyName());
-});
-
-it('uses timestamps', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $version = $reflection->newInstanceWithoutConstructor();
-
-    Assert::assertTrue($version->usesTimestamps());
-});
-
-it('has uuids trait', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $traits = $reflection->getTraitNames();
-
-    Assert::assertContains('Illuminate\\Database\\Eloquent\\Concerns\\HasUuids', $traits);
-});
-
-it('has factory trait', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $traits = $reflection->getTraitNames();
-
-    Assert::assertContains('Modules\\Xot\\Traits\\HasFactory', $traits);
-});
-
-it('has media trait', function (): void {
-    $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
-    $traits = $reflection->getTraitNames();
-
-    Assert::assertContains('Spatie\\MediaLibrary\\HasMedia', $traits);
-});
-
-it('has creator and updater relationships', function (): void {
-    Assert::assertInstanceOf(NotificationTemplateVersion::class, new NotificationTemplateVersion);
-});
-
-it('has media relationship', function (): void {
-    Assert::assertInstanceOf(NotificationTemplateVersion::class, new NotificationTemplateVersion);
-=======
 use ReflectionClass;
 use ReflectionMethod;
 use Spatie\MediaLibrary\HasMedia;
@@ -184,11 +65,10 @@ describe('Notification Template Version', function (): void {
         Assert::assertSame('array', $casts['conditions']);
     });
 
-    test('belongs to a notification template through template_id', function (): void {
-        $relation = (new NotificationTemplateVersion)->template();
+    test('declares template() as a belongsTo relation', function (): void {
+        $method = new ReflectionMethod(NotificationTemplateVersion::class, 'template');
 
-        Assert::assertSame(NotificationTemplate::class, $relation->getRelated()::class);
-        Assert::assertSame('template_id', $relation->getForeignKeyName());
+        XotBasePest::assertReflectionTypeName($method->getReturnType(), BelongsTo::class);
     });
 
     test('restoreTemplate returns the notification template', function (): void {
@@ -212,5 +92,4 @@ describe('Notification Template Version', function (): void {
         Assert::assertSame('id', $version->getKeyName());
         Assert::assertTrue($version->usesTimestamps());
     });
->>>>>>> .merge_file_ePVAUl
 });
