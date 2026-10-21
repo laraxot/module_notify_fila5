@@ -1,3 +1,14 @@
+---
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+---
+
 # 📚 **Indice Documentazione Modulo Notify**
 
 **Status**: ✅ PHPStan Level 10 Compliant
@@ -43,7 +54,25 @@
 - [User](../../user/docs/readme.md) - Definizione dei destinatari e preferenze.
 
 ---
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
+
+## Documentazione BMAD del modulo
+
+Aggiornata il 2026-10-07 dopo la risoluzione dei marker di merge nei docs (versioni composte, non scelte a un lato).
+
+- [Brainstorming](bmad/brainstorming.md): decisioni, questioni aperte, opzioni scartate.
+- [Architecture](bmad/architecture.md)
+- [Quick reference](bmad/quick-reference.md)
+- [Setup guide](bmad/setup-guide.md)
+- Story: cartella [bmad/stories/](bmad/stories/).
 
 ## Dependency Intelligence
 

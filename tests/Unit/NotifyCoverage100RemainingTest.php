@@ -10,18 +10,17 @@ use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Process;
 use Mockery;
+use Modules\Notify\Actions\NotificationManager;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendEmail;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotification;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotificationPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendTelegram;
 use Modules\Notify\Filament\Clusters\Test\Pages\TestSmtpPage;
-use Modules\Notify\Services\NotificationManager;
 use Modules\Notify\Tests\Unit\Traits\NotifyTenantDummyModel;
 use Modules\Tenant\Models\Tenant;
 use Modules\Xot\Tests\ModuleRemainingCoverage;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
-use ReflectionMethod;
 
 afterEach(function (): void {
     Mockery::close();
@@ -110,25 +109,8 @@ describe('Notify coverage 100 — final sweep', function (): void {
         {
             protected $guarded = [];
         };
-        try {
-            $manager->send($recipient, 'missing-template-code');
-            Assert::fail('Expected exception for missing template');
-        } catch (\Throwable $e) {
-            Assert::assertNotSame('', $e->getMessage());
-        }
 
-        foreach (['getAvailableChannels', 'getChannelConfig'] as $method) {
-            if (! method_exists($manager, $method)) {
-                continue;
-            }
-            try {
-                $rm = new ReflectionMethod($manager, $method);
-                if ($rm->getNumberOfRequiredParameters() === 0) {
-                    $rm->invoke($manager);
-                }
-            } catch (\Throwable $e) {
-                Assert::assertNotSame('', $e->getMessage());
-            }
-        }
+        expect(fn () => $manager->send($recipient, 'missing-template-code'))
+            ->toThrow(\Exception::class, 'Template not found: missing-template-code');
     });
 });
