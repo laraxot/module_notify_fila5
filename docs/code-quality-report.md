@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "code quality report"
 issues: []
 discussions: []
+<<<<<<< .merge_file_tEhAr0
+=======
+status: draft
+>>>>>>> .merge_file_50gpUL
 ---
 
 # Code quality — modulo Notify

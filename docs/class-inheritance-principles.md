@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "class inheritance principles"
 issues: []
 discussions: []
+<<<<<<< .merge_file_8XUSCb
+=======
+status: draft
+>>>>>>> .merge_file_JZtX6X
 ---
 
 # Principi di Ereditarietà nelle Classi

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "research"
 issues: []
 discussions: []
+<<<<<<< .merge_file_YKATjv
+=======
+status: draft
+>>>>>>> .merge_file_fxT5Qs
 ---
 
 # User Research - FixCity Platform

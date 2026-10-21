@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "refactor plan dry kiss"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ceXv4J
+=======
+status: draft
+>>>>>>> .merge_file_hwPlDQ
 ---
 
 # Piano di Refactor DRY/KISS - Documentazione Modulo Notify
@@ -87,7 +91,11 @@ Applicare convenzioni consistenti:
 - **Gerarchici**: Struttura cartelle logica
 
 #### Esempi Trasformazioni
+<<<<<<< .merge_file_ceXv4J
 - `analisi-dettagliata-1.md` → `architecture/detailed-analysis.md`
+=======
+- `analisi-dettagliata-architettura-struttura.md` → `architecture/detailed-analysis.md`
+>>>>>>> .merge_file_hwPlDQ
 - `email-templates-spatie.md` → `integrations/spatie-email.md`
 - `sms_netfun_channel.md` → `sms/netfun-provider.md`
 
@@ -156,6 +164,7 @@ Creare sistema di navigazione coerente:
 - Onboarding sviluppatori semplificato
 
 ---
+<<<<<<< .merge_file_ceXv4J
 
 title: "refactor plan dry kiss"
 type: note
@@ -165,6 +174,8 @@ updated: 2026-09-26
 qmd: "refactor plan dry kiss"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_hwPlDQ
 **Stato**: In corso  
 **Priorità**: Alta  
 **Responsabile**: Sistema automatico  

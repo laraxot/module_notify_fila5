@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "whatsapp provider architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_LAPRpN
+=======
+status: draft
+>>>>>>> .merge_file_BZI8t8
 ---
 
 # Architettura WhatsApp Provider per

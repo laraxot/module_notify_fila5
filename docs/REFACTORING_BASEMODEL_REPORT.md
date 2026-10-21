@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "REFACTORING BASEMODEL REPORT"
 issues: []
 discussions: []
+<<<<<<< .merge_file_QyccLJ
+=======
+status: draft
+>>>>>>> .merge_file_TUxlru
 ---
 
 # 🎉 REFACTORING BASEMODEL - REPORT FINALE
@@ -16,6 +20,7 @@ discussions: []
 **Status**: ✅ COMPLETATO CON SUCCESSO
 
 ---
+<<<<<<< .merge_file_QyccLJ
 
 title: "REFACTORING BASEMODEL REPORT"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "REFACTORING BASEMODEL REPORT"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_TUxlru
 ## 📊 RISULTATI
 
 ### Moduli Refactorati

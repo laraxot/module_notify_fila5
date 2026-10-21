@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "semantic html css"
 issues: []
 discussions: []
+<<<<<<< .merge_file_T9snOS
+=======
+status: draft
+>>>>>>> .merge_file_cQT1QK
 ---
 
 # 🎨 Semantic HTML & CSS - Best Practices
@@ -17,6 +21,7 @@ discussions: []
 **Priority**: HIGH
 
 ---
+<<<<<<< .merge_file_T9snOS
 
 title: "semantic html css"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "semantic html css"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_cQT1QK
 ## 🎯 Philosophy
 
 > "Use elements for their **SEMANTIC MEANING**, not their default styling."

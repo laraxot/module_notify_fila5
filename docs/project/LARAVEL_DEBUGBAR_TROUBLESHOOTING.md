@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "LARAVEL DEBUGBAR TROUBLESHOOTING"
 issues: []
 discussions: []
+<<<<<<< .merge_file_E32GGO
+=======
+status: draft
+>>>>>>> .merge_file_5gqy8B
 ---
 
 # Laravel Debugbar Troubleshooting Guide
@@ -314,6 +318,7 @@ For better performance with many queries:
 4. **Documentation is key**: Always document why certain exclusions exist (future maintainers will thank you)
 
 ---
+<<<<<<< .merge_file_E32GGO
 
 title: "LARAVEL DEBUGBAR TROUBLESHOOTING"
 type: note
@@ -323,6 +328,8 @@ updated: 2026-09-26
 qmd: "LARAVEL DEBUGBAR TROUBLESHOOTING"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_5gqy8B
 **Last Updated**: 2026-04-01  
 **Author**: Qwen Code AI Assistant  
 **Status**: ✅ Resolved

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "master implementation plan"
 issues: []
 discussions: []
+<<<<<<< .merge_file_PdgyV2
+=======
+status: draft
+>>>>>>> .merge_file_PsrZv5
 ---
 
 # 🎯 FIXCITY - MASTER IMPLEMENTATION PLAN
@@ -16,6 +20,7 @@ discussions: []
 **Obiettivo**: Completare il progetto FixCity al 100%
 
 ---
+<<<<<<< .merge_file_PdgyV2
 
 title: "master implementation plan"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "master implementation plan"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_PsrZv5
 ## 📊 STATO ATTUALE
 
 ### Completamento Generale

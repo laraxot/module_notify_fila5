@@ -10,6 +10,7 @@ type: prd
 module: Notify
 related:
   - ./livewire-inventory.md
+status: draft
 ---
 
 # PRD Notify

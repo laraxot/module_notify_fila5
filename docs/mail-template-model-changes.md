@@ -141,10 +141,17 @@ protected $casts = [
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_vzeRO5
 - [Modifiche Migrazione](./MIGRATION_CHANGES.md)
 - [Regole Migrazioni](./MIGRATION_RULES.md)
 - [Documentazione Template](./EMAIL_TEMPLATES.md)
 - [Best Practices](./BEST-PRACTICES.md)
+=======
+- [Modifiche Migrazione](./migration_changes.md)
+- [Regole Migrazioni](./migration_rules.md)
+- [Documentazione Template](./email_templates.md)
+- [Best Practices](./best-practices.md)
+>>>>>>> .merge_file_emWti2
 
 ## Note Importanti
 

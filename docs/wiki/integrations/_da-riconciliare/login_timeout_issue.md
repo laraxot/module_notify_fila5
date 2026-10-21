@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_Qees9T
+=======
+status: draft
+>>>>>>> .merge_file_aMFDxm
 ---
 
 # 🚨 Problema Timeout Pagina Login - Diagnosi e Soluzione

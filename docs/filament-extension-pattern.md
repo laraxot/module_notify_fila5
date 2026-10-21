@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament extension pattern"
 issues: []
 discussions: []
+<<<<<<< .merge_file_JlTBWT
+=======
+status: draft
+>>>>>>> .merge_file_e2spgA
 ---
 
 # Pattern di Estensione per Componenti Filament 

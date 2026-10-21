@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "sms implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ioDXpz
+=======
+status: draft
+>>>>>>> .merge_file_4v8AYM
 ---
 
 # Implementazione SMS in Laravel

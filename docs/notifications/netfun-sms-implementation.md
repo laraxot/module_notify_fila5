@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "netfun sms implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_shSi7A
+=======
+status: draft
+>>>>>>> .merge_file_6cY4L2
 ---
 
 # Implementazione Netfun SMS 

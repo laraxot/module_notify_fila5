@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "email templates editor visuali"
 issues: []
 discussions: []
+<<<<<<< .merge_file_3ZJUQv
+=======
+status: draft
+>>>>>>> .merge_file_U27mh3
 ---
 
 # Approfondimento: Editor Visuali ed Esterni (Mailgun, MJML, BeeFree, Stripo, ecc.)

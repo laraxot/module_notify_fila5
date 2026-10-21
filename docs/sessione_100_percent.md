@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "sessione 100 percent"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nbJ88g
+=======
+status: draft
+>>>>>>> .merge_file_b8UWEJ
 ---
 
 # 🎉 Sessione 100% Completata - Homepage Bootstrap Italia
@@ -15,6 +19,7 @@ discussions: []
 ## Status: ✅ 100% COMPLETATO
 
 ---
+<<<<<<< .merge_file_nbJ88g
 
 title: "sessione 100 percent"
 type: note
@@ -24,6 +29,8 @@ updated: 2026-09-26
 qmd: "sessione 100 percent"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_b8UWEJ
 ## 📊 Conformità Raggiunta
 
 **100%** - Tutti i task completati!

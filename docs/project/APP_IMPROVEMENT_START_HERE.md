@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "APP IMPROVEMENT START HERE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ShwiOz
+=======
+status: draft
+>>>>>>> .merge_file_xSY029
 ---
 
 # ✅ Notify Improvement Plan - START HERE
@@ -17,6 +21,7 @@ discussions: []
 **Timeline**: 17 settimane (4 mesi)
 
 ---
+<<<<<<< .merge_file_ShwiOz
 
 title: "APP IMPROVEMENT START HERE"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "APP IMPROVEMENT START HERE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_xSY029
 ## 🎯 Quick Start
 
 ### 1. Leggi i Documenti Principali

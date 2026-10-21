@@ -6,7 +6,11 @@ type: concept
 module: Notify
 status: active
 created: 2026-09-02
+<<<<<<< .merge_file_2Z7Ems
 updated: 2026-09-02
+=======
+updated: 2026-10-20
+>>>>>>> .merge_file_MgGlyy
 tags: [scopo, confini, servizio-trasversale, canali, notifiche, dipendenze]
 qmd: "scopo notify servizio trasversale canali notifiche email sms whatsapp telegram push confini dipendenze ipertrofia documentale"
 ---
@@ -109,8 +113,13 @@ concreti su quattordici non lo ereditano perché estendono direttamente
 | Modello | Migrazione | Effetto |
 |---|---|---|
 | `NotificationType` | `2026_03_03_000001_create_notification_types_table.php` | `XotBaseMigration` risolve la connection dal modello: `notification_types` finisce sulla connection **di default**, non su `notify` |
+<<<<<<< .merge_file_2Z7Ems
 | `Theme` | nessuna | tabella inesistente; `tests/Feature/ThemeManagementBusinessLogicTest.php:15` lo dichiara: *"The tests reference Modules\Notify\Models\Theme which is not implemented"* |
 | `EmailTemplate` | nessuna | idem, e coesiste con `MailTemplate` che invece è reale, versionato e loggato |
+=======
+| `Theme` | nessuna | tabella inesistente; `tests/Feature/ThemeManagementBusinessLogicTest.php` e' ridotto a un `skip('themes table and Theme design token columns not implemented')` che spiega l'assenza (il corpo da 20 test e' in git, commit `13f2cb04f`) |
+| `EmailTemplate` | nessuna | idem (`tests/Feature/TemplateManagementBusinessLogicTest.php`, ridotto a `skip`), e coesiste con `MailTemplate` che invece è reale, versionato e loggato |
+>>>>>>> .merge_file_MgGlyy
 
 `Theme` e `NotifyTheme` sono due modelli per lo stesso concetto: solo il secondo ha
 migrazione (`create_notify_themes_table`), factory, seeder e Filament Resource.
@@ -190,9 +199,15 @@ File: `app/Models/NotificationType.php`, `app/Models/Theme.php`,
 `NotificationType` ha una migrazione e va corretto: `extends BaseModel` gli dà la
 connection `notify` e allinea tabella e modello. `Theme` ed `EmailTemplate` non hanno
 migrazione, non hanno consumatori fuori dai test, e hanno ciascuno un gemello reale
+<<<<<<< .merge_file_2Z7Ems
 (`NotifyTheme`, `MailTemplate`): vanno cancellati, non "completati". Il test
 `tests/Feature/ThemeManagementBusinessLogicTest.php` che documenta l'assenza di `Theme`
 va rimosso con lui.
+=======
+(`NotifyTheme`, `MailTemplate`): vanno cancellati, non "completati". I test
+`tests/Feature/ThemeManagementBusinessLogicTest.php` e `tests/Feature/TemplateManagementBusinessLogicTest.php`,
+ridotti a `skip` che documentano l'assenza di `Theme` ed `EmailTemplate`, vanno rimossi con loro.
+>>>>>>> .merge_file_MgGlyy
 
 ```bash
 cd laravel

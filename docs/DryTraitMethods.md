@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "DryTraitMethods"
 issues: []
 discussions: []
+<<<<<<< .merge_file_GnKdm9
+=======
+status: draft
+>>>>>>> .merge_file_uVHPcO
 ---
 
 # DRY Principle for Trait Methods

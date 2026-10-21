@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "launch"
 issues: []
 discussions: []
+<<<<<<< .merge_file_sfCMKz
+=======
+status: draft
+>>>>>>> .merge_file_ArZLLj
 ---
 
 # Product Launch Plan - FixCity Platform

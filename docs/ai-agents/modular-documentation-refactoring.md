@@ -16,6 +16,10 @@ related:
   - "./05-front-office-audit.md"
   - "./06-cinematic-effects.md"
   - "./07-mcp-tailwind-ui.md"
+<<<<<<< .merge_file_qwi5Tu
+=======
+status: draft
+>>>>>>> .merge_file_8GYAkX
 ---
 
 # 📚 MODULAR DOCUMENTATION REFACTORING REPORT

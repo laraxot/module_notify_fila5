@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "inheritance conventions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_LTmtzs
+=======
+status: draft
+>>>>>>> .merge_file_bCq4FE
 ---
 
 # Convenzioni di Ereditarietà

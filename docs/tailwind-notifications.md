@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "tailwind notifications"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dNJWB9
+=======
+status: draft
+>>>>>>> .merge_file_adI9S9
 ---
 
 # Sistema di Notifiche con Filament Components

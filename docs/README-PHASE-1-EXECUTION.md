@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "README PHASE 1 EXECUTION"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XF83nc
+=======
+status: draft
+>>>>>>> .merge_file_kldwKe
 ---
 
 # 📖 README - PHASE 1 EXECUTION
@@ -18,6 +22,7 @@ discussions: []
 **Target**: segnalazioni-elenco → 90% HTML parity
 
 ---
+<<<<<<< .merge_file_XF83nc
 
 title: "README PHASE 1 EXECUTION"
 type: note
@@ -27,6 +32,8 @@ updated: 2026-09-26
 qmd: "README PHASE 1 EXECUTION"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_kldwKe
 ## 🎯 QUICK ORIENTATION
 
 **WHERE AM I?**

@@ -278,13 +278,18 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Root Docs
 1. ✅ [LEGGI-QUI-DOMANI.md](./LEGGI-QUI-DOMANI.md) - Piano giornaliero
+<<<<<<< .merge_file_B5NPjO
 2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./ANALISI-COMPLETA-2025-10-01.md) - Executive summary
+=======
+2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./analisi-completa-ottobre-data.md) - Executive summary
+>>>>>>> .merge_file_oROWFw
 3. ✅ [roadmap-master-index.md](./roadmap-master-index.md) - Master index
 4. ✅ [project-analysis-and-roadmap.md](./project-analysis-and-roadmap.md) - Business view
 5. ✅ [phpstan/session-summary-2025-10-01.md](./phpstan/session-summary-2025-10-01.md)
 6. ✅ [phpstan/final-report-session-2025-10-01.md](./phpstan/final-report-session-2025-10-01.md)
 7. ✅ [phpstan/filament-v4-fixes-session.md](./phpstan/filament-v4-fixes-session.md)
 8. ✅ [phpstan/phpstan.md](./phpstan/phpstan.md) - Aggiornato
+<<<<<<< .merge_file_B5NPjO
 9. ✅ [QUESTO DOCUMENTO](./COMPLETAMENTO-PROGETTO-2025-10-01.md)
 
 ### Module Roadmaps (9 dettagliate)
@@ -305,6 +310,28 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Theme Docs
 22. ✅ [Sixteen/docs/roadmap-and-issues.md](../Themes/Sixteen/docs/roadmap-and-issues.md)
+=======
+9. ✅ [QUESTO DOCUMENTO](./completamento-progetto-sessione-ottobre.md)
+
+### Module Roadmaps (9 dettagliate)
+10. ✅ [Xot/docs/roadmap-and-issues.md](../Modules/Xot/docs/roadmap-and-issues.md)
+11. ✅ [User/docs/roadmap-and-issues.md](../../User/docs/roadmap-and-issues.md)
+12. ✅ [Fixcity/docs/roadmap-and-issues.md](../Modules/Fixcity/docs/roadmap-and-issues.md)
+13. ✅ [AI/docs/roadmap-and-issues.md](../../AI/docs/roadmap-and-issues.md)
+14. ✅ [Notify/docs/roadmap-and-issues.md](roadmap-and-issues.md)
+15. ✅ [Geo/docs/roadmap-and-issues.md](../../Geo/docs/roadmap-and-issues.md)
+16. ✅ [UI/docs/roadmap-and-issues.md](../Modules/UI/docs/roadmap-and-issues.md)
+17. ✅ [Activity/docs/roadmap-and-issues.md](../../Activity/docs/roadmap-and-issues.md)
+18. ✅ [Cms/docs/roadmap-and-issues.md](../../Cms/docs/roadmap-and-issues.md)
+
+### Module PHPStan Fixes (3)
+19. ✅ [Gdpr/docs/phpstan-fixes-session-user.md](../Modules/Gdpr/docs/phpstan-fixes-session-user.md)
+20. ✅ [AI/docs/phpstan-fixes-session-user.md](../Modules/AI/docs/phpstan-fixes-session-user.md)
+21. ✅ [User/docs/phpstan-fixes-session-user.md](../../User/docs/phpstan-fixes-user-module-session.md)
+
+### Theme Docs
+22. ✅ [Sixteen/docs/roadmap-and-issues.md](../../../Themes/Sixteen/docs/roadmap-and-issues.md)
+>>>>>>> .merge_file_oROWFw
 
 ---
 
@@ -578,7 +605,11 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Start Here
 - [🌅 Piano Domani](./LEGGI-QUI-DOMANI.md) - Anche se già completato!
+<<<<<<< .merge_file_B5NPjO
 - [📊 Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md) - Executive view
+=======
+- [📊 Analisi Completa](./analisi-completa-ottobre-data.md) - Executive view
+>>>>>>> .merge_file_oROWFw
 - [🗺️ Master Roadmap](./roadmap-master-index.md) - Future planning
 
 ### Technical Docs

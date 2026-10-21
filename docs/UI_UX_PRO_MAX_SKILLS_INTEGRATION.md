@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "UI UX PRO MAX SKILLS INTEGRATION"
 issues: []
 discussions: []
+<<<<<<< .merge_file_K5JegA
+=======
+status: draft
+>>>>>>> .merge_file_rLNp9v
 ---
 
 # 🎨 UI/UX Pro Max Skills - Integration Guide
@@ -247,6 +251,7 @@ Build a landing page with:
 12. Community contribution
 
 ---
+<<<<<<< .merge_file_K5JegA
 
 title: "UI UX PRO MAX SKILLS INTEGRATION"
 type: note
@@ -256,5 +261,7 @@ updated: 2026-09-26
 qmd: "UI UX PRO MAX SKILLS INTEGRATION"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_rLNp9v
 **Stato**: ✅ **SKILLS INSTALLATE E CONFIGURATE**  
 **Prossimo**: 🧪 Testing e creazione esempi

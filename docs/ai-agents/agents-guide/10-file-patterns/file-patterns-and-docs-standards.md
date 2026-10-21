@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "file patterns and docs standards"
 issues: []
 discussions: []
+<<<<<<< .merge_file_IyL7OI
+=======
+status: draft
+>>>>>>> .merge_file_ghXTUU
 ---
 
 # 10. File Patterns
@@ -92,6 +96,7 @@ Indice centralizzato: `laravel/docs/roadmap/00-index.md`
 4. **Consistent structure** - follow the same patterns across all modules
 
 ---
+<<<<<<< .merge_file_IyL7OI
 
 title: "file patterns and docs standards"
 type: note
@@ -101,3 +106,5 @@ updated: 2026-09-26
 qmd: "file patterns and docs standards"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_ghXTUU

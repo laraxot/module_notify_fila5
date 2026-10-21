@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "email plugins analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dVIDfj
+=======
+status: draft
+>>>>>>> .merge_file_oqORQS
 ---
 
 # Analisi Plugin Email per Filament - il progetto

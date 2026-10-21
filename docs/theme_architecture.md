@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "theme architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_1Tj4qE
+=======
+status: draft
+>>>>>>> .merge_file_pT03Ev
 ---
 
 # 🎨 Theme Architecture - "Il Tema è un Vestito"
@@ -315,6 +319,7 @@ Tema configurabile
 - [Composer Merge Plugin](https://github.com/wikimedia/composer-merge-plugin)
 
 ---
+<<<<<<< .merge_file_1Tj4qE
 
 title: "theme architecture"
 type: note
@@ -324,6 +329,8 @@ updated: 2026-09-26
 qmd: "theme architecture"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_pT03Ev
 **Stato**: ✅ **ARCHITETTURA CORRETTA - Tema Configurabile**  
 **Concetto**: **"Il Tema è un Vestito"**  
 **Registrazione**: **Automatica (NON hardcoded)**  

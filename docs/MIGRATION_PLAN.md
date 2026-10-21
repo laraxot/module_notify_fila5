@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "MIGRATION PLAN"
 issues: []
 discussions: []
+<<<<<<< .merge_file_kvMxAY
+=======
+status: draft
+>>>>>>> .merge_file_D19VNK
 ---
 
 # Documentation Agnostic Migration Plan
@@ -18,6 +22,7 @@ discussions: []
 **Solution**: Implement governance rules, rename files, and replace content with generic placeholders.
 
 ---
+<<<<<<< .merge_file_kvMxAY
 
 title: "MIGRATION PLAN"
 type: note
@@ -27,6 +32,8 @@ updated: 2026-09-26
 qmd: "MIGRATION PLAN"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_D19VNK
 ## Impact Analysis
 
 ### Scope

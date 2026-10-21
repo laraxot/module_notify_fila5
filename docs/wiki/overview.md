@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "overview"
 issues: []
 discussions: []
+<<<<<<< .merge_file_K98Y50
+=======
+status: draft
+>>>>>>> .merge_file_fBv0V9
 ---
 
 # Wiki Overview
@@ -16,6 +20,7 @@ discussions: []
 > **Updated**: 2026-04-15
 
 ---
+<<<<<<< .merge_file_K98Y50
 
 title: "overview"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "overview"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_fBv0V9
 ## What is This Wiki?
 
 This is a **Karpathy-style LLM Wiki** — a persistent, LLM-maintained knowledge base where knowledge compounds over time. Instead of re-deriving answers from raw documents per query, the LLM incrementally builds structured, interlinked markdown files.

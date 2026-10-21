@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "gits resolution"
 issues: []
 discussions: []
+<<<<<<< .merge_file_fR5Ft8
+=======
+status: draft
+>>>>>>> .merge_file_tkUsQv
 ---
 
 # Risoluzione Conflitti Git - Modulo Notify
@@ -80,6 +84,7 @@ Tutti i file risolti rispettano:
 - [Notification Channels](./notification_channels_implementation.md)
 
 ---
+<<<<<<< .merge_file_fR5Ft8
 title: "gits resolution"
 type: note
 tags: [documentation]
@@ -88,4 +93,6 @@ updated: 2026-09-26
 qmd: "gits resolution"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_tkUsQv
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "ollama mcp rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_2y5KW1
+=======
+status: draft
+>>>>>>> .merge_file_CAzK3Z
 ---
 
 # 📜 Ollama MCP Rules - Regole Condivise per Agenti AI
@@ -17,6 +21,7 @@ discussions: []
 **Status**: Active
 
 ---
+<<<<<<< .merge_file_2y5KW1
 
 title: "ollama mcp rules"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "ollama mcp rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_CAzK3Z
 ## 🚨 Regole Critiche
 
 ### 1. MCP-First Approach

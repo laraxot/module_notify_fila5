@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "email templates spatie"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ToQ4Jp
+=======
+status: draft
+>>>>>>> .merge_file_QoWnQC
 ---
 
 # Approfondimento: spatie/laravel-database-mail-templates

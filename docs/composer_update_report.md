@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "composer update report"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Aafqhs
+=======
+status: draft
+>>>>>>> .merge_file_Sbse6F
 ---
 
 # ✅ Composer Update - COMPLETATO
@@ -168,6 +172,7 @@ composer update -W
 4. ⏳ Testare Filament 5.x
 
 ---
+<<<<<<< .merge_file_Aafqhs
 
 title: "composer update report"
 type: note
@@ -177,6 +182,8 @@ updated: 2026-09-26
 qmd: "composer update report"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Sbse6F
 **Stato**: ✅ **COMPOSER UPDATE COMPLETATO**  
 **Filament Version**: **5.x**  
 **Strategia**: **Root minimale, moduli specifici**  

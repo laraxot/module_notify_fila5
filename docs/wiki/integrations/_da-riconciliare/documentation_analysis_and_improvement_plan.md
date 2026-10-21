@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_8qL6Vj
+=======
+status: draft
+>>>>>>> .merge_file_tPD99l
 ---
 
 # Documentation Analysis and Improvement Plan

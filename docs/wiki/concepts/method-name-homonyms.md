@@ -11,6 +11,10 @@ updated: 2026-06-15
 related:
   - ../../../../../../docs/wiki/method-name-homonym-census.md
   - ../../../../../../bashscripts/docs/method-homonym-census.json
+<<<<<<< .merge_file_3zCkrl
+=======
+status: draft
+>>>>>>> .merge_file_p4niyi
 ---
 
 # Censimento omonimi metodi — Notify

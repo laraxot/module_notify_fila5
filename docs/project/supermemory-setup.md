@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "supermemory setup"
 issues: []
 discussions: []
+<<<<<<< .merge_file_U129gR
+=======
+status: draft
+>>>>>>> .merge_file_XMotDn
 ---
 
 # Supermemory Configuration

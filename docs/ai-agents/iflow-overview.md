@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "iflow overview"
 issues: []
 discussions: []
+<<<<<<< .merge_file_2uadOB
+=======
+status: draft
+>>>>>>> .merge_file_4dD40Y
 ---
 
 # IFLOW Overview
@@ -14,6 +18,7 @@ discussions: []
 Panoramica del progetto LaravelPizza.com.
 
 ---
+<<<<<<< .merge_file_2uadOB
 
 title: "iflow overview"
 type: note
@@ -23,6 +28,8 @@ updated: 2026-09-26
 qmd: "iflow overview"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_4dD40Y
 ## 🍕 LaravelPizza.com
 
 **Il side-project Laravel che vorrai mostrare al prossimo meetup**

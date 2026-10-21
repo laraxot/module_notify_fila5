@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "analisi comparativa"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Bk5y0o
+=======
+status: draft
+>>>>>>> .merge_file_rp0uCc
 ---
 
 # Analisi Comparativa: Pagine Segnalazioni

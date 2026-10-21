@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "argomenti"
 issues: []
 discussions: []
+<<<<<<< .merge_file_y8WSYp
+=======
+status: draft
+>>>>>>> .merge_file_rA9Zk2
 ---
 
 # Argomenti Page Analysis
@@ -42,6 +46,7 @@ discussions: []
 **Priority**: Medium - Per workflow "HTML FIRST" valutare se strukturale o CSS
 
 ---
+<<<<<<< .merge_file_y8WSYp
 
 title: "argomenti"
 type: note
@@ -51,6 +56,8 @@ updated: 2026-09-26
 qmd: "argomenti"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_rA9Zk2
 *Created: 2026-04-07*
 *Page: argomenti*
 *Category: design-comuni*

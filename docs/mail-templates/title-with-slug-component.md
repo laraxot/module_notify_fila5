@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "title with slug component"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OWuBHz
+=======
+status: draft
+>>>>>>> .merge_file_qRrpRy
 ---
 
 # Analisi del Componente TitleWithSlugInput per Filament

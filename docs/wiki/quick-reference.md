@@ -183,5 +183,9 @@ Templates available:
 - [Complete Integration Guide](wiki/README.md)
 - [Agent Instructions](wiki/AGENTS.md)
 - [Wiki Overview](wiki/overview.md)
+<<<<<<< .merge_file_lBZ7qY
 - [Obsidian Setup](.obsidian/README.md)
+=======
+- [Obsidian Setup](.obsidian/readme.md)
+>>>>>>> .merge_file_sTZECf
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)

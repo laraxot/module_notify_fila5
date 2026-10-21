@@ -10,6 +10,10 @@ module: Notify
 topic: METODI_DUPLICATI_ANALISI
 tags: [metodi-duplicati, refactoring]
 canonical: ../../../Themes/One/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+<<<<<<< .merge_file_t40sVm
+=======
+status: stub
+>>>>>>> .merge_file_yTcCxd
 ---
 
 # Metodi Duplicati — Analisi Notify

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "livewire rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_IwOIpr
+=======
+status: draft
+>>>>>>> .merge_file_DFbex2
 ---
 
 === livewire/core rules ===
@@ -60,6 +64,7 @@ discussions: []
 
 
 ---
+<<<<<<< .merge_file_IwOIpr
 
 title: "livewire rules"
 type: note
@@ -69,6 +74,8 @@ updated: 2026-09-26
 qmd: "livewire rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_DFbex2
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

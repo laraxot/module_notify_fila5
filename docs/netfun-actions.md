@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "netfun actions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_o1lx3t
+=======
+status: draft
+>>>>>>> .merge_file_HoC9C7
 ---
 
 # Errori in SendNetfunSMSAction e Correzioni
@@ -201,6 +205,7 @@ Le correzioni apportate allineano la classe `SendNetfunSMSAction` con:
 Queste correzioni garantiscono che l'azione funzioni correttamente con la configurazione standardizzata e sia più robusta, manutenibile ed estensibile.
 
 ---
+<<<<<<< .merge_file_o1lx3t
 
 title: "netfun actions"
 type: note
@@ -210,3 +215,5 @@ updated: 2026-09-26
 qmd: "netfun actions"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_HoC9C7

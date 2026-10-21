@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "mail template slug proposal"
 issues: []
 discussions: []
+<<<<<<< .merge_file_07N0yl
+=======
+status: draft
+>>>>>>> .merge_file_4206zn
 ---
 
 # Proposta: Implementazione Campo Slug nei Template Email

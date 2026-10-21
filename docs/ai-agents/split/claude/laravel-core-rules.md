@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "laravel core rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OudWxW
+=======
+status: draft
+>>>>>>> .merge_file_q2dnSJ
 ---
 
 === laravel/core rules ===
@@ -57,6 +61,7 @@ discussions: []
 
 
 ---
+<<<<<<< .merge_file_OudWxW
 
 title: "laravel core rules"
 type: note
@@ -66,6 +71,8 @@ updated: 2026-09-26
 qmd: "laravel core rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_q2dnSJ
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

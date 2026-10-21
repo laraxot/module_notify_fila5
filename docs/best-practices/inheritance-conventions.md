@@ -16,6 +16,10 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
+<<<<<<< .merge_file_f6u63J
+=======
+status: draft
+>>>>>>> .merge_file_kasAP0
 ---
 # Convenzioni di Ereditarietà
 

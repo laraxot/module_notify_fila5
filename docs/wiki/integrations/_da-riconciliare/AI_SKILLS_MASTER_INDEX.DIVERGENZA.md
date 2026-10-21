@@ -8,6 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_D4GoM5
+=======
+status: draft
+>>>>>>> .merge_file_jXI5QR
 ---
 
 # Divergenza: `AI_SKILLS_MASTER_INDEX.md`

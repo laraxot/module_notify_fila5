@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "email templates layouts"
 issues: []
 discussions: []
+<<<<<<< .merge_file_YnnbKu
+=======
+status: draft
+>>>>>>> .merge_file_7JG0cZ
 ---
 
 # Template Email e Layout - Modulo Notify
@@ -150,6 +154,7 @@ MailTemplate::create([
 - Immagini ottimizzate con fallback
 
 ---
+<<<<<<< .merge_file_YnnbKu
 
 title: "email templates layouts"
 type: note
@@ -159,6 +164,8 @@ updated: 2026-09-26
 qmd: "email templates layouts"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_7JG0cZ
 **Ultimo aggiornamento**: [DATE]  
 **Versione**: 1.0  
 **Compatibilità**: Laravel 12.x, Filament 3.x, Spatie Mail Templates

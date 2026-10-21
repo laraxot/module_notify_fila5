@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "class inheritance principles"
 issues: []
 discussions: []
+<<<<<<< .merge_file_0247Vh
+=======
+status: draft
+>>>>>>> .merge_file_AehgmU
 ---
 
 # Principi di Ereditarietà nelle Classi <nome progetto>

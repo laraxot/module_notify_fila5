@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "agents filament widgets"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dHU38Y
+=======
+status: draft
+>>>>>>> .merge_file_n1su9k
 ---
 
 # 🏛 Filament Widgets Architecture
@@ -16,6 +20,7 @@ discussions: []
 **Stato**: ✅ CRITICAL RULE
 
 ---
+<<<<<<< .merge_file_dHU38Y
 
 title: "agents filament widgets"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "agents filament widgets"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_n1su9k
 ## 🔴 REGOLA FONDAMENTALE
 
 > **SEMPRE usare Filament Table Widgets per le liste**  

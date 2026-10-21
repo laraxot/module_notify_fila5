@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "telegram provider architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_CpHgP8
+=======
+status: draft
+>>>>>>> .merge_file_HBGffX
 ---
 
 # Architettura Telegram Provider per SaluteOra

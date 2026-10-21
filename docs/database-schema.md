@@ -7,6 +7,10 @@ title: "Notify Module Database Schema"
 type: reference
 tags: [notify, database, schema]
 created: 2026-07-28
+<<<<<<< .merge_file_u57wKX
+=======
+status: draft
+>>>>>>> .merge_file_Ly5mmN
 ---
 
 # Notify Module — Database Schema

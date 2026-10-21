@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "telegram integration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_fBlXZd
+=======
+status: draft
+>>>>>>> .merge_file_aGX0aa
 ---
 
 # Integrazione Telegram 

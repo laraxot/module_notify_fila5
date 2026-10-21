@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_7DiSE8
+=======
+status: draft
+>>>>>>> .merge_file_Le210K
 ---
 
 # 🐄 Analisi Metodi Duplicati - Guida Rapida

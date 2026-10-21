@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_EHxxoC
+=======
+status: draft
+>>>>>>> .merge_file_NYWlxf
 ---
 
 === filament/filament rules ===
@@ -162,6 +166,7 @@ livewire(ListUsers::class)
 </laravel-boost-guidelines>
 
 ---
+<<<<<<< .merge_file_EHxxoC
 
 title: "filament rules"
 type: note
@@ -171,6 +176,8 @@ updated: 2026-09-26
 qmd: "filament rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_NYWlxf
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

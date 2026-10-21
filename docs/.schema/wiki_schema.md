@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "wiki schema"
 issues: []
 discussions: []
+<<<<<<< .merge_file_RgX9A2
+=======
+status: draft
+>>>>>>> .merge_file_ON8sMm
 ---
 
 # LLM Wiki Schema

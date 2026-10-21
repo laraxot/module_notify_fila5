@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_o7zdC4
+=======
+status: draft
+>>>>>>> .merge_file_6CGcCw
 ---
 
 # $MOD Architecture

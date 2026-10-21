@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: " todo"
 issues: []
 discussions: []
+<<<<<<< .merge_file_rZeKHx
+=======
+status: draft
+>>>>>>> .merge_file_iULumC
 ---
 
 # _todo

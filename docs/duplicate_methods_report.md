@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "duplicate methods report"
 issues: []
 discussions: []
+<<<<<<< .merge_file_F3wPAM
+=======
+status: draft
+>>>>>>> .merge_file_0VMkiv
 ---
 
 # Report: Metodi con nome duplicato nei moduli e nei temi

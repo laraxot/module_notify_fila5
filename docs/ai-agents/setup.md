@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "setup"
 issues: []
 discussions: []
+<<<<<<< .merge_file_LuFagL
+=======
+status: draft
+>>>>>>> .merge_file_x0W2vY
 ---
 
 # Setup Codex locale

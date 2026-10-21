@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "pest rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_jUaaNC
+=======
+status: draft
+>>>>>>> .merge_file_pZ0eIa
 ---
 
 === pest/core rules ===
@@ -65,6 +69,7 @@ it('has emails', function (string $email) {
 
 
 ---
+<<<<<<< .merge_file_jUaaNC
 
 title: "pest rules"
 type: note
@@ -74,6 +79,8 @@ updated: 2026-09-26
 qmd: "pest rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_pZ0eIa
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

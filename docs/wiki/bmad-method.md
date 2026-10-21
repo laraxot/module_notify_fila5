@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "bmad method"
 issues: []
 discussions: []
+<<<<<<< .merge_file_SYewQ2
+=======
+status: draft
+>>>>>>> .merge_file_r3M0ka
 ---
 
 # BMAD Method v6.3 operativo nel progetto

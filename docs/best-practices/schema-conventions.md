@@ -74,7 +74,11 @@ Here's a complete example of a properly formatted schema:
 
 ```
 ## Collegamenti tra versioni di schema-conventions.md
+<<<<<<< .merge_file_J37r7h
 * [schema-conventions.md](docs/schema-conventions.md)
+=======
+* [schema-conventions.md](../schema-conventions.md)
+>>>>>>> .merge_file_AEecZl
 * [schema-conventions.md](../../../Notify/docs/schema-conventions.md)
 
 

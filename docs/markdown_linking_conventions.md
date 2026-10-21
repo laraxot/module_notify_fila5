@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "markdown linking conventions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_mIU4f9
+=======
+status: draft
+>>>>>>> .merge_file_SPp7iK
 ---
 
 # Convenzioni per i Collegamenti nei File Markdown

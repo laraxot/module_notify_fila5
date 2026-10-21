@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_GVNAbm
 ---
 title: "00 index"
 type: note
@@ -63,7 +64,19 @@ qmd: "00 index"
 issues: []
 discussions: []
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
+=======
+---
+title: "Notify — alias indice"
+type: alias
+module: Notify
+status: superseded
+superseded_by: 00-INDEX.md
+canonical: ./00-INDEX.md
+updated: 2026-10-20
+qmd: "alias 00-index notify verso 00-INDEX"
+---
+>>>>>>> .merge_file_6cmF9J
 
-## Dependency Intelligence
+# Alias — indice Notify
 
-- [Dependency intelligence](dependency-intelligence.md)
+Canonico: [00-INDEX.md](./00-INDEX.md). Scopo: [scopo.md](./scopo.md).

@@ -411,7 +411,11 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 ## 🔗 COLLEGAMENTI UTILI
 
 ### Roadmap Principali
+<<<<<<< .merge_file_Vn8xMT
 - [Master Roadmap](../laravel/master-roadmap.md)
+=======
+- [Master Roadmap](../master-roadmap.md)
+>>>>>>> .merge_file_3HHu08
 - [Roadmap Status Summary](../roadmap-status-summary.md)
 - [Roadmap Technical](./roadmaps/roadmap-technical.md)
 - [Roadmap Quality](./roadmaps/roadmap-quality.md)

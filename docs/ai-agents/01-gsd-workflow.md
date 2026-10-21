@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "01 gsd workflow"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Jljx3J
+=======
+status: draft
+>>>>>>> .merge_file_PSkCtj
 ---
 
 # 🚀 GSD Workflow (Get Shit Done)
@@ -15,6 +19,7 @@ discussions: []
 **Related**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md) — BMAD Method
 
 ---
+<<<<<<< .merge_file_Jljx3J
 
 title: "01 gsd workflow"
 type: note
@@ -24,6 +29,8 @@ updated: 2026-09-26
 qmd: "01 gsd workflow"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_PSkCtj
 ## 📋 Overview
 
 GSD is a spec-driven development system for AI coding agents.

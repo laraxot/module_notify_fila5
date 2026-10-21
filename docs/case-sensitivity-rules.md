@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "case sensitivity rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_DGgqXA
+=======
+status: draft
+>>>>>>> .merge_file_j6kUNf
 ---
 
 # Case Sensitivity Rules - Notify Module

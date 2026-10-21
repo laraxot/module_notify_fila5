@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "email layouts best practices"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nwfn42
+=======
+status: draft
+>>>>>>> .merge_file_iM4V9s
 ---
 
 # Email Layouts Best Practices 

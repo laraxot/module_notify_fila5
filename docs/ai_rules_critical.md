@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "ai rules critical"
 issues: []
 discussions: []
+<<<<<<< .merge_file_qz020q
+=======
+status: draft
+>>>>>>> .merge_file_008Nel
 ---
 
 # 🤖 AI Agent Rules - CRITICAL UPDATE
@@ -16,6 +20,7 @@ discussions: []
 > **Version**: 4.0
 
 ---
+<<<<<<< .merge_file_qz020q
 
 title: "ai rules critical"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "ai rules critical"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_008Nel
 ## 🚨 CRITICAL RULE #1: GIT COMMIT & PUSH
 
 ### Rule Statement

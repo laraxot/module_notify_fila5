@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "multi outcome no binary fields"
 issues: []
 discussions: []
+<<<<<<< .merge_file_1PIT6u
+=======
+status: draft
+>>>>>>> .merge_file_9Eku5k
 ---
 
 # 🔴 MULTI-OUTCOME UNIVERSAL - NO BINARY FIELDS
@@ -17,6 +21,7 @@ discussions: []
 **Priority**: BLOCKER
 
 ---
+<<<<<<< .merge_file_1PIT6u
 
 title: "multi outcome no binary fields"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "multi outcome no binary fields"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_9Eku5k
 ## 🎯 The Rule
 
 > **NON ESISTONO** predict di tipo SÌ/NO!

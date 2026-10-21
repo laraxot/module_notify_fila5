@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "analysis dettagliata"
 issues: []
 discussions: []
+<<<<<<< .merge_file_le1wMR
+=======
+status: draft
+>>>>>>> .merge_file_ipLbUz
 ---
 
 # Analisi Dettagliata del Modulo Notify

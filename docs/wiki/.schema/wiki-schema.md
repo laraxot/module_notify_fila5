@@ -1,3 +1,14 @@
+<<<<<<< .merge_file_hNSZdW
+=======
+---
+title: "LLM Wiki Schema"
+type: note
+status: draft
+updated: 2026-10-08
+tags: [docs, notify, wiki]
+qmd: "llm wiki schema notify"
+---
+>>>>>>> .merge_file_cbOxMY
 # LLM Wiki Schema
 
 Questo documento istruisce l'LLM su come costruire e mantenere la Wiki Knowledge Base secondo il pattern Karpathy.

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Gliipg
+=======
+status: draft
+>>>>>>> .merge_file_7sCJtW
 ---
 
 # 📋 agents guide Index
@@ -16,6 +20,7 @@ discussions: []
 **Status**: ✅ Auto-generated
 
 ---
+<<<<<<< .merge_file_Gliipg
 
 title: "00 INDEX"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_7sCJtW
 ## 📊 Statistics
 
 | Metric | Count |

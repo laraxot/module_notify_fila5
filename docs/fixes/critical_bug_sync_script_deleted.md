@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "critical bug sync script deleted"
 issues: []
 discussions: []
+<<<<<<< .merge_file_5lZ344
+=======
+status: draft
+>>>>>>> .merge_file_sIZxGN
 ---
 
 # 🚨 CRITICAL BUG: sync_remote_repo.sh Deleted
@@ -16,6 +20,7 @@ discussions: []
 > **Impact**: HIGH
 
 ---
+<<<<<<< .merge_file_5lZ344
 
 title: "critical bug sync script deleted"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "critical bug sync script deleted"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_sIZxGN
 ## 🐛 What Happened
 
 **File**: `bashscripts/git/subtrees/sync_remote_repo.sh`  

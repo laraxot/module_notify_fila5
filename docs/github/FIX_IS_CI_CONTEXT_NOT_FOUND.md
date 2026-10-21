@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "FIX IS CI CONTEXT NOT FOUND"
 issues: []
 discussions: []
+<<<<<<< .merge_file_RD7zu6
+=======
+status: draft
+>>>>>>> .merge_file_MURV38
 ---
 
 # Fix Risolto: Errore `is_ci_context: command not found`
@@ -17,6 +21,7 @@ discussions: []
 > **Priorità**: Critica
 
 ---
+<<<<<<< .merge_file_RD7zu6
 
 title: "FIX IS CI CONTEXT NOT FOUND"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "FIX IS CI CONTEXT NOT FOUND"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_MURV38
 ## 🚨 Problema
 
 ### Errori Segnalati

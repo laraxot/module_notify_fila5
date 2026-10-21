@@ -29,9 +29,18 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 
 ## Riferimenti Esterni
 
+<<<<<<< .merge_file_vzzqn6
 - [Documentazione Laravel Translatable](../lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](../lang/docs/translatable/best-practices.md)
 - [Documentazione Laravel Translatable](modules/lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](modules/lang/docs/translatable/best-practices.md)
 - [Documentazione Laravel Translatable](../lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](../lang/docs/translatable/best-practices.md)
+=======
+- [Documentazione Laravel Translatable](../../../Lang/docs/translatable/index.md)
+- [Best Practices per Laravel Translatable](../../../Lang/docs/translatable/best-practices.md)
+- [Documentazione Laravel Translatable](modules/lang/docs/translatable/index.md)
+- [Best Practices per Laravel Translatable](../best-practices.md)
+- [Documentazione Laravel Translatable](../../../Lang/docs/translatable/index.md)
+- [Best Practices per Laravel Translatable](../../../Lang/docs/translatable/best-practices.md)
+>>>>>>> .merge_file_d5zzv4

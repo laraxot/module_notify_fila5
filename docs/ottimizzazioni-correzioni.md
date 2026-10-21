@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "ottimizzazioni correzioni"
 issues: []
 discussions: []
+<<<<<<< .merge_file_JaVL1v
+=======
+status: draft
+>>>>>>> .merge_file_ci2qv9
 ---
 
 # Notify Module - Ottimizzazioni e Correzioni

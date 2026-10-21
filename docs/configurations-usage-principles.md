@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "configurations usage principles"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OZBqil
+=======
+status: draft
+>>>>>>> .merge_file_ONj3en
 ---
 
 # Principi di Utilizzo delle Configurazioni 

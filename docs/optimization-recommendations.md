@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "optimization recommendations"
 issues: []
 discussions: []
+<<<<<<< .merge_file_5aa7GS
+=======
+status: draft
+>>>>>>> .merge_file_bIYi3J
 ---
 
 # Raccomandazioni di Ottimizzazione - Modulo Notify
@@ -23,7 +27,11 @@ discussions: []
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
+<<<<<<< .merge_file_5aa7GS
 - **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+=======
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a appunti-filters.md)
+>>>>>>> .merge_file_bIYi3J
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 
@@ -252,7 +260,11 @@ php artisan notify:benchmark
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
+<<<<<<< .merge_file_5aa7GS
 - **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+=======
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a appunti-filters.md)
+>>>>>>> .merge_file_bIYi3J
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 

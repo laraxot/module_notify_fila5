@@ -84,6 +84,11 @@ composer remove filament/upgrade --dev
 
 - [Indice AGENTS](./agents-split-index.md)
 - [filament-patterns.md](./filament-patterns.md) - Pattern Filament
+<<<<<<< .merge_file_F2ckqm
 - [AGENTS.md originale](../../AGENTS.md)
 - [agents.md originale](../../agents.md)
+=======
+- [AGENTS.md originale](../AGENTS.md)
+- [agents.md originale](../agents.md)
+>>>>>>> .merge_file_lNiknj
 - [Index principale](./index.md)

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "mcp server recommended"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nWI5HN
+=======
+status: draft
+>>>>>>> .merge_file_jBl6ps
 ---
 
 # MCP Server Consigliati per il Modulo Notify

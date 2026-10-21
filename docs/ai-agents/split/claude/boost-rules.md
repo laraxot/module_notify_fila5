@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "boost rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_8DrZ5a
+=======
+status: draft
+>>>>>>> .merge_file_A6DVb7
 ---
 
 === boost rules ===
@@ -48,6 +52,7 @@ discussions: []
 
 
 ---
+<<<<<<< .merge_file_8DrZ5a
 
 title: "boost rules"
 type: note
@@ -57,6 +62,8 @@ updated: 2026-09-26
 qmd: "boost rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_A6DVb7
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

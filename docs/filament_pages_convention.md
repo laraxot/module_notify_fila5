@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament pages convention"
 issues: []
 discussions: []
+<<<<<<< .merge_file_tzMwq1
+=======
+status: draft
+>>>>>>> .merge_file_eiDpQX
 ---
 
 # Convenzioni per le Pagine Filament

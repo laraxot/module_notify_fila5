@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "qualita codice"
 issues: []
 discussions: []
+<<<<<<< .merge_file_2rdbgH
+=======
+status: draft
+>>>>>>> .merge_file_WCGB5W
 ---
 
 # Qualità del Codice

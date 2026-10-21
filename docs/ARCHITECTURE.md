@@ -7,6 +7,10 @@ type: architecture
 tags: [module, architecture, notifications]
 created: 2026-07-28
 updated: 2026-07-28
+<<<<<<< .merge_file_EvEKPO
+=======
+status: draft
+>>>>>>> .merge_file_dy2Qj5
 ---
 
 # Notify Module — Architecture

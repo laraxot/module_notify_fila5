@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "email best practices"
 issues: []
 discussions: []
+<<<<<<< .merge_file_9nDupq
+=======
+status: draft
+>>>>>>> .merge_file_wcdoKI
 ---
 
 # Best Practices per il Sistema Email

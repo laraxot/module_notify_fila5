@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "implementation summary"
 issues: []
 discussions: []
+<<<<<<< .merge_file_6HVAmf
+=======
+status: draft
+>>>>>>> .merge_file_xw4z9d
 ---
 
 # Riepilogo Implementazione Design Comuni

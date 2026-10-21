@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "decision log removal seasonal action"
 issues: []
 discussions: []
+<<<<<<< .merge_file_xJ3OYg
+=======
+status: draft
+>>>>>>> .merge_file_q4Vg7R
 ---
 
 # Decision Log: Rimozione Azioni Seasonal Over-Engineered

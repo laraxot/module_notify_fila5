@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "spatie email"
 issues: []
 discussions: []
+<<<<<<< .merge_file_YP1Vqs
+=======
+status: draft
+>>>>>>> .merge_file_vCbgn6
 ---
 
 # SpatieEmail Documentation

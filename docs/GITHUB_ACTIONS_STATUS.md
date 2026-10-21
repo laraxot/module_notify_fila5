@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "GITHUB ACTIONS STATUS"
 issues: []
 discussions: []
+<<<<<<< .merge_file_mpGLua
+=======
+status: draft
+>>>>>>> .merge_file_EfdIjW
 ---
 
 # GitHub Actions Status & Fixes
@@ -16,6 +20,7 @@ discussions: []
 **Author**: AI Agent
 
 ---
+<<<<<<< .merge_file_mpGLua
 
 title: "GITHUB ACTIONS STATUS"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "GITHUB ACTIONS STATUS"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_EfdIjW
 ## Summary
 
 Analisi e fix delle GitHub Actions del repository base_ptv_fila5.

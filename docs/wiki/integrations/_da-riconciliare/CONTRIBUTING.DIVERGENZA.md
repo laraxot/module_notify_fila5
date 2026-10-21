@@ -8,6 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_Z2ax5V
+=======
+status: draft
+>>>>>>> .merge_file_Vea9ca
 ---
 
 # Divergenza: `CONTRIBUTING.md`

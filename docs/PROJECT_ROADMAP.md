@@ -702,7 +702,11 @@ tests/Browser/AdminManageTicketTest.php
 
 ### Best Practices
 - [Laravel Boost Guidelines](CLAUDE.md)
+<<<<<<< .merge_file_P8IDXW
 - [Architecture Patterns](docs/architecture/)
+=======
+- [Architecture Patterns](architecture)
+>>>>>>> .merge_file_0TPFKY
 
 ---
 

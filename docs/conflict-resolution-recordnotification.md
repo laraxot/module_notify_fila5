@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "conflict resolution recordnotification"
 issues: []
 discussions: []
+<<<<<<< .merge_file_lZakzG
+=======
+status: draft
+>>>>>>> .merge_file_H1JY34
 ---
 
 # Risoluzione Conflitti RecordNotification.php

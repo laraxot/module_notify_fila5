@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "namespace rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_8BYMff
+=======
+status: draft
+>>>>>>> .merge_file_tQgjOg
 ---
 
 # Regole Namespace PSR-4 per il Modulo Notify
@@ -40,6 +44,7 @@ namespace Modules\Notify\Console\Commands;
 - Collegamento alla documentazione generale: [Regole Namespace Moduli - Root Docs](../../../docs/namespace-moduli.md)
 
 ---
+<<<<<<< .merge_file_8BYMff
 
 title: "namespace rules"
 type: note
@@ -49,6 +54,8 @@ updated: 2026-09-26
 qmd: "namespace rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_tQgjOg
 **Ultimo aggiornamento:** 2025-05-13
 
 **Link bidirezionale:** Aggiornare anche la root docs e la docs di Xot per riferimenti e cross-link.

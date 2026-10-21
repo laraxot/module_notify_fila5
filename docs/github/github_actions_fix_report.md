@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "github actions fix report"
 issues: []
 discussions: []
+<<<<<<< .merge_file_hha69V
+=======
+status: draft
+>>>>>>> .merge_file_Hzb1Pe
 ---
 
 # 🤖 GitHub Actions & Discussions - Final Report
@@ -16,6 +20,7 @@ discussions: []
 > **Agent**: @marco76tv
 
 ---
+<<<<<<< .merge_file_hha69V
 
 title: "github actions fix report"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "github actions fix report"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Hzb1Pe
 ## 🎯 Mission
 
 1. ✅ Update GitHub Discussions (using gh API)

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UfRZfv
+=======
+status: draft
+>>>>>>> .merge_file_JAinfl
 ---
 
 # Integrazione Filament del Modulo Notify
@@ -401,7 +405,11 @@ final class SendTestNotificationAction extends Action
             ->label(__('Invia Test'))
             ->icon('heroicon-o-paper-airplane')
             ->action(function (Template $record, array $data): void {
+<<<<<<< .merge_file_UfRZfv
                 app(SendNotificationAction::class)->execute(
+=======
+                app(SendNotificationAction::class)->handle(
+>>>>>>> .merge_file_JAinfl
                     $data['recipient'],
                     $record->code,
                     $data['test_data'] ?? [],

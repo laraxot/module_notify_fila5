@@ -109,10 +109,17 @@ Widget personalizzati in Filament.
 
 - [Resource Rules](./resource-rules.md)
 - [Form Schema Conventions](./form-schema-conventions.md)
+<<<<<<< .merge_file_7fxTFn
 - [Best Practices](./best-practices.md)
 - [Form Components](./form-components.md)
 - [Form Validation](./form-validation.md)
 - [Translations](./translations.md)
+=======
+- [Best Practices](../../../best-practices.md)
+- [Form Components](./form-components.md)
+- [Form Validation](./form-validation.md)
+- [Translations](../../../translations.md)
+>>>>>>> .merge_file_5NsVFb
 - [Actions](./actions.md)
 - [Widgets](./widgets.md)
 - [PHPStan](../phpstan/)

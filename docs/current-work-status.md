@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "current work status"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XXHvoa
+=======
+status: draft
+>>>>>>> .merge_file_Db2z4Z
 ---
 
 # Stato Attuale del Lavoro - 12 Maggio 2025

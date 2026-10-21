@@ -7,8 +7,22 @@ updated: 2026-09-26
 qmd: "log"
 issues: []
 discussions: []
+<<<<<<< .merge_file_YsqZPy
 ---
 
+=======
+status: draft
+---
+
+## [2026-10-14] docs | Ingressi rivisti sul codice (DOC-010, DOC-002)
+
+- `README.md` della cartella: aggiunte mappa del codice e limiti verificati con `ls`/`grep`; elenco modelli portato da 9 a 14; blocco frontmatter duplicato a meta' file reso commento; riferimenti a `Ptv` (modulo assente dal repo) e a file inesistenti ridotti a testo.
+- `00-INDEX.md`: tolta la "Module Version 2.1.0" senza fonte; dichiarate directory canoniche/evidence/legacy con conteggi (3.465 file, 1.552 nella radice); famiglie dei 1.551 `.md` della radice per nome file; corrette le descrizioni errate (roadmap.md e' del FixCity Design System, `SendNotificationBulkAction` e `TrackNotificationEventAction` non esistono, consolidamento SMS non corrisponde al codice).
+- `INDEX.md`, `index.md`, `wiki/00-INDEX.md`, `wiki/00-index.md`, `wiki/INDEX.md`, `wiki/index.md` marcati `stale` con la ragione; nessun file spostato o cancellato.
+- Verifica oggi su voci di questo log: la voce 2026-09-11 (compliance) dice rimosso il duplicato `app/Contracts/SmsActionContract.php`; il 2026-10-14 `SmsActionContract.php` esiste in tre posizioni (`app/Contracts/`, `app/Contracts/SMS/`, `app/Models/Contracts/`).
+- Story: [2026-10-14-docs-ingressi-notify](../stories/docs-ingressi-notify.story.md). Nota durevole: `bashscripts/ai/wiki/memories/docs-notify-activity-media-job-studio.md`.
+
+>>>>>>> .merge_file_WMU5MK
 ## [2026-09-11] fix | invito automatico — Difetto 11/12, regola un-canale
 
 - **Difetto 11 (bloccante SMS)**: `SendRecordNotificationAction` instradava l'SMS con `Notification::route(SmsChannel::class, …)` (FQCN come chiave), ma `RecordNotification::via()`/`toSms()` cercano il recapito sotto `'sms'` → `via()` tornava `[]` → l'SMS dell'invito automatico non partiva, in silenzio. Fix: `Notification::route($channelEnum->value, …)`. Commit `f150a9a54`.
@@ -41,6 +55,7 @@ discussions: []
 
 ## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
 
+<<<<<<< .merge_file_YsqZPy
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
@@ -55,6 +70,14 @@ qmd: "log"
 issues: []
 discussions: []
 title: "Notify Wiki Activity Log"
+=======
+- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), `llm-wiki.txt` (file `bashscripts/tools/prompts/llm-wiki.txt` non presente il 2026-10-14)
+- GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+- Stub/checklist: second-brain → canon Xot, ai-harness, hackernoon map (`docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md`: file non presente il 2026-10-14), `llm-wiki.txt` (non presente)
+- GitHub: [#272](https://github.com/laraxot/platform/issues/272) / [D#273](https://github.com/laraxot/platform/discussions/273)
+
+---
+>>>>>>> .merge_file_WMU5MK
 module: "Notify"
 ---
 
@@ -76,3 +99,10 @@ module: "Notify"
 - Unica `create_notifications_table` in Notify; `model_class` = `User\Models\Notification`
 - Solo `XotBaseMigration` — mai `extends Migration`
 - Vietato duplicato in User/ (es. pattern `2026_07_02_*` con bigint morphs)
+<<<<<<< .merge_file_YsqZPy
+=======
+## [2026-10-14] docs | confine delivery notifiche
+
+- Aggiunta `concepts/notification-delivery-boundary.md`.
+- Esplicitata la separazione tra notifiche transazionali e marketing con decisione Gdpr al dispatch.
+>>>>>>> .merge_file_WMU5MK

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "fluxui rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_P9Hsrn
+=======
+status: draft
+>>>>>>> .merge_file_6soQKl
 ---
 
 === fluxui-free/core rules ===
@@ -35,6 +39,7 @@ avatar, badge, brand, breadcrumbs, button, callout, checkbox, dropdown, field, h
 
 
 ---
+<<<<<<< .merge_file_P9Hsrn
 
 title: "fluxui rules"
 type: note
@@ -44,6 +49,8 @@ updated: 2026-09-26
 qmd: "fluxui rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_6soQKl
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "netfunchannel conflict resolution"
 issues: []
 discussions: []
+<<<<<<< .merge_file_4xqeTN
+=======
+status: draft
+>>>>>>> .merge_file_hY5Zzz
 ---
 
 # Risoluzione conflitto NetfunChannel.php

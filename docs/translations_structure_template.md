@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "translations structure template"
 issues: []
 discussions: []
+<<<<<<< .merge_file_jE2L5T
+=======
+status: draft
+>>>>>>> .merge_file_y2wiGa
 ---
 
 # Template di Struttura per le Traduzioni

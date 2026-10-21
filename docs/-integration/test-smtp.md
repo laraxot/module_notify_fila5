@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "test smtp"
 issues: []
 discussions: []
+<<<<<<< .merge_file_GfzMhx
+=======
+status: draft
+>>>>>>> .merge_file_08WDd5
 ---
 
 # test_smtp

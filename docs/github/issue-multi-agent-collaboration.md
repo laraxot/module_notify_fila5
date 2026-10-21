@@ -15,6 +15,10 @@ related:
   - "./issue-subtree-sync-test.md"
   - "./sync-remote-repo-docs-summary.md"
   - "./sync-remote-repo-test-plan.md"
+<<<<<<< .merge_file_CFKAf1
+=======
+status: draft
+>>>>>>> .merge_file_iNu8nN
 ---
 
 # Multi-Agent Collaboration: Sync Remote Repo Documentation

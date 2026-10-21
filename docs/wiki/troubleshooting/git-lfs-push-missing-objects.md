@@ -31,7 +31,11 @@ this module's history.
 ## Root Cause Check (before assuming corruption)
 
 Unlike the `Modules/User` case (see
+<<<<<<< .merge_file_mhzafJ
 [../../../User/docs/wiki/troubleshooting/git-lfs-orphan-pointer-svg-fix.md](../../../User/docs/wiki/troubleshooting/git-lfs-orphan-pointer-svg-fix.md)),
+=======
+[../../../User/docs/wiki/troubleshooting/git-lfs-orphan-pointer-svg-fix.md](../../../../User/docs/wiki/troubleshooting/git-lfs-orphan-pointer-svg-fix.md)),
+>>>>>>> .merge_file_RqsIgj
 here the LFS objects were **not** actually lost:
 
 ```bash

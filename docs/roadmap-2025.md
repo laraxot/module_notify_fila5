@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "roadmap 2025"
 issues: []
 discussions: []
+<<<<<<< .merge_file_3ahtli
+=======
+status: draft
+>>>>>>> .merge_file_aNjBnT
 ---
 
 # 🔔 NOTIFY MODULE - ROADMAP 2025
@@ -18,6 +22,7 @@ discussions: []
 **Filament**: ✅ 4.x Compatibile  
 
 ---
+<<<<<<< .merge_file_3ahtli
 
 title: "roadmap 2025"
 type: note
@@ -27,6 +32,8 @@ updated: 2026-09-26
 qmd: "roadmap 2025"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_aNjBnT
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **Notify** gestisce tutto il sistema di notifiche della piattaforma FixCity, inclusa la gestione delle notifiche in-app, email, SMS, push notifications e l'integrazione con servizi di terze parti.

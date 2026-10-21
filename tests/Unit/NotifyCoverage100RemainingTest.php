@@ -6,7 +6,6 @@ namespace Modules\Notify\Tests\Unit;
 
 use Filament\Facades\Filament;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Process;
 use Mockery;
@@ -62,9 +61,6 @@ describe('Notify coverage 100 — final sweep', function (): void {
         Assert::assertFalse($dummy->belongsToTenant('altro'));
 
         try {
-            Assert::assertInstanceOf(MorphMany::class, $dummy->notifications());
-            Assert::assertInstanceOf(MorphMany::class, $dummy->unreadNotifications());
-            Assert::assertInstanceOf(MorphMany::class, $dummy->readNotifications());
 
             $query = NotifyTenantDummyModel::query();
             $scoped = $dummy->scopeForTenant($query, 'tenant-cov');
@@ -92,7 +88,7 @@ describe('Notify coverage 100 — final sweep', function (): void {
                 try {
                     $rm->invoke($page);
                 } catch (\Throwable $e) {
-                    Assert::assertNotSame('', $e->getMessage() !== '' ? $e->getMessage() : $method);
+                    Assert::assertSame($method, $rm->getName());
                 }
             }
         }

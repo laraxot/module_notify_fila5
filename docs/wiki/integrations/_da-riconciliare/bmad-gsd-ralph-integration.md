@@ -469,7 +469,11 @@ vendor/bin/phpstan analyse --level=10
 
 ## Resources
 
+<<<<<<< .merge_file_DEzOeX
 - **OpenViking**: [docs/openviking-integration.md](../docs/openviking-integration.md)
+=======
+- **OpenViking**: [docs/openviking-integration.md](../../../openviking-integration.md)
+>>>>>>> .merge_file_Rc8MTY
 - **BMAD**: [laravel/Modules/Xot/docs/bmad-workflow-guide.md](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
 - **GSD**: See `.planning/` directory
 - **Ralph Loop**: See `.ralph/` directory

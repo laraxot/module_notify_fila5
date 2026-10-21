@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "contact column icon issue analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_olpmLE
+=======
+status: draft
+>>>>>>> .merge_file_pEwixf
 ---
 
 # ContactColumn Icon Issue - Analisi e Risoluzione
@@ -145,6 +149,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 | **Compatibilità** | ❌ Non garantita | ✅ Filament 3.x native |
 
 ---
+<<<<<<< .merge_file_olpmLE
 
 title: "contact column icon issue analysis"
 type: note
@@ -154,6 +159,8 @@ updated: 2026-09-26
 qmd: "contact column icon issue analysis"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_pEwixf
 **Data Analisi**: 2025-08-01  
 **Priorità**: 🔴 ALTA (Funzionalità core non funzionante)  
 **Tempo Stimato Fix**: 5 minuti  

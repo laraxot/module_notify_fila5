@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "CRITICAL BUG SYNC SCRIPT DELETED"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XiLYjr
+=======
+status: draft
+>>>>>>> .merge_file_wHKhda
 ---
 
 # 🚨 CRITICAL BUG: sync_remote_repo.sh Deleted
@@ -16,6 +20,7 @@ discussions: []
 > **Impact**: HIGH
 
 ---
+<<<<<<< .merge_file_XiLYjr
 
 title: "CRITICAL BUG SYNC SCRIPT DELETED"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "CRITICAL BUG SYNC SCRIPT DELETED"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_wHKhda
 ## 🐛 What Happened
 
 **File**: `bashscripts/git/subtrees/sync_remote_repo.sh`  

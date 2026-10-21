@@ -21,13 +21,22 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Progetto Design Comuni](./.agents/docs/main-rules/qwen-design-comuni.md)
 - [Tema & Vite](./.agents/docs/main-rules/qwen-theme-vite.md)
 - [Architettura](./.agents/docs/main-rules/qwen-architecture.md)
+<<<<<<< .merge_file_LsJ4oJ
 - [Regole Critiche](./.agents/docs/main-rules/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
+=======
+- [Regole Critiche](../../../ai-agents/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
+>>>>>>> .merge_file_J50BD6
 - [Filament Wizard Rule](./laravel/Modules/App/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/App/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
 - [Filament Wizard Rule](./laravel/Modules/<nome progetto>/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/<nome progetto>/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
+<<<<<<< .merge_file_LsJ4oJ
 - [Token Efficiency](./docs/token-efficiency-religion.md) — Reduce tokens 50-90% via grep-first, diffs, scoping, tables, batch
 - [LLM Wiki Pattern](./docs/wiki/README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
+=======
+- [Token Efficiency](../../../token-efficiency-religion.md) — Reduce tokens 50-90% via grep-first, diffs, scoping, tables, batch
+- [LLM Wiki Pattern](../../README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
+>>>>>>> .merge_file_J50BD6
 
 ---
 **See also:**
@@ -73,11 +82,19 @@ qmd: "qwen qwen added memories (modular)"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_LsJ4oJ
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_J50BD6
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -94,11 +111,19 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Progetto Design Comuni](./.agents/docs/main-rules/qwen-design-comuni.md)
 - [Tema & Vite](./.agents/docs/main-rules/qwen-theme-vite.md)
 - [Architettura](./.agents/docs/main-rules/qwen-architecture.md)
+<<<<<<< .merge_file_LsJ4oJ
 - [Regole Critiche](./.agents/docs/main-rules/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
 - [Filament Wizard Rule](./laravel/Modules/<nome progetto>/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/<nome progetto>/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
 - [Token Efficiency](./docs/token-efficiency-religion.md) — Reduce tokens 50-90% via grep-first, diffs, scoping, tables, batch
 - [LLM Wiki Pattern](./docs/wiki/README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
+=======
+- [Regole Critiche](../../../ai-agents/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
+- [Filament Wizard Rule](./laravel/Modules/<nome progetto>/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
+- [Module Boundary Philosophy](./laravel/Modules/<nome progetto>/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
+- [Token Efficiency](../../../token-efficiency-religion.md) — Reduce tokens 50-90% via grep-first, diffs, scoping, tables, batch
+- [LLM Wiki Pattern](../../README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
+>>>>>>> .merge_file_J50BD6
 
 ---
 **See also:**

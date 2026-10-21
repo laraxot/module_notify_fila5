@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "layout structure"
 issues: []
 discussions: []
+<<<<<<< .merge_file_43CSho
+=======
+status: draft
+>>>>>>> .merge_file_7Jk9Ys
 ---
 
 # Struttura Layout Email

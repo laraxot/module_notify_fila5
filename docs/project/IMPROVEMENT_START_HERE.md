@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "IMPROVEMENT START HERE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_cUSb8g
+=======
+status: draft
+>>>>>>> .merge_file_CBHikj
 ---
 
 # ✅ FixCity Improvement Plan - START HERE
@@ -17,6 +21,7 @@ discussions: []
 **Timeline**: 17 settimane (4 mesi)
 
 ---
+<<<<<<< .merge_file_cUSb8g
 
 title: "IMPROVEMENT START HERE"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "IMPROVEMENT START HERE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_CBHikj
 ## 🎯 Quick Start
 
 ### 1. Leggi i Documenti Principali

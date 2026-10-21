@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "optimization"
 issues: []
 discussions: []
+<<<<<<< .merge_file_PPeIXE
+=======
+status: draft
+>>>>>>> .merge_file_VYXH6O
 ---
 
 # Analisi di Ottimizzazione - Modulo Notify
@@ -76,6 +80,7 @@ class NotificationTemplateCache
 - **Fase 4**: Delivery tracking e analytics
 
 ---
+<<<<<<< .merge_file_PPeIXE
 title: "optimization"
 type: note
 tags: [documentation]
@@ -84,5 +89,7 @@ updated: 2026-09-26
 qmd: "optimization"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_VYXH6O
 *Stato: 🟡 Funzionale ma Necessita Reliability Enhancement*
 

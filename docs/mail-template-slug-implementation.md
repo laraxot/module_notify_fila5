@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "mail template slug implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Jb8EQP
+=======
+status: draft
+>>>>>>> .merge_file_QDZ3oW
 ---
 
 # Implementazione del Campo Slug in MailTemplate

@@ -73,4 +73,8 @@ updated: 2026-09-26
 qmd: "project overview"
 issues: []
 discussions: []
+<<<<<<< .merge_file_gwJ7F4
 [Back to index](../index.md) | [Guidelines](guidelines.md) | [Links](links.md)
+=======
+[Back to index](../../../index.md) | [Guidelines](guidelines.md) | [Links](links.md)
+>>>>>>> .merge_file_Paz3GG

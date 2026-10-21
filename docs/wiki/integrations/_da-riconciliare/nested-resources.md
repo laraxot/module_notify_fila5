@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_0SlG7Y
+=======
+status: draft
+>>>>>>> .merge_file_x8uLCi
 ---
 
 # Notify Module - Nested Resource Implementation Guide

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament composite contacts column"
 issues: []
 discussions: []
+<<<<<<< .merge_file_RBs9kn
+=======
+status: draft
+>>>>>>> .merge_file_5byqIa
 ---
 
 # Colonna Contatti Composite per Filament - Modulo Notify
@@ -237,6 +241,7 @@ Questo pattern può essere applicato a:
 - **Best Practices**: Definite regole architetturali
 
 ---
+<<<<<<< .merge_file_RBs9kn
 
 title: "filament composite contacts column"
 type: note
@@ -246,6 +251,8 @@ updated: 2026-09-26
 qmd: "filament composite contacts column"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_5byqIa
 *Ultimo aggiornamento: [DATE]*  
 *Autore: Sistema Laraxot*  
 *Versione: 1.0*

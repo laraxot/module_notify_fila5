@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "DOCUMENT ROOT ARCHITECTURE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_S20VFq
+=======
+status: draft
+>>>>>>> .merge_file_zHvSJS
 ---
 
 # Document Root Architecture

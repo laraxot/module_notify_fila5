@@ -6,6 +6,11 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+<<<<<<< .merge_file_Hc6udw
+=======
+tags: [docs, notify, wiki]
+qmd: "_todo notify"
+>>>>>>> .merge_file_JTBvPk
 ---
 
 # _todo

@@ -20,11 +20,19 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Progetto Design Comuni](./.agents/docs/main-rules/qwen-design-comuni.md)
 - [Tema & Vite](./.agents/docs/main-rules/qwen-theme-vite.md)
 - [Architettura](./.agents/docs/main-rules/qwen-architecture.md)
+<<<<<<< .merge_file_uJ5BSW
 - [Regole Critiche](./.agents/docs/main-rules/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
 - [Filament Wizard Rule](./laravel/Modules/Fixcity/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
 - [Token Efficiency](./docs/token-efficiency-religion.md) — Reduce tokens 50-90% via grep-first, diffs, scoping, tables, batch
 - [LLM Wiki Pattern](./docs/wiki/README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
+=======
+- [Regole Critiche](./ai-agents/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
+- [Filament Wizard Rule](./laravel/Modules/Fixcity/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
+- [Module Boundary Philosophy](./laravel/Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
+- [Token Efficiency](./token-efficiency-religion.md) — Reduce tokens 50-90% via grep-first, diffs, scoping, tables, batch
+- [LLM Wiki Pattern](./wiki/README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
+>>>>>>> .merge_file_nSxQbd
 
 ---
 title: "QWEN"
@@ -71,11 +79,19 @@ qmd: "qwen qwen added memories (modular)"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_uJ5BSW
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_nSxQbd
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -92,11 +108,19 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Progetto Design Comuni](./.agents/docs/main-rules/qwen-design-comuni.md)
 - [Tema & Vite](./.agents/docs/main-rules/qwen-theme-vite.md)
 - [Architettura](./.agents/docs/main-rules/qwen-architecture.md)
+<<<<<<< .merge_file_uJ5BSW
 - [Regole Critiche](./.agents/docs/main-rules/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
 - [Filament Wizard Rule](./laravel/Modules/Fixcity/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
 - [Token Efficiency](./docs/token-efficiency-religion.md) — Reduce tokens 50-90% via grep-first, diffs, scoping, tables, batch
 - [LLM Wiki Pattern](./docs/wiki/README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
+=======
+- [Regole Critiche](./ai-agents/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
+- [Filament Wizard Rule](./laravel/Modules/Fixcity/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
+- [Module Boundary Philosophy](./laravel/Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
+- [Token Efficiency](./token-efficiency-religion.md) — Reduce tokens 50-90% via grep-first, diffs, scoping, tables, batch
+- [LLM Wiki Pattern](./wiki/README.md) — Karpathy-style persistent knowledge base with raw/wiki/AGENTS architecture
+>>>>>>> .merge_file_nSxQbd
 
 ---
 **See also:**

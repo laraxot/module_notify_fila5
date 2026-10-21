@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "mail templates structure"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nC49LX
+=======
+status: draft
+>>>>>>> .merge_file_UYWfKD
 ---
 
 # Struttura Template Email

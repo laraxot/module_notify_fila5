@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_7Wd2D6
+=======
+status: draft
+>>>>>>> .merge_file_YBhvBq
 ---
 
 # Pagine Create - Notify Sixteen Theme

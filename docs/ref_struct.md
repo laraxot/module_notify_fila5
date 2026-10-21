@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "ref struct"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OH6797
+=======
+status: draft
+>>>>>>> .merge_file_KKYw1o
 ---
 
 # Ref Struct

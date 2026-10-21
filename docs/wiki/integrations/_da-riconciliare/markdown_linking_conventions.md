@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_UE9WCK
+=======
+status: draft
+>>>>>>> .merge_file_NbPrt0
 ---
 
 # Convenzioni per i Collegamenti nei File Markdown

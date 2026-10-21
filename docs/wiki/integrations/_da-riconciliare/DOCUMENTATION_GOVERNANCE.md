@@ -438,7 +438,11 @@ jobs:
 
 - [agents.md](../../../AGENTS.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
+<<<<<<< .merge_file_dTpIHi
 - [DOCUMENTATION_INDEX.md](../../../docs/DOCUMENTATION_INDEX.md) - Master index
+=======
+- [DOCUMENTATION_INDEX.md](../../../DOCUMENTATION_INDEX.md) - Master index
+>>>>>>> .merge_file_yGh3rR
 
 ---
 

@@ -23,8 +23,16 @@ LaravelPizza is a modular meetup/community platform built on Laravel + Filament 
 - [Filament](./filament.md)
 - [MCP](./mcp.md)
 - [Chaos Monkey Readiness](./chaos-monkey-readiness.md)
+<<<<<<< .merge_file_kyE2fk
 - [Package Risk Matrix 2026-03-02](./package-risk-matrix-2026-03-02.md)
 
 ## Project docs
 
 - [General docs index](../../../../docs/index.md)
+=======
+- [Package Risk Matrix 2026-03-02](./package-risk-matrix.md)
+
+## Project docs
+
+- [General docs index](../../../../../docs/index.md)
+>>>>>>> .merge_file_0jra7y

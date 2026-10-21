@@ -11,7 +11,11 @@ discussions: []
 
 # Laraxot model rules
 
+<<<<<<< .merge_file_qb1Oos
 > Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md)
+=======
+> Source: [IFLOW.md](../../../../../bashscripts/ai/IFLOW.md)
+>>>>>>> .merge_file_v4G3Xu
 > Back: [index](index.md) | [critical-rules.md](critical-rules.md)
 
 ## NEVER use property_exists() on Eloquent models

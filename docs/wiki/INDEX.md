@@ -13,19 +13,22 @@ qmd: "notify module wiki index notifications qmd second brain"
 issues: []
 discussions: []
 related:
-  - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
-  - ../../../../docs/wiki/bmad/architecture.md
-  - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
+  - ../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+  - ../../../../../docs/wiki/bmad/architecture.md
+  - ../../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
+status: stale
 ---
+
+> Nota 2026-10-14 (docs-audit): Indice generico della knowledge base copiato dalla radice del progetto: molti bersagli non esistono (karpathy-wiki, xot-module, ui-module, bashscripts/wiki/index.md, wiki/sources, wiki/_archive) e i percorsi ../../laravel/Modules/... sono sbagliati. Per Notify usare ../00-INDEX.md e wiki/README.md. Contenuto non riscritto, verificare prima di usarlo.
 
 # Knowledge Base Index
 
 ## AI / second brain
 
-- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
-- [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
-- [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+- [bmad/architecture](../../../../../docs/wiki/bmad/architecture.md)
+- [frontmatter + GitHub](../../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 
@@ -115,11 +118,11 @@ Ogni modulo ha il suo wiki locale in `laravel/Modules/<Name>/docs/wiki/`:
 |--------|-----------|---------|
 | Modulo | Wiki index | Compiled pages |
 |--------|-----------|----------------|
-| Xot | [wiki/index.md](../../laravel/Modules/Xot/docs/wiki/index.md) | [xot-module](../../laravel/Modules/Xot/docs/wiki/overviews/xot-module.md) |
-| Cms | [wiki/index.md](../../laravel/Modules/Cms/docs/wiki/index.md) | [cms-module](../../laravel/Modules/Cms/docs/wiki/overviews/cms-module.md) |
-| UI | [wiki/index.md](../../laravel/Modules/UI/docs/wiki/index.md) | [ui-module](../../laravel/Modules/UI/docs/wiki/overviews/ui-module.md) |
-| Lang | [wiki/index.md](../../laravel/Modules/Lang/docs/wiki/index.md) | [lang-module](../../laravel/Modules/Lang/docs/wiki/overviews/lang-module.md) |
-| AI | [wiki/index.md](../../laravel/Modules/AI/docs/wiki/index.md) | [ai-module (root)](./modules/ai-module.md) |
+| Xot | [wiki/index.md](../../../Xot/docs/wiki/index.md) | [xot-module](../../laravel/Modules/Xot/docs/wiki/overviews/xot-module.md) |
+| Cms | [wiki/index.md](../../../Cms/docs/wiki/index.md) | [cms-module](../../../Cms/docs/wiki/overviews/cms-module.md) |
+| UI | [wiki/index.md](../../../UI/docs/wiki/index.md) | [ui-module](../../laravel/Modules/UI/docs/wiki/overviews/ui-module.md) |
+| Lang | [wiki/index.md](../../../Lang/docs/wiki/index.md) | [lang-module](../../../Lang/docs/wiki/overviews/lang-module.md) |
+| AI | [wiki/index.md](../../../AI/docs/wiki/index.md) | [ai-module (root)](./modules/ai-module.md) |
 | Quaeris, Geo, User, Media, Tenant, Activity, Notify, Job, Gdpr, Chart, CloudStorage, DbForge, Limesurvey | wiki/ presenti | pending |
 
 ## Themes
@@ -128,8 +131,8 @@ Ogni tema ha il suo wiki locale in `laravel/Themes/<Name>/docs/wiki/`:
 
 | Tema | Wiki index | Compiled pages |
 |------|-----------|----------------|
-| Sixteen | [wiki/index.md](../../laravel/Themes/Sixteen/docs/wiki/index.md) | [sixteen-theme](../../laravel/Themes/Sixteen/docs/wiki/overviews/sixteen-theme.md) |
-| TwentyOne | [wiki/index.md](../../laravel/Themes/TwentyOne/docs/wiki/index.md) | [twentyone-theme](../../laravel/Themes/TwentyOne/docs/wiki/overviews/twentyone-theme.md) |
+| Sixteen | [wiki/index.md](../../../../Themes/Sixteen/docs/wiki/index.md) | [sixteen-theme](../../../../Themes/Sixteen/docs/wiki/overviews/sixteen-theme.md) |
+| TwentyOne | [wiki/index.md](../../../../Themes/TwentyOne/docs/wiki/index.md) | [twentyone-theme](../../../../Themes/TwentyOne/docs/wiki/overviews/twentyone-theme.md) |
 
 ## Bashscripts
 
@@ -146,7 +149,7 @@ Separate git repository with shell scripts and utilities:
 
 ## Karpathy LLM Wiki Standard
 
-- [forbidden-folders-rule](../../../../docs/wiki/concepts/forbidden-folders.md): Strict structural constraints.
+- [forbidden-folders-rule](../../../../../docs/wiki/concepts/forbidden-folders.md): Strict structural constraints.
 - [llm-wiki-standard](../../../../docs/wiki/concepts/karpathy-wiki.md): Repository mapping and knowledge lifecycle.
 
 ## Sacred Hierarchy

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "case variant collisions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_15RtvQ
+=======
+status: draft
+>>>>>>> .merge_file_jDGBRO
 ---
 
 # Collisioni di nome per sola differenza di maiuscole

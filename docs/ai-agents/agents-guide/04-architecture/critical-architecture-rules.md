@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "critical architecture rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_snTRmp
+=======
+status: draft
+>>>>>>> .merge_file_7SgiGD
 ---
 
 # 4. Critical Architecture Rules
@@ -396,6 +400,7 @@ url('/en/path')
 ```
 
 ---
+<<<<<<< .merge_file_snTRmp
 
 title: "critical architecture rules"
 type: note
@@ -405,3 +410,5 @@ updated: 2026-09-26
 qmd: "critical architecture rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_7SgiGD

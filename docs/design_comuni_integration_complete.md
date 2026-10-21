@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "design comuni integration complete"
 issues: []
 discussions: []
+<<<<<<< .merge_file_idklqm
+=======
+status: draft
+>>>>>>> .merge_file_ZDaVor
 ---
 
 # 🏛️ DESIGN COMUNI ITALIANI - INTEGRATION COMPLETE
@@ -17,6 +21,7 @@ discussions: []
 **Status**: ✅ INTEGRATION COMPLETE  
 
 ---
+<<<<<<< .merge_file_idklqm
 
 title: "design comuni integration complete"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "design comuni integration complete"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_ZDaVor
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in FixCity per garantire la conformità AGID 100%.

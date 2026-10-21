@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "IMPLEMENTAZIONE BUILDERS REPORT"
 issues: []
 discussions: []
+<<<<<<< .merge_file_mdtBme
+=======
+status: draft
+>>>>>>> .merge_file_6h4MEZ
 ---
 
 # 🎉 IMPLEMENTAZIONE BUILDERS & ANALISI PIVOT - REPORT FINALE
@@ -16,6 +20,7 @@ discussions: []
 **Status**: ✅ BUILDERS IMPLEMENTATI | ⚠️ PIVOT DA REFACTORARE
 
 ---
+<<<<<<< .merge_file_mdtBme
 
 title: "IMPLEMENTAZIONE BUILDERS REPORT"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "IMPLEMENTAZIONE BUILDERS REPORT"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_6h4MEZ
 ## 📊 RISULTATI IMPLEMENTAZIONE
 
 ### ✅ Builders Creati (3 file)

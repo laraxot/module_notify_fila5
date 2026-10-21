@@ -298,11 +298,19 @@ Agent: [Systematic debugging]
 
 ### Internal
 
+<<<<<<< .merge_file_D2XQR4
 - [Main README](docs/superpowers/README.md)
 - [Installation Guide](docs/superpowers/installation.md)
 - [Workflow Guide](docs/superpowers/workflow.md)
 - [Skills Reference](docs/superpowers/skills-reference.md)
 - [Quick Index](docs/superpowers/index.md)
+=======
+- [Main README](README.md)
+- [Installation Guide](installation.md)
+- [Workflow Guide](workflow.md)
+- [Skills Reference](skills-reference.md)
+- [Quick Index](index.md)
+>>>>>>> .merge_file_KyBwdc
 - [Laravel Integration](laravel/Modules/docs/superpowers.md)
 
 ### External

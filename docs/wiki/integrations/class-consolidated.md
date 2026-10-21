@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_14L3Hl
+=======
+status: draft
+>>>>>>> .merge_file_C4K9P0
 ---
 
 # class — Consolidated Documentation
@@ -29,7 +33,11 @@ Consolidated from **8** individual files.
 
 ## class-inheritance-best-practices-1
 
+<<<<<<< .merge_file_14L3Hl
 *Consolidated from: `class-inheritance-best-practices-1.md`*
+=======
+*Consolidated from: `class-inheritance-best-practices.md`*
+>>>>>>> .merge_file_C4K9P0
 
 
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
@@ -126,11 +134,19 @@ qmd: "class-inheritance-best-practices-2 best practices per l'ereditarietà dell
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_14L3Hl
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_C4K9P0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -307,7 +323,11 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 
 ## class-inheritance-principles-1
 
+<<<<<<< .merge_file_14L3Hl
 *Consolidated from: `class-inheritance-principles-1.md`*
+=======
+*Consolidated from: `class-inheritance-principles.md`*
+>>>>>>> .merge_file_C4K9P0
 
 # Principi di Ereditarietà nelle Classi <nome progetto>
 
@@ -410,11 +430,19 @@ qmd: "class-inheritance-principles-2 principi di ereditarietà nelle classi <nom
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_14L3Hl
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_C4K9P0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

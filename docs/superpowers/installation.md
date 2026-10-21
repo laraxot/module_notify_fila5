@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "installation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_BXkThv
+=======
+status: draft
+>>>>>>> .merge_file_Jqu8Uc
 ---
 
 # 🦸 Superpowers Installation Guide
@@ -17,6 +21,7 @@ discussions: []
 > **Version**: v5.0.6
 
 ---
+<<<<<<< .merge_file_BXkThv
 
 title: "installation"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "installation"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Jqu8Uc
 ## 📋 Prerequisites
 
 ### Required

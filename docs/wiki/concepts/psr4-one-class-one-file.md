@@ -11,6 +11,10 @@ discussions:
   - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
 related:
   - "../../../../Xot/docs/wiki/concepts/psr4-one-class-one-file.md"
+<<<<<<< .merge_file_Xb8kfl
+=======
+status: draft
+>>>>>>> .merge_file_tIsxbB
 ---
 
 # PSR-4 nei test Notify

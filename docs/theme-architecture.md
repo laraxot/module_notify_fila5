@@ -8,6 +8,7 @@ qmd: "theme-architecture 🎨 theme architecture - "il tema è un vestito""
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_NKiykn
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -16,6 +17,17 @@ related:
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+status: draft
+>>>>>>> .merge_file_tupL4l
 ---
 
 # 🎨 Theme Architecture - "Il Tema è un Vestito"

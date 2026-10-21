@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "FINAL SUMMARY"
 issues: []
 discussions: []
+<<<<<<< .merge_file_BN3Dpk
+=======
+status: draft
+>>>>>>> .merge_file_KaIUCV
 ---
 
 # 📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO
@@ -16,6 +20,7 @@ discussions: []
 **Status**: ✅ FASE COMPLETATA CON SUCCESSO  
 
 ---
+<<<<<<< .merge_file_BN3Dpk
 
 title: "FINAL SUMMARY"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "FINAL SUMMARY"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_KaIUCV
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Completamento sistematico della documentazione e delle roadmap del progetto FixCity per renderlo la piattaforma

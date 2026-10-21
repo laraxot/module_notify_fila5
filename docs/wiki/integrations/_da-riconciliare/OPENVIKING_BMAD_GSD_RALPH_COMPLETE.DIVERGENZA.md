@@ -8,6 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_z6B0A7
+=======
+status: draft
+>>>>>>> .merge_file_ynvJlY
 ---
 
 # Divergenza: `OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md`

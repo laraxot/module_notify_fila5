@@ -8,6 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_UHXfP7
+=======
+status: draft
+>>>>>>> .merge_file_lVh7Hr
 ---
 
 # Divergenza: `design-comuni-integration-complete.md`

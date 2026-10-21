@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "git conflicts inventory"
 issues: []
 discussions: []
+<<<<<<< .merge_file_hONxil
+=======
+status: draft
+>>>>>>> .merge_file_OywV2j
 ---
 
 # Inventario Conflitti Git - Notify Module

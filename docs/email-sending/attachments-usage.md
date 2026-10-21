@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "attachments usage"
 issues: []
 discussions: []
+<<<<<<< .merge_file_fnNK0O
+=======
+status: draft
+>>>>>>> .merge_file_fR2gQE
 ---
 
 # Utilizzo Corretto degli Allegati nelle Email Spatie

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "configuration architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_xOAQqf
+=======
+status: draft
+>>>>>>> .merge_file_PYbDio
 ---
 
 # Architettura delle Configurazioni nei Moduli Laravel

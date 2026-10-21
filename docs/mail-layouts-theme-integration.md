@@ -352,7 +352,11 @@ class EmailLayoutResource extends XotBaseResource
 
 ### Documentazione Interna
 - [Spatie Database Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)
+<<<<<<< .merge_file_tff2j5
 - [Mail Layouts README](../resources/mail-layouts/readme.md)
+=======
+- [Mail Layouts README](../resources/mail-layouts/README.md)
+>>>>>>> .merge_file_NuwHNe
 - [SpatieEmail Class](../app/Emails/SpatieEmail.php)
 
 ### Esempi Layout

@@ -12,10 +12,17 @@ discussions:
   - "https://github.com/laraxot/module_notify_fila5/discussions/57"
 related:
   - ../README.md
+<<<<<<< .merge_file_qtpdN3
   - ../wiki/index.md
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+=======
+  - ../index.md
+  - ../../notifications/readme.md
+  - ../../integrations/readme.md
+  - ../../templates/readme.md
+>>>>>>> .merge_file_xgHHYc
 ---
 # Architettura Progetto - Indice
 
@@ -41,7 +48,11 @@ e
    - Alternative considerate e scartate
    - Raccomandazione finale: ✅ IMPLEMENTARE
 
+<<<<<<< .merge_file_qtpdN3
 2. **[Strategia di Implementazione](./xotbasepivot-strategy.md)** 📋
+=======
+2. **[Strategia di Implementazione](../../architecture/xotbasepivot-strategy.md)** 📋
+>>>>>>> .merge_file_xgHHYc
    - Piano step-by-step (3-4 ore)
    - Moduli impattati (13 moduli, 26 file)
    - Script di migration automatici
@@ -50,12 +61,20 @@ e
    - Success metrics
 
 3. **Documentazione Moduli Specifici:**
+<<<<<<< .merge_file_qtpdN3
    - **[User Module](../../Modules/User/docs/models/xotbasepivot-migration.md)** 🔴 Priorità ALTA
+=======
+   - **[User Module](../../../../User/docs/models/xotbasepivot-migration.md)** 🔴 Priorità ALTA
+>>>>>>> .merge_file_xgHHYc
      - 7 Pivot concreti
      - 45 minuti effort
      - Permission system, Teams, Devices
    
+<<<<<<< .merge_file_qtpdN3
    - **[Blog Module](../../Modules/Blog/docs/models/xotbasepivot-migration.md)** 🟡 Priorità MEDIA
+=======
+   - **[Blog Module](../../../../Blog/docs/models/xotbasepivot-migration.md)** 🟡 Priorità MEDIA
+>>>>>>> .merge_file_xgHHYc
      - 3 Pivot concreti
      - ⚠️ Caso speciale: SoftDeletes
      - Pattern a 3 livelli
@@ -109,8 +128,13 @@ e
 
 Leggere in ordine:
 1. [xotbasepivot-analysis.md](./xotbasepivot-analysis.md) - Capire il WHY
+<<<<<<< .merge_file_qtpdN3
 2. [xotbasepivot-strategy.md](./xotbasepivot-strategy.md) - Capire il HOW
 3. [User/xotbasepivot-migration.md](../../Modules/User/docs/models/xotbasepivot-migration.md) - Vedere esempio pratico
+=======
+2. [xotbasepivot-strategy.md](../../architecture/xotbasepivot-strategy.md) - Capire il HOW
+3. [User/xotbasepivot-migration.md](../../../../User/docs/models/xotbasepivot-migration.md) - Vedere esempio pratico
+>>>>>>> .merge_file_xgHHYc
 
 ### 2. Team Alignment (30 min)
 
@@ -121,7 +145,11 @@ Leggere in ordine:
 
 ### 3. Implementation (3-4 ore)
 
+<<<<<<< .merge_file_qtpdN3
 Seguire [xotbasepivot-strategy.md](./xotbasepivot-strategy.md) step-by-step:
+=======
+Seguire [xotbasepivot-strategy.md](../../architecture/xotbasepivot-strategy.md) step-by-step:
+>>>>>>> .merge_file_xgHHYc
 
 1. ✅ Creare XotBasePivot (30 min)
 2. ✅ Migrare User module (45 min)

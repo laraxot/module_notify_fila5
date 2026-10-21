@@ -22,7 +22,11 @@ discussions: []
 
 SuperMemory is the long-term and short-term memory and context infrastructure for AI agents. It provides persistent memory across conversations, semantic search, and knowledge graph capabilities.
 
+<<<<<<< .merge_file_ZF8hAf
 **Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
+=======
+**Master MCP Docs**: [Project MCP Servers](../../../../docs/MCP_SERVERS.md)
+>>>>>>> .merge_file_EQA6js
 
 ## Quick Start
 
@@ -215,9 +219,15 @@ supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 
 ## Related Documentation
 
+<<<<<<< .merge_file_ZF8hAf
 - **Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
 - **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/MCP_SERVERS.md)
 - **Theme MCP**: [Sixteen Theme MCP](../../Themes/Sixteen/docs/MCP_SERVERS.md)
+=======
+- **Master MCP Docs**: [Project MCP Servers](../../../../docs/MCP_SERVERS.md)
+- **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/MCP_SERVERS.md)
+- **Theme MCP**: [Sixteen Theme MCP](../../../Themes/Sixteen/docs/MCP_SERVERS.md)
+>>>>>>> .merge_file_EQA6js
 - **SuperMemory Skill**: [.qwen/skills/supermemory/](.qwen/skills/supermemory/)
 - **SuperMemory Console**: https://console.supermemory.ai
 

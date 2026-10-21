@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_Vde1sY
+=======
+status: draft
+>>>>>>> .merge_file_2KYQUF
 ---
 
 # Analisi Modelli, Factory e Seeder - Modulo Notify

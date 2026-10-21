@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "error analysis report"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UQngqA
+=======
+status: draft
+>>>>>>> .merge_file_7dcvpn
 ---
 
 # 🐛 ERROR ANALYSIS REPORT - FIXCITY
@@ -16,6 +20,7 @@ discussions: []
 **Causa**: Violazione regole XotBase + Filament 4  
 
 ---
+<<<<<<< .merge_file_UQngqA
 
 title: "error analysis report"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "error analysis report"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_7dcvpn
 ## 🔴 ERRORE PRINCIPALE
 
 ```

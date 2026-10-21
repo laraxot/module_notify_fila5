@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "excellence 2025"
 issues: []
 discussions: []
+<<<<<<< .merge_file_iGQlqy
+=======
+status: draft
+>>>>>>> .merge_file_CSzgIu
 ---
 
 # 🏆 FIXCITY - ECCELLENZA 2025
@@ -16,6 +20,7 @@ discussions: []
 **Obiettivo**: Piattaforma #1 per gestione segnalazioni urbane in Italia  
 
 ---
+<<<<<<< .merge_file_iGQlqy
 
 title: "excellence 2025"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "excellence 2025"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_CSzgIu
 ## 🎯 VISIONE
 
 FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:

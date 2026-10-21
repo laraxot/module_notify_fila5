@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "PROJECT"
 issues: []
 discussions: []
+<<<<<<< .merge_file_czoKUG
+=======
+status: draft
+>>>>>>> .merge_file_wo2Pze
 ---
 
 # PROJECT: FixCity Platform

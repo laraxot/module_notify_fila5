@@ -63,9 +63,15 @@ docs/
 
 ### Riferimenti
 
+<<<<<<< .merge_file_NTDtxr
 - [Schema Wiki](./docs/.schema/wiki-schema.md) - Istruzioni per l'LLM
 - [Index Globale](./docs/wiki/index.md) - Catalogo di tutte le wiki
 - [Log](./docs/log.md) - Cronologia delle operazioni
+=======
+- [Schema Wiki](../../../.schema/wiki-schema.md) - Istruzioni per l'LLM
+- [Index Globale](../../index.md) - Catalogo di tutte le wiki
+- [Log](../../../log.md) - Cronologia delle operazioni
+>>>>>>> .merge_file_JBLJcI
 
 ### Workflow
 

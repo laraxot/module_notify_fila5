@@ -31,5 +31,10 @@ Modulo dedicato al tracciamento e gestione delle attività utente, log, auditing
 ---
 
 ## Altri collegamenti
+<<<<<<< .merge_file_5K2VIY
 - [Documentazione generale Activity](../../Modules/Activity/docs/readme.md)
 - [Roadmap Activity](../../Modules/Activity/docs/roadmap.md)
+=======
+- [Documentazione generale Activity](../../../Activity/docs/readme.md)
+- [Roadmap Activity](../../../Activity/docs/roadmap.md)
+>>>>>>> .merge_file_DYMZDG

@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_gaRtKu
+=======
+status: draft
+>>>>>>> .merge_file_Pkz6X8
 ---
 
 # ✅ Header Notify Fixato - 100% Conforme Bootstrap Italia

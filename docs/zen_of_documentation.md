@@ -93,7 +93,11 @@ Ogni documento deve essere:
 
 ```bash
 # ❌ CATTIVO
+<<<<<<< .merge_file_LkoFmd
 phpstan-analysis-2026-03-02.md
+=======
+phpstan-analysis-level-report.md
+>>>>>>> .merge_file_hvsPVf
 session-report-january.md
 achievement-2025-10-10.md
 
@@ -385,8 +389,13 @@ python scripts/run.py ask_question.py \
 
 ## 📚 Risorse Correlate
 
+<<<<<<< .merge_file_LkoFmd
 - [Documentation Governance](../../docs/DOCUMENTATION_GOVERNANCE.md)
 - [Multi-Agent Collaboration](../../docs/MULTI_AGENT_COLLABORATION.md)
+=======
+- [Documentation Governance](DOCUMENTATION_GOVERNANCE.md)
+- [Multi-Agent Collaboration](MULTI_AGENT_COLLABORATION.md)
+>>>>>>> .merge_file_hvsPVf
 - [Filament Blocks System](../blocks/content-blocks-system.md)
 - [OpenViking Global Context](../../bashscripts/ai/openviking.md)
 

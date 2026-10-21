@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "NOTEBOOKLM INSTALLATION SUMMARY"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MlGAZl
+=======
+status: draft
+>>>>>>> .merge_file_42CaD5
 ---
 
 # NotebookLM Skill - Installation & Integration Summary
@@ -360,6 +364,7 @@ DEFAULT_NOTEBOOK_ID=ptv-project-docs
 - **GitHub**: https://github.com/PleasePrompto/notebooklm-skill
 
 ---
+<<<<<<< .merge_file_MlGAZl
 
 title: "NOTEBOOKLM INSTALLATION SUMMARY"
 type: note
@@ -369,6 +374,8 @@ updated: 2026-09-26
 qmd: "NOTEBOOKLM INSTALLATION SUMMARY"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_42CaD5
 **Status**: ✅ Ready for authentication and notebook creation  
 **Last Updated**: 2026-03-30  
 **Integrated By**: AI Agent (BMAD + GSD + Ralph Workflow)

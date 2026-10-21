@@ -522,8 +522,13 @@ Amen.
 ## Riferimenti
 
 ### Documenti Progetto
+<<<<<<< .merge_file_L9OP8v
 - [docs/token-optimization.md](../../docs/token-optimization.md) — Tecniche generali
 - [docs/ai-agents/token-efficiency.md](../../docs/ai-agents/token-efficiency.md) — Regole OpenAI
+=======
+- [docs/token-optimization.md](token-optimization.md) — Tecniche generali
+- [docs/ai-agents/token-efficiency.md](ai-agents/token-efficiency.md) — Regole OpenAI
+>>>>>>> .merge_file_Eo38FA
 - [.qwen/memories/auto-label-religion.md](../memories/auto-label-religion.md) — Regola auto-label
 
 ### Fonti Esterne

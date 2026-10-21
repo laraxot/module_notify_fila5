@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "test smtp page"
 issues: []
 discussions: []
+<<<<<<< .merge_file_oOfjMO
+=======
+status: draft
+>>>>>>> .merge_file_WcX2bN
 ---
 
 # Test smtp page
@@ -32,6 +36,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 Inseriti le varie impostazioni, si potrà verificare il funzionamento di una determinata configurazione email.
 
 ---
+<<<<<<< .merge_file_oOfjMO
 
 title: "test smtp page"
 type: note
@@ -41,3 +46,5 @@ updated: 2026-09-26
 qmd: "test smtp page"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_WcX2bN

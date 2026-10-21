@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "template improvement"
 issues: []
 discussions: []
+<<<<<<< .merge_file_bl19O5
+=======
+status: draft
+>>>>>>> .merge_file_gNedDr
 ---
 
 # Roadmap Implementazione Sistema Avanzato di Template Email

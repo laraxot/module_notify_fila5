@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "METODI DUPLICATI ANALISI GLOBALE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Ffx1Xu
+=======
+status: draft
+>>>>>>> .merge_file_XVYKsA
 ---
 
 # 🐮 ANALISI GLOBALE METODI DUPLICATI
@@ -17,6 +21,7 @@ discussions: []
 **Opportunità Totali**: 76
 
 ---
+<<<<<<< .merge_file_Ffx1Xu
 
 title: "METODI DUPLICATI ANALISI GLOBALE"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "METODI DUPLICATI ANALISI GLOBALE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_XVYKsA
 ## 🎯 Executive Summary
 
 ### 💰 Impatto Economico

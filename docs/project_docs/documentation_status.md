@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "documentation status"
 issues: []
 discussions: []
+<<<<<<< .merge_file_4ui3nY
+=======
+status: draft
+>>>>>>> .merge_file_79vUCE
 ---
 
 # 📚 DOCUMENTATION STATUS - Ottobre 2025
@@ -16,6 +20,7 @@ discussions: []
 **Priorità**: ALTA  
 
 ---
+<<<<<<< .merge_file_4ui3nY
 
 title: "documentation status"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "documentation status"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_79vUCE
 ## 🎯 EXECUTIVE SUMMARY
 
 Stato della documentazione del progetto FixCity aggiornato a Ottobre 2025. La documentazione è in fase di

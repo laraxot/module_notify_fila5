@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_T0WV1Q
+=======
+status: draft
+>>>>>>> .merge_file_V3Zho9
 ---
 
 # 🎨 UI/UX Pro Max Skills - Integration Guide

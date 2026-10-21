@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_hDAYsK
+=======
+status: draft
+>>>>>>> .merge_file_k2npB8
 ---
 
 # Piano di Refactor DRY/KISS - Documentazione Modulo Notify
@@ -88,7 +92,11 @@ Applicare convenzioni consistenti:
 - **Gerarchici**: Struttura cartelle logica
 
 #### Esempi Trasformazioni
+<<<<<<< .merge_file_hDAYsK
 - `analisi-dettagliata-1.md` → `architecture/detailed-analysis.md`
+=======
+- `analisi-dettagliata-architettura-struttura.md` → `architecture/detailed-analysis.md`
+>>>>>>> .merge_file_k2npB8
 - `email-templates-spatie.md` → `integrations/spatie-email.md`
 - `sms_netfun_channel.md` → `sms/netfun-provider.md`
 

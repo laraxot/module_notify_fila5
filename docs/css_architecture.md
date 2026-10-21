@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "css architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_RIkuxu
+=======
+status: draft
+>>>>>>> .merge_file_PsKyuP
 ---
 
 # 📚 Documentazione Finale - Sixteen Theme CSS Architecture
@@ -181,6 +185,7 @@ class="btn btn-outline-primary btn-sm"
 - [AGID Design System](https://www.agid.gov.it/it/design-sviluppo/design-system)
 
 ---
+<<<<<<< .merge_file_RIkuxu
 
 title: "css architecture"
 type: note
@@ -190,6 +195,8 @@ updated: 2026-09-26
 qmd: "css architecture"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_PsKyuP
 **Ultimo Aggiornamento**: 2026-03-31  
 **Tema**: Sixteen v1.0  
 **Framework**: Bootstrap Italia 2.8.8 + Tailwind CSS 4.x + Filament 5.x
