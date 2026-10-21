@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "TAILWIND CONVERSION COMPLETE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_iZCrdK
+=======
+status: draft
+>>>>>>> .merge_file_9GpiKJ
 ---
 
 # 🎨 TAILWIND CONVERSION COMPLETE - Design Comuni
@@ -16,6 +20,7 @@ discussions: []
 **Status**: ✅ HOMEPAGE COMPLETA  
 
 ---
+<<<<<<< .merge_file_iZCrdK
 
 title: "TAILWIND CONVERSION COMPLETE"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "TAILWIND CONVERSION COMPLETE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_9GpiKJ
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Convertito il design Bootstrap Italia dei Comuni in **Tailwind CSS puro**!

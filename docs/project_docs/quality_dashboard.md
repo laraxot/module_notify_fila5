@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "quality dashboard"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XZCmCi
+=======
+status: draft
+>>>>>>> .merge_file_Fum36z
 ---
 
 # 📊 Quality Dashboard - FixCity Project
@@ -16,6 +20,7 @@ discussions: []
 **Status:** 🟢 Excellent
 
 ---
+<<<<<<< .merge_file_XZCmCi
 
 title: "quality dashboard"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "quality dashboard"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Fum36z
 ## 🎯 Overall Quality Score: **94.5%** (A+)
 
 ```

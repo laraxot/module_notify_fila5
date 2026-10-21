@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "project status"
 issues: []
 discussions: []
+<<<<<<< .merge_file_9pkZqA
+=======
+status: draft
+>>>>>>> .merge_file_58TJJS
 ---
 
 # FixCity Platform - Project Status Report
@@ -183,6 +187,7 @@ discussions: []
 - [ ] ISO 27001 (planned)
 
 ---
+<<<<<<< .merge_file_9pkZqA
 
 title: "project status"
 type: note
@@ -192,6 +197,8 @@ updated: 2026-09-26
 qmd: "project status"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_58TJJS
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
 **Contact**: development@fixcity.io

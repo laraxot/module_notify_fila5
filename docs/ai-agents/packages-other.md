@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "packages other"
 issues: []
 discussions: []
+<<<<<<< .merge_file_CGBPLL
+=======
+status: draft
+>>>>>>> .merge_file_uNXZEA
 ---
 
 # Pacchetti Altri — Riferimento
@@ -54,6 +58,7 @@ php artisan module:make-action MyAction --module=Job
 ```
 
 ---
+<<<<<<< .merge_file_CGBPLL
 
 title: "packages other"
 type: note
@@ -63,6 +68,8 @@ updated: 2026-09-26
 qmd: "packages other"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_uNXZEA
 ## File e media
 
 ### pbmedia/laravel-ffmpeg 8.8.0

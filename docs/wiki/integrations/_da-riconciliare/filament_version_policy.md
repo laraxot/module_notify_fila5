@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_gIF8Wu
+=======
+status: draft
+>>>>>>> .merge_file_YnYGMl
 ---
 
 # 🎯 Filament Version Policy - ALWAYS LATEST

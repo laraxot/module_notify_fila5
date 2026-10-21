@@ -16,6 +16,10 @@ related:
   - ../../notifications/readme.md
   - ../../integrations/readme.md
   - ../../templates/readme.md
+<<<<<<< .merge_file_H3sshC
+=======
+status: draft
+>>>>>>> .merge_file_QKlCvI
 ---
 # Guide di Sviluppo
 

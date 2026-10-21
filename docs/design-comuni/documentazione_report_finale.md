@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "documentazione report finale"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dzgU9o
+=======
+status: draft
+>>>>>>> .merge_file_VLujxI
 ---
 
 # Report Aggiornamento Documentazione Design Comuni FAQ
@@ -20,6 +24,7 @@ Aggiornamento completo della documentazione per la pagina FAQ del progetto Desig
 - **Stato**: ✅ COMPLETATO
 
 ---
+<<<<<<< .merge_file_dzgU9o
 
 title: "documentazione report finale"
 type: note
@@ -29,6 +34,8 @@ updated: 2026-09-26
 qmd: "documentazione report finale"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_VLujxI
 ## 📚 Documenti Creati
 
 ### 1. Modulo Cms

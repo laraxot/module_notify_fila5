@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "workflow"
 issues: []
 discussions: []
+<<<<<<< .merge_file_C6pMqF
+=======
+status: draft
+>>>>>>> .merge_file_Kctoi8
 ---
 
 # 🦸 Superpowers Workflow Guide
@@ -16,6 +20,7 @@ discussions: []
 > **Version**: v5.0.6
 
 ---
+<<<<<<< .merge_file_C6pMqF
 
 title: "workflow"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "workflow"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Kctoi8
 ## 📋 Overview
 
 The Superpowers workflow is a structured development process that ensures quality through:

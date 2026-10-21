@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "README ANALISI DUPLICATI"
 issues: []
 discussions: []
+<<<<<<< .merge_file_FkH2EG
+=======
+status: draft
+>>>>>>> .merge_file_hIE9LN
 ---
 
 # 🐄 Analisi Metodi Duplicati - Guida Rapida
@@ -232,6 +236,7 @@ A: 5 settimane totali, ma benefici visibili già dopo Fase 1.
 - **Team Lead**: [Da definire]
 
 ---
+<<<<<<< .merge_file_FkH2EG
 
 title: "README ANALISI DUPLICATI"
 type: note
@@ -241,6 +246,8 @@ updated: 2026-09-26
 qmd: "README ANALISI DUPLICATI"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_hIE9LN
 **🐄 Super Mucca Approved**: Documento basato su analisi REALE del codice con confidenza 99.9%.
 
 **Ultima Revisione**: 15 Ottobre 2025

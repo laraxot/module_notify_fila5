@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "database and models"
 issues: []
 discussions: []
+<<<<<<< .merge_file_FByQuy
+=======
+status: draft
+>>>>>>> .merge_file_4pRrc9
 ---
 
 # 5. Database & Models
@@ -95,6 +99,7 @@ This ensures APP_URL and all other variables remain identical to .env.
 **CRITICAL RULE FOR TestCase:** NEVER duplicate database connection configuration in setUp() because CreatesApplication already handles it automatically.
 
 ---
+<<<<<<< .merge_file_FByQuy
 
 title: "database and models"
 type: note
@@ -104,3 +109,5 @@ updated: 2026-09-26
 qmd: "database and models"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_4pRrc9

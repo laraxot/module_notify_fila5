@@ -16,6 +16,10 @@ related:
   - ../conventions/README.md
   - README.md
   - ../best-practices/naming-conventions.md
+<<<<<<< .merge_file_YHz3lZ
+=======
+status: draft
+>>>>>>> .merge_file_JEd5EU
 ---
 # No Bootstrap Italia Rule
 

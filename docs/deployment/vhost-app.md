@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "vhost app"
 issues: []
 discussions: []
+<<<<<<< .merge_file_hzv95q
+=======
+status: draft
+>>>>>>> .merge_file_cE57fm
 ---
 
 # Apache VirtualHost - laraxot.local
@@ -16,6 +20,7 @@ discussions: []
 **Server**: Apache 2.4.64 (Ubuntu)
 
 ---
+<<<<<<< .merge_file_hzv95q
 
 title: "vhost app"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "vhost app"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_cE57fm
 ## Configuration Summary
 
 | Parametro | Valore |

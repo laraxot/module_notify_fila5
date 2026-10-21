@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "iflow contributing"
 issues: []
 discussions: []
+<<<<<<< .merge_file_lZXi8g
+=======
+status: draft
+>>>>>>> .merge_file_yW541d
 ---
 
 # IFLOW Contributing
@@ -14,6 +18,7 @@ discussions: []
 Come contribuire al progetto.
 
 ---
+<<<<<<< .merge_file_lZXi8g
 
 title: "iflow contributing"
 type: note
@@ -23,6 +28,8 @@ updated: 2026-09-26
 qmd: "iflow contributing"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_yW541d
 ## 🤝 Come Contribuire
 
 > Anche se è la tua prima volta, il tuo contributo è benvenuto!

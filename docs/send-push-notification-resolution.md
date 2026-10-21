@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "send push notification resolution"
 issues: []
 discussions: []
+<<<<<<< .merge_file_suIAqn
+=======
+status: draft
+>>>>>>> .merge_file_0gGwVd
 ---
 
 # Risoluzione conflitto git su SendPushNotification.php

@@ -16,6 +16,10 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+<<<<<<< .merge_file_eqoxo6
+=======
+status: draft
+>>>>>>> .merge_file_0HkTNb
 ---
 # 🦸 Superpowers - Agentic Skills Framework
 

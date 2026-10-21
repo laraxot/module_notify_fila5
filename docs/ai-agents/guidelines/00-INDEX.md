@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+<<<<<<< .merge_file_05F35R
+=======
+status: draft
+>>>>>>> .merge_file_SdhGgk
 ---
 
 # 📖 Guidelines Index
@@ -17,6 +21,7 @@ discussions: []
 **Files**: 2 guidelines
 
 ---
+<<<<<<< .merge_file_05F35R
 
 title: "00 INDEX"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_SdhGgk
 ## 🎯 Purpose
 
 Guidelines sono **best practices** e **raccomandazioni** per AI agents.  

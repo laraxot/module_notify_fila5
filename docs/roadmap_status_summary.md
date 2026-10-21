@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "roadmap status summary"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UW9Dpg
+=======
+status: draft
+>>>>>>> .merge_file_kEnBRx
 ---
 
 # 📊 ROADMAP STATUS SUMMARY - Ottobre 2025
@@ -19,6 +23,7 @@ discussions: []
 **Production Status**: 🚧 STAGING READY  
 
 ---
+<<<<<<< .merge_file_UW9Dpg
 
 title: "roadmap status summary"
 type: note
@@ -28,6 +33,8 @@ updated: 2026-09-26
 qmd: "roadmap status summary"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_kEnBRx
 ## 🎯 EXECUTIVE SUMMARY
 
 Siamo nella Fase 2 della roadmap master (Q4 2025). La Fase 1 (Performance & Stability) è stata completata

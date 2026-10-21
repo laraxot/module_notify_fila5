@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "integrazioni"
 issues: []
 discussions: []
+<<<<<<< .merge_file_U3kNVH
+=======
+status: draft
+>>>>>>> .merge_file_zi20Rn
 ---
 
 # Integrazioni

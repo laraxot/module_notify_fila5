@@ -16,6 +16,10 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - ../best-practices/naming-conventions.md
+<<<<<<< .merge_file_VfQJCg
+=======
+status: draft
+>>>>>>> .merge_file_rRuVzO
 ---
 # Struttura di Configurazione nei Moduli
 # Struttura di Configurazione nei Moduli <nome progetto>

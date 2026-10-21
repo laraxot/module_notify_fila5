@@ -10,6 +10,7 @@ type: decision-log
 module: Notify
 related:
   - ./livewire-inventory.md
+status: draft
 ---
 
 # Decision log

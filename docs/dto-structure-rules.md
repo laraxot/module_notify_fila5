@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "dto structure rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_9sNDAX
+=======
+status: draft
+>>>>>>> .merge_file_KGOHYc
 ---
 
 # Regole per la Struttura dei DTO

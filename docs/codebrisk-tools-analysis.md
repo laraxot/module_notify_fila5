@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "codebrisk tools analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nXBTp5
+=======
+status: draft
+>>>>>>> .merge_file_dReM9F
 ---
 
 # Analisi Tool CodeBrisk per Email in Laravel
@@ -14,6 +18,7 @@ discussions: []
 Questo documento analizza in dettaglio tre risorse del blog CodeBrisk e i relativi package, con vantaggi, svantaggi, snippet di implementazione e consigli d’uso.
 
 ---
+<<<<<<< .merge_file_nXBTp5
 title: "codebrisk tools analysis"
 type: note
 tags: [documentation]
@@ -22,6 +27,8 @@ updated: 2026-09-26
 qmd: "codebrisk tools analysis"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_dReM9F
 ## 1. Laravel Mailator
 Link: https://codebrisk.com/blog/laravel-mailator-for-configuring-email-scheduler-templates
 Package: `binarcode/laravel-mailator`

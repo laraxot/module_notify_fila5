@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament extension pattern analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Fb0AlK
+=======
+status: draft
+>>>>>>> .merge_file_aRsmpZ
 ---
 
 # Analisi del Pattern di Estensione per Componenti Filament

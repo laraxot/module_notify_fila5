@@ -259,8 +259,13 @@ php artisan translation:extract
 
 ## Collegamenti
 
+<<<<<<< .merge_file_EpBpaL
 - [Best Practices](./best-practices.md)
 - [Filament Translations](../filament/translations.md)
+=======
+- [Best Practices](../../../best-practices.md)
+- [Filament Translations](../../../translations.md)
+>>>>>>> .merge_file_4uc87E
 - [Troubleshooting Translations](../../troubleshooting/errors/translation-errors.md)
 - [Module Translations](../../modules/lang/)
 

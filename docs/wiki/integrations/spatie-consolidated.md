@@ -40,11 +40,19 @@ qmd: "spatie-email-slug-proposal-1 proposta: aggiunta slug a spatieemail e mailt
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_MiXIlM
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_ewAK8Z
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -296,11 +304,19 @@ Nonostante i potenziali svantaggi, i benefici superano i costi di implementazion
 ## Collegamenti Correlati
 
 - [Documentazione Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
+<<<<<<< .merge_file_MiXIlM
 - [Sistema di Template Email](./email-templates.md)
 - [Email per i Dottori](./doctor-emails.md)
 - [Sistema di Template Email](./email-templates.md)
 - [Email per i Dottori](./doctor-emails-1.md)
 - [Filament Resources](./filament-resources.md)
+=======
+- [Sistema di Template Email](../../email-templates.md)
+- [Email per i Dottori](../../doctor-emails.md)
+- [Sistema di Template Email](../../email-templates.md)
+- [Email per i Dottori](./doctor-emails-1.md)
+- [Filament Resources](../../filament-resources.md)
+>>>>>>> .merge_file_ewAK8Z
 
 ## Implementazione Migrazione
 
@@ -585,9 +601,15 @@ Nonostante i potenziali svantaggi, i benefici superano i costi di implementazion
 ## Collegamenti Correlati
 
 - [Documentazione Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
+<<<<<<< .merge_file_MiXIlM
 - [Sistema di Template Email](./EMAIL_TEMPLATES.md)
 - [Email per i Dottori](./DOCTOR_EMAILS.md)
 - [Filament Resources](./filament-resources.md)
+=======
+- [Sistema di Template Email](../../email_templates.md)
+- [Email per i Dottori](../../doctor_emails.md)
+- [Filament Resources](../../filament-resources.md)
+>>>>>>> .merge_file_ewAK8Z
 
 ## Implementazione Migrazione
 
@@ -637,11 +659,19 @@ qmd: "spatie-email-usage-guide-1 guida all'utilizzo di spatieemail"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_MiXIlM
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_ewAK8Z
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -656,11 +686,19 @@ Questa guida illustra come utilizzare la classe `SpatieEmail` per inviare email 
 ## Collegamenti correlati
 
 - [README del modulo Notify](./README.md)
+<<<<<<< .merge_file_MiXIlM
 - [Documentazione Email Templates](./email-templates.md)
 - [Email Specifiche per Dottori](./doctor-emails.md)
 - [Implementazione Database Mail](./database-mail.md)
 - [Documentazione Centrale](../../../../docs/collegamenti-documentazione.md)
 - [Modulo Xot](../../../Xot/docs/README.md)
+=======
+- [Documentazione Email Templates](../../email-templates.md)
+- [Email Specifiche per Dottori](../../doctor-emails.md)
+- [Implementazione Database Mail](../../database-mail.md)
+- [Documentazione Centrale](../../../../docs/collegamenti-documentazione.md)
+- [Modulo Xot](../../../../Xot/docs/README.md)
+>>>>>>> .merge_file_ewAK8Z
 
 ## Implementazione attuale
 
@@ -929,11 +967,19 @@ Questa guida illustra come utilizzare la classe `SpatieEmail` per inviare email 
 ## Collegamenti correlati
 
 - [README del modulo Notify](./README.md)
+<<<<<<< .merge_file_MiXIlM
 - [Documentazione Email Templates](./EMAIL_TEMPLATES.md)
 - [Email Specifiche per Dottori](./DOCTOR_EMAILS.md)
 - [Implementazione Database Mail](./database-mail.md)
 - [Documentazione Centrale](../../../../docs/collegamenti-documentazione.md)
 - [Modulo Xot](../../../Xot/docs/README.md)
+=======
+- [Documentazione Email Templates](../../email_templates.md)
+- [Email Specifiche per Dottori](../../doctor_emails.md)
+- [Implementazione Database Mail](../../database-mail.md)
+- [Documentazione Centrale](../../../../docs/collegamenti-documentazione.md)
+- [Modulo Xot](../../../../Xot/docs/README.md)
+>>>>>>> .merge_file_ewAK8Z
 
 ## Implementazione attuale
 
@@ -1203,11 +1249,19 @@ Questa guida illustra come utilizzare la classe `SpatieEmail` per inviare email 
 ## Collegamenti correlati
 
 - [README del modulo Notify](./readme.md)
+<<<<<<< .merge_file_MiXIlM
 - [Documentazione Email Templates](./email_templates.md)
 - [Email Specifiche per Dottori](./doctor-emails.md)
 - [Implementazione Database Mail](./database-mail.md)
 - [Documentazione Centrale](../../../../../docs/collegamenti-documentazione.md)
 - [Modulo Xot](../../../xot/docs/readme.md)
+=======
+- [Documentazione Email Templates](../../email_templates.md)
+- [Email Specifiche per Dottori](../../doctor-emails.md)
+- [Implementazione Database Mail](../../database-mail.md)
+- [Documentazione Centrale](../../../../../docs/collegamenti-documentazione.md)
+- [Modulo Xot](../../../../Xot/docs/README.md)
+>>>>>>> .merge_file_ewAK8Z
 
 ## Implementazione attuale
 
@@ -1605,7 +1659,11 @@ Nel form di edit/create:
 ### Errore: Plugin Not Registered
 
 **Causa**: Plugin non registrato nel panel  
+<<<<<<< .merge_file_MiXIlM
 **Soluzione**: Vedere [plugin-spatie-translatable-not-registered.md](./errori/plugin-spatie-translatable-not-registered.md)
+=======
+**Soluzione**: Vedere [plugin-spatie-translatable-not-registered.md](../../errori/plugin-spatie-translatable-not-registered.md)
+>>>>>>> .merge_file_ewAK8Z
 
 ### Errore: Undefined Method `getTranslation()`
 
@@ -1729,8 +1787,13 @@ Schema::table('mail_templates', function (Blueprint $table) {
 - [Spatie Laravel Translatable Docs](https://spatie.be/docs/laravel-translatable/v6/introduction)
 
 ### Documentazione Interna
+<<<<<<< .merge_file_MiXIlM
 - [Errore Plugin Not Registered](./errori/plugin-spatie-translatable-not-registered.md)
 - [Lang Module README](../../lang/docs/readme.md)
+=======
+- [Errore Plugin Not Registered](../../errori/plugin-spatie-translatable-not-registered.md)
+- [Lang Module README](../../../../Lang/docs/readme.md)
+>>>>>>> .merge_file_ewAK8Z
 - [Filament Panels Configuration](../../xot/docs/filament/panel-configuration.md)
 
 ---
@@ -1992,9 +2055,15 @@ Nonostante i potenziali svantaggi, i benefici superano i costi di implementazion
 ## Collegamenti Correlati
 
 - [Documentazione Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
+<<<<<<< .merge_file_MiXIlM
 - [Sistema di Template Email](./EMAIL_TEMPLATES.md)
 - [Email per i Dottori](./DOCTOR_EMAILS.md)
 - [Filament Resources](./filament-resources.md)
+=======
+- [Sistema di Template Email](../../email_templates.md)
+- [Email per i Dottori](../../doctor_emails.md)
+- [Filament Resources](../../filament-resources.md)
+>>>>>>> .merge_file_ewAK8Z
 
 ## Implementazione Migrazione
 
@@ -2043,11 +2112,19 @@ Questa guida illustra come utilizzare la classe `SpatieEmail` per inviare email 
 ## Collegamenti correlati
 
 - [README del modulo Notify](./README.md)
+<<<<<<< .merge_file_MiXIlM
 - [Documentazione Email Templates](./EMAIL_TEMPLATES.md)
 - [Email Specifiche per Dottori](./DOCTOR_EMAILS.md)
 - [Implementazione Database Mail](./database-mail.md)
 - [Documentazione Centrale](../../../../docs/collegamenti-documentazione.md)
 - [Modulo Xot](../../../Xot/docs/README.md)
+=======
+- [Documentazione Email Templates](../../email_templates.md)
+- [Email Specifiche per Dottori](../../doctor_emails.md)
+- [Implementazione Database Mail](../../database-mail.md)
+- [Documentazione Centrale](../../../../docs/collegamenti-documentazione.md)
+- [Modulo Xot](../../../../Xot/docs/README.md)
+>>>>>>> .merge_file_ewAK8Z
 
 ## Implementazione attuale
 

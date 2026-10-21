@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "github issues workflow"
 issues: []
 discussions: []
+<<<<<<< .merge_file_YEl7Bb
+=======
+status: draft
+>>>>>>> .merge_file_QaJWaH
 ---
 
 # GitHub Issues - CORRECT WORKFLOW
@@ -14,6 +18,7 @@ discussions: []
 **CRITICAL RULE**: GitHub Issues e Discussions si creano **ONLINE** su GitHub, NON come file locali!
 
 ---
+<<<<<<< .merge_file_YEl7Bb
 
 title: "github issues workflow"
 type: note
@@ -23,6 +28,8 @@ updated: 2026-09-26
 qmd: "github issues workflow"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_QaJWaH
 ## Repository
 
 - **URL**: https://github.com/laraxot/base_predict_fila5

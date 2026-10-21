@@ -8,11 +8,19 @@ qmd: "multi-agent-collaboration 🤖 multi-agent collaboration guide"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_YrGbQy
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_xT6kuK
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -448,8 +456,13 @@ ralph-loop stop \
 
 ## 🔗 Related Documents
 
+<<<<<<< .merge_file_YrGbQy
 - [Zen of Documentation](docs/zen-of-documentation.md)
 - [Documentation Governance](docs/documentation-governance.md)
+=======
+- [Zen of Documentation](zen-of-documentation.md)
+- [Documentation Governance](documentation-governance.md)
+>>>>>>> .merge_file_xT6kuK
 - [OpenViking Context](.qwen/openviking-context.md)
 - [BMAD Thread]( _bmad/threads/zen-documentation.md)
 - [GSD Phases](.planning/phases/)

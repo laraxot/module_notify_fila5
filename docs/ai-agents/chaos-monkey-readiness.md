@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "chaos monkey readiness"
 issues: []
 discussions: []
+<<<<<<< .merge_file_o2KZJK
+=======
+status: draft
+>>>>>>> .merge_file_DIFhMN
 ---
 
 # Chaos Monkey Readiness - LaravelPizza
@@ -44,5 +48,9 @@ bashscripts/ai/chaos-readiness-check.sh
 - Theme: `laravel/Themes/Meetup/docs/chaos-monkey-incident-playbook.md`
 
 ## Package Intelligence
+<<<<<<< .merge_file_o2KZJK
 - Global package risk map: `./package-risk-matrix-2026-03-02.md`
+=======
+- Global package risk map: `./package-risk-matrix.md`
+>>>>>>> .merge_file_DIFhMN
 - Full package inventory: `laravel/Modules/Xot/docs/composer-packages-deep-study-2026-03-02.md`

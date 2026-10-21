@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "smsriver selection"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ZArO1R
+=======
+status: draft
+>>>>>>> .merge_file_LB3vlY
 ---
 
 # Analisi: Spostamento Logica Selezione Driver in SmsData

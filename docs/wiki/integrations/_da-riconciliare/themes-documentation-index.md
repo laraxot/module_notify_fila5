@@ -8,11 +8,19 @@ qmd: "themes-documentation-index theme documentation master index"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_IjyZZR
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "../../../00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "../../../acronym-naming-conventions.md"
+>>>>>>> .merge_file_NDuav0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -36,7 +44,11 @@ Connects all theme docs with bidirectional links and visual architecture.
 **Tech Stack:** Tailwind CSS + Alpine.js + Livewire Volt
 
 **Core Documentation:**
+<<<<<<< .merge_file_IjyZZR
 - [00-index-1.md](../laravel/Themes/Sixteen/docs/00-index-1.md) - Start here
+=======
+- [00-index-1.md](../../../00-index-documentation.md) - Start here
+>>>>>>> .merge_file_NDuav0
 - [Design Comuni Integration](../laravel/Themes/Sixteen/docs/design-comuni-integration.md)
 - [Component Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md)
 - [Layout Architecture](../laravel/Themes/Sixteen/docs/layout-hierarchy.md)
@@ -468,7 +480,11 @@ public_html/assets/
 
 - **Architecture Diagrams:** [architecture-diagrams.md](architecture-diagrams.md)
 - **Module Docs Index:** [module-docs-index.md](module-docs-index.md)
+<<<<<<< .merge_file_IjyZZR
 - **Master Index:** [00-index-1.md](../laravel/Themes/Sixteen/docs/00-index-1.md)
+=======
+- **Master Index:** [00-index-1.md](../../../00-index-documentation.md)
+>>>>>>> .merge_file_NDuav0
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules:** [../laravel/claude.md](../laravel/claude.md)
 

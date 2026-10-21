@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "ralph loop execution"
 issues: []
 discussions: []
+<<<<<<< .merge_file_HuAc2K
+=======
+status: draft
+>>>>>>> .merge_file_f1HyoQ
 ---
 
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix
@@ -15,6 +19,7 @@ discussions: []
 ## Goal: Allineare homepage FixCity a Bootstrap Italia reference
 
 ---
+<<<<<<< .merge_file_HuAc2K
 
 title: "ralph loop execution"
 type: note
@@ -24,6 +29,8 @@ updated: 2026-09-26
 qmd: "ralph loop execution"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_f1HyoQ
 ## Iteration 1: Header Slim Component
 
 ### Task

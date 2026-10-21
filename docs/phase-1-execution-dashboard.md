@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "phase 1 execution dashboard"
 issues: []
 discussions: []
+<<<<<<< .merge_file_H87aWb
+=======
+status: draft
+>>>>>>> .merge_file_sblFnM
 ---
 
 # 🎯 PHASE 1 EXECUTION DASHBOARD
@@ -18,6 +22,7 @@ discussions: []
 **Scope**: segnalazioni-elenco → 90% HTML Parity
 
 ---
+<<<<<<< .merge_file_H87aWb
 
 title: "phase 1 execution dashboard"
 type: note
@@ -27,6 +32,8 @@ updated: 2026-09-26
 qmd: "phase 1 execution dashboard"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_sblFnM
 ## 🚨 CURRENT STATUS
 
 | Component | Status | Progress | ETA |

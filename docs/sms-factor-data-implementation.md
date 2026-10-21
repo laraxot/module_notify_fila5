@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "sms factor data implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_lrkMoi
+=======
+status: draft
+>>>>>>> .merge_file_wsJKPM
 ---
 
 # SmsFactorData Implementation Summary

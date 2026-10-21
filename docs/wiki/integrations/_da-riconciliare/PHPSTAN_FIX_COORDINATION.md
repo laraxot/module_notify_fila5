@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_j4YT8M
+=======
+status: draft
+>>>>>>> .merge_file_81L0p4
 ---
 
 # PHPStan Fix Coordination Plan

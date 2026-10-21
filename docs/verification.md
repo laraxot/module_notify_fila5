@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_RzQty3
+=======
+status: draft
+>>>>>>> .merge_file_Jo1IZw
 ---
 
 # Verification Report - Compliance and XotBase Refactoring

@@ -170,12 +170,20 @@ discussions: []
    - Testing strategy
    - Rollback plan
 
+<<<<<<< .merge_file_eUGN0t
 5. **[User Module Guide](../Modules/User/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
+=======
+5. **[User Module Guide](../../User/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
+>>>>>>> .merge_file_T3FQRX
    - 7 Pivot concreti
    - Permission system
    - Teams & Devices
 
+<<<<<<< .merge_file_eUGN0t
 6. **[Blog Module Guide](../Modules/Blog/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
+=======
+6. **[Blog Module Guide](../../Blog/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
+>>>>>>> .merge_file_T3FQRX
    - Caso speciale SoftDeletes
    - Pattern a 3 livelli
    - Best practices

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "SYNC REMOTE REPO TEST PLAN"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MxJtZj
+=======
+status: draft
+>>>>>>> .merge_file_keQbzK
 ---
 
 # Sync Remote Repo - Test Plan
@@ -17,6 +21,7 @@ discussions: []
 > **Date**: 2026-03-13
 
 ---
+<<<<<<< .merge_file_MxJtZj
 
 title: "SYNC REMOTE REPO TEST PLAN"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "SYNC REMOTE REPO TEST PLAN"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_keQbzK
 ## 🎯 Test Objectives
 
 ### Primary Goal

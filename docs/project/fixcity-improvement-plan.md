@@ -16,6 +16,10 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
+<<<<<<< .merge_file_MlJoYm
+=======
+status: draft
+>>>>>>> .merge_file_oYjiWc
 ---
 
 # FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop

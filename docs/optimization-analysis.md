@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "optimization analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_eV4bXc
+=======
+status: draft
+>>>>>>> .merge_file_LWiOmu
 ---
 
 # Analisi di Ottimizzazione - Modulo Notify
@@ -76,6 +80,7 @@ class NotificationTemplateCache
 - **Fase 4**: Delivery tracking e analytics
 
 ---
+<<<<<<< .merge_file_eV4bXc
 title: "optimization analysis"
 type: note
 tags: [documentation]
@@ -84,5 +89,7 @@ updated: 2026-09-26
 qmd: "optimization analysis"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_LWiOmu
 *Stato: 🟡 Funzionale ma Necessita Reliability Enhancement*
 

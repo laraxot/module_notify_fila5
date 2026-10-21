@@ -42,7 +42,11 @@ MCP (Model Context Protocol) servers enhance AI agent capabilities for:
 - **Purpose**: Long-term project memory for AI agents
 - **Container Tag**: `laraxot-sixteen`
 - **API Key**: Configured in `.env`
+<<<<<<< .merge_file_HgTF1X
 - **Documentation**: [Sixteen Theme SuperMemory Docs](../../laravel/Themes/Sixteen/docs/supermemory.md)
+=======
+- **Documentation**: [Sixteen Theme SuperMemory Docs](../../../../Themes/Sixteen/docs/supermemory.md)
+>>>>>>> .merge_file_Vlecy3
 
 ### 2. Context7 (✅ Installed - Context)
 - **Package**: `@upstash/context7-mcp`
@@ -90,7 +94,11 @@ docs/
 
 **Cross-References**:
 - [MCP Servers Detailed Docs](../../.qwen/mcp-servers/README.md)
+<<<<<<< .merge_file_HgTF1X
 - [Sixteen Theme SuperMemory](../../laravel/Themes/Sixteen/docs/supermemory.md)
+=======
+- [Sixteen Theme SuperMemory](../../../../Themes/Sixteen/docs/supermemory.md)
+>>>>>>> .merge_file_Vlecy3
 - [AI Workflow](ai-workflow/)
 - [Project Configuration](configuration.md)
 
@@ -153,7 +161,11 @@ npm run build && npm run copy
 
 - [Master Index](../README.md)
 - [MCP Servers Full Documentation](../../.qwen/mcp-servers/README.md)
+<<<<<<< .merge_file_HgTF1X
 - [Sixteen Theme SuperMemory](../../laravel/Themes/Sixteen/docs/supermemory.md)
+=======
+- [Sixteen Theme SuperMemory](../../../../Themes/Sixteen/docs/supermemory.md)
+>>>>>>> .merge_file_Vlecy3
 - [AI Workflow](ai-workflow/)
 - [Conventions](conventions/)
 

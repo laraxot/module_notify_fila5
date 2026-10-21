@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "netfun channel"
 issues: []
 discussions: []
+<<<<<<< .merge_file_hKNRzy
+=======
+status: draft
+>>>>>>> .merge_file_BkhMsv
 ---
 
 # Implementazione Canale Netfun

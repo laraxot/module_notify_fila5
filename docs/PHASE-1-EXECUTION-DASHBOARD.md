@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "PHASE 1 EXECUTION DASHBOARD"
 issues: []
 discussions: []
+<<<<<<< .merge_file_pZCcYn
+=======
+status: draft
+>>>>>>> .merge_file_iPixTn
 ---
 
 # 🎯 PHASE 1 EXECUTION DASHBOARD
@@ -18,6 +22,7 @@ discussions: []
 **Scope**: segnalazioni-elenco → 90% HTML Parity
 
 ---
+<<<<<<< .merge_file_pZCcYn
 
 title: "PHASE 1 EXECUTION DASHBOARD"
 type: note
@@ -27,6 +32,8 @@ updated: 2026-09-26
 qmd: "PHASE 1 EXECUTION DASHBOARD"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_iPixTn
 ## 🚨 CURRENT STATUS
 
 | Component | Status | Progress | ETA |

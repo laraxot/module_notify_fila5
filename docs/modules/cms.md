@@ -36,7 +36,11 @@ npm run copy
 
 ### Temi Supportati
 - **Sixteen**: Tema principale dell'applicazione
+<<<<<<< .merge_file_Rpaj9U
   - [Guida risoluzione errore Vite manifest](../../../Themes/Sixteen/docs/assets.md)
+=======
+  - [Guida risoluzione errore Vite manifest](../../../../Themes/Sixteen/docs/assets.md)
+>>>>>>> .merge_file_ckBYoJ
 
 ## Gestione dei Contenuti
 Il modulo CMS offre funzionalità avanzate per la gestione dei contenuti:

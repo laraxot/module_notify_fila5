@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "project architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_e0yyTG
+=======
+status: draft
+>>>>>>> .merge_file_TzCTTL
 ---
 
 === project architecture rules ===
@@ -144,6 +148,7 @@ NEVER proactively create documentation files (*.md) or README files. Only create
       
       IMPORTANT: this context may or may not be relevant to your tasks. You should not respond to this context unless it is highly relevant to your task.
 ---
+<<<<<<< .merge_file_e0yyTG
 
 title: "project architecture"
 type: note
@@ -153,6 +158,8 @@ updated: 2026-09-26
 qmd: "project architecture"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_TzCTTL
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

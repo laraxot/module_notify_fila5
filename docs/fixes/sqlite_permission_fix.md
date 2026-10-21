@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "sqlite permission fix"
 issues: []
 discussions: []
+<<<<<<< .merge_file_BHKkEb
+=======
+status: draft
+>>>>>>> .merge_file_zKbvN5
 ---
 
 # ✅ SQLite Database Permission Fix - COMPLETE
@@ -16,6 +20,7 @@ discussions: []
 **Error**: `SQLSTATE[HY000]: General error: 8 attempt to write a readonly database`
 
 ---
+<<<<<<< .merge_file_BHKkEb
 
 title: "sqlite permission fix"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "sqlite permission fix"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_zKbvN5
 ## 🚨 Error Details
 
 ### Original Error

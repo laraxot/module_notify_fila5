@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "header fix analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_wVhH0A
+=======
+status: draft
+>>>>>>> .merge_file_L2Tyj5
 ---
 
 # 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
@@ -15,6 +19,7 @@ discussions: []
 ## Problema: Header non conforme al reference
 
 ---
+<<<<<<< .merge_file_wVhH0A
 
 title: "header fix analysis"
 type: note
@@ -24,6 +29,8 @@ updated: 2026-09-26
 qmd: "header fix analysis"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_L2Tyj5
 ## 🔴 Problemi Identificati
 
 ### 1. Logo non visibile ❌

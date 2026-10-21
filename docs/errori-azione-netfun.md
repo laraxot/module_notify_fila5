@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "errori azione netfun"
 issues: []
 discussions: []
+<<<<<<< .merge_file_5lBj2R
+=======
+status: draft
+>>>>>>> .merge_file_XXlFJh
 ---
 
 # Analisi degli Errori in SendNetfunSMSAction

@@ -11,7 +11,11 @@ discussions: []
 
 # Project setup and running
 
+<<<<<<< .merge_file_kCIQTh
 > Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md)
+=======
+> Source: [IFLOW.md](../../../../../bashscripts/ai/IFLOW.md)
+>>>>>>> .merge_file_Z8EIZW
 > Back: [index](index.md)
 
 ## Prerequisites

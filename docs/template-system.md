@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "template system"
 issues: []
 discussions: []
+<<<<<<< .merge_file_zfyApK
+=======
+status: draft
+>>>>>>> .merge_file_dPSe27
 ---
 
 # Sistema Template Email

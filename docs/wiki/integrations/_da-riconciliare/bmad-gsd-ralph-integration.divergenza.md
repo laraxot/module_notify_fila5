@@ -8,6 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_Fsi8OV
+=======
+status: draft
+>>>>>>> .merge_file_SNOJk8
 ---
 
 # Divergenza: `bmad-gsd-ralph-integration.md`

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "tailwind email system"
 issues: []
 discussions: []
+<<<<<<< .merge_file_aOdAPh
+=======
+status: draft
+>>>>>>> .merge_file_nlLep8
 ---
 
 # Sistema Email con Tailwind CSS nel Modulo Notify

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "database patterns"
 issues: []
 discussions: []
+<<<<<<< .merge_file_LShOEB
+=======
+status: draft
+>>>>>>> .merge_file_u3euHd
 ---
 
 # Database patterns

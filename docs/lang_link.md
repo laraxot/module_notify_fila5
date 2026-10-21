@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "lang link"
 issues: []
 discussions: []
+<<<<<<< .merge_file_3lbD3n
+=======
+status: draft
+>>>>>>> .merge_file_l1KaxR
 ---
 
 # Collegamento alle Traduzioni del Modulo Notify

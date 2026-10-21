@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "contactcolumn errors and antipatterns"
 issues: []
 discussions: []
+<<<<<<< .merge_file_HBCPMS
+=======
+status: draft
+>>>>>>> .merge_file_cl9aRR
 ---
 
 # ContactColumn.php - Errori Critici e Anti-Pattern (Modulo Notify)
@@ -227,6 +231,7 @@ Implementare ContactColumn che:
 - [Accessibilità WCAG 2.1](https://www.w3.org/WAI/WCAG21/quickref/)
 
 ---
+<<<<<<< .merge_file_HBCPMS
 
 title: "contactcolumn errors and antipatterns"
 type: note
@@ -236,6 +241,8 @@ updated: 2026-09-26
 qmd: "contactcolumn errors and antipatterns"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_cl9aRR
 *Audit completato: 2025-08-01*  
 *Gravità: CRITICA*  
 *Stato: REFACTOR RICHIESTO*  

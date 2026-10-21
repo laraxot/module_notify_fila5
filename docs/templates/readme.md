@@ -9,5 +9,9 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./module-readme-template.md"
+<<<<<<< .merge_file_AdhoEs
+=======
+status: draft
+>>>>>>> .merge_file_rijTTA
 ---
 

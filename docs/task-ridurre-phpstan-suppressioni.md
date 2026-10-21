@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "task ridurre phpstan suppressioni"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Y1uvdk
+=======
+status: draft
+>>>>>>> .merge_file_FSQ74r
 ---
 
 # Task: Ridurre Suppressioni PHPStan Inline - Notify
@@ -16,6 +20,7 @@ discussions: []
 **Completamento**: 0%
 
 ---
+<<<<<<< .merge_file_Y1uvdk
 
 title: "task ridurre phpstan suppressioni"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "task ridurre phpstan suppressioni"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_FSQ74r
 ## File Coinvolti (4 suppressioni)
 
 | File | Suppressioni |

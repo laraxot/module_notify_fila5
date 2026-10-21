@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "missing features analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MWlren
+=======
+status: draft
+>>>>>>> .merge_file_QZyhnu
 ---
 
 # Analisi Funzionalità Mancanti - Modulo Notify
@@ -244,6 +248,7 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 - [Notify README](./readme.md)
 
 ---
+<<<<<<< .merge_file_MWlren
 
 title: "missing features analysis"
 type: note
@@ -253,4 +258,6 @@ updated: 2026-09-26
 qmd: "missing features analysis"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_QZyhnu
 **Prossima Revisione**: [DATE]

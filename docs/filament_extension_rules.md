@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament extension rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OANogo
+=======
+status: draft
+>>>>>>> .merge_file_8rfRIe
 ---
 
 # Regole di Estensione delle Classi Filament

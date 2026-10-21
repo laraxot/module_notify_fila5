@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "super mucca final summary"
 issues: []
 discussions: []
+<<<<<<< .merge_file_QFSMxa
+=======
+status: draft
+>>>>>>> .merge_file_OitSau
 ---
 
 # 🐄 SUPER MUCCA - Missione Completata
@@ -16,6 +20,7 @@ discussions: []
 **Confidenza Level**: MASSIMO
 
 ---
+<<<<<<< .merge_file_QFSMxa
 
 title: "super mucca final summary"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "super mucca final summary"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_OitSau
 ## 🎯 Missioni Completate
 
 ### ✅ 1. Risolto Errore ParseError Login (CRITICO)

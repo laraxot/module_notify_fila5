@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "00 index"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OMzwuf
+=======
+status: draft
+>>>>>>> .merge_file_EkT1Uu
 ---
 
 # 📋 quick reference Index
@@ -16,6 +20,7 @@ discussions: []
 **Status**: ✅ Auto-generated
 
 ---
+<<<<<<< .merge_file_OMzwuf
 
 title: "00 index"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "00 index"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_EkT1Uu
 ## 📊 Statistics
 
 | Metric | Count |

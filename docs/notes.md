@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "notes"
 issues: []
 discussions: []
+<<<<<<< .merge_file_whuTcY
+=======
+status: draft
+>>>>>>> .merge_file_uh6gxP
 ---
 
 # Note Finali sul Modulo Notify

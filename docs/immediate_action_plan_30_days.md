@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "immediate action plan 30 days"
 issues: []
 discussions: []
+<<<<<<< .merge_file_AqKY9Z
+=======
+status: draft
+>>>>>>> .merge_file_GUKqVK
 ---
 
 # 🚀 IMMEDIATE ACTION PLAN - 30 DAYS
@@ -17,6 +21,7 @@ discussions: []
 **Priority**: CRITICAL  
 
 ---
+<<<<<<< .merge_file_AqKY9Z
 
 title: "immediate action plan 30 days"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "immediate action plan 30 days"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_GUKqVK
 ## 🎯 EXECUTIVE SUMMARY
 
 Piano di azione immediato per completare le funzionalità core della piattaforma FixCity nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.

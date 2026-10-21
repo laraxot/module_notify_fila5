@@ -357,7 +357,14 @@ return [
 
 ## Riferimenti
 
+<<<<<<< .merge_file_QbWUn7
 - [Responsive Email Templates](./RESPONSIVE_EMAIL_TEMPLATES.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [Spatie Email Integration](./SPATIE_EMAIL_USAGE_GUIDE.md)
+=======
+- [Responsive Email Templates](./responsive_email_templates.md)
+- [Email Best Practices](./mail-templates/email_best_practices.md)
+- [HTML Email Compatibility](./mail-templates/html_email_compatibility.md)
+- [Spatie Email Integration](./spatie_email_usage_guide.md)
+>>>>>>> .merge_file_WOGs7z

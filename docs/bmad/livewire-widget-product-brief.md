@@ -10,6 +10,7 @@ type: product-brief
 module: Notify
 related:
   - ./livewire-inventory.md
+status: draft
 ---
 
 # Brief

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "module analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Q0D47B
+=======
+status: draft
+>>>>>>> .merge_file_3VcUEx
 ---
 
 # Notify Module - Comprehensive Analysis

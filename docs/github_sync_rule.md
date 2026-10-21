@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "github sync rule"
 issues: []
 discussions: []
+<<<<<<< .merge_file_EOmkjb
+=======
+status: draft
+>>>>>>> .merge_file_m6IMoM
 ---
 
 # 🔄 Sync .github with bashscripts/ai/.github
@@ -16,6 +20,7 @@ discussions: []
 > **Rule**: CRITICAL
 
 ---
+<<<<<<< .merge_file_EOmkjb
 
 title: "github sync rule"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "github sync rule"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_m6IMoM
 ## 🎯 Rule Statement
 
 **QUANDO aggiorni `.github/` → DEVI sincronizzare `bashscripts/ai/.github/`**

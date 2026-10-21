@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "diamond coverage report"
 issues: []
 discussions: []
+<<<<<<< .merge_file_9d96MH
+=======
+status: draft
+>>>>>>> .merge_file_LzD4JX
 ---
 
 # 💎 FIXCITY - DIAMOND COVERAGE REPORT
@@ -17,6 +21,7 @@ discussions: []
 **Status**: 🚀 IN PROGRESS  
 
 ---
+<<<<<<< .merge_file_9d96MH
 
 title: "diamond coverage report"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "diamond coverage report"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_LzD4JX
 ## 🎯 OBIETTIVO DIAMANTE
 
 Raggiungere il **100% di test coverage** su tutti i moduli critici con test completi, accurati e manutenibili.

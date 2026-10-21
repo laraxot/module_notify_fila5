@@ -225,13 +225,22 @@ fd4c8475 Add multi-agent collaboration issue template and docs
 ## 🔗 Resources Created
 
 ### GitHub Links
+<<<<<<< .merge_file_A996o9
 - [Issue Template](docs/github/ISSUE_MULTI_AGENT_COLLABORATION.md)
+=======
+- [Issue Template](../github/ISSUE_MULTI_AGENT_COLLABORATION.md)
+>>>>>>> .merge_file_v3lWjf
 - [Discussion Template](.github/DISCUSSION_TEMPLATE/sync-script-coordination.md)
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
 
 ### Documentation
+<<<<<<< .merge_file_A996o9
 - [Multi-Agent Guide](docs/MULTI_AGENT_COLLABORATION_GUIDE.md)
 - [GitHub Sync Rule](docs/GITHUB_SYNC_RULE.md)
+=======
+- [Multi-Agent Guide](../MULTI_AGENT_COLLABORATION_GUIDE.md)
+- [GitHub Sync Rule](../GITHUB_SYNC_RULE.md)
+>>>>>>> .merge_file_v3lWjf
 - [AI Rules](.qwen/AI_RULES_CRITICAL.md)
 
 ---

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "ISSUE SUBTREE SYNC TEST"
 issues: []
 discussions: []
+<<<<<<< .merge_file_qp4wN5
+=======
+status: draft
+>>>>>>> .merge_file_vCMBVf
 ---
 
 # 🧪 Test: Git Subtree Synchronization
@@ -16,6 +20,7 @@ discussions: []
 > **Labels**: `testing`, `subtree`, `sync`, `multi-agent`
 
 ---
+<<<<<<< .merge_file_qp4wN5
 
 title: "ISSUE SUBTREE SYNC TEST"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "ISSUE SUBTREE SYNC TEST"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_vCMBVf
 ## 📋 Overview
 
 This issue tracks the testing of git subtree synchronization between the main repository and module repositories.

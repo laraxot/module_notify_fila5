@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "roadmap quality"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XLq8HH
+=======
+status: draft
+>>>>>>> .merge_file_IDJNVL
 ---
 
 # 🏆 ROADMAP QUALITÀ - FIXCITY PLATFORM
@@ -582,6 +586,7 @@ composer require --dev phpstan/phpstan-phpunit
 - **Open Source**: Community recognition
 
 ---
+<<<<<<< .merge_file_XLq8HH
 
 title: "roadmap quality"
 type: note
@@ -591,6 +596,8 @@ updated: 2026-09-26
 qmd: "roadmap quality"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_IDJNVL
 **📞 Contatti Quality**
 - **Quality Lead**: Quality Assurance Team
 - **Email**: quality@laraxot.com

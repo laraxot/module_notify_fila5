@@ -197,6 +197,7 @@ curl -I http://laraxot.local
 | Layer | File | Status | Links |
 |-------|------|--------|-------|
 | **Configuration** | `laravel/config/vhost/laraxot.local.conf` | ✅ | - |
+<<<<<<< .merge_file_jnykCh
 | **Project Docs** | `docs/project/vhost-configuration.md` | ✅ | [Link](docs/project/vhost-configuration.md) |
 | **Modules Docs** | `laravel/Modules/docs/vhost-configuration.md` | ✅ | [Link](laravel/Modules/docs/vhost-configuration.md) |
 | **Themes Docs** | `laravel/Themes/docs/vhost-configuration.md` | ✅ | [Link](laravel/Themes/docs/vhost-configuration.md) |
@@ -204,6 +205,15 @@ curl -I http://laraxot.local
 | **Project Index** | `docs/project/README.md` | ✅ | [Link](docs/project/README.md) |
 | **Rules Index** | `docs/rules/README.md` | ✅ | [Link](docs/rules/README.md) |
 | **Main Index** | `docs/index.md` | ✅ Updated | [Link](docs/index.md) |
+=======
+| **Project Docs** | `docs/project/vhost-configuration.md` | ✅ | [Link](vhost-configuration.md) |
+| **Modules Docs** | `laravel/Modules/docs/vhost-configuration.md` | ✅ | [Link](laravel/Modules/docs/vhost-configuration.md) |
+| **Themes Docs** | `laravel/Themes/docs/vhost-configuration.md` | ✅ | [Link](laravel/Themes/docs/vhost-configuration.md) |
+| **Governance** | `docs/rules/vhost-governance.md` | ✅ | [Link](../rules/vhost-governance.md) |
+| **Project Index** | `docs/project/README.md` | ✅ | [Link](README.md) |
+| **Rules Index** | `docs/rules/README.md` | ✅ | [Link](../rules/README.md) |
+| **Main Index** | `docs/index.md` | ✅ Updated | [Link](../index.md) |
+>>>>>>> .merge_file_zWCztw
 | **Modules Index** | `laravel/Modules/docs/README.md` | ✅ Updated | [Link](laravel/Modules/docs/README.md) |
 | **Themes Index** | `laravel/Themes/docs/README.md` | ✅ Updated | [Link](laravel/Themes/docs/README.md) |
 | **AI Memory** | `.qwen/vhost-configuration.md` | ✅ | - |
@@ -276,13 +286,22 @@ curl -I http://laraxot.local
 
 ### For Developers
 
+<<<<<<< .merge_file_jnykCh
 - [Complete Setup Guide](docs/project/vhost-configuration.md)
 - [Troubleshooting](docs/project/vhost-configuration.md#troubleshooting)
+=======
+- [Complete Setup Guide](vhost-configuration.md)
+- [Troubleshooting](vhost-configuration.md#troubleshooting)
+>>>>>>> .merge_file_zWCztw
 - [Quick Reference](.qwen/vhost-configuration.md)
 
 ### For DevOps
 
+<<<<<<< .merge_file_jnykCh
 - [Governance Rules](docs/rules/vhost-governance.md)
+=======
+- [Governance Rules](../rules/vhost-governance.md)
+>>>>>>> .merge_file_zWCztw
 - [Management Skill](.github/skills/vhost-management/SKILL.md)
 - [Configuration File](laravel/config/vhost/laraxot.local.conf)
 
@@ -290,7 +309,11 @@ curl -I http://laraxot.local
 
 - [Memory File](.qwen/vhost-configuration.md)
 - [Skill Definition](.github/skills/vhost-management/SKILL.md)
+<<<<<<< .merge_file_jnykCh
 - [Project Context](docs/project/README.md)
+=======
+- [Project Context](README.md)
+>>>>>>> .merge_file_zWCztw
 
 ---
 

@@ -8,11 +8,19 @@ qmd: "readme-analisi-duplicati 🐄 analisi metodi duplicati - guida rapida"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_bfffmn
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "../../../00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "../../../acronym-naming-conventions.md"
+>>>>>>> .merge_file_FyNgKy
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -33,6 +41,7 @@ Questo è il documento PRINCIPALE con:
 - ✅ Piano di implementazione dettagliato
 
 ### Copie nei Moduli
+<<<<<<< .merge_file_bfffmn
 Ogni modulo ha una copia in `Modules/{ModuleName}/docs/metodi-duplicati-analisi-1.md`:
 
 - `Modules/AI/docs/metodi-duplicati-analisi-1.md`
@@ -54,6 +63,29 @@ Ogni modulo ha una copia in `Modules/{ModuleName}/docs/metodi-duplicati-analisi-
 - `Modules/UI/docs/metodi-duplicati-analisi-1.md`
 - `Modules/User/docs/metodi-duplicati-analisi-1.md`
 - `Modules/Xot/docs/metodi-duplicati-analisi-1.md`
+=======
+Ogni modulo ha una copia in `Modules/{ModuleName}/docs/metodi-duplicati-analisi.md`:
+
+- `Modules/AI/docs/metodi-duplicati-analisi.md`
+- `Modules/Activity/docs/metodi-duplicati-analisi.md`
+- `Modules/Blog/docs/metodi-duplicati-analisi.md`
+- `Modules/Cms/docs/metodi-duplicati-analisi.md`
+- `Modules/Comment/docs/metodi-duplicati-analisi.md`
+- `Modules/App/docs/metodi-duplicati-analisi.md`
+- `Modules/<nome progetto>/docs/metodi-duplicati-analisi.md`
+- `Modules/Gdpr/docs/metodi-duplicati-analisi.md`
+- `Modules/Geo/docs/metodi-duplicati-analisi.md`
+- `Modules/Job/docs/metodi-duplicati-analisi.md`
+- `Modules/Lang/docs/metodi-duplicati-analisi.md`
+- `Modules/Media/docs/metodi-duplicati-analisi.md`
+- `Modules/Notify/docs/metodi-duplicati-analisi.md`
+- `Modules/Rating/docs/metodi-duplicati-analisi.md`
+- `Modules/Seo/docs/metodi-duplicati-analisi.md`
+- `Modules/Tenant/docs/metodi-duplicati-analisi.md`
+- `Modules/UI/docs/metodi-duplicati-analisi.md`
+- `Modules/User/docs/metodi-duplicati-analisi.md`
+- `Modules/Xot/docs/metodi-duplicati-analisi.md`
+>>>>>>> .merge_file_FyNgKy
 
 ### Copie nei Temi
 - `Themes/Sixteen/docs/analisi-metodi-duplicati.md`

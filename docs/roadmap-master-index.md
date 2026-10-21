@@ -33,7 +33,11 @@ discussions: []
 | Modulo | Status | Errori | Tempo | Roadmap |
 |--------|--------|--------|-------|---------|
 | **Xot** | ⚠️ In Progress | 9 | 2.5h | [→ Roadmap](../Modules/Xot/docs/roadmap-and-issues.md) |
+<<<<<<< .merge_file_diRXj4
 | **User** | ⚠️ In Progress | 95 | 6h | [→ Roadmap](../Modules/User/docs/roadmap-and-issues.md) |
+=======
+| **User** | ⚠️ In Progress | 95 | 6h | [→ Roadmap](../../User/docs/roadmap-and-issues.md) |
+>>>>>>> .merge_file_qtvNJF
 
 **Totale Effort Domani**: ~8.5 ore → **100% PHPStan Level 9!**
 
@@ -45,12 +49,21 @@ discussions: []
 |--------|-------|---------|---------|
 | **Fixcity** | ~200 | ✅ 0 | [→ Roadmap](../Modules/Fixcity/docs/roadmap-and-issues.md) ⭐ |
 | **UI** | 242 | ✅ 0 | [→ Roadmap](../Modules/UI/docs/roadmap-and-issues.md) |
+<<<<<<< .merge_file_diRXj4
 | **AI** | 19 | ✅ 0 | [→ Roadmap](../Modules/AI/docs/roadmap-and-issues.md) ⭐ |
 | **Geo** | ~100 | ✅ 0 | [→ Roadmap](../Modules/Geo/docs/roadmap-and-issues.md) |
 | **Notify** | 344 | ✅ 0 | [→ Roadmap](../Modules/Notify/docs/roadmap-and-issues.md) ⭐ |
 | **Activity** | 73 | ✅ 0 | [→ Roadmap](../Modules/Activity/docs/roadmap-and-issues.md) |
 | **Cms** | 293 | ✅ 0 | [→ Roadmap](../Modules/Cms/docs/roadmap-and-issues.md) |
 | **Gdpr** | 81 | ✅ 0 | [→ PHPStan Fixes](../Modules/Gdpr/docs/phpstan-fixes-2025-10-01.md) |
+=======
+| **AI** | 19 | ✅ 0 | [→ Roadmap](../../AI/docs/roadmap-and-issues.md) ⭐ |
+| **Geo** | ~100 | ✅ 0 | [→ Roadmap](../../Geo/docs/roadmap-and-issues.md) |
+| **Notify** | 344 | ✅ 0 | [→ Roadmap](roadmap-and-issues.md) ⭐ |
+| **Activity** | 73 | ✅ 0 | [→ Roadmap](../../Activity/docs/roadmap-and-issues.md) |
+| **Cms** | 293 | ✅ 0 | [→ Roadmap](../../Cms/docs/roadmap-and-issues.md) |
+| **Gdpr** | 81 | ✅ 0 | [→ PHPStan Fixes](../Modules/Gdpr/docs/phpstan-fixes-session-user.md) |
+>>>>>>> .merge_file_qtvNJF
 | **Blog** | 258 | ✅ 0 | Completo |
 | **Comment** | 26 | ✅ 0 | Completo |
 | **Job** | 206 | ✅ 0 | Completo |
@@ -68,7 +81,11 @@ discussions: []
 
 | Tema | Status | Roadmap |
 |------|--------|---------|
+<<<<<<< .merge_file_diRXj4
 | **Sixteen** | ✅ Attivo | [→ Roadmap](../Themes/Sixteen/docs/roadmap-and-issues.md) ⭐ |
+=======
+| **Sixteen** | ✅ Attivo | [→ Roadmap](../../../Themes/Sixteen/docs/roadmap-and-issues.md) ⭐ |
+>>>>>>> .merge_file_qtvNJF
 | **TwentyOne** | ⚠️ Beta | Da documentare |
 
 ---
@@ -247,6 +264,7 @@ discussions: []
 ### Module Roadmaps (Dettagliate)
 - [🎯 Fixcity Roadmap](../Modules/Fixcity/docs/roadmap-and-issues.md) ⭐ CORE
 - [⚙️ Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md) ⭐ FRAMEWORK
+<<<<<<< .merge_file_diRXj4
 - [👥 User Roadmap](../Modules/User/docs/roadmap-and-issues.md) ⭐ AUTH
 - [🤖 AI Roadmap](../Modules/AI/docs/roadmap-and-issues.md) ⭐ AI FEATURES
 - [📬 Notify Roadmap](../Modules/Notify/docs/roadmap-and-issues.md) ⭐ NOTIFICATIONS
@@ -257,6 +275,18 @@ discussions: []
 
 ### Theme Roadmaps
 - [🎨 Sixteen Theme Roadmap](../Themes/Sixteen/docs/roadmap-and-issues.md) ⭐ ACTIVE
+=======
+- [👥 User Roadmap](../../User/docs/roadmap-and-issues.md) ⭐ AUTH
+- [🤖 AI Roadmap](../../AI/docs/roadmap-and-issues.md) ⭐ AI FEATURES
+- [📬 Notify Roadmap](roadmap-and-issues.md) ⭐ NOTIFICATIONS
+- [🗺️ Geo Roadmap](../../Geo/docs/roadmap-and-issues.md)
+- [🎨 UI Roadmap](../Modules/UI/docs/roadmap-and-issues.md)
+- [📝 Cms Roadmap](../../Cms/docs/roadmap-and-issues.md)
+- [📊 Activity Roadmap](../../Activity/docs/roadmap-and-issues.md)
+
+### Theme Roadmaps
+- [🎨 Sixteen Theme Roadmap](../../../Themes/Sixteen/docs/roadmap-and-issues.md) ⭐ ACTIVE
+>>>>>>> .merge_file_qtvNJF
 
 ---
 

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "xot base classes convention"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UyoC39
+=======
+status: draft
+>>>>>>> .merge_file_T21BSW
 ---
 
 # Convenzioni per le Classi Base Xot

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "dependency injection patterns"
 issues: []
 discussions: []
+<<<<<<< .merge_file_h5UgHJ
+=======
+status: draft
+>>>>>>> .merge_file_JwakMA
 ---
 
 # Dependency Injection Pattern in QueueableActions
@@ -101,6 +105,7 @@ This approach aligns with:
 - **Project Preferences**: Following established patterns in the codebase
 
 ---
+<<<<<<< .merge_file_h5UgHJ
 
 title: "dependency injection patterns"
 type: note
@@ -110,4 +115,6 @@ updated: 2026-09-26
 qmd: "dependency injection patterns"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_JwakMA
 *Documento conforme agli standard Laraxot - DRY + KISS + SOLID*

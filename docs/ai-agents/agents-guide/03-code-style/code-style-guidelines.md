@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "code style guidelines"
 issues: []
 discussions: []
+<<<<<<< .merge_file_folGgG
+=======
+status: draft
+>>>>>>> .merge_file_eKIRf1
 ---
 
 # 3. Code Style Guidelines
@@ -75,6 +79,7 @@ protected function casts(): array
 - Never suppress errors with `@`
 
 ---
+<<<<<<< .merge_file_folGgG
 
 title: "code style guidelines"
 type: note
@@ -84,3 +89,5 @@ updated: 2026-09-26
 qmd: "code style guidelines"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_eKIRf1

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "tenant config"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MkpWuL
+=======
+status: draft
+>>>>>>> .merge_file_k02YXd
 ---
 
 # Quick Reference - Tenant Config

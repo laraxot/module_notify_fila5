@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "naming conventions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_IgaWky
+=======
+status: draft
+>>>>>>> .merge_file_53TbRA
 ---
 
 # Naming Conventions - Database Folders

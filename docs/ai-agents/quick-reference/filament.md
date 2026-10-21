@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament"
 issues: []
 discussions: []
+<<<<<<< .merge_file_EStXKc
+=======
+status: draft
+>>>>>>> .merge_file_bAARQ2
 ---
 
 # Quick Reference - Filament

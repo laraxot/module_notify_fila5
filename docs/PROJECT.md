@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "PROJECT"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MDAbDg
+=======
+status: draft
+>>>>>>> .merge_file_CVEEtj
 ---
 
 # Base Fixcity Fila5 — PROJECT.md

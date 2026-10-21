@@ -594,7 +594,11 @@ pages/tests/argomenti.blade.php     # NO
 ### Key Documents
 
 - [Master Index](docs/project/MODULE_DOCS_INDEX.md)
+<<<<<<< .merge_file_mDTIPY
 - [Theme Detection](docs/project/THEME_DETECTION_SYSTEM.md)
+=======
+- [Theme Detection](THEME_DETECTION_SYSTEM.md)
+>>>>>>> .merge_file_Uc8orm
 - [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md)
 - [Page Component](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md)
 

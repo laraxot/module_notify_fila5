@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "psr4 namespace fix"
 issues: []
 discussions: []
+<<<<<<< .merge_file_tXGnDY
+=======
+status: draft
+>>>>>>> .merge_file_z9H2AI
 ---
 
 # Fix Namespace PSR-4 - Modulo Notify

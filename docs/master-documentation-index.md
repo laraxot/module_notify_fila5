@@ -8,11 +8,19 @@ qmd: "master-documentation-index 📚 master documentation index"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_QX3xjL
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HsXiPZ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -74,7 +82,11 @@ related:
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
+<<<<<<< .merge_file_QX3xjL
 - [Quality Reports](./reports/quality.md)
+=======
+- [Quality Reports](./roadmap/quality.md)
+>>>>>>> .merge_file_HsXiPZ
 - [Performance Reports](./reports/performance.md)
 
 ---
@@ -83,6 +95,7 @@ related:
 
 | Module | Docs | Status |
 |--------|------|--------|
+<<<<<<< .merge_file_QX3xjL
 | **Xot** | [Modules/Xot/docs/](../laravel/Modules/Xot/docs/) | ⚠️ Needs cleanup |
 | **Cms** | [Modules/Cms/docs/](../laravel/Modules/Cms/docs/) | ⚠️ Needs cleanup |
 | **UI** | [Modules/UI/docs/](../laravel/Modules/UI/docs/) | ⚠️ Needs cleanup |
@@ -93,6 +106,18 @@ related:
 | **Geo** | [Modules/Geo/docs/](../laravel/Modules/Geo/docs/) | ✅ Good |
 | **AI** | [Modules/AI/docs/](../laravel/Modules/AI/docs/) | ✅ Good |
 | **Fixcity** | [Modules/Fixcity/docs/](../laravel/Modules/Fixcity/docs/) | ✅ Good |
+=======
+| **Xot** | [Modules/Xot/docs/](../../Xot/docs) | ⚠️ Needs cleanup |
+| **Cms** | [Modules/Cms/docs/](../../Cms/docs) | ⚠️ Needs cleanup |
+| **UI** | [Modules/UI/docs/](../../UI/docs) | ⚠️ Needs cleanup |
+| **Media** | [Modules/Media/docs/](../../Media/docs) | ✅ Good |
+| **Notify** | [Modules/Notify/docs/](.) | ⚠️ Needs cleanup |
+| **Blog** | [Modules/Blog/docs/](../../Blog/docs) | ✅ Good |
+| **User** | [Modules/User/docs/](../../User/docs) | ⚠️ Needs cleanup |
+| **Geo** | [Modules/Geo/docs/](../../Geo/docs) | ✅ Good |
+| **AI** | [Modules/AI/docs/](../../AI/docs) | ✅ Good |
+| **Fixcity** | [Modules/Fixcity/docs/](../../Fixcity/docs) | ✅ Good |
+>>>>>>> .merge_file_HsXiPZ
 
 ---
 
@@ -100,8 +125,13 @@ related:
 
 | Theme | Docs | Status |
 |-------|------|--------|
+<<<<<<< .merge_file_QX3xjL
 | **Sixteen** | [Themes/Sixteen/docs/](../laravel/Themes/Sixteen/docs/) | ✅ AGID Compliant |
 | **TwentyOne** | [Themes/TwentyOne/docs/](../laravel/Themes/TwentyOne/docs/) | ✅ Filament 5 |
+=======
+| **Sixteen** | [Themes/Sixteen/docs/](../../../Themes/Sixteen/docs) | ✅ AGID Compliant |
+| **TwentyOne** | [Themes/TwentyOne/docs/](../../../Themes/TwentyOne/docs) | ✅ Filament 5 |
+>>>>>>> .merge_file_HsXiPZ
 | **One** | [Themes/One/docs/](../laravel/Themes/One/docs/) | ✅ Base Theme |
 
 ---

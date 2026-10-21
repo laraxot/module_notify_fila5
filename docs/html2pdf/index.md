@@ -9,6 +9,10 @@ type: reference
 updated: 2026-05-21
 related:
   - "../../../Media/docs/html2pdf/index.md"
+<<<<<<< .merge_file_xMULhI
+=======
+status: draft
+>>>>>>> .merge_file_NIVnBh
 ---
 
 # Html2Pdf — index

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "channel enum"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ojXL2R
+=======
+status: draft
+>>>>>>> .merge_file_4yy9c0
 ---
 
 # `ChannelEnum`

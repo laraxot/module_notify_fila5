@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "setup guide"
 issues: []
 discussions: []
+<<<<<<< .merge_file_3qgYLY
+=======
+status: draft
+>>>>>>> .merge_file_kNwyl0
 ---
 
 # bmad method: setup e configurazione (fixcity)

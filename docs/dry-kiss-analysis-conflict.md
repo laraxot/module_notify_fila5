@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "dry kiss analysis conflict"
 issues: []
 discussions: []
+<<<<<<< .merge_file_PxiNAT
+=======
+status: draft
+>>>>>>> .merge_file_KzzsUc
 ---
 
 # DRY & KISS Analysis - Modulo Notify
@@ -43,6 +47,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 - 🔄 ServiceProvider: Auto-detect nome
 
 ---
+<<<<<<< .merge_file_PxiNAT
 title: "dry kiss analysis conflict"
 type: note
 tags: [documentation]
@@ -51,4 +56,6 @@ updated: 2026-09-26
 qmd: "dry kiss analysis conflict"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_KzzsUc
 [DRY/KISS Global](../../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)

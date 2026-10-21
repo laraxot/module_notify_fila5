@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "packages advanced"
 issues: []
 discussions: []
+<<<<<<< .merge_file_oCagg9
+=======
+status: draft
+>>>>>>> .merge_file_YOrud7
 ---
 
 # Packages advanced — reference
@@ -14,6 +18,7 @@ discussions: []
 Packages not covered in `packages-spatie.md`, `packages-laravel-core.md`, `packages-filament-livewire.md`, or `packages-other.md`. All confirmed present in `composer.json` as of February 2026.
 
 ---
+<<<<<<< .merge_file_oCagg9
 
 title: "packages advanced"
 type: note
@@ -23,6 +28,8 @@ updated: 2026-09-26
 qmd: "packages advanced"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_YOrud7
 ## Eloquent model patterns
 
 ### tightenco/parental 1.5.0

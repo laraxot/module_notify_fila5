@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "smtp testing"
 issues: []
 discussions: []
+<<<<<<< .merge_file_egcSA8
+=======
+status: draft
+>>>>>>> .merge_file_DSSCTb
 ---
 
 # SMTP Testing Guide

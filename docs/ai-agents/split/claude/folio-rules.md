@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "folio rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Fb53cK
+=======
+status: draft
+>>>>>>> .merge_file_i5wNrW
 ---
 
 === folio/core rules ===
@@ -58,6 +62,7 @@ middleware(['auth', 'verified', 'can:manage-products']);
 
 
 ---
+<<<<<<< .merge_file_Fb53cK
 
 title: "folio rules"
 type: note
@@ -67,6 +72,8 @@ updated: 2026-09-26
 qmd: "folio rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_i5wNrW
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

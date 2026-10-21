@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "sync remote repo test plan"
 issues: []
 discussions: []
+<<<<<<< .merge_file_kx7CXx
+=======
+status: draft
+>>>>>>> .merge_file_QRRdqo
 ---
 
 # Sync Remote Repo - Test Plan
@@ -17,6 +21,7 @@ discussions: []
 **Workflow**: `.github/workflows/sync-remote-repo.yml`
 
 ---
+<<<<<<< .merge_file_kx7CXx
 
 title: "sync remote repo test plan"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "sync remote repo test plan"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_QRRdqo
 ## 🎯 Test Objective
 
 Verify that `sync_remote_repo.sh` works correctly for **bidirectional sync**:

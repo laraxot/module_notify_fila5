@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "sprint"
 issues: []
 discussions: []
+<<<<<<< .merge_file_t38ca4
+=======
+status: draft
+>>>>>>> .merge_file_QKeXHm
 ---
 
 # Sprint Planning Meeting - FixCity Platform

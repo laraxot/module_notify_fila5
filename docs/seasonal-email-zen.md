@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "seasonal email zen"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Bq9Uuk
+=======
+status: draft
+>>>>>>> .merge_file_Mb08xP
 ---
 
 # The Zen of Seasonal Emails

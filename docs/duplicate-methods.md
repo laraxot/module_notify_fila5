@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "duplicate methods"
 issues: []
 discussions: []
+<<<<<<< .merge_file_lNpFyx
+=======
+status: draft
+>>>>>>> .merge_file_EVniXk
 ---
 
 # Analisi Metodi Duplicati - Modulo Notify
@@ -62,6 +66,7 @@ public function linkable(): void
 **Procedere con refactoring** - Alta confidenza e bassa complessità rendono questa ottimizzazione sicura.
 
 ---
+<<<<<<< .merge_file_lNpFyx
 
 title: "duplicate methods"
 type: note
@@ -71,6 +76,8 @@ updated: 2026-09-26
 qmd: "duplicate methods"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_EVniXk
 ### 2. Metodo: `make`
 
 **Tipo Refactoring**: `Trait` | **Complessità**: 🟢 Low | **Confidenza**: ✅ 100%

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "COMPOSER STRATEGY"
 issues: []
 discussions: []
+<<<<<<< .merge_file_C1ou7H
+=======
+status: draft
+>>>>>>> .merge_file_W7FEHN
 ---
 
 # 🎯 Laravel-Modules Composer Strategy
@@ -276,6 +280,7 @@ Composer vede:
 - [MODULES_ARCHITECTURE.md](MODULES_ARCHITECTURE.md) - Architettura moduli
 
 ---
+<<<<<<< .merge_file_C1ou7H
 
 title: "COMPOSER STRATEGY"
 type: note
@@ -285,6 +290,8 @@ updated: 2026-09-26
 qmd: "COMPOSER STRATEGY"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_W7FEHN
 **Stato**: ✅ **CONFIGURATO - Composer minimale con merge-plugin**  
 **Principio**: **Root minimale, moduli specifici**  
 **Merge Plugin**: **wikimedia/composer-merge-plugin**

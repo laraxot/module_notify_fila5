@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "NOTEBOOKLM SETUP COMPLETE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_YNN9Jg
+=======
+status: draft
+>>>>>>> .merge_file_KSFgxd
 ---
 
 # NotebookLM Skill - Configuration & Usage Guide
@@ -17,6 +21,7 @@ discussions: []
 **Last Updated**: 2026-03-30
 
 ---
+<<<<<<< .merge_file_YNN9Jg
 
 title: "NOTEBOOKLM SETUP COMPLETE"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "NOTEBOOKLM SETUP COMPLETE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_KSFgxd
 ## Cos'è NotebookLM
 
 **Google NotebookLM** è un AI research assistant che:

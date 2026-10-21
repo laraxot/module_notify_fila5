@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "CONFERMA CLASSI BOOTSTRAP"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nesCqp
+=======
+status: draft
+>>>>>>> .merge_file_wZgj9Y
 ---
 
 # ✅ Conferma: Classi Bootstrap Italia Corrette

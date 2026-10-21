@@ -10,6 +10,10 @@ type: report
 module: Notify
 created_at: '2026-07-31'
 updated_at: '2026-07-31'
+<<<<<<< .merge_file_Tpv9Jz
+=======
+status: draft
+>>>>>>> .merge_file_WT3RE7
 ---
 
 # Audit collisioni Git committate in bashscripts

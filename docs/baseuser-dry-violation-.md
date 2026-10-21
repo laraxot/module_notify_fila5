@@ -9,11 +9,19 @@ updated: 2026-07-14
 qmd: "baseuser-dry-violation-2025-10-15.deprecated deprecated"
 status: deprecated
 related:
+<<<<<<< .merge_file_5P9W6B
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_Bfra1R
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

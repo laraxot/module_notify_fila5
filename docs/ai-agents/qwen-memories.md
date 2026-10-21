@@ -244,5 +244,9 @@ Usare `cinematic-particles` per background hero:
 
 - [Indice QWEN](./qwen-split-index.md)
 - [memories.md](./memories.md) - Più memorie
+<<<<<<< .merge_file_2UnCjg
 - [QWEN.md originale](../../QWEN.md)
+=======
+- [QWEN.md originale](../QWEN.md)
+>>>>>>> .merge_file_wuiAh6
 - [Index principale](./index.md)

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "complete refactoring analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_A6uPZF
+=======
+status: draft
+>>>>>>> .merge_file_ZT1PSs
 ---
 
 # Complete Cyclomatic Complexity Refactoring Analysis
@@ -16,6 +20,7 @@ discussions: []
 **Status:** In Progress
 
 ---
+<<<<<<< .merge_file_A6uPZF
 
 title: "complete refactoring analysis"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "complete refactoring analysis"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_ZT1PSs
 ## 📊 Executive Summary
 
 ### Global Statistics (After Initial Refactoring)

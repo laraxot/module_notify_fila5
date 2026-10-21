@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "todo"
 issues: []
 discussions: []
+<<<<<<< .merge_file_TSRpCS
+=======
+status: draft
+>>>>>>> .merge_file_DzVhCH
 ---
 
 http://laradevsbd.com/story/laravel-notifications-with-database

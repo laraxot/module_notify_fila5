@@ -8,6 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_Q1WXlK
+=======
+status: draft
+>>>>>>> .merge_file_d4kjZx
 ---
 
 # Divergenza: `agent-edit-discipline.md`

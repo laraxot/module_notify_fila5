@@ -158,7 +158,11 @@ Allineare la homepage FixCity (`/it/tests/homepage`) al design Bootstrap Italia 
 
 ### Documentazione
 - [Bootstrap Italia Docs](https://italia.github.io/design-web-toolkit/)
+<<<<<<< .merge_file_FoBjht
 - [Analisi Visiva](docs/screenshots/homepage/analisi-visiva.md)
+=======
+- [Analisi Visiva](analisi-visiva.md)
+>>>>>>> .merge_file_vaL6Uh
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
 
 ### File Correlati

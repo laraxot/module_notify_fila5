@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "interface structure clarification"
 issues: []
 discussions: []
+<<<<<<< .merge_file_0N61q7
+=======
+status: draft
+>>>>>>> .merge_file_pcSlgt
 ---
 
 # Chiarimento sulla Struttura delle Interfacce 

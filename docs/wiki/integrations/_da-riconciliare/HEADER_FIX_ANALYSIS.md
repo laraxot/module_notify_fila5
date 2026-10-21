@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_PjKvWp
+=======
+status: draft
+>>>>>>> .merge_file_feg8td
 ---
 
 # 📸 Header Notify vs Bootstrap Italia - Analisi e Fix

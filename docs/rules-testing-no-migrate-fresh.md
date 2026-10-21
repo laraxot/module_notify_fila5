@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "rules testing no migrate fresh"
 issues: []
 discussions: []
+<<<<<<< .merge_file_FoFJtQ
+=======
+status: draft
+>>>>>>> .merge_file_hBwNfT
 ---
 
 # CRITICAL ARCHITECTURE RULE: NO MIGRATE:FRESH

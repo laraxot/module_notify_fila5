@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "AI AGENT TEAMS"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ssI6hb
+=======
+status: draft
+>>>>>>> .merge_file_GmQHpp
 ---
 
 # AI Agent Teams - Coordination Hub
@@ -16,6 +20,7 @@ discussions: []
 **Purpose**: Coordinate multiple AI agents working on the same codebase
 
 ---
+<<<<<<< .merge_file_ssI6hb
 
 title: "AI AGENT TEAMS"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "AI AGENT TEAMS"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_GmQHpp
 ## 🎯 Why Agent Teams?
 
 Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same FixCity platform. Without coordination:

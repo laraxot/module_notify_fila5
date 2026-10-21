@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "master plan"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UYEWnK
+=======
+status: draft
+>>>>>>> .merge_file_Lupm4P
 ---
 
 # FixCity Platform - Master Plan 🚀
@@ -16,6 +20,7 @@ discussions: []
 **Analista**: AI Development Assistant  
 
 ---
+<<<<<<< .merge_file_UYEWnK
 
 title: "master plan"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "master plan"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Lupm4P
 ## 🎯 EXECUTIVE SUMMARY
 
 **FixCity** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.

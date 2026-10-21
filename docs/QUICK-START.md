@@ -7,6 +7,10 @@ type: guide
 tags: [notify, notifications]
 created: 2026-07-28
 updated: 2026-07-28
+<<<<<<< .merge_file_SGGYvB
+=======
+status: draft
+>>>>>>> .merge_file_g7yfrN
 ---
 
 # Notify Module — Quick Start

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "queue jobs"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UI3Bek
+=======
+status: draft
+>>>>>>> .merge_file_ANeior
 ---
 
 # Quick Reference - Queue / Jobs

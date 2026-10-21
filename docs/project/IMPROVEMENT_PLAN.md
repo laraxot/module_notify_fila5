@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "IMPROVEMENT PLAN"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dUYzze
+=======
+status: draft
+>>>>>>> .merge_file_HBrSrZ
 ---
 
 # FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
@@ -16,6 +20,7 @@ discussions: []
 **Project**: FixCity Platform Improvement  
 
 ---
+<<<<<<< .merge_file_dUYzze
 
 title: "IMPROVEMENT PLAN"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "IMPROVEMENT PLAN"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_HBrSrZ
 ## 🎯 Executive Summary
 
 I've created a comprehensive **16-week improvement plan** for FixCity using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).

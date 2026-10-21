@@ -127,6 +127,11 @@ done
 
 - [Indice AGENTS](./agents-split-index.md)
 - [regole-critiche.md](./regole-critiche.md) - Regole critiche
+<<<<<<< .merge_file_B35cAC
 - [AGENTS.md originale](../../AGENTS.md)
 - [agents.md originale](../../agents.md)
+=======
+- [AGENTS.md originale](../AGENTS.md)
+- [agents.md originale](../agents.md)
+>>>>>>> .merge_file_Z3tpcv
 - [Index principale](./index.md)

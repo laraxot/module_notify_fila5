@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "implementation guide"
 issues: []
 discussions: []
+<<<<<<< .merge_file_TlKe7L
+=======
+status: draft
+>>>>>>> .merge_file_79FMUh
 ---
 
 # Guida all'Implementazione dei Template Email

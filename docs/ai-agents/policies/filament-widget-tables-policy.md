@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "filament widget tables policy"
 issues: []
 discussions: []
+<<<<<<< .merge_file_oZnfCG
+=======
+status: draft
+>>>>>>> .merge_file_xuEI0B
 ---
 
 # Filament Widget Tables Policy

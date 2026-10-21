@@ -153,16 +153,28 @@ related:
 Each module has a `docs/` directory containing:
 
 #### Xot Module
+<<<<<<< .merge_file_mQ6uW7
 - [Cyclomatic Complexity Report](../Modules/Xot/docs/cyclomatic-complexity-report.md)
+=======
+- [Cyclomatic Complexity Report](../cyclomatic-complexity-report.md)
+>>>>>>> .merge_file_iDcyam
 - [Refactoring Plan](../Modules/Xot/docs/refactoring/cyclomatic-complexity-refactoring-plan.md)
 - [Refactoring Report](../Modules/Xot/docs/refactoring/artisan-service-refactoring-report.md)
 
 #### Tenant Module
+<<<<<<< .merge_file_mQ6uW7
 - [Cyclomatic Complexity Report](../Modules/Tenant/docs/cyclomatic-complexity-report.md)
 
 #### User Module
 - [Cyclomatic Complexity Report](../Modules/User/docs/cyclomatic-complexity-report.md)
 - [Extensive documentation](../Modules/User/docs/)
+=======
+- [Cyclomatic Complexity Report](../../../Tenant/docs/cyclomatic-complexity-report.md)
+
+#### User Module
+- [Cyclomatic Complexity Report](../../../User/docs/cyclomatic-complexity-report.md)
+- [Extensive documentation](../../../User/docs)
+>>>>>>> .merge_file_iDcyam
 
 #### Other Modules
 - AI, Activity, Blog, Cms, Comment, App, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
@@ -173,12 +185,21 @@ Each module has a `docs/` directory containing:
 ## 🎨 Theme Documentation
 
 ### Sixteen Theme
+<<<<<<< .merge_file_mQ6uW7
 - [Code Quality Analysis](../Themes/Sixteen/docs/CODE_QUALITY_ANALYSIS.md)
 - [README](../Themes/Sixteen/docs/README.md)
 - [Roadmap 2025](../Themes/Sixteen/docs/ROADMAP_2025.md)
 
 ### TwentyOne Theme
 - [Code Quality Analysis](../Themes/TwentyOne/docs/CODE_QUALITY_ANALYSIS.md)
+=======
+- [Code Quality Analysis](../../../../Themes/Sixteen/docs/CODE_QUALITY_ANALYSIS.md)
+- [README](../../../../Themes/Sixteen/docs/README.md)
+- [Roadmap 2025](../../../../Themes/Sixteen/docs/ROADMAP_2025.md)
+
+### TwentyOne Theme
+- [Code Quality Analysis](../../../../Themes/TwentyOne/docs/CODE_QUALITY_ANALYSIS.md)
+>>>>>>> .merge_file_iDcyam
 
 ---
 
@@ -190,9 +211,15 @@ Each module has a `docs/` directory containing:
 - [Pre-commit Hooks](../.husky/pre-commit)
 
 ### Configuration
+<<<<<<< .merge_file_mQ6uW7
 - [Package.json](../package.json) - NPM scripts
 - [PHPStan Config](../phpstan.neon) - Static analysis
 - [Composer](../composer.json) - PHP dependencies
+=======
+- [Package.json](../../package.json) - NPM scripts
+- [PHPStan Config](../../../../phpstan.neon) - Static analysis
+- [Composer](../../composer.json) - PHP dependencies
+>>>>>>> .merge_file_iDcyam
 
 ### Analysis Tools
 - [Complexity Analyzer](../analyze_complexity.php)

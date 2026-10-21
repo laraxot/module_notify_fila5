@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "perfection plan"
 issues: []
 discussions: []
+<<<<<<< .merge_file_pQmpqr
+=======
+status: draft
+>>>>>>> .merge_file_2fir3G
 ---
 
 # 🎯 FIXCITY - PERFECTION PLAN
@@ -16,6 +20,7 @@ discussions: []
 **Obiettivo**: Implementare TUTTO con PHPStan + PHPMD + Pest tests  
 
 ---
+<<<<<<< .merge_file_pQmpqr
 
 title: "perfection plan"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "perfection plan"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_2fir3G
 ## 🎯 STRATEGIA PERFEZIONE
 
 ### Processo per OGNI Feature

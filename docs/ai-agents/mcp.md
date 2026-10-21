@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "mcp"
 issues: []
 discussions: []
+<<<<<<< .merge_file_LSzdio
+=======
+status: draft
+>>>>>>> .merge_file_IgBmYd
 ---
 
 # Model Context Protocol

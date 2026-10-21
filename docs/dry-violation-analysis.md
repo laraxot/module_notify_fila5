@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "dry violation analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_VXnZwZ
+=======
+status: draft
+>>>>>>> .merge_file_lgunuL
 ---
 
 # ✅ DRY Violation Analysis - Risoluzione delle Cagatas Seasonal
@@ -16,6 +20,7 @@ discussions: []
 **Approccio**: **DRY + KISS applicati correttamente**
 
 ---
+<<<<<<< .merge_file_VXnZwZ
 
 title: "dry violation analysis"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "dry violation analysis"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_lgunuL
 ## 📋 Successo: "Fare GetSeasonalEmailLayoutAction e DetermineSeasonalLayoutPathAction era una cagata!"
 
 ### Problema Identificato e Risolto

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "xot base classes analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_bBktWm
+=======
+status: draft
+>>>>>>> .merge_file_XtabQL
 ---
 
 # Analisi: Utilizzo delle Classi Base Xot

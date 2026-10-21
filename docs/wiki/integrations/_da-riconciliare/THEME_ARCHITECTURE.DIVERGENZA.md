@@ -8,6 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_EkLRpJ
+=======
+status: draft
+>>>>>>> .merge_file_azb5HC
 ---
 
 # Divergenza: `THEME_ARCHITECTURE.md`

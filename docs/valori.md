@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "valori"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nO9S9B
+=======
+status: draft
+>>>>>>> .merge_file_MtR0r7
 ---
 
 # Politica, Filosofia, Religione, Etica, Zen – Modulo Notify

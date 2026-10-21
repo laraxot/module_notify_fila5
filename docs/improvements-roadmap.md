@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "improvements roadmap"
 issues: []
 discussions: []
+<<<<<<< .merge_file_m9udzI
+=======
+status: draft
+>>>>>>> .merge_file_dk75KN
 ---
 
 # Notify Module - Improvements Roadmap
@@ -16,6 +20,7 @@ discussions: []
 **Status**: 📝 **ROADMAP CREATA**
 
 ---
+<<<<<<< .merge_file_m9udzI
 
 title: "improvements roadmap"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "improvements roadmap"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_dk75KN
 ## 📊 Executive Summary
 
 Roadmap delle migliorie ipotizzate per il modulo Notify basate sull'analisi del repository `filament-spatie-laravel-database-mail-templates` e confronto con il nostro sistema attuale.

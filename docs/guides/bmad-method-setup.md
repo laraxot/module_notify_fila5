@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "bmad method setup"
 issues: []
 discussions: []
+<<<<<<< .merge_file_f9tCo5
+=======
+status: draft
+>>>>>>> .merge_file_9NMC18
 ---
 
 # BMAD Method - Guida Installazione e Configurazione
@@ -17,6 +21,7 @@ discussions: []
 **Progetto:** Notify Fila5 (Laraxot)
 
 ---
+<<<<<<< .merge_file_f9tCo5
 
 title: "bmad method setup"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "bmad method setup"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_9NMC18
 ## documentazione canonica (naming stabile)
 
 - [setup e configurazione](../bmad/setup-guide.md)

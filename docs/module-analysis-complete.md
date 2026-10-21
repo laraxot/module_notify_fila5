@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "module analysis complete"
 issues: []
 discussions: []
+<<<<<<< .merge_file_SbHWeF
+=======
+status: draft
+>>>>>>> .merge_file_vros3j
 ---
 
 # Analisi Completa Modulo Notify - Factory, Seeder e Test
@@ -265,6 +269,7 @@ Il modulo Notify è il sistema di gestione notifiche e comunicazioni riutilizzab
 - Miglioramento manutenibilità
 
 ---
+<<<<<<< .merge_file_SbHWeF
 
 title: "module analysis complete"
 type: note
@@ -274,6 +279,8 @@ updated: 2026-09-26
 qmd: "module analysis complete"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_vros3j
 **Ultimo aggiornamento**: Dicembre 2024
 **Versione**: 1.0
 **Stato**: In Progress

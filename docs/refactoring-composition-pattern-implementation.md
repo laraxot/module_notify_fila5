@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "refactoring composition pattern implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_kKJ8cy
+=======
+status: draft
+>>>>>>> .merge_file_DvLMJn
 ---
 
 # Refactoring Summary: SendRecordsNotificationBulkAction Implementation
@@ -108,6 +112,7 @@ foreach ($records as $record) {
 - Ensure all similar bulk operations follow the same composition pattern
 
 ---
+<<<<<<< .merge_file_kKJ8cy
 
 title: "refactoring composition pattern implementation"
 type: note
@@ -117,4 +122,6 @@ updated: 2026-09-26
 qmd: "refactoring composition pattern implementation"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_DvLMJn
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*

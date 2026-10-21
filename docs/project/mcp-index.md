@@ -25,7 +25,11 @@ discussions: []
 
 ## Configuration
 
+<<<<<<< .merge_file_Zcdtqn
 - [Qwen MCP Config](../../.qwen/mcp.json) - MCP server definitions
+=======
+- [Qwen MCP Config](../../../../../.qwen/mcp.json) - MCP server definitions
+>>>>>>> .merge_file_oe7U3Z
 - [Memory Bank](../../memory-bank/) - Project memory bank (structured docs)
 
 ## Rules

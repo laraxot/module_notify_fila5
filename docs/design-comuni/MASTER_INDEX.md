@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "MASTER INDEX"
 issues: []
 discussions: []
+<<<<<<< .merge_file_veFLfk
+=======
+status: draft
+>>>>>>> .merge_file_DdXR1Q
 ---
 
 # Design Comuni Italia - Master Documentation Index
@@ -29,6 +33,7 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 | Altre 35 pagine | ❌ 0% | ❌ 0% | ❌ 0% | ❌ Assenti | ❌ 0% |
 
 ---
+<<<<<<< .merge_file_veFLfk
 
 title: "MASTER INDEX"
 type: note
@@ -38,6 +43,8 @@ updated: 2026-09-26
 qmd: "MASTER INDEX"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_DdXR1Q
 ## 📚 Documentazione per Modulo/Tema
 
 ### 🎨 Tema Sixteen

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "token optimization"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dKS3VE
+=======
+status: draft
+>>>>>>> .merge_file_Jg8pbf
 ---
 
 # Token Optimization — base_ptv_fila5
@@ -18,6 +22,7 @@ discussions: []
 **Per regole attive e complete**: Leggi [docs/token-efficiency-religion.md](./token-efficiency-religion.md)
 
 ---
+<<<<<<< .merge_file_dKS3VE
 
 title: "token optimization"
 type: note
@@ -27,6 +32,8 @@ updated: 2026-09-26
 qmd: "token optimization"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Jg8pbf
 ## Ricerca effettuata: Aprile 2026
 
 ## Tecniche e risparmio atteso

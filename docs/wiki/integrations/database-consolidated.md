@@ -36,14 +36,22 @@ Consolidated from **15** individual files.
 
 ## database-mail-1
 
+<<<<<<< .merge_file_RuLjip
 *Consolidated from: `database-mail-1.md`*
+=======
+*Consolidated from: `database-mail-deprecated.md`*
+>>>>>>> .merge_file_g9I0CB
 
 
 This file is deprecated.
 
 Use:
 
+<<<<<<< .merge_file_RuLjip
 - [database-mail](./database-mail.md)
+=======
+- [database-mail](../../database-mail.md)
+>>>>>>> .merge_file_g9I0CB
 
 ---
 
@@ -60,11 +68,19 @@ qmd: "database-mail-2 database mail system"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_RuLjip
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_g9I0CB
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -81,13 +97,21 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
+<<<<<<< .merge_file_RuLjip
 - [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+=======
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
+>>>>>>> .merge_file_g9I0CB
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
+<<<<<<< .merge_file_RuLjip
 - [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+=======
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
+>>>>>>> .merge_file_g9I0CB
 
 ## Panoramica
 
@@ -523,11 +547,19 @@ qmd: "database-mail-enhancement-1 database mail enhancement (open source)"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_RuLjip
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_g9I0CB
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -734,14 +766,22 @@ testable class SendEmailTemplateAction {
 
 ## database-mail-queue-1
 
+<<<<<<< .merge_file_RuLjip
 *Consolidated from: `database-mail-queue-1.md`*
+=======
+*Consolidated from: `database-mail-queue-deprecated.md`*
+>>>>>>> .merge_file_g9I0CB
 
 
 This file is deprecated.
 
 Use:
 
+<<<<<<< .merge_file_RuLjip
 - [database-mail-queue](./database-mail-queue.md)
+=======
+- [database-mail-queue](../../database-mail-queue.md)
+>>>>>>> .merge_file_g9I0CB
 
 ---
 
@@ -758,11 +798,19 @@ qmd: "database-mail-queue-2 sistema di code per email - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_RuLjip
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_g9I0CB
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1172,7 +1220,11 @@ php artisan queue:restart
 ```
 
 ## Collegamenti
+<<<<<<< .merge_file_RuLjip
 - [Database Mail System](database-mail-system.md)
+=======
+- [Database Mail System](../../database-mail-system.md)
+>>>>>>> .merge_file_g9I0CB
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../../docs/queue-configuration.md)
 
@@ -1947,7 +1999,11 @@ php artisan queue:restart
 ```
 
 ## Collegamenti
+<<<<<<< .merge_file_RuLjip
 - [Database Mail System](database-mail-system.md)
+=======
+- [Database Mail System](../../database-mail-system.md)
+>>>>>>> .merge_file_g9I0CB
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../../docs/queue-configuration.md)
 
@@ -1964,7 +2020,11 @@ php artisan queue:restart
 
 ## database-mail-system-1
 
+<<<<<<< .merge_file_RuLjip
 *Consolidated from: `database-mail-system-1.md`*
+=======
+*Consolidated from: `database-mail-system.md`*
+>>>>>>> .merge_file_g9I0CB
 
 
 ## Panoramica
@@ -2345,7 +2405,11 @@ php artisan notify:mail-template:test
 
 ## Collegamenti
 - [Notify Module](../README.md)
+<<<<<<< .merge_file_RuLjip
 - [Email Templates](email-templates.md)
+=======
+- [Email Templates](../../email-templates.md)
+>>>>>>> .merge_file_g9I0CB
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -2721,11 +2785,19 @@ qmd: "database-mail-system-2 sistema di gestione email basato su database - il p
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_RuLjip
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_g9I0CB
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3036,7 +3108,11 @@ php artisan notify:mail-template:test
 ## Collegamenti
 - [Notify Module](../README.md)
 - [Notify Module](../readme.md)
+<<<<<<< .merge_file_RuLjip
 - [Email Templates](email-templates.md)
+=======
+- [Email Templates](../../email-templates.md)
+>>>>>>> .merge_file_g9I0CB
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -3353,7 +3429,11 @@ php artisan notify:mail-template:test
 
 ## Collegamenti
 - [Notify Module](../readme.md)
+<<<<<<< .merge_file_RuLjip
 - [Email Templates](email-templates.md)
+=======
+- [Email Templates](../../email-templates.md)
+>>>>>>> .merge_file_g9I0CB
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -3377,13 +3457,21 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
+<<<<<<< .merge_file_RuLjip
 - [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+=======
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
+>>>>>>> .merge_file_g9I0CB
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
+<<<<<<< .merge_file_RuLjip
 - [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+=======
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
+>>>>>>> .merge_file_g9I0CB
 
 ## Panoramica
 
@@ -3821,13 +3909,21 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
+<<<<<<< .merge_file_RuLjip
 - [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+=======
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
+>>>>>>> .merge_file_g9I0CB
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
+<<<<<<< .merge_file_RuLjip
 - [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+=======
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
+>>>>>>> .merge_file_g9I0CB
 
 ## Panoramica
 
@@ -4758,7 +4854,11 @@ php artisan queue:restart
 ```
 
 ## Collegamenti
+<<<<<<< .merge_file_RuLjip
 - [Database Mail System](database-mail-system.md)
+=======
+- [Database Mail System](../../database-mail-system.md)
+>>>>>>> .merge_file_g9I0CB
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../docs/queue-configuration.md)
 
@@ -5076,7 +5176,11 @@ php artisan notify:mail-template:test
 
 ## Collegamenti
 - [Notify Module](../README.md)
+<<<<<<< .merge_file_RuLjip
 - [Email Templates](email-templates.md)
+=======
+- [Email Templates](../../email-templates.md)
+>>>>>>> .merge_file_g9I0CB
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche

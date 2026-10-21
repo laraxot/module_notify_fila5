@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "resource slug implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_2e4Y2h
+=======
+status: draft
+>>>>>>> .merge_file_eSUe2n
 ---
 
 # Implementazione del Campo `slug` in MailTemplateResource

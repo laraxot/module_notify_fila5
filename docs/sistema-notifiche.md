@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "sistema notifiche"
 issues: []
 discussions: []
+<<<<<<< .merge_file_QV3V2T
+=======
+status: draft
+>>>>>>> .merge_file_XWL3Lj
 ---
 
 # Sistema Notifiche

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "attachments"
 issues: []
 discussions: []
+<<<<<<< .merge_file_khlV0f
+=======
+status: draft
+>>>>>>> .merge_file_nEPyCX
 ---
 
 # Gestione degli Allegati nelle Email

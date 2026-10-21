@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "sms implementation details"
 issues: []
 discussions: []
+<<<<<<< .merge_file_m7fA8L
+=======
+status: draft
+>>>>>>> .merge_file_yLVHBv
 ---
 
 # Implementazione SMS : Guida Dettagliata

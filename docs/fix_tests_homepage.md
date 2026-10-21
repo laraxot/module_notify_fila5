@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "fix tests homepage"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nEr9Q0
+=======
+status: draft
+>>>>>>> .merge_file_C6yhHT
 ---
 
 # ✅ Fix Applicati - Tests Homepage

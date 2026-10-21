@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "composer strategy"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nyJhoN
+=======
+status: draft
+>>>>>>> .merge_file_sjLE9s
 ---
 
 # 🎯 Laravel-Modules Composer Strategy
@@ -278,6 +282,7 @@ Composer vede:
 - [MODULES_ARCHITECTURE.md](MODULES_ARCHITECTURE.md) - Architettura moduli
 
 ---
+<<<<<<< .merge_file_nyJhoN
 
 title: "composer strategy"
 type: note
@@ -287,6 +292,8 @@ updated: 2026-09-26
 qmd: "composer strategy"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_sjLE9s
 **Stato**: ✅ **CONFIGURATO - Composer minimale con merge-plugin**  
 **Principio**: **Root minimale, moduli specifici**  
 **Merge Plugin**: **wikimedia/composer-merge-plugin**

@@ -351,6 +351,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 **Critici**:
 - [Fixcity](../Modules/Fixcity/docs/roadmap-and-issues.md) - Core business + Performance fixes
 - [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
+<<<<<<< .merge_file_AQg9vB
 - [User](../Modules/User/docs/roadmap-and-issues.md) - Authentication
 
 **Features**:
@@ -365,6 +366,22 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### 🎨 THEMES
 - [Sixteen](../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
+=======
+- [User](../../User/docs/roadmap-and-issues.md) - Authentication
+
+**Features**:
+- [AI](../../AI/docs/roadmap-and-issues.md) - Auto-categorization roadmap
+- [Notify](roadmap-and-issues.md) - Real-time roadmap
+- [Geo](../../Geo/docs/roadmap-and-issues.md) - Maps integration
+
+**Supporto**:
+- [UI](../Modules/UI/docs/roadmap-and-issues.md) - Components
+- [Cms](../../Cms/docs/roadmap-and-issues.md) - Content
+- [Activity](../../Activity/docs/roadmap-and-issues.md) - Audit
+
+### 🎨 THEMES
+- [Sixteen](../../../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
+>>>>>>> .merge_file_QVHD8y
 
 ---
 

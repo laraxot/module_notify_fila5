@@ -25,5 +25,9 @@ discussions: []
 
 ## 🔗 Collegamento
 
+<<<<<<< .merge_file_isMhNS
 - [GEMINI.md originale](../../GEMINI.md)
+=======
+- [GEMINI.md originale](../GEMINI.md)
+>>>>>>> .merge_file_sEy369
 - [Index principale](./index.md)

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "optimization analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_VPOyeX
+=======
+status: draft
+>>>>>>> .merge_file_2f8l2B
 ---
 
 # notify module documentation optimization analysis

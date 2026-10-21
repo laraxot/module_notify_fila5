@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "02 goals"
 issues: []
 discussions: []
+<<<<<<< .merge_file_N9lYsq
+=======
+status: draft
+>>>>>>> .merge_file_QG3CmO
 ---
 
 # Goals - Notify

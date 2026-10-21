@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "approfondimento completo"
 issues: []
 discussions: []
+<<<<<<< .merge_file_1O2pJD
+=======
+status: draft
+>>>>>>> .merge_file_WH2DLA
 ---
 
 # Approfondimento Completo Modulo Notify

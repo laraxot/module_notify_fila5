@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "07 mcp tailwind ui"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Dnbsrb
+=======
+status: draft
+>>>>>>> .merge_file_9xFvwm
 ---
 
 # 🎨 MCP Servers per Tailwind CSS & UI Frameworks
@@ -16,6 +20,7 @@ discussions: []
 **Priorità**: CRITICAL
 
 ---
+<<<<<<< .merge_file_Dnbsrb
 
 title: "07 mcp tailwind ui"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "07 mcp tailwind ui"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_9xFvwm
 ## 📋 Panoramica
 
 Questo progetto utilizza **MCP (Model Context Protocol)** per integrare AI assistants con:

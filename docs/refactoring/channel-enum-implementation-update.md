@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "channel enum implementation update"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Da39XT
+=======
+status: draft
+>>>>>>> .merge_file_w32vI9
 ---
 
 # ChannelEnum Implementation Update
@@ -127,6 +131,7 @@ Channel-specific logic can be extended by adding methods to ChannelEnum:
 - Channel-specific processing rules
 
 ---
+<<<<<<< .merge_file_Da39XT
 
 title: "channel enum implementation update"
 type: note
@@ -136,6 +141,8 @@ updated: 2026-09-26
 qmd: "channel enum implementation update"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_w32vI9
 **Implemented by**: iFlow CLI  
 **Pattern**: Enum-driven architecture  
 **Compliance**: DRY + KISS + Type Safety

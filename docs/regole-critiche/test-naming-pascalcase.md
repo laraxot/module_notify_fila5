@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "test naming pascalcase"
 issues: []
 discussions: []
+<<<<<<< .merge_file_t2BTfI
+=======
+status: draft
+>>>>>>> .merge_file_Ai6ofX
 ---
 
 # Regola Critica: Naming File Test - PascalCase Obbligatorio
@@ -229,6 +233,7 @@ find tests/ -name "*Test*" | sort -f | uniq -i -d
 ✅ Convenzioni standard
 
 ---
+<<<<<<< .merge_file_t2BTfI
 
 title: "test naming pascalcase"
 type: note
@@ -238,6 +243,8 @@ updated: 2026-09-26
 qmd: "test naming pascalcase"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Ai6ofX
 **Regola Critica: Test File Naming**  
 **SEMPRE PascalCase - MAI minuscolo** 🎯
 

@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_3uXiSt
+=======
+status: draft
+>>>>>>> .merge_file_PXY1c9
 ---
 
 # Documentation Improvement Plan - Multi-Agent Edition

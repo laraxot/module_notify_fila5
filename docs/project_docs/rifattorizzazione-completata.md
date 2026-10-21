@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "rifattorizzazione completata"
 issues: []
 discussions: []
+<<<<<<< .merge_file_7qvP5k
+=======
+status: draft
+>>>>>>> .merge_file_dIsIrk
 ---
 
 # Rifattorizzazione Completa delle Cartelle Docs

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "testing testcase database connection fix"
 issues: []
 discussions: []
+<<<<<<< .merge_file_IT84fc
+=======
+status: draft
+>>>>>>> .merge_file_3QfgOf
 ---
 
 # Fix: Notify TestCase - Database Connection Configuration
@@ -99,6 +103,7 @@ protected function setUp(): void
 - [Media TestCase Fix](../../Media/docs/testing-testcase-database-connection-fix.md)
 
 ---
+<<<<<<< .merge_file_IT84fc
 
 title: "testing testcase database connection fix"
 type: note
@@ -108,5 +113,7 @@ updated: 2026-09-26
 qmd: "testing testcase database connection fix"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_3QfgOf
 **Status**: Completed
 **Risultato**: Test Notify ora configurano correttamente le connessioni database

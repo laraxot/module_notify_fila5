@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "tech stack"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dL0SBt
+=======
+status: draft
+>>>>>>> .merge_file_N86Onw
 ---
 
 # Technology Stack

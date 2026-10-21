@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "SESSIONE COMPLETA"
 issues: []
 discussions: []
+<<<<<<< .merge_file_H3OuDb
+=======
+status: draft
+>>>>>>> .merge_file_Wd5k9c
 ---
 
 # ✅ Sessione Completata - Allineamento Bootstrap Italia
@@ -157,6 +161,7 @@ GET /it/tests/amministrazione → tests.view (slug=amministrazione)
 - `docs/VERIFICA_HOMEPAGE.md`
 
 ---
+<<<<<<< .merge_file_H3OuDb
 
 title: "SESSIONE COMPLETA"
 type: note
@@ -166,6 +171,8 @@ updated: 2026-09-26
 qmd: "SESSIONE COMPLETA"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_Wd5k9c
 **Status**: ✅ COMPLETATO  
 **Data**: 2026-03-31  
 **URL Test**: http://ptv.local/it/tests/homepage

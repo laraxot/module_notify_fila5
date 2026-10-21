@@ -30,6 +30,10 @@ La configurazione MCP si trova in:
 ## 🔗 Link
 
 **Di ritorno:**
+<<<<<<< .merge_file_mDfnT5
 - → [CLAUDE.md - MCP Tools Section](../../CLAUDE.md)
+=======
+- → [CLAUDE.md - MCP Tools Section](../CLAUDE.md)
+>>>>>>> .merge_file_ZUJX4n
 - → [mcp.md](mcp.md)
 - → [INDEX](index.md)

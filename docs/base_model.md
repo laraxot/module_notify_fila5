@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "base model"
 issues: []
 discussions: []
+<<<<<<< .merge_file_x7WoRO
+=======
+status: draft
+>>>>>>> .merge_file_dCEIKw
 ---
 
 # BaseModel del Modulo Notify

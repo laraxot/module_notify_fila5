@@ -164,7 +164,11 @@ gh run list --repo laraxot/base_ptv_fila5
 
 - [Multi-Agent Collaboration Guide](MULTI_AGENT_COLLABORATION_GUIDE.md)
 - [GitHub Sync Rule](GITHUB_SYNC_RULE.md)
+<<<<<<< .merge_file_W02yUu
 - [AI Rules](../.qwen/AI_RULES_CRITICAL.md)
+=======
+- [AI Rules](../../../../.qwen/AI_RULES_CRITICAL.md)
+>>>>>>> .merge_file_DzxIpQ
 
 ---
 

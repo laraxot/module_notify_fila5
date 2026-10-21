@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "dry kiss"
 issues: []
 discussions: []
+<<<<<<< .merge_file_wvcd3o
+=======
+status: draft
+>>>>>>> .merge_file_ZcCcj5
 ---
 
 # DRY & KISS Analysis - Modulo Notify
@@ -43,6 +47,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 - 🔄 ServiceProvider: Auto-detect nome
 
 ---
+<<<<<<< .merge_file_wvcd3o
 title: "dry kiss"
 type: note
 tags: [documentation]
@@ -51,4 +56,6 @@ updated: 2026-09-26
 qmd: "dry kiss"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_ZcCcj5
 [DRY/KISS Global](../../../docs/dry_kiss_analysis_[date].md)

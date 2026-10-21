@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "html parity rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_QcOKbS
+=======
+status: draft
+>>>>>>> .merge_file_2Q5haL
 ---
 
 # HTML Parity Analysis Rules
@@ -17,6 +21,7 @@ discussions: []
 > **Purpose**: Prevent architectural and translation errors in HTML parity phases
 
 ---
+<<<<<<< .merge_file_QcOKbS
 
 title: "html parity rules"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "html parity rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_2Q5haL
 ## 🎯 Core Philosophy
 
 **HTML structural parity is ESSENTIAL** - it is the foundation, not optional.

@@ -62,6 +62,11 @@ discussions: []
 
 - [Indice AGENTS](./agents-split-index.md)
 - [website-checklist.md](./website-checklist.md) - Checklist completa
+<<<<<<< .merge_file_yUqsS2
 - [AGENTS.md originale](../../AGENTS.md)
 - [agents.md originale](../../agents.md)
+=======
+- [AGENTS.md originale](../AGENTS.md)
+- [agents.md originale](../agents.md)
+>>>>>>> .merge_file_ymHZMS
 - [Index principale](./index.md)

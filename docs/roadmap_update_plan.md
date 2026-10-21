@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "roadmap update plan"
 issues: []
 discussions: []
+<<<<<<< .merge_file_jrfkI4
+=======
+status: draft
+>>>>>>> .merge_file_gu3f18
 ---
 
 # Roadmap Update Plan - All Modules

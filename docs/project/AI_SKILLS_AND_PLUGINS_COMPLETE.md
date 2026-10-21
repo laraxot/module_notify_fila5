@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "AI SKILLS AND PLUGINS COMPLETE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_SIgurf
+=======
+status: draft
+>>>>>>> .merge_file_fH3Kdv
 ---
 
 # ✅ AI Skills & Plugins - COMPLETE
@@ -16,6 +20,7 @@ discussions: []
 **Documentation**: Complete & DRY + KISS compliant
 
 ---
+<<<<<<< .merge_file_SIgurf
 
 title: "AI SKILLS AND PLUGINS COMPLETE"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "AI SKILLS AND PLUGINS COMPLETE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_fH3Kdv
 ## 📊 Riepilogo Generale
 
 Tutti gli AI skill e plugins sono stati **studiati, installati, configurati e documentati**.

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "mail template migration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_5cMVSd
+=======
+status: draft
+>>>>>>> .merge_file_fUopKB
 ---
 
 # Guida alla Migrazione di MailTemplate

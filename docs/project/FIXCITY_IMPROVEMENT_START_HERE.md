@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "FIXCITY IMPROVEMENT START HERE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_IKMwSe
+=======
+status: draft
+>>>>>>> .merge_file_7ovj9g
 ---
 
 # ✅ FixCity Improvement Plan - START HERE
@@ -17,6 +21,7 @@ discussions: []
 **Timeline**: 17 settimane (4 mesi)
 
 ---
+<<<<<<< .merge_file_IKMwSe
 
 title: "FIXCITY IMPROVEMENT START HERE"
 type: note
@@ -26,6 +31,8 @@ updated: 2026-09-26
 qmd: "FIXCITY IMPROVEMENT START HERE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_7ovj9g
 ## 🎯 Quick Start
 
 ### 1. Leggi i Documenti Principali

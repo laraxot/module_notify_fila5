@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "build lint test commands"
 issues: []
 discussions: []
+<<<<<<< .merge_file_fPs1Kl
+=======
+status: draft
+>>>>>>> .merge_file_xTtCp1
 ---
 
 # 2. Build / Lint / Test Commands
@@ -108,6 +112,7 @@ php artisan filament:optimize-clear
 ```
 
 ---
+<<<<<<< .merge_file_fPs1Kl
 
 title: "build lint test commands"
 type: note
@@ -117,3 +122,5 @@ updated: 2026-09-26
 qmd: "build lint test commands"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_xTtCp1

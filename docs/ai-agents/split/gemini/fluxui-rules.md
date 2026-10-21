@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "fluxui rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_PXHd2Q
+=======
+status: draft
+>>>>>>> .merge_file_5XWVtD
 ---
 
 === fluxui-free/core rules ===
@@ -19,6 +23,7 @@ discussions: []
 
 
 ---
+<<<<<<< .merge_file_PXHd2Q
 
 title: "fluxui rules"
 type: note
@@ -28,6 +33,8 @@ updated: 2026-09-26
 qmd: "fluxui rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_5XWVtD
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

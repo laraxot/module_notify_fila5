@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "PHASE 1 RESEARCH COMPLETE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_tkJTVr
+=======
+status: draft
+>>>>>>> .merge_file_GHgYYR
 ---
 
 # ✅ PHASE 1 - RICERCA COMPLETATA
@@ -16,6 +20,7 @@ discussions: []
 **Status**: 🟢 **RICERCA E PIANIFICAZIONE COMPLETE** → Pronto per ESECUZIONE
 
 ---
+<<<<<<< .merge_file_tkJTVr
 
 title: "PHASE 1 RESEARCH COMPLETE"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "PHASE 1 RESEARCH COMPLETE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_GHgYYR
 ## 📊 CONSUNTIVO LAVORO SVOLTO
 
 ### Documenti Creati (5 principali)

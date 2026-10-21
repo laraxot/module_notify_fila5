@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "php rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_xzkGFU
+=======
+status: draft
+>>>>>>> .merge_file_lVUqok
 ---
 
 === php rules ===
@@ -43,6 +47,7 @@ protected function isAccessible(User $user, ?string $path = null): bool
 
 
 ---
+<<<<<<< .merge_file_xzkGFU
 
 title: "php rules"
 type: note
@@ -52,6 +57,8 @@ updated: 2026-09-26
 qmd: "php rules"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_lVUqok
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

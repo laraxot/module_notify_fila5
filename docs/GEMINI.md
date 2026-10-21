@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "GEMINI"
 issues: []
 discussions: []
+<<<<<<< .merge_file_b3lWJW
+=======
+status: draft
+>>>>>>> .merge_file_uxAVgJ
 ---
 
 # Gemini Rules (Modular)
@@ -24,6 +28,7 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Folio & Volt](./.agents/docs/main-rules/gemini-folio-volt.md)
 
 ---
+<<<<<<< .merge_file_b3lWJW
 title: "GEMINI"
 type: note
 tags: [documentation]
@@ -32,6 +37,8 @@ updated: 2026-09-26
 qmd: "GEMINI"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_uxAVgJ
 **See also:**
 - [CLAUDE.md](./CLAUDE.md)
 - [agents.md](./AGENTS.md)
@@ -53,11 +60,19 @@ qmd: "gemini gemini rules (modular)"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_b3lWJW
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_uxAVgJ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

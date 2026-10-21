@@ -8,6 +8,10 @@ module: Notify
 created: 2026-08-24
 updated: 2026-08-24
 qmd: "Notify quality report phpstan pest coverage test ratio"
+<<<<<<< .merge_file_pgRU41
+=======
+status: draft
+>>>>>>> .merge_file_3lBNqH
 ---
 
 # Quality Report — Notify

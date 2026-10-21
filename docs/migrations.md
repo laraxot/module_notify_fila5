@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "migrations"
 issues: []
 discussions: []
+<<<<<<< .merge_file_f7iv0j
+=======
+status: draft
+>>>>>>> .merge_file_JR4xty
 ---
 
 # Database Migrations
@@ -237,6 +241,7 @@ public function template(): BelongsTo
 * [migrations.md](../../Activity/docs/database/migrations.md)
 
 ---
+<<<<<<< .merge_file_f7iv0j
 title: "migrations"
 type: note
 tags: [documentation]
@@ -245,3 +250,5 @@ updated: 2026-09-26
 qmd: "migrations"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_JR4xty

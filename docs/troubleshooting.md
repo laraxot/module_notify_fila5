@@ -8,6 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_pMb7l2
+=======
+status: draft
+>>>>>>> .merge_file_ylcZof
 ---
 
 # Troubleshooting Notification Issues in Laravel Modules

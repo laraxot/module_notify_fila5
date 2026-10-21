@@ -40,7 +40,11 @@ Questo comando pubblica gli asset necessari e risolve l'errore.
 ---
 
 ## Collegamenti
+<<<<<<< .merge_file_1wlNt1
 - [Documentazione asset Vite nel tema](../../Themes/Sixteen/docs/assets.md)
+=======
+- [Documentazione asset Vite nel tema](../../../../Themes/Sixteen/docs/assets.md)
+>>>>>>> .merge_file_8A2j9l
 - [Indice gestione temi e asset](../temi_asset.md) *(creare se non esiste)*
 
 ---

@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "email notifications"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XkCMMU
+=======
+status: draft
+>>>>>>> .merge_file_fPB0mT
 ---
 
 # Sistema Notifiche Email - il progetto

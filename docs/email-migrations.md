@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "email migrations"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UUAOF2
+=======
+status: draft
+>>>>>>> .merge_file_iBzUkP
 ---
 
 # Sistema Migrazione Email 

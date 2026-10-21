@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "vhost fixcity"
 issues: []
 discussions: []
+<<<<<<< .merge_file_RRSxCz
+=======
+status: draft
+>>>>>>> .merge_file_uhSR6a
 ---
 
 # Apache VirtualHost - fixcity.local
@@ -16,6 +20,7 @@ discussions: []
 **Server**: Apache 2.4.64 (Ubuntu)
 
 ---
+<<<<<<< .merge_file_RRSxCz
 
 title: "vhost fixcity"
 type: note
@@ -25,6 +30,8 @@ updated: 2026-09-26
 qmd: "vhost fixcity"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_uhSR6a
 ## Configuration Summary
 
 | Parametro | Valore |
