@@ -41,7 +41,7 @@ Oggi ho completato un'ampia opera di miglioramento della documentazione, pulizia
 
 **Files Modified**:
 - `laravel/Modules/Blog/docs/structure.md`
-- `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md`
+- `laravel/Modules/Blog/docs/CHANGELOG-blog-module-ottobre.md`
 - `laravel/Modules/Blog/docs/models/README.md`
 - `laravel/Modules/Blog/docs/models/transaction-removal.md`
 - `AGENTS.md`

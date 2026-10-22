@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -262,8 +262,8 @@ Ogni template accetta le seguenti variabili comuni:
 - [Documentazione MailPace](https://github.com/mailpace/templates)
 - [Struttura Template](./mail-templates-structure.md)
 - [Best Practices](./email-html-best-practices.md)
-- [Struttura Template](./mail-templates-structure-1.md)
-- [Best Practices](./email-html-best-practices-1.md)
+- [Struttura Template](./mail-templates-structure.md)
+- [Best Practices](./email-html-best-practices.md)
 
 ## Supporto
 

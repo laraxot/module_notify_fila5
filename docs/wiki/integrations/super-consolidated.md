@@ -53,7 +53,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2PjMGK
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -64,7 +64,7 @@ related:
 
 ## super-admin-setup-fix-1
 
-*Consolidated from: `super-admin-setup-fix-1.md`*
+*Consolidated from: `super-admin-setup-fix.md`*
 
 title: "Fix Super Admin Setup - Tabella Roles Mancante"
 type: concept
@@ -88,7 +88,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2PjMGK
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -594,7 +594,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2PjMGK
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -633,7 +633,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2PjMGK
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -754,7 +754,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2PjMGK
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -994,7 +994,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2PjMGK
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1397,7 +1397,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2PjMGK
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1989,7 +1989,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2PjMGK
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

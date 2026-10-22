@@ -36,7 +36,7 @@ Consolidated from **11** individual files.
 
 ## xot-base-classes-analysis-1
 
-*Consolidated from: `xot-base-classes-analysis-1.md`*
+*Consolidated from: `xot-base-classes-analysis.md`*
 
 title: "Analisi: Utilizzo delle Classi Base Xot"
 type: concept
@@ -60,7 +60,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_qSgUVx
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -388,7 +388,7 @@ Questa convenzione dovrebbe essere seguita rigorosamente in tutto il progetto pe
 
 ## xot-base-classes-checklist-1
 
-*Consolidated from: `xot-base-classes-checklist-1.md`*
+*Consolidated from: `xot-base-classes-checklist.md`*
 
 title: "Checklist: Verifica Classi Base Xot"
 type: concept
@@ -412,7 +412,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_qSgUVx
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -586,7 +586,7 @@ Per correggere automaticamente i file che non seguono queste convenzioni:
 
 ## xot-base-classes-convention-1
 
-*Consolidated from: `xot-base-classes-convention-1.md`*
+*Consolidated from: `xot-base-classes-convention.md`*
 
 title: "Convenzioni per le Classi Base Xot"
 type: concept
@@ -610,7 +610,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_qSgUVx
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1348,7 +1348,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_qSgUVx
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

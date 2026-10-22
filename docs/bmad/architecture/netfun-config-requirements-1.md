@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -107,7 +107,7 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
 - [Canale SMS Netfun](./sms-netfun-channel.md)
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
-- [Canale SMS Netfun](./sms-netfun-channel-2.md)
+- [Canale SMS Netfun](./sms-netfun-channel.md)
 
 ## Supporto
 
@@ -165,8 +165,8 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 - [Documentazione Completa Netfun Channel](./sms-netfun-channel.md)
 - [Esempi di Utilizzo Netfun](./netfun-examples.md)
-- [Documentazione Completa Netfun Channel](./sms-netfun-channel-2.md)
-- [Esempi di Utilizzo Netfun](./netfun-examples-2.md)
+- [Documentazione Completa Netfun Channel](./sms-netfun-channel.md)
+- [Esempi di Utilizzo Netfun](./netfun-examples.md)
 - [Risoluzione Conflitti Netfun](./netfunchannel-conflict-resolution.md)
 
 ---

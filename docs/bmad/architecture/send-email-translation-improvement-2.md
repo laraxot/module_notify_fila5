@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -312,9 +312,9 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ### File Modificati
 - `laravel/Modules/Notify/lang/it/send_email.php` - File principale migliorato
-- `laravel/Modules/Notify/docs/send-email-translation-improvement-2.md` - Questa documentazione
-- `laravel/Modules/Notify/project_docs/send-email-translation-improvement-2.md` - Questa documentazione
-- `laravel/Modules/Notify/docs/send-email-translation-improvement-2.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send-email-translation-improvement-2.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send-email-translation-improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send-email-translation-improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send-email-translation-improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send-email-translation-improvement.md` - Questa documentazione
 
 ## 📝 Note di Implementazione
 

@@ -123,7 +123,7 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 
 ## class-inheritance-best-practices-2
 
-*Consolidated from: `class-inheritance-best-practices-2.md`*
+*Consolidated from: `class-inheritance-best-practices.md`*
 
 title: "Best Practices per l'Ereditarietà delle Classi"
 type: concept
@@ -147,7 +147,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_C4K9P0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -419,7 +419,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" Modules/
 
 ## class-inheritance-principles-2
 
-*Consolidated from: `class-inheritance-principles-2.md`*
+*Consolidated from: `class-inheritance-principles.md`*
 
 title: "Principi di Ereditarietà nelle Classi <nome progetto>"
 type: concept
@@ -443,7 +443,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_C4K9P0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

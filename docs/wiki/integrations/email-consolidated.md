@@ -63,7 +63,7 @@ Consolidated from **42** individual files.
 
 ## email-analytics-1
 
-*Consolidated from: `email-analytics-1.md`*
+*Consolidated from: `email-analytics.md`*
 
 title: "Analytics Email - il progetto"
 type: concept
@@ -87,7 +87,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2019,7 +2019,7 @@ class MailBackupDebugger
 
 ## email-backup-2
 
-*Consolidated from: `email-backup-2.md`*
+*Consolidated from: `email-backup.md`*
 
 title: "Sistema Backup Email"
 type: concept
@@ -2043,7 +2043,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3343,7 +3343,7 @@ class MailBackupDebugger
 
 ## email-best-practices-1
 
-*Consolidated from: `email-best-practices-1.md`*
+*Consolidated from: `email-best-practices.md`*
 
 title: "Best Practices per il Sistema Email"
 type: concept
@@ -3367,7 +3367,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3419,7 +3419,7 @@ related:
 
 ## email-cache-1
 
-*Consolidated from: `email-cache-1.md`*
+*Consolidated from: `email-cache.md`*
 
 title: "Sistema Cache Email"
 type: concept
@@ -3443,7 +3443,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4431,7 +4431,7 @@ class MailCacheDebugger
 
 ## email-html-best-practices-1
 
-*Consolidated from: `email-html-best-practices-1.md`*
+*Consolidated from: `email-html-best-practices.md`*
 
 title: "Best Practices HTML per Email"
 type: concept
@@ -4455,7 +4455,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4682,11 +4682,11 @@ Questo documento definisce le best practices per la creazione di template HTML p
 - [Struttura Template](./mail-templates-structure.md)
 <<<<<<< .merge_file_QCpNM0
 - [Template Base](./base-templates.md)
-- [Struttura Template](./mail-templates-structure-1.md)
+- [Struttura Template](./mail-templates-structure.md)
 - [Template Base](./base-templates.md)
 =======
 - [Template Base](../../base-templates.md)
-- [Struttura Template](./mail-templates-structure-1.md)
+- [Struttura Template](./mail-templates-structure.md)
 - [Template Base](../../base-templates.md)
 >>>>>>> .merge_file_1NrE9A
 
@@ -4946,7 +4946,7 @@ Per supporto tecnico:
 
 ## email-logs-1
 
-*Consolidated from: `email-logs-1.md`*
+*Consolidated from: `email-logs.md`*
 
 title: "Sistema Log Email"
 type: concept
@@ -4970,7 +4970,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -6026,7 +6026,7 @@ class MailLogDebugger
 
 ## email-monitoring-1
 
-*Consolidated from: `email-monitoring-1.md`*
+*Consolidated from: `email-monitoring.md`*
 
 title: "Sistema Monitoraggio Email"
 type: concept
@@ -6050,7 +6050,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -7723,7 +7723,7 @@ class MailMonitoringDebugger
 
 ## email-notifications-1
 
-*Consolidated from: `email-notifications-1.md`*
+*Consolidated from: `email-notifications.md`*
 
 title: "Sistema Notifiche Email - il progetto"
 type: concept
@@ -7747,7 +7747,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -8513,7 +8513,7 @@ class NotificationDebugger
 
 ## email-plugins-analysis-1
 
-*Consolidated from: `email-plugins-analysis-1.md`*
+*Consolidated from: `email-plugins-analysis.md`*
 
 title: "Analisi Plugin Email per Filament - il progetto"
 type: concept
@@ -8537,7 +8537,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -9395,7 +9395,7 @@ class MailAnalytics
 
 ## email-queue-1
 
-*Consolidated from: `email-queue-1.md`*
+*Consolidated from: `email-queue.md`*
 
 title: "Sistema Code Email - il progetto"
 type: concept
@@ -9419,7 +9419,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -10670,7 +10670,7 @@ class MailQueueManager
 
 ## email-sending-troubleshooting-1
 
-*Consolidated from: `email-sending-troubleshooting-1.md`*
+*Consolidated from: `email-sending-troubleshooting.md`*
 
 title: "Troubleshooting: Sistema di Invio Email in Notify"
 type: concept
@@ -10694,7 +10694,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -11093,7 +11093,7 @@ Un esempio completo di implementazione è disponibile in `TestSmtpPage.php`. Si 
 
 ## email-translations-1
 
-*Consolidated from: `email-translations-1.md`*
+*Consolidated from: `email-translations.md`*
 
 title: "Integrazione Traduzioni Email - il progetto"
 type: concept
@@ -11117,7 +11117,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -11912,7 +11912,7 @@ class TranslationValidator
 
 ## email-wysiwyg-editor-1
 
-*Consolidated from: `email-wysiwyg-editor-1.md`*
+*Consolidated from: `email-wysiwyg-editor.md`*
 
 title: "Editor WYSIWYG per Email - il progetto"
 type: concept
@@ -11936,7 +11936,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_1NrE9A
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

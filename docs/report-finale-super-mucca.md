@@ -14,7 +14,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 =======
@@ -23,7 +23,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
@@ -154,7 +154,7 @@ Ogni file contiene:
 #### B. Master Documents Creati (10+ files) ✅
 
 1. `docs/dry-kiss-analysis-master.md` - Riepilogo globale
-2. `docs/analisi-metodi-duplicati-master-1.md` - Analisi duplicazioni
+2. `docs/analisi-metodi-duplicati-master.md` - Analisi duplicazioni
 3. `docs/analisi-metodi-duplicati-index.md` - Indice navigabile
 4. `docs/implementazione-refactoring-basemodel.md` - Report BaseModel
 5. `docs/refactoring-completato.md` - Riepilogo refactoring

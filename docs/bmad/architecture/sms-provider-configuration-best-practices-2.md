@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -131,10 +131,10 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./sms-provider-architecture-1.md)
-- [SMS Implementation](./sms-implementation-1.md)
-- [SMS Best Practices](./sms-best-practices-1.md)
-- [Netfun Authentication Methods](./netfun-authentication-methods-1.md)
+- [SMS Provider Architecture](./sms-provider-architecture.md)
+- [SMS Implementation](./sms-implementation.md)
+- [SMS Best Practices](./sms-best-practices.md)
+- [Netfun Authentication Methods](./netfun-authentication-methods.md)
 - [SMS Provider Architecture](./sms-provider-architecture.md)
 - [SMS Implementation](./sms-implementation.md)
 - [SMS Best Practices](./sms-best-practices.md)

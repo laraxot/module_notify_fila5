@@ -41,7 +41,7 @@ Consolidated from **20** individual files.
 
 ## netfun-action-errors-1
 
-*Consolidated from: `netfun-action-errors-1.md`*
+*Consolidated from: `netfun-action-errors.md`*
 
 title: "Errori in SendNetfunSMSAction e Correzioni"
 type: concept
@@ -65,7 +65,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_ct4wJn
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -798,7 +798,7 @@ Questi miglioramenti garantiscono:
 
 ## netfun-action-updates-2
 
-*Consolidated from: `netfun-action-updates-2.md`*
+*Consolidated from: `netfun-action-updates.md`*
 
 title: "Aggiornamenti a SendNetfunSMSAction"
 type: concept
@@ -822,7 +822,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_ct4wJn
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2370,7 +2370,7 @@ Log::info('SMS inviato', [
 
 ## netfun-channel-2
 
-*Consolidated from: `netfun-channel-2.md`*
+*Consolidated from: `netfun-channel.md`*
 
 title: "Implementazione Canale Netfun"
 type: concept
@@ -2394,7 +2394,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_ct4wJn
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3781,7 +3781,7 @@ Log::info('SMS inviato', [
 
 ## netfun-config-requirements-1
 
-*Consolidated from: `netfun-config-requirements-1.md`*
+*Consolidated from: `netfun-config-requirements.md`*
 
 title: "Requisiti di Configurazione per Netfun SMS"
 type: concept
@@ -3805,7 +3805,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_ct4wJn
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3896,7 +3896,7 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
 - [Canale SMS Netfun](./sms-netfun-channel.md)
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
-- [Canale SMS Netfun](./sms-netfun-channel-2.md)
+- [Canale SMS Netfun](./sms-netfun-channel.md)
 
 ## Supporto
 
@@ -3953,8 +3953,8 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 - [Documentazione Completa Netfun Channel](./sms-netfun-channel.md)
 - [Esempi di Utilizzo Netfun](./netfun-examples.md)
-- [Documentazione Completa Netfun Channel](./sms-netfun-channel-2.md)
-- [Esempi di Utilizzo Netfun](./netfun-examples-2.md)
+- [Documentazione Completa Netfun Channel](./sms-netfun-channel.md)
+- [Esempi di Utilizzo Netfun](./netfun-examples.md)
 - [Risoluzione Conflitti Netfun](./netfunchannel-conflict-resolution.md)
 
 ---
@@ -5066,7 +5066,7 @@ class NetfunNotificationIntegrationTest extends TestCase
 
 ## netfun-examples-2
 
-*Consolidated from: `netfun-examples-2.md`*
+*Consolidated from: `netfun-examples.md`*
 
 title: "Netfun Examples"
 type: concept
@@ -5090,7 +5090,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_ct4wJn
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

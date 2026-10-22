@@ -99,7 +99,7 @@ Queste sono **corrette** perché:
 | File | Status | Changes |
 |------|--------|---------|
 | `laravel/Modules/Blog/docs/structure.md` | ✅ Fixed | Corretti 3 riferimenti |
-| `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md` | ✅ Fixed | Rimossi riferimenti errati |
+| `laravel/Modules/Blog/docs/CHANGELOG-blog-module-ottobre.md` | ✅ Fixed | Rimossi riferimenti errati |
 | `laravel/Modules/Blog/docs/models/README.md` | ✅ Fixed | Aggiornata sezione struttura |
 | `laravel/Modules/Blog/docs/models/transaction-removal.md` | ✅ Fixed | Corretti riferimenti factory |
 

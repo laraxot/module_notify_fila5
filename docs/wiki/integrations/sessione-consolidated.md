@@ -52,7 +52,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_aDauJS
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -316,7 +316,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_aDauJS
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -568,7 +568,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_aDauJS
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -755,7 +755,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_aDauJS
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -948,7 +948,7 @@ Il footer feedback module richiede di identificare il file footer corretto da mo
 
 ## sessione-super-mucca-1
 
-*Consolidated from: `sessione-super-mucca-1.md`*
+*Consolidated from: `sessione-super-mucca.md`*
 
 title: "🐮 Sessione Super Mucca - 2025-10-15"
 type: concept
@@ -972,7 +972,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_aDauJS
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1441,7 +1441,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_aDauJS
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1766,7 +1766,7 @@ public function getConnectionName(): ?string
 5. `docs/architecture/README.md` (1.500+ parole)
 6. `docs/XotBasePivot-Executive-Summary.md` (2.000+ parole)
 <<<<<<< .merge_file_fa4n4f
-7. `docs/SESSIONE-2025-10-15-SUPER-MUCCA.md` (questo documento)
+7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
 =======
 7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
 >>>>>>> .merge_file_aDauJS

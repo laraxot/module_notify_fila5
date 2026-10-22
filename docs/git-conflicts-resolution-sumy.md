@@ -14,7 +14,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 =======
@@ -23,7 +23,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
@@ -51,7 +51,7 @@ status: draft
 ### Documentazione
 - `docs/README.md` - Documentazione principale
 - `docs/architecture.md` - Architettura del sistema notifiche
-- `docs/notification-channels-implementation-2.md` - Implementazione canali
+- `docs/notification-channels-implementation.md` - Implementazione canali
 - `docs/email-templates.md` - Template email
 
 ## Modifiche Applicate
@@ -98,7 +98,7 @@ Tutti i file risolti rispettano:
 - [Documentazione Root Notify](../../../docs/modules/notify.md)
 - [Architecture Documentation](./architecture.md)
 - [Email Templates](./email-templates.md)
-- [Notification Channels](./notification-channels-implementation-2.md)
+- [Notification Channels](./notification-channels-implementation.md)
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

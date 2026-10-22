@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -86,17 +86,17 @@ Verificare che:
 
 ## Collegamenti
 - [Notify Module Documentation](README.md)
-- [SMS Implementation Guide](sms-implementation-1.md)
-- [Mail Templates Structure](mail-templates-structure-1.md)
-- [Translation Standards](translation-standards-2.md)
+- [SMS Implementation Guide](sms-implementation.md)
+- [Mail Templates Structure](mail-templates-structure.md)
+- [Translation Standards](translation-standards.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
 - [Notify Module Documentation](readme.md)
 - [Notify Module Documentation](README.md)
-- [SMS Implementation Guide](sms-implementation-1.md)
-- [Mail Templates Structure](mail-templates-structure-1.md)
-- [Translation Standards](translation-standards-2.md)
+- [SMS Implementation Guide](sms-implementation.md)
+- [Mail Templates Structure](mail-templates-structure.md)
+- [Translation Standards](translation-standards.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*

@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -74,10 +74,10 @@ Here's a complete example of a properly formatted schema:
 ### Versione HEAD
 
 ```
-## Collegamenti tra versioni di schema-conventions-1.md
-* [schema-conventions-1.md](docs/schema-conventions-1.md)
-* [schema-conventions-1.md](../../../Notify/docs/schema-conventions-1.md)
-* [schema-conventions-1.md](../../../notify/docs/schema-conventions-1.md)
+## Collegamenti tra versioni di schema-conventions.md
+* [schema-conventions-1.md](docs/schema-conventions.md)
+* [schema-conventions-1.md](../../../Notify/docs/schema-conventions.md)
+* [schema-conventions-1.md](../../../notify/docs/schema-conventions.md)
 
 
 ### Versione Incoming

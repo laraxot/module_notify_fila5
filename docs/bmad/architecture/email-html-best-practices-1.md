@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -239,7 +239,7 @@ Questo documento definisce le best practices per la creazione di template HTML p
 - [Documentazione MailPace](https://github.com/mailpace/templates)
 - [Struttura Template](./mail-templates-structure.md)
 - [Template Base](./base-templates.md)
-- [Struttura Template](./mail-templates-structure-1.md)
+- [Struttura Template](./mail-templates-structure.md)
 - [Template Base](./base-templates.md)
 
 ## Supporto

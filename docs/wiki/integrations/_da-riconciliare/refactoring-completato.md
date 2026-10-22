@@ -21,7 +21,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
 >>>>>>> .merge_file_xaHQCr
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -174,7 +174,7 @@ Modules/Notify/app/Models/BaseModel.php
 Modules/User/app/Models/BaseModel.php
 
 # Documentazione creata/aggiornata (7 files)
-docs/analisi-metodi-duplicati-master-1.md
+docs/analisi-metodi-duplicati-master.md
 docs/analisi-metodi-duplicati-index.md
 docs/implementazione-refactoring-basemodel.md
 docs/refactoring-completato.md (questo file)
@@ -345,7 +345,7 @@ php artisan optimize:clear
 ## 📚 DOCUMENTI CREATI
 
 1. **MASTER EDITION** - Analisi completa divina
-   - `docs/analisi-metodi-duplicati-master-1.md`
+   - `docs/analisi-metodi-duplicati-master.md`
    - 100+ pagine di analisi
    - Implementazioni concrete
    - ROI dettagliato

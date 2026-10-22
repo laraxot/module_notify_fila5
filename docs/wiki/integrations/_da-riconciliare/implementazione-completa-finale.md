@@ -21,7 +21,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
 >>>>>>> .merge_file_Ms6yLx
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -122,7 +122,7 @@ related:
 ---
 
 ### ✅ 5. Documentazione Aggiornata
-- [x] Creato `docs/analisi-metodi-duplicati-master-1.md` (100+ pagine)
+- [x] Creato `docs/analisi-metodi-duplicati-master.md` (100+ pagine)
 - [x] Creato `docs/analisi-metodi-duplicati-index.md` (indice navigabile)
 - [x] Creato `docs/implementazione-refactoring-basemodel.md`
 - [x] Creato `docs/refactoring-completato.md`
@@ -229,7 +229,7 @@ Modules/Xot/app/Models/Traits/
 **Documentazione:**
 ```
 docs/
-├── analisi-metodi-duplicati-master-1.md      ✅ 100+ pagine
+├── analisi-metodi-duplicati-master.md      ✅ 100+ pagine
 ├── analisi-metodi-duplicati-index.md       ✅ Indice
 ├── analisi-metodi-duplicati.md             ✅ Overview
 ├── implementazione-refactoring-basemodel.md ✅ Report

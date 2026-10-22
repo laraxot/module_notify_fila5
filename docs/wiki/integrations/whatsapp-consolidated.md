@@ -131,7 +131,7 @@ La logica di selezione del provider WhatsApp è implementata in `WhatsAppProvide
 
 ## whatsapp-channel-2
 
-*Consolidated from: `whatsapp-channel-2.md`*
+*Consolidated from: `whatsapp-channel.md`*
 
 title: "Implementazione Canale WhatsApp"
 type: concept
@@ -155,7 +155,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_0iqEDw
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1402,7 +1402,7 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 
 ## whatsapp-integration-2
 
-*Consolidated from: `whatsapp-integration-2.md`*
+*Consolidated from: `whatsapp-integration.md`*
 
 title: "Integrazione WhatsApp"
 type: concept
@@ -1426,7 +1426,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_0iqEDw
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2519,7 +2519,7 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 
 ## whatsapp-sending-standard-1
 
-*Consolidated from: `whatsapp-sending-standard-1.md`*
+*Consolidated from: `whatsapp-sending-standard.md`*
 
 title: "Standard per Invio Messaggi WhatsApp nel Modulo Notify"
 type: rule
@@ -2543,7 +2543,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_0iqEDw
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -150,8 +150,8 @@ protected $casts = [
 
 ## Collegamenti Correlati
 
-- [Modifiche Migrazione](./migration-changes-1.md)
-- [Regole Migrazioni](./migration-rules-1.md)
+- [Modifiche Migrazione](./migration-changes.md)
+- [Regole Migrazioni](./migration-rules.md)
 - [Documentazione Template](./email-templates.md)
 - [Best Practices](./best-practices.md)
 - [Modifiche Migrazione](./migration-changes.md)

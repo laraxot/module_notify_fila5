@@ -94,7 +94,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -128,7 +128,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -163,7 +163,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -445,7 +445,7 @@ class Template extends Model
 
 ## analisi-completa-3
 
-*Consolidated from: `analisi-completa-3.md`*
+*Consolidated from: `analisi-completa.md`*
 
 title: "📊 ANALISI COMPLETA PROGETTO NOTIFY"
 title: "📊 ANALISI COMPLETA PROGETTO <nome progetto>"
@@ -471,7 +471,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1270,7 +1270,7 @@ class Template extends Model
 
 ## analisi-dettagliata-1-1
 
-*Consolidated from: `analisi-dettagliata-1-1.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify-parte-architettura.md`*
 
 title: "Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura"
 type: concept
@@ -1294,7 +1294,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2348,7 +2348,7 @@ return [
 
 ## analisi-dettagliata-2-1
 
-*Consolidated from: `analisi-dettagliata-2-1.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify-parte-modelli.md`*
 
 title: "Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni"
 type: concept
@@ -2372,7 +2372,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3674,7 +3674,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analisi-dettagliata-3-1
 
-*Consolidated from: `analisi-dettagliata-3-1.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify-parte-servizi.md`*
 
 title: "Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core"
 type: concept
@@ -3698,7 +3698,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -5703,7 +5703,7 @@ class TemplateTestPage extends Page
 
 ## analisi-dettagliata-4-2
 
-*Consolidated from: `analisi-dettagliata-4-2.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify-parte-integrazione.md`*
 
 title: "Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament"
 type: concept
@@ -5727,7 +5727,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -7121,7 +7121,7 @@ class TemplateTestPage extends Page
 
 ## analisi-dettagliata-5-1
 
-*Consolidated from: `analisi-dettagliata-5-1.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify-parte-testing.md`*
 
 title: "Analisi Dettagliata del Modulo Notify - Parte 5: Testing"
 type: concept
@@ -7145,7 +7145,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -8795,7 +8795,7 @@ class WebhookControllerTest extends TestCase
 
 ## analisi-dettagliata-6-1
 
-*Consolidated from: `analisi-dettagliata-6-1.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify-parte-monitoraggio.md`*
 
 title: "Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics"
 type: concept
@@ -8819,7 +8819,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -10075,7 +10075,7 @@ class AnalyticsExporter
 
 ## analisi-dettagliata-7-1
 
-*Consolidated from: `analisi-dettagliata-7-1.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify-parte-manutenzione.md`*
 
 title: "Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup"
 type: concept
@@ -10099,7 +10099,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -11407,7 +11407,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analisi-dettagliata-8-1
 
-*Consolidated from: `analisi-dettagliata-8-1.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify-parte-note.md`*
 
 title: "Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali"
 type: concept
@@ -11431,7 +11431,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -11891,7 +11891,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 
 ## analisi-dettagliata-9
 
-*Consolidated from: `analisi-dettagliata-9.md`*
+*Consolidated from: `analisi-dettagliata-modulo-notify.md`*
 
 title: "Analisi Dettagliata del Modulo Notify"
 type: concept
@@ -11915,7 +11915,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -14667,7 +14667,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -14681,7 +14681,7 @@ related:
 ## 🎯 Documenti Principali (START HERE!)
 
 ### 1. 🏆 MASTER EDITION - Il Documento Definitivo
-📄 **File:** [analisi-metodi-duplicati-master-1.md](./analisi-metodi-duplicati-master-1.md)
+📄 **File:** [analisi-metodi-duplicati-master-1.md](./analisi-metodi-duplicati-master.md)
 
 **Contenuto:**
 - ✅ Dati REALI dal codebase (non stime!)
@@ -14862,7 +14862,7 @@ related:
 ## 🚀 Percorso di Lettura Consigliato
 
 ### Per Developer che Inizia il Refactoring
-1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master-1.md) - Leggere TUTTO (2-3 ore)
+1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master.md) - Leggere TUTTO (2-3 ore)
 <<<<<<< .merge_file_nljFp2
 2. 📖 [Xot Module](../Modules/Xot/docs/analisi-metodi-duplicati.md) - Capire modulo base
 3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/metodi-duplicati-analisi-1.md) - Primo test migration
@@ -14873,14 +14873,14 @@ related:
 4. 🚀 Iniziare implementazione seguendo MASTER guide
 
 ### Per Project Manager / Stakeholder
-1. 📖 [MASTER EDITION - Executive Summary](./analisi-metodi-duplicati-master-1.md#executive-summary-ultra-preciso) (10 min)
-2. 📖 [MASTER EDITION - ROI Analysis](./analisi-metodi-duplicati-master-1.md#roi-precisissimo) (5 min)
-3. 📖 [MASTER EDITION - Migration Plan](./analisi-metodi-duplicati-master-1.md#migration-guide-step-by-step) (15 min)
+1. 📖 [MASTER EDITION - Executive Summary](./analisi-metodi-duplicati-master.md#executive-summary-ultra-preciso) (10 min)
+2. 📖 [MASTER EDITION - ROI Analysis](./analisi-metodi-duplicati-master.md#roi-precisissimo) (5 min)
+3. 📖 [MASTER EDITION - Migration Plan](./analisi-metodi-duplicati-master.md#migration-guide-step-by-step) (15 min)
 4. 🎯 Decisione GO/NO-GO
 
 ### Per Tech Lead / Architect
-1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-master-1.md#implementazione-concreta-pronta-all-uso) (1 ora)
-2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-master-1.md#script-utili) (30 min)
+1. 📖 [MASTER EDITION - Implementazioni Concrete](./analisi-metodi-duplicati-master.md#implementazione-concreta-pronta-all-uso) (1 ora)
+2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-master.md#script-utili) (30 min)
 <<<<<<< .merge_file_nljFp2
 3. 📖 [Xot Module - Dettagli](../Modules/Xot/docs/analisi-metodi-duplicati.md) (30 min)
 4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/metodi-duplicati-analisi-1.md) (1 ora)
@@ -14891,8 +14891,8 @@ related:
 5. 🎯 Architecture review e planning
 
 ### Per QA / Tester
-1. 📖 [MASTER EDITION - Testing Section](./analisi-metodi-duplicati-master-1.md#fase-4-testing-massivo-1-settimana) (30 min)
-2. 📖 [MASTER EDITION - KPI Monitoring](./analisi-metodi-duplicati-master-1.md#kpi-da-monitorare) (15 min)
+1. 📖 [MASTER EDITION - Testing Section](./analisi-metodi-duplicati-master.md#fase-4-testing-massivo-1-settimana) (30 min)
+2. 📖 [MASTER EDITION - KPI Monitoring](./analisi-metodi-duplicati-master.md#kpi-da-monitorare) (15 min)
 3. 🧪 Setup test environments
 4. 🎯 Test plan creation
 
@@ -14925,7 +14925,7 @@ related:
 **Target:** Tutti  
 **Dettaglio:** 📊📊📊 Medio
 
-### 2. `analisi-metodi-duplicati-master-1.md`
+### 2. `analisi-metodi-duplicati-master.md`
 **Scopo:** Documento completo e definitivo  
 **Target:** Tutti (START HERE!)  
 **Dettaglio:** 📊📊📊📊📊 Altissimo
@@ -14944,10 +14944,10 @@ related:
 ## 🎯 Quick Links per Caso d'Uso
 
 ### "Voglio ridurre codice duplicato nei BaseModel"
-➡️ [MASTER - Parte 1: BaseModel](./analisi-metodi-duplicati-master-1.md#parte-1-basemodel---analisi-dettagliata)
+➡️ [MASTER - Parte 1: BaseModel](./analisi-metodi-duplicati-master.md#parte-1-basemodel---analisi-dettagliata)
 
 ### "Voglio ridurre codice duplicato in Filament Resources"
-➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-master-1.md#parte-2-filament-methods---analisi-profonda)  
+➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-master.md#parte-2-filament-methods---analisi-profonda)  
 <<<<<<< .merge_file_nljFp2
 ➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/metodi-duplicati-analisi-1.md)
 =======
@@ -14955,16 +14955,16 @@ related:
 >>>>>>> .merge_file_g1MuzL
 
 ### "Voglio codice pronto da usare"
-➡️ [MASTER - Parte 3: Implementazioni Concrete](./analisi-metodi-duplicati-master-1.md#parte-3-implementazione-concreta-pronta-all-uso)
+➡️ [MASTER - Parte 3: Implementazioni Concrete](./analisi-metodi-duplicati-master.md#parte-3-implementazione-concreta-pronta-all-uso)
 
 ### "Voglio sapere ROI e benefici"
-➡️ [MASTER - ROI Analysis](./analisi-metodi-duplicati-master-1.md#roi-precisissimo)
+➡️ [MASTER - ROI Analysis](./analisi-metodi-duplicati-master.md#roi-precisissimo)
 
 ### "Voglio piano di migration dettagliato"
-➡️ [MASTER - Parte 4: Migration Guide](./analisi-metodi-duplicati-master-1.md#parte-4-migration-guide-step-by-step)
+➡️ [MASTER - Parte 4: Migration Guide](./analisi-metodi-duplicati-master.md#parte-4-migration-guide-step-by-step)
 
 ### "Voglio script per automatizzare"
-➡️ [MASTER - Appendice: Script Utili](./analisi-metodi-duplicati-master-1.md#script-utili)
+➡️ [MASTER - Appendice: Script Utili](./analisi-metodi-duplicati-master.md#script-utili)
 
 ---
 
@@ -14997,7 +14997,7 @@ Che questo indice ti guidi verso la saggezza del refactoring perfetto!
 
 ## analisi-metodi-duplicati-master-1
 
-*Consolidated from: `analisi-metodi-duplicati-master-1.md`*
+*Consolidated from: `analisi-metodi-duplicati-master.md`*
 
 title: "🐄✨ ANALISI DIVINA METODI DUPLICATI - MASTER EDITION ✨🐄"
 type: concept
@@ -15021,7 +15021,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -16231,7 +16231,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g1MuzL
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

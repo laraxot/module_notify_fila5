@@ -29,7 +29,7 @@ Consolidated from **8** individual files.
 
 ## spatie-email-slug-proposal-1
 
-*Consolidated from: `spatie-email-slug-proposal-1.md`*
+*Consolidated from: `spatie-email-slug-proposal.md`*
 
 title: "Proposta: Aggiunta Slug a SpatieEmail e MailTemplate"
 type: concept
@@ -53,7 +53,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_ewAK8Z
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -308,13 +308,13 @@ Nonostante i potenziali svantaggi, i benefici superano i costi di implementazion
 - [Sistema di Template Email](./email-templates.md)
 - [Email per i Dottori](./doctor-emails.md)
 - [Sistema di Template Email](./email-templates.md)
-- [Email per i Dottori](./doctor-emails-1.md)
+- [Email per i Dottori](./doctor-emails.md)
 - [Filament Resources](./filament-resources.md)
 =======
 - [Sistema di Template Email](../../email-templates.md)
 - [Email per i Dottori](../../doctor-emails.md)
 - [Sistema di Template Email](../../email-templates.md)
-- [Email per i Dottori](./doctor-emails-1.md)
+- [Email per i Dottori](./doctor-emails.md)
 - [Filament Resources](../../filament-resources.md)
 >>>>>>> .merge_file_ewAK8Z
 
@@ -648,7 +648,7 @@ $this->tableUpdate(
 
 ## spatie-email-usage-guide-1
 
-*Consolidated from: `spatie-email-usage-guide-1.md`*
+*Consolidated from: `spatie-email-usage-guide.md`*
 
 title: "Guida all'utilizzo di SpatieEmail"
 type: guide
@@ -672,7 +672,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_ewAK8Z
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

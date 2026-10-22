@@ -104,7 +104,7 @@ related:
 - WebPush: fallback per tutto il resto
 - APNs e WebPush sono "simulated" (nessuna chiamata API reale) — ritornano sempre `success: true`
 <<<<<<< .merge_file_i59WzA
-- 2026-10-06: ogni consegna simulata viene tracciata da `Actions\Push\LogSimulatedPushDeliveryAction` (`Log::notice`, token abbreviato) e i risultati topic includono `topic`; resta aperta la decisione se implementare il transport o far fallire (vedi `stories/2026-10-06-phpstan-cleanup-notify.dev.md`)
+- 2026-10-06: ogni consegna simulata viene tracciata da `Actions\Push\LogSimulatedPushDeliveryAction` (`Log::notice`, token abbreviato) e i risultati topic includono `topic`; resta aperta la decisione se implementare il transport o far fallire (vedi `stories/phpstan-cleanup-notify-dev.dev.md`)
 =======
 - 2026-10-06: ogni consegna simulata viene tracciata da `Actions\Push\LogSimulatedPushDeliveryAction` (`Log::notice`, token abbreviato) e i risultati topic includono `topic`; resta aperta la decisione se implementare il transport o far fallire (vedi `stories/phpstan-cleanup-notify.dev.md`)
 >>>>>>> .merge_file_wKvJpl

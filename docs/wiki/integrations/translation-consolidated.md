@@ -180,7 +180,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 
 ## translation-cleanup-plan-2
 
-*Consolidated from: `translation-cleanup-plan-2.md`*
+*Consolidated from: `translation-cleanup-plan.md`*
 
 title: "Translation Cleanup Plan"
 type: concept
@@ -204,7 +204,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -570,7 +570,7 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 
 ## translation-conventions-2
 
-*Consolidated from: `translation-conventions-2.md`*
+*Consolidated from: `translation-conventions.md`*
 
 title: "Translation Conventions"
 type: concept
@@ -594,7 +594,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -712,7 +712,7 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## translation-conventions-clarification-2
 
-*Consolidated from: `translation-conventions-clarification-2.md`*
+*Consolidated from: `translation-conventions-clarification.md`*
 
 title: "Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify"
 type: concept
@@ -736,7 +736,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -842,8 +842,8 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 =======
 - [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules.md)
 >>>>>>> .merge_file_HT6fq0
-- [Convenzioni Specifiche del Modulo Notify](./translation-conventions-2.md)
-- [Regole per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
+- [Convenzioni Specifiche del Modulo Notify](./translation-conventions.md)
+- [Regole per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
 ---
 
 ## translation-conventions-clarification
@@ -1311,7 +1311,7 @@ Use:
 
 ## translation-file-correction-guide-2
 
-*Consolidated from: `translation-file-correction-guide-2.md`*
+*Consolidated from: `translation-file-correction-guide.md`*
 
 title: "Guida alla Correzione dei File di Traduzione"
 type: guide
@@ -1335,7 +1335,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2162,7 +2162,7 @@ declare(strict_types=1);
 
 ## translation-file-naming-rules-1
 
-*Consolidated from: `translation-file-naming-rules-1.md`*
+*Consolidated from: `translation-file-naming-rules.md`*
 
 title: "Regole di Naming per i File di Traduzione"
 type: rule
@@ -2186,7 +2186,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2347,7 +2347,7 @@ Se si identifica un file con naming non conforme:
 
 ## translation-file-structure-guide-1
 
-*Consolidated from: `translation-file-structure-guide-1.md`*
+*Consolidated from: `translation-file-structure-guide.md`*
 
 title: "Guida alla Struttura dei File di Traduzione"
 type: guide
@@ -2371,7 +2371,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2888,7 +2888,7 @@ Use:
 
 ## translation-implementation-plan-2
 
-*Consolidated from: `translation-implementation-plan-2.md`*
+*Consolidated from: `translation-implementation-plan.md`*
 
 title: "Piano di Implementazione per la Standardizzazione delle Traduzioni"
 type: concept
@@ -2912,7 +2912,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3336,7 +3336,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 
 ## translation-keys-best-practices-1
 
-*Consolidated from: `translation-keys-best-practices-1.md`*
+*Consolidated from: `translation-keys-best-practices.md`*
 
 title: "Best Practices per le Chiavi di Traduzione"
 type: concept
@@ -3360,7 +3360,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3436,7 +3436,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3498,7 +3498,7 @@ return [
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
 - [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation-keys-rules.md)
 >>>>>>> .merge_file_HT6fq0
-- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation-keys-best-practices-1.md) 
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation-keys-best-practices.md) 
 ---
 
 ## translation-keys-rules
@@ -4106,7 +4106,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 
 ## translation-standards-2
 
-*Consolidated from: `translation-standards-2.md`*
+*Consolidated from: `translation-standards.md`*
 
 title: "Standard per le Traduzioni"
 type: rule
@@ -4130,7 +4130,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4370,7 +4370,7 @@ Modules/Notify/lang/it/create_mail_template.php
 
 ## translation-standards-progress-2
 
-*Consolidated from: `translation-standards-progress-2.md`*
+*Consolidated from: `translation-standards-progress.md`*
 
 title: "Progresso Standardizzazione Traduzioni"
 type: rule
@@ -4394,7 +4394,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4452,12 +4452,12 @@ related:
 =======
    - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules.md)
 >>>>>>> .merge_file_HT6fq0
-   - [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices-1.md)
+   - [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
-   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules-1.md)
-   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide-1.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 <<<<<<< .merge_file_Cv7AAK
    - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
    - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
@@ -6381,7 +6381,7 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## translations-implementation-status-2
 
-*Consolidated from: `translations-implementation-status-2.md`*
+*Consolidated from: `translations-implementation-status.md`*
 
 title: "Translations Implementation Status"
 type: concept
@@ -6405,7 +6405,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_HT6fq0
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

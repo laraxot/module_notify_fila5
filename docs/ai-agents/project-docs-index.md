@@ -105,7 +105,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/config-file-conflicts.md` — Risoluzione dei Conflitti nei File di Configurazione
 - `bashscripts/docs/config_file_conflicts.md` — Gestione dei Conflitti nei File di Configurazione
 - `bashscripts/docs/conflict-resolution-bash.md` — Risoluzione Manuale dei Conflitti negli Script Bash
-- `bashscripts/docs/conflict-resolution-critical-bug-analysis-2026-01-09.md` — CRITICAL BUG: Conflict Resolution Scripts Take WRONG Change
+- `bashscripts/docs/conflict-resolution-critical-bug-analysis.md` — CRITICAL BUG: Conflict Resolution Scripts Take WRONG Change
 - `bashscripts/docs/conflict-resolution-final-report.md` — conflict-resolution-final-report
 - `bashscripts/docs/conflict-resolution-report.md` — Report Risoluzione Conflitti Git - BashScripts Fila3
 - `bashscripts/docs/conflict-resolution-success-report.md` — Report di Successo Risoluzione Conflitti
@@ -145,14 +145,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/git-conflict-resolution-advanced.md` — git-conflict-resolution-advanced
 - `bashscripts/docs/git-conflict-resolution-analysis.md` — Analisi Critica Script V6.0: Conflict Resolver 🔬
 - `bashscripts/docs/git-conflict-resolution-current.md` — git-conflict-resolution-current
-- `bashscripts/docs/git-conflict-resolution-final-report-2026-01-09.md` — Git Conflict Resolution - Final Report
+- `bashscripts/docs/git-conflict-resolution-final-report.md` — Git Conflict Resolution - Final Report
 - `bashscripts/docs/git-conflict-resolution-guide-complete.md` — Guida Completa: Risoluzione Automatica Conflitti Git 🐄
 - `bashscripts/docs/git-conflict-resolution-guide.md` — Guida Completa: Risoluzione Automatica Conflitti Git
 - `bashscripts/docs/git-conflict-resolution-incoming-strategy.md` — Risoluzione Conflitti Git - Strategia INCOMING
 - `bashscripts/docs/git-conflict-resolution-summary.md` — git-conflict-resolution-summary
 - `bashscripts/docs/git-conflicts-quick-reference.md` — Git Conflicts - Quick Reference Card
 - `bashscripts/docs/git-conflicts-resolution-script-v5.md` — Script Risoluzione Conflitti Git V5.0
-- `bashscripts/docs/git-conflicts-resolution-summary-2025-01-06.md` — Riepilogo Risoluzione Conflitti Git - 2025-01-06
+- `bashscripts/docs/git-conflicts-resolution-summary.md` — Riepilogo Risoluzione Conflitti Git - 2025-01-06
 - `bashscripts/docs/git-merge-conflict-resolution-roadmap.md` — Roadmap per Risoluzione Collisioni Git con Rector (pipeline realistica)
 - `bashscripts/docs/git-scripts.md` — Git Scripts
 - `bashscripts/docs/git-subtree-conflicts.md` — Risoluzione dei Conflitti negli Script Git Subtree
@@ -186,7 +186,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/login_test_implementation_summary.md` — Login Test Implementation Summary - <nome progetto> Project
 - `bashscripts/docs/markdown-conflicts-cleanup-complete.md` — Pulizia Completa Marker Conflitti Git nei File Markdown
 - `bashscripts/docs/markdown-conflicts-cleanup-summary.md` — Pulizia Marker Conflitti Git nei File Markdown
-- `bashscripts/docs/master-session-2025-01-04.md` — 🎯 MASTER SESSION REPORT - 4 Gennaio 2025
+- `bashscripts/docs/master-session.md` — 🎯 MASTER SESSION REPORT - 4 Gennaio 2025
 - `bashscripts/docs/mcp-configuration.md` — Configurazione MCP Server per PTVX Fila4 Mono
 - `bashscripts/docs/mcp-optimization-workflow.md` — Workflow di Ottimizzazione Continua MCP per SimpleChartWidget
 - `bashscripts/docs/mcp_errors_and_lessons.md` — Analisi Errori e Lezioni Apprese sull'Implementazione MCP
@@ -228,7 +228,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/phpstan-comprehensive-summary.md` — PHPStan Comprehensive Analysis Summary
 - `bashscripts/docs/phpstan-execution.md` — Esecuzione Corretta di PHPStan in Laraxot PTVX
 - `bashscripts/docs/phpstan-final-summary.md` — PHPStan Final Analysis Summary - All Critical Issues Resolved
-- `bashscripts/docs/phpstan-fixes-summary-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
+- `bashscripts/docs/phpstan-fixes-summary-riepilogo-soluzioni-ai-problemi.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
 - `bashscripts/docs/phpstan-fixes-summary.md` — Riassunto delle Correzioni per PHPStan Livello 9
 - `bashscripts/docs/phpstan-generic-types.md` — Risoluzione degli Errori PHPStan Relativi ai Tipi Generici nelle Relazioni Eloquent
 - `bashscripts/docs/phpstan-implementation-guide.md` — Guida Pratica all'Implementazione delle Soluzioni PHPStan
@@ -304,7 +304,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/service.md` — Services
 - `bashscripts/docs/services.md` — Servizi del Modulo Xot
 - `bashscripts/docs/session-report-latest.md` — Sessione di Lavoro: Risoluzione Conflitti Git e Fix Errori Sintassi
-- `bashscripts/docs/session-summary-2025-01-04.md` — Session Summary - 4 Gennaio 2025
+- `bashscripts/docs/session-summary-gennaio.md` — Session Summary - 4 Gennaio 2025
 - `bashscripts/docs/session-summary.md` — Riepilogo Sessione Correzioni - Novembre 2025
 - `bashscripts/docs/solution_summary.md` — Soluzione Implementata: Errore Larazeus Bolt v3
 - `bashscripts/docs/solutions.md` — Soluzioni Tecniche - Modulo Job
@@ -1732,7 +1732,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/cleanup-log.md` — Cms Module Cleanup - [DATE]
 - `laravel/Modules/Cms/docs/cms-driven-pages-system.md` — CMS-Driven Pages System
 - `laravel/Modules/Cms/docs/cms.md` — Documentazione Frontend
-- `laravel/Modules/Cms/docs/code-quality-analysis-2025-11-24.md` — Code Quality Analysis - CMS Module - November 2025
+- `laravel/Modules/Cms/docs/code-quality-analysis-cms-module-november.md` — Code Quality Analysis - CMS Module - November 2025
 - `laravel/Modules/Cms/docs/code-quality-analysis-legacy.md` — Code Quality Analysis - CMS Module - November 2025
 - `laravel/Modules/Cms/docs/code-quality-analysis-november.md` — Code Quality Analysis - CMS Module - November 2025
 - `laravel/Modules/Cms/docs/code-quality-analysis.md` — Code Quality Analysis - CMS Module - November 2025
@@ -1843,7 +1843,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Cms
 - `laravel/Modules/Cms/docs/filament-5x-compatibility.md` — Compatibilità Filament 5.x - Modulo Cms
 - `laravel/Modules/Cms/docs/filament-architecture-principles.md` — Applicazione dei Principi di Architettura Filament ai Moduli
-- `laravel/Modules/Cms/docs/filament-blade-components-1.md` — Filament Blade Components Usage (CMS)
+- `laravel/Modules/Cms/docs/filament-blade-components.md` — Filament Blade Components Usage (CMS)
 - `laravel/Modules/Cms/docs/filament-blade-components.md` — Filament Blade Components Usage (CMS)
 - `laravel/Modules/Cms/docs/filament-blocks-system.md` — Sistema Filament Blocks - Modulo CMS
 - `laravel/Modules/Cms/docs/filament-components-1.md` — Utilizzo dei Componenti Filament in il progetto
@@ -2067,7 +2067,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/product_management.md` — Gestione Prodotti con Laravel Folio e Volt
 - `laravel/Modules/Cms/docs/prompt-rules-link.md` — Regole per i Prompt
 <<<<<<< .merge_file_16AgS1
-- `laravel/Modules/Cms/docs/quality-status-11.md` — Cms Module - Quality Status (November 2025)
+- `laravel/Modules/Cms/docs/quality-status-user-module-november.md` — Cms Module - Quality Status (November 2025)
 - `laravel/Modules/Cms/docs/quality-status-2025-11.md` — Cms Module - Quality Status (November 2025)
 =======
 - `laravel/Modules/Cms/docs/quality-status-user-module-november.md` — Cms Module - Quality Status (November 2025)
@@ -2340,7 +2340,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/duplicate-methods-analysis.md` — Analisi Metodi Duplicati - Modulo Gdpr
 - `laravel/Modules/Gdpr/docs/faq.md` — faq
 - `laravel/Modules/Gdpr/docs/filament-5x-compatibility.md` — Filament 5.x compatibility - modulo Gdpr
-- `laravel/Modules/Gdpr/docs/filament-resources-1.md` — Filament Resources - Modulo GDPR
+- `laravel/Modules/Gdpr/docs/filament-resources.md` — Filament Resources - Modulo GDPR
 - `laravel/Modules/Gdpr/docs/filament-resources.md` — filament-resources
 - `laravel/Modules/Gdpr/docs/filament-v4-upgrade.md` — GDPR Module - Filament v4 Upgrade
 - `laravel/Modules/Gdpr/docs/filament.md` — filament
@@ -2361,7 +2361,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/html2pdf/security.md` — Configurazione della Sicurezza
 - `laravel/Modules/Gdpr/docs/html2pdf/styling.md` — Guida agli Stili, Tabelle e Immagini
 - `laravel/Modules/Gdpr/docs/html2pdf/usage.md` — Utilizzo Base e Layout
-- `laravel/Modules/Gdpr/docs/implementation-guide-1.md` — GDPR Consent Implementation Guide
+- `laravel/Modules/Gdpr/docs/implementation-guide.md` — GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/implementation-guide.md` — GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/implementation.md` — GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/implementation_guide.md` — GDPR Consent Implementation Guide
@@ -2429,7 +2429,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/register-widget.md` — RegisterWidget — GDPR-Compliant Registration
 - `laravel/Modules/Gdpr/docs/registration-testing.md` — Feature Testing: User Registration
 - `laravel/Modules/Gdpr/docs/repo.md` — repo
-- `laravel/Modules/Gdpr/docs/roadmap/2025-q4-roadmap.md` — GDPR Module Roadmap (2025 Q4)
+- `laravel/Modules/Gdpr/docs/roadmap/roadmap-gdpr-module-q4.md` — GDPR Module Roadmap (2025 Q4)
 - `laravel/Modules/Gdpr/docs/roadmap/backup-dati.md` — Implementazione Backup Dati
 - `laravel/Modules/Gdpr/docs/roadmap/cookie-consent.md` — Implementazione Cookie Consent
 - `laravel/Modules/Gdpr/docs/roadmap/log-attivita.md` — log-attivita
@@ -2513,7 +2513,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/address-resource-sumy.md` — Sintesi Analisi AddressResource - Modulo Geo
 - `laravel/Modules/Geo/docs/address-resource.md` — Risorsa Filament per il Modello Address
 - `laravel/Modules/Geo/docs/address-translation-fixes-1.md` — Correzioni Traduzioni Address - Gennaio 2025
-- `laravel/Modules/Geo/docs/address-translation-fixes-2025-01-27.md` — Correzioni Traduzioni Address - Gennaio 2025
+- `laravel/Modules/Geo/docs/address-translation-fixes-correzioni-traduzioni-gennaio.md` — Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address-translation-fixes.md` — Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address-translationes.md` — Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address_autocomplete.md` — address_autocomplete
@@ -2541,7 +2541,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/analisi-moduli-completata.md` — ✅ ANALISI MODULI COMPLETATA - Report Finale
 - `laravel/Modules/Geo/docs/analisi-moduli-ottimizzazioni.md` — Analisi Completa Moduli - Ottimizzazioni e Miglioramenti
 <<<<<<< .merge_file_16AgS1
-- `laravel/Modules/Geo/docs/analysis/code-quality-analysis-2025-11-11.md` — 🌍 Geo Module - Code Quality Analysis Report
+- `laravel/Modules/Geo/docs/analysis/code-quality-analysis-geo-module-report.md` — 🌍 Geo Module - Code Quality Analysis Report
 =======
 - `laravel/Modules/Geo/docs/analysis/code-quality-analysis-job-module-report.md` — 🌍 Geo Module - Code Quality Analysis Report
 >>>>>>> .merge_file_hDQ9YQ
@@ -2685,7 +2685,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/google-maps-service-provider-error.md` — Errore FilamentGoogleMapsServiceProvider - Risoluzione
 - `laravel/Modules/Geo/docs/has-address-trait.md` — Trait HasAddress
 - `laravel/Modules/Geo/docs/has_address_trait.md` — Trait HasAddress
-- `laravel/Modules/Geo/docs/helper-text-normalization-fix-2025-08-08.md` — Helper Text Normalization Fix - Modulo Geo
+- `laravel/Modules/Geo/docs/helper-text-normalization-fix-modulo-geo.md` — Helper Text Normalization Fix - Modulo Geo
 - `laravel/Modules/Geo/docs/helper-text-normalization-fix.md` — Helper Text Normalization Fix - Modulo Geo
 - `laravel/Modules/Geo/docs/helper-text-normalization.md` — Helper Text Normalization Fix - Modulo Geo
 - `laravel/Modules/Geo/docs/here-com-integration.md` — here_com
@@ -2832,7 +2832,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 =======
 - `laravel/Modules/Geo/docs/phpstan-fixes.md` — PHPStan Fixes for Geo Module
 >>>>>>> .merge_file_hDQ9YQ
-- `laravel/Modules/Geo/docs/phpstan-fixes-2025-01-27.md` — Correzioni PHPStan Modulo Geo - 2025-01-27
+- `laravel/Modules/Geo/docs/phpstan-fixes-correzioni-modulo-geo.md` — Correzioni PHPStan Modulo Geo - 2025-01-27
 - `laravel/Modules/Geo/docs/phpstan-fixes-3.md` — Correzioni PHPStan Modulo Geo - [DATE]
 - `laravel/Modules/Geo/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
 - `laravel/Modules/Geo/docs/phpstan-fixes-gennaio.md` — 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
@@ -2879,7 +2879,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/scripts-location-convention.md` — Convenzione Posizione Script
 - `laravel/Modules/Geo/docs/scripts_location_convention.md` — Convenzione Posizione Script
 - `laravel/Modules/Geo/docs/services/geocoding.md` — Servizio di Geocoding
-- `laravel/Modules/Geo/docs/sintassi-array-correzione-2025-01-06.md` — Correzione Sintassi Obsoleta Array() - Modulo Geo
+- `laravel/Modules/Geo/docs/sintassi-array-correzione-obsoleta-modulo-geo.md` — Correzione Sintassi Obsoleta Array() - Modulo Geo
 - `laravel/Modules/Geo/docs/sintassi-array-correzione.md` — Correzione Sintassi Obsoleta Array() - Modulo Geo
 - `laravel/Modules/Geo/docs/squire-integration-1.md` — Integrazione con Squire per dati geografici
 - `laravel/Modules/Geo/docs/squire-integration.md` — Integrazione con Squire per dati geografici
@@ -3058,7 +3058,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/phpstan-compliance.md` — PHPStan Compliance - Job Module
 - `laravel/Modules/Job/docs/phpstan-corrections.md` — Correzioni PHPStan Livello 10 - Modulo Job
 - `laravel/Modules/Job/docs/phpstan-correzioni-11.md` — Correzioni PHPStan Livello 10 - Modulo Job
-- `laravel/Modules/Job/docs/phpstan-correzioni-2025-11.md` — Correzioni PHPStan Livello 10 - Modulo Job
+- `laravel/Modules/Job/docs/phpstan-correzioni-livello-modulo-job.md` — Correzioni PHPStan Livello 10 - Modulo Job
 - `laravel/Modules/Job/docs/phpstan-correzioni.md` — Correzioni PHPStan Livello 10 - Modulo Job
 - `laravel/Modules/Job/docs/phpstan-errors-roadmap.md` — PHPStan Level 10 Errors Roadmap - Job Module
 - `laravel/Modules/Job/docs/phpstan-filament-fixes-1.md` — Correzioni PHPStan per Risorse Filament nel Modulo Job
@@ -3080,7 +3080,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/phpstan-roadmap.md` — PHPStan Roadmap - Job Module
 - `laravel/Modules/Job/docs/phpstan-session-complete.md` — Sessione PHPStan Completa - Tutti i Moduli
 - `laravel/Modules/Job/docs/phpstan-sessione-completa-11.md` — Sessione PHPStan Completa - Tutti i Moduli
-- `laravel/Modules/Job/docs/phpstan-sessione-completa-2025-11.md` — Sessione PHPStan Completa - Tutti i Moduli
+- `laravel/Modules/Job/docs/phpstan-sessione-completa-tutti-moduli.md` — Sessione PHPStan Completa - Tutti i Moduli
 - `laravel/Modules/Job/docs/phpstan-sessione-completa.md` — Sessione PHPStan Completa - Tutti i Moduli
 - `laravel/Modules/Job/docs/phpstan-syntax-fixes.md` — PHPStan Syntax Fixes - Modulo Job
 - `laravel/Modules/Job/docs/phpstan.md` — PHPStan Level 10 Roadmap - Job Module
@@ -3480,7 +3480,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/translation-fixes-summary.md` — Riepilogo Correzioni Traduzioni - Gennaio 2025
 - `laravel/Modules/Lang/docs/translation-fixes-sumy.md` — Riepilogo Correzioni Traduzioni - Gennaio 2025
 - `laravel/Modules/Lang/docs/translation-helper-text-standards.md` — Standard per helper_text nelle Traduzioni <nome progetto>
-- `laravel/Modules/Lang/docs/translation-keys-best-practices-1.md` — Best Practices per le Chiavi di Traduzione
+- `laravel/Modules/Lang/docs/translation-keys-best-practices.md` — Best Practices per le Chiavi di Traduzione
 - `laravel/Modules/Lang/docs/translation-keys-best-practices.md` — Best Practices per le Chiavi di Traduzione
 - `laravel/Modules/Lang/docs/translation-keys-rules-1.md` — Regole per le Chiavi di Traduzione
 - `laravel/Modules/Lang/docs/translation-keys-rules.md` — Regole per le Chiavi di Traduzione
@@ -5511,7 +5511,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/docs/event-sourcing.md` — event-sourcing
 - `laravel/Modules/Tenant/docs/events.md` — events
 - `laravel/Modules/Tenant/docs/exchanges.md` — exchanges
-- `laravel/Modules/Tenant/docs/filament-resources-1.md` — Linee Guida per Filament Resources
+- `laravel/Modules/Tenant/docs/filament-resources.md` — Linee Guida per Filament Resources
 - `laravel/Modules/Tenant/docs/filament-resources.md` — filament-resources
 - `laravel/Modules/Tenant/docs/file-naming-rules.md` — Regole di Naming per File
 - `laravel/Modules/Tenant/docs/filesystems.md` — filesystems
@@ -6262,7 +6262,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/baseuser-dry-violation-analysis.md` — BaseUser - Analisi Violazione Principio DRY
 - `laravel/Modules/User/docs/baseuser-refactoring-completed-.md` — BaseUser Refactoring - Completato
 <<<<<<< .merge_file_16AgS1
-- `laravel/Modules/User/docs/baseuser-refactoring-completed-2025-10-15.md` — BaseUser Refactoring - Completato
+- `laravel/Modules/User/docs/baseuser-refactoring-completed.md` — BaseUser Refactoring - Completato
 =======
 - `laravel/Modules/User/docs/baseuser-refactoring-completed.md` — BaseUser Refactoring - Completato
 >>>>>>> .merge_file_hDQ9YQ
@@ -6314,7 +6314,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/bug-fixes/make-filament-user-crash-loop.md` — Bug Fix: Crash durante creazione utenti con make:filament-user
 - `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods-.md` — Bug Fix: ParseError - Metodi Orfani Fuori dalla Classe
 - `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods-1.md` — parse-error-orphan-methods-1
-- `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods-2025-01-27.md` — parse-error-orphan-methods-2025-01-27
+- `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods.md` — parse-error-orphan-methods-2025-01-27
 - `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods.md` — Bug Fix: ParseError - Metodi Orfani Fuori dalla Classe
 - `laravel/Modules/User/docs/bug-fixes/parse-orphan-methods.md` — Bug Fix: ParseError - Metodi Orfani Fuori dalla Classe
 - `laravel/Modules/User/docs/bugfix/deviceuser-hasxotfactory-fix.md` — Bugfix: DeviceUser e HasXotFactory
@@ -7050,7 +7050,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/quality-improvements-summary.md` — Quality Improvements Summary - PHPStan, PHPMD, PHP Insights
 - `laravel/Modules/User/docs/quality-improvements.md` — Quality Improvements Summary - PHPStan, PHPMD, PHP Insights
 <<<<<<< .merge_file_16AgS1
-- `laravel/Modules/User/docs/quality-status-11.md` — User Module - Quality Status (November 2025)
+- `laravel/Modules/User/docs/quality-status-user-module-november.md` — User Module - Quality Status (November 2025)
 - `laravel/Modules/User/docs/quality-status-2025-11.md` — User Module - Quality Status (November 2025)
 =======
 - `laravel/Modules/User/docs/quality-status-user-module-november.md` — User Module - Quality Status (November 2025)
@@ -7779,7 +7779,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/base-model.md` — Module System and BaseModel Pattern: The Sacred Architecture
 - `laravel/Modules/Xot/docs/bashscripts/bashscripts-organization.md` — Organizzazione Cartella BashScripts
 - `laravel/Modules/Xot/docs/bashscripts-location-policy.md` — Policy Posizione Script Bash (VINCOLANTE)
-- `laravel/Modules/Xot/docs/bashscripts-organization-1.md` — Organizzazione Cartella BashScripts
+- `laravel/Modules/Xot/docs/bashscripts-organization-organizzazione-cartella.md` — Organizzazione Cartella BashScripts
 - `laravel/Modules/Xot/docs/bashscripts-organization.md` — Organizzazione Cartella BashScripts
 - `laravel/Modules/Xot/docs/bashscripts_organization.md` — bashscripts_organization
 - `laravel/Modules/Xot/docs/best-practices/README.md` — Best Practices
@@ -7826,7 +7826,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/bugfix/git-conflicts-resolution-massive.md` — Risoluzione Massiva Conflitti Git - 323 File
 - `laravel/Modules/Xot/docs/bugfix/hasfactory-signature-compatibility.md` — Bugfix: HasFactory newFactory() Signature Compatibility
 - `laravel/Modules/Xot/docs/bugfix/hasxotfactory-restoration.md` — Bugfix: Ripristino HasXotFactory Trait
-- `laravel/Modules/Xot/docs/bugfix-carbon-timezone-error-1.md` — Bugfix: Carbon Timezone Error in XotServiceProvider
+- `laravel/Modules/Xot/docs/bugfix-carbon-timezone-error-xotserviceprovider.md` — Bugfix: Carbon Timezone Error in XotServiceProvider
 - `laravel/Modules/Xot/docs/bugfix-carbon-timezone-error.md` — Bugfix: Carbon Timezone Error in XotServiceProvider
 - `laravel/Modules/Xot/docs/bugfix-carbon-timezone.md` — Bugfix: Carbon Timezone Error in XotServiceProvider
 - `laravel/Modules/Xot/docs/bugfix-hasxottable-duplicate-if.md` — Bug Fix: Duplicazione If Statement in HasXotTable.php
@@ -8098,7 +8098,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/laravelfs-analisi.md` — laravelfs-analisi
 - `laravel/Modules/Xot/docs/consolidated/laraxot.md` — laraxot
 <<<<<<< .merge_file_16AgS1
-- `laravel/Modules/Xot/docs/consolidated/lessons-learned-2025-08-25.md` — lessons-learned-2025-08-25
+- `laravel/Modules/Xot/docs/consolidated/lessons-learned.md` — lessons-learned-2025-08-25
 =======
 - `laravel/Modules/Xot/docs/consolidated/lessons-learned.md` — lessons-learned-2025-08-25
 >>>>>>> .merge_file_hDQ9YQ
@@ -8203,7 +8203,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_factory_best_practices.md` — phpstan_factory_best_practices
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_fixes.md` — phpstan_fixes
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_fixes_summary.md` — phpstan_fixes_summary
-- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_fixes_summary_2.md` — phpstan_fixes_summary_2
+- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_fixes_summary.md` — phpstan_fixes_summary_2
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_generic_types.md` — phpstan_generic_types
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_guidelines.md` — PHPStan Guidelines and Best Practices
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_implementation_guide.md` — phpstan_implementation_guide
@@ -8468,7 +8468,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/env-development-configuration.md` — Configurazione .env Development in Laraxot
 - `laravel/Modules/Xot/docs/env.md` — env
 - `laravel/Modules/Xot/docs/envevelopment-configuration.md` — Configurazione .env Development in Laraxot
-- `laravel/Modules/Xot/docs/environment-configuration-issues-1.md` — Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
+- `laravel/Modules/Xot/docs/environment-configuration-issues-problemi-configurazione-variabili-ambiente.md` — Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
 - `laravel/Modules/Xot/docs/environment-configuration-issues.md` — Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
 - `laravel/Modules/Xot/docs/environment-configurations.md` — Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
 - `laravel/Modules/Xot/docs/environment-development-vs-testing-rules.md` — Regole Environment Development vs Testing in Laraxot
@@ -8645,7 +8645,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-array-typing-rules.md` — Regole Fondamentali per i Metodi Filament - Aggiornamento
 - `laravel/Modules/Xot/docs/filament-array-typing.md` — Regole Fondamentali per i Metodi Filament - Aggiornamento
 - `laravel/Modules/Xot/docs/filament-best-practices-1.md` — Best Practices per Risorse Filament in Laraxot
-- `laravel/Modules/Xot/docs/filament-best-practices-uppercase-1.md` — Best Practices per Filament Resources in Laraxot
+- `laravel/Modules/Xot/docs/filament-best-practices-uppercase-resources-laraxot.md` — Best Practices per Filament Resources in Laraxot
 - `laravel/Modules/Xot/docs/filament-best-practices-uppercase.md` — Best Practices per Filament Resources in Laraxot
 - `laravel/Modules/Xot/docs/filament-best-practices.md` — Filament Best Practices (Moduli Riutilizzabili)
 - `laravel/Modules/Xot/docs/filament-block-labels.md` — Filament Block Label Guidelines
@@ -8807,7 +8807,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/git-conflicts-resolution.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 >>>>>>> .merge_file_hDQ9YQ
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-2.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
-- `laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md` — git-conflicts-resolution-2025-01-06
+- `laravel/Modules/Xot/docs/git-conflicts-resolution.md` — git-conflicts-resolution-2025-01-06
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-conflict-5ba246.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-conflict.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-jan-2.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
@@ -8817,7 +8817,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-strategy.md` — Strategia Risoluzione Conflitti Git - Modulo Xot
 - `laravel/Modules/Xot/docs/git-conflicts-resolution.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-forward-only-rule.md` — Git Forward-Only Rule
-- `laravel/Modules/Xot/docs/git_conflicts_resolution_2025_01_06.md` — git_conflicts_resolution_2025_01_06
+- `laravel/Modules/Xot/docs/git_conflicts_resolution.md` — git_conflicts_resolution_2025_01_06
 - `laravel/Modules/Xot/docs/github-workflows-standard.md` — GitHub Workflows Standard - base_laravelpizza
 - `laravel/Modules/Xot/docs/gitignore-prototype.md` — gitignore-prototype
 - `laravel/Modules/Xot/docs/gitignore-standardization.md` — gitignore-standardization
@@ -8899,9 +8899,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Xot
 - `laravel/Modules/Xot/docs/lang.md` — lang
 - `laravel/Modules/Xot/docs/langserviceprovider-labels.md` — LangServiceProvider: Gestione automatica delle label nei Filament Forms
-- `laravel/Modules/Xot/docs/laragon/error-curl-60.md` — error-curl-60
+- `laravel/Modules/Xot/docs/laragon/error-curl.md` — error-curl-60
 <<<<<<< .merge_file_16AgS1
-- `laravel/Modules/Xot/docs/laragon/update-mysql-8-0.md` — Aggiornare Mysql a 8.0 {#update-mysql-to-8-0}
+- `laravel/Modules/Xot/docs/laragon/update-mysql-aggiornare.md` — Aggiornare Mysql a 8.0 {#update-mysql-to-8-0}
 =======
 - `laravel/Modules/Xot/docs/laragon/update-mysql-aggiornare.md` — Aggiornare Mysql a 8.0 {#update-mysql-to-8-0}
 >>>>>>> .merge_file_hDQ9YQ
@@ -8952,7 +8952,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/lessons-learned-.md` — Lessons Learned – Consolidated Rules (2025-08-25)
 <<<<<<< .merge_file_16AgS1
 - `laravel/Modules/Xot/docs/lessons-learned-1.md` — Lessons Learned – Consolidated Rules (2025-08-25)
-- `laravel/Modules/Xot/docs/lessons-learned-2025-08-25.md` — lessons-learned-2025-08-25
+- `laravel/Modules/Xot/docs/lessons-learned.md` — lessons-learned-2025-08-25
 =======
 - `laravel/Modules/Xot/docs/lessons-learned.md` — Lessons Learned – Consolidated Rules (2025-08-25)
 - `laravel/Modules/Xot/docs/lessons-learned.md` — lessons-learned-2025-08-25
@@ -9081,7 +9081,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/migrations/migrations.md` — Migrazioni
 - `laravel/Modules/Xot/docs/migrations-consolidated.md` — Migrations - Documentazione Consolidata DRY + KISS
 - `laravel/Modules/Xot/docs/migrations.md` — Migrazioni
-- `laravel/Modules/Xot/docs/migrazione-filament-4.md` — migrazione-filament-4
+- `laravel/Modules/Xot/docs/migrazione-filament.md` — migrazione-filament-4
 - `laravel/Modules/Xot/docs/missing-traits-and-improvements-2.md` — Trait Mancanti e Miglioramenti Architetturali
 - `laravel/Modules/Xot/docs/missing-traits-and-improvements.md` — Trait Mancanti e Miglioramenti Architetturali
 - `laravel/Modules/Xot/docs/model/action/destroy.md` — Destroy Action {#destroy-action}
@@ -9306,7 +9306,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-analysis-17.md` — Analisi PHPStan - 17 Dicembre 2025
 - `laravel/Modules/Xot/docs/phpstan-analysis-18.md` — PHPStan Analysis Report - [DATE]
 - `laravel/Modules/Xot/docs/phpstan-analysis-2.md` — PHPStan Analysis Report - 18 Agosto 2025
-- `laravel/Modules/Xot/docs/phpstan-analysis-2025-08-18.md` — PHPStan Analysis Report - 18 Agosto 2025
+- `laravel/Modules/Xot/docs/phpstan-analysis-report-agosto.md` — PHPStan Analysis Report - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-analysis-all-modules.md` — Analisi PHPStan - Tutti i Moduli
 - `laravel/Modules/Xot/docs/phpstan-analysis-comprehensive.md` — phpstan-analysis-comprehensive
 - `laravel/Modules/Xot/docs/phpstan-analysis-conflict.md` — PHPStan Analysis Report - 18 Agosto 2025
@@ -9384,7 +9384,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 =======
 - `laravel/Modules/Xot/docs/phpstan-fixes.md` — Correzioni PHPStan - Modulo Xot
 >>>>>>> .merge_file_hDQ9YQ
-- `laravel/Modules/Xot/docs/phpstan-fixes-2025-01-06.md` — Correzioni PHPStan - 6 Gennaio 2025
+- `laravel/Modules/Xot/docs/phpstan-fixes-correzioni-gennaio.md` — Correzioni PHPStan - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-2025.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-3.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-conflict-dbbf49.md` — Correzioni PHPStan - Modulo Xot
@@ -9399,7 +9399,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-1.md` — Riassunto delle Correzioni per PHPStan Livello 9
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
-- `laravel/Modules/Xot/docs/phpstan-fixes-summary-2025-08-18.md` — PHPStan Fixes Summary - 18 Agosto 2025
+- `laravel/Modules/Xot/docs/phpstan-fixes-summary-agosto.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-3.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-sumy-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
@@ -9948,7 +9948,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/ui-ux-guidelines.md` — UI/UX Design Guidelines
 - `laravel/Modules/Xot/docs/ui.md` — ui
 <<<<<<< .merge_file_16AgS1
-- `laravel/Modules/Xot/docs/update-mysql-8-0.md` — update-mysql-8-0
+- `laravel/Modules/Xot/docs/update-mysql-aggiornare.md` — update-mysql-8-0
 =======
 - `laravel/Modules/Xot/docs/update-mysql-aggiornare.md` — update-mysql-8-0
 >>>>>>> .merge_file_hDQ9YQ

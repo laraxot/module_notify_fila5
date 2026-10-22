@@ -41,7 +41,7 @@ Ho corretto tutti i riferimenti errati alle directory del database nel modulo **
   - Corretto: `database/Migrations` → `database/migrations`
   - Corretto: `database/Seeders` → `database/seeders`
 
-- ✅ `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md`
+- ✅ `laravel/Modules/Blog/docs/CHANGELOG-blog-module-ottobre.md`
   - Rimossi riferimenti a directory con maiuscole
 
 - ✅ `laravel/Modules/Blog/docs/models/README.md`

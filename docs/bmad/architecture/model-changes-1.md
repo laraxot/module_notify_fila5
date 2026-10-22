@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -140,9 +140,9 @@ public static function generateUniqueSlug(string $subject): string
 - [Proposta Slug](./spatie-email-slug-proposal.md)
 - [Changelog Migrazioni](./migrations-changelog.md)
 - [Best Practices Email](./email-best-practices.md)
-- [Proposta Slug](./spatie-email-slug-proposal-1.md)
-- [Changelog Migrazioni](./migrations-changelog-1.md)
-- [Best Practices Email](./email-best-practices-1.md)
+- [Proposta Slug](./spatie-email-slug-proposal.md)
+- [Changelog Migrazioni](./migrations-changelog.md)
+- [Best Practices Email](./email-best-practices.md)
 
 ## Note di Implementazione
 

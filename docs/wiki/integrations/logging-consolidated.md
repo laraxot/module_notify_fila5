@@ -27,7 +27,7 @@ Consolidated from **6** individual files.
 
 ## logging-best-practices-1
 
-*Consolidated from: `logging-best-practices-1.md`*
+*Consolidated from: `logging-best-practices.md`*
 
 title: "Logging Best Practices - Performance & Quality"
 type: concept
@@ -51,7 +51,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_M7HlnB
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -793,7 +793,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_M7HlnB
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -804,7 +804,7 @@ related:
 
 ## logging-optimization-summary-1
 
-*Consolidated from: `logging-optimization-summary-1.md`*
+*Consolidated from: `logging-optimization-summary.md`*
 
 title: "Logging Optimization Summary - 2026-03-02"
 type: concept
@@ -828,7 +828,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_M7HlnB
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1356,7 +1356,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_M7HlnB
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

@@ -8,7 +8,7 @@
 
 ### Documentazione Root Progetto
 
-#### 1. `/docs/phpstan/lezioni-apprese-2025-10-10.md`
+#### 1. `/docs/phpstan/lezioni-apprese.md`
 **Scopo:** Raccolta completa di tutte le lezioni apprese dalla correzione di 243 errori PHPStan  
 **Contenuto:**
 - Regola critica: MAI escludere test
@@ -194,10 +194,10 @@
 ├── README.md (aggiornato) ← Entry point principale
 ├── phpstan/
 │   ├── README.md (nuovo) ← Indice PHPStan
-│   ├── lezioni-apprese-2025-10-10.md (nuovo)
+│   ├── lezioni-apprese.md (nuovo)
 │   ├── pattern-comuni.md (nuovo)
 │   ├── riepilogo-generale.md (nuovo)
-│   └── documentazione-aggiornata-2025-10-10.md (questo file)
+│   └── documentazione-aggiornata.md (questo file)
 └── regole-critiche/
     └── phpstan-test-mai-escludere.md (esistente)
 
@@ -261,7 +261,7 @@
 2. Poi [`/docs/phpstan/README.md`](./README.md) - Indice PHPStan
 
 ### Per Approfondire
-3. [`lezioni-apprese-2025-10-10.md`](./lezioni-apprese-2025-10-10.md) - Tutte le lezioni
+3. [`lezioni-apprese.md`](./lezioni-apprese.md) - Tutte le lezioni
 4. [`pattern-comuni.md`](./pattern-comuni.md) - Pattern riutilizzabili
 
 ### Per Modulo Specifico

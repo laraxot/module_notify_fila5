@@ -137,7 +137,7 @@ Questa struttura garantisce:
 
 ## path-and-interface-rules-2
 
-*Consolidated from: `path-and-interface-rules-2.md`*
+*Consolidated from: `path-and-interface-rules.md`*
 
 title: "Regole di Percorso e Interfacce nel Modulo Notify"
 type: rule
@@ -161,7 +161,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_GmFSBk
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -822,7 +822,7 @@ namespace Modules\Notify\App\Console\Commands;
 
 ## path-and-namespace-rules-2
 
-*Consolidated from: `path-and-namespace-rules-2.md`*
+*Consolidated from: `path-and-namespace-rules.md`*
 
 title: "Regole per Path e Namespace nel Modulo Notify"
 type: rule
@@ -846,7 +846,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_GmFSBk
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1852,7 +1852,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_GmFSBk
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

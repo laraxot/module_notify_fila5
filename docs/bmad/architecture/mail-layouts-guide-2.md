@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -158,6 +158,6 @@ I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templa
 - [Spatie Email Documentation](./spatie-email-usage-guide.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
-- [Spatie Email Documentation](./spatie-email-usage-guide-1.md)
-- [Email Best Practices](./mail-templates/email-best-practices-1.md)
+- [Spatie Email Documentation](./spatie-email-usage-guide.md)
+- [Email Best Practices](./mail-templates/email-best-practices.md)
 - [HTML Email Compatibility Guide](./mail-templates/html-email-compatibility-1.md)

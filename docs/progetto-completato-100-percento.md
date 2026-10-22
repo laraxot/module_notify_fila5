@@ -172,13 +172,13 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ✅ **Root Docs** (9):
 1. PROGETTO-COMPLETATO-100-PERCENTO.md (questo!)
-2. COMPLETAMENTO-PROGETTO-2025-10-01.md
-3. ANALISI-COMPLETA-2025-10-01.md
+2. COMPLETAMENTO-PROGETTO.md
+3. ANALISI-COMPLETA.md
 4. LEGGI-QUI-DOMANI.md
 5. roadmap-master-index.md
 6. project-analysis-and-roadmap.md
-7. phpstan/session-summary-2025-10-01.md
-8. phpstan/final-report-session-2025-10-01.md
+7. phpstan/session-summary.md
+8. phpstan/final-report-session.md
 9. phpstan/filament-v4-fixes-session.md
 
 ✅ **Module Roadmaps** (9):
@@ -339,7 +339,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### 🌟 START HERE
 <<<<<<< .merge_file_nmIvvl
-**[→ ANALISI COMPLETA](./ANALISI-COMPLETA-2025-10-01.md)** - Executive Summary del progetto
+**[→ ANALISI COMPLETA](./ANALISI-COMPLETA.md)** - Executive Summary del progetto
 =======
 **[→ ANALISI COMPLETA](./analisi-completa-ottobre-data.md)** - Executive Summary del progetto
 >>>>>>> .merge_file_BMqY0r
@@ -348,7 +348,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
 
 ### 📊 TECHNICAL
-**[→ Session Summary](./phpstan/session-summary-2025-10-01.md)** - Dettagli tecnici sessione
+**[→ Session Summary](./phpstan/session-summary.md)** - Dettagli tecnici sessione
 
 ### 🎯 MODULES (Dettagli per ogni modulo)
 
@@ -568,7 +568,7 @@ php artisan queue:work --queue=high,notifications,default
 - [← Torna all'Indice](./index.md)
 - [← Master Roadmap](./roadmap-master-index.md)
 <<<<<<< .merge_file_nmIvvl
-- [← Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)
+- [← Analisi Completa](./ANALISI-COMPLETA.md)
 =======
 - [← Analisi Completa](./analisi-completa-ottobre-data.md)
 >>>>>>> .merge_file_BMqY0r

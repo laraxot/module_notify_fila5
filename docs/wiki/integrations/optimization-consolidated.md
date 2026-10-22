@@ -57,7 +57,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_3cupD7
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -113,7 +113,7 @@ docs/
 │   ├── notification_system.md
 │   ├── getting_started.md
 │   ├── advanced_topics.md
-│   └── performance-optimization-2.md
+│   └── performance-optimization-analisi-ottimizzazione.md
 ├── channels/
 │   ├── email-notifications.md
 │   ├── sms_notifications.md
@@ -516,7 +516,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_3cupD7
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -752,7 +752,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
-- [Linee Guida Riusabilità](reusability-guidelines-2.md)
+- [Linee Guida Riusabilità](reusability-guidelines.md)
 *Ultimo aggiornamento: gennaio 2025*
 - [Piano Implementazione](../../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)

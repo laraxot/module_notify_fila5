@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -172,7 +172,7 @@ protected function casts(): array
 
 ### 2.1 Distribuzione ESATTA per Modulo
 
-**Dati Reali dai metodi-duplicati-analisi-1.md:**
+**Dati Reali dai metodi-duplicati-analisi-notify.md:**
 
 | Modulo | getTableColumns | getTableFilters | getTableActions | getTableBulkActions | getHeaderActions | TOTALE |
 |--------|-----------------|-----------------|-----------------|---------------------|------------------|--------|

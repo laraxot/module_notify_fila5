@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -54,7 +54,7 @@ Per collegamenti a documenti in altre directory:
 [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules-1.md)
-[Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
+[Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
 ```
 
 ## Motivazione

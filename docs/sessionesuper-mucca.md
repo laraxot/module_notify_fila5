@@ -330,7 +330,7 @@ public function getConnectionName(): ?string
 5. `docs/architecture/README.md` (1.500+ parole)
 6. `docs/XotBasePivot-Executive-Summary.md` (2.000+ parole)
 <<<<<<< .merge_file_NFZper
-7. `docs/SESSIONE-2025-10-15-SUPER-MUCCA.md` (questo documento)
+7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
 =======
 7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
 >>>>>>> .merge_file_6ta99q

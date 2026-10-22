@@ -36,7 +36,7 @@ Consolidated from **11** individual files.
 
 ## dto-structure-conventions-1
 
-*Consolidated from: `dto-structure-conventions-1.md`*
+*Consolidated from: `dto-structure-conventions.md`*
 
 title: "Convenzioni per la Struttura dei DTO nel Modulo Notify"
 type: concept
@@ -60,7 +60,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_0f1eMx
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -402,7 +402,7 @@ Prima di creare un nuovo DTO, verificare che:
 
 ## dto-structure-rules-1
 
-*Consolidated from: `dto-structure-rules-1.md`*
+*Consolidated from: `dto-structure-rules.md`*
 
 title: "Regole per la Struttura dei DTO"
 type: rule
@@ -426,7 +426,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_0f1eMx
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -796,7 +796,7 @@ related:
 
 ## dto-vs-factory-analysis-1
 
-*Consolidated from: `dto-vs-factory-analysis-1.md`*
+*Consolidated from: `dto-vs-factory-analysis.md`*
 
 title: "Analisi: Logica di Selezione del Driver nel DTO vs Factory vs Canale"
 type: concept
@@ -820,7 +820,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_0f1eMx
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

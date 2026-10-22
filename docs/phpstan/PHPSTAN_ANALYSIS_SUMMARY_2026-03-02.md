@@ -36,7 +36,7 @@ The primary issue affecting 39+ errors is the incomplete `UserContract` interfac
 ## Documentation Created
 
 ### 1. Main Analysis Report
-**File**: `docs/PHPSTAN_ANALYSIS_2026-03-02.md`
+**File**: `docs/PHPSTAN_ANALYSIS.md`
 
 **Contents**:
 - Executive summary with error distribution
@@ -256,7 +256,7 @@ PHPDoc annotations are not optional for PHPStan Level 10. They define the contra
 ## Files Created/Modified
 
 ### Created (9 files)
-1. `docs/PHPSTAN_ANALYSIS_2026-03-02.md`
+1. `docs/PHPSTAN_ANALYSIS.md`
 2. `laravel/Modules/Xot/docs/PHPSTAN_FIX_PLAN_2026-03-02.md`
 3. `laravel/Modules/Fixcity/docs/PHPSTAN_FIX_PLAN_2026-03-02.md`
 4. `laravel/Modules/Cms/docs/PHPSTAN_FIX_PLAN_2026-03-02.md`

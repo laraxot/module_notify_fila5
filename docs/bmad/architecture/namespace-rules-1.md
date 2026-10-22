@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -51,7 +51,7 @@ namespace Modules\Notify\Console\Commands;
 ---
 
 **Ultimo aggiornamento:** 2025-05-13
-- Questa regola è valida per tutti i moduli: vedi [Xot Namespace Rules](../../xot/docs/namespace-rules-1.md)
+- Questa regola è valida per tutti i moduli: vedi [Xot Namespace Rules](../../xot/docs/namespace-rules.md)
 - Collegamento alla documentazione generale: [Regole Namespace Moduli - Root Docs](../../../../docs/namespace-moduli.md)
 
 ---
