@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests;
 
 use Illuminate\Foundation\Application;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Models\NotificationType;
 use Modules\Notify\Models\NotifyTheme;
@@ -24,10 +25,15 @@ use function Safe\file_get_contents;
  * Lo schema (migrate) e i seeder del DB di test si eseguono una volta dall'esterno
  * (`php artisan migrate --env=testing`): `loadLaravelMigrations()` e' di Testbench,
  * non di `Illuminate\Foundation\Testing\TestCase`, e non esiste qui.
+ * Mai RefreshDatabase: wipea il MariaDB `*_test` condiviso con Fixcity.
  */
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
+    use DatabaseTransactions;
+
+    /** @var list<string> */
+    protected $connectionsToTransact = ['fixcity', 'mariadb', 'user', 'notify'];
 
     /**
      * Type-guard: accetta un valore arbitrario e asserisce che sia un array.
