@@ -1371,7 +1371,7 @@ related:
 ## implementation-summary-1
 
 <<<<<<< .merge_file_QjM2je
-*Consolidated from: `implementation-summary-1.md`*
+*Consolidated from: `implementation-summary.md`*
 =======
 *Consolidated from: `implementation-summary.md`*
 >>>>>>> .merge_file_aY3jeK
@@ -1403,7 +1403,7 @@ related:
 ---
 
 <<<<<<< .merge_file_QjM2je
-> Questo file è stato rinominato in [implementation-summary-1.md](implementation-summary-1.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [implementation-summary-1.md](implementation-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 > Questo file è stato rinominato in [implementation-summary-1.md](implementation-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 >>>>>>> .merge_file_aY3jeK

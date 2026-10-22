@@ -918,7 +918,7 @@ Documentation for `notify` module categorized as **integrations**.
 - [`implementation-guide.md`](./implementation-guide.md)
 - [`implementation-pratica.md`](./implementation-pratica.md)
 - [`implementation-summary-.md`](./implementation-summary-.md)
-- [`implementation-summary-1.md`](./implementation-summary-1.md)
+- [`implementation-summary.md`](./implementation-summary.md)
 - [`implementation-summary-gennaio.md`](./implementation-summary-gennaio.md)
 - [`implementation-summary.md`](./implementation-summary.md)
 - [`implementation.md`](./implementation.md)
