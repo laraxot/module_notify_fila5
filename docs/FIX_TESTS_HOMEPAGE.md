@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "FIX TESTS HOMEPAGE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_awMLtE
+=======
 status: draft
+>>>>>>> .merge_file_wUDbk3
 ---
 
 # ✅ Fix Applicati - Tests Homepage

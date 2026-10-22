@@ -8,7 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_5BoBkf
+=======
 status: draft
+>>>>>>> .merge_file_lnR5Gz
 ---
 
 # Divergenza: `ANALISI_METODI_DUPLICATI_MASTER.md`

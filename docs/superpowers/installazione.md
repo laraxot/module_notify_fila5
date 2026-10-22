@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "installazione"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Fy24uU
+=======
 status: draft
+>>>>>>> .merge_file_HlXjTn
 ---
 
 # Superpowers - Installazione e Configurazione
@@ -93,4 +96,16 @@ Per pinning versione specifica:
 - Discord: https://discord.gg/Jd8Vphy9jq
 
 ---
+<<<<<<< .merge_file_Fy24uU
+
+title: "installazione"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "installazione"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_HlXjTn
 *Documento creato: 2026-03-31*

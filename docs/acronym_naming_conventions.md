@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "acronym naming conventions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_kZV3SA
+=======
 status: draft
+>>>>>>> .merge_file_KLsgzR
 ---
 
 # Convenzioni di Naming per Acronimi 

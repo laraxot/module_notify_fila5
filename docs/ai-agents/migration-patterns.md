@@ -11,7 +11,11 @@ discussions: []
 
 # Migration patterns
 
+<<<<<<< .merge_file_KNij69
+> Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md) | [IFLOW.md](../../bashscripts/ai/IFLOW.md)
+=======
 > Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md) | [IFLOW.md](../../../../../bashscripts/ai/IFLOW.md)
+>>>>>>> .merge_file_QEmAW7
 > Back: [index](index.md) | [laraxot-philosophy.md](laraxot-philosophy.md)
 
 ## XotBaseMigration standard

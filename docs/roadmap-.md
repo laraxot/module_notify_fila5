@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "roadmap "
 issues: []
 discussions: []
+<<<<<<< .merge_file_ZqeZbh
+=======
 status: draft
+>>>>>>> .merge_file_KNO1IH
 ---
 
 # Notify Module Roadmap 2026
@@ -25,6 +28,18 @@ Transform communication from a technical challenge into a **business superpower*
 - **Delivery Assurance**: No message lost, all deliveries tracked and verified
 
 ---
+<<<<<<< .merge_file_ZqeZbh
+
+title: "roadmap "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap "
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_KNO1IH
 ## 📊 Current Architecture Assessment
 
 ### ✅ Architectural Strengths

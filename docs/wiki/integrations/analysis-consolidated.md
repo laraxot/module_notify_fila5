@@ -335,7 +335,11 @@ class Template extends Model
 
 ## analysis-detailed-1
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysis-detailed-1.md`*
+=======
 *Consolidated from: `analysis-detailed.md`*
+>>>>>>> .merge_file_kde4cL
 
 title: "Analysis Detailed 1"
 type: concept
@@ -346,11 +350,19 @@ qmd: "analysis-detailed-1 analysis detailed 1"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_6KuvuE
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_kde4cL
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -362,42 +374,66 @@ related:
 
 ## analysis-detailed-3
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysis-detailed-3.md`*
+=======
 *Consolidated from: `analysis-detailed.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ---
 
 ## analysis-detailed-4
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysis-detailed-4.md`*
+=======
 *Consolidated from: `analysis-detailed.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ---
 
 ## analysis-detailed-5
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysis-detailed-5.md`*
+=======
 *Consolidated from: `analysis-detailed.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ---
 
 ## analysis-detailed-6
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysis-detailed-6.md`*
+=======
 *Consolidated from: `analysis-detailed.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ---
 
 ## analysis-detailed-7
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysis-detailed-7.md`*
+=======
 *Consolidated from: `analysis-detailed.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ---
 
 ## analysis-detailed-8
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysis-detailed-8.md`*
+=======
 *Consolidated from: `analysis-detailed.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ---
@@ -411,7 +447,11 @@ related:
 
 ## analysis-dettagliata-1
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysis-dettagliata-1.md`*
+=======
 *Consolidated from: `analysis-dettagliata-architettura-struttura.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ## 1. Architettura del Sistema
@@ -6224,6 +6264,19 @@ Modules/Notify/
 
 
 ## Collegamenti tra versioni di analysis.md
+<<<<<<< .merge_file_6KuvuE
+* [analysis.md](../../../notify/docs/analysis.md)
+* [analysis.md](../../../notify/docs/phpstan/analysis.md)
+* [analysis.md](../../../xot/docs/analysis.md)
+* [analysis.md](../../../xot/docs/phpstan/analysis.md)
+* [analysis.md](../../../user/docs/analysis.md)
+* [analysis.md](../../../user/docs/phpstan/analysis.md)
+* [analysis.md](../../../ui/docs/analysis.md)
+* [analysis.md](../../../ui/docs/phpstan/analysis.md)
+* [analysis.md](../../../job/docs/analysis.md)
+* [analysis.md](../../../job/docs/phpstan/analysis.md)
+* [analysis.md](../../../media/docs/analysis.md)
+=======
 * [analysis.md](../../analysis.md)
 * [analysis.md](../../../notify/docs/phpstan/analysis.md)
 * [analysis.md](../../../xot/docs/analysis.md)
@@ -6235,6 +6288,7 @@ Modules/Notify/
 * [analysis.md](../../../../Job/docs/analysis.md)
 * [analysis.md](../../../job/docs/phpstan/analysis.md)
 * [analysis.md](../../../../Media/docs/analysis.md)
+>>>>>>> .merge_file_kde4cL
 * [analysis.md](../../../media/docs/phpstan/analysis.md)
 * [analysis.md](../../../../themes/one/docs/analysis.md)
 
@@ -6249,7 +6303,11 @@ Modules/Notify/
 
 ## analysisettagliata-2
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysisettagliata-2.md`*
+=======
 *Consolidated from: `analysisettagliata-modelli-relazioni.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ## 2. Modelli e Relazioni
@@ -6896,7 +6954,11 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analysisettagliata-3
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysisettagliata-3.md`*
+=======
 *Consolidated from: `analysisettagliata-servizi-core.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ## 3. Servizi Core
@@ -7547,7 +7609,11 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analysisettagliata-4
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysisettagliata-4.md`*
+=======
 *Consolidated from: `analysisettagliata-integrazione-filament.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ## 4. Integrazione con Filament
@@ -8238,7 +8304,11 @@ class TemplateTestPage extends Page
 
 ## analysisettagliata-5
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysisettagliata-5.md`*
+=======
 *Consolidated from: `analysisettagliata-testing-parte.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ## 5. Testing
@@ -9058,7 +9128,11 @@ class WebhookControllerTest extends TestCase
 
 ## analysisettagliata-6
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysisettagliata-6.md`*
+=======
 *Consolidated from: `analysisettagliata-monitoraggio-analytics.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ## 6. Monitoraggio e Analytics
@@ -9682,7 +9756,11 @@ class AnalyticsExporter
 
 ## analysisettagliata-7
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysisettagliata-7.md`*
+=======
 *Consolidated from: `analysisettagliata-manutenzione-backup.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ## 7. Manutenzione e Backup
@@ -10331,7 +10409,11 @@ class MaintainTemplatesCommand extends Command
 
 ## analysisettagliata-8
 
+<<<<<<< .merge_file_6KuvuE
+*Consolidated from: `analysisettagliata-8.md`*
+=======
 *Consolidated from: `analysisettagliata-finali-parte.md`*
+>>>>>>> .merge_file_kde4cL
 
 
 ## 8. Note Finali

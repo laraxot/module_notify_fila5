@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "skills reference"
 issues: []
 discussions: []
+<<<<<<< .merge_file_I6WPSE
+=======
 status: draft
+>>>>>>> .merge_file_jkDQXy
 ---
 
 # 🦸 Superpowers Skills Reference
@@ -17,6 +20,18 @@ status: draft
 > **Version**: v5.0.6
 
 ---
+<<<<<<< .merge_file_I6WPSE
+
+title: "skills reference"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "skills reference"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_jkDQXy
 ## 📋 Overview
 
 This document lists all available Superpowers skills with descriptions, triggers, and examples.

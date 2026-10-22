@@ -8,7 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_u8YEhR
+=======
 status: draft
+>>>>>>> .merge_file_CkaVFd
 ---
 
 # Divergenza: `master-implementation-plan.md`

@@ -112,7 +112,11 @@ class OutcomesTableWidget extends XotBaseTableWidget
 
 ### For Theme Developers
 
+<<<<<<< .merge_file_hjWXpK
+- [TwentyOne Semantic CSS Guide](../../../../laravel/Themes/TwentyOne/docs/SEMANTIC_CSS_GUIDE.md) - Theme-specific guide
+=======
 - [TwentyOne Semantic CSS Guide](../../../../../Themes/TwentyOne/docs/SEMANTIC_CSS_GUIDE.md) - Theme-specific guide
+>>>>>>> .merge_file_oxlgYt
 
 ### Rules & Enforcement
 

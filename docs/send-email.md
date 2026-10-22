@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "send email"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dOh32R
+=======
 status: draft
+>>>>>>> .merge_file_ILfADt
 ---
 
 # Guida alla Correzione di SendEmail.php

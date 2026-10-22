@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "no notification tracking controller rule"
 issues: []
 discussions: []
+<<<<<<< .merge_file_AEB6uf
+=======
 status: draft
+>>>>>>> .merge_file_iWRspb
 ---
 
 # Notify Rule: No NotificationTrackingController

@@ -6,8 +6,11 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+<<<<<<< .merge_file_zb7DjP
+=======
 tags: [docs, notify, bmad]
 qmd: "epics e user stories - modulo notify notify"
+>>>>>>> .merge_file_ENUrEd
 ---
 
 # Epics e User Stories - Modulo Notify

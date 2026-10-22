@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "error mailer"
 issues: []
 discussions: []
+<<<<<<< .merge_file_fSYIi8
+=======
 status: draft
+>>>>>>> .merge_file_OKe0fy
 ---
 
 # Error Mailer System

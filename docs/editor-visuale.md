@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "editor visuale"
 issues: []
 discussions: []
+<<<<<<< .merge_file_kg3p5e
+=======
 status: draft
+>>>>>>> .merge_file_SSPE0X
 ---
 
 # Editor Visuale Template

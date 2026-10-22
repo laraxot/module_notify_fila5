@@ -96,4 +96,8 @@ Nel repo prevalgono sempre i quality gate locali, anche quando il loop Ralph sug
 - [Architecture index](./00-INDEX.md)
 - [Ralph local README](../../ralph/README.md)
 - [GSD + BMAD guide](../gsd-bmad-comprehensive-guide.md)
+<<<<<<< .merge_file_SivBd3
+- [AGENTS.md](../../../../AGENTS.md)
+=======
 - [AGENTS.md](../../../../../AGENTS.md)
+>>>>>>> .merge_file_bCWfPZ

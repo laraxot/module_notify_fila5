@@ -15,7 +15,10 @@ related:
   - "./issue-subtree-sync-test.md"
   - "./sync-remote-repo-docs-summary.md"
   - "./sync-remote-repo-test-plan.md"
+<<<<<<< .merge_file_Fnm5ay
+=======
 status: draft
+>>>>>>> .merge_file_JJ32mC
 ---
 
 # 🤖 GitHub Actions & Discussions - Final Report

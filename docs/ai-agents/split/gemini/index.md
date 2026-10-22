@@ -19,7 +19,11 @@ related:
 ---
 # Gemini AI Guidelines (../../../../laravel/GEMINI.md) Index
 
+<<<<<<< .merge_file_GV8BwZ
+**Source**: [`laravel/../../../../laravel/GEMINI.md`](../../../../../../laravel/../../../../laravel/GEMINI.md) (581 lines)  
+=======
 **Source**: [`laravel/../../../../laravel/GEMINI.md`](../../../../../../GEMINI.md) (581 lines)  
+>>>>>>> .merge_file_Tnyr1t
 **Split Into**: 13 focused files  
 **Last Updated**: 2026-04-11  
 
@@ -73,21 +77,34 @@ related:
 ## Cross-References
 
 ### Related Documentation
+<<<<<<< .merge_file_GV8BwZ
+- ← [BMad Agents Index](../../agents/index.md) — 10 agent definitions
+=======
 - ← [BMad Agents Index](../agents/index.md) — 10 agent definitions
+>>>>>>> .merge_file_Tnyr1t
 - ← [BMad Tasks Index](../tasks/index.md) — 22 reusable tasks
 - ← [CLAUDE Index](../claude/index.md) — Laravel Boost guidelines
 - ← [Main AI Docs Index](../index.md) — Master index
 
 ### Bidirectional Links
 - ← Back to [Main AI Docs Index](../index.md)
+<<<<<<< .merge_file_GV8BwZ
+- ← Back to [../../../../laravel/GEMINI.md](../../../../../../laravel/../../../../laravel/GEMINI.md) (original source)
+- ← Back to [Project Docs](../../../docs/README.md)
+=======
 - ← Back to [../../../../laravel/GEMINI.md](../../../../../../GEMINI.md) (original source)
 - ← Back to [Project Docs](../../../README.md)
+>>>>>>> .merge_file_Tnyr1t
 
 ---
 
 ## Usage
 
+<<<<<<< .merge_file_GV8BwZ
+These guidelines are loaded by Gemini AI for Laravel development context. For manual reference, see the original [`laravel/../../../../laravel/GEMINI.md`](../../../../../../laravel/../../../../laravel/GEMINI.md).
+=======
 These guidelines are loaded by Gemini AI for Laravel development context. For manual reference, see the original [`laravel/../../../../laravel/GEMINI.md`](../../../../../../GEMINI.md).
+>>>>>>> .merge_file_Tnyr1t
 
 ---
 

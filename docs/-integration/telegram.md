@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "telegram"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Sxn1YJ
+=======
 status: draft
+>>>>>>> .merge_file_d3jNok
 ---
 
 # telegram

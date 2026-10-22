@@ -3,8 +3,11 @@ title: "Riorganizzazione docs core Notify"
 type: story
 tags: [docs, bmad, notify, reorganization]
 qmd: "riorganizzazione docs core Notify"
+<<<<<<< .merge_file_GmQOPt
+=======
 status: draft
 updated: 2026-10-09
+>>>>>>> .merge_file_BpyCpv
 ---
 
 # Story — riorganizzazione docs core: Notify

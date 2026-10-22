@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "filament rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ubiYcH
+=======
 status: draft
+>>>>>>> .merge_file_JLWlAG
 ---
 
 === filament/core rules ===
@@ -95,6 +98,18 @@ Forms\Components\Select::make('user_id')
 
 
 ---
+<<<<<<< .merge_file_ubiYcH
+
+title: "filament rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament rules"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_JLWlAG
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

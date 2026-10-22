@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+<<<<<<< .merge_file_E3QtCN
+=======
 status: draft
+>>>>>>> .merge_file_MKsPWt
 ---
 
 # 🔴 CRITICAL RULES - AI Agents
@@ -18,6 +21,18 @@ status: draft
 **Priority**: BLOCKER (violation = STOP immediately)
 
 ---
+<<<<<<< .merge_file_E3QtCN
+
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_MKsPWt
 ## 🎯 Rule #1: Filament Tables for Lists
 
 > **MAI** creare blade personalizzati per liste di outcomes, predict, o dati tabellari.

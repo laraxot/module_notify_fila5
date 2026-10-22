@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "custom chart implementation report"
 issues: []
 discussions: []
+<<<<<<< .merge_file_v75XuA
+=======
 status: draft
+>>>>>>> .merge_file_2t844b
 ---
 
 # Custom Chart Implementation Report - 2026-03-17
@@ -17,6 +20,18 @@ status: draft
 Implementazione completa delle funzionalità di grafici custom da Fila4 a Fila5, con ottimizzazioni per SurveyResponse e pattern moderni.
 
 ---
+<<<<<<< .merge_file_v75XuA
+
+title: "custom chart implementation report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom chart implementation report"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_2t844b
 ## 1. Analisi Fila4 vs Fila5
 
 ### Fila4 Features Studiate

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "agents gsd bmad"
 issues: []
 discussions: []
+<<<<<<< .merge_file_kHLWqc
+=======
 status: draft
+>>>>>>> .merge_file_TtjDBS
 ---
 
 # 🚀 GSD + BMAD Workflow
@@ -17,6 +20,18 @@ status: draft
 **Stato**: ✅ IMPLEMENTATO
 
 ---
+<<<<<<< .merge_file_kHLWqc
+
+title: "agents gsd bmad"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents gsd bmad"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_TtjDBS
 ## 🎯 GSD (Get Shit Done)
 
 ### Comandi Principali

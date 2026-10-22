@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "telegram"
 issues: []
 discussions: []
+<<<<<<< .merge_file_8mxk8W
+=======
 status: draft
+>>>>>>> .merge_file_tBs68B
 ---
 
 https://dev.to/millykhamroev/laravel-package-to-integrate-telegram-bot-api-3l6e

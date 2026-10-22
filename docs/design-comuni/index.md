@@ -57,9 +57,15 @@ docs/
 ## 🔗 Link Utili
 
 - [Prompt REPLIKATE](./laravel/Themes/Sixteen/docs/prompts/replikate.txt)
+<<<<<<< .merge_file_0zfN3R
+- [Theme Analysis](./docs/theme/sixteen/analysis/)
+- [Homepage Results](./docs/theme/sixteen/analysis/results.md)
+- [Argomenti Analysis](./docs/design-comuni/pages/argomenti.md)
+=======
 - [Theme Analysis](../theme/sixteen/analysis)
 - [Homepage Results](../theme/sixteen/analysis/results.md)
 - [Argomenti Analysis](./pages/argomenti.md)
+>>>>>>> .merge_file_Nfxe2Y
 
 ---
 

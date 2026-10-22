@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "gitattributes cleanup"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OENIWa
+=======
 status: draft
+>>>>>>> .merge_file_eHsw1P
 ---
 
 # 🧹 GitAttributes Cleanup Report
@@ -17,6 +20,18 @@ status: draft
 > **Action**: Removed all `.gitattributes` files
 
 ---
+<<<<<<< .merge_file_OENIWa
+
+title: "gitattributes cleanup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gitattributes cleanup"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_eHsw1P
 ## 📋 Summary
 
 Tutti i file `.gitattributes` sono stati rimossi dal progetto e sostituiti con regole `.gitignore` più complete.

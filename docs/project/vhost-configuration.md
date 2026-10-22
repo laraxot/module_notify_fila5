@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "vhost configuration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_HfaK6z
+=======
 status: draft
+>>>>>>> .merge_file_0ZxaUY
 ---
 
 # 🌐 Notify Local VHost Configuration
@@ -18,6 +21,18 @@ status: draft
 > **Server**: Apache 2.4.64 (Ubuntu)
 
 ---
+<<<<<<< .merge_file_HfaK6z
+
+title: "vhost configuration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vhost configuration"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_0ZxaUY
 ## 🎯 Overview
 
 This document describes the Apache VirtualHost configuration for local development of the Notify platform using the domain `laraxot.local`.

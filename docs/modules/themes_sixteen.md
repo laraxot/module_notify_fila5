@@ -41,7 +41,11 @@ qmd: "themes sixteen"
 issues: []
 discussions: []
 ## Collegamenti
+<<<<<<< .merge_file_qhkBf2
+- [Documentazione asset Vite nel tema](../../Themes/Sixteen/docs/assets.md)
+=======
 - [Documentazione asset Vite nel tema](../../../../Themes/Sixteen/docs/assets.md)
+>>>>>>> .merge_file_YhiN20
 - [Indice gestione temi e asset](../temi_asset.md) *(creare se non esiste)*
 
 ---

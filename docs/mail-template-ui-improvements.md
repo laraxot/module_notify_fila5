@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "mail template ui improvements"
 issues: []
 discussions: []
+<<<<<<< .merge_file_thHRIy
+=======
 status: draft
+>>>>>>> .merge_file_PVpzOf
 ---
 
 # Miglioramenti UI/UX per MailTemplateResource

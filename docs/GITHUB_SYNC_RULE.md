@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "GITHUB SYNC RULE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_n6rSHJ
+=======
 status: draft
+>>>>>>> .merge_file_uljZ4r
 ---
 
 # 🔄 Sync .github with bashscripts/ai/.github
@@ -17,6 +20,18 @@ status: draft
 > **Rule**: CRITICAL
 
 ---
+<<<<<<< .merge_file_n6rSHJ
+
+title: "GITHUB SYNC RULE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "GITHUB SYNC RULE"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_uljZ4r
 ## 🎯 Rule Statement
 
 **QUANDO aggiorni `.github/` → DEVI sincronizzare `bashscripts/ai/.github/`**

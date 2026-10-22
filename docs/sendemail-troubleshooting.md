@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "sendemail troubleshooting"
 issues: []
 discussions: []
+<<<<<<< .merge_file_8gjRFM
+=======
 status: draft
+>>>>>>> .merge_file_QR2ItQ
 ---
 
 # Troubleshooting SendEmail

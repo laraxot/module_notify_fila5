@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: " todo"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Kwvpzy
+=======
 status: draft
+>>>>>>> .merge_file_bmveiP
 ---
 
 # _todo

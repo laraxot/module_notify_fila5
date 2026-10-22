@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_k8Qi8v
+=======
 status: draft
+>>>>>>> .merge_file_2GW109
 ---
 
 # 🏛️ DESIGN COMUNI ITALIANI - INTEGRATION COMPLETE

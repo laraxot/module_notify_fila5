@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_GwhBjA
+=======
 status: draft
+>>>>>>> .merge_file_1Mha8H
 ---
 
 # Theme Documentation Master Index

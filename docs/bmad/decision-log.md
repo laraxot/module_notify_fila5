@@ -5,12 +5,19 @@ status: active
 module: Notify
 scope: documentation
 bmad_version: 1.0
+<<<<<<< .merge_file_i59WzA
+updated: 2026-10-06
+=======
 updated: 2026-10-20
 tags: [docs, notify, bmad]
 qmd: "decision log - modulo notify notify"
+<<<<<<< .merge_file_CEQ6hE
 related:
   - ./filament-blueprint.md
   - ../bmad-planning.md
+=======
+>>>>>>> .merge_file_wKvJpl
+>>>>>>> .merge_file_WnXcpD
 ---
 
 # Decision Log - Modulo Notify
@@ -96,7 +103,11 @@ related:
 - FCM: token lungo >100 con `:`
 - WebPush: fallback per tutto il resto
 - APNs e WebPush sono "simulated" (nessuna chiamata API reale) — ritornano sempre `success: true`
+<<<<<<< .merge_file_i59WzA
+- 2026-10-06: ogni consegna simulata viene tracciata da `Actions\Push\LogSimulatedPushDeliveryAction` (`Log::notice`, token abbreviato) e i risultati topic includono `topic`; resta aperta la decisione se implementare il transport o far fallire (vedi `stories/2026-10-06-phpstan-cleanup-notify.dev.md`)
+=======
 - 2026-10-06: ogni consegna simulata viene tracciata da `Actions\Push\LogSimulatedPushDeliveryAction` (`Log::notice`, token abbreviato) e i risultati topic includono `topic`; resta aperta la decisione se implementare il transport o far fallire (vedi `stories/phpstan-cleanup-notify.dev.md`)
+>>>>>>> .merge_file_wKvJpl
 
 ### 2026-09-29
 **Decisione:** Notifiche programmate tramite Cache + Job (`SendScheduledPushNotification`)

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "schemas unified religion"
 issues: []
 discussions: []
+<<<<<<< .merge_file_bJJFMY
+=======
 status: draft
+>>>>>>> .merge_file_Ya6r7Q
 ---
 
 # Filament Schemas Unificati — Regola Canonica
@@ -19,6 +22,18 @@ status: draft
 **Audience**: All developers + AI agents
 
 ---
+<<<<<<< .merge_file_bJJFMY
+
+title: "schemas unified religion"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "schemas unified religion"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_Ya6r7Q
 ## Tesi
 
 In Filament 5.x esiste **un solo sistema di schema**: `Filament\Schemas\Schema`.

@@ -16,7 +16,10 @@ related:
   - "./05-front-office-audit.md"
   - "./06-cinematic-effects.md"
   - "./07-mcp-tailwind-ui.md"
+<<<<<<< .merge_file_8A5Al6
+=======
 status: draft
+>>>>>>> .merge_file_GfHBaD
 ---
 
 # GitHub Issues - CORRECT WORKFLOW

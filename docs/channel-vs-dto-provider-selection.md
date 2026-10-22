@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "channel vs dto provider selection"
 issues: []
 discussions: []
+<<<<<<< .merge_file_LavirL
+=======
 status: draft
+>>>>>>> .merge_file_7sMZAx
 ---
 
 # Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects

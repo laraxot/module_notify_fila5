@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "netfun config requirements"
 issues: []
 discussions: []
+<<<<<<< .merge_file_nuZtJe
+=======
 status: draft
+>>>>>>> .merge_file_I6rEQH
 ---
 
 # Requisiti di Configurazione per Netfun SMS
@@ -103,6 +106,18 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 Per problemi di configurazione o domande sull'integrazione con Netfun, consultare la documentazione ufficiale di Netfun o contattare il team di supporto.
 
 ---
+<<<<<<< .merge_file_nuZtJe
+
+title: "netfun config requirements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun config requirements"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_I6rEQH
 *Ultimo aggiornamento: [DATE]*
 
 ## 2. Esempio di .env

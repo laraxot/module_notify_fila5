@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "PRODUCT ROADMAP"
 issues: []
 discussions: []
+<<<<<<< .merge_file_NHfyol
+=======
 status: draft
+>>>>>>> .merge_file_fpD9sL
 ---
 
 # Notify Module - Product Roadmap
@@ -19,6 +22,18 @@ status: draft
 **Status:** In Development
 
 ---
+<<<<<<< .merge_file_NHfyol
+
+title: "PRODUCT ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PRODUCT ROADMAP"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_fpD9sL
 ## Vision Statement
 
 To build a **unified notification system** that delivers the right message to the right user at the right time through their preferred channel, driving engagement while respecting user preferences.

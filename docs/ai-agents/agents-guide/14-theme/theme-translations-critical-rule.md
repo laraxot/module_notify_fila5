@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "theme translations critical rule"
 issues: []
 discussions: []
+<<<<<<< .merge_file_HNbnMq
+=======
 status: draft
+>>>>>>> .merge_file_D17ydf
 ---
 
 # 14. Theme Translations - CRITICAL RULE

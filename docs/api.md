@@ -7,7 +7,10 @@ title: "Notify Module API"
 type: reference
 tags: [notify, api, notifications]
 created: 2026-07-28
+<<<<<<< .merge_file_JRjd2p
+=======
 status: draft
+>>>>>>> .merge_file_YSuyB1
 ---
 
 # Notify Module — API

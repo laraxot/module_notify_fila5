@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+<<<<<<< .merge_file_0Wf1A3
+=======
 status: draft
+>>>>>>> .merge_file_DMnzFF
 ---
 
 # 📋 workflow Index
@@ -17,6 +20,18 @@ status: draft
 **Status**: ✅ Auto-generated
 
 ---
+<<<<<<< .merge_file_0Wf1A3
+
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_DMnzFF
 ## 📊 Statistics
 
 | Metric | Count |

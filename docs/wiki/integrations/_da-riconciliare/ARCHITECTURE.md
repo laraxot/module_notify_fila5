@@ -7,7 +7,10 @@ type: architecture
 tags: [module, architecture, notifications]
 created: 2026-07-28
 updated: 2026-07-28
+<<<<<<< .merge_file_3qOpf5
+=======
 status: draft
+>>>>>>> .merge_file_U8hZye
 ---
 
 # Notify Module — Architecture

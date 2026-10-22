@@ -9,8 +9,8 @@ updated: 2026-10-08
 tags: [notify, services-to-actions, queueable-action, enum, push, dedup, swarm]
 related:
   - ./4.29.notify-services-to-actions.story.md
-  - ./phpstan-notify-push-delivery.story.md
-  - ./phpstan-cleanup-notify.dev.md
+  - ./2026-10-08-phpstan-notify-push-delivery.story.md
+  - ./2026-10-06-phpstan-cleanup-notify.dev.md
   - ../wiki/concepts/services-to-actions-migration.md
   - ../../../../../bmad-output/epic-code-standards-services-mixed-const.md
 ---
@@ -21,7 +21,7 @@ related:
 
 Epic "niente Services, mixed ultima spiaggia, const in tipi adatti": eliminare del tutto `app/Services` del modulo Notify,
 riscrivere sulle Action i test che usano i Service, convertire le `const` di classe, chiudere gli aperti lasciati da
-`phpstan-notify-push-delivery.story.md`. Fase BMAD: Build + Measure.
+`2026-10-08-phpstan-notify-push-delivery.story.md`. Fase BMAD: Build + Measure.
 
 ## Analisi: era la migrazione 4.29, annullata da un merge
 
@@ -146,10 +146,3 @@ verde: le stesse asserzioni sui log sono quelle verificate dal probe.
    `notificationtemplateversion.php.up` (le prime due contengono ancora le vecchie `const STATUS_*`).
 8. L'elenco `['fcm', 'apns', 'webpush']` e' ripetuto in 4 Action `Push/*` (e `detectPlatform`): candidato a enum backed `PushPlatformEnum`.
 9. `composer dump-autoload` da lanciare quando la macchina e' libera (classmap ottimizzata con entry di classi cancellate).
-
-## Riesuma 2026-10-20
-
-`SmsService` gia' assente (zombie rimosso da altra lane). Residui non-PHP / MailtrapEngine rimossi di nuovo
-(`MailtrapEngine.php`, `*.test`, `MailService.to_action`). Successore mail: `Actions\Mail\SendMailtrapMailAction`.
-Commenti obsoleti `TenantService::getConfig` nei Data SMS/Smtp aggiornati a puntare `GetTenantConfigArrayAction`.
-

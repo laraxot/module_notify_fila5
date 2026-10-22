@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "loc struct"
 issues: []
 discussions: []
+<<<<<<< .merge_file_QflT9y
+=======
 status: draft
+>>>>>>> .merge_file_crNE9J
 ---
 
 # Loc Struct

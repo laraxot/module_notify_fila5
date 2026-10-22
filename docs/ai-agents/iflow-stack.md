@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "iflow stack"
 issues: []
 discussions: []
+<<<<<<< .merge_file_O5HAci
+=======
 status: draft
+>>>>>>> .merge_file_YxH5hc
 ---
 
 # IFLOW Tech Stack
@@ -15,6 +18,18 @@ status: draft
 Stack tecnologico del progetto.
 
 ---
+<<<<<<< .merge_file_O5HAci
+
+title: "iflow stack"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "iflow stack"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_YxH5hc
 ## Backend
 
 | Tecnologia | Descrizione |

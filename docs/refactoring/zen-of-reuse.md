@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "zen of reuse"
 issues: []
 discussions: []
+<<<<<<< .merge_file_HIgxF6
+=======
 status: draft
+>>>>>>> .merge_file_IAzGie
 ---
 
 # 🧘 The Zen of Reuse (Filament Components)

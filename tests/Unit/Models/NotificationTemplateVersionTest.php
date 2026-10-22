@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
@@ -64,11 +65,10 @@ describe('Notification Template Version', function (): void {
         Assert::assertSame('array', $casts['conditions']);
     });
 
-    test('belongs to a notification template through template_id', function (): void {
-        $relation = (new NotificationTemplateVersion)->template();
+    test('declares template() as a belongsTo relation', function (): void {
+        $method = new ReflectionMethod(NotificationTemplateVersion::class, 'template');
 
-        Assert::assertSame(NotificationTemplate::class, $relation->getRelated()::class);
-        Assert::assertSame('template_id', $relation->getForeignKeyName());
+        XotBasePest::assertReflectionTypeName($method->getReturnType(), BelongsTo::class);
     });
 
     test('restoreTemplate returns the notification template', function (): void {

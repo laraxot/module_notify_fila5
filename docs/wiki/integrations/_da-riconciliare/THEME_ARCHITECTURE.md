@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_og28fo
+=======
 status: draft
+>>>>>>> .merge_file_XntfoT
 ---
 
 # 🎨 Theme Architecture - "Il Tema è un Vestito"

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "send email translation improvement"
 issues: []
 discussions: []
+<<<<<<< .merge_file_oC62Xy
+=======
 status: draft
+>>>>>>> .merge_file_8KRm7y
 ---
 
 # Miglioramento File Traduzione send_email.php
@@ -318,6 +321,18 @@ php -l Modules/Notify/lang/it/send_email.php
 4. **Deployment**: Deploy in ambiente di sviluppo per testing
 
 ---
+<<<<<<< .merge_file_oC62Xy
+
+title: "send email translation improvement"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "send email translation improvement"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_8KRm7y
 **Ultimo aggiornamento**: Gennaio 2025
 **Autore**: Sistema di miglioramento automatico
 # Miglioramento File Traduzione send_email.php

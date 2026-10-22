@@ -16,7 +16,10 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+<<<<<<< .merge_file_y5VEcM
+=======
 status: draft
+>>>>>>> .merge_file_5KaQ3R
 ---
 # 📜 Project Rules Index
 

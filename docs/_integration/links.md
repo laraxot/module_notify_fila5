@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "links"
 issues: []
 discussions: []
+<<<<<<< .merge_file_jNR0eq
+=======
 status: draft
+>>>>>>> .merge_file_xXxt3g
 ---
 
 # links

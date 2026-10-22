@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "DOCUMENTAZIONE REPORT FINALE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_CFDWHd
+=======
 status: draft
+>>>>>>> .merge_file_irzKge
 ---
 
 # Report Aggiornamento Documentazione Design Comuni FAQ
@@ -21,6 +24,18 @@ Aggiornamento completo della documentazione per la pagina FAQ del progetto Desig
 - **Stato**: ✅ COMPLETATO
 
 ---
+<<<<<<< .merge_file_CFDWHd
+
+title: "DOCUMENTAZIONE REPORT FINALE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTAZIONE REPORT FINALE"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_irzKge
 ## 📚 Documenti Creati
 
 ### 1. Modulo Cms

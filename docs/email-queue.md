@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "email queue"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OkBCoa
+=======
 status: draft
+>>>>>>> .merge_file_Lm2qGG
 ---
 
 # Sistema Code Email - il progetto

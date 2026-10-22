@@ -8,7 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_abV7aS
+=======
 status: draft
+>>>>>>> .merge_file_MIaUfD
 ---
 
 # Divergenza: `ZEN_OF_DOCUMENTATION.md`

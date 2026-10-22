@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_VONUPc
+=======
 status: draft
+>>>>>>> .merge_file_D9Uiy8
 ---
 
 # NotebookLM Skill - Installation & Integration Summary

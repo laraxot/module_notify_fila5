@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_pCVE9K
+=======
 status: draft
+>>>>>>> .merge_file_TjCzKD
 ---
 
 # Report di Revisione Sistema Email Stagionali - Dicembre 2025

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "riepilogo rifattorizzazione"
 issues: []
 discussions: []
+<<<<<<< .merge_file_t8PPqg
+=======
 status: draft
+>>>>>>> .merge_file_UHbSo2
 ---
 
 # Riepilogo Rifattorizzazione Docs - DRY + KISS
@@ -163,5 +166,17 @@ Ogni file nella nuova struttura ha collegamenti bidirezionali:
 - **Eliminazione completa** di duplicati e confusione
 
 ---
+<<<<<<< .merge_file_t8PPqg
+
+title: "riepilogo rifattorizzazione"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "riepilogo rifattorizzazione"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_UHbSo2
 *Rifattorizzazione completata: Agosto 2025*
 *Responsabile: DRY + KISS Refactoring* 

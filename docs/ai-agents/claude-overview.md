@@ -97,5 +97,9 @@ Modules/{ModuleName}/
 ## 🔗 Link
 
 - [Indice CLAUDE](./claude-split-index.md)
+<<<<<<< .merge_file_u67bEP
+- [CLAUDE.md originale](../../CLAUDE.md)
+=======
 - [CLAUDE.md originale](../CLAUDE.md)
+>>>>>>> .merge_file_TifNsQ
 - [Index principale](./index.md)

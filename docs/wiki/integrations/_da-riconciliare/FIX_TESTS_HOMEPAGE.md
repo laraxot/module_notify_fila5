@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_QbAWYL
+=======
 status: draft
+>>>>>>> .merge_file_dLaxdr
 ---
 
 # ✅ Fix Applicati - Tests Homepage

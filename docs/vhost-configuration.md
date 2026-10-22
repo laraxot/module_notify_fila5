@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "vhost configuration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OHq8zz
+=======
 status: draft
+>>>>>>> .merge_file_fEgSPN
 ---
 
 # 🌐 VHost Configuration Guide
@@ -17,6 +20,18 @@ status: draft
 > **Environment**: Local Development
 
 ---
+<<<<<<< .merge_file_OHq8zz
+
+title: "vhost configuration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vhost configuration"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_fEgSPN
 ## 📋 Overview
 
 This guide covers the Apache VirtualHost configuration for FixCity local development environments.

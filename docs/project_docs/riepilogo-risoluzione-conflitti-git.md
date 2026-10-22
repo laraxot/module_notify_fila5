@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "riepilogo risoluzione conflitti git"
 issues: []
 discussions: []
+<<<<<<< .merge_file_QtlgQS
+=======
 status: draft
+>>>>>>> .merge_file_ZVvUmF
 ---
 
 # Riepilogo Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
@@ -204,6 +207,18 @@ composer dump-autoload
 - **Documentazione**: Aggiornata e completa
 
 ---
+<<<<<<< .merge_file_QtlgQS
+
+title: "riepilogo risoluzione conflitti git"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "riepilogo risoluzione conflitti git"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_ZVvUmF
 ## Riepilogo Finale
 
 🎯 **Obiettivo Raggiunto**: Tutti i conflitti Git sono stati risolti sistematicamente

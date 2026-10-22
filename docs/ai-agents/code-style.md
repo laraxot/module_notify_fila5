@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "code style"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UCwpBR
+=======
 status: draft
+>>>>>>> .merge_file_7iX5Gh
 ---
 
 # Code Style Guidelines

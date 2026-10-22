@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "implementation summary fixcity geocode"
 issues: []
 discussions: []
+<<<<<<< .merge_file_gQC3gb
+=======
 status: draft
+>>>>>>> .merge_file_9rW6Vf
 ---
 
 # 🚀 IMPLEMENTATION SUMMARY - 27 Gennaio 2025
@@ -15,6 +18,18 @@ status: draft
 > **Sessione di implementazione priorità critiche Fixcity Module**
 
 ---
+<<<<<<< .merge_file_gQC3gb
+
+title: "implementation summary fixcity geocode"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "implementation summary fixcity geocode"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_9rW6Vf
 ## ✅ COMPLETED TASKS
 
 ### 🎯 Task #1: GeocodeTicketAddressJob + Migration (CRITICAL)

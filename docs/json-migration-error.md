@@ -155,8 +155,13 @@ if ($validRecords !== $totalRecords) {
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_wpOYKJ
+- [Documentazione Migrazioni](./MIGRATION_RULES.md)
+- [Best Practices JSON](./JSON_BEST_PRACTICES.md)
+=======
 - [Documentazione Migrazioni](./migration_rules.md)
 - [Best Practices JSON](./json_best_practices.md)
+>>>>>>> .merge_file_2hSdRU
 - [Gestione Errori](./ERROR_HANDLING.md)
 
 ## Note Importanti

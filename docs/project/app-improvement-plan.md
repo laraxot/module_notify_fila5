@@ -16,7 +16,10 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
+<<<<<<< .merge_file_Tcbx54
+=======
 status: draft
+>>>>>>> .merge_file_uogcmy
 ---
 
 # Notify Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop

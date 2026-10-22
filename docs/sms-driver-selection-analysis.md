@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "sms driver selection analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Ru2Zir
+=======
 status: draft
+>>>>>>> .merge_file_Glrcjl
 ---
 
 # Analisi: Spostamento Logica Selezione Driver in SmsData

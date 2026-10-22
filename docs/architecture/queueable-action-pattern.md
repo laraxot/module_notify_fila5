@@ -16,7 +16,10 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - ../best-practices/naming-conventions.md
+<<<<<<< .merge_file_wYNmJ8
+=======
 status: draft
+>>>>>>> .merge_file_5nn0S9
 ---
 # QueueableAction Pattern Guide
 

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "templates"
 issues: []
 discussions: []
+<<<<<<< .merge_file_pXHR3e
+=======
 status: draft
+>>>>>>> .merge_file_VeuTer
 ---
 
 # Email Templates

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "tailwind plugin"
 issues: []
 discussions: []
+<<<<<<< .merge_file_KHOYMG
+=======
 status: draft
+>>>>>>> .merge_file_c2pcKK
 ---
 
 # Guida: Creazione di Plugin Tailwind Custom per <nome progetto>
@@ -15,6 +18,18 @@ status: draft
 Questa guida mostra come creare, documentare e integrare plugin custom Tailwind CSS per pattern condivisi (bottoni, alert, badge, ecc.) secondo le best practice Webcrunch e le regole <nome progetto>.
 
 ---
+<<<<<<< .merge_file_KHOYMG
+
+title: "tailwind plugin"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tailwind plugin"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_c2pcKK
 ## 1. Cos'è un Plugin Tailwind
 Un plugin Tailwind permette di aggiungere nuove utility, componenti o variant personalizzate, centralizzando la logica di stile e favorendo la coerenza tra moduli/temi.
 

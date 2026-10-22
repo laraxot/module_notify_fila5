@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_ZSeCWA
+=======
 status: draft
+>>>>>>> .merge_file_5iLRG4
 ---
 
 # 🚨 Problema Timeout Pagina Login - Diagnosi e Soluzione

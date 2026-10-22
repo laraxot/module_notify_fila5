@@ -26,7 +26,11 @@ updated: 2026-08-24
 
 SuperMemory is the long-term and short-term memory and context infrastructure for AI agents. It provides persistent memory across conversations, semantic search, and knowledge graph capabilities.
 
+<<<<<<< .merge_file_3cfOd6
+**Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
+=======
 **Master MCP Docs**: [Project MCP Servers](../../../MCP_SERVERS.md)
+>>>>>>> .merge_file_Nj1W0d
 
 ## Quick Start
 
@@ -248,7 +252,11 @@ supermemory init --api-key YOUR_KEY --container-tag <nome progetto> --scope proj
 
 ## Related Documentation
 
+<<<<<<< .merge_file_3cfOd6
+- **Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
+=======
 - **Master MCP Docs**: [Project MCP Servers](../../../MCP_SERVERS.md)
+>>>>>>> .merge_file_Nj1W0d
 - **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/MCP_SERVERS.md)
 - **Theme MCP**: [Sixteen Theme MCP](../../Themes/Sixteen/docs/MCP_SERVERS.md)
 - **SuperMemory Skill**: [.qwen/skills/supermemory/](.qwen/skills/supermemory/)

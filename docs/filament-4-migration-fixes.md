@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "filament 4 migration fixes"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UV97X7
+=======
 status: draft
+>>>>>>> .merge_file_fIJXmB
 ---
 
 # Filament 3 to 4 Migration - Component Fixes

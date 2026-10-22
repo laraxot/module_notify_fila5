@@ -289,7 +289,11 @@ php -l Modules/Notify/lang/it/send_email.php
 ## 🔗 Collegamenti
 
 ### Documentazione Correlata
+<<<<<<< .merge_file_xto6gp
+- [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
+=======
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+>>>>>>> .merge_file_h98ySJ
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)

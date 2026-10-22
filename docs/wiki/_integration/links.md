@@ -6,8 +6,11 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+<<<<<<< .merge_file_e1UtvJ
+=======
 tags: [docs, notify, wiki]
 qmd: "links notify"
+>>>>>>> .merge_file_Tnevuu
 ---
 
 # links

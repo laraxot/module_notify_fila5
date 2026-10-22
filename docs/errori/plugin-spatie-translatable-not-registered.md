@@ -373,7 +373,11 @@ Prima di usare `LangBase*`:
 - [Spatie Laravel Translatable](https://spatie.be/docs/laravel-translatable/v6/introduction)
 
 ### Documentazione Interna
+<<<<<<< .merge_file_iXC5tR
+- [Lang Module README](../../../lang/docs/readme.md)
+=======
 - [Lang Module README](../../../Lang/docs/readme.md)
+>>>>>>> .merge_file_D3TCuR
 - [Filament Panel Configuration](../../../xot/docs/filament/panel-configuration.md)
 
 ---

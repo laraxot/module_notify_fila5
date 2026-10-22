@@ -58,6 +58,26 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 ### Guide Complete
 
 #### Email System
+<<<<<<< .merge_file_TErajs
+- **[Email Attachments Usage](./email-sending/attachments_usage.md)** ⭐  
+  Guida completa agli allegati email (path e binary data)
+
+- **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
+  Sistema template email database
+
+- **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
+  Best practices layout email
+
+#### Notifications
+- **[Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)**  
+  Come implementare notifiche custom
+
+- **[RecordNotification Usage](./notifications/record-notification.md)**  
+  Notifiche basate su record Eloquent
+
+#### SMS & WhatsApp
+- **[WhatsApp Provider Architecture](./whatsapp_provider_architecture.md)**  
+=======
 - **[Email Attachments Usage](../email-sending/attachments_usage.md)** ⭐  
   Guida completa agli allegati email (path e binary data)
 
@@ -76,6 +96,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 
 #### SMS & WhatsApp
 - **[WhatsApp Provider Architecture](../whatsapp_provider_architecture.md)**  
+>>>>>>> .merge_file_0VOEFE
   Architettura provider WhatsApp
 
 ---
@@ -255,7 +276,11 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
+<<<<<<< .merge_file_TErajs
+**Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+=======
 **Changelog**: [CHANGELOG.md](./CHANGELOG.MD)
+>>>>>>> .merge_file_0VOEFE
 
 ## 🔗 Collegamenti
 
@@ -272,18 +297,31 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 - **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
   Generazione PDF binario da record
 
+<<<<<<< .merge_file_TErajs
+- **[PDF Actions](../../Xot/app/Actions/Pdf/)**  
+=======
 - **[PDF Actions](../../../Xot/app/Actions/Pdf)**  
+>>>>>>> .merge_file_0VOEFE
   Actions per gestione PDF
 
 ### Documentazione Interna
 
 #### Email System
+<<<<<<< .merge_file_TErajs
+- [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+- [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
+
+#### Notifications
+- [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
+=======
 - [Email Layouts Best Practices](../mail-templates/email_layouts_best_practices.md)
 - [Spatie Mail Templates Structure](../mail-templates/spatie_mail_templates_structure.md)
 - [Email Troubleshooting](../email-sending/email_troubleshooting.md)
 
 #### Notifications
 - [Notifications Implementation Guide](../notifications/notifications_implementation_guide.md)
+>>>>>>> .merge_file_0VOEFE
 - [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
 
 ---

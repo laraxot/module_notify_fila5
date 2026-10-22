@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "agents"
 issues: []
 discussions: []
+<<<<<<< .merge_file_mM4hdv
+=======
 status: draft
+>>>>>>> .merge_file_HQNA63
 ---
 
 # LLM Wiki Agent Instructions

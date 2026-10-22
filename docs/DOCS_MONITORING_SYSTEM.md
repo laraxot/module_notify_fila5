@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "DOCS MONITORING SYSTEM"
 issues: []
 discussions: []
+<<<<<<< .merge_file_E4aSmp
+=======
 status: draft
+>>>>>>> .merge_file_PfjIfS
 ---
 
 # 📚 DOCS MONITORING SYSTEM - Sistema di Monitoraggio Documentazione
@@ -18,6 +21,18 @@ status: draft
 **Scope**: Tutte le cartelle docs dei moduli e temi  
 
 ---
+<<<<<<< .merge_file_E4aSmp
+
+title: "DOCS MONITORING SYSTEM"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCS MONITORING SYSTEM"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_PfjIfS
 ## 🎯 OBIETTIVO
 
 Monitorare costantemente tutte le cartelle `docs` dei moduli e temi per:

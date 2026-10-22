@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "dto vs factory"
 issues: []
 discussions: []
+<<<<<<< .merge_file_1wrqzU
+=======
 status: draft
+>>>>>>> .merge_file_XvlsSn
 ---
 
 # Analisi: Logica di Selezione del Driver nel DTO vs Factory vs Canale

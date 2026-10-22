@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "start here replikate phase2"
 issues: []
 discussions: []
+<<<<<<< .merge_file_wHGtPZ
+=======
 status: draft
+>>>>>>> .merge_file_V2B9ry
 ---
 
 # 🚀 START HERE - REPLIKATE Phase 2
@@ -17,6 +20,18 @@ status: draft
 **Time Estimate**: ~50 minutes
 
 ---
+<<<<<<< .merge_file_wHGtPZ
+
+title: "start here replikate phase2"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "start here replikate phase2"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_V2B9ry
 ## 📍 You Are Here
 
 ```

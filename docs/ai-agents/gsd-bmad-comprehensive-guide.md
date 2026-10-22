@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "gsd bmad comprehensive guide"
 issues: []
 discussions: []
+<<<<<<< .merge_file_0zI7IE
+=======
 status: draft
+>>>>>>> .merge_file_mekQlr
 ---
 
 # GSD & BMAD — Guida Completa per Agenti AI
@@ -19,6 +22,18 @@ status: draft
 > **Versione**: 2.0 (GSD v1.26.0 + BMAD v6)
 
 ---
+<<<<<<< .merge_file_0zI7IE
+
+title: "gsd bmad comprehensive guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gsd bmad comprehensive guide"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_mekQlr
 ## 📖 Indice
 
 1. [Introduzione](#introduzione)

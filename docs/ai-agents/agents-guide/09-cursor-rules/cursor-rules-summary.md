@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "cursor rules summary"
 issues: []
 discussions: []
+<<<<<<< .merge_file_4PnFqa
+=======
 status: draft
+>>>>>>> .merge_file_pdlnmz
 ---
 
 # 9. Cursor Rules Summary
@@ -22,3 +25,15 @@ From `.cursorrules`:
 - **Performance**: Enable benchmarking, profiling
 
 ---
+<<<<<<< .merge_file_4PnFqa
+
+title: "cursor rules summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cursor rules summary"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_pdlnmz

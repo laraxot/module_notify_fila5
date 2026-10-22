@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "plan"
 issues: []
 discussions: []
+<<<<<<< .merge_file_5t3iUd
+=======
 status: draft
+>>>>>>> .merge_file_HTcLEJ
 ---
 
 # Appointment Field Naming Correction Plan

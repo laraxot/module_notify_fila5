@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "filament v4 migration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_cJD76u
+=======
 status: draft
+>>>>>>> .merge_file_xGqyH3
 ---
 
 # Filament v4 Migration - Notify Module
@@ -218,6 +221,18 @@ view:cache compila
 - [Filament v4 Forms Documentation](https://filamentphp.com/docs/4.x/forms/getting-started)
 
 ---
+<<<<<<< .merge_file_cJD76u
+
+title: "filament v4 migration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament v4 migration"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_xGqyH3
 **Data migrazione**: [DATE]
 **Versione Filament**: v4.x
 **Files modificati**: 4

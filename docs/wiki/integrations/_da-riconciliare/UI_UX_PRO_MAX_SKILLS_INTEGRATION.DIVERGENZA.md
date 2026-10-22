@@ -8,7 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_r7n6BA
+=======
 status: draft
+>>>>>>> .merge_file_yiDVb0
 ---
 
 # Divergenza: `UI_UX_PRO_MAX_SKILLS_INTEGRATION.md`

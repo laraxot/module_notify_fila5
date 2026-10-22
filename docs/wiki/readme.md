@@ -1,10 +1,18 @@
 ---
+<<<<<<< .merge_file_hu27nX
+title: "FixCity LLM Wiki"
+=======
+>>>>>>> .merge_file_GlqVNw
 title: "Notify LLM Wiki"
 type: index
 tags: [notify, docs, wiki]
 module: Notify
 created: 2026-07-20
 updated: 2026-07-20
+<<<<<<< .merge_file_hu27nX
+qmd: "notify documentazione wiki readme fixcity llm wiki index readme frontmatter qmd search"
+=======
+>>>>>>> .merge_file_GlqVNw
 qmd: "notify documentazione wiki readme laraxot llm wiki index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
@@ -16,8 +24,13 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+<<<<<<< .merge_file_hu27nX
+---
+# FixCity LLM Wiki
+=======
 status: draft
 ---
+>>>>>>> .merge_file_GlqVNw
 # Notify LLM Wiki
 
 This directory is the canonical compiled wiki layer for the Karpathy-style workflow in this repository.

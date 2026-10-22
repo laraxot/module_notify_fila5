@@ -57,5 +57,10 @@ return view((string) $view);
 ## Collegamenti
 
 - [phpstan_critical_rules](../.cursor/rules/phpstan_critical_rules.md)
+<<<<<<< .merge_file_qkhqoY
+- [AGENTS.md](../AGENTS.md)
+- [agents.md](../agents.md)
+=======
 - [AGENTS.md](../../../AGENTS.md)
 - [agents.md](../../../AGENTS.md)
+>>>>>>> .merge_file_w12pjq

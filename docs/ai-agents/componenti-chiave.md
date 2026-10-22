@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "componenti chiave"
 issues: []
 discussions: []
+<<<<<<< .merge_file_c3v9G6
+=======
 status: draft
+>>>>>>> .merge_file_UiF6s5
 ---
 
 # Componenti Chiave

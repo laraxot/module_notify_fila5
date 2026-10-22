@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "git conflicts resolution"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Gd69Ey
+=======
 status: draft
+>>>>>>> .merge_file_iSpDeA
 ---
 
 # Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
@@ -192,6 +195,18 @@ git diff --name-only --diff-filter=U
 - [Troubleshooting](../README.md)
 
 ---
+<<<<<<< .merge_file_Gd69Ey
+
+title: "git conflicts resolution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "git conflicts resolution"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_iSpDeA
 *Ultimo aggiornamento: giugno 2025*
 *Autore: AI Assistant*
 *Stato: Completato*

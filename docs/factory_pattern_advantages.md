@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "factory pattern advantages"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Ly6vP0
+=======
 status: draft
+>>>>>>> .merge_file_1Xzubj
 ---
 
 # Analisi del Pattern Factory per la Selezione dei Provider SMS

@@ -180,7 +180,11 @@ try {
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_09ts4O
+- [Documentazione Root](../../../../../docs/readme.md)
+=======
 - [Documentazione Root](../../../../docs/README.md)
+>>>>>>> .merge_file_6vDykX
 - [Documentazione Modulo Notify](./readme.md)
 - [Documentazione Template Email](./email_templates.md)
 - [Guida all'utilizzo di SpatieEmail](./spatie_email_usage_guide.md)

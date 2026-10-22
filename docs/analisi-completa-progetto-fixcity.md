@@ -424,6 +424,19 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### 🎯 Module Roadmaps (Dettagliate)
 - [Xot - Core Framework](../Modules/Xot/docs/roadmap-and-issues.md) - 9 errori, 2.5h fix
+<<<<<<< .merge_file_nV4mLK
+- [User - Auth & Profiles](../Modules/User/docs/roadmap-and-issues.md) - 95 errori, 6h fix
+- [Fixcity - Business Logic](../Modules/Fixcity/docs/roadmap-and-issues.md) - N+1 queries, features
+- [AI - Artificial Intelligence](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization
+- [Notify - Notifications](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time, push
+- [Geo - Geographic](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
+- [UI - Components](../Modules/UI/docs/roadmap-and-issues.md) - Accessibility
+- [Activity - Audit](../Modules/Activity/docs/roadmap-and-issues.md) - Analytics
+- [Cms - Content](../Modules/Cms/docs/roadmap-and-issues.md) - Page builder
+
+### 🎨 Theme Roadmaps
+- [Sixteen - Frontend Theme](../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
+=======
 - [User - Auth & Profiles](../../User/docs/roadmap-and-issues.md) - 95 errori, 6h fix
 - [Fixcity - Business Logic](../Modules/Fixcity/docs/roadmap-and-issues.md) - N+1 queries, features
 - [AI - Artificial Intelligence](../../AI/docs/roadmap-and-issues.md) - Auto-categorization
@@ -435,6 +448,7 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### 🎨 Theme Roadmaps
 - [Sixteen - Frontend Theme](../../../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
+>>>>>>> .merge_file_dwaayb
 
 ### 📖 Main Docs
 - [Index Principale](./index.md)

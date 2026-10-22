@@ -27,7 +27,11 @@ updated: 2026-08-24
 
 ### Per Sviluppatori
 - [Architecture Overview](./architecture/README.md)
+<<<<<<< .merge_file_PwFYLg
+- [Getting Started](./GETTING_STARTED.md)
+=======
 - [Getting Started](../../../GETTING_STARTED.md)
+>>>>>>> .merge_file_ZPH3oR
 - [Coding Standards](./conventions/README.md)
 
 ### Per AI Agents
@@ -66,7 +70,11 @@ updated: 2026-08-24
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
+<<<<<<< .merge_file_PwFYLg
+- [Quality Reports](./reports/quality.md)
+=======
 - [Quality Reports](../../../roadmap/quality.md)
+>>>>>>> .merge_file_ZPH3oR
 - [Performance Reports](./reports/performance.md)
 
 ---

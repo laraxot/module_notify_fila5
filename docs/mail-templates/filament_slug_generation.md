@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "filament slug generation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_01DsfU
+=======
 status: draft
+>>>>>>> .merge_file_J5kfHK
 ---
 
 # Generazione di Slug in Filament

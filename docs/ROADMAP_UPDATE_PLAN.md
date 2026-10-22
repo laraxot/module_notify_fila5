@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "ROADMAP UPDATE PLAN"
 issues: []
 discussions: []
+<<<<<<< .merge_file_KGGGoD
+=======
 status: draft
+>>>>>>> .merge_file_juHojQ
 ---
 
 # Roadmap Update Plan - All Modules

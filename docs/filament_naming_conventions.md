@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "filament naming conventions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_QT9aX4
+=======
 status: draft
+>>>>>>> .merge_file_tnzWAR
 ---
 
 # Convenzioni di Naming per Filament 

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "theme system dynamic"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Hg4TYp
+=======
 status: draft
+>>>>>>> .merge_file_VJEoYN
 ---
 
 # 🎨 Theme System - Dynamic Theme Registration
@@ -17,6 +20,18 @@ status: draft
 **Principle**: Theme is a "vestito" (outfit) - configurable and swappable!
 
 ---
+<<<<<<< .merge_file_Hg4TYp
+
+title: "theme system dynamic"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "theme system dynamic"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_VJEoYN
 ## 🎯 How It Works
 
 ### 1. Theme Configuration

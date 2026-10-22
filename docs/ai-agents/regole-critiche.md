@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "regole critiche"
 issues: []
 discussions: []
+<<<<<<< .merge_file_1SEtDj
+=======
 status: draft
+>>>>>>> .merge_file_1t1IyP
 ---
 
 # Regole Critiche Laraxot

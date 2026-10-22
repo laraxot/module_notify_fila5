@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "REPORT FINALE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_KVP9ke
+=======
 status: draft
+>>>>>>> .merge_file_3blTh1
 ---
 
 # 📊 Report Finale - FixCity Sixteen Theme
@@ -16,6 +19,18 @@ status: draft
 Creazione pagine mancanti per il tema Sixteen (FixCity) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
 
 ---
+<<<<<<< .merge_file_KVP9ke
+
+title: "REPORT FINALE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "REPORT FINALE"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_3blTh1
 ## 📈 Risultati
 
 ### Pagine Create in Questa Sessione: **15**

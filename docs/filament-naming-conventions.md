@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "filament naming conventions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Hdg34G
+=======
 status: draft
+>>>>>>> .merge_file_d05bgm
 ---
 
 # Convenzioni di Naming per Filament 

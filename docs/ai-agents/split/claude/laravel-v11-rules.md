@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "laravel v11 rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_kaCfB3
+=======
 status: draft
+>>>>>>> .merge_file_5dHLXA
 ---
 
 === laravel/v11 rules ===
@@ -40,6 +43,18 @@ status: draft
 
 
 ---
+<<<<<<< .merge_file_kaCfB3
+
+title: "laravel v11 rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "laravel v11 rules"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_5dHLXA
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "correzioni phpstan completate"
 issues: []
 discussions: []
+<<<<<<< .merge_file_gn6QVF
+=======
 status: draft
+>>>>>>> .merge_file_lbFZ8r
 ---
 
 # ✅ CORREZIONI PHPSTAN COMPLETATE - Modulo Notify
@@ -138,6 +141,18 @@ I pattern di type safety implementati possono essere applicati a:
 4. **Testing** con classi dinamiche
 
 ---
+<<<<<<< .merge_file_gn6QVF
+
+title: "correzioni phpstan completate"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "correzioni phpstan completate"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_lbFZ8r
 ## ✅ MISSIONE COMPLETATA
 
 **Tutti gli errori PHPStan del modulo Notify sono stati risolti** mantenendo la riusabilità e migliorando la type safety. Il modulo è ora pronto per essere utilizzato in qualsiasi progetto Laraxot.

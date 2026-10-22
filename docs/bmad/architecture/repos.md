@@ -5,8 +5,11 @@ type: reference
 tags: [wiki, notify, link-dump]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_IgsV2U
+=======
 status: draft
 qmd: "repos notify"
+>>>>>>> .merge_file_FNvUNr
 ---
 
 -------------------------------------------------------------

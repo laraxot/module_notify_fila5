@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "database mail enhancement"
 issues: []
 discussions: []
+<<<<<<< .merge_file_akewQn
+=======
 status: draft
+>>>>>>> .merge_file_wyaAJe
 ---
 
 # Database Mail Enhancement (Open Source)
@@ -98,6 +101,18 @@ testable class SendEmailTemplateAction {
 - Allineato alle convenzioni di progetto
 
 ---
+<<<<<<< .merge_file_akewQn
+
+title: "database mail enhancement"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database mail enhancement"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_wyaAJe
 **Collegamenti**:
 
 - [martin-petricko Database Mail](https://filamentphp.com/plugins/martin-petricko-database-mail)

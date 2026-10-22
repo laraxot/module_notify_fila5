@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "conflicts analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_WvEas7
+=======
 status: draft
+>>>>>>> .merge_file_M162QH
 ---
 
 # Analisi Conflitti - README.md

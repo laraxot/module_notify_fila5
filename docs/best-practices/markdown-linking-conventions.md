@@ -16,7 +16,10 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
+<<<<<<< .merge_file_E2ORA0
+=======
 status: draft
+>>>>>>> .merge_file_RTrcym
 ---
 # Convenzioni per i Collegamenti nei File Markdown
 

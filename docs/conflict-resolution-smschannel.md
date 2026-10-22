@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "conflict resolution smschannel"
 issues: []
 discussions: []
+<<<<<<< .merge_file_czeQEJ
+=======
 status: draft
+>>>>>>> .merge_file_xpEprZ
 ---
 
 # Risoluzione Conflitti SmsChannel.php

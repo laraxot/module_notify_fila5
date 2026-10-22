@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "03 architecture zen"
 issues: []
 discussions: []
+<<<<<<< .merge_file_2zDTK8
+=======
 status: draft
+>>>>>>> .merge_file_DFosXE
 ---
 
 # 🏛️ Architecture Zen Philosophy
@@ -16,6 +19,18 @@ status: draft
 **Related**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md) — Filament Widgets
 
 ---
+<<<<<<< .merge_file_2zDTK8
+
+title: "03 architecture zen"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "03 architecture zen"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_DFosXE
 ## 🔴 Fundamental Rules
 
 ### 1. **NO Themes/*/Http/Livewire/**

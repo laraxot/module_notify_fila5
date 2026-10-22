@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "sms action factory"
 issues: []
 discussions: []
+<<<<<<< .merge_file_oXxMhs
+=======
 status: draft
+>>>>>>> .merge_file_FwPJdj
 ---
 
 # Analisi: Sostituzione Match con Formula nel SmsActionFactory

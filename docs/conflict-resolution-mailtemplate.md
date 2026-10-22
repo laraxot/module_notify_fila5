@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "conflict resolution mailtemplate"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ZtL4Di
+=======
 status: draft
+>>>>>>> .merge_file_Y4PLfc
 ---
 
 # Risoluzione Conflitti MailTemplate.php

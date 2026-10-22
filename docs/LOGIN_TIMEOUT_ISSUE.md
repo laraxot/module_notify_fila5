@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "LOGIN TIMEOUT ISSUE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_uhZBYd
+=======
 status: draft
+>>>>>>> .merge_file_a7q6fF
 ---
 
 # 🚨 Problema Timeout Pagina Login - Diagnosi e Soluzione
@@ -17,6 +20,18 @@ status: draft
 **URL Affetto**: http://127.0.0.1:8000/it/auth/login
 
 ---
+<<<<<<< .merge_file_uhZBYd
+
+title: "LOGIN TIMEOUT ISSUE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "LOGIN TIMEOUT ISSUE"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_a7q6fF
 ## 📋 Sintomi
 
 ### Errore Rilevato

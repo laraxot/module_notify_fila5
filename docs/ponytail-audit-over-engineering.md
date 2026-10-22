@@ -7,11 +7,16 @@ updated: 2026-09-26
 qmd: "ponytail audit over engineering"
 issues: []
 discussions: []
+<<<<<<< .merge_file_f09cOK
+---
+
+=======
 status: stale
 ---
 
 > Nota 2026-10-14 (docs-audit): Dichiara 8 Action SMS e 3 varianti Agiletelecom spostate in .php.bak; il 2026-10-14 app/ non ha alcun .bak tracciato e app/Actions/SMS/ contiene ancora quelle Action. Contenuto non riscritto, verificare prima di usarlo.
 
+>>>>>>> .merge_file_GXJSPM
 # Ponytail audit — Notify (over-engineering)
 
 **Ultimo run:** 2026-07-02  
@@ -100,6 +105,10 @@ Utility mantenute: `NormalizePhoneNumberAction`, `FormatSmsMessageAction`.
 
 ## Collegamenti
 
+<<<<<<< .merge_file_f09cOK
+- [wiki/decisions/sms-actions-consolidation-2026-06-30.md](./wiki/decisions/sms-actions-consolidation-2026-06-30.md)
+=======
 - [wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md](./wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md)
+>>>>>>> .merge_file_GXJSPM
 - [provider-actions-architecture.md](./provider-actions-architecture.md)
 - [Xot Notify hub](../../Xot/docs/ponytail-audit-over-engineering.md)

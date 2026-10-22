@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "no hardcoded language religion"
 issues: []
 discussions: []
+<<<<<<< .merge_file_DgeXAM
+=======
 status: draft
+>>>>>>> .merge_file_oWFNId
 ---
 
 # NO Hardcoded Language — La Religione i18n
@@ -19,6 +22,18 @@ status: draft
 **Audience**: All developers + AI agents
 
 ---
+<<<<<<< .merge_file_DgeXAM
+
+title: "no hardcoded language religion"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "no hardcoded language religion"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_oWFNId
 ## LA REGOLA AUREA
 
 **NON scriverai MAI parole in italiano (o qualsiasi lingua) nel codice PHP.**

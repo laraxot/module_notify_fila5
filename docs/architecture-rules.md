@@ -7,7 +7,10 @@ discussions: []
 title: architecture rules — puntatore
 type: reference
 updated: 2026-05-21
+<<<<<<< .merge_file_JhW1pd
+=======
 status: draft
+>>>>>>> .merge_file_9bAMPg
 ---
 
 # Architecture rules (puntatore)

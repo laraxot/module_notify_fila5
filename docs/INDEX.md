@@ -16,11 +16,15 @@ related:
   - notifications/readme.md
   - integrations/readme.md
   - templates/readme.md
+<<<<<<< .merge_file_JMOjmb
+---
+=======
 status: stale
 ---
 
 > Nota 2026-10-14 (docs-audit): Indice multilingue con sezioni ripetute (Documentazione e Aggiornamenti x5), link a SaluteOra/PTV e a file di docs/ radice inesistenti; l'indice operativo e' 00-INDEX.md. Contenuto non riscritto, verificare prima di usarlo.
 
+>>>>>>> .merge_file_7dKAyQ
 # Notify Module Documentation
 
 ## Overview
@@ -70,10 +74,17 @@ This document serves as the central index for the Notify module, providing guida
 
 ## Links to Related Documentation
 - [Architecture Overview](./ARCHITECTURE.md)
+<<<<<<< .merge_file_JMOjmb
+- [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
+- [Email Templates](./EMAIL_TEMPLATES.md)
+- [SMS Implementation](./SMS_IMPLEMENTATION.md)
+- [Troubleshooting](./TROUBLESHOOTING.md)
+=======
 - [Notification Channels Implementation](./notification_channels_implementation.md)
 - [Email Templates](./email_templates.md)
 - [SMS Implementation](./sms_implementation.md)
 - [Troubleshooting](./troubleshooting.md)
+>>>>>>> .merge_file_7dKAyQ
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -117,6 +128,17 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Sistema Email
 - [Sistema Email Database](./database-mail-system.md) - Sistema di gestione delle email basato su database
 - [Code Email](./database_mail_queue.md) - Sistema di code per l'invio di email
+<<<<<<< .merge_file_JMOjmb
+- [Template Email](./EMAIL_TEMPLATES.md) - Struttura e utilizzo dei template email
+- [Best Practices Email](./EMAIL_BEST_PRACTICES.md) - Linee guida per le email
+- [Template Responsivi](./RESPONSIVE_EMAIL_TEMPLATES.md) - Implementazione di template email responsivi
+
+### Canali di Notifica
+- [Implementazione Canali](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md) - Implementazione dei canali di notifica
+- [SMS](./SMS_IMPLEMENTATION.md) - Implementazione del canale SMS
+- [WhatsApp](./WHATSAPP_CHANNEL.md) - Implementazione del canale WhatsApp
+- [Telegram](./TELEGRAM_CHANNEL.md) - Implementazione del canale Telegram
+=======
 - [Template Email](./email_templates.md) - Struttura e utilizzo dei template email
 - [Best Practices Email](./email_best_practices.md) - Linee guida per le email
 - [Template Responsivi](./responsive_email_templates.md) - Implementazione di template email responsivi
@@ -126,10 +148,32 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [SMS](./sms_implementation.md) - Implementazione del canale SMS
 - [WhatsApp](./whatsapp_channel.md) - Implementazione del canale WhatsApp
 - [Telegram](./telegram_channel.md) - Implementazione del canale Telegram
+>>>>>>> .merge_file_7dKAyQ
 
 ### Filament UI
 - [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
 - [Pagine Filament](./filament-pages.md) - Componenti Filament Pages
+<<<<<<< .merge_file_JMOjmb
+- [Convenzioni Filament](./FILAMENT_EXTENSION_PATTERN.md) - Pattern di estensione per Filament
+
+### Configurazione
+- [Struttura Config](./CONFIG_STRUCTURE.md) - Struttura dei file di configurazione
+- [Configurazione SMS](./SMS_CONFIG_STRUCTURE.md) - Struttura della configurazione SMS
+- [Principi di Configurazione](./CONFIGURATIONS_USAGE_PRINCIPLES.md) - Principi per l'utilizzo delle configurazioni
+
+### Pattern e Architettura
+- [Pattern Factory](./FACTORY_PATTERN_ANALYSIS.md) - Analisi del pattern Factory
+- [Risoluzione Dinamica delle Classi](./DYNAMIC_CLASS_RESOLUTION.md) - Pattern di risoluzione dinamica delle classi
+- [Queueable Actions](./queueable-action.md) - Utilizzo di Spatie Queueable Actions
+
+### Standard e Traduzioni
+- [Convenzioni di Naming](./NAMING_CONVENTIONS.md) - Standard per i nomi di file e classi
+- [Traduzioni](./translations.md) - Sistema di traduzioni
+- [Standard Traduzioni](./TRANSLATION_STANDARDS.md) - Standard per le chiavi di traduzione
+
+### Testing e Qualità
+- [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
+=======
 - [Convenzioni Filament](./filament_extension_pattern.md) - Pattern di estensione per Filament
 
 ### Configurazione
@@ -149,6 +193,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Testing e Qualità
 - [PHPStan Level 10](./phpstan_level10_fixes.md) - Correzioni per PHPStan Level 10
+>>>>>>> .merge_file_7dKAyQ
 - [Testing](./TESTING.md) - Strategie e approcci per il testing
 
 ## Linee Guida per l'Implementazione
@@ -198,6 +243,20 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Sottocartelle
 
 ### Mail Templates
+<<<<<<< .merge_file_JMOjmb
+- [Index](./mail-templates/INDEX.md) - Indice della documentazione sui template email
+- [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
+
+### Notifications
+- [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
+
+## Collegamenti alla Documentazione Correlata
+- [Panoramica Architettura](./ARCHITECTURE.md)
+- [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
+- [Template Email](./EMAIL_TEMPLATES.md)
+- [Implementazione SMS](./SMS_IMPLEMENTATION.md)
+- [Troubleshooting](./TROUBLESHOOTING.md)
+=======
 - [Index](./mail-templates/index.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail_template_slug_implementation.md) - Implementazione del campo slug
 
@@ -210,6 +269,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - [Template Email](./email_templates.md)
 - [Implementazione SMS](./sms_implementation.md)
 - [Troubleshooting](./troubleshooting.md)
+>>>>>>> .merge_file_7dKAyQ
 
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
@@ -262,13 +322,21 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< .merge_file_JMOjmb
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+=======
 - Vedi anche: [../../../../../docs/project/README.md](../../../../docs/project/README.md)
+>>>>>>> .merge_file_7dKAyQ
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< .merge_file_JMOjmb
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+=======
 - Vedi anche: [../../../../../docs/project/README.md](../../../../docs/project/README.md)
+>>>>>>> .merge_file_7dKAyQ
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*

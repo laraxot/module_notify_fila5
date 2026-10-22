@@ -11,7 +11,11 @@ discussions: []
 
 # Documentation standards
 
+<<<<<<< .merge_file_BvKUGc
+> Source: [IFLOW.md](../../bashscripts/ai/IFLOW.md) | [CLAUDE.md](../../CLAUDE.md)
+=======
 > Source: [IFLOW.md](../../../../../bashscripts/ai/IFLOW.md) | [CLAUDE.md](../CLAUDE.md)
+>>>>>>> .merge_file_canweb
 > Back: [index](index.md)
 
 ## File naming conventions (CRITICAL)
@@ -32,7 +36,11 @@ WRONG:   ModelArchitecture.md
 Never include dates in filenames:
 ```
 CORRECT: dry-kiss-analysis.md
+<<<<<<< .merge_file_BvKUGc
+WRONG:   dry-kiss-analysis-2025-10-15.md
+=======
 WRONG:   dry-kiss-analysis.md
+>>>>>>> .merge_file_canweb
 WRONG:   phpstan-fixes-january-2026.md
 ```
 

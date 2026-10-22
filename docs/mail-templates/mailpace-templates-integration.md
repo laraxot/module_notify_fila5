@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "mailpace templates integration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_qyIGGl
+=======
 status: draft
+>>>>>>> .merge_file_4Gf8M0
 ---
 
 # Integrazione MailPace Templates

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "notifications system"
 issues: []
 discussions: []
+<<<<<<< .merge_file_uQuQsb
+=======
 status: draft
+>>>>>>> .merge_file_RPajJJ
 ---
 
 # Sistema di Notifiche

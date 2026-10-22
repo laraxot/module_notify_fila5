@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_yVb78i
+=======
 status: draft
+>>>>>>> .merge_file_XSwkS1
 ---
 
 # 🎨 Theme System - Dynamic Theme Registration

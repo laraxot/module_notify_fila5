@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "architecture principles"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XOmOvl
+=======
 status: draft
+>>>>>>> .merge_file_nvt6nJ
 ---
 
 # Architecture Principles

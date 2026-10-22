@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "enum standards"
 issues: []
 discussions: []
+<<<<<<< .merge_file_2xQM9Z
+=======
 status: draft
+>>>>>>> .merge_file_MhsHYZ
 ---
 
 # Enum Standards - Notify Module

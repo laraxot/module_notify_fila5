@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "notification bulk action implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_fMMmde
+=======
 status: draft
+>>>>>>> .merge_file_lxi89l
 ---
 
 # Implementation of Notification Bulk Action in Client Resource
@@ -146,4 +149,16 @@ After implementation, users can:
 - Enhanced reporting and analytics for sent notifications
 
 ---
+<<<<<<< .merge_file_fMMmde
+
+title: "notification bulk action implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "notification bulk action implementation"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_lxi89l
 *Documento conforme agli standard Laraxot - DRY + KISS + SOLID*

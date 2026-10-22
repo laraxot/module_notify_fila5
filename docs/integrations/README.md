@@ -16,7 +16,10 @@ related:
   - ../notifications/readme.md
   - readme.md
   - ../templates/readme.md
+<<<<<<< .merge_file_nQ28P1
+=======
 status: draft
+>>>>>>> .merge_file_NYMZcR
 ---
 # Integrazioni
 

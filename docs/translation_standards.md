@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "translation standards"
 issues: []
 discussions: []
+<<<<<<< .merge_file_avwyXU
+=======
 status: draft
+>>>>>>> .merge_file_rRzu5I
 ---
 
 # Standard per le Traduzioni 

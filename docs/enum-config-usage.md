@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "enum config usage"
 issues: []
 discussions: []
+<<<<<<< .merge_file_JjKqFV
+=======
 status: draft
+>>>>>>> .merge_file_llkwsW
 ---
 
 # Utilizzo di Enum e Config

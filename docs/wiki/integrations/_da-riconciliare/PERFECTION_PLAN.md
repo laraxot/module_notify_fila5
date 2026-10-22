@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_Vd3WEC
+=======
 status: draft
+>>>>>>> .merge_file_Cvn0Pm
 ---
 
 # 🎯 NOTIFY - PERFECTION PLAN

@@ -16,7 +16,10 @@ related:
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
   - "./docs-governance.md"
+<<<<<<< .merge_file_ke8EVE
+=======
 status: draft
+>>>>>>> .merge_file_FzHGif
 ---
 
 # 🤖 AI Agent Lessons Learned - 2026-03-13

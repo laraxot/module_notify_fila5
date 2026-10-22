@@ -232,9 +232,15 @@ Prima di creare una bulk action:
 
 ## Documentazione Correlata
 
+<<<<<<< .merge_file_m2wuRR
+- [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md) - Pattern per chiamare Actions con `app()`
+- [SendNotificationBulkAction](./send-notification-bulk-action.md) - Implementazione completa
+- [Geo Module Architectural Philosophy](../geo/docs/architectural-philosophy.md) - Filosofia architetturale modulare
+=======
 - [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md) - Pattern per chiamare Actions con `app()`
 - [SendNotificationBulkAction](./send-notification-bulk-action.md) - Implementazione completa
 - [Geo Module Architectural Philosophy](../../../../Geo/docs/architectural-philosophy.md) - Filosofia architetturale modulare
+>>>>>>> .merge_file_ulHJhB
 
 ---
 
@@ -287,7 +293,11 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
 ## dry-kiss-analysis-1
 
+<<<<<<< .merge_file_m2wuRR
+*Consolidated from: `dry-kiss-analysis-1.md`*
+=======
 *Consolidated from: `dry-kiss-analysis-modulo-user.md`*
+>>>>>>> .merge_file_ulHJhB
 
 title: "dry-kiss-analysis-2025-10-15"
 type: concept
@@ -297,23 +307,39 @@ updated: 2026-07-14
 qmd: "dry-kiss-analysis-2025-10-15 deprecated"
 status: deprecated
 related:
+<<<<<<< .merge_file_m2wuRR
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_ulHJhB
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< .merge_file_m2wuRR
+> Questo file è stato rinominato in [dry-kiss-analysis-1.md](dry-kiss-analysis-1.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+=======
 > Questo file è stato rinominato in [dry-kiss-analysis-1.md](dry-kiss-analysis-modulo-user.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> .merge_file_ulHJhB
 
 ---
 
 ## dry-kiss-analysis-2
 
+<<<<<<< .merge_file_m2wuRR
+*Consolidated from: `dry-kiss-analysis-2.md`*
+=======
 *Consolidated from: `dry-kiss-analysis.md`*
+>>>>>>> .merge_file_ulHJhB
 
 title: "DRY & KISS Analysis - Modulo Notify"
 type: concept
@@ -324,11 +350,19 @@ qmd: "dry-kiss-analysis-2025-10-15.deprecated dry & kiss analysis - modulo notif
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_m2wuRR
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_ulHJhB
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -427,11 +461,19 @@ qmd: "dry-kiss-analysis-master 🐄✨ dry & kiss master analysis - progetto com
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_m2wuRR
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_ulHJhB
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2136,11 +2178,19 @@ qmd: "drytraitmethods dry principle for trait methods"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_m2wuRR
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_ulHJhB
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

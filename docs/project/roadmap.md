@@ -16,7 +16,10 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
+<<<<<<< .merge_file_8t3RFQ
+=======
 status: draft
+>>>>>>> .merge_file_rqQbBt
 ---
 
 # ROADMAP: Notify Platform

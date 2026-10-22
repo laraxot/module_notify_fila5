@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "custom charts troubleshooting"
 issues: []
 discussions: []
+<<<<<<< .merge_file_sZ14Tv
+=======
 status: draft
+>>>>>>> .merge_file_xuVtXC
 ---
 
 # Custom Charts Troubleshooting Guide
@@ -18,6 +21,18 @@ status: draft
 **Complexity**: All Levels
 
 ---
+<<<<<<< .merge_file_sZ14Tv
+
+title: "custom charts troubleshooting"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom charts troubleshooting"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_xuVtXC
 ## Quick Reference
 
 | Error | Severity | Quick Fix |

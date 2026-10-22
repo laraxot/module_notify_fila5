@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "sms action factory analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_sgE1Dm
+=======
 status: draft
+>>>>>>> .merge_file_344wkf
 ---
 
 # Analisi: Sostituzione Match con Formula nel SmsActionFactory

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "config structure"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ia149L
+=======
 status: draft
+>>>>>>> .merge_file_juCfI3
 ---
 
 # Struttura di Configurazione nei Moduli SaluteOra

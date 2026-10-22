@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "errori comuni da evitare"
 issues: []
 discussions: []
+<<<<<<< .merge_file_tos7In
+=======
 status: draft
+>>>>>>> .merge_file_NPVFNf
 ---
 
 # Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>

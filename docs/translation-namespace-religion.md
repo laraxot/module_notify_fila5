@@ -326,9 +326,15 @@ Amen.
 
 ## Riferimenti
 
+<<<<<<< .merge_file_ZYJltm
+- [ticket.php (dominio corretto)](../../Modules/Fixcity/lang/it/ticket.php)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
+=======
 - [ticket.php (dominio corretto)](../../Fixcity/lang/it/ticket.php)
 - [Laravel Localization](https://laravel.com/docs/localization)
 - [No Hardcoded Language Religion](no-hardcoded-language-religion.md)
+>>>>>>> .merge_file_s6G4OD
 
 ---
 

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "dry kiss analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ZHqyuv
+=======
 status: draft
+>>>>>>> .merge_file_hKPGVn
 ---
 
 # DRY & KISS Analysis - Modulo Notify
@@ -44,5 +47,16 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 - 🔄 ServiceProvider: Auto-detect nome
 
 ---
+<<<<<<< .merge_file_ZHqyuv
+title: "dry kiss analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry kiss analysis"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_hKPGVn
 [DRY/KISS Global](../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)
 

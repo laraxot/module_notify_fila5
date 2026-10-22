@@ -7,7 +7,10 @@ title: Notify Module Philosophy
 type: manifesto
 tags: [notify, philosophy, architecture, async]
 created: 2026-09-06
+<<<<<<< .merge_file_VLG6CL
+=======
 status: draft
+>>>>>>> .merge_file_AzCTcr
 ---
 
 # Notify Module Philosophy

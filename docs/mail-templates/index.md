@@ -24,8 +24,13 @@ related:
 - [README Modulo Notify](../readme.md)
 - [Sistema Email](../database-mail-system.md)
 - [Template Email](../email_templates.md)
+<<<<<<< .merge_file_dkc0aX
+- [Documentazione Generale ](../../../../../../docs/readme.md)
+- [Documentazione Generale <nome progetto>](../../../../../../docs/readme.md)
+=======
 - [Documentazione Generale ](../../../../../docs/README.md)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+>>>>>>> .merge_file_mzJdpd
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura

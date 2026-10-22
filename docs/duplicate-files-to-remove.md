@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "duplicate files to remove"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UL3QUg
+=======
 status: draft
+>>>>>>> .merge_file_jftr6O
 ---
 
 # File Duplicati da Eliminare - Modulo Notify
@@ -114,6 +117,18 @@ git commit -m "fix: remove lowercase duplicate files (case sensitivity complianc
 ```
 
 ---
+<<<<<<< .merge_file_UL3QUg
+
+title: "duplicate files to remove"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "duplicate files to remove"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_jftr6O
 **Riferimenti**: 
 - [Xot File Naming Rules](../../xot/docs/file-naming-case-sensitivity.md)
 - [Bashscripts Location Policy](../../xot/docs/bashscripts-location-policy.md)

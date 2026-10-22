@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "dto structure"
 issues: []
 discussions: []
+<<<<<<< .merge_file_FpLRAr
+=======
 status: draft
+>>>>>>> .merge_file_UVLdml
 ---
 
 # Regole per la Struttura dei DTO

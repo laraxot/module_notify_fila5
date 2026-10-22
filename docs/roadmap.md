@@ -7,11 +7,16 @@ updated: 2026-09-26
 qmd: "roadmap"
 issues: []
 discussions: []
+<<<<<<< .merge_file_OcgCmQ
+---
+
+=======
 status: stale
 ---
 
 > Nota 2026-10-14 (docs-audit): E' la roadmap del 'FixCity Design System' (3 aprile 2026), non del modulo Notify. Contenuto non riscritto, verificare prima di usarlo.
 
+>>>>>>> .merge_file_CA1Eqx
 # 🗺️ FixCity Design System - Product Roadmap
 
 > **Central hub consolidating 355+ scattered planning files into unified vision**  
@@ -328,6 +333,25 @@ Level 3: Themes
 Each of the 18 modules has its own documentation:
 
 ### Foundation Modules
+<<<<<<< .merge_file_OcgCmQ
+- **[Xot Module](../laravel/Modules/Xot/docs/)** - Framework base & utilities
+- **[User Module](../laravel/Modules/User/docs/product-roadmap.md)** - Auth, profiles, roles
+- **[UI Module](../laravel/Modules/UI/docs/)** - Components, themes
+- **[Geo Module](../laravel/Modules/Geo/docs/PROJECT.md)** - Geolocation, maps
+- **[Lang Module](../laravel/Modules/Lang/docs/)** - Internationalization
+- **[Media Module](../laravel/Modules/Media/docs/)** - File management
+- **[Notify Module](../laravel/Modules/Notify/docs/)** - Notifications
+
+### Business Modules
+- **[FixCity Module](../laravel/Modules/Fixcity/docs/)** - Core ticketing system ⭐
+- **[Comment Module](../laravel/Modules/Comment/docs/)** - Discussion threads
+- **[Rating Module](../laravel/Modules/Rating/docs/)** - User feedback
+- **[Activity Module](../laravel/Modules/Activity/docs/product-roadmap.md)** - Audit trail
+- **[Blog Module](../laravel/Modules/Blog/docs/)** - Blog content
+- **[CMS Module](../laravel/Modules/Cms/docs/)** - Page management
+- **[GDPR Module](../laravel/Modules/Gdpr/docs/)** - Compliance
+- **[Tenant Module](../laravel/Modules/Tenant/docs/)** - Multi-tenancy
+=======
 - **[Xot Module](../../Xot/docs)** - Framework base & utilities
 - **[User Module](../../User/docs/product-roadmap.md)** - Auth, profiles, roles
 - **[UI Module](../../UI/docs)** - Components, themes
@@ -345,12 +369,18 @@ Each of the 18 modules has its own documentation:
 - **[CMS Module](../../Cms/docs)** - Page management
 - **[GDPR Module](../../Gdpr/docs)** - Compliance
 - **[Tenant Module](../../Tenant/docs)** - Multi-tenancy
+>>>>>>> .merge_file_CA1Eqx
 - **[Payment Module](../laravel/Modules/Payment/docs/)** - Billing (if applicable)
 - **[Reporting Module](../laravel/Modules/Reporting/docs/)** - Analytics
 
 ### Themes
+<<<<<<< .merge_file_OcgCmQ
+- **[Sixteen Theme](../laravel/Themes/Sixteen/docs/)** - Main AGID-compliant theme
+- **[TwentyOne Theme](../laravel/Themes/TwentyOne/docs/)** - Alternative theme
+=======
 - **[Sixteen Theme](../../../Themes/Sixteen/docs)** - Main AGID-compliant theme
 - **[TwentyOne Theme](../../../Themes/TwentyOne/docs)** - Alternative theme
+>>>>>>> .merge_file_CA1Eqx
 
 ---
 

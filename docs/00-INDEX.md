@@ -1,6 +1,14 @@
 ---
 title: "00 INDEX"
 type: note
+<<<<<<< .merge_file_VKmujK
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+=======
 status: active
 tags: [documentation]
 created: 2026-09-26
@@ -10,6 +18,7 @@ issues: []
 discussions: []
 related:
   - ./stories/docs-ingressi-notify.story.md
+>>>>>>> .merge_file_dpCBWi
 ---
 
 # 📚 **Indice Documentazione Modulo Notify**
@@ -104,6 +113,19 @@ issues: []
 discussions: []
 -->
 
+<<<<<<< .merge_file_VKmujK
+---
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+*Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
+
+=======
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
 
 ## Duplicati e ingressi non canonici
@@ -114,6 +136,7 @@ discussions: []
 - Wiki: [wiki/00-INDEX.md](./wiki/00-INDEX.md) e [wiki/00-index.md](./wiki/00-index.md) copiano questo indice con link relativi sbagliati; [wiki/INDEX.md](./wiki/INDEX.md) (8 KB) e [wiki/index.md](./wiki/index.md) (15 KB) sono copie dell'indice generico del progetto, con bersagli inesistenti: tutte e quattro marcate `stale`. Ingressi della wiki di Notify: [wiki/README.md](./wiki/README.md) (copia identica in `wiki/readme.md`), [wiki/log.md](./wiki/log.md) (registro cronologico), `wiki/concepts/` (30 file), `wiki/rules/`, `wiki/memories/`, `wiki/decisions/`.
 - Pagine marcate `stale` con la ragione in testa al file: [roadmap.md](./roadmap.md), [send-notification-bulk-action.md](./send-notification-bulk-action.md), [monitoring.md](./monitoring.md), [ponytail-audit-over-engineering.md](./ponytail-audit-over-engineering.md), [wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md](./wiki/decisions/sms-actions-consolidation-consolidamento-contracts-ponytail-audit.md).
 
+>>>>>>> .merge_file_dpCBWi
 ## Documentazione BMAD del modulo
 
 Aggiornata il 2026-10-07 dopo la risoluzione dei marker di merge nei docs (versioni composte, non scelte a un lato).

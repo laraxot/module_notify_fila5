@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "readme phase 1 execution"
 issues: []
 discussions: []
+<<<<<<< .merge_file_CwYgD8
+=======
 status: draft
+>>>>>>> .merge_file_wE7QoK
 ---
 
 # 📖 README - PHASE 1 EXECUTION
@@ -19,6 +22,18 @@ status: draft
 **Target**: segnalazioni-elenco → 90% HTML parity
 
 ---
+<<<<<<< .merge_file_CwYgD8
+
+title: "readme phase 1 execution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "readme phase 1 execution"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_wE7QoK
 ## 🎯 QUICK ORIENTATION
 
 **WHERE AM I?**

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "DESIGN CONVERSION ROADMAP"
 issues: []
 discussions: []
+<<<<<<< .merge_file_irhrgH
+=======
 status: draft
+>>>>>>> .merge_file_qOv6QC
 ---
 
 # Design Comuni Conversion Roadmap
@@ -17,6 +20,18 @@ status: draft
 **Target**: Make all 54 test pages visually identical to Design Comuni reference using Tailwind CSS + Alpine.js
 
 ---
+<<<<<<< .merge_file_irhrgH
+
+title: "DESIGN CONVERSION ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN CONVERSION ROADMAP"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_qOv6QC
 ## 📊 Executive Summary
 
 ### Current State
