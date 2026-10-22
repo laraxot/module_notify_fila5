@@ -2695,7 +2695,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/here_com.md` — here_com
 - `laravel/Modules/Geo/docs/homepage-architecture-overview.md` — Architettura Homepage - Panoramica Sistema
 - `laravel/Modules/Geo/docs/icon-design.md` — Geo Module - Icon Design
-- `laravel/Modules/Geo/docs/implementation-summary-1.md` — Riepilogo Implementazione AddressesField
+- `laravel/Modules/Geo/docs/implementation-summary.md` — Riepilogo Implementazione AddressesField
 - `laravel/Modules/Geo/docs/implementation-summary.md` — Riepilogo Implementazione AddressesField
 - `laravel/Modules/Geo/docs/implementation-sumy.md` — Riepilogo Implementazione AddressesField
 - `laravel/Modules/Geo/docs/implementation.md` — Riepilogo Implementazione AddressesField
@@ -8087,7 +8087,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/getting-started.md` — getting-started
 - `laravel/Modules/Xot/docs/consolidated/getting_started.md` — getting_started
 - `laravel/Modules/Xot/docs/consolidated/git-conflicts-resolution-2025-01-06.md` — git-conflicts-resolution-2025-01-06
-- `laravel/Modules/Xot/docs/consolidated/git_conflicts_resolution_2025_01_06.md` — git_conflicts_resolution_2025_01_06
+- `laravel/Modules/Xot/docs/consolidated/git_conflicts_resolution.md` — git_conflicts_resolution_2025_01_06
 - `laravel/Modules/Xot/docs/consolidated/guides/README.md` — README
 - `laravel/Modules/Xot/docs/consolidated/guides/directory-structure-guide.md` — directory-structure-guide
 - `laravel/Modules/Xot/docs/consolidated/guides/documentation-guidelines.md` — documentation-guidelines
@@ -8175,8 +8175,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-2025.md` — phpstan-fixes-2025
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio-2025.md` — phpstan-fixes-gennaio-2025
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio.md` — phpstan-fixes-gennaio
-- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary-2.md` — phpstan-fixes-summary-2
-- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary-3.md` — phpstan-fixes-summary-3
+- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md` — phpstan-fixes-summary-2
+- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md` — phpstan-fixes-summary-3
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md` — phpstan-fixes-summary
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes.md` — phpstan-fixes
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-generic-types.md` — phpstan-generic-types
@@ -9398,9 +9398,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-fixes-report.md` — PHPStan Fixes Report - Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-1.md` — Riassunto delle Correzioni per PHPStan Livello 9
-- `laravel/Modules/Xot/docs/phpstan-fixes-summary-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
+- `laravel/Modules/Xot/docs/phpstan-fixes-summary.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-agosto.md` — PHPStan Fixes Summary - 18 Agosto 2025
-- `laravel/Modules/Xot/docs/phpstan-fixes-summary-3.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
+- `laravel/Modules/Xot/docs/phpstan-fixes-summary.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-sumy-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
 - `laravel/Modules/Xot/docs/phpstan-fixes-sumy-3.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
