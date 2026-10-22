@@ -7,17 +7,22 @@ type: documentation
 status: active
 tags: [module, documentation]
 created: 2026-06-05
-updated: 2026-10-14
+updated: 2026-10-20
 related:
   - ./00-INDEX.md
   - ./stories/docs-ingressi-notify.story.md
+  - ./bmad/decision-log.md
+  - ./bmad/filament-blueprint.md
 ---
 
 # Documentation
 
+**Scopo:** Notify e' il motore di consegna multi-canale del monorepo: un owner di dominio decide *cosa* e *a chi*, Notify decide *come* (factory/driver, template, log, preferenze) senza duplicare transport in Fixcity o nel tema.
+
 Cartella `docs/` del modulo Notify. Indice operativo (directory canoniche, evidence, famiglie dei file della radice):
-[00-INDEX.md](./00-INDEX.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
+[00-INDEX.md](./00-INDEX.md). Hub BMAD: [bmad/decision-log.md](./bmad/decision-log.md), [bmad/filament-blueprint.md](./bmad/filament-blueprint.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
 `ls` e `grep` su `laravel/Modules/Notify`.
+
 
 Ownership: pacchetto `laraxot/module_notify_fila5` (repo git separato in `laravel/Modules/Notify`); provider
 `Modules\Notify\Providers\NotifyServiceProvider` e `Providers\Filament\AdminPanelProvider` (`module.json`), su base `Xot`.
