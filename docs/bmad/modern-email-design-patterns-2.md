@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -366,9 +366,9 @@ return [
 ## Riferimenti
 
 - [Responsive Email Templates](./responsive-email-templates.md)
-- [Email Best Practices](./mail-templates/email-best-practices-1.md)
+- [Email Best Practices](./mail-templates/email-best-practices.md)
 - [HTML Email Compatibility](./mail-templates/html-email-compatibility-1.md)
-- [Spatie Email Integration](./spatie-email-usage-guide-1.md)
+- [Spatie Email Integration](./spatie-email-usage-guide.md)
 - [Responsive Email Templates](./responsive-email-templates.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)

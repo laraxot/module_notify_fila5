@@ -30,7 +30,7 @@ Con il cast, `$log->status` e' l'enum: confrontare con `NotificationLogStatusEnu
 
 Aperto: i due enum hanno gli stessi valori; unificarli e' una decisione dell'utente.
 <<<<<<< .merge_file_qydoCb
-Dettagli: [story/dev 2026-10-06](../stories/2026-10-06-phpstan-cleanup-notify.dev.md).
+Dettagli: [story/dev 2026-10-06](../stories/phpstan-cleanup-notify-dev.dev.md).
 =======
 Dettagli: [story/dev 2026-10-06](../stories/phpstan-cleanup-notify.dev.md).
 >>>>>>> .merge_file_UodimG

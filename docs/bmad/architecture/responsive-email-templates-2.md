@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -203,8 +203,8 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 
 ## Riferimenti e Approfondimenti
 
-- [Guida ai Layout Email](./mail-layouts-guide-2.md)
-- [Email Best Practices](./mail-templates/email-best-practices-1.md)
+- [Guida ai Layout Email](./mail-layouts-guide.md)
+- [Email Best Practices](./mail-templates/email-best-practices.md)
 - [HTML Email Compatibility](./mail-templates/html-email-compatibility-1.md)
 - [MailPace Integration](./mail-templates/mailpace-templates-integration-1.md)
 - [Guida ai Layout Email](./mail-layouts-guide.md)

@@ -84,7 +84,7 @@ Consolidated from **63** individual files.
 
 ## sms-action-factory-analysis-1
 
-*Consolidated from: `sms-action-factory-analysis-1.md`*
+*Consolidated from: `sms-action-factory-analysis.md`*
 
 title: "Analisi: Sostituzione Match con Formula nel SmsActionFactory"
 type: concept
@@ -108,7 +108,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -344,7 +344,7 @@ Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entr
 
 ## sms-action-factory-resolution-1
 
-*Consolidated from: `sms-action-factory-resolution-1.md`*
+*Consolidated from: `sms-action-factory-resolution.md`*
 
 title: "Risoluzione dinamica vs match esplicito in SmsActionFactory"
 type: concept
@@ -368,7 +368,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -745,7 +745,7 @@ $result = $action->execute($smsData);
 
 ## sms-actions-2
 
-*Consolidated from: `sms-actions-2.md`*
+*Consolidated from: `sms-actions.md`*
 
 title: "Azioni SMS"
 type: concept
@@ -769,7 +769,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -931,7 +931,7 @@ $result = $action->execute($smsData);
 
 ## sms-best-practices-1
 
-*Consolidated from: `sms-best-practices-1.md`*
+*Consolidated from: `sms-best-practices.md`*
 
 title: "Best Practices per l'Invio SMS"
 type: concept
@@ -955,7 +955,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1471,7 +1471,7 @@ try {
 
 ## sms-channel-action-resolution-1
 
-*Consolidated from: `sms-channel-action-resolution-1.md`*
+*Consolidated from: `sms-channel-action-resolution.md`*
 
 title: "Dove posizionare la logica di risoluzione dell'action SMS?"
 type: concept
@@ -1495,7 +1495,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1846,7 +1846,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## sms-config-structure-2
 
-*Consolidated from: `sms-config-structure-2.md`*
+*Consolidated from: `sms-config-structure.md`*
 
 title: "Struttura della Configurazione SMS"
 type: concept
@@ -1870,7 +1870,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2026,8 +2026,8 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## Collegamenti
 
-- [Configurazione Netfun](./netfun-config-requirements-1.md)
-- [Provider SMS Supportati](./notifications/sms-provider-configuration-2.md)
+- [Configurazione Netfun](./netfun-config-requirements.md)
+- [Provider SMS Supportati](./notifications/sms-provider-configuration.md)
 
 ---
 
@@ -3208,7 +3208,7 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ## sms-driver-enum-translations-2
 
-*Consolidated from: `sms-driver-enum-translations-2.md`*
+*Consolidated from: `sms-driver-enum-translations.md`*
 
 title: "Traduzioni SmsDriverEnum - Modulo Notify"
 type: concept
@@ -3232,7 +3232,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3642,7 +3642,7 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ## sms-driver-selection-analysis-1
 
-*Consolidated from: `sms-driver-selection-analysis-1.md`*
+*Consolidated from: `sms-driver-selection-analysis.md`*
 
 title: "Analisi: Spostamento Logica Selezione Driver in SmsData"
 type: concept
@@ -3666,7 +3666,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3928,7 +3928,7 @@ Questa soluzione:
 
 ## sms-driver-selection-specific-analysis-1
 
-*Consolidated from: `sms-driver-selection-specific-analysis-1.md`*
+*Consolidated from: `sms-driver-selection-specific-analysis.md`*
 
 title: "Analisi Specifica: Validazione e Selezione Driver in SmsData"
 type: concept
@@ -3952,7 +3952,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4172,7 +4172,7 @@ Questa soluzione:
 
 ## sms-factor-data-implementation-1
 
-*Consolidated from: `sms-factor-data-implementation-1.md`*
+*Consolidated from: `sms-factor-data-implementation.md`*
 
 title: "SmsFactorData Implementation Summary"
 type: concept
@@ -4196,7 +4196,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4276,7 +4276,7 @@ public function __construct()
 
 **Files Created/Updated**:
 - `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
-- `/Modules/Notify/project_docs/sms-implementation-1.md`: Updated to include data class information
+- `/Modules/Notify/project_docs/sms-implementation.md`: Updated to include data class information
 
 **Documentation Includes**:
 - Complete class structure and properties
@@ -4379,7 +4379,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 - `/Modules/Notify/app/Datas/SMS/AgiletelecomData.php`: Similar implementation for Agiletelecom
 - `/Modules/Notify/app/Actions/SMS/SendSmsFactorSMSAction.php`: Refactored action class
 - `/Modules/Notify/config/sms.php`: SMS configuration file
-- `/Modules/Notify/project_docs/sms-implementation-1.md`: General SMS implementation documentation
+- `/Modules/Notify/project_docs/sms-implementation.md`: General SMS implementation documentation
 
 ## Conclusion
 
@@ -4773,7 +4773,7 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 
 ## sms-global-vs-specific-params-1
 
-*Consolidated from: `sms-global-vs-specific-params-1.md`*
+*Consolidated from: `sms-global-vs-specific-params.md`*
 
 title: "Parametri a Livello di Root vs Specifici per Provider nella Configurazione SMS"
 type: concept
@@ -4797,7 +4797,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4982,7 +4982,7 @@ Prima di modificare la configurazione SMS, verificare che:
 - [Configurazione Netfun](../../netfun-config-requirements.md)
 >>>>>>> .merge_file_8xVz4v
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
-- [Configurazione Netfun](./netfun-config-requirements-1.md)
+- [Configurazione Netfun](./netfun-config-requirements.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
 
 ---
@@ -5183,7 +5183,7 @@ Prima di modificare la configurazione SMS, verificare che:
 
 ## sms-implementation-1
 
-*Consolidated from: `sms-implementation-1.md`*
+*Consolidated from: `sms-implementation.md`*
 
 title: "Implementazione SMS in Laravel"
 type: concept
@@ -5207,7 +5207,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -6517,7 +6517,7 @@ class NetfunSMSTest extends TestCase
 
 ## sms-netfun-channel-2
 
-*Consolidated from: `sms-netfun-channel-2.md`*
+*Consolidated from: `sms-netfun-channel.md`*
 
 title: "Integrazione Netfun SMS Channel in Laravel"
 type: concept
@@ -6541,7 +6541,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -6556,7 +6556,7 @@ Questa guida spiega come integrare il provider Netfun come canale custom per l'i
 =======
 > **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun-config-requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 >>>>>>> .merge_file_8xVz4v
-> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun-config-requirements-1.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun-config-requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 
@@ -6655,7 +6655,7 @@ $response = Http::post($endpoint, $payload);
 =======
 **IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun-authentication-methods.md).
 >>>>>>> .merge_file_8xVz4v
-**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun-authentication-methods-1.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun-authentication-methods.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
 
@@ -7650,7 +7650,7 @@ Use:
 
 ## sms-provider-configuration-2
 
-*Consolidated from: `sms-provider-configuration-2.md`*
+*Consolidated from: `sms-provider-configuration.md`*
 
 title: "Configurazione Corretta dei Provider SMS"
 type: concept
@@ -7674,7 +7674,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -7933,7 +7933,7 @@ $token = config('services.netfun.token');
 
 ## sms-provider-configuration-best-practices-2
 
-*Consolidated from: `sms-provider-configuration-best-practices-2.md`*
+*Consolidated from: `sms-provider-configuration-best-practices.md`*
 
 title: "Best Practices per la Configurazione dei Provider SMS"
 type: concept
@@ -7957,7 +7957,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -8075,10 +8075,10 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./sms-provider-architecture-1.md)
-- [SMS Implementation](./sms-implementation-1.md)
-- [SMS Best Practices](./sms-best-practices-1.md)
-- [Netfun Authentication Methods](./netfun-authentication-methods-1.md)
+- [SMS Provider Architecture](./sms-provider-architecture.md)
+- [SMS Implementation](./sms-implementation.md)
+- [SMS Best Practices](./sms-best-practices.md)
+- [Netfun Authentication Methods](./netfun-authentication-methods.md)
 <<<<<<< .merge_file_hC8iNc
 - [SMS Provider Architecture](./sms-provider-architecture.md)
 - [SMS Implementation](./sms-implementation.md)
@@ -8680,7 +8680,7 @@ Log::debug('SMS Debug', [
 
 ## sms-troubleshooting-2
 
-*Consolidated from: `sms-troubleshooting-2.md`*
+*Consolidated from: `sms-troubleshooting.md`*
 
 title: "Troubleshooting SMS"
 type: concept
@@ -8704,7 +8704,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_8xVz4v
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

@@ -40,7 +40,7 @@ Portare **TUTTI i moduli del progetto** a PHPStan Level 10 con **0 errori**, inc
 ## 📚 Documentazione Consolidata
 
 ### Guide Principali
-- [Lezioni Apprese](./lezioni-apprese-2025-10-10.md) - Tutte le lezioni dalla correzione Activity + Blog
+- [Lezioni Apprese](./lezioni-apprese.md) - Tutte le lezioni dalla correzione Activity + Blog
 - [Pattern Comuni](./pattern-comuni.md) - Pattern riutilizzabili per tutti i moduli
 - [Regola Critica Test](../regole-critiche/phpstan-test-mai-escludere.md) - MAI escludere test
 
@@ -274,7 +274,7 @@ echo "✅ PHPStan OK - Procedo con commit"
 ## 📖 Riferimenti
 
 ### Documentazione Interna
-- [Lezioni Apprese](./lezioni-apprese-2025-10-10.md)
+- [Lezioni Apprese](./lezioni-apprese.md)
 - [Pattern Comuni](./pattern-comuni.md)
 - [Regola Critica Test](../regole-critiche/phpstan-test-mai-escludere.md)
 
@@ -297,7 +297,7 @@ echo "✅ PHPStan OK - Procedo con commit"
 - ✅ Best practices documentate
 
 ### Checklist Onboarding
-- [ ] Leggere [Lezioni Apprese](./lezioni-apprese-2025-10-10.md)
+- [ ] Leggere [Lezioni Apprese](./lezioni-apprese.md)
 - [ ] Studiare [Pattern Comuni](./pattern-comuni.md)
 - [ ] Eseguire PHPStan su modulo
 - [ ] Correggere errori seguendo pattern

@@ -55,7 +55,7 @@ Use:
 
 ## interface-naming-convention-2
 
-*Consolidated from: `interface-naming-convention-2.md`*
+*Consolidated from: `interface-naming-convention.md`*
 
 title: "Convenzione di Naming per le Interfacce"
 type: concept
@@ -79,7 +79,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_yISbaF
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -397,7 +397,7 @@ if (!($instance instanceof SmsActionContract)) {
 
 ## interface-structure-clarification-2
 
-*Consolidated from: `interface-structure-clarification-2.md`*
+*Consolidated from: `interface-structure-clarification.md`*
 
 title: "Chiarimento sulla Struttura delle Interfacce"
 type: concept
@@ -421,7 +421,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_yISbaF
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -881,7 +881,7 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## interfaces-implementation-guide-2
 
-*Consolidated from: `interfaces-implementation-guide-2.md`*
+*Consolidated from: `interfaces-implementation-guide.md`*
 
 title: "Guida all'Implementazione delle Interfacce nel Modulo Notify"
 type: guide
@@ -905,7 +905,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_yISbaF
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

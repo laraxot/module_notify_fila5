@@ -21,7 +21,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
 >>>>>>> .merge_file_vebT55
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

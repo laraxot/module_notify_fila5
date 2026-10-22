@@ -21,7 +21,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
 >>>>>>> .merge_file_IGWsV3
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -436,7 +436,7 @@ cd /var/www/_bases/<nome repitory>_mono/laravel
 ## 📂 DOCUMENTI IMPORTANTI DA LEGGERE
 
 ### Prima di Iniziare (5 minuti)
-1. **[Session Summary](./phpstan/session-summary-2025-10-01.md)** - Recap ieri
+1. **[Session Summary](./phpstan/session-summary.md)** - Recap ieri
 
 ### Durante il Lavoro (reference)
 <<<<<<< .merge_file_f8buA1
@@ -445,7 +445,7 @@ cd /var/www/_bases/<nome repitory>_mono/laravel
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status
-5. **[Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)** - Executive summary
+5. **[Analisi Completa](./ANALISI-COMPLETA.md)** - Executive summary
 =======
 2. **[Xot Roadmap](../../../roadmap-and-issues.md)** - Errori dettagliati Xot
 3. **[User Roadmap](../../../roadmap-and-issues.md)** - Errori dettagliati User

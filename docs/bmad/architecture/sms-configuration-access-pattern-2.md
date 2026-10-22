@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -78,5 +78,5 @@ Per ogni azione SMS, verificare che:
 - [Requisiti di Configurazione Netfun](./netfun-config-requirements.md)
 - [Pattern Factory per SMS](./sms-action-factory-analysis.md)
 - [Struttura della Configurazione SMS](./sms-config-structure.md)
-- [Requisiti di Configurazione Netfun](./netfun-config-requirements-1.md)
-- [Pattern Factory per SMS](./sms-action-factory-analysis-1.md)
+- [Requisiti di Configurazione Netfun](./netfun-config-requirements.md)
+- [Pattern Factory per SMS](./sms-action-factory-analysis.md)

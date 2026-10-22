@@ -14,7 +14,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 =======
@@ -23,7 +23,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
@@ -254,7 +254,7 @@ Xot/docs/README.md
 ### 3.4 Duplicate Documentation Patterns
 
 **Same pattern documented multiple times:**
-- `naming-conventions.md` / `naming-conventions-2.md` / `naming-rules.md`
+- `naming-conventions.md` / `naming-conventions.md` / `naming-rules.md`
 - `phpstan-fixes.md` / `phpstan-fixes-.md` / `phpstan-fixes-gennaio.md`
 - `conflict-resolution.md` appears in 10+ modules with identical content
 

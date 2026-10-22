@@ -133,7 +133,7 @@ fixstructuretest.pest.php
 ### Root Progetto
 - `/docs/README.md` - Entry point aggiornato
 - `/docs/phpstan/README.md` - Indice PHPStan
-- `/docs/phpstan/lezioni-apprese-2025-10-10.md` - Tutte le lezioni
+- `/docs/phpstan/lezioni-apprese.md` - Tutte le lezioni
 - `/docs/phpstan/pattern-comuni.md` - Pattern riutilizzabili
 - `/docs/phpstan/riepilogo-generale.md` - Status completo
 - `/docs/phpstan/xot-module-achievement.md` - Achievement Xot
@@ -256,7 +256,7 @@ fixstructuretest.pest.php
 ```
 /docs/README.md
     ├── phpstan/README.md (Indice)
-    │   ├── lezioni-apprese-2025-10-10.md
+    │   ├── lezioni-apprese.md
     │   ├── pattern-comuni.md
     │   ├── riepilogo-generale.md
     │   └── xot-module-achievement.md

@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -171,7 +171,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
 - [Modelli di Email](./email-templates.md)
-- [Implementazione SMS](./sms-implementation-1.md)
+- [Implementazione SMS](./sms-implementation.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 - [Modulo di Notifica](./INDEX.md)
 - [Modulo di Notifica](./index.md)

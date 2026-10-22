@@ -49,7 +49,7 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 
 #### Files Fixed
 - [x] `laravel/Modules/Blog/docs/structure.md`
-- [x] `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md`
+- [x] `laravel/Modules/Blog/docs/CHANGELOG-blog-module-ottobre.md`
 - [x] `laravel/Modules/Blog/docs/models/README.md`
 - [x] `laravel/Modules/Blog/docs/models/transaction-removal.md`
 - [x] `AGENTS.md` (added naming convention rule)

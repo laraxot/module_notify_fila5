@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -69,7 +69,7 @@ docs/
 │   ├── notification_system.md
 │   ├── getting_started.md
 │   ├── advanced_topics.md
-│   └── performance-optimization-2.md
+│   └── performance-optimization-analisi-ottimizzazione.md
 ├── channels/
 │   ├── email-notifications.md
 │   ├── sms_notifications.md

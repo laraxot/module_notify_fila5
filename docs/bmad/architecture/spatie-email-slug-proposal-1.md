@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -267,7 +267,7 @@ Nonostante i potenziali svantaggi, i benefici superano i costi di implementazion
 - [Sistema di Template Email](./email-templates.md)
 - [Email per i Dottori](./doctor-emails.md)
 - [Sistema di Template Email](./email-templates.md)
-- [Email per i Dottori](./doctor-emails-1.md)
+- [Email per i Dottori](./doctor-emails.md)
 - [Filament Resources](./filament-resources.md)
 
 ## Implementazione Migrazione

@@ -77,7 +77,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FGVJUQ
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -619,7 +619,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ## tailwind-best-practices-2
 
-*Consolidated from: `tailwind-best-practices-2.md`*
+*Consolidated from: `tailwind-best-practices.md`*
 
 title: "Best Practices Implementazione Tailwind CSS nel Modulo Notify"
 type: concept
@@ -643,7 +643,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FGVJUQ
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1287,7 +1287,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ## tailwind-blade-components-1
 
-*Consolidated from: `tailwind-blade-components-1.md`*
+*Consolidated from: `tailwind-blade-components.md`*
 
 title: "Esempi Pratici: Blade Components Tailwind per <nome progetto>"
 type: concept
@@ -1311,7 +1311,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FGVJUQ
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1986,7 +1986,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FGVJUQ
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2232,7 +2232,7 @@ Main Content
 
 ## tailwind-css-webcrunch-1
 
-*Consolidated from: `tailwind-css-webcrunch-1.md`*
+*Consolidated from: `tailwind-css-webcrunch.md`*
 
 title: "Tailwind CSS: Approfondimento Collezione Webcrunch"
 type: concept
@@ -2256,7 +2256,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FGVJUQ
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2333,7 +2333,7 @@ La collezione "Tailwind CSS" di Webcrunch raccoglie tutorial, guide pratiche e a
 
 ## tailwind-css-webcrunch-approfondimento-1
 
-*Consolidated from: `tailwind-css-webcrunch-approfondimento-1.md`*
+*Consolidated from: `tailwind-css-webcrunch-approfondimento.md`*
 
 title: "Approfondimento Completo: Tailwind CSS su Webcrunch"
 type: concept
@@ -2357,7 +2357,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FGVJUQ
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3649,7 +3649,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ## tailwind-implementation-2
 
-*Consolidated from: `tailwind-implementation-2.md`*
+*Consolidated from: `tailwind-implementation.md`*
 
 title: "Implementazione Tailwind CSS nel Modulo Notify"
 type: concept
@@ -3673,7 +3673,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FGVJUQ
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4933,7 +4933,7 @@ class NotificationListTest extends TestCase
 
 ## tailwind-plugin-guide-1
 
-*Consolidated from: `tailwind-plugin-guide-1.md`*
+*Consolidated from: `tailwind-plugin-guide.md`*
 
 title: "Guida: Creazione di Plugin Tailwind Custom per <nome progetto>"
 type: guide
@@ -4957,7 +4957,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FGVJUQ
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

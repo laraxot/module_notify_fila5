@@ -29,7 +29,7 @@ Consolidated from **8** individual files.
 
 ## mail-layouts-1
 
-*Consolidated from: `mail-layouts-1.md`*
+*Consolidated from: `mail-layouts.md`*
 
 title: "Layout delle Email"
 type: concept
@@ -53,7 +53,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_xIBe1b
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -278,7 +278,7 @@ I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templa
 
 ## mail-layouts-guide-2
 
-*Consolidated from: `mail-layouts-guide-2.md`*
+*Consolidated from: `mail-layouts-guide.md`*
 
 title: "Guida ai Layout Email nel Modulo Notify"
 type: guide
@@ -302,7 +302,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_xIBe1b
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -457,8 +457,8 @@ I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templa
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
 >>>>>>> .merge_file_xIBe1b
-- [Spatie Email Documentation](./spatie-email-usage-guide-1.md)
-- [Email Best Practices](./mail-templates/email-best-practices-1.md)
+- [Spatie Email Documentation](./spatie-email-usage-guide.md)
+- [Email Best Practices](./mail-templates/email-best-practices.md)
 - [HTML Email Compatibility Guide](./mail-templates/html-email-compatibility-1.md)
 ---
 

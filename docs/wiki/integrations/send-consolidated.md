@@ -41,7 +41,7 @@ Consolidated from **20** individual files.
 
 ## send-email-fix-1
 
-*Consolidated from: `send-email-fix-1.md`*
+*Consolidated from: `send-email-fix.md`*
 
 title: "Guida alla Correzione di SendEmail.php"
 type: concept
@@ -65,7 +65,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_iRVFGG
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -865,7 +865,7 @@ Ogni campo ora ha la struttura espansa completa:
 
 ## send-email-translation-fix-2
 
-*Consolidated from: `send-email-translation-fix-2.md`*
+*Consolidated from: `send-email-translation-fix.md`*
 
 title: "Fix Traduzioni File send_email.php - Modulo Notify"
 type: concept
@@ -889,7 +889,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_iRVFGG
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1986,7 +1986,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ## send-email-translation-improvement-2
 
-*Consolidated from: `send-email-translation-improvement-2.md`*
+*Consolidated from: `send-email-translation-improvement.md`*
 
 title: "Miglioramento File Traduzione send_email.php"
 type: concept
@@ -2010,7 +2010,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_iRVFGG
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2313,9 +2313,9 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ### File Modificati
 - `laravel/Modules/Notify/lang/it/send_email.php` - File principale migliorato
-- `laravel/Modules/Notify/docs/send-email-translation-improvement-2.md` - Questa documentazione
-- `laravel/Modules/Notify/project_docs/send-email-translation-improvement-2.md` - Questa documentazione
-- `laravel/Modules/Notify/docs/send-email-translation-improvement-2.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send-email-translation-improvement-2.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send-email-translation-improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send-email-translation-improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send-email-translation-improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send-email-translation-improvement.md` - Questa documentazione
 
 ## 📝 Note di Implementazione
 
@@ -4540,7 +4540,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ## sendemail-troubleshooting-1
 
-*Consolidated from: `sendemail-troubleshooting-1.md`*
+*Consolidated from: `sendemail-troubleshooting.md`*
 
 title: "Troubleshooting SendEmail"
 type: concept
@@ -4564,7 +4564,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_iRVFGG
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

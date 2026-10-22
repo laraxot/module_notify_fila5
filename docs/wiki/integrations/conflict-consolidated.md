@@ -36,7 +36,7 @@ Consolidated from **15** individual files.
 
 ## conflict-resolution-recordnotification-1
 
-*Consolidated from: `conflict-resolution-recordnotification-1.md`*
+*Consolidated from: `conflict-resolution-recordnotification.md`*
 
 title: "Risoluzione Conflitti RecordNotification.php"
 type: concept
@@ -60,7 +60,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2HcHy7
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -144,13 +144,13 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
-- [SpatieEmail Integration](spatie-email-usage-guide-1.md)
+- [SpatieEmail Integration](spatie-email-usage-guide.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
 - [Notify Module Documentation](readme.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
-- [SpatieEmail Integration](spatie-email-usage-guide-1.md)
+- [SpatieEmail Integration](spatie-email-usage-guide.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -336,7 +336,7 @@ Verificare che:
 
 ## conflict-resolution-sendsmspage-1
 
-*Consolidated from: `conflict-resolution-sendsmspage-1.md`*
+*Consolidated from: `conflict-resolution-sendsmspage.md`*
 
 title: "Risoluzione Conflitti SendSmsPage.php"
 type: concept
@@ -360,7 +360,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2HcHy7
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -431,13 +431,13 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [SMS Testing Guide](sms/testing.md)
-- [MailTemplate Integration](mail-templates-structure-1.md)
+- [MailTemplate Integration](mail-templates-structure.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
 - [Notify Module Documentation](readme.md)
 - [SMS Testing Guide](sms/testing.md)
-- [MailTemplate Integration](mail-templates-structure-1.md)
+- [MailTemplate Integration](mail-templates-structure.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -599,7 +599,7 @@ Verificare che:
 
 ## conflict-resolution-smschannel-1
 
-*Consolidated from: `conflict-resolution-smschannel-1.md`*
+*Consolidated from: `conflict-resolution-smschannel.md`*
 
 title: "Risoluzione Conflitti SmsChannel.php"
 type: concept
@@ -623,7 +623,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2HcHy7
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -681,12 +681,12 @@ return $action->execute($smsData);
 
 ## Collegamenti
 - [Notify Module Documentation](README.md)
-- [SMS Channel Architecture](sms-channel-action-resolution-1.md)
+- [SMS Channel Architecture](sms-channel-action-resolution.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
 - [Notify Module Documentation](readme.md)
-- [SMS Channel Architecture](sms-channel-action-resolution-1.md)
+- [SMS Channel Architecture](sms-channel-action-resolution.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
@@ -822,7 +822,7 @@ return $action->execute($smsData);
 
 ## conflict-resolution-smsdriverenum-1
 
-*Consolidated from: `conflict-resolution-smsdriverenum-1.md`*
+*Consolidated from: `conflict-resolution-smsdriverenum.md`*
 
 title: "Risoluzione Conflitto SmsDriverEnum"
 type: concept
@@ -846,7 +846,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_2HcHy7
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

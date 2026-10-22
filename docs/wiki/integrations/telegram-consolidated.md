@@ -573,7 +573,7 @@ class TelegramTest extends TestCase
 
 ## telegram-channel-2
 
-*Consolidated from: `telegram-channel-2.md`*
+*Consolidated from: `telegram-channel.md`*
 
 title: "Implementazione Canale Telegram"
 type: concept
@@ -597,7 +597,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_j9OzvG
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1680,7 +1680,7 @@ TELEGRAM_PARSE_MODE=HTML
 
 ## telegram-integration-2
 
-*Consolidated from: `telegram-integration-2.md`*
+*Consolidated from: `telegram-integration.md`*
 
 title: "Integrazione Telegram"
 type: concept
@@ -1704,7 +1704,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_j9OzvG
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2074,7 +2074,7 @@ TELEGRAM_PARSE_MODE=HTML
 
 ## telegram-sending-standard-1
 
-*Consolidated from: `telegram-sending-standard-1.md`*
+*Consolidated from: `telegram-sending-standard.md`*
 
 title: "Standard per Invio Messaggi Telegram nel Modulo Notify"
 type: rule
@@ -2098,7 +2098,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_j9OzvG
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

@@ -14,7 +14,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 =======
@@ -23,7 +23,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
@@ -149,7 +149,7 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 **Archive** (move to `docs/archive/roadmaps/`):
 - [ ] `master-roadmap-2025.md`
 - [ ] `project-roadmap.md`
-- [ ] `project-roadmap-1.md`
+- [ ] `project-roadmap.md`
 - [ ] `roadmap.md`
 - [ ] `roadmap-project.md`
 - [ ] `roadmap-status-summary.md`

@@ -353,8 +353,8 @@ php artisan test --compact
 ### Main Documents
 1. `docs/PHPSTAN_SOLUTIONS_FROM_BASELARAVERPIZZA.md` - Complete solutions from base_laravelpizza
 2. `docs/LOGGING_OPTIMIZATION_SUMMARY_2026-03-02.md` - Logging performance analysis
-3. `docs/PHPSTAN_PROGRESS_UPDATE_2026-03-02.md` - Progress tracking
-4. `docs/PHPSTAN_SESSION_SUMMARY_2026-03-02.md` - Initial session summary
+3. `docs/PHPSTAN_PROGRESS_UPDATE.md` - Progress tracking
+4. `docs/PHPSTAN_SESSION_SUMMARY.md` - Initial session summary
 
 ### Module-Specific Documents
 5. `laravel/Modules/Xot/docs/LOGGING_BEST_PRACTICES_2026-03-02.md` - Logging best practices

@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -150,7 +150,7 @@ Per una comprensione completa, consultare anche:
 - [Spatie Email Usage Guide](./spatie-email-usage-guide.md) - Come utilizzare SpatieEmail con i template
 - [Struttura della Migrazione](./mail-templates/migration-structure-1.md) - Dettagli sulla struttura di migrazione
 - [Implementazione del Campo Slug](./mail-templates/slug-field-implementation-1.md) - Guida completa all'implementazione e utilizzo del campo slug
-- [Spatie Email Usage Guide](./spatie-email-usage-guide-1.md) - Come utilizzare SpatieEmail con i template
+- [Spatie Email Usage Guide](./spatie-email-usage-guide.md) - Come utilizzare SpatieEmail con i template
 
 ## Vantaggi del Pattern XotBaseMigration
 

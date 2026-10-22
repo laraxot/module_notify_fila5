@@ -55,7 +55,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_YEuBqP
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -540,7 +540,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_YEuBqP
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -566,7 +566,7 @@ related:
 ### Documentazione
 - `docs/README.md` - Documentazione principale
 - `docs/architecture.md` - Architettura del sistema notifiche
-- `docs/notification-channels-implementation-2.md` - Implementazione canali
+- `docs/notification-channels-implementation.md` - Implementazione canali
 - `docs/email-templates.md` - Template email
 
 ## Modifiche Applicate
@@ -617,7 +617,7 @@ Tutti i file risolti rispettano:
 =======
 - [Email Templates](../../email-templates.md)
 >>>>>>> .merge_file_YEuBqP
-- [Notification Channels](./notification-channels-implementation-2.md)
+- [Notification Channels](./notification-channels-implementation.md)
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*
@@ -1124,7 +1124,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_YEuBqP
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1282,7 +1282,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_YEuBqP
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

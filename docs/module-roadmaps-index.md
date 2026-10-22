@@ -21,7 +21,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_hAst2q
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -344,7 +344,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 ## 📚 Related Documentation
 
 - [Laraxot Architecture Rules](./laravel/Modules/Xot/docs/laraxot-architecture-rules.md)
-- [Project Roadmap](./project-roadmap-1.md)
+- [Project Roadmap](./project-roadmap.md)
 - [AGENTS.md](./AGENTS.md)
 - [agents.md](./AGENTS.md)
 - [Getting Started](./quick-start.md)

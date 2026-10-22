@@ -21,7 +21,7 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
 >>>>>>> .merge_file_UGuHrW
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -54,7 +54,7 @@ related:
 │   └── troubleshooting/          # Bug fixes, error resolutions
 ├── on-demand-pattern.md          # 🌟 QUESTO FILE — Pattern on-demand
 ├── qmd-setup.md                  # Configurazione QMD
-├── performance-optimization-1.md    # Metriche e best practice
+├── performance-optimization-module-notify.md    # Metriche e best practice
 ├── architecture.md               # (opzionale) Architettura modulo
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`

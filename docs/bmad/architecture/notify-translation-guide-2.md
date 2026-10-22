@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -189,11 +189,11 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification-2.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules-1.md)
-- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
-- [Standard per le Traduzioni ](./translation-standards-2.md)
+- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
+- [Standard per le Traduzioni ](./translation-standards.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)

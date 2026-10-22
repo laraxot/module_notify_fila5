@@ -774,7 +774,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FyAJ8c
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1171,7 +1171,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FyAJ8c
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1482,7 +1482,7 @@ L'utilizzo di Queueable Actions e componenti Blade di Filament garantisce:
 
 ## notification-behavior-1
 
-*Consolidated from: `notification-behavior-1.md`*
+*Consolidated from: `notification-behavior.md`*
 
 title: "Notification System Behavior"
 type: concept
@@ -1506,7 +1506,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FyAJ8c
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2009,7 +2009,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## notification-channels-implementation-2
 
-*Consolidated from: `notification-channels-implementation-2.md`*
+*Consolidated from: `notification-channels-implementation.md`*
 
 title: "Implementazione dei Canali di Notifica"
 type: concept
@@ -2033,7 +2033,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FyAJ8c
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2195,7 +2195,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 =======
 - [Modelli di Email](../../email-templates.md)
 >>>>>>> .merge_file_FyAJ8c
-- [Implementazione SMS](./sms-implementation-1.md)
+- [Implementazione SMS](./sms-implementation.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
@@ -2379,7 +2379,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## notification-errors-1
 
-*Consolidated from: `notification-errors-1.md`*
+*Consolidated from: `notification-errors.md`*
 
 title: "Errori Comuni nelle Notifiche"
 type: concept
@@ -2403,7 +2403,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FyAJ8c
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2975,7 +2975,7 @@ Per implementazioni specifiche, vedere i documenti:
 
 ## notification-providers-guide-2
 
-*Consolidated from: `notification-providers-guide-2.md`*
+*Consolidated from: `notification-providers-guide.md`*
 
 title: "Guida Completa ai Provider di Notifiche"
 type: guide
@@ -2999,7 +2999,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FyAJ8c
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4668,7 +4668,7 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## notify-translation-guide-2
 
-*Consolidated from: `notify-translation-guide-2.md`*
+*Consolidated from: `notify-translation-guide.md`*
 
 title: "Guida alle Traduzioni nel Modulo Notify"
 type: guide
@@ -4692,7 +4692,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_FyAJ8c
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4868,15 +4868,15 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification-2.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
 <<<<<<< .merge_file_mtNb04
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules-1.md)
 =======
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules.md)
 >>>>>>> .merge_file_FyAJ8c
-- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
-- [Standard per le Traduzioni ](./translation-standards-2.md)
+- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
+- [Standard per le Traduzioni ](./translation-standards.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
 <<<<<<< .merge_file_mtNb04

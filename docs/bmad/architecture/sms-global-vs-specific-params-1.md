@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -194,7 +194,7 @@ Prima di modificare la configurazione SMS, verificare che:
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
 - [Configurazione Netfun](./netfun-config-requirements.md)
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
-- [Configurazione Netfun](./netfun-config-requirements-1.md)
+- [Configurazione Netfun](./netfun-config-requirements.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
 
 ---

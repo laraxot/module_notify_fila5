@@ -57,7 +57,7 @@ Use:
 
 ## database-mail-2
 
-*Consolidated from: `database-mail-2.md`*
+*Consolidated from: `database-mail.md`*
 
 title: "Database Mail System"
 type: concept
@@ -81,7 +81,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g9I0CB
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -536,7 +536,7 @@ Cordiali saluti,<br>
 
 ## database-mail-enhancement-1
 
-*Consolidated from: `database-mail-enhancement-1.md`*
+*Consolidated from: `database-mail-enhancement.md`*
 
 title: "Database Mail Enhancement (Open Source)"
 type: concept
@@ -560,7 +560,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g9I0CB
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -787,7 +787,7 @@ Use:
 
 ## database-mail-queue-2
 
-*Consolidated from: `database-mail-queue-2.md`*
+*Consolidated from: `database-mail-queue.md`*
 
 title: "Sistema di Code per Email - il progetto"
 type: concept
@@ -811,7 +811,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g9I0CB
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2774,7 +2774,7 @@ php artisan notify:mail-template:test
 
 ## database-mail-system-2
 
-*Consolidated from: `database-mail-system-2.md`*
+*Consolidated from: `database-mail-system.md`*
 
 title: "Sistema di Gestione Email Basato su Database - il progetto"
 type: concept
@@ -2798,7 +2798,7 @@ related:
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
 >>>>>>> .merge_file_g9I0CB
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

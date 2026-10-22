@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -85,8 +85,8 @@ public function send($notifiable, Notification $notification)
 
 ## Collegamenti
 
-- [Documentazione Netfun SMS Channel](./sms-netfun-channel-2.md)
-- [Requisiti di Configurazione Netfun](./netfun-config-requirements-1.md)
+- [Documentazione Netfun SMS Channel](./sms-netfun-channel.md)
+- [Requisiti di Configurazione Netfun](./netfun-config-requirements.md)
 
 ---
 

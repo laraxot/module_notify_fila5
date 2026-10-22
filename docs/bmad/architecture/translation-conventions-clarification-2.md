@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -109,5 +109,5 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 ## Riferimenti
 
 - [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules-1.md)
-- [Convenzioni Specifiche del Modulo Notify](./translation-conventions-2.md)
-- [Regole per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
+- [Convenzioni Specifiche del Modulo Notify](./translation-conventions.md)
+- [Regole per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)

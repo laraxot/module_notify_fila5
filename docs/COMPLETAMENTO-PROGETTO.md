@@ -279,18 +279,18 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 ### Root Docs
 1. ✅ [LEGGI-QUI-DOMANI.md](./LEGGI-QUI-DOMANI.md) - Piano giornaliero
 <<<<<<< .merge_file_B5NPjO
-2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./ANALISI-COMPLETA-2025-10-01.md) - Executive summary
+2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./ANALISI-COMPLETA.md) - Executive summary
 =======
 2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./analisi-completa-ottobre-data.md) - Executive summary
 >>>>>>> .merge_file_oROWFw
 3. ✅ [roadmap-master-index.md](./roadmap-master-index.md) - Master index
 4. ✅ [project-analysis-and-roadmap.md](./project-analysis-and-roadmap.md) - Business view
-5. ✅ [phpstan/session-summary-2025-10-01.md](./phpstan/session-summary-2025-10-01.md)
-6. ✅ [phpstan/final-report-session-2025-10-01.md](./phpstan/final-report-session-2025-10-01.md)
+5. ✅ [phpstan/session-summary.md](./phpstan/session-summary.md)
+6. ✅ [phpstan/final-report-session.md](./phpstan/final-report-session.md)
 7. ✅ [phpstan/filament-v4-fixes-session.md](./phpstan/filament-v4-fixes-session.md)
 8. ✅ [phpstan/phpstan.md](./phpstan/phpstan.md) - Aggiornato
 <<<<<<< .merge_file_B5NPjO
-9. ✅ [QUESTO DOCUMENTO](./COMPLETAMENTO-PROGETTO-2025-10-01.md)
+9. ✅ [QUESTO DOCUMENTO](./COMPLETAMENTO-PROGETTO.md)
 
 ### Module Roadmaps (9 dettagliate)
 10. ✅ [Xot/docs/roadmap-and-issues.md](../Modules/Xot/docs/roadmap-and-issues.md)
@@ -606,15 +606,15 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 ### Start Here
 - [🌅 Piano Domani](./LEGGI-QUI-DOMANI.md) - Anche se già completato!
 <<<<<<< .merge_file_B5NPjO
-- [📊 Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md) - Executive view
+- [📊 Analisi Completa](./ANALISI-COMPLETA.md) - Executive view
 =======
 - [📊 Analisi Completa](./analisi-completa-ottobre-data.md) - Executive view
 >>>>>>> .merge_file_oROWFw
 - [🗺️ Master Roadmap](./roadmap-master-index.md) - Future planning
 
 ### Technical Docs
-- [PHPStan Session](./phpstan/session-summary-2025-10-01.md)
-- [Final Report](./phpstan/final-report-session-2025-10-01.md)
+- [PHPStan Session](./phpstan/session-summary.md)
+- [Final Report](./phpstan/final-report-session.md)
 - [Fixes Log](./phpstan/filament-v4-fixes-session.md)
 
 ---

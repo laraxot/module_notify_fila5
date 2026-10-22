@@ -13,7 +13,7 @@ related:
   - "./00-index.md"
   - "./absolute-completion-100.md"
   - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -67,12 +67,12 @@ related:
 
 1. **Standard di Traduzione**
    - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules-1.md)
-   - [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices-1.md)
+   - [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
-   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules-1.md)
-   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide-1.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
    - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
    - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 
