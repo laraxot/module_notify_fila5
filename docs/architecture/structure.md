@@ -56,8 +56,13 @@ Il file `routes/web.php` del modulo Notify **deve essere vuoto**:
 > - Mantiene il modulo riutilizzabile e conforme alle best practice
 
 **Collegamenti:**
+<<<<<<< .merge_file_v4ubCm
+- [database-mail.md](database-mail.md#regola-sulle-rotte)
+- [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+=======
 - [database-mail.md](../database-mail.md#regola-sulle-rotte)
 - [grapesjs-filament.md](../grapesjs-filament.md#regola-sulle-rotte)
+>>>>>>> .merge_file_5G10yh
 
 ## Struttura delle directory
 
@@ -446,8 +451,13 @@ tests/Unit
 ---
 
 ## Collegamenti correlati
+<<<<<<< .merge_file_v4ubCm
+- [Regola sulle rotte vuote in database-mail.md](database-mail.md#regola-sulle-rotte)
+- [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+=======
 - [Regola sulle rotte vuote in database-mail.md](../database-mail.md#regola-sulle-rotte)
 - [Regola sulle rotte vuote in grapesjs-filament.md](../grapesjs-filament.md#regola-sulle-rotte)
+>>>>>>> .merge_file_5G10yh
 ### Versione HEAD
 
 
@@ -456,6 +466,23 @@ tests/Unit
 
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
+<<<<<<< .merge_file_v4ubCm
+* [structure.md](../../../gdpr/docs/structure.md)
+* [structure.md](../../../notify/docs/structure.md)
+* [structure.md](../../../xot/docs/structure.md)
+* [structure.md](../../../xot/docs/base/structure.md)
+* [structure.md](../../../xot/docs/config/structure.md)
+* [structure.md](../../../user/docs/structure.md)
+* [structure.md](../../../ui/docs/structure.md)
+* [structure.md](../../../lang/docs/structure.md)
+* [structure.md](../../../job/docs/structure.md)
+* [structure.md](../../../media/docs/structure.md)
+* [structure.md](../../../tenant/docs/structure.md)
+* [structure.md](../../../activity/docs/structure.md)
+* [structure.md](../../../cms/docs/structure.md)
+* [structure.md](../../../cms/docs/themes/structure.md)
+* [structure.md](../../../cms/docs/components/structure.md)
+=======
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../structure.md)
 * [structure.md](../../../xot/docs/structure.md)
@@ -471,6 +498,7 @@ tests/Unit
 * [structure.md](../../../cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
+>>>>>>> .merge_file_5G10yh
 
 
 ---

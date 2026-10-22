@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "prd"
 issues: []
 discussions: []
+<<<<<<< .merge_file_BkFLHA
+=======
 status: draft
+>>>>>>> .merge_file_Y8NRFJ
 ---
 
 # PRD: Notify Module
@@ -24,9 +27,25 @@ Specialized logic for Notify needs a dedicated, type-safe Module to ensure maint
 - **Goal 1:** 100% PHPStan L10 compliance.
 - **Goal 2:** Seamless integration with XotBase.
 ---
+<<<<<<< .merge_file_BkFLHA
+
+title: "prd"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "prd"
+issues: []
+discussions: []
 <!-- Merged from PRD.md, which collided with this file on case-insensitive filesystems. -->
 
 ---
+title: "Product Requirements Document (PRD) - Notify Module"
+=======
+<!-- Merged from PRD.md, which collided with this file on case-insensitive filesystems. -->
+
+---
+>>>>>>> .merge_file_Y8NRFJ
 module: "Notify"
 type: concept
 tags: [PRD, notify]

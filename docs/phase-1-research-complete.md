@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "phase 1 research complete"
 issues: []
 discussions: []
+<<<<<<< .merge_file_gVS1Ap
+=======
 status: draft
+>>>>>>> .merge_file_1y5DT6
 ---
 
 # ✅ PHASE 1 - RICERCA COMPLETATA
@@ -17,6 +20,18 @@ status: draft
 **Status**: 🟢 **RICERCA E PIANIFICAZIONE COMPLETE** → Pronto per ESECUZIONE
 
 ---
+<<<<<<< .merge_file_gVS1Ap
+
+title: "phase 1 research complete"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phase 1 research complete"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_1y5DT6
 ## 📊 CONSUNTIVO LAVORO SVOLTO
 
 ### Documenti Creati (5 principali)

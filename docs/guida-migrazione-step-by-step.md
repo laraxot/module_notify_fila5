@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "guida migrazione step by step"
 issues: []
 discussions: []
+<<<<<<< .merge_file_hsrZfj
+=======
 status: draft
+>>>>>>> .merge_file_VtEqZ5
 ---
 
 # Guida Migrazione Step-by-Step: Modulo Notify - Filament 4

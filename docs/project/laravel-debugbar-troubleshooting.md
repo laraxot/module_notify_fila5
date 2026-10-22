@@ -16,7 +16,10 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
+<<<<<<< .merge_file_1UXBri
+=======
 status: draft
+>>>>>>> .merge_file_QnvJUe
 ---
 
 # Laravel Debugbar Troubleshooting Guide

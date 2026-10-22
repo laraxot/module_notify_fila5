@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "models"
 issues: []
 discussions: []
+<<<<<<< .merge_file_AKJZqA
+=======
 status: draft
+>>>>>>> .merge_file_zH59nj
 ---
 
 # Rating Module Models Documentation

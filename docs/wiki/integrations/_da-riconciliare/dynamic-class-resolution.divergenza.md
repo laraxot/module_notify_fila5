@@ -8,7 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_G7ajOn
+=======
 status: draft
+>>>>>>> .merge_file_h0Codj
 ---
 
 # Divergenza: `dynamic_class_resolution.md`

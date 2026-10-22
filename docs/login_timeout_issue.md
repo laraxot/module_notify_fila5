@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "login timeout issue"
 issues: []
 discussions: []
+<<<<<<< .merge_file_piXsBC
+=======
 status: draft
+>>>>>>> .merge_file_VLYDIr
 ---
 
 # 🚨 Problema Timeout Pagina Login - Diagnosi e Soluzione
@@ -17,6 +20,18 @@ status: draft
 **URL Affetto**: http://127.0.0.1:8000/it/auth/login
 
 ---
+<<<<<<< .merge_file_piXsBC
+
+title: "login timeout issue"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "login timeout issue"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_VLYDIr
 ## 📋 Sintomi
 
 ### Errore Rilevato

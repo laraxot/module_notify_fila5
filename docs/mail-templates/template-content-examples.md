@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "template content examples"
 issues: []
 discussions: []
+<<<<<<< .merge_file_1lMhJg
+=======
 status: draft
+>>>>>>> .merge_file_tqN5AW
 ---
 
 # Esempi di Contenuto per Template Email

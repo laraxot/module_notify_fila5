@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_p1iHuq
+=======
 status: draft
+>>>>>>> .merge_file_6bUIZX
 ---
 
 # Product Launch Plan: Notify Module

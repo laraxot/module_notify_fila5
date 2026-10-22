@@ -63,9 +63,15 @@ php artisan migrate
 
 ## Collegamenti
 
+<<<<<<< .merge_file_BVpjuX
+- [no-notifications-migration-in-user-module](../../User/docs/wiki/rules/no-notifications-migration-in-user-module.md)
+- [notifications-runtime-model](../../User/docs/wiki/concepts/notifications-runtime-model.md)
+- [one-migration-per-model](../../../../../docs/wiki/memories/one-migration-per-model-bump-timestamp.md)
+=======
 - [no-notifications-migration-in-user-module](../../../../User/docs/wiki/rules/no-notifications-migration-in-user-module.md)
 - [notifications-runtime-model](../../../../User/docs/wiki/concepts/notifications-runtime-model.md)
 - [one-migration-per-model](../../../../../../docs/wiki/memories/one-migration-per-model-bump-timestamp.md)
+>>>>>>> .merge_file_MwPbbp
 
 
 ## Pagina FO collegata (User + Sixteen)
@@ -79,5 +85,10 @@ La migrazione Notify abilita il DB; la **pagina** e il **link header** sono altr
 | Folio `name('notifications')` | User `pages/notifications/` |
 | `route('notifications')` header | Sixteen |
 
+<<<<<<< .merge_file_BVpjuX
+- [notifications-folio-page.md](../../User/docs/wiki/concepts/notifications-folio-page.md)
+- [folio-list-vs-route-list.md](../../Cms/docs/wiki/concepts/folio-list-vs-route-list.md)
+=======
 - [notifications-folio-page.md](../../../../User/docs/wiki/concepts/notifications-folio-page.md)
 - [folio-list-vs-route-list.md](../../../../Cms/docs/wiki/concepts/folio-list-vs-route-list.md)
+>>>>>>> .merge_file_MwPbbp

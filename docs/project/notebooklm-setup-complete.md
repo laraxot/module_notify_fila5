@@ -16,7 +16,10 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
+<<<<<<< .merge_file_BCGgr5
+=======
 status: draft
+>>>>>>> .merge_file_2Qg6jB
 ---
 
 # NotebookLM Skill - Configuration & Usage Guide

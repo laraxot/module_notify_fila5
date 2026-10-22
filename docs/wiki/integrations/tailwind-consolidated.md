@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_SxFNuh
+=======
 status: draft
+>>>>>>> .merge_file_FGVJUQ
 ---
 
 # tailwind — Consolidated Documentation
@@ -61,11 +64,19 @@ qmd: "tailwind-apply-bootstrap-italia ✅ tailwind @apply per bootstrap italia -
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_SxFNuh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_FGVJUQ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -282,7 +293,11 @@ Ora i blade file usano le classi Tailwind:
 
 ## tailwind-best-practices-1
 
+<<<<<<< .merge_file_SxFNuh
+*Consolidated from: `tailwind-best-practices-1.md`*
+=======
 *Consolidated from: `tailwind-best-practices.md`*
+>>>>>>> .merge_file_FGVJUQ
 
 
 ## 1. Organizzazione del Codice
@@ -615,11 +630,19 @@ qmd: "tailwind-best-practices-2 best practices implementazione tailwind css nel 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_SxFNuh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_FGVJUQ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1275,11 +1298,19 @@ qmd: "tailwind-blade-components-1 esempi pratici: blade components tailwind per 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_SxFNuh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_FGVJUQ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1942,11 +1973,19 @@ qmd: "tailwind-conversion-complete 🎨 tailwind conversion complete - design co
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_SxFNuh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_FGVJUQ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2204,11 +2243,19 @@ qmd: "tailwind-css-webcrunch-1 tailwind css: approfondimento collezione webcrunc
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_SxFNuh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_FGVJUQ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2297,11 +2344,19 @@ qmd: "tailwind-css-webcrunch-approfondimento-1 approfondimento completo: tailwin
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_SxFNuh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_FGVJUQ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3249,7 +3304,11 @@ class NotificationForm extends Component implements HasForms
 
 ## tailwind-implementation-1
 
+<<<<<<< .merge_file_SxFNuh
+*Consolidated from: `tailwind-implementation-1.md`*
+=======
 *Consolidated from: `tailwind-implementation.md`*
+>>>>>>> .merge_file_FGVJUQ
 
 
 ## 1. Configurazione Base
@@ -3601,11 +3660,19 @@ qmd: "tailwind-implementation-2 implementazione tailwind css nel modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_SxFNuh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_FGVJUQ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -4877,11 +4944,19 @@ qmd: "tailwind-plugin-guide-1 guida: creazione di plugin tailwind custom per <no
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_SxFNuh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_FGVJUQ
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

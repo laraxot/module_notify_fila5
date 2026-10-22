@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "tailwind rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_R0Fj6H
+=======
 status: draft
+>>>>>>> .merge_file_4iI1IJ
 ---
 
 === tailwindcss/core rules ===
@@ -37,6 +40,18 @@ status: draft
 
 
 ---
+<<<<<<< .merge_file_R0Fj6H
+
+title: "tailwind rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tailwind rules"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_4iI1IJ
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

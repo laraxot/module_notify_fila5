@@ -16,7 +16,10 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
+<<<<<<< .merge_file_h4HGcr
+=======
 status: draft
+>>>>>>> .merge_file_uYmIfq
 ---
 # Convenzioni per i Form Schema 
 

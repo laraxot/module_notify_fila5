@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "xotbaseserviceprovider"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Dx56uj
+=======
 status: draft
+>>>>>>> .merge_file_uowHQN
 ---
 
 # XotBaseServiceProvider
@@ -149,3 +152,15 @@ public function boot(): void
 
 
 ---
+<<<<<<< .merge_file_Dx56uj
+
+title: "xotbaseserviceprovider"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbaseserviceprovider"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_uowHQN

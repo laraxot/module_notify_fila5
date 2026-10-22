@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "logging best practices"
 issues: []
 discussions: []
+<<<<<<< .merge_file_b60K2m
+=======
 status: draft
+>>>>>>> .merge_file_ZElEBU
 ---
 
 # Logging Best Practices - Performance Critical
@@ -19,6 +22,18 @@ status: draft
 **Action Required:** Remove all routine logging. Use only for errors/warnings.
 
 ---
+<<<<<<< .merge_file_b60K2m
+
+title: "logging best practices"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "logging best practices"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_ZElEBU
 ## The Problem
 
 ### Performance Impact

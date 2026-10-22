@@ -16,7 +16,10 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - ../best-practices/naming-conventions.md
+<<<<<<< .merge_file_g8BqSF
+=======
 status: draft
+>>>>>>> .merge_file_pm5cbc
 ---
 # Chiarimento sulla Struttura delle Interfacce 
 

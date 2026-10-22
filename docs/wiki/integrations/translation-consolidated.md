@@ -72,7 +72,11 @@ Consolidated from **51** individual files.
 
 ## translation-cleanup-plan-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translation-cleanup-plan-1.md`*
+=======
 *Consolidated from: `translation-cleanup-plan.md`*
+>>>>>>> .merge_file_HT6fq0
 
 
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
@@ -187,11 +191,19 @@ qmd: "translation-cleanup-plan-2 translation cleanup plan"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -313,7 +325,11 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 
 ## translation-conventions-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translation-conventions-1.md`*
+=======
 *Consolidated from: `translation-conventions.md`*
+>>>>>>> .merge_file_HT6fq0
 
 
 ## Regole Fondamentali
@@ -565,11 +581,19 @@ qmd: "translation-conventions-2 translation conventions"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -582,7 +606,11 @@ Conventions for naming and structure of translation keys.
 
 ## translation-conventions-clarification-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translation-conventions-clarification-1.md`*
+=======
 *Consolidated from: `translation-conventions-clarification.md`*
+>>>>>>> .merge_file_HT6fq0
 
 
 ## Identificazione di Convenzioni Contrastanti
@@ -670,9 +698,15 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Convenzioni Specifiche del Modulo Notify](../../translation_conventions.md)
 - [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -689,11 +723,19 @@ qmd: "translation-conventions-clarification-2 chiarimento sulle convenzioni di t
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -782,14 +824,24 @@ return [
 
 ## Conclusione
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Convenzioni Specifiche del Modulo Notify](./translation-conventions.md)
+- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Convenzioni Specifiche del Modulo Notify](./translation-conventions.md)
 - [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di App, poiché rappresentano un'eccezione documentata.
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules-1.md)
+=======
 - [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules.md)
+>>>>>>> .merge_file_HT6fq0
 - [Convenzioni Specifiche del Modulo Notify](./translation-conventions-2.md)
 - [Regole per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
 ---
@@ -886,9 +938,15 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Convenzioni Specifiche del Modulo Notify](../../translation_conventions.md)
 - [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 # Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 
 ## Identificazione di Convenzioni Contrastanti
@@ -976,9 +1034,15 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Convenzioni Specifiche del Modulo Notify](../../translation_conventions.md)
 - [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -1226,14 +1290,22 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 
 ## translation-file-correction-guide-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translation-file-correction-guide-1.md`*
+=======
 *Consolidated from: `translation-file-correction-guide-deprecated.md`*
+>>>>>>> .merge_file_HT6fq0
 
 
 This file is deprecated.
 
 Use:
 
+<<<<<<< .merge_file_Cv7AAK
+- [translation-file-correction-guide](./translation-file-correction-guide.md)
+=======
 - [translation-file-correction-guide](../../translation-file-correction-guide.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -1250,11 +1322,19 @@ qmd: "translation-file-correction-guide-2 guida alla correzione dei file di trad
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1421,12 +1501,21 @@ return [
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
+- [Progresso della Standardizzazione](./translation-standards-progress.md)
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
+- [Progresso della Standardizzazione](./translation-standards-progress.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 - [Progresso della Standardizzazione](../../translation-standards-progress.md)
 - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 - [Progresso della Standardizzazione](../../translation-standards-progress.md)
+>>>>>>> .merge_file_HT6fq0
 ---
 
 ## translation-file-correction-guide
@@ -1585,9 +1674,15 @@ return [
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+- [Progresso della Standardizzazione](./TRANSLATION_STANDARDS_PROGRESS.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
 - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
 - [Progresso della Standardizzazione](../../translation_standards_progress.md)
+>>>>>>> .merge_file_HT6fq0
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione
@@ -1732,9 +1827,15 @@ declare(strict_types=1);
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+- [Progresso della Standardizzazione](./TRANSLATION_STANDARDS_PROGRESS.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
 - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
 - [Progresso della Standardizzazione](../../translation_standards_progress.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -1894,9 +1995,15 @@ return [
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
+- [Progresso della Standardizzazione](./translation_standards_progress.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 - [Progresso della Standardizzazione](../../translation_standards_progress.md)
+>>>>>>> .merge_file_HT6fq0
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione
@@ -2041,9 +2148,15 @@ declare(strict_types=1);
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
+- [Progresso della Standardizzazione](./translation_standards_progress.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 - [Progresso della Standardizzazione](../../translation_standards_progress.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -2060,11 +2173,19 @@ qmd: "translation-file-naming-rules-1 regole di naming per i file di traduzione"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2106,11 +2227,19 @@ Se si identifica un file con naming non conforme:
 3. Rimuovere il file con naming errato
 
 ## Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 ---
 
@@ -2153,9 +2282,15 @@ Se si identifica un file con naming non conforme:
 3. Rimuovere il file con naming errato
 
 ## Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+=======
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -2198,9 +2333,15 @@ Se si identifica un file con naming non conforme:
 3. Rimuovere il file con naming errato
 
 ## Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [Regole Generali per le Traduzioni](../../lang/docs/translation_keys_rules.md)
+- [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
+=======
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Traduzioni](../../../../Lang/docs/translation-keys-best-practices.md)
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -2217,11 +2358,19 @@ qmd: "translation-file-structure-guide-1 guida alla struttura dei file di traduz
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2377,10 +2526,17 @@ return [
 ```
 
 ## Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+>>>>>>> .merge_file_HT6fq0
 ---
 
 ## translation-file-structure-guide
@@ -2536,8 +2692,13 @@ return [
 ```
 
 ## Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -2694,21 +2855,34 @@ return [
 ```
 
 ## Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+- [Regole Generali per le Traduzioni](../../lang/docs/translation_keys_rules.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
 ## translation-implementation-plan-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translation-implementation-plan-1.md`*
+=======
 *Consolidated from: `translation-implementation-plan-deprecated.md`*
+>>>>>>> .merge_file_HT6fq0
 
 
 This file is deprecated.
 
 Use:
 
+<<<<<<< .merge_file_Cv7AAK
+- [translation-implementation-plan](./translation-implementation-plan.md)
+=======
 - [translation-implementation-plan](../../translation-implementation-plan.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -2725,11 +2899,19 @@ qmd: "translation-implementation-plan-2 piano di implementazione per la standard
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3165,11 +3347,19 @@ qmd: "translation-keys-best-practices-1 best practices per le chiavi di traduzio
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3218,7 +3408,11 @@ La chiave di traduzione perfetta è quella che non si nota: è naturale, fluida,
 
 ## translation-keys-rules-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translation-keys-rules-1.md`*
+=======
 *Consolidated from: `translation-keys-rules.md`*
+>>>>>>> .merge_file_HT6fq0
 
 title: "Translation Keys Rules 1"
 type: rule
@@ -3229,11 +3423,19 @@ qmd: "translation-keys-rules-1 translation keys rules 1"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3287,9 +3489,15 @@ return [
 ```
 
 ### Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
+- [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation-keys-rules-1.md)
+=======
 - [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
 - [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation-keys-rules.md)
+>>>>>>> .merge_file_HT6fq0
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation-keys-best-practices-1.md) 
 ---
 
@@ -3344,8 +3552,13 @@ return [
 ```
 
 ### Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
+=======
 - [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
+>>>>>>> .merge_file_HT6fq0
 ---
 
 ## translation-keys
@@ -3399,8 +3612,13 @@ return [
 ```
 
 ### Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation_keys_rules.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation-keys-best-practices.md) 
+=======
 - [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation-keys-best-practices.md) 
+>>>>>>> .merge_file_HT6fq0
 ---
 
 ## translation-namespace-religion
@@ -3732,7 +3950,11 @@ Amen.
 - [ticket.php (dominio corretto)](../../Modules/App/lang/it/ticket.php)
 - [ticket.php (dominio corretto)](../../Modules/<nome progetto>/lang/it/ticket.php)
 - [Laravel Localization](https://laravel.com/docs/localization)
+<<<<<<< .merge_file_Cv7AAK
+- [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
+=======
 - [No Hardcoded Language Religion](../../no-hardcoded-language-religion.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -3744,7 +3966,11 @@ Amen.
 
 ## translation-standards-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translation-standards-1.md`*
+=======
 *Consolidated from: `translation-standards.md`*
+>>>>>>> .merge_file_HT6fq0
 
 
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
@@ -3891,11 +4117,19 @@ qmd: "translation-standards-2 standard per le traduzioni"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -4036,7 +4270,11 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 
 ## translation-standards-progress-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translation-standards-progress-1.md`*
+=======
 *Consolidated from: `translation-standards-progress.md`*
+>>>>>>> .merge_file_HT6fq0
 
 
 ## Stato Attuale - 12/05/2025
@@ -4085,6 +4323,15 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
+<<<<<<< .merge_file_Cv7AAK
+   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+
+2. **Guide Specifiche per Notify**
+   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+=======
    - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
    - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
@@ -4092,6 +4339,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
    - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
    - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
    - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
+>>>>>>> .merge_file_HT6fq0
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -4133,11 +4381,19 @@ qmd: "translation-standards-progress-2 progresso standardizzazione traduzioni"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -4191,19 +4447,32 @@ related:
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
+<<<<<<< .merge_file_Cv7AAK
+   - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules-1.md)
+=======
    - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules.md)
+>>>>>>> .merge_file_HT6fq0
    - [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices-1.md)
 
 2. **Guide Specifiche per Notify**
    - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
    - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules-1.md)
    - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide-1.md)
+<<<<<<< .merge_file_Cv7AAK
+   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+
+2. **Guide Specifiche per Notify**
+   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+=======
    - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
    - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
 2. **Guide Specifiche per Notify**
    - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
    - [Regole di Naming per i File di Traduzione](../../translation-file-naming-rules.md)
+>>>>>>> .merge_file_HT6fq0
    - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
@@ -4300,6 +4569,15 @@ related:
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
+<<<<<<< .merge_file_Cv7AAK
+   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+
+2. **Guide Specifiche per Notify**
+   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+=======
    - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
    - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
@@ -4307,6 +4585,7 @@ related:
    - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
    - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
    - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
+>>>>>>> .merge_file_HT6fq0
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -4400,6 +4679,15 @@ Modules/Notify/lang/it/create_mail_template.php
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
+<<<<<<< .merge_file_Cv7AAK
+   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+
+2. **Guide Specifiche per Notify**
+   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+=======
    - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
    - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
@@ -4407,6 +4695,7 @@ Modules/Notify/lang/it/create_mail_template.php
    - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
    - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
    - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
+>>>>>>> .merge_file_HT6fq0
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -5015,9 +5304,15 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Convenzioni Generali di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Convenzioni Specifiche del Modulo Notify](../../translation_conventions.md)
 - [Regole per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -5197,9 +5492,15 @@ return [
 
 ## Riferimenti
 
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+- [Progresso della Standardizzazione](./TRANSLATION_STANDARDS_PROGRESS.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
 - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
 - [Progresso della Standardizzazione](../../translation_standards_progress.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -5242,9 +5543,15 @@ Se si identifica un file con naming non conforme:
 3. Rimuovere il file con naming errato
 
 ## Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+=======
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -5401,8 +5708,13 @@ return [
 ```
 
 ## Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+=======
 - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
 - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -5638,8 +5950,13 @@ return [
 ```
 
 ### Riferimenti
+<<<<<<< .merge_file_Cv7AAK
+- [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
+=======
 - [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -5854,6 +6171,15 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
+<<<<<<< .merge_file_Cv7AAK
+   - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+   - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+
+2. **Guide Specifiche per Notify**
+   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+=======
    - [Regole Generali per le Traduzioni](../../../../Lang/docs/translation_keys_rules.md)
    - [Best Practices per le Traduzioni](../../../../Lang/docs/translation_keys_best_practices.md)
 
@@ -5861,6 +6187,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
    - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
    - [Regole di Naming per i File di Traduzione](../../translation_file_naming_rules.md)
    - [Guida alla Struttura dei File di Traduzione](../../translation_file_structure_guide.md)
+>>>>>>> .merge_file_HT6fq0
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -5911,7 +6238,11 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 
 ## translations-implementation-status-1
 
+<<<<<<< .merge_file_Cv7AAK
+*Consolidated from: `translations-implementation-status-1.md`*
+=======
 *Consolidated from: `translations-implementation-status.md`*
+>>>>>>> .merge_file_HT6fq0
 
 
 ## Panoramica
@@ -6034,10 +6365,17 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
+- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -6054,11 +6392,19 @@ qmd: "translations-implementation-status-2 translations implementation status"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_Cv7AAK
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_HT6fq0
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -6066,8 +6412,13 @@ related:
 
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
+<<<<<<< .merge_file_Cv7AAK
+- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 # Translations Implementation Status
 
 Current status of translation implementation across the module.
@@ -6200,10 +6551,17 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
+- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -6334,10 +6692,17 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
+=======
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation-keys-best-practices.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 
@@ -6454,6 +6819,21 @@ Notification::make()
 ## Collegamenti tra versioni di translations.md
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
+<<<<<<< .merge_file_Cv7AAK
+* [translations.md](../../../Gdpr/docs/translations.md)
+* [translations.md](../../../Notify/docs/translations.md)
+* [translations.md](../../../Xot/docs/roadmap/lang/translations.md)
+* [translations.md](../../../Xot/docs/translations.md)
+* [translations.md](../../../Dental/docs/translations.md)
+* [translations.md](../../../User/docs/translations.md)
+* [translations.md](../../../UI/docs/translations.md)
+* [translations.md](../../../Lang/docs/packages/translations.md)
+* [translations.md](../../../Lang/docs/translations.md)
+* [translations.md](../../../Job/docs/translations.md)
+* [translations.md](../../../Media/docs/translations.md)
+* [translations.md](../../../Tenant/docs/translations.md)
+* [translations.md](../../../Activity/docs/translations.md)
+=======
 * [translations.md](../../../../Gdpr/docs/translations.md)
 * [translations.md](../../translations.md)
 * [translations.md](../../../Xot/docs/roadmap/lang/translations.md)
@@ -6467,6 +6847,7 @@ Notification::make()
 * [translations.md](../../../../Media/docs/translations.md)
 * [translations.md](../../../../Tenant/docs/translations.md)
 * [translations.md](../../../../Activity/docs/translations.md)
+>>>>>>> .merge_file_HT6fq0
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
 
@@ -6599,10 +6980,17 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_Cv7AAK
+- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
+- [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_HT6fq0
 
 ---
 

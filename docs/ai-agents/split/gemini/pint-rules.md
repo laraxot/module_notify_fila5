@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "pint rules"
 issues: []
 discussions: []
+<<<<<<< .merge_file_syTYdj
+=======
 status: draft
+>>>>>>> .merge_file_JL4q6m
 ---
 
 === pint/core rules ===
@@ -19,6 +22,18 @@ status: draft
 
 
 ---
+<<<<<<< .merge_file_syTYdj
+
+title: "pint rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pint rules"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_JL4q6m
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

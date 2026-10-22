@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "queueable action"
 issues: []
 discussions: []
+<<<<<<< .merge_file_IS37i9
+=======
 status: draft
+>>>>>>> .merge_file_TAmy71
 ---
 
 # Spatie Laravel Queueable Action

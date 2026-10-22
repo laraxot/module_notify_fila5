@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "wiki schema"
 issues: []
 discussions: []
+<<<<<<< .merge_file_44CzAG
+=======
 status: draft
+>>>>>>> .merge_file_vCryLE
 ---
 
 # LLM Wiki Schema

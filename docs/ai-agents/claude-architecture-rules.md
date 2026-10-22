@@ -174,5 +174,9 @@ class MeetupServiceProvider extends XotBaseServiceProvider
 
 - [Indice CLAUDE](./claude-split-index.md)
 - [critical-rules.md](./critical-rules.md)
+<<<<<<< .merge_file_Z3D0hE
+- [CLAUDE.md originale](../../CLAUDE.md)
+=======
 - [CLAUDE.md originale](../CLAUDE.md)
+>>>>>>> .merge_file_r8yKYb
 - [Index principale](./index.md)

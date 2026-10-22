@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "analisi visiva"
 issues: []
 discussions: []
+<<<<<<< .merge_file_aGW1cO
+=======
 status: draft
+>>>>>>> .merge_file_E3kOgV
 ---
 
 # 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
@@ -21,6 +24,18 @@ status: draft
 - **Notify**: http://laraxot.local/it/tests/homepage
 
 ---
+<<<<<<< .merge_file_aGW1cO
+
+title: "analisi visiva"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "analisi visiva"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_E3kOgV
 ## 1. Header Structure
 
 ### Bootstrap Italia

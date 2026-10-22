@@ -8,7 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_wi7A5T
+=======
 status: draft
+>>>>>>> .merge_file_5dXeXe
 ---
 
 # Divergenza: `replikate-phase-1-complete.md`

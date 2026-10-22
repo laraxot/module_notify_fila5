@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "notification templates"
 issues: []
 discussions: []
+<<<<<<< .merge_file_a816K0
+=======
 status: draft
+>>>>>>> .merge_file_ttnABR
 ---
 
 # Template delle Notifiche

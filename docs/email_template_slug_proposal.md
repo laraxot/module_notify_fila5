@@ -246,6 +246,11 @@ MailTemplate::all()->each(function ($template) {
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_NAgH2u
+- [Documentazione Email Template](./EMAIL_TEMPLATES.md)
+- [Gestione Traduzioni](../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 - [Documentazione Email Template](./email_templates.md)
 - [Gestione Traduzioni](../../Lang/docs/translation_keys_best_practices.md)
+>>>>>>> .merge_file_MBna3Q
 - [Configurazione Email](../../../docs/email-configuration.md) 

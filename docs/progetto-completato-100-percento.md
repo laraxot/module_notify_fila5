@@ -338,7 +338,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📚 GUIDA RAPIDA ALLA DOCUMENTAZIONE
 
 ### 🌟 START HERE
+<<<<<<< .merge_file_nmIvvl
+**[→ ANALISI COMPLETA](./ANALISI-COMPLETA-2025-10-01.md)** - Executive Summary del progetto
+=======
 **[→ ANALISI COMPLETA](./analisi-completa-ottobre-data.md)** - Executive Summary del progetto
+>>>>>>> .merge_file_BMqY0r
 
 ### 🗺️ ROADMAP
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
@@ -351,6 +355,22 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 **Critici**:
 - [Fixcity](../Modules/Fixcity/docs/roadmap-and-issues.md) - Core business + Performance fixes
 - [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
+<<<<<<< .merge_file_nmIvvl
+- [User](../Modules/User/docs/roadmap-and-issues.md) - Authentication
+
+**Features**:
+- [AI](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization roadmap
+- [Notify](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time roadmap
+- [Geo](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
+
+**Supporto**:
+- [UI](../Modules/UI/docs/roadmap-and-issues.md) - Components
+- [Cms](../Modules/Cms/docs/roadmap-and-issues.md) - Content
+- [Activity](../Modules/Activity/docs/roadmap-and-issues.md) - Audit
+
+### 🎨 THEMES
+- [Sixteen](../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
+=======
 - [User](../../User/docs/roadmap-and-issues.md) - Authentication
 
 **Features**:
@@ -365,6 +385,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### 🎨 THEMES
 - [Sixteen](../../../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
+>>>>>>> .merge_file_BMqY0r
 
 ---
 
@@ -546,7 +567,11 @@ php artisan queue:work --queue=high,notifications,default
 
 - [← Torna all'Indice](./index.md)
 - [← Master Roadmap](./roadmap-master-index.md)
+<<<<<<< .merge_file_nmIvvl
+- [← Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)
+=======
 - [← Analisi Completa](./analisi-completa-ottobre-data.md)
+>>>>>>> .merge_file_BMqY0r
 
 ---
 

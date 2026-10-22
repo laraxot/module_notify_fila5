@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "xot base classes checklist"
 issues: []
 discussions: []
+<<<<<<< .merge_file_mvBlBk
+=======
 status: draft
+>>>>>>> .merge_file_eZbiRQ
 ---
 
 # Checklist: Verifica Classi Base Xot

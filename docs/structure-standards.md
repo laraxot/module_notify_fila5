@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "structure standards"
 issues: []
 discussions: []
+<<<<<<< .merge_file_UYQQOm
+=======
 status: draft
+>>>>>>> .merge_file_uOUxir
 ---
 
 # Standard di Struttura nel Modulo Notify
@@ -104,6 +107,18 @@ Tutte le classi nella cartella `app/Filament/Clusters/*/Pages` **devono terminar
 - Non usare mai nomi generici o ambigui (es. `SendNetfunSMS`), ma sempre `SendNetfunSMSPage`.
 
 ---
+<<<<<<< .merge_file_UYQQOm
+
+title: "structure standards"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "structure standards"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_uOUxir
 ## Esempio
 
 - File: `SendNetfunSMS.php` → `SendNetfunSMSPage.php`

@@ -6,8 +6,11 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+<<<<<<< .merge_file_9HR8hG
+=======
 tags: [docs, notify, bmad]
 qmd: "readme - phase 1 execution notify"
+>>>>>>> .merge_file_A2kYDI
 ---
 
 # 📖 README - PHASE 1 EXECUTION

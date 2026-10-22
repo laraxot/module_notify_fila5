@@ -11,7 +11,10 @@ tags: [migrato-da-txt, notify]
 converted_from: loc_struct.txt
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_vO4WCU
+=======
 status: draft
+>>>>>>> .merge_file_Dm8MKX
 ---
 
 <body class="">

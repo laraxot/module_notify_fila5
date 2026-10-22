@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "email templates best practices"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Y5rBwe
+=======
 status: draft
+>>>>>>> .merge_file_MmGL3X
 ---
 
 # Best Practices per Template Email

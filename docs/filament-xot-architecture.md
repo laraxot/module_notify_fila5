@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "filament xot architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_7BGUdb
+=======
 status: draft
+>>>>>>> .merge_file_ovPJZn
 ---
 
 # Architettura Filament : Pattern XotBase

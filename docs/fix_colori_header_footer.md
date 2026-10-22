@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "fix colori header footer"
 issues: []
 discussions: []
+<<<<<<< .merge_file_rdZjg1
+=======
 status: draft
+>>>>>>> .merge_file_tpaJ0o
 ---
 
 # 🎨 Fix Colori Header e Footer - Bootstrap Italia
@@ -16,6 +19,18 @@ status: draft
 ## Status: ✅ Header e Footer Fixati
 
 ---
+<<<<<<< .merge_file_rdZjg1
+
+title: "fix colori header footer"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "fix colori header footer"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_tpaJ0o
 ## 📊 Colori Ufficiali Bootstrap Italia
 
 ### Header

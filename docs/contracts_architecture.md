@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "contracts architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_57XetG
+=======
 status: draft
+>>>>>>> .merge_file_8bYOrX
 ---
 
 # Architettura delle Interfacce (Contracts) in Notify

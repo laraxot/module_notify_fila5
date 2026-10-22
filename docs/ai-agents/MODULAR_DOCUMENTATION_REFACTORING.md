@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "MODULAR DOCUMENTATION REFACTORING"
 issues: []
 discussions: []
+<<<<<<< .merge_file_eqJHJp
+=======
 status: draft
+>>>>>>> .merge_file_5YCkwm
 ---
 
 # 📚 MODULAR DOCUMENTATION REFACTORING REPORT
@@ -17,6 +20,18 @@ status: draft
 **Principio**: "Boy Scout Rule - Lascia i file migliori di come li hai trovati"
 
 ---
+<<<<<<< .merge_file_eqJHJp
+
+title: "MODULAR DOCUMENTATION REFACTORING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MODULAR DOCUMENTATION REFACTORING"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_5YCkwm
 ## 🎯 OBIETTIVO
 
 Organizzare la documentazione AI agents in file modulari più piccoli e gestibili, con collegamenti bidirezionali.

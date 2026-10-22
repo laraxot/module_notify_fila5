@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_l3Cym5
+=======
 status: draft
+>>>>>>> .merge_file_4zL99G
 ---
 
 # Git Commit & Push Workflow - AI Agent Rules

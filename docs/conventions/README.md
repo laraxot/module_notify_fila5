@@ -16,7 +16,10 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+<<<<<<< .merge_file_g9XOqd
+=======
 status: draft
+>>>>>>> .merge_file_8Z44kc
 ---
 # 📏 Coding Conventions
 

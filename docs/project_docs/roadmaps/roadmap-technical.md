@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "roadmap technical"
 issues: []
 discussions: []
+<<<<<<< .merge_file_DBxW4x
+=======
 status: draft
+>>>>>>> .merge_file_a5kkAe
 ---
 
 # 🛠️ ROADMAP TECNICA - FIXCITY PLATFORM
@@ -468,6 +471,18 @@ jobs:
 - **Q4**: Scale and optimization
 
 ---
+<<<<<<< .merge_file_DBxW4x
+
+title: "roadmap technical"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap technical"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_a5kkAe
 **📞 Contatti**
 - **Tech Lead**: Laraxot Development Team
 - **Email**: tech@laraxot.com

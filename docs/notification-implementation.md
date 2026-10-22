@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "notification implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_8PE8Ce
+=======
 status: draft
+>>>>>>> .merge_file_3Zg1IF
 ---
 
 # Notification System Implementation Plan

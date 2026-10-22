@@ -218,5 +218,10 @@ return [
 
 ## Collegamenti
 - [Mailpace Templates](https://github.com/mailpace/templates)
+<<<<<<< .merge_file_7Tj5mi
+- [Email Best Practices](./EMAIL_BEST_PRACTICES.md)
+- [Template Management](./template-management.md) 
+=======
 - [Email Best Practices](./email_best_practices.md)
 - [Template Management](../template-management.md) 
+>>>>>>> .merge_file_LBmpBa

@@ -94,8 +94,13 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Documentazione Correlata
 
+<<<<<<< .merge_file_DKVagT
+- [Struttura Standardizzata della Configurazione SMS](./STANDARDIZED_SMS_CONFIG_STRUCTURE.md)
+- [Canale SMS Netfun](./SMS_NETFUN_CHANNEL.md)
+=======
 - [Struttura Standardizzata della Configurazione SMS](./standardized_sms_config_structure.md)
 - [Canale SMS Netfun](./sms_netfun_channel.md)
+>>>>>>> .merge_file_sU7WRX
 
 ## Supporto
 
@@ -158,8 +163,13 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Collegamenti
 
+<<<<<<< .merge_file_DKVagT
+- [Documentazione Completa Netfun Channel](./SMS_NETFUN_CHANNEL.md)
+- [Esempi di Utilizzo Netfun](./NETFUN_EXAMPLES.md)
+=======
 - [Documentazione Completa Netfun Channel](./sms_netfun_channel.md)
 - [Esempi di Utilizzo Netfun](./netfun_examples.md)
+>>>>>>> .merge_file_sU7WRX
 - [Risoluzione Conflitti Netfun](./netfunchannel_conflict_resolution.md)
 
 ---

@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_s28BLJ
+=======
 status: draft
+>>>>>>> .merge_file_4z5H0I
 ---
 
 # Wiki Log

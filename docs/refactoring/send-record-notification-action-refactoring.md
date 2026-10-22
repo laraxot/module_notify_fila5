@@ -175,8 +175,13 @@ private function sendNotification(Model $record, string $templateSlug, ChannelEn
 
 ## Related Documentation
 
+<<<<<<< .merge_file_Z0oMfg
+- [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
+- [DRY Composition Pattern](./dry-composition-pattern.md)
+=======
 - [Actions Calling Actions Pattern](../actions-calling-actions-pattern.md)
 - [DRY Composition Pattern](../dry-composition-pattern.md)
+>>>>>>> .merge_file_jmdXfC
 - [SendNotificationBulkAction Implementation](./send-notification-bulk-action.md)
 
 ## Review Checklist

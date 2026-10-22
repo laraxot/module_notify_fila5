@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "security analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_dFrT6a
+=======
 status: draft
+>>>>>>> .merge_file_jYtbGh
 ---
 
 # Analisi della Sicurezza

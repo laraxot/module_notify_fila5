@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "DOCUMENTATION AUDIT"
 issues: []
 discussions: []
+<<<<<<< .merge_file_8Td232
+=======
 status: draft
+>>>>>>> .merge_file_hRKVjS
 ---
 
 # Documentation Audit Report
@@ -17,6 +20,18 @@ status: draft
 **Scope:** All modules, themes, and project documentation
 
 ---
+<<<<<<< .merge_file_8Td232
+
+title: "DOCUMENTATION AUDIT"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION AUDIT"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_hRKVjS
 ## Executive Summary
 
 ### Key Findings
@@ -284,7 +299,11 @@ docs/master/
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
+<<<<<<< .merge_file_8Td232
+- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-1.md`
+=======
 - Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
+>>>>>>> .merge_file_hRKVjS
 
 **Recommended Standard:**
 - Lowercase kebab-case: `topic-subtopic.md`
@@ -295,7 +314,11 @@ docs/master/
 
 **Examples:**
 - `phpstan-analysis.md`
+<<<<<<< .merge_file_8Td232
+- `documentation-improvement-summary-2026-03-13.md`
+=======
 - `documentation-improvement-summary-executive.md`
+>>>>>>> .merge_file_hRKVjS
 - `bugfix-report-2025-01-14.md`
 
 **Problem:** Dates in filenames become stale immediately.

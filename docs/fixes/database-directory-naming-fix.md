@@ -12,7 +12,10 @@ related:
   - "./database-naming-fix-summary.md"
   - "./database-naming-verification-report.md"
   - "./sqlite-permission-fix.md"
+<<<<<<< .merge_file_Oop0to
+=======
 status: draft
+>>>>>>> .merge_file_TDDGj0
 ---
 
 # Database Directory Naming Convention Fix

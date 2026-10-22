@@ -210,7 +210,11 @@ Utilizzo:
 ## Backlink e Riferimenti
 
 - [DRY Composition Pattern](./dry-composition-pattern.md) - Pattern composizione Actions
+<<<<<<< .merge_file_MGSFPn
+- [SendRecordNotificationAction](../../app/Actions/SendRecordNotificationAction.php) - Implementazione completa
+=======
 - [SendRecordNotificationAction](../app/Actions/SendRecordNotificationAction.php) - Implementazione completa
+>>>>>>> .merge_file_NCdupW
 - [SendNotificationBulkAction](./send-notification-bulk-action.md) - Azione bulk che usa SendRecordNotificationAction
 
 ---

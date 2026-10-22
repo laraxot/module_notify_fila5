@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "merge conflicts list"
 issues: []
 discussions: []
+<<<<<<< .merge_file_91gu6o
+=======
 status: draft
+>>>>>>> .merge_file_uaBuRh
 ---
 
 # Merge conflict markers — Notify

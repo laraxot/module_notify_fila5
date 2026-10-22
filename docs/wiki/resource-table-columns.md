@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "resource table columns"
 issues: []
 discussions: []
+<<<<<<< .merge_file_HNaF6h
+=======
 status: draft
+>>>>>>> .merge_file_RcLadA
 ---
 
 # Resource table columns

@@ -6,8 +6,11 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+<<<<<<< .merge_file_l6BIha
+=======
 tags: [docs, notify, wiki]
 qmd: "telegram notify"
+>>>>>>> .merge_file_ZDWaHc
 ---
 
 # telegram

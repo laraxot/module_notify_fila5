@@ -13,7 +13,10 @@ related:
   - "./analisi-colori-header-footer.md"
   - "./analisi-visiva.md"
   - "./fix-plan.md"
+<<<<<<< .merge_file_I2T2rL
+=======
 status: draft
+>>>>>>> .merge_file_8r4me1
 ---
 
 # 📸 Screenshot Analysis - Homepage FixCity

@@ -9,7 +9,10 @@ issues: []
 discussions: []
 related:
   - ../migrations/notifications_table.md
+<<<<<<< .merge_file_8XSYOB
+=======
 status: draft
+>>>>>>> .merge_file_e0igCu
 ---
 
 # Consolidamento migrazioni `notification_logs`

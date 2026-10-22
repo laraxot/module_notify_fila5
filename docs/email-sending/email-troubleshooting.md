@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "email troubleshooting"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ROUa6s
+=======
 status: draft
+>>>>>>> .merge_file_ztAwx5
 ---
 
 # Risoluzione dei Problemi nelle Email 

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "email integration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_BtZImo
+=======
 status: draft
+>>>>>>> .merge_file_Rem0SY
 ---
 
 # Email Integration

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "dry kiss improvements"
 issues: []
 discussions: []
+<<<<<<< .merge_file_muMJeb
+=======
 status: draft
+>>>>>>> .merge_file_DAyxyU
 ---
 
 # Notify Module - DRY + KISS Improvements

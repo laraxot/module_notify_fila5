@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "sms action factory resolution"
 issues: []
 discussions: []
+<<<<<<< .merge_file_9BWq00
+=======
 status: draft
+>>>>>>> .merge_file_lEJhOr
 ---
 
 # Risoluzione dinamica vs match esplicito in SmsActionFactory
@@ -17,6 +20,18 @@ status: draft
 Nel factory `SmsActionFactory`, invece di usare un `match` esplicito per risolvere la classe action in base al driver, si può calcolare dinamicamente il nome della classe action tramite una formula.
 
 ---
+<<<<<<< .merge_file_9BWq00
+
+title: "sms action factory resolution"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sms action factory resolution"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_lEJhOr
 ## 1. Esempio di match esplicito
 
 ```php

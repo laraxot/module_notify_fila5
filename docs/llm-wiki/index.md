@@ -62,7 +62,11 @@ _No troubleshooting pages created yet_
 ### Related Project Concepts
 
 - [Laraxot Architecture](../../docs/wiki/concepts/laraxot-architecture.md)
+<<<<<<< .merge_file_v8JKgz
+- [Actions Over Services](../../docs/wiki/concepts/actions-over-services.md)
+=======
 - [Actions Over Services](../../../../../docs/wiki/concepts/actions-over-services.md)
+>>>>>>> .merge_file_j7wf2S
 - [PHPStan Level 10](../../docs/wiki/concepts/phpstan-level10.md)
 
 ## Module's Role in Project

@@ -170,9 +170,15 @@ return [
 
 ## Riferimenti
 
+<<<<<<< .merge_file_uz1or1
+- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+- [Progresso della Standardizzazione](./TRANSLATION_STANDARDS_PROGRESS.md)
+=======
 - [Regole di Naming per i File di Traduzione](./translation_file_naming_rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation_file_structure_guide.md)
 - [Progresso della Standardizzazione](./translation_standards_progress.md)
+>>>>>>> .merge_file_QNUVhm
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione
@@ -322,6 +328,12 @@ declare(strict_types=1);
 
 ## Riferimenti
 
+<<<<<<< .merge_file_uz1or1
+- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+- [Progresso della Standardizzazione](./TRANSLATION_STANDARDS_PROGRESS.md)
+=======
 - [Regole di Naming per i File di Traduzione](./translation_file_naming_rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation_file_structure_guide.md)
 - [Progresso della Standardizzazione](./translation_standards_progress.md)
+>>>>>>> .merge_file_QNUVhm

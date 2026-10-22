@@ -8,6 +8,16 @@ qmd: "redundancy-analysis redundancy analysis"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_7KJD2N
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -17,6 +27,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
+>>>>>>> .merge_file_AhOYT7
 ---
 
 Redundancy analysis available: docs/analysis/redundancies/summary.md

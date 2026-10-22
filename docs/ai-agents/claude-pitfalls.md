@@ -97,5 +97,9 @@ discussions: []
 
 - [Indice CLAUDE](./claude-split-index.md)
 - [critical-rules.md](./critical-rules.md)
+<<<<<<< .merge_file_8sU8fx
+- [CLAUDE.md originale](../../CLAUDE.md)
+=======
 - [CLAUDE.md originale](../CLAUDE.md)
+>>>>>>> .merge_file_V3qHjM
 - [Index principale](./index.md)

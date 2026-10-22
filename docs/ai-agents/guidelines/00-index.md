@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "00 index"
 issues: []
 discussions: []
+<<<<<<< .merge_file_U4WRYX
+=======
 status: draft
+>>>>>>> .merge_file_e4GGUF
 ---
 
 # 📖 Guidelines Index
@@ -18,6 +21,18 @@ status: draft
 **Files**: 2 guidelines
 
 ---
+<<<<<<< .merge_file_U4WRYX
+
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_e4GGUF
 ## 🎯 Purpose
 
 Guidelines sono **best practices** e **raccomandazioni** per AI agents.  

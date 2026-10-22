@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "sms provider architecture"
 issues: []
 discussions: []
+<<<<<<< .merge_file_tcF3po
+=======
 status: draft
+>>>>>>> .merge_file_owNDcy
 ---
 
 # Architettura dei Provider SMS 

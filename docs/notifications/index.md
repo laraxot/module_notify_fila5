@@ -22,7 +22,11 @@ related:
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../index.md)
 - [README Modulo Notify](../readme.md)
+<<<<<<< .merge_file_AbH8Os
+- [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
+=======
 - [Documentazione Generale Quaeris](../../../../../docs/README.md)
+>>>>>>> .merge_file_jfv8AE
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione

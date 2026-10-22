@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "html email compatibility"
 issues: []
 discussions: []
+<<<<<<< .merge_file_P9FWUc
+=======
 status: draft
+>>>>>>> .merge_file_yJrT3m
 ---
 
 # Guida alla Compatibilità HTML per Email

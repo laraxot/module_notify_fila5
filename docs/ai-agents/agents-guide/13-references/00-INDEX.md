@@ -48,10 +48,17 @@ discussions: []
 
 - [📋 Parent Directory](bashscripts/ai/.agents/docs/agents-guide/00-INDEX.md)
 - [📋 Master Index](bashscripts/ai/.agents/00-MASTER-INDEX.md)
+<<<<<<< .merge_file_A1Oehn
+- [📋 Rules Index](../rules/00-INDEX.md)
+- [📋 Skills Index](../skills/00-MASTER-INDEX.md)
+- [📋 Workflows Index](../workflows/00-INDEX.md)
+- [📋 Guidelines Index](../guidelines/00-INDEX.md)
+=======
 - [📋 Rules Index](../../rules/00-INDEX.md)
 - [📋 Skills Index](../skills/00-MASTER-INDEX.md)
 - [📋 Workflows Index](../workflows/00-INDEX.md)
 - [📋 Guidelines Index](../../guidelines/00-INDEX.md)
+>>>>>>> .merge_file_oH2wJR
 - [📋 Memories Index](../memories/00-INDEX.md)
 
 ---

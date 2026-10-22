@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "case conflicts"
 issues: []
 discussions: []
+<<<<<<< .merge_file_cpU35U
+=======
 status: draft
+>>>>>>> .merge_file_hUDHLp
 ---
 
 # Case-Insensitive File Conflicts

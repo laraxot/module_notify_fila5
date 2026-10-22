@@ -16,7 +16,10 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
+<<<<<<< .merge_file_i3rCel
+=======
 status: draft
+>>>>>>> .merge_file_pUTCBB
 ---
 # Convenzioni di Naming per Acronimi 
 

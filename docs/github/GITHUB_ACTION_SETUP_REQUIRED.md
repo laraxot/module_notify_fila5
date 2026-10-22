@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "GITHUB ACTION SETUP REQUIRED"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XL20uM
+=======
 status: draft
+>>>>>>> .merge_file_crlAW6
 ---
 
 # 🚨 IMPORTANT: GitHub Action Setup Required
@@ -17,6 +20,18 @@ status: draft
 > **Priority**: HIGH
 
 ---
+<<<<<<< .merge_file_XL20uM
+
+title: "GITHUB ACTION SETUP REQUIRED"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "GITHUB ACTION SETUP REQUIRED"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_crlAW6
 ## ❗ Action Status
 
 **Workflow**: 🔄 Sync Subtrees  

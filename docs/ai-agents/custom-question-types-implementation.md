@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "custom question types implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Dr5qbA
+=======
 status: draft
+>>>>>>> .merge_file_8P4hdc
 ---
 
 # Custom Question Types Implementation - 2026-03-17
@@ -17,6 +20,18 @@ status: draft
 Implementazione completa delle custom question types da Fila4 a Fila5, con integrazione in GetAnswersByQuestionChart e test Pest.
 
 ---
+<<<<<<< .merge_file_Dr5qbA
+
+title: "custom question types implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom question types implementation"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_8P4hdc
 ## Custom Question Types Implementate
 
 ### 1. RootGroupedBf ✅

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "conflict resolution"
 issues: []
 discussions: []
+<<<<<<< .merge_file_XJs8qp
+=======
 status: draft
+>>>>>>> .merge_file_GSgB14
 ---
 
 # Conflict Resolution — Module Notify

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "project overview"
 issues: []
 discussions: []
+<<<<<<< .merge_file_PvxCt3
+=======
 status: draft
+>>>>>>> .merge_file_Wlq1MI
 ---
 
 # Panoramica del Progetto (Claude Context)

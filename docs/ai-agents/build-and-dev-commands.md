@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "build and dev commands"
 issues: []
 discussions: []
+<<<<<<< .merge_file_TXvi2H
+=======
 status: draft
+>>>>>>> .merge_file_rMbv9t
 ---
 
 # Build & development commands

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "implementation notes"
 issues: []
 discussions: []
+<<<<<<< .merge_file_7q6dL6
+=======
 status: draft
+>>>>>>> .merge_file_CpM04E
 ---
 
 # Note di Implementazione Email

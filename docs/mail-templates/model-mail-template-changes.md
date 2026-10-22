@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "model mail template changes"
 issues: []
 discussions: []
+<<<<<<< .merge_file_m551dv
+=======
 status: draft
+>>>>>>> .merge_file_uSJ3l3
 ---
 
 # Modifiche Tecniche al Modello MailTemplate

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "issue subtree sync test"
 issues: []
 discussions: []
+<<<<<<< .merge_file_81AEBS
+=======
 status: draft
+>>>>>>> .merge_file_S5bUEw
 ---
 
 # 🧪 Test: Git Subtree Synchronization
@@ -17,6 +20,18 @@ status: draft
 > **Labels**: `testing`, `subtree`, `sync`, `multi-agent`
 
 ---
+<<<<<<< .merge_file_81AEBS
+
+title: "issue subtree sync test"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "issue subtree sync test"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_S5bUEw
 ## 📋 Overview
 
 This issue tracks the testing of git subtree synchronization between the main repository and module repositories.

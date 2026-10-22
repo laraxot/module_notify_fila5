@@ -8,7 +8,10 @@ type: concept
 tags: [PRD, notify]
 created: 2026-08-04
 updated: 2026-08-04
+<<<<<<< .merge_file_uFZr5v
+=======
 status: draft
+>>>>>>> .merge_file_hg0F6V
 ---
 # Product Requirements Document (PRD) - Notify Module
 

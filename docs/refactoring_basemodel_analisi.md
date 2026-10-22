@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "refactoring basemodel analisi"
 issues: []
 discussions: []
+<<<<<<< .merge_file_PcXiYC
+=======
 status: draft
+>>>>>>> .merge_file_gaWi0P
 ---
 
 # 📋 ANALISI REFACTORING BASEMODEL - Eliminazione Duplicazioni
@@ -18,6 +21,18 @@ status: draft
 **Linee Eliminabili**: ~8,868
 
 ---
+<<<<<<< .merge_file_PcXiYC
+
+title: "refactoring basemodel analisi"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "refactoring basemodel analisi"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_gaWi0P
 ## 🎯 Domanda Iniziale
 
 > "Perciò tutti i BaseModel devono estendere XotBaseModel e togliere i metodi e parametri doppi?"

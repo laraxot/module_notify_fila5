@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "migration changes"
 issues: []
 discussions: []
+<<<<<<< .merge_file_mHh88N
+=======
 status: draft
+>>>>>>> .merge_file_yPTPq3
 ---
 
 # Modifiche alla Migrazione Mail Templates

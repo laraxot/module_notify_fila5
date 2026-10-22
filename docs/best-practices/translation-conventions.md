@@ -16,7 +16,10 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
+<<<<<<< .merge_file_vY02LT
+=======
 status: draft
+>>>>>>> .merge_file_OlY31U
 ---
 # Convenzioni per le Traduzioni del Modulo Notify
 

@@ -70,5 +70,10 @@ return [
 ```
 
 ### Riferimenti
+<<<<<<< .merge_file_WAEsq4
+- [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
+- [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
+=======
 - [TRANSLATION_KEYS_RULES.md](../../Lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/translation_keys_best_practices.md) 
+>>>>>>> .merge_file_hHq490

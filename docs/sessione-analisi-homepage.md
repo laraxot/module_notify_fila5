@@ -8,11 +8,19 @@ qmd: "sessione-analisi-homepage ✅ sessione completata - homepage analysis & do
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_YbHTYB
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_YaFKzY
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -200,9 +208,15 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
+<<<<<<< .merge_file_YbHTYB
+- [Analisi Visiva](docs/screenshots/homepage/analisi-visiva.md)
+- [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
+- [Fix Plan](docs/screenshots/homepage/fix-plan.md)
+=======
 - [Analisi Visiva](screenshots/homepage/analisi-visiva.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
 - [Fix Plan](screenshots/homepage/fix-plan.md)
+>>>>>>> .merge_file_YaFKzY
 - [OpenViking Context](.openvikings/homepage_alignment_context.md)
 
 ### Link Esterni

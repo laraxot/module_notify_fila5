@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_MN6K1u
+=======
 status: draft
+>>>>>>> .merge_file_iCTw7E
 ---
 
 # 🚀 IMMEDIATE ACTION PLAN - 30 DAYS

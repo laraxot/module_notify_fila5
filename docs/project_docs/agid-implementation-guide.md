@@ -16,7 +16,10 @@ related:
   - "./final-implementation-report-1.md"
   - "./final-implementation-report.md"
   - "./final-refactoring-report.md"
+<<<<<<< .merge_file_ZZ5BFL
+=======
 status: draft
+>>>>>>> .merge_file_dXjIA0
 ---
 
 # 🚀 AGID Implementation Guide - Practical Developer Guide

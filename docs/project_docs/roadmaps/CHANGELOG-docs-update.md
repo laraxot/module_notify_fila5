@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "CHANGELOG docs update 2025 10 01"
 issues: []
 discussions: []
+<<<<<<< .merge_file_xJFCd9
+=======
 status: draft
+>>>>>>> .merge_file_btagRn
 ---
 
 # 📚 Docs Update Changelog – 2025-10-01

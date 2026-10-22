@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "metodi duplicati analisi globale"
 issues: []
 discussions: []
+<<<<<<< .merge_file_cRNG0b
+=======
 status: draft
+>>>>>>> .merge_file_vouGUl
 ---
 
 # 🐮 ANALISI GLOBALE METODI DUPLICATI
@@ -18,6 +21,18 @@ status: draft
 **Opportunità Totali**: 76
 
 ---
+<<<<<<< .merge_file_cRNG0b
+
+title: "metodi duplicati analisi globale"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "metodi duplicati analisi globale"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_vouGUl
 ## 🎯 Executive Summary
 
 ### 💰 Impatto Economico

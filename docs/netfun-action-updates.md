@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "netfun action updates"
 issues: []
 discussions: []
+<<<<<<< .merge_file_oHlzYB
+=======
 status: draft
+>>>>>>> .merge_file_RkdJiC
 ---
 
 # Aggiornamenti a SendNetfunSMSAction
@@ -330,4 +333,16 @@ Questi miglioramenti garantiscono:
 5. Configurazione standardizzata e coerente
 
 ---
+<<<<<<< .merge_file_oHlzYB
+
+title: "netfun action updates"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "netfun action updates"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_RkdJiC
 *Ultimo aggiornamento: [DATE]*

@@ -77,6 +77,15 @@ Modules/Notify/
 * [analysis.md](../../../notify/docs/phpstan/analysis.md)
 * [analysis.md](../../../xot/docs/analysis.md)
 * [analysis.md](../../../xot/docs/phpstan/analysis.md)
+<<<<<<< .merge_file_7K4Qx9
+* [analysis.md](../../../user/docs/analysis.md)
+* [analysis.md](../../../user/docs/phpstan/analysis.md)
+* [analysis.md](../../../ui/docs/analysis.md)
+* [analysis.md](../../../ui/docs/phpstan/analysis.md)
+* [analysis.md](../../../job/docs/analysis.md)
+* [analysis.md](../../../job/docs/phpstan/analysis.md)
+* [analysis.md](../../../media/docs/analysis.md)
+=======
 * [analysis.md](../../User/docs/analysis.md)
 * [analysis.md](../../../user/docs/phpstan/analysis.md)
 * [analysis.md](../../../ui/docs/analysis.md)
@@ -84,6 +93,7 @@ Modules/Notify/
 * [analysis.md](../../Job/docs/analysis.md)
 * [analysis.md](../../../job/docs/phpstan/analysis.md)
 * [analysis.md](../../Media/docs/analysis.md)
+>>>>>>> .merge_file_M7lw1R
 * [analysis.md](../../../media/docs/phpstan/analysis.md)
 * [analysis.md](../../../../themes/one/docs/analysis.md)
 

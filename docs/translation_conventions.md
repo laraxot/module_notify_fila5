@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "translation conventions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_YDwtjF
+=======
 status: draft
+>>>>>>> .merge_file_4gVS7M
 ---
 
 # Convenzioni per le Traduzioni del Modulo Notify

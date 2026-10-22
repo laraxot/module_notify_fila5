@@ -16,7 +16,10 @@ related:
   - readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+<<<<<<< .merge_file_IwzC8Q
+=======
 status: draft
+>>>>>>> .merge_file_ksGCwA
 ---
 # Notifiche
 
@@ -201,7 +204,11 @@ related:
   - "./errori-comuni-da-evitare-1.md"
   - "./errori-comuni-da-evitare.md"
   - "./index.md"
+<<<<<<< .merge_file_IwzC8Q
+  - "./multi-channel-notifications-1.md"
+=======
   - "./multi-channel-notifications.md"
+>>>>>>> .merge_file_ksGCwA
   - "./multi-channel-notifications-2.md"
   - "./multi-channel-notifications.md"
   - "./netfun-sms-implementation-1.md"

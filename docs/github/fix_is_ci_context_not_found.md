@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "fix is ci context not found"
 issues: []
 discussions: []
+<<<<<<< .merge_file_TMDOAp
+=======
 status: draft
+>>>>>>> .merge_file_hBSEgc
 ---
 
 # Fix Risolto: Errore `is_ci_context: command not found`
@@ -18,6 +21,18 @@ status: draft
 > **Priorità**: Critica
 
 ---
+<<<<<<< .merge_file_TMDOAp
+
+title: "fix is ci context not found"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "fix is ci context not found"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_hBSEgc
 ## 🚨 Problema
 
 ### Errori Segnalati

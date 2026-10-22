@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "nested resources"
 issues: []
 discussions: []
+<<<<<<< .merge_file_do7C1u
+=======
 status: draft
+>>>>>>> .merge_file_Vng4Qf
 ---
 
 # Notify Module - Nested Resource Implementation Guide

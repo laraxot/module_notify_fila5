@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "development commands"
 issues: []
 discussions: []
+<<<<<<< .merge_file_1ajaqO
+=======
 status: draft
+>>>>>>> .merge_file_6UsdBt
 ---
 
 # Common Development Commands

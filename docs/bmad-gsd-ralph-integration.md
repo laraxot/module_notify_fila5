@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "bmad gsd ralph integration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MERhDp
+=======
 status: draft
+>>>>>>> .merge_file_Ho56cv
 ---
 
 # BMAD + GSD + Ralph Loop Integration Guide
@@ -474,6 +477,18 @@ vendor/bin/phpstan analyse --level=10
 6. ✅ Link documentation with viking:// URIs
 
 ---
+<<<<<<< .merge_file_MERhDp
+
+title: "bmad gsd ralph integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bmad gsd ralph integration"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_Ho56cv
 **Version**: 1.0.0  
 **Last Updated**: 2026-03-30  
 **Status**: Initial Implementation

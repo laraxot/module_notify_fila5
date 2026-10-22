@@ -12,7 +12,10 @@ related:
   - "./database-naming-fix-summary.md"
   - "./database-naming-verification-report.md"
   - "./sqlite-permission-fix.md"
+<<<<<<< .merge_file_9EV6lU
+=======
 status: draft
+>>>>>>> .merge_file_VQN4qK
 ---
 
 # 🚨 CRITICAL BUG: sync_remote_repo.sh Deleted

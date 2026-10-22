@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "DECISIONE BASEMODEL REFACTORING"
 issues: []
 discussions: []
+<<<<<<< .merge_file_97kh2x
+=======
 status: draft
+>>>>>>> .merge_file_ElVnax
 ---
 
 # 🎯 DECISIONE: BaseModel Refactoring - Analisi Approfondita
@@ -17,6 +20,18 @@ status: draft
 **Risposta**: **SÌ, MA CON ECCEZIONI DOCUMENTATE** ✅⚠️
 
 ---
+<<<<<<< .merge_file_97kh2x
+
+title: "DECISIONE BASEMODEL REFACTORING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DECISIONE BASEMODEL REFACTORING"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_ElVnax
 ## 📊 Situazione Attuale (VERIFICATA)
 
 ### Stato dei 18 Moduli

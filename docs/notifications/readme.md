@@ -11,11 +11,18 @@ related:
   - "./errori-comuni-da-evitare-1.md"
   - "./errori-comuni-da-evitare.md"
   - "./index.md"
+<<<<<<< .merge_file_2lwDSb
+  - "./multi-channel-notifications-1.md"
+=======
   - "./multi-channel-notifications.md"
+>>>>>>> .merge_file_rd9pRv
   - "./multi-channel-notifications-2.md"
   - "./multi-channel-notifications.md"
   - "./netfun-sms-implementation-1.md"
   - "./netfun-sms-implementation.md"
+<<<<<<< .merge_file_2lwDSb
+=======
 status: draft
+>>>>>>> .merge_file_rd9pRv
 ---
 

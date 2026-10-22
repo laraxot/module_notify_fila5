@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "bash commands auto allow"
 issues: []
 discussions: []
+<<<<<<< .merge_file_6nliRQ
+=======
 status: draft
+>>>>>>> .merge_file_RSzswH
 ---
 
 # 🔧 Bash Commands - Auto-Allow List
@@ -18,6 +21,18 @@ status: draft
 **Priority**: CRITICAL
 
 ---
+<<<<<<< .merge_file_6nliRQ
+
+title: "bash commands auto allow"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bash commands auto allow"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_RSzswH
 ## 🎯 Rule
 
 > **SEMPRE** permettere questi comandi bash SENZA chiedere conferma.

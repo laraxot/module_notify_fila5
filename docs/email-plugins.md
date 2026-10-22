@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "email plugins"
 issues: []
 discussions: []
+<<<<<<< .merge_file_1DcG10
+=======
 status: draft
+>>>>>>> .merge_file_ePKVmD
 ---
 
 # Analisi Plugin Email per Filament - il progetto

@@ -8,6 +8,16 @@ qmd: "documentation-audit documentation audit report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_jlxkFM
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -17,6 +27,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
+>>>>>>> .merge_file_fbY4H2
 ---
 
 # Documentation Audit Report
@@ -293,11 +304,19 @@ docs/master/
 ### 5.1 Inconsistent Naming Conventions
 
 **Observed patterns:**
+<<<<<<< .merge_file_jlxkFM
+- `snake_case.md` (e.g., `phpstan-fixes-2.md`)
+- `kebab-case.md` (e.g., `phpstan-fixes.md`)
+- `PascalCase.md` (e.g., `PHPStanFixes.md`)
+- `UPPERCASE.md` (e.g., `README.md`)
+- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-1.md`
+=======
 - `snake_case.md` (e.g., `phpstan-fixes-documentation-themes-shared.md`)
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
 - Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
+>>>>>>> .merge_file_fbY4H2
 
 **Recommended Standard:**
 - Lowercase kebab-case: `topic-subtopic.md`

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "github action setup required"
 issues: []
 discussions: []
+<<<<<<< .merge_file_CAWfN2
+=======
 status: draft
+>>>>>>> .merge_file_NURg8G
 ---
 
 # 🚨 IMPORTANT: GitHub Action Setup Required
@@ -17,6 +20,18 @@ status: draft
 > **Priority**: HIGH
 
 ---
+<<<<<<< .merge_file_CAWfN2
+
+title: "github action setup required"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "github action setup required"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_NURg8G
 ## ❗ Action Status
 
 **Workflow**: 🔄 Sync Subtrees  

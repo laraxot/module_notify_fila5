@@ -9,7 +9,10 @@ issues: []
 discussions: []
 name: llm-wiki rule
 description: Ensure every module and theme includes a `docs/wiki/` directory and related llm‑wiki scaffolding.
+<<<<<<< .merge_file_LIvVVx
+=======
 status: draft
+>>>>>>> .merge_file_D7rAee
 ---
 
 # LLM‑Wiki Rule

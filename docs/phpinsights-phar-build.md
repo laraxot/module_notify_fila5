@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_Kss0w7
+=======
 status: draft
+>>>>>>> .merge_file_sGp4C8
 ---
 
 # Build PHPInsights .phar

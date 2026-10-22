@@ -8,11 +8,19 @@ qmd: "mcp-servers mcp servers - master index"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_c1iGdh
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_K7SflL
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -151,7 +159,11 @@ Main config: `laravel/.mcp.json`
 
 ### Editor Configuration
 - **Cursor**: Uses `.mcp.json` automatically
+<<<<<<< .merge_file_c1iGdh
+- **Windsurf**: Import from [Xot Windsurf Config](../Modules/Xot/docs/windsurf-mcp-config.json)
+=======
 - **Windsurf**: Import from [Xot Windsurf Config](../../Xot/docs/windsurf-mcp-config.json)
+>>>>>>> .merge_file_K7SflL
 - **Claude Desktop**: Copy config to `claude_desktop_config.json`
 
 ### Environment Variables

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "pre commit checklist"
 issues: []
 discussions: []
+<<<<<<< .merge_file_WV8QcK
+=======
 status: draft
+>>>>>>> .merge_file_GQnq3Y
 ---
 
 # 13. Pre-Commit Checklist
@@ -28,3 +31,14 @@ Before committing or pushing:
 - [ ] JSON pages for dynamic content
 
 ---
+<<<<<<< .merge_file_WV8QcK
+title: "pre commit checklist"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pre commit checklist"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_GQnq3Y

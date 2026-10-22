@@ -16,7 +16,10 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
+<<<<<<< .merge_file_r2IIJ8
+=======
 status: draft
+>>>>>>> .merge_file_zAo2wq
 ---
 
 # ✅ FixCity Improvement Plan - START HERE

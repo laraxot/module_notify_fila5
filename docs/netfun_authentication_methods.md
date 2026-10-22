@@ -76,8 +76,13 @@ public function send($notifiable, Notification $notification)
 
 ## Collegamenti
 
+<<<<<<< .merge_file_UI2jpt
+- [Documentazione Netfun SMS Channel](./SMS_NETFUN_CHANNEL.md)
+- [Requisiti di Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
+=======
 - [Documentazione Netfun SMS Channel](./sms_netfun_channel.md)
 - [Requisiti di Configurazione Netfun](./netfun_config_requirements.md)
+>>>>>>> .merge_file_79iqcJ
 
 ---
 

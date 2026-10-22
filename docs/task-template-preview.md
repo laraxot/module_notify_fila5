@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "task template preview"
 issues: []
 discussions: []
+<<<<<<< .merge_file_gRMLkf
+=======
 status: draft
+>>>>>>> .merge_file_rssqCV
 ---
 
 # Task: Implementare Template Preview - Notify
@@ -17,6 +20,18 @@ status: draft
 **Completamento**: 20%
 
 ---
+<<<<<<< .merge_file_gRMLkf
+
+title: "task template preview"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task template preview"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_rssqCV
 ## Descrizione
 
 Aggiungere preview real-time dei template email/SMS nell'admin Filament.

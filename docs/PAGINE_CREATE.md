@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "PAGINE CREATE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_yT0F3B
+=======
 status: draft
+>>>>>>> .merge_file_6WvCgS
 ---
 
 # Pagine Create - FixCity Sixteen Theme

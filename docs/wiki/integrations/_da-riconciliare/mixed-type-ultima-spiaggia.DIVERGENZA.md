@@ -8,7 +8,10 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_48fpkT
+=======
 status: draft
+>>>>>>> .merge_file_8iFSUP
 ---
 
 # Divergenza: `mixed-type-ultima-spiaggia.md`

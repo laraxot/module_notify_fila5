@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_YefT79
+=======
 status: draft
+>>>>>>> .merge_file_5pFUwm
 ---
 
 # Dependency Injection Pattern in QueueableActions

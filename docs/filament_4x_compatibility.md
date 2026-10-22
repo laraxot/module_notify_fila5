@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "filament 4x compatibility"
 issues: []
 discussions: []
+<<<<<<< .merge_file_BqGYox
+=======
 status: draft
+>>>>>>> .merge_file_p5JwbL
 ---
 
 # Compatibilità Filament 4.x - Modulo Notify

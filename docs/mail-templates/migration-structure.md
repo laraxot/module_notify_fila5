@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "migration structure"
 issues: []
 discussions: []
+<<<<<<< .merge_file_d4iBUn
+=======
 status: draft
+>>>>>>> .merge_file_sWBh2d
 ---
 
 # Struttura della Migrazione MailTemplate

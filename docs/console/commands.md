@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "commands"
 issues: []
 discussions: []
+<<<<<<< .merge_file_A60h3I
+=======
 status: draft
+>>>>>>> .merge_file_LN7N6x
 ---
 
 # 🔧 Console Commands FixCity
@@ -295,6 +298,18 @@ dev:reset-demo
 ```
 
 ---
+<<<<<<< .merge_file_A60h3I
+
+title: "commands"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "commands"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_LN7N6x
 ## 🚨 REGOLA CRITICA - Frontend
 
 **MAI dimenticare dopo modifiche CSS/JS**:

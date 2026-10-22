@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "PROJECT ROADMAP"
 issues: []
 discussions: []
+<<<<<<< .merge_file_hMXszs
+=======
 status: draft
+>>>>>>> .merge_file_tfit4a
 ---
 
 # ROADMAP PRINCIPALE - Progetto Fixcity

@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_y1kmH1
+=======
 status: draft
+>>>>>>> .merge_file_vC8jZl
 ---
 
 # Analisi Funzionalità Mancanti - Modulo Notify

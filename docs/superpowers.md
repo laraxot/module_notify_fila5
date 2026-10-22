@@ -152,4 +152,8 @@ skill tool → list skills → cerca superpowers/*
 - [Superpowers Blog](https://blog.fsck.com/2025/10/09/superpowers/)
 - [OpenCode Install Docs](https://github.com/obra/superpowers/blob/main/docs/README.opencode.md)
 - [Discord Community](https://discord.gg/Jd8Vphy9jq)
+<<<<<<< .merge_file_ZkcTAu
+- [PLUGINS_AND_SKILLS.md](../../.opencode/PLUGINS_AND_SKILLS.md)
+=======
 - [PLUGINS_AND_SKILLS.md](../../../../.opencode/PLUGINS_AND_SKILLS.md)
+>>>>>>> .merge_file_sNz5Sh

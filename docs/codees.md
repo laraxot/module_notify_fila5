@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_braqEd
+=======
 status: draft
+>>>>>>> .merge_file_VsjnS2
 ---
 
 # Notify Module - Code Fixes & Improvements (2025)

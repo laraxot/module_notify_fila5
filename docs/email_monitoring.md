@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "email monitoring"
 issues: []
 discussions: []
+<<<<<<< .merge_file_uTGxyC
+=======
 status: draft
+>>>>>>> .merge_file_wrm6mV
 ---
 
 # Sistema Monitoraggio Email 

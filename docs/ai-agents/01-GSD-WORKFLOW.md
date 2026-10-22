@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "01 GSD WORKFLOW"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MAsNF5
+=======
 status: draft
+>>>>>>> .merge_file_fRM1Kp
 ---
 
 # 🚀 GSD Workflow (Get Shit Done)
@@ -16,6 +19,18 @@ status: draft
 **Related**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md) — BMAD Method
 
 ---
+<<<<<<< .merge_file_MAsNF5
+
+title: "01 GSD WORKFLOW"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "01 GSD WORKFLOW"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_fRM1Kp
 ## 📋 Overview
 
 GSD is a spec-driven development system for AI coding agents.

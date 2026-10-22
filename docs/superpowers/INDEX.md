@@ -16,7 +16,10 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+<<<<<<< .merge_file_Pgh22K
+=======
 status: draft
+>>>>>>> .merge_file_SCheJa
 ---
 # 🦸 Superpowers Framework Index
 

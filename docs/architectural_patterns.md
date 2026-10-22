@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "architectural patterns"
 issues: []
 discussions: []
+<<<<<<< .merge_file_r2NmZT
+=======
 status: draft
+>>>>>>> .merge_file_W4lsbL
 ---
 
 # Pattern Architetturali per le Notifiche

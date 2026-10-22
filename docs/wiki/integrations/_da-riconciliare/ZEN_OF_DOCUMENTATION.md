@@ -379,8 +379,13 @@ python scripts/run.py ask_question.py \
 
 ## 📚 Risorse Correlate
 
+<<<<<<< .merge_file_bk68yz
+- [Documentation Governance](../../docs/DOCUMENTATION_GOVERNANCE.md)
+- [Multi-Agent Collaboration](../../docs/MULTI_AGENT_COLLABORATION.md)
+=======
 - [Documentation Governance](../../../DOCUMENTATION_GOVERNANCE.md)
 - [Multi-Agent Collaboration](../../../MULTI_AGENT_COLLABORATION.md)
+>>>>>>> .merge_file_vysM3i
 - [Filament Blocks System](../blocks/content-blocks-system.md)
 - [OpenViking Global Context](../../bashscripts/ai/openviking.md)
 

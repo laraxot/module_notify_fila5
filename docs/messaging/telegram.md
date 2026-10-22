@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "telegram"
 issues: []
 discussions: []
+<<<<<<< .merge_file_RCyX45
+=======
 status: draft
+>>>>>>> .merge_file_Ox2NGd
 ---
 
 # Telegram Bot Integration

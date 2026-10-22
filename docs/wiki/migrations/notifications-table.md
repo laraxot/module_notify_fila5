@@ -8,7 +8,10 @@ qmd: "create_notifications_table Notify XotBaseMigration user connection"
 issues: []
 discussions: []
 related:
+<<<<<<< .merge_file_VuC1w2
+=======
 status: draft
+>>>>>>> .merge_file_sSraco
 ---
 
 # notifications — migrazione

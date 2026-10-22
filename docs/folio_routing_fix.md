@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_T41Knf
+=======
 status: draft
+>>>>>>> .merge_file_hk30kN
 ---
 
 # 🔧 Fix Routing Folio per Login Page

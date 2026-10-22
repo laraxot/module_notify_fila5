@@ -16,7 +16,10 @@ related:
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
   - "./docs-governance.md"
+<<<<<<< .merge_file_McWy2j
+=======
 status: draft
+>>>>>>> .merge_file_zWjUjh
 ---
 
 # feat: PHPStan MAX Level - Codice Produzione a 0 Errori

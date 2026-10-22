@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "01 current state"
 issues: []
 discussions: []
+<<<<<<< .merge_file_3EXn64
+=======
 status: draft
+>>>>>>> .merge_file_pK3oFD
 ---
 
 # Current State - Notify

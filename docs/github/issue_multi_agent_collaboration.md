@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "issue multi agent collaboration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_0MfnDp
+=======
 status: draft
+>>>>>>> .merge_file_KHP4Lh
 ---
 
 # Multi-Agent Collaboration: Sync Remote Repo Documentation
@@ -17,6 +20,18 @@ status: draft
 > **Status**: ✅ Documentation Created, Pending bashscripts Subtree Sync
 
 ---
+<<<<<<< .merge_file_0MfnDp
+
+title: "issue multi agent collaboration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "issue multi agent collaboration"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_KHP4Lh
 ## 🎯 Mission
 
 Create comprehensive documentation for `bashscripts/git/subtrees/sync_remote_repo.sh` that:

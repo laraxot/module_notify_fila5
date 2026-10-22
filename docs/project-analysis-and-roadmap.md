@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "project analysis and roadmap"
 issues: []
 discussions: []
+<<<<<<< .merge_file_GPkzlu
+=======
 status: draft
+>>>>>>> .merge_file_1SWhGk
 ---
 
 # FixCity - Analisi Completa del Progetto e Roadmap
@@ -17,6 +20,18 @@ status: draft
 **Versione**: 1.0
 
 ---
+<<<<<<< .merge_file_GPkzlu
+
+title: "project analysis and roadmap"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "project analysis and roadmap"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_1SWhGk
 ## 🎯 SCOPO DEL PROGETTO
 
 ### Cos'è FixCity?

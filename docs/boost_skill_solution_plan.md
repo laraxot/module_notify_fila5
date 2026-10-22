@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "boost skill solution plan"
 issues: []
 discussions: []
+<<<<<<< .merge_file_wME2px
+=======
 status: draft
+>>>>>>> .merge_file_Z7AMNL
 ---
 
 # Boost Skill Installation - Solution Plan

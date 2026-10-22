@@ -420,6 +420,23 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 - **[Project Analysis & Roadmap](./project-analysis-and-roadmap.md)** ⭐ BUSINESS VIEW
 - **[Session Summary 2025-10-01](./phpstan/session-summary-2025-10-01.md)** ⭐ TECHNICAL
 - **[Final Report 2025-10-01](./phpstan/final-report-session-2025-10-01.md)**
+<<<<<<< .merge_file_VDsG6p
+- **[Questo Documento](./ANALISI-COMPLETA-2025-10-01.md)** ⭐ EXECUTIVE
+
+### 🎯 Module Roadmaps (Dettagliate)
+- [Xot - Core Framework](../Modules/Xot/docs/roadmap-and-issues.md) - 9 errori, 2.5h fix
+- [User - Auth & Profiles](../Modules/User/docs/roadmap-and-issues.md) - 95 errori, 6h fix
+- [Fixcity - Business Logic](../Modules/Fixcity/docs/roadmap-and-issues.md) - N+1 queries, features
+- [AI - Artificial Intelligence](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization
+- [Notify - Notifications](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time, push
+- [Geo - Geographic](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
+- [UI - Components](../Modules/UI/docs/roadmap-and-issues.md) - Accessibility
+- [Activity - Audit](../Modules/Activity/docs/roadmap-and-issues.md) - Analytics
+- [Cms - Content](../Modules/Cms/docs/roadmap-and-issues.md) - Page builder
+
+### 🎨 Theme Roadmaps
+- [Sixteen - Frontend Theme](../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
+=======
 - **[Questo Documento](./analisi-completa-ottobre-data.md)** ⭐ EXECUTIVE
 
 ### 🎯 Module Roadmaps (Dettagliate)
@@ -435,6 +452,7 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### 🎨 Theme Roadmaps
 - [Sixteen - Frontend Theme](../../../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
+>>>>>>> .merge_file_iFNYyY
 
 ### 📖 Main Docs
 - [Index Principale](./index.md)

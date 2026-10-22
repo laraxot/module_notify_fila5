@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "factory pattern analysis"
 issues: []
 discussions: []
+<<<<<<< .merge_file_sxvlQz
+=======
 status: draft
+>>>>>>> .merge_file_I8r2Yp
 ---
 
 # Analisi del Pattern Factory per le Notifiche

@@ -16,7 +16,11 @@ related:
   - ../../../../../../docs/bmad/stories/3.2.notify-xotbasepest-phpstan.story.md
   - ../../../../../../bmad-output/architecture.md
   - ../../../Xot/docs/wiki/concepts/phpstan-pest-bridge-discipline.md
+<<<<<<< .merge_file_GtUB3i
+  - ../../../Xot/tests/XotBasePest.php
+=======
   - ../../../../Xot/tests/XotBasePest.php
+>>>>>>> .merge_file_OYiSox
 tags: [pest, xotbasepest, phpstan, testing]
 ---
 

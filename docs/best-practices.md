@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "best practices"
 issues: []
 discussions: []
+<<<<<<< .merge_file_PHYA6E
+=======
 status: draft
+>>>>>>> .merge_file_Ml8ayV
 ---
 
 # Best Practices e Raccomandazioni

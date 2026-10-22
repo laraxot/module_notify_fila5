@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "spatie database mail templates"
 issues: []
 discussions: []
+<<<<<<< .merge_file_TUz85o
+=======
 status: draft
+>>>>>>> .merge_file_Do0fLR
 ---
 
 # Integrazione con Spatie Laravel Database Mail Templates

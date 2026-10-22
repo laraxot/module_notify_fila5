@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "gap analysis implementation"
 issues: []
 discussions: []
+<<<<<<< .merge_file_BLHfOo
+=======
 status: draft
+>>>>>>> .merge_file_LLLq0m
 ---
 
 # 🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN
@@ -17,6 +20,18 @@ status: draft
 **Status**: 🚀 READY TO IMPLEMENT  
 
 ---
+<<<<<<< .merge_file_BLHfOo
+
+title: "gap analysis implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "gap analysis implementation"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_LLLq0m
 ## 🎯 SCOPO DEL PROGETTO
 
 ### Business Goal

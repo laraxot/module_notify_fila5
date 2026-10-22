@@ -19,7 +19,11 @@ related:
 ---
 # Laravel Boost Guidelines (../../../../docs/CLAUDE.md) Index
 
+<<<<<<< .merge_file_eLI6aN
+**Source**: [`docs/../../../../docs/CLAUDE.md`](../../../../../../docs/../../../../docs/CLAUDE.md) (833 lines)  
+=======
 **Source**: [`docs/../../../../docs/CLAUDE.md`](../../../../../../../docs/CLAUDE.md) (833 lines)  
+>>>>>>> .merge_file_wFyPi1
 **Split Into**: 20 focused files  
 **Last Updated**: 2026-04-11  
 
@@ -90,21 +94,34 @@ related:
 ## Cross-References
 
 ### Related Documentation
+<<<<<<< .merge_file_eLI6aN
+- ← [BMad Agents Index](../../agents/index.md) — 10 agent definitions
+=======
 - ← [BMad Agents Index](../agents/index.md) — 10 agent definitions
+>>>>>>> .merge_file_wFyPi1
 - ← [BMad Tasks Index](../tasks/index.md) — 22 reusable tasks
 - ← [GEMINI Index](../gemini/index.md) — Gemini-specific rules
 - ← [Main AI Docs Index](../index.md) — Master index
 
 ### Bidirectional Links
 - ← Back to [Main AI Docs Index](../index.md)
+<<<<<<< .merge_file_eLI6aN
+- ← Back to [../../../../docs/CLAUDE.md](../../../../../../docs/../../../../docs/CLAUDE.md) (original source)
+- ← Back to [Project Docs](../../../docs/README.md)
+=======
 - ← Back to [../../../../docs/CLAUDE.md](../../../../../../../docs/CLAUDE.md) (original source)
 - ← Back to [Project Docs](../../../README.md)
+>>>>>>> .merge_file_wFyPi1
 
 ---
 
 ## Usage
 
+<<<<<<< .merge_file_eLI6aN
+These guidelines are automatically loaded by Claude/Laravel Boost MCP. For manual reference, see the original [`docs/../../../../docs/CLAUDE.md`](../../../../../../docs/../../../../docs/CLAUDE.md).
+=======
 These guidelines are automatically loaded by Claude/Laravel Boost MCP. For manual reference, see the original [`docs/../../../../docs/CLAUDE.md`](../../../../../../../docs/CLAUDE.md).
+>>>>>>> .merge_file_wFyPi1
 
 ---
 

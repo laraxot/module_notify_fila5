@@ -16,7 +16,10 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
+<<<<<<< .merge_file_RDEjB6
+=======
 status: draft
+>>>>>>> .merge_file_zvwhdD
 ---
 
 # STATE: Notify Platform

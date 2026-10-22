@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "REFACTORING BASEMODEL ANALISI"
 issues: []
 discussions: []
+<<<<<<< .merge_file_RTOoz4
+=======
 status: draft
+>>>>>>> .merge_file_ARgIqH
 ---
 
 # 📋 ANALISI REFACTORING BASEMODEL - Eliminazione Duplicazioni
@@ -18,6 +21,18 @@ status: draft
 **Linee Eliminabili**: ~8,868
 
 ---
+<<<<<<< .merge_file_RTOoz4
+
+title: "REFACTORING BASEMODEL ANALISI"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "REFACTORING BASEMODEL ANALISI"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_ARgIqH
 ## 🎯 Domanda Iniziale
 
 > "Perciò tutti i BaseModel devono estendere XotBaseModel e togliere i metodi e parametri doppi?"

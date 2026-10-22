@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "iflow split index"
 issues: []
 discussions: []
+<<<<<<< .merge_file_QlA0PF
+=======
 status: draft
+>>>>>>> .merge_file_zeVR5T
 ---
 
 # IFLOW.md Split Index

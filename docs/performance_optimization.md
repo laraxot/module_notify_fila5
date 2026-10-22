@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "performance optimization"
 issues: []
 discussions: []
+<<<<<<< .merge_file_DbryYh
+=======
 status: draft
+>>>>>>> .merge_file_qttrAM
 ---
 
 # Analisi e Ottimizzazione delle Performance

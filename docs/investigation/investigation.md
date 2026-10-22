@@ -2,10 +2,13 @@
 type: investigation
 title: "Investigation Email Deliverability"
 links: {github_issue: #XXX}
+<<<<<<< .merge_file_4RIh5k
+=======
 status: draft
 updated: 2026-10-08
 tags: [docs, notify, investigation]
 qmd: "investigation: email deliverability notify"
+>>>>>>> .merge_file_U412MC
 ---
 # Investigation: Email Deliverability
 

@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_LUYzAl
+=======
 status: draft
+>>>>>>> .merge_file_4NdCsS
 ---
 
 # Multi-Agent Collaboration Rules & Guidelines

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "module docs index"
 issues: []
 discussions: []
+<<<<<<< .merge_file_PoFcP8
+=======
 status: draft
+>>>>>>> .merge_file_4RVKVi
 ---
 
 # Master Documentation Index - FixCity Fila5
@@ -18,6 +21,18 @@ status: draft
 **Total Docs:** 7,137+ markdown files  
 
 ---
+<<<<<<< .merge_file_PoFcP8
+
+title: "module docs index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "module docs index"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_4RVKVi
 ## 🎯 Purpose
 
 Questo documento crea un **sistema di indicizzazione centrale** con collegamenti bidirezionali tra:

@@ -34,4 +34,8 @@ updated: 2026-09-26
 qmd: "guidelines"
 issues: []
 discussions: []
+<<<<<<< .merge_file_iW86d6
+[Back to index](../index.md) | [Overview](project-overview.md) | [Links](links.md)
+=======
 [Back to index](../../../index.md) | [Overview](project-overview.md) | [Links](links.md)
+>>>>>>> .merge_file_rKUYBS

@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "boost integration"
 issues: []
 discussions: []
+<<<<<<< .merge_file_CV7ISN
+=======
 status: draft
+>>>>>>> .merge_file_tpSK0y
 ---
 
 <laravel-boost-guidelines>
@@ -151,6 +154,18 @@ Laravel Boost is currently in beta and receives frequent updates. Always leverag
 
 
 ---
+<<<<<<< .merge_file_CV7ISN
+
+title: "boost integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "boost integration"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_tpSK0y
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

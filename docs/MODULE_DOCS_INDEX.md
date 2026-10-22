@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "MODULE DOCS INDEX"
 issues: []
 discussions: []
+<<<<<<< .merge_file_CytbnU
+=======
 status: draft
+>>>>>>> .merge_file_5z6lqG
 ---
 
 # Master Documentation Index - FixCity Fila5
@@ -18,6 +21,18 @@ status: draft
 **Total Docs:** 7,137+ markdown files  
 
 ---
+<<<<<<< .merge_file_CytbnU
+
+title: "MODULE DOCS INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MODULE DOCS INDEX"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_5z6lqG
 ## 🎯 Purpose
 
 Questo documento crea un **sistema di indicizzazione centrale** con collegamenti bidirezionali tra:

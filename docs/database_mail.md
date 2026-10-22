@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "database mail"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MzH25F
+=======
 status: draft
+>>>>>>> .merge_file_wUg32L
 ---
 
 # Database Mail System
@@ -24,6 +27,18 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 - [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
 
 ---
+<<<<<<< .merge_file_MzH25F
+
+title: "database mail"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "database mail"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_wUg32L
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
 - [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)

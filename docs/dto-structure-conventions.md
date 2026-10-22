@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "dto structure conventions"
 issues: []
 discussions: []
+<<<<<<< .merge_file_NPHINo
+=======
 status: draft
+>>>>>>> .merge_file_U5wy09
 ---
 
 # Convenzioni per la Struttura dei DTO nel Modulo Notify
@@ -171,4 +174,16 @@ Prima di creare un nuovo DTO, verificare che:
 - [Laravel Data Transfer Objects Best Practices](https://laravel.com/docs/10.x/eloquent-serialization#data-transfer-objects)
 
 ---
+<<<<<<< .merge_file_NPHINo
+
+title: "dto structure conventions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dto structure conventions"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_U5wy09
 *Ultimo aggiornamento: [DATE]*

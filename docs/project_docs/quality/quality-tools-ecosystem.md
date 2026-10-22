@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "quality tools ecosystem"
 issues: []
 discussions: []
+<<<<<<< .merge_file_qRvdyO
+=======
 status: draft
+>>>>>>> .merge_file_JHGfgq
 ---
 
 # 🔧 ECOSISTEMA STRUMENTI QUALITÀ - FIXCITY PLATFORM
@@ -716,6 +719,18 @@ jobs:
 - **Documentation Status**: Stato documentazione
 
 ---
+<<<<<<< .merge_file_qRvdyO
+
+title: "quality tools ecosystem"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "quality tools ecosystem"
+issues: []
+discussions: []
+=======
+>>>>>>> .merge_file_JHGfgq
 **🔄 Ultimo Aggiornamento**: Gennaio 2025  
 **📊 Status**: Sistema in sviluppo  
 **🎯 Prossimo Milestone**: Setup Base (Settimana 1)  

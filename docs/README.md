@@ -1,9 +1,18 @@
 ---
+<<<<<<< .merge_file_Y0HMcP
+qmd: "README"
+=======
 qmd: "notify docs README ownership mappa del codice canali limiti verificati"
+>>>>>>> .merge_file_DcalKR
 issues: []
 discussions: []
 title: "Notify Module Documentation"
 type: documentation
+<<<<<<< .merge_file_Y0HMcP
+tags: [module, documentation]
+created: 2026-06-05
+updated: 2026-08-02
+=======
 status: active
 tags: [module, documentation]
 created: 2026-06-05
@@ -11,14 +20,137 @@ updated: 2026-10-20
 related:
   - ./00-INDEX.md
   - ./stories/docs-ingressi-notify.story.md
+<<<<<<< .merge_file_SG4Svw
   - ./bmad/decision-log.md
   - ./bmad/filament-blueprint.md
+=======
+>>>>>>> .merge_file_DcalKR
+>>>>>>> .merge_file_nsLc1U
 ---
 
 # Documentation
 
+<<<<<<< .merge_file_SG4Svw
 **Scopo:** Notify e' il motore di consegna multi-canale del monorepo: un owner di dominio decide *cosa* e *a chi*, Notify decide *come* (factory/driver, template, log, preferenze) senza duplicare transport in Fixcity o nel tema.
 
+=======
+<<<<<<< .merge_file_Y0HMcP
+This directory contains documentation for the Notify module.
+
+## Structure
+
+- **architecture.md** - Module architecture and design patterns
+- **README.md** - This file
+
+## Guidelines
+
+Documentation should be:
+- Clear and concise
+- Example-driven
+- Updated with code changes
+- Use Markdown format (.md)
+
+## Sistemi di Notificazione
+
+- Mail notifications
+- Database notifications
+- Template management
+- Queue integration
+
+## Modelli Principali (verificato 2026-07-24 contro `app/Models/`)
+
+```php
+Modules\Notify\Models\MailTemplate
+Modules\Notify\Models\MailTemplateVersion
+Modules\Notify\Models\MailTemplateLog
+Modules\Notify\Models\Notification
+Modules\Notify\Models\NotificationLog
+Modules\Notify\Models\NotificationType
+Modules\Notify\Models\NotificationChannel
+Modules\Notify\Models\NotificationTemplate
+Modules\Notify\Models\NotificationTemplateVersion
+```
+
+## Traits
+
+> **Verificato 2026-07-24**: `Modules\Notify\Models\Traits\HasNotify` **non esiste** (unico trait presente in
+> `app/Models/Traits/` è `HasContact.php`). Se questo trait serve, va creato, non documentato come
+> già presente.
+
+## Collegamenti
+
+- [Xot Base](../Xot/docs/) - Core framework
+- [User Module](../User/docs/) - User management integration
+
+## Risorse
+
+- [PHPStan Config](./phpstan/) - Type checking configuration
+- [On-Demand Pattern](./on-demand-pattern.md) — Pattern per caricamento efficiente
+- [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
+- [Performance](./performance-optimization.md) — Metriche e best practice
+- [Project Structure](./project-structure.md) — Directory layout
+
+---
+
+<!-- Merged from readme.md, which collided with this file on case-insensitive filesystems. -->
+
+---
+title: "Modulo Notify - Documentazione"
+type: index
+tags: [notify, docs]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione readme modulo notify - documentazione index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - README.md
+  - wiki/index.md
+  - notifications/readme.md
+  - integrations/readme.md
+  - templates/readme.md
+---
+# Modulo Notify - Documentazione
+
+## 📚 Overview
+
+Il modulo **Notify** è il sistema centrale per **email, notifiche, SMS e comunicazioni** nel framework Laraxot.  
+Supporta template dinamici, allegati binari, multi-canale e integrazione completa con Spatie Laravel Mail Templates.
+
+---
+
+## 🎯 Funzionalità Principali
+
+### 1. **Sistema Email con Template Database**
+- Template email salvati su database (Spatie Mail Templates)
+- Placeholder dinamici con Mustache
+- Supporto HTML/Text/SMS
+- Preview email in admin panel
+
+### 2. **Allegati Email Avanzati**
+- ⭐ **Allegati da contenuto binario** (PDF generati al volo)
+- Allegati da file esistenti
+- Multiple attachment support
+- Auto-detection MIME types
+
+### 3. **Multi-Channel Notifications**
+- Email (SMTP, Mailgun, SES, ecc.)
+- SMS (Twilio, Vonage, ecc.)
+- WhatsApp (Twilio API)
+- Database notifications
+
+### 4. **Integrazione Filament**
+- Admin panel per gestione template
+- Preview email real-time
+- Testing tools integrati
+
+---
+
+=======
+>>>>>>> .merge_file_nsLc1U
 Cartella `docs/` del modulo Notify. Indice operativo (directory canoniche, evidence, famiglie dei file della radice):
 [00-INDEX.md](./00-INDEX.md). Hub BMAD: [bmad/decision-log.md](./bmad/decision-log.md), [bmad/filament-blueprint.md](./bmad/filament-blueprint.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
 `ls` e `grep` su `laravel/Modules/Notify`.
@@ -189,6 +321,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 
 ---
 
+>>>>>>> .merge_file_DcalKR
 ## 📖 Documentazione Disponibile
 
 ### Guide Complete
@@ -200,7 +333,11 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 - **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
   Sistema template email database
 
+<<<<<<< .merge_file_Y0HMcP
+- **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
+=======
 - **[Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)**  
+>>>>>>> .merge_file_DcalKR
   Best practices layout email
 
 #### Notifications
@@ -229,7 +366,12 @@ Modules/Notify/
 │   │  
 │   ├── Notifications/
 │   │   ├── RecordNotification.php       ⭐ Notifica generica per record
+<<<<<<< .merge_file_Y0HMcP
+│   │   ├── ThemeNotification.php
+│   │   └── SendSchedeNotification.php
+=======
 │   │   └── ThemeNotification.php        # (SendSchedeNotification.php citato in passato: non esiste)
+>>>>>>> .merge_file_DcalKR
 │   │  
 │   ├── Datas/
 │   │   ├── EmailData.php                # DTO Email
@@ -388,7 +530,11 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
+<<<<<<< .merge_file_Y0HMcP
+**Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
+=======
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura: cifra senza fonte, non verificata il 2026-10-14)  
+>>>>>>> .merge_file_DcalKR
 **Prossimi passi**: Completamento test modelli base  
 **Changelog**: [changelog.md](./CHANGELOG.md)
 
@@ -397,6 +543,17 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Moduli Correlati
 
 #### Ptv (Schede Valutazione)
+<<<<<<< .merge_file_Y0HMcP
+- **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
+  Caso d'uso completo: invio schede valutazione con PDF
+
+- **[SendMailByRecord Action](../../Ptv/app/Actions/Scheda/SendMailByRecord.php)**  
+  Implementation reference
+
+#### Xot (Core Framework)
+- **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
+  Generazione PDF binario da record
+=======
 - Il modulo `Ptv` non e' presente in questo repository (verificato 2026-10-14: `laravel/Modules/` non lo contiene).
   I due riferimenti che seguivano (`Ptv/docs/pdf-email-attachments-complete-guide.md` e
   `Ptv/app/Actions/Scheda/SendMailByRecord.php`) sono stati ridotti a testo perche' i bersagli non esistono qui.
@@ -404,6 +561,7 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 #### Xot (Core Framework)
 - **[GetPdfContentByRecordAction](../../Xot/app/Actions/Pdf/GetPdfContentByRecordAction.php)**  
   Generazione PDF binario da record (codice; la guida `Xot/docs/actions/pdf-content-generation-technical.md` non esiste)
+>>>>>>> .merge_file_DcalKR
 
 - **[PDF Actions](../../Xot/app/Actions/Pdf/)**  
   Actions per gestione PDF
@@ -411,6 +569,15 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Documentazione Interna
 
 #### Email System
+<<<<<<< .merge_file_Y0HMcP
+- [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+- [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
+
+#### Notifications
+- [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
+- [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
+=======
 - [Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)
 - [Spatie Mail Templates Structure](./mail-templates/spatie_mail_templates_structure.md)
 - [Email Troubleshooting](./email-sending/email_troubleshooting.md)
@@ -418,6 +585,7 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 #### Notifications
 - [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
 - Notification Management Business Logic: la pagina `notifications/notification-management-business-logic.md` non esiste; il comportamento e' coperto da `tests/Feature/NotificationManagementBusinessLogicTest.php`
+>>>>>>> .merge_file_DcalKR
 
 ---
 

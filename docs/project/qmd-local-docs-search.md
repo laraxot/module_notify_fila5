@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "qmd local docs search"
 issues: []
 discussions: []
+<<<<<<< .merge_file_jiJzh0
+=======
 status: draft
+>>>>>>> .merge_file_F84oUR
 ---
 
 # QMD — ricerca locale su documentazione e note

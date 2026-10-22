@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_Qq7Aj3
+=======
 status: draft
+>>>>>>> .merge_file_uCwmmm
 ---
 
 # Stato Attuale del Lavoro - 12 Maggio 2025

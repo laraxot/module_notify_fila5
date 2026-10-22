@@ -8,7 +8,10 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+<<<<<<< .merge_file_R1EvSf
+=======
 status: draft
+>>>>>>> .merge_file_n2x4l6
 ---
 
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
