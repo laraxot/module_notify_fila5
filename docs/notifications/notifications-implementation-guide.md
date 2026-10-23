@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "notifications implementation guide"
 issues: []
 discussions: []
-<<<<<<< .merge_file_3iooru
-=======
 status: draft
->>>>>>> .merge_file_js7dPQ
 ---
 
 # Guida all'Implementazione delle Notifiche 

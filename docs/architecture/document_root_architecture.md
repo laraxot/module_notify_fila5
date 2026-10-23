@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "document root architecture"
 issues: []
 discussions: []
-<<<<<<< .merge_file_32uJUF
-=======
 status: draft
->>>>>>> .merge_file_5F7ZgL
 ---
 
 # Document Root Architecture

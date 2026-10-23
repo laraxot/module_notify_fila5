@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "implementation notes"
 issues: []
 discussions: []
-<<<<<<< .merge_file_hELgma
-=======
 status: draft
->>>>>>> .merge_file_LiQkDE
 ---
 
 # Note di Implementazione Email

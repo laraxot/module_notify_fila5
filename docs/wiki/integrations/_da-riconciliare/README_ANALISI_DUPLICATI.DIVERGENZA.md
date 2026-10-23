@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_L7GVjD
-=======
 status: draft
->>>>>>> .merge_file_pJ8s1b
 ---
 
 # Divergenza: `README_ANALISI_DUPLICATI.md`

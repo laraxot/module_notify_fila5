@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "pub theme namespace critical rule"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Ql17iN
-=======
 status: draft
->>>>>>> .merge_file_X8YJgb
 ---
 
 # 5.1. Theme & pub_theme Namespace - CRITICAL RULE
@@ -47,7 +44,6 @@ The current active theme is configured via `config('xra.pub_theme')` which retur
 - Use `XotBaseMigration` with `tableCreate()` and `tableUpdate()` methods
 
 ---
-<<<<<<< .merge_file_Ql17iN
 
 title: "pub theme namespace critical rule"
 type: note
@@ -57,5 +53,3 @@ updated: 2026-09-26
 qmd: "pub theme namespace critical rule"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_X8YJgb

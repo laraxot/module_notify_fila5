@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament template conventions"
 issues: []
 discussions: []
-<<<<<<< .merge_file_xHHBdX
-=======
 status: draft
->>>>>>> .merge_file_rNCI5l
 ---
 
 # Convenzioni per Template Blade di Filament 

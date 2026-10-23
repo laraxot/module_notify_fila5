@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "quick reference"
 issues: []
 discussions: []
-<<<<<<< .merge_file_mdsO1z
-=======
 status: draft
->>>>>>> .merge_file_nK94Ed
 ---
 
 # Quick Reference & Super Mucca

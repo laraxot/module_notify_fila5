@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "translation keys best practices"
 issues: []
 discussions: []
-<<<<<<< .merge_file_zJmmC5
-=======
 status: draft
->>>>>>> .merge_file_9pP01J
 ---
 
 # Best Practices per le Chiavi di Traduzione

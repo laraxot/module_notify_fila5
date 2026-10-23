@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "firebase"
 issues: []
 discussions: []
-<<<<<<< .merge_file_mHBzNQ
-=======
 status: draft
->>>>>>> .merge_file_GgPo4T
 ---
 
 # firebase

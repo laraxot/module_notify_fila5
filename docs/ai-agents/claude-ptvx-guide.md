@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "claude ptvx guide"
 issues: []
 discussions: []
-<<<<<<< .merge_file_LolavK
-=======
 status: draft
->>>>>>> .merge_file_g5yRs0
 ---
 
 # Utilizzo di Claude con il Progetto PTVX

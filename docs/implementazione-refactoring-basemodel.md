@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "implementazione refactoring basemodel"
 issues: []
 discussions: []
-<<<<<<< .merge_file_XbMCV8
-=======
 status: draft
->>>>>>> .merge_file_iIvqPM
 ---
 
 # 🐄✨ IMPLEMENTAZIONE REFACTORING BASEMODEL - REPORT
@@ -20,7 +17,6 @@ status: draft
 **Status:** ✅ IN CORSO - 10/16 moduli completati
 
 ---
-<<<<<<< .merge_file_XbMCV8
 
 title: "implementazione refactoring basemodel"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "implementazione refactoring basemodel"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_iIvqPM
 ## 📊 MODULI COMPLETATI
 
 ### ✅ Moduli Refactorati (10)

@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_L8apPc
-=======
 status: draft
->>>>>>> .merge_file_f7YBbk
 ---
 
 # Regole Namespace PSR-4 per il Modulo Notify

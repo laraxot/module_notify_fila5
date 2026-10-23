@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_5uhQRE
-=======
 status: draft
->>>>>>> .merge_file_pySlYX
 ---
 
 # Analisi Soluzioni per Slug in Filament

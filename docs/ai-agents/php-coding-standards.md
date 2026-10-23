@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "php coding standards"
 issues: []
 discussions: []
-<<<<<<< .merge_file_mOUaJo
-=======
 status: draft
->>>>>>> .merge_file_m7y4Iq
 ---
 
 # PHP coding standards (strict)

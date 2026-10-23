@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "translation structure 5 levels mandatory"
 issues: []
 discussions: []
-<<<<<<< .merge_file_iUMQ7W
-=======
 status: draft
->>>>>>> .merge_file_YofX4z
 ---
 
 # 🔴 TRANSLATION STRUCTURE - 5 LEVELS MANDATORY
@@ -21,7 +18,6 @@ status: draft
 **Priority**: BLOCKER
 
 ---
-<<<<<<< .merge_file_iUMQ7W
 
 title: "translation structure 5 levels mandatory"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "translation structure 5 levels mandatory"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_YofX4z
 ## 🎯 The Rule
 
 > **SEMPRE** usare traduzioni a **5 LIVELLI** con `__()`:

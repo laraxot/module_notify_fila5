@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "migrazione filament"
 issues: []
 discussions: []
-<<<<<<< .merge_file_CrMmfm
-=======
 status: draft
->>>>>>> .merge_file_ro1TYW
 ---
 
 # Notify Module - Migrazione a Filament 4

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "repos"
 issues: []
 discussions: []
-<<<<<<< .merge_file_SCM0sV
-=======
 status: draft
->>>>>>> .merge_file_JJsf6q
 ---
 
 # _repos

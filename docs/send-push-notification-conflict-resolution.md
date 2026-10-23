@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "send push notification conflict resolution"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Otgphb
-=======
 status: draft
->>>>>>> .merge_file_trK33l
 ---
 
 # Risoluzione conflitto git su SendPushNotification.php

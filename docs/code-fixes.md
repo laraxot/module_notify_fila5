@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "code fixes"
 issues: []
 discussions: []
-<<<<<<< .merge_file_KTBiXi
-=======
 status: draft
->>>>>>> .merge_file_7hCcwT
 ---
 
 # Notify Module - Code Fixes & Improvements (2025)
@@ -20,7 +17,6 @@ status: draft
 > **Status:** Major Syntax Fixes Completed
 
 ---
-<<<<<<< .merge_file_KTBiXi
 
 title: "code fixes"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "code fixes"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_7hCcwT
 ## Executive Summary
 
 Complete overhaul of the Notify module addressing **41 files with critical PHP syntax errors** caused by unresolved Git merge conflicts. All syntax errors have been resolved, enabling PHPStan Level 10 analysis.

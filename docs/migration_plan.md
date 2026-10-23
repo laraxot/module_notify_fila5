@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "migration plan"
 issues: []
 discussions: []
-<<<<<<< .merge_file_a8LID9
-=======
 status: draft
->>>>>>> .merge_file_pnbiKs
 ---
 
 # Documentation Agnostic Migration Plan
@@ -22,7 +19,6 @@ status: draft
 **Solution**: Implement governance rules, rename files, and replace content with generic placeholders.
 
 ---
-<<<<<<< .merge_file_a8LID9
 
 title: "migration plan"
 type: note
@@ -32,8 +28,6 @@ updated: 2026-09-26
 qmd: "migration plan"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_pnbiKs
 ## Impact Analysis
 
 ### Scope

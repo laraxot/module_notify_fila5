@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament extension"
 issues: []
 discussions: []
-<<<<<<< .merge_file_mN68mo
-=======
 status: draft
->>>>>>> .merge_file_5zsS9l
 ---
 
 # Pattern di Estensione per Componenti Filament 

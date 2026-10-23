@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "notebooklm integration"
 issues: []
 discussions: []
-<<<<<<< .merge_file_PkLLjK
-=======
 status: draft
->>>>>>> .merge_file_cCl9oO
 ---
 
 # NotebookLM Integration

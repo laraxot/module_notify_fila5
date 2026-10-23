@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament v4 upgrade notes"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Misg5u
-=======
 status: draft
->>>>>>> .merge_file_hbipmt
 ---
 
 # Notify Module - Filament v4 Upgrade Notes

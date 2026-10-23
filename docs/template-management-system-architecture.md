@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "template management system architecture"
 issues: []
 discussions: []
-<<<<<<< .merge_file_rDauWb
-=======
 status: draft
->>>>>>> .merge_file_DLRAai
 ---
 
 # Notification Template Management System

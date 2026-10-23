@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "modules themes docs audit"
 issues: []
 discussions: []
-<<<<<<< .merge_file_WDO5iZ
-=======
 status: draft
->>>>>>> .merge_file_dmWiKI
 ---
 
 # Modules/Themes Docs Audit (2026-03-10)

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "analisi completa"
 issues: []
 discussions: []
-<<<<<<< .merge_file_PswEpe
-=======
 status: draft
->>>>>>> .merge_file_oSSS6i
 ---
 
 # Analisi Completa del Modulo Notify

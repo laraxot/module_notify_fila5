@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms provider configuration"
 issues: []
 discussions: []
-<<<<<<< .merge_file_sE9W33
-=======
 status: draft
->>>>>>> .merge_file_mKuhii
 ---
 
 # Configurazione Provider SMS per le Notifiche 

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "AI AGENT LESSONS LEARNED"
 issues: []
 discussions: []
-<<<<<<< .merge_file_aBByFs
-=======
 status: draft
->>>>>>> .merge_file_bymnbq
 ---
 
 # 🤖 AI Agent Lessons Learned - 2026-03-13
@@ -20,7 +17,6 @@ status: draft
 > **Incident**: GitHub Action Testing Failure
 
 ---
-<<<<<<< .merge_file_aBByFs
 
 title: "AI AGENT LESSONS LEARNED"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "AI AGENT LESSONS LEARNED"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_bymnbq
 ## ❌ What Went Wrong
 
 ### Initial Task

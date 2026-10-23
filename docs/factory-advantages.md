@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "factory advantages"
 issues: []
 discussions: []
-<<<<<<< .merge_file_PPJLAL
-=======
 status: draft
->>>>>>> .merge_file_ulW5c2
 ---
 
 # Analisi del Pattern Factory per la Selezione dei Provider SMS

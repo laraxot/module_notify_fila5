@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email logs"
 issues: []
 discussions: []
-<<<<<<< .merge_file_f5lRnQ
-=======
 status: draft
->>>>>>> .merge_file_NGXLuX
 ---
 
 # Sistema Log Email 

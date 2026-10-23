@@ -29,7 +29,7 @@ documenti per ogni file di codice. Questo non è un modulo ben documentato, è
 un modulo che ha smesso di distinguere fra scrivere e ricordare. Prova
 diretta, senza bisogno di aprirli: nella sola root di `docs/` convivono
 <<<<<<< .merge_file_dG45CP
-`00-index.md`, `00-index-1.md`, `00-index-2.md` e `00-INDEX.md` — quattro
+`00-index.md`, `00-index.md`, `00-index-2.md` e `00-INDEX.md` — quattro
 =======
 `00-index.md`, `00-index-documentation.md`, `00-index-2.md` e `00-INDEX.md` — quattro
 >>>>>>> .merge_file_vBJqWR

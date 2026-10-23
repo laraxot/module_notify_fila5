@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "multi channel notifications"
 issues: []
 discussions: []
-<<<<<<< .merge_file_nLqGQX
-=======
 status: draft
->>>>>>> .merge_file_3IfsxE
 ---
 
 # Implementazione di Notifiche Multi-Canale 

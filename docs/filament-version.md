@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament version"
 issues: []
 discussions: []
-<<<<<<< .merge_file_tCsu2G
-=======
 status: draft
->>>>>>> .merge_file_PO4Lfo
 ---
 
 # Filament Version Declaration — Notify

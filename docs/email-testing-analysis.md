@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email testing analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_CC63Dg
-=======
 status: draft
->>>>>>> .merge_file_IyqTfd
 ---
 
 # Analisi delle Pagine di Test Email

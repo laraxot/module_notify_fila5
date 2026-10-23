@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "naming conventions"
 issues: []
 discussions: []
-<<<<<<< .merge_file_72qHdc
-=======
 status: draft
->>>>>>> .merge_file_EgXllH
 ---
 
 # Convenzioni di Naming

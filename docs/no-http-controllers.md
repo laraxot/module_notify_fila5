@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "no http controllers"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Eb8cAD
-=======
 status: draft
->>>>>>> .merge_file_QoJdNn
 ---
 
 # No HTTP controllers in any module

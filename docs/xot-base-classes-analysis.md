@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "xot base classes analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_SOPfof
-=======
 status: draft
->>>>>>> .merge_file_umabZV
 ---
 
 # Analisi: Utilizzo delle Classi Base Xot

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms channel action resolution"
 issues: []
 discussions: []
-<<<<<<< .merge_file_04iOAe
-=======
 status: draft
->>>>>>> .merge_file_ZrojZ2
 ---
 
 # Dove posizionare la logica di risoluzione dell'action SMS?
@@ -35,7 +32,6 @@ $action = match ($driver) {
 È stato chiesto se questa logica non sarebbe meglio spostarla all'interno del DTO `SmsData`.
 
 ---
-<<<<<<< .merge_file_04iOAe
 
 title: "sms channel action resolution"
 type: note
@@ -45,8 +41,6 @@ updated: 2026-09-26
 qmd: "sms channel action resolution"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_ZrojZ2
 ## Analisi delle due soluzioni
 
 ### 1. Logica nel Canale (`SmsChannel`)

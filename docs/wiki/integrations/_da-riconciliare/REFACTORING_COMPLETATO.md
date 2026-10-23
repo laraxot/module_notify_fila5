@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_2hhHpO
-=======
 status: draft
->>>>>>> .merge_file_4Nu4WG
 ---
 
 # 🐄✨ REFACTORING BASEMODEL - COMPLETATO! ✨🐄

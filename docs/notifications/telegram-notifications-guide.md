@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "telegram notifications guide"
 issues: []
 discussions: []
-<<<<<<< .merge_file_sHu89E
-=======
 status: draft
->>>>>>> .merge_file_D9ygzv
 ---
 
 # Notifiche Telegram 

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "modelli factory seeder analisi"
 issues: []
 discussions: []
-<<<<<<< .merge_file_7X0ELQ
-=======
 status: draft
->>>>>>> .merge_file_3Lwf2K
 ---
 
 # Analisi Modelli, Factory e Seeder - Modulo Notify

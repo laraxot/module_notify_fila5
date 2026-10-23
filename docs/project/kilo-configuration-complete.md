@@ -16,10 +16,7 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
-<<<<<<< .merge_file_gmruY5
-=======
 status: draft
->>>>>>> .merge_file_MbIdJv
 ---
 
 # ✅ Kilo (OpenCode) Configuration - COMPLETE

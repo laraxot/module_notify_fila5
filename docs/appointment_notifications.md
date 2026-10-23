@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "appointment notifications"
 issues: []
 discussions: []
-<<<<<<< .merge_file_EWXGeE
-=======
 status: draft
->>>>>>> .merge_file_I253U8
 ---
 
 # Sistema di Notifica Appuntamenti - il progetto

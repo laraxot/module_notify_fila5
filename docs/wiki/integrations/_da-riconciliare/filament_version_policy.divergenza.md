@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_82w4Rq
-=======
 status: draft
->>>>>>> .merge_file_wSEa6H
 ---
 
 # Divergenza: `FILAMENT_VERSION_POLICY.md`

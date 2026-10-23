@@ -92,7 +92,7 @@ Applicare convenzioni consistenti:
 
 #### Esempi Trasformazioni
 <<<<<<< .merge_file_ceXv4J
-- `analisi-dettagliata-1.md` → `architecture/detailed-analysis.md`
+- `analisi-dettagliata-architettura-struttura.md` → `architecture/detailed-analysis.md`
 =======
 - `analisi-dettagliata-architettura-struttura.md` → `architecture/detailed-analysis.md`
 >>>>>>> .merge_file_hwPlDQ

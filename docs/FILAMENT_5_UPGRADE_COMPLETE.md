@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "FILAMENT 5 UPGRADE COMPLETE"
 issues: []
 discussions: []
-<<<<<<< .merge_file_SInLn3
-=======
 status: draft
->>>>>>> .merge_file_TFVPAO
 ---
 
 # Filament 5 Upgrade - COMPLETO ✅
@@ -19,7 +16,6 @@ status: draft
 **Status**: ✅ **SUCCESSFULLY UPGRADED**
 
 ---
-<<<<<<< .merge_file_SInLn3
 
 title: "FILAMENT 5 UPGRADE COMPLETE"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "FILAMENT 5 UPGRADE COMPLETE"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_TFVPAO
 ## 🎉 Upgrade Completato
 
 ### Versioni Installate

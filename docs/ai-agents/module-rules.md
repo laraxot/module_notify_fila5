@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "module rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_fJxTVq
-=======
 status: draft
->>>>>>> .merge_file_X2mGW8
 ---
 
 # Regole Specifiche del Progetto

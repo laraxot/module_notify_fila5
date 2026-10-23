@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms actions pattern"
 issues: []
 discussions: []
-<<<<<<< .merge_file_zo7wiz
-=======
 status: draft
->>>>>>> .merge_file_SG6cqA
 ---
 
 # Pattern per le Azioni SMS 
@@ -265,7 +262,6 @@ Seguire questo pattern garantisce:
 4. **Testabilità**: Le azioni sono facilmente testabili grazie all'interfaccia comune
 
 ---
-<<<<<<< .merge_file_zo7wiz
 
 title: "sms actions pattern"
 type: note
@@ -275,6 +271,4 @@ updated: 2026-09-26
 qmd: "sms actions pattern"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_SG6cqA
 *Ultimo aggiornamento: [DATE]*

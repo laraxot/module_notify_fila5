@@ -304,7 +304,7 @@ docs/master/
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
 <<<<<<< .merge_file_KM71rq
-- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-1.md`
+- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes.md`
 =======
 - Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
 >>>>>>> .merge_file_snvhu9

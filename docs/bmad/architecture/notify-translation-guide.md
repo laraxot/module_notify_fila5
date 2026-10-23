@@ -8,11 +8,11 @@ qmd: "notify-translation-guide-2 guida alle traduzioni nel modulo notify"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -191,7 +191,7 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
-- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules-1.md)
+- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
 - [Standard per le Traduzioni ](./translation-standards.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)

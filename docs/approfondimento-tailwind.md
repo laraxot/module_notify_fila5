@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "approfondimento tailwind"
 issues: []
 discussions: []
-<<<<<<< .merge_file_tIs2GU
-=======
 status: draft
->>>>>>> .merge_file_aOujeF
 ---
 
 # Approfondimento Implementazione Tailwind CSS nel Modulo Notify

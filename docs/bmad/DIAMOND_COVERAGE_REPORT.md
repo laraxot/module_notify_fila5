@@ -6,11 +6,8 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
-<<<<<<< .merge_file_EhELw2
-=======
 tags: [docs, notify, bmad]
 qmd: "fixcity - diamond coverage report notify"
->>>>>>> .merge_file_46kKk6
 ---
 
 # 💎 FIXCITY - DIAMOND COVERAGE REPORT

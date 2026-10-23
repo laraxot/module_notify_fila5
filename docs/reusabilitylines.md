@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "reusabilitylines"
 issues: []
 discussions: []
-<<<<<<< .merge_file_5dCDqn
-=======
 status: draft
->>>>>>> .merge_file_JJ8xa8
 ---
 
 # Linee Guida per la Riusabilità del Modulo Notify

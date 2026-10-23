@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_TlAmCA
-=======
 status: draft
->>>>>>> .merge_file_axPeRx
 ---
 
 # Divergenza: `FIX_COLORI_HEADER_FOOTER.md`

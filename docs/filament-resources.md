@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament resources"
 issues: []
 discussions: []
-<<<<<<< .merge_file_dVx3Jh
-=======
 status: draft
->>>>>>> .merge_file_IQtx11
 ---
 
 # Risorse Filament del Modulo Notify

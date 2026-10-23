@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "REFACTORING COMPLETATO"
 issues: []
 discussions: []
-<<<<<<< .merge_file_wjRFju
-=======
 status: draft
->>>>>>> .merge_file_jSIXRZ
 ---
 
 # 🐄✨ REFACTORING BASEMODEL - COMPLETATO! ✨🐄
@@ -20,7 +17,6 @@ status: draft
 **Status:** ✅ **FASE 1 COMPLETATA CON SUCCESSO**
 
 ---
-<<<<<<< .merge_file_wjRFju
 
 title: "REFACTORING COMPLETATO"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "REFACTORING COMPLETATO"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_jSIXRZ
 ## 🎯 RISULTATI FINALI
 
 ### Statistiche Precise

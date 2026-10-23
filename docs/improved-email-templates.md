@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "improved email templates"
 issues: []
 discussions: []
-<<<<<<< .merge_file_CAKBhV
-=======
 status: draft
->>>>>>> .merge_file_DXDbsj
 ---
 
 # Versione Migliorata: Filament Email Templates In-House
@@ -27,7 +24,6 @@ In questo documento proponiamo un’implementazione open source per la gestione 
 - esempi di Blade render, logo customization
 
 ---
-<<<<<<< .merge_file_CAKBhV
 
 title: "improved email templates"
 type: note
@@ -37,8 +33,6 @@ updated: 2026-09-26
 qmd: "improved email templates"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_DXDbsj
 ## 1. Gap dei Plugin Esistenti
 
 1. Plugin commerciali a pagamento o non mantenuti

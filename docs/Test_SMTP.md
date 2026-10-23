@@ -11,10 +11,7 @@ tags: [migrato-da-txt, notify]
 converted_from: Test_SMTP.txt
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_Wh0Crj
-=======
 status: draft
->>>>>>> .merge_file_6aILcz
 ---
 
 //----------------------------------------------------------------------------

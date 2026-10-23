@@ -37,13 +37,18 @@ un'azione per responsabilità (una sola `execute()` pubblica ciascuna, come da
 - `Push/SendPushToAllUsersAction` — invio a tutti i token attivi
 - `Push/SendPushWithTemplateAction` — invio da template
 - `Push/SendPushWithTargetingAction` — invio con criteri di targeting
-- `Push/SchedulePushNotificationAction` — schedulazione via cache + job
+- `Push/SchedulePushNotificationAction` — schedulazione via cache + `ActionJob`
 
-`Jobs/SendScheduledPushNotification::handle()` inietta `Push\SendPushToDevicesAction` e chiama:
+`Actions/Push/SendScheduledPushNotificationAction::execute()` risolve `Push\SendPushToDevicesAction` e chiama:
 
 ```php
 $pushService->execute($tokens, $notification, $data);
 ```
+
+Non esiste `app/Jobs` nel modulo Notify. La coda è una modalità di esecuzione
+delle Actions: `SendNotificationAction` gestisce già il caso d'uso e il push
+schedulato usa `SendScheduledPushNotificationAction`. Questo evita wrapper Job
+duplicati e mantiene `delay` e failure hook nel payload dell'`ActionJob`.
 
 Due tentativi intermedi di migrazione — `Actions/PushNotificationAction` (duplicato 1:1 del
 vecchio Service, multi-metodo pubblico) e `Actions/SendPushNotificationAction` +

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "quality improvements"
 issues: []
 discussions: []
-<<<<<<< .merge_file_cYMVk7
-=======
 status: draft
->>>>>>> .merge_file_Wzau5M
 ---
 
 # Miglioramenti Qualità Codice - Modulo Notify

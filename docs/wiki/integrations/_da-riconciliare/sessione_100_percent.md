@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_t3xREw
-=======
 status: draft
->>>>>>> .merge_file_57jJSE
 ---
 
 # 🎉 Sessione 100% Completata - Homepage Bootstrap Italia

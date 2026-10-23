@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "laravel core rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_qhi6zI
-=======
 status: draft
->>>>>>> .merge_file_hVkEOd
 ---
 
 === laravel/core rules ===
@@ -70,7 +67,6 @@ status: draft
 
 
 ---
-<<<<<<< .merge_file_qhi6zI
 
 title: "laravel core rules"
 type: note
@@ -80,8 +76,6 @@ updated: 2026-09-26
 qmd: "laravel core rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_hVkEOd
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

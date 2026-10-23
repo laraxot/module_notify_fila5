@@ -8,11 +8,11 @@ qmd: "modelli-factory-seeder-analisi-2 analisi modelli, factory e seeder - modul
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -280,11 +280,11 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 - [Template Versioning](./template_versioning.md)
 
 ### Moduli Collegati
-- [<nome progetto> Module](../../<nome progetto>/docs/modelli-factory-seeder-analisi-2.md) - Notifiche mediche
-- [SaluteOra Module](../../SaluteOra/docs/modelli-factory-seeder-analisi-2.md) - Notifiche mediche
-- [User Module](../../User/docs/modelli-factory-seeder-analisi-2.md) - Notifiche utente
-- [Media Module](../../Media/docs/modelli-factory-seeder-analisi-2.md) - Allegati notifiche
-- [Lang Module](../../Lang/docs/modelli-factory-seeder-analisi-2.md) - Localizzazione
+- [<nome progetto> Module](../../<nome progetto>/docs/modelli-factory-seeder-analisi.md) - Notifiche mediche
+- [SaluteOra Module](../../SaluteOra/docs/modelli-factory-seeder-analisi.md) - Notifiche mediche
+- [User Module](../../User/docs/modelli-factory-seeder-analisi.md) - Notifiche utente
+- [Media Module](../../Media/docs/modelli-factory-seeder-analisi.md) - Allegati notifiche
+- [Lang Module](../../Lang/docs/modelli-factory-seeder-analisi.md) - Localizzazione
 
 ### Servizi Esterni
 - [Mailgun](https://www.mailgun.com/) - Email delivery service

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms channel"
 issues: []
 discussions: []
-<<<<<<< .merge_file_aIjm5v
-=======
 status: draft
->>>>>>> .merge_file_VUsDYf
 ---
 
 # `SmsChannel`

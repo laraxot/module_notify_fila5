@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind best practices"
 issues: []
 discussions: []
-<<<<<<< .merge_file_3dq0OA
-=======
 status: draft
->>>>>>> .merge_file_MfG4BG
 ---
 
 # Best Practices Implementazione Tailwind CSS nel Modulo Notify

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms driver enum translations"
 issues: []
 discussions: []
-<<<<<<< .merge_file_8g9qmM
-=======
 status: draft
->>>>>>> .merge_file_Kd75vN
 ---
 
 # Traduzioni SmsDriverEnum - Modulo Notify
@@ -202,7 +199,6 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
-<<<<<<< .merge_file_8g9qmM
 
 title: "sms driver enum translations"
 type: note
@@ -212,5 +208,3 @@ updated: 2026-09-26
 qmd: "sms driver enum translations"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_Kd75vN

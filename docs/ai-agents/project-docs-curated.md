@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "project docs curated"
 issues: []
 discussions: []
-<<<<<<< .merge_file_KcxR0B
-=======
 status: draft
->>>>>>> .merge_file_FmuMQF
 ---
 
 # Project Docs Curated Map (Codex)

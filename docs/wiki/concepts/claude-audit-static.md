@@ -17,10 +17,7 @@ related:
   - "./method-name-homonyms.md"
   - "./module-root-uppercase-folders-archive.md"
   - "./no-app-support-queueable-actions.md"
-<<<<<<< .merge_file_tVZUlJ
-=======
 status: draft
->>>>>>> .merge_file_etCJo7
 ---
 
 # claude-audit static (Notify)

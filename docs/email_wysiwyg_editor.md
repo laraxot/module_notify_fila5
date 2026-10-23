@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email wysiwyg editor"
 issues: []
 discussions: []
-<<<<<<< .merge_file_9ipmak
-=======
 status: draft
->>>>>>> .merge_file_zHk9c9
 ---
 
 # Editor WYSIWYG per Email - il progetto

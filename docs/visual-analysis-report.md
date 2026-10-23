@@ -9,11 +9,11 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 <<<<<<< .merge_file_NESQy0
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -276,7 +276,7 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
         Individual            Individual
         Module Docs           Theme Docs
 <<<<<<< .merge_file_NESQy0
-        (00-index-1.md)         (00-index-1.md)
+        (00-index.md)         (00-index.md)
 =======
         (00-index-documentation.md)         (00-index-documentation.md)
 >>>>>>> .merge_file_r0Sjs3
@@ -363,7 +363,7 @@ METRIC                          STATUS      SCORE
 ────────────────────────────────────────────────────
 Module Documentation Completeness    ✅      100%
 <<<<<<< .merge_file_NESQy0
-├─ 00-index-1.md                       ✅      19/19
+├─ 00-index.md                       ✅      19/19
 =======
 ├─ 00-index-documentation.md                       ✅      19/19
 >>>>>>> .merge_file_r0Sjs3
@@ -373,7 +373,7 @@ Module Documentation Completeness    ✅      100%
 
 Theme Documentation Completeness     ✅      100%
 <<<<<<< .merge_file_NESQy0
-├─ 00-index-1.md                       ✅      2/2
+├─ 00-index.md                       ✅      2/2
 =======
 ├─ 00-index-documentation.md                       ✅      2/2
 >>>>>>> .merge_file_r0Sjs3

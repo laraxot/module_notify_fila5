@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament extension rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Nkluu3
-=======
 status: draft
->>>>>>> .merge_file_ypjtlq
 ---
 
 # Filament Class Extension Rules
@@ -248,7 +245,6 @@ app(CreateUserAction::class)->execute($data);
 ```
 
 ---
-<<<<<<< .merge_file_Nkluu3
 
 title: "filament extension rules"
 type: note
@@ -258,8 +254,6 @@ updated: 2026-09-26
 qmd: "filament extension rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_ypjtlq
 **Philosophy**: DRY + KISS - Do not duplicate, do not complicate, always use base classes.
 # Regole di Estensione delle Classi Filament
 

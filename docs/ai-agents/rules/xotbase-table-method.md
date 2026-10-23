@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "xotbase table method"
 issues: []
 discussions: []
-<<<<<<< .merge_file_ONQ3qP
-=======
 status: draft
->>>>>>> .merge_file_8M0rdI
 ---
 
 # 🔴 XotBaseTableWidget - NO table() Method Rule
@@ -21,7 +18,6 @@ status: draft
 **Priority**: BLOCKER
 
 ---
-<<<<<<< .merge_file_ONQ3qP
 
 title: "xotbase table method"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "xotbase table method"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_8M0rdI
 ## 🎯 The Rule
 
 > **MAI** definire il metodo `table()` in classi che estendono `XotBaseTableWidget`.

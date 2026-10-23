@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_qRw9xe
-=======
 status: draft
->>>>>>> .merge_file_7o4NaG
 ---
 
 # ✅ Design Comuni con Tailwind CSS Puro - Completato

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "examples"
 issues: []
 discussions: []
-<<<<<<< .merge_file_xawYxZ
-=======
 status: draft
->>>>>>> .merge_file_ihRxCP
 ---
 
 # Example Patterns

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "WIKI SCHEMA"
 issues: []
 discussions: []
-<<<<<<< .merge_file_ZWAN7c
-=======
 status: draft
->>>>>>> .merge_file_UQTtFh
 ---
 
 # LLM Wiki Schema

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "FILAMENT VERSION POLICY"
 issues: []
 discussions: []
-<<<<<<< .merge_file_slXRjl
-=======
 status: draft
->>>>>>> .merge_file_SVvgCQ
 ---
 
 # 🎯 Filament Version Policy - ALWAYS LATEST
@@ -271,7 +268,6 @@ composer update "filament/*" -W
 - [ ] No old versions
 
 ---
-<<<<<<< .merge_file_slXRjl
 
 title: "FILAMENT VERSION POLICY"
 type: note
@@ -281,8 +277,6 @@ updated: 2026-09-26
 qmd: "FILAMENT VERSION POLICY"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_SVvgCQ
 **Stato**: ✅ **POLITICA UFFICIALE - SEMPRE FILAMENT 5**  
 **Versione Attuale**: **Filament 5.x**  
 **Prossimo Aggiornamento**: **Quando esce Filament 6**  

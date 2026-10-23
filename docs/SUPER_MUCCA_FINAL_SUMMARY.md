@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "SUPER MUCCA FINAL SUMMARY"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Ld3ylz
-=======
 status: draft
->>>>>>> .merge_file_PUHI4I
 ---
 
 # 🐄 SUPER MUCCA - Missione Completata
@@ -20,7 +17,6 @@ status: draft
 **Confidenza Level**: MASSIMO
 
 ---
-<<<<<<< .merge_file_Ld3ylz
 
 title: "SUPER MUCCA FINAL SUMMARY"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "SUPER MUCCA FINAL SUMMARY"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_PUHI4I
 ## 🎯 Missioni Completate
 
 ### ✅ 1. Risolto Errore ParseError Login (CRITICO)

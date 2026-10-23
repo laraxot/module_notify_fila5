@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "volt rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_KNYbdW
-=======
 status: draft
->>>>>>> .merge_file_AjRTaG
 ---
 
 === volt/core rules ===
@@ -24,7 +21,6 @@ status: draft
 
 
 ---
-<<<<<<< .merge_file_KNYbdW
 
 title: "volt rules"
 type: note
@@ -34,8 +30,6 @@ updated: 2026-09-26
 qmd: "volt rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_AjRTaG
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE"
 issues: []
 discussions: []
-<<<<<<< .merge_file_WcCSGV
-=======
 status: draft
->>>>>>> .merge_file_zw1iDj
 ---
 
 # FixCity - Architecture Documentation
@@ -20,7 +17,6 @@ status: draft
 **Status:** Production Ready
 
 ---
-<<<<<<< .merge_file_WcCSGV
 
 title: "ARCHITECTURE"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_zw1iDj
 ## 📐 System Architecture
 
 ### High-Level Overview

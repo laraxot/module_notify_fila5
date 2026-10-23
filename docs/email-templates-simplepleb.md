@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email templates simplepleb"
 issues: []
 discussions: []
-<<<<<<< .merge_file_VAI854
-=======
 status: draft
->>>>>>> .merge_file_OKarID
 ---
 
 # Approfondimento: simplepleb/laravel-email-templates

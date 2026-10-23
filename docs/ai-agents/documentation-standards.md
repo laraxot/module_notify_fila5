@@ -37,7 +37,7 @@ Never include dates in filenames:
 ```
 CORRECT: dry-kiss-analysis.md
 <<<<<<< .merge_file_BvKUGc
-WRONG:   dry-kiss-analysis-2025-10-15.md
+WRONG:   dry-kiss-analysis-modulo-job.md
 =======
 WRONG:   dry-kiss-analysis.md
 >>>>>>> .merge_file_canweb

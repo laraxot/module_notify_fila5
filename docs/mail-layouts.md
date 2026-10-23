@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "mail layouts"
 issues: []
 discussions: []
-<<<<<<< .merge_file_NXLYXb
-=======
 status: draft
->>>>>>> .merge_file_oDUtbH
 ---
 
 # Layout delle Email

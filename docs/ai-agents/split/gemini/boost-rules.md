@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "boost rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_x46V9o
-=======
 status: draft
->>>>>>> .merge_file_O6BZXY
 ---
 
 === boost rules ===
@@ -55,7 +52,6 @@ status: draft
 
 
 ---
-<<<<<<< .merge_file_x46V9o
 
 title: "boost rules"
 type: note
@@ -65,8 +61,6 @@ updated: 2026-09-26
 qmd: "boost rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_O6BZXY
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

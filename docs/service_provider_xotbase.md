@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "service provider xotbase"
 issues: []
 discussions: []
-<<<<<<< .merge_file_oxmPJi
-=======
 status: draft
->>>>>>> .merge_file_t9yLW0
 ---
 
 # XotBaseServiceProvider: Analisi, Regole e Best Practice
@@ -105,7 +102,6 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/service-provider-best-practices.md)
 
 ---
-<<<<<<< .merge_file_oxmPJi
 
 title: "service provider xotbase"
 type: note
@@ -115,6 +111,4 @@ updated: 2026-09-26
 qmd: "service provider xotbase"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_t9yLW0
 > **Questa documentazione è stata aggiornata dopo un errore di override errato del metodo boot. Seguire SEMPRE queste regole per evitare errori futuri.**

@@ -16,10 +16,7 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./design-comuni-bmad-master-plan.md"
-<<<<<<< .merge_file_FJQqmx
-=======
 status: draft
->>>>>>> .merge_file_SnXDpZ
 ---
 
 # ✅ Notify Improvement Plan - START HERE

@@ -37,7 +37,7 @@ Consolidated from **15** individual files.
 ## database-mail-1
 
 <<<<<<< .merge_file_RuLjip
-*Consolidated from: `database-mail-1.md`*
+*Consolidated from: `database-mail.md`*
 =======
 *Consolidated from: `database-mail-deprecated.md`*
 >>>>>>> .merge_file_g9I0CB
@@ -69,11 +69,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_RuLjip
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -548,11 +548,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_RuLjip
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -767,7 +767,7 @@ testable class SendEmailTemplateAction {
 ## database-mail-queue-1
 
 <<<<<<< .merge_file_RuLjip
-*Consolidated from: `database-mail-queue-1.md`*
+*Consolidated from: `database-mail-queue.md`*
 =======
 *Consolidated from: `database-mail-queue-deprecated.md`*
 >>>>>>> .merge_file_g9I0CB
@@ -799,11 +799,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_RuLjip
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -2021,7 +2021,7 @@ php artisan queue:restart
 ## database-mail-system-1
 
 <<<<<<< .merge_file_RuLjip
-*Consolidated from: `database-mail-system-1.md`*
+*Consolidated from: `database-mail-system.md`*
 =======
 *Consolidated from: `database-mail-system.md`*
 >>>>>>> .merge_file_g9I0CB
@@ -2786,11 +2786,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_RuLjip
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

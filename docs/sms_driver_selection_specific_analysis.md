@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms driver selection specific analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_5ODfIS
-=======
 status: draft
->>>>>>> .merge_file_xZDR6j
 ---
 
 # Analisi Specifica: Validazione e Selezione Driver in SmsData

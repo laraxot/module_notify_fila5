@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email best practices"
 issues: []
 discussions: []
-<<<<<<< .merge_file_WT80et
-=======
 status: draft
->>>>>>> .merge_file_SmGA4s
 ---
 
 # Best Practices per Email Transazionali

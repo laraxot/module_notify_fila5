@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "analisi dettagliata"
 issues: []
 discussions: []
-<<<<<<< .merge_file_VSAPBF
-=======
 status: draft
->>>>>>> .merge_file_QQjdNN
 ---
 
 # Analisi Dettagliata del Modulo Notify

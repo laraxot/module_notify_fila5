@@ -9,11 +9,11 @@ updated: 2026-07-12
 tags: [contract, naming, architecture, laraxot, notify]
 related:
 <<<<<<< .merge_file_iGXoHo
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

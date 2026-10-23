@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "foundation rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_gU6hFh
-=======
 status: draft
->>>>>>> .merge_file_Pulats
 ---
 
 === foundation rules ===
@@ -100,7 +97,6 @@ applications.
 
 
 ---
-<<<<<<< .merge_file_gU6hFh
 
 title: "foundation rules"
 type: note
@@ -110,8 +106,6 @@ updated: 2026-09-26
 qmd: "foundation rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_Pulats
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

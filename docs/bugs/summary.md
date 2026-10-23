@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "summary"
 issues: []
 discussions: []
-<<<<<<< .merge_file_5XpzO6
-=======
 status: draft
->>>>>>> .merge_file_PqWIMz
 ---
 
 # Bug Fixes Summary
@@ -55,7 +52,6 @@ php artisan tinker --execute="
 ✅ **RISOLTO** - Testato e verificato funzionante
 
 ---
-<<<<<<< .merge_file_5XpzO6
 
 title: "summary"
 type: note
@@ -65,8 +61,6 @@ updated: 2026-09-26
 qmd: "summary"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_PqWIMz
 ## Prossimi Bug da Analizzare
 
 Nessuno al momento.

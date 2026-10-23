@@ -16,10 +16,7 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - ../best-practices/naming-conventions.md
-<<<<<<< .merge_file_aG1guA
-=======
 status: draft
->>>>>>> .merge_file_HTon5t
 ---
 # Template di Struttura per le Traduzioni
 

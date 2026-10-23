@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "iflow getting started"
 issues: []
 discussions: []
-<<<<<<< .merge_file_atXNak
-=======
 status: draft
->>>>>>> .merge_file_KGK3P7
 ---
 
 # IFLOW Getting Started
@@ -18,7 +15,6 @@ status: draft
 Come iniziare a lavorare sul progetto.
 
 ---
-<<<<<<< .merge_file_atXNak
 
 title: "iflow getting started"
 type: note
@@ -28,8 +24,6 @@ updated: 2026-09-26
 qmd: "iflow getting started"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_KGK3P7
 ## 🚀 In 3 Passi
 
 > Non serve essere "guru": serve voglia di imparare e rispetto per le regole del progetto.

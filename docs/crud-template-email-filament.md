@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "crud template email filament"
 issues: []
 discussions: []
-<<<<<<< .merge_file_SZEE36
-=======
 status: draft
->>>>>>> .merge_file_f8BPMA
 ---
 
 # Proposta Architetturale: CRUD Template Email in Notify (Filament)
@@ -19,7 +16,6 @@ status: draft
 Consentire la gestione runtime (CRUD) dei template email direttamente dal backend Filament, con fallback su file statici. Garantire robustezza, versioning, localizzazione e coerenza con le regole <nome progetto>.
 
 ---
-<<<<<<< .merge_file_SZEE36
 
 title: "crud template email filament"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "crud template email filament"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_f8BPMA
 ## 1. Struttura Database (Esempio Migration)
 ```php
 Schema::create('email_templates', function (Blueprint $table) {

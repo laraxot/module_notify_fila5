@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "START HERE REPLIKATE PHASE2"
 issues: []
 discussions: []
-<<<<<<< .merge_file_9bhJJR
-=======
 status: draft
->>>>>>> .merge_file_yGyxZz
 ---
 
 # 🚀 START HERE - REPLIKATE Phase 2
@@ -20,7 +17,6 @@ status: draft
 **Time Estimate**: ~50 minutes
 
 ---
-<<<<<<< .merge_file_9bhJJR
 
 title: "START HERE REPLIKATE PHASE2"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "START HERE REPLIKATE PHASE2"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_yGyxZz
 ## 📍 You Are Here
 
 ```

@@ -16,10 +16,7 @@ related:
   - "./final-implementation-report-1.md"
   - "./final-implementation-report.md"
   - "./final-refactoring-report.md"
-<<<<<<< .merge_file_l5uK2W
-=======
 status: draft
->>>>>>> .merge_file_aQQSjY
 ---
 
 # Complete Cyclomatic Complexity Refactoring Analysis

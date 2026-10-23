@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms factor data implementation"
 issues: []
 discussions: []
-<<<<<<< .merge_file_iYGgqA
-=======
 status: draft
->>>>>>> .merge_file_p5i00S
 ---
 
 # SmsFactorData Implementation Summary

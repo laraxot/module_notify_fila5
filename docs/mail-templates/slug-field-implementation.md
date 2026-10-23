@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "slug field implementation"
 issues: []
 discussions: []
-<<<<<<< .merge_file_uTHUpY
-=======
 status: draft
->>>>>>> .merge_file_9MocAl
 ---
 
 # Implementazione del Campo `slug` in MailTemplate

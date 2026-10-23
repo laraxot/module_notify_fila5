@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "netfun action errors"
 issues: []
 discussions: []
-<<<<<<< .merge_file_eotbPb
-=======
 status: draft
->>>>>>> .merge_file_RVQdxv
 ---
 
 # Errori in SendNetfunSMSAction e Correzioni
@@ -205,7 +202,6 @@ Le correzioni apportate allineano la classe `SendNetfunSMSAction` con:
 Queste correzioni garantiscono che l'azione funzioni correttamente con la configurazione standardizzata e sia più robusta, manutenibile ed estensibile.
 
 ---
-<<<<<<< .merge_file_eotbPb
 
 title: "netfun action errors"
 type: note
@@ -215,6 +211,4 @@ updated: 2026-09-26
 qmd: "netfun action errors"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_RVQdxv
 *Ultimo aggiornamento: [DATE]*

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "basemodel"
 issues: []
 discussions: []
-<<<<<<< .merge_file_JxbF69
-=======
 status: draft
->>>>>>> .merge_file_BZDVfK
 ---
 
 # BaseModel: Regola obbligatoria e motivazione
@@ -42,7 +39,6 @@ class NotificationTemplate extends BaseModel {}
 - Regola "evita override inutili" nei prompt e docs root.
 
 ---
-<<<<<<< .merge_file_JxbF69
 title: "basemodel"
 type: note
 tags: [documentation]
@@ -51,6 +47,4 @@ updated: 2026-09-26
 qmd: "basemodel"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_BZDVfK
 **Nota:** Se trovi un model che estende Model invece di BaseModel, correggi subito e segnala l’errore nella PR.

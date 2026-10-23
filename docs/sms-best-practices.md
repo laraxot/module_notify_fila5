@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms best practices"
 issues: []
 discussions: []
-<<<<<<< .merge_file_CfkBsn
-=======
 status: draft
->>>>>>> .merge_file_skegar
 ---
 
 # Best Practices per l'Invio SMS

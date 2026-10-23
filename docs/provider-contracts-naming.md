@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "provider contracts naming"
 issues: []
 discussions: []
-<<<<<<< .merge_file_QifT3O
-=======
 status: draft
->>>>>>> .merge_file_LMBidK
 ---
 
 # Convenzioni di Naming per i Contracts 

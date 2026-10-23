@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_p2ZU8r
-=======
 status: draft
->>>>>>> .merge_file_OQTFcC
 ---
 
 # Divergenza: `SUPERMEMORY_QUICKSTART.md`

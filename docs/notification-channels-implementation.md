@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "notification channels implementation"
 issues: []
 discussions: []
-<<<<<<< .merge_file_6ge5H4
-=======
 status: draft
->>>>>>> .merge_file_XNramo
 ---
 
 # Implementazione dei Canali di Notifica 

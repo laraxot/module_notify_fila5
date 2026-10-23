@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_3h74Dn
-=======
 status: draft
->>>>>>> .merge_file_Y3G5pY
 ---
 
 # Raccomandazioni per lo Sviluppo del Sistema Email Stagionali

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "pest rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_acasf0
-=======
 status: draft
->>>>>>> .merge_file_5JiW3q
 ---
 
 === pest/core rules ===
@@ -25,7 +22,6 @@ status: draft
 
 
 ---
-<<<<<<< .merge_file_acasf0
 
 title: "pest rules"
 type: note
@@ -35,8 +31,6 @@ updated: 2026-09-26
 qmd: "pest rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_5JiW3q
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

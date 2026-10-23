@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament 4x compatibility"
 issues: []
 discussions: []
-<<<<<<< .merge_file_HX23SV
-=======
 status: draft
->>>>>>> .merge_file_1lsylh
 ---
 
 

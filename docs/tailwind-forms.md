@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind forms"
 issues: []
 discussions: []
-<<<<<<< .merge_file_7sAqxc
-=======
 status: draft
->>>>>>> .merge_file_7sj0xg
 ---
 
 # Form con Filament Components

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "riepilogo svg structure"
 issues: []
 discussions: []
-<<<<<<< .merge_file_8iN7wv
-=======
 status: draft
->>>>>>> .merge_file_kAjMM6
 ---
 
 # Riepilogo Creazione Struttura SVG - DRY + KISS
@@ -198,7 +195,6 @@ FilamentIcon::register([
 - **Script di automazione** per future espansioni
 
 ---
-<<<<<<< .merge_file_8iN7wv
 
 title: "riepilogo svg structure"
 type: note
@@ -208,7 +204,5 @@ updated: 2026-09-26
 qmd: "riepilogo svg structure"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_kAjMM6
 *Struttura SVG creata: Agosto 2025*
 *Responsabile: DRY + KISS SVG Structure* 

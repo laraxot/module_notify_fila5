@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "laravel v12 rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_kz708B
-=======
 status: draft
->>>>>>> .merge_file_zp0c2U
 ---
 
 === laravel/v12 rules ===
@@ -40,7 +37,6 @@ status: draft
 
 
 ---
-<<<<<<< .merge_file_kz708B
 
 title: "laravel v12 rules"
 type: note
@@ -50,8 +46,6 @@ updated: 2026-09-26
 qmd: "laravel v12 rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_zp0c2U
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

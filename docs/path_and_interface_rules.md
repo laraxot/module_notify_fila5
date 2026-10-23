@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "path and interface rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Lh7Kba
-=======
 status: draft
->>>>>>> .merge_file_oke0Kb
 ---
 
 # Regole di Percorso e Interfacce nel Modulo Notify

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "seasonal email templates report"
 issues: []
 discussions: []
-<<<<<<< .merge_file_2GVh0q
-=======
 status: draft
->>>>>>> .merge_file_6mLiko
 ---
 
 # Seasonal Email Templates Implementation Report

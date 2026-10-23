@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "errori comuni da evitare"
 issues: []
 discussions: []
-<<<<<<< .merge_file_niZqPG
-=======
 status: draft
->>>>>>> .merge_file_7piX2x
 ---
 
 # Errori Comuni da Evitare nelle Implementazioni di Moduli

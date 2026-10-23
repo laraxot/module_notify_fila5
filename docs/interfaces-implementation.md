@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "interfaces implementation"
 issues: []
 discussions: []
-<<<<<<< .merge_file_TB1tA8
-=======
 status: draft
->>>>>>> .merge_file_oK2r13
 ---
 
 # Guida all'Implementazione delle Interfacce nel Modulo Notify

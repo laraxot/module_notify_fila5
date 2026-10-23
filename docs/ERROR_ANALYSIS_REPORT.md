@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "ERROR ANALYSIS REPORT"
 issues: []
 discussions: []
-<<<<<<< .merge_file_EYWBRf
-=======
 status: draft
->>>>>>> .merge_file_c5a9kI
 ---
 
 # 🐛 ERROR ANALYSIS REPORT - FIXCITY
@@ -20,7 +17,6 @@ status: draft
 **Causa**: Violazione regole XotBase + Filament 4  
 
 ---
-<<<<<<< .merge_file_EYWBRf
 
 title: "ERROR ANALYSIS REPORT"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "ERROR ANALYSIS REPORT"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_c5a9kI
 ## 🔴 ERRORE PRINCIPALE
 
 ```

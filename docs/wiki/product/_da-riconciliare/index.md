@@ -21,7 +21,7 @@ Documentation for `notify` module categorized as **product**.
 - [`inbound-keting-strategy.md`](./inbound-keting-strategy.md)
 - [`inbound-marketing-strategy.md`](./inbound-marketing-strategy.md)
 <<<<<<< .merge_file_pdUODi
-- [`product-strategy-1.md`](./product-strategy-1.md)
+- [`product-strategy.md`](./product-strategy.md)
 - [`product-strategy.md`](./product-strategy.md)
 - [`strategy.md`](./strategy.md)
 =======

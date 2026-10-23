@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "contactcolumn antis ands"
 issues: []
 discussions: []
-<<<<<<< .merge_file_FWZujW
-=======
 status: draft
->>>>>>> .merge_file_zgSubH
 ---
 
 # ERRORI CRITICI ContactColumn.php - Anti-Pattern da NON Ripetere MAI
@@ -143,7 +140,6 @@ private function formatContacts(Client $record): string
 6. [ ] Validazione conformità alle memorie
 
 ---
-<<<<<<< .merge_file_FWZujW
 
 title: "contactcolumn antis ands"
 type: note
@@ -153,8 +149,6 @@ updated: 2026-09-26
 qmd: "contactcolumn antis ands"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_zgSubH
 **GRAVITÀ**: CRITICA  
 **IMPATTO**: Alto - Pattern sbagliato potrebbe essere copiato  
 **PRIORITÀ**: Immediata - Correggere subito  

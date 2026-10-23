@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_hQ9xBn
-=======
 status: draft
->>>>>>> .merge_file_ErXy36
 ---
 
 # 🤖 AI Agent Rules - CRITICAL UPDATE

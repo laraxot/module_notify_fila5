@@ -6,11 +6,8 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
-<<<<<<< .merge_file_h6JqkX
-=======
 tags: [docs, notify, bmad]
 qmd: "analisi metodi duplicati - guida rapida notify"
->>>>>>> .merge_file_EAwifI
 ---
 
 # 🐄 Analisi Metodi Duplicati - Guida Rapida

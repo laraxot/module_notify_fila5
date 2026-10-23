@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "form schema conventions"
 issues: []
 discussions: []
-<<<<<<< .merge_file_EO3wXW
-=======
 status: draft
->>>>>>> .merge_file_JaahDv
 ---
 
 # Convenzioni per i Form Schema

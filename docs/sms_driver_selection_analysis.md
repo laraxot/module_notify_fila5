@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms driver selection analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_VpqtN0
-=======
 status: draft
->>>>>>> .merge_file_e91PRM
 ---
 
 # Analisi: Spostamento Logica Selezione Driver in SmsData

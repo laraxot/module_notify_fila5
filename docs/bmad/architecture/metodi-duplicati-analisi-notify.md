@@ -2,13 +2,13 @@
 module: Notify
 topic: METODI_DUPLICATI_ANALISI
 tags: [metodi-duplicati, refactoring]
-canonical: ../../../Themes/One/docs/shared-components/metodi-duplicati-analisi-1.md
+canonical: ../../../Themes/One/docs/shared-components/metodi-duplicati-analisi.md
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

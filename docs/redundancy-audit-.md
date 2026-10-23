@@ -10,11 +10,11 @@ qmd: "redundancy-audit-2026-05-21.deprecated deprecated"
 status: deprecated
 related:
 <<<<<<< .merge_file_ApQd2S
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

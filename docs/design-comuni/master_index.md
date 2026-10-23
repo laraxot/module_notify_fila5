@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "master index"
 issues: []
 discussions: []
-<<<<<<< .merge_file_QEFINR
-=======
 status: draft
->>>>>>> .merge_file_SeamEU
 ---
 
 # Design Comuni Italia - Master Documentation Index
@@ -33,7 +30,6 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 | Altre 35 pagine | ❌ 0% | ❌ 0% | ❌ 0% | ❌ Assenti | ❌ 0% |
 
 ---
-<<<<<<< .merge_file_QEFINR
 
 title: "master index"
 type: note
@@ -43,8 +39,6 @@ updated: 2026-09-26
 qmd: "master index"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_SeamEU
 ## 📚 Documentazione per Modulo/Tema
 
 ### 🎨 Tema Sixteen

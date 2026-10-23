@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "drytraitmethods"
 issues: []
 discussions: []
-<<<<<<< .merge_file_WogbAe
-=======
 status: draft
->>>>>>> .merge_file_IvtmPD
 ---
 
 # DRY Principle for Trait Methods

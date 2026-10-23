@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "dynamic class resolution pattern"
 issues: []
 discussions: []
-<<<<<<< .merge_file_RPhKLT
-=======
 status: draft
->>>>>>> .merge_file_FRshOH
 ---
 
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match

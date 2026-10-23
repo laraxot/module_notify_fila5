@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "refactoring completato"
 issues: []
 discussions: []
-<<<<<<< .merge_file_9xFo28
-=======
 status: draft
->>>>>>> .merge_file_0K47kb
 ---
 
 # 🐄✨ REFACTORING BASEMODEL - COMPLETATO! ✨🐄
@@ -20,7 +17,6 @@ status: draft
 **Status:** ✅ **FASE 1 COMPLETATA CON SUCCESSO**
 
 ---
-<<<<<<< .merge_file_9xFo28
 
 title: "refactoring completato"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "refactoring completato"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_0K47kb
 ## 🎯 RISULTATI FINALI
 
 ### Statistiche Precise

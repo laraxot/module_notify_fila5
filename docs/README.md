@@ -1,18 +1,13 @@
 ---
-<<<<<<< .merge_file_Y0HMcP
 qmd: "README"
-=======
 qmd: "notify docs README ownership mappa del codice canali limiti verificati"
->>>>>>> .merge_file_DcalKR
 issues: []
 discussions: []
 title: "Notify Module Documentation"
 type: documentation
-<<<<<<< .merge_file_Y0HMcP
 tags: [module, documentation]
 created: 2026-06-05
 updated: 2026-08-02
-=======
 status: active
 tags: [module, documentation]
 created: 2026-06-05
@@ -20,21 +15,23 @@ updated: 2026-10-20
 related:
   - ./00-INDEX.md
   - ./stories/docs-ingressi-notify.story.md
-<<<<<<< .merge_file_SG4Svw
   - ./bmad/decision-log.md
   - ./bmad/filament-blueprint.md
-=======
->>>>>>> .merge_file_DcalKR
->>>>>>> .merge_file_nsLc1U
 ---
 
 # Documentation
 
-<<<<<<< .merge_file_SG4Svw
+## Queueable Actions
+
+Notify non usa `app/Jobs/`, `app/Services/` o `app/Servces/`. Le operazioni
+asincrone sono Actions con `Spatie\QueueableAction`; la decisione e il contratto
+sono documentati in [Queueable Actions](../../Xot/docs/architecture/queueable-actions.md).
+
+I riferimenti a Jobs nei report storici di questa cartella descrivono lo stato
+precedente e non sono percorsi validi del codice corrente.
+
 **Scopo:** Notify e' il motore di consegna multi-canale del monorepo: un owner di dominio decide *cosa* e *a chi*, Notify decide *come* (factory/driver, template, log, preferenze) senza duplicare transport in Fixcity o nel tema.
 
-=======
-<<<<<<< .merge_file_Y0HMcP
 This directory contains documentation for the Notify module.
 
 ## Structure
@@ -149,8 +146,6 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 
 ---
 
-=======
->>>>>>> .merge_file_nsLc1U
 Cartella `docs/` del modulo Notify. Indice operativo (directory canoniche, evidence, famiglie dei file della radice):
 [00-INDEX.md](./00-INDEX.md). Hub BMAD: [bmad/decision-log.md](./bmad/decision-log.md), [bmad/filament-blueprint.md](./bmad/filament-blueprint.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
 `ls` e `grep` su `laravel/Modules/Notify`.
@@ -173,7 +168,7 @@ symfony/postmark-mailer, symfony/http-client.
 | `app/Models` | 14 modelli: `Contact`, `EmailTemplate`, `MailTemplate`, `MailTemplateLog`, `MailTemplateVersion`, `Notification`, `NotificationChannel`, `NotificationLog`, `NotificationTemplate`, `NotificationTemplateVersion`, `NotificationType`, `NotifyTheme`, `NotifyThemeable`, `Theme`; 11 Policy in `Models/Policies`; unico trait `HasContact` |
 | `app/Filament` | 6 Resource (`Contact`, `MailTemplate`, `Notification`, `NotificationLog`, `NotificationTemplate`, `NotifyTheme`), pagine `Dashboard` e `SettingPage`, cluster `Test` con 15 pagine di prova invio (SMTP, SES, Spatie, SMS, Netfun, Telegram, WhatsApp, Slack, push) |
 | `app/Console/Commands` | `notify:send-mail`, `notify:cleanup-logs {--days=30 --batch=1000}`, `notify:migrate-themes-to-mail-templates`, `notify:analyze-translations`, `telegram:set-webhook` |
-| `app/Jobs` | `SendNotificationJob`, `SendScheduledPushNotification` |
+| `app/Jobs` | non esiste: la coda è eseguita dalle Queueable Actions |
 | `config/` | `notify.php` (company, test_data, webhooks, email, paths, template_variables), `sms.php` (default `smsfactor`, retry, rate limit, circuit breaker), `telegram.php`, `whatsapp.php`, `config.php` (layouts e templates mail), `beautymail.php`; `NotifyServiceProvider` unisce i valori da `config('notify-env')` |
 | `database/migrations` | 24 file `.php` piu' 1 `.php.no` e le sottocartelle `_archive_redundant` e `_bak` |
 | `tests/` | 156 file PHP, 127 `*Test.php` (Unit: Actions, Architecture, Channels, Console, Datas, Emails, Enums, Factories, Filament, Models, Notifications, Providers, Traits; Feature: 17 file) |
@@ -321,7 +316,6 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 
 ---
 
->>>>>>> .merge_file_DcalKR
 ## 📖 Documentazione Disponibile
 
 ### Guide Complete
@@ -333,11 +327,8 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 - **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
   Sistema template email database
 
-<<<<<<< .merge_file_Y0HMcP
 - **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
-=======
 - **[Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)**  
->>>>>>> .merge_file_DcalKR
   Best practices layout email
 
 #### Notifications
@@ -366,12 +357,9 @@ Modules/Notify/
 │   │  
 │   ├── Notifications/
 │   │   ├── RecordNotification.php       ⭐ Notifica generica per record
-<<<<<<< .merge_file_Y0HMcP
 │   │   ├── ThemeNotification.php
 │   │   └── SendSchedeNotification.php
-=======
 │   │   └── ThemeNotification.php        # (SendSchedeNotification.php citato in passato: non esiste)
->>>>>>> .merge_file_DcalKR
 │   │  
 │   ├── Datas/
 │   │   ├── EmailData.php                # DTO Email
@@ -530,11 +518,8 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
-<<<<<<< .merge_file_Y0HMcP
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
-=======
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura: cifra senza fonte, non verificata il 2026-10-14)  
->>>>>>> .merge_file_DcalKR
 **Prossimi passi**: Completamento test modelli base  
 **Changelog**: [changelog.md](./CHANGELOG.md)
 
@@ -543,7 +528,6 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Moduli Correlati
 
 #### Ptv (Schede Valutazione)
-<<<<<<< .merge_file_Y0HMcP
 - **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
   Caso d'uso completo: invio schede valutazione con PDF
 
@@ -553,7 +537,6 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 #### Xot (Core Framework)
 - **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
   Generazione PDF binario da record
-=======
 - Il modulo `Ptv` non e' presente in questo repository (verificato 2026-10-14: `laravel/Modules/` non lo contiene).
   I due riferimenti che seguivano (`Ptv/docs/pdf-email-attachments-complete-guide.md` e
   `Ptv/app/Actions/Scheda/SendMailByRecord.php`) sono stati ridotti a testo perche' i bersagli non esistono qui.
@@ -561,7 +544,6 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 #### Xot (Core Framework)
 - **[GetPdfContentByRecordAction](../../Xot/app/Actions/Pdf/GetPdfContentByRecordAction.php)**  
   Generazione PDF binario da record (codice; la guida `Xot/docs/actions/pdf-content-generation-technical.md` non esiste)
->>>>>>> .merge_file_DcalKR
 
 - **[PDF Actions](../../Xot/app/Actions/Pdf/)**  
   Actions per gestione PDF
@@ -569,7 +551,6 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Documentazione Interna
 
 #### Email System
-<<<<<<< .merge_file_Y0HMcP
 - [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
 - [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
@@ -577,7 +558,6 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 #### Notifications
 - [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
 - [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
-=======
 - [Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)
 - [Spatie Mail Templates Structure](./mail-templates/spatie_mail_templates_structure.md)
 - [Email Troubleshooting](./email-sending/email_troubleshooting.md)
@@ -585,7 +565,6 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 #### Notifications
 - [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
 - Notification Management Business Logic: la pagina `notifications/notification-management-business-logic.md` non esiste; il comportamento e' coperto da `tests/Feature/NotificationManagementBusinessLogicTest.php`
->>>>>>> .merge_file_DcalKR
 
 ---
 

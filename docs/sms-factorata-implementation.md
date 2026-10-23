@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms factorata implementation"
 issues: []
 discussions: []
-<<<<<<< .merge_file_DXT22k
-=======
 status: draft
->>>>>>> .merge_file_W8oU38
 ---
 
 # SmsFactorData Implementation Summary

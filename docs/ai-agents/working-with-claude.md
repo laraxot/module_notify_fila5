@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "working with claude"
 issues: []
 discussions: []
-<<<<<<< .merge_file_YYJnZJ
-=======
 status: draft
->>>>>>> .merge_file_bTGYtZ
 ---
 
 # Working with Claude

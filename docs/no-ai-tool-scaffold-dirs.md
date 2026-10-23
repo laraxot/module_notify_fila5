@@ -7,10 +7,7 @@ qmd: "no ai tool scaffold dirs"
 issues: []
 discussions: []
 title: No AI/tool scaffold directories in module tree
-<<<<<<< .merge_file_qI6Jkz
-=======
 status: draft
->>>>>>> .merge_file_RHaq9l
 ---
 
 # Perché queste cartelle non devono esistere qui

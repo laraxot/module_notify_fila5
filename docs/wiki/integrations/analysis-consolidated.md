@@ -336,7 +336,7 @@ class Template extends Model
 ## analysis-detailed-1
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysis-detailed-1.md`*
+*Consolidated from: `analysis-detailed.md`*
 =======
 *Consolidated from: `analysis-detailed.md`*
 >>>>>>> .merge_file_kde4cL
@@ -351,11 +351,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_6KuvuE
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -375,7 +375,7 @@ related:
 ## analysis-detailed-3
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysis-detailed-3.md`*
+*Consolidated from: `analysis-detailed.md`*
 =======
 *Consolidated from: `analysis-detailed.md`*
 >>>>>>> .merge_file_kde4cL
@@ -386,7 +386,7 @@ related:
 ## analysis-detailed-4
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysis-detailed-4.md`*
+*Consolidated from: `analysis-detailed.md`*
 =======
 *Consolidated from: `analysis-detailed.md`*
 >>>>>>> .merge_file_kde4cL
@@ -397,7 +397,7 @@ related:
 ## analysis-detailed-5
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysis-detailed-5.md`*
+*Consolidated from: `analysis-detailed.md`*
 =======
 *Consolidated from: `analysis-detailed.md`*
 >>>>>>> .merge_file_kde4cL
@@ -408,7 +408,7 @@ related:
 ## analysis-detailed-6
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysis-detailed-6.md`*
+*Consolidated from: `analysis-detailed.md`*
 =======
 *Consolidated from: `analysis-detailed.md`*
 >>>>>>> .merge_file_kde4cL
@@ -419,7 +419,7 @@ related:
 ## analysis-detailed-7
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysis-detailed-7.md`*
+*Consolidated from: `analysis-detailed.md`*
 =======
 *Consolidated from: `analysis-detailed.md`*
 >>>>>>> .merge_file_kde4cL
@@ -430,7 +430,7 @@ related:
 ## analysis-detailed-8
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysis-detailed-8.md`*
+*Consolidated from: `analysis-detailed.md`*
 =======
 *Consolidated from: `analysis-detailed.md`*
 >>>>>>> .merge_file_kde4cL
@@ -448,7 +448,7 @@ related:
 ## analysis-dettagliata-1
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysis-dettagliata-1.md`*
+*Consolidated from: `analysis-dettagliata-architettura-struttura.md`*
 =======
 *Consolidated from: `analysis-dettagliata-architettura-struttura.md`*
 >>>>>>> .merge_file_kde4cL
@@ -974,7 +974,7 @@ return [
 
 ## analysis-dettagliata-2
 
-*Consolidated from: `analysis-dettagliata-2.md`*
+*Consolidated from: `analysis-dettagliata-modelli-relazioni.md`*
 
 
 ## 2. Modelli e Relazioni
@@ -1621,7 +1621,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 
 ## analysis-dettagliata-3
 
-*Consolidated from: `analysis-dettagliata-3.md`*
+*Consolidated from: `analysis-dettagliata-servizi-core.md`*
 
 
 ## 3. Servizi Core
@@ -2272,7 +2272,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 
 ## analysis-dettagliata-4
 
-*Consolidated from: `analysis-dettagliata-4.md`*
+*Consolidated from: `analysis-dettagliata-integrazione-filament.md`*
 
 
 ## 4. Integrazione con Filament
@@ -2963,7 +2963,7 @@ class TemplateTestPage extends Page
 
 ## analysis-dettagliata-5
 
-*Consolidated from: `analysis-dettagliata-5.md`*
+*Consolidated from: `analysis-dettagliata-testing-parte.md`*
 
 
 ## 5. Testing
@@ -3783,7 +3783,7 @@ class WebhookControllerTest extends TestCase
 
 ## analysis-dettagliata-6
 
-*Consolidated from: `analysis-dettagliata-6.md`*
+*Consolidated from: `analysis-dettagliata-monitoraggio-analytics.md`*
 
 
 ## 6. Monitoraggio e Analytics
@@ -4407,7 +4407,7 @@ class AnalyticsExporter
 
 ## analysis-dettagliata-7
 
-*Consolidated from: `analysis-dettagliata-7.md`*
+*Consolidated from: `analysis-dettagliata-manutenzione-backup.md`*
 
 
 ## 7. Manutenzione e Backup
@@ -5056,7 +5056,7 @@ class MaintainTemplatesCommand extends Command
 
 ## analysis-dettagliata-8
 
-*Consolidated from: `analysis-dettagliata-8.md`*
+*Consolidated from: `analysis-dettagliata-finali-parte.md`*
 
 
 ## 8. Note Finali
@@ -6304,7 +6304,7 @@ Modules/Notify/
 ## analysisettagliata-2
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysisettagliata-2.md`*
+*Consolidated from: `analysisettagliata-modelli-relazioni.md`*
 =======
 *Consolidated from: `analysisettagliata-modelli-relazioni.md`*
 >>>>>>> .merge_file_kde4cL
@@ -6955,7 +6955,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 ## analysisettagliata-3
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysisettagliata-3.md`*
+*Consolidated from: `analysisettagliata-servizi-core.md`*
 =======
 *Consolidated from: `analysisettagliata-servizi-core.md`*
 >>>>>>> .merge_file_kde4cL
@@ -7610,7 +7610,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 ## analysisettagliata-4
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysisettagliata-4.md`*
+*Consolidated from: `analysisettagliata-integrazione-filament.md`*
 =======
 *Consolidated from: `analysisettagliata-integrazione-filament.md`*
 >>>>>>> .merge_file_kde4cL
@@ -8305,7 +8305,7 @@ class TemplateTestPage extends Page
 ## analysisettagliata-5
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysisettagliata-5.md`*
+*Consolidated from: `analysisettagliata-testing-parte.md`*
 =======
 *Consolidated from: `analysisettagliata-testing-parte.md`*
 >>>>>>> .merge_file_kde4cL
@@ -9129,7 +9129,7 @@ class WebhookControllerTest extends TestCase
 ## analysisettagliata-6
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysisettagliata-6.md`*
+*Consolidated from: `analysisettagliata-monitoraggio-analytics.md`*
 =======
 *Consolidated from: `analysisettagliata-monitoraggio-analytics.md`*
 >>>>>>> .merge_file_kde4cL
@@ -9757,7 +9757,7 @@ class AnalyticsExporter
 ## analysisettagliata-7
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysisettagliata-7.md`*
+*Consolidated from: `analysisettagliata-manutenzione-backup.md`*
 =======
 *Consolidated from: `analysisettagliata-manutenzione-backup.md`*
 >>>>>>> .merge_file_kde4cL
@@ -10410,7 +10410,7 @@ class MaintainTemplatesCommand extends Command
 ## analysisettagliata-8
 
 <<<<<<< .merge_file_6KuvuE
-*Consolidated from: `analysisettagliata-8.md`*
+*Consolidated from: `analysisettagliata-finali-parte.md`*
 =======
 *Consolidated from: `analysisettagliata-finali-parte.md`*
 >>>>>>> .merge_file_kde4cL

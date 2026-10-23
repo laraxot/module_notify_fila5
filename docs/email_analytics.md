@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email analytics"
 issues: []
 discussions: []
-<<<<<<< .merge_file_sQKT4D
-=======
 status: draft
->>>>>>> .merge_file_GWQFIU
 ---
 
 # Analytics Email - il progetto

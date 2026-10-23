@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "implementazione pratica"
 issues: []
 discussions: []
-<<<<<<< .merge_file_5ZHT5Z
-=======
 status: draft
->>>>>>> .merge_file_U5e4vy
 ---
 
 # Implementazione Pratica del Modulo Notify

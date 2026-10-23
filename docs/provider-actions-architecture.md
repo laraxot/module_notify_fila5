@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "provider actions architecture"
 issues: []
 discussions: []
-<<<<<<< .merge_file_fBjCDZ
-=======
 status: draft
->>>>>>> .merge_file_JIkKQI
 ---
 
 # Architettura delle Azioni dei Provider in Notify

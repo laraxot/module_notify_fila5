@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "chart widgets"
 issues: []
 discussions: []
-<<<<<<< .merge_file_tTJB4T
-=======
 status: draft
->>>>>>> .merge_file_piUP1B
 ---
 
 # Quick Reference - Chart Widgets

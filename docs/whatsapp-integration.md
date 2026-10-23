@@ -3,7 +3,7 @@ title: "whatsapp integration"
 type: note
 tags: [documentation]
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-23
 qmd: "whatsapp integration"
 issues: []
 discussions: []
@@ -212,7 +212,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
     private string $accountSid;
     private string $authToken;
-    private string $baseUrl = 'https://api.twilio.com/[DATE]';
+    private string $baseUrl = 'https://api.twilio.com/2010-04-01';
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;

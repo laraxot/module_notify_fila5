@@ -8,10 +8,7 @@ type: report
 module: Notify
 updated: 2026-09-01
 qmd: "audit qualita notify phpstan phpmd phpinsights pest coverage soppressioni collisioni case"
-<<<<<<< .merge_file_aYB3yC
-=======
 status: draft
->>>>>>> .merge_file_PxYYjV
 ---
 
 # Audit di qualita — modulo Notify

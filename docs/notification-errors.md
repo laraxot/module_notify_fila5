@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "notification errors"
 issues: []
 discussions: []
-<<<<<<< .merge_file_axQU0H
-=======
 status: draft
->>>>>>> .merge_file_HTftau
 ---
 
 # Errori Comuni nelle Notifiche

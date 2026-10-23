@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_91kOMI
-=======
 status: draft
->>>>>>> .merge_file_BG0ubf
 ---
 
 # Divergenza: `IMMEDIATE_ACTION_PLAN_30_DAYS.md`

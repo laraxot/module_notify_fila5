@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "conflict resolution sendsmspage"
 issues: []
 discussions: []
-<<<<<<< .merge_file_bioKeR
-=======
 status: draft
->>>>>>> .merge_file_MBPs7G
 ---
 
 # Risoluzione Conflitti SendSmsPage.php

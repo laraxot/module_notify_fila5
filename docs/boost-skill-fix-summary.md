@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_pTqZ4e
-=======
 status: draft
->>>>>>> .merge_file_3t9Q4K
 ---
 
 # Boost Skill Fix Summary - Notify Module

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "inbound marketing strategy"
 issues: []
 discussions: []
-<<<<<<< .merge_file_s3Gxx6
-=======
 status: draft
->>>>>>> .merge_file_2HAB1Q
 ---
 
 # Strategia Inbound Marketing - TechPlanner
@@ -19,7 +16,6 @@ status: draft
 **Scope**: Strategia inbound marketing per lead generation
 
 ---
-<<<<<<< .merge_file_s3Gxx6
 
 title: "inbound marketing strategy"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "inbound marketing strategy"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_2HAB1Q
 ## 📋 Sommario Esecutivo
 
 Il sito target ha una base di inbound marketing decente con lead magnets e newsletter, ma manca un sistema automatizzato completo di lead nurturing. Il nostro sito Laravel deve implementare una strategia inbound marketing completa per convertire visitatori in clienti.

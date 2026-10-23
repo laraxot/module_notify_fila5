@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "report finale super mucca"
 issues: []
 discussions: []
-<<<<<<< .merge_file_BLTwVp
-=======
 status: draft
->>>>>>> .merge_file_GU1SvE
 ---
 
 # 🐄✨ REPORT FINALE - SUPER MUCCA LIVELLO INFINITO ✨🐄
@@ -20,7 +17,6 @@ status: draft
 **Status:** ✅ **MISSIONE COMPLETATA AL 100%**
 
 ---
-<<<<<<< .merge_file_BLTwVp
 
 title: "report finale super mucca"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "report finale super mucca"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_GU1SvE
 ## 🎯 OBIETTIVO INIZIALE
 
 Tu hai chiesto:

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "ANALISI COLORI HEADER FOOTER"
 issues: []
 discussions: []
-<<<<<<< .merge_file_6WM4CU
-=======
 status: draft
->>>>>>> .merge_file_JrHaNC
 ---
 
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
@@ -19,7 +16,6 @@ status: draft
 ## Data: {{ date('Y-m-d H:i:s') }}
 
 ---
-<<<<<<< .merge_file_6WM4CU
 
 title: "ANALISI COLORI HEADER FOOTER"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "ANALISI COLORI HEADER FOOTER"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_JrHaNC
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  

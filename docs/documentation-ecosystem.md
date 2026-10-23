@@ -10,11 +10,11 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 <<<<<<< .merge_file_459zJK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -117,7 +117,7 @@ related:
 Each Module/Theme has:
 
 <<<<<<< .merge_file_459zJK
-00-index-1.md
+00-index.md
 =======
 00-index-documentation.md
 >>>>>>> .merge_file_x0OZSB
@@ -327,7 +327,7 @@ Relevant Master Index (MODULE or THEME)
   │
   ▼
 <<<<<<< .merge_file_459zJK
-Module/Theme 00-index-1.md
+Module/Theme 00-index.md
 =======
 Module/Theme 00-index-documentation.md
 >>>>>>> .merge_file_x0OZSB
@@ -364,7 +364,7 @@ Module Documentation (module-docs-index.md)
   │
   ▼
 <<<<<<< .merge_file_459zJK
-Module 00-index-1.md
+Module 00-index.md
 =======
 Module 00-index-documentation.md
 >>>>>>> .merge_file_x0OZSB
@@ -432,7 +432,7 @@ laravel/
 laravel/Modules/
 ├── Xot/docs/
 <<<<<<< .merge_file_459zJK
-│   ├── 00-index-1.md
+│   ├── 00-index.md
 =======
 │   ├── 00-index-documentation.md
 >>>>>>> .merge_file_x0OZSB
@@ -442,7 +442,7 @@ laravel/Modules/
 │
 ├── Cms/docs/
 <<<<<<< .merge_file_459zJK
-│   ├── 00-index-1.md
+│   ├── 00-index.md
 =======
 │   ├── 00-index-documentation.md
 >>>>>>> .merge_file_x0OZSB
@@ -459,7 +459,7 @@ laravel/Modules/
 laravel/Themes/
 ├── Sixteen/docs/
 <<<<<<< .merge_file_459zJK
-│   ├── 00-index-1.md
+│   ├── 00-index.md
 =======
 │   ├── 00-index-documentation.md
 >>>>>>> .merge_file_x0OZSB
@@ -472,7 +472,7 @@ laravel/Themes/
 │
 └── TwentyOne/docs/
 <<<<<<< .merge_file_459zJK
-    ├── 00-index-1.md
+    ├── 00-index.md
 =======
     ├── 00-index-documentation.md
 >>>>>>> .merge_file_x0OZSB
@@ -535,7 +535,7 @@ laravel/Themes/
 
 2. Follow structure:
 <<<<<<< .merge_file_459zJK
-   - 00-index-1.md (always)
+   - 00-index.md (always)
 =======
    - 00-index-documentation.md (always)
 >>>>>>> .merge_file_x0OZSB
@@ -561,7 +561,7 @@ laravel/Themes/
 Every documentation hub should have:
 
 <<<<<<< .merge_file_459zJK
-- [ ] **00-index-1.md** - Master index for the section
+- [ ] **00-index.md** - Master index for the section
 =======
 - [ ] **00-index-documentation.md** - Master index for the section
 >>>>>>> .merge_file_x0OZSB
@@ -589,7 +589,7 @@ Master Indexes:
 ├─ THEMES_documentation-index.md (Theme hub)
 ├─ architecture-diagrams.md (System overview)
 <<<<<<< .merge_file_459zJK
-├─ docs/00-index-1.md (Root index)
+├─ docs/00-index.md (Root index)
 =======
 ├─ docs/00-index-documentation.md (Root index)
 >>>>>>> .merge_file_x0OZSB
@@ -613,7 +613,7 @@ Connected Via:
 1. Start: [Copilot Instructions](../../.github/copilot-instructions.md)
 2. Understand: [Architecture Diagrams](architecture-diagrams.md)
 3. Explore: [Module Index](module-docs-index.md) or [Theme Index](THEMES_documentation-index.md)
-4. Deep Dive: Relevant module/theme 00-index-1.md
+4. Deep Dive: Relevant module/theme 00-index.md
 =======
 1. Start: [Copilot Instructions](../.github/copilot-instructions.md)
 2. Understand: [Architecture Diagrams](architecture-diagrams.md)

@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_VnzaEf
-=======
 status: draft
->>>>>>> .merge_file_yAtbHH
 ---
 
 # 📊 NOTIFY - RIEPILOGO FINALE COMPLETAMENTO

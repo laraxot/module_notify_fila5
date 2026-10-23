@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "smtp testing"
 issues: []
 discussions: []
-<<<<<<< .merge_file_YVsn91
-=======
 status: draft
->>>>>>> .merge_file_z7SJBM
 ---
 
 # Analisi del Sistema di Test SMTP

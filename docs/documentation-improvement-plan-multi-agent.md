@@ -9,11 +9,11 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 <<<<<<< .merge_file_KFQyhU
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -173,7 +173,7 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 
 **Archive** (move to `docs/archive/completion-reports/`):
 <<<<<<< .merge_file_KFQyhU
-- [ ] `absolute-completion-100.md`
+- [ ] `absolute-completion.md`
 =======
 - [ ] `absolute-completion-completamento-assoluto.md`
 >>>>>>> .merge_file_Zdgx85

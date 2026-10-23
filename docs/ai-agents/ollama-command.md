@@ -9,10 +9,7 @@ issues: []
 discussions: []
 name: ollama-command
 description: Executes tasks locally via Ollama to save tokens and costs.
-<<<<<<< .merge_file_Kw3QqF
-=======
 status: draft
->>>>>>> .merge_file_zXLviq
 ---
 
 # Ollama Slash Command (/ollama)

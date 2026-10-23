@@ -7,7 +7,7 @@ module: notify
 type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-10-23
 <<<<<<< .merge_file_M70jpF
 =======
 status: draft
@@ -51,8 +51,10 @@ Il modulo **Notify** gestisce:
 | **Action** | `SendPushToDeviceAction` | `app/Actions/Push/SendPushToDeviceAction.php` |
 | **Action** | `SendPushWithTemplateAction` | `app/Actions/Push/SendPushWithTemplateAction.php` |
 | **Action** | `FormatSmsMessageAction` | `app/Actions/SMS/FormatSmsMessageAction.php` |
-| **Job** | `SendNotificationJob` | `app/Jobs/SendNotificationJob.php` |
-| **Job** | `SendScheduledPushNotification` | `app/Jobs/SendScheduledPushNotification.php` |
+| **Action** (coda) | `SendScheduledPushNotificationAction` | `app/Actions/Push/SendScheduledPushNotificationAction.php` |
+| **Action** (coda) | `SchedulePushNotificationAction` | `app/Actions/Push/SchedulePushNotificationAction.php` |
+
+Notify non ha `app/Jobs/`: la coda la eseguono le Queueable Actions (`->onQueue()->execute(...)`, oppure `ActionJob::dispatch($action, [$args])->delay(...)` per il ritardo). Vedi la [regola](../../../../bashscripts/ai/wiki/rules/no-module-jobs-queueable-action.md).
 | **Filament** | `NotificationResource` | `app/Filament/Resources/NotificationResource.php` |
 | **Filament** | `NotificationTemplateResource` | `app/Filament/Resources/NotificationTemplateResource.php` |
 | **Filament** | `MailTemplateResource` | `app/Filament/Resources/MailTemplateResource.php` |
@@ -301,13 +303,14 @@ graphify query "Notify push notification Firebase device targeting SendPushToDev
    - `SendPushToPlatformAction` (iOS/Android)
    - `SendPushToTopicAction` (subscribers)
    - `SchedulePushNotificationAction` (ritardato)
-5. Job `SendScheduledPushNotification` processa invii programmati
+5. `SchedulePushNotificationAction` accoda `SendScheduledPushNotificationAction` con `ActionJob::dispatch(...)->delay(...)`, che processa gli invii programmati
 
 **File critici:**
 - `config/notify.php` (firebase config)
 - `app/Actions/Push/SendPushToDeviceAction.php`
 - `app/Actions/Push/SendPushToPlatformAction.php`
-- `app/Jobs/SendScheduledPushNotification.php`
+- `app/Actions/Push/SchedulePushNotificationAction.php`
+- `app/Actions/Push/SendScheduledPushNotificationAction.php`
 - `app/Models/Contact.php` (push_token storage)
 
 ---
@@ -370,8 +373,8 @@ graphify query "Notify bulk send SendRecordsNotificationAction SendRecordsNotifi
 1. Selezionare multiple records in Filament table
 2. Azione bulk: `SendRecordsNotificationBulkAction`
 3. Scegliere template e canali
-4. Enqueue in queue (background job)
-5. Job `SendNotificationJob` processa in batch
+4. Enqueue in coda: `app(SendRecordsNotificationAction::class)->onQueue('notifications')->execute($records, 'template-slug', ['mail'])`
+5. La stessa `SendRecordsNotificationAction` processa il batch in coda (nessun Job separato)
 6. Log ogni invio in `NotificationLog` con status
 7. Admin dashboard mostra delivery metrics
 
@@ -379,7 +382,6 @@ graphify query "Notify bulk send SendRecordsNotificationAction SendRecordsNotifi
 - `app/Actions/SendRecordsNotificationAction.php`
 - `app/Actions/SendRecordNotificationAction.php`
 - `app/Filament/Actions/SendRecordsNotificationBulkAction.php`
-- `app/Jobs/SendNotificationJob.php`
 - Queue config (`.env` → QUEUE_CONNECTION)
 
 ---
@@ -492,10 +494,10 @@ graphify query "Notify module test coverage pest phpunit"
 - [ ] `app/Actions/SMS/SendTwilioSMSAction.php` → test SMS provider
 - [ ] `app/Models/NotificationTemplate.php::compile()` → test template rendering
 - [ ] `app/Models/Contact.php` → test validazione email/phone/whatsapp
-- [ ] `app/Jobs/SendNotificationJob.php` → test job dispatch
+- [ ] `app/Actions/SendRecordsNotificationAction.php` → test `onQueue()->execute()` (coda) e `execute()` (sync)
 - [ ] `app/Filament/Resources/NotificationTemplateResource.php` → test admin CRUD
 - [ ] Bulk action → test `SendRecordsNotificationBulkAction`
-- [ ] Scheduled push → test `SendScheduledPushNotification` job
+- [ ] Scheduled push → test `SendScheduledPushNotificationAction::execute()`
 
 ---
 
@@ -524,7 +526,7 @@ graphify query "Notify test coverage pest"
 graphify query "Notify third-party integrations Twilio Firebase Mailtrap"
 
 # Performance
-graphify query "Notify queue jobs async SendNotificationJob"
+graphify query "Notify queue async onQueue QueueableAction ActionJob"
 ```
 
 ---

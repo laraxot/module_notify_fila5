@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "use models not db table"
 issues: []
 discussions: []
-<<<<<<< .merge_file_447ECs
-=======
 status: draft
->>>>>>> .merge_file_bJSQKQ
 ---
 
 # 🔴 USE MODELS, NOT DB::TABLE() - CRITICAL RULE
@@ -21,7 +18,6 @@ status: draft
 **Priority**: BLOCKER
 
 ---
-<<<<<<< .merge_file_447ECs
 
 title: "use models not db table"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "use models not db table"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_bJSQKQ
 ## 🎯 The Rule
 
 > **MAI** usare `DB::table()` quando esiste un **MODELLO**.

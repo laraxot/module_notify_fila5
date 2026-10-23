@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "installazione strumenti"
 issues: []
 discussions: []
-<<<<<<< .merge_file_MsJDJ6
-=======
 status: draft
->>>>>>> .merge_file_PsyGfp
 ---
 
 # 🚀 Installazione Strumenti di Sviluppo
@@ -75,7 +72,6 @@ Aggiungi a `~/.cursor/mcp.json`:
 ```
 
 ---
-<<<<<<< .merge_file_MsJDJ6
 
 title: "installazione strumenti"
 type: note
@@ -85,8 +81,6 @@ updated: 2026-09-26
 qmd: "installazione strumenti"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_PsyGfp
 ## Documentazione Progetto
 
 ### Struttura

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "locations standards"
 issues: []
 discussions: []
-<<<<<<< .merge_file_xcYEwh
-=======
 status: draft
->>>>>>> .merge_file_S1BiXk
 ---
 
 # Standard di Posizionamento dei File in Notify

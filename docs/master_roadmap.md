@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "master roadmap"
 issues: []
 discussions: []
-<<<<<<< .merge_file_H7GoZp
-=======
 status: draft
->>>>>>> .merge_file_GAt7pV
 ---
 
 # 🗺️ FIXCITY - MASTER ROADMAP 2025-2026
@@ -18,7 +15,6 @@ status: draft
 > **Roadmap strategica completa per il completamento e l'evoluzione della piattaforma**
 
 ---
-<<<<<<< .merge_file_H7GoZp
 
 title: "master roadmap"
 type: note
@@ -28,8 +24,6 @@ updated: 2026-09-26
 qmd: "master roadmap"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_GAt7pV
 ## 📊 Executive Summary
 
 **Obiettivo**: Trasformare FixCity da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.

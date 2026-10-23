@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "conflitti git"
 issues: []
 discussions: []
-<<<<<<< .merge_file_npeIl4
-=======
 status: draft
->>>>>>> .merge_file_55pFxe
 ---
 
 # Risoluzione Conflitti Git - Modulo Notify

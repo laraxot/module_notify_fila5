@@ -13,10 +13,7 @@ related:
   - "./analisi-colori-header-footer.md"
   - "./fix-plan.md"
   - "./screenshot-analysis.md"
-<<<<<<< .merge_file_oJMTkL
-=======
 status: draft
->>>>>>> .merge_file_1ZJjBe
 ---
 
 # 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia

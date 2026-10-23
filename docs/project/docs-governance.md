@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "docs governance"
 issues: []
 discussions: []
-<<<<<<< .merge_file_BaW55c
-=======
 status: draft
->>>>>>> .merge_file_BJRqK1
 ---
 
 # Documentation Governance

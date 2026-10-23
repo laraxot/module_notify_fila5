@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "security checklist"
 issues: []
 discussions: []
-<<<<<<< .merge_file_S3Utko
-=======
 status: draft
->>>>>>> .merge_file_LKH2kS
 ---
 
 # 🔒 FixCity Security Checklist
@@ -19,7 +16,6 @@ status: draft
 **Status**: Production Ready
 
 ---
-<<<<<<< .merge_file_S3Utko
 
 title: "security checklist"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "security checklist"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_LKH2kS
 ## 🎯 Security Compliance Overview
 
 - ✅ OWASP Top 10 2023 Compliance

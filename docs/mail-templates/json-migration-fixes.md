@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "json migration fixes"
 issues: []
 discussions: []
-<<<<<<< .merge_file_uAfnQz
-=======
 status: draft
->>>>>>> .merge_file_2pZAU9
 ---
 
 # Correzioni per le Migrazioni JSON in Laravel

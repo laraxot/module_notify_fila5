@@ -38,7 +38,7 @@ Consolidated from **12** individual files.
 ## whatsapp-channel-1
 
 <<<<<<< .merge_file_yfMQSJ
-*Consolidated from: `whatsapp-channel-1.md`*
+*Consolidated from: `whatsapp-channel-implementazione-canale.md`*
 =======
 *Consolidated from: `whatsapp-channel-implementazione-canale.md`*
 >>>>>>> .merge_file_0iqEDw
@@ -143,11 +143,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_yfMQSJ
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -854,7 +854,7 @@ class WhatsAppTest extends TestCase
 ## whatsapp-integration-1
 
 <<<<<<< .merge_file_yfMQSJ
-*Consolidated from: `whatsapp-integration-1.md`*
+*Consolidated from: `whatsapp-integration.md`*
 =======
 *Consolidated from: `whatsapp-integration.md`*
 >>>>>>> .merge_file_0iqEDw
@@ -1414,11 +1414,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_yfMQSJ
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -2531,11 +2531,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_yfMQSJ
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

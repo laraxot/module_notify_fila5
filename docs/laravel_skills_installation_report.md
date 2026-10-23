@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "laravel skills installation report"
 issues: []
 discussions: []
-<<<<<<< .merge_file_O2By7U
-=======
 status: draft
->>>>>>> .merge_file_iUFqqj
 ---
 
 # Laravel Skills Installation Report
@@ -147,7 +144,6 @@ To use installed skills, they must be activated in the AI guidelines. Check the 
 4. Consider creating custom skills if needed
 
 ---
-<<<<<<< .merge_file_O2By7U
 
 title: "laravel skills installation report"
 type: note
@@ -157,8 +153,6 @@ updated: 2026-09-26
 qmd: "laravel skills installation report"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_iUFqqj
 **Report Generated**: 2026-03-02  
 **Installation Attempts**: 13 repositories  
 **Successful Installations**: 1 skill  

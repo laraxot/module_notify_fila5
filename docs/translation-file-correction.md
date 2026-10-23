@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "translation file correction"
 issues: []
 discussions: []
-<<<<<<< .merge_file_iuinN3
-=======
 status: draft
->>>>>>> .merge_file_frwBuA
 ---
 
 # Guida alla Correzione dei File di Traduzione

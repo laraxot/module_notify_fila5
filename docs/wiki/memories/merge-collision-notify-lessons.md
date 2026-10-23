@@ -11,10 +11,7 @@ updated: 2026-05-26
 related:
   - ../../merge-conflicts-list.md
   - ../../../../../../docs/wiki/how-to/git-merge-marker-sweep.md
-<<<<<<< .merge_file_NTIQXx
-=======
 status: draft
->>>>>>> .merge_file_fFJEek
 ---
 
 # Lezioni merge — modulo Notify

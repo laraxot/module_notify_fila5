@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "php rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_2AOZDW
-=======
 status: draft
->>>>>>> .merge_file_Y3kO9p
 ---
 
 === php rules ===
@@ -52,7 +49,6 @@ protected function isAccessible(User $user, ?string $path = null): bool
 
 
 ---
-<<<<<<< .merge_file_2AOZDW
 
 title: "php rules"
 type: note
@@ -62,8 +58,6 @@ updated: 2026-09-26
 qmd: "php rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_Y3kO9p
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

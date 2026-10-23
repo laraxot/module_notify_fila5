@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament4 migration complete"
 issues: []
 discussions: []
-<<<<<<< .merge_file_D4Ch7W
-=======
 status: draft
->>>>>>> .merge_file_kEPG6r
 ---
 
 # Filament v4 Migration Complete - Notify Module

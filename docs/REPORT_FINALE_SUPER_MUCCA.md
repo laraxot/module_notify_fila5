@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "REPORT FINALE SUPER MUCCA"
 issues: []
 discussions: []
-<<<<<<< .merge_file_QIaCik
-=======
 status: draft
->>>>>>> .merge_file_oECLyc
 ---
 
 # 🐄✨ REPORT FINALE - SUPER MUCCA LIVELLO INFINITO ✨🐄
@@ -20,7 +17,6 @@ status: draft
 **Status:** ✅ **MISSIONE COMPLETATA AL 100%**
 
 ---
-<<<<<<< .merge_file_QIaCik
 
 title: "REPORT FINALE SUPER MUCCA"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "REPORT FINALE SUPER MUCCA"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_oECLyc
 ## 🎯 OBIETTIVO INIZIALE
 
 Tu hai chiesto:

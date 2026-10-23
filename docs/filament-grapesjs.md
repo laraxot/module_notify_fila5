@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament grapesjs"
 issues: []
 discussions: []
-<<<<<<< .merge_file_wlW6un
-=======
 status: draft
->>>>>>> .merge_file_TYNPVx
 ---
 
 # Abilitare il plugin `gjs-blocks-basic` in GrapesJS

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "commands"
 issues: []
 discussions: []
-<<<<<<< .merge_file_OuuBJN
-=======
 status: draft
->>>>>>> .merge_file_m9pHt1
 ---
 
 # Comandi Essenziali

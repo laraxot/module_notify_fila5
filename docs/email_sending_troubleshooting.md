@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email sending troubleshooting"
 issues: []
 discussions: []
-<<<<<<< .merge_file_hLGhez
-=======
 status: draft
->>>>>>> .merge_file_0kA7ol
 ---
 
 # Troubleshooting: Sistema di Invio Email in Notify

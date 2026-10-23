@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "grapesjs"
 issues: []
 discussions: []
-<<<<<<< .merge_file_x2ZUSR
-=======
 status: draft
->>>>>>> .merge_file_x4NMfn
 ---
 
 # GrapesJS Editor Integration

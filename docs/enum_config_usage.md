@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "enum config usage"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Nr11et
-=======
 status: draft
->>>>>>> .merge_file_NloMAm
 ---
 
 # Utilizzo di Enum e Config 

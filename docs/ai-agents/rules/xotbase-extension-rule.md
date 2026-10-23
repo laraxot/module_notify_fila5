@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "xotbase extension rule"
 issues: []
 discussions: []
-<<<<<<< .merge_file_6tQRoO
-=======
 status: draft
->>>>>>> .merge_file_dnPnYq
 ---
 
 # 🔴 XotBase Extension Rule - PHILOSOPHY
@@ -21,7 +18,6 @@ status: draft
 **Priority**: BLOCKER
 
 ---
-<<<<<<< .merge_file_6tQRoO
 
 title: "xotbase extension rule"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "xotbase extension rule"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_dnPnYq
 ## 🎯 The Rule
 
 > **TUTTI** i widget FILAMENT devono estendere `XotBaseWidget`

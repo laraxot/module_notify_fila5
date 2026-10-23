@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament pages"
 issues: []
 discussions: []
-<<<<<<< .merge_file_hpAzoL
-=======
 status: draft
->>>>>>> .merge_file_fharQ8
 ---
 
 # Pagine Filament del Modulo Notify

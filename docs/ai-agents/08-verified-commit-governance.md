@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "08 verified commit governance"
 issues: []
 discussions: []
-<<<<<<< .merge_file_KozxTl
-=======
 status: draft
->>>>>>> .merge_file_B1egbF
 ---
 
 # Verified Commit Governance

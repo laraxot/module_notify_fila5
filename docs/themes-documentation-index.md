@@ -9,11 +9,11 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 <<<<<<< .merge_file_y9ampp
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -60,7 +60,7 @@ Connects all theme docs with bidirectional links and visual architecture.
 Sixteen/
 ├── docs/                          ← 200+ documentation files
 <<<<<<< .merge_file_y9ampp
-│   ├── 00-index-1.md               ← MASTER INDEX
+│   ├── 00-index.md               ← MASTER INDEX
 =======
 │   ├── 00-index-documentation.md               ← MASTER INDEX
 >>>>>>> .merge_file_HLQDtB

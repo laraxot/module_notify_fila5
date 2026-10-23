@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "pest coverage guide"
 issues: []
 discussions: []
-<<<<<<< .merge_file_lPSLSd
-=======
 status: draft
->>>>>>> .merge_file_gRaWAH
 ---
 
 # Pest Coverage Guide

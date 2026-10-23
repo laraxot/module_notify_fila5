@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "json migration"
 issues: []
 discussions: []
-<<<<<<< .merge_file_CtQSWY
-=======
 status: draft
->>>>>>> .merge_file_vpRxdL
 ---
 
 # Errore di Migrazione JSON e Soluzione

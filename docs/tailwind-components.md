@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind components"
 issues: []
 discussions: []
-<<<<<<< .merge_file_OwPkrp
-=======
 status: draft
->>>>>>> .merge_file_7OKuzT
 ---
 
 # Componenti UI con Filament

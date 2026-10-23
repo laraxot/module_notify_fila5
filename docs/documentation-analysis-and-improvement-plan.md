@@ -9,11 +9,11 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 <<<<<<< .merge_file_UuHzMN
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -75,7 +75,7 @@ The FixCity platform has extensive documentation across modules and themes, but 
 - 15 files with temporal strings ("Last Updated: March 12, 2026")
 - Duplicate files: `prd.md`, `PRD.md`, `prd.json`
 <<<<<<< .merge_file_UuHzMN
-- Inconsistent naming: `product-strategy.md` vs `product-strategy-1.md`
+- Inconsistent naming: `product-strategy.md` vs `product-strategy.md`
 =======
 - Inconsistent naming: `product-strategy.md` vs `product-strategy-documentation-themes.md`
 >>>>>>> .merge_file_4eyngz

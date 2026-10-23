@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_8e3tvl
-=======
 status: draft
->>>>>>> .merge_file_4Yq3c0
 ---
 
 # Divergenza: `AI_RULES_CRITICAL.md`

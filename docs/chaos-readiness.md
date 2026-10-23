@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_vBP8rz
-=======
 status: draft
->>>>>>> .merge_file_vvDL4A
 ---
 
 # Notify Chaos Readiness - 2026-03-02

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament table vs blade component"
 issues: []
 discussions: []
-<<<<<<< .merge_file_UXWCuq
-=======
 status: draft
->>>>>>> .merge_file_8nm51G
 ---
 
 # 🎯 Filament Table vs Blade Component - Decision Guide
@@ -20,7 +17,6 @@ status: draft
 **Priority**: 🔴 CRITICAL
 
 ---
-<<<<<<< .merge_file_UXWCuq
 
 title: "filament table vs blade component"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "filament table vs blade component"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_8nm51G
 ## 🚨 REGOLA FONDAMENTALE
 
 > **LIST-like public surface** = Filament Table Widget  

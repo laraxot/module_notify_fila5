@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "testing guidelines"
 issues: []
 discussions: []
-<<<<<<< .merge_file_xk5B9T
-=======
 status: draft
->>>>>>> .merge_file_RjgpG0
 ---
 
 # 8. Testing Guidelines
@@ -21,7 +18,6 @@ status: draft
 - Feature tests for user flows
 
 ---
-<<<<<<< .merge_file_xk5B9T
 
 title: "testing guidelines"
 type: note
@@ -31,5 +27,3 @@ updated: 2026-09-26
 qmd: "testing guidelines"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_RjgpG0

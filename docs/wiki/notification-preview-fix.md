@@ -6,11 +6,8 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
-<<<<<<< .merge_file_NuGN2O
-=======
 tags: [docs, notify, wiki]
 qmd: "notifica   fix blade preview (scopo: anteprima mail notifica) notify"
->>>>>>> .merge_file_YIOKml
 ---
 
 # Notifica — Fix Blade preview (scopo: anteprima mail notifica)

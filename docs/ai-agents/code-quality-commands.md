@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "code quality commands"
 issues: []
 discussions: []
-<<<<<<< .merge_file_rieB8v
-=======
 status: draft
->>>>>>> .merge_file_Z7UeGS
 ---
 
 # Code quality commands

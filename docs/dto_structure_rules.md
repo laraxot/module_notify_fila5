@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "dto structure rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_w3bPtT
-=======
 status: draft
->>>>>>> .merge_file_ACySFW
 ---
 
 # Regole per la Struttura dei DTO

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "testing commands"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Jdk9Uq
-=======
 status: draft
->>>>>>> .merge_file_Ss58Dx
 ---
 
 # Testing commands

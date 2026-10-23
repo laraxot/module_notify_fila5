@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "class inheritance best practices"
 issues: []
 discussions: []
-<<<<<<< .merge_file_pRDjnl
-=======
 status: draft
->>>>>>> .merge_file_fbsXBp
 ---
 
 # Best Practices per l'Ereditarietà delle Classi

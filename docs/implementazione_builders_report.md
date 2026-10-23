@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "implementazione builders report"
 issues: []
 discussions: []
-<<<<<<< .merge_file_46GHDD
-=======
 status: draft
->>>>>>> .merge_file_IsvpAv
 ---
 
 # 🎉 IMPLEMENTAZIONE BUILDERS & ANALISI PIVOT - REPORT FINALE
@@ -20,7 +17,6 @@ status: draft
 **Status**: ✅ BUILDERS IMPLEMENTATI | ⚠️ PIVOT DA REFACTORARE
 
 ---
-<<<<<<< .merge_file_46GHDD
 
 title: "implementazione builders report"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "implementazione builders report"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_IsvpAv
 ## 📊 RISULTATI IMPLEMENTAZIONE
 
 ### ✅ Builders Creati (3 file)

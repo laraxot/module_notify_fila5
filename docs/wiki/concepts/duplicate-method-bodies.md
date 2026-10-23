@@ -12,10 +12,7 @@ qmd: "duplicate method bodies Notify identical hash DRY"
 related:
   - ../../../../../../docs/wiki/duplicate-method-bodies-census.md
   - ./method-name-homonyms.md
-<<<<<<< .merge_file_ux0rZt
-=======
 status: draft
->>>>>>> .merge_file_c5Sra6
 ---
 
 # Corpi metodo duplicati — Notify

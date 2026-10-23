@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "path and interface rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_RIgIuW
-=======
 status: draft
->>>>>>> .merge_file_ZcljLA
 ---
 
 # Regole di Percorso e Interfacce nel Modulo Notify

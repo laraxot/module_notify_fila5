@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "mixed type ultima spiaggia"
 issues: []
 discussions: []
-<<<<<<< .merge_file_SsrwyZ
-=======
 status: draft
->>>>>>> .merge_file_9vbPxB
 ---
 
 # Mixed (tipo di dato) - Solo come Ultima Spiaggia

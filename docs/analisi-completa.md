@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "analisi completa"
 issues: []
 discussions: []
-<<<<<<< .merge_file_fYN0Zf
-=======
 status: draft
->>>>>>> .merge_file_b2U27m
 ---
 
 # Analisi Completa del Modulo Notify
