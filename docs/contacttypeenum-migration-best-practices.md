@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "contacttypeenum migration best practices"
 issues: []
 discussions: []
-<<<<<<< .merge_file_foBrNV
-=======
 status: draft
->>>>>>> .merge_file_JNBMJx
 ---
 
 # ContactTypeEnum Migration Best Practices

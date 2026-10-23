@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "screenshot analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_tcb4l9
-=======
 status: draft
->>>>>>> .merge_file_wsn9KG
 ---
 
 # 📸 Screenshot Analysis - Homepage FixCity
@@ -40,7 +37,6 @@ URL: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 - Hover: `#0052A3`
 
 ---
-<<<<<<< .merge_file_tcb4l9
 
 title: "screenshot analysis"
 type: note
@@ -50,8 +46,6 @@ updated: 2026-09-26
 qmd: "screenshot analysis"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_wsn9KG
 ### 2. Hero Section
 ```
 Screenshot: hero_bootstrap_italia.png

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "notification behavior"
 issues: []
 discussions: []
-<<<<<<< .merge_file_qROt3k
-=======
 status: draft
->>>>>>> .merge_file_6GP8bt
 ---
 
 # Notification System Behavior

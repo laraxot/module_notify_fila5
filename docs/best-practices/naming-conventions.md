@@ -16,10 +16,7 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - ../README.md
-<<<<<<< .merge_file_VZpMWw
-=======
 status: draft
->>>>>>> .merge_file_OpGEY0
 ---
 # Convenzioni di Naming
 

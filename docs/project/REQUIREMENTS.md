@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "REQUIREMENTS"
 issues: []
 discussions: []
-<<<<<<< .merge_file_rszsvx
-=======
 status: draft
->>>>>>> .merge_file_b77Eqp
 ---
 
 # REQUIREMENTS: FixCity Platform

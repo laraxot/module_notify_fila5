@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "translation structure 5 levels"
 issues: []
 discussions: []
-<<<<<<< .merge_file_OeNlrf
-=======
 status: draft
->>>>>>> .merge_file_W5kYiB
 ---
 
 # 🔴 TRANSLATION STRUCTURE - 5 LEVELS REQUIRED
@@ -21,7 +18,6 @@ status: draft
 **Priority**: BLOCKER
 
 ---
-<<<<<<< .merge_file_OeNlrf
 
 title: "translation structure 5 levels"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "translation structure 5 levels"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_W5kYiB
 ## 🎯 The Rule
 
 > **SEMPRE** usare traduzioni a **5 LIVELLI**:

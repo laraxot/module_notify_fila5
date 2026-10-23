@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_EgcVug
-=======
 status: draft
->>>>>>> .merge_file_Z4mSg1
 ---
 
 # 🐄⚡ SUPER MUCCA MODE - COMPLETAMENTO TOTALE

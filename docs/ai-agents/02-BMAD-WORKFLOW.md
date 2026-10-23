@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "02 BMAD WORKFLOW"
 issues: []
 discussions: []
-<<<<<<< .merge_file_PQ9Le5
-=======
 status: draft
->>>>>>> .merge_file_71Sis0
 ---
 
 # 🎨 BMAD Workflow (Breakthrough Method for Agile AI-Driven Development)
@@ -19,7 +16,6 @@ status: draft
 **Related**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md) — GSD Method
 
 ---
-<<<<<<< .merge_file_PQ9Le5
 
 title: "02 BMAD WORKFLOW"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "02 BMAD WORKFLOW"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_71Sis0
 ## 📋 Overview
 
 BMAD is an AI-driven agile development framework with 12+ specialized agents.

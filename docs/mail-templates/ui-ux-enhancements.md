@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "ui ux enhancements"
 issues: []
 discussions: []
-<<<<<<< .merge_file_DnjdHd
-=======
 status: draft
->>>>>>> .merge_file_kq0FtM
 ---
 
 # UI/UX Enhancements per i Campi `name` e `slug` in MailTemplateResource

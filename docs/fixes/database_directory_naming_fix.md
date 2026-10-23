@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "database directory naming fix"
 issues: []
 discussions: []
-<<<<<<< .merge_file_gMYMpx
-=======
 status: draft
->>>>>>> .merge_file_w0xHk5
 ---
 
 # Database Directory Naming Convention Fix

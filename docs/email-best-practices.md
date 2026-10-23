@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email best practices"
 issues: []
 discussions: []
-<<<<<<< .merge_file_TByTPE
-=======
 status: draft
->>>>>>> .merge_file_SQVeZV
 ---
 
 # Best Practices per il Sistema Email

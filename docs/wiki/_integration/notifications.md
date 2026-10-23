@@ -6,11 +6,8 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
-<<<<<<< .merge_file_n8Dcea
-=======
 tags: [docs, notify, wiki]
 qmd: "notifications notify"
->>>>>>> .merge_file_QhFTMW
 ---
 
 # notifications

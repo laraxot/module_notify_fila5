@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "netfun channel"
 issues: []
 discussions: []
-<<<<<<< .merge_file_MHW2pk
-=======
 status: draft
->>>>>>> .merge_file_AzGfwV
 ---
 
 # Implementazione Canale Netfun

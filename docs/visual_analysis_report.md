@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "visual analysis report"
 issues: []
 discussions: []
-<<<<<<< .merge_file_sgJ1yh
-=======
 status: draft
->>>>>>> .merge_file_Df2bev
 ---
 
 # Documentation Visual Analysis Report
@@ -18,7 +15,6 @@ status: draft
 **📊 Complete Visual Documentation Audit with Diagrams**
 
 ---
-<<<<<<< .merge_file_sgJ1yh
 
 title: "visual analysis report"
 type: note
@@ -28,8 +24,6 @@ updated: 2026-09-26
 qmd: "visual analysis report"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_Df2bev
 ## Executive Summary
 
 This project now has comprehensive visual documentation with:

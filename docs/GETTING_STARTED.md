@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "GETTING STARTED"
 issues: []
 discussions: []
-<<<<<<< .merge_file_uyiAya
-=======
 status: draft
->>>>>>> .merge_file_7TJi4E
 ---
 
 # Getting Started with $MOD

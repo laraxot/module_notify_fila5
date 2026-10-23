@@ -7,10 +7,7 @@ type: user_stories
 tags: [user stories, epics, notify]
 created: 2026-08-04
 updated: 2026-08-04
-<<<<<<< .merge_file_EFX3nB
-=======
 status: draft
->>>>>>> .merge_file_gJyWGZ
 ---
 # Notify Epics and User Stories
 

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "seasonal email templates report"
 issues: []
 discussions: []
-<<<<<<< .merge_file_DnMAPQ
-=======
 status: draft
->>>>>>> .merge_file_YFrnck
 ---
 
 # Seasonal Email Templates Implementation Report

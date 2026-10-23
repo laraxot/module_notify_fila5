@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament patterns"
 issues: []
 discussions: []
-<<<<<<< .merge_file_FrYY2y
-=======
 status: draft
->>>>>>> .merge_file_TbOryD
 ---
 
 # Filament Patterns

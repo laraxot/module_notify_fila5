@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "config structure"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Vnm35U
-=======
 status: draft
->>>>>>> .merge_file_QE64rU
 ---
 
 # Struttura di Configurazione nei Moduli

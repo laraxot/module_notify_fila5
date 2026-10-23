@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "missing features"
 issues: []
 discussions: []
-<<<<<<< .merge_file_gtBlry
-=======
 status: draft
->>>>>>> .merge_file_nqb28L
 ---
 
 # Analisi Funzionalità Mancanti - Modulo Notify
@@ -248,7 +245,6 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 - [Notify README](./readme.md)
 
 ---
-<<<<<<< .merge_file_gtBlry
 
 title: "missing features"
 type: note
@@ -258,6 +254,4 @@ updated: 2026-09-26
 qmd: "missing features"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_nqb28L
 **Prossima Revisione**: [DATE]

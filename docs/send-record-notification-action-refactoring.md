@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "send record notification action refactoring"
 issues: []
 discussions: []
-<<<<<<< .merge_file_hUrNKG
-=======
 status: draft
->>>>>>> .merge_file_PlDJ61
 ---
 
 # Refactoring: SendRecordNotificationAction Duplication
@@ -78,7 +75,6 @@ The `sendWhatsApp()` method was slightly different but still shared the core not
 ✅ **Laraxot Philosophy**: Follows established architectural patterns
 
 ---
-<<<<<<< .merge_file_hUrNKG
 
 title: "send record notification action refactoring"
 type: note
@@ -88,6 +84,4 @@ updated: 2026-09-26
 qmd: "send record notification action refactoring"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_PlDJ61
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*

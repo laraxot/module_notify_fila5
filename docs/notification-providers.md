@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "notification providers"
 issues: []
 discussions: []
-<<<<<<< .merge_file_HVZcrT
-=======
 status: draft
->>>>>>> .merge_file_uVM1G7
 ---
 
 # Guida Completa ai Provider di Notifiche 

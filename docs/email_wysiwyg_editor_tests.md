@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email wysiwyg editor tests"
 issues: []
 discussions: []
-<<<<<<< .merge_file_xh5iCo
-=======
 status: draft
->>>>>>> .merge_file_uLzCL1
 ---
 
 # Test Editor WYSIWYG Email - il progetto

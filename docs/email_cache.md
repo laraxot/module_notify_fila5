@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email cache"
 issues: []
 discussions: []
-<<<<<<< .merge_file_72eKwQ
-=======
 status: draft
->>>>>>> .merge_file_hSMkps
 ---
 
 # Sistema Cache Email 

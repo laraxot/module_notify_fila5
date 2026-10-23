@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "netfun examples"
 issues: []
 discussions: []
-<<<<<<< .merge_file_mUmH7y
-=======
 status: draft
->>>>>>> .merge_file_LhEVGB
 ---
 
 # Esempi Pratici Netfun

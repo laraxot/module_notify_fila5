@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "ABSOLUTE COMPLETION 100"
 issues: []
 discussions: []
-<<<<<<< .merge_file_i1HhQl
-=======
 status: draft
->>>>>>> .merge_file_U8pXIa
 ---
 
 # 🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%
@@ -20,7 +17,6 @@ status: draft
 **Status**: ✅ 100% COMPLETATO  
 
 ---
-<<<<<<< .merge_file_i1HhQl
 
 title: "ABSOLUTE COMPLETION 100"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "ABSOLUTE COMPLETION 100"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_U8pXIa
 ## 🎯 MISSIONE IMPOSSIBILE → POSSIBILE
 
 Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbiamo raggiunto:

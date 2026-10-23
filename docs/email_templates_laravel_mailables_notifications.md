@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email templates laravel mailables notifications"
 issues: []
 discussions: []
-<<<<<<< .merge_file_peFYP8
-=======
 status: draft
->>>>>>> .merge_file_DuDOMP
 ---
 
 # Approfondimento: Mailables & Notifications Laravel

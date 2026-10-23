@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "FARMSHOPS INTEGRATION COMPLETE"
 issues: []
 discussions: []
-<<<<<<< .merge_file_LHqwtC
-=======
 status: draft
->>>>>>> .merge_file_nNE87X
 ---
 
 # 🗺️ FARMSHOPS.EU INTEGRATION - COMPLETE
@@ -20,7 +17,6 @@ status: draft
 **Status**: ✅ INTEGRATION COMPLETE  
 
 ---
-<<<<<<< .merge_file_LHqwtC
 
 title: "FARMSHOPS INTEGRATION COMPLETE"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "FARMSHOPS INTEGRATION COMPLETE"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_nNE87X
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in FixCity per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.

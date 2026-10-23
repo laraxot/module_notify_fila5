@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "implementation pratica"
 issues: []
 discussions: []
-<<<<<<< .merge_file_DBWmgB
-=======
 status: draft
->>>>>>> .merge_file_6WWEpi
 ---
 
 # Implementazione Pratica del Modulo Notify

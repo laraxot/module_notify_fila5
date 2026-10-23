@@ -16,10 +16,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
-<<<<<<< .merge_file_LA8ja6
-=======
 status: draft
->>>>>>> .merge_file_2dIjQN
 ---
 # Documentazione Centralizzata - Rifattorizzazione DRY + KISS
 

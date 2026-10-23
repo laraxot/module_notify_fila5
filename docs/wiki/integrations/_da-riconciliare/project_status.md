@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_p2DwJ0
-=======
 status: draft
->>>>>>> .merge_file_OuOS66
 ---
 
 # Notify Platform - Project Status Report

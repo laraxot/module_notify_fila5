@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "livewire v3 rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_92O9p8
-=======
 status: draft
->>>>>>> .merge_file_r7iEpm
 ---
 
 ## Livewire 3
@@ -49,7 +46,6 @@ document.addEventListener('livewire:init', function () {
 
 
 ---
-<<<<<<< .merge_file_92O9p8
 
 title: "livewire v3 rules"
 type: note
@@ -59,8 +55,6 @@ updated: 2026-09-26
 qmd: "livewire v3 rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_r7iEpm
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

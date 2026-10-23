@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "model and docs naming governance"
 issues: []
 discussions: []
-<<<<<<< .merge_file_zUZFh4
-=======
 status: draft
->>>>>>> .merge_file_s3IziO
 ---
 
 # Model And Docs Naming Governance

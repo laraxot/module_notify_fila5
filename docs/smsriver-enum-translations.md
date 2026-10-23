@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "smsriver enum translations"
 issues: []
 discussions: []
-<<<<<<< .merge_file_dRmUJg
-=======
 status: draft
->>>>>>> .merge_file_6Keo1n
 ---
 
 # Traduzioni SmsDriverEnum - Modulo Notify
@@ -201,7 +198,6 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/docs/)
 
 ---
-<<<<<<< .merge_file_dRmUJg
 
 title: "smsriver enum translations"
 type: note
@@ -211,5 +207,3 @@ updated: 2026-09-26
 qmd: "smsriver enum translations"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_6Keo1n

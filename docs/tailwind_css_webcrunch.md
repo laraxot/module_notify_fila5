@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind css webcrunch"
 issues: []
 discussions: []
-<<<<<<< .merge_file_R1jX9B
-=======
 status: draft
->>>>>>> .merge_file_5w09iN
 ---
 
 # Tailwind CSS: Approfondimento Collezione Webcrunch

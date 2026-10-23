@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "ollama token optimization"
 issues: []
 discussions: []
-<<<<<<< .merge_file_ZbKPWS
-=======
 status: draft
->>>>>>> .merge_file_9SKYNk
 ---
 
 # Ollama Token Optimization Guide

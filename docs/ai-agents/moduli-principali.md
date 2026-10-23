@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "moduli principali"
 issues: []
 discussions: []
-<<<<<<< .merge_file_gRd2nZ
-=======
 status: draft
->>>>>>> .merge_file_kQ8TsA
 ---
 
 # Moduli Principali

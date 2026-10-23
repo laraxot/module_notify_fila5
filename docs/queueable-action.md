@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "queueable action"
 issues: []
 discussions: []
-<<<<<<< .merge_file_M2CrCV
-=======
 status: draft
->>>>>>> .merge_file_TLMxku
 ---
 
 # Spatie Laravel Queueable Action

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "path and namespace rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_ObpJxf
-=======
 status: draft
->>>>>>> .merge_file_u16eif
 ---
 
 # Regole per Path e Namespace nel Modulo Notify
@@ -170,7 +167,6 @@ namespace Modules\Notify\App\Console\Commands;
 > **Nota:** Anche per i comandi console, il namespace non deve mai includere il segmento `App`.
 
 ---
-<<<<<<< .merge_file_ObpJxf
 
 title: "path and namespace rules"
 type: note
@@ -180,6 +176,4 @@ updated: 2026-09-26
 qmd: "path and namespace rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_u16eif
 *Ultimo aggiornamento: 2025-05-12*

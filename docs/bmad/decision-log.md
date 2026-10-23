@@ -110,7 +110,7 @@ related:
 >>>>>>> .merge_file_wKvJpl
 
 ### 2026-09-29
-**Decisione:** Notifiche programmate tramite Cache + Job (`SendScheduledPushNotification`)
+**Decisione:** Notifiche programmate tramite Cache + Queueable Action (`SendScheduledPushNotificationAction`)
 **Stato:** APPROVATA
 **Impatto:** Medio
 **Alternatives considerate:**
@@ -118,8 +118,8 @@ related:
 - Laravel Scheduler con query
 **Consegnenze:**
 - `SchedulePushNotificationAction` scrive payload in `Cache::put` con chiave `scheduled_push:{jobId}` e scadenza
-- `SendScheduledPushNotification::dispatch($jobId)->delay(...)`
-- Il Job legge dalla cache, invia, poi `Cache::forget()`
+- `ActionJob::dispatch(new SendScheduledPushNotificationAction, [$jobId])->delay(...)`
+- L'Action legge dalla cache, invia, poi `Cache::forget()`
 - Richiede sistema di cache configurato (non funziona con `array` driver in produzione)
 
 ### 2026-09-29

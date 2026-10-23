@@ -16,10 +16,7 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
-<<<<<<< .merge_file_BYzfkH
-=======
 status: draft
->>>>>>> .merge_file_tm9FRV
 ---
 # Convenzioni di Naming per Filament 
 

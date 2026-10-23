@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "interface naming convention"
 issues: []
 discussions: []
-<<<<<<< .merge_file_8MiFsd
-=======
 status: draft
->>>>>>> .merge_file_TJLq8A
 ---
 
 # Convenzione di Naming per le Interfacce 

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "llm wiki log"
 issues: []
 discussions: []
-<<<<<<< .merge_file_THdDXW
-=======
 status: stub
->>>>>>> .merge_file_y9uaUq
 ---
 
 # LLM Wiki Log

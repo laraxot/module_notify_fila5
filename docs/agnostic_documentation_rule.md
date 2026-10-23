@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "agnostic documentation rule"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Jo5xEJ
-=======
 status: draft
->>>>>>> .merge_file_pG2zll
 ---
 
 # Agnostic Documentation Rule
@@ -220,7 +217,6 @@ Replace `[PROJECT_NAME]`, `[DOMAIN]`, and `[ModuleName]` with your actual projec
 ```
 
 ---
-<<<<<<< .merge_file_Jo5xEJ
 
 title: "agnostic documentation rule"
 type: note
@@ -230,8 +226,6 @@ updated: 2026-09-26
 qmd: "agnostic documentation rule"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_pG2zll
 **Version**: 1.0  
 **Effective Date**: 2026-03-30  
 **Applies To**: All Modules/*/docs/ and Themes/*/docs/ directories

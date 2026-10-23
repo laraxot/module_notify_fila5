@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "testing guidelines"
 issues: []
 discussions: []
-<<<<<<< .merge_file_k5ECp8
-=======
 status: draft
->>>>>>> .merge_file_29VNQH
 ---
 
 # Notify Module - Testing Guidelines

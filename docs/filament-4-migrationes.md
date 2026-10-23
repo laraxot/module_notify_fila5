@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament 4 migrationes"
 issues: []
 discussions: []
-<<<<<<< .merge_file_PzNCL5
-=======
 status: draft
->>>>>>> .merge_file_VAG4P3
 ---
 
 # Filament 3 to 4 Migration - Component Fixes

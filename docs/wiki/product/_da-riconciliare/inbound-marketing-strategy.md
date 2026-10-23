@@ -8,10 +8,7 @@ type: product
 tags: [product, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_FKG9G6
-=======
 status: draft
->>>>>>> .merge_file_gGJTZG
 ---
 
 # Strategia Inbound Marketing - App

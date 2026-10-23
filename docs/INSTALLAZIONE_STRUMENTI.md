@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "INSTALLAZIONE STRUMENTI"
 issues: []
 discussions: []
-<<<<<<< .merge_file_pAHx5d
-=======
 status: draft
->>>>>>> .merge_file_2Fpr5U
 ---
 
 # 🚀 Installazione Strumenti di Sviluppo
@@ -75,7 +72,6 @@ Aggiungi a `~/.cursor/mcp.json`:
 ```
 
 ---
-<<<<<<< .merge_file_pAHx5d
 
 title: "INSTALLAZIONE STRUMENTI"
 type: note
@@ -85,8 +81,6 @@ updated: 2026-09-26
 qmd: "INSTALLAZIONE STRUMENTI"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_2Fpr5U
 ## Documentazione Progetto
 
 ### Struttura

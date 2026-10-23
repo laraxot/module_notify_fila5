@@ -16,10 +16,7 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
-<<<<<<< .merge_file_GDGDp1
-=======
 status: draft
->>>>>>> .merge_file_1JrK8C
 ---
 # Convenzioni per Template Blade di Filament 
 

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email tests"
 issues: []
 discussions: []
-<<<<<<< .merge_file_q8HNOm
-=======
 status: draft
->>>>>>> .merge_file_H6L7Jk
 ---
 
 # Test Sistema Email - il progetto

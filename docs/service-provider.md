@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "service provider"
 issues: []
 discussions: []
-<<<<<<< .merge_file_RlpqYU
-=======
 status: draft
->>>>>>> .merge_file_7p8nuT
 ---
 
 # Service Provider del Modulo Notify

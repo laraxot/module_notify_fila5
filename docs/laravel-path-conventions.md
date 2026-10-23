@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "laravel path conventions"
 issues: []
 discussions: []
-<<<<<<< .merge_file_1HCQFr
-=======
 status: draft
->>>>>>> .merge_file_r0KYf1
 ---
 
 # Convenzioni dei Path in Laravel e

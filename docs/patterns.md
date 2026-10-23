@@ -7,10 +7,7 @@ title: "Notify Module Patterns"
 type: guide
 tags: [notify, patterns]
 created: 2026-07-28
-<<<<<<< .merge_file_503MBI
-=======
 status: draft
->>>>>>> .merge_file_IyLeqA
 ---
 
 # Notify Module — Patterns

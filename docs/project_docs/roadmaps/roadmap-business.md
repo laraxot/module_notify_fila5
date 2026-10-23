@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap business"
 issues: []
 discussions: []
-<<<<<<< .merge_file_CYLOJW
-=======
 status: draft
->>>>>>> .merge_file_vcnxyy
 ---
 
 # 💼 ROADMAP BUSINESS - FIXCITY PLATFORM
@@ -508,7 +505,6 @@ EBITDA: €0 (Break-even Q4 2025)
 - **Compliance**: GDPR e normative italiane
 
 ---
-<<<<<<< .merge_file_CYLOJW
 
 title: "roadmap business"
 type: note
@@ -518,8 +514,6 @@ updated: 2026-09-26
 qmd: "roadmap business"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_vcnxyy
 **📞 Contatti Business**
 - **CEO**: Business Development Team
 - **Email**: business@laraxot.com

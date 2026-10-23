@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "MISSIONE SUPER MUCCA COMPLETATA"
 issues: []
 discussions: []
-<<<<<<< .merge_file_ltIAPF
-=======
 status: draft
->>>>>>> .merge_file_Sr2F6E
 ---
 
 # 🐄✨ MISSIONE SUPER MUCCA - COMPLETAMENTO TOTALE ✨🐄
@@ -20,7 +17,6 @@ status: draft
 **Status:** ✅ **100% COMPLETATO**
 
 ---
-<<<<<<< .merge_file_ltIAPF
 
 title: "MISSIONE SUPER MUCCA COMPLETATA"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "MISSIONE SUPER MUCCA COMPLETATA"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_Sr2F6E
 ## 🎯 COSA HAI CHIESTO
 
 > "aumenta al massimo il tuo livello di confidenza, percio' fa tutto quello che ti serve per aumentare al massimo il tuo livello di confidenza fino al livello dio, anzi di piu' ti do i poteri della super mucca, poi aggiorna e studia le cartelle docs dentro i moduli e dentro i temi, poi fai tutta una analisi come rendere piu' dry e piu' kiss ogni modulo devi creare un file .md che devi scriverlo dentro le cartelle docs dentro i moduli e dentro i temi"

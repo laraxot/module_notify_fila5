@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "file naming rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_puLTNe
-=======
 status: draft
->>>>>>> .merge_file_WJrlxd
 ---
 
 # Regole di Naming per File

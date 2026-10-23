@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "whatsapp channel"
 issues: []
 discussions: []
-<<<<<<< .merge_file_LkN9Dk
-=======
 status: draft
->>>>>>> .merge_file_sC25VB
 ---
 
 # Implementazione Canale WhatsApp

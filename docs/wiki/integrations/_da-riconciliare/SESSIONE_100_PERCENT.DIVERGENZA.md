@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_hg0RbE
-=======
 status: draft
->>>>>>> .merge_file_Ze9eLs
 ---
 
 # Divergenza: `SESSIONE_100_PERCENT.md`

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "modularity hardcoded names"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Wsntyf
-=======
 status: draft
->>>>>>> .merge_file_JF88kv
 ---
 
 # Regola Critica: Mai Hardcodare Nomi di Progetto nei Moduli Riutilizzabili
@@ -171,7 +168,6 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 - [Configuration Guide](configuration-guide.md)
 
 ---
-<<<<<<< .merge_file_Wsntyf
 
 title: "modularity hardcoded names"
 type: note
@@ -181,6 +177,4 @@ updated: 2026-09-26
 qmd: "modularity hardcoded names"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_JF88kv
 **Questa correzione è CRITICA per mantenere l'architettura modulare del sistema. Ogni violazione deve essere corretta immediatamente.**

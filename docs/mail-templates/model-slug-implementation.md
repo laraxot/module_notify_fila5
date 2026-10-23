@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "model slug implementation"
 issues: []
 discussions: []
-<<<<<<< .merge_file_T9RUsE
-=======
 status: draft
->>>>>>> .merge_file_GvOtD7
 ---
 
 # Implementazione del Campo `slug` nel Modello MailTemplate

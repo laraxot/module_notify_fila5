@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "PHPSTAN FIX COORDINATION"
 issues: []
 discussions: []
-<<<<<<< .merge_file_GWqewF
-=======
 status: draft
->>>>>>> .merge_file_900Swq
 ---
 
 # PHPStan Fix Coordination Plan
@@ -196,7 +193,6 @@ git push
 6. ✅ Update all documentation
 
 ---
-<<<<<<< .merge_file_GWqewF
 
 title: "PHPSTAN FIX COORDINATION"
 type: note
@@ -206,8 +202,6 @@ updated: 2026-09-26
 qmd: "PHPSTAN FIX COORDINATION"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_900Swq
 **Multi-Agent Coordination Notes:**
 - This is a COLLABORATIVE effort with multiple AI agents
 - Always check git log before starting work

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "custom charts complete guide"
 issues: []
 discussions: []
-<<<<<<< .merge_file_YMiMsU
-=======
 status: draft
->>>>>>> .merge_file_wU7sgU
 ---
 
 # Custom Question Types Implementation - Complete Guide
@@ -20,7 +17,6 @@ status: draft
 **Author**: Development Team
 
 ---
-<<<<<<< .merge_file_YMiMsU
 
 title: "custom charts complete guide"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "custom charts complete guide"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_wU7sgU
 ## Overview
 
 Implementazione completa delle custom question types per Quaeris Fila5, basata sul pattern di Fila4 ma con ottimizzazioni moderne.

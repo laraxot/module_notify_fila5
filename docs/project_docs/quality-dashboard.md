@@ -18,10 +18,7 @@ related:
   - "./final-implementation-report-.md"
   - "./final-implementation-report-1.md"
   - "./final-implementation-report.md"
-<<<<<<< .merge_file_cPFIvp
-=======
 status: draft
->>>>>>> .merge_file_11RrFB
 ---
 
 # 📊 Quality Dashboard - FixCity Project

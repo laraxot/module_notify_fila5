@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "json migration connection"
 issues: []
 discussions: []
-<<<<<<< .merge_file_AyLomb
-=======
 status: draft
->>>>>>> .merge_file_DThkMo
 ---
 
 # Connessione Database nelle Migrazioni JSON

@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_CQHxjq
-=======
 status: draft
->>>>>>> .merge_file_FRFUC2
 ---
 
 # Sync Remote Repo - Test Plan

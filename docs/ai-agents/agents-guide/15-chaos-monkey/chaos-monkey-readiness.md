@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "chaos monkey readiness"
 issues: []
 discussions: []
-<<<<<<< .merge_file_xMEij2
-=======
 status: draft
->>>>>>> .merge_file_ac3KeC
 ---
 
 # Chaos Monkey Readiness

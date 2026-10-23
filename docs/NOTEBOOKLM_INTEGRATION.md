@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "NOTEBOOKLM INTEGRATION"
 issues: []
 discussions: []
-<<<<<<< .merge_file_jfFhql
-=======
 status: draft
->>>>>>> .merge_file_a0AOW7
 ---
 
 # NotebookLM Integration

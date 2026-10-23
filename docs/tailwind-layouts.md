@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind layouts"
 issues: []
 discussions: []
-<<<<<<< .merge_file_98ew3E
-=======
 status: draft
->>>>>>> .merge_file_YEr9pD
 ---
 
 # Layout con Filament Components

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "advanced template system"
 issues: []
 discussions: []
-<<<<<<< .merge_file_kNeyts
-=======
 status: draft
->>>>>>> .merge_file_TZvdBq
 ---
 
 # Architettura del Sistema di Notifiche - Best Practices

@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_1LHOLj
-=======
 status: draft
->>>>>>> .merge_file_0XWnbg
 ---
 
 # Boost Skill Installation - Solution Plan

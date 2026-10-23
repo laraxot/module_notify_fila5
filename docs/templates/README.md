@@ -16,10 +16,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - readme.md
-<<<<<<< .merge_file_xRjRFj
-=======
 status: draft
->>>>>>> .merge_file_ARIpVK
 ---
 # Template Email
 

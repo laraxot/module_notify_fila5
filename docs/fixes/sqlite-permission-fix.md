@@ -12,10 +12,7 @@ related:
   - "./database-directory-naming-fix.md"
   - "./database-naming-fix-summary.md"
   - "./database-naming-verification-report.md"
-<<<<<<< .merge_file_IbjCy9
-=======
 status: draft
->>>>>>> .merge_file_CNxjao
 ---
 
 # ✅ SQLite Database Permission Fix - COMPLETE

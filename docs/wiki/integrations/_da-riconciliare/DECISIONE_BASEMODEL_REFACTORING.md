@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_6ZNO12
-=======
 status: draft
->>>>>>> .merge_file_IktZf2
 ---
 
 # 🎯 DECISIONE: BaseModel Refactoring - Analisi Approfondita

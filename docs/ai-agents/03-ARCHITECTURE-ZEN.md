@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "03 ARCHITECTURE ZEN"
 issues: []
 discussions: []
-<<<<<<< .merge_file_MKRmRM
-=======
 status: draft
->>>>>>> .merge_file_CINeLL
 ---
 
 # 🏛️ Architecture Zen Philosophy
@@ -19,7 +16,6 @@ status: draft
 **Related**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md) — Filament Widgets
 
 ---
-<<<<<<< .merge_file_MKRmRM
 
 title: "03 ARCHITECTURE ZEN"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "03 ARCHITECTURE ZEN"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_CINeLL
 ## 🔴 Fundamental Rules
 
 ### 1. **NO Themes/*/Http/Livewire/**

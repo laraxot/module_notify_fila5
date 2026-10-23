@@ -166,10 +166,10 @@ class SendEmail extends XotBasePage
 Creare i file DTO necessari:
 
 ```php
-// app/Data/EmailData.php
+// app/Datas/EmailData.php
 <?php
 
-namespace Modules\Notify\App\Data;
+namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
 
@@ -183,10 +183,10 @@ class EmailData extends Data
     }
 }
 
-// app/Data/SmtpData.php
+// app/Datas/SmtpData.php
 <?php
 
-namespace Modules\Notify\App\Data;
+namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
 
@@ -249,4 +249,4 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
-   - Verificare configurazione SMTP 
+   - Verificare configurazione SMTP

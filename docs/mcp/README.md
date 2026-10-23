@@ -16,10 +16,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
-<<<<<<< .merge_file_NAfe4P
-=======
 status: draft
->>>>>>> .merge_file_yskgmw
 ---
 # MCP (Model Context Protocol) Configuration
 

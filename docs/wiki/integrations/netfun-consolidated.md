@@ -53,11 +53,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_pO0C8p
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -469,7 +469,7 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 ## netfun-action-updates-1
 
 <<<<<<< .merge_file_pO0C8p
-*Consolidated from: `netfun-action-updates-1.md`*
+*Consolidated from: `netfun-action-updates.md`*
 =======
 *Consolidated from: `netfun-action-updates.md`*
 >>>>>>> .merge_file_ct4wJn
@@ -810,11 +810,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_pO0C8p
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -1676,7 +1676,7 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 ## netfun-channel-1
 
 <<<<<<< .merge_file_pO0C8p
-*Consolidated from: `netfun-channel-1.md`*
+*Consolidated from: `netfun-channel.md`*
 =======
 *Consolidated from: `netfun-channel.md`*
 >>>>>>> .merge_file_ct4wJn
@@ -2382,11 +2382,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_pO0C8p
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -3793,11 +3793,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_pO0C8p
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -4131,7 +4131,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 ## netfun-examples-1
 
 <<<<<<< .merge_file_pO0C8p
-*Consolidated from: `netfun-examples-1.md`*
+*Consolidated from: `netfun-examples.md`*
 =======
 *Consolidated from: `netfun-examples.md`*
 >>>>>>> .merge_file_ct4wJn
@@ -5078,11 +5078,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_pO0C8p
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

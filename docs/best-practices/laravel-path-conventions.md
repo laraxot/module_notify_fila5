@@ -16,10 +16,7 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
-<<<<<<< .merge_file_dnuNfK
-=======
 status: draft
->>>>>>> .merge_file_dX03Zg
 ---
 # Convenzioni dei Path in Laravel e 
 

@@ -7,10 +7,7 @@ discussions: []
 title: agent edit discipline — puntatore
 type: reference
 updated: 2026-05-19
-<<<<<<< .merge_file_Bi3phV
-=======
 status: draft
->>>>>>> .merge_file_FjUsDV
 ---
 
 # Disciplina edit e qualità (puntatore)

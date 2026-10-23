@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "changelog"
 issues: []
 discussions: []
-<<<<<<< .merge_file_oxAG21
-=======
 status: draft
->>>>>>> .merge_file_a4y8RS
 ---
 
 # Changelog - Modulo Notify
@@ -30,7 +27,6 @@ Tutte le modifiche significative al modulo Notify saranno documentate in questo 
 - Regola Laraxot: MAI usare `\App\` nei namespace moduli
 
 ---
-<<<<<<< .merge_file_oxAG21
 
 title: "changelog"
 type: note
@@ -40,8 +36,6 @@ updated: 2026-09-26
 qmd: "changelog"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_a4y8RS
 ## Convenzioni
 
 - Namespace modulo: `Modules\Notify\{Subdirectory}`

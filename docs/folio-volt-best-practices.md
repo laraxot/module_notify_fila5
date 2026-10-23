@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_5GiSPC
-=======
 status: draft
->>>>>>> .merge_file_LQqd7k
 ---
 
 # Laravel Folio + Volt - Best Practices and Patterns Analysis

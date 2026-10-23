@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms config structure"
 issues: []
 discussions: []
-<<<<<<< .merge_file_f6iiTn
-=======
 status: draft
->>>>>>> .merge_file_WXNBhs
 ---
 
 # Struttura della Configurazione SMS 
@@ -170,7 +167,6 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 - [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
 
 ---
-<<<<<<< .merge_file_f6iiTn
 
 title: "sms config structure"
 type: note
@@ -180,6 +176,4 @@ updated: 2026-09-26
 qmd: "sms config structure"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_WXNBhs
 *Ultimo aggiornamento: [DATE]*

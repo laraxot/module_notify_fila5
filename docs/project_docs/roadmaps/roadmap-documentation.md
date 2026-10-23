@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap documentation"
 issues: []
 discussions: []
-<<<<<<< .merge_file_mnnPkO
-=======
 status: draft
->>>>>>> .merge_file_8IiKEk
 ---
 
 # 📚 ROADMAP DOCUMENTAZIONE - FIXCITY PLATFORM
@@ -631,7 +628,6 @@ paths:
 - [ ] Budget e risorse
 
 ---
-<<<<<<< .merge_file_mnnPkO
 
 title: "roadmap documentation"
 type: note
@@ -641,8 +637,6 @@ updated: 2026-09-26
 qmd: "roadmap documentation"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_8IiKEk
 **📞 Contatti Documentazione**
 - **Tech Writer**: Documentation Team
 - **Email**: docs@laraxot.com

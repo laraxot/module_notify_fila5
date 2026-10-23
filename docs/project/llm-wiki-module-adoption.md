@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "llm wiki module adoption"
 issues: []
 discussions: []
-<<<<<<< .merge_file_aDM3NJ
-=======
 status: draft
->>>>>>> .merge_file_RIAqyP
 ---
 
 # LLM Wiki — Adozione per Moduli e Temi

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "channel enum refactoring"
 issues: []
 discussions: []
-<<<<<<< .merge_file_RpLs28
-=======
 status: draft
->>>>>>> .merge_file_ceLhOv
 ---
 
 # Refactoring: Replace CHANNEL_CONFIG with Smart Enum

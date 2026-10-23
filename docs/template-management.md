@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "template management"
 issues: []
 discussions: []
-<<<<<<< .merge_file_m85DpE
-=======
 status: draft
->>>>>>> .merge_file_EHBl4y
 ---
 
 # Template Management

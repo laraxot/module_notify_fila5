@@ -9,10 +9,7 @@ type: reference
 updated: 2026-05-21
 related:
   - "../../../../Xot/docs/wiki/concepts/context-overflow-prevention.md"
-<<<<<<< .merge_file_z8Q6m4
-=======
 status: draft
->>>>>>> .merge_file_XZpSNr
 ---
 
 # context overflow prevention

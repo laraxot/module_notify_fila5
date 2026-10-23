@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "data class"
 issues: []
 discussions: []
-<<<<<<< .merge_file_iBClkI
-=======
 status: draft
->>>>>>> .merge_file_L7eFIJ
 ---
 
 # SmsFactorData Class Documentation

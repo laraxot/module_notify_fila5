@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "test smtp"
 issues: []
 discussions: []
-<<<<<<< .merge_file_E2M02v
-=======
 status: draft
->>>>>>> .merge_file_e7rubY
 ---
 
 # test_smtp

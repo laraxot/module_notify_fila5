@@ -16,10 +16,7 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
-<<<<<<< .merge_file_rZrHnu
-=======
 status: draft
->>>>>>> .merge_file_VNam8a
 ---
 # Convenzioni per i Collegamenti nei File Markdown
 

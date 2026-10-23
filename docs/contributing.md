@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "contributing"
 issues: []
 discussions: []
-<<<<<<< .merge_file_C3qSok
-=======
 status: draft
->>>>>>> .merge_file_k9Nlz2
 ---
 
 # Contributing to FixCity
@@ -28,7 +25,6 @@ First off, thank you for considering contributing to FixCity! 🎉
 - [Pull Request Process](#pull-request-process)
 
 ---
-<<<<<<< .merge_file_C3qSok
 
 title: "contributing"
 type: note
@@ -38,8 +34,6 @@ updated: 2026-09-26
 qmd: "contributing"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_k9Nlz2
 ## 📜 Code of Conduct
 
 This project adheres to a Code of Conduct that all contributors are expected to follow. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing.

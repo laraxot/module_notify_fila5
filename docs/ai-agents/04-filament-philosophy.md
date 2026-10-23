@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "04 filament philosophy"
 issues: []
 discussions: []
-<<<<<<< .merge_file_4MMElQ
-=======
 status: draft
->>>>>>> .merge_file_zSxAGp
 ---
 
 # 🎨 Filament Forms & Tables Philosophy
@@ -19,7 +16,6 @@ status: draft
 **Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 
 ---
-<<<<<<< .merge_file_4MMElQ
 
 title: "04 filament philosophy"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "04 filament philosophy"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_zSxAGp
 ## 🔴 Fundamental Rule
 
 **NEVER create custom forms or tables in blade.**

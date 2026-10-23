@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "telegram channel"
 issues: []
 discussions: []
-<<<<<<< .merge_file_msC2qI
-=======
 status: draft
->>>>>>> .merge_file_rdK2Mf
 ---
 
 # Implementazione Canale Telegram

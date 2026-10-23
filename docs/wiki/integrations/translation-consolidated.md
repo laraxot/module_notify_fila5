@@ -73,7 +73,7 @@ Consolidated from **51** individual files.
 ## translation-cleanup-plan-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translation-cleanup-plan-1.md`*
+*Consolidated from: `translation-cleanup-plan.md`*
 =======
 *Consolidated from: `translation-cleanup-plan.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -192,11 +192,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -326,7 +326,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 ## translation-conventions-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translation-conventions-1.md`*
+*Consolidated from: `translation-conventions.md`*
 =======
 *Consolidated from: `translation-conventions.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -582,11 +582,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -607,7 +607,7 @@ Conventions for naming and structure of translation keys.
 ## translation-conventions-clarification-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translation-conventions-clarification-1.md`*
+*Consolidated from: `translation-conventions-clarification.md`*
 =======
 *Consolidated from: `translation-conventions-clarification.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -724,11 +724,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -838,7 +838,7 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 ## Riferimenti
 
 <<<<<<< .merge_file_Cv7AAK
-- [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules-1.md)
+- [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules.md)
 =======
 - [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules.md)
 >>>>>>> .merge_file_HT6fq0
@@ -1291,7 +1291,7 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 ## translation-file-correction-guide-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translation-file-correction-guide-1.md`*
+*Consolidated from: `translation-file-correction-guide.md`*
 =======
 *Consolidated from: `translation-file-correction-guide-deprecated.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -1323,11 +1323,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -2174,11 +2174,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -2359,11 +2359,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -2868,7 +2868,7 @@ return [
 ## translation-implementation-plan-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translation-implementation-plan-1.md`*
+*Consolidated from: `translation-implementation-plan.md`*
 =======
 *Consolidated from: `translation-implementation-plan-deprecated.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -2900,11 +2900,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -3348,11 +3348,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -3409,7 +3409,7 @@ La chiave di traduzione perfetta è quella che non si nota: è naturale, fluida,
 ## translation-keys-rules-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translation-keys-rules-1.md`*
+*Consolidated from: `translation-keys-rules.md`*
 =======
 *Consolidated from: `translation-keys-rules.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -3424,11 +3424,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -3492,7 +3492,7 @@ return [
 <<<<<<< .merge_file_Cv7AAK
 - [TRANSLATION_KEYS_RULES.md](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md) 
-- [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation-keys-rules-1.md)
+- [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation-keys-rules.md)
 =======
 - [TRANSLATION_KEYS_RULES.md](../../../../Lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../../../Lang/docs/translation_keys_best_practices.md) 
@@ -3967,7 +3967,7 @@ Amen.
 ## translation-standards-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translation-standards-1.md`*
+*Consolidated from: `translation-standards.md`*
 =======
 *Consolidated from: `translation-standards.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -4118,11 +4118,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -4271,7 +4271,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 ## translation-standards-progress-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translation-standards-progress-1.md`*
+*Consolidated from: `translation-standards-progress.md`*
 =======
 *Consolidated from: `translation-standards-progress.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -4382,11 +4382,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -4448,7 +4448,7 @@ related:
 
 1. **Standard di Traduzione**
 <<<<<<< .merge_file_Cv7AAK
-   - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules-1.md)
+   - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules.md)
 =======
    - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules.md)
 >>>>>>> .merge_file_HT6fq0
@@ -6239,7 +6239,7 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 ## translations-implementation-status-1
 
 <<<<<<< .merge_file_Cv7AAK
-*Consolidated from: `translations-implementation-status-1.md`*
+*Consolidated from: `translations-implementation-status.md`*
 =======
 *Consolidated from: `translations-implementation-status.md`*
 >>>>>>> .merge_file_HT6fq0
@@ -6393,11 +6393,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_Cv7AAK
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

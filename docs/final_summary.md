@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "final summary"
 issues: []
 discussions: []
-<<<<<<< .merge_file_QMhv0H
-=======
 status: draft
->>>>>>> .merge_file_CEl6XD
 ---
 
 # 📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO
@@ -20,7 +17,6 @@ status: draft
 **Status**: ✅ FASE COMPLETATA CON SUCCESSO  
 
 ---
-<<<<<<< .merge_file_QMhv0H
 
 title: "final summary"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "final summary"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_CEl6XD
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Completamento sistematico della documentazione e delle roadmap del progetto FixCity per renderlo la piattaforma

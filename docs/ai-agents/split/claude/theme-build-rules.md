@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "theme build rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Oul79f
-=======
 status: draft
->>>>>>> .merge_file_F6swY2
 ---
 
 === theme build rules ===
@@ -49,7 +46,6 @@ This is a fundamental rule that must NEVER be forgotten when working with themes
 
 
 ---
-<<<<<<< .merge_file_Oul79f
 
 title: "theme build rules"
 type: note
@@ -59,8 +55,6 @@ updated: 2026-09-26
 qmd: "theme build rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_F6swY2
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

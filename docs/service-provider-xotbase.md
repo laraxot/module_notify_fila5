@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "service provider xotbase"
 issues: []
 discussions: []
-<<<<<<< .merge_file_KbZqwD
-=======
 status: draft
->>>>>>> .merge_file_kXxJYp
 ---
 
 # XotBaseServiceProvider: Analisi, Regole e Best Practice
@@ -106,7 +103,6 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 - [Best Practices](Modules/Xot/docs/service-provider-best-practices.md)
 
 ---
-<<<<<<< .merge_file_KbZqwD
 
 title: "service provider xotbase"
 type: note
@@ -116,8 +112,6 @@ updated: 2026-09-26
 qmd: "service provider xotbase"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_kXxJYp
 > **Questa documentazione è stata aggiornata dopo un errore di override errato del metodo boot. Seguire SEMPRE queste regole per evitare errori futuri.**
 # XotBaseServiceProvider: Analisi, Regole e Best Practice
 

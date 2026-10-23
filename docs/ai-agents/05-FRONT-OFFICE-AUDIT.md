@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "05 FRONT OFFICE AUDIT"
 issues: []
 discussions: []
-<<<<<<< .merge_file_med2JD
-=======
 status: draft
->>>>>>> .merge_file_mQ1SlG
 ---
 
 # 📋 Front Office Pages Audit Checklist
@@ -19,7 +16,6 @@ status: draft
 **Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 
 ---
-<<<<<<< .merge_file_med2JD
 
 title: "05 FRONT OFFICE AUDIT"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "05 FRONT OFFICE AUDIT"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_mQ1SlG
 ## 🔍 Mandatory Checklist (Before Commit)
 
 ### 1. Routing Multilingual

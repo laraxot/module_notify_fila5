@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "github issue 97 git error comment"
 issues: []
 discussions: []
-<<<<<<< .merge_file_o0Hcxt
-=======
 status: draft
->>>>>>> .merge_file_0jCbak
 ---
 
 ## 🔧 Git Error Resolved: "Does Not Have Our Version"
@@ -153,7 +150,6 @@ During work:
 **Status**: ✅ **DOCUMENTATION EXCELLENCE ACHIEVED**
 
 ---
-<<<<<<< .merge_file_o0Hcxt
 
 title: "github issue 97 git error comment"
 type: note
@@ -163,6 +159,4 @@ updated: 2026-09-26
 qmd: "github issue 97 git error comment"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_0jCbak
 Ready for tomorrow's real data testing! 🚀

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "technology stack"
 issues: []
 discussions: []
-<<<<<<< .merge_file_dTiIAS
-=======
 status: draft
->>>>>>> .merge_file_tBP4S5
 ---
 
 # Technology Stack

@@ -29,7 +29,7 @@ status: draft
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
 <<<<<<< .merge_file_mOpOaL
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 =======
 - **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a appunti-filters.md)
 >>>>>>> .merge_file_fvJ79F

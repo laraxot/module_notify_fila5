@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "COMMUNICATION SYSTEMS ARCHITECTURE"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Pxp0FQ
-=======
 status: draft
->>>>>>> .merge_file_6wk7vE
 ---
 
 # Notify Module - Communication Systems Architecture

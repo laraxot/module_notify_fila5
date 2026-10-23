@@ -10,11 +10,11 @@ qmd: "transaction-removal-fix-2025-10-15 deprecated"
 status: deprecated
 related:
 <<<<<<< .merge_file_bzBhat
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

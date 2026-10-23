@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "models"
 issues: []
 discussions: []
-<<<<<<< .merge_file_eqasnv
-=======
 status: draft
->>>>>>> .merge_file_LahQl1
 ---
 
 # Modelli e Relazioni del Modulo Notify

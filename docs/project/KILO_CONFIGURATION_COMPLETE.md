@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "KILO CONFIGURATION COMPLETE"
 issues: []
 discussions: []
-<<<<<<< .merge_file_OdQUgn
-=======
 status: draft
->>>>>>> .merge_file_x3aCKX
 ---
 
 # ✅ Kilo (OpenCode) Configuration - COMPLETE
@@ -21,7 +18,6 @@ status: draft
 **Schema**: https://app.kilo.ai/config.json
 
 ---
-<<<<<<< .merge_file_OdQUgn
 
 title: "KILO CONFIGURATION COMPLETE"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "KILO CONFIGURATION COMPLETE"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_x3aCKX
 ## Cos'è Kilo Code
 
 **Kilo Code** (ora **OpenCode**) è un AI coding assistant open source che:

@@ -18,10 +18,7 @@ related:
   - "./final-implementation-report-.md"
   - "./final-implementation-report-1.md"
   - "./final-implementation-report.md"
-<<<<<<< .merge_file_VgRnkB
-=======
 status: draft
->>>>>>> .merge_file_oAV3yy
 ---
 
 # 🔒 FixCity Security Checklist

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "cyclomatic complexity report"
 issues: []
 discussions: []
-<<<<<<< .merge_file_gEwaL1
-=======
 status: draft
->>>>>>> .merge_file_yJ0eFm
 ---
 
 # Cyclomatic Complexity Report - Module: Notify
@@ -19,7 +16,6 @@ status: draft
 **Analyzer:** Super Mucca 🐮
 
 ---
-<<<<<<< .merge_file_gEwaL1
 
 title: "cyclomatic complexity report"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "cyclomatic complexity report"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_yJ0eFm
 ## 📊 Summary Statistics
 
 | Metric | Value |

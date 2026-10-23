@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "template improvement roadmap"
 issues: []
 discussions: []
-<<<<<<< .merge_file_KAtT1A
-=======
 status: draft
->>>>>>> .merge_file_yRfGF9
 ---
 
 # Roadmap Implementazione Sistema Avanzato di Template Email

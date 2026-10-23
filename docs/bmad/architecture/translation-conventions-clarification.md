@@ -8,11 +8,11 @@ qmd: "translation-conventions-clarification-2 chiarimento sulle convenzioni di t
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -108,6 +108,6 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
-- [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules-1.md)
+- [Convenzioni Generali di Traduzione](../../lang/docs/translation-keys-rules.md)
 - [Convenzioni Specifiche del Modulo Notify](./translation-conventions.md)
 - [Regole per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)

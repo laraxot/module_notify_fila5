@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email translations"
 issues: []
 discussions: []
-<<<<<<< .merge_file_0MLklL
-=======
 status: draft
->>>>>>> .merge_file_BDTeOg
 ---
 
 # Integrazione Traduzioni Email - il progetto

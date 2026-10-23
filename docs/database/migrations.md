@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "migrations"
 issues: []
 discussions: []
-<<<<<<< .merge_file_jjY2p8
-=======
 status: draft
->>>>>>> .merge_file_ZOufRw
 ---
 
 # Database Migrations Documentation

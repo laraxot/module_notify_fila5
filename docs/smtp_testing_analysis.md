@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "smtp testing analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_NDPFAY
-=======
 status: draft
->>>>>>> .merge_file_cW27s3
 ---
 
 # Analisi del Sistema di Test SMTP

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "spatie queueable action"
 issues: []
 discussions: []
-<<<<<<< .merge_file_frpn28
-=======
 status: draft
->>>>>>> .merge_file_cL4Tms
 ---
 
 # Spatie Queueable Action

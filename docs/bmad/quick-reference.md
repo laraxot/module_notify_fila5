@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "quick reference"
 issues: []
 discussions: []
-<<<<<<< .merge_file_kMrNyT
-=======
 status: draft
->>>>>>> .merge_file_THndsx
 ---
 
 # bmad method: quick reference (fixcity)

@@ -2,13 +2,10 @@
 type: decision-log
 title: "Decision Log — Notify"
 links: {github_issue: #XXX, discussion: #XXX}
-<<<<<<< .merge_file_MSOJek
-=======
 status: draft
 updated: 2026-10-08
 tags: [docs, notify]
 qmd: "decision log   notify notify"
->>>>>>> .merge_file_R4gzgs
 ---
 # Decision Log — Notify
 

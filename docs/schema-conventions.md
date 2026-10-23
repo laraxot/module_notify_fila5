@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "schema conventions"
 issues: []
 discussions: []
-<<<<<<< .merge_file_AhXE1m
-=======
 status: draft
->>>>>>> .merge_file_YGKdo7
 ---
 
 # Schema Conventions in Notify Module

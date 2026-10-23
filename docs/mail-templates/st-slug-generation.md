@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "st slug generation"
 issues: []
 discussions: []
-<<<<<<< .merge_file_J3xQ5y
-=======
 status: draft
->>>>>>> .merge_file_DoagxZ
 ---
 
 # Generazione Intelligente di Slug in Filament

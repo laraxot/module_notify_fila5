@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sync remote repo test plan"
 issues: []
 discussions: []
-<<<<<<< .merge_file_3v4pYN
-=======
 status: draft
->>>>>>> .merge_file_581zPl
 ---
 
 # Sync Remote Repo - Test Plan
@@ -21,7 +18,6 @@ status: draft
 > **Date**: 2026-03-13
 
 ---
-<<<<<<< .merge_file_3v4pYN
 
 title: "sync remote repo test plan"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "sync remote repo test plan"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_581zPl
 ## 🎯 Test Objectives
 
 ### Primary Goal

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sessione completa"
 issues: []
 discussions: []
-<<<<<<< .merge_file_m6gQUY
-=======
 status: draft
->>>>>>> .merge_file_oKmNoZ
 ---
 
 # ✅ Sessione Completata - Allineamento Bootstrap Italia
@@ -161,7 +158,6 @@ GET /it/tests/amministrazione → tests.view (slug=amministrazione)
 - `docs/VERIFICA_HOMEPAGE.md`
 
 ---
-<<<<<<< .merge_file_m6gQUY
 
 title: "sessione completa"
 type: note
@@ -171,8 +167,6 @@ updated: 2026-09-26
 qmd: "sessione completa"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_oKmNoZ
 **Status**: ✅ COMPLETATO  
 **Data**: 2026-03-31  
 **URL Test**: http://fixcity.local/it/tests/homepage

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "dry kiss analysis master"
 issues: []
 discussions: []
-<<<<<<< .merge_file_A6DWs4
-=======
 status: draft
->>>>>>> .merge_file_o2OBzV
 ---
 
 # 🐄✨ DRY & KISS MASTER ANALYSIS - PROGETTO COMPLETO ✨🐄
@@ -21,7 +18,6 @@ status: draft
 **Status:** ✅ **ANALISI DIVINA COMPLETATA**
 
 ---
-<<<<<<< .merge_file_A6DWs4
 
 title: "dry kiss analysis master"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "dry kiss analysis master"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_o2OBzV
 ## 🎯 EXECUTIVE SUMMARY
 
 ### Dati Globali Progetto

@@ -9,11 +9,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_x2kRMA
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
@@ -217,7 +217,7 @@ Durante l'analisi ho anche **IMPLEMENTATO** tutto quello che era stato documenta
 
 ✅ **Documentazione Aggiornata:**
 <<<<<<< .merge_file_x2kRMA
-- 18 metodi-duplicati-analisi-1.md aggiornati
+- 18 metodi-duplicati-analisi.md aggiornati
 =======
 - 18 metodi-duplicati-analisi.md aggiornati
 >>>>>>> .merge_file_lzBFzy
@@ -268,7 +268,7 @@ Durante l'analisi ho anche **IMPLEMENTATO** tutto quello che era stato documenta
 2. docs/analisi-metodi-duplicati-master.md (100+ pagine)
 3. docs/analisi-metodi-duplicati-index.md
 <<<<<<< .merge_file_x2kRMA
-4. 18× metodi-duplicati-analisi-1.md aggiornati
+4. 18× metodi-duplicati-analisi.md aggiornati
 =======
 4. 18× metodi-duplicati-analisi.md aggiornati
 >>>>>>> .merge_file_lzBFzy
@@ -329,7 +329,7 @@ cat Modules/User/docs/dry-kiss-analysis.md
 
 # Analisi metodi duplicati
 <<<<<<< .merge_file_x2kRMA
-cat Modules/User/docs/metodi-duplicati-analisi-1.md
+cat Modules/User/docs/metodi-duplicati-analisi.md
 =======
 cat Modules/User/docs/metodi-duplicati-analisi.md
 >>>>>>> .merge_file_lzBFzy

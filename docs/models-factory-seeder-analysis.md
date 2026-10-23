@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "models factory seeder analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_jbCOKI
-=======
 status: draft
->>>>>>> .merge_file_CWPO7z
 ---
 
 # Analisi Modelli, Factory e Seeder - Modulo Notify
@@ -69,7 +66,6 @@ status: draft
 ## Stato Generale: ✅ COMPLETO
 
 ---
-<<<<<<< .merge_file_jbCOKI
 title: "models factory seeder analysis"
 type: note
 tags: [documentation]
@@ -78,7 +74,5 @@ updated: 2026-09-26
 qmd: "models factory seeder analysis"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_CWPO7z
 *Ultimo aggiornamento: 2025-01-06*
 

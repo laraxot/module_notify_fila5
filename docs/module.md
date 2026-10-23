@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "module"
 issues: []
 discussions: []
-<<<<<<< .merge_file_TrB2g6
-=======
 status: draft
->>>>>>> .merge_file_HwToFr
 ---
 
 # Notify Module - Comprehensive Analysis

@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_gjfE1r
-=======
 status: draft
->>>>>>> .merge_file_Po0x5E
 ---
 
 # 📚 Documentazione Finale - Sixteen Theme CSS Architecture

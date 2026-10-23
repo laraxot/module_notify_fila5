@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "karpathy llm wiki adoption"
 issues: []
 discussions: []
-<<<<<<< .merge_file_xl4yCE
-=======
 status: draft
->>>>>>> .merge_file_cen1EY
 ---
 
 # Karpathy LLM Wiki per Notify

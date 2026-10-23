@@ -8,11 +8,11 @@ qmd: "translation-standards-progress-2 progresso standardizzazione traduzioni"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -66,7 +66,7 @@ related:
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
-   - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules-1.md)
+   - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules.md)
    - [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices.md)
 
 2. **Guide Specifiche per Notify**

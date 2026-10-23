@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "title with slug analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_L6eTzL
-=======
 status: draft
->>>>>>> .merge_file_IP64I3
 ---
 
 # Analisi del Pacchetto Filament Title With Slug

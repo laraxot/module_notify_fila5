@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_Q9e0QG
-=======
 status: draft
->>>>>>> .merge_file_eyfsg3
 ---
 
 # Documentation Analysis and Improvement Plan

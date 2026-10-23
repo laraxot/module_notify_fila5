@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "token efficiency"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Fpghek
-=======
 status: draft
->>>>>>> .merge_file_BapdLO
 ---
 
 # Token Efficiency

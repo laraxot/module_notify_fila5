@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "zen of fixcity"
 issues: []
 discussions: []
-<<<<<<< .merge_file_kOfboV
-=======
 status: draft
->>>>>>> .merge_file_ayzRSc
 ---
 
 # 🧘 Zen of FixCity - Complete Philosophy
@@ -21,7 +18,6 @@ status: draft
 **Owner**: Multi-Agent Team
 
 ---
-<<<<<<< .merge_file_kOfboV
 
 title: "zen of fixcity"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "zen of fixcity"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_ayzRSc
 ## 🎯 The Five Pillars
 
 ### 1. **Git Forward-Only** 🚀

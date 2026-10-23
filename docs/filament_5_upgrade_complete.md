@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filament 5 upgrade complete"
 issues: []
 discussions: []
-<<<<<<< .merge_file_XIDCjR
-=======
 status: draft
->>>>>>> .merge_file_MiXRku
 ---
 
 # Filament 5 Upgrade - COMPLETO ✅
@@ -19,7 +16,6 @@ status: draft
 **Status**: ✅ **SUCCESSFULLY UPGRADED**
 
 ---
-<<<<<<< .merge_file_XIDCjR
 
 title: "filament 5 upgrade complete"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "filament 5 upgrade complete"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_MiXRku
 ## 🎉 Upgrade Completato
 
 ### Versioni Installate

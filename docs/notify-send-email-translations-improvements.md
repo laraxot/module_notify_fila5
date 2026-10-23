@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "notify send email translations improvements"
 issues: []
 discussions: []
-<<<<<<< .merge_file_rnG6xC
-=======
 status: draft
->>>>>>> .merge_file_BLK1Ge
 ---
 
 # Sistemazione e Miglioramenti File Traduzione send_email.php - Modulo Notify

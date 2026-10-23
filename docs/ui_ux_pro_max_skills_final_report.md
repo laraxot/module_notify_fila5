@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "ui ux pro max skills final report"
 issues: []
 discussions: []
-<<<<<<< .merge_file_71ag5x
-=======
 status: draft
->>>>>>> .merge_file_jNXAYC
 ---
 
 # 🎨 UI/UX Pro Max Skills - Final Report
@@ -291,7 +288,6 @@ Each skill includes:
 - 🚀 Community contribution
 
 ---
-<<<<<<< .merge_file_71ag5x
 
 title: "ui ux pro max skills final report"
 type: note
@@ -301,8 +297,6 @@ updated: 2026-09-26
 qmd: "ui ux pro max skills final report"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_jNXAYC
 **Stato**: ✅ **COMPLETAMENTE INTEGRATO E PRONTO ALL'USO**  
 **Qualità**: ⭐⭐⭐⭐⭐  
 **Prossimo**: 🧪 Testing e training team

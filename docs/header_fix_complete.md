@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "header fix complete"
 issues: []
 discussions: []
-<<<<<<< .merge_file_bKrWK0
-=======
 status: draft
->>>>>>> .merge_file_omC5JG
 ---
 
 # ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
@@ -19,7 +16,6 @@ status: draft
 ## Status: ✅ Header Completamente Rifatto
 
 ---
-<<<<<<< .merge_file_bKrWK0
 
 title: "header fix complete"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "header fix complete"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_omC5JG
 ## 🔴 Problemi Risolti
 
 ### 1. Logo non visibile ✅ RISOLTO

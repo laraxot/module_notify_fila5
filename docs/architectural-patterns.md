@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "architectural patterns"
 issues: []
 discussions: []
-<<<<<<< .merge_file_SDATcq
-=======
 status: draft
->>>>>>> .merge_file_OJQt1C
 ---
 
 # Pattern Architetturali per le Notifiche

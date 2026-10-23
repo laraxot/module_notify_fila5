@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "module notify"
 issues: []
 discussions: []
-<<<<<<< .merge_file_AH2gaD
-=======
 status: draft
->>>>>>> .merge_file_rmHmKk
 ---
 
 # Modulo Notify
@@ -139,7 +136,6 @@ Le modifiche vengono tracciate nel repository GitHub.
 Le modifiche vengono tracciate nel repository GitHub. 
 
 ---
-<<<<<<< .merge_file_AH2gaD
 
 title: "module notify"
 type: note
@@ -149,5 +145,3 @@ updated: 2026-09-26
 qmd: "module notify"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_rmHmKk

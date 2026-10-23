@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_69GQbM
-=======
 status: draft
->>>>>>> .merge_file_foKULr
 ---
 
 # Divergenza: `LOGIN_TIMEOUT_ISSUE.md`

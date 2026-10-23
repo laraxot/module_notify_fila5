@@ -36,7 +36,7 @@ Consolidated from **14** individual files.
 ## path-and-interface-rules-1
 
 <<<<<<< .merge_file_YJ33Jh
-*Consolidated from: `path-and-interface-rules-1.md`*
+*Consolidated from: `path-and-interface-rules.md`*
 =======
 *Consolidated from: `path-and-interface-rules.md`*
 >>>>>>> .merge_file_GmFSBk
@@ -149,11 +149,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_YJ33Jh
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -647,7 +647,7 @@ Questa struttura garantisce:
 ## path-and-namespace-rules-1
 
 <<<<<<< .merge_file_YJ33Jh
-*Consolidated from: `path-and-namespace-rules-1.md`*
+*Consolidated from: `path-and-namespace-rules.md`*
 =======
 *Consolidated from: `path-and-namespace-rules.md`*
 >>>>>>> .merge_file_GmFSBk
@@ -834,11 +834,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_YJ33Jh
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -1825,7 +1825,7 @@ Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` d
 ## path-conventions-2
 
 <<<<<<< .merge_file_YJ33Jh
-*Consolidated from: `path-conventions-2.md`*
+*Consolidated from: `path-conventions.md`*
 =======
 *Consolidated from: `path-conventions-user.md`*
 >>>>>>> .merge_file_GmFSBk
@@ -1840,11 +1840,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_YJ33Jh
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "architecture structure"
 issues: []
 discussions: []
-<<<<<<< .merge_file_MEsaB7
-=======
 status: draft
->>>>>>> .merge_file_WIJNAw
 ---
 
 # Architettura e Struttura (Claude Context)

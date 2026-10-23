@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "grapesjs filament"
 issues: []
 discussions: []
-<<<<<<< .merge_file_L4FgnR
-=======
 status: draft
->>>>>>> .merge_file_vABfhl
 ---
 
 # GrapesJS per Filament: Analisi e Best Practice
@@ -27,7 +24,6 @@ Il file `routes/web.php` del modulo Notify **deve essere vuoto**.
 - [database-mail.md](database-mail.md#regola-sulle-rotte)
 
 ---
-<<<<<<< .merge_file_L4FgnR
 
 title: "grapesjs filament"
 type: note
@@ -37,8 +33,6 @@ updated: 2026-09-26
 qmd: "grapesjs filament"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_vABfhl
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
 - [Regola sulle rotte vuote in database-mail.md](database-mail.md#regola-sulle-rotte)

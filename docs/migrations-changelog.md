@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "migrations changelog"
 issues: []
 discussions: []
-<<<<<<< .merge_file_peI9N0
-=======
 status: draft
->>>>>>> .merge_file_pwFbNc
 ---
 
 # Changelog Migrazioni Notify Module

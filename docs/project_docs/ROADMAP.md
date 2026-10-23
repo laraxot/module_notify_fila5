@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "ROADMAP"
 issues: []
 discussions: []
-<<<<<<< .merge_file_BVf1MQ
-=======
 status: draft
->>>>>>> .merge_file_S74YH3
 ---
 
 # Project Roadmap

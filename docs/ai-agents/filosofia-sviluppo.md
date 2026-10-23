@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "filosofia sviluppo"
 issues: []
 discussions: []
-<<<<<<< .merge_file_MtMiZK
-=======
 status: draft
->>>>>>> .merge_file_Rn8Lnf
 ---
 
 # Filosofia di Sviluppo

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "seasonal email system recommendations"
 issues: []
 discussions: []
-<<<<<<< .merge_file_OxjJ0H
-=======
 status: draft
->>>>>>> .merge_file_YyQQ6e
 ---
 
 # Raccomandazioni per lo Sviluppo del Sistema Email Stagionali
@@ -238,7 +235,6 @@ Lo sviluppo del sistema email stagionali deve sempre tenere conto dei seguenti p
 Queste raccomandazioni rappresentano un punto di riferimento per tutti gli sviluppatori che lavoreranno sul sistema email stagionali, garantendo coerenza e qualità nel tempo.
 
 ---
-<<<<<<< .merge_file_OxjJ0H
 
 title: "seasonal email system recommendations"
 type: note
@@ -248,8 +244,6 @@ updated: 2026-09-26
 qmd: "seasonal email system recommendations"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_YyQQ6e
 **Autore**: iFlow CLI  
 **Data**: 19 Dicembre 2025  
 **Versione**: 1.0  

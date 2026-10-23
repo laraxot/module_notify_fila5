@@ -82,11 +82,11 @@ qmd: "analisi-completa-2025-10-01.deprecated deprecated"
 status: deprecated
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -116,11 +116,11 @@ qmd: "analisi-completa-2025-10-01 deprecated"
 status: deprecated
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -151,11 +151,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -459,11 +459,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -1282,11 +1282,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -1822,7 +1822,7 @@ return [
 ## analisi-dettagliata-1
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-dettagliata-1.md`*
+*Consolidated from: `analisi-dettagliata-architettura-struttura.md`*
 =======
 *Consolidated from: `analisi-dettagliata-architettura-struttura.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -2360,11 +2360,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -3024,7 +3024,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 ## analisi-dettagliata-2
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-dettagliata-2.md`*
+*Consolidated from: `analisi-dettagliata-modelli-relazioni.md`*
 =======
 *Consolidated from: `analisi-dettagliata-modelli-relazioni.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -3686,11 +3686,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -4354,7 +4354,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 ## analisi-dettagliata-3
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-dettagliata-3.md`*
+*Consolidated from: `analisi-dettagliata-servizi-core.md`*
 =======
 *Consolidated from: `analisi-dettagliata-servizi-core.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -5009,7 +5009,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 ## analisi-dettagliata-4-1
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-dettagliata-4-1.md`*
+*Consolidated from: `analisi-dettagliata-integrazione-filament.md`*
 =======
 *Consolidated from: `analisi-dettagliata-integrazione-filament.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -5715,11 +5715,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -7133,11 +7133,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -7972,7 +7972,7 @@ class WebhookControllerTest extends TestCase
 ## analisi-dettagliata-5
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-dettagliata-5.md`*
+*Consolidated from: `analisi-dettagliata-testing-parte.md`*
 =======
 *Consolidated from: `analisi-dettagliata-testing-parte.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -8807,11 +8807,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -9448,7 +9448,7 @@ class AnalyticsExporter
 ## analisi-dettagliata-6
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-dettagliata-6.md`*
+*Consolidated from: `analisi-dettagliata-monitoraggio-analytics.md`*
 =======
 *Consolidated from: `analisi-dettagliata-monitoraggio-analytics.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -10087,11 +10087,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -10753,7 +10753,7 @@ class MaintainTemplatesCommand extends Command
 ## analisi-dettagliata-7
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-dettagliata-7.md`*
+*Consolidated from: `analisi-dettagliata-manutenzione-backup.md`*
 =======
 *Consolidated from: `analisi-dettagliata-manutenzione-backup.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -11419,11 +11419,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -11662,7 +11662,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 ## analisi-dettagliata-8
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-dettagliata-8.md`*
+*Consolidated from: `analisi-dettagliata-finali-parte.md`*
 =======
 *Consolidated from: `analisi-dettagliata-finali-parte.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -11903,11 +11903,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -14655,11 +14655,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -14724,7 +14724,7 @@ related:
 📄 **File:** [../Modules/Xot/docs/analisi-metodi-duplicati.md](../Modules/Xot/docs/analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 80 LOC, 87% riduzione possibile  
 🎯 **Priorità:** ALTA - Implementare XotBaseModel qui  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Xot/docs/metodi-duplicati-analisi-1.md) (dettagli Filament methods)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Xot/docs/metodi-duplicati-analisi.md) (dettagli Filament methods)
 =======
 📄 **File:** [../Modules/Xot/docs/analisi-metodi-duplicati.md](../../analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 80 LOC, 87% riduzione possibile  
@@ -14752,13 +14752,13 @@ related:
 🎯 **Priorità:** ALTA - Business core  
 ⚠️ **Note:** Usa SoftDeletes (trait specifico da mantenere)  
 <<<<<<< .merge_file_nljFp2
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/<nome progetto>/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/<nome progetto>/docs/metodi-duplicati-analisi.md)
 
 #### Cms (Content Management)
 📄 **File:** [../Modules/Cms/docs/analisi-metodi-duplicati.md](../Modules/Cms/docs/analisi-metodi-duplicati.md)  
 📊 **Dati:** 8 proprietà duplicate, 70 LOC, 86% riduzione  
 🎯 **Priorità:** MEDIA - Gestisce temi  
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Cms/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Cms/docs/metodi-duplicati-analisi.md)
 =======
 📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/<nome progetto>/docs/metodi-duplicati-analisi.md)
 
@@ -14779,7 +14779,7 @@ related:
 🎯 **Priorità:** BASSA - Semplice  
 ✅ **Candidato:** Primo per migration test  
 <<<<<<< .merge_file_nljFp2
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Activity/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Activity/docs/metodi-duplicati-analisi.md)
 =======
 📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Activity/docs/metodi-duplicati-analisi.md)
 >>>>>>> .merge_file_g1MuzL
@@ -14790,7 +14790,7 @@ related:
 🎯 **Priorità:** BASSA - Più semplice  
 ✅ **Candidato:** PRIMO per migration (meno rischi)  
 <<<<<<< .merge_file_nljFp2
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Comment/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Comment/docs/metodi-duplicati-analisi.md)
 =======
 📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Comment/docs/metodi-duplicati-analisi.md)
 >>>>>>> .merge_file_g1MuzL
@@ -14801,7 +14801,7 @@ related:
 🎯 **Priorità:** MEDIA  
 ⚠️ **Note:** Usa InteractsWithMedia trait  
 <<<<<<< .merge_file_nljFp2
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Blog/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Blog/docs/metodi-duplicati-analisi.md)
 =======
 📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/Blog/docs/metodi-duplicati-analisi.md)
 >>>>>>> .merge_file_g1MuzL
@@ -14811,7 +14811,7 @@ related:
 📊 **Dati:** TBD  
 🎯 **Priorità:** BASSA  
 <<<<<<< .merge_file_nljFp2
-📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/AI/docs/metodi-duplicati-analisi-1.md)
+📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/AI/docs/metodi-duplicati-analisi.md)
 =======
 📝 **Alternative:** [metodi-duplicati-analisi-1.md](../Modules/AI/docs/metodi-duplicati-analisi.md)
 >>>>>>> .merge_file_g1MuzL
@@ -14865,7 +14865,7 @@ related:
 1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master.md) - Leggere TUTTO (2-3 ore)
 <<<<<<< .merge_file_nljFp2
 2. 📖 [Xot Module](../Modules/Xot/docs/analisi-metodi-duplicati.md) - Capire modulo base
-3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/metodi-duplicati-analisi-1.md) - Primo test migration
+3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/metodi-duplicati-analisi.md) - Primo test migration
 =======
 2. 📖 [Xot Module](../../analisi-metodi-duplicati.md) - Capire modulo base
 3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/metodi-duplicati-analisi.md) - Primo test migration
@@ -14883,7 +14883,7 @@ related:
 2. 📖 [MASTER EDITION - Script Utili](./analisi-metodi-duplicati-master.md#script-utili) (30 min)
 <<<<<<< .merge_file_nljFp2
 3. 📖 [Xot Module - Dettagli](../Modules/Xot/docs/analisi-metodi-duplicati.md) (30 min)
-4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/metodi-duplicati-analisi-1.md) (1 ora)
+4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/metodi-duplicati-analisi.md) (1 ora)
 =======
 3. 📖 [Xot Module - Dettagli](../../analisi-metodi-duplicati.md) (30 min)
 4. 📖 [METODI_DUPLICATI_ANALISI - Filament Details](../Modules/Xot/docs/metodi-duplicati-analisi.md) (1 ora)
@@ -14931,7 +14931,7 @@ related:
 **Dettaglio:** 📊📊📊📊📊 Altissimo
 
 <<<<<<< .merge_file_nljFp2
-### 3. `metodi-duplicati-analisi-1.md`
+### 3. `metodi-duplicati-analisi.md`
 =======
 ### 3. `metodi-duplicati-analisi.md`
 >>>>>>> .merge_file_g1MuzL
@@ -14949,7 +14949,7 @@ related:
 ### "Voglio ridurre codice duplicato in Filament Resources"
 ➡️ [MASTER - Parte 2: Filament Methods](./analisi-metodi-duplicati-master.md#parte-2-filament-methods---analisi-profonda)  
 <<<<<<< .merge_file_nljFp2
-➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/metodi-duplicati-analisi-1.md)
+➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/metodi-duplicati-analisi.md)
 =======
 ➡️ [Xot METODI_DUPLICATI_ANALISI](../Modules/Xot/docs/metodi-duplicati-analisi.md)
 >>>>>>> .merge_file_g1MuzL
@@ -15009,11 +15009,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -15181,7 +15181,7 @@ protected function casts(): array
 ### 2.1 Distribuzione ESATTA per Modulo
 
 <<<<<<< .merge_file_nljFp2
-**Dati Reali dai metodi-duplicati-analisi-1.md:**
+**Dati Reali dai metodi-duplicati-analisi.md:**
 =======
 **Dati Reali dai metodi-duplicati-analisi.md:**
 >>>>>>> .merge_file_g1MuzL
@@ -16219,11 +16219,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_nljFp2
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -17408,7 +17408,7 @@ rules:
 ## analisi-miglioramenti-1
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi-miglioramenti-1.md`*
+*Consolidated from: `analisi-miglioramenti-modulo-notify.md`*
 =======
 *Consolidated from: `analisi-miglioramenti-modulo-notify.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -18796,7 +18796,7 @@ class TemplatePreview extends Component
 ## analisi_dettagliata_1
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi_dettagliata_1.md`*
+*Consolidated from: `analisi_dettagliata-architettura-struttura.md`*
 =======
 *Consolidated from: `analisi_dettagliata-architettura-struttura.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -19323,7 +19323,7 @@ return [
 ## analisi_dettagliata_2
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi_dettagliata_2.md`*
+*Consolidated from: `analisi_dettagliata-modelli-relazioni.md`*
 =======
 *Consolidated from: `analisi_dettagliata-modelli-relazioni.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -19974,7 +19974,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 ## analisi_dettagliata_3
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi_dettagliata_3.md`*
+*Consolidated from: `analisi_dettagliata-servizi-core.md`*
 =======
 *Consolidated from: `analisi_dettagliata-servizi-core.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -20629,7 +20629,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 ## analisi_dettagliata_4
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi_dettagliata_4.md`*
+*Consolidated from: `analisi_dettagliata-integrazione-filament.md`*
 =======
 *Consolidated from: `analisi_dettagliata-integrazione-filament.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -21324,7 +21324,7 @@ class TemplateTestPage extends Page
 ## analisi_dettagliata_5
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi_dettagliata_5.md`*
+*Consolidated from: `analisi_dettagliata-testing-parte.md`*
 =======
 *Consolidated from: `analisi_dettagliata-testing-parte.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -22150,7 +22150,7 @@ class WebhookControllerTest extends TestCase
 ## analisi_dettagliata_6
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi_dettagliata_6.md`*
+*Consolidated from: `analisi_dettagliata-monitoraggio-analytics.md`*
 =======
 *Consolidated from: `analisi_dettagliata-monitoraggio-analytics.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -22778,7 +22778,7 @@ class AnalyticsExporter
 ## analisi_dettagliata_7
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi_dettagliata_7.md`*
+*Consolidated from: `analisi_dettagliata-manutenzione-backup.md`*
 =======
 *Consolidated from: `analisi_dettagliata-manutenzione-backup.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -23431,7 +23431,7 @@ class MaintainTemplatesCommand extends Command
 ## analisi_dettagliata_8
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisi_dettagliata_8.md`*
+*Consolidated from: `analisi_dettagliata-finali-parte.md`*
 =======
 *Consolidated from: `analisi_dettagliata-finali-parte.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -23661,7 +23661,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 ## analisiettagliata-2
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisiettagliata-2.md`*
+*Consolidated from: `analisiettagliata-modelli-relazioni.md`*
 =======
 *Consolidated from: `analisiettagliata-modelli-relazioni.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -24314,7 +24314,7 @@ Schema::create('template_analytics', function (Blueprint $table) {
 ## analisiettagliata-3
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisiettagliata-3.md`*
+*Consolidated from: `analisiettagliata-servizi-core.md`*
 =======
 *Consolidated from: `analisiettagliata-servizi-core.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -24969,7 +24969,7 @@ protected function updateAnalytics(string $messageId, string $event): void
 ## analisiettagliata-4
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisiettagliata-4.md`*
+*Consolidated from: `analisiettagliata-integrazione-filament.md`*
 =======
 *Consolidated from: `analisiettagliata-integrazione-filament.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -25664,7 +25664,7 @@ class TemplateTestPage extends Page
 ## analisiettagliata-5
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisiettagliata-5.md`*
+*Consolidated from: `analisiettagliata-testing-parte.md`*
 =======
 *Consolidated from: `analisiettagliata-testing-parte.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -26490,7 +26490,7 @@ class WebhookControllerTest extends TestCase
 ## analisiettagliata-6
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisiettagliata-6.md`*
+*Consolidated from: `analisiettagliata-monitoraggio-analytics.md`*
 =======
 *Consolidated from: `analisiettagliata-monitoraggio-analytics.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -27118,7 +27118,7 @@ class AnalyticsExporter
 ## analisiettagliata-7
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisiettagliata-7.md`*
+*Consolidated from: `analisiettagliata-manutenzione-backup.md`*
 =======
 *Consolidated from: `analisiettagliata-manutenzione-backup.md`*
 >>>>>>> .merge_file_g1MuzL
@@ -27771,7 +27771,7 @@ class MaintainTemplatesCommand extends Command
 ## analisiettagliata-8
 
 <<<<<<< .merge_file_nljFp2
-*Consolidated from: `analisiettagliata-8.md`*
+*Consolidated from: `analisiettagliata-finali-parte.md`*
 =======
 *Consolidated from: `analisiettagliata-finali-parte.md`*
 >>>>>>> .merge_file_g1MuzL

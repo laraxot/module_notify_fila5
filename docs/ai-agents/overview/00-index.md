@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "00 index"
 issues: []
 discussions: []
-<<<<<<< .merge_file_pOalye
-=======
 status: draft
->>>>>>> .merge_file_SsFn8F
 ---
 
 # 📋 overview Index
@@ -20,7 +17,6 @@ status: draft
 **Status**: ✅ Auto-generated
 
 ---
-<<<<<<< .merge_file_pOalye
 
 title: "00 index"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "00 index"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_SsFn8F
 ## 📊 Statistics
 
 | Metric | Count |

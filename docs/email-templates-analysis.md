@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "email templates analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_gWb8NY
-=======
 status: draft
->>>>>>> .merge_file_NoqYwQ
 ---
 
 # Analisi Approfondita: Email Templates in Laravel per <nome progetto>
@@ -137,7 +134,6 @@ Sono state analizzate le principali soluzioni open source, best practice e patte
 - Automatizzare test rendering
 
 ---
-<<<<<<< .merge_file_gWb8NY
 
 title: "email templates analysis"
 type: note
@@ -147,6 +143,4 @@ updated: 2026-09-26
 qmd: "email templates analysis"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_NoqYwQ
 _Analisi aggiornata al [DATE]. Per dettagli e approfondimenti, consultare i README specifici delle soluzioni nella cartella email-templates._

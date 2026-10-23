@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "configurazione"
 issues: []
 discussions: []
-<<<<<<< .merge_file_8lu8Ca
-=======
 status: draft
->>>>>>> .merge_file_D8ZHjn
 ---
 
 # Configurazione e Setup

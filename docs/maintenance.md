@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "maintenance"
 issues: []
 discussions: []
-<<<<<<< .merge_file_zqX9QY
-=======
 status: draft
->>>>>>> .merge_file_wmRE0D
 ---
 
 # Manutenzione del Modulo Notify

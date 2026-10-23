@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "packages filament livewire"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Ddp0zA
-=======
 status: draft
->>>>>>> .merge_file_KqnsLx
 ---
 
 # Filament 5 + Livewire 4 — API Reference
@@ -34,7 +31,6 @@ Riferimento completo per Filament 5.2.2, Livewire 4.1.4 e pacchetti correlati ne
 | livewire/volt | 1.10.3 |
 
 ---
-<<<<<<< .merge_file_Ddp0zA
 
 title: "packages filament livewire"
 type: note
@@ -44,8 +40,6 @@ updated: 2026-09-26
 qmd: "packages filament livewire"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_KqnsLx
 ## Regole critiche Filament 5 in Laraxot
 
 ### Regola 1: sempre XotBase (MAI Filament diretto)

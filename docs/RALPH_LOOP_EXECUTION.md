@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "RALPH LOOP EXECUTION"
 issues: []
 discussions: []
-<<<<<<< .merge_file_lYqrTA
-=======
 status: draft
->>>>>>> .merge_file_AJAXkK
 ---
 
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix
@@ -19,7 +16,6 @@ status: draft
 ## Goal: Allineare homepage FixCity a Bootstrap Italia reference
 
 ---
-<<<<<<< .merge_file_lYqrTA
 
 title: "RALPH LOOP EXECUTION"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "RALPH LOOP EXECUTION"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_AJAXkK
 ## Iteration 1: Header Slim Component
 
 ### Task

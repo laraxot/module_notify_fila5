@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "whatsapp channel"
 issues: []
 discussions: []
-<<<<<<< .merge_file_IYWavX
-=======
 status: draft
->>>>>>> .merge_file_w4N2KW
 ---
 
 # `WhatsAppChannel`

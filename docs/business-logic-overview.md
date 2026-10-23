@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "business logic overview"
 issues: []
 discussions: []
-<<<<<<< .merge_file_VXdSiS
-=======
 status: draft
->>>>>>> .merge_file_NqHKt8
 ---
 
 # Notify Module - Business Logic Overview

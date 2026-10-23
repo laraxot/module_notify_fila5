@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "foundation rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_dZT128
-=======
 status: draft
->>>>>>> .merge_file_0MhEk4
 ---
 
 # claudeMd
@@ -68,7 +65,6 @@ This application is a Laravel application and its main Laravel ecosystems packag
 
 
 ---
-<<<<<<< .merge_file_dZT128
 
 title: "foundation rules"
 type: note
@@ -78,8 +74,6 @@ updated: 2026-09-26
 qmd: "foundation rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_0MhEk4
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

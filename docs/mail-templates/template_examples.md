@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "template examples"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Qs2Q4E
-=======
 status: draft
->>>>>>> .merge_file_NJWGPw
 ---
 
 # Esempi di Template Email

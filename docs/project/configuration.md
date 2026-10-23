@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "configuration"
 issues: []
 discussions: []
-<<<<<<< .merge_file_U5txYB
-=======
 status: draft
->>>>>>> .merge_file_UmwiYv
 ---
 
 # Notify Project Configuration
@@ -210,7 +207,6 @@ QUEUE_CONNECTION=sync
 - [Find Duplicates Script](bashscripts/docs/find-doc-duplicates.sh)
 
 ---
-<<<<<<< .merge_file_U5txYB
 
 title: "configuration"
 type: note
@@ -220,6 +216,4 @@ updated: 2026-09-26
 qmd: "configuration"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_UmwiYv
 **Maintenance**: Update this file when APP_URL or theme configuration changes

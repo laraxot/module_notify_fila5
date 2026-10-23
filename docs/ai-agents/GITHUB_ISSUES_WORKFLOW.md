@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "GITHUB ISSUES WORKFLOW"
 issues: []
 discussions: []
-<<<<<<< .merge_file_YKQFVx
-=======
 status: draft
->>>>>>> .merge_file_tgwSwJ
 ---
 
 # GitHub Issues - CORRECT WORKFLOW
@@ -18,7 +15,6 @@ status: draft
 **CRITICAL RULE**: GitHub Issues e Discussions si creano **ONLINE** su GitHub, NON come file locali!
 
 ---
-<<<<<<< .merge_file_YKQFVx
 
 title: "GITHUB ISSUES WORKFLOW"
 type: note
@@ -28,8 +24,6 @@ updated: 2026-09-26
 qmd: "GITHUB ISSUES WORKFLOW"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_tgwSwJ
 ## Repository
 
 - **URL**: https://github.com/laraxot/base_ptvx_fila5

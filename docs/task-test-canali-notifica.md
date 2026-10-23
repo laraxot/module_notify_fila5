@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "task test canali notifica"
 issues: []
 discussions: []
-<<<<<<< .merge_file_9koboD
-=======
 status: draft
->>>>>>> .merge_file_cBU6VV
 ---
 
 # Task: Test Canali Notifica - Notify
@@ -20,7 +17,6 @@ status: draft
 **Completamento**: 30%
 
 ---
-<<<<<<< .merge_file_9koboD
 
 title: "task test canali notifica"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "task test canali notifica"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_cBU6VV
 ## Descrizione
 
 Testare tutti i canali di notifica con mock dei servizi esterni.

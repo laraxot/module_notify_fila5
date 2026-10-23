@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "analysis improvements"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Q2jidb
-=======
 status: draft
->>>>>>> .merge_file_CCF4gR
 ---
 
 # Analisi e Miglioramenti del Modulo Notify

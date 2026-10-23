@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "log cleanup report"
 issues: []
 discussions: []
-<<<<<<< .merge_file_KwgZjs
-=======
 status: draft
->>>>>>> .merge_file_uvHCyx
 ---
 
 # Log Cleanup Report - Performance Optimization
@@ -168,7 +165,6 @@ time curl http://localhost:8000/api/endpoint
 - **Priority:** CRITICAL
 
 ---
-<<<<<<< .merge_file_KwgZjs
 
 title: "log cleanup report"
 type: note
@@ -178,6 +174,4 @@ updated: 2026-09-26
 qmd: "log cleanup report"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_uvHCyx
 **Next Step:** Begin Phase 1 cleanup of high-priority files

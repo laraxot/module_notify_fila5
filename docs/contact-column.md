@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "contact column"
 issues: []
 discussions: []
-<<<<<<< .merge_file_DxMuNi
-=======
 status: draft
->>>>>>> .merge_file_yBNa5M
 ---
 
 # Correzione Errori ContactColumn - Modulo Notify

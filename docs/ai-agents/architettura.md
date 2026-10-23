@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "architettura"
 issues: []
 discussions: []
-<<<<<<< .merge_file_DHTYle
-=======
 status: draft
->>>>>>> .merge_file_LJvJwa
 ---
 
 # Architettura e Struttura

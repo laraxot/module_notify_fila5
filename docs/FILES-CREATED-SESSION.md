@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "FILES CREATED SESSION 007"
 issues: []
 discussions: []
-<<<<<<< .merge_file_sKYCou
-=======
 status: draft
->>>>>>> .merge_file_WQvVbD
 ---
 
 # Files Created in Session 007
@@ -20,7 +17,6 @@ status: draft
 **Total Files**: 13+ (scripts, docs, analysis files)
 
 ---
-<<<<<<< .merge_file_sKYCou
 
 title: "FILES CREATED SESSION 007"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "FILES CREATED SESSION 007"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_WQvVbD
 ## 📊 File Inventory
 
 ### Scripts (Executable)

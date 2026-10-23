@@ -762,11 +762,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_mtNb04
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -1159,11 +1159,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_mtNb04
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -1494,11 +1494,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_mtNb04
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -1841,7 +1841,7 @@ After implementation, users can:
 ## notification-channels-implementation-1
 
 <<<<<<< .merge_file_mtNb04
-*Consolidated from: `notification-channels-implementation-1.md`*
+*Consolidated from: `notification-channels-implementation.md`*
 =======
 *Consolidated from: `notification-channels-implementation.md`*
 >>>>>>> .merge_file_FyAJ8c
@@ -2021,11 +2021,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_mtNb04
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -2391,11 +2391,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_mtNb04
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -2824,7 +2824,7 @@ Vedi: [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md
 ## notification-providers-guide-1
 
 <<<<<<< .merge_file_mtNb04
-*Consolidated from: `notification-providers-guide-1.md`*
+*Consolidated from: `notification-providers-guide.md`*
 =======
 *Consolidated from: `notification-providers-guide.md`*
 >>>>>>> .merge_file_FyAJ8c
@@ -2987,11 +2987,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_mtNb04
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -4475,7 +4475,7 @@ La sistemazione del file `send_email.php` ha risolto problemi critici e implemen
 ## notify-translation-guide-1
 
 <<<<<<< .merge_file_mtNb04
-*Consolidated from: `notify-translation-guide-1.md`*
+*Consolidated from: `notify-translation-guide.md`*
 =======
 *Consolidated from: `notify-translation-guide.md`*
 >>>>>>> .merge_file_FyAJ8c
@@ -4680,11 +4680,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_mtNb04
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -4871,7 +4871,7 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
 <<<<<<< .merge_file_mtNb04
-- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules-1.md)
+- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules.md)
 =======
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules.md)
 >>>>>>> .merge_file_FyAJ8c

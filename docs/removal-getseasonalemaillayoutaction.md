@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "removal getseasonalemaillayoutaction"
 issues: []
 discussions: []
-<<<<<<< .merge_file_NEiK0u
-=======
 status: draft
->>>>>>> .merge_file_2rNtVp
 ---
 
 # Rimozione GetSeasonalEmailLayoutAction - Report Completo
@@ -129,7 +126,6 @@ Delega semplice invece di azione complessa separata.
 4. **Separazione responsabilità**: La logica di contesto stagionale appartiene al modulo core (Xot), non al modulo specifico (Notify)
 
 ---
-<<<<<<< .merge_file_NEiK0u
 
 title: "removal getseasonalemaillayoutaction"
 type: note
@@ -139,7 +135,5 @@ updated: 2026-09-26
 qmd: "removal getseasonalemaillayoutaction"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_2rNtVp
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Type safety first, simplicity second, DRY always"*

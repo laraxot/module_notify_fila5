@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "analysisettagliata"
 issues: []
 discussions: []
-<<<<<<< .merge_file_8oFJMG
-=======
 status: draft
->>>>>>> .merge_file_thjqMh
 ---
 
 # Analisi Dettagliata del Modulo Notify

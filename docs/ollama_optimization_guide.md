@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_tG96nc
-=======
 status: draft
->>>>>>> .merge_file_dD2Hlw
 ---
 
 # Ollama Optimization Guide - Intel i5-8400 (32GB RAM)

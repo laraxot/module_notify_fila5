@@ -9,11 +9,11 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 <<<<<<< .merge_file_jlxkFM
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -305,7 +305,7 @@ docs/master/
 
 **Observed patterns:**
 <<<<<<< .merge_file_jlxkFM
-- `snake_case.md` (e.g., `phpstan-fixes-2.md`)
+- `snake_case.md` (e.g., `phpstan-fixes.md`)
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)

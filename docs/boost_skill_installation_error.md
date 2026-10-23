@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "boost skill installation error"
 issues: []
 discussions: []
-<<<<<<< .merge_file_UdQFFA
-=======
 status: draft
->>>>>>> .merge_file_K33TH2
 ---
 
 # Boost Skill Installation Error Analysis

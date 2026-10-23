@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "module test location rule"
 issues: []
 discussions: []
-<<<<<<< .merge_file_YLDUE9
-=======
 status: draft
->>>>>>> .merge_file_gQD2g2
 ---
 
 # Regola: Posizione dei Test nei Moduli Laraxot
@@ -19,7 +16,6 @@ status: draft
 **Scope:** Architettura Laraxot — si applica a TUTTI i moduli e temi
 
 ---
-<<<<<<< .merge_file_YLDUE9
 
 title: "module test location rule"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "module test location rule"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_gQD2g2
 ## Il Problema
 
 Il 2026-04-21 i seguenti test sono stati creati nel percorso errato:

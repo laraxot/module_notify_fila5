@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "llm wiki index"
 issues: []
 discussions: []
-<<<<<<< .merge_file_B3rLjF
-=======
 status: stub
->>>>>>> .merge_file_MOhkGo
 ---
 
 # LLM Wiki Index

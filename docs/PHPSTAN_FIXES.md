@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "PHPSTAN FIXES"
 issues: []
 discussions: []
-<<<<<<< .merge_file_9zvDFV
-=======
 status: draft
->>>>>>> .merge_file_uF1209
 ---
 
 # PHPStan Error Fixes - Notify Module

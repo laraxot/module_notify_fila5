@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "pint rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_qIHQtd
-=======
 status: draft
->>>>>>> .merge_file_knulKq
 ---
 
 === pint/core rules ===
@@ -23,7 +20,6 @@ status: draft
 
 
 ---
-<<<<<<< .merge_file_qIHQtd
 
 title: "pint rules"
 type: note
@@ -33,8 +29,6 @@ updated: 2026-09-26
 qmd: "pint rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_knulKq
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

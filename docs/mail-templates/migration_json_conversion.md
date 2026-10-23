@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "migration json conversion"
 issues: []
 discussions: []
-<<<<<<< .merge_file_gH9rYN
-=======
 status: draft
->>>>>>> .merge_file_LvYgHn
 ---
 
 # Gestione Conversioni JSON nelle Migrazioni

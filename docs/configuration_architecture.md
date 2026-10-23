@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "configuration architecture"
 issues: []
 discussions: []
-<<<<<<< .merge_file_w3BlN1
-=======
 status: draft
->>>>>>> .merge_file_bCPpJu
 ---
 
 # Architettura delle Configurazioni nei Moduli Laravel

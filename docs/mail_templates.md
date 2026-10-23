@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "mail templates"
 issues: []
 discussions: []
-<<<<<<< .merge_file_PUR2j5
-=======
 status: draft
->>>>>>> .merge_file_cxwy6l
 ---
 
 # Mail Templates in Notify Module

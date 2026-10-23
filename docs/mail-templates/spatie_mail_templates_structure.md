@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "spatie mail templates structure"
 issues: []
 discussions: []
-<<<<<<< .merge_file_XxTmOk
-=======
 status: draft
->>>>>>> .merge_file_sj6bxF
 ---
 
 # Spatie Mail Templates: Struttura Corretta

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "SUMMARY"
 issues: []
 discussions: []
-<<<<<<< .merge_file_ERJffe
-=======
 status: draft
->>>>>>> .merge_file_5UOVL6
 ---
 
 # Bug Fixes Summary
@@ -55,7 +52,6 @@ php artisan tinker --execute="
 ✅ **RISOLTO** - Testato e verificato funzionante
 
 ---
-<<<<<<< .merge_file_ERJffe
 
 title: "SUMMARY"
 type: note
@@ -65,8 +61,6 @@ updated: 2026-09-26
 qmd: "SUMMARY"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_5UOVL6
 ## Prossimi Bug da Analizzare
 
 Nessuno al momento.

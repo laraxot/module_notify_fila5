@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "memories"
 issues: []
 discussions: []
-<<<<<<< .merge_file_WNmola
-=======
 status: draft
->>>>>>> .merge_file_XiHSAM
 ---
 
 # Agent Memory Updates

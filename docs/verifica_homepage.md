@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "verifica homepage"
 issues: []
 discussions: []
-<<<<<<< .merge_file_r52GZQ
-=======
 status: draft
->>>>>>> .merge_file_SUUxmM
 ---
 
 # 📸 Verifica Visiva Homepage FixCity
@@ -21,7 +18,6 @@ status: draft
 https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 
 ---
-<<<<<<< .merge_file_r52GZQ
 
 title: "verifica homepage"
 type: note
@@ -31,8 +27,6 @@ updated: 2026-09-26
 qmd: "verifica homepage"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_SUUxmM
 ## ✅ Elementi Implementati Correttamente
 
 ### 1. Hero Section - "Contenuti in Evidenza"

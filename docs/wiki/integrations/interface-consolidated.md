@@ -35,7 +35,7 @@ Consolidated from **13** individual files.
 ## interface-naming-convention-1
 
 <<<<<<< .merge_file_DTjZWF
-*Consolidated from: `interface-naming-convention-1.md`*
+*Consolidated from: `interface-naming-convention.md`*
 =======
 *Consolidated from: `interface-naming-convention-deprecated.md`*
 >>>>>>> .merge_file_yISbaF
@@ -67,11 +67,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_DTjZWF
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -332,7 +332,7 @@ grep -r "interface.*Contract" --include="*.php" Modules
 ## interface-structure-clarification-1
 
 <<<<<<< .merge_file_DTjZWF
-*Consolidated from: `interface-structure-clarification-1.md`*
+*Consolidated from: `interface-structure-clarification.md`*
 =======
 *Consolidated from: `interface-structure-clarification.md`*
 >>>>>>> .merge_file_yISbaF
@@ -409,11 +409,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_DTjZWF
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -768,7 +768,7 @@ if (!($instance instanceof SmsActionContract)) {
 ## interfaces-implementation-guide-1
 
 <<<<<<< .merge_file_DTjZWF
-*Consolidated from: `interfaces-implementation-guide-1.md`*
+*Consolidated from: `interfaces-implementation-guide.md`*
 =======
 *Consolidated from: `interfaces-implementation-guide.md`*
 >>>>>>> .merge_file_yISbaF
@@ -893,11 +893,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_DTjZWF
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

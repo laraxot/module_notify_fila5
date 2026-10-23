@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "decisione basemodel refactoring"
 issues: []
 discussions: []
-<<<<<<< .merge_file_wVejvo
-=======
 status: draft
->>>>>>> .merge_file_tK9bdw
 ---
 
 # 🎯 DECISIONE: BaseModel Refactoring - Analisi Approfondita
@@ -20,7 +17,6 @@ status: draft
 **Risposta**: **SÌ, MA CON ECCEZIONI DOCUMENTATE** ✅⚠️
 
 ---
-<<<<<<< .merge_file_wVejvo
 
 title: "decisione basemodel refactoring"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "decisione basemodel refactoring"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_tK9bdw
 ## 📊 Situazione Attuale (VERIFICATA)
 
 ### Stato dei 18 Moduli

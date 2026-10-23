@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "login page status"
 issues: []
 discussions: []
-<<<<<<< .merge_file_jaYjps
-=======
 status: draft
->>>>>>> .merge_file_j9CICL
 ---
 
 # Status pagina login — documento estraneo (deprecato)

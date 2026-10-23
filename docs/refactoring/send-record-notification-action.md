@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "send record notification action"
 issues: []
 discussions: []
-<<<<<<< .merge_file_mjz9gB
-=======
 status: draft
->>>>>>> .merge_file_ifezWB
 ---
 
 # Refactoring Plan: SendRecordNotificationAction

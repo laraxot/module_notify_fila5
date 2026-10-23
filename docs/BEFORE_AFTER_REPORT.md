@@ -4,11 +4,8 @@ type: report
 status: completed
 module: Notify
 updated: 2026-10-06
-<<<<<<< .merge_file_ovpEsD
-=======
 tags: [docs, notify]
 qmd: "before/after report   notify module docs notify"
->>>>>>> .merge_file_NETR51
 ---
 
 # Before/After Report — Notify Module Docs

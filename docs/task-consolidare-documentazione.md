@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "task consolidare documentazione"
 issues: []
 discussions: []
-<<<<<<< .merge_file_pQVMu5
-=======
 status: draft
->>>>>>> .merge_file_GZIiCG
 ---
 
 # Task: Consolidare Documentazione - Notify
@@ -20,7 +17,6 @@ status: draft
 **Completamento**: 10%
 
 ---
-<<<<<<< .merge_file_pQVMu5
 
 title: "task consolidare documentazione"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "task consolidare documentazione"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_GZIiCG
 ## Descrizione
 
 749 file di documentazione - il piu' alto di tutti i moduli. Serve pulizia urgente.

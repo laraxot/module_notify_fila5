@@ -30,7 +30,7 @@ Consolidated from **8** individual files.
 ## optimization-analysis-1
 
 <<<<<<< .merge_file_N24fLZ
-*Consolidated from: `optimization-analysis-1.md`*
+*Consolidated from: `optimization-analysis.md`*
 =======
 *Consolidated from: `optimization-analysis-user-module-documentation.md`*
 >>>>>>> .merge_file_3cupD7
@@ -45,11 +45,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_N24fLZ
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -267,7 +267,7 @@ class NotificationTemplateCache
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
 <<<<<<< .merge_file_N24fLZ
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 =======
 - **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 >>>>>>> .merge_file_3cupD7
@@ -492,7 +492,7 @@ php artisan notify:benchmark
 
 ## optimization-recommendations-2
 
-*Consolidated from: `optimization-recommendations-2.md`*
+*Consolidated from: `optimization-recommendations.md`*
 
 title: "Raccomandazioni di Ottimizzazione - Modulo Notify"
 type: concept
@@ -504,11 +504,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_N24fLZ
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -537,7 +537,7 @@ related:
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
 <<<<<<< .merge_file_N24fLZ
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 =======
 - **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 >>>>>>> .merge_file_3cupD7
@@ -778,7 +778,7 @@ php artisan notify:benchmark
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
 <<<<<<< .merge_file_N24fLZ
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 =======
 - **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 >>>>>>> .merge_file_3cupD7
@@ -1014,7 +1014,7 @@ php artisan notify:benchmark
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
 <<<<<<< .merge_file_N24fLZ
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 =======
 - **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 >>>>>>> .merge_file_3cupD7
@@ -1449,7 +1449,7 @@ docs/
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
 <<<<<<< .merge_file_N24fLZ
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 =======
 - **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 >>>>>>> .merge_file_3cupD7

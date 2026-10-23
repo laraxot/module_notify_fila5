@@ -8,11 +8,11 @@ qmd: "optimization-recommendations-2 raccomandazioni di ottimizzazione - modulo 
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -33,7 +33,7 @@ related:
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
-- **Duplicazioni** multiple (analysis-dettagliata-1.md fino a -8.md)
+- **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 

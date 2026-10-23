@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "folio rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_ve3mxJ
-=======
 status: draft
->>>>>>> .merge_file_7qV24D
 ---
 
 === folio/core rules ===
@@ -23,7 +20,6 @@ status: draft
 
 
 ---
-<<<<<<< .merge_file_ve3mxJ
 
 title: "folio rules"
 type: note
@@ -33,8 +29,6 @@ updated: 2026-09-26
 qmd: "folio rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_7qV24D
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

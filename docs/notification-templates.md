@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "notification templates"
 issues: []
 discussions: []
-<<<<<<< .merge_file_HAwjjE
-=======
 status: draft
->>>>>>> .merge_file_XrJr4e
 ---
 
 # Template delle Notifiche

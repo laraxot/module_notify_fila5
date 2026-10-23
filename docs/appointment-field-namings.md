@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "appointment field namings"
 issues: []
 discussions: []
-<<<<<<< .merge_file_vqYfVC
-=======
 status: draft
->>>>>>> .merge_file_0lLdu1
 ---
 
 # Appointment Field Naming Issues

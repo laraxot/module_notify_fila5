@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: " repos"
 issues: []
 discussions: []
-<<<<<<< .merge_file_By41M6
-=======
 status: draft
->>>>>>> .merge_file_THWH57
 ---
 
 # _repos

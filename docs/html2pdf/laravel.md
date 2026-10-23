@@ -9,10 +9,7 @@ type: reference
 updated: 2026-05-21
 related:
   - "../../../Media/docs/html2pdf/laravel.md"
-<<<<<<< .merge_file_kY06DE
-=======
 status: draft
->>>>>>> .merge_file_DvgxbE
 ---
 
 # Html2Pdf — laravel

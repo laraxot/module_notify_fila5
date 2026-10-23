@@ -8,10 +8,7 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_Yn2tKc
-=======
 status: draft
->>>>>>> .merge_file_1lFNwq
 ---
 
 # Divergenza: `GAP_ANALYSIS_IMPLEMENTATION.md`

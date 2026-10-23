@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "critical rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_F0kSjA
-=======
 status: draft
->>>>>>> .merge_file_8FC7GX
 ---
 
 # Regole Critiche

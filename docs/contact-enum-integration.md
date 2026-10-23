@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "contact enum integration"
 issues: []
 discussions: []
-<<<<<<< .merge_file_xeHEyD
-=======
 status: draft
->>>>>>> .merge_file_S8Ozsa
 ---
 
 # ContactTypeEnum Integration Guide

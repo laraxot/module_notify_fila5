@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "tests rules"
 issues: []
 discussions: []
-<<<<<<< .merge_file_zSKyvM
-=======
 status: draft
->>>>>>> .merge_file_7hhjO5
 ---
 
 === tests rules ===
@@ -22,7 +19,6 @@ status: draft
 
 
 ---
-<<<<<<< .merge_file_zSKyvM
 
 title: "tests rules"
 type: note
@@ -32,8 +28,6 @@ updated: 2026-09-26
 qmd: "tests rules"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_7hhjO5
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

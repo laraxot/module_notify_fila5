@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "github actions status"
 issues: []
 discussions: []
-<<<<<<< .merge_file_ZA5Pnc
-=======
 status: draft
->>>>>>> .merge_file_0vqhxV
 ---
 
 # GitHub Actions Status & Fixes
@@ -20,7 +17,6 @@ status: draft
 **Author**: AI Agent
 
 ---
-<<<<<<< .merge_file_ZA5Pnc
 
 title: "github actions status"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "github actions status"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_0vqhxV
 ## Summary
 
 Analisi e fix delle GitHub Actions del repository base_fixcity_fila5.

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "bulk notification action"
 issues: []
 discussions: []
-<<<<<<< .merge_file_HtMdmL
-=======
 status: draft
->>>>>>> .merge_file_Ufxdo4
 ---
 
 # Bulk Notification Action
@@ -144,7 +141,6 @@ Full multi-language support with:
 - Polish (pl)
 
 ---
-<<<<<<< .merge_file_HtMdmL
 
 title: "bulk notification action"
 type: note
@@ -154,6 +150,4 @@ updated: 2026-09-26
 qmd: "bulk notification action"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_Ufxdo4
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*

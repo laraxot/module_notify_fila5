@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "whatsapp"
 issues: []
 discussions: []
-<<<<<<< .merge_file_acF4Dx
-=======
 status: draft
->>>>>>> .merge_file_Zozxrw
 ---
 
 # whatsapp

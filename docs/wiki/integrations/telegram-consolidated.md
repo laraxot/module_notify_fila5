@@ -39,7 +39,7 @@ Consolidated from **13** individual files.
 ## telegram-channel-1
 
 <<<<<<< .merge_file_kx3SNu
-*Consolidated from: `telegram-channel-1.md`*
+*Consolidated from: `telegram-channel.md`*
 =======
 *Consolidated from: `telegram-channel.md`*
 >>>>>>> .merge_file_j9OzvG
@@ -585,11 +585,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_kx3SNu
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -1494,7 +1494,7 @@ class TelegramTest extends TestCase
 ## telegram-integration-1
 
 <<<<<<< .merge_file_kx3SNu
-*Consolidated from: `telegram-integration-1.md`*
+*Consolidated from: `telegram-integration.md`*
 =======
 *Consolidated from: `telegram-integration.md`*
 >>>>>>> .merge_file_j9OzvG
@@ -1692,11 +1692,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_kx3SNu
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
@@ -2086,11 +2086,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_kx3SNu
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
 =======
   - "./00-index-documentation.md"
   - "./00-index-2.md"

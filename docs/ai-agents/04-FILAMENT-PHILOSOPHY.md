@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "04 FILAMENT PHILOSOPHY"
 issues: []
 discussions: []
-<<<<<<< .merge_file_wjhidn
-=======
 status: draft
->>>>>>> .merge_file_bDQONn
 ---
 
 # 🎨 Filament Forms & Tables Philosophy
@@ -19,7 +16,6 @@ status: draft
 **Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 
 ---
-<<<<<<< .merge_file_wjhidn
 
 title: "04 FILAMENT PHILOSOPHY"
 type: note
@@ -29,8 +25,6 @@ updated: 2026-09-26
 qmd: "04 FILAMENT PHILOSOPHY"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_bDQONn
 ## 🔴 Fundamental Rule
 
 **NEVER create custom forms or tables in blade.**

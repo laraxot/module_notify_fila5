@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_Hm4AD8
-=======
 status: draft
->>>>>>> .merge_file_X3Jp88
 ---
 
 # 📸 Verifica Visiva Homepage Notify

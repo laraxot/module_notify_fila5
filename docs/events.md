@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "events"
 issues: []
 discussions: []
-<<<<<<< .merge_file_FN7cPN
-=======
 status: draft
->>>>>>> .merge_file_BppqNE
 ---
 
 # Email Events

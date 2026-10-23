@@ -11,10 +11,10 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< .merge_file_ABsYrm
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -99,7 +99,7 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 28. super-mucca-completion.md
 29. ultimate-completion-report.md
 <<<<<<< .merge_file_ABsYrm
-30. absolute-completion-100.md (questo)
+30. absolute-completion.md (questo)
 =======
 30. absolute-completion-notify-completamento-assoluto.md (questo)
 >>>>>>> .merge_file_37Kctv

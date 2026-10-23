@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "openviking setup"
 issues: []
 discussions: []
-<<<<<<< .merge_file_qoSj84
-=======
 status: draft
->>>>>>> .merge_file_SrseOx
 ---
 
 # OpenViking Setup

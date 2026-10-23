@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "architecture analysis"
 issues: []
 discussions: []
-<<<<<<< .merge_file_z5QxKd
-=======
 status: draft
->>>>>>> .merge_file_T2XpZW
 ---
 
 # FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
@@ -20,7 +17,6 @@ status: draft
 **Status**: Production-Ready Foundation with Active Development
 
 ---
-<<<<<<< .merge_file_z5QxKd
 
 title: "architecture analysis"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "architecture analysis"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_T2XpZW
 ## 📋 EXECUTIVE SUMMARY
 
 ### Project Overview

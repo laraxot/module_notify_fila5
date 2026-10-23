@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "sms actions"
 issues: []
 discussions: []
-<<<<<<< .merge_file_lQwagl
-=======
 status: draft
->>>>>>> .merge_file_HLkVgV
 ---
 
 # Azioni SMS

@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "zen of schema"
 issues: []
 discussions: []
-<<<<<<< .merge_file_pGx6lm
-=======
 status: draft
->>>>>>> .merge_file_9obLAX
 ---
 
 # 🧘 The Zen of Schema (Filament 4)

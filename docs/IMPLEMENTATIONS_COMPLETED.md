@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "IMPLEMENTATIONS COMPLETED"
 issues: []
 discussions: []
-<<<<<<< .merge_file_qieDgu
-=======
 status: draft
->>>>>>> .merge_file_VGRwNY
 ---
 
 # ✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE
@@ -20,7 +17,6 @@ status: draft
 **Status**: 🚀 CRITICAL FEATURES IMPLEMENTED  
 
 ---
-<<<<<<< .merge_file_qieDgu
 
 title: "IMPLEMENTATIONS COMPLETED"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "IMPLEMENTATIONS COMPLETED"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_VGRwNY
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Analizzato lo scopo del progetto, identificate le features mancanti e implementate le funzionalità critiche per trasformare FixCity da MVP a piattaforma enterprise-ready.
