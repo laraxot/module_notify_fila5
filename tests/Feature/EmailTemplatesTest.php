@@ -2,10 +2,7 @@
 
 declare(strict_types=1);
 
-use Tests\TestCase;
 use Illuminate\Support\Facades\File;
-
-uses(TestCase::class);
 
 test('html template contains optional function', function (): void {
     // Percorso del file
@@ -18,15 +15,10 @@ test('html template contains optional function', function (): void {
     $content = File::get($filePath);
 
     // Verifico che contiene la funzione optional per subject
-    expect($content)
-        ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
+    expect(str_contains($content, 'optional($email_data)->subject'))->toBeTrue('Il template html.blade.php non utilizza optional() per subject');
 
     // Verifico che contiene la funzione optional per body_html
-    expect($content)
-        ->toContain(
-            'optional($email_data)->body_html',
-            'Il template html.blade.php non utilizza optional() per body_html',
-        );
+    expect(str_contains($content, 'optional($email_data)->body_html'))->toBeTrue('Il template html.blade.php non utilizza optional() per body_html');
 });
 
 test('sunny template contains optional function', function (): void {
@@ -40,11 +32,7 @@ test('sunny template contains optional function', function (): void {
     $content = File::get($filePath);
 
     // Verifico che contiene la funzione optional per cssInLine
-    expect($content)
-        ->toContain(
-            'optional($_theme)->cssInLine',
-            'Il template sunny.blade.php non utilizza optional() per cssInLine',
-        );
+    expect(str_contains($content, 'optional($_theme)->cssInLine'))->toBeTrue('Il template sunny.blade.php non utilizza optional() per cssInLine');
 });
 
 test('ark template contains optional function', function (): void {
@@ -58,6 +46,5 @@ test('ark template contains optional function', function (): void {
     $content = File::get($filePath);
 
     // Verifico che contiene la funzione optional per cssInLine
-    expect($content)
-        ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
+    expect(str_contains($content, 'optional($_theme)->cssInLine'))->toBeTrue('Il template ark.blade.php non utilizza optional() per cssInLine');
 });

@@ -595,11 +595,8 @@ pages/tests/argomenti.blade.php     # NO
 ### Key Documents
 
 - [Master Index](docs/project/module-docs-index.md)
-<<<<<<< .merge_file_idhRGE
 - [Theme Detection](docs/project/theme-detection-system.md)
-=======
 - [Theme Detection](theme-detection-system.md)
->>>>>>> .merge_file_TDFp9V
 - [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md)
 - [Page Component](Modules/Cms/docs/PAGE_COMPONENT_architecture.md)
 

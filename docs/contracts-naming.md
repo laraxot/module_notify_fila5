@@ -8,7 +8,6 @@ created: 2026-07-12
 updated: 2026-07-12
 tags: [contract, naming, architecture, laraxot, notify]
 related:
-<<<<<<< .merge_file_iGXoHo
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -17,7 +16,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -27,7 +25,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
->>>>>>> .merge_file_3Fy4Yr
 ---
 
 # Contracts Naming & Placement in Notify

@@ -9,19 +9,16 @@ updated: 2026-07-14
 qmd: "super-admin-setup-fix-2025-10-15.deprecated deprecated"
 status: deprecated
 related:
-<<<<<<< .merge_file_W6JX93
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_pOSfzX
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

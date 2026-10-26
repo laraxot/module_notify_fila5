@@ -9,19 +9,16 @@ updated: 2026-07-14
 qmd: "documentation_improvement_summary_2026-03-13.deprecated deprecated"
 status: deprecated
 related:
-<<<<<<< .merge_file_iyuEr9
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_ClRvHB
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

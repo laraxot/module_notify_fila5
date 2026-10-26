@@ -8,19 +8,16 @@ qmd: "openviking-bmad-gsd-ralph-complete openviking + bmad + gsd + ralph loop - 
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_NEQoCC
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_uiI1Mb
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -388,13 +385,10 @@ cat agents.md
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
 - [Unified Workflow](./unified-ai-workflow.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
-<<<<<<< .merge_file_NEQoCC
 - [AGENTS.md](../AGENTS.md)
 - [agents.md](../agents.md)
-=======
 - [AGENTS.md](../../../AGENTS.md)
 - [agents.md](../../../AGENTS.md)
->>>>>>> .merge_file_uiI1Mb
 
 ### Scripts
 - OpenViking Init: `bashscripts/ai/openviking-init.sh`

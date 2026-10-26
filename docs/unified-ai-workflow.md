@@ -581,13 +581,10 @@ cat .ralph/iteration-log.md
 - [OpenViking Integration](./openviking-integration.md)
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
-<<<<<<< .merge_file_NHjNrh
 - [AGENTS.md](../AGENTS.md)
 - [agents.md](../agents.md)
-=======
 - [AGENTS.md](../../../AGENTS.md)
 - [agents.md](../../../AGENTS.md)
->>>>>>> .merge_file_xcKYQp
 
 ### Scripts
 - OpenViking Init: `bashscripts/ai/openviking-init.sh`

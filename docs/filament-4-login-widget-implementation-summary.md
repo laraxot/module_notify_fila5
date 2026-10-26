@@ -8,19 +8,16 @@ qmd: "filament-4-login-widget-implementation-summary 🎯 riepilogo implementazi
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_4TFY7k
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_RTSb9U
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -240,15 +237,12 @@ TextInput::make('email') // Label da user::fields.email.label
 ## 📚 Riferimenti Documentazione
 
 ### Interna
-<<<<<<< .merge_file_4TFY7k
 - [Filament 4 Login Widget Implementation](../laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
 - [Filament 4 Widget Rendering Guide](../laravel/Modules/User/docs/filament-4-widget-rendering-guide.md)
 - [Auth Widget Rules](../laravel/Modules/User/docs/auth_widget_rules.md)
-=======
 - [Filament 4 Login Widget Implementation](../../../Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
 - [Filament 4 Widget Rendering Guide](../../User/docs/filament-4-widget-rendering-guide.md)
 - [Auth Widget Rules](../../User/docs/auth_widget_rules.md)
->>>>>>> .merge_file_RTSb9U
 - [Laraxot Architecture Rules](../laravel/Modules/Xot/docs/laraxot-architecture-rules.md)
 
 ### Esterna

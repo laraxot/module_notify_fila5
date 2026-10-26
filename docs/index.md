@@ -16,15 +16,11 @@ related:
   - notifications/readme.md
   - integrations/readme.md
   - templates/readme.md
-<<<<<<< .merge_file_6PvZJF
----
-=======
 status: stale
 ---
 
 > Nota 2026-10-14 (docs-audit): Copia identica di INDEX.md (16011 byte): stesse sezioni ripetute e link inesistenti; l'indice operativo e' 00-INDEX.md. Contenuto non riscritto, verificare prima di usarlo.
 
->>>>>>> .merge_file_qTctEj
 # Notify Module Documentation
 
 ## Overview
@@ -74,17 +70,14 @@ This document serves as the central index for the Notify module, providing guida
 
 ## Links to Related Documentation
 - [Architecture Overview](./ARCHITECTURE.md)
-<<<<<<< .merge_file_6PvZJF
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
-=======
 - [Notification Channels Implementation](./notification_channels_implementation.md)
 - [Email Templates](./email_templates.md)
 - [SMS Implementation](./sms_implementation.md)
 - [Troubleshooting](./troubleshooting.md)
->>>>>>> .merge_file_qTctEj
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -128,7 +121,6 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Sistema Email
 - [Sistema Email Database](./database-mail-system.md) - Sistema di gestione delle email basato su database
 - [Code Email](./database_mail_queue.md) - Sistema di code per l'invio di email
-<<<<<<< .merge_file_6PvZJF
 - [Template Email](./EMAIL_TEMPLATES.md) - Struttura e utilizzo dei template email
 - [Best Practices Email](./EMAIL_BEST_PRACTICES.md) - Linee guida per le email
 - [Template Responsivi](./RESPONSIVE_EMAIL_TEMPLATES.md) - Implementazione di template email responsivi
@@ -138,7 +130,6 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [SMS](./SMS_IMPLEMENTATION.md) - Implementazione del canale SMS
 - [WhatsApp](./WHATSAPP_CHANNEL.md) - Implementazione del canale WhatsApp
 - [Telegram](./TELEGRAM_CHANNEL.md) - Implementazione del canale Telegram
-=======
 - [Template Email](./email_templates.md) - Struttura e utilizzo dei template email
 - [Best Practices Email](./email_best_practices.md) - Linee guida per le email
 - [Template Responsivi](./responsive_email_templates.md) - Implementazione di template email responsivi
@@ -148,12 +139,10 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [SMS](./sms_implementation.md) - Implementazione del canale SMS
 - [WhatsApp](./whatsapp_channel.md) - Implementazione del canale WhatsApp
 - [Telegram](./telegram_channel.md) - Implementazione del canale Telegram
->>>>>>> .merge_file_qTctEj
 
 ### Filament UI
 - [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
 - [Pagine Filament](./filament-pages.md) - Componenti Filament Pages
-<<<<<<< .merge_file_6PvZJF
 - [Convenzioni Filament](./FILAMENT_EXTENSION_PATTERN.md) - Pattern di estensione per Filament
 
 ### Configurazione
@@ -173,7 +162,6 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Testing e Qualità
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
-=======
 - [Convenzioni Filament](./filament_extension_pattern.md) - Pattern di estensione per Filament
 
 ### Configurazione
@@ -193,7 +181,6 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Testing e Qualità
 - [PHPStan Level 10](./phpstan_level10_fixes.md) - Correzioni per PHPStan Level 10
->>>>>>> .merge_file_qTctEj
 - [Testing](./TESTING.md) - Strategie e approcci per il testing
 
 ## Linee Guida per l'Implementazione
@@ -243,7 +230,6 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Sottocartelle
 
 ### Mail Templates
-<<<<<<< .merge_file_6PvZJF
 - [Index](./mail-templates/INDEX.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
 
@@ -256,7 +242,6 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - [Template Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
-=======
 - [Index](./mail-templates/index.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail_template_slug_implementation.md) - Implementazione del campo slug
 
@@ -269,7 +254,6 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - [Template Email](./email_templates.md)
 - [Implementazione SMS](./sms_implementation.md)
 - [Troubleshooting](./troubleshooting.md)
->>>>>>> .merge_file_qTctEj
 
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
@@ -322,21 +306,15 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
-<<<<<<< .merge_file_6PvZJF
 - Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
-=======
 - Vedi anche: [../../../../../docs/project/README.md](../../../../docs/project/README.md)
->>>>>>> .merge_file_qTctEj
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
-<<<<<<< .merge_file_6PvZJF
 - Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
-=======
 - Vedi anche: [../../../../../docs/project/README.md](../../../../docs/project/README.md)
->>>>>>> .merge_file_qTctEj
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*

@@ -41,19 +41,16 @@ qmd: "documentation-analysis-and-improvement-plan documentation analysis and imp
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -108,11 +105,8 @@ The <nome progetto> platform has extensive documentation across modules and them
 ❌ **Problems**:
 - 15 files with temporal strings ("Last Updated: March 12, 2026")
 - Duplicate files: `prd.md`, `PRD.md`, `prd.json`
-<<<<<<< .merge_file_r5OBby
 - Inconsistent naming: `product-strategy.md` vs `product-strategy.md`
-=======
 - Inconsistent naming: `product-strategy.md` vs `product-strategy-documentation-themes.md`
->>>>>>> .merge_file_FNU6Uj
 - Orphaned files: `to-study.md`, `blocks-react.md`
 
 #### Recommended Actions
@@ -458,11 +452,8 @@ echo "  snake_case: $(find laravel/Modules/*/docs/ -name '*_*.md' | wc -l)"
 ## 📚 Related Documents
 
 - [documentation-governance.md](documentation-governance.md) - Governance framework
-<<<<<<< .merge_file_r5OBby
 - [agents.md](../../../agents.md) - Agent guidelines
-=======
 - [agents.md](../../agents.md) - Agent guidelines
->>>>>>> .merge_file_FNU6Uj
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 
 ---
@@ -489,19 +480,16 @@ qmd: "documentation-ecosystem <nome progetto> documentation ecosystem - visual m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -756,11 +744,8 @@ Xot (Core) ◄──────────────────────
 
 | I Need... | Start Here | Then Go To | Then Go To |
 |-----------|-----------|-----------|-----------|
-<<<<<<< .merge_file_r5OBby
 | Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](architecture-diagrams.md) | Your task |
-=======
 | Quick start | [Copilot Inst.](../../../.github/copilot-instructions.md) | [Architecture](architecture-diagrams.md) | Your task |
->>>>>>> .merge_file_FNU6Uj
 | Module overview | [Module Index](module-docs-index.md) | `Modules/{Name}/docs/00-index-1.md` | Details |
 | Theme overview | [Theme Index](THEMES_documentation-index.md) | `Themes/{Name}/docs/00-index-1.md` | Details |
 | Create content | [Cms Docs](../laravel/Modules/Cms/docs/) | [Block Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md) | Examples |
@@ -769,11 +754,8 @@ Xot (Core) ◄──────────────────────
 | Handle files | [Media Docs](../laravel/Modules/Media/docs/) | [File Upload](../laravel/Modules/Media/docs/guides/) | Examples |
 | Send notifications | [Notify Docs](../laravel/Modules/Notify/docs/) | [Channels](../laravel/Modules/Notify/docs/guides/) | Examples |
 | Track changes | [Activity Docs](../laravel/Modules/Activity/docs/) | [Audit Trail](../laravel/Modules/Activity/docs/guides/) | Examples |
-<<<<<<< .merge_file_r5OBby
 | Code standards | [claude.md](../laravel/claude.md) | [Copilot Inst.](../../.github/copilot-instructions.md) | Review |
-=======
 | Code standards | [claude.md](../laravel/claude.md) | [Copilot Inst.](../../../.github/copilot-instructions.md) | Review |
->>>>>>> .merge_file_FNU6Uj
 | Architecture | [Architecture](architecture-diagrams.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
 
 ---
@@ -939,11 +921,8 @@ laravel/Themes/
 - **Theme Development** → [THEMES_documentation-index.md](THEMES_documentation-index.md)
 - **Code Quality** → [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules** → [laravel/claude.md](../laravel/claude.md)
-<<<<<<< .merge_file_r5OBby
 - **Copilot Usage** → [.github/copilot-instructions.md](../../.github/copilot-instructions.md)
-=======
 - **Copilot Usage** → [.github/copilot-instructions.md](../../../.github/copilot-instructions.md)
->>>>>>> .merge_file_FNU6Uj
 - **Design Comuni** → Search for `DESIGN_COMUNI_` files
 
 ### By Use Case
@@ -1026,11 +1005,8 @@ Master Indexes:
 ├─ module-docs-index.md (Module hub)
 ├─ THEMES_documentation-index.md (Theme hub)
 ├─ architecture-diagrams.md (System overview)
-<<<<<<< .merge_file_r5OBby
 ├─ docs/00-index.md (Root index)
-=======
 ├─ docs/00-index-documentation.md (Root index)
->>>>>>> .merge_file_FNU6Uj
 └─ documentation-ecosystem.md (You are here)
 
 Connected Via:
@@ -1047,11 +1023,8 @@ Connected Via:
 
 ### For Developers
 
-<<<<<<< .merge_file_r5OBby
 1. Start: [Copilot Instructions](../../.github/copilot-instructions.md)
-=======
 1. Start: [Copilot Instructions](../../../.github/copilot-instructions.md)
->>>>>>> .merge_file_FNU6Uj
 2. Understand: [Architecture Diagrams](architecture-diagrams.md)
 3. Explore: [Module Index](module-docs-index.md) or [Theme Index](THEMES_documentation-index.md)
 4. Deep Dive: Relevant module/theme 00-index-1.md
@@ -1068,11 +1041,8 @@ Connected Via:
 
 ### For New Project Members
 
-<<<<<<< .merge_file_r5OBby
 1. Read: [Copilot Instructions](../../.github/copilot-instructions.md)
-=======
 1. Read: [Copilot Instructions](../../../.github/copilot-instructions.md)
->>>>>>> .merge_file_FNU6Uj
 2. Watch: Architecture diagrams in this file
 3. Explore: Master indexes for your area
 4. Ask: Use GitHub discussions for questions
@@ -1122,19 +1092,16 @@ qmd: "documentation-governance documentation governance framework"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1566,11 +1533,8 @@ jobs:
 
 ## 📚 Related Documents
 
-<<<<<<< .merge_file_r5OBby
 - [agents.md](../../../agents.md) - Agent guidelines
-=======
 - [agents.md](../../agents.md) - Agent guidelines
->>>>>>> .merge_file_FNU6Uj
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 - [documentation-index.md](../../../docs/documentation-index.md) - Master index
 
@@ -1596,19 +1560,16 @@ qmd: "documentation-improvement-plan-multi-agent documentation improvement plan 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1756,11 +1717,8 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 - [ ] `docs/project_docs/status/HISTORICAL_COMPLETION_REPORTS.md` (archive index)
 
 **Archive** (move to `docs/archive/completion-reports/`):
-<<<<<<< .merge_file_r5OBby
 - [ ] `absolute-completion-100.md`
-=======
 - [ ] `absolute-completion-completamento-assoluto.md`
->>>>>>> .merge_file_FNU6Uj
 - [ ] `perfection-achieved.md`
 - [ ] `project-completion-report.md`
 - [ ] `project-completion-status.md`
@@ -2150,19 +2108,16 @@ updated: 2026-07-14
 qmd: "documentation_improvement_summary_2026-03-13.deprecated deprecated"
 status: deprecated
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2185,19 +2140,16 @@ qmd: "documentation-improvement-summary-2026-03-13.deprecated documentation impr
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2244,11 +2196,8 @@ Successfully implemented a comprehensive documentation governance framework and 
 
 ### Core Documentation
 
-<<<<<<< .merge_file_r5OBby
 1. **[documentation-governance.md](docs/documentation-governance.md)**
-=======
 1. **[documentation-governance.md](../../documentation-governance.md)**
->>>>>>> .merge_file_FNU6Uj
    - Comprehensive governance framework
    - Standards for all documentation
    - Quality metrics and KPIs
@@ -2260,11 +2209,8 @@ Successfully implemented a comprehensive documentation governance framework and 
    - Links to all theme docs
    - Categorized by topic
 
-<<<<<<< .merge_file_r5OBby
 3. **[documentation-analysis-and-improvement-plan.md](docs/documentation-analysis-and-improvement-plan.md)**
-=======
 3. **[documentation-analysis-and-improvement-plan.md](../../documentation-analysis-and-improvement-plan.md)**
->>>>>>> .merge_file_FNU6Uj
    - Detailed analysis of current state
    - Identified issues across 3,646 files
    - Implementation plan with timelines
@@ -2499,15 +2445,12 @@ grep -r "Last Updated" laravel/Modules/*/docs/ --include="*.md" | wc -l
 ## 📚 Resources
 
 ### Documentation
-<<<<<<< .merge_file_r5OBby
 - [Governance Framework](docs/documentation-governance.md)
 - [Master Index](docs/MASTER_documentation-index.md)
 - [Improvement Plan](docs/documentation-analysis-and-improvement-plan.md)
-=======
 - [Governance Framework](../../documentation-governance.md)
 - [Master Index](docs/MASTER_documentation-index.md)
 - [Improvement Plan](../../documentation-analysis-and-improvement-plan.md)
->>>>>>> .merge_file_FNU6Uj
 
 ### Rules
 - [agents.md](agents.md) - Full standards
@@ -2593,29 +2536,23 @@ updated: 2026-07-14
 qmd: "documentation_improvement_summary_2026-03-13 deprecated"
 status: deprecated
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< .merge_file_r5OBby
 > Questo file è stato rinominato in [documentation-improvement-summary.md](documentation-improvement-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
-=======
 > Questo file è stato rinominato in [documentation-improvement-summary.md](../../documentation-improvement-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
->>>>>>> .merge_file_FNU6Uj
 
 ---
 
@@ -2634,19 +2571,16 @@ qmd: "documentation-index 📚 indice generale documentazione - <nome progetto>"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2674,11 +2608,8 @@ related:
 - [README Principale](./README.md) - Panoramica progetto completa
 - [Analisi Super Mucca](./super-mucca-docs-analysis.md) - Report qualità documentazione
 - [Architecture](./architecture-analysis.md) - Analisi architetturale
-<<<<<<< .merge_file_r5OBby
 - [Roadmap](./master-roadmap-2025.md) - Piano sviluppo 2025
-=======
 - [Roadmap](../../master-roadmap-2025.md) - Piano sviluppo 2025
->>>>>>> .merge_file_FNU6Uj
 
 ### Guide Rapide
 - [Quick Start](./quick-start.md) - Guida avvio rapido
@@ -2691,11 +2622,8 @@ related:
 
 ### Documentazione Architetturale
 - [Design Patterns](./architecture.md) - Pattern architetturali
-<<<<<<< .merge_file_r5OBby
 - [Database Schema](./database/schema.md) - Schema database
-=======
 - [Database Schema](../schema.md) - Schema database
->>>>>>> .merge_file_FNU6Uj
 - [API Documentation](./api/README.md) - Documentazione API
 - [Security](./security/README.md) - Sicurezza e conformità
 
@@ -2852,7 +2780,6 @@ related:
 ## 🛠️ Guide Sviluppo
 
 ### Development Setup
-<<<<<<< .merge_file_r5OBby
 - [Environment Setup](./development/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
 - [Database Setup](./database/setup.md) - Setup database
@@ -2860,7 +2787,6 @@ related:
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
 - [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
-=======
 - [Environment Setup](../../ai-agents/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
 - [Database Setup](../../ai-agents/setup.md) - Setup database
@@ -2868,17 +2794,13 @@ related:
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
 - [Laravel Best Practices](../../html2pdf/laravel.md) - Best practices Laravel
->>>>>>> .merge_file_FNU6Uj
 - [Filament Guidelines](./standards/filament.md) - Linee guida Filament
 - [Blade Components](./standards/blade.md) - Componenti Blade
 
 ### Quality Assurance
 - [PHPStan Configuration](./phpstan/README.md) - Analisi statica
-<<<<<<< .merge_file_r5OBby
 - [Testing Strategy](./testing/strategy.md) - Strategia testing
-=======
 - [Testing Strategy](../../strategy.md) - Strategia testing
->>>>>>> .merge_file_FNU6Uj
 - [CI/CD Pipeline](./ci-cd/README.md) - Continuous integration
 
 ---
@@ -2919,11 +2841,8 @@ related:
 - [Error Tracking](./monitoring/errors.md) - Tracking errori
 
 ### Analytics
-<<<<<<< .merge_file_r5OBby
 - [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
-=======
 - [Usage Analytics](../../html2pdf/usage.md) - Analisi utilizzo
->>>>>>> .merge_file_FNU6Uj
 - [Business Metrics](./analytics/business.md) - Metriche business
 
 ---
@@ -2931,11 +2850,8 @@ related:
 ## 🔒 Security
 
 ### Security Documentation
-<<<<<<< .merge_file_r5OBby
 - [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
-=======
 - [Security Guidelines](../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
->>>>>>> .merge_file_FNU6Uj
 - [GDPR Compliance](./security/gdpr.md) - Conformità GDPR
 - [Authentication](./security/authentication.md) - Sistema autenticazione
 - [Authorization](./security/authorization.md) - Sistema autorizzazioni
@@ -3017,19 +2933,16 @@ qmd: "documentation-system-update-complete documentation system update - complet
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_r5OBby
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FNU6Uj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3420,11 +3333,8 @@ Start at theme index:
 
 ### Finding Documentation
 
-<<<<<<< .merge_file_r5OBby
 1. **Start Here:** [docs/module-docs-index.md](docs/module-docs-index.md)
-=======
 1. **Start Here:** [docs/module-docs-index.md](../../module-docs-index.md)
->>>>>>> .merge_file_FNU6Uj
 2. **Navigate to:** Module or theme category
 3. **Use Search:** Ctrl+F for keywords
 4. **Follow Links:** Cross-references guide you
@@ -3448,11 +3358,8 @@ Start at theme index:
 
 ## 📋 Related Documents
 
-<<<<<<< .merge_file_r5OBby
 - [Master Index](docs/module-docs-index.md) - Central navigation
-=======
 - [Master Index](../../module-docs-index.md) - Central navigation
->>>>>>> .merge_file_FNU6Uj
 - [BMad Workflow](_bmad-output/BMAD-WORKFLOW-COMPLETE.md) - BMad summary
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md) - Theme layouts
 - [Vite Manifest Fix](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build fix

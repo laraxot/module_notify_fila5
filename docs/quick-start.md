@@ -9,19 +9,16 @@ qmd: "quick-start 🚀 ptv - guida rapida sviluppatori"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_Y42er7
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_M0Orak
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -519,11 +516,8 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 
 ### Regole Progetto
 - **[Laraxot Rules](./.windsurf/rules/user_15338591596331277449.md)**
-<<<<<<< .merge_file_Y42er7
 - **[Code Quality](./.windsurf/rules/code-quality.md)**
-=======
 - **[Code Quality](./ai-agents/code-quality.md)**
->>>>>>> .merge_file_M0Orak
 - **[Project Rules](./.windsurf/rules/project-rules.md)**
 
 ---

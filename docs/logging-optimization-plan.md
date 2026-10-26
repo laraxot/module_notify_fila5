@@ -7,10 +7,7 @@ updated: 2026-10-23
 qmd: "logging optimization plan"
 issues: []
 discussions: []
-<<<<<<< .merge_file_UYwSdO
-=======
 status: draft
->>>>>>> .merge_file_fDIF6e
 ---
 
 # Notify Module - Logging Optimization Plan

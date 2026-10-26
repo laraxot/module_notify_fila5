@@ -420,7 +420,6 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 - **[Project Analysis & Roadmap](./project-analysis-and-roadmap.md)** ⭐ BUSINESS VIEW
 - **[Session Summary 2025-10-01](./phpstan/session-summary.md)** ⭐ TECHNICAL
 - **[Final Report 2025-10-01](./phpstan/final-report-session.md)**
-<<<<<<< .merge_file_VDsG6p
 - **[Questo Documento](./ANALISI-COMPLETA.md)** ⭐ EXECUTIVE
 
 ### 🎯 Module Roadmaps (Dettagliate)
@@ -436,7 +435,6 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### 🎨 Theme Roadmaps
 - [Sixteen - Frontend Theme](../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
-=======
 - **[Questo Documento](./analisi-completa-ottobre-data.md)** ⭐ EXECUTIVE
 
 ### 🎯 Module Roadmaps (Dettagliate)
@@ -452,7 +450,6 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### 🎨 Theme Roadmaps
 - [Sixteen - Frontend Theme](../../../Themes/Sixteen/docs/roadmap-and-issues.md) - Performance
->>>>>>> .merge_file_iFNYyY
 
 ### 📖 Main Docs
 - [Index Principale](./index.md)

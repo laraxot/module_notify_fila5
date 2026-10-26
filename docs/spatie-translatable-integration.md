@@ -271,11 +271,8 @@ Schema::table('mail_templates', function (Blueprint $table) {
 
 ### Documentazione Interna
 - [Errore Plugin Not Registered](./errori/plugin-spatie-translatable-not-registered.md)
-<<<<<<< .merge_file_19uqFN
 - [Lang Module README](../../lang/docs/readme.md)
-=======
 - [Lang Module README](../../Lang/docs/readme.md)
->>>>>>> .merge_file_ho9HV8
 - [Filament Panels Configuration](../../xot/docs/filament/panel-configuration.md)
 
 ---

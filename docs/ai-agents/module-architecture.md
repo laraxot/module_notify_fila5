@@ -72,12 +72,9 @@ class User extends Illuminate\Database\Eloquent\Model
 **Precedente:** [Project Context](project-context.md) | **Successivo:** [Code Style](code-style.md)
 
 **Di ritorno:**
-<<<<<<< .merge_file_pT25Mh
 - [CLAUDE.md - Architecture Section](../../CLAUDE.md)
 - [AGENTS.md - Module Architecture Section](../../AGENTS.md)
 - [agents.md - Module Architecture Section](../../agents.md)
-=======
 - [CLAUDE.md - Architecture Section](../CLAUDE.md)
 - [AGENTS.md - Module Architecture Section](../AGENTS.md)
 - [agents.md - Module Architecture Section](../agents.md)
->>>>>>> .merge_file_waWanR

@@ -278,18 +278,14 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Root Docs
 1. ✅ [LEGGI-QUI-DOMANI.md](./LEGGI-QUI-DOMANI.md) - Piano giornaliero
-<<<<<<< .merge_file_B5NPjO
 2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./ANALISI-COMPLETA.md) - Executive summary
-=======
 2. ✅ [ANALISI-COMPLETA-2025-10-01.md](./analisi-completa-ottobre-data.md) - Executive summary
->>>>>>> .merge_file_oROWFw
 3. ✅ [roadmap-master-index.md](./roadmap-master-index.md) - Master index
 4. ✅ [project-analysis-and-roadmap.md](./project-analysis-and-roadmap.md) - Business view
 5. ✅ [phpstan/session-summary.md](./phpstan/session-summary.md)
 6. ✅ [phpstan/final-report-session.md](./phpstan/final-report-session.md)
 7. ✅ [phpstan/filament-v4-fixes-session.md](./phpstan/filament-v4-fixes-session.md)
 8. ✅ [phpstan/phpstan.md](./phpstan/phpstan.md) - Aggiornato
-<<<<<<< .merge_file_B5NPjO
 9. ✅ [QUESTO DOCUMENTO](./COMPLETAMENTO-PROGETTO.md)
 
 ### Module Roadmaps (9 dettagliate)
@@ -310,7 +306,6 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Theme Docs
 22. ✅ [Sixteen/docs/roadmap-and-issues.md](../Themes/Sixteen/docs/roadmap-and-issues.md)
-=======
 9. ✅ [QUESTO DOCUMENTO](./completamento-progetto-sessione-ottobre.md)
 
 ### Module Roadmaps (9 dettagliate)
@@ -331,7 +326,6 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Theme Docs
 22. ✅ [Sixteen/docs/roadmap-and-issues.md](../../../Themes/Sixteen/docs/roadmap-and-issues.md)
->>>>>>> .merge_file_oROWFw
 
 ---
 
@@ -605,11 +599,8 @@ public function execute(string $prompt, int $cacheDurationMinutes = 60): string
 
 ### Start Here
 - [🌅 Piano Domani](./LEGGI-QUI-DOMANI.md) - Anche se già completato!
-<<<<<<< .merge_file_B5NPjO
 - [📊 Analisi Completa](./ANALISI-COMPLETA.md) - Executive view
-=======
 - [📊 Analisi Completa](./analisi-completa-ottobre-data.md) - Executive view
->>>>>>> .merge_file_oROWFw
 - [🗺️ Master Roadmap](./roadmap-master-index.md) - Future planning
 
 ### Technical Docs

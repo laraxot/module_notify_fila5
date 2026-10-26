@@ -16,10 +16,7 @@ related:
   - "./llm-wiki-governance.md"
   - "./method-name-homonyms.md"
   - "./module-root-uppercase-folders-archive.md"
-<<<<<<< .merge_file_LWY192
-=======
 status: draft
->>>>>>> .merge_file_4AW7pL
 ---
 
 # Notify `app/Services` -> `app/Actions` migration
@@ -48,11 +45,8 @@ da un passaggio precedente. `Modules/Notify/app/Support` era gia` vuoto
 Il 2026-07-13 i residui non autoloadabili erano stati archiviati con suffisso `.old` (poi annullato da un merge: i file
 originali sono tornati). Stato definitivo al 2026-10-08: **`app/Services` non esiste piu'** (file cancellati, recuperabili
 da HEAD del repo del modulo; nessun `.gitkeep` a preservare la cartella). Dettaglio nella story
-<<<<<<< .merge_file_LWY192
 `stories/2026-10-08-services-to-actions-notify.story.md`.
-=======
 `stories/services-to-actions-notify.story.md`.
->>>>>>> .merge_file_4AW7pL
 
 Callers repo-wide di `Modules\Notify\Services\*`: 0.
 

@@ -395,11 +395,8 @@ Start at theme index:
 
 ### Finding Documentation
 
-<<<<<<< .merge_file_ciyvZw
 1. **Start Here:** [docs/MODULE_DOCS_INDEX.md](docs/MODULE_DOCS_INDEX.md)
-=======
 1. **Start Here:** [docs/MODULE_DOCS_INDEX.md](../../../MODULE_DOCS_INDEX.md)
->>>>>>> .merge_file_MdrZKq
 2. **Navigate to:** Module or theme category
 3. **Use Search:** Ctrl+F for keywords
 4. **Follow Links:** Cross-references guide you
@@ -423,11 +420,8 @@ Start at theme index:
 
 ## 📋 Related Documents
 
-<<<<<<< .merge_file_ciyvZw
 - [Master Index](docs/MODULE_DOCS_INDEX.md) - Central navigation
-=======
 - [Master Index](../../../MODULE_DOCS_INDEX.md) - Central navigation
->>>>>>> .merge_file_MdrZKq
 - [BMad Workflow](_bmad-output/BMAD-WORKFLOW-COMPLETE.md) - BMad summary
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md) - Theme layouts
 - [Vite Manifest Fix](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build fix

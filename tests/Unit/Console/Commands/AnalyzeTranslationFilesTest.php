@@ -88,9 +88,9 @@ describe('AnalyzeTranslationFiles', function () {
         $method = $reflection->getMethod('flattenArray');
         $method->setAccessible(true);
 
-        $result = XotBasePest::assertArray($method->invoke($command, []));
+        $result = $method->invoke($command, []);
 
-        Assert::assertEmpty($result);
+        Assert::assertSame([], $result);
     });
 
     it('flatten array handles nested levels', function () {

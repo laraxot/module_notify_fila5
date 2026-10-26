@@ -63,11 +63,8 @@ phpstan analyse app --level=10
 
 ## Related Docs
 
-<<<<<<< .merge_file_aaasjE
 - [`phpstan-l10-compliance.md`](../../../docs/wiki/rules/phpstan-l10-compliance.md)
-=======
 - [`phpstan-l10-compliance.md`](../../../../docs/wiki/rules/phpstan-l10-compliance.md)
->>>>>>> .merge_file_KfPKSK
 - [`MODULE_STRUCTURE.md`](./MODULE_STRUCTURE.md) — Module discipline
 - [GitHub Repo](https://github.com/laraxot/module_notify_fila5)
 

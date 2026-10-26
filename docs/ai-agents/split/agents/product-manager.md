@@ -104,13 +104,10 @@ discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents
-<<<<<<< .merge_file_usHEn2
 - ← [Tasks Index](../../tasks/index.md) — 22 reusable tasks
 - ← [Main AI Docs Index](../index.md) — Master index
 - ← [../../../../agents.md](../../../../../../../../agents.md) — Original source
-=======
 - ← [Tasks Index](../tasks/index.md) — 22 reusable tasks
 - ← [Main AI Docs Index](../index.md) — Master index
 - ← [../../../../agents.md](../../../../../../../AGENTS.md) — Original source
->>>>>>> .merge_file_bxd7p8
 

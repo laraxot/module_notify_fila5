@@ -183,15 +183,12 @@ test -f bashscripts/git/subtrees/sync_remote_repo.sh || { echo "sync_remote_repo
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
 
 ### Documentation
-<<<<<<< .merge_file_1XAL9g
 - [Bashscripts Gitignore Workaround](docs/BASHSCRIPTS_GITIGNORE_WORKAROUND.md)
 - [Multi-Agent Collaboration Guide](docs/MULTI_AGENT_COLLABORATION_GUIDE.md)
 - [GitHub Sync Rule](docs/GITHUB_SYNC_RULE.md)
-=======
 - [Bashscripts Gitignore Workaround](../BASHSCRIPTS_GITIGNORE_WORKAROUND.md)
 - [Multi-Agent Collaboration Guide](../MULTI_AGENT_COLLABORATION_GUIDE.md)
 - [GitHub Sync Rule](../GITHUB_SYNC_RULE.md)
->>>>>>> .merge_file_zqUIhh
 
 ---
 

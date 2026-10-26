@@ -103,5 +103,5 @@ test('firebase notification data fromType fills type and translations structure'
     Assert::assertSame('ticket_created', $data->type);
     Assert::assertNotSame('', $data->title);
     Assert::assertNotSame('', $data->body);
-    Assert::assertNotEmpty($data->data);
+    Assert::assertSame([], $data->data);
 });

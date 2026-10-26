@@ -421,15 +421,12 @@ return [
 
 ## Riferimenti
 
-<<<<<<< .merge_file_hT2WMd
 - [AddressItemEnum Documentation](../../geo/docs/enums/address-item-enum.md) - Pattern gemello
 - [Notify Module Architecture](../architecture.md)
 - [ContactTypeEnum Source](../../Notify/app/Enums/ContactTypeEnum.php)
-=======
 - [AddressItemEnum Documentation](../../../Geo/docs/enums/address-item-enum.md) - Pattern gemello
 - [Notify Module Architecture](../architecture.md)
 - [ContactTypeEnum Source](../../app/Enums/ContactTypeEnum.php)
->>>>>>> .merge_file_BwzRJe
 
 ## Changelog
 

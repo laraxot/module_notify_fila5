@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "documentation audit"
 issues: []
 discussions: []
-<<<<<<< .merge_file_KM71rq
-=======
 status: draft
->>>>>>> .merge_file_snvhu9
 ---
 
 # Documentation Audit Report
@@ -20,7 +17,6 @@ status: draft
 **Scope:** All modules, themes, and project documentation
 
 ---
-<<<<<<< .merge_file_KM71rq
 
 title: "documentation audit"
 type: note
@@ -30,8 +26,6 @@ updated: 2026-09-26
 qmd: "documentation audit"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_snvhu9
 ## Executive Summary
 
 ### Key Findings
@@ -303,11 +297,8 @@ docs/master/
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
-<<<<<<< .merge_file_KM71rq
 - Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes.md`
-=======
 - Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
->>>>>>> .merge_file_snvhu9
 
 **Recommended Standard:**
 - Lowercase kebab-case: `topic-subtopic.md`
@@ -317,13 +308,10 @@ docs/master/
 ### 5.2 Date-Based Naming (Anti-Pattern)
 
 **Examples:**
-<<<<<<< .merge_file_KM71rq
 - `phpstan-analysis-2026-03-02.md`
 - `documentation-improvement-summary-2026-03-13.md`
-=======
 - `phpstan-analysis-level-report.md`
 - `documentation-improvement-summary-executive.md`
->>>>>>> .merge_file_snvhu9
 - `bugfix-report-2025-01-14.md`
 
 **Problem:** Dates in filenames become stale immediately.

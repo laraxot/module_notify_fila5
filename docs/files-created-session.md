@@ -8,7 +8,6 @@ qmd: "files-created-session-007 files created in session 007"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_KiAow5
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -17,7 +16,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -27,7 +25,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
->>>>>>> .merge_file_QeElLz
 ---
 
 # Files Created in Session 007
@@ -112,11 +109,8 @@ laravel/Themes/Sixteen/docs/pages/segnalazioni-elenco/
 ```
 Project Root/
 ├── design-conversion-roadmap.md                ✨ NEW (executive summary)
-<<<<<<< .merge_file_KiAow5
 ├── files-created-session-007.md                ✨ NEW (this file)
-=======
 ├── files-created-session-inventory.md                ✨ NEW (this file)
->>>>>>> .merge_file_QeElLz
 └── [existing files unchanged]
 ```
 

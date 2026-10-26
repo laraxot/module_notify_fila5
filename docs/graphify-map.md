@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-10-23
-<<<<<<< .merge_file_M70jpF
-=======
 status: draft
->>>>>>> .merge_file_txFqHs
 ---
 
 # Notify Module — Mappa Graphify

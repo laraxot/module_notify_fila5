@@ -35,19 +35,16 @@ discussions: []
 **Tech Stack:** Tailwind CSS + Alpine.js + Livewire Volt
 
 **Core Documentation:**
-<<<<<<< .merge_file_I2N6mm
 - [00-INDEX.md](../laravel/Themes/Sixteen/docs/00-INDEX.md) - Start here
 - [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md) - Start here
 - [Design Comuni Integration](../laravel/Themes/Sixteen/docs/design-comuni-integration.md)
 - [Component Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md)
 - [Layout Architecture](../laravel/Themes/Sixteen/docs/layout-hierarchy.md)
-=======
 - [00-INDEX.md](../../../Themes/Sixteen/docs/00-INDEX.md) - Start here
 - [00-index.md](../../../Themes/Sixteen/docs/00-INDEX.md) - Start here
 - [Design Comuni Integration](../../../Themes/Sixteen/docs/design-comuni-integration.md)
 - [Component Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md)
 - [Layout Architecture](../../../Themes/Sixteen/docs/layout-hierarchy.md)
->>>>>>> .merge_file_S4S2mk
 
 **Directory Structure:**
 ```
@@ -334,11 +331,8 @@ Typography:
 
 | File | Purpose | View |
 |------|---------|------|
-<<<<<<< .merge_file_I2N6mm
 | `layout-hierarchy.md` | Layout component structure | [View](../laravel/Themes/Sixteen/docs/layout-hierarchy.md) |
-=======
 | `layout-hierarchy.md` | Layout component structure | [View](../../../Themes/Sixteen/docs/layout-hierarchy.md) |
->>>>>>> .merge_file_S4S2mk
 | `component-structure.md` | Component organization | [View](../laravel/Themes/Sixteen/docs/component-structure.md) |
 | `data-flow.md` | How data flows through views | [View](../laravel/Themes/Sixteen/docs/data-flow.md) |
 | `styling-system.md` | Tailwind + CSS strategy | [View](../laravel/Themes/Sixteen/docs/styling-system.md) |
@@ -480,15 +474,12 @@ public_html/assets/
 
 - **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
 - **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
-<<<<<<< .merge_file_I2N6mm
 - **Master Index:** [00-INDEX.md](../laravel/Themes/Sixteen/docs/00-INDEX.md)
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules:** [../laravel/CLAUDE.md](../laravel/CLAUDE.md)
-=======
 - **Master Index:** [00-INDEX.md](../../../Themes/Sixteen/docs/00-INDEX.md)
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules:** [../laravel/CLAUDE.md](../../../CLAUDE.md)
->>>>>>> .merge_file_S4S2mk
 
 ---
 

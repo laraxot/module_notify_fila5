@@ -266,26 +266,20 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 
 ### Documentazione Correlata
 - [Notification System](./notification_system.md)
-<<<<<<< .merge_file_ep0Ilj
 - [Email Templates](./email_templates.md)
-=======
 - [Email Templates](../../../email_templates.md)
->>>>>>> .merge_file_GZxFnt
 - [Multi-Channel Delivery](./multi_channel_delivery.md)
 - [Template Versioning](./template_versioning.md)
 
 ### Moduli Collegati
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
-<<<<<<< .merge_file_ep0Ilj
 - [User Module](../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
 - [Media Module](../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
 - [Lang Module](../../Lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione
-=======
 - [User Module](../../../../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
 - [Media Module](../../../../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
 - [Lang Module](../../../../../Lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione
->>>>>>> .merge_file_GZxFnt
 
 ### Servizi Esterni
 - [Mailgun](https://www.mailgun.com/) - Email delivery service

@@ -11,7 +11,6 @@ discussions: []
 
 # Key Documentation Links
 
-<<<<<<< .merge_file_IKI5RH
 - [Agent docs index](../index.md)
 - [Agent Teams](../agent-teams.md)
 - [Critical rules](../critical-rules.md)
@@ -24,7 +23,6 @@ discussions: []
 - [PHPStan Guide](../phpstan.md)
 - [Filament Guide](../filament.md)
 - [MCP Guide](../mcp.md)
-=======
 - [Agent docs index](../../../index.md)
 - [Agent Teams](../../agent-teams.md)
 - [Critical rules](../../critical-rules.md)
@@ -37,7 +35,6 @@ discussions: []
 - [PHPStan Guide](../../phpstan.md)
 - [Filament Guide](../../filament.md)
 - [MCP Guide](../../mcp.md)
->>>>>>> .merge_file_3DKR26
 
 ---
 title: "links"
@@ -48,8 +45,5 @@ updated: 2026-09-26
 qmd: "links"
 issues: []
 discussions: []
-<<<<<<< .merge_file_IKI5RH
 [Back to index](../index.md) | [Overview](project-overview.md) | [Guidelines](guidelines.md)
-=======
 [Back to index](../../../index.md) | [Overview](project-overview.md) | [Guidelines](guidelines.md)
->>>>>>> .merge_file_3DKR26

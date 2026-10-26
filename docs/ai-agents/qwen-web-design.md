@@ -132,9 +132,6 @@ discussions: []
 
 - [Indice QWEN](./qwen-split-index.md)
 - [website-checklist.md](./website-checklist.md) - Checklist completa
-<<<<<<< .merge_file_QAdeXC
 - [QWEN.md originale](../../QWEN.md)
-=======
 - [QWEN.md originale](../QWEN.md)
->>>>>>> .merge_file_3pcvqc
 - [Index principale](./index.md)

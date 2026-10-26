@@ -349,15 +349,12 @@ Amen.
 ## Riferimenti
 
 - [Laravel Localization - Pluralization](https://laravel.com/docs/localization#pluralization)
-<<<<<<< .merge_file_gXCiw7
 - [ticket.php (corretto)](../../Modules/Fixcity/lang/it/ticket.php)
 - [Translation Namespace Religion](../../docs/translation-namespace-religion.md)
 - [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
-=======
 - [ticket.php (corretto)](../../Fixcity/lang/it/ticket.php)
 - [Translation Namespace Religion](translation-namespace-religion.md)
 - [No Hardcoded Language Religion](no-hardcoded-language-religion.md)
->>>>>>> .merge_file_xuW1Qq
 
 ---
 

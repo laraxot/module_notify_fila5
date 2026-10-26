@@ -169,11 +169,8 @@ Section::make('Informazioni Template')
 ## Collegamenti Correlati
 
 - [Documentazione Filament](https://filamentphp.com/docs)
-<<<<<<< .merge_file_mx5p5T
 - [Best Practices UI/UX](./BEST-PRACTICES.md)
-=======
 - [Best Practices UI/UX](./best-practices.md)
->>>>>>> .merge_file_oYPBWK
 - [Componenti Filament](./FILAMENT_COMPONENTS.md)
 
 ## Note Importanti

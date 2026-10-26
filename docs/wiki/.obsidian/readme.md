@@ -12,17 +12,14 @@ discussions:
   - "https://github.com/laraxot/module_notify_fila5/discussions/57"
 related:
   - ../README.md
-<<<<<<< .merge_file_WvnpMw
   - ../wiki/index.md
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
-=======
   - ../index.md
   - ../../notifications/readme.md
   - ../../integrations/readme.md
   - ../../templates/readme.md
->>>>>>> .merge_file_WRhoQT
 ---
 # Obsidian Setup Guide
 
@@ -196,12 +193,9 @@ LIMIT 10
 
 ## Related Documentation
 
-<<<<<<< .merge_file_WvnpMw
 - [LLM Wiki Integration Guide](../wiki/README.md)
 - [Agent Instructions](../wiki/AGENTS.md)
 - [Wiki Overview](../wiki/overview.md)
-=======
 - [LLM Wiki Integration Guide](../README.md)
 - [Agent Instructions](../AGENTS.md)
 - [Wiki Overview](../overview.md)
->>>>>>> .merge_file_WRhoQT

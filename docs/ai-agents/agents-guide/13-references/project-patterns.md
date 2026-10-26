@@ -49,8 +49,5 @@ updated: 2026-09-26
 qmd: "project patterns"
 issues: []
 discussions: []
-<<<<<<< .merge_file_Qz2jw9
 [Back to index](../index.md)
-=======
 [Back to index](../../../index.md)
->>>>>>> .merge_file_3Txe1s

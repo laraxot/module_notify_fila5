@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_QjM2je
-=======
 status: draft
->>>>>>> .merge_file_aY3jeK
 ---
 
 # implementation — Consolidated Documentation
@@ -35,11 +32,8 @@ Consolidated from **10** individual files.
 
 ## implementation-guide-1
 
-<<<<<<< .merge_file_QjM2je
 *Consolidated from: `implementation-guide.md`*
-=======
 *Consolidated from: `implementation-guide-gdpr-consent.md`*
->>>>>>> .merge_file_aY3jeK
 
 title: "Guida all'Implementazione dei Template Email"
 type: guide
@@ -50,19 +44,16 @@ qmd: "implementation-guide-1 guida all'implementazione dei template email"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QjM2je
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_aY3jeK
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1346,19 +1337,16 @@ updated: 2026-07-14
 qmd: "implementation_summary_2025-01-27.deprecated deprecated"
 status: deprecated
 related:
-<<<<<<< .merge_file_QjM2je
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_aY3jeK
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1370,11 +1358,7 @@ related:
 
 ## implementation-summary-1
 
-<<<<<<< .merge_file_QjM2je
 *Consolidated from: `implementation-summary.md`*
-=======
-*Consolidated from: `implementation-summary.md`*
->>>>>>> .merge_file_aY3jeK
 
 title: "IMPLEMENTATION_SUMMARY_2025-01-27"
 type: concept
@@ -1384,29 +1368,22 @@ updated: 2026-07-14
 qmd: "implementation_summary_2025-01-27 deprecated"
 status: deprecated
 related:
-<<<<<<< .merge_file_QjM2je
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_aY3jeK
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< .merge_file_QjM2je
 > Questo file è stato rinominato in [implementation-summary-1.md](implementation-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
-=======
-> Questo file è stato rinominato in [implementation-summary-1.md](implementation-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
->>>>>>> .merge_file_aY3jeK
 
 ---
 
@@ -1423,19 +1400,16 @@ qmd: "implementation-summary-2025-01-27.deprecated 🚀 implementation summary -
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QjM2je
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_aY3jeK
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1718,19 +1692,16 @@ qmd: "implementation-summary riepilogo implementazione design comuni"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QjM2je
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_aY3jeK
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2466,19 +2437,16 @@ qmd: "implementations-completed ✅ <nome progetto> - implementazioni completate
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QjM2je
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_aY3jeK
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

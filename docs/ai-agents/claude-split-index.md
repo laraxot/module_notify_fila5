@@ -25,11 +25,8 @@ discussions: []
 
 ## 🔗 Collegamento all'Originale
 
-<<<<<<< .merge_file_8XHK56
 - [CLAUDE.md originale](../../CLAUDE.md) - File completo (deprecated)
-=======
 - [CLAUDE.md originale](../CLAUDE.md) - File completo (deprecated)
->>>>>>> .merge_file_dM4Oyg
 - [Index principale](./index.md)
 
 ## Modifiche Migliorative

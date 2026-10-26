@@ -122,9 +122,6 @@ Prima di toccare **qualsiasi** codice, devi comprendere:
 
 - [Indice GEMINI](./gemini-split-index.md)
 - [memories.md](./memories.md)
-<<<<<<< .merge_file_PKGx7M
 - [GEMINI.md originale](../../GEMINI.md)
-=======
 - [GEMINI.md originale](../GEMINI.md)
->>>>>>> .merge_file_UgnRSu
 - [Index principale](./index.md)

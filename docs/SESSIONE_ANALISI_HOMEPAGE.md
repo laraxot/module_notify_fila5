@@ -199,15 +199,12 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
-<<<<<<< .merge_file_E5Y9tN
 - [Analisi Visiva](docs/screenshots/homepage/ANALISI_VISIVA.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md)
 - [Fix Plan](docs/screenshots/homepage/FIX_PLAN.md)
-=======
 - [Analisi Visiva](screenshots/homepage/ANALISI_VISIVA.md)
 - [Screenshot Analysis](screenshots/homepage/SCREENSHOT_ANALYSIS.md)
 - [Fix Plan](screenshots/homepage/FIX_PLAN.md)
->>>>>>> .merge_file_0j5N0i
 - [OpenViking Context](.openvikings/homepage_alignment_context.md)
 
 ### Link Esterni

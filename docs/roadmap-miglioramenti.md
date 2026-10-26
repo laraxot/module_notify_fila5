@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap miglioramenti"
 issues: []
 discussions: []
-<<<<<<< .merge_file_dG45CP
-=======
 status: draft
->>>>>>> .merge_file_vBJqWR
 ---
 
 # Roadmap — Notify, il modulo che parla con sei canali e con sé stesso 4533 volte
@@ -28,11 +25,8 @@ markdown in `docs/`**, contro 233 file PHP in `app/`. Un rapporto di quasi 20
 documenti per ogni file di codice. Questo non è un modulo ben documentato, è
 un modulo che ha smesso di distinguere fra scrivere e ricordare. Prova
 diretta, senza bisogno di aprirli: nella sola root di `docs/` convivono
-<<<<<<< .merge_file_dG45CP
 `00-index.md`, `00-index.md`, `00-index-2.md` e `00-INDEX.md` — quattro
-=======
 `00-index.md`, `00-index-documentation.md`, `00-index-2.md` e `00-INDEX.md` — quattro
->>>>>>> .merge_file_vBJqWR
 indici per un unico modulo, nessuno dei quattro probabilmente aggiornato
 dopo la nascita degli altri tre. E poi `absolute-completion.md` insieme ad
 `ABSOLUTE_COMPLETION_100.md`: un modulo che si certifica "completo al 100%"

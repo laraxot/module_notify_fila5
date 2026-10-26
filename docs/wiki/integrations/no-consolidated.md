@@ -63,11 +63,8 @@ title: No AI/tool scaffold directories in module tree
 
 # Perché queste cartelle non devono esistere qui
 
-<<<<<<< .merge_file_mtNb04
 Regola canonica: [module-theme-root-cleanup.md — Rule 5](../../../../docs/wiki/rules/module-theme-root-cleanup.md).
-=======
 Regola canonica: [module-theme-root-cleanup.md — Rule 5](../../../../../../docs/wiki/rules/module-theme-root-cleanup.md).
->>>>>>> .merge_file_FyAJ8c
 
 Rimosse in questo modulo: `_docs/`, `scripts/`, `bashscripts/`, `docs/archive|archived|legacy|workbench/`, `.circleci/`, `.claude-audit/`, `tests/.claude-audit/`, `_bmad-output/`, `test-results/`, `.devcontainer/`, `.kilocode/`, `.kiro/`, `.ralph/` (dove presenti) e aggiunte al `.gitignore` di questo modulo.
 
@@ -761,19 +758,16 @@ qmd: "notebooklm-installation-summary notebooklm skill - installation & integrat
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_mtNb04
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FyAJ8c
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1158,19 +1152,16 @@ qmd: "notebooklm-integration notebooklm integration"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_mtNb04
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FyAJ8c
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1493,19 +1484,16 @@ qmd: "notification-behavior-1 notification system behavior"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_mtNb04
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FyAJ8c
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1592,11 +1580,8 @@ public function via($notifiable)
 
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
-<<<<<<< .merge_file_mtNb04
 - [Notification Best Practices](best-practices.md)
-=======
 - [Notification Best Practices](../../best-practices.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -1684,11 +1669,8 @@ public function via($notifiable)
 
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
-<<<<<<< .merge_file_mtNb04
 - [Notification Best Practices](best-practices.md)
-=======
 - [Notification Best Practices](../../best-practices.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -1840,11 +1822,7 @@ After implementation, users can:
 
 ## notification-channels-implementation-1
 
-<<<<<<< .merge_file_mtNb04
 *Consolidated from: `notification-channels-implementation.md`*
-=======
-*Consolidated from: `notification-channels-implementation.md`*
->>>>>>> .merge_file_FyAJ8c
 
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
@@ -1996,13 +1974,10 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./ARCHITECTURE.md)
-<<<<<<< .merge_file_mtNb04
 - [Modelli di Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
-=======
 - [Modelli di Email](../../email_templates.md)
 - [Implementazione SMS](../../sms_implementation.md)
->>>>>>> .merge_file_FyAJ8c
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
 ---
@@ -2020,19 +1995,16 @@ qmd: "notification-channels-implementation-2 implementazione dei canali di notif
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_mtNb04
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FyAJ8c
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2190,22 +2162,16 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
-<<<<<<< .merge_file_mtNb04
 - [Modelli di Email](./email-templates.md)
-=======
 - [Modelli di Email](../../email-templates.md)
->>>>>>> .merge_file_FyAJ8c
 - [Implementazione SMS](./sms-implementation.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
-<<<<<<< .merge_file_mtNb04
 - [Modelli di Email](./email-templates.md)
 - [Implementazione SMS](./sms-implementation.md)
-=======
 - [Modelli di Email](../../email-templates.md)
 - [Implementazione SMS](../../sms-implementation.md)
->>>>>>> .merge_file_FyAJ8c
 - [Risoluzione dei Problemi](./troubleshooting.md)
 ---
 
@@ -2365,13 +2331,10 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
-<<<<<<< .merge_file_mtNb04
 - [Modelli di Email](./email_templates.md)
 - [Implementazione SMS](./sms_implementation.md)
-=======
 - [Modelli di Email](../../email_templates.md)
 - [Implementazione SMS](../../sms_implementation.md)
->>>>>>> .merge_file_FyAJ8c
 - [Risoluzione dei Problemi](./troubleshooting.md)
 
 
@@ -2390,19 +2353,16 @@ qmd: "notification-errors-1 errori comuni nelle notifiche"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_mtNb04
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FyAJ8c
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2785,11 +2745,8 @@ Customer List -> Bulk Action -> Modal (Select Template + Channels) -> Submit -> 
     - **Delegation**: Now delegates the per-record logic to `SendRecordNotificationAction`.
     - **Reasoning**: Applies DRY and KISS. The logic to send to *one* record exists in `SendRecordNotificationAction`. The Bulk action should only care about iteration and result aggregation, not the sending implementation details.
 
-<<<<<<< .merge_file_mtNb04
 Vedi: [DRY Composition Pattern](./dry-composition-pattern.md)
-=======
 Vedi: [DRY Composition Pattern](../../dry-composition-pattern.md)
->>>>>>> .merge_file_FyAJ8c
 
 ### Estrazione Attributi Contatti (DRY Pattern)
 
@@ -2800,11 +2757,8 @@ Vedi: [DRY Composition Pattern](../../dry-composition-pattern.md)
     - **Pattern**: Metodo generico con validator opzionale per validazione custom (es. email validation)
     - **Reasoning**: DRY + KISS. Logica di estrazione centralizzata in un metodo, wrapper mantengono semantica chiara.
 
-<<<<<<< .merge_file_mtNb04
 Vedi: [Contact Extraction Pattern](./contact-extraction-pattern.md)
-=======
 Vedi: [Contact Extraction Pattern](../../contact-extraction-pattern.md)
->>>>>>> .merge_file_FyAJ8c
 
 ### Dependency Resolution (Runtime Service Resolution)
 
@@ -2812,22 +2766,15 @@ Vedi: [Contact Extraction Pattern](../../contact-extraction-pattern.md)
     - **Reasoning**: Spatie Queueable Actions are serialized when queued. Constructor dependencies can cause serialization issues or unnecessary overhead. Using `app()` inside methods ensures lazy loading and cleaner serialization.
     - **Philosophy**: Keep Actions simple, stateless, and serialization-friendly.
 
-<<<<<<< .merge_file_mtNb04
 Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
-=======
 Vedi: [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md)
->>>>>>> .merge_file_FyAJ8c
 
 
 ---
 
 ## notification-providers-guide-1
 
-<<<<<<< .merge_file_mtNb04
 *Consolidated from: `notification-providers-guide.md`*
-=======
-*Consolidated from: `notification-providers-guide.md`*
->>>>>>> .merge_file_FyAJ8c
 
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
@@ -2961,15 +2908,12 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-<<<<<<< .merge_file_mtNb04
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
 - [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
-=======
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
 - [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -2986,19 +2930,16 @@ qmd: "notification-providers-guide-2 guida completa ai provider di notifiche"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_mtNb04
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FyAJ8c
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3137,21 +3078,18 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-<<<<<<< .merge_file_mtNb04
 - [PROVIDER_ACTIONS_architecture.md](./provider-actions-architecture.md)
 - [SMS_ACTIONS_PATTERN.md](./sms-actions-pattern.md)
 - [WHATSAPP_PROVIDER_architecture.md](./whatsapp-provider-architecture.md)
 - [PROVIDER_ACTIONS_architecture.md](./provider-actions-architecture.md)
 - [SMS_ACTIONS_PATTERN.md](./sms-actions-pattern.md)
 - [WHATSAPP_PROVIDER_architecture.md](./whatsapp-provider-architecture.md)
-=======
 - [PROVIDER_ACTIONS_architecture.md](../../provider-actions-architecture.md)
 - [SMS_ACTIONS_PATTERN.md](../../sms-actions-pattern.md)
 - [WHATSAPP_PROVIDER_architecture.md](../../whatsapp-provider-architecture.md)
 - [PROVIDER_ACTIONS_architecture.md](../../provider-actions-architecture.md)
 - [SMS_ACTIONS_PATTERN.md](../../sms-actions-pattern.md)
 - [WHATSAPP_PROVIDER_architecture.md](../../whatsapp-provider-architecture.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -3292,15 +3230,12 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-<<<<<<< .merge_file_mtNb04
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
 - [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
-=======
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
 - [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -3441,15 +3376,12 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-<<<<<<< .merge_file_mtNb04
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./provider_actions_architecture.md)
 - [SMS_ACTIONS_PATTERN.md](./sms_actions_pattern.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./whatsapp_provider_architecture.md)
-=======
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
 - [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -3544,11 +3476,8 @@ public function via($notifiable)
 
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
-<<<<<<< .merge_file_mtNb04
 - [Notification Best Practices](best-practices.md)
-=======
 - [Notification Best Practices](../../best-practices.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -3713,13 +3642,10 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./ARCHITECTURE.md)
-<<<<<<< .merge_file_mtNb04
 - [Modelli di Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
-=======
 - [Modelli di Email](../../email_templates.md)
 - [Implementazione SMS](../../sms_implementation.md)
->>>>>>> .merge_file_FyAJ8c
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
 
@@ -4039,15 +3965,12 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-<<<<<<< .merge_file_mtNb04
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
 - [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
-=======
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
 - [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -4190,11 +4113,8 @@ return [
 
 ## Collegamenti
 - [Documentazione API](./api.md)
-<<<<<<< .merge_file_mtNb04
 - [Template Email](./templates.md)
-=======
 - [Template Email](../../templates.md)
->>>>>>> .merge_file_FyAJ8c
 - [Guida Contribuzione](./contributing.md)
 
 ## Note
@@ -4474,11 +4394,7 @@ La sistemazione del file `send_email.php` ha risolto problemi critici e implemen
 
 ## notify-translation-guide-1
 
-<<<<<<< .merge_file_mtNb04
 *Consolidated from: `notify-translation-guide.md`*
-=======
-*Consolidated from: `notify-translation-guide.md`*
->>>>>>> .merge_file_FyAJ8c
 
 
 ## Introduzione
@@ -4650,19 +4566,16 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_mtNb04
 - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
-=======
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Standard per le Traduzioni ](../../translation_standards.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -4679,19 +4592,16 @@ qmd: "notify-translation-guide-2 guida alle traduzioni nel modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_mtNb04
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_FyAJ8c
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -4870,24 +4780,17 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
-<<<<<<< .merge_file_mtNb04
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules.md)
-=======
-- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules.md)
->>>>>>> .merge_file_FyAJ8c
 - [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
 - [Standard per le Traduzioni ](./translation-standards.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
-<<<<<<< .merge_file_mtNb04
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./translation-standards.md)
-=======
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Standard per le Traduzioni ](../../translation-standards.md)
->>>>>>> .merge_file_FyAJ8c
 ---
 
 ## notify-translation-guide
@@ -5066,19 +4969,16 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_mtNb04
 - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
-=======
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Standard per le Traduzioni ](../../translation_standards.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -5258,19 +5158,16 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_mtNb04
 - [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
 - [Standard per le Traduzioni ](./translation_standards.md)
-=======
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation-keys-best-practices.md)
 - [Standard per le Traduzioni ](../../translation_standards.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 
@@ -5450,19 +5347,16 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_mtNb04
 - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
-=======
 - [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
 - [Standard per le Traduzioni ](../../translation_standards.md)
->>>>>>> .merge_file_FyAJ8c
 
 ---
 

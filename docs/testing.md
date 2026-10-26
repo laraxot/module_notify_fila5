@@ -71,13 +71,10 @@ Ogni modulo può avere il proprio `Pest.php` con:
 - Helper functions
 - Custom expectations
 
-<<<<<<< .merge_file_OnICM6
-=======
 In Notify `tests/Pest.php` contiene solo il bind `pest()->extend(TestCase::class)->in('Feature', 'Unit')`. Gli helper di test non sono funzioni globali (nella run full-suite Pest carica il `Pest.php` di ogni modulo nello stesso processo: due funzioni con lo stesso nome sono un fatal `cannot redeclare`) ma metodi statici:
 - `Modules\Notify\Tests\TestCase`: `assertNotifyArray`, `notifyArrayGet`, `notifyReflectionSource`, `notifyReflectionPropertyNames`
 - `Modules\Xot\Tests\XotBasePest` (condiviso, per autoload): `assertFreshModel`, `assertFirstModel`, `assertTableHas`, `assertArray`, `assertString`, `assertReflectionTypeName`
 
->>>>>>> .merge_file_WyZrue
 ## Comandi Importanti
 
 ### PHPStan
@@ -397,11 +394,8 @@ protected function createApplication()
 
 - [Testing Setup Guide](../../docs/testing-setup.md)
 - [Testing Best Practices](../../docs/testing-best-practices.md)
-<<<<<<< .merge_file_OnICM6
 - [Troubleshooting Guide](../../docs/troubleshooting.md)
-=======
 - [Troubleshooting Guide](troubleshooting.md)
->>>>>>> .merge_file_WyZrue
 
 ## Testing Examples
 

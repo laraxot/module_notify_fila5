@@ -8,7 +8,6 @@ qmd: "documentation-improvement-plan-multi-agent documentation improvement plan 
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_KFQyhU
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -17,7 +16,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -27,7 +25,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
->>>>>>> .merge_file_Zdgx85
 ---
 
 # Documentation Improvement Plan - Multi-Agent Edition
@@ -172,11 +169,8 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 - [ ] `docs/project_docs/status/HISTORICAL_COMPLETION_REPORTS.md` (archive index)
 
 **Archive** (move to `docs/archive/completion-reports/`):
-<<<<<<< .merge_file_KFQyhU
 - [ ] `absolute-completion.md`
-=======
 - [ ] `absolute-completion-completamento-assoluto.md`
->>>>>>> .merge_file_Zdgx85
 - [ ] `perfection-achieved.md`
 - [ ] `project-completion-report.md`
 - [ ] `project-completion-status.md`

@@ -562,11 +562,8 @@ git push origin hotfix/xotbasepivot-fix
 
 - [XotBasePivot Analysis](../Modules/Xot/docs/architecture/xotbasepivot-analysis.md)
 - [XotBaseModel Implementation](../Modules/Xot/docs/architecture/xotbasemodel.md)
-<<<<<<< .merge_file_JTnqQz
 - [Project Architecture](./project-architecture.md)
-=======
 - [Project Architecture](../ai-agents/split/claude/project-architecture.md)
->>>>>>> .merge_file_CsPILW
 - [Laravel Pivot Documentation](https://laravel.com/docs/11.x/eloquent-relationships#defining-custom-intermediate-table-models)
 
 ### Tools

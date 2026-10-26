@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "optimization recommendations"
 issues: []
 discussions: []
-<<<<<<< .merge_file_mOpOaL
-=======
 status: draft
->>>>>>> .merge_file_fvJ79F
 ---
 
 # Raccomandazioni di Ottimizzazione - Modulo Notify
@@ -28,11 +25,8 @@ status: draft
 
 #### 2. Documentazione Frammentata
 - **150+ file** di documentazione non organizzati
-<<<<<<< .merge_file_mOpOaL
 - **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a -8.md)
-=======
 - **Duplicazioni** multiple (analysis-dettagliata-architettura-struttura.md fino a appunti-filters.md)
->>>>>>> .merge_file_fvJ79F
 - **File obsoleti** non rimossi
 - **Naming inconsistente** (alcuni file con maiuscole)
 

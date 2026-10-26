@@ -74,10 +74,16 @@ describe('MailTemplate Business Logic', function (): void {
             {
                 return $this;
             }
+
+            public function getSlug(): string
+            {
+                return 'business-logic-mailable';
+            }
         };
         $query = MailTemplate::forMailable($mailable);
 
         Assert::assertInstanceOf(Builder::class, $query);
+        Assert::assertStringContainsString('slug', $query->toSql());
     });
 
     test('mail template has creator and updater tracking', function (): void {

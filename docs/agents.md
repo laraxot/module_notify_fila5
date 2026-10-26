@@ -62,15 +62,12 @@ docs/
 
 ### Riferimenti
 
-<<<<<<< .merge_file_wOsQrR
 - [Schema Wiki](./docs/.schema/WIKI_SCHEMA.md) - Istruzioni per l'LLM
 - [Index Globale](./docs/wiki/index.md) - Catalogo di tutte le wiki
 - [Log](./docs/log.md) - Cronologia delle operazioni
-=======
 - [Schema Wiki](.schema/WIKI_SCHEMA.md) - Istruzioni per l'LLM
 - [Index Globale](./wiki/index.md) - Catalogo di tutte le wiki
 - [Log](./log.md) - Cronologia delle operazioni
->>>>>>> .merge_file_ONU34e
 
 ### Workflow
 
@@ -174,15 +171,12 @@ docs/
 
 ### Riferimenti
 
-<<<<<<< .merge_file_wOsQrR
 - [Schema Wiki](./docs/.schema/wiki-schema.md) - Istruzioni per l'LLM
 - [Index Globale](./docs/wiki/index.md) - Catalogo di tutte le wiki
 - [Log](./docs/log.md) - Cronologia delle operazioni
-=======
 - [Schema Wiki](.schema/wiki-schema.md) - Istruzioni per l'LLM
 - [Index Globale](./wiki/index.md) - Catalogo di tutte le wiki
 - [Log](./log.md) - Cronologia delle operazioni
->>>>>>> .merge_file_ONU34e
 
 ### Workflow
 

@@ -186,13 +186,10 @@ ssh-keygen -t ed25519 -C "actions@github.com"
 
 ### Documentation
 - [GitHub Action Setup Guide](github-action-setup-required.md)
-<<<<<<< .merge_file_TWA1VV
 - [AI Lessons Learned](ai-agent-lessons-learned.md)
 - [Critical AI Rules](docs/ai-rules-critical.md)
-=======
 - [AI Lessons Learned](../project/ai-agent-lessons-learned.md)
 - [Critical AI Rules](../ai-rules-critical.md)
->>>>>>> .merge_file_Q3RG3Z
 - [Sync Subtrees Docs](bashscripts/docs/github/actions/sync-subtrees.md)
 
 ### GitHub Links

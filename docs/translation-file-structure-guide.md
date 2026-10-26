@@ -159,10 +159,7 @@ return [
 ```
 
 ## Riferimenti
-<<<<<<< .merge_file_YXmglg
 - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
 - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-=======
 - [Regole di Naming per i File di Traduzione](./translation_file_naming_rules.md)
 - [Regole Generali per le Traduzioni](../../Lang/docs/translation_keys_rules.md)
->>>>>>> .merge_file_zwyvx0

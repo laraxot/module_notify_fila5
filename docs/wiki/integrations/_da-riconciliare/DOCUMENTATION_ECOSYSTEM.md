@@ -259,11 +259,8 @@ Xot (Core) ◄──────────────────────
 
 | I Need... | Start Here | Then Go To | Then Go To |
 |-----------|-----------|-----------|-----------|
-<<<<<<< .merge_file_TGTEfC
 | Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](ARCHITECTURE-DIAGRAMS.md) | Your task |
-=======
 | Quick start | [Copilot Inst.](../../../../.github/copilot-instructions.md) | [Architecture](ARCHITECTURE-DIAGRAMS.md) | Your task |
->>>>>>> .merge_file_iBoPQJ
 | Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-index.md` | Details |
 | Theme overview | [Theme Index](THEMES_DOCUMENTATION_INDEX.md) | `Themes/{Name}/docs/00-index.md` | Details |
 | Create content | [Cms Docs](../laravel/Modules/Cms/docs/) | [Block Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md) | Examples |
@@ -272,11 +269,8 @@ Xot (Core) ◄──────────────────────
 | Handle files | [Media Docs](../laravel/Modules/Media/docs/) | [File Upload](../laravel/Modules/Media/docs/guides/) | Examples |
 | Send notifications | [Notify Docs](../laravel/Modules/Notify/docs/) | [Channels](../laravel/Modules/Notify/docs/guides/) | Examples |
 | Track changes | [Activity Docs](../laravel/Modules/Activity/docs/) | [Audit Trail](../laravel/Modules/Activity/docs/guides/) | Examples |
-<<<<<<< .merge_file_TGTEfC
 | Code standards | [CLAUDE.md](../laravel/CLAUDE.md) | [Copilot Inst.](../../.github/copilot-instructions.md) | Review |
-=======
 | Code standards | [CLAUDE.md](../laravel/CLAUDE.md) | [Copilot Inst.](../../../../.github/copilot-instructions.md) | Review |
->>>>>>> .merge_file_iBoPQJ
 | Architecture | [Architecture](ARCHITECTURE-DIAGRAMS.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
 
 ---
@@ -442,11 +436,8 @@ laravel/Themes/
 - **Theme Development** → [THEMES_DOCUMENTATION_INDEX.md](THEMES_DOCUMENTATION_INDEX.md)
 - **Code Quality** → [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules** → [laravel/CLAUDE.md](../laravel/CLAUDE.md)
-<<<<<<< .merge_file_TGTEfC
 - **Copilot Usage** → [.github/copilot-instructions.md](../../.github/copilot-instructions.md)
-=======
 - **Copilot Usage** → [.github/copilot-instructions.md](../../../../.github/copilot-instructions.md)
->>>>>>> .merge_file_iBoPQJ
 - **Design Comuni** → Search for `DESIGN_COMUNI_` files
 
 ### By Use Case
@@ -546,11 +537,8 @@ Connected Via:
 
 ### For Developers
 
-<<<<<<< .merge_file_TGTEfC
 1. Start: [Copilot Instructions](../../.github/copilot-instructions.md)
-=======
 1. Start: [Copilot Instructions](../../../../.github/copilot-instructions.md)
->>>>>>> .merge_file_iBoPQJ
 2. Understand: [Architecture Diagrams](ARCHITECTURE-DIAGRAMS.md)
 3. Explore: [Module Index](MODULE_DOCS_INDEX.md) or [Theme Index](THEMES_DOCUMENTATION_INDEX.md)
 4. Deep Dive: Relevant module/theme 00-index.md
@@ -567,11 +555,8 @@ Connected Via:
 
 ### For New Project Members
 
-<<<<<<< .merge_file_TGTEfC
 1. Read: [Copilot Instructions](../../.github/copilot-instructions.md)
-=======
 1. Read: [Copilot Instructions](../../../../.github/copilot-instructions.md)
->>>>>>> .merge_file_iBoPQJ
 2. Watch: Architecture diagrams in this file
 3. Explore: Master indexes for your area
 4. Ask: Use GitHub discussions for questions
