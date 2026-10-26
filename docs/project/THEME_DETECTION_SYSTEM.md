@@ -405,11 +405,8 @@ new class extends Component {
 - → [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md) - Layout hierarchy
 - → [Page Component Architecture](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md) - Page component
 - → [Vite Build System](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build process
-<<<<<<< .merge_file_M1hp7V
 - → [Master Index](docs/MODULE_DOCS_INDEX.md) - Central navigation
-=======
 - → [Master Index](../MODULE_DOCS_INDEX.md) - Central navigation
->>>>>>> .merge_file_9aDF5j
 
 ### External Resources
 

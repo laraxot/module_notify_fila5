@@ -446,16 +446,12 @@ tests/Unit
 
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
-<<<<<<< .merge_file_VRtsuk
 * [structure.md](../../../Gdpr/docs/structure.md)
-=======
 * [structure.md](../../Gdpr/docs/structure.md)
->>>>>>> .merge_file_OzHX6U
 * [structure.md](../../../Notify/docs/structure.md)
 * [structure.md](../../../Xot/docs/structure.md)
 * [structure.md](../../../Xot/docs/base/structure.md)
 * [structure.md](../../../Xot/docs/config/structure.md)
-<<<<<<< .merge_file_VRtsuk
 * [structure.md](../../../User/docs/structure.md)
 * [structure.md](../../../UI/docs/structure.md)
 * [structure.md](../../../Lang/docs/structure.md)
@@ -466,7 +462,6 @@ tests/Unit
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
-=======
 * [structure.md](../../User/docs/structure.md)
 * [structure.md](../../../UI/docs/structure.md)
 * [structure.md](../../Lang/docs/structure.md)
@@ -477,6 +472,5 @@ tests/Unit
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../Cms/docs/themes/structure.md)
 * [structure.md](../../Cms/docs/components/structure.md)
->>>>>>> .merge_file_OzHX6U
 
 ---

@@ -68,7 +68,6 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 
 ## Risorse di Riferimento
 
-<<<<<<< .merge_file_IhO54H
 1. [Documentazione Laravel Translatable](../lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](../lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](../lang/docs/translatable/implementazione-nel-progetto.md)
@@ -77,7 +76,6 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 2. [Gestione Traduzioni Mancanti](modules/lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](modules/lang/docs/translatable/implementazione-nel-progetto.md)
 4. [Best Practices](modules/lang/docs/translatable/best-practices.md)
-=======
 1. [Documentazione Laravel Translatable](../../../Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](../../../Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](../../../Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -86,7 +84,6 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 2. [Gestione Traduzioni Mancanti](modules/lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](modules/lang/docs/translatable/implementazione-nel-progetto.md)
 4. [Best Practices](../best-practices.md)
->>>>>>> .merge_file_k9OGh6
 
 ## Timeline
 

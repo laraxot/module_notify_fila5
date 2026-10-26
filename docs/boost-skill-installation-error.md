@@ -8,7 +8,6 @@ qmd: "boost-skill-installation-error boost skill installation error analysis"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_bF9VQ2
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -17,7 +16,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -27,7 +25,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
->>>>>>> .merge_file_5stfDp
 ---
 
 # Boost Skill Installation Error Analysis

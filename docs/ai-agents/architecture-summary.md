@@ -59,10 +59,7 @@ updated: 2026-09-26
 qmd: "architecture summary"
 issues: []
 discussions: []
-<<<<<<< .merge_file_2yTP33
 [Return to Documentation Index](../../AGENTS.md)
 [Return to Documentation Index](../../agents.md)
-=======
 [Return to Documentation Index](../AGENTS.md)
 [Return to Documentation Index](../agents.md)
->>>>>>> .merge_file_TQi7g6

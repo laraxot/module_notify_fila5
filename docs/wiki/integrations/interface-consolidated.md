@@ -34,22 +34,16 @@ Consolidated from **13** individual files.
 
 ## interface-naming-convention-1
 
-<<<<<<< .merge_file_DTjZWF
 *Consolidated from: `interface-naming-convention.md`*
-=======
 *Consolidated from: `interface-naming-convention-deprecated.md`*
->>>>>>> .merge_file_yISbaF
 
 
 This file is deprecated.
 
 Use:
 
-<<<<<<< .merge_file_DTjZWF
 - [interface-naming-convention](./interface-naming-convention.md)
-=======
 - [interface-naming-convention](../../interface-naming-convention.md)
->>>>>>> .merge_file_yISbaF
 
 ---
 
@@ -66,19 +60,16 @@ qmd: "interface-naming-convention-2 convenzione di naming per le interfacce"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_DTjZWF
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_yISbaF
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -214,19 +205,16 @@ grep -r "interface.*Contract" --include="*.php" Modules
 ## Riferimenti
 
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
-<<<<<<< .merge_file_DTjZWF
 - [PTVX Code Quality Guidelines](laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
 - [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
-=======
 - [PTVX Code Quality Guidelines](../../ai-agents/code-quality.md)
 - [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
 - [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
->>>>>>> .merge_file_yISbaF
 - [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
 # Convenzione di Naming per le Interfacce
 
@@ -287,7 +275,6 @@ grep -r "interface.*Contract" --include="*.php" Modules
 ## Riferimenti
 
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
-<<<<<<< .merge_file_DTjZWF
 - [PTVX Code Quality Guidelines](laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
@@ -306,7 +293,6 @@ grep -r "interface.*Contract" --include="*.php" Modules
 - [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
 - [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](project_docs/code-quality.md)
-=======
 - [PTVX Code Quality Guidelines](../../ai-agents/code-quality.md)
 - [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
@@ -325,17 +311,12 @@ grep -r "interface.*Contract" --include="*.php" Modules
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
 - [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
->>>>>>> .merge_file_yISbaF
 
 ---
 
 ## interface-structure-clarification-1
 
-<<<<<<< .merge_file_DTjZWF
 *Consolidated from: `interface-structure-clarification.md`*
-=======
-*Consolidated from: `interface-structure-clarification.md`*
->>>>>>> .merge_file_yISbaF
 
 
 ## Struttura Corretta per le Interfacce SMS
@@ -408,19 +389,16 @@ qmd: "interface-structure-clarification-2 chiarimento sulla struttura delle inte
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_DTjZWF
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_yISbaF
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -679,15 +657,12 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
 - [PTVX Code Quality Guidelines](/var/www/html/_bases/base_ptvx_fila5/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_ptvx_fila5/laravel/Modules/Xot/app/Contracts/)
-<<<<<<< .merge_file_DTjZWF
 - [<nome progetto> Code Quality Guidelines]([project-root]/laravel/docs/code-quality.md)
 - [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
 - [<nome progetto> Code Quality Guidelines]([project-root]/laravel/project_docs/code-quality.md)
-=======
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
 - [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
->>>>>>> .merge_file_yISbaF
 - [Modulo Xot Contracts]([project-root]/laravel/Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](/var/www/_bases/<nome repository>/laravel/docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
 - [<nome progetto> Code Quality Guidelines](/var/www/_bases/<nome repository>/laravel/project_docs/code-quality.md)
@@ -767,11 +742,7 @@ if (!($instance instanceof SmsActionContract)) {
 
 ## interfaces-implementation-guide-1
 
-<<<<<<< .merge_file_DTjZWF
 *Consolidated from: `interfaces-implementation-guide.md`*
-=======
-*Consolidated from: `interfaces-implementation-guide.md`*
->>>>>>> .merge_file_yISbaF
 
 
 ## Struttura delle Interfacce
@@ -867,15 +838,12 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_DTjZWF
 - [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
 - [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
 - [Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
-=======
 - [Convenzioni di Naming per le Interfacce](../../interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](../../interface_structure_clarification.md)
 - [Architettura dei Contratti](../../contracts_architecture.md)
->>>>>>> .merge_file_yISbaF
 
 ---
 
@@ -892,19 +860,16 @@ qmd: "interfaces-implementation-guide-2 guida all'implementazione delle interfac
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_DTjZWF
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_yISbaF
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1005,21 +970,18 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_DTjZWF
 - [Convenzioni di Naming per le Interfacce](./interface-naming-convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](./interface-structure-clarification.md)
 - [Architettura dei Contratti](./contracts-architecture.md)
 - [Convenzioni di Naming per le Interfacce](./interface-naming-convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](./interface-structure-clarification.md)
 - [Architettura dei Contratti](./contracts-architecture.md)
-=======
 - [Convenzioni di Naming per le Interfacce](../../interface-naming-convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](./interface-structure-clarification.md)
 - [Architettura dei Contratti](../../contracts-architecture.md)
 - [Convenzioni di Naming per le Interfacce](../../interface-naming-convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](./interface-structure-clarification.md)
 - [Architettura dei Contratti](../../contracts-architecture.md)
->>>>>>> .merge_file_yISbaF
 ---
 
 ## interfaces-implementation-guide
@@ -1120,15 +1082,12 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_DTjZWF
 - [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
 - [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
 - [Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
-=======
 - [Convenzioni di Naming per le Interfacce](../../interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](../../interface_structure_clarification.md)
 - [Architettura dei Contratti](../../contracts_architecture.md)
->>>>>>> .merge_file_yISbaF
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce
@@ -1224,15 +1183,12 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_DTjZWF
 - [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
 - [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
 - [Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
-=======
 - [Convenzioni di Naming per le Interfacce](../../interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](../../interface_structure_clarification.md)
 - [Architettura dei Contratti](../../contracts_architecture.md)
->>>>>>> .merge_file_yISbaF
 
 ---
 
@@ -1334,15 +1290,12 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_DTjZWF
 - [Convenzioni di Naming per le Interfacce](./interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](./interface_structure_clarification.md)
 - [Architettura dei Contratti](./contracts_architecture.md)
-=======
 - [Convenzioni di Naming per le Interfacce](../../interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](../../interface_structure_clarification.md)
 - [Architettura dei Contratti](../../contracts_architecture.md)
->>>>>>> .merge_file_yISbaF
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce
@@ -1438,15 +1391,12 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_DTjZWF
 - [Convenzioni di Naming per le Interfacce](./interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](./interface_structure_clarification.md)
 - [Architettura dei Contratti](./contracts_architecture.md)
-=======
 - [Convenzioni di Naming per le Interfacce](../../interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](../../interface_structure_clarification.md)
 - [Architettura dei Contratti](../../contracts_architecture.md)
->>>>>>> .merge_file_yISbaF
 
 ---
 
@@ -1550,15 +1500,12 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## Collegamenti Correlati
 
-<<<<<<< .merge_file_DTjZWF
 - [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
 - [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
 - [Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
-=======
 - [Convenzioni di Naming per le Interfacce](../../interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](../../interface_structure_clarification.md)
 - [Architettura dei Contratti](../../contracts_architecture.md)
->>>>>>> .merge_file_yISbaF
 
 ---
 

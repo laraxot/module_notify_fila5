@@ -8,19 +8,16 @@ qmd: "ralph-loop-execution 🚀 ralph loop execution log - homepage bootstrap it
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_GT4qyY
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
->>>>>>> .merge_file_bqaBcw
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

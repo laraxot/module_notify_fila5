@@ -7,10 +7,7 @@ updated: 2026-10-23
 qmd: "filament ui enhancements"
 issues: []
 discussions: []
-<<<<<<< .merge_file_AiizO6
-=======
 status: draft
->>>>>>> .merge_file_hjjUOK
 ---
 
 # Miglioramenti UI/UX per MailTemplateResource

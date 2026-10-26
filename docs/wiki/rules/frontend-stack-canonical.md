@@ -23,16 +23,13 @@ Notifiche e UI Filament Notify: stack admin **Filament v5**. FO email/template s
 ## SSoT
 
 - [Themes/Sixteen/docs/wiki/rules/frontend-stack-canonical.md](../../../../../Themes/Sixteen/docs/wiki/rules/frontend-stack-canonical.md)
-<<<<<<< .merge_file_f6UUS0
 - [docs/wiki/rules/frontend-stack-canonical.md](../../../../../docs/wiki/rules/frontend-stack-canonical.md)
 
 ## Story
 
 [STORY-133](../../../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md)
-=======
 - [docs/wiki/rules/frontend-stack-canonical.md](../../../../../../docs/wiki/rules/frontend-stack-canonical.md)
 
 ## Story
 
 [STORY-133](../../../../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md)
->>>>>>> .merge_file_ETsJQw

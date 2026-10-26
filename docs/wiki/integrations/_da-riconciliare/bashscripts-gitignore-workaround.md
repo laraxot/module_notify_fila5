@@ -8,19 +8,16 @@ qmd: "bashscripts-gitignore-workaround 🚨 critical: bashscripts/ in .gitignore
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_2rtEco
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
->>>>>>> .merge_file_V2MIJi
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -173,11 +170,8 @@ gh run list --repo laraxot/<nome repitory>
 
 ## 📚 Related Documentation
 
-<<<<<<< .merge_file_2rtEco
 - [Multi-Agent Collaboration Guide](multi-agent-collaboration-guide.md)
-=======
 - [Multi-Agent Collaboration Guide](../../../multi-agent-collaboration-guide.md)
->>>>>>> .merge_file_V2MIJi
 - [GitHub Sync Rule](github-sync-rule.md)
 - [AI Rules](../.qwen/ai-rules-critical.md)
 

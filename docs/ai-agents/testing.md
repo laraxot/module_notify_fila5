@@ -60,13 +60,10 @@ it('creates user successfully', function () {
 ## 🔗 Link
 
 **Di ritorno:**
-<<<<<<< .merge_file_JKEXU4
 - → [AGENTS.md - Testing Patterns](../../AGENTS.md#testing-patterns)
 - → [agents.md - Testing Patterns](../../agents.md#testing-patterns)
-=======
 - → [AGENTS.md - Testing Patterns](../AGENTS.md#testing-patterns)
 - → [agents.md - Testing Patterns](../agents.md#testing-patterns)
->>>>>>> .merge_file_yO21TD
 - → [AGENT_MEMORY.md - Testing Patterns](../../AGENT_MEMORY.md#-testing-validation-patterns)
 - → [commands.md](commands.md)
 - → [INDEX](index.md)

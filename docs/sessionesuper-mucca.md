@@ -50,21 +50,15 @@ discussions: []
    - ✅ Rollback plan
    - ✅ Success metrics e KPI
 
-<<<<<<< .merge_file_NFZper
 3. **[User Module Migration](../Modules/User/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
-=======
 3. **[User Module Migration](../../User/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
->>>>>>> .merge_file_6ta99q
    - ✅ 7 Pivot concreti da aggiornare
    - ✅ Permission system, Teams, Devices
    - ✅ Testing specifico per User module
    - ✅ Priorità: 🔴 ALTA
 
-<<<<<<< .merge_file_NFZper
 4. **[Blog Module Migration](../Modules/Blog/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
-=======
 4. **[Blog Module Migration](../../Blog/docs/models/xotbasepivot-migration.md)** (2.500+ parole)
->>>>>>> .merge_file_6ta99q
    - ✅ 3 Pivot concreti da aggiornare
    - ✅ ⚠️ Caso speciale: SoftDeletes
    - ✅ Pattern a 3 livelli spiegato
@@ -329,11 +323,7 @@ public function getConnectionName(): ?string
 4. `Modules/Blog/docs/models/xotbasepivot-migration.md` (2.500+ parole)
 5. `docs/architecture/README.md` (1.500+ parole)
 6. `docs/XotBasePivot-Executive-Summary.md` (2.000+ parole)
-<<<<<<< .merge_file_NFZper
 7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
-=======
-7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
->>>>>>> .merge_file_6ta99q
 
 **Totale:** ~20.000 parole di documentazione professionale
 

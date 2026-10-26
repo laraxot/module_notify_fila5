@@ -45,31 +45,25 @@ discussions: []
 | [accessor-auto-persistence.md](./accessor-auto-persistence.md) | Pattern SACRO Accessor con Auto-Persistenza |
 | [ai-agents/index.md](./ai-agents/index.md) | Master index regole condivise Claude/Gemini/Qwen |
 | [ai-agents/shared/accessor-mutator.md](./ai-agents/shared/accessor-mutator.md) | Pattern Accessor/Mutator — Livelli 1–4, auto-persistenza |
-<<<<<<< .merge_file_h695LW
 | [ai-agents/shared/critical-rules.md](./ai-agents/shared/critical-rules.md) | PHPStan L10, array syntax, DI, MCP |
-=======
 | [ai-agents/shared/critical-rules.md](./critical-rules.md) | PHPStan L10, array syntax, DI, MCP |
->>>>>>> .merge_file_nONlz9
 | [ai-agents/shared/translation-rules.md](./ai-agents/shared/translation-rules.md) | Struttura obbligatoria 5 chiavi per campo |
 
 ## Riferimenti bidirezionali
 
 - [Architecture index](./architecture/00-INDEX.md)
 - [Agents overview](./agents-overview.md)
-<<<<<<< .merge_file_h695LW
 - [AGENTS.md](../../../AGENTS.md)
 - [CLAUDE.md](../../../CLAUDE.md)
 - [GEMINI.md](../../../GEMINI.md)
 - [QWEN.md](../../../QWEN.md)
 - [Predict docs index](../../../laravel/Modules/Predict/docs/00-INDEX.md)
 - [TwentyOne docs index](../../../laravel/Themes/TwentyOne/docs/00-INDEX.md)
-=======
 - [AGENTS.md](../../../../AGENTS.md)
 - [CLAUDE.md](../../../../CLAUDE.md)
 - [GEMINI.md](../../../../GEMINI.md)
 - [QWEN.md](../../../QWEN.md)
 - [Predict docs index](../../../laravel/Modules/Predict/docs/00-INDEX.md)
 - [TwentyOne docs index](../../../../Themes/TwentyOne/docs/00-INDEX.md)
->>>>>>> .merge_file_nONlz9
 - [Frontend rules index](../rules/frontend/00-INDEX.md)
 - [Semantic CSS Rule](../rules/frontend/semantic-css-rule.md)

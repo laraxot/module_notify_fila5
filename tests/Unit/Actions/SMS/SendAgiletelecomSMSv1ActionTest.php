@@ -75,10 +75,8 @@ describe('SendAgiletelecomSMSv1Action', function () {
         expect($content)->toContain('use Modules\\Notify\\Datas\\SMS\\AgiletelecomData;');
     });
 
-    it('does not use QueueableAction trait', function () {
+    it('uses QueueableAction trait', function () {
         $traits = \Safe\class_uses(new SendAgiletelecomSMSv1Action);
-
-        expect($traits)->not->toContain('Spatie\\QueueableAction\\QueueableAction');
 
         expect($traits)->toContain('Spatie\\QueueableAction\\QueueableAction');
     });

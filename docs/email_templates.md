@@ -322,11 +322,8 @@ php artisan tinker
 
 ### **Documentazione Tecnica**
 - [Documentazione Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
-<<<<<<< .merge_file_yhDtii
 - [Gestione Traduzioni](../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-=======
 - [Gestione Traduzioni](../../Lang/docs/translation_keys_best_practices.md)
->>>>>>> .merge_file_H0I95m
 - [Configurazione Email](../../../docs/email-configuration.md)
 - [SaluteOra: Missing Mail Template Error](../../SaluteOra/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 - [Configurazione Email](../../../docs/email-configuration.md)- [SaluteOra: Missing Mail Template Error](../../SaluteOra/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
@@ -338,21 +335,18 @@ php artisan tinker
 - [Gestione Traduzioni](../Lang/project_docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Configurazione Email](../../../project_docs/email-configuration.md)
 - [Documentazione Traduzioni](./translations.md)
-<<<<<<< .merge_file_yhDtii
 - [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md)
 - [Notify Module Index](./index.md)
 - [Architecture Overview](./architecture.md)
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
-=======
 - [Proposta Slug Template](./email_template_slug_proposal.md)
 - [Notify Module Index](./index.md)
 - [Architecture Overview](./architecture.md)
 - [Notification Channels Implementation](./notification_channels_implementation.md)
 - [SMS Implementation](./sms_implementation.md)
 - [Troubleshooting](./troubleshooting.md)
->>>>>>> .merge_file_H0I95m
 
 ---
 

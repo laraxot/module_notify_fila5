@@ -9,19 +9,16 @@ updated: 2026-07-14
 qmd: "completamento-progetto-2025-10-01.deprecated deprecated"
 status: deprecated
 related:
-<<<<<<< .merge_file_AaC6Yt
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_bwvSwp
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

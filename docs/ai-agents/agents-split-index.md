@@ -30,13 +30,10 @@ discussions: []
 
 ## 🔗 Collegamento all'Originale
 
-<<<<<<< .merge_file_iV0Ou2
 - [AGENTS.md originale](../../AGENTS.md) - File completo (deprecato)
 - [agents.md originale](../../agents.md) - File completo (deprecato)
-=======
 - [AGENTS.md originale](../AGENTS.md) - File completo (deprecato)
 - [agents.md originale](../agents.md) - File completo (deprecato)
->>>>>>> .merge_file_oXqa9A
 - [Index principale](./index.md) - Torna all'indice
 
 ## 📝 Note

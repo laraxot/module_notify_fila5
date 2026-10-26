@@ -39,8 +39,5 @@ discussions: []
 ## Navigation
 
 - [../00-INDEX.md](../00-INDEX.md)
-<<<<<<< .merge_file_ssPSrZ
 - [../../../../AGENTS.md](../../../../AGENTS.md)
-=======
 - [../../../../AGENTS.md](../../../../../AGENTS.md)
->>>>>>> .merge_file_qqbPVZ

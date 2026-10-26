@@ -50,8 +50,5 @@ When file access is restricted:
 
 - [Claude docs index](./context.md)
 - [PHPStan workflow prompt](../../../tools/prompts/05-phpstan-patterns.md)
-<<<<<<< .merge_file_tZF4T3
 - [General docs](../../../../docs/index.md)
-=======
 - [General docs](../../../../../docs/index.md)
->>>>>>> .merge_file_0K1MXi

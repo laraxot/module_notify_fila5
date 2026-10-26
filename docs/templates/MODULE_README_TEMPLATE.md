@@ -175,11 +175,8 @@ composer test -- Modules/[ModuleName]
 - [Guides](./guides/) - How-to guides
 
 ### Related Modules
-<<<<<<< .merge_file_KIh70Y
 - [Xot Module](../xot/README.md) - Base classes
-=======
 - [Xot Module](../../../Xot/README.md) - Base classes
->>>>>>> .merge_file_5FC3o0
 
 ---
 

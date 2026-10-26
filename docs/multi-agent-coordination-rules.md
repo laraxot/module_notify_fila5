@@ -8,19 +8,16 @@ qmd: "multi-agent-coordination-rules 🤖 multi-agent ai coordination - critical
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_1FFCKh
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_rqtL15
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -272,17 +269,14 @@ git push origin dev
 
 ## 🔗 Resources
 
-<<<<<<< .merge_file_1FFCKh
 - [Multi-Agent Guide](docs/multi-agent-collaboration-guide.md)
 - [GitHub Sync Rule](docs/github-sync-rule.md)
 - [AI Rules](../.qwen/ai-rules-critical.md)
 - [AI Memory](../.qwen/AI_MEMORY.md)
-=======
 - [Multi-Agent Guide](multi-agent-collaboration-guide.md)
 - [GitHub Sync Rule](github-sync-rule.md)
 - [AI Rules](../.qwen/ai-rules-critical.md)
 - [AI Memory](../../../../.qwen/AI_MEMORY.md)
->>>>>>> .merge_file_rqtL15
 
 ---
 

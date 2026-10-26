@@ -41,10 +41,7 @@ discussions: []
 **Precedente:** [INDEX](INDEX.md) | **Successivo:** [Module Architecture](module-architecture.md)
 
 **Di ritorno:**
-<<<<<<< .merge_file_LCQgwt
 - [CLAUDE.md](../../CLAUDE.md)
 - [AGENTS.md](../../AGENTS.md)
-=======
 - [CLAUDE.md](../CLAUDE.md)
 - [AGENTS.md](../AGENTS.md)
->>>>>>> .merge_file_wIQVEU

@@ -52,19 +52,16 @@ qmd: "netfun-action-errors-1 errori in sendnetfunsmsaction e correzioni"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_pO0C8p
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_ct4wJn
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -468,11 +465,7 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 
 ## netfun-action-updates-1
 
-<<<<<<< .merge_file_pO0C8p
 *Consolidated from: `netfun-action-updates.md`*
-=======
-*Consolidated from: `netfun-action-updates.md`*
->>>>>>> .merge_file_ct4wJn
 
 
 ## Panoramica delle Modifiche
@@ -809,19 +802,16 @@ qmd: "netfun-action-updates-2 aggiornamenti a sendnetfunsmsaction"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_pO0C8p
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_ct4wJn
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1675,11 +1665,7 @@ Queste correzioni garantiscono che l'azione funzioni correttamente con la config
 
 ## netfun-channel-1
 
-<<<<<<< .merge_file_pO0C8p
 *Consolidated from: `netfun-channel.md`*
-=======
-*Consolidated from: `netfun-channel.md`*
->>>>>>> .merge_file_ct4wJn
 
 
 ## 1. Struttura Base
@@ -2381,19 +2367,16 @@ qmd: "netfun-channel-2 implementazione canale netfun"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_pO0C8p
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_ct4wJn
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3792,19 +3775,16 @@ qmd: "netfun-config-requirements-1 requisiti di configurazione per netfun sms"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_pO0C8p
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_ct4wJn
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3979,11 +3959,8 @@ Aggiungi la seguente sezione nel file `config/sms.php`:
 
 ## Introduzione
 
-<<<<<<< .merge_file_pO0C8p
 Questo documento descrive i requisiti di configurazione per l'integrazione con il provider SMS Netfun nel modulo Notify, seguendo la [struttura standardizzata della configurazione SMS](./standardized_sms_config_structure.md).
-=======
 Questo documento descrive i requisiti di configurazione per l'integrazione con il provider SMS Netfun nel modulo Notify, seguendo la [struttura standardizzata della configurazione SMS](../../standardized_sms_config_structure.md).
->>>>>>> .merge_file_ct4wJn
 
 ## Struttura di Configurazione
 
@@ -4052,13 +4029,10 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Documentazione Correlata
 
-<<<<<<< .merge_file_pO0C8p
 - [Struttura Standardizzata della Configurazione SMS](./standardized_sms_config_structure.md)
 - [Canale SMS Netfun](./sms_netfun_channel.md)
-=======
 - [Struttura Standardizzata della Configurazione SMS](../../standardized_sms_config_structure.md)
 - [Canale SMS Netfun](../../sms_netfun_channel.md)
->>>>>>> .merge_file_ct4wJn
 
 ## Supporto
 
@@ -4113,13 +4087,10 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Collegamenti
 
-<<<<<<< .merge_file_pO0C8p
 - [Documentazione Completa Netfun Channel](./sms_netfun_channel.md)
 - [Esempi di Utilizzo Netfun](./netfun_examples.md)
-=======
 - [Documentazione Completa Netfun Channel](../../sms_netfun_channel.md)
 - [Esempi di Utilizzo Netfun](../../netfun_examples.md)
->>>>>>> .merge_file_ct4wJn
 - [Risoluzione Conflitti Netfun](./netfunchannel_conflict_resolution.md)
 
 ---
@@ -4130,11 +4101,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## netfun-examples-1
 
-<<<<<<< .merge_file_pO0C8p
 *Consolidated from: `netfun-examples.md`*
-=======
-*Consolidated from: `netfun-examples.md`*
->>>>>>> .merge_file_ct4wJn
 
 
 ## 1. Invio SMS OTP
@@ -5077,19 +5044,16 @@ qmd: "netfun-examples-2 netfun examples"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_pO0C8p
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_ct4wJn
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -7935,11 +7899,8 @@ Aggiungi la seguente sezione nel file `config/sms.php`:
 
 ## Introduzione
 
-<<<<<<< .merge_file_pO0C8p
 Questo documento descrive i requisiti di configurazione per l'integrazione con il provider SMS Netfun nel modulo Notify, seguendo la [struttura standardizzata della configurazione SMS](./STANDARDIZED_SMS_CONFIG_STRUCTURE.md).
-=======
 Questo documento descrive i requisiti di configurazione per l'integrazione con il provider SMS Netfun nel modulo Notify, seguendo la [struttura standardizzata della configurazione SMS](../../standardized_sms_config_structure.md).
->>>>>>> .merge_file_ct4wJn
 
 ## Struttura di Configurazione
 
@@ -8008,13 +7969,10 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Documentazione Correlata
 
-<<<<<<< .merge_file_pO0C8p
 - [Struttura Standardizzata della Configurazione SMS](./STANDARDIZED_SMS_CONFIG_STRUCTURE.md)
 - [Canale SMS Netfun](./SMS_NETFUN_CHANNEL.md)
-=======
 - [Struttura Standardizzata della Configurazione SMS](../../standardized_sms_config_structure.md)
 - [Canale SMS Netfun](../../sms_netfun_channel.md)
->>>>>>> .merge_file_ct4wJn
 
 ## Supporto
 
@@ -8069,13 +8027,10 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Collegamenti
 
-<<<<<<< .merge_file_pO0C8p
 - [Documentazione Completa Netfun Channel](./SMS_NETFUN_CHANNEL.md)
 - [Esempi di Utilizzo Netfun](./NETFUN_EXAMPLES.md)
-=======
 - [Documentazione Completa Netfun Channel](../../sms_netfun_channel.md)
 - [Esempi di Utilizzo Netfun](../../netfun_examples.md)
->>>>>>> .merge_file_ct4wJn
 - [Risoluzione Conflitti Netfun](./netfunchannel_conflict_resolution.md)
 
 ---

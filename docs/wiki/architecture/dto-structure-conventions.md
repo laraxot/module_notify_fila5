@@ -13,15 +13,12 @@ discussions:
 related:
   - ../README.md
   - README.md
-<<<<<<< .merge_file_UmWkMr
   - ../conventions/README.md
   - ../rules/README.md
   - ../best-practices/naming-conventions.md
-=======
   - ../../conventions/README.md
   - ../../rules/README.md
   - ../../best-practices/naming-conventions.md
->>>>>>> .merge_file_WV99qu
 ---
 # Convenzioni per la Struttura dei DTO nel Modulo Notify
 

@@ -242,13 +242,10 @@ vendor/bin/pest --coverage
 ## 📖 Quick Links
 
 ### Getting Started
-<<<<<<< .merge_file_LNMkHY
 - [Coding Standards](../standards/agents-coding-standards.md)
 - [Module Architecture](../architecture/agents-module-architecture.md)
-=======
 - [Coding Standards](../agents-coding-standards.md)
 - [Module Architecture](../agents-module-architecture.md)
->>>>>>> .merge_file_nHreIN
 - [Quality Gate](../workflow/agents-quality-gate.md)
 
 ### Critical Rules

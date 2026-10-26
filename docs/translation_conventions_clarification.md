@@ -96,12 +96,9 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
-<<<<<<< .merge_file_Rd9PoY
 - [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-=======
 - [Convenzioni Generali di Traduzione](../../Lang/docs/translation_keys_rules.md)
 - [Convenzioni Specifiche del Modulo Notify](./translation_conventions.md)
 - [Regole per le Chiavi di Traduzione](../../Lang/docs/translation_keys_best_practices.md)
->>>>>>> .merge_file_R1PcLa

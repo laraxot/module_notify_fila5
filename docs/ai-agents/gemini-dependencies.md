@@ -78,9 +78,6 @@ composer run go
 
 - [Indice GEMINI](./gemini-split-index.md)
 - [packages-spatie.md](./packages-spatie.md)
-<<<<<<< .merge_file_z1andc
 - [GEMINI.md originale](../../GEMINI.md)
-=======
 - [GEMINI.md originale](../GEMINI.md)
->>>>>>> .merge_file_sqvHbM
 - [Index principale](./index.md)

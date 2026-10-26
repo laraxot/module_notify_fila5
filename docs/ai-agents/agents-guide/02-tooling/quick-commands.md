@@ -59,8 +59,5 @@ updated: 2026-09-26
 qmd: "quick commands"
 issues: []
 discussions: []
-<<<<<<< .merge_file_8By9vZ
 [Back to index](../index.md)
-=======
 [Back to index](../../../index.md)
->>>>>>> .merge_file_QHG1so

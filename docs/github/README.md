@@ -77,15 +77,12 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 - [ ] Xot
 
 #### References
-<<<<<<< .merge_file_fd121E
 - [Database Naming Convention](conventions/database-naming.md)
 - [AGENTS.md](../../AGENTS.md)
 - [agents.md](../../agents.md)
-=======
 - [Database Naming Convention](../conventions/database-naming.md)
 - [AGENTS.md](../AGENTS.md)
 - [agents.md](../agents.md)
->>>>>>> .merge_file_nmMuwk
 
 ---
 

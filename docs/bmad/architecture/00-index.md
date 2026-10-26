@@ -19,7 +19,6 @@ updated: 2026-10-06
 3. [philosophy.md](./philosophy.md) - "Essere Connessi": filosofia delle notifiche in tempo reale.
 
 ## 🏗️ **Architettura & Canali**
-<<<<<<< .merge_file_PJdmd1
 - 📧 **[Email System](./email-templates.md)** - Gestione template dinamici e stagionali (Spatie integration).
 - 💬 **[SMS & WhatsApp](./whatsapp-integration.md)** - Integrazione con NetFun e altri provider.
 - 🚀 **[Bulk Notifications](./send-notification-bulk-action.md)** - Azioni massive per migliaia di utenti.
@@ -31,7 +30,6 @@ updated: 2026-10-06
 - 🛠️ **[Channel Provider](./provider-actions-architecture.md)** - Come estendere il modulo con nuovi driver.
 - 🏷️ **[Acronym Naming](./acronym-naming-conventions.md)** - Standard per la denominazione dei driver e canali.
 - 🔄 **[Queue Management](./monitoring.md)** - Monitoraggio delle code e dei fallback.
-=======
 - 📧 **[Email System](../../email-templates.md)** - Gestione template dinamici e stagionali (Spatie integration).
 - 💬 **[SMS & WhatsApp](./whatsapp-integration.md)** - Integrazione con NetFun e altri provider.
 - 🚀 **[Bulk Notifications](./send-notification-bulk-action.md)** - Azioni massive per migliaia di utenti.
@@ -43,12 +41,10 @@ updated: 2026-10-06
 - 🛠️ **[Channel Provider](../../provider-actions-architecture.md)** - Come estendere il modulo con nuovi driver.
 - 🏷️ **[Acronym Naming](./acronym-naming-conventions.md)** - Standard per la denominazione dei driver e canali.
 - 🔄 **[Queue Management](../../monitoring.md)** - Monitoraggio delle code e dei fallback.
->>>>>>> .merge_file_klQb1e
 
 ## 🧪 **Qualità e Sviluppo**
 - ✅ **[PHPStan Analysis](./phpstan-fixes.md)** - Report di conformità Level 10.
 - 🚨 **[PHPStan Cluster 2026-03-10](./phpstan-cluster-2026-03-10.md)** - Modelli canonici mancanti per log/canali e impatto su factory/controller.
-<<<<<<< .merge_file_PJdmd1
 - 🧭 **[No Orphan Http Controllers](./no-orphan-http-controllers.md)** - I controller web senza route o boundary chiaro non devono restare nel modulo.
 - 🚫 **[No NotificationTrackingController](./no-notification-tracking-controller.md)** - Il tracking notifiche non deve vivere in un controller HTTP legacy.
 - 🔬 **[Testing Guidelines](./testing.md)** - Mocking dei canali e verifica invio.
@@ -66,7 +62,6 @@ updated: 2026-10-06
 ## 🔗 **Moduli Correlati**
 - [Xot](../../xot/docs/readme.md) - Dispatcher centrale.
 - [User](../../user/docs/readme.md) - Definizione dei destinatari e preferenze.
-=======
 - 🧭 **[No Orphan Http Controllers](../../no-orphan-http-controllers.md)** - I controller web senza route o boundary chiaro non devono restare nel modulo.
 - 🚫 **[No NotificationTrackingController](../../no-notification-tracking-controller.md)** - Il tracking notifiche non deve vivere in un controller HTTP legacy.
 - 🔬 **[Testing Guidelines](./testing.md)** - Mocking dei canali e verifica invio.
@@ -84,15 +79,11 @@ updated: 2026-10-06
 ## 🔗 **Moduli Correlati**
 - [Xot](../../../../Xot/docs/README.md) - Dispatcher centrale.
 - [User](../../../../User/docs/readme.md) - Definizione dei destinatari e preferenze.
->>>>>>> .merge_file_klQb1e
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
 
 ## Dependency Intelligence
 
-<<<<<<< .merge_file_PJdmd1
 - [Dependency intelligence](dependency-intelligence.md)
-=======
 - [Dependency intelligence](../../dependency-intelligence.md)
->>>>>>> .merge_file_klQb1e

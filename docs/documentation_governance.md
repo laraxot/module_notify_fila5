@@ -444,15 +444,12 @@ jobs:
 ## 📚 Related Documents
 
 - [AGENTS.md](../../../AGENTS.md) - Agent guidelines
-<<<<<<< .merge_file_sIx5wf
 - [agents.md](../../../agents.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 - [DOCUMENTATION_INDEX.md](../../../docs/DOCUMENTATION_INDEX.md) - Master index
-=======
 - [agents.md](../../../AGENTS.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 - [DOCUMENTATION_INDEX.md](../../../../docs/DOCUMENTATION_INDEX.md) - Master index
->>>>>>> .merge_file_Whlf8T
 
 ---
 

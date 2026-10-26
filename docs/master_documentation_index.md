@@ -73,11 +73,8 @@ discussions: []
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
-<<<<<<< .merge_file_Su8iCj
 - [Quality Reports](./reports/quality.md)
-=======
 - [Quality Reports](./roadmap/quality.md)
->>>>>>> .merge_file_NBwwPa
 - [Performance Reports](./reports/performance.md)
 
 ---
@@ -86,7 +83,6 @@ discussions: []
 
 | Module | Docs | Status |
 |--------|------|--------|
-<<<<<<< .merge_file_Su8iCj
 | **Xot** | [Modules/Xot/docs/](../laravel/Modules/Xot/docs/) | ⚠️ Needs cleanup |
 | **Cms** | [Modules/Cms/docs/](../laravel/Modules/Cms/docs/) | ⚠️ Needs cleanup |
 | **UI** | [Modules/UI/docs/](../laravel/Modules/UI/docs/) | ⚠️ Needs cleanup |
@@ -97,7 +93,6 @@ discussions: []
 | **Geo** | [Modules/Geo/docs/](../laravel/Modules/Geo/docs/) | ✅ Good |
 | **AI** | [Modules/AI/docs/](../laravel/Modules/AI/docs/) | ✅ Good |
 | **Fixcity** | [Modules/Fixcity/docs/](../laravel/Modules/Fixcity/docs/) | ✅ Good |
-=======
 | **Xot** | [Modules/Xot/docs/](../../Xot/docs) | ⚠️ Needs cleanup |
 | **Cms** | [Modules/Cms/docs/](../../Cms/docs) | ⚠️ Needs cleanup |
 | **UI** | [Modules/UI/docs/](../../UI/docs) | ⚠️ Needs cleanup |
@@ -108,7 +103,6 @@ discussions: []
 | **Geo** | [Modules/Geo/docs/](../../Geo/docs) | ✅ Good |
 | **AI** | [Modules/AI/docs/](../../AI/docs) | ✅ Good |
 | **Fixcity** | [Modules/Fixcity/docs/](../../Fixcity/docs) | ✅ Good |
->>>>>>> .merge_file_NBwwPa
 
 ---
 
@@ -116,13 +110,10 @@ discussions: []
 
 | Theme | Docs | Status |
 |-------|------|--------|
-<<<<<<< .merge_file_Su8iCj
 | **Sixteen** | [Themes/Sixteen/docs/](../laravel/Themes/Sixteen/docs/) | ✅ AGID Compliant |
 | **TwentyOne** | [Themes/TwentyOne/docs/](../laravel/Themes/TwentyOne/docs/) | ✅ Filament 5 |
-=======
 | **Sixteen** | [Themes/Sixteen/docs/](../../../Themes/Sixteen/docs) | ✅ AGID Compliant |
 | **TwentyOne** | [Themes/TwentyOne/docs/](../../../Themes/TwentyOne/docs) | ✅ Filament 5 |
->>>>>>> .merge_file_NBwwPa
 | **One** | [Themes/One/docs/](../laravel/Themes/One/docs/) | ✅ Base Theme |
 
 ---

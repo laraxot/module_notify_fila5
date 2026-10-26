@@ -27,11 +27,8 @@ related:
 **Path**: `Modules/Xot/`  
 **Responsabilità**: Pattern base, service providers, trait condivisi  
 **Status**: ✅ Attivo - Base del sistema  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 Xot Docs](../../Modules/Xot/docs/README.md)
-=======
 **Docs**: [📖 Xot Docs](../../../Xot/docs/README.md)
->>>>>>> .merge_file_i2w1Gu
 
 - `XotBaseModel` - Modello base per tutti i moduli
 - `XotBaseServiceProvider` - Provider base estendibile  
@@ -42,11 +39,8 @@ related:
 **Path**: `Modules/Fixcity/`  
 **Responsabilità**: Core della piattaforma di segnalazioni  
 **Status**: ✅ Attivo - Modulo principale  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 Fixcity Docs](../../Modules/Fixcity/docs/links.md)
-=======
 **Docs**: [📖 Fixcity Docs](../../../Fixcity/docs/links.md)
->>>>>>> .merge_file_i2w1Gu
 
 - Gestione segnalazioni cittadini
 - Workflow amministrativo
@@ -57,11 +51,8 @@ related:
 **Path**: `Modules/User/`  
 **Responsabilità**: Autenticazione, profili, permessi  
 **Status**: ✅ Attivo - Sistema utenti  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 User Docs](../../Modules/User/docs/README.md)
-=======
 **Docs**: [📖 User Docs](../../../User/docs/README.md)
->>>>>>> .merge_file_i2w1Gu
 
 - Autenticazione Laravel
 - Profili utente cittadini/staff
@@ -74,11 +65,8 @@ related:
 **Path**: `Modules/UI/`  
 **Responsabilità**: Componenti UI riutilizzabili  
 **Status**: ✅ Attivo - Componenti base  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 UI Docs](../../Modules/UI/docs/README.md)
-=======
 **Docs**: [📖 UI Docs](../../../UI/docs/README.md)
->>>>>>> .merge_file_i2w1Gu
 
 - Componenti Livewire condivisi
 - [DarkModeSwitcher](../../Modules/UI/docs/components.md#darkmodeswitcher) - Toggle modalità scuro
@@ -89,11 +77,8 @@ related:
 **Path**: `Modules/Cms/`  
 **Responsabilità**: Sistema CMS, pagine statiche  
 **Status**: ✅ Attivo - Content management  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 CMS Docs](../../Modules/Cms/docs/README.md)
-=======
 **Docs**: [📖 CMS Docs](../../../Cms/docs/README.md)
->>>>>>> .merge_file_i2w1Gu
 
 - Gestione pagine JSON
 - Homepage builder
@@ -127,11 +112,8 @@ related:
 **Path**: `Modules/Activity/`  
 **Responsabilità**: Log attività, cronologia  
 **Status**: ✅ Attivo - Audit system  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 Activity Docs](../../Modules/Activity/docs/README.md)
-=======
 **Docs**: [📖 Activity Docs](../../../Activity/docs/README.md)
->>>>>>> .merge_file_i2w1Gu
 
 - Event sourcing pattern
 - Log attività utenti
@@ -154,11 +136,8 @@ related:
 **Path**: `Modules/AI/`  
 **Responsabilità**: Integrazione AI/ML  
 **Status**: ✅ Attivo - AI services  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 AI Docs](../../Modules/AI/docs/README.md)
-=======
 **Docs**: [📖 AI Docs](../../../AI/docs/README.md)
->>>>>>> .merge_file_i2w1Gu
 
 - Classificazione automatica segnalazioni
 - Chatbot assistenza
@@ -201,11 +180,8 @@ related:
 **Path**: `Modules/Rating/`  
 **Responsabilità**: Valutazioni e feedback  
 **Status**: ✅ Attivo - Rating system  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 Rating Docs](../../Modules/Rating/docs/README.md)
-=======
 **Docs**: [📖 Rating Docs](../../../Rating/docs/README.md)
->>>>>>> .merge_file_i2w1Gu
 
 - User ratings
 - Feedback collection
@@ -240,11 +216,8 @@ related:
 **Path**: `Modules/Blog/`  
 **Responsabilità**: Pubblicazione contenuti blog  
 **Status**: ✅ Attivo - Content publishing  
-<<<<<<< .merge_file_2rPZeS
 **Docs**: [📖 Blog Docs](../../Modules/Blog/docs/README.md)
-=======
 **Docs**: [📖 Blog Docs](../../../Blog/docs/README.md)
->>>>>>> .merge_file_i2w1Gu
 
 - Post management
 - Categories/tags

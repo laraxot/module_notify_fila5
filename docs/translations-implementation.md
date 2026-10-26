@@ -135,12 +135,9 @@ Per garantire la coerenza futura, si raccomanda di:
 
 - [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation_conventions_clarification.md)
-<<<<<<< .merge_file_yHO0Yz
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation_keys_best_practices.md)
 - [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
-=======
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/translation_keys_best_practices.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/translation-keys-best-practices.md)
->>>>>>> .merge_file_XvHF38

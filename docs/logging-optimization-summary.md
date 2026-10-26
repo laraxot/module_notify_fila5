@@ -9,19 +9,16 @@ updated: 2026-07-14
 qmd: "logging_optimization_summary_2026-03-02 deprecated"
 status: deprecated
 related:
-<<<<<<< .merge_file_gWLaNr
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_ErAntj
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

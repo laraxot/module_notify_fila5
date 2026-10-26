@@ -124,9 +124,6 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 ## Riferimenti
 
 - [Filament Resources Documentation](https://filamentphp.com/docs/3.x/panels/resources/getting-started)
-<<<<<<< .merge_file_IAqReH
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
-=======
 - [SaluteOra XotBase Architecture](./filament_xot_architecture.md)
->>>>>>> .merge_file_loGROV
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)

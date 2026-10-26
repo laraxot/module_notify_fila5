@@ -145,7 +145,6 @@ Keep nesting levels below 3-4 levels.
 ## 📄 Individual Module Reports
 
 - [Xot](../Modules/Xot/docs/cyclomatic-complexity-report.md)
-<<<<<<< .merge_file_QljYKt
 - [User](../Modules/User/docs/cyclomatic-complexity-report.md)
 - [Blog](../Modules/Blog/docs/cyclomatic-complexity-report.md)
 - [Geo](../Modules/Geo/docs/cyclomatic-complexity-report.md)
@@ -162,7 +161,6 @@ Keep nesting levels below 3-4 levels.
 - [Rating](../Modules/Rating/docs/cyclomatic-complexity-report.md)
 - [Seo](../Modules/Seo/docs/cyclomatic-complexity-report.md)
 - [Tenant](../Modules/Tenant/docs/cyclomatic-complexity-report.md)
-=======
 - [User](../../User/docs/cyclomatic-complexity-report.md)
 - [Blog](../../Blog/docs/cyclomatic-complexity-report.md)
 - [Geo](../../Geo/docs/cyclomatic-complexity-report.md)
@@ -179,7 +177,6 @@ Keep nesting levels below 3-4 levels.
 - [Rating](../../Rating/docs/cyclomatic-complexity-report.md)
 - [Seo](../../Seo/docs/cyclomatic-complexity-report.md)
 - [Tenant](../../Tenant/docs/cyclomatic-complexity-report.md)
->>>>>>> .merge_file_aCD1KT
 - [UI](../Modules/UI/docs/cyclomatic-complexity-report.md)
 
 ---

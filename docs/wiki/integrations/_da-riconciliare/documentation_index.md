@@ -45,11 +45,8 @@ updated: 2026-08-24
 
 ### Documentazione Architetturale
 - [Design Patterns](./architecture.md) - Pattern architetturali
-<<<<<<< .merge_file_DXbJ7w
 - [Database Schema](./database/schema.md) - Schema database
-=======
 - [Database Schema](../../schema.md) - Schema database
->>>>>>> .merge_file_CaG7eJ
 - [API Documentation](./api/README.md) - Documentazione API
 - [Security](./security/README.md) - Sicurezza e conformità
 
@@ -206,7 +203,6 @@ updated: 2026-08-24
 ## 🛠️ Guide Sviluppo
 
 ### Development Setup
-<<<<<<< .merge_file_DXbJ7w
 - [Environment Setup](./development/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
 - [Database Setup](./database/setup.md) - Setup database
@@ -214,7 +210,6 @@ updated: 2026-08-24
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
 - [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
-=======
 - [Environment Setup](../../../ai-agents/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
 - [Database Setup](../../../ai-agents/setup.md) - Setup database
@@ -222,17 +217,13 @@ updated: 2026-08-24
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
 - [Laravel Best Practices](../../../html2pdf/laravel.md) - Best practices Laravel
->>>>>>> .merge_file_CaG7eJ
 - [Filament Guidelines](./standards/filament.md) - Linee guida Filament
 - [Blade Components](./standards/blade.md) - Componenti Blade
 
 ### Quality Assurance
 - [PHPStan Configuration](./phpstan/README.md) - Analisi statica
-<<<<<<< .merge_file_DXbJ7w
 - [Testing Strategy](./testing/strategy.md) - Strategia testing
-=======
 - [Testing Strategy](../../../strategy.md) - Strategia testing
->>>>>>> .merge_file_CaG7eJ
 - [CI/CD Pipeline](./ci-cd/README.md) - Continuous integration
 
 ---
@@ -273,11 +264,8 @@ updated: 2026-08-24
 - [Error Tracking](./monitoring/errors.md) - Tracking errori
 
 ### Analytics
-<<<<<<< .merge_file_DXbJ7w
 - [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
-=======
 - [Usage Analytics](../../../html2pdf/usage.md) - Analisi utilizzo
->>>>>>> .merge_file_CaG7eJ
 - [Business Metrics](./analytics/business.md) - Metriche business
 
 ---
@@ -285,11 +273,8 @@ updated: 2026-08-24
 ## 🔒 Security
 
 ### Security Documentation
-<<<<<<< .merge_file_DXbJ7w
 - [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
-=======
 - [Security Guidelines](../../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
->>>>>>> .merge_file_CaG7eJ
 - [GDPR Compliance](./security/gdpr.md) - Conformità GDPR
 - [Authentication](./security/authentication.md) - Sistema autenticazione
 - [Authorization](./security/authorization.md) - Sistema autorizzazioni

@@ -186,13 +186,10 @@ enum Status: string implements HasLabel, HasColor {
 - [Indice AGENTS](./agents-split-index.md)
 - [code-style.md](./code-style.md) - Più dettagliato
 - [critical-rules.md](./critical-rules.md) - Regole critiche
-<<<<<<< .merge_file_sHY8ya
 - [AGENTS.md originale](../../AGENTS.md)
 - [agents.md originale](../../agents.md)
-=======
 - [AGENTS.md originale](../AGENTS.md)
 - [agents.md originale](../agents.md)
->>>>>>> .merge_file_TbWbXd
 - [Index principale](./index.md)
 
 ## Miglioramenti vs Originale

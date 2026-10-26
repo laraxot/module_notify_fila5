@@ -494,13 +494,10 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 ## 🔗 COLLEGAMENTI
 
 ### **Documentazione Correlata**
-<<<<<<< .merge_file_3jeCcL
 - [contact-column-implementation.md](./contact-column-implementation.md)
 - [contactcolumn-errors-and-antipatterns.md](./contactcolumn-errors-and-antipatterns.md)
-=======
 - [contact-column-implementation.md](../../contact-column-implementation.md)
 - [contactcolumn-errors-and-antipatterns.md](../../contactcolumn-errors-and-antipatterns.md)
->>>>>>> .merge_file_l9NMYD
 - [Filament Icons Documentation](https://filamentphp.com/docs/3.x/support/icons)
 
 ### **File Coinvolti**
@@ -537,11 +534,8 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 
 ## 🚨 **PROBLEMA CRITICO IDENTIFICATO** (2025-08-01)
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
-<<<<<<< .merge_file_3jeCcL
 - 📋 **Analisi Completa**: [contact-column-icon-issue-analysis.md](./contact-column-icon-issue-analysis.md)
-=======
 - 📋 **Analisi Completa**: [contact-column-icon-issue-analysis.md](../../contact-column-icon-issue-analysis.md)
->>>>>>> .merge_file_l9NMYD
 - 🛠️ **Soluzione**: Sostituire `@svg()` con `<x-filament::icon>`
 - ⚡ **Priorità**: ALTA (Funzionalità core non funzionante)
 
@@ -1737,13 +1731,10 @@ Utilizzo:
 
 ## Backlink e Riferimenti
 
-<<<<<<< .merge_file_3jeCcL
 - [DRY Composition Pattern](./dry-composition-pattern.md) - Pattern composizione Actions
 - [SendRecordNotificationAction](../../app/Actions/SendRecordNotificationAction.php) - Implementazione completa
-=======
 - [DRY Composition Pattern](../../dry-composition-pattern.md) - Pattern composizione Actions
 - [SendRecordNotificationAction](../../../app/Actions/SendRecordNotificationAction.php) - Implementazione completa
->>>>>>> .merge_file_l9NMYD
 - [SendNotificationBulkAction](./send-notification-bulk-action.md) - Azione bulk che usa SendRecordNotificationAction
 
 ---

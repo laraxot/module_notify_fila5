@@ -8,19 +8,16 @@ qmd: "supermemory-quickstart supermemory - ai memory infrastructure"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_Vwx8U8
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_6sLoXr
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -39,11 +36,8 @@ related:
 
 SuperMemory is the long-term and short-term memory and context infrastructure for AI agents. It provides persistent memory across conversations, semantic search, and knowledge graph capabilities.
 
-<<<<<<< .merge_file_Vwx8U8
 **Master MCP Docs**: [Project MCP Servers](../../../docs/mcp-servers.md)
-=======
 **Master MCP Docs**: [Project MCP Servers](mcp-servers.md)
->>>>>>> .merge_file_6sLoXr
 
 ## Quick Start
 
@@ -236,11 +230,8 @@ supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 
 ## Related Documentation
 
-<<<<<<< .merge_file_Vwx8U8
 - **Master MCP Docs**: [Project MCP Servers](../../../docs/mcp-servers.md)
-=======
 - **Master MCP Docs**: [Project MCP Servers](mcp-servers.md)
->>>>>>> .merge_file_6sLoXr
 - **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/mcp-servers.md)
 - **Theme MCP**: [Sixteen Theme MCP](../../Themes/Sixteen/docs/mcp-servers.md)
 - **SuperMemory Skill**: [.qwen/skills/supermemory/](.qwen/skills/supermemory/)

@@ -8,19 +8,16 @@ qmd: "phase-1-research-complete ✅ phase 1 - ricerca completata"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_dcxU9K
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
->>>>>>> .merge_file_HZBkG4
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -255,11 +252,8 @@ return [
 
 **Leggi in questo ordine**:
 
-<<<<<<< .merge_file_dcxU9K
 1. **[00-index-1.md](laravel/Themes/Sixteen/docs/00-index-1.md)** - Master index (sei qui, ma online)
-=======
 1. **[00-index-1.md](../../../00-index-documentation.md)** - Master index (sei qui, ma online)
->>>>>>> .merge_file_HZBkG4
 2. **[PHASE-1-STRATEGY.md](laravel/Themes/Sixteen/docs/PHASE-1-STRATEGY.md)** - Strategia completa (22k chars)
 3. **[GSD-PHASE-1-EXECUTION.md](laravel/Themes/Sixteen/docs/GSD-PHASE-1-EXECUTION.md)** - Piano esecuzione (19k chars)
 4. **[bashscripts/docs/html/index.md](bashscripts/docs/html/index.md)** - Documentazione strumenti

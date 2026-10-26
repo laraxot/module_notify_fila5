@@ -70,12 +70,9 @@ return [
 ```
 
 ### Riferimenti
-<<<<<<< .merge_file_6MX9JM
 - [TRANSLATION_KEYS_RULES.md](../../lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation_keys_best_practices.md) 
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../lang/docs/translation-keys-best-practices.md) 
-=======
 - [TRANSLATION_KEYS_RULES.md](../../Lang/docs/translation_keys_rules.md)
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/translation_keys_best_practices.md) 
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](../../Lang/docs/translation-keys-best-practices.md) 
->>>>>>> .merge_file_Eo5o8U

@@ -7,6 +7,10 @@ namespace Modules\Notify\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Illuminate\Support\Facades\DB;
+use Mockery;
+use Mockery\Expectation;
+use Mockery\MockInterface;
 use Modules\Notify\Models\NotificationType;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
@@ -18,6 +22,7 @@ use ReflectionClass;
 use ReflectionProperty;
 
 use function Safe\file_get_contents;
+use function Safe\json_decode;
 
 /**
  * Base test case for Notify module tests.
@@ -136,9 +141,54 @@ abstract class TestCase extends BaseTestCase
     }
 
     /**
+     * Mock tipizzato: restituisce T&MockInterface, cosi' il mock passa a firme che richiedono T.
+     *
+     * @template T of object
+     *
+     * @param  class-string<T>  $class
+     * @return T&MockInterface
+     */
+    public static function typedMock(string $class): MockInterface
+    {
+        $mock = Mockery::mock($class);
+        Assert::assertInstanceOf($class, $mock);
+        Assert::assertInstanceOf(MockInterface::class, $mock);
+
+        return $mock;
+    }
+
+    /**
+     * Expectation concreta per un singolo metodo (stesso pattern di Media TestCase::mockExpectation).
+     */
+    public static function mockExpectation(MockInterface $mock, string $method): Expectation
+    {
+        $mock->shouldReceive($method);
+        $director = $mock->mockery_getExpectationsFor($method);
+        Assert::assertNotNull($director);
+        $expectations = $director->getExpectations();
+        $expectation = end($expectations);
+        Assert::assertInstanceOf(Expectation::class, $expectation);
+
+        return $expectation;
+    }
+
+    /**
+     * Confronta una colonna JSON per contenuto, non per testo: MySQL normalizza il JSON
+     * salvato (spazi, ordine chiavi) e un `where col = 'stringa'` su colonna JSON non trova mai la riga.
+     *
+     * @param  array<array-key, mixed>  $expected
+     */
+    public static function assertNotifyJsonColumn(string $table, int|string $id, string $column, array $expected): void
+    {
+        $raw = DB::connection('notify')->table($table)->where('id', $id)->value($column);
+        Assert::assertIsString($raw);
+        Assert::assertEquals($expected, json_decode($raw, true));
+    }
+
+    /**
      * Get package providers.
      *
-     * @param Application $app
+     * @param  Application  $app
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

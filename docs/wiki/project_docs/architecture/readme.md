@@ -12,17 +12,14 @@ discussions:
   - "https://github.com/laraxot/module_notify_fila5/discussions/57"
 related:
   - ../../README.md
-<<<<<<< .merge_file_dScy79
   - ../../wiki/index.md
   - ../../notifications/readme.md
   - ../../integrations/readme.md
   - ../../templates/readme.md
-=======
   - ../../index.md
   - ../../../notifications/readme.md
   - ../../../integrations/readme.md
   - ../../../templates/readme.md
->>>>>>> .merge_file_nFu68m
 ---
 # Architettura del Sistema
 
@@ -64,13 +61,10 @@ Standard e convenzioni architetturali.
 - [Struttura Moduli](./modules/)
 - [Pattern Architetturali](./patterns/)
 - [Standard e Convenzioni](./standards/)
-<<<<<<< .merge_file_dScy79
 - [Guida Sviluppo](../development/)
 - [Troubleshooting](../troubleshooting/)
-=======
 - [Guida Sviluppo](../../../development)
 - [Troubleshooting](../../troubleshooting)
->>>>>>> .merge_file_nFu68m
 
 ---
 

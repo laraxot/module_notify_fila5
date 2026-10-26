@@ -74,19 +74,16 @@ qmd: "email-analytics-1 analytics email - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -532,15 +529,12 @@ class MailTrackingService
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics)
@@ -991,15 +985,12 @@ class MailTrackingService
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics)
@@ -1009,11 +1000,7 @@ class MailTrackingService
 
 ## email-backup-1
 
-<<<<<<< .merge_file_QCpNM0
 *Consolidated from: `email-backup.md`*
-=======
-*Consolidated from: `email-backup.md`*
->>>>>>> .merge_file_1NrE9A
 
 
 ## Panoramica
@@ -1643,15 +1630,12 @@ class MailBackupDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/docs/storage)
@@ -2030,19 +2014,16 @@ qmd: "email-backup-2 sistema backup email"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2677,15 +2658,12 @@ class MailBackupDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/project_docs/storage)
@@ -3325,15 +3303,12 @@ class MailBackupDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/docs/storage)
@@ -3354,19 +3329,16 @@ qmd: "email-best-practices-1 best practices per il sistema email"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3430,19 +3402,16 @@ qmd: "email-cache-1 sistema cache email"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -3919,15 +3888,12 @@ class MailCacheDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -4409,15 +4375,12 @@ class MailCacheDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -4442,19 +4405,16 @@ qmd: "email-html-best-practices-1 best practices html per email"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -4680,15 +4640,12 @@ Questo documento definisce le best practices per la creazione di template HTML p
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
 - [Struttura Template](./mail-templates-structure.md)
-<<<<<<< .merge_file_QCpNM0
 - [Template Base](./base-templates.md)
 - [Struttura Template](./mail-templates-structure.md)
 - [Template Base](./base-templates.md)
-=======
 - [Template Base](../../base-templates.md)
 - [Struttura Template](./mail-templates-structure.md)
 - [Template Base](../../base-templates.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Supporto
 
@@ -4920,13 +4877,10 @@ Questo documento definisce le best practices per la creazione di template HTML p
 ## Collegamenti Correlati
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
-<<<<<<< .merge_file_QCpNM0
 - [Struttura Template](./MAIL_TEMPLATES_STRUCTURE.md)
 - [Template Base](./BASE_TEMPLATES.md)
-=======
 - [Struttura Template](../../mail_templates_structure.md)
 - [Template Base](../../base_templates.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Supporto
 
@@ -4957,19 +4911,16 @@ qmd: "email-logs-1 sistema log email"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -5480,15 +5431,12 @@ class MailLogDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Logging](https://laravel.com/project_docs/logging)
@@ -6004,15 +5952,12 @@ class MailLogDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Logging](https://laravel.com/project_docs/logging)
@@ -6037,19 +5982,16 @@ qmd: "email-monitoring-1 sistema monitoraggio email"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -6867,15 +6809,12 @@ class MailMonitoringDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -7699,15 +7638,12 @@ class MailMonitoringDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -7734,19 +7670,16 @@ qmd: "email-notifications-1 sistema notifiche email - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -8112,15 +8045,12 @@ class NotificationDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
@@ -8491,15 +8421,12 @@ class NotificationDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
@@ -8524,19 +8451,16 @@ qmd: "email-plugins-analysis-1 analisi plugin email per filament - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -8807,15 +8731,12 @@ class MailAnalytics
    - [ ] Integrazioni
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Database Mail System](database-mail-system.md)
 - [Mail Queue](database-mail-queue.md)
 - [Testing](database-mail-system-tests.md)
-=======
 - [Database Mail System](../../database-mail-system.md)
 - [Mail Queue](../../database-mail-queue.md)
 - [Testing](../../database-mail-system-tests.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
@@ -9091,15 +9012,12 @@ class MailAnalytics
    - [ ] Integrazioni
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Database Mail System](database-mail-system.md)
 - [Mail Queue](database-mail-queue.md)
 - [Testing](database-mail-system-tests.md)
-=======
 - [Database Mail System](../../database-mail-system.md)
 - [Mail Queue](../../database-mail-queue.md)
 - [Testing](../../database-mail-system-tests.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
@@ -9376,15 +9294,12 @@ class MailAnalytics
    - [ ] Integrazioni
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Database Mail System](database-mail-system.md)
 - [Mail Queue](database-mail-queue.md)
 - [Testing](database-mail-system-tests.md)
-=======
 - [Database Mail System](../../database-mail-system.md)
 - [Mail Queue](../../database-mail-queue.md)
 - [Testing](../../database-mail-system-tests.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
@@ -9406,19 +9321,16 @@ qmd: "email-queue-1 sistema code email - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -9821,15 +9733,12 @@ class MailQueueManager
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Queue](https://laravel.com/project_docs/queues)
@@ -10237,15 +10146,12 @@ class MailQueueManager
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Queue](https://laravel.com/project_docs/queues)
@@ -10651,15 +10557,12 @@ class MailQueueManager
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Queue](https://laravel.com/project_docs/queues)
@@ -10681,19 +10584,16 @@ qmd: "email-sending-troubleshooting-1 troubleshooting: sistema di invio email in
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -11104,19 +11004,16 @@ qmd: "email-translations-1 integrazione traduzioni email - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -11498,15 +11395,12 @@ class TranslationValidator
    - Monitora uso
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Localization](https://laravel.com/project_docs/localization)
@@ -11893,15 +11787,12 @@ class TranslationValidator
    - Monitora uso
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Localization](https://laravel.com/project_docs/localization)
@@ -11923,19 +11814,16 @@ qmd: "email-wysiwyg-editor-1 editor wysiwyg per email - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_QCpNM0
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_1NrE9A
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -12368,15 +12256,12 @@ class TemplateValidator
    - Ottimizza storage
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
 - [Mail Queue](database-mail-queue.md)
-=======
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
 - [Mail Queue](../../database-mail-queue.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [TinyMCE Documentation](https://www.tiny.cloud/docs)
@@ -12814,15 +12699,12 @@ class TemplateValidator
    - Ottimizza storage
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
 - [Mail Queue](database-mail-queue.md)
-=======
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
 - [Mail Queue](../../database-mail-queue.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [TinyMCE Documentation](https://www.tiny.cloud/docs)
@@ -13273,15 +13155,12 @@ class MailTrackingService
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics)
@@ -13921,15 +13800,12 @@ class MailBackupDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/project_docs/storage)
@@ -14435,15 +14311,12 @@ class MailCacheDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -14673,13 +14546,10 @@ Questo documento definisce le best practices per la creazione di template HTML p
 ## Collegamenti Correlati
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
-<<<<<<< .merge_file_QCpNM0
 - [Struttura Template](./MAIL_TEMPLATES_STRUCTURE.md)
 - [Template Base](./BASE_TEMPLATES.md)
-=======
 - [Struttura Template](../../mail_templates_structure.md)
 - [Template Base](../../base_templates.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Supporto
 
@@ -15198,15 +15068,12 @@ class MailLogDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Logging](https://laravel.com/project_docs/logging)
@@ -16029,15 +15896,12 @@ class MailMonitoringDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Cache](https://laravel.com/project_docs/cache)
@@ -16409,15 +16273,12 @@ class NotificationDebugger
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
@@ -16693,15 +16554,12 @@ class MailAnalytics
    - [ ] Integrazioni
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Database Mail System](database-mail-system.md)
 - [Mail Queue](database-mail-queue.md)
 - [Testing](database-mail-system-tests.md)
-=======
 - [Database Mail System](../../database-mail-system.md)
 - [Mail Queue](../../database-mail-queue.md)
 - [Testing](../../database-mail-system-tests.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
@@ -17109,15 +16967,12 @@ class MailQueueManager
 ```
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Queue](https://laravel.com/project_docs/queues)
@@ -17702,15 +17557,12 @@ class TranslationValidator
    - Monitora uso
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Editor WYSIWYG](email-wysiwyg-editor.md)
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
-=======
 - [Editor WYSIWYG](../../email-wysiwyg-editor.md)
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [Laravel Localization](https://laravel.com/project_docs/localization)
@@ -18148,15 +18000,12 @@ class TemplateValidator
    - Ottimizza storage
 
 ## Collegamenti
-<<<<<<< .merge_file_QCpNM0
 - [Database Mail System](database-mail-system.md)
 - [Email Plugins Analysis](email-plugins-analysis.md)
 - [Mail Queue](database-mail-queue.md)
-=======
 - [Database Mail System](../../database-mail-system.md)
 - [Email Plugins Analysis](../../email-plugins-analysis.md)
 - [Mail Queue](../../database-mail-queue.md)
->>>>>>> .merge_file_1NrE9A
 
 ## Vedi Anche
 - [TinyMCE Documentation](https://www.tiny.cloud/docs)

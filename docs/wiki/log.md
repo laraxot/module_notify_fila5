@@ -7,10 +7,6 @@ updated: 2026-09-26
 qmd: "log"
 issues: []
 discussions: []
-<<<<<<< .merge_file_YsqZPy
----
-
-=======
 status: draft
 ---
 
@@ -22,7 +18,6 @@ status: draft
 - Verifica oggi su voci di questo log: la voce 2026-09-11 (compliance) dice rimosso il duplicato `app/Contracts/SmsActionContract.php`; il 2026-10-14 `SmsActionContract.php` esiste in tre posizioni (`app/Contracts/`, `app/Contracts/SMS/`, `app/Models/Contracts/`).
 - Story: [2026-10-14-docs-ingressi-notify](../stories/docs-ingressi-notify.story.md). Nota durevole: `bashscripts/ai/wiki/memories/docs-notify-activity-media-job-studio.md`.
 
->>>>>>> .merge_file_WMU5MK
 ## [2026-09-11] fix | invito automatico — Difetto 11/12, regola un-canale
 
 - **Difetto 11 (bloccante SMS)**: `SendRecordNotificationAction` instradava l'SMS con `Notification::route(SmsChannel::class, …)` (FQCN come chiave), ma `RecordNotification::via()`/`toSms()` cercano il recapito sotto `'sms'` → `via()` tornava `[]` → l'SMS dell'invito automatico non partiva, in silenzio. Fix: `Notification::route($channelEnum->value, …)`. Commit `f150a9a54`.
@@ -55,7 +50,6 @@ status: draft
 
 ## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
 
-<<<<<<< .merge_file_YsqZPy
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
@@ -70,14 +64,12 @@ qmd: "log"
 issues: []
 discussions: []
 title: "Notify Wiki Activity Log"
-=======
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), `llm-wiki.txt` (file `bashscripts/tools/prompts/llm-wiki.txt` non presente il 2026-10-14)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
 - Stub/checklist: second-brain → canon Xot, ai-harness, hackernoon map (`docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md`: file non presente il 2026-10-14), `llm-wiki.txt` (non presente)
 - GitHub: [#272](https://github.com/laraxot/platform/issues/272) / [D#273](https://github.com/laraxot/platform/discussions/273)
 
 ---
->>>>>>> .merge_file_WMU5MK
 module: "Notify"
 ---
 
@@ -99,10 +91,7 @@ module: "Notify"
 - Unica `create_notifications_table` in Notify; `model_class` = `User\Models\Notification`
 - Solo `XotBaseMigration` — mai `extends Migration`
 - Vietato duplicato in User/ (es. pattern `2026_07_02_*` con bigint morphs)
-<<<<<<< .merge_file_YsqZPy
-=======
 ## [2026-10-14] docs | confine delivery notifiche
 
 - Aggiunta `concepts/notification-delivery-boundary.md`.
 - Esplicitata la separazione tra notifiche transazionali e marketing con decisione Gdpr al dispatch.
->>>>>>> .merge_file_WMU5MK

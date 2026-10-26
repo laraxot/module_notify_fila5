@@ -8,7 +8,6 @@ qmd: "missione-super-mucca-completata 🐄✨ missione super mucca - completamen
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_lDgema
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -17,7 +16,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -27,7 +25,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
->>>>>>> .merge_file_hSWJ5H
 ---
 
 # 🐄✨ MISSIONE SUPER MUCCA - COMPLETAMENTO TOTALE ✨🐄
@@ -218,11 +215,7 @@ Durante l'analisi ho anche **IMPLEMENTATO** tutto quello che era stato documenta
 - Elimina ~200 LOC future
 
 ✅ **Documentazione Aggiornata:**
-<<<<<<< .merge_file_lDgema
 - 18 metodi-duplicati-analisi.md aggiornati
-=======
-- 18 metodi-duplicati-analisi.md aggiornati
->>>>>>> .merge_file_hSWJ5H
 - 10+ documenti master creati
 - 35+ files totali
 
@@ -269,11 +262,7 @@ Durante l'analisi ho anche **IMPLEMENTATO** tutto quello che era stato documenta
 1. docs/analisi-metodi-duplicati.md
 2. docs/analisi-metodi-duplicati-master.md (100+ pagine)
 3. docs/analisi-metodi-duplicati-index.md
-<<<<<<< .merge_file_lDgema
 4. 18× metodi-duplicati-analisi.md aggiornati
-=======
-4. 18× metodi-duplicati-analisi.md aggiornati
->>>>>>> .merge_file_hSWJ5H
 5. 4× analisi-metodi-duplicati.md per moduli chiave
 6. 2× analisi-metodi-duplicati.md per temi
 
@@ -330,11 +319,7 @@ Durante l'analisi ho anche **IMPLEMENTATO** tutto quello che era stato documenta
 cat Modules/User/docs/dry-kiss-analysis.md
 
 # Analisi metodi duplicati
-<<<<<<< .merge_file_lDgema
 cat Modules/User/docs/metodi-duplicati-analisi.md
-=======
-cat Modules/User/docs/metodi-duplicati-analisi.md
->>>>>>> .merge_file_hSWJ5H
 
 # Overview completa
 cat Modules/User/docs/analisi-metodi-duplicati.md

@@ -164,11 +164,8 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 - [Regole Generali per i Namespace](/laravel/Modules/Xot/docs/NAMESPACE-RULES.md)
 - [Convenzioni di Codice](/laravel/Modules/Xot/docs/CODE-CONVENTIONS.md)
 - [Struttura dei Moduli](/laravel/Modules/Xot/docs/MODULE-STRUCTURE.md)
-<<<<<<< .merge_file_F1iRFb
 - [Collegamento Bidirezionale: Documentazione Root](../../../../../docs/links.md)
-=======
 - [Collegamento Bidirezionale: Documentazione Root](../../../../docs/links.md)
->>>>>>> .merge_file_a4vpQc
 
 ### Esempio 5: Console Command
 
@@ -337,11 +334,8 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 - [Regole Generali per i Namespace](/laravel/Modules/Xot/docs/NAMESPACE-RULES.md)
 - [Convenzioni di Codice](/laravel/Modules/Xot/docs/CODE-CONVENTIONS.md)
 - [Struttura dei Moduli](/laravel/Modules/Xot/docs/MODULE-STRUCTURE.md)
-<<<<<<< .merge_file_F1iRFb
 - [Collegamento Bidirezionale: Documentazione Root](../../../../../docs/links.md)
-=======
 - [Collegamento Bidirezionale: Documentazione Root](../../../../docs/links.md)
->>>>>>> .merge_file_a4vpQc
 
 ### Esempio 5: Console Command
 

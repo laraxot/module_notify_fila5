@@ -8,10 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-<<<<<<< .merge_file_kx3SNu
-=======
 status: draft
->>>>>>> .merge_file_j9OzvG
 ---
 
 # telegram — Consolidated Documentation
@@ -38,11 +35,7 @@ Consolidated from **13** individual files.
 
 ## telegram-channel-1
 
-<<<<<<< .merge_file_kx3SNu
 *Consolidated from: `telegram-channel.md`*
-=======
-*Consolidated from: `telegram-channel.md`*
->>>>>>> .merge_file_j9OzvG
 
 
 ## 1. Struttura Base
@@ -584,19 +577,16 @@ qmd: "telegram-channel-2 implementazione canale telegram"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_kx3SNu
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_j9OzvG
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -1493,11 +1483,7 @@ class TelegramTest extends TestCase
 
 ## telegram-integration-1
 
-<<<<<<< .merge_file_kx3SNu
 *Consolidated from: `telegram-integration.md`*
-=======
-*Consolidated from: `telegram-integration.md`*
->>>>>>> .merge_file_j9OzvG
 
 
 Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto <nome progetto>, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
@@ -1691,19 +1677,16 @@ qmd: "telegram-integration-2 integrazione telegram"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_kx3SNu
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_j9OzvG
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -2085,19 +2068,16 @@ qmd: "telegram-sending-standard-1 standard per invio messaggi telegram nel modul
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_kx3SNu
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
->>>>>>> .merge_file_j9OzvG
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

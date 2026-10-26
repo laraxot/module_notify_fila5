@@ -47,7 +47,6 @@ Questa analisi identifica opportunità di refactoring cross-module per ridurre l
 
 | Modulo | Metodi Duplicati | Report |
 |--------|------------------|--------|
-<<<<<<< .merge_file_m2fvJP
 | Fixcity | 76 | [Visualizza](Modules/Fixcity/docs/duplicate-methods-analysis.md) |
 | User | 55 | [Visualizza](Modules/User/docs/duplicate-methods-analysis.md) |
 | Geo | 46 | [Visualizza](Modules/Geo/docs/duplicate-methods-analysis.md) |
@@ -66,7 +65,6 @@ Questa analisi identifica opportunità di refactoring cross-module per ridurre l
 | Gdpr | 3 | [Visualizza](Modules/Gdpr/docs/duplicate-methods-analysis.md) |
 | UI | 2 | [Visualizza](Modules/UI/docs/duplicate-methods-analysis.md) |
 | Seo | 1 | [Visualizza](Modules/Seo/docs/duplicate-methods-analysis.md) |
-=======
 | Fixcity | 76 | [Visualizza](duplicate-methods-analysis.md) |
 | User | 55 | [Visualizza](duplicate-methods-analysis.md) |
 | Geo | 46 | [Visualizza](duplicate-methods-analysis.md) |
@@ -85,7 +83,6 @@ Questa analisi identifica opportunità di refactoring cross-module per ridurre l
 | Gdpr | 3 | [Visualizza](duplicate-methods-analysis.md) |
 | UI | 2 | [Visualizza](duplicate-methods-analysis.md) |
 | Seo | 1 | [Visualizza](duplicate-methods-analysis.md) |
->>>>>>> .merge_file_HmqUZz
 
 ## Prossimi Passi
 

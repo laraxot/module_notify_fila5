@@ -8,19 +8,16 @@ qmd: "progetto-completato-100-percento 🏆 progetto <nome progetto> - 100% comp
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_RXRj3p
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
->>>>>>> .merge_file_4bsvzR
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -350,11 +347,8 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 **[→ ANALISI COMPLETA](./analisi-completa.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
-<<<<<<< .merge_file_RXRj3p
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
-=======
 **[→ Master Roadmap Index](../../../roadmap-master-index.md)** - Indice completo roadmap moduli
->>>>>>> .merge_file_4bsvzR
 
 ### 📊 TECHNICAL
 **[→ Session Summary](./phpstan/session-summary-.md.md)** - Dettagli tecnici sessione
@@ -363,7 +357,6 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 **Critici**:
 - [<nome progetto>](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - Core business + Performance fixes
-<<<<<<< .merge_file_RXRj3p
 - [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
 - [User](../Modules/User/docs/roadmap-and-issues.md) - Authentication
 
@@ -379,7 +372,6 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### 🎨 THEMES
 - [Sixteen](../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
-=======
 - [Xot](../../../roadmap-and-issues.md) - Framework base
 - [User](../../../roadmap-and-issues.md) - Authentication
 
@@ -395,7 +387,6 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### 🎨 THEMES
 - [Sixteen](../../../roadmap-and-issues.md) - Frontend cittadini
->>>>>>> .merge_file_4bsvzR
 
 ---
 
@@ -576,11 +567,8 @@ php artisan queue:work --queue=high,notifications,default
 ## 🔗 LINK FINALI
 
 - [← Torna all'Indice](./index.md)
-<<<<<<< .merge_file_RXRj3p
 - [← Master Roadmap](./roadmap-master-index.md)
-=======
 - [← Master Roadmap](../../../roadmap-master-index.md)
->>>>>>> .merge_file_4bsvzR
 - [← Analisi Completa](./analisi-completa.md)
 
 ---
@@ -940,17 +928,14 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📚 GUIDA RAPIDA ALLA DOCUMENTAZIONE
 
 ### 🌟 START HERE
-<<<<<<< .merge_file_RXRj3p
 **[→ ANALISI COMPLETA](./ANALISI-COMPLETA.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
-=======
 **[→ ANALISI COMPLETA](../../../analisi-completa-ottobre-data.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
 **[→ Master Roadmap Index](../../../roadmap-master-index.md)** - Indice completo roadmap moduli
->>>>>>> .merge_file_4bsvzR
 
 ### 📊 TECHNICAL
 **[→ Session Summary](./phpstan/session-summary.md)** - Dettagli tecnici sessione
@@ -958,7 +943,6 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ### 🎯 MODULES (Dettagli per ogni modulo)
 
 **Critici**:
-<<<<<<< .merge_file_RXRj3p
 - [App](../Modules/App/docs/roadmap-and-issues.md) - Core business + Performance fixes
 - [<nome progetto>](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - Core business + Performance fixes
 - [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
@@ -976,7 +960,6 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### 🎨 THEMES
 - [Sixteen](../Themes/Sixteen/docs/roadmap-and-issues.md) - Frontend cittadini
-=======
 - [App](../../../roadmap-and-issues.md) - Core business + Performance fixes
 - [<nome progetto>](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - Core business + Performance fixes
 - [Xot](../../../roadmap-and-issues.md) - Framework base
@@ -994,7 +977,6 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### 🎨 THEMES
 - [Sixteen](../../../roadmap-and-issues.md) - Frontend cittadini
->>>>>>> .merge_file_4bsvzR
 
 ---
 
@@ -1176,13 +1158,10 @@ php artisan queue:work --queue=high,notifications,default
 ## 🔗 LINK FINALI
 
 - [← Torna all'Indice](./index.md)
-<<<<<<< .merge_file_RXRj3p
 - [← Master Roadmap](./roadmap-master-index.md)
 - [← Analisi Completa](./ANALISI-COMPLETA.md)
-=======
 - [← Master Roadmap](../../../roadmap-master-index.md)
 - [← Analisi Completa](../../../analisi-completa-ottobre-data.md)
->>>>>>> .merge_file_4bsvzR
 
 ---
 

@@ -58,8 +58,5 @@ il nome della classe: le copie `Actions/PushNotificationPlatformDelivery`, `Supp
 ## Collegamenti
 
 - [claude-audit-static.md](claude-audit-static.md)
-<<<<<<< .merge_file_Aeokza
 - [queueable-action-trait-mandatory](../../../../docs/wiki/rules/queueable-action-trait-mandatory.md)
-=======
 - [queueable-action-trait-mandatory](../../../../../../docs/wiki/rules/queueable-action-trait-mandatory.md)
->>>>>>> .merge_file_jOXlK7

@@ -8,19 +8,16 @@ qmd: "quick-start 🚀 <nome progetto> - guida rapida sviluppatori"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_efvyNe
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
   - "./acronym-naming-conventions.md"
-=======
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
->>>>>>> .merge_file_sh2yrN
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -504,13 +501,10 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 
 ### Documentazione
 - **[Indice Documentazione](./documentation-index.md)**
-<<<<<<< .merge_file_efvyNe
 - **[Roadmap Status](./roadmap-status-summary.md)**
 - **[Documentation Status](./project_docs/documentation-status.md)**
-=======
 - **[Roadmap Status](../../../roadmap-status-summary.md)**
 - **[Documentation Status](../../../project_docs/documentation-status.md)**
->>>>>>> .merge_file_sh2yrN
 
 ### Framework
 - **[Laravel Docs](https://laravel.com/docs/11.x)**
@@ -519,11 +513,8 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 
 ### Regole Progetto
 - **[Laraxot Rules](./.windsurf/rules/user_15338591596331277449.md)**
-<<<<<<< .merge_file_efvyNe
 - **[Code Quality](./.windsurf/rules/code-quality.md)**
-=======
 - **[Code Quality](../../../ai-agents/code-quality.md)**
->>>>>>> .merge_file_sh2yrN
 - **[Project Rules](./.windsurf/rules/project-rules.md)**
 
 ---

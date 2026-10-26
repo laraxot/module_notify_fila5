@@ -98,11 +98,8 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 - Trait type hints
 - Relations return types
 
-<<<<<<< .merge_file_yevWdo
 **Guida**: [User Roadmap](../Modules/User/docs/roadmap-and-issues.md)
-=======
 **Guida**: [User Roadmap](../../User/docs/roadmap-and-issues.md)
->>>>>>> .merge_file_lMphVx
 
 ---
 
@@ -154,11 +151,8 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 ### Durante il Lavoro (reference)
 2. **[Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)** - Errori dettagliati Xot
-<<<<<<< .merge_file_yevWdo
 3. **[User Roadmap](../Modules/User/docs/roadmap-and-issues.md)** - Errori dettagliati User
-=======
 3. **[User Roadmap](../../User/docs/roadmap-and-issues.md)** - Errori dettagliati User
->>>>>>> .merge_file_lMphVx
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status

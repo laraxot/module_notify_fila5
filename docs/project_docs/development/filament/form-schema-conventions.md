@@ -145,11 +145,8 @@ class MyResource extends XotBaseResource
 - [Resource Rules](./resource-rules.md)
 - [Form Components](./form-components.md)
 - [Form Validation](./form-validation.md)
-<<<<<<< .merge_file_J3GTDX
 - [Best Practices](./best-practices.md)
-=======
 - [Best Practices](../../../best-practices.md)
->>>>>>> .merge_file_swDg7b
 - [Troubleshooting Form](../../troubleshooting/errors/form-errors.md)
 
 ---

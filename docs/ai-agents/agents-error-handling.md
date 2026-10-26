@@ -100,11 +100,8 @@ discussions: []
 
 - [Indice AGENTS](./agents-split-index.md)
 - [phpstan.md](./phpstan.md) - Analisi statica
-<<<<<<< .merge_file_z0CK2u
 - [AGENTS.md originale](../../AGENTS.md)
 - [agents.md originale](../../agents.md)
-=======
 - [AGENTS.md originale](../AGENTS.md)
 - [agents.md originale](../agents.md)
->>>>>>> .merge_file_IOiqJR
 - [Index principale](./index.md)

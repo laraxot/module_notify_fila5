@@ -402,11 +402,8 @@ final class SendTestNotificationAction extends Action
             ->label(__('Invia Test'))
             ->icon('heroicon-o-paper-airplane')
             ->action(function (Template $record, array $data): void {
-<<<<<<< .merge_file_UfRZfv
                 app(SendNotificationAction::class)->execute(
-=======
                 app(SendNotificationAction::class)->handle(
->>>>>>> .merge_file_JAinfl
                     $data['recipient'],
                     $record->code,
                     $data['test_data'] ?? [],

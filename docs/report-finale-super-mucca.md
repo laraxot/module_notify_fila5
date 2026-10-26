@@ -8,7 +8,6 @@ qmd: "report-finale-super-mucca 🐄✨ report finale - super mucca livello infi
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-<<<<<<< .merge_file_WIBFZL
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -17,7 +16,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-=======
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -27,7 +25,6 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
->>>>>>> .merge_file_PafLwm
 ---
 
 # 🐄✨ REPORT FINALE - SUPER MUCCA LIVELLO INFINITO ✨🐄
@@ -162,11 +159,7 @@ Ogni file contiene:
 7. `docs/README_REFACTORING.md` - Quick start
 8. `docs/missione-super-mucca-completata.md` - Missione report
 9. `docs/report-finale-super-mucca.md` - Questo file
-<<<<<<< .merge_file_WIBFZL
 10. Aggiornati 18× `metodi-duplicati-analisi.md`
-=======
-10. Aggiornati 18× `metodi-duplicati-analisi.md`
->>>>>>> .merge_file_PafLwm
 
 ---
 
@@ -276,11 +269,7 @@ Ogni file contiene:
 ✅ 20× dry-kiss-analysis.md (ogni modulo/tema)
 ✅ 1× dry-kiss-analysis-master.md
 ✅ 10× Master docs (analisi, implementazione, reports)
-<<<<<<< .merge_file_WIBFZL
 ✅ 18× metodi-duplicati-analisi.md (aggiornati)
-=======
-✅ 18× metodi-duplicati-analisi.md (aggiornati)
->>>>>>> .merge_file_PafLwm
 ```
 
 ### Backup (10 files)

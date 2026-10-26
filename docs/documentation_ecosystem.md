@@ -264,7 +264,6 @@ Xot (Core) ◄──────────────────────
 
 | I Need... | Start Here | Then Go To | Then Go To |
 |-----------|-----------|-----------|-----------|
-<<<<<<< .merge_file_fKUEP7
 | Quick start | [Copilot Inst.](../../.github/copilot-instructions.md) | [Architecture](ARCHITECTURE-DIAGRAMS.md) | Your task |
 | Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-INDEX.md` | Details |
 | Theme overview | [Theme Index](THEMES_DOCUMENTATION_INDEX.md) | `Themes/{Name}/docs/00-INDEX.md` | Details |
@@ -276,7 +275,6 @@ Xot (Core) ◄──────────────────────
 | Track changes | [Activity Docs](../laravel/Modules/Activity/docs/) | [Audit Trail](../laravel/Modules/Activity/docs/guides/) | Examples |
 | Code standards | [CLAUDE.md](../laravel/CLAUDE.md) | [Copilot Inst.](../../.github/copilot-instructions.md) | Review |
 | Architecture | [Architecture](ARCHITECTURE-DIAGRAMS.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
-=======
 | Quick start | [Copilot Inst.](../.github/copilot-instructions.md) | [Architecture](ARCHITECTURE-DIAGRAMS.md) | Your task |
 | Module overview | [Module Index](MODULE_DOCS_INDEX.md) | `Modules/{Name}/docs/00-INDEX.md` | Details |
 | Theme overview | [Theme Index](THEMES_DOCUMENTATION_INDEX.md) | `Themes/{Name}/docs/00-INDEX.md` | Details |
@@ -288,7 +286,6 @@ Xot (Core) ◄──────────────────────
 | Track changes | [Activity Docs](../../Activity/docs) | [Audit Trail](../../Activity/docs/guides) | Examples |
 | Code standards | [CLAUDE.md](../../../CLAUDE.md) | [Copilot Inst.](../.github/copilot-instructions.md) | Review |
 | Architecture | [Architecture](ARCHITECTURE-DIAGRAMS.md) | [Design Comuni](../../../Themes/Sixteen/docs/design-comuni) | Deep dive |
->>>>>>> .merge_file_8xgDcr
 
 ---
 
@@ -459,13 +456,10 @@ laravel/Themes/
 - **Module Development** → [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
 - **Theme Development** → [THEMES_DOCUMENTATION_INDEX.md](THEMES_DOCUMENTATION_INDEX.md)
 - **Code Quality** → [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
-<<<<<<< .merge_file_fKUEP7
 - **Framework Rules** → [laravel/CLAUDE.md](../laravel/CLAUDE.md)
 - **Copilot Usage** → [.github/copilot-instructions.md](../../.github/copilot-instructions.md)
-=======
 - **Framework Rules** → [laravel/CLAUDE.md](../../../CLAUDE.md)
 - **Copilot Usage** → [.github/copilot-instructions.md](../.github/copilot-instructions.md)
->>>>>>> .merge_file_8xgDcr
 - **Design Comuni** → Search for `DESIGN_COMUNI_` files
 
 ### By Use Case
@@ -567,11 +561,8 @@ Connected Via:
 
 ### For Developers
 
-<<<<<<< .merge_file_fKUEP7
 1. Start: [Copilot Instructions](../../.github/copilot-instructions.md)
-=======
 1. Start: [Copilot Instructions](../.github/copilot-instructions.md)
->>>>>>> .merge_file_8xgDcr
 2. Understand: [Architecture Diagrams](ARCHITECTURE-DIAGRAMS.md)
 3. Explore: [Module Index](MODULE_DOCS_INDEX.md) or [Theme Index](THEMES_DOCUMENTATION_INDEX.md)
 4. Deep Dive: Relevant module/theme 00-INDEX.md
@@ -588,11 +579,8 @@ Connected Via:
 
 ### For New Project Members
 
-<<<<<<< .merge_file_fKUEP7
 1. Read: [Copilot Instructions](../../.github/copilot-instructions.md)
-=======
 1. Read: [Copilot Instructions](../.github/copilot-instructions.md)
->>>>>>> .merge_file_8xgDcr
 2. Watch: Architecture diagrams in this file
 3. Explore: Master indexes for your area
 4. Ask: Use GitHub discussions for questions

@@ -56,6 +56,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;
 
+    /** La chiave e' un UUID char(36): niente auto-increment, altrimenti dopo l'insert l'id diventa '0'. */
+    public $incrementing = false;
+
     /** @var list<string> */
     public array $translatable = [
         'subject',
