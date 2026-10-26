@@ -16,7 +16,8 @@ related:
   - ../conventions/README.md
   - ../rules/README.md
   - naming-conventions.md
-status: draft
+status: superseded
+superseded_by: ../translation-conventions.md
 ---
 # Convenzioni per le Traduzioni del Modulo Notify
 

@@ -17,15 +17,6 @@ status: draft
 > **Labels**: `testing`, `subtree`, `sync`, `multi-agent`
 
 ---
-
-title: "ISSUE SUBTREE SYNC TEST"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ISSUE SUBTREE SYNC TEST"
-issues: []
-discussions: []
 ## 📋 Overview
 
 This issue tracks the testing of git subtree synchronization between the main repository and module repositories.

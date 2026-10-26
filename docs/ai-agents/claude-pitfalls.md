@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "claude pitfalls"
 issues: []
 discussions: []
+status: draft
 ---
 
 # CLAUDE Common Pitfalls
@@ -19,15 +20,6 @@ Errori comuni da evitare.
 **✅ CORRETTO**: Usare Folio + Volt + JSON pages
 
 ---
-
-title: "claude pitfalls"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "claude pitfalls"
-issues: []
-discussions: []
 ### 2. ❌ Connessioni Per-Modulo in Config
 **✅ CORRETTO**: Seguire Laravel 12 standard - solo driver connections
 

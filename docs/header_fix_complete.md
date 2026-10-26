@@ -16,15 +16,6 @@ status: draft
 ## Status: ✅ Header Completamente Rifatto
 
 ---
-
-title: "header fix complete"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "header fix complete"
-issues: []
-discussions: []
 ## 🔴 Problemi Risolti
 
 ### 1. Logo non visibile ✅ RISOLTO

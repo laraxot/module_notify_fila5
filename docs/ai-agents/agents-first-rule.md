@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents first rule"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Agents first rule: Read → Reason → Study → Update → Improve

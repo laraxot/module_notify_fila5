@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "translation file structure guide"
 issues: []
 discussions: []
+status: superseded
+superseded_by: translation-file-structure-guide.md
 ---
 
 # Guida alla Struttura dei File di Traduzione

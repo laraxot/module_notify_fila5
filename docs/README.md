@@ -13,7 +13,7 @@ tags: [module, documentation]
 created: 2026-06-05
 updated: 2026-10-20
 related:
-  - ./00-INDEX.md
+  - ./00-index.md
   - ./stories/docs-ingressi-notify.story.md
   - ./bmad/decision-log.md
   - ./bmad/filament-blueprint.md
@@ -76,8 +76,8 @@ Modules\Notify\Models\NotificationTemplateVersion
 
 ## Collegamenti
 
-- [Xot Base](../Xot/docs/) - Core framework
-- [User Module](../User/docs/) - User management integration
+- [Xot Base](../../Xot/docs) - Core framework
+- [User Module](../../User/docs) - User management integration
 
 ## Risorse
 
@@ -147,7 +147,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 ---
 
 Cartella `docs/` del modulo Notify. Indice operativo (directory canoniche, evidence, famiglie dei file della radice):
-[00-INDEX.md](./00-INDEX.md). Hub BMAD: [bmad/decision-log.md](./bmad/decision-log.md), [bmad/filament-blueprint.md](./bmad/filament-blueprint.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
+[00-INDEX.md](./00-index.md). Hub BMAD: [bmad/decision-log.md](./bmad/decision-log.md), [bmad/filament-blueprint.md](./bmad/filament-blueprint.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
 `ls` e `grep` su `laravel/Modules/Notify`.
 
 
@@ -327,7 +327,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 - **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
   Sistema template email database
 
-- **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
+- **[Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)**  
 - **[Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)**  
   Best practices layout email
 
@@ -551,9 +551,9 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Documentazione Interna
 
 #### Email System
-- [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
-- [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
-- [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
+- [Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)
+- [Spatie Mail Templates Structure](./mail-templates/spatie_mail_templates_structure.md)
+- [Email Troubleshooting](./email-sending/email_troubleshooting.md)
 
 #### Notifications
 - [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)

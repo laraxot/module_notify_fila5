@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "GEMINI"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: gemini.md
 ---
 
 # Gemini Rules (Modular)

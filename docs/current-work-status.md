@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "current work status"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: current-work.md
 ---
 
 # Stato Attuale del Lavoro - 12 Maggio 2025

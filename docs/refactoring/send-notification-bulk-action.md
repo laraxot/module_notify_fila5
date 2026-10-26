@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "send notification bulk action"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Send Notification Bulk Action - DRY Refactoring
@@ -330,13 +331,4 @@ public function getTableBulkActions(): array
 - **Type Safety**: PHPStan Level 10
 
 ---
-
-title: "send notification bulk action"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "send notification bulk action"
-issues: []
-discussions: []
 **Next Steps**: Implement Step 1 (Result DTO) and verify architecture.

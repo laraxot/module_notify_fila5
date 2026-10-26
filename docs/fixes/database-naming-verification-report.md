@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "database naming verification report"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ✅ Database Directory Naming - Verification Report
@@ -16,15 +17,6 @@ discussions: []
 > **Status**: ✅ All Clear
 
 ---
-
-title: "database naming verification report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "database naming verification report"
-issues: []
-discussions: []
 ## 🎯 Executive Summary
 
 **Tutte le directory del database nei moduli Laravel seguono già la convenzione corretta (minuscolo).**

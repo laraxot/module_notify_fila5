@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "DESIGN COMUNI BMAD MASTER PLAN"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Design Comuni Italia - BMad Master Plan
@@ -18,15 +19,6 @@ discussions: []
 **Method:** BMAD-METHOD + GSD + Ralph Loop
 
 ---
-
-title: "DESIGN COMUNI BMAD MASTER PLAN"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "DESIGN COMUNI BMAD MASTER PLAN"
-issues: []
-discussions: []
 ## 🎯 Mission Statement
 
 Replicare **ESATTAMENTE** le 38 pagine statiche di Design Comuni Italia utilizzando:

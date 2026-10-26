@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "translations"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Traduzioni del Modulo Notify
@@ -145,11 +146,3 @@ Notification::make()
 * [translations.md](../../../Cms/docs/translations.md)
 
 ---
-title: "translations"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translations"
-issues: []
-discussions: []

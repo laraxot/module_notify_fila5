@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mail template migration guide"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Guida alla Migrazione di MailTemplate

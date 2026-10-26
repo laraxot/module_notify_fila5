@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "MASTER INDEX"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: master_index.md
 ---
 
 # Design Comuni Italia - Master Documentation Index

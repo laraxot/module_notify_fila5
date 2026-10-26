@@ -165,7 +165,7 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 ## Risorse e Documentazione
 
 ### Documentazione Tecnica
-- [Architecture Guide](./architecture.md)
+- [Architecture Guide](./ARCHITECTURE.md)
 - [API Documentation](./api-docs.md)
 - [Database Schema](./database-schema.md)
 - [Deployment Guide](./deployment.md)

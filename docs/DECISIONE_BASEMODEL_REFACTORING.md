@@ -17,15 +17,6 @@ status: draft
 **Risposta**: **SÌ, MA CON ECCEZIONI DOCUMENTATE** ✅⚠️
 
 ---
-
-title: "DECISIONE BASEMODEL REFACTORING"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "DECISIONE BASEMODEL REFACTORING"
-issues: []
-discussions: []
 ## 📊 Situazione Attuale (VERIFICATA)
 
 ### Stato dei 18 Moduli

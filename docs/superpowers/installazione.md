@@ -93,13 +93,4 @@ Per pinning versione specifica:
 - Discord: https://discord.gg/Jd8Vphy9jq
 
 ---
-
-title: "installazione"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "installazione"
-issues: []
-discussions: []
 *Documento creato: 2026-03-31*

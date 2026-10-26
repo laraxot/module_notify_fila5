@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 🎉 PROGETTO FIXCITY - COMPLETAMENTO SESSIONE 1 OTTOBRE 2025

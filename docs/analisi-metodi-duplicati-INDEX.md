@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "analisi metodi duplicati INDEX"
 issues: []
 discussions: []
+status: superseded
+superseded_by: analisi-metodi-duplicati-index.md
 ---
 
 # 📚 INDICE COMPLETO - Analisi Metodi Duplicati

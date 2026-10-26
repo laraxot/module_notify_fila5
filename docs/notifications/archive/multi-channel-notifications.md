@@ -1,3 +1,11 @@
+---
+title: "Implementazione di Notifiche Multi-Canale"
+type: note
+status: draft
+updated: 2026-10-15
+tags: [docs, notify, notifications]
+qmd: "implementazione di notifiche multi-canale notify"
+---
 # Implementazione di Notifiche Multi-Canale 
 
 Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.

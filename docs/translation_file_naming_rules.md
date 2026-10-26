@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "translation file naming rules"
 issues: []
 discussions: []
+status: superseded
+superseded_by: translation-file-naming-rules.md
 ---
 
 # Regole di Naming per i File di Traduzione

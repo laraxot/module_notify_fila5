@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap master index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🗺️ FixCity - Master Roadmap Index
@@ -17,15 +18,6 @@ discussions: []
 **Completezza Funzionale**: 85%
 
 ---
-
-title: "roadmap master index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap master index"
-issues: []
-discussions: []
 ## 📋 INDICE ROADMAP MODULI
 
 ### 🔴 PRIORITÀ CRITICA - Da Completare Domani

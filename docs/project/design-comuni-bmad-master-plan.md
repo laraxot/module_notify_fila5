@@ -16,6 +16,7 @@ related:
   - "./commit-message.md"
   - "./configuration.md"
   - "./docs-governance.md"
+status: draft
 ---
 
 # Design Comuni Italia - BMad Master Plan

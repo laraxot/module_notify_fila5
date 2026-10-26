@@ -7,6 +7,7 @@ updated: 2026-10-23
 qmd: "project roadmap"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🗺️ FIXCITY - PROJECT ROADMAP COMPLETA
@@ -16,15 +17,6 @@ discussions: []
 > **Maintainer**: Development Team
 
 ---
-
-title: "project roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "project roadmap"
-issues: []
-discussions: []
 ## 📊 EXECUTIVE SUMMARY
 
 **FixCity** è una piattaforma di civic engagement per la gestione delle segnalazioni urbane. Architettura **modular monolith** basata su Nwidart + Laraxot, con backend Filament 3.x e frontend Folio + Volt + Livewire 3.x.

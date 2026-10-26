@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "modern email design patterns"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Pattern di Design per Email Moderne

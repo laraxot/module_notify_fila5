@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "bmad master"
 issues: []
 discussions: []
+status: draft
 ---
 
 ### BMad Master Task Executor (id: bmad-master)
@@ -118,15 +119,6 @@ dependencies:
 
 
 ---
-
-title: "bmad master"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "bmad master"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

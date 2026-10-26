@@ -16,15 +16,6 @@ status: draft
 **Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 
 ---
-
-title: "05 front office audit"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "05 front office audit"
-issues: []
-discussions: []
 ## 🔍 Mandatory Checklist (Before Commit)
 
 ### 1. Routing Multilingual

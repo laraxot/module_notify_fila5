@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "standardized sms config structure"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Struttura Standardizzata della Configurazione SMS
@@ -173,13 +174,4 @@ $debug = $config['drivers'][$driver]['debug'] ?? $config['debug'];
 - [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
 
 ---
-
-title: "standardized sms config structure"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "standardized sms config structure"
-issues: []
-discussions: []
 *Ultimo aggiornamento: 2025-05-12*

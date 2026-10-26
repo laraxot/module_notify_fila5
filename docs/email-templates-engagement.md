@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email templates engagement"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Template Email per Alto Engagement

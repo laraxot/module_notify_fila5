@@ -338,15 +338,6 @@ Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
 - [Xot Filament Class Extension Rules](../xot/docs/filament-class-extension-rules.md)
 
 ---
-
-title: "send notification bulk action"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "send notification bulk action"
-issues: []
-discussions: []
 **Ultimo aggiornamento**: [DATE]  
 **PHPStan Level**: ✅ 10  
 **Quality**: ✅ PHPMD, PHPInsights compliant

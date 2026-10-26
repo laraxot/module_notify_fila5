@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "SYSTEM ADMIN SUMMARY 2026 03 13"
 issues: []
 discussions: []
+status: superseded
+superseded_by: system-admin-summary-administration.md
 ---
 
 # System Administration Summary - 2026-03-13
@@ -303,7 +305,7 @@ systemctl is-active apache2 ollama
 ## ⚠️ Important Notes
 
 ### Security
-- Root password used: `zorin` (provided by user)
+- Root password used: `[omessa]` (provided by user)
 - Consider changing default passwords
 - Review sudo access regularly
 

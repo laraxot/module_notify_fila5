@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "resource rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Regole per le Risorse Filament
@@ -200,14 +201,5 @@ class DoctorResource extends XotBaseResource
 - [Troubleshooting Filament](../../troubleshooting/errors/filament-errors.md)
 
 ---
-
-title: "resource rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "resource rules"
-issues: []
-discussions: []
 *Ultimo aggiornamento: Agosto 2025*
 *Fonte: laravel/Modules/Xot/docs/FILAMENT_RESOURCE_RULES.md* 

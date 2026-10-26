@@ -17,15 +17,6 @@ status: draft
 > **Agent**: @marco76tv
 
 ---
-
-title: "github actions fix report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "github actions fix report"
-issues: []
-discussions: []
 ## 🎯 Mission
 
 1. ✅ Update GitHub Discussions (using gh API)

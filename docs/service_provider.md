@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "service provider"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: bmad/architecture/service-provider.md
 ---
 
 # Service Provider del Modulo Notify

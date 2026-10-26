@@ -1,3 +1,11 @@
+---
+title: "Analisi Mailpace Templates"
+type: note
+status: draft
+updated: 2026-10-15
+tags: [docs, notify, mail-templates]
+qmd: "analisi mailpace templates notify"
+---
 # Analisi Mailpace Templates
 
 ## Introduzione

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mailpace templates analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Mailpace Templates

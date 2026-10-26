@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "translation namespace religion"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Translation Namespace Philosophy — La Religione del Dominio
@@ -18,15 +19,6 @@ discussions: []
 **Audience**: All developers + AI agents
 
 ---
-
-title: "translation namespace religion"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translation namespace religion"
-issues: []
-discussions: []
 ## LA REGOLA AUREA
 
 **Le traduzioni sono organizzate per DOMINIO, non per componente UI.**

@@ -43,15 +43,6 @@ status: draft
 **Priority**: Medium - Per workflow "HTML FIRST" valutare se strukturale o CSS
 
 ---
-
-title: "argomenti"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "argomenti"
-issues: []
-discussions: []
 *Created: 2026-04-07*
 *Page: argomenti*
 *Category: design-comuni*

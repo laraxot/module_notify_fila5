@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap ands"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notify Module - Roadmap, Issues & Optimization
@@ -16,15 +17,6 @@ discussions: []
 **Status PHPStan**: ✅ 0 errori (Level 10)
 
 ---
-
-title: "roadmap ands"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap ands"
-issues: []
-discussions: []
 ## 📊 STATO ATTUALE
 
 ### Completezza Funzionale: 70%

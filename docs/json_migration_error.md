@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "json migration error"
 issues: []
 discussions: []
+status: superseded
+superseded_by: json-migration-error.md
 ---
 
 # Errore di Migrazione JSON e Soluzione

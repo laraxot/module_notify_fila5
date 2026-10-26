@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "migration standards"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Standard per le Migrazioni
@@ -225,14 +226,5 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 - [Architecture Standards](../../architecture/standards/)
 
 ---
-
-title: "migration standards"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "migration standards"
-issues: []
-discussions: []
 *Ultimo aggiornamento: Agosto 2025*
 *Fonte: laravel/Modules/Xot/docs/MIGRATION_STANDARDS.md* 

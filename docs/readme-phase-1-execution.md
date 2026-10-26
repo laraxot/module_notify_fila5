@@ -19,15 +19,6 @@ status: draft
 **Target**: segnalazioni-elenco → 90% HTML parity
 
 ---
-
-title: "readme phase 1 execution"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "readme phase 1 execution"
-issues: []
-discussions: []
 ## 🎯 QUICK ORIENTATION
 
 **WHERE AM I?**

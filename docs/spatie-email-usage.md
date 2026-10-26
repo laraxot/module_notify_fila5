@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "spatie email usage"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Guida all'utilizzo di SpatieEmail

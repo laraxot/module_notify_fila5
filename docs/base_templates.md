@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "base templates"
 issues: []
 discussions: []
+status: superseded
+superseded_by: base-templates.md
 ---
 
 # Template Email di Base

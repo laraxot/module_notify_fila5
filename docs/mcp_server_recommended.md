@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "mcp server recommended"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: mcp-server-recommended.md
 ---
 
 # MCP Server Consigliati per il Modulo Notify

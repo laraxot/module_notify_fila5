@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "firebase"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: ../-integration/firebase.md
 ---
 
 # firebase

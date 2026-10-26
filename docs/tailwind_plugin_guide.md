@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "tailwind plugin guide"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: tailwind-plugin.md
 ---
 
 # Guida: Creazione di Plugin Tailwind Custom per <nome progetto>

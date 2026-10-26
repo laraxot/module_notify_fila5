@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "kilo configuration"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Kilo Configuration Guide
@@ -373,15 +374,6 @@ kilo chat --model "google/gemini-2.5-pro"
 - [OpenViking Integration](../openviking-integration.md)
 
 ---
-
-title: "kilo configuration"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "kilo configuration"
-issues: []
-discussions: []
 **Last Updated**: 2026-03-30  
 **Configuration Version**: 1.0.0  
 **Status**: ✅ Active

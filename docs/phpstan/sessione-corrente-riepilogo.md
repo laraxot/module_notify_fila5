@@ -1,3 +1,11 @@
+---
+title: "Riepilogo Sessione Analisi PHPStan Test"
+type: note
+status: draft
+updated: 2026-10-22
+tags: [docs, notify, phpstan]
+qmd: "riepilogo sessione analisi phpstan test notify"
+---
 # Riepilogo Sessione Analisi PHPStan Test
 
 ## 📋 Sommario Esecutivo

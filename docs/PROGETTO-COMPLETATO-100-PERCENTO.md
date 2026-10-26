@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "PROGETTO COMPLETATO 100 PERCENTO"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
@@ -16,15 +17,6 @@ discussions: []
 **Achievement**: 🏆🏆🏆 **STRAORDINARIO - OLTRE LE ASPETTATIVE** 🏆🏆🏆
 
 ---
-
-title: "PROGETTO COMPLETATO 100 PERCENTO"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "PROGETTO COMPLETATO 100 PERCENTO"
-issues: []
-discussions: []
 ## 🎉 RISULTATO FINALE
 
 ```

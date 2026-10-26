@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "METODI DUPLICATI ANALISI GLOBALE"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: metodi_duplicati_analisi_globale.md
 ---
 
 # 🐮 ANALISI GLOBALE METODI DUPLICATI

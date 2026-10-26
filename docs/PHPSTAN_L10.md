@@ -63,7 +63,7 @@ phpstan analyse app --level=10
 
 ## Related Docs
 
-- [`phpstan-l10-compliance.md`](../../../docs/wiki/rules/phpstan-l10-compliance.md)
+- [`phpstan-l10-compliance.md`](../../../../docs/wiki/rules/phpstan-l10-compliance.md)
 - [`phpstan-l10-compliance.md`](../../../../docs/wiki/rules/phpstan-l10-compliance.md)
 - [`MODULE_STRUCTURE.md`](./MODULE_STRUCTURE.md) — Module discipline
 - [GitHub Repo](https://github.com/laraxot/module_notify_fila5)

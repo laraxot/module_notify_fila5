@@ -16,6 +16,8 @@ related:
   - ../../../../notifications/readme.md
   - ../../../../integrations/readme.md
   - ../../../../templates/readme.md
+status: superseded
+superseded_by: ../../../../theme/sixteen/analysis/index.md
 ---
 # Theme Sixteen Analysis Index
 

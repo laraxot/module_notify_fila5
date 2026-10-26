@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "DESIGN CONVERSION ROADMAP"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: design-conversion-roadmap.md
 ---
 
 # Design Comuni Conversion Roadmap

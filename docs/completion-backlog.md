@@ -1,3 +1,11 @@
+---
+title: "Notify — completion backlog"
+type: note
+status: draft
+updated: 2026-10-26
+tags: [docs, notify]
+qmd: "notify   completion backlog notify"
+---
 # Notify — completion backlog
 
 Status: partial and evidence-driven. This file is the canonical owner-local list for future work.

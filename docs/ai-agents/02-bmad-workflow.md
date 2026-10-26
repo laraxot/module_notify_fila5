@@ -16,15 +16,6 @@ status: draft
 **Related**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md) — GSD Method
 
 ---
-
-title: "02 bmad workflow"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "02 bmad workflow"
-issues: []
-discussions: []
 ## 📋 Overview
 
 BMAD is an AI-driven agile development framework with 12+ specialized agents.

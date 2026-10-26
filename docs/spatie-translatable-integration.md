@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "spatie translatable integration"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Integrazione Spatie Translatable nel Modulo Notify
@@ -276,15 +277,6 @@ Schema::table('mail_templates', function (Blueprint $table) {
 - [Filament Panels Configuration](../../xot/docs/filament/panel-configuration.md)
 
 ---
-
-title: "spatie translatable integration"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "spatie translatable integration"
-issues: []
-discussions: []
 **Ultimo aggiornamento**: 27 Ottobre 2025  
 **Status**: ✅ PLUGIN REGISTRATO  
 **Compatibilità**: Filament 4.x

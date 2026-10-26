@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sms provider configuration best practices"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Best Practices per la Configurazione dei Provider SMS

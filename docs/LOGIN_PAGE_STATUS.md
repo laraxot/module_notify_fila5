@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "LOGIN PAGE STATUS"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📊 Status Pagina Login - Verifica Tecnica
@@ -15,15 +16,6 @@ discussions: []
 **URL**: http://127.0.0.1:8000/it/auth/login
 
 ---
-
-title: "LOGIN PAGE STATUS"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "LOGIN PAGE STATUS"
-issues: []
-discussions: []
 ## ✅ File Verificati e Corretti
 
 ### 1. Template Login

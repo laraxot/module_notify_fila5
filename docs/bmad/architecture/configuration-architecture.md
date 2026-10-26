@@ -16,6 +16,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: superseded
+superseded_by: ../../configuration-architecture.md
 ---
 
 # Architettura delle Configurazioni nei Moduli Laravel

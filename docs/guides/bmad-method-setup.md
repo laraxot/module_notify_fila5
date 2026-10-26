@@ -18,15 +18,6 @@ status: draft
 **Progetto:** Notify Fila5 (Laraxot)
 
 ---
-
-title: "bmad method setup"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "bmad method setup"
-issues: []
-discussions: []
 ## documentazione canonica (naming stabile)
 
 - [setup e configurazione](../bmad/setup-guide.md)

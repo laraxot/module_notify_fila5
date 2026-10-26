@@ -468,15 +468,6 @@ jobs:
 - **Q4**: Scale and optimization
 
 ---
-
-title: "roadmap technical"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap technical"
-issues: []
-discussions: []
 **📞 Contatti**
 - **Tech Lead**: Laraxot Development Team
 - **Email**: tech@laraxot.com

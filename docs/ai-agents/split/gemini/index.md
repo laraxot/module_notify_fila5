@@ -16,6 +16,7 @@ related:
   - ../../../notifications/readme.md
   - ../../../integrations/readme.md
   - ../../../templates/readme.md
+status: draft
 ---
 # Gemini AI Guidelines (../../../../laravel/GEMINI.md) Index
 

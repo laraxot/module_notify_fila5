@@ -12,6 +12,11 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+title: "Metodi Duplicati — Analisi Notify"
+type: note
+status: stub
+updated: 2026-10-23
+qmd: "metodi duplicati   analisi notify notify"
 ---
 
 # Metodi Duplicati — Analisi Notify

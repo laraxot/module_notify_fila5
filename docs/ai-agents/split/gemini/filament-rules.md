@@ -163,15 +163,6 @@ livewire(ListUsers::class)
 </laravel-boost-guidelines>
 
 ---
-
-title: "filament rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

@@ -15,6 +15,7 @@ related:
   - ../rules/README.md
   - ../best-practices/naming-conventions.md
 status: active
+updated: 2026-10-23
 ---
 # QueueableAction Pattern Guide
 

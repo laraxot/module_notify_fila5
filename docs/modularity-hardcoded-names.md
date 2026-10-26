@@ -168,13 +168,4 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 - [Configuration Guide](configuration-guide.md)
 
 ---
-
-title: "modularity hardcoded names"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "modularity hardcoded names"
-issues: []
-discussions: []
 **Questa correzione è CRITICA per mantenere l'architettura modulare del sistema. Ogni violazione deve essere corretta immediatamente.**

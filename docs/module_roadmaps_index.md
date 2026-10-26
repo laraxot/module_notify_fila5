@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "module roadmaps index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Laraxot Module Roadmaps - Master Index
@@ -303,13 +304,4 @@ For questions about module roadmaps:
 - **Documentation**: [Full Documentation](./)
 
 ---
-
-title: "module roadmaps index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "module roadmaps index"
-issues: []
-discussions: []
 **Maintainer**: Laraxot Team

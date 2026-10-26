@@ -56,14 +56,6 @@ status: draft
 - GitHub: [#272](https://github.com/laraxot/platform/issues/272) / [D#273](https://github.com/laraxot/platform/discussions/273)
 
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "log"
-issues: []
-discussions: []
-title: "Notify Wiki Activity Log"
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), `llm-wiki.txt` (file `bashscripts/tools/prompts/llm-wiki.txt` non presente il 2026-10-14)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
 - Stub/checklist: second-brain → canon Xot, ai-harness, hackernoon map (`docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md`: file non presente il 2026-10-14), `llm-wiki.txt` (non presente)

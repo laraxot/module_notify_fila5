@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "README ANALISI DUPLICATI"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: readme_analisi_duplicati.md
 ---
 
 # 🐄 Analisi Metodi Duplicati - Guida Rapida

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents overview"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎯 AI Agents Overview
@@ -16,15 +17,6 @@ discussions: []
 **Stato**: ✅ OPERATIONAL
 
 ---
-
-title: "agents overview"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agents overview"
-issues: []
-discussions: []
 ## 📊 Project Stack
 
 ### Core Technology

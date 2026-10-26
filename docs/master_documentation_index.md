@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "master documentation index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📚 Master Documentation Index
@@ -16,15 +17,6 @@ discussions: []
 **Owner**: Multi-Agent Team
 
 ---
-
-title: "master documentation index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "master documentation index"
-issues: []
-discussions: []
 ## 🎯 Quick Navigation
 
 ### Per Nuovi Arrivati

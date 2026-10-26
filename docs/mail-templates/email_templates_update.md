@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "email templates update"
 issues: []
 discussions: []
+status: superseded
+superseded_by: email-templates-update.md
 ---
 
 # Email Templates Update Guide

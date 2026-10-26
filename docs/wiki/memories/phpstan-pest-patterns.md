@@ -6,6 +6,7 @@ type: concept
 tags: [phpstan, pest, notify]
 updated: 2026-10-18
 status: active
+qmd: "phpstan + pest (notify) notify"
 ---
 
 # PHPStan + Pest (Notify)

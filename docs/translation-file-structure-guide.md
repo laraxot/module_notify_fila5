@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "translation file structure guide"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Guida alla Struttura dei File di Traduzione

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email templates"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sistema di Email Template
@@ -349,15 +350,6 @@ php artisan tinker
 - [Troubleshooting](./troubleshooting.md)
 
 ---
-
-title: "email templates"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "email templates"
-issues: []
-discussions: []
 **Ultimo aggiornamento**: 26 Giugno 2025  
 **Status**: Aggiornato per errore critico MissingMailTemplate  
 **Priorità**: URGENT - Fix sistema registrazione

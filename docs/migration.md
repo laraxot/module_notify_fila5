@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "migration"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Regole per le Migrazioni nel Modulo Notify

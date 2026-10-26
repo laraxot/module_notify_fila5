@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "05 FRONT OFFICE AUDIT"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 05-front-office-audit.md
 ---
 
 # 📋 Front Office Pages Audit Checklist

@@ -14,6 +14,7 @@ related:
   - ../../../../../../docs/wiki/concepts/composer-root-minimal-nwidart.md
   - ../../composer.json
   - ../../../composer.json
+status: draft
 ---
 
 # Notify e composer root minimale

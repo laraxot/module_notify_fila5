@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "START HERE REPLIKATE PHASE2"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: start-here-replikate-phase2.md
 ---
 
 # 🚀 START HERE - REPLIKATE Phase 2

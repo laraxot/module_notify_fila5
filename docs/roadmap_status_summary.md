@@ -20,15 +20,6 @@ status: draft
 **Production Status**: 🚧 STAGING READY  
 
 ---
-
-title: "roadmap status summary"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap status summary"
-issues: []
-discussions: []
 ## 🎯 EXECUTIVE SUMMARY
 
 Siamo nella Fase 2 della roadmap master (Q4 2025). La Fase 1 (Performance & Stability) è stata completata

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "duplicate methods global analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Globale Metodi Duplicati - FixCity

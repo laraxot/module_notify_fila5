@@ -18,15 +18,6 @@ Questo file è il "AGENTS.md" della wiki: istruzioni per l'LLM su come mantenere
 Questo file è il "agents.md" della wiki: istruzioni per l'LLM su come mantenere la wiki.
 
 ---
-
-title: "schema"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "schema"
-issues: []
-discussions: []
 ## Regole Fondamentali
 
 ### R1 — Raw è Immutabile

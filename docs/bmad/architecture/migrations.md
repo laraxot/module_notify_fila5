@@ -12,6 +12,9 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
+tags: [docs, notify, bmad]
+qmd: "notify module   migrations & schema parity notify"
 ---
 
 # Notify Module — Migrations & Schema Parity

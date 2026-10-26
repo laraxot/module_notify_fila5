@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "absolute completion 100"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: absolute-completion-completamento-assoluto.md
 ---
 
 # 🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%

@@ -11,6 +11,7 @@ name: git-lfs-push-missing-objects
 description: 29 local commits blocked pushing to laraxot with GH008 LFS error; fixed by copying LFS objects from provtv (which already had them) instead of rewriting history
 metadata:
   type: troubleshooting
+status: draft
 ---
 
 # Git LFS Push Missing Objects (Notify)

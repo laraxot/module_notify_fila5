@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "laraxot model rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Laraxot model rules

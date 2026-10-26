@@ -16,6 +16,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: superseded
+superseded_by: ../../errori-azione-netfun.md
 ---
 
 # Analisi degli Errori in SendNetfunSMSAction

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "slug solutions analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Soluzioni per Slug in Filament

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "1 database naming"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📁 Database Directory Naming Best Practices
@@ -17,15 +18,6 @@ discussions: []
 **Status**: ✅ Active
 
 ---
-
-title: "1 database naming"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "1 database naming"
-issues: []
-discussions: []
 Ciao a tutti! 👋
 
 Ho appena creato una nuova convention document per standardizzare il naming delle directory del database in tutti i moduli Laravel.

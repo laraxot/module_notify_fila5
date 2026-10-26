@@ -18,15 +18,6 @@ status: draft
 **Estimated Time**: Follow step-by-step tutorials
 
 ---
-
-title: "AGID IMPLEMENTATION GUIDE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "AGID IMPLEMENTATION GUIDE"
-issues: []
-discussions: []
 ## 📚 Table of Contents
 
 1. [Multi-Step Form Wizard](#multi-step-form-wizard)

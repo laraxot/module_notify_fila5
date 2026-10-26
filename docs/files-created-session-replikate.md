@@ -44,15 +44,6 @@ Project Root:
 ```
 
 ---
-
-title: "files created session replikate"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "files created session replikate"
-issues: []
-discussions: []
 ## 🧪 Analysis Output Files
 
 ### Temporary Analysis Directory

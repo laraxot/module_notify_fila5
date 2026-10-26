@@ -295,15 +295,6 @@ dev:reset-demo
 ```
 
 ---
-
-title: "commands"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "commands"
-issues: []
-discussions: []
 ## 🚨 REGOLA CRITICA - Frontend
 
 **MAI dimenticare dopo modifiche CSS/JS**:

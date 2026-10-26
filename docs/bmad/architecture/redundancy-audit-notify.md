@@ -13,6 +13,9 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
+updated: 2026-10-23
+qmd: "notify redundancy audit 2026-05-21 notify"
 ---
 
 # Notify redundancy audit 2026-05-21

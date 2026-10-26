@@ -7,6 +7,8 @@ scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
 status: stale
+tags: [docs, notify, wiki]
+qmd: "**indice documentazione modulo notify** notify"
 ---
 
 > Nota 2026-10-14 (docs-audit): Variante di maiuscole di wiki/00-INDEX.md, stesso testo; l'indice operativo e' ../00-INDEX.md. Contenuto non riscritto, verificare prima di usarlo.

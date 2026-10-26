@@ -16,6 +16,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: superseded
+superseded_by: ../../xot-base-classes-checklist.md
 ---
 
 # Checklist: Verifica Classi Base Xot

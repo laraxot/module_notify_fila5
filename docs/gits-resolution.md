@@ -81,12 +81,4 @@ Tutti i file risolti rispettano:
 - [Notification Channels](./notification_channels_implementation.md)
 
 ---
-title: "gits resolution"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "gits resolution"
-issues: []
-discussions: []
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

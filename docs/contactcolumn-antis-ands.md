@@ -140,15 +140,6 @@ private function formatContacts(Client $record): string
 6. [ ] Validazione conformità alle memorie
 
 ---
-
-title: "contactcolumn antis ands"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "contactcolumn antis ands"
-issues: []
-discussions: []
 **GRAVITÀ**: CRITICA  
 **IMPATTO**: Alto - Pattern sbagliato potrebbe essere copiato  
 **PRIORITÀ**: Immediata - Correggere subito  

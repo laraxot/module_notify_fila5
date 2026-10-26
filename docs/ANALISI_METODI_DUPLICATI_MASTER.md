@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "ANALISI METODI DUPLICATI MASTER"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: analisi_metodi_duplicati_master.md
 ---
 
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION

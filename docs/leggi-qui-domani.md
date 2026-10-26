@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "leggi qui domani"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📖 LEGGI QUI DOMANI MATTINA - 2 Ottobre 2025
@@ -14,15 +15,6 @@ discussions: []
 Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 
 ---
-
-title: "leggi qui domani"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "leggi qui domani"
-issues: []
-discussions: []
 ## ✅ COSA ABBIAMO FATTO IERI (1 Ottobre)
 
 ### 🎉 SUCCESSO STRAORDINARIO: 83% COMPLETATO!

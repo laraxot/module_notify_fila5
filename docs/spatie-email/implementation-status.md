@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "implementation status"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Stato Implementazione SpatieEmail

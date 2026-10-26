@@ -95,15 +95,6 @@ Forms\Components\Select::make('user_id')
 
 
 ---
-
-title: "filament rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

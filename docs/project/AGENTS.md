@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "AGENTS"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notify Platform - agents.md
@@ -971,15 +972,6 @@ Log::info('Payment processed', ['order_id' => $order->id, 'amount' => $order->am
 - [ ] Update documentation
 
 ---
-
-title: "AGENTS"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "AGENTS"
-issues: []
-discussions: []
 ## 🔍 PHPSTAN LEVEL 10 COMPLIANCE GUIDE
 
 ### Critical Error Patterns and Prevention

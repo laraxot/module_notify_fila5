@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "business analyst"
 issues: []
 discussions: []
+status: draft
 ---
 
 ### Business Analyst (id: analyst)
@@ -96,15 +97,6 @@ These are reusable task briefs you can reference directly in Codex.
 
 
 ---
-
-title: "business analyst"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "business analyst"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

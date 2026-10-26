@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "analisi metodi duplicati MASTER"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: analisi-metodi-duplicati-master.md
 ---
 
 # 🐄✨ ANALISI DIVINA METODI DUPLICATI - MASTER EDITION ✨🐄

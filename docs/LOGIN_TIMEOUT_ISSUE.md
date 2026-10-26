@@ -17,15 +17,6 @@ status: draft
 **URL Affetto**: http://127.0.0.1:8000/it/auth/login
 
 ---
-
-title: "LOGIN TIMEOUT ISSUE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "LOGIN TIMEOUT ISSUE"
-issues: []
-discussions: []
 ## 📋 Sintomi
 
 ### Errore Rilevato

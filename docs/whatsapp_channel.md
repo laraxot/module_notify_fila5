@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "whatsapp channel"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: bmad/architecture/whatsapp-channel.md
 ---
 
 # Implementazione Canale WhatsApp

@@ -18,15 +18,6 @@ status: draft
 https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 
 ---
-
-title: "verifica homepage"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "verifica homepage"
-issues: []
-discussions: []
 ## ✅ Elementi Implementati Correttamente
 
 ### 1. Hero Section - "Contenuti in Evidenza"

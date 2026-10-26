@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email troubleshooting"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Risoluzione dei Problemi nelle Email 

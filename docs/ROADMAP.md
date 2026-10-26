@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ROADMAP"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🗺️ FixCity Design System - Product Roadmap
@@ -16,15 +17,6 @@ discussions: []
 > Status: 🟢 ACTIVE DEVELOPMENT
 
 ---
-
-title: "ROADMAP"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ROADMAP"
-issues: []
-discussions: []
 ## 📊 Roadmap Overview
 
 FixCity is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 4.x + Tailwind CSS + Alpine.js.

@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "ZEN OF FIXCITY"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: zen_of_fixcity.md
 ---
 
 # 🧘 Zen of FixCity - Complete Philosophy

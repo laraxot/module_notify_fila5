@@ -19,6 +19,8 @@ related:
   - ../../conventions/README.md
   - ../../rules/README.md
   - ../../best-practices/naming-conventions.md
+status: superseded
+superseded_by: ../../architecture/structure-standards.md
 ---
 # Standard di Struttura nel Modulo Notify
 

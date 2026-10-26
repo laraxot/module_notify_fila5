@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "07 MCP TAILWIND UI"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 07-mcp-tailwind-ui.md
 ---
 
 # 🎨 MCP Servers per Tailwind CSS & UI Frameworks

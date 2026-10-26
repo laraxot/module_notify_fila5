@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "queueable actions"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: queueable-actions.md
 ---
 
 # Queueable Actions con Spatie in Notify

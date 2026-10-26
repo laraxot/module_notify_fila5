@@ -13,6 +13,7 @@ related:
   - ../../redundancy-audit-notify.md
   - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
   - ../../../../Xot/docs/wiki/redundancy-audit-2026-05-26.md
+status: draft
 ---
 
 # Ridondanza — Notify

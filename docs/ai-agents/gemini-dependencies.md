@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "gemini dependencies"
 issues: []
 discussions: []
+status: draft
 ---
 
 # GEMINI Dependencies
@@ -14,15 +15,6 @@ discussions: []
 Gestione dipendenze Composer e moduli.
 
 ---
-
-title: "gemini dependencies"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "gemini dependencies"
-issues: []
-discussions: []
 ## Regola Critica
 
 Il `composer.json` nella **root** (`laravel/composer.json`) **NON DEVE ESSERE MODIFICATO** per aggiungere dipendenze specifiche di un modulo.

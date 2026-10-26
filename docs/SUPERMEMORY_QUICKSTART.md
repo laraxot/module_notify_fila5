@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "SUPERMEMORY QUICKSTART"
 issues: []
 discussions: []
+status: draft
 ---
 
 # SuperMemory - AI Memory Infrastructure
@@ -209,13 +210,4 @@ supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 - **SuperMemory Console**: https://console.supermemory.ai
 
 ---
-
-title: "SUPERMEMORY QUICKSTART"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SUPERMEMORY QUICKSTART"
-issues: []
-discussions: []
 *This document follows DRY+KISS principles. For general MCP server info, see the master doc.*

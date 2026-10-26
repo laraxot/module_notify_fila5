@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "base templates"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Template Email di Base

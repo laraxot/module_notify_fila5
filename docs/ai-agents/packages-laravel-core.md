@@ -34,15 +34,6 @@ Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 | laravel/mcp | 0.5.9 |
 
 ---
-
-title: "packages laravel core"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "packages laravel core"
-issues: []
-discussions: []
 ## Laravel 12 — Principali novita
 
 - PHP 8.2+ minimo, pieno supporto PHP 8.4

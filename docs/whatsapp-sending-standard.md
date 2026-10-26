@@ -16,15 +16,6 @@ status: draft
 Questa guida definisce lo standard per l'invio di messaggi WhatsApp all'interno del modulo Notify, seguendo la stessa architettura modulare, configurazione e best practice già adottate per email e SMS. L'obiettivo è garantire coerenza, riusabilità e facilità di manutenzione, indipendentemente dal provider utilizzato (Twilio, Vonage, WhatsApp Business API, ecc.).
 
 ---
-
-title: "whatsapp sending standard"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "whatsapp sending standard"
-issues: []
-discussions: []
 ## 1. Struttura delle Azioni WhatsApp
 
 - Ogni provider WhatsApp deve avere una propria action in `app/Actions/WhatsApp`.

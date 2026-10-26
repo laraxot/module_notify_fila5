@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents filament migration"
 issues: []
 discussions: []
+status: draft
 ---
 
 # AGENTS Filament Migration
@@ -23,15 +24,6 @@ Guida alla migrazione da Filament v3/v4 a v5.
 | Tailwind CSS v4.0+ | ❌ v3 - DA AGGIORNARE | ✅ |
 
 ---
-
-title: "agents filament migration"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agents filament migration"
-issues: []
-discussions: []
 ## Migration Process
 
 ```bash

@@ -289,4 +289,4 @@ class NotificationListTest extends TestCase
 - [Documentazione Form](tailwind_forms.md)
 - [Documentazione Layout](tailwind_layouts.md)
 - [Documentazione Componenti](tailwind_components.md)
-- [Architettura](architecture.md)
+- [Architettura](ARCHITECTURE.md)

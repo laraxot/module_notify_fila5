@@ -18,15 +18,6 @@ status: draft
 **Scope**: Tutte le cartelle docs dei moduli e temi  
 
 ---
-
-title: "docs monitoring system"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "docs monitoring system"
-issues: []
-discussions: []
 ## 🎯 OBIETTIVO
 
 Monitorare costantemente tutte le cartelle `docs` dei moduli e temi per:

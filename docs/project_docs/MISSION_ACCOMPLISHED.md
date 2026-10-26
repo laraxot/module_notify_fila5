@@ -20,15 +20,6 @@ status: draft
 **Certificazione:** 🏆 **EXCELLENCE 2025**
 
 ---
-
-title: "MISSION ACCOMPLISHED"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MISSION ACCOMPLISHED"
-issues: []
-discussions: []
 ## Notify - Base Fila5
 ### **PROGETTO COMPLETATO AL 100% CON ECCELLENZA 2025**
 

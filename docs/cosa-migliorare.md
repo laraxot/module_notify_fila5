@@ -8,6 +8,7 @@ type: report
 module: Notify
 updated: 2026-09-01
 qmd: "cosa migliorare notify phpstan phpmd phpinsights coverage debito priorita"
+status: draft
 ---
 
 # Cosa migliorare — modulo Notify

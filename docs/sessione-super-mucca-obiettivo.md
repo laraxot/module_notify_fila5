@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sessione 2025 10 15 super mucca"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🐮 Sessione Super Mucca - 2025-10-15
@@ -16,15 +17,6 @@ discussions: []
 Analizzare e documentare la necessità di creare `XotBasePivot` seguendo principi **DRY** e **KISS**, poi **implementare** la soluzione con **PHPStan Level 10** compliance.
 
 ---
-
-title: "sessione 2025 10 15 super mucca"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sessione 2025 10 15 super mucca"
-issues: []
-discussions: []
 ## ✅ Lavoro Completato
 
 ### 1. Analisi Architettuale Completa (2 ore)

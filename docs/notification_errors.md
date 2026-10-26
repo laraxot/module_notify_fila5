@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "notification errors"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: notification-errors.md
 ---
 
 # Errori Comuni nelle Notifiche

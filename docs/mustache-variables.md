@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mustache variables"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Mustache Variables - SpatieEmail Template System
@@ -20,15 +21,6 @@ discussions: []
 I template email utilizzano il motore di rendering **Mustache** per sostituire variabili dinamiche nel contenuto HTML. Questo documento elenca tutte le variabili disponibili automaticamente e come aggiungerne di personalizzate.
 
 ---
-
-title: "mustache variables"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "mustache variables"
-issues: []
-discussions: []
 ## Variabili Automatiche (Sempre Disponibili)
 
 Queste variabili sono automaticamente popolate da `SpatieEmail` durante la costruzione dell'email.

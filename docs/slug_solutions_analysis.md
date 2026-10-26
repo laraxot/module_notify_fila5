@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "slug solutions analysis"
 issues: []
 discussions: []
+status: superseded
+superseded_by: slug-solutions-analysis.md
 ---
 
 # Analisi Soluzioni per Slug in Filament

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "record notification constructor slug"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Refactoring RecordNotification Constructor - Slug Pattern
@@ -261,14 +262,5 @@ $notification = new RecordNotification($record, 'welcome');
 Il pattern attuale di `RecordNotification` è **Zen Delegation**: invece di risolvere `MailTemplate` internamente (lazy resolution), `RecordNotification` delega completamente a `SpatieEmail` che gestisce tutta la logica di template resolution, placeholder replacement e layout application. Questo elimina qualsiasi duplicazione e segue il principio DRY in modo assoluto.
 
 ---
-
-title: "record notification constructor slug"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "record notification constructor slug"
-issues: []
-discussions: []
 **Ultimo aggiornamento**: 19 Dicembre 2025  
 **Filosofia**: *"Intent over implementation, lazy over eager, simple over complex"*

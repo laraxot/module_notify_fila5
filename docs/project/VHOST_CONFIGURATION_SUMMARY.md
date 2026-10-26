@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "VHOST CONFIGURATION SUMMARY"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🌐 VHost Configuration Summary
@@ -16,15 +17,6 @@ discussions: []
 > **Domain**: laraxot.local
 
 ---
-
-title: "VHOST CONFIGURATION SUMMARY"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "VHOST CONFIGURATION SUMMARY"
-issues: []
-discussions: []
 ## 📋 Overview
 
 This document summarizes the complete VHost configuration implementation for the Notify platform.

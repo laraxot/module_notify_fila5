@@ -17,6 +17,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: superseded
+superseded_by: ../../diamond-coverage-report.md
 ---
 
 # 💎 FIXCITY - DIAMOND COVERAGE REPORT

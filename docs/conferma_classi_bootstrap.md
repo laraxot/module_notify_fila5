@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "conferma classi bootstrap"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: conferma-classi-bootstrap.md
 ---
 
 # ✅ Conferma: Classi Bootstrap Italia Corrette

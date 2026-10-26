@@ -1,10 +1,11 @@
 ---
 title: "LLM Wiki Schema"
 type: note
-status: draft
 updated: 2026-10-08
 tags: [docs, notify, wiki]
 qmd: "llm wiki schema notify"
+status: superseded
+superseded_by: wiki_schema.md
 ---
 # LLM Wiki Schema
 

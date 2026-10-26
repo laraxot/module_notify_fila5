@@ -1,3 +1,11 @@
+---
+title: "PHPSTAN FIXES REPORT - FIXCITY"
+type: note
+status: draft
+updated: 2026-09-16
+tags: [docs, notify, phpstan]
+qmd: "phpstan fixes report - fixcity notify"
+---
 # 🐛 PHPSTAN FIXES REPORT - FIXCITY
 
 **Data**: 2025-10-02 21:00  

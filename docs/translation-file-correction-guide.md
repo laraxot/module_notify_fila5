@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "translation file correction guide"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Guida alla Correzione dei File di Traduzione

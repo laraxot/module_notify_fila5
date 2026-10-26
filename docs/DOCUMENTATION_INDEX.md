@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "DOCUMENTATION INDEX"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📚 Indice Generale Documentazione - Fixcity
@@ -23,15 +24,6 @@ discussions: []
 | **Guide** | [Development](#guide-sviluppo) • [Testing](#testing) • [Deploy](#deployment) |
 
 ---
-
-title: "DOCUMENTATION INDEX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "DOCUMENTATION INDEX"
-issues: []
-discussions: []
 ## 📖 Overview
 
 ### Documentazione Principale

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "correzioni phpstan completate 3"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Risoluzione Conflitti Git e Correzione Errori PHPStan - Modulo Notify
@@ -193,15 +194,6 @@ Durante la risoluzione:
 - [PHPStan User Guide](https://phpstan.org/user-guide/getting-started)
 
 ---
-
-title: "correzioni phpstan completate 3"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "correzioni phpstan completate 3"
-issues: []
-discussions: []
 **Status**:  **COMPLETATO**
 **Verificato**:  S� - PHPStan passa senza errori
 **Testato**:  S� - Analisi completa su 3715 file
