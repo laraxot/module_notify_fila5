@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "HEADER FIX COMPLETE"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: header_fix_complete.md
 ---
 
 # ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia

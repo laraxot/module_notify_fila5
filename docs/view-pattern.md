@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "view pattern"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Pattern view() — Variabile view-string + Parametri Espliciti

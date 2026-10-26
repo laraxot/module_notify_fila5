@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament resource pages architecture"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Architettura delle Pagine di Risorse Filament 

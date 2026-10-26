@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Analisi del Pattern Factory per la Selezione dei Provider SMS

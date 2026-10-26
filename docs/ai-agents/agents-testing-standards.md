@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents testing standards"
 issues: []
 discussions: []
+status: draft
 ---
 
 # AGENTS Testing Standards
@@ -23,15 +24,6 @@ tests/
 ```
 
 ---
-
-title: "agents testing standards"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agents testing standards"
-issues: []
-discussions: []
 ## Pest Testing Format
 
 ```php

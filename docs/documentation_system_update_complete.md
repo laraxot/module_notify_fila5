@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "documentation system update complete"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Documentation System Update - Complete
@@ -16,15 +17,6 @@ discussions: []
 **Type:** System Update  
 
 ---
-
-title: "documentation system update complete"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "documentation system update complete"
-issues: []
-discussions: []
 ## Executive Summary
 
 Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:

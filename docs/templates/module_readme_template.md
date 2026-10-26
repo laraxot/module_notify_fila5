@@ -177,11 +177,11 @@ composer test -- Modules/[ModuleName]
 - [Guides](./guides/) - How-to guides
 
 ### Related Modules
-- [Xot Module](../xot/README.md) - Base classes
+- [Xot Module](../../../Xot/README.md) - Base classes
 - [Xot Module](../../../Xot/README.md) - Base classes
 
 ---
 
-Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
+Navigation: [Project Home](../index.md) | [Modules](../../docs/modules/README.md)
 Navigation: [Project Home](../../docs/index.md) | [Modules](../../docs/modules/README.md)
 

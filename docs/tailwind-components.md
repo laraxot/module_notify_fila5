@@ -301,7 +301,7 @@ return [
 - [Documentazione Form](tailwind_forms.md)
 - [Documentazione Layout](tailwind_layouts.md)
 - [Documentazione Notifiche](tailwind_notifications.md)
-- [Architettura](architecture.md)
+- [Architettura](ARCHITECTURE.md)
 
 ## Note
 - Tutti i collegamenti sono relativi

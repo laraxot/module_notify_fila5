@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "workflow"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Workflow (Claude)

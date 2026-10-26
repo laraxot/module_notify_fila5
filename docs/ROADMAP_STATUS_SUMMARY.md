@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "ROADMAP STATUS SUMMARY"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: roadmap_status_summary.md
 ---
 
 # 📊 ROADMAP STATUS SUMMARY - Ottobre 2025

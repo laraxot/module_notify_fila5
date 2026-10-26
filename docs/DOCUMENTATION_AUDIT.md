@@ -17,15 +17,6 @@ status: draft
 **Scope:** All modules, themes, and project documentation
 
 ---
-
-title: "DOCUMENTATION AUDIT"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "DOCUMENTATION AUDIT"
-issues: []
-discussions: []
 ## Executive Summary
 
 ### Key Findings

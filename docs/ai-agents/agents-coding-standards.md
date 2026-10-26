@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents coding standards"
 issues: []
 discussions: []
+status: draft
 ---
 
 # AGENTS Coding Standards
@@ -29,15 +30,6 @@ Standard di codifica PHP e naming conventions.
 - Use **PHPDoc blocks** for class documentation (avoid inline comments)
 
 ---
-
-title: "agents coding standards"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agents coding standards"
-issues: []
-discussions: []
 ## Naming Conventions
 
 | Element | Convention | Example |

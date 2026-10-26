@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "FIXCITY IMPROVEMENT PLAN"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: IMPROVEMENT_PLAN.md
 ---
 
 # FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop

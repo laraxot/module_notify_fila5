@@ -26,6 +26,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "../../../actions-calling-actions-pattern.md"
+status: draft
 ---
 
 # 🎯 PIANO D'AZIONE IMMEDIATO - Notify Platform

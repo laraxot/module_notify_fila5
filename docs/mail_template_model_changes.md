@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "mail template model changes"
 issues: []
 discussions: []
+status: superseded
+superseded_by: mail-template-model-changes.md
 ---
 
 # Modifiche al Modello MailTemplate

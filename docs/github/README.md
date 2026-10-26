@@ -18,6 +18,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # GitHub Issues & Discussions - FixCity Platform
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "cyclomatic complexity summary"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Cyclomatic Complexity - Project Summary Report
@@ -15,15 +16,6 @@ discussions: []
 **Analyzer:** Super Mucca 🐮
 
 ---
-
-title: "cyclomatic complexity summary"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "cyclomatic complexity summary"
-issues: []
-discussions: []
 ## 📊 Global Statistics
 
 | Metric | Value |

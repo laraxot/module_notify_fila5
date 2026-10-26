@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "02 BMAD WORKFLOW"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 02-bmad-workflow.md
 ---
 
 # 🎨 BMAD Workflow (Breakthrough Method for Agile AI-Driven Development)

@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Ponytail-audit 2026-07-02: Notify module findings

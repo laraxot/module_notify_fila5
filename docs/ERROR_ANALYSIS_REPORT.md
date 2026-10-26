@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "ERROR ANALYSIS REPORT"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: error_analysis_report.md
 ---
 
 # 🐛 ERROR ANALYSIS REPORT - FIXCITY

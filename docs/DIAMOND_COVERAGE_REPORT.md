@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "DIAMOND COVERAGE REPORT"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: diamond_coverage_report.md
 ---
 
 # 💎 FIXCITY - DIAMOND COVERAGE REPORT

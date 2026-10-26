@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "SYNC REMOTE REPO TEST PLAN"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: sync_remote_repo_test_plan.md
 ---
 
 # Sync Remote Repo - Test Plan

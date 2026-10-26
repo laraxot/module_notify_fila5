@@ -1,3 +1,11 @@
+---
+title: "Documentazione PHPStan - base_fixcity_fila5_mono"
+type: index
+status: draft
+updated: 2026-10-22
+tags: [docs, notify, phpstan]
+qmd: "documentazione phpstan - base_fixcity_fila5_mono notify"
+---
 # Documentazione PHPStan - base_fixcity_fila5_mono
 
 **Progetto:** FixCity  

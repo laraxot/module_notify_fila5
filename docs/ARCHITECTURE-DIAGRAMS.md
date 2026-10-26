@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE DIAGRAMS"
 issues: []
 discussions: []
+status: superseded
+superseded_by: architecture-diagrams.md
 ---
 
 # Architecture Diagrams & Visual Reference

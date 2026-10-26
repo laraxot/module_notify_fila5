@@ -21,6 +21,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Project Structure — Module **Notify**
@@ -147,12 +148,6 @@ git commit -m "docs: add wiki structure for Notify"
 
 <!-- Merged from PROJECT-STRUCTURE.md, which collided with this file on case-insensitive filesystems. -->
 
----
-title: "Project Structure — Module Notify"
-type: documentation
-created: 2026-05-11
-updated: 2026-05-11
-tags: [structure, architecture, module]
 ---
 
 # Project Structure — Module **Notify**

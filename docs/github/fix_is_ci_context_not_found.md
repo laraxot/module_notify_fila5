@@ -18,15 +18,6 @@ status: draft
 > **Priorità**: Critica
 
 ---
-
-title: "fix is ci context not found"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "fix is ci context not found"
-issues: []
-discussions: []
 ## 🚨 Problema
 
 ### Errori Segnalati

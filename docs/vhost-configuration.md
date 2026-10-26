@@ -17,15 +17,6 @@ status: draft
 > **Environment**: Local Development
 
 ---
-
-title: "vhost configuration"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "vhost configuration"
-issues: []
-discussions: []
 ## 📋 Overview
 
 This guide covers the Apache VirtualHost configuration for FixCity local development environments.

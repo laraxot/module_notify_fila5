@@ -26,6 +26,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
   - "../../../actions-calling-actions-pattern.md"
+status: draft
 ---
 
 # 🏆 NOTIFY - COMPLETAMENTO ASSOLUTO 100%

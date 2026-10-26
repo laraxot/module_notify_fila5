@@ -16,6 +16,7 @@ related:
   - README.md
   - ../rules/README.md
   - ../best-practices/naming-conventions.md
+status: draft
 ---
 # Database Directory Naming Convention
 

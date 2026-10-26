@@ -16,6 +16,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: superseded
+superseded_by: ../../translations-structure-template.md
 ---
 
 # Template di Struttura per le Traduzioni

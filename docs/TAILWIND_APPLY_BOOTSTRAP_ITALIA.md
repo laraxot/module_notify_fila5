@@ -8,7 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: tailwind-apply-bootstrap-italia.md
 ---
 
 # ✅ Tailwind @apply per Bootstrap Italia - Completato

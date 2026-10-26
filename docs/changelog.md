@@ -27,15 +27,6 @@ Tutte le modifiche significative al modulo Notify saranno documentate in questo 
 - Regola Laraxot: MAI usare `\App\` nei namespace moduli
 
 ---
-
-title: "changelog"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "changelog"
-issues: []
-discussions: []
 ## Convenzioni
 
 - Namespace modulo: `Modules\Notify\{Subdirectory}`

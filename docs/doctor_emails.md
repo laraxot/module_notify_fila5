@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "doctor emails"
 issues: []
 discussions: []
+status: superseded
+superseded_by: doctor-emails.md
 ---
 
 # Email per i Dottori

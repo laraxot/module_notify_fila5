@@ -1,3 +1,11 @@
+---
+title: "Guida ai Template Email Responsive"
+type: note
+status: draft
+updated: 2026-10-15
+tags: [docs, notify, mail-templates]
+qmd: "guida ai template email responsive notify"
+---
 # Guida ai Template Email Responsive
 
 Questa guida descrive i template email responsive disponibili nel modulo Notify, la loro struttura e come utilizzarli nelle comunicazioni con gli utenti.

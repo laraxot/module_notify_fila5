@@ -17,15 +17,6 @@ status: draft
 **Causa**: Violazione regole XotBase + Filament 4  
 
 ---
-
-title: "error analysis report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "error analysis report"
-issues: []
-discussions: []
 ## 🔴 ERRORE PRINCIPALE
 
 ```

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email template slug proposal"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Proposta: Aggiunta del Parametro Slug per Email Template

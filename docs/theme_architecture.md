@@ -316,15 +316,6 @@ Tema configurabile
 - [Composer Merge Plugin](https://github.com/wikimedia/composer-merge-plugin)
 
 ---
-
-title: "theme architecture"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "theme architecture"
-issues: []
-discussions: []
 **Stato**: ✅ **ARCHITETTURA CORRETTA - Tema Configurabile**  
 **Concetto**: **"Il Tema è un Vestito"**  
 **Registrazione**: **Automatica (NON hardcoded)**  

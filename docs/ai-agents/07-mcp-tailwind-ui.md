@@ -17,15 +17,6 @@ status: draft
 **Priorità**: CRITICAL
 
 ---
-
-title: "07 mcp tailwind ui"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "07 mcp tailwind ui"
-issues: []
-discussions: []
 ## 📋 Panoramica
 
 Questo progetto utilizza **MCP (Model Context Protocol)** per integrare AI assistants con:

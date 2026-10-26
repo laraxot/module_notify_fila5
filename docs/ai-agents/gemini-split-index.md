@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "gemini split index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # GEMINI.md Split Index

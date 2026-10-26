@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "conflict resolution smsdriverenum"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Risoluzione Conflitto SmsDriverEnum

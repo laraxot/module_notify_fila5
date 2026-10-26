@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "IMMEDIATE ACTION PLAN 30 DAYS"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: immediate_action_plan_30_days.md
 ---
 
 # 🚀 IMMEDIATE ACTION PLAN - 30 DAYS

@@ -18,6 +18,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # MCP Server Index - FixCity Project
 # MCP Server Index - Notify Project

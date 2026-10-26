@@ -38,15 +38,6 @@ Pacchetti Spatie installati in App Fila5 Mono.
 | spatie/laravel-model-status | 1.20.0 | Status tracking model |
 
 ---
-
-title: "packages spatie"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "packages spatie"
-issues: []
-discussions: []
 ## spatie/laravel-data 4.19.1
 
 **Uso**: DTOs tipizzati per validazione, API response, TypeScript generation.

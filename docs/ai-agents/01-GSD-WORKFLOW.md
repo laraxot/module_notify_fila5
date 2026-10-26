@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "01 GSD WORKFLOW"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 01-gsd-workflow.md
 ---
 
 # 🚀 GSD Workflow (Get Shit Done)

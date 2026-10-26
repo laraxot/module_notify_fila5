@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "mailpace templates analysis"
 issues: []
 discussions: []
+status: superseded
+superseded_by: mailpace-templates-analysis.md
 ---
 
 # Analisi Mailpace Templates

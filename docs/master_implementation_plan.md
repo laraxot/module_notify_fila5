@@ -17,15 +17,6 @@ status: draft
 **Obiettivo**: Completare il progetto FixCity al 100%
 
 ---
-
-title: "master implementation plan"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "master implementation plan"
-issues: []
-discussions: []
 ## 📊 STATO ATTUALE
 
 ### Completamento Generale

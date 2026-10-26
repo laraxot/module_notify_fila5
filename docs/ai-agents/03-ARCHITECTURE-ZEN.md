@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "03 ARCHITECTURE ZEN"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 03-architecture-zen.md
 ---
 
 # 🏛️ Architecture Zen Philosophy

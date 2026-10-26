@@ -16,6 +16,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: superseded
+superseded_by: ../../mcp-server-recommended.md
 ---
 
 # MCP Server Consigliati per il Modulo Notify

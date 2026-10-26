@@ -18,15 +18,6 @@ status: draft
 **Status**: ✅ INTEGRATION COMPLETE  
 
 ---
-
-title: "design comuni integration complete"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design comuni integration complete"
-issues: []
-discussions: []
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in FixCity per garantire la conformità AGID 100%.

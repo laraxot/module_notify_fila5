@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "testing testcaseatabase connection"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Fix: Notify TestCase - Database Connection Configuration
@@ -101,14 +102,5 @@ protected function setUp(): void
 - [Media TestCase Fix](../../Media/docs/testing-testcase-database-connection-fix.md)
 
 ---
-
-title: "testing testcaseatabase connection"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "testing testcaseatabase connection"
-issues: []
-discussions: []
 **Status**: Completed
 **Risultato**: Test Notify ora configurano correttamente le connessioni database

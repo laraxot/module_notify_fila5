@@ -16,6 +16,7 @@ related:
   - readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # Indice Documentazione Notifiche
 

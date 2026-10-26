@@ -21,6 +21,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # OpenViking + BMAD + GSD + Ralph Loop - Setup Complete Report

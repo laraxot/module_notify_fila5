@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "template examples"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: template-examples.md
 ---
 
 # Esempi di Template Email

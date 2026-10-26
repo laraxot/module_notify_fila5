@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ralph gsd bmad orchestration"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Ralph + GSD + BMAD Orchestration

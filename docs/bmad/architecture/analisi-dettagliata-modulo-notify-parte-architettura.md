@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura

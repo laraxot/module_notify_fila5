@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agent teams"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Agent teams (Experimental - Opus 4.6)

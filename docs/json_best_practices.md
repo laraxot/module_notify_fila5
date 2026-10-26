@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "json best practices"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Best Practices per Migrazioni JSON

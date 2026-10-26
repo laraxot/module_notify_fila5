@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "04 FILAMENT PHILOSOPHY"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 04-filament-philosophy.md
 ---
 
 # 🎨 Filament Forms & Tables Philosophy

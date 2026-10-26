@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan test mai escludere"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚨 REGOLA CRITICA PROGETTO: PHPStan e Test
@@ -161,15 +162,6 @@ Ogni developer deve:
 I test devono sempre essere analizzati da PHPStan.
 
 ---
-
-title: "phpstan test mai escludere"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan test mai escludere"
-issues: []
-discussions: []
 **Data:** 10 Ottobre 2025  
 **Priorità:** 🚨 MASSIMA  
 **Categoria:** Regola Critica Non Derogabile  

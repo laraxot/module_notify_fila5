@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "XotBasePivot Executive Summary"
 issues: []
 discussions: []
+status: superseded
+superseded_by: xotbasepivot-executive-summary.md
 ---
 
 # XotBasePivot - Executive Summary

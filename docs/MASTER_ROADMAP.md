@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "MASTER ROADMAP"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: master_roadmap.md
 ---
 
 # 🗺️ FIXCITY - MASTER ROADMAP 2025-2026

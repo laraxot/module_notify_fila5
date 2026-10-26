@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "send email fix"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: send-email.md
 ---
 
 # Guida alla Correzione di SendEmail.php

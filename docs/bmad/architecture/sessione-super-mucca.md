@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 🐮 Sessione Super Mucca - 2025-10-15

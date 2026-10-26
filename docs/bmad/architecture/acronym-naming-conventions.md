@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
   - "./actions-calling-actions-pattern.md"
+status: draft
 ---
 
 # Convenzioni di Naming per Acronimi 

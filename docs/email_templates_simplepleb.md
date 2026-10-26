@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "email templates simplepleb"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: email-templates-simplepleb.md
 ---
 
 # Approfondimento: simplepleb/laravel-email-templates

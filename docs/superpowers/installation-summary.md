@@ -13,6 +13,7 @@ related:
   - "./skills-reference.md"
   - "./superpowers.md"
   - "./workflow.md"
+status: draft
 ---
 
 # 🦸 Superpowers Installation Summary

@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "spatie email slug proposal"
 issues: []
 discussions: []
+status: superseded
+superseded_by: spatie-email-slug-proposal.md
 ---
 
 # Proposta: Aggiunta Slug a SpatieEmail e MailTemplate

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents security guidelines"
 issues: []
 discussions: []
+status: draft
 ---
 
 # AGENTS Security Guidelines
@@ -21,15 +22,6 @@ Linee guida per la sicurezza.
 - Validate all input through Form Requests
 
 ---
-
-title: "agents security guidelines"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agents security guidelines"
-issues: []
-discussions: []
 ## Data Protection
 
 - Never commit credentials (use .env)

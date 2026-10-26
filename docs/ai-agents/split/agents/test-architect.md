@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "test architect"
 issues: []
 discussions: []
+status: draft
 ---
 
 ### Test Architect & Quality Advisor (id: qa)
@@ -95,15 +96,6 @@ dependencies:
 
 
 ---
-
-title: "test architect"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "test architect"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

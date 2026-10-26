@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "analisi metodi duplicati index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📚 INDICE COMPLETO - Analisi Metodi Duplicati
@@ -14,15 +15,6 @@ discussions: []
 > 🐄✨ **Navigazione Completa dei Documenti di Analisi**
 
 ---
-
-title: "analisi metodi duplicati index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analisi metodi duplicati index"
-issues: []
-discussions: []
 ## 🎯 Documenti Principali (START HERE!)
 
 ### 1. 🏆 MASTER EDITION - Il Documento Definitivo

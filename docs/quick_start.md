@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "quick start"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI
@@ -16,15 +17,6 @@ discussions: []
 **Target**: Sviluppatori che iniziano a lavorare su FixCity  
 
 ---
-
-title: "quick start"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "quick start"
-issues: []
-discussions: []
 ## 📋 PREREQUISITI
 
 ### Software Richiesto

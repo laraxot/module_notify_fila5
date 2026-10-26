@@ -18,15 +18,6 @@ status: draft
 **Priority**: BLOCKER
 
 ---
-
-title: "translation structure 5 levels mandatory"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "translation structure 5 levels mandatory"
-issues: []
-discussions: []
 ## 🎯 The Rule
 
 > **SEMPRE** usare traduzioni a **5 LIVELLI** con `__()`:

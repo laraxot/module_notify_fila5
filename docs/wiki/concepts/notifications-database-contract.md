@@ -7,6 +7,7 @@ tags: [notify, notifications, migration, database, user-connection, xotbasemigra
 created: 2026-06-10
 updated: 2026-06-10
 qmd: notifications database notify owner xotbasemigration user forbidden
+status: draft
 ---
 
 # notifications — schema Notify, runtime User

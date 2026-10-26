@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "BOOST SKILL SOLUTION PLAN"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: boost_skill_solution_plan.md
 ---
 
 # Boost Skill Installation - Solution Plan

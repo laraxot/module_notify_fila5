@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 🚀 IMPLEMENTATION SUMMARY - 27 Gennaio 2025

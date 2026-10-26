@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "PHASE 1 RESEARCH COMPLETE"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: phase-1-research-complete.md
 ---
 
 # ✅ PHASE 1 - RICERCA COMPLETATA

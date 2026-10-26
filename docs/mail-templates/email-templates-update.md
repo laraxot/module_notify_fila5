@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "email templates update"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Email Templates Update Guide

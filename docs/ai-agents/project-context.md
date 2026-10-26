@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "project context"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Project Context

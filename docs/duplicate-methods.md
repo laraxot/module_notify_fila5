@@ -63,15 +63,6 @@ public function linkable(): void
 **Procedere con refactoring** - Alta confidenza e bassa complessità rendono questa ottimizzazione sicura.
 
 ---
-
-title: "duplicate methods"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "duplicate methods"
-issues: []
-discussions: []
 ### 2. Metodo: `make`
 
 **Tipo Refactoring**: `Trait` | **Complessità**: 🟢 Low | **Confidenza**: ✅ 100%

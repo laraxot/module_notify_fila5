@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "excellence 2025"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: excellence-2025.md
 ---
 
 # 🏆 FIXCITY - ECCELLENZA 2025

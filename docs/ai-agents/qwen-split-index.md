@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "qwen split index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # QWEN.md Split Index

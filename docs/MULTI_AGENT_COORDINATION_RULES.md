@@ -8,6 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: superseded
+superseded_by: multi_agent_coordination_rules.md
 ---
 
 # 🤖 Multi-Agent AI Coordination - Critical Rules

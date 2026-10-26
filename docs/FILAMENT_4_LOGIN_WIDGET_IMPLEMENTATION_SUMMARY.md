@@ -8,6 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: superseded
+superseded_by: filament-4-login-widget-implementation-summary.md
 ---
 
 # 🎯 Riepilogo Implementazione Login Widget Filament 4

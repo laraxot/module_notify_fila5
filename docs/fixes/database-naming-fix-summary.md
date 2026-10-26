@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "database naming fix summary"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📁 Database Naming Convention - Fix Summary
@@ -16,15 +17,6 @@ discussions: []
 > **Modules Affected**: Blog (fixed), Others (to verify)
 
 ---
-
-title: "database naming fix summary"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "database naming fix summary"
-issues: []
-discussions: []
 ## 🎯 Summary
 
 Ho corretto tutti i riferimenti errati alle directory del database nel modulo **Blog** e aggiornato la documentazione di progetto per prevenire errori futuri.

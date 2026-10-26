@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "migration patterns"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Migration patterns

@@ -17,15 +17,6 @@ status: draft
 **Error**: `SQLSTATE[HY000]: General error: 8 attempt to write a readonly database`
 
 ---
-
-title: "SQLITE PERMISSION FIX"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SQLITE PERMISSION FIX"
-issues: []
-discussions: []
 ## 🚨 Error Details
 
 ### Original Error

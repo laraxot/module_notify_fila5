@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "github issues recommendations 2026 03 02"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: github-issues-recommendations-discussions.md
 ---
 
 # GitHub Issues and Discussions Recommendations

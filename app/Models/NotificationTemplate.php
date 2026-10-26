@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
+use Modules\Notify\Actions\RenderNotificationTemplateStringAction;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\HasMedia;
@@ -315,6 +315,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Compile a string template with the given data.
      *
+     * I template sono letti dal database: si sostituiscono solo i segnaposto, mai Blade/PHP (DCP-283, C-08).
+     *
      * @param  string|null  $template  The template to compile
      * @param  array<string, mixed>  $data  The data to compile with
      */
@@ -324,6 +326,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
             return null;
         }
 
-        return Blade::render($template, $data);
+        return app(RenderNotificationTemplateStringAction::class)->execute($template, $data);
     }
 }

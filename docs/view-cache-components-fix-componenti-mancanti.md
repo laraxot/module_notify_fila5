@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "view cache components fix 2025 10 15"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Fix View Cache - Componenti Mancanti

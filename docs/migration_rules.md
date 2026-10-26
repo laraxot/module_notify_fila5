@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "migration rules"
 issues: []
 discussions: []
+status: superseded
+superseded_by: migration-rules.md
 ---
 
 # Regole per le Migrazioni nel Modulo Notify

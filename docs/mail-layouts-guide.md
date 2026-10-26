@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mail layouts guide"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Guida ai Layout Email nel Modulo Notify

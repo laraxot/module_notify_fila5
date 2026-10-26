@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "MISSIONE SUPER MUCCA COMPLETATA"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: missione_super_mucca_completata.md
 ---
 
 # 🐄✨ MISSIONE SUPER MUCCA - COMPLETAMENTO TOTALE ✨🐄

@@ -13,6 +13,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
+qmd: "performance optimization   module **notify** notify"
 ---
 
 # Performance Optimization — Module **Notify**

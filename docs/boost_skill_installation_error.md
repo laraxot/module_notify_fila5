@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "boost skill installation error"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: boost-skill-installation-error.md
 ---
 
 # Boost Skill Installation Error Analysis

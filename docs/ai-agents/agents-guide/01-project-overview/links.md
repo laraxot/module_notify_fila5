@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "links"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Key Documentation Links
@@ -37,13 +38,5 @@ discussions: []
 - [MCP Guide](../../mcp.md)
 
 ---
-title: "links"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "links"
-issues: []
-discussions: []
 [Back to index](../index.md) | [Overview](project-overview.md) | [Guidelines](guidelines.md)
 [Back to index](../../../index.md) | [Overview](project-overview.md) | [Guidelines](guidelines.md)

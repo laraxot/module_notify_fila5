@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "architect"
 issues: []
 discussions: []
+status: draft
 ---
 
 ### Architect (id: architect)
@@ -93,15 +94,6 @@ dependencies:
 
 
 ---
-
-title: "architect"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "architect"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

@@ -17,6 +17,8 @@ related:
   - "../../architecture/queueable-action-pattern.md"
   - "./sms-config-structure.md"
   - "./standardized-sms-config-structure.md"
+status: superseded
+superseded_by: ../../architecture/document-root-architecture.md
 ---
 
 # Document Root Architecture

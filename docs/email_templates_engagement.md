@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "email templates engagement"
 issues: []
 discussions: []
+status: superseded
+superseded_by: email-templates-engagement.md
 ---
 
 # Template Email per Alto Engagement

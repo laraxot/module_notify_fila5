@@ -16,6 +16,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: superseded
+superseded_by: ../../tailwind-css-webcrunch.md
 ---
 
 # Tailwind CSS: Approfondimento Collezione Webcrunch

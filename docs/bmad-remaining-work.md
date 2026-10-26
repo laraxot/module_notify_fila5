@@ -8,6 +8,8 @@ updated: 2026-10-26
 tags: [bmad, notify, module, stories, remaining-work]
 related:
   - ../../docs/second-brain/project/bmad-architecture.md
+status: draft
+qmd: "notify module   bmad stories & remaining work notify"
 ---
 
 # Notify Module — BMAD Stories & Remaining Work

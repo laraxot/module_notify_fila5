@@ -16,6 +16,8 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: superseded
+superseded_by: ../../filament-4x-compatibility.md
 ---
 
 # Compatibilità Filament 4.x - Modulo Notify

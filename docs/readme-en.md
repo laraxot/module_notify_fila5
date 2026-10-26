@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "readme en"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📬 Notify — English presentation
@@ -24,15 +25,6 @@ discussions: []
 > **Citizens know what happens to their report.** Email, templates, channels — enterprise notification orchestration.
 
 ---
-
-title: "readme en"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "readme en"
-issues: []
-discussions: []
 ## Why it exists
 
 Closes the feedback loop: state changes become traceable messages.

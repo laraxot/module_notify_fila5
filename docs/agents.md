@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Project Agents (Modular)
@@ -76,15 +77,6 @@ docs/
 - **Lint**: Verifica consistenza e cross-references
 
 ---
-
-title: "agents"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agents"
-issues: []
-discussions: []
 ## Reusable Tasks
 
 - [Task: validate-next-story](./.agents/docs/main-rules/task-validate-next-story.md)

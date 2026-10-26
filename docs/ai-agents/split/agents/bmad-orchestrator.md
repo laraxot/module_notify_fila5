@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "bmad orchestrator"
 issues: []
 discussions: []
+status: draft
 ---
 
 ### BMad Master Orchestrator (id: bmad-orchestrator)
@@ -155,15 +156,6 @@ dependencies:
 
 
 ---
-
-title: "bmad orchestrator"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "bmad orchestrator"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [Agents Index](index.md) — All 10 BMad agents

@@ -20,15 +20,6 @@ status: draft
 
 
 ---
-
-title: "pennant rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "pennant rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines

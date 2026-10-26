@@ -93,7 +93,7 @@ Tutti i file risolti rispettano:
 ## Collegamenti
 
 - [Documentazione Root Notify](../../../docs/modules/notify.md)
-- [Architecture Documentation](./architecture.md)
+- [Architecture Documentation](./ARCHITECTURE.md)
 - [Email Templates](./email-templates.md)
 - [Notification Channels](./notification-channels-implementation.md)
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "SESSIONE ANALISI HOMEPAGE"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ✅ Sessione Completata - Homepage Analysis & Documentation
@@ -42,15 +43,6 @@ discussions: []
 **Conformità Totale**: 67%
 
 ---
-
-title: "SESSIONE ANALISI HOMEPAGE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SESSIONE ANALISI HOMEPAGE"
-issues: []
-discussions: []
 #### 2. Screenshot Analysis
 **File**: `docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md`
 

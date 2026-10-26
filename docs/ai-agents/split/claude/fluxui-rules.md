@@ -36,15 +36,6 @@ avatar, badge, brand, breadcrumbs, button, callout, checkbox, dropdown, field, h
 
 
 ---
-
-title: "fluxui rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "fluxui rules"
-issues: []
-discussions: []
 ## Cross-References
 
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines

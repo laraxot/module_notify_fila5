@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "translation standards progress"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Progresso Standardizzazione Traduzioni

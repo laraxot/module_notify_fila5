@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "06 CINEMATIC EFFECTS"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 06-cinematic-effects.md
 ---
 
 # 🎨 Cinematic Effects & Particles

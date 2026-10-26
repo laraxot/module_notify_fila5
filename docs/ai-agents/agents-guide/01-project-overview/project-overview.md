@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "project overview"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Project Overview
@@ -65,13 +66,5 @@ Modules/{ModuleName}/
 ```
 
 ---
-title: "project overview"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "project overview"
-issues: []
-discussions: []
 [Back to index](../index.md) | [Guidelines](guidelines.md) | [Links](links.md)
 [Back to index](../../../index.md) | [Guidelines](guidelines.md) | [Links](links.md)

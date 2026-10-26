@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "translations implementation status"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify

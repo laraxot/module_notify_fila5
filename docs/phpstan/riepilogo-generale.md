@@ -1,3 +1,11 @@
+---
+title: "Riepilogo Generale - PHPStan Level 10 Compliance"
+type: note
+status: draft
+updated: 2026-10-22
+tags: [docs, notify, phpstan]
+qmd: "riepilogo generale - phpstan level 10 compliance notify"
+---
 # Riepilogo Generale - PHPStan Level 10 Compliance
 
 **Progetto:** base_fixcity_fila5_mono  

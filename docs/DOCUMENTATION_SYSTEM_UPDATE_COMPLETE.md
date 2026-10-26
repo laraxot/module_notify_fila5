@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "DOCUMENTATION SYSTEM UPDATE COMPLETE"
 issues: []
 discussions: []
+status: superseded
+superseded_by: documentation_system_update_complete.md
 ---
 
 # Documentation System Update - Complete

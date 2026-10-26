@@ -16,15 +16,6 @@ status: draft
 **Related**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md) — Filament Widgets
 
 ---
-
-title: "03 architecture zen"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "03 architecture zen"
-issues: []
-discussions: []
 ## 🔴 Fundamental Rules
 
 ### 1. **NO Themes/*/Http/Livewire/**

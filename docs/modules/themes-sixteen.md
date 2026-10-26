@@ -13,6 +13,7 @@ related:
   - "./cms.md"
   - "./index.md"
   - "./ui.md"
+status: draft
 ---
 
 # Gestione asset Vite per il tema Sixteen

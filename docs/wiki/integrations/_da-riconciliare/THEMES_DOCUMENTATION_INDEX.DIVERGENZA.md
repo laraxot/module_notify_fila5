@@ -8,7 +8,8 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: themes_documentation_index.divergenza.md
 ---
 
 # Divergenza: `THEMES_DOCUMENTATION_INDEX.md`

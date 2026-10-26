@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "FILES CREATED SESSION REPLIKATE"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: files-created-session-replikate.md
 ---
 
 # Files Created - REPLIKATE Session (2026-04-07)

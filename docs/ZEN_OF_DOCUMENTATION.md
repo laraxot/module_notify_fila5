@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ZEN OF DOCUMENTATION"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🧘 Zen of Documentation - Filosofia Unificata
@@ -18,15 +19,6 @@ discussions: []
 Questo non significa non documentare. Significa documentare in modo **intelligente, sostenibile e automatico**.
 
 ---
-
-title: "ZEN OF DOCUMENTATION"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ZEN OF DOCUMENTATION"
-issues: []
-discussions: []
 ## 🎯 I Cinque Principi dello Zen
 
 ### 1. 📦 **Single Source of Truth (SSOT)**

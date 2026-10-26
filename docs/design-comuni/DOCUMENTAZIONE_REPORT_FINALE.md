@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "DOCUMENTAZIONE REPORT FINALE"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: documentazione_report_finale.md
 ---
 
 # Report Aggiornamento Documentazione Design Comuni FAQ

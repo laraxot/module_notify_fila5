@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mcp servers"
 issues: []
 discussions: []
+status: draft
 ---
 
 # MCP Servers Configuration

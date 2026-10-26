@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "testing"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Testing Rules Summary
@@ -506,15 +507,6 @@ Following these guidelines will ensure your Notify module tests are:
 Remember: Good tests are the foundation of reliable software development.
 
 ---
-
-title: "testing"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "testing"
-issues: []
-discussions: []
 *Last updated: January 2025*
 
 ---

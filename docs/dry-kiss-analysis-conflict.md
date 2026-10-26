@@ -44,12 +44,4 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 - 🔄 ServiceProvider: Auto-detect nome
 
 ---
-title: "dry kiss analysis conflict"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "dry kiss analysis conflict"
-issues: []
-discussions: []
 [DRY/KISS Global](../../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)

@@ -16,6 +16,7 @@ related:
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # System Administration Summary - 2026-03-13
@@ -304,7 +305,7 @@ systemctl is-active apache2 ollama
 ## ⚠️ Important Notes
 
 ### Security
-- Root password used: `zorin` (provided by user)
+- Root password used: `[omessa]` (provided by user)
 - Consider changing default passwords
 - Review sudo access regularly
 
