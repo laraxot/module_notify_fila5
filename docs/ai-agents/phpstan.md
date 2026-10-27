@@ -197,5 +197,5 @@ When PHPStan access is limited:
 ## Links
 
 - [Claude docs index](./context.md)
-- [General PHPStan guide](../../bashscripts/tools/prompts/phpstan.txt)
+- [General PHPStan guide](../../../../../bashscripts/tools/prompts/phpstan.txt)
 - [General docs](../../docs/README.md)

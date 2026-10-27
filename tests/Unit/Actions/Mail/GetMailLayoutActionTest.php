@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions\Mail;
+namespace Modules\Notify\Tests\Unit\Actions\Mail;
 
 use Modules\Notify\Actions\Mail\GetMailLayoutAction;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -14,9 +14,10 @@ use function Safe\class_uses;
 
 describe('GetMailLayoutAction', function () {
     it('can be instantiated', function () {
-        $action = new GetMailLayoutAction;
-
-        Assert::assertInstanceOf(GetMailLayoutAction::class, $action);
+        Assert::assertSame(
+            'Modules\\Notify\\Actions\\Mail',
+            (new \ReflectionClass(GetMailLayoutAction::class))->getNamespaceName(),
+        );
     });
 
     it('uses QueueableAction trait', function () {

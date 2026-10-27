@@ -113,11 +113,3 @@ Ogni modulo e tema deve documentare:
 4. Errori comuni da evitare
 
 I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
-
-## Cartella `tests/` (minuscolo obbligatorio)
-
-- Solo `tests/` minuscolo. `Tests/` e' vietato.
-
-## PHPStan standing order
-
-- Zero errori PHPStan; non modificare `phpstan.neon`.

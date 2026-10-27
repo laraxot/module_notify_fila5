@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit;
+namespace Modules\Notify\Tests\Unit;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
@@ -68,7 +68,7 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Notifications\GenericNotification;
-use Tests\Modules\Notify\Unit\Traits\NotifyTrackingDummy;
+use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionMethod;
@@ -178,24 +178,24 @@ describe('Notify highest-miss coverage', function (): void {
         }
     });
 
-    test('resources expose model pages and legacy form schema', function (): void {
+    test('resources expose model pages and form class schema', function (): void {
         Assert::assertSame(NotificationTemplate::class, NotificationTemplateResource::getModel());
-        Assert::assertArrayHasKey('name', app(NotificationTemplateResource::class)->getFormSchema());
+        Assert::assertArrayHasKey('name', (new (NotificationTemplateResource::getFormClass()))->getFormSchema());
         Assert::assertNotEmpty(NotificationTemplateResource::getPages());
 
         Assert::assertSame(NotifyTheme::class, NotifyThemeResource::getModel());
-        Assert::assertArrayHasKey('subject', app(NotifyThemeResource::class)->getFormSchema());
+        Assert::assertArrayHasKey('subject', (new (NotifyThemeResource::getFormClass()))->getFormSchema());
         Assert::assertNotEmpty(NotifyThemeResource::getPages());
 
         Assert::assertSame(MailTemplate::class, MailTemplateResource::getModel());
-        Assert::assertNotEmpty(app(MailTemplateResource::class)->getFormSchema());
+        Assert::assertNotEmpty((new (MailTemplateResource::getFormClass()))->getFormSchema());
         Assert::assertNotEmpty(MailTemplateResource::getPages());
 
         Assert::assertSame(\Modules\Notify\Models\Notification::class, NotificationResource::getModel());
-        Assert::assertNotEmpty(app(NotificationResource::class)->getFormSchema());
+        Assert::assertNotEmpty((new (NotificationResource::getFormClass()))->getFormSchema());
 
         Assert::assertSame(Contact::class, ContactResource::getModel());
-        Assert::assertNotEmpty(app(ContactResource::class)->getFormSchema());
+        Assert::assertNotEmpty((new (ContactResource::getFormClass()))->getFormSchema());
         Assert::assertNotEmpty(ContactResource::getPages());
     });
 

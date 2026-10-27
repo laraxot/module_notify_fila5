@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit;
+namespace Modules\Notify\Tests\Unit;
 
-use Tests\Modules\Xot\FilamentSchemaCoverage;
+use Modules\Xot\Tests\FilamentSchemaCoverage;
 use PHPUnit\Framework\Assert;
 
 use function Safe\glob;

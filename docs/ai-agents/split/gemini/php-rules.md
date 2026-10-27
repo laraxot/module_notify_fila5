@@ -51,7 +51,7 @@ protected function isAccessible(User $user, ?string $path = null): bool
 ---
 ## Cross-References
 
-- ← [GEMINI Index](index.md) — All Gemini guidelines
+- ← [GEMINI Index](INDEX.md) — All Gemini guidelines
 - ← [Main AI Docs Index](../INDEX.md) — Master index
 - ← [GEMINI Index](index.md) — All Gemini guidelines
 - ← [Main AI Docs Index](../index.md) — Master index

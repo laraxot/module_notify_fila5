@@ -183,7 +183,7 @@ Separate git repository with shell scripts and utilities:
 
 ---
 
-## Contenuto assorbito da `index.md`
+## Contenuto assorbito da `INDEX.md`
 
 # Knowledge Base Index
 

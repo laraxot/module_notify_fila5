@@ -8,10 +8,11 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: documentation-analysis-and-improvement-plan.divergenza.md
 ---
 
-# Divergenza: `documentation-analysis-and-improvement-plan.md`
+# Divergenza: `DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

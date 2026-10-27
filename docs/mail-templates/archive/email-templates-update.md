@@ -1,3 +1,11 @@
+---
+title: "Email Templates Update Guide"
+type: note
+status: draft
+updated: 2026-10-15
+tags: [docs, notify, mail-templates]
+qmd: "email templates update guide notify"
+---
 # Email Templates Update Guide
 
 ## Struttura Corretta per i Layout Email

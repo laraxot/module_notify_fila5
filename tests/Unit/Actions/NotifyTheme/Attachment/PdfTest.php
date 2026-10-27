@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions\NotifyTheme\Attachment;
+namespace Modules\Notify\Tests\Unit\Actions\NotifyTheme\Attachment;
 
 use Modules\Notify\Actions\NotifyTheme\Attachment\Pdf;
 use Modules\Notify\Datas\AttachmentData;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -19,7 +19,7 @@ describe('NotifyTheme\Attachment\Pdf', function () {
     });
 
     it('uses QueueableAction trait', function () {
-        $traits = class_uses(AttachmentData::class);
+        $traits = class_uses(Pdf::class);
         Assert::assertArrayHasKey(QueueableAction::class, $traits);
     });
 

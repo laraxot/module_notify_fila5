@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "view cache components fix 2025 10 15"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Fix View Cache - Componenti Mancanti
@@ -188,6 +189,6 @@ L'implementazione ha risolto con successo il problema della cache delle viste, c
 
 ### Root Progetto
 - [Analisi Completa](./analisi-completa-ottobre-data.md)
-- [Sessione Super Mucca](./sessione-super-mucca.md)
+- [Sessione Super Mucca](./SESSIONE-SUPER-MUCCA.md)
 - [Architecture](./architecture/)
 

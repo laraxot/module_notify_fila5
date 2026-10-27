@@ -2,75 +2,74 @@
 
 declare(strict_types=1);
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
+namespace Modules\Notify\Tests\Unit\Actions;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Notifications\AnonymousNotifiable;
+use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Actions\SendRecordNotificationAction;
-use Modules\User\Models\User;
-use Tests\TestCase;
+use Modules\Notify\Enums\ChannelEnum;
+use Modules\Notify\Notifications\RecordNotification;
+use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 
-uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
+/**
+ * @param  array<string, mixed>  $attributes
+ */
+function makeDummyRecordForNotify(array $attributes = []): Model
+{
+    return new class($attributes) extends Model
+    {
+        protected $guarded = [];
 
-beforeEach(function () {
-    $this->action = app(SendRecordNotificationAction::class);
-    $this->user = User::factory()->create();
-});
+        /**
+         * @param  array<string, mixed>  $attributes
+         */
+        public function __construct(array $attributes = [])
+        {
+            parent::__construct($attributes);
+        }
+    };
+}
 
-describe('SendRecordNotificationAction', function () {
-    it('creates database notification record', function () {
-        $notification = $this->action->handle(
-            $this->user,
-            'Record notification message',
-            'info',
-            ['key' => 'value']
-        );
+test('send record notification routes valid mail channel', function () {
+    app()->instance(SafeEloquentCastAction::class, new class
+    {
+        public function getStringAttribute(Model $record, string $attribute, string $default = ''): string
+        {
+            $value = $record->getAttribute($attribute);
 
-        expect($notification)->not->toBeNull();
-        expect($notification->type)->toBe('info');
-        expect($notification->message)->toBe('Record notification message');
-        expect($notification->data['key'])->toBe('value');
-        expect($notification->status)->toBe('sent');
-        expect($notification->sent_at)->not->toBeNull();
-    });
-
-    it('uses default type if not specified', function () {
-        $notification = $this->action->handle($this->user, 'Test message');
-
-        expect($notification->type)->toBe('generic');
-    });
-
-    it('associates with correct notifiable', function () {
-        $notification = $this->action->handle($this->user, 'Test');
-
-        expect($notification->notifiable_type)->toBe(get_class($this->user));
-        expect($notification->notifiable_id)->toBe($this->user->getKey());
-    });
-
-    it('stores user_id if available', function () {
-        $notification = $this->action->handle($this->user, 'Test');
-
-        expect($notification->user_id)->toBe($this->user->id);
-    });
-
-    it('handles different notification types', function () {
-        $types = ['info', 'warning', 'error', 'success', 'custom_type'];
-
-        foreach ($types as $type) {
-            $notification = $this->action->handle($this->user, "Message for $type", $type);
-            expect($notification->type)->toBe($type);
+            return is_string($value) ? $value : $default;
         }
     });
 
-    it('stores additional data', function () {
-        $data = [
-            'action_url' => '/admin/orders/123',
-            'priority' => 'high',
-            'metadata' => ['source' => 'api'],
-        ];
+    Notification::fake();
 
-        $notification = $this->action->handle($this->user, 'Test', 'info', $data);
+    $record = makeDummyRecordForNotify(['email' => 'record@example.test']);
 
-        expect($notification->data['action_url'])->toBe('/admin/orders/123');
-        expect($notification->data['priority'])->toBe('high');
-        expect($notification->data['metadata']['source'])->toBe('api');
-    });
+    app(SendRecordNotificationAction::class)->execute(
+        record: $record,
+        mailTemplateSlug: 'template-slug',
+        channels: [ChannelEnum::Mail],
+    );
+
+    Notification::assertSentOnDemand(
+        RecordNotification::class,
+        static function (RecordNotification $notification, array $channels, AnonymousNotifiable $notifiable): bool {
+            return ($notifiable->routes['mail'] ?? null) === 'record@example.test';
+        }
+    );
+});
+
+test('send record notification ignores non enum channels', function () {
+    Notification::fake();
+
+    $record = makeDummyRecordForNotify();
+
+    app(SendRecordNotificationAction::class)->execute(
+        record: $record,
+        mailTemplateSlug: 'template-slug',
+        channels: ['mail'],
+    );
+
+    Notification::assertNothingSent();
 });

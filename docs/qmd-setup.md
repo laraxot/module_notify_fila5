@@ -1,5 +1,5 @@
 ---
-qmd: "QMD SETUP"
+qmd: "qmd setup"
 issues: []
 discussions: []
 title: "QMD Setup — Module Notify"
@@ -8,7 +8,9 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [qmd, search, docs, performance]
 related:
+  - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
   - ../../../../docs/wiki/concepts/llm-wiki-operational-discipline.md
+status: draft
 ---
 
 # QMD Setup per Module **Notify**
@@ -66,8 +68,9 @@ qmd search "form" -c notify  # Solo questo modulo
 ## Riferimenti
 
 - [Global QMD Config](../qmd.md) (root docs)
+- [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 - [Operational Discipline](../../../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
-- [On-Demand Pattern](./on-demand-pattern.md)
+- [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 
 ---
 *Cache: ~/.cache/qmd-cache/ | Index: ~/.cache/qmd-cache/index*

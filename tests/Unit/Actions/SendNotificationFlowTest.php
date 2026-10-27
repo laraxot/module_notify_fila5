@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions;
+namespace Modules\Notify\Tests\Unit\Actions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection;

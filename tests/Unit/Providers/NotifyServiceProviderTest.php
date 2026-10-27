@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Providers;
+namespace Modules\Notify\Tests\Unit\Providers;
 
 use Illuminate\Support\Facades\Mail;
 use Modules\Notify\Providers\NotifyServiceProvider;

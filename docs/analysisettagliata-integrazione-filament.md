@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "analysisettagliata 4"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: analisiettagliata-integrazione-filament.md
 ---
 
 # Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament

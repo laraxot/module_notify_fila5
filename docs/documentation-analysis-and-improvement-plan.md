@@ -8,14 +8,20 @@ qmd: "documentation-analysis-and-improvement-plan documentation analysis and imp
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Documentation Analysis and Improvement Plan
@@ -65,14 +71,15 @@ The FixCity platform has extensive documentation across modules and themes, but 
 
 ❌ **Problems**:
 - 15 files with temporal strings ("Last Updated: March 12, 2026")
-- Duplicate files: `prd.md`, `prd.md`, `prd.json`
+- Duplicate files: `prd.md`, `PRD.md`, `prd.json`
+- Inconsistent naming: `product-strategy.md` vs `product-strategy.md`
 - Inconsistent naming: `product-strategy.md` vs `product-strategy-documentation-themes.md`
 - Orphaned files: `to-study.md`, `blocks-react.md`
 
 #### Recommended Actions
 
 1. Remove all temporal strings
-2. Consolidate PRD files (keep `prd.md`, remove `prd.md`)
+2. Consolidate PRD files (keep `prd.md`, remove `PRD.md`)
 3. Standardize naming (lowercase kebab-case)
 4. Create proper subdirectory structure
 
@@ -218,7 +225,7 @@ find laravel/Modules/*/docs/ -name "*.md" -exec sed -i.bak \
 
 **Blog Module**:
 - Keep: `prd.md`
-- Remove: `prd.md`, `prd.json`
+- Remove: `PRD.md`, `prd.json`
 - Merge unique content
 
 **Sixteen Theme**:
@@ -415,6 +422,7 @@ echo "  snake_case: $(find laravel/Modules/*/docs/ -name '*_*.md' | wc -l)"
 
 - [documentation-governance.md](documentation-governance.md) - Governance framework
 - [AGENTS.md](../../../AGENTS.md) - Agent guidelines
+- [agents.md](../../../agents.md) - Agent guidelines
 - [agents.md](../../../AGENTS.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 

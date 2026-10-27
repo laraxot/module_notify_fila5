@@ -1,10 +1,10 @@
 ---
-title: "DESIGN CONVERSION ROADMAP"
+title: "design conversion roadmap"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "DESIGN CONVERSION ROADMAP"
+qmd: "design conversion roadmap"
 issues: []
 discussions: []
 status: draft

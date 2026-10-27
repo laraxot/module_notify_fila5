@@ -8,12 +8,20 @@ qmd: "ai-agent-teams ai agent teams - coordination hub"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
@@ -205,7 +213,7 @@ git push origin dev
 ### 5. **Document Everything**
 - Scripts → `bashscripts/docs/`
 - Workflows → `.github/` AND `bashscripts/ai/.github/`
-- Rules → `agents.md`, `.windsurfrules`
+- Rules → `AGENTS.md`, `.windsurfrules`
 
 ---
 

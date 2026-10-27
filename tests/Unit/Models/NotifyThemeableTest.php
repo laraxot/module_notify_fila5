@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Models;
+namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Models\NotifyThemeable;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 use function Pest\Laravel\withoutExceptionHandling;

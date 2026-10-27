@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "qwen memories"
 issues: []
 discussions: []
+status: draft
 ---
 
 # QWEN Memories
@@ -14,15 +15,6 @@ discussions: []
 Memorie e lesson learned accumulate da Qwen.
 
 ---
-
-title: "qwen memories"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "qwen memories"
-issues: []
-discussions: []
 ## Error Fix Pattern
 
 Quando si lavora con date in blade:
@@ -244,5 +236,6 @@ Usare `cinematic-particles` per background hero:
 
 - [Indice QWEN](./qwen-split-index.md)
 - [memories.md](./memories.md) - Più memorie
+- [QWEN.md originale](../../QWEN.md)
 - [QWEN.md originale](../QWEN.md)
 - [Index principale](./index.md)

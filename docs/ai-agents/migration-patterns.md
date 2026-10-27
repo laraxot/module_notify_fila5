@@ -7,10 +7,12 @@ updated: 2026-09-26
 qmd: "migration patterns"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Migration patterns
 
+> Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md) | [IFLOW.md](../../bashscripts/ai/IFLOW.md)
 > Source: [AGENT_MEMORY.md](../../AGENT_MEMORY.md) | [IFLOW.md](../../../../../bashscripts/ai/IFLOW.md)
 > Back: [index](index.md) | [laraxot-philosophy.md](laraxot-philosophy.md)
 

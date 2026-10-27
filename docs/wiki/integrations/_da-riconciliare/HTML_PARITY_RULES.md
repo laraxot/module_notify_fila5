@@ -8,7 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: html_parity_rules.md
 ---
 
 # HTML Parity Analysis Rules
@@ -399,8 +400,8 @@ trans('<nome progetto>::segnalazione.heading.title.label')
 
 - [Translation Conventions](./translation-conventions.md)
 - [Blade Architecture](../laravel/CLAUDE.md#blade-components)
-- [Agnostic Scripts](./agnostic-documentation-rule.md)
-- [Multi-Agent Coordination](./multi-agent-coordination-rules.md)
+- [Agnostic Scripts](./AGNOSTIC_DOCUMENTATION_RULE.md)
+- [Multi-Agent Coordination](./MULTI_AGENT_COORDINATION_RULES.md)
 
 ---
 

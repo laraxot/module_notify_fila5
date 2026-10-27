@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "00 index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Architecture Documentation Index
@@ -39,4 +40,5 @@ discussions: []
 ## Navigation
 
 - [../00-INDEX.md](../00-INDEX.md)
+- [../../../../AGENTS.md](../../../../AGENTS.md)
 - [../../../../AGENTS.md](../../../../../AGENTS.md)

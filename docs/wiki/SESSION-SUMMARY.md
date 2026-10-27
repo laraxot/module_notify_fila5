@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "SESSION SUMMARY"
 issues: []
 discussions: []
+status: draft
 ---
 
 # LLM Wiki Integration - Session Summary
@@ -275,7 +276,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 ### Configuration
 
-- ✅ `qwen.md` - Updated with LLM Wiki rules
+- ✅ `QWEN.md` - Updated with LLM Wiki rules
 
 ## Tools Installed
 
@@ -287,8 +288,13 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 ## Related Documentation
 
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+- [Complete Integration Guide](docs/wiki/README.md)
+- [Agent Instructions](docs/wiki/AGENTS.md)
+- [Quick Reference](docs/wiki/QUICK-REFERENCE.md)
+- [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
+- [Obsidian Setup](docs/.obsidian/README.md)
 - [Complete Integration Guide](README.md)
-- [Agent Instructions](agents.md)
+- [Agent Instructions](AGENTS.md)
 - [Quick Reference](QUICK-REFERENCE.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
 - [Obsidian Setup](../.obsidian/README.md)
@@ -306,13 +312,4 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 - ⏳ 50+ wiki pages created (ongoing)
 
 ---
-
-title: "SESSION SUMMARY"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SESSION SUMMARY"
-issues: []
-discussions: []
 **Session Complete** - Ready for first ingestion! 🚀

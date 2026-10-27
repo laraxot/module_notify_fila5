@@ -8,10 +8,11 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: architecture.divergenza.md
 ---
 
-# Divergenza: `architecture.md`
+# Divergenza: `ARCHITECTURE.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/ARCHITECTURE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

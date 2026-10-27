@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Feature;
+namespace Modules\Notify\Tests\Feature;
 
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Notify\Models\Contact;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 describe('Contact Management Business Logic', function () {

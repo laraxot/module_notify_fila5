@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "analisi dettagliata 7"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: analisiettagliata-manutenzione-backup.md
 ---
 
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
@@ -653,5 +654,3 @@ class MaintainTemplatesCommand extends Command
         return 0;
     }
 } 
-
-```

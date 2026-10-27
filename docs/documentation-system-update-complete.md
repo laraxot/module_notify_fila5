@@ -8,14 +8,20 @@ qmd: "documentation-system-update-complete documentation system update - complet
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Documentation System Update - Complete
@@ -399,6 +405,7 @@ Start at theme index:
 
 ### Finding Documentation
 
+1. **Start Here:** [docs/module-docs-index.md](docs/module-docs-index.md)
 1. **Start Here:** [docs/module-docs-index.md](module-docs-index.md)
 2. **Navigate to:** Module or theme category
 3. **Use Search:** Ctrl+F for keywords
@@ -423,6 +430,7 @@ Start at theme index:
 
 ## 📋 Related Documents
 
+- [Master Index](docs/module-docs-index.md) - Central navigation
 - [Master Index](module-docs-index.md) - Central navigation
 - [BMad Workflow](_bmad-output/BMAD-WORKFLOW-COMPLETE.md) - BMad summary
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md) - Theme layouts

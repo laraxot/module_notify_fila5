@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "qwen web design"
 issues: []
 discussions: []
+status: draft
 ---
 
 # QWEN Web Design Study
@@ -14,15 +15,6 @@ discussions: []
 Studio web design basato su 31 fonti italiane.
 
 ---
-
-title: "qwen web design"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "qwen web design"
-issues: []
-discussions: []
 ## 📊 10 Priorità (70% Successo Sito)
 
 1. **Mobile First** — 70%+ traffico mobile
@@ -132,5 +124,6 @@ discussions: []
 
 - [Indice QWEN](./qwen-split-index.md)
 - [website-checklist.md](./website-checklist.md) - Checklist completa
+- [QWEN.md originale](../../QWEN.md)
 - [QWEN.md originale](../QWEN.md)
 - [Index principale](./index.md)

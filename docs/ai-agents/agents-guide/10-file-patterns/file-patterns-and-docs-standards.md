@@ -32,10 +32,10 @@ status: draft
 
 **File Naming Conventions:**
 - **ALL filenames**: lowercase with kebab-case (dashes)
-- **Exceptions**: Only `README.md` and `changelog.md` can have uppercase letters
+- **Exceptions**: Only `README.md` and `CHANGELOG.md` can have uppercase letters
 - **Pattern**: `filename-with-kebab-case.md` ✅
 - **Pattern**: `README.md` ✅ (exception)
-- **Pattern**: `changelog.md` ✅ (exception)
+- **Pattern**: `CHANGELOG.md` ✅ (exception)
 
 **Module Documentation Structure:**
 ```

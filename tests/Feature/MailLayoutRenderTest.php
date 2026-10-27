@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Feature;
+namespace Modules\Notify\Tests\Feature;
 
 use Illuminate\Support\Facades\Config;
 use Modules\Notify\Actions\Mail\GetMailLayoutAction;

@@ -7,15 +7,25 @@ updated: 2026-09-26
 qmd: "01 GSD WORKFLOW"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 01-gsd-workflow.md
 ---
 
 # 🚀 GSD Workflow (Get Shit Done)
 
-**Part of**: [00-INDEX.md](00-index.md) — AI Agents Coordination  
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
 **Related**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md) — BMAD Method
 
 ---
+
+title: "01 GSD WORKFLOW"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "01 GSD WORKFLOW"
+issues: []
+discussions: []
 ## 📋 Overview
 
 GSD is a spec-driven development system for AI coding agents.
@@ -140,10 +150,10 @@ GSD maintains these files always loaded in context:
 
 | File | Purpose |
 |------|---------|
-| `project.md` | Project vision |
+| `PROJECT.md` | Project vision |
 | `research/` | Ecosystem knowledge |
 | `REQUIREMENTS.md` | Scoped requirements v1/v2 |
-| `roadmap.md` | Where you're going |
+| `ROADMAP.md` | Where you're going |
 | `STATE.md` | Decisions, blockers, memory |
 | `PLAN.md` | Atomic task with XML structure |
 | `SUMMARY.md` | What happened, commit history |

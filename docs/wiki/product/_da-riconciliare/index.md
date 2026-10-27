@@ -8,6 +8,7 @@ type: product
 tags: [product, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # notify — product
@@ -16,10 +17,13 @@ Documentation for `notify` module categorized as **product**.
 
 ## Files
 
-- [`index.md`](./index.md)
+- [`INDEX.md`](./index.md)
 - [`composer-strategy.md`](./composer-strategy.md)
 - [`inbound-keting-strategy.md`](./inbound-keting-strategy.md)
 - [`inbound-marketing-strategy.md`](./inbound-marketing-strategy.md)
+- [`product-strategy.md`](./product-strategy.md)
+- [`product-strategy.md`](./product-strategy.md)
+- [`strategy.md`](./strategy.md)
 - [`product-strategy-documentation-themes.md`](./product-strategy-documentation-themes.md)
 - [`product-strategy.md`](../../../product-strategy.md)
 - [`strategy.md`](../../../strategy.md)

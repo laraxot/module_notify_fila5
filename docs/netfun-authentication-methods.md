@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "netfun authentication methods"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Autenticazione Netfun SMS
@@ -76,17 +77,8 @@ public function send($notifiable, Notification $notification)
 
 ## Collegamenti
 
-- [Documentazione Netfun SMS Channel](./sms-netfun-channel.md)
-- [Requisiti di Configurazione Netfun](./netfun-config-requirements.md)
+- [Documentazione Netfun SMS Channel](./sms_netfun_channel.md)
+- [Requisiti di Configurazione Netfun](./netfun_config_requirements.md)
 
 ---
-
-title: "netfun authentication methods"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "netfun authentication methods"
-issues: []
-discussions: []
-*Ultimo aggiornamento: 2025-05-12*
+*Ultimo aggiornamento: [DATE]*

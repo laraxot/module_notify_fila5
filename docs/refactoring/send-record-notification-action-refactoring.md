@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "send record notification action refactoring"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Refactoring Report: SendRecordNotificationAction
@@ -175,6 +176,8 @@ private function sendNotification(Model $record, string $templateSlug, ChannelEn
 
 ## Related Documentation
 
+- [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
+- [DRY Composition Pattern](./dry-composition-pattern.md)
 - [Actions Calling Actions Pattern](../actions-calling-actions-pattern.md)
 - [DRY Composition Pattern](../dry-composition-pattern.md)
 - [SendNotificationBulkAction Implementation](./send-notification-bulk-action.md)
@@ -192,15 +195,6 @@ private function sendNotification(Model $record, string $templateSlug, ChannelEn
 - [x] Test compatibility preserved
 
 ---
-
-title: "send record notification action refactoring"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "send record notification action refactoring"
-issues: []
-discussions: []
 **Refactored by**: iFlow CLI  
 **Compliance**: 100% DRY + KISS + Clean Code  
 **Status**: Ready for production deployment

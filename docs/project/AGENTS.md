@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "AGENTS"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notify Platform - agents.md
@@ -971,15 +972,6 @@ Log::info('Payment processed', ['order_id' => $order->id, 'amount' => $order->am
 - [ ] Update documentation
 
 ---
-
-title: "AGENTS"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "AGENTS"
-issues: []
-discussions: []
 ## 🔍 PHPSTAN LEVEL 10 COMPLIANCE GUIDE
 
 ### Critical Error Patterns and Prevention
@@ -1547,7 +1539,7 @@ Themes/ThemeName/
 ✅ **CORRECT**:
 - `user-authentication.md` (kebab-case, lowercase)
 - `00-index.md` (numeric prefix for ordering)
-- `README.md`, `changelog.md` (standards)
+- `README.md`, `CHANGELOG.md` (standards)
 
 ❌ **WRONG**:
 - `UserAuthentication.md` (PascalCase)
@@ -1680,7 +1672,7 @@ gh run list --limit 10
 
 - **Scripts**: `bashscripts/docs/[category]/[script].md`
 - **Workflows**: `.github/` AND `bashscripts/ai/.github/`
-- **Rules**: `agents.md`, `.windsurfrules`
+- **Rules**: `AGENTS.md`, `.windsurfrules`
 - **Memories**: Save for future reference
 
 **Why**: Other agents (and future you) need to understand your work.
@@ -1698,6 +1690,9 @@ gh run list --limit 10
 
 ### Resources
 
+- **[docs/MULTI_AGENT_COLLABORATION.md](docs/MULTI_AGENT_COLLABORATION.md)** - Complete guide
+- **[Issue #12](https://github.com/laraxot/platform/issues/12)** - AI Agent Collaboration
+- **[docs/AI_AGENT_TEAMS.md](docs/AI_AGENT_TEAMS.md)** - Team organization
 - **[docs/MULTI_AGENT_COLLABORATION.md](../MULTI_AGENT_COLLABORATION.md)** - Complete guide
 - **[Issue #12](https://github.com/laraxot/platform/issues/12)** - AI Agent Collaboration
 - **[docs/AI_AGENT_TEAMS.md](../AI_AGENT_TEAMS.md)** - Team organization
@@ -1790,6 +1785,13 @@ git push origin dev
 - Other AI agents can't see unpushed changes
 - Working code ≠ saved code until pushed
 
+**REFERENCE**: [Git Commit & Push Rule](docs/GIT_COMMIT_PUSH_RULE.md)
+
+### Documentation Resources
+
+- [Master Documentation Index](docs/MASTER_DOCUMENTATION_INDEX.md)
+- [Documentation Governance](docs/DOCUMENTATION_GOVERNANCE.md)
+- [Documentation Improvement Plan](docs/DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)
 **REFERENCE**: [Git Commit & Push Rule](../GIT_COMMIT_PUSH_RULE.md)
 
 ### Documentation Resources

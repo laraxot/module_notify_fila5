@@ -124,7 +124,7 @@ La logica di selezione del provider WhatsApp è implementata in `WhatsAppProvide
 
 ## whatsapp-channel-2
 
-*Consolidated from: `whatsapp-channel-2.md`*
+*Consolidated from: `whatsapp-channel.md`*
 
 title: "Implementazione Canale WhatsApp"
 type: concept
@@ -135,12 +135,17 @@ qmd: "whatsapp-channel-2 implementazione canale whatsapp"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1383,7 +1388,7 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 
 ## whatsapp-integration-2
 
-*Consolidated from: `whatsapp-integration-2.md`*
+*Consolidated from: `whatsapp-integration.md`*
 
 title: "Integrazione WhatsApp"
 type: concept
@@ -1394,12 +1399,17 @@ qmd: "whatsapp-integration-2 integrazione whatsapp"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2492,7 +2502,7 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 
 ## whatsapp-sending-standard-1
 
-*Consolidated from: `whatsapp-sending-standard-1.md`*
+*Consolidated from: `whatsapp-sending-standard.md`*
 
 title: "Standard per Invio Messaggi WhatsApp nel Modulo Notify"
 type: rule
@@ -2503,12 +2513,17 @@ qmd: "whatsapp-sending-standard-1 standard per invio messaggi whatsapp nel modul
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2984,7 +2999,7 @@ https://developers.facebook.com/docs/whatsapp/cloud-api/get-started
 
 ## whatsapp_channel
 
-*Consolidated from: `whatsapp-channel.md`*
+*Consolidated from: `whatsapp_channel.md`*
 
 
 ## 1. Struttura Base
@@ -3331,7 +3346,7 @@ class WhatsAppTest extends TestCase
 
 ## whatsapp_integration
 
-*Consolidated from: `whatsapp-integration.md`*
+*Consolidated from: `whatsapp_integration.md`*
 
 # Integrazione WhatsApp
 
@@ -3914,7 +3929,7 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 
 ## whatsapp_sending_standard
 
-*Consolidated from: `whatsapp-sending-standard.md`*
+*Consolidated from: `whatsapp_sending_standard.md`*
 
 
 ## Introduzione

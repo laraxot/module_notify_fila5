@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "transaction removal fix 2025 10 15"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Fix Transaction Model - Migrate Fresh Error
@@ -246,7 +247,7 @@ Questa è la seconda implementazione della giornata:
 
 ### Root Progetto
 - [View Cache Fix (Sessione 1)](./view-cache-components-fix-componenti-mancanti.md)
-- [Sessione Super Mucca](./sessione-super-mucca.md)
+- [Sessione Super Mucca](./SESSIONE-SUPER-MUCCA.md)
 - [Project Analysis](./project-analysis-and-roadmap.md)
 
 ### Architettura

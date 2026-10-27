@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # SuperMemory - AI Memory Infrastructure
@@ -26,6 +27,7 @@ updated: 2026-08-24
 
 SuperMemory is the long-term and short-term memory and context infrastructure for AI agents. It provides persistent memory across conversations, semantic search, and knowledge graph capabilities.
 
+**Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
 **Master MCP Docs**: [Project MCP Servers](../../../MCP_SERVERS.md)
 
 ## Quick Start
@@ -248,6 +250,7 @@ supermemory init --api-key YOUR_KEY --container-tag <nome progetto> --scope proj
 
 ## Related Documentation
 
+- **Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
 - **Master MCP Docs**: [Project MCP Servers](../../../MCP_SERVERS.md)
 - **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/MCP_SERVERS.md)
 - **Theme MCP**: [Sixteen Theme MCP](../../Themes/Sixteen/docs/MCP_SERVERS.md)

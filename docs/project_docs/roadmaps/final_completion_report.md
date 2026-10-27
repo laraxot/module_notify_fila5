@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "final completion report 2025 10 01"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: final-completion-report-fixcity.md
 ---
 
 # 🏆 FINAL COMPLETION REPORT - FixCity 2025

@@ -8,7 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: ai_agent_teams.md
 ---
 
 # AI Agent Teams - Coordination Hub
@@ -197,7 +198,7 @@ git push origin dev
 ### 5. **Document Everything**
 - Scripts → `bashscripts/docs/`
 - Workflows → `.github/` AND `bashscripts/ai/.github/`
-- Rules → `agents.md`, `.windsurfrules`
+- Rules → `AGENTS.md`, `.windsurfrules`
 
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: "Notify Module — Document"
 type: docs/bmad
-status: active
 module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
 tags: [docs, notify, bmad]
 qmd: "readme - phase 1 execution notify"
+status: superseded
+superseded_by: readme-phase-1-execution.md
 ---
 
 # 📖 README - PHASE 1 EXECUTION

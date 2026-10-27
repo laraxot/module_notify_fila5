@@ -8,7 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: theme-architecture.md
 ---
 
 # 🎨 Theme Architecture - "Il Tema è un Vestito"
@@ -307,9 +308,9 @@ Tema configurabile
 ## 🔗 Riferimenti
 
 ### Project Documentation
-- [THEME_ARCHITECTURE.md](theme-architecture.md) - Questo file
-- [COMPOSER_STRATEGY.md](composer-strategy.md) - Strategia composer
-- [FILAMENT_5_OFFICIAL_POLICY.md](filament-5-official-policy.md) - Politica Filament
+- [THEME_ARCHITECTURE.md](THEME_ARCHITECTURE.md) - Questo file
+- [COMPOSER_STRATEGY.md](COMPOSER_STRATEGY.md) - Strategia composer
+- [FILAMENT_5_OFFICIAL_POLICY.md](FILAMENT_5_OFFICIAL_POLICY.md) - Politica Filament
 
 ### Laravel Documentation
 - [Package Discovery](https://laravel.com/docs/packages#package-discovery)

@@ -16,6 +16,7 @@ related:
   - "./notify-conflict-check-1.md"
   - "./notify-conflict-check.md"
   - "./notify-restore-.md"
+status: draft
 ---
 
 # LLM Wiki Integration - Session Summary
@@ -296,6 +297,11 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 ## Related Documentation
 
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+- [Complete Integration Guide](docs/wiki/README.md)
+- [Agent Instructions](docs/wiki/agents.md)
+- [Quick Reference](docs/wiki/quick-reference.md)
+- [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
+- [Obsidian Setup](docs/.obsidian/README.md)
 - [Complete Integration Guide](README.md)
 - [Agent Instructions](agents.md)
 - [Quick Reference](quick-reference.md)
@@ -589,7 +595,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 ### Configuration
 
-- ✅ `qwen.md` - Updated with LLM Wiki rules
+- ✅ `QWEN.md` - Updated with LLM Wiki rules
 
 ## Tools Installed
 
@@ -601,8 +607,13 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 ## Related Documentation
 
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+- [Complete Integration Guide](docs/wiki/README.md)
+- [Agent Instructions](docs/wiki/AGENTS.md)
+- [Quick Reference](docs/wiki/QUICK-REFERENCE.md)
+- [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
+- [Obsidian Setup](docs/.obsidian/README.md)
 - [Complete Integration Guide](README.md)
-- [Agent Instructions](agents.md)
+- [Agent Instructions](AGENTS.md)
 - [Quick Reference](QUICK-REFERENCE.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
 - [Obsidian Setup](../.obsidian/README.md)

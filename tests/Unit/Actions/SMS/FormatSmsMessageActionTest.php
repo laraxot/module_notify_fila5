@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions\SMS;
+namespace Modules\Notify\Tests\Unit\Actions\SMS;
 
 use Modules\Notify\Actions\SMS\FormatSmsMessageAction;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -14,9 +14,10 @@ use function Safe\class_uses;
 
 describe('FormatSmsMessageAction', function () {
     it('can be instantiated', function () {
-        $action = new FormatSmsMessageAction;
-
-        Assert::assertInstanceOf(FormatSmsMessageAction::class, $action);
+        Assert::assertSame(
+            'Modules\\Notify\\Actions\\SMS',
+            (new \ReflectionClass(FormatSmsMessageAction::class))->getNamespaceName(),
+        );
     });
 
     it('has execute method with correct signature', function () {

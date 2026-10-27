@@ -33,7 +33,7 @@ Consolidated from **11** individual files.
 
 ## xot-base-classes-analysis-1
 
-*Consolidated from: `xot-base-classes-analysis-1.md`*
+*Consolidated from: `xot-base-classes-analysis.md`*
 
 title: "Analisi: Utilizzo delle Classi Base Xot"
 type: concept
@@ -44,12 +44,17 @@ qmd: "xot-base-classes-analysis-1 analisi: utilizzo delle classi base xot"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -377,7 +382,7 @@ Questa convenzione dovrebbe essere seguita rigorosamente in tutto il progetto pe
 
 ## xot-base-classes-checklist-1
 
-*Consolidated from: `xot-base-classes-checklist-1.md`*
+*Consolidated from: `xot-base-classes-checklist.md`*
 
 title: "Checklist: Verifica Classi Base Xot"
 type: concept
@@ -388,12 +393,17 @@ qmd: "xot-base-classes-checklist-1 checklist: verifica classi base xot"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -567,7 +577,7 @@ Per correggere automaticamente i file che non seguono queste convenzioni:
 
 ## xot-base-classes-convention-1
 
-*Consolidated from: `xot-base-classes-convention-1.md`*
+*Consolidated from: `xot-base-classes-convention.md`*
 
 title: "Convenzioni per le Classi Base Xot"
 type: concept
@@ -578,12 +588,17 @@ qmd: "xot-base-classes-convention-1 convenzioni per le classi base xot"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -951,7 +966,7 @@ Questa convenzione dovrebbe essere seguita rigorosamente in tutto il progetto pe
 
 ## xot_base_classes_analysis
 
-*Consolidated from: `xot-base-classes-analysis.md`*
+*Consolidated from: `xot_base_classes_analysis.md`*
 
 
 ## Contesto
@@ -1113,7 +1128,7 @@ Questa convenzione dovrebbe essere seguita rigorosamente in tutto il progetto pe
 
 ## xot_base_classes_checklist
 
-*Consolidated from: `xot-base-classes-checklist.md`*
+*Consolidated from: `xot_base_classes_checklist.md`*
 
 
 ## 1. Import
@@ -1198,7 +1213,7 @@ Per correggere automaticamente i file che non seguono queste convenzioni:
 
 ## xot_base_classes_convention
 
-*Consolidated from: `xot-base-classes-convention.md`*
+*Consolidated from: `xot_base_classes_convention.md`*
 
 
 ## Regola di Estensione
@@ -1308,12 +1323,17 @@ qmd: "xotbasepivot-executive-summary xotbasepivot - executive summary"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

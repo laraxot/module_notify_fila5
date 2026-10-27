@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Datas;
+namespace Modules\Notify\Tests\Unit\Datas;
 
 use Modules\Notify\Datas\EmailAttachmentData;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 

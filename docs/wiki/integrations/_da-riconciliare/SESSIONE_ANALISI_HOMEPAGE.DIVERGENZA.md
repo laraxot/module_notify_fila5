@@ -8,10 +8,11 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: sessione-analisi-homepage.divergenza.md
 ---
 
-# Divergenza: `sessione-analisi-homepage.md`
+# Divergenza: `SESSIONE_ANALISI_HOMEPAGE.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/SESSIONE_ANALISI_HOMEPAGE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

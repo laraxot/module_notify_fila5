@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Notifications;
+namespace Modules\Notify\Tests\Unit\Notifications;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Datas\SmsData;

@@ -172,15 +172,16 @@ composer test -- Modules/[ModuleName]
 ## Related Documentation
 
 ### Within Module
-- [ARCHITECTURE.md](./architecture.md) - Design details
+- [ARCHITECTURE.md](./ARCHITECTURE.md) - Design details
 - [architecture.md](./architecture.md) - Design details
 - [Guides](./guides/) - How-to guides
 
 ### Related Modules
 - [Xot Module](../../../Xot/README.md) - Base classes
+- [Xot Module](../../../Xot/README.md) - Base classes
 
 ---
 
-Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
+Navigation: [Project Home](../index.md) | [Modules](../../docs/modules/README.md)
 Navigation: [Project Home](../../docs/index.md) | [Modules](../../docs/modules/README.md)
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Filament\Actions;
+namespace Modules\Notify\Tests\Unit\Filament\Actions;
 
 use Closure;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -11,8 +11,8 @@ use Modules\Notify\Actions\SendRecordsNotificationAction;
 use Modules\Notify\Filament\Actions\SendRecordsNotificationBulkAction;
 use Modules\Notify\Filament\Forms\Components\ChannelCheckboxList;
 use Modules\Notify\Filament\Forms\Components\MailTemplateSelect;
-use Tests\Modules\Notify\Fixtures\SendRecordsNotificationBulkActionSpy;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\Fixtures\SendRecordsNotificationBulkActionSpy;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 /**

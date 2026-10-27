@@ -2,149 +2,132 @@
 
 declare(strict_types=1);
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
+namespace Modules\Notify\Tests\Unit\Actions\Push;
+
 use Illuminate\Support\Facades\Http;
-use Modules\Notify\Actions\Push\SendPushNotificationAction;
+use Modules\Notify\Actions\Push\SendPushToDeviceAction;
+use Modules\Notify\Actions\Push\SendPushToDevicesAction;
+use Modules\Notify\Actions\Push\SendPushToTopicAction;
 use Modules\Notify\Datas\PushNotificationData;
-use Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
-uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
-
-beforeEach(function () {
-    $this->action = app(SendPushNotificationAction::class);
-    Http::fake();
+beforeEach(function (): void {
+    config(['notify.fcm.server_key' => 'test-key']);
+    // Nessuna richiesta reale; ogni test registra il proprio stub FCM (un fake '*' qui vincerebbe su quelli)
+    Http::preventStrayRequests();
 });
 
-afterEach(function () {
-    Http::assertNothingSent();
-});
-
-describe('SendPushNotificationAction', function () {
-    it('sends push notification to single device', function () {
+describe('Push delivery actions (device, batch, topic)', function (): void {
+    it('sends push notification to single device on all platforms', function (): void {
         Http::fake([
             'fcm.googleapis.com/fcm/send*' => Http::response([
-                'multicast_id' => 123456789,
-                'success' => 1,
-                'failure' => 0,
-                'canonical_ids' => 0,
-                'results' => [['message_id' => 'msg-123']],
+                'message_id' => 'msg-123',
             ], 200),
         ]);
 
-        $pushData = new PushNotificationData(
-            title: 'Test Title',
-            body: 'Test body',
-            token: 'device-token-123',
-            data: ['key' => 'value'],
-        );
-
-        $result = $this->action->execute($pushData);
-
-        expect($result)->toBeArray()
-            ->toHaveKeys(['success', 'message_id']);
-        expect($result['success'])->toBeTrue();
-    });
-
-    it('sends push notification to multiple devices', function () {
-        Http::fake([
-            'fcm.googleapis.com/fcm/send*' => Http::response([
-                'multicast_id' => 123456789,
-                'success' => 2,
-                'failure' => 0,
-                'results' => [
-                    ['message_id' => 'msg-1'],
-                    ['message_id' => 'msg-2'],
-                ],
-            ], 200),
+        $pushData = PushNotificationData::from([
+            'title' => 'Test Title',
+            'body' => 'Test body',
         ]);
 
-        $pushData = new PushNotificationData(
-            title: 'Broadcast',
-            body: 'To multiple devices',
-            tokens: ['token-1', 'token-2'],
-        );
+        $fcmToken = str_repeat('a', 80).':'.str_repeat('b', 40);
+        $results = app(SendPushToDeviceAction::class)->execute($fcmToken, $pushData, ['key' => 'value']);
 
-        $result = $this->action->execute($pushData);
-
-        expect($result['success'])->toBe(2);
+        Assert::assertSame(['fcm', 'apns', 'webpush'], array_keys($results));
+        Assert::assertTrue($results['fcm']['success']);
     });
 
-    it('sends push notification to topic', function () {
+    it('sends push notification to multiple devices grouped by platform', function (): void {
+        Http::fake([
+            'fcm.googleapis.com/fcm/send*' => Http::response(['message_id' => 'msg-1'], 200),
+        ]);
+
+        $pushData = PushNotificationData::from([
+            'title' => 'Broadcast',
+            'body' => 'To multiple devices',
+        ]);
+
+        $fcmToken = str_repeat('c', 80).':'.str_repeat('d', 40);
+        $results = app(SendPushToDevicesAction::class)->execute([$fcmToken, 'web-token-abc'], $pushData);
+
+        Assert::assertArrayHasKey('fcm', $results);
+        Assert::assertSame(1, $results['fcm']['sent']);
+        Assert::assertSame(0, $results['fcm']['failed']);
+    });
+
+    it('sends push notification to topic on all platforms', function (): void {
         Http::fake([
             'fcm.googleapis.com/fcm/send*' => Http::response([
                 'message_id' => 'topic-msg-123',
             ], 200),
         ]);
 
-        $pushData = new PushNotificationData(
-            title: 'Topic Message',
-            body: 'For all subscribers',
-            topic: 'news',
-        );
+        $pushData = PushNotificationData::from([
+            'title' => 'Topic Message',
+            'body' => 'For all subscribers',
+        ]);
 
-        $result = $this->action->execute($pushData);
+        $results = app(SendPushToTopicAction::class)->execute('news', $pushData);
 
-        expect($result)->toHaveKey('message_id');
+        Assert::assertArrayHasKey('fcm', $results);
+        Assert::assertTrue($results['fcm']['success']);
     });
 
-    it('handles FCM error responses', function () {
+    it('records FCM failure when token is not registered', function (): void {
         Http::fake([
             'fcm.googleapis.com/fcm/send*' => Http::response([
-                'multicast_id' => 123,
                 'success' => 0,
                 'failure' => 1,
                 'results' => [['error' => 'NotRegistered']],
             ], 200),
         ]);
 
-        $pushData = new PushNotificationData(
-            title: 'Test',
-            body: 'Test',
-            token: 'invalid-token',
-        );
-
-        $result = $this->action->execute($pushData);
-
-        expect($result['success'])->toBe(0);
-        expect($result['failure'])->toBe(1);
-    });
-
-    it('includes custom data payload', function () {
-        Http::fake([
-            'fcm.googleapis.com/fcm/send*' => Http::response([
-                'success' => 1,
-                'results' => [['message_id' => 'msg-1']],
-            ], 200),
+        $pushData = PushNotificationData::from([
+            'title' => 'Test',
+            'body' => 'Test',
         ]);
 
-        $pushData = new PushNotificationData(
-            title: 'Data Test',
-            body: 'With data',
-            token: 'token-123',
-            data: ['action' => 'open_order', 'order_id' => 123],
-        );
+        $fcmToken = str_repeat('e', 80).':'.str_repeat('f', 40);
+        $results = app(SendPushToDeviceAction::class)->execute($fcmToken, $pushData);
 
-        $result = $this->action->execute($pushData);
-
-        expect($result['success'])->toBeTrue();
+        Assert::assertFalse($results['fcm']['success']);
     });
 
-    it('sets priority and TTL', function () {
+    it('passes custom data payload to FCM', function (): void {
         Http::fake([
-            'fcm.googleapis.com/fcm/send*' => Http::response(['success' => 1], 200),
+            'fcm.googleapis.com/fcm/send*' => Http::response(['message_id' => 'msg-1'], 200),
+        ]);
+
+        $pushData = PushNotificationData::from([
+            'title' => 'Data Test',
+            'body' => 'With data',
+        ]);
+
+        $fcmToken = str_repeat('g', 80).':'.str_repeat('h', 40);
+        $results = app(SendPushToDeviceAction::class)->execute(
+            $fcmToken,
+            $pushData,
+            ['action' => 'open_order', 'order_id' => 123],
+        );
+
+        Assert::assertTrue($results['fcm']['success']);
+    });
+
+    it('honours priority and TTL on the notification payload', function (): void {
+        Http::fake([
+            'fcm.googleapis.com/fcm/send*' => Http::response(['message_id' => 'msg-1'], 200),
         ]);
 
         $pushData = new PushNotificationData(
             title: 'High Priority',
             body: 'Urgent',
-            token: 'token-123',
             priority: 'high',
             ttl: 3600,
         );
 
-        $result = $this->action->execute($pushData);
+        $fcmToken = str_repeat('i', 80).':'.str_repeat('j', 40);
+        $results = app(SendPushToDeviceAction::class)->execute($fcmToken, $pushData);
 
-        expect($result['success'])->toBeTrue();
+        Assert::assertTrue($results['fcm']['success']);
     });
 });

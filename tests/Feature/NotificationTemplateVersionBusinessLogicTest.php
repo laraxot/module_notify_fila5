@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Feature;
+namespace Modules\Notify\Tests\Feature;
 
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Modules\Notify\Models\NotificationTemplate;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use RuntimeException;
 

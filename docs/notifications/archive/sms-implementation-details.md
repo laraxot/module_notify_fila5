@@ -1,3 +1,11 @@
+---
+title: "Implementazione SMS : Guida Dettagliata"
+type: note
+status: draft
+updated: 2026-10-15
+tags: [docs, notify, notifications]
+qmd: "implementazione sms : guida dettagliata notify"
+---
 # Implementazione SMS : Guida Dettagliata
 
 Questa documentazione fornisce una guida dettagliata all'implementazione delle notifiche SMS , con confronto tra diversi provider e best practices specifiche per il contesto italiano.

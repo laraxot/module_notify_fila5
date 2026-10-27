@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions;
+namespace Modules\Notify\Tests\Unit\Actions;
 
 use Illuminate\Notifications\AnonymousNotifiable;
 use Illuminate\Notifications\Notification as IlluminateNotification;
 use Illuminate\Support\Facades\Notification;
 use InvalidArgumentException;
 use Modules\Notify\Actions\SendNotificationToRecipientAction;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 function makeDummyNotificationForRecipient(): IlluminateNotification

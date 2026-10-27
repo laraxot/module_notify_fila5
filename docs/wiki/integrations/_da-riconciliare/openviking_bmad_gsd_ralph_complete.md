@@ -8,6 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: superseded
+superseded_by: openviking-bmad-gsd-ralph-complete.md
 ---
 
 # OpenViking + BMAD + GSD + Ralph Loop - Setup Complete Report
@@ -368,6 +370,9 @@ cat agents.md
 ### Documentation
 - [OpenViking Integration](./openviking-integration.md)
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
+- [Unified Workflow](./unified-ai-workflow.md)
+- [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
+- [agents.md](../agents.md)
 - [Unified Workflow](../../../unified-ai-workflow.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
 - [agents.md](../../agents.md)

@@ -18,6 +18,8 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 
 ## Struttura Enum
 
+> **Stato reale (2026-10-20):** `app/Enums/SmsDriverEnum.php` ha un solo caso, `SMSFACTOR`, e usa `EnumTrait` (non `TransTrait`). L'elenco a 7 casi qui sotto e' storico; `tests/Unit/Enums/SmsDriverEnumTest.php` verifica il caso unico. Questo file e' duplicato da `smsriver-enum-translations.md` (nome con refuso, contenuto diverso): da unificare, non cancellato.
+
 ```php
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {

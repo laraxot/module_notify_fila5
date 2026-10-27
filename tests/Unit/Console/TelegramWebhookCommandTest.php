@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Console;
+namespace Modules\Notify\Tests\Unit\Console;
 
 use Modules\Notify\Console\Commands\TelegramWebhook;
 use PHPUnit\Framework\Assert;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions\WhatsApp;
+namespace Modules\Notify\Tests\Unit\Actions\WhatsApp;
 
 use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Datas\WhatsAppData;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 use function Safe\class_uses;

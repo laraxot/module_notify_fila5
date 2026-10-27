@@ -27,9 +27,9 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 
 ---
 **See also:**
-- [CLAUDE.md](./claude.md)
+- [CLAUDE.md](./CLAUDE.md)
 - [agents.md](./agents.md)
-- [QWEN.md](./qwen.md)
+- [QWEN.md](./QWEN.md)
 
 *Ultimo aggiornamento: Aprile 2026*
 
@@ -47,12 +47,17 @@ qmd: "gemini gemini rules (modular)"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

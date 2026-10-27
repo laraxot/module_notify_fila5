@@ -1,3 +1,11 @@
+---
+title: "Daily Progress Report - 2026-03-13"
+type: note
+status: draft
+updated: 2026-10-22
+tags: [docs, notify, reports]
+qmd: "daily progress report - 2026-03-13 notify"
+---
 # 📊 Daily Progress Report - 2026-03-13
 
 > **Author**: @marco76tv  
@@ -27,10 +35,10 @@ Oggi ho completato un'ampia opera di miglioramento della documentazione, pulizia
 
 **Files Modified**:
 - `laravel/Modules/Blog/docs/structure.md`
-- `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md`
+- `laravel/Modules/Blog/docs/CHANGELOG-blog-module-ottobre.md`
 - `laravel/Modules/Blog/docs/models/README.md`
 - `laravel/Modules/Blog/docs/models/transaction-removal.md`
-- `agents.md`
+- `AGENTS.md`
 - `docs/conventions/database-naming.md` (NEW)
 
 **Impact**: ✅ Consistency across all modules

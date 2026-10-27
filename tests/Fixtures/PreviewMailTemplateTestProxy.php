@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Fixtures;
+namespace Modules\Notify\Tests\Fixtures;
 
 use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\PreviewMailTemplate;
 

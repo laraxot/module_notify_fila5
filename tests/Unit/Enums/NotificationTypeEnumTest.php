@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Enums;
+namespace Modules\Notify\Tests\Unit\Enums;
 
 use Modules\Notify\Enums\NotificationTypeEnum;
 use PHPUnit\Framework\Assert;
@@ -41,12 +41,7 @@ it('each case has unique value', function (): void {
 });
 
 it('cases returns all enum instances', function (): void {
-    $cases = NotificationTypeEnum::cases();
-    Assert::assertCount(3, $cases);
-
-    foreach ($cases as $case) {
-        Assert::assertInstanceOf(NotificationTypeEnum::class, $case);
-    }
+    Assert::assertCount(3, NotificationTypeEnum::cases());
 });
 
 it('all cases have required methods', function (): void {

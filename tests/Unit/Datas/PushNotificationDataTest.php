@@ -2,100 +2,77 @@
 
 declare(strict_types=1);
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
+namespace Modules\Notify\Tests\Unit\Datas;
+
 use Modules\Notify\Datas\PushNotificationData;
-use Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
-uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
-
-describe('PushNotificationData DTO', function () {
-    it('creates with all fields for single device', function () {
+describe('PushNotificationData DTO', function (): void {
+    it('creates with notification fields for FCM and Web Push', function (): void {
         $dto = new PushNotificationData(
             title: 'Test Title',
             body: 'Test body',
-            token: 'device-token-123',
-            data: ['action' => 'open', 'id' => 123],
-            image: 'https://example.com/image.png',
             icon: 'ic_notification',
-            color: '#FF0000',
             sound: 'default',
+            badge: 1,
             priority: 'high',
             ttl: 3600,
-            collapseKey: 'updates',
+            actions: [['action' => 'open', 'title' => 'Open']],
+            requireInteraction: true,
+            silent: false,
         );
 
-        expect($dto->title)->toBe('Test Title');
-        expect($dto->body)->toBe('Test body');
-        expect($dto->token)->toBe('device-token-123');
-        expect($dto->data['action'])->toBe('open');
-        expect($dto->image)->toBe('https://example.com/image.png');
-        expect($dto->priority)->toBe('high');
-        expect($dto->ttl)->toBe(3600);
+        Assert::assertSame('Test Title', $dto->title);
+        Assert::assertSame('Test body', $dto->body);
+        Assert::assertSame('ic_notification', $dto->icon);
+        Assert::assertSame('default', $dto->sound);
+        Assert::assertSame(1, $dto->badge);
+        Assert::assertSame('high', $dto->priority);
+        Assert::assertSame(3600, $dto->ttl);
+        Assert::assertCount(1, $dto->actions ?? []);
+        Assert::assertTrue($dto->requireInteraction);
+        Assert::assertFalse($dto->silent);
     });
 
-    it('creates for multiple devices', function () {
-        $dto = new PushNotificationData(
-            title: 'Broadcast',
-            body: 'To multiple',
-            tokens: ['token-1', 'token-2', 'token-3'],
-        );
-
-        expect($dto->tokens)->toHaveCount(3);
-        expect($dto->token)->toBeNull();
-    });
-
-    it('creates for topic', function () {
-        $dto = new PushNotificationData(
-            title: 'Topic Message',
-            body: 'For subscribers',
-            topic: 'news',
-        );
-
-        expect($dto->topic)->toBe('news');
-        expect($dto->token)->toBeNull();
-        expect($dto->tokens)->toBeEmpty();
-    });
-
-    it('creates with minimal fields', function () {
+    it('creates with minimal title and body', function (): void {
         $dto = new PushNotificationData(
             title: 'Minimal',
             body: 'Test',
         );
 
-        expect($dto->data)->toBeEmpty();
-        expect($dto->priority)->toBe('normal');
+        Assert::assertSame('Minimal', $dto->title);
+        Assert::assertSame('Test', $dto->body);
+        Assert::assertNull($dto->icon);
+        Assert::assertNull($dto->priority);
+        Assert::assertNull($dto->ttl);
     });
 
-    it('validates required fields', function () {
-        // Must have at least one target: token, tokens, or topic
-        expect(fn () => new PushNotificationData(title: 'Test', body: 'Test'))
-            ->toThrow(\InvalidArgumentException::class, 'At least one target required');
-    });
-
-    it('converts to array for FCM', function () {
+    it('serializes to array via Spatie Data', function (): void {
         $dto = new PushNotificationData(
             title: 'FCM Test',
             body: 'FCM Body',
-            token: 'token-123',
-            data: ['key' => 'value'],
+            icon: '/icons/icon-192x192.png',
+            sound: 'default',
+            priority: 'high',
+            ttl: 3600,
         );
-        $array = $dto->toFcmArray();
 
-        expect($array)->toHaveKeys(['to', 'notification', 'data', 'priority']);
-        expect($array['notification']['title'])->toBe('FCM Test');
-        expect($array['notification']['body'])->toBe('FCM Body');
+        $array = $dto->toArray();
+
+        Assert::assertSame('FCM Test', $array['title']);
+        Assert::assertSame('FCM Body', $array['body']);
+        Assert::assertSame('/icons/icon-192x192.png', $array['icon']);
+        Assert::assertSame('high', $array['priority']);
+        Assert::assertSame(3600, $array['ttl']);
     });
 
-    it('converts to array for multiple tokens', function () {
+    it('accepts string badge for Web Push icon URL', function (): void {
         $dto = new PushNotificationData(
-            title: 'Multi',
-            body: 'Multi',
-            tokens: ['t1', 't2'],
+            title: 'Web',
+            body: 'Push',
+            badge: 'https://example.com/badge.png',
         );
-        $array = $dto->toFcmArray();
 
-        expect($array)->toHaveKey('registration_ids');
-        expect($array['registration_ids'])->toBe(['t1', 't2']);
+        Assert::assertSame('https://example.com/badge.png', $dto->badge);
     });
 });

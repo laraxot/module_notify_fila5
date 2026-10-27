@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # optimization — Consolidated Documentation
@@ -29,6 +30,7 @@ Consolidated from **8** individual files.
 
 ## optimization-analysis-1
 
+*Consolidated from: `optimization-analysis.md`*
 *Consolidated from: `optimization-analysis-user-module-documentation.md`*
 
 title: "notify module documentation optimization analysis"
@@ -40,12 +42,17 @@ qmd: "optimization-analysis-1 notify module documentation optimization analysis"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -101,7 +108,7 @@ docs/
 │   ├── notification_system.md
 │   ├── getting_started.md
 │   ├── advanced_topics.md
-│   └── performance-optimization-2.md
+│   └── performance-optimization-analisi-ottimizzazione.md
 ├── channels/
 │   ├── email-notifications.md
 │   ├── sms_notifications.md
@@ -463,6 +470,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
+- [Linee Guida Riusabilità](reusability_guidelines.md)
 - [Linee Guida Riusabilità](../../reusability_guidelines.md)
 - [Piano Implementazione](../../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)
@@ -472,7 +480,7 @@ php artisan notify:benchmark
 
 ## optimization-recommendations-2
 
-*Consolidated from: `optimization-recommendations-2.md`*
+*Consolidated from: `optimization-recommendations.md`*
 
 title: "Raccomandazioni di Ottimizzazione - Modulo Notify"
 type: concept
@@ -483,12 +491,17 @@ qmd: "optimization-recommendations-2 raccomandazioni di ottimizzazione - modulo 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -720,7 +733,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
-- [Linee Guida Riusabilità](reusability-guidelines-2.md)
+- [Linee Guida Riusabilità](reusability-guidelines.md)
 *Ultimo aggiornamento: gennaio 2025*
 - [Piano Implementazione](../../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)
@@ -954,6 +967,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
+- [Linee Guida Riusabilità](reusability_guidelines.md)
 - [Linee Guida Riusabilità](../../reusability_guidelines.md)
 - [Piano Implementazione](../../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)
@@ -1182,6 +1196,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
+- [Linee Guida Riusabilità](reusability_guidelines.md)
 - [Linee Guida Riusabilità](../../reusability_guidelines.md)
 - [Piano Implementazione](../../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)
@@ -1267,7 +1282,7 @@ class NotificationTemplateCache
 
 ## optimization_analysis
 
-*Consolidated from: `optimization-analysis.md`*
+*Consolidated from: `optimization_analysis.md`*
 
 
 ## current state analysis
@@ -1382,7 +1397,7 @@ docs/
 
 ## optimization_recommendations
 
-*Consolidated from: `optimization-recommendations.md`*
+*Consolidated from: `optimization_recommendations.md`*
 
 
 > ⚠️ **Historical Document**: Questo documento contiene riferimenti a progetti legacy (<nome progetto>) non più presenti nel codebase. Le raccomandazioni di ottimizzazione rimangono valide, ma adattare al contesto del progetto corrente (ptvx).
@@ -1616,6 +1631,7 @@ php artisan notify:benchmark
 
 ## Collegamenti
 
+- [Linee Guida Riusabilità](reusability_guidelines.md)
 - [Linee Guida Riusabilità](../../reusability_guidelines.md)
 - [Piano Implementazione](../../../docs/module_reusability_implementation_plan.md)
 - [Script Controllo](../../../bashscripts/check_module_reusability.sh)

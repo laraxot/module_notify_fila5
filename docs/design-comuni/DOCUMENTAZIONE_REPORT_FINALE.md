@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "DOCUMENTAZIONE REPORT FINALE"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: documentazione_report_finale.md
 ---
 
 # Report Aggiornamento Documentazione Design Comuni FAQ
@@ -21,6 +22,15 @@ Aggiornamento completo della documentazione per la pagina FAQ del progetto Desig
 - **Stato**: ✅ COMPLETATO
 
 ---
+
+title: "DOCUMENTAZIONE REPORT FINALE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTAZIONE REPORT FINALE"
+issues: []
+discussions: []
 ## 📚 Documenti Creati
 
 ### 1. Modulo Cms

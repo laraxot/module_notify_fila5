@@ -8,14 +8,20 @@ qmd: "module-roadmaps-index laraxot module roadmaps - master index"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Laraxot Module Roadmaps - Master Index
@@ -40,6 +46,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/User/docs/roadmap/`
 - **Purpose**: Authentication and authorization
 - **Key Features**: Authentication, authorization, multi-tenancy, social auth, teams
+- **Read More**: [User Roadmap](../laravel/Modules/User/docs/roadmap/README.md)
 - **Read More**: [User Roadmap](../../User/docs/roadmap/README.md)
 
 ### Application Modules
@@ -49,6 +56,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Fixcity/docs/roadmap/`
 - **Purpose**: Main application logic for FixCity platform
 - **Key Features**: Healthcare, municipality services, citizen reporting
+- **Read More**: [Fixcity Roadmap](../laravel/Modules/Fixcity/docs/roadmap/README.md)
 - **Read More**: [Fixcity Roadmap](../../Fixcity/docs/roadmap/README.md)
 
 ### Feature Modules
@@ -58,6 +66,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Cms/docs/roadmap/`
 - **Purpose**: Content management with pages and blocks
 - **Key Features**: Pages, blocks, SEO, multi-language
+- **Read More**: [Cms Roadmap](../laravel/Modules/Cms/docs/roadmap/README.md)
 - **Read More**: [Cms Roadmap](../../Cms/docs/roadmap/README.md)
 
 #### Media (File Management)
@@ -65,6 +74,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Media/docs/roadmap/`
 - **Purpose**: Media and file management
 - **Key Features**: Images, videos, documents, collections, CDN
+- **Read More**: [Media Roadmap](../laravel/Modules/Media/docs/roadmap/README.md)
 - **Read More**: [Media Roadmap](../../Media/docs/roadmap/README.md)
 
 #### Notify (Notifications)
@@ -72,6 +82,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Notify/docs/roadmap/`
 - **Purpose**: Notification system
 - **Key Features**: Email, SMS, push, in-app notifications
+- **Read More**: [Notify Roadmap](../laravel/Modules/Notify/docs/roadmap/README.md)
 - **Read More**: [Notify Roadmap](roadmap/README.md)
 
 #### Activity (Logging)
@@ -79,6 +90,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Activity/docs/roadmap/`
 - **Purpose**: Activity logging and audit trails
 - **Key Features**: Activity logging, audit trails, analytics
+- **Read More**: [Activity Roadmap](../laravel/Modules/Activity/docs/roadmap/README.md)
 - **Read More**: [Activity Roadmap](../../Activity/docs/roadmap/README.md)
 
 #### Tenant (Multi-tenancy)
@@ -86,6 +98,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Tenant/docs/roadmap/`
 - **Purpose**: Multi-tenancy support
 - **Key Features**: Tenant isolation, configuration, billing
+- **Read More**: [Tenant Roadmap](../laravel/Modules/Tenant/docs/roadmap/README.md)
 - **Read More**: [Tenant Roadmap](../../Tenant/docs/roadmap/README.md)
 
 ### Utility Modules
@@ -95,6 +108,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Rating/docs/roadmap/`
 - **Purpose**: Rating and evaluation system
 - **Key Features**: Ratings, reviews, aggregation, analytics
+- **Read More**: [Rating Roadmap](../laravel/Modules/Rating/docs/roadmap/README.md)
 - **Read More**: [Rating Roadmap](../../Rating/docs/roadmap/README.md)
 
 #### Seo (Search Optimization)
@@ -102,6 +116,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Seo/docs/roadmap/`
 - **Purpose**: SEO optimization tools
 - **Key Features**: Meta tags, sitemaps, schema.org, analytics
+- **Read More**: [Seo Roadmap](../laravel/Modules/Seo/docs/roadmap/README.md)
 - **Read More**: [Seo Roadmap](../../Seo/docs/roadmap/README.md)
 
 #### Gdpr (Compliance)
@@ -109,6 +124,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Gdpr/docs/roadmap/`
 - **Purpose**: GDPR compliance
 - **Key Features**: Data protection, consent, right to be forgotten
+- **Read More**: [Gdpr Roadmap](../laravel/Modules/Gdpr/docs/roadmap/README.md)
 - **Read More**: [Gdpr Roadmap](../../Gdpr/docs/roadmap/README.md)
 
 #### Geo (Geographic)
@@ -116,6 +132,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Geo/docs/roadmap/`
 - **Purpose**: Geographic services
 - **Key Features**: Location services, maps, geocoding, spatial queries
+- **Read More**: [Geo Roadmap](../laravel/Modules/Geo/docs/roadmap/README.md)
 - **Read More**: [Geo Roadmap](../../Geo/docs/roadmap/README.md)
 
 #### Job (Background Processing)
@@ -123,6 +140,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Job/docs/roadmap/`
 - **Purpose**: Job queue and background processing
 - **Key Features**: Job queue, scheduling, monitoring, analytics
+- **Read More**: [Job Roadmap](../laravel/Modules/Job/docs/roadmap/README.md)
 - **Read More**: [Job Roadmap](../../Job/docs/roadmap/README.md)
 
 #### Lang (Translations)
@@ -130,6 +148,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Lang/docs/roadmap/`
 - **Purpose**: Language and translation system
 - **Key Features**: Multi-language, translation management, RTL support
+- **Read More**: [Lang Roadmap](../laravel/Modules/Lang/docs/roadmap/README.md)
 - **Read More**: [Lang Roadmap](../../Lang/docs/roadmap/README.md)
 
 ### Content Modules
@@ -139,6 +158,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Blog/docs/roadmap/`
 - **Purpose**: Blog and content management
 - **Key Features**: Posts, categories, tags, comments, SEO
+- **Read More**: [Blog Roadmap](../laravel/Modules/Blog/docs/roadmap/README.md)
 - **Read More**: [Blog Roadmap](../../Blog/docs/roadmap/README.md)
 
 #### Comment (Discussions)
@@ -146,6 +166,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/Comment/docs/roadmap/`
 - **Purpose**: Comment and discussion system
 - **Key Features**: Threaded comments, moderation, reactions, notifications
+- **Read More**: [Comment Roadmap](../laravel/Modules/Comment/docs/roadmap/README.md)
 - **Read More**: [Comment Roadmap](../../Comment/docs/roadmap/README.md)
 
 ### UI Modules
@@ -164,6 +185,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Path**: `Modules/AI/docs/roadmap/`
 - **Purpose**: AI and machine learning integration
 - **Key Features**: AI models, NLP, image recognition, predictive analytics
+- **Read More**: [AI Roadmap](../laravel/Modules/AI/docs/roadmap/README.md)
 - **Read More**: [AI Roadmap](../../AI/docs/roadmap/README.md)
 
 ## 📊 Overall Progress
@@ -272,9 +294,9 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 ## 📚 Related Documentation
 
 - [Laraxot Architecture Rules](./laravel/Modules/Xot/docs/laraxot-architecture-rules.md)
-- [Project Roadmap](./project-roadmap-1.md)
-- [AGENTS.md](./agents.md)
-- [agents.md](./agents.md)
+- [Project Roadmap](./project-roadmap.md)
+- [AGENTS.md](./AGENTS.md)
+- [agents.md](./AGENTS.md)
 - [Getting Started](./quick-start.md)
 
 ## 🤝 Contributing
