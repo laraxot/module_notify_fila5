@@ -1,3 +1,11 @@
+---
+title: "PHPStan Errors Summary - Global Analysis"
+type: note
+status: draft
+updated: 2026-10-15
+tags: [docs, notify, phpstan]
+qmd: "phpstan errors summary - global analysis notify"
+---
 # PHPStan Errors Summary - Global Analysis
 
 ## 📊 Current Status

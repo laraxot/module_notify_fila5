@@ -1,3 +1,11 @@
+---
+title: "PHPStan Massive Fix Session - Report Finale"
+type: note
+status: draft
+updated: 2026-09-16
+tags: [docs, notify, phpstan]
+qmd: "phpstan massive fix session - report finale notify"
+---
 # PHPStan Massive Fix Session - Report Finale
 ## 2025-01-04
 
