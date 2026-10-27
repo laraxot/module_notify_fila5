@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions;
+namespace Modules\Notify\Tests\Unit\Actions;
 
 use Modules\Notify\Actions\NormalizePhoneNumberAction;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 

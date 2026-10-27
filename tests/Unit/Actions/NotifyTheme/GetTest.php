@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions\NotifyTheme;
+namespace Modules\Notify\Tests\Unit\Actions\NotifyTheme;
 
 use Modules\Notify\Actions\NotifyTheme\Get;
 use Modules\Notify\Datas\NotifyThemeData;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -19,7 +19,7 @@ describe('NotifyTheme\Get', function () {
     });
 
     it('uses QueueableAction trait', function () {
-        $traits = class_uses(NotifyThemeData::class);
+        $traits = class_uses(Get::class);
         Assert::assertArrayHasKey(QueueableAction::class, $traits);
     });
 

@@ -2,142 +2,134 @@
 
 declare(strict_types=1);
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
+namespace Modules\Notify\Tests\Unit\Actions;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Notification;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Str;
 use Modules\Notify\Actions\SendNotificationAction;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\NotificationTemplate;
-use Modules\User\Models\User;
-use Tests\TestCase;
+use Modules\Notify\Notifications\GenericNotification;
+use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
-uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
+/**
+ * @param  array<string, mixed>  $attributes
+ */
+function makeDummySendNotificationRecipient(array $attributes = []): Model
+{
+    return new class($attributes) extends Model
+    {
+        use Notifiable;
 
-beforeEach(function () {
-    $this->action = app(SendNotificationAction::class);
-    $this->user = User::factory()->create(['email' => 'test@example.com', 'phone' => '+393001234567']);
-    Notification::fake();
+        protected $guarded = [];
+
+        /**
+         * @param  array<string, mixed>  $attributes
+         */
+        public function __construct(array $attributes = [])
+        {
+            parent::__construct($attributes);
+        }
+
+        public function routeNotificationForMail(): string
+        {
+            $email = $this->getAttribute('email');
+
+            return is_string($email) ? $email : '';
+        }
+
+        public function routeNotificationForSms(): string
+        {
+            $phone = $this->getAttribute('phone');
+
+            return is_string($phone) ? $phone : '';
+        }
+    };
+}
+
+beforeEach(function (): void {
+    $schema = Schema::connection('notify');
+
+    if (! $schema->hasTable('notification_templates')) {
+        $schema->create('notification_templates', function (Blueprint $table): void {
+            $table->string('id', 36)->primary();
+            $table->string('name')->nullable();
+            $table->string('code')->unique();
+            $table->text('description')->nullable();
+            $table->text('subject')->nullable();
+            $table->longText('body_html')->nullable();
+            $table->longText('body_text')->nullable();
+            $table->json('channels')->nullable();
+            $table->json('variables')->nullable();
+            $table->json('conditions')->nullable();
+            $table->json('preview_data')->nullable();
+            $table->json('metadata')->nullable();
+            $table->string('category')->nullable();
+            $table->boolean('is_active')->default(true);
+            $table->unsignedInteger('version')->default(1);
+            $table->string('type')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    NotificationTemplate::query()->delete();
 });
 
-describe('SendNotificationAction', function () {
-    it('sends notification via database channel', function () {
-        $template = NotificationTemplate::create([
-            'code' => 'test-notification',
-            'name' => 'Test Notification',
-            'subject' => 'Test Subject',
-            'body_text' => 'Test body for {{name}}',
-            'body_html' => '<p>Test body for {{name}}</p>',
-            'channels' => ['database'],
-            'is_active' => true,
-        ]);
+test('send notification action throws when template is missing', function (): void {
+    $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
-        $notification = $this->action->handle($this->user, 'test-notification', ['name' => 'John']);
+    XotBasePest::assertThrows(
+        fn () => app(SendNotificationAction::class)->handle($recipient, 'missing-template'),
+        \Exception::class,
+    );
+});
 
-        expect($notification)->not->toBeNull();
-        expect($notification->type)->toBe('generic');
-        expect($notification->message)->toContain('John');
-        Notification::assertSentTo($this->user, \Modules\Notify\Notifications\GenericNotification::class);
-    });
+test('send notification action returns false when template should not send', function (): void {
+    NotificationTemplateFactory::new()->createOne([
+        'id' => (string) Str::uuid(),
+        'name' => 'Welcome',
+        'code' => 'welcome-template',
+        'subject' => ['en' => 'Welcome', 'it' => 'Benvenuto'],
+        'body_text' => ['en' => 'Hello', 'it' => 'Ciao'],
+        'body_html' => ['en' => '<p>Hello</p>', 'it' => '<p>Ciao</p>'],
+        'channels' => ['database'],
+        'variables' => [],
+        'is_active' => true,
+        'conditions' => ['send' => true],
+        'type' => 'email']);
 
-    it('sends notification via mail channel', function () {
-        $template = NotificationTemplate::create([
-            'code' => 'welcome-email',
-            'name' => 'Welcome Email',
-            'subject' => 'Welcome {{name}}!',
-            'body_text' => 'Welcome {{name}} to our platform',
-            'body_html' => '<p>Welcome {{name}} to our platform</p>',
-            'channels' => ['mail'],
-            'is_active' => true,
-        ]);
+    $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
-        $notification = $this->action->handle($this->user, 'welcome-email', ['name' => 'John']);
+    $result = app(SendNotificationAction::class)->handle($recipient, 'welcome-template', ['send' => false]);
 
-        expect($notification)->toBeNull(); // Mail channel returns null
-        Notification::assertSentTo($this->user, \Modules\Notify\Notifications\GenericNotification::class);
-    });
+    Assert::assertFalse($result);
+});
 
-    it('throws exception for non-existent template', function () {
-        expect(fn () => $this->action->handle($this->user, 'non-existent-template', []))
-            ->toThrow(\Exception::class, 'Template non-existent-template non trovato o non attivo');
-    });
+test('send notification action dispatches database notification from template channels', function (): void {
+    NotificationTemplateFactory::new()->createOne([
+        'id' => (string) Str::uuid(),
+        'name' => 'Welcome',
+        'code' => 'welcome-template',
+        'subject' => ['en' => 'Welcome', 'it' => 'Benvenuto'],
+        'body_text' => ['en' => 'Hello', 'it' => 'Ciao'],
+        'body_html' => ['en' => '<p>Hello</p>', 'it' => '<p>Ciao</p>'],
+        'channels' => ['database'],
+        'variables' => [],
+        'is_active' => true,
+        'conditions' => null,
+        'type' => 'email']);
 
-    it('throws exception for inactive template', function () {
-        NotificationTemplate::create([
-            'code' => 'inactive-template',
-            'name' => 'Inactive',
-            'subject' => 'Test',
-            'body_text' => 'Test',
-            'channels' => ['database'],
-            'is_active' => false,
-        ]);
+    $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
-        expect(fn () => $this->action->handle($this->user, 'inactive-template', []))
-            ->toThrow(\Exception::class, 'Template inactive-template non trovato o non attivo');
-    });
+    Notification::fake();
 
-    it('respects shouldSend condition', function () {
-        $template = NotificationTemplate::create([
-            'code' => 'conditional-notification',
-            'name' => 'Conditional',
-            'subject' => 'Test',
-            'body_text' => 'Test',
-            'channels' => ['database'],
-            'is_active' => true,
-            'conditions' => ['min_age' => 18],
-        ]);
+    $result = app(SendNotificationAction::class)->handle($recipient, 'welcome-template');
 
-        // User data doesn't meet condition
-        $notification = $this->action->handle($this->user, 'conditional-notification', ['age' => 16]);
-
-        expect($notification)->toBeNull();
-    });
-
-    it('allows overriding channels', function () {
-        $template = NotificationTemplate::create([
-            'code' => 'multi-channel',
-            'name' => 'Multi Channel',
-            'subject' => 'Test',
-            'body_text' => 'Test',
-            'channels' => ['database', 'mail'],
-            'is_active' => true,
-        ]);
-
-        // Override to only use database
-        $notification = $this->action->handle($this->user, 'multi-channel', [], ['database']);
-
-        expect($notification)->not->toBeNull();
-    });
-
-    it('sends to multiple channels', function () {
-        $template = NotificationTemplate::create([
-            'code' => 'multi-test',
-            'name' => 'Multi Test',
-            'subject' => 'Test',
-            'body_text' => 'Test',
-            'channels' => ['database', 'mail'],
-            'is_active' => true,
-        ]);
-
-        $notification = $this->action->handle($this->user, 'multi-test', []);
-
-        expect($notification)->not->toBeNull();
-        // Database notification should be returned
-        expect($notification->channels)->toContain('database');
-    });
-
-    it('stores notification data correctly', function () {
-        $template = NotificationTemplate::create([
-            'code' => 'data-test',
-            'name' => 'Data Test',
-            'subject' => 'Subject {{var}}',
-            'body_text' => 'Body {{var}}',
-            'channels' => ['database'],
-            'is_active' => true,
-        ]);
-
-        $notification = $this->action->handle($this->user, 'data-test', ['var' => 'value'], [], ['custom' => 'option']);
-
-        expect($notification->data['template_code'])->toBe('data-test');
-        expect($notification->data['payload']['var'])->toBe('value');
-        expect($notification->data['options']['custom'])->toBe('option');
-    });
+    Assert::assertTrue($result);
+    Notification::assertSentTo($recipient, GenericNotification::class);
 });

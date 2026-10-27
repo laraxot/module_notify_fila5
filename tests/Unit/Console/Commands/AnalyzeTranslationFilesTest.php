@@ -2,11 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Console\Commands;
+namespace Modules\Notify\Tests\Unit\Console\Commands;
 
-use Illuminate\Console\Command;
 use Modules\Notify\Console\Commands\AnalyzeTranslationFiles;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 describe('AnalyzeTranslationFiles', function () {
@@ -24,8 +23,7 @@ describe('AnalyzeTranslationFiles', function () {
 
     it('extends command', function () {
         $command = new AnalyzeTranslationFiles;
-
-        Assert::assertInstanceOf(Command::class, $command);
+        Assert::assertSame('notify:analyze-translations', $command->getName());
     });
 
     it('has handle method', function () {
@@ -90,9 +88,9 @@ describe('AnalyzeTranslationFiles', function () {
         $method = $reflection->getMethod('flattenArray');
         $method->setAccessible(true);
 
-        $result = XotBasePest::assertArray($method->invoke($command, []));
+        $result = $method->invoke($command, []);
 
-        Assert::assertEmpty($result);
+        Assert::assertSame([], $result);
     });
 
     it('flatten array handles nested levels', function () {

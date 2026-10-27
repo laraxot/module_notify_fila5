@@ -76,7 +76,7 @@ MySQL MCP server uses:
 - Host: `127.0.0.1`
 - Port: `3306`
 - User: `marco`
-- Password: `marco`
+- Password: [segreto locale, non nel repo]
 - Database: `laravelpizza_data` (production) or `laravelpizza_data_test` (testing)
 
 ### MCP Security Rules

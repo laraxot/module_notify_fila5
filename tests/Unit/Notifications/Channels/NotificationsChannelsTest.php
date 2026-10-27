@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Notifications\Channels;
+namespace Modules\Notify\Tests\Unit\Notifications\Channels;
 
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Log;
@@ -13,9 +13,9 @@ use Modules\Notify\Models\Contracts\SmsActionContract;
 use Modules\Notify\Notifications\Channels\NetfunChannel;
 use Modules\Notify\Notifications\Channels\TelegramChannel;
 use Modules\Notify\Notifications\ThemeNotification;
-use Tests\Modules\Notify\Fixtures\NetfunChannelNotifiableDummy;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\Fixtures\NetfunChannelNotifiableDummy;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 function makeThemeNotificationDummy(): ThemeNotification

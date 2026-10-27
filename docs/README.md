@@ -1,23 +1,155 @@
 ---
+qmd: "README"
 qmd: "notify docs README ownership mappa del codice canali limiti verificati"
 issues: []
 discussions: []
 title: "Notify Module Documentation"
 type: documentation
+tags: [module, documentation]
+created: 2026-06-05
+updated: 2026-08-02
 status: active
 tags: [module, documentation]
 created: 2026-06-05
-updated: 2026-10-15
+updated: 2026-10-20
 related:
-  - ./00-INDEX.md
+  - ./00-index.md
   - ./stories/docs-ingressi-notify.story.md
+  - ./bmad/decision-log.md
+  - ./bmad/filament-blueprint.md
 ---
 
 # Documentation
 
+## Queueable Actions
+
+Notify non usa `app/Jobs/`, `app/Services/` o `app/Servces/`. Le operazioni
+asincrone sono Actions con `Spatie\QueueableAction`; la decisione e il contratto
+sono documentati in [Queueable Actions](../../Xot/docs/architecture/queueable-actions.md).
+
+I riferimenti a Jobs nei report storici di questa cartella descrivono lo stato
+precedente e non sono percorsi validi del codice corrente.
+
+**Scopo:** Notify e' il motore di consegna multi-canale del monorepo: un owner di dominio decide *cosa* e *a chi*, Notify decide *come* (factory/driver, template, log, preferenze) senza duplicare transport in Fixcity o nel tema.
+
+This directory contains documentation for the Notify module.
+
+## Structure
+
+- **architecture.md** - Module architecture and design patterns
+- **README.md** - This file
+
+## Guidelines
+
+Documentation should be:
+- Clear and concise
+- Example-driven
+- Updated with code changes
+- Use Markdown format (.md)
+
+## Sistemi di Notificazione
+
+- Mail notifications
+- Database notifications
+- Template management
+- Queue integration
+
+## Modelli Principali (verificato 2026-07-24 contro `app/Models/`)
+
+```php
+Modules\Notify\Models\MailTemplate
+Modules\Notify\Models\MailTemplateVersion
+Modules\Notify\Models\MailTemplateLog
+Modules\Notify\Models\Notification
+Modules\Notify\Models\NotificationLog
+Modules\Notify\Models\NotificationType
+Modules\Notify\Models\NotificationChannel
+Modules\Notify\Models\NotificationTemplate
+Modules\Notify\Models\NotificationTemplateVersion
+```
+
+## Traits
+
+> **Verificato 2026-07-24**: `Modules\Notify\Models\Traits\HasNotify` **non esiste** (unico trait presente in
+> `app/Models/Traits/` è `HasContact.php`). Se questo trait serve, va creato, non documentato come
+> già presente.
+
+## Collegamenti
+
+- [Xot Base](../../Xot/docs) - Core framework
+- [User Module](../../User/docs) - User management integration
+
+## Risorse
+
+- [PHPStan Config](./phpstan/) - Type checking configuration
+- [On-Demand Pattern](./on-demand-pattern.md) — Pattern per caricamento efficiente
+- [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
+- [Performance](./performance-optimization.md) — Metriche e best practice
+- [Project Structure](./project-structure.md) — Directory layout
+
+---
+
+<!-- Merged from readme.md, which collided with this file on case-insensitive filesystems. -->
+
+---
+title: "Modulo Notify - Documentazione"
+type: index
+tags: [notify, docs]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione readme modulo notify - documentazione index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - README.md
+  - wiki/index.md
+  - notifications/readme.md
+  - integrations/readme.md
+  - templates/readme.md
+---
+# Modulo Notify - Documentazione
+
+## 📚 Overview
+
+Il modulo **Notify** è il sistema centrale per **email, notifiche, SMS e comunicazioni** nel framework Laraxot.  
+Supporta template dinamici, allegati binari, multi-canale e integrazione completa con Spatie Laravel Mail Templates.
+
+---
+
+## 🎯 Funzionalità Principali
+
+### 1. **Sistema Email con Template Database**
+- Template email salvati su database (Spatie Mail Templates)
+- Placeholder dinamici con Mustache
+- Supporto HTML/Text/SMS
+- Preview email in admin panel
+
+### 2. **Allegati Email Avanzati**
+- ⭐ **Allegati da contenuto binario** (PDF generati al volo)
+- Allegati da file esistenti
+- Multiple attachment support
+- Auto-detection MIME types
+
+### 3. **Multi-Channel Notifications**
+- Email (SMTP, Mailgun, SES, ecc.)
+- SMS (Twilio, Vonage, ecc.)
+- WhatsApp (Twilio API)
+- Database notifications
+
+### 4. **Integrazione Filament**
+- Admin panel per gestione template
+- Preview email real-time
+- Testing tools integrati
+
+---
+
 Cartella `docs/` del modulo Notify. Indice operativo (directory canoniche, evidence, famiglie dei file della radice):
-[00-INDEX.md](./00-index.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
+[00-INDEX.md](./00-index.md). Hub BMAD: [bmad/decision-log.md](./bmad/decision-log.md), [bmad/filament-blueprint.md](./bmad/filament-blueprint.md). Questo file descrive il codice reale; quanto segue e' stato verificato il 2026-10-14 con
 `ls` e `grep` su `laravel/Modules/Notify`.
+
 
 Ownership: pacchetto `laraxot/module_notify_fila5` (repo git separato in `laravel/Modules/Notify`); provider
 `Modules\Notify\Providers\NotifyServiceProvider` e `Providers\Filament\AdminPanelProvider` (`module.json`), su base `Xot`.
@@ -36,7 +168,7 @@ symfony/postmark-mailer, symfony/http-client.
 | `app/Models` | 14 modelli: `Contact`, `EmailTemplate`, `MailTemplate`, `MailTemplateLog`, `MailTemplateVersion`, `Notification`, `NotificationChannel`, `NotificationLog`, `NotificationTemplate`, `NotificationTemplateVersion`, `NotificationType`, `NotifyTheme`, `NotifyThemeable`, `Theme`; 11 Policy in `Models/Policies`; unico trait `HasContact` |
 | `app/Filament` | 6 Resource (`Contact`, `MailTemplate`, `Notification`, `NotificationLog`, `NotificationTemplate`, `NotifyTheme`), pagine `Dashboard` e `SettingPage`, cluster `Test` con 15 pagine di prova invio (SMTP, SES, Spatie, SMS, Netfun, Telegram, WhatsApp, Slack, push) |
 | `app/Console/Commands` | `notify:send-mail`, `notify:cleanup-logs {--days=30 --batch=1000}`, `notify:migrate-themes-to-mail-templates`, `notify:analyze-translations`, `telegram:set-webhook` |
-| `app/Jobs` | `SendNotificationJob`, `SendScheduledPushNotification` |
+| `app/Jobs` | non esiste: la coda è eseguita dalle Queueable Actions |
 | `config/` | `notify.php` (company, test_data, webhooks, email, paths, template_variables), `sms.php` (default `smsfactor`, retry, rate limit, circuit breaker), `telegram.php`, `whatsapp.php`, `config.php` (layouts e templates mail), `beautymail.php`; `NotifyServiceProvider` unisce i valori da `config('notify-env')` |
 | `database/migrations` | 24 file `.php` piu' 1 `.php.no` e le sottocartelle `_archive_redundant` e `_bak` |
 | `tests/` | 156 file PHP, 127 `*Test.php` (Unit: Actions, Architecture, Channels, Console, Datas, Emails, Enums, Factories, Filament, Models, Notifications, Providers, Traits; Feature: 17 file) |
@@ -146,7 +278,7 @@ related:
 
 # Modulo Notify - Documentazione
 
-> Dalla riga precedente in poi il testo e' la vecchia `README.md` (file distinto, `README.md`, ancora presente). I canali
+> Dalla riga precedente in poi il testo e' la vecchia `readme.md` (file distinto, `readme.md`, ancora presente). I canali
 > elencati sotto vanno letti con la "Mappa del codice" di inizio file: SMS nel codice = Twilio, Nexmo (oggi Vonage), Plivo, Netfun,
 > SmsFactor, Agiletelecom, Gammu; WhatsApp = 360dialog, Facebook, Twilio, Vonage; esistono anche push FCM e Telegram.
 
@@ -196,6 +328,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
   Sistema template email database
 
 - **[Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)**  
+- **[Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)**  
   Best practices layout email
 
 #### Notifications
@@ -206,7 +339,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
   Notifiche basate su record Eloquent
 
 #### SMS & WhatsApp
-- **[WhatsApp Provider Architecture](./whatsapp-provider-architecture.md)**  
+- **[WhatsApp Provider Architecture](./whatsapp_provider_architecture.md)**  
   Architettura provider WhatsApp
 
 ---
@@ -224,6 +357,8 @@ Modules/Notify/
 │   │  
 │   ├── Notifications/
 │   │   ├── RecordNotification.php       ⭐ Notifica generica per record
+│   │   ├── ThemeNotification.php
+│   │   └── SendSchedeNotification.php
 │   │   └── ThemeNotification.php        # (SendSchedeNotification.php citato in passato: non esiste)
 │   │  
 │   ├── Datas/
@@ -383,15 +518,25 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
+**Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura: cifra senza fonte, non verificata il 2026-10-14)  
 **Prossimi passi**: Completamento test modelli base  
-**Changelog**: [changelog.md](./changelog.md)
+**Changelog**: [changelog.md](./CHANGELOG.md)
 
 ## 🔗 Collegamenti
 
 ### Moduli Correlati
 
 #### Ptv (Schede Valutazione)
+- **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
+  Caso d'uso completo: invio schede valutazione con PDF
+
+- **[SendMailByRecord Action](../../Ptv/app/Actions/Scheda/SendMailByRecord.php)**  
+  Implementation reference
+
+#### Xot (Core Framework)
+- **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
+  Generazione PDF binario da record
 - Il modulo `Ptv` non e' presente in questo repository (verificato 2026-10-14: `laravel/Modules/` non lo contiene).
   I due riferimenti che seguivano (`Ptv/docs/pdf-email-attachments-complete-guide.md` e
   `Ptv/app/Actions/Scheda/SendMailByRecord.php`) sono stati ridotti a testo perche' i bersagli non esistono qui.
@@ -406,6 +551,13 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Documentazione Interna
 
 #### Email System
+- [Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)
+- [Spatie Mail Templates Structure](./mail-templates/spatie_mail_templates_structure.md)
+- [Email Troubleshooting](./email-sending/email_troubleshooting.md)
+
+#### Notifications
+- [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
+- [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
 - [Email Layouts Best Practices](./mail-templates/email_layouts_best_practices.md)
 - [Spatie Mail Templates Structure](./mail-templates/spatie_mail_templates_structure.md)
 - [Email Troubleshooting](./email-sending/email_troubleshooting.md)
@@ -557,14 +709,3 @@ Log::channel('email')->info('Email sent', [
 **Versione:** 2.1.0  
 **Stato:** ✅ Production Ready  
 **PHPStan Level:** 10
-
-## Standing order (qualita' + docs)
-
-- **PHPStan a zero** sul codice del modulo: non ignorare errori, non abbassare il livello, non modificare `phpstan.neon` del progetto. Qualita' + docs + BMAD sono standing order, non opzionali.
-- **Cartella test**: solo `tests/` (minuscolo). `Tests/` e' vietato (case-collision su macOS/Windows e confusione PSR-4).
-- **Nomi `.md`**: kebab-case minuscolo, niente date/timestamp nel nome, unica eccezione `README.md`. Se esistono `readme.md` e `README.md`, resta solo `README.md`.
-- **Docs**: solo dentro `docs/` gia' esistente; consolida invece di moltiplicare file; link relativi; focus su scopo/perche'/business logic (DRY + KISS).
-- **Git**: forward-only (patch in avanti); no reset/revert/checkout come scorciatoia.
-- **BMAD + second brain**: indici e decisioni vivono in `docs/` del modulo; aggiornali quando cambia il perche', non solo il come.
-
-Vedi anche: [00-index.md](./00-index.md) · [index.md](./index.md)

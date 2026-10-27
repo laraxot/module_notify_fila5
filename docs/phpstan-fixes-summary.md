@@ -130,7 +130,7 @@ public function getTableColumns(): array
 - **Tipo di intervento:** Controlli `is_string()` per parametri `to` e `from`
 - **File:** `Modules/Notify/resources/lang/en/mail.php`
 - **Tipo di intervento:** Controllo `is_string()` per `config('app.name')`
-- **Documentazione aggiornata:** [docs/phpstan/README.md](../Modules/Notify/docs/phpstan/README.md)
+- **Documentazione aggiornata:** [docs/phpstan/README.md](phpstan/README.md)
 
 ### Modulo: UI
 - **File:** `Modules/UI/app/Filament/Forms/Components/RadioCollection.php`

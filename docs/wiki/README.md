@@ -13,9 +13,9 @@ discussions:
 related:
   - ../README.md
   - index.md
-  - ../notifications/readme.md
-  - ../integrations/readme.md
-  - ../templates/readme.md
+  - ../notifications/README.md
+  - ../integrations/README.md
+  - ../templates/README.md
 status: draft
 ---
 # Notify LLM Wiki
@@ -26,7 +26,7 @@ This directory is the canonical compiled wiki layer for the Karpathy-style workf
 
 - Raw corpus: `docs/` excluding `docs/wiki/**`
 - Compiled wiki: `docs/wiki/`
-- Schema layer: `agents.md`, `claude.md`, `qwen.md`, `gemini.md`, `docs/project/docs-governance.md`
+- Schema layer: `AGENTS.md`, `CLAUDE.md`, `QWEN.md`, `GEMINI.md`, `docs/project/docs-governance.md`
 
 ## Operations
 

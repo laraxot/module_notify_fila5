@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "json migration error"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Errore di Migrazione JSON e Soluzione
@@ -155,8 +156,10 @@ if ($validRecords !== $totalRecords) {
 
 ## Collegamenti Correlati
 
-- [Documentazione Migrazioni](./migration-rules.md)
-- [Best Practices JSON](./json-best-practices.md)
+- [Documentazione Migrazioni](./MIGRATION_RULES.md)
+- [Best Practices JSON](./JSON_BEST_PRACTICES.md)
+- [Documentazione Migrazioni](./migration_rules.md)
+- [Best Practices JSON](./json_best_practices.md)
 - [Gestione Errori](./ERROR_HANDLING.md)
 
 ## Note Importanti

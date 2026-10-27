@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions\SMS;
+namespace Modules\Notify\Tests\Unit\Actions\SMS;
 
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -60,9 +60,9 @@ describe('SMS\NormalizePhoneNumberAction', function () {
         Assert::assertStringContainsString('use function Safe\preg_replace', $content);
     });
 
-    it('is not using QueueableAction trait', function () {
+    it('uses QueueableAction trait', function () {
         $traits = class_uses(NormalizePhoneNumberAction::class);
 
-        Assert::assertArrayNotHasKey(QueueableAction::class, $traits);
+        Assert::assertArrayHasKey(QueueableAction::class, $traits);
     });
 });

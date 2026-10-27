@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit;
+namespace Modules\Notify\Tests\Unit;
 
 use Carbon\Carbon;
 use Illuminate\Support\Str;

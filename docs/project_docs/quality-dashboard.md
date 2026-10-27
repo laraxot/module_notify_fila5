@@ -12,7 +12,7 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2025-excellence-achievement.md"
   - "./agid-implementation-guide.md"
-  - "./architecture.md"
+  - "./ARCHITECTURE.md"
   - "./complete-refactoring-analysis.md"
   - "./documentation-status.md"
   - "./final-implementation-report-.md"
@@ -301,7 +301,7 @@ Overall Progress: ████████████████████�
 
 ## 🔗 Related Resources
 
-- [Architecture Documentation](./architecture.md)
+- [Architecture Documentation](./ARCHITECTURE.md)
 - [Contributing Guidelines](../contributing.md)
 - [Testing Strategy](../Modules/Xot/docs/testing/testing-strategy.md)
 - [Refactoring Reports](./final-refactoring-report.md)

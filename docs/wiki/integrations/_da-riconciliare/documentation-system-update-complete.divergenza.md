@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# Divergenza: `documentation-system-update-complete.md`
+# Divergenza: `DOCUMENTATION_SYSTEM_UPDATE_COMPLETE.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/DOCUMENTATION_SYSTEM_UPDATE_COMPLETE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

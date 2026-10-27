@@ -8,6 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: superseded
+superseded_by: documentation-system-update-complete.md
 ---
 
 # Documentation System Update - Complete
@@ -395,6 +397,7 @@ Start at theme index:
 
 ### Finding Documentation
 
+1. **Start Here:** [docs/MODULE_DOCS_INDEX.md](docs/MODULE_DOCS_INDEX.md)
 1. **Start Here:** [docs/MODULE_DOCS_INDEX.md](../../../MODULE_DOCS_INDEX.md)
 2. **Navigate to:** Module or theme category
 3. **Use Search:** Ctrl+F for keywords
@@ -419,6 +422,7 @@ Start at theme index:
 
 ## 📋 Related Documents
 
+- [Master Index](docs/MODULE_DOCS_INDEX.md) - Central navigation
 - [Master Index](../../../MODULE_DOCS_INDEX.md) - Central navigation
 - [BMad Workflow](_bmad-output/BMAD-WORKFLOW-COMPLETE.md) - BMad summary
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md) - Theme layouts

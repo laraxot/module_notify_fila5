@@ -8,10 +8,11 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: boost_skill_installation_success.divergenza.md
 ---
 
-# Divergenza: `boost-skill-installation-success.md`
+# Divergenza: `BOOST_SKILL_INSTALLATION_SUCCESS.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/BOOST_SKILL_INSTALLATION_SUCCESS.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

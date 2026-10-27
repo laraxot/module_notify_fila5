@@ -16,6 +16,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # Indice Documentazione Template Email
 
@@ -24,6 +25,8 @@ related:
 - [README Modulo Notify](../readme.md)
 - [Sistema Email](../database-mail-system.md)
 - [Template Email](../email_templates.md)
+- [Documentazione Generale ](../../../../../../docs/readme.md)
+- [Documentazione Generale <nome progetto>](../../../../../../docs/readme.md)
 - [Documentazione Generale ](../../../../../docs/README.md)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
@@ -55,7 +58,7 @@ related:
 - [Best Practices XotBaseMigration](./xotbasemigration_best_practices.md) - Best practices per l'uso di XotBaseMigration
 
 ## Best Practices
-- [Best Practices Email](./email-best-practices.md) - Best practices generali per le email
+- [Best Practices Email](./email_best_practices.md) - Best practices generali per le email
 - [Best Practices Template](./email_templates_best_practices.md) - Best practices specifiche per i template
 - [Best Practices Email](./email-best-practices.md) - Best practices generali per le email
 - [Best Practices Template](./email-templates-best-practices.md) - Best practices specifiche per i template

@@ -8,7 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: project_overview.md
 ---
 
 # 🏛️ NOTIFY - Civic Engagement Platform
@@ -540,7 +541,7 @@ php artisan serve
 - GitHub Discussions (features)
 
 ### Contributing
-See `contributing.md`
+See `CONTRIBUTING.md`
 
 ### License
 MIT (to be confirmed)

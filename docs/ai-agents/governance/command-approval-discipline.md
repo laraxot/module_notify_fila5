@@ -12,7 +12,7 @@ status: draft
 
 # Command Approval Discipline
 
-> Indice: [./00-INDEX.md](./00-index.md)
+> Indice: [./00-INDEX.md](./00-INDEX.md)
 > Indice: [./00-index.md](./00-index.md)
 > Governance correlata: [./reusable-components-and-indexes.md](./reusable-components-and-indexes.md)
 

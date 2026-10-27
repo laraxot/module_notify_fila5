@@ -8,10 +8,11 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: analisi-metodi-duplicati-master.divergenza.md
 ---
 
-# Divergenza: `analisi-metodi-duplicati-master.md`
+# Divergenza: `ANALISI_METODI_DUPLICATI_MASTER.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/ANALISI_METODI_DUPLICATI_MASTER.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

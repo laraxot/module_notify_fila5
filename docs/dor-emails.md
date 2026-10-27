@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # Email per i Dottori
@@ -180,8 +181,9 @@ try {
 
 ## Collegamenti Correlati
 
+- [Documentazione Root](../../../../../docs/readme.md)
 - [Documentazione Root](../../../../docs/README.md)
-- [Documentazione Modulo Notify](./README.md)
-- [Documentazione Template Email](./email-templates.md)
-- [Guida all'utilizzo di SpatieEmail](./spatie-email-usage-guide.md)
+- [Documentazione Modulo Notify](./readme.md)
+- [Documentazione Template Email](./email_templates.md)
+- [Guida all'utilizzo di SpatieEmail](./spatie_email_usage_guide.md)
 - [Documentazione Filament Resources](./filament-resources.md)

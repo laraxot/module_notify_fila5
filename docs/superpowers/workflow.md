@@ -365,7 +365,7 @@ git worktree list
 ```markdown
 ## Updated Files
 - [x] `docs/activity-tracking.md` - Feature documentation
-- [x] `changelog.md` - Added feature entry
+- [x] `CHANGELOG.md` - Added feature entry
 - [x] `README.md` - Updated if needed
 ```
 

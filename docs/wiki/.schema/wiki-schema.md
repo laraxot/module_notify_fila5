@@ -167,13 +167,13 @@ docs/
 Ogni modulo in `laravel/Modules/<Nome>/docs/` avrà:
 - `wiki/` - Wiki specifica del modulo
 - `raw/` - Sorgenti specifici del modulo
-- `index.md` - Indice locale
+- `INDEX.md` - Indice locale
 
 ### Temi
 Ogni tema in `laravel/Themes/<Nome>/docs/` avrà:
 - `wiki/` - Wiki specifica del tema
 - `raw/` - Sorgenti specifici del tema
-- `index.md` - Indice locale
+- `INDEX.md` - Indice locale
 
 ### Reference Bidirezionale
 - Ogni INDEX locale punta all'INDEX globale

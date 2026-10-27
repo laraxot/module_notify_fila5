@@ -9,14 +9,20 @@ qmd: "roadmap-project 🚀 roadmap generale - ptv platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 🚀 ROADMAP GENERALE - FixCity Platform
@@ -349,6 +355,12 @@ related:
 ## 🎓 Knowledge Base
 
 ### Link Documentazione Moduli
+- [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
+- [Modulo User](../Modules/User/docs/README.md)
+- [Modulo Cms](../Modules/Cms/docs/README.md)
+- [Modulo Geo](../Modules/Geo/docs/README.md)
+- [Modulo Notify](../Modules/Notify/docs/README.md)
+- [Theme Sixteen](../Themes/Sixteen/docs/README.md)
 - [Modulo Fixcity](../../Fixcity/docs/README.md)
 - [Modulo User](../../User/docs/README.md)
 - [Modulo Cms](../../Cms/docs/README.md)

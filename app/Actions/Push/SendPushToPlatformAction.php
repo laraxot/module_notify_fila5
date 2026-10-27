@@ -73,6 +73,12 @@ class SendPushToPlatformAction
         if ($response->successful()) {
             $responseData = $response->json();
 
+            // FCM legacy risponde 200 anche quando il token e' rifiutato: l'esito vero e' in `failure`
+            $failures = is_array($responseData) ? ($responseData['failure'] ?? 0) : 0;
+            if (is_int($failures) && $failures > 0) {
+                throw new Exception('FCM rejected the token: '.$response->body());
+            }
+
             return [
                 'success' => true,
                 'message_id' => is_array($responseData) && isset($responseData['message_id']) ? $responseData['message_id'] : null,

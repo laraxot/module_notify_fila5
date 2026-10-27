@@ -8,14 +8,20 @@ qmd: "master-documentation-index 📚 master documentation index"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 📚 Master Documentation Index
@@ -35,7 +41,7 @@ related:
 
 ### Per Sviluppatori
 - [Architecture Overview](./architecture/README.md)
-- [Getting Started](./getting-started.md)
+- [Getting Started](./GETTING_STARTED.md)
 - [Coding Standards](./conventions/README.md)
 
 ### Per AI Agents
@@ -74,6 +80,7 @@ related:
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
+- [Quality Reports](./reports/quality.md)
 - [Quality Reports](./roadmap/quality.md)
 - [Performance Reports](./reports/performance.md)
 
@@ -83,6 +90,16 @@ related:
 
 | Module | Docs | Status |
 |--------|------|--------|
+| **Xot** | [Modules/Xot/docs/](../laravel/Modules/Xot/docs/) | ⚠️ Needs cleanup |
+| **Cms** | [Modules/Cms/docs/](../laravel/Modules/Cms/docs/) | ⚠️ Needs cleanup |
+| **UI** | [Modules/UI/docs/](../laravel/Modules/UI/docs/) | ⚠️ Needs cleanup |
+| **Media** | [Modules/Media/docs/](../laravel/Modules/Media/docs/) | ✅ Good |
+| **Notify** | [Modules/Notify/docs/](../laravel/Modules/Notify/docs/) | ⚠️ Needs cleanup |
+| **Blog** | [Modules/Blog/docs/](../laravel/Modules/Blog/docs/) | ✅ Good |
+| **User** | [Modules/User/docs/](../laravel/Modules/User/docs/) | ⚠️ Needs cleanup |
+| **Geo** | [Modules/Geo/docs/](../laravel/Modules/Geo/docs/) | ✅ Good |
+| **AI** | [Modules/AI/docs/](../laravel/Modules/AI/docs/) | ✅ Good |
+| **Fixcity** | [Modules/Fixcity/docs/](../laravel/Modules/Fixcity/docs/) | ✅ Good |
 | **Xot** | [Modules/Xot/docs/](../../Xot/docs) | ⚠️ Needs cleanup |
 | **Cms** | [Modules/Cms/docs/](../../Cms/docs) | ⚠️ Needs cleanup |
 | **UI** | [Modules/UI/docs/](../../UI/docs) | ⚠️ Needs cleanup |
@@ -100,6 +117,8 @@ related:
 
 | Theme | Docs | Status |
 |-------|------|--------|
+| **Sixteen** | [Themes/Sixteen/docs/](../laravel/Themes/Sixteen/docs/) | ✅ AGID Compliant |
+| **TwentyOne** | [Themes/TwentyOne/docs/](../laravel/Themes/TwentyOne/docs/) | ✅ Filament 5 |
 | **Sixteen** | [Themes/Sixteen/docs/](../../../Themes/Sixteen/docs) | ✅ AGID Compliant |
 | **TwentyOne** | [Themes/TwentyOne/docs/](../../../Themes/TwentyOne/docs) | ✅ Filament 5 |
 | **One** | [Themes/One/docs/](../laravel/Themes/One/docs/) | ✅ Base Theme |

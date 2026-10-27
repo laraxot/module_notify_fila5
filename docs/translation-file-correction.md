@@ -171,11 +171,11 @@ return [
 
 ## Riferimenti
 
+- [Regole di Naming per i File di Traduzione](./translation_file_naming_rules.md)
+- [Guida alla Struttura dei File di Traduzione](./translation_file_structure_guide.md)
 - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
-- [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
-- [Progresso della Standardizzazione](./translation-standards-progress.md)
+- [Progresso della Standardizzazione](./translation_standards_progress.md)
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione
@@ -325,8 +325,8 @@ declare(strict_types=1);
 
 ## Riferimenti
 
+- [Regole di Naming per i File di Traduzione](./translation_file_naming_rules.md)
+- [Guida alla Struttura dei File di Traduzione](./translation_file_structure_guide.md)
 - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
 - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
-- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
-- [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
-- [Progresso della Standardizzazione](./translation-standards-progress.md)
+- [Progresso della Standardizzazione](./translation_standards_progress.md)

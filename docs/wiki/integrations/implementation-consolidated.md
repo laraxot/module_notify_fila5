@@ -32,6 +32,7 @@ Consolidated from **10** individual files.
 
 ## implementation-guide-1
 
+*Consolidated from: `implementation-guide.md`*
 *Consolidated from: `implementation-guide-gdpr-consent.md`*
 
 title: "Guida all'Implementazione dei Template Email"
@@ -43,12 +44,17 @@ qmd: "implementation-guide-1 guida all'implementazione dei template email"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1321,7 +1327,7 @@ class TemplateControllerTest extends TestCase
 
 ## implementation-summary-
 
-*Consolidated from: `implementation-summary.md`*
+*Consolidated from: `implementation-summary-.md`*
 
 title: "IMPLEMENTATION_SUMMARY_2025-01-27.deprecated"
 type: concept
@@ -1331,12 +1337,17 @@ updated: 2026-07-14
 qmd: "implementation_summary_2025-01-27.deprecated deprecated"
 status: deprecated
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1357,12 +1368,17 @@ updated: 2026-07-14
 qmd: "implementation_summary_2025-01-27 deprecated"
 status: deprecated
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1373,7 +1389,7 @@ related:
 
 ## implementation-summary-2
 
-*Consolidated from: `implementation-summary-2.md`*
+*Consolidated from: `implementation-summary-gennaio.md`*
 
 title: "🚀 IMPLEMENTATION SUMMARY - 27 Gennaio 2025"
 type: concept
@@ -1384,12 +1400,17 @@ qmd: "implementation-summary-2025-01-27.deprecated 🚀 implementation summary -
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1671,12 +1692,17 @@ qmd: "implementation-summary riepilogo implementazione design comuni"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2157,7 +2183,7 @@ class TemplateControllerTest extends TestCase
 
 ## implementation_guide
 
-*Consolidated from: `implementation-guide.md`*
+*Consolidated from: `implementation_guide.md`*
 
 
 ## Setup Iniziale
@@ -2411,12 +2437,17 @@ qmd: "implementations-completed ✅ <nome progetto> - implementazioni completate
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

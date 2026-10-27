@@ -6,7 +6,7 @@ type: concept
 module: Notify
 status: active
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-10-20
 tags: [scopo, confini, servizio-trasversale, canali, notifiche, dipendenze]
 qmd: "scopo notify servizio trasversale canali notifiche email sms whatsapp telegram push confini dipendenze ipertrofia documentale"
 ---
@@ -83,7 +83,7 @@ sospetto che sia ipertrofia e non ricchezza è confermato da tre misure indipend
 
 - **899 nomi di file collidono**: 3.031 file `.md`, solo 2.132 basename distinti.
 - **83 gruppi di file byte-identici**: `find docs -name '*.md' -exec md5sum {} + | awk '{print $1}' | sort | uniq -d | wc -l`.
-- **25 directory contengono sia `00-index.md` sia `00-index.md`** — due indici per la
+- **25 directory contengono sia `00-index.md` sia `00-INDEX.md`** — due indici per la
   stessa cartella, distinti solo dal case, quindi due verità che nessuno riconcilia.
   Su un filesystem case-insensitive uno dei due sparisce e nessuno se ne accorge.
 - **1.059 file `.md` stanno piatti nella root di `docs/`**, oltre un terzo del totale,
@@ -111,6 +111,8 @@ concreti su quattordici non lo ereditano perché estendono direttamente
 | `NotificationType` | `2026_03_03_000001_create_notification_types_table.php` | `XotBaseMigration` risolve la connection dal modello: `notification_types` finisce sulla connection **di default**, non su `notify` |
 | `Theme` | nessuna | tabella inesistente; `tests/Feature/ThemeManagementBusinessLogicTest.php:15` lo dichiara: *"The tests reference Modules\Notify\Models\Theme which is not implemented"* |
 | `EmailTemplate` | nessuna | idem, e coesiste con `MailTemplate` che invece è reale, versionato e loggato |
+| `Theme` | nessuna | tabella inesistente; `tests/Feature/ThemeManagementBusinessLogicTest.php` e' ridotto a un `skip('themes table and Theme design token columns not implemented')` che spiega l'assenza (il corpo da 20 test e' in git, commit `13f2cb04f`) |
+| `EmailTemplate` | nessuna | idem (`tests/Feature/TemplateManagementBusinessLogicTest.php`, ridotto a `skip`), e coesiste con `MailTemplate` che invece è reale, versionato e loggato |
 
 `Theme` e `NotifyTheme` sono due modelli per lo stesso concetto: solo il secondo ha
 migrazione (`create_notify_themes_table`), factory, seeder e Filament Resource.
@@ -118,10 +120,11 @@ migrazione (`create_notify_themes_table`), factory, seeder e Filament Resource.
 casi il modello vivo è quello con la migrazione; l'altro è un abbozzo che PHPStan
 analizza, l'IDE completa e un agente può usare in buona fede.
 
-### `app/Services/` esiste ancora, e duplica `app/Actions/`
+### `app/Services/` non esiste: conversione completata
 
 La policy del progetto (`bashscripts/ai/wiki/rules/no-services-rule.md`) vieta
-`app/Services` e le classi `*Service`. In Notify ci sono 4 file `.php` più un residuo:
+`app/Services` e le classi `*Service` come confine applicativo. L'elenco seguente è
+solo il mapping storico della conversione:
 
 ```
 app/Services/NotificationManager.php        <- duplicato di app/Actions/NotificationManager.php
@@ -193,6 +196,9 @@ migrazione, non hanno consumatori fuori dai test, e hanno ciascuno un gemello re
 (`NotifyTheme`, `MailTemplate`): vanno cancellati, non "completati". Il test
 `tests/Feature/ThemeManagementBusinessLogicTest.php` che documenta l'assenza di `Theme`
 va rimosso con lui.
+(`NotifyTheme`, `MailTemplate`): vanno cancellati, non "completati". I test
+`tests/Feature/ThemeManagementBusinessLogicTest.php` e `tests/Feature/TemplateManagementBusinessLogicTest.php`,
+ridotti a `skip` che documentano l'assenza di `Theme` ed `EmailTemplate`, vanno rimossi con loro.
 
 ```bash
 cd laravel
@@ -243,7 +249,7 @@ find Modules/Notify/app/Filament/Clusters/Test/Pages -name '*.php' | wc -l   # 1
 ### 5. Deduplicare `docs/` prima di aggiungere una sola riga nuova
 
 Target misurabili, nell'ordine: gli 83 gruppi di file identici, le 25 collisioni
-`00-index.md` / `00-index.md`, i 1.059 file piatti nella root. Le regole di progetto sui
+`00-index.md` / `00-INDEX.md`, i 1.059 file piatti nella root. Le regole di progetto sui
 nomi dei file markdown esistono già — anzi ne esistono troppe, `ls docs/wiki/rules/ |
 grep -ci markdown` ne conta 9 — e qui vanno applicate, non riscritte una decima volta.
 

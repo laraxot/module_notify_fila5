@@ -79,10 +79,10 @@ export -f git_safe_directory_add 2>/dev/null || true
 
 | File | Purpose | Lines |
 |------|---------|-------|
-| `multi-agent-coordination-rules.md` | Multi-agent rules | 250+ |
+| `MULTI_AGENT_COORDINATION_RULES.md` | Multi-agent rules | 250+ |
 | `ISSUE_SUBTREE_SYNC_TEST.md` | Sync test plan | 100+ |
 | `FINAL_SUCCESS_REPORT.md` | Success report | 190+ |
-| `bashscripts-gitignore-workaround.md` | Workaround guide | 200+ |
+| `BASHSCRIPTS_GITIGNORE_WORKAROUND.md` | Workaround guide | 200+ |
 
 **Total**: 740+ lines
 
@@ -179,10 +179,10 @@ export -f git_safe_directory_add 2>/dev/null || true
 
 | Document | Purpose |
 |----------|---------|
-| `multi-agent-coordination-rules.md` | Team rules |
-| `multi-agent-collaboration-guide.md` | Collaboration guide |
-| `github-sync-rule.md` | .github sync rule |
-| `ai-rules-critical.md` | AI agent rules |
+| `MULTI_AGENT_COORDINATION_RULES.md` | Team rules |
+| `MULTI_AGENT_COLLABORATION_GUIDE.md` | Collaboration guide |
+| `GITHUB_SYNC_RULE.md` | .github sync rule |
+| `AI_RULES_CRITICAL.md` | AI agent rules |
 | `AI_MEMORY.md` | AI memory |
 
 ---

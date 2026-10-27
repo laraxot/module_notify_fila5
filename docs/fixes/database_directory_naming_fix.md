@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "database directory naming fix"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: database-directory-naming-fix.md
 ---
 
 # Database Directory Naming Convention Fix
@@ -120,7 +121,7 @@ php artisan test
 ## Documentation Updates
 
 ### Updated Files
-- ✅ `agents.md` - Already had correct naming
+- ✅ `AGENTS.md` - Already had correct naming
 - ✅ `.windsurfrules` - No changes needed (didn't mention directory names)
 - ✅ Skills - No skills referenced incorrect paths
 - ✅ `composer.json` files - Already correct

@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "02 next"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: next.md
 ---
 
 # Next (Module Notify)

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Models\Traits;
+namespace Modules\Notify\Tests\Unit\Models\Traits;
 
 use Modules\Notify\Enums\ContactTypeEnum;
-use Tests\Modules\Notify\Fixtures\HasContactDummyModel;
+use Modules\Notify\Tests\Fixtures\HasContactDummyModel;
 use PHPUnit\Framework\Assert;
 
 function makeHasContactDummyModel(): HasContactDummyModel

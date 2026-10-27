@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit;
+namespace Modules\Notify\Tests\Unit;
 
-use Tests\Modules\Xot\ModuleDeepCoverage;
+use Modules\Xot\Tests\ModuleDeepCoverage;
 
 /**
  * @return array{string, string} radice `app/` del modulo e namespace corrispondente

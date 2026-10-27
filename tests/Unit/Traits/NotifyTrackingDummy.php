@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Traits;
+namespace Modules\Notify\Tests\Unit\Traits;
 
 use Modules\Notify\Traits\HasNotificationTracking;
 

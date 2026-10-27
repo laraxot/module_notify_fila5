@@ -16,6 +16,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # 📁 Project Documentation Index
 
@@ -44,7 +45,7 @@ This directory contains project-wide configuration and setup documentation for t
 
 | File | Description | Category |
 |------|-------------|----------|
-| [`agents.md`](agents.md) | AI agents configuration | AI |
+| [`AGENTS.md`](AGENTS.md) | AI agents configuration | AI |
 | [`AI_AGENT_LESSONS_LEARNED.md`](AI_AGENT_LESSONS_LEARNED.md) | AI agent learnings | AI |
 | [`AI_SKILLS_AND_PLUGINS_COMPLETE.md`](AI_SKILLS_AND_PLUGINS_COMPLETE.md) | AI skills setup | AI |
 | [`COMMIT_MESSAGE.md`](COMMIT_MESSAGE.md) | Commit message guidelines | Git |
@@ -62,9 +63,9 @@ This directory contains project-wide configuration and setup documentation for t
 |------|-------------|----------|
 | [`2-1-1-PLAN.md`](2-1-1-plan.md) | Sprint planning | Planning |
 | [`2-1-CONTEXT.md`](2-1-context.md) | Project context | Planning |
-| [`project.md`](project.md) | Project overview | Planning |
+| [`PROJECT.md`](project.md) | Project overview | Planning |
 | [`REQUIREMENTS.md`](requirements.md) | Requirements | Planning |
-| [`roadmap.md`](roadmap.md) | Project roadmap | Planning |
+| [`ROADMAP.md`](roadmap.md) | Project roadmap | Planning |
 | [`STATE.md`](state.md) | Current state | Planning |
 
 ### Philosophy
@@ -123,6 +124,7 @@ echo "127.0.0.1 laraxot.local" | sudo tee -a /etc/hosts
 - [Main Index](../index.md) - Master documentation index
 - [Modules Docs](../../Modules/docs/) - Module documentation
 - [Themes Docs](../../Themes/docs/) - Theme documentation
+- [Bash Scripts](../../../../bashscripts/docs/) - Script documentation
 - [Bash Scripts](../../../../../bashscripts/docs) - Script documentation
 
 ### External
@@ -140,7 +142,7 @@ echo "127.0.0.1 laraxot.local" | sudo tee -a /etc/hosts
 - [`vhost-configuration.md`](vhost-configuration.md) - Apache vhost setup
 
 **AI & Agents:**
-- [`agents.md`](agents.md)
+- [`AGENTS.md`](AGENTS.md)
 - [`AI_AGENT_LESSONS_LEARNED.md`](AI_AGENT_LESSONS_LEARNED.md)
 - [`AI_SKILLS_AND_PLUGINS_COMPLETE.md`](AI_SKILLS_AND_PLUGINS_COMPLETE.md)
 - [`NOTEBOOKLM_SETUP_COMPLETE.md`](NOTEBOOKLM_SETUP_COMPLETE.md)
@@ -151,9 +153,9 @@ echo "127.0.0.1 laraxot.local" | sudo tee -a /etc/hosts
 - [`kilo-configuration.md`](kilo-configuration.md)
 
 **Planning:**
-- [`project.md`](project.md)
+- [`PROJECT.md`](project.md)
 - [`REQUIREMENTS.md`](requirements.md)
-- [`roadmap.md`](roadmap.md)
+- [`ROADMAP.md`](roadmap.md)
 - [`STATE.md`](state.md)
 - [`2-1-1-PLAN.md`](2-1-1-plan.md)
 - [`2-1-CONTEXT.md`](2-1-context.md)

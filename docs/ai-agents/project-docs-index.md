@@ -31,12 +31,12 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `.agents/docs/testing-commands.md` — Testing commands
 - `.agents/docs/workflow.md` — Development Workflow
 - `.devcontainer/README.md` — README
-- `agents.md` — AGENTS.MD - Development Guidelines
-- `claude.md` — CLAUDE.md
-- `gemini.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
+- `AGENTS.md` — AGENTS.MD - Development Guidelines
+- `CLAUDE.md` — CLAUDE.md
+- `GEMINI.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
 - `IFLOW.md` — Quaeris Fila4 Mono - 项目指南
 - `README.md` — Quaeris Fila4 Mono - Laravel Survey Management System
-- `gemini.md` — Gemini Project Context: App Fila4 Mono - Laravel Survey Management System
+- `GEMINI.md` — Gemini Project Context: App Fila4 Mono - Laravel Survey Management System
 - `IFLOW.md` — App Fila4 Mono - 项目指南
 - `README.md` — App Fila4 Mono - Laravel Survey Management System
 - `bashscripts/README.md` — Git Conflict Resolution Scripts
@@ -102,7 +102,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/config-file-conflicts.md` — Risoluzione dei Conflitti nei File di Configurazione
 - `bashscripts/docs/config_file_conflicts.md` — Gestione dei Conflitti nei File di Configurazione
 - `bashscripts/docs/conflict-resolution-bash.md` — Risoluzione Manuale dei Conflitti negli Script Bash
-- `bashscripts/docs/conflict-resolution-critical-bug-analysis-2026-01-09.md` — CRITICAL BUG: Conflict Resolution Scripts Take WRONG Change
+- `bashscripts/docs/conflict-resolution-critical-bug-analysis.md` — CRITICAL BUG: Conflict Resolution Scripts Take WRONG Change
 - `bashscripts/docs/conflict-resolution-final-report.md` — conflict-resolution-final-report
 - `bashscripts/docs/conflict-resolution-report.md` — Report Risoluzione Conflitti Git - BashScripts Fila3
 - `bashscripts/docs/conflict-resolution-success-report.md` — Report di Successo Risoluzione Conflitti
@@ -142,14 +142,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/git-conflict-resolution-advanced.md` — git-conflict-resolution-advanced
 - `bashscripts/docs/git-conflict-resolution-analysis.md` — Analisi Critica Script V6.0: Conflict Resolver 🔬
 - `bashscripts/docs/git-conflict-resolution-current.md` — git-conflict-resolution-current
-- `bashscripts/docs/git-conflict-resolution-final-report-2026-01-09.md` — Git Conflict Resolution - Final Report
+- `bashscripts/docs/git-conflict-resolution-final-report.md` — Git Conflict Resolution - Final Report
 - `bashscripts/docs/git-conflict-resolution-guide-complete.md` — Guida Completa: Risoluzione Automatica Conflitti Git 🐄
 - `bashscripts/docs/git-conflict-resolution-guide.md` — Guida Completa: Risoluzione Automatica Conflitti Git
 - `bashscripts/docs/git-conflict-resolution-incoming-strategy.md` — Risoluzione Conflitti Git - Strategia INCOMING
 - `bashscripts/docs/git-conflict-resolution-summary.md` — git-conflict-resolution-summary
 - `bashscripts/docs/git-conflicts-quick-reference.md` — Git Conflicts - Quick Reference Card
 - `bashscripts/docs/git-conflicts-resolution-script-v5.md` — Script Risoluzione Conflitti Git V5.0
-- `bashscripts/docs/git-conflicts-resolution-summary-2025-01-06.md` — Riepilogo Risoluzione Conflitti Git - 2025-01-06
+- `bashscripts/docs/git-conflicts-resolution-summary.md` — Riepilogo Risoluzione Conflitti Git - 2025-01-06
 - `bashscripts/docs/git-merge-conflict-resolution-roadmap.md` — Roadmap per Risoluzione Collisioni Git con Rector (pipeline realistica)
 - `bashscripts/docs/git-scripts.md` — Git Scripts
 - `bashscripts/docs/git-subtree-conflicts.md` — Risoluzione dei Conflitti negli Script Git Subtree
@@ -183,7 +183,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/login_test_implementation_summary.md` — Login Test Implementation Summary - <nome progetto> Project
 - `bashscripts/docs/markdown-conflicts-cleanup-complete.md` — Pulizia Completa Marker Conflitti Git nei File Markdown
 - `bashscripts/docs/markdown-conflicts-cleanup-summary.md` — Pulizia Marker Conflitti Git nei File Markdown
-- `bashscripts/docs/master-session-2025-01-04.md` — 🎯 MASTER SESSION REPORT - 4 Gennaio 2025
+- `bashscripts/docs/master-session.md` — 🎯 MASTER SESSION REPORT - 4 Gennaio 2025
 - `bashscripts/docs/mcp-configuration.md` — Configurazione MCP Server per PTVX Fila4 Mono
 - `bashscripts/docs/mcp-optimization-workflow.md` — Workflow di Ottimizzazione Continua MCP per SimpleChartWidget
 - `bashscripts/docs/mcp_errors_and_lessons.md` — Analisi Errori e Lezioni Apprese sull'Implementazione MCP
@@ -225,7 +225,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/phpstan-comprehensive-summary.md` — PHPStan Comprehensive Analysis Summary
 - `bashscripts/docs/phpstan-execution.md` — Esecuzione Corretta di PHPStan in Laraxot PTVX
 - `bashscripts/docs/phpstan-final-summary.md` — PHPStan Final Analysis Summary - All Critical Issues Resolved
-- `bashscripts/docs/phpstan-fixes-summary-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
+- `bashscripts/docs/phpstan-fixes-summary-riepilogo-soluzioni-ai-problemi.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
 - `bashscripts/docs/phpstan-fixes-summary.md` — Riassunto delle Correzioni per PHPStan Livello 9
 - `bashscripts/docs/phpstan-generic-types.md` — Risoluzione degli Errori PHPStan Relativi ai Tipi Generici nelle Relazioni Eloquent
 - `bashscripts/docs/phpstan-implementation-guide.md` — Guida Pratica all'Implementazione delle Soluzioni PHPStan
@@ -301,7 +301,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/service.md` — Services
 - `bashscripts/docs/services.md` — Servizi del Modulo Xot
 - `bashscripts/docs/session-report-latest.md` — Sessione di Lavoro: Risoluzione Conflitti Git e Fix Errori Sintassi
-- `bashscripts/docs/session-summary-2025-01-04.md` — Session Summary - 4 Gennaio 2025
+- `bashscripts/docs/session-summary-gennaio.md` — Session Summary - 4 Gennaio 2025
 - `bashscripts/docs/session-summary.md` — Riepilogo Sessione Correzioni - Novembre 2025
 - `bashscripts/docs/solution_summary.md` — Soluzione Implementata: Errore Larazeus Bolt v3
 - `bashscripts/docs/solutions.md` — Soluzioni Tecniche - Modulo Job
@@ -526,6 +526,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/work-summary-jan.md` — Work Summary - 2025-01-22
 - `docs/work-summary-oct.md` — 📋 Riepilogo Lavoro Completato - 22 Ottobre 2025
 - `laravel/Modules/Activity/README.md` — Activity Module
+- `laravel/Modules/Activity/docs/00-index-1.md` — Documentation Index
 - `laravel/Modules/Activity/docs/00-index-documentation.md` — Documentation Index
 - `laravel/Modules/Activity/docs/00-index.md` — 📚 **Indice Documentazione Modulo Activity**
 - `laravel/Modules/Activity/docs/CHANGELOG.md` — Changelog
@@ -535,6 +536,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/actions/list-log-activities-action.md` — ListLogActivitiesAction - Documentazione Completa
 - `laravel/Modules/Activity/docs/activity-log-ui-improvements.md` — Activity Log UI/UX Improvements - Implementation Summary
 - `laravel/Modules/Activity/docs/activity-pdf-reports.md` — Activity Log PDF Reports
+- `laravel/Modules/Activity/docs/advanced-event-sourcing-patterns-1.md` — Advanced Event Sourcing Patterns for Healthcare Applications
 - `laravel/Modules/Activity/docs/advanced-event-sourcing-patterns-healthcare-applications.md` — Advanced Event Sourcing Patterns for Healthcare Applications
 - `laravel/Modules/Activity/docs/advanced-event-sourcing-patterns-duplicate.md` — Advanced Event Sourcing Patterns for Healthcare Applications
 - `laravel/Modules/Activity/docs/advanced-event-sourcing-patterns.md` — Advanced Event Sourcing Patterns for Healthcare Applications
@@ -549,6 +551,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/basemodel-connection-why-activity-not-null.md` — BaseModel Activity: Perché $connection = 'activity' e NON null
 - `laravel/Modules/Activity/docs/bottlenecks.md` — Colli di Bottiglia e Soluzioni - Modulo Activity
 - `laravel/Modules/Activity/docs/bugfix-filament-facade-namespace.md` — Bugfix: Filament Facade Namespace Error
+- `laravel/Modules/Activity/docs/business-logic-analysis-1.md` — Activity Module - Business Logic Analysis
 - `laravel/Modules/Activity/docs/business-logic-analysis-activity-module.md` — Activity Module - Business Logic Analysis
 - `laravel/Modules/Activity/docs/business-logic-analysis.md` — Activity Module - Business Logic Analysis
 - `laravel/Modules/Activity/docs/business-logic-overview.md` — Activity Module - Business Logic Overview
@@ -572,6 +575,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/development/roadmap.md` — Roadmap Modulo Activity
 - `laravel/Modules/Activity/docs/domain-logic.md` — Domain Logic
 - `laravel/Modules/Activity/docs/dry-kiss-analysis-.md` — DRY & KISS Analysis - Modulo Activity
+- `laravel/Modules/Activity/docs/dry-kiss-analysis-1.md` — DRY & KISS Analysis - Modulo Activity
 - `laravel/Modules/Activity/docs/dry-kiss-analysis-modulo-user.md` — DRY & KISS Analysis - Modulo Activity
 - `laravel/Modules/Activity/docs/dry-kiss-analysis-latest.md` — DRY & KISS Analysis - Modulo Activity
 - `laravel/Modules/Activity/docs/dry-kiss-analysis.md` — DRY & KISS Analysis - Modulo Activity
@@ -584,6 +588,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/errori/modulo-disabilitato.md` — Errore: Modulo Activity Disabilitato
 - `laravel/Modules/Activity/docs/errori/no-hint-path-defined.md` — Errore: No hint path defined for [activity]
 - `laravel/Modules/Activity/docs/errori/route-method-does-not-exist.md` — Errore: Method ::route does not exist
+- `laravel/Modules/Activity/docs/errori-migrazione-activity-table-lezioni-1.md` — Lezioni Apprese: Errori Migrazione Activity Table
 - `laravel/Modules/Activity/docs/errori-migrazione-activity-table-lezioni-apprese.md` — Lezioni Apprese: Errori Migrazione Activity Table
 - `laravel/Modules/Activity/docs/errori-migrazione-activity-table-lezioni.md` — Lezioni Apprese: Errori Migrazione Activity Table
 - `laravel/Modules/Activity/docs/errori_migrazione_activity_table_lezioni.md` — errori_migrazione_activity_table_lezioni
@@ -599,6 +604,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/factory-coverage-report.md` — Factory Coverage Report - Activity Module
 - `laravel/Modules/Activity/docs/filament/errors/label-usage-error.md` — Non utilizzare `->label()` nei componenti Filament
 - `laravel/Modules/Activity/docs/filament/errors/static-instance-method-incompatibility.md` — Incompatibilità tra metodi statici e di istanza in Filament
+- `laravel/Modules/Activity/docs/filament/filament-v4-icon-size-fix-2.md` — Filament v4 Icon Size Attribute Fix
+- `laravel/Modules/Activity/docs/filament/filament-v4-icon-size-fix.md` — Filament v4 Icon Size Attribute Fix
+- `laravel/Modules/Activity/docs/filament/filament-v4-upgrade-2.md` — Filament v4 Upgrade Documentation
 - `laravel/Modules/Activity/docs/filament/filament-v4-icon-size-fix-attribute.md` — Filament v4 Icon Size Attribute Fix
 - `laravel/Modules/Activity/docs/filament/filament-v4-icon-size-fix.md` — Filament v4 Icon Size Attribute Fix
 - `laravel/Modules/Activity/docs/filament/filament-v4-upgrade-documentation.md` — Filament v4 Upgrade Documentation
@@ -611,6 +619,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/filament-actions-usage.md` — Filament Actions nel Modulo Activity
 - `laravel/Modules/Activity/docs/filament-errors-duplicate.md` — Errori Comuni Filament nel Modulo Activity
 - `laravel/Modules/Activity/docs/filament-errors.md` — Errori Comuni Filament nel Modulo Activity
+- `laravel/Modules/Activity/docs/filament-resource-guidelines-1.md` — Activity Module Filament Resource Guidelines
 - `laravel/Modules/Activity/docs/filament-resource-guidelines-activity-module.md` — Activity Module Filament Resource Guidelines
 - `laravel/Modules/Activity/docs/filament-resource-guidelines.md` — Activity Module Filament Resource Guidelines
 - `laravel/Modules/Activity/docs/filament-resources.md` — Filament Resources nel Modulo Activity
@@ -637,12 +646,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/integration.md` — Integration
 - `laravel/Modules/Activity/docs/jpgraph-class-reference-comprehensive-analysis.md` — 📚 JpGraph Class Reference - Analisi Completta 2024
 - `laravel/Modules/Activity/docs/jpgraph.md` — JpGraph 4.4.2 Guide
+- `laravel/Modules/Activity/docs/lang-link-1.md` — Collegamento alle Traduzioni del Modulo Activity
 - `laravel/Modules/Activity/docs/lang-link-collegamento-alle-traduzioni-modulo.md` — Collegamento alle Traduzioni del Modulo Activity
 - `laravel/Modules/Activity/docs/lang-link-duplicate.md` — Collegamento alle Traduzioni del Modulo Activity
 - `laravel/Modules/Activity/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Activity
 - `laravel/Modules/Activity/docs/lang_link.md` — lang_link
 - `laravel/Modules/Activity/docs/lang-link.md` — lang_link
 - `laravel/Modules/Activity/docs/list-log-activities-improvements.md` — ListLogActivities UI/UX Improvements - [DATE]
+- `laravel/Modules/Activity/docs/login-test-implementation-summary-1.md` — Login Test Implementation Summary - <nome progetto> Project
 - `laravel/Modules/Activity/docs/login-test-implementation-summary-nome-progetto-project.md` — Login Test Implementation Summary - <nome progetto> Project
 - `laravel/Modules/Activity/docs/login-test-implementation-summary.md` — Login Test Implementation Summary - <main module> Project
 - `laravel/Modules/Activity/docs/login-test-implementation-sumy.md` — Login Test Implementation Summary - <main module> Project
@@ -655,10 +666,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Activity/docs/metodi_duplicati_analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Activity/docs/metodiuplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
-- `laravel/Modules/Activity/docs/migration-filament-4.md` — migration-filament-4
-- `laravel/Modules/Activity/docs/migrazione-filament-4.md` — Activity Module - Migrazione a Filament 5
+- `laravel/Modules/Activity/docs/migration-filament.md` — migration-filament-4
+- `laravel/Modules/Activity/docs/migrazione-filament.md` — Activity Module - Migrazione a Filament 5
 - `laravel/Modules/Activity/docs/model-classification.md` — Activity Module - Model Classification
 - `laravel/Modules/Activity/docs/model-factory-seeder-audit.md` — Model/Factory/Seeder Audit
+- `laravel/Modules/Activity/docs/modelli-factory-seeder-analisi-1.md` — Analisi Modelli, Factory e Seeder - Moduli Activity, Gdpr, Tenant, UI, <nome progetto>, Xot
 - `laravel/Modules/Activity/docs/modelli-factory-seeder-analisi-moduli-activity-gdpr-tenant.md` — Analisi Modelli, Factory e Seeder - Moduli Activity, Gdpr, Tenant, UI, <nome progetto>, Xot
 - `laravel/Modules/Activity/docs/modelli-factory-seeder-analisi.md` — Analisi Modelli, Factory e Seeder - Moduli Activity, Gdpr, Tenant, UI, <nome progetto>, Xot
 - `laravel/Modules/Activity/docs/modelli_factory_seeder_analisi.md` — modelli_factory_seeder_analisi
@@ -673,6 +685,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/optimization-analysis.md` — Analisi di Ottimizzazione - Modulo Activity
 - `laravel/Modules/Activity/docs/ottimizzazioni-correzioni.md` — Activity Module - Ottimizzazioni e Correzioni
 - `laravel/Modules/Activity/docs/ottimizzazioni-dry-kiss.md` — Ottimizzazioni DRY + KISS - Modulo Activity
+- `laravel/Modules/Activity/docs/performance/activity-log-optimization-2.md` — Activity Log Optimization - Activity Module
 - `laravel/Modules/Activity/docs/performance/activity-log-optimization-module.md` — Activity Log Optimization - Activity Module
 - `laravel/Modules/Activity/docs/performance/activity-log-optimization.md` — Activity Log Optimization - Activity Module
 - `laravel/Modules/Activity/docs/performance/activity_log_optimization.md` — Activity Log Optimization - Activity Module
@@ -699,6 +712,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/phpstan-errors-activitylogger.md` — PHPStan Errori ActivityLogger - Analisi e Correzione
 - `laravel/Modules/Activity/docs/phpstan-errors.md` — PHPStan Errors - Activity Module
 - `laravel/Modules/Activity/docs/phpstan-findings.md` — PHPStan Findings - Activity Module
+- `laravel/Modules/Activity/docs/phpstan-fixes-1.md` — Correzioni PHPStan per il Modulo Activity
+- `laravel/Modules/Activity/docs/phpstan-fixes-activity-1.md` — Correzioni PHPStan - Modulo Activity
 - `laravel/Modules/Activity/docs/phpstan-fixes-correzioni-modulo-activity.md` — Correzioni PHPStan per il Modulo Activity
 - `laravel/Modules/Activity/docs/phpstan-fixes-activity-correzioni-modulo.md` — Correzioni PHPStan - Modulo Activity
 - `laravel/Modules/Activity/docs/phpstan-fixes-activity.md` — Correzioni PHPStan - Modulo Activity
@@ -714,6 +729,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/phpstan_fixes_activity.md` — phpstan_fixes_activity
 - `laravel/Modules/Activity/docs/psr4-autoloading-fix.md` — PSR-4 Autoloading Compliance Fix
 - `laravel/Modules/Activity/docs/quality-analysis/activity-module-quality-report.md` — Analisi Qualità - Modulo Activity
+- `laravel/Modules/Activity/docs/quality-status-2025-11.md` — Activity Module - Quality Status (November 2025)
 - `laravel/Modules/Activity/docs/quality-status-activity-module-november.md` — Activity Module - Quality Status (November 2025)
 - `laravel/Modules/Activity/docs/quality-status.md` — Activity Module - Quality Status (November 2025)
 - `laravel/Modules/Activity/docs/query-optimization-analysis.md` — Activity Module - Query Optimization Analysis
@@ -1674,7 +1690,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/cleanup-log.md` — Cms Module Cleanup - [DATE]
 - `laravel/Modules/Cms/docs/cms-driven-pages-system.md` — CMS-Driven Pages System
 - `laravel/Modules/Cms/docs/cms.md` — Documentazione Frontend
-- `laravel/Modules/Cms/docs/code-quality-analysis-2025-11-24.md` — Code Quality Analysis - CMS Module - November 2025
+- `laravel/Modules/Cms/docs/code-quality-analysis-cms-module-november.md` — Code Quality Analysis - CMS Module - November 2025
 - `laravel/Modules/Cms/docs/code-quality-analysis-legacy.md` — Code Quality Analysis - CMS Module - November 2025
 - `laravel/Modules/Cms/docs/code-quality-analysis-november.md` — Code Quality Analysis - CMS Module - November 2025
 - `laravel/Modules/Cms/docs/code-quality-analysis.md` — Code Quality Analysis - CMS Module - November 2025
@@ -1785,7 +1801,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Cms
 - `laravel/Modules/Cms/docs/filament-5x-compatibility.md` — Compatibilità Filament 5.x - Modulo Cms
 - `laravel/Modules/Cms/docs/filament-architecture-principles.md` — Applicazione dei Principi di Architettura Filament ai Moduli
-- `laravel/Modules/Cms/docs/filament-blade-components-1.md` — Filament Blade Components Usage (CMS)
+- `laravel/Modules/Cms/docs/filament-blade-components.md` — Filament Blade Components Usage (CMS)
 - `laravel/Modules/Cms/docs/filament-blade-components.md` — Filament Blade Components Usage (CMS)
 - `laravel/Modules/Cms/docs/filament-blocks-system.md` — Sistema Filament Blocks - Modulo CMS
 - `laravel/Modules/Cms/docs/filament-components-1.md` — Utilizzo dei Componenti Filament in il progetto
@@ -2009,6 +2025,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/product_management.md` — Gestione Prodotti con Laravel Folio e Volt
 - `laravel/Modules/Cms/docs/prompt-rules-link.md` — Regole per i Prompt
 - `laravel/Modules/Cms/docs/quality-status-user-module-november.md` — Cms Module - Quality Status (November 2025)
+- `laravel/Modules/Cms/docs/quality-status-2025-11.md` — Cms Module - Quality Status (November 2025)
+- `laravel/Modules/Cms/docs/quality-status-user-module-november.md` — Cms Module - Quality Status (November 2025)
 - `laravel/Modules/Cms/docs/quality-status-activity-module-november.md` — Cms Module - Quality Status (November 2025)
 - `laravel/Modules/Cms/docs/quality-status.md` — Cms Module - Quality Status (November 2025)
 - `laravel/Modules/Cms/docs/quality-tooling.md` — Code Quality Tooling (CMS Module)
@@ -2022,6 +2040,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/responsive/guidelines.md` — Linee Guida Responsive Design
 - `laravel/Modules/Cms/docs/risorse-ui-ux.md` — Risorse per UI/UX e Frontend Development in il progetto
 - `laravel/Modules/Cms/docs/risorse_ui_ux.md` — Risorse per UI/UX e Frontend Development in il progetto
+- `laravel/Modules/Cms/docs/roadmap/2025-q4-roadmap.md` — CMS Module Roadmap (2025 Q4)
 - `laravel/Modules/Cms/docs/roadmap/roadmap-q4.md` — CMS Module Roadmap (2025 Q4)
 - `laravel/Modules/Cms/docs/roadmap/README.md` — CMS Module - Roadmap
 - `laravel/Modules/Cms/docs/roadmap/features/documentation.md` — Documentazione CMS
@@ -2045,10 +2064,10 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/section-management.md` — Gestione Sezioni
 - `laravel/Modules/Cms/docs/section_management.md` — Gestione Sezioni
 - `laravel/Modules/Cms/docs/sections/footer-section.md` — Footer Section
-- `laravel/Modules/Cms/docs/sections/header-language-avatar-implementation-1.md` — Implementazione del Selettore di Lingua e Avatar Utente nell'Header
+- `laravel/Modules/Cms/docs/sections/header-language-avatar-implementation.md` — Implementazione del Selettore di Lingua e Avatar Utente nell'Header
 - `laravel/Modules/Cms/docs/sections/header-language-avatar-implementation-2.md` — Implementazione del Selettore di Lingua e Avatar Utente nell'Header
 - `laravel/Modules/Cms/docs/sections/header-language-avatar-implementation.md` — Implementazione del Selettore di Lingua e Avatar Utente nell'Header
-- `laravel/Modules/Cms/docs/sections/header-language-selector-with-flags-1.md` — Implementazione del Selettore di Lingua con Bandiere SVG
+- `laravel/Modules/Cms/docs/sections/header-language-selector-with-flags.md` — Implementazione del Selettore di Lingua con Bandiere SVG
 - `laravel/Modules/Cms/docs/sections/header-language-selector-with-flags-2.md` — Implementazione del Selettore di Lingua con Bandiere SVG
 - `laravel/Modules/Cms/docs/sections/header-language-selector-with-flags.md` — Implementazione del Selettore di Lingua con Bandiere SVG
 - `laravel/Modules/Cms/docs/sections/header-language-user-dropdown-1.md` — Implementazione del Selettore di Lingua e Dropdown Utente nell'Header
@@ -2273,7 +2292,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/duplicate-methods-analysis.md` — Analisi Metodi Duplicati - Modulo Gdpr
 - `laravel/Modules/Gdpr/docs/faq.md` — faq
 - `laravel/Modules/Gdpr/docs/filament-5x-compatibility.md` — Filament 5.x compatibility - modulo Gdpr
-- `laravel/Modules/Gdpr/docs/filament-resources-1.md` — Filament Resources - Modulo GDPR
+- `laravel/Modules/Gdpr/docs/filament-resources.md` — Filament Resources - Modulo GDPR
 - `laravel/Modules/Gdpr/docs/filament-resources.md` — filament-resources
 - `laravel/Modules/Gdpr/docs/filament-v4-upgrade.md` — GDPR Module - Filament v4 Upgrade
 - `laravel/Modules/Gdpr/docs/filament.md` — filament
@@ -2294,7 +2313,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/html2pdf/security.md` — Configurazione della Sicurezza
 - `laravel/Modules/Gdpr/docs/html2pdf/styling.md` — Guida agli Stili, Tabelle e Immagini
 - `laravel/Modules/Gdpr/docs/html2pdf/usage.md` — Utilizzo Base e Layout
-- `laravel/Modules/Gdpr/docs/implementation-guide-1.md` — GDPR Consent Implementation Guide
+- `laravel/Modules/Gdpr/docs/implementation-guide.md` — GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/implementation-guide.md` — GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/implementation.md` — GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/implementation_guide.md` — GDPR Consent Implementation Guide
@@ -2313,7 +2332,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/metodiuplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Gdpr/docs/migration-patterns.md` — migration-patterns
 - `laravel/Modules/Gdpr/docs/migrations.md` — Migrazioni Modulo GDPR
-- `laravel/Modules/Gdpr/docs/migrazione-filament-4.md` — migrazione-filament-4
+- `laravel/Modules/Gdpr/docs/migrazione-filament.md` — migrazione-filament-4
 - `laravel/Modules/Gdpr/docs/model-factory-seeder-audit.md` — model-factory-seeder-audit
 - `laravel/Modules/Gdpr/docs/models-factory-seeder-analysis.md` — models-factory-seeder-analysis
 - `laravel/Modules/Gdpr/docs/module-analysis.md` — Gdpr Module - Comprehensive Analysis
@@ -2362,7 +2381,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/register-widget.md` — RegisterWidget — GDPR-Compliant Registration
 - `laravel/Modules/Gdpr/docs/registration-testing.md` — Feature Testing: User Registration
 - `laravel/Modules/Gdpr/docs/repo.md` — repo
-- `laravel/Modules/Gdpr/docs/roadmap/2025-q4-roadmap.md` — GDPR Module Roadmap (2025 Q4)
+- `laravel/Modules/Gdpr/docs/roadmap/roadmap-gdpr-module-q4.md` — GDPR Module Roadmap (2025 Q4)
 - `laravel/Modules/Gdpr/docs/roadmap/backup-dati.md` — Implementazione Backup Dati
 - `laravel/Modules/Gdpr/docs/roadmap/cookie-consent.md` — Implementazione Cookie Consent
 - `laravel/Modules/Gdpr/docs/roadmap/log-attivita.md` — log-attivita
@@ -2446,7 +2465,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/address-resource-sumy.md` — Sintesi Analisi AddressResource - Modulo Geo
 - `laravel/Modules/Geo/docs/address-resource.md` — Risorsa Filament per il Modello Address
 - `laravel/Modules/Geo/docs/address-translation-fixes-1.md` — Correzioni Traduzioni Address - Gennaio 2025
-- `laravel/Modules/Geo/docs/address-translation-fixes-2025-01-27.md` — Correzioni Traduzioni Address - Gennaio 2025
+- `laravel/Modules/Geo/docs/address-translation-fixes-correzioni-traduzioni-gennaio.md` — Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address-translation-fixes.md` — Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address-translationes.md` — Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address_autocomplete.md` — address_autocomplete
@@ -2473,6 +2492,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/analisi-completa-modelli-factory-seeder.md` — Analisi Completa Modelli, Factory e Seeder - Sistema <nome progetto>
 - `laravel/Modules/Geo/docs/analisi-moduli-completata.md` — ✅ ANALISI MODULI COMPLETATA - Report Finale
 - `laravel/Modules/Geo/docs/analisi-moduli-ottimizzazioni.md` — Analisi Completa Moduli - Ottimizzazioni e Miglioramenti
+- `laravel/Modules/Geo/docs/analysis/code-quality-analysis-geo-module-report.md` — 🌍 Geo Module - Code Quality Analysis Report
 - `laravel/Modules/Geo/docs/analysis/code-quality-analysis-job-module-report.md` — 🌍 Geo Module - Code Quality Analysis Report
 - `laravel/Modules/Geo/docs/analysis/code-quality-analysis.md` — 🌍 Geo Module - Code Quality Analysis Report
 - `laravel/Modules/Geo/docs/analysis/code-quality-history.md` — 🌍 Geo Module - Code Quality Analysis Report
@@ -2614,7 +2634,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/google-maps-service-provider-error.md` — Errore FilamentGoogleMapsServiceProvider - Risoluzione
 - `laravel/Modules/Geo/docs/has-address-trait.md` — Trait HasAddress
 - `laravel/Modules/Geo/docs/has_address_trait.md` — Trait HasAddress
-- `laravel/Modules/Geo/docs/helper-text-normalization-fix-2025-08-08.md` — Helper Text Normalization Fix - Modulo Geo
+- `laravel/Modules/Geo/docs/helper-text-normalization-fix-modulo-geo.md` — Helper Text Normalization Fix - Modulo Geo
 - `laravel/Modules/Geo/docs/helper-text-normalization-fix.md` — Helper Text Normalization Fix - Modulo Geo
 - `laravel/Modules/Geo/docs/helper-text-normalization.md` — Helper Text Normalization Fix - Modulo Geo
 - `laravel/Modules/Geo/docs/here-com-integration.md` — here_com
@@ -2624,7 +2644,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/here_com.md` — here_com
 - `laravel/Modules/Geo/docs/homepage-architecture-overview.md` — Architettura Homepage - Panoramica Sistema
 - `laravel/Modules/Geo/docs/icon-design.md` — Geo Module - Icon Design
-- `laravel/Modules/Geo/docs/implementation-summary-1.md` — Riepilogo Implementazione AddressesField
+- `laravel/Modules/Geo/docs/implementation-summary.md` — Riepilogo Implementazione AddressesField
 - `laravel/Modules/Geo/docs/implementation-summary.md` — Riepilogo Implementazione AddressesField
 - `laravel/Modules/Geo/docs/implementation-sumy.md` — Riepilogo Implementazione AddressesField
 - `laravel/Modules/Geo/docs/implementation.md` — Riepilogo Implementazione AddressesField
@@ -2756,8 +2776,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/phpstan-errors-roadmap-2026-01-12.md` — PHPStan Level Max Errors Roadmap - Geo Module
 - `laravel/Modules/Geo/docs/phpstan-errors-roadmap.md` — PHPStan Level Max Errors Roadmap - Geo Module
 - `laravel/Modules/Geo/docs/phpstan-errors.md` — PHPStan Errors - Geo Module
+- `laravel/Modules/Geo/docs/phpstan-fixes-2.md` — PHPStan Fixes for Geo Module
 - `laravel/Modules/Geo/docs/phpstan-fixes.md` — PHPStan Fixes for Geo Module
-- `laravel/Modules/Geo/docs/phpstan-fixes-2025-01-27.md` — Correzioni PHPStan Modulo Geo - 2025-01-27
+- `laravel/Modules/Geo/docs/phpstan-fixes-correzioni-modulo-geo.md` — Correzioni PHPStan Modulo Geo - 2025-01-27
 - `laravel/Modules/Geo/docs/phpstan-fixes-3.md` — Correzioni PHPStan Modulo Geo - [DATE]
 - `laravel/Modules/Geo/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
 - `laravel/Modules/Geo/docs/phpstan-fixes-gennaio.md` — 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
@@ -2804,7 +2825,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/scripts-location-convention.md` — Convenzione Posizione Script
 - `laravel/Modules/Geo/docs/scripts_location_convention.md` — Convenzione Posizione Script
 - `laravel/Modules/Geo/docs/services/geocoding.md` — Servizio di Geocoding
-- `laravel/Modules/Geo/docs/sintassi-array-correzione-2025-01-06.md` — Correzione Sintassi Obsoleta Array() - Modulo Geo
+- `laravel/Modules/Geo/docs/sintassi-array-correzione-obsoleta-modulo-geo.md` — Correzione Sintassi Obsoleta Array() - Modulo Geo
 - `laravel/Modules/Geo/docs/sintassi-array-correzione.md` — Correzione Sintassi Obsoleta Array() - Modulo Geo
 - `laravel/Modules/Geo/docs/squire-integration-1.md` — Integrazione con Squire per dati geografici
 - `laravel/Modules/Geo/docs/squire-integration.md` — Integrazione con Squire per dati geografici
@@ -2953,9 +2974,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Job
 - `laravel/Modules/Job/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Job
 - `laravel/Modules/Job/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
-- `laravel/Modules/Job/docs/migration-filament-4.md` — migration-filament-4
+- `laravel/Modules/Job/docs/migration-filament.md` — migration-filament-4
 - `laravel/Modules/Job/docs/migration-patterns.md` — migration-patterns
-- `laravel/Modules/Job/docs/migrazione-filament-4.md` — migrazione-filament-4
+- `laravel/Modules/Job/docs/migrazione-filament.md` — migrazione-filament-4
 - `laravel/Modules/Job/docs/model-factory-seeder-audit.md` — model-factory-seeder-audit
 - `laravel/Modules/Job/docs/modelli-factory-seeder-analisi.md` — modelli-factory-seeder-analisi
 - `laravel/Modules/Job/docs/modelli_factory_seeder_analisi.md` — modelli_factory_seeder_analisi
@@ -2983,7 +3004,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/phpstan-compliance.md` — PHPStan Compliance - Job Module
 - `laravel/Modules/Job/docs/phpstan-corrections.md` — Correzioni PHPStan Livello 10 - Modulo Job
 - `laravel/Modules/Job/docs/phpstan-correzioni-11.md` — Correzioni PHPStan Livello 10 - Modulo Job
-- `laravel/Modules/Job/docs/phpstan-correzioni-2025-11.md` — Correzioni PHPStan Livello 10 - Modulo Job
+- `laravel/Modules/Job/docs/phpstan-correzioni-livello-modulo-job.md` — Correzioni PHPStan Livello 10 - Modulo Job
 - `laravel/Modules/Job/docs/phpstan-correzioni.md` — Correzioni PHPStan Livello 10 - Modulo Job
 - `laravel/Modules/Job/docs/phpstan-errors-roadmap.md` — PHPStan Level 10 Errors Roadmap - Job Module
 - `laravel/Modules/Job/docs/phpstan-filament-fixes-1.md` — Correzioni PHPStan per Risorse Filament nel Modulo Job
@@ -3005,7 +3026,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/phpstan-roadmap.md` — PHPStan Roadmap - Job Module
 - `laravel/Modules/Job/docs/phpstan-session-complete.md` — Sessione PHPStan Completa - Tutti i Moduli
 - `laravel/Modules/Job/docs/phpstan-sessione-completa-11.md` — Sessione PHPStan Completa - Tutti i Moduli
-- `laravel/Modules/Job/docs/phpstan-sessione-completa-2025-11.md` — Sessione PHPStan Completa - Tutti i Moduli
+- `laravel/Modules/Job/docs/phpstan-sessione-completa-tutti-moduli.md` — Sessione PHPStan Completa - Tutti i Moduli
 - `laravel/Modules/Job/docs/phpstan-sessione-completa.md` — Sessione PHPStan Completa - Tutti i Moduli
 - `laravel/Modules/Job/docs/phpstan-syntax-fixes.md` — PHPStan Syntax Fixes - Modulo Job
 - `laravel/Modules/Job/docs/phpstan.md` — PHPStan Level 10 Roadmap - Job Module
@@ -3081,7 +3102,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/case-sensitivity.md` — Case Sensitivity Rules - Lang Module
 - `laravel/Modules/Lang/docs/cases.md` — Case-Insensitive File Conflicts
 - `laravel/Modules/Lang/docs/changelog.md` — Changelog
-- `laravel/Modules/Lang/docs/cms-link-1.md` — Collegamento al Modulo Cms
+- `laravel/Modules/Lang/docs/cms-link.md` — Collegamento al Modulo Cms
 - `laravel/Modules/Lang/docs/cms-link.md` — Collegamento al Modulo Cms
 - `laravel/Modules/Lang/docs/common-translation-errors.md` — Errori comuni nei file di traduzione
 - `laravel/Modules/Lang/docs/common-translations.md` — Errori comuni nei file di traduzione
@@ -3236,7 +3257,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Lang
 - `laravel/Modules/Lang/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Lang/docs/metodiuplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
-- `laravel/Modules/Lang/docs/migration-best-practices-1.md` — Best Practices per le Migrazioni - Modulo Lang
+- `laravel/Modules/Lang/docs/migration-best-practices.md` — Best Practices per le Migrazioni - Modulo Lang
 - `laravel/Modules/Lang/docs/migration-best-practices.md` — Best Practices per le Migrazioni - Modulo Lang
 - `laravel/Modules/Lang/docs/migration-corrections-summary-1.md` — Correzioni Migrazione - Modulo Lang
 - `laravel/Modules/Lang/docs/migration-corrections-summary.md` — Correzioni Migrazione - Modulo Lang
@@ -3245,7 +3266,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/migration-filament-4.md` — migration-filament-4
 - `laravel/Modules/Lang/docs/migration-patterns.md` — Migration Patterns for Lang Module
 - `laravel/Modules/Lang/docs/migrations.md` — Migration Patterns for Lang Module
-- `laravel/Modules/Lang/docs/migrazione-filament-4.md` — migrazione-filament-4
+- `laravel/Modules/Lang/docs/migrazione-filament.md` — migrazione-filament-4
 - `laravel/Modules/Lang/docs/model-factory-seeder-audit.md` — Model/Factory/Seeder Audit
 - `laravel/Modules/Lang/docs/model-factory-seeder.md` — Model/Factory/Seeder Audit
 - `laravel/Modules/Lang/docs/model-translations-1.md` — Model Translations in `<nome progetto>`
@@ -3299,6 +3320,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/phpstan-errors-resolution-roadmap.md` — Lang Module - PHPStan Level 10 Errors Resolution Roadmap
 - `laravel/Modules/Lang/docs/phpstan-fixes.md` — Lang Module - PHPStan Level 7 Fixes - Gennaio 2025
 - `laravel/Modules/Lang/docs/phpstan-issues.md` — PHPStan Level 10 Issues - Detailed Analysis
+- `laravel/Modules/Lang/docs/phpstan-level10-fixes-1.md` — phpstan-level10-fixes-1
 - `laravel/Modules/Lang/docs/phpstan-level10-fixes-correzioni-livello-modulo-media.md` — phpstan-level10-fixes-1
 - `laravel/Modules/Lang/docs/phpstan-level10-fixes.md` — Correzioni PHPStan Livello 10 - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-level10es.md` — Correzioni PHPStan Livello 10 - Modulo Lang
@@ -3308,6 +3330,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/phpstan-mixed-castings.md` — PHPStan Mixed Type Casting Errors
 - `laravel/Modules/Lang/docs/phpstan-progress-report.md` — 🌍 PHPStan Progress Report - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-progress.md` — 🌍 PHPStan Progress Report - Modulo Lang
+- `laravel/Modules/Lang/docs/phpstan-report-1.md` — Report PHPStan - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-report.md` — Report PHPStan - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-report.md` — Report PHPStan - Modulo Lang
 - `laravel/Modules/Lang/docs/phpstan-roadmap.md` — PHPStan Roadmap - Lang Module
@@ -3397,9 +3420,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/translation-fixes-summary.md` — Riepilogo Correzioni Traduzioni - Gennaio 2025
 - `laravel/Modules/Lang/docs/translation-fixes-sumy.md` — Riepilogo Correzioni Traduzioni - Gennaio 2025
 - `laravel/Modules/Lang/docs/translation-helper-text-standards.md` — Standard per helper_text nelle Traduzioni <nome progetto>
-- `laravel/Modules/Lang/docs/translation-keys-best-practices-1.md` — Best Practices per le Chiavi di Traduzione
 - `laravel/Modules/Lang/docs/translation-keys-best-practices.md` — Best Practices per le Chiavi di Traduzione
-- `laravel/Modules/Lang/docs/translation-keys-rules-1.md` — Regole per le Chiavi di Traduzione
+- `laravel/Modules/Lang/docs/translation-keys-best-practices.md` — Best Practices per le Chiavi di Traduzione
+- `laravel/Modules/Lang/docs/translation-keys-rules.md` — Regole per le Chiavi di Traduzione
 - `laravel/Modules/Lang/docs/translation-keys-rules.md` — Regole per le Chiavi di Traduzione
 - `laravel/Modules/Lang/docs/translation-keys.md` — Regole per le Chiavi di Traduzione
 - `laravel/Modules/Lang/docs/translation-management-packages-1.md` — Translation Management Packages
@@ -3610,6 +3633,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/_integration/stream.md` — __stream
 - `laravel/Modules/Media/docs/_integration/webm.md` — webm
 - `laravel/Modules/Media/docs/_integration/youtube.md` — youtube
+- `laravel/Modules/Media/docs/actions/convert-video.md` — ConvertVideoByConvertDataAction
+- `laravel/Modules/Media/docs/actions/convert-video-by-media-convert.md` — ConvertVideoByMediaConvertAction
 - `laravel/Modules/Media/docs/actions/convert-video-convertvideobyconvertdataaction.md` — ConvertVideoByConvertDataAction
 - `laravel/Modules/Media/docs/actions/convert-video-by-media-convert-convertvideobymediaconvertaction.md` — ConvertVideoByMediaConvertAction
 - `laravel/Modules/Media/docs/actions/convert-video-by-media-convert.md` — ConvertVideoByMediaConvertAction
@@ -3620,6 +3645,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/architecture-rules.md` — Architectural Rules & Guidelines
 - `laravel/Modules/Media/docs/aws.md` — aws
 - `laravel/Modules/Media/docs/best-practices.md` — Best Practices
+- `laravel/Modules/Media/docs/bottlenecks-detailed.md` — Analisi Dettagliata dei Colli di Bottiglia - Modulo Media
 - `laravel/Modules/Media/docs/bottlenecks-detailed-analisi-dettagliata-colli-bottiglia.md` — Analisi Dettagliata dei Colli di Bottiglia - Modulo Media
 - `laravel/Modules/Media/docs/bottlenecks-detailed.md` — Analisi Dettagliata dei Colli di Bottiglia - Modulo Media
 - `laravel/Modules/Media/docs/bottlenecks.md` — Colli di Bottiglia e Soluzioni - Modulo Media
@@ -3629,6 +3655,10 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/competitors-1.md` — competitors-1
 - `laravel/Modules/Media/docs/competitors.md` — competitors
 - `laravel/Modules/Media/docs/configuration.md` — Configuration
+- `laravel/Modules/Media/docs/conflict-resolution-convertvideobymediaconvertaction-1.md` — Risoluzione Conflitti ConvertVideoByMediaConvertAction.php
+- `laravel/Modules/Media/docs/conflict-resolution-convertvideobymediaconvertaction.md` — Risoluzione Conflitti ConvertVideoByMediaConvertAction.php
+- `laravel/Modules/Media/docs/conflict-resolution-ffmpeg.md` — Risoluzione Conflitti per l'Integrazione FFmpeg nel Modulo Media
+- `laravel/Modules/Media/docs/conflict-resolution-iconmediacolumn-1.md` — Risoluzione Conflitto IconMediaColumn.php
 - `laravel/Modules/Media/docs/conflict-resolution-convertvideobymediaconvertaction-risoluzione-conflitti-php.md` — Risoluzione Conflitti ConvertVideoByMediaConvertAction.php
 - `laravel/Modules/Media/docs/conflict-resolution-convertvideobymediaconvertaction.md` — Risoluzione Conflitti ConvertVideoByMediaConvertAction.php
 - `laravel/Modules/Media/docs/conflict-resolution-ffmpeg.md` — Risoluzione Conflitti per l'Integrazione FFmpeg nel Modulo Media
@@ -3643,11 +3673,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/conflicts-analysis-1.md` — Analisi Conflitti - README.md
 - `laravel/Modules/Media/docs/conflicts-analysis.md` — Analisi Conflitti - README.md
 - `laravel/Modules/Media/docs/conflicts.md` — Risoluzione Conflitti - Media
+- `laravel/Modules/Media/docs/conflitti-merge-risolti.md` — Risoluzione dei Conflitti Git nel Modulo Media
+- `laravel/Modules/Media/docs/conflitti-merge-risolti.md` — Risoluzione dei Conflitti Git nel Modulo Media
+- `laravel/Modules/Media/docs/contracts/path-generator.md` — PathGenerator Interface
 - `laravel/Modules/Media/docs/conflitti-merge-risolti-risoluzione-git-modulo-media.md` — Risoluzione dei Conflitti Git nel Modulo Media
 - `laravel/Modules/Media/docs/conflitti-merge-risolti.md` — Risoluzione dei Conflitti Git nel Modulo Media
 - `laravel/Modules/Media/docs/contracts/path-generator-pathgenerator-interface.md` — PathGenerator Interface
 - `laravel/Modules/Media/docs/contracts/path-generator.md` — PathGenerator Interface
-- `laravel/Modules/Media/docs/conversione-media-1.md` — Conversione Media
+- `laravel/Modules/Media/docs/conversione-media.md` — Conversione Media
 - `laravel/Modules/Media/docs/conversione-media.md` — Conversione Media
 - `laravel/Modules/Media/docs/convert.md` — convert
 - `laravel/Modules/Media/docs/core-functionality.md` — Core Functionality
@@ -3666,6 +3699,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/dry-kiss-analysis.md` — 🐄 DRY & KISS Analysis - Media
 - `laravel/Modules/Media/docs/duplicate-files-to-remove.md` — File Duplicati da Eliminare - Modulo Media
 - `laravel/Modules/Media/docs/duplicate-methods-analysis.md` — Analisi Metodi Duplicati - Modulo Media
+- `laravel/Modules/Media/docs/ffmpeg-integration.md` — Integrazione di FFmpeg nel Modulo Media
+- `laravel/Modules/Media/docs/ffmpeg-integration.md` — Integrazione di FFmpeg nel Modulo Media
+- `laravel/Modules/Media/docs/ffmpeg-usage-1.md` — Utilizzo di Laravel-FFMpeg nel Modulo Media
 - `laravel/Modules/Media/docs/ffmpeg-integration-integrazione-modulo-media.md` — Integrazione di FFmpeg nel Modulo Media
 - `laravel/Modules/Media/docs/ffmpeg-integration.md` — Integrazione di FFmpeg nel Modulo Media
 - `laravel/Modules/Media/docs/ffmpeg-usage-utilizzo-laravel-modulo-media.md` — Utilizzo di Laravel-FFMpeg nel Modulo Media
@@ -3675,6 +3711,10 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/filament/relation-managers/media-relation-manager.md` — MediaRelationManager Documentation
 - `laravel/Modules/Media/docs/filament/s3test-refactoring-analysis.md` — S3Test.php - Analisi Refactoring e Regole di Conformità Laraxot
 - `laravel/Modules/Media/docs/filament-5x-compatibility.md` — Filament 5.x compatibility - modulo Media
+- `laravel/Modules/Media/docs/filament-resource-conflict-resolution.md` — Risoluzione conflitto git su Filament MediaConvertResource
+- `laravel/Modules/Media/docs/filament-resource-conflict-resolution.md` — Risoluzione conflitto git su Filament MediaConvertResource
+- `laravel/Modules/Media/docs/filament-table-actions.md` — Convenzioni per le Table Actions in Filament
+- `laravel/Modules/Media/docs/filament-table-actions-conflict-resolution.md` — Risoluzione conflitto git su Filament Table ConvertAction
 - `laravel/Modules/Media/docs/filament-resource-conflict-resolution-risoluzione-conflitto-git-mediaconvertresource.md` — Risoluzione conflitto git su Filament MediaConvertResource
 - `laravel/Modules/Media/docs/filament-resource-conflict-resolution.md` — Risoluzione conflitto git su Filament MediaConvertResource
 - `laravel/Modules/Media/docs/filament-table-actions-convenzioni.md` — Convenzioni per le Table Actions in Filament
@@ -3697,11 +3737,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/html2pdf/usage.md` — Utilizzo Base e Layout
 - `laravel/Modules/Media/docs/icon-usage-guidelines.md` — Media Module Icon Usage Guidelines
 - `laravel/Modules/Media/docs/index.md` — Indice della Documentazione - Modulo Media
+- `laravel/Modules/Media/docs/lang-link-1.md` — Collegamento alle Traduzioni del Modulo Media
 - `laravel/Modules/Media/docs/lang-link-collegamento-alle-traduzioni-modulo.md` — Collegamento alle Traduzioni del Modulo Media
 - `laravel/Modules/Media/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Media
 - `laravel/Modules/Media/docs/lang_link.md` — lang_link
 - `laravel/Modules/Media/docs/lang-link.md` — lang_link
 - `laravel/Modules/Media/docs/mcp-configuration.md` — MCP Server Configuration - Media Module
+- `laravel/Modules/Media/docs/mcp-server-consigliati.md` — Server MCP consigliati per il modulo Media
+- `laravel/Modules/Media/docs/mcp-server-consigliati.md` — Server MCP consigliati per il modulo Media
+- `laravel/Modules/Media/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Media
 - `laravel/Modules/Media/docs/mcp-server-consigliati-modulo-media.md` — Server MCP consigliati per il modulo Media
 - `laravel/Modules/Media/docs/mcp-server-consigliati.md` — Server MCP consigliati per il modulo Media
 - `laravel/Modules/Media/docs/mcp-server-recommended-consigliati-modulo-media.md` — MCP Server Consigliati per il Modulo Media
@@ -3711,14 +3755,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/mcp-server-consigliati.md` — Server MCP consigliati per il modulo Media
 - `laravel/Modules/Media/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Media
 - `laravel/Modules/Media/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
-- `laravel/Modules/Media/docs/migration-filament-4.md` — migration-filament-4
+- `laravel/Modules/Media/docs/migration-filament.md` — migration-filament-4
 - `laravel/Modules/Media/docs/migration-patterns.md` — Migration Patterns
-- `laravel/Modules/Media/docs/migrazione-filament-4.md` — migrazione-filament-4
+- `laravel/Modules/Media/docs/migrazione-filament.md` — migrazione-filament-4
 - `laravel/Modules/Media/docs/model-factory-seeder-audit.md` — Model/Factory/Seeder Audit
 - `laravel/Modules/Media/docs/modelli-factory-seeder-analisi.md` — Analisi Modelli, Factory e Seeder - Modulo Media
 - `laravel/Modules/Media/docs/modelli_factory_seeder_analisi.md` — modelli_factory_seeder_analisi
 - `laravel/Modules/Media/docs/models-factory-seeder-analysis.md` — Analisi Modelli, Factory e Seeder - Modulo Media
 - `laravel/Modules/Media/docs/module-analysis.md` — Media Module - Comprehensive Analysis
+- `laravel/Modules/Media/docs/module-media.md` — Modulo Media
 - `laravel/Modules/Media/docs/module-media-modulo.md` — Modulo Media
 - `laravel/Modules/Media/docs/module-media-root-symlink-1.md` — module-media-root-symlink-1
 - `laravel/Modules/Media/docs/module-media-root-symlink.md` — module-media-root-symlink
@@ -3731,6 +3776,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/ottimizzazioni-correzioni.md` — ottimizzazioni-correzioni
 - `laravel/Modules/Media/docs/packages.md` — Pacchetti del Modulo Media
 - `laravel/Modules/Media/docs/performance/bottlenecks.md` — Media Module Performance Bottlenecks
+- `laravel/Modules/Media/docs/performance/media-optimizations.md` — Ottimizzazioni Performance Modulo Media
 - `laravel/Modules/Media/docs/performance/media-optimizations-ottimizzazioni-performance-modulo.md` — Ottimizzazioni Performance Modulo Media
 - `laravel/Modules/Media/docs/performance/media-optimizations.md` — Ottimizzazioni Performance Modulo Media
 - `laravel/Modules/Media/docs/performance/media_optimizations.md` — Ottimizzazioni Performance Modulo Media
@@ -3741,6 +3787,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/phpstan-compliance.md` — PHPStan Compliance - Media Module
 - `laravel/Modules/Media/docs/phpstan-errors-resolution-roadmap.md` — Media Module - PHPStan Level 10 Errors Resolution Roadmap
 - `laravel/Modules/Media/docs/phpstan-fixes.md` — Correzioni PHPStan Livello 7 - Modulo Media
+- `laravel/Modules/Media/docs/phpstan-level10-fixes-1.md` — Correzioni PHPStan Livello 10 - Modulo Media
+- `laravel/Modules/Media/docs/phpstan-level10-fixes-conflict.md` — Correzioni PHPStan Livello 10 - Modulo Media
+- `laravel/Modules/Media/docs/phpstan-level10-fixes-root-symlink.md` — phpstan-level10-fixes-root-symlink
+- `laravel/Modules/Media/docs/phpstan-level10-fixes.md` — Correzioni PHPStan Livello 10 - Modulo Media
+- `laravel/Modules/Media/docs/phpstan-report-1.md` — Report PHPStan - Modulo Media
 - `laravel/Modules/Media/docs/phpstan-level10-fixes-correzioni-livello-modulo-media.md` — Correzioni PHPStan Livello 10 - Modulo Media
 - `laravel/Modules/Media/docs/phpstan-level10-fixes-conflict.md` — Correzioni PHPStan Livello 10 - Modulo Media
 - `laravel/Modules/Media/docs/phpstan-level10-fixes-root-symlink.md` — phpstan-level10-fixes-root-symlink
@@ -3759,6 +3810,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/quality-analysis-.md` — Quality Analysis Report - Media Module
 - `laravel/Modules/Media/docs/quality-analysis.md` — Quality Analysis Report - Media Module
 - `laravel/Modules/Media/docs/quality.md` — Quality Analysis Report - Media Module
+- `laravel/Modules/Media/docs/relation_managers/media-relation-manager.md` — MediaRelationManager
 - `laravel/Modules/Media/docs/relation_managers/media-relation-manager-mediarelationmanager.md` — MediaRelationManager
 - `laravel/Modules/Media/docs/relation_managers/media-relation-manager.md` — MediaRelationManager
 - `laravel/Modules/Media/docs/resolution-conflitti-ffmpeg.md` — Risoluzione Conflitti per l'Integrazione FFmpeg nel Modulo Media
@@ -3772,6 +3824,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/roadmap-root-symlink.md` — roadmap-root-symlink
 - `laravel/Modules/Media/docs/roadmap.md` — Media Module - Complete Roadmap
 - `laravel/Modules/Media/docs/rules-index.md` — Rules Index
+- `laravel/Modules/Media/docs/s3test-corrections.md` — Correzioni S3Test.php - Modulo Media
 - `laravel/Modules/Media/docs/s3test-corrections-correzioni-php-modulo-media.md` — Correzioni S3Test.php - Modulo Media
 - `laravel/Modules/Media/docs/s3test-corrections-conflict.md` — Correzioni S3Test.php - Modulo Media
 - `laravel/Modules/Media/docs/s3test-corrections.md` — Correzioni S3Test.php - Modulo Media
@@ -3779,6 +3832,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/stream-1.md` — stream-1
 - `laravel/Modules/Media/docs/stream.md` — stream
 - `laravel/Modules/Media/docs/structure.md` — Modulo Media
+- `laravel/Modules/Media/docs/support/temporary-upload-path-generator-1.md` — TemporaryUploadPathGenerator
 - `laravel/Modules/Media/docs/support/temporary-upload-path-generator-temporaryuploadpathgenerator.md` — TemporaryUploadPathGenerator
 - `laravel/Modules/Media/docs/support/temporary-upload-path-generator.md` — TemporaryUploadPathGenerator Documentation
 - `laravel/Modules/Media/docs/task-aumentare-copertura-test.md` — Task: Aumentare Copertura Test - Media
@@ -3798,10 +3852,10 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/translations.md` — Traduzioni del Modulo Media
 - `laravel/Modules/Media/docs/troubleshooting.md` — Troubleshooting
 - `laravel/Modules/Media/docs/user-interface.md` — User Interface
-- `laravel/Modules/Media/docs/video-manager-1.md` — video-manager-1
+- `laravel/Modules/Media/docs/video-manager.md` — video-manager-1
 - `laravel/Modules/Media/docs/video-manager.md` — video-manager
 - `laravel/Modules/Media/docs/webm.md` — webm
-- `laravel/Modules/Media/docs/xml-to-srt-1.md` — xml-to-srt-1
+- `laravel/Modules/Media/docs/xml-to-srt.md` — xml-to-srt-1
 - `laravel/Modules/Media/docs/xml-to-srt.md` — xml-to-srt
 - `laravel/Modules/Media/docs/youtube.md` — youtube
 - `laravel/Modules/Meetup/README.md` — Meetup Module
@@ -3842,7 +3896,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/_integration/notifications.md` — notifications
 - `laravel/Modules/Notify/docs/_integration/repos.md` — _repos
 - `laravel/Modules/Notify/docs/_integration/telegram.md` — telegram
-- `laravel/Modules/Notify/docs/_integration/test-smtp-1.md` — test_smtp
+- `laravel/Modules/Notify/docs/_integration/test-smtp.md` — test_smtp
 - `laravel/Modules/Notify/docs/_integration/test-smtp.md` — test_smtp
 - `laravel/Modules/Notify/docs/_integration/test_smtp.md` — test_smtp
 - `laravel/Modules/Notify/docs/_integration/todo.md` — _todo
@@ -3851,7 +3905,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/_todo.md` — _todo
 - `laravel/Modules/Notify/docs/-repos.md` — _repos
 - `laravel/Modules/Notify/docs/-todo.md` — _todo
-- `laravel/Modules/Notify/docs/acronym-naming-conventions-1.md` — Convenzioni di Naming per Acronimi
+- `laravel/Modules/Notify/docs/acronym-naming-conventions.md` — Convenzioni di Naming per Acronimi
 - `laravel/Modules/Notify/docs/acronym-naming-conventions.md` — Convenzioni di Naming per Acronimi
 - `laravel/Modules/Notify/docs/acronym_naming_conventions.md` — Convenzioni di Naming per Acronimi
 - `laravel/Modules/Notify/docs/actions-calling-actions-pattern.md` — Pattern: Actions che chiamano altre Actions
@@ -3859,6 +3913,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/advanced-template-system.md` — Architettura del Sistema di Notifiche - Best Practices
 - `laravel/Modules/Notify/docs/analisi-completa.md` — Analisi Completa del Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-dettagliata-1.md` — Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
+- `laravel/Modules/Notify/docs/analisi-dettagliata-2.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
+- `laravel/Modules/Notify/docs/analisi-dettagliata-3.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
+- `laravel/Modules/Notify/docs/analisi-dettagliata-4-1.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
+- `laravel/Modules/Notify/docs/analisi-dettagliata-4.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
+- `laravel/Modules/Notify/docs/analisi-dettagliata-5.md` — Analisi Dettagliata del Modulo Notify - Parte 5: Testing
+- `laravel/Modules/Notify/docs/analisi-dettagliata-6.md` — Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
+- `laravel/Modules/Notify/docs/analisi-dettagliata-7.md` — Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
+- `laravel/Modules/Notify/docs/analisi-dettagliata-8.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 - `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-modelli.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
 - `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-servizi.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 - `laravel/Modules/Notify/docs/analisi-dettagliata-4-1.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
@@ -3873,6 +3935,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/analisi-completa.md` — Analisi Completa del Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-dettagliata.md` — Analisi Dettagliata del Modulo Notify
 - `laravel/Modules/Notify/docs/analisi-dettagliata-1.md` — Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
+- `laravel/Modules/Notify/docs/analisi-dettagliata-2.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
+- `laravel/Modules/Notify/docs/analisi-dettagliata-3.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
+- `laravel/Modules/Notify/docs/analisi-dettagliata-4.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
+- `laravel/Modules/Notify/docs/analisi-dettagliata-5.md` — Analisi Dettagliata del Modulo Notify - Parte 5: Testing
+- `laravel/Modules/Notify/docs/analisi-dettagliata-6.md` — Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
+- `laravel/Modules/Notify/docs/analisi-dettagliata-7.md` — Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
+- `laravel/Modules/Notify/docs/analisi-dettagliata-8.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 - `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-modelli.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
 - `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-servizi.md` — Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 - `laravel/Modules/Notify/docs/analisi-dettagliata-modulo-notify-parte-integrazione.md` — Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
@@ -3890,13 +3959,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/analisiettagliata.md` — Analisi Dettagliata del Modulo Notify
 - `laravel/Modules/Notify/docs/analysis-completa.md` — Analisi Completa del Modulo Notify
 - `laravel/Modules/Notify/docs/analysis-complete.md` — analysis-complete
-- `laravel/Modules/Notify/docs/analysis-detailed-1.md` — analysis-detailed-1
+- `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-1
 - `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-2
 - `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-3
 - `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-4
 - `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-5
 - `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-6
-- `laravel/Modules/Notify/docs/analysis-detailed-7.md` — analysis-detailed-7
+- `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-7
 - `laravel/Modules/Notify/docs/analysis-detailed.md` — analysis-detailed-8
 - `laravel/Modules/Notify/docs/analysis-dettagliata-1.md` — Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
 - `laravel/Modules/Notify/docs/analysis-dettagliata-2.md` — Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
@@ -3915,19 +3984,20 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/analysisettagliata-5.md` — Analisi Dettagliata del Modulo Notify - Parte 5: Testing
 - `laravel/Modules/Notify/docs/analysisettagliata-6.md` — Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
 - `laravel/Modules/Notify/docs/analysisettagliata-7.md` — Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
+- `laravel/Modules/Notify/docs/analysisettagliata-8.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 - `laravel/Modules/Notify/docs/analysisettagliata-analisi-dettagliata-modulo-notify.md` — Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 - `laravel/Modules/Notify/docs/analysisettagliata.md` — Analisi Dettagliata del Modulo Notify
-- `laravel/Modules/Notify/docs/appointment-field-naming-issues-1.md` — Appointment Field Naming Issues
+- `laravel/Modules/Notify/docs/appointment-field-naming-issues.md` — Appointment Field Naming Issues
 - `laravel/Modules/Notify/docs/appointment-field-naming-issues.md` — Appointment Field Naming Issues
 - `laravel/Modules/Notify/docs/appointment-field-namings.md` — Appointment Field Naming Issues
-- `laravel/Modules/Notify/docs/appointment-notifications-1.md` — Sistema di Notifica Appuntamenti - il progetto
+- `laravel/Modules/Notify/docs/appointment-notifications.md` — Sistema di Notifica Appuntamenti - il progetto
 - `laravel/Modules/Notify/docs/appointment-notifications.md` — Sistema di Notifica Appuntamenti - il progetto
 - `laravel/Modules/Notify/docs/appointment_field_naming_issues.md` — Appointment Field Naming Issues
 - `laravel/Modules/Notify/docs/appointment_notifications.md` — Sistema di Notifica Appuntamenti - il progetto
 - `laravel/Modules/Notify/docs/approfondimento-completo-tailwind.md` — approfondimento-completo-tailwind
 - `laravel/Modules/Notify/docs/approfondimento-completo.md` — Approfondimento Completo Modulo Notify
 - `laravel/Modules/Notify/docs/approfondimento-tailwind.md` — Approfondimento Implementazione Tailwind CSS nel Modulo Notify
-- `laravel/Modules/Notify/docs/architectural-patterns-1.md` — Pattern Architetturali per le Notifiche
+- `laravel/Modules/Notify/docs/architectural-patterns.md` — Pattern Architetturali per le Notifiche
 - `laravel/Modules/Notify/docs/architectural-patterns.md` — Pattern Architetturali per le Notifiche
 - `laravel/Modules/Notify/docs/architectural_patterns.md` — Pattern Architetturali per le Notifiche
 - `laravel/Modules/Notify/docs/architecturals.md` — Pattern Architetturali per le Notifiche
@@ -3977,9 +4047,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/channel_vs_dto_provider_selection.md` — Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
 - `laravel/Modules/Notify/docs/channel-vs-dto-provider-selection.md` — Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
 - `laravel/Modules/Notify/docs/christmas-email-templates-v4-implementation.md` — Christmas Email Templates v4.0 - Implementation Report
-- `laravel/Modules/Notify/docs/class-inheritance-best-practices-1.md` — Best Practices per l'Ereditarietà delle Classi
 - `laravel/Modules/Notify/docs/class-inheritance-best-practices.md` — Best Practices per l'Ereditarietà delle Classi
-- `laravel/Modules/Notify/docs/class-inheritance-principles-1.md` — Principi di Ereditarietà nelle Classi <nome progetto>
+- `laravel/Modules/Notify/docs/class-inheritance-best-practices.md` — Best Practices per l'Ereditarietà delle Classi
+- `laravel/Modules/Notify/docs/class-inheritance-principles.md` — Principi di Ereditarietà nelle Classi <nome progetto>
 - `laravel/Modules/Notify/docs/class-inheritance-principles.md` — Principi di Ereditarietà nelle Classi
 - `laravel/Modules/Notify/docs/class_inheritance_best_practices.md` — Best Practices per l'Ereditarietà delle Classi
 - `laravel/Modules/Notify/docs/class_inheritance_principles.md` — Principi di Ereditarietà nelle Classi <nome progetto>
@@ -3995,7 +4065,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/composer-dependencies.md` — Composer Dependencies - Modulo Notify
 - `laravel/Modules/Notify/docs/composer-update-fixes.md` — Composer Update Fixes - 24 Novembre 2025
 - `laravel/Modules/Notify/docs/composer-updatees.md` — Composer Update Fixes - 24 Novembre 2025
-- `laravel/Modules/Notify/docs/config-structure-1.md` — Struttura di Configurazione nei Moduli <nome progetto>
+- `laravel/Modules/Notify/docs/config-structure.md` — Struttura di Configurazione nei Moduli <nome progetto>
 - `laravel/Modules/Notify/docs/config-structure.md` — Struttura di Configurazione nei Moduli
 - `laravel/Modules/Notify/docs/config_structure.md` — Struttura di Configurazione nei Moduli <nome progetto>
 - `laravel/Modules/Notify/docs/configuration-architecture.md` — Architettura delle Configurazioni nei Moduli Laravel
@@ -4029,7 +4099,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/contactcolumn-errors-and-antipatterns.md` — ContactColumn.php - Errori Critici e Anti-Pattern (Modulo Notify)
 - `laravel/Modules/Notify/docs/contactcolumns-and-antipatterns.md` — ContactColumn.php - Errori Critici e Anti-Pattern (Modulo Notify)
 - `laravel/Modules/Notify/docs/contacttypeenum-migration-best-practices.md` — ContactTypeEnum Migration Best Practices
-- `laravel/Modules/Notify/docs/contracts-architecture-1.md` — Architettura delle Interfacce (Contracts) in Notify
+- `laravel/Modules/Notify/docs/contracts-architecture.md` — Architettura delle Interfacce (Contracts) in Notify
 - `laravel/Modules/Notify/docs/contracts-architecture.md` — Architettura delle Interfacce (Contracts) in Notify
 - `laravel/Modules/Notify/docs/contracts_architecture.md` — Architettura delle Interfacce (Contracts) in Notify
 - `laravel/Modules/Notify/docs/correzioni-phpstan-completate-1.md` — Correzioni PHPStan Completate - Modulo Notify
@@ -4040,7 +4110,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/coverage.md` — Notify Module Test Coverage
 - `laravel/Modules/Notify/docs/crud-template-email-filament.md` — Proposta Architetturale: CRUD Template Email in Notify (Filament)
 - `laravel/Modules/Notify/docs/crud_template_email_filament.md` — Proposta Architetturale: CRUD Template Email in Notify (Filament)
-- `laravel/Modules/Notify/docs/current-work-status-1.md` — Stato Attuale del Lavoro - 12 Maggio 2025
+- `laravel/Modules/Notify/docs/current-work-status.md` — Stato Attuale del Lavoro - 12 Maggio 2025
 - `laravel/Modules/Notify/docs/current-work-status.md` — Stato Attuale del Lavoro - 12 Maggio 2025
 - `laravel/Modules/Notify/docs/current-work.md` — Stato Attuale del Lavoro - 12 Maggio 2025
 - `laravel/Modules/Notify/docs/current_work_status.md` — Stato Attuale del Lavoro - 12 Maggio 2025
@@ -4093,8 +4163,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/duplicate-files-to-remove.md` — File Duplicati da Eliminare - Modulo Notify
 - `laravel/Modules/Notify/docs/duplicate-methods-analysis.md` — Analisi Metodi Duplicati - Modulo Notify
 - `laravel/Modules/Notify/docs/duplicate-methods.md` — Analisi Metodi Duplicati - Modulo Notify
-- `laravel/Modules/Notify/docs/dynamic-class-resolution-1.md` — Risoluzione Dinamica delle Classi nei Factory Pattern
-- `laravel/Modules/Notify/docs/dynamic-class-resolution-pattern-1.md` — Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
+- `laravel/Modules/Notify/docs/dynamic-class-resolution.md` — Risoluzione Dinamica delle Classi nei Factory Pattern
+- `laravel/Modules/Notify/docs/dynamic-class-resolution-pattern.md` — Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 - `laravel/Modules/Notify/docs/dynamic-class-resolution-pattern.md` — Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 - `laravel/Modules/Notify/docs/dynamic-class-resolution.md` — Risoluzione Dinamica delle Classi nei Factory Pattern
 - `laravel/Modules/Notify/docs/dynamic_class_resolution.md` — Risoluzione Dinamica delle Classi nei Factory Pattern
@@ -4180,7 +4250,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/email-wysiwyg-editor.md` — Editor WYSIWYG per Email - il progetto
 - `laravel/Modules/Notify/docs/email_wysiwyg_editor_tests.md` — Test Editor WYSIWYG Email - il progetto
 - `laravel/Modules/Notify/docs/emails/spatie-email.md` — SpatieEmail Documentation
-- `laravel/Modules/Notify/docs/enum-config-usage-1.md` — Utilizzo di Enum e Config
+- `laravel/Modules/Notify/docs/enum-config-usage.md` — Utilizzo di Enum e Config
 - `laravel/Modules/Notify/docs/enum-config-usage.md` — Utilizzo di Enum e Config
 - `laravel/Modules/Notify/docs/enum_config_usage.md` — Utilizzo di Enum e Config
 - `laravel/Modules/Notify/docs/enums/channel-enum.md` — `ChannelEnum`
@@ -4193,7 +4263,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/errori-azione-netfun.md` — Analisi degli Errori in SendNetfunSMSAction
 - `laravel/Modules/Notify/docs/events.md` — Email Events
 - `laravel/Modules/Notify/docs/factory-advantages.md` — Analisi del Pattern Factory per la Selezione dei Provider SMS
-- `laravel/Modules/Notify/docs/factory-pattern-advantages-1.md` — Analisi del Pattern Factory per la Selezione dei Provider SMS
+- `laravel/Modules/Notify/docs/factory-pattern-advantages.md` — Analisi del Pattern Factory per la Selezione dei Provider SMS
 - `laravel/Modules/Notify/docs/factory-pattern-advantages.md` — Analisi del Pattern Factory per la Selezione dei Provider SMS
 - `laravel/Modules/Notify/docs/factory-pattern-analysis.md` — Analisi del Pattern Factory per le Notifiche
 - `laravel/Modules/Notify/docs/factory.md` — Analisi del Pattern Factory per le Notifiche
@@ -4207,30 +4277,30 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/filament-blade-components.md` — Standard <nome progetto>: Componenti Blade Filament
 - `laravel/Modules/Notify/docs/filament-composite-contacts-column.md` — Colonna Contatti Composite per Filament - Modulo Notify
 - `laravel/Modules/Notify/docs/filament-custom-pages.md` — Filament Custom Pages - Documentazione Modulo Notify
-- `laravel/Modules/Notify/docs/filament-extension-pattern-1.md` — Pattern di Estensione per Componenti Filament
-- `laravel/Modules/Notify/docs/filament-extension-pattern-analysis-1.md` — Analisi del Pattern di Estensione per Componenti Filament
+- `laravel/Modules/Notify/docs/filament-extension-pattern.md` — Pattern di Estensione per Componenti Filament
+- `laravel/Modules/Notify/docs/filament-extension-pattern-analysis.md` — Analisi del Pattern di Estensione per Componenti Filament
 - `laravel/Modules/Notify/docs/filament-extension-pattern-analysis.md` — Analisi del Pattern di Estensione per Componenti Filament
 - `laravel/Modules/Notify/docs/filament-extension-pattern.md` — Pattern di Estensione per Componenti Filament
-- `laravel/Modules/Notify/docs/filament-extension-rules-1.md` — Regole di Estensione delle Classi Filament
+- `laravel/Modules/Notify/docs/filament-extension-rules.md` — Regole di Estensione delle Classi Filament
 - `laravel/Modules/Notify/docs/filament-extension-rules.md` — Filament Class Extension Rules
 - `laravel/Modules/Notify/docs/filament-extension.md` — Pattern di Estensione per Componenti Filament
 - `laravel/Modules/Notify/docs/filament-grapesjs.md` — Abilitare il plugin `gjs-blocks-basic` in GrapesJS
-- `laravel/Modules/Notify/docs/filament-naming-conventions-1.md` — Convenzioni di Naming per Filament
 - `laravel/Modules/Notify/docs/filament-naming-conventions.md` — Convenzioni di Naming per Filament
-- `laravel/Modules/Notify/docs/filament-page-naming-convention-1.md` — Convenzioni di Naming per Pagine Filament
+- `laravel/Modules/Notify/docs/filament-naming-conventions.md` — Convenzioni di Naming per Filament
+- `laravel/Modules/Notify/docs/filament-page-naming-convention.md` — Convenzioni di Naming per Pagine Filament
 - `laravel/Modules/Notify/docs/filament-page-naming-convention.md` — Convenzioni di Naming per Pagine Filament
 - `laravel/Modules/Notify/docs/filament-pages-convention.md` — Convenzioni per le Pagine Filament
 - `laravel/Modules/Notify/docs/filament-pages.md` — Pagine Filament del Modulo Notify
-- `laravel/Modules/Notify/docs/filament-resource-pages-architecture-1.md` — Architettura delle Pagine di Risorse Filament
+- `laravel/Modules/Notify/docs/filament-resource-pages-architecture.md` — Architettura delle Pagine di Risorse Filament
 - `laravel/Modules/Notify/docs/filament-resource-pages-architecture.md` — Architettura delle Pagine di Risorse Filament
 - `laravel/Modules/Notify/docs/filament-resources.md` — Risorse Filament del Modulo Notify
 - `laravel/Modules/Notify/docs/filament-spatie-database-mail-templates-analysis.md` — Analisi Repository: filament-spatie-laravel-database-mail-templates
 - `laravel/Modules/Notify/docs/filament-spatieatabase-mail-templates.md` — Analisi Repository: filament-spatie-laravel-database-mail-templates
-- `laravel/Modules/Notify/docs/filament-template-conventions-1.md` — Convenzioni per Template Blade di Filament
+- `laravel/Modules/Notify/docs/filament-template-conventions.md` — Convenzioni per Template Blade di Filament
 - `laravel/Modules/Notify/docs/filament-template-conventions.md` — Convenzioni per Template Blade di Filament
 - `laravel/Modules/Notify/docs/filament-v4-migration.md` — Filament v4 Migration - Notify Module
 - `laravel/Modules/Notify/docs/filament-v4-upgrade-notes.md` — Notify Module - Filament v4 Upgrade Notes
-- `laravel/Modules/Notify/docs/filament-xot-architecture-1.md` — Architettura Filament : Pattern XotBase
+- `laravel/Modules/Notify/docs/filament-xot-architecture.md` — Architettura Filament : Pattern XotBase
 - `laravel/Modules/Notify/docs/filament-xot-architecture.md` — Architettura Filament : Pattern XotBase
 - `laravel/Modules/Notify/docs/filament.md` — Integrazione Filament del Modulo Notify
 - `laravel/Modules/Notify/docs/filament4-migration-complete.md` — Filament v4 Migration Complete - Notify Module
@@ -4253,7 +4323,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/file-naming.md` — Regole di Naming per File
 - `laravel/Modules/Notify/docs/firebase.md` — firebase
 - `laravel/Modules/Notify/docs/folio-volt-best-practices.md` — Laravel Folio + Volt - Best Practices and Patterns Analysis
-- `laravel/Modules/Notify/docs/form-schema-conventions-1.md` — Convenzioni per i Form Schema
+- `laravel/Modules/Notify/docs/form-schema-conventions.md` — Convenzioni per i Form Schema
 - `laravel/Modules/Notify/docs/form-schema-conventions.md` — Convenzioni per i Form Schema
 - `laravel/Modules/Notify/docs/form_schema_conventions.md` — Convenzioni per i Form Schema
 - `laravel/Modules/Notify/docs/forms/components-reusable.md` — Componenti Form Riutilizzabili - Notify Module
@@ -4302,11 +4372,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/integrazioni.md` — Integrazioni
 - `laravel/Modules/Notify/docs/interface-naming-convention-1.md` — Deprecated
 - `laravel/Modules/Notify/docs/interface-naming-convention.md` — Convenzione di Naming per le Interfacce
-- `laravel/Modules/Notify/docs/interface-structure-clarification-1.md` — Chiarimento sulla Struttura delle Interfacce
+- `laravel/Modules/Notify/docs/interface-structure-clarification.md` — Chiarimento sulla Struttura delle Interfacce
 - `laravel/Modules/Notify/docs/interface-structure-clarification.md` — Chiarimento sulla Struttura delle Interfacce
 - `laravel/Modules/Notify/docs/interface_naming_convention.md` — Convenzione di Naming per le Interfacce
 - `laravel/Modules/Notify/docs/interface_structure_clarification.md` — Chiarimento sulla Struttura delle Interfacce
-- `laravel/Modules/Notify/docs/interfaces-implementation-guide-1.md` — Guida all'Implementazione delle Interfacce nel Modulo Notify
+- `laravel/Modules/Notify/docs/interfaces-implementation-guide.md` — Guida all'Implementazione delle Interfacce nel Modulo Notify
 - `laravel/Modules/Notify/docs/interfaces-implementation-guide.md` — Guida all'Implementazione delle Interfacce nel Modulo Notify
 - `laravel/Modules/Notify/docs/interfaces-implementation.md` — Guida all'Implementazione delle Interfacce nel Modulo Notify
 - `laravel/Modules/Notify/docs/interfaces_implementation_guide.md` — Guida all'Implementazione delle Interfacce nel Modulo Notify
@@ -4319,19 +4389,19 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/kdown-linking-conventions.md` — Convenzioni per i Collegamenti nei File Markdown
 - `laravel/Modules/Notify/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Notify
 - `laravel/Modules/Notify/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Notify
-- `laravel/Modules/Notify/docs/laravel-path-conventions-1.md` — Convenzioni dei Path in Laravel e <nome progetto>
+- `laravel/Modules/Notify/docs/laravel-path-conventions.md` — Convenzioni dei Path in Laravel e <nome progetto>
 - `laravel/Modules/Notify/docs/laravel-path-conventions.md` — Convenzioni dei Path in Laravel e
 - `laravel/Modules/Notify/docs/laravel_path_conventions.md` — Convenzioni dei Path in Laravel e <nome progetto>
 - `laravel/Modules/Notify/docs/links.md` — links
-- `laravel/Modules/Notify/docs/locations-standards-1.md` — Standard di Posizionamento dei File in Notify
+- `laravel/Modules/Notify/docs/locations-standards.md` — Standard di Posizionamento dei File in Notify
 - `laravel/Modules/Notify/docs/locations-standards.md` — Standard di Posizionamento dei File in Notify
 - `laravel/Modules/Notify/docs/locations_standards.md` — Standard di Posizionamento dei File in Notify
 - `laravel/Modules/Notify/docs/login.md` — login
-- `laravel/Modules/Notify/docs/mail-layouts-guide-1.md` — Guida ai Layout Email nel Modulo Notify
+- `laravel/Modules/Notify/docs/mail-layouts-guide.md` — Guida ai Layout Email nel Modulo Notify
 - `laravel/Modules/Notify/docs/mail-layouts-guide.md` — Guida ai Layout Email nel Modulo Notify
 - `laravel/Modules/Notify/docs/mail-layouts-theme-integration.md` — Mail Layouts - Integrazione con Sistema Temi
 - `laravel/Modules/Notify/docs/mail-layouts.md` — Layout delle Email
-- `laravel/Modules/Notify/docs/mail-template-migration-guide-1.md` — Guida alla Migrazione di MailTemplate
+- `laravel/Modules/Notify/docs/mail-template-migration-guide.md` — Guida alla Migrazione di MailTemplate
 - `laravel/Modules/Notify/docs/mail-template-migration-guide.md` — Guida alla Migrazione di MailTemplate
 - `laravel/Modules/Notify/docs/mail-template-migration.md` — Guida alla Migrazione di MailTemplate
 - `laravel/Modules/Notify/docs/mail-template-model-changes.md` — Modifiche al Modello MailTemplate
@@ -4440,7 +4510,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail_templates.md` — Mail Templates in Notify Module
 - `laravel/Modules/Notify/docs/mail_templates_structure.md` — Struttura Template Email
 - `laravel/Modules/Notify/docs/maintenance.md` — Manutenzione del Modulo Notify
-- `laravel/Modules/Notify/docs/markdown-linking-conventions-1.md` — Convenzioni per i Collegamenti nei File Markdown
+- `laravel/Modules/Notify/docs/markdown-linking-conventions.md` — Convenzioni per i Collegamenti nei File Markdown
 - `laravel/Modules/Notify/docs/markdown-linking-conventions.md` — Convenzioni per i Collegamenti nei File Markdown
 - `laravel/Modules/Notify/docs/markdown_linking_conventions.md` — Convenzioni per i Collegamenti nei File Markdown
 - `laravel/Modules/Notify/docs/mcp-configuration.md` — MCP Server Configuration - Notify Module
@@ -4454,7 +4524,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/metodi_duplicati_analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Notify/docs/metodiuplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Notify/docs/migration-changes.md` — Modifiche alla Migrazione Mail Templates
-- `laravel/Modules/Notify/docs/migration-filament-4.md` — migration-filament-4
+- `laravel/Modules/Notify/docs/migration-filament.md` — migration-filament-4
 - `laravel/Modules/Notify/docs/migration-rules.md` — Regole per le Migrazioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/migration.md` — Regole per le Migrazioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/migration_changes.md` — Modifiche alla Migrazione Mail Templates
@@ -4463,7 +4533,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/migrations-changelog.md` — Changelog Migrazioni Notify Module
 - `laravel/Modules/Notify/docs/migrations.md` — Database Migrations
 - `laravel/Modules/Notify/docs/migrations_changelog.md` — Changelog Migrazioni Notify Module
-- `laravel/Modules/Notify/docs/migrazione-filament-4.md` — Notify Module - Migrazione a Filament 5
+- `laravel/Modules/Notify/docs/migrazione-filament.md` — Notify Module - Migrazione a Filament 5
 - `laravel/Modules/Notify/docs/missing-features-analysis.md` — Analisi Funzionalità Mancanti - Modulo Notify
 - `laravel/Modules/Notify/docs/missing-features.md` — Analisi Funzionalità Mancanti - Modulo Notify
 - `laravel/Modules/Notify/docs/model-changes.md` — Modifiche al Modello MailTemplate
@@ -4476,7 +4546,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/models-factory-seeder-analysis.md` — Analisi Modelli, Factory e Seeder - Modulo Notify
 - `laravel/Modules/Notify/docs/models-factory-seeder.md` — Analisi Modelli, Factory e Seeder - Modulo Notify
 - `laravel/Modules/Notify/docs/models.md` — Modelli e Relazioni del Modulo Notify
-- `laravel/Modules/Notify/docs/modern-email-design-patterns-1.md` — Pattern di Design per Email Moderne
+- `laravel/Modules/Notify/docs/modern-email-design-patterns.md` — Pattern di Design per Email Moderne
 - `laravel/Modules/Notify/docs/modern-email-design-patterns.md` — Pattern di Design per Email Moderne
 - `laravel/Modules/Notify/docs/modern-emailesigns.md` — Pattern di Design per Email Moderne
 - `laravel/Modules/Notify/docs/modern_email_design_patterns.md` — Pattern di Design per Email Moderne
@@ -4491,7 +4561,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/namespace-rules.md` — Regole Namespace PSR-4 per il Modulo Notify
 - `laravel/Modules/Notify/docs/namespace.md` — Regole Namespace PSR-4 per il Modulo Notify
 - `laravel/Modules/Notify/docs/namespace_rules.md` — Regole Namespace PSR-4 per il Modulo Notify
-- `laravel/Modules/Notify/docs/naming-conventions-1.md` — Convenzioni di Naming
+- `laravel/Modules/Notify/docs/naming-conventions.md` — Convenzioni di Naming
 - `laravel/Modules/Notify/docs/naming-conventions.md` — Convenzioni di Naming
 - `laravel/Modules/Notify/docs/naming_conventions.md` — Convenzioni di Naming
 - `laravel/Modules/Notify/docs/nested-resources.md` — Notify Module - Nested Resource Implementation Guide
@@ -4501,10 +4571,10 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/netfun-action-updates.md` — Aggiornamenti a SendNetfunSMSAction
 - `laravel/Modules/Notify/docs/netfun-actions.md` — Errori in SendNetfunSMSAction e Correzioni
 - `laravel/Modules/Notify/docs/netfun-authentication-methods.md` — Autenticazione Netfun SMS
-- `laravel/Modules/Notify/docs/netfun-channel-1.md` — Implementazione Canale Netfun
+- `laravel/Modules/Notify/docs/netfun-channel.md` — Implementazione Canale Netfun
 - `laravel/Modules/Notify/docs/netfun-channel.md` — Implementazione Canale Netfun
 - `laravel/Modules/Notify/docs/netfun-config-requirements.md` — Requisiti di Configurazione per Netfun SMS
-- `laravel/Modules/Notify/docs/netfun-examples-1.md` — Esempi Pratici Netfun
+- `laravel/Modules/Notify/docs/netfun-examples.md` — Esempi Pratici Netfun
 - `laravel/Modules/Notify/docs/netfun-examples.md` — Esempi Pratici Netfun
 - `laravel/Modules/Notify/docs/netfun_action_errors.md` — Errori in SendNetfunSMSAction e Correzioni
 - `laravel/Modules/Notify/docs/netfun_action_updates.md` — Aggiornamenti a SendNetfunSMSAction
@@ -4520,7 +4590,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/notification-channels-implementation.md` — Implementazione dei Canali di Notifica
 - `laravel/Modules/Notify/docs/notification-errors.md` — Errori Comuni nelle Notifiche
 - `laravel/Modules/Notify/docs/notification-implementation.md` — Notification System Implementation Plan
-- `laravel/Modules/Notify/docs/notification-providers-guide-1.md` — Guida Completa ai Provider di Notifiche
+- `laravel/Modules/Notify/docs/notification-providers-guide.md` — Guida Completa ai Provider di Notifiche
 - `laravel/Modules/Notify/docs/notification-providers-guide.md` — Guida Completa ai Provider di Notifiche
 - `laravel/Modules/Notify/docs/notification-providers.md` — Guida Completa ai Provider di Notifiche
 - `laravel/Modules/Notify/docs/notification-system.md` — Notification System
@@ -4538,7 +4608,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/notifications/errori-comuni-da-evitare.md` — Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 - `laravel/Modules/Notify/docs/notifications/errori_comuni_da_evitare.md` — Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 - `laravel/Modules/Notify/docs/notifications/index.md` — Indice Documentazione Notifiche
-- `laravel/Modules/Notify/docs/notifications/multi-channel-notifications-1.md` — Implementazione di Notifiche Multi-Canale
+- `laravel/Modules/Notify/docs/notifications/multi-channel-notifications.md` — Implementazione di Notifiche Multi-Canale
 - `laravel/Modules/Notify/docs/notifications/multi-channel-notifications.md` — Implementazione di Notifiche Multi-Canale
 - `laravel/Modules/Notify/docs/notifications/multi_channel_notifications.md` — Implementazione di Notifiche Multi-Canale
 - `laravel/Modules/Notify/docs/notifications/netfun-sms-implementation.md` — Implementazione Netfun SMS
@@ -4547,9 +4617,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/notifications/notifications_implementation_guide.md` — Guida all'Implementazione delle Notifiche
 - `laravel/Modules/Notify/docs/notifications/readme.md` — Notifiche
 - `laravel/Modules/Notify/docs/notifications/record-notification.md` — `RecordNotification`
-- `laravel/Modules/Notify/docs/notifications/sms-implementation-details-1.md` — Implementazione SMS : Guida Dettagliata
 - `laravel/Modules/Notify/docs/notifications/sms-implementation-details.md` — Implementazione SMS : Guida Dettagliata
-- `laravel/Modules/Notify/docs/notifications/sms-provider-configuration-1.md` — Configurazione Provider SMS per le Notifiche
+- `laravel/Modules/Notify/docs/notifications/sms-implementation-details.md` — Implementazione SMS : Guida Dettagliata
+- `laravel/Modules/Notify/docs/notifications/sms-provider-configuration.md` — Configurazione Provider SMS per le Notifiche
 - `laravel/Modules/Notify/docs/notifications/sms-provider-configuration.md` — Configurazione Provider SMS per le Notifiche
 - `laravel/Modules/Notify/docs/notifications/sms_implementation_details.md` — Implementazione SMS : Guida Dettagliata
 - `laravel/Modules/Notify/docs/notifications/sms_provider_configuration.md` — Configurazione Provider SMS per le Notifiche
@@ -4558,25 +4628,25 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/notifications-system.md` — Sistema di Notifiche
 - `laravel/Modules/Notify/docs/notifications.md` — Errori Comuni nelle Notifiche
 - `laravel/Modules/Notify/docs/notify-send-email-translations-improvements.md` — Sistemazione e Miglioramenti File Traduzione send_email.php - Modulo Notify
-- `laravel/Modules/Notify/docs/notify-translation-guide-1.md` — Guida alle Traduzioni nel Modulo Notify
+- `laravel/Modules/Notify/docs/notify-translation-guide.md` — Guida alle Traduzioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/notify-translation-guide.md` — Guida alle Traduzioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/notify-translation.md` — Guida alle Traduzioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/notify_translation_guide.md` — Guida alle Traduzioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/optimization-analysis.md` — Analisi di Ottimizzazione - Modulo Notify
-- `laravel/Modules/Notify/docs/optimization-recommendations-1.md` — Raccomandazioni di Ottimizzazione - Modulo Notify
+- `laravel/Modules/Notify/docs/optimization-recommendations.md` — Raccomandazioni di Ottimizzazione - Modulo Notify
 - `laravel/Modules/Notify/docs/optimization-recommendations.md` — Raccomandazioni di Ottimizzazione - Modulo Notify
 - `laravel/Modules/Notify/docs/optimization.md` — Analisi di Ottimizzazione - Modulo Notify
 - `laravel/Modules/Notify/docs/optimization_analysis.md` — notify module documentation optimization analysis
 - `laravel/Modules/Notify/docs/optimization_recommendations.md` — Raccomandazioni di Ottimizzazione - Modulo Notify
 - `laravel/Modules/Notify/docs/ottimizzazioni-correzioni.md` — Notify Module - Ottimizzazioni e Correzioni
 - `laravel/Modules/Notify/docs/packages.md` — Pacchetti del Modulo Notify
-- `laravel/Modules/Notify/docs/path-and-interface-rules-1.md` — Regole di Percorso e Interfacce nel Modulo Notify
+- `laravel/Modules/Notify/docs/path-and-interface-rules.md` — Regole di Percorso e Interfacce nel Modulo Notify
 - `laravel/Modules/Notify/docs/path-and-interface-rules.md` — Regole di Percorso e Interfacce nel Modulo Notify
 - `laravel/Modules/Notify/docs/path-and-interface.md` — Regole di Percorso e Interfacce nel Modulo Notify
 - `laravel/Modules/Notify/docs/path-and-namespace-rules-1.md` — Regole per Path e Namespace nel Modulo Notify
 - `laravel/Modules/Notify/docs/path-and-namespace-rules.md` — Regole per Path e Namespace nel Modulo Notify
 - `laravel/Modules/Notify/docs/path-and-namespace.md` — Regole per Path e Namespace nel Modulo Notify
-- `laravel/Modules/Notify/docs/path-conventions-1.md` — Convenzioni sui Percorsi
+- `laravel/Modules/Notify/docs/path-conventions.md` — Convenzioni sui Percorsi
 - `laravel/Modules/Notify/docs/path-conventions.md` — Convenzioni sui Percorsi
 - `laravel/Modules/Notify/docs/path_and_interface_rules.md` — Regole di Percorso e Interfacce nel Modulo Notify
 - `laravel/Modules/Notify/docs/path_and_namespace_rules.md` — Regole per Path e Namespace nel Modulo Notify
@@ -4604,6 +4674,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/phpstan-fixes-january-1.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 - `laravel/Modules/Notify/docs/phpstan-fixes-january.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 - `laravel/Modules/Notify/docs/phpstan-fixes.md` — PHPStan Fixes - Modulo Notify
+- `laravel/Modules/Notify/docs/phpstan-level10-fixes-1.md` — Correzioni PHPStan Livello 10 - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-level10-fixes-correzioni-livello-modulo-media.md` — Correzioni PHPStan Livello 10 - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-level10-fixes-root-symlink.md` — phpstan-level10-fixes-root-symlink
 - `laravel/Modules/Notify/docs/phpstan-level10-fixes.md` — Correzioni PHPStan Livello 10 - Modulo Notify
@@ -4633,7 +4704,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/plan.md` — Appointment Field Naming Correction Plan
 - `laravel/Modules/Notify/docs/provider-actions-architecture-1.md` — Architettura delle Azioni dei Provider in Notify
 - `laravel/Modules/Notify/docs/provider-actions-architecture.md` — Architettura delle Azioni dei Provider in Notify
-- `laravel/Modules/Notify/docs/provider-contracts-naming-1.md` — Convenzioni di Naming per i Contracts
+- `laravel/Modules/Notify/docs/provider-contracts-naming.md` — Convenzioni di Naming per i Contracts
 - `laravel/Modules/Notify/docs/provider-contracts-naming.md` — Convenzioni di Naming per i Contracts
 - `laravel/Modules/Notify/docs/provider_actions_architecture.md` — Architettura delle Azioni dei Provider in Notify
 - `laravel/Modules/Notify/docs/provider_contracts_naming.md` — Convenzioni di Naming per i Contracts
@@ -4676,15 +4747,16 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/removal-getseasonalemaillayoutaction.md` — Rimozione GetSeasonalEmailLayoutAction - Report Completo
 - `laravel/Modules/Notify/docs/repos.md` — repos
 - `laravel/Modules/Notify/docs/repositories.md` — repositories
-- `laravel/Modules/Notify/docs/responsive-email-templates-1.md` — Responsive Email Templates - Guida Completa
+- `laravel/Modules/Notify/docs/responsive-email-templates.md` — Responsive Email Templates - Guida Completa
 - `laravel/Modules/Notify/docs/responsive-email-templates.md` — Responsive Email Templates - Guida Completa
 - `laravel/Modules/Notify/docs/responsive_email_templates.md` — Responsive Email Templates - Guida Completa
-- `laravel/Modules/Notify/docs/reusability-guidelines-1.md` — Linee Guida per la Riusabilità del Modulo Notify
+- `laravel/Modules/Notify/docs/reusability-guidelines.md` — Linee Guida per la Riusabilità del Modulo Notify
 - `laravel/Modules/Notify/docs/reusability-guidelines.md` — Linee Guida per la Riusabilità del Modulo Notify
 - `laravel/Modules/Notify/docs/reusability_guidelines.md` — Linee Guida per la Riusabilità del Modulo Notify
 - `laravel/Modules/Notify/docs/reusabilitylines.md` — Linee Guida per la Riusabilità del Modulo Notify
 - `laravel/Modules/Notify/docs/reusable-form-components.md` — Reusable Form Components
 - `laravel/Modules/Notify/docs/roadmap-.md` — Notify Module Roadmap 2026
+- `laravel/Modules/Notify/docs/roadmap-1.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
 - `laravel/Modules/Notify/docs/roadmap.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
 - `laravel/Modules/Notify/docs/roadmap-2025.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
 - `laravel/Modules/Notify/docs/roadmap-and-issues.md` — Notify Module - Roadmap, Issues & Optimization
@@ -4739,14 +4811,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/sms-action-factory-analysis.md` — Analisi: Sostituzione Match con Formula nel SmsActionFactory
 - `laravel/Modules/Notify/docs/sms-action-factory-resolution.md` — Risoluzione dinamica vs match esplicito in SmsActionFactory
 - `laravel/Modules/Notify/docs/sms-action-factory.md` — Analisi: Sostituzione Match con Formula nel SmsActionFactory
-- `laravel/Modules/Notify/docs/sms-actions-1.md` — Azioni SMS
+- `laravel/Modules/Notify/docs/sms-actions.md` — Azioni SMS
 - `laravel/Modules/Notify/docs/sms-actions-pattern.md` — Pattern per le Azioni SMS
 - `laravel/Modules/Notify/docs/sms-actions.md` — Azioni SMS
 - `laravel/Modules/Notify/docs/sms-best-practices.md` — Best Practices per l'Invio SMS
 - `laravel/Modules/Notify/docs/sms-channel-action-resolution.md` — Dove posizionare la logica di risoluzione dell'action SMS?
 - `laravel/Modules/Notify/docs/sms-config-structure-1.md` — Struttura della Configurazione SMS
 - `laravel/Modules/Notify/docs/sms-config-structure.md` — Struttura della Configurazione SMS
-- `laravel/Modules/Notify/docs/sms-configuration-access-pattern-1.md` — Pattern di Accesso alla Configurazione SMS
+- `laravel/Modules/Notify/docs/sms-configuration-access-pattern.md` — Pattern di Accesso alla Configurazione SMS
 - `laravel/Modules/Notify/docs/sms-configuration-access-pattern.md` — Pattern di Accesso alla Configurazione SMS
 - `laravel/Modules/Notify/docs/sms-configuration-access.md` — Pattern di Accesso alla Configurazione SMS
 - `laravel/Modules/Notify/docs/sms-driver-enum-translations-1.md` — Traduzioni SmsDriverEnum - Modulo Notify
@@ -4858,11 +4930,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/tasks/notify-filament-v5.md` — Task: Notify Filament v5 Alignment (Clusters)
 - `laravel/Modules/Notify/docs/tasks/notify-test-coverage.md` — Task: Rafforzamento Test Suite Notify (Pest)
 - `laravel/Modules/Notify/docs/tasks/tasks-index.md` — Indice task - Modulo Notify
-- `laravel/Modules/Notify/docs/telegram-channel-1.md` — Implementazione Canale Telegram
 - `laravel/Modules/Notify/docs/telegram-channel.md` — Implementazione Canale Telegram
-- `laravel/Modules/Notify/docs/telegram-integration-1.md` — Integrazione Telegram
+- `laravel/Modules/Notify/docs/telegram-channel.md` — Implementazione Canale Telegram
 - `laravel/Modules/Notify/docs/telegram-integration.md` — Integrazione Telegram
-- `laravel/Modules/Notify/docs/telegram-provider-architecture-1.md` — Architettura Telegram Provider per <nome progetto>
+- `laravel/Modules/Notify/docs/telegram-integration.md` — Integrazione Telegram
+- `laravel/Modules/Notify/docs/telegram-provider-architecture.md` — Architettura Telegram Provider per <nome progetto>
 - `laravel/Modules/Notify/docs/telegram-provider-architecture.md` — Architettura Telegram Provider per
 - `laravel/Modules/Notify/docs/telegram-sending-standard.md` — Standard per Invio Messaggi Telegram nel Modulo Notify
 - `laravel/Modules/Notify/docs/telegram.md` — telegram
@@ -4890,8 +4962,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/todo.md` — todo
 - `laravel/Modules/Notify/docs/translation-cleanup-plan-1.md` — Piano di Pulizia e Standardizzazione delle Traduzioni
 - `laravel/Modules/Notify/docs/translation-cleanup-plan.md` — Piano di Pulizia e Standardizzazione delle Traduzioni
-- `laravel/Modules/Notify/docs/translation-conventions-1.md` — Convenzioni per le Traduzioni del Modulo Notify
-- `laravel/Modules/Notify/docs/translation-conventions-clarification-1.md` — Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
+- `laravel/Modules/Notify/docs/translation-conventions.md` — Convenzioni per le Traduzioni del Modulo Notify
+- `laravel/Modules/Notify/docs/translation-conventions-clarification.md` — Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 - `laravel/Modules/Notify/docs/translation-conventions-clarification.md` — Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 - `laravel/Modules/Notify/docs/translation-conventions.md` — Convenzioni per le Traduzioni del Modulo Notify
 - `laravel/Modules/Notify/docs/translation-file-correction-guide-1.md` — Deprecated
@@ -4907,7 +4979,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/translation-keys-rules.md` — translation-keys-rules
 - `laravel/Modules/Notify/docs/translation-keys.md` — translation-keys
 - `laravel/Modules/Notify/docs/translation-standards-1.md` — Standard per le Traduzioni
-- `laravel/Modules/Notify/docs/translation-standards-progress-1.md` — Progresso Standardizzazione Traduzioni
+- `laravel/Modules/Notify/docs/translation-standards-progress.md` — Progresso Standardizzazione Traduzioni
 - `laravel/Modules/Notify/docs/translation-standards-progress.md` — Progresso Standardizzazione Traduzioni
 - `laravel/Modules/Notify/docs/translation-standards.md` — Standard per le Traduzioni
 - `laravel/Modules/Notify/docs/translation_cleanup_plan.md` — Piano di Pulizia e Standardizzazione delle Traduzioni
@@ -4921,7 +4993,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/translation_keys_rules.md` — translation_keys_rules
 - `laravel/Modules/Notify/docs/translation_standards.md` — Standard per le Traduzioni
 - `laravel/Modules/Notify/docs/translation_standards_progress.md` — Progresso Standardizzazione Traduzioni
-- `laravel/Modules/Notify/docs/translations-implementation-status-1.md` — Stato dell'Implementazione delle Traduzioni nel Modulo Notify
+- `laravel/Modules/Notify/docs/translations-implementation-status.md` — Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/translations-implementation-status.md` — Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/translations-implementation.md` — Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/translations-structure-template.md` — Template di Struttura per le Traduzioni
@@ -4941,7 +5013,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/whatsapp-channel.md` — Implementazione Canale WhatsApp
 - `laravel/Modules/Notify/docs/whatsapp-integration-1.md` — Integrazione WhatsApp
 - `laravel/Modules/Notify/docs/whatsapp-integration.md` — Integrazione WhatsApp
-- `laravel/Modules/Notify/docs/whatsapp-provider-architecture-1.md` — Architettura WhatsApp Provider per <nome progetto>
+- `laravel/Modules/Notify/docs/whatsapp-provider-architecture.md` — Architettura WhatsApp Provider per <nome progetto>
 - `laravel/Modules/Notify/docs/whatsapp-provider-architecture.md` — Architettura WhatsApp Provider per
 - `laravel/Modules/Notify/docs/whatsapp-sending-standard.md` — Standard per Invio Messaggi WhatsApp nel Modulo Notify
 - `laravel/Modules/Notify/docs/whatsapp.md` — whatsapp
@@ -5312,7 +5384,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/docs/event-sourcing.md` — event-sourcing
 - `laravel/Modules/Tenant/docs/events.md` — events
 - `laravel/Modules/Tenant/docs/exchanges.md` — exchanges
-- `laravel/Modules/Tenant/docs/filament-resources-1.md` — Linee Guida per Filament Resources
+- `laravel/Modules/Tenant/docs/filament-resources.md` — Linee Guida per Filament Resources
 - `laravel/Modules/Tenant/docs/filament-resources.md` — filament-resources
 - `laravel/Modules/Tenant/docs/file-naming-rules.md` — Regole di Naming per File
 - `laravel/Modules/Tenant/docs/filesystems.md` — filesystems
@@ -5466,7 +5538,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/docs/traits/sushi-to-jsons.md` — sushi-to-jsons
 - `laravel/Modules/Tenant/docs/translations.md` — Traduzioni del Modulo Tenant
 - `laravel/Modules/Tenant/docs/troubleshooting.md` — troubleshooting
-- `laravel/Modules/Tenant/docs/updates-12.md` — Tenant Module Updates - December 2025
+- `laravel/Modules/Tenant/docs/updates.md` — Tenant Module Updates - December 2025
 - `laravel/Modules/Tenant/docs/updates.md` — Tenant Module Updates - December 2025
 - `laravel/Modules/Tenant/docs/user-interface.md` — user-interface
 - `laravel/Modules/Tenant/docs/xra.md` — xra
@@ -5564,7 +5636,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/clean-code/wizard-schema-aration.md` — Separazione dello Schema dagli Step nei Wizard Filament
 - `laravel/Modules/UI/docs/clean-code/wizard-schema-separation.md` — Separazione dello Schema dagli Step nei Wizard Filament
 - `laravel/Modules/UI/docs/clean-code/wizard-steps.md` — Gestione degli Step nei Wizard Filament
-- `laravel/Modules/UI/docs/cms-link-1.md` — Collegamenti al Modulo Cms
+- `laravel/Modules/UI/docs/cms-link.md` — Collegamenti al Modulo Cms
 - `laravel/Modules/UI/docs/cms-link.md` — Collegamenti al Modulo Cms
 - `laravel/Modules/UI/docs/cms-themes-link-1.md` — Collegamenti ai Temi nel Modulo Cms
 - `laravel/Modules/UI/docs/cms-themes-link.md` — Collegamenti ai Temi nel Modulo Cms
@@ -5772,7 +5844,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/module-analysis.md` — UI Module - Comprehensive Analysis
 - `laravel/Modules/UI/docs/module-icons-design-system.md` — Sistema di Design per Icone SVG dei Moduli
 - `laravel/Modules/UI/docs/module-ui.md` — Modulo UI
-- `laravel/Modules/UI/docs/naming-conventions-1.md` — naming-conventions-1
+- `laravel/Modules/UI/docs/naming-conventions.md` — naming-conventions-1
 - `laravel/Modules/UI/docs/naming-conventions.md` — naming-conventions
 - `laravel/Modules/UI/docs/naming-rules-1.md` — Regole di Naming nei Moduli
 - `laravel/Modules/UI/docs/naming-rules.md` — Regole di Naming nei Moduli
@@ -5813,6 +5885,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/phpstan-errors-roadmap.md` — PHPStan Level 10 Errors Roadmap - UI Module
 - `laravel/Modules/UI/docs/phpstan-fixes-.md` — Correzioni PHPStan - Modulo UI
 - `laravel/Modules/UI/docs/phpstan-fixes-1.md` — Correzioni PHPStan Livello 7 - Modulo UI
+- `laravel/Modules/UI/docs/phpstan-fixes-2.md` — Correzioni PHPStan - Modulo UI
 - `laravel/Modules/UI/docs/phpstan-fixes.md` — Correzioni PHPStan - Modulo UI
 - `laravel/Modules/UI/docs/phpstan-fixes-2025.md` — phpstan-fixes-2025
 - `laravel/Modules/UI/docs/phpstan-fixes-conflict-d41d8c.md` — phpstan-fixes-conflict-d41d8c
@@ -5833,6 +5906,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/phpstan-namespace-correction.md` — Correzione Namespace nel Modulo UI
 - `laravel/Modules/UI/docs/phpstan-patterns.md` — PHPStan Level 10 - Pattern Riutilizzabili
 - `laravel/Modules/UI/docs/phpstan-property-exists-elimination.md` — PHPStan Property Exists Elimination - UI Module
+- `laravel/Modules/UI/docs/phpstan-radio-badge-fix-1.md` — Correzione Errori PHPStan - RadioBadge.php
 - `laravel/Modules/UI/docs/phpstan-radio-badge-fix.md` — Correzione Errori PHPStan - RadioBadge.php
 - `laravel/Modules/UI/docs/phpstan-radio-badge-fix.md` — Correzione Errori PHPStan - RadioBadge.php
 - `laravel/Modules/UI/docs/phpstan-roadmap.md` — PHPStan Roadmap - UI Module
@@ -6016,16 +6090,16 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/architecture.md` — Architectural Rules & Guidelines
 - `laravel/Modules/User/docs/architecture_rules.md` — Laraxot Architecture Rules
 - `laravel/Modules/User/docs/auth-blade-structure.md` — Struttura delle Blade di Autenticazione con Volt
-- `laravel/Modules/User/docs/auth-components-best-practices-1.md` — Best Practices per i Componenti di Autenticazione
+- `laravel/Modules/User/docs/auth-components-best-practices.md` — Best Practices per i Componenti di Autenticazione
 - `laravel/Modules/User/docs/auth-components-best-practices.md` — Best Practices per i Componenti di Autenticazione
 - `laravel/Modules/User/docs/auth-header-button.md` — Header Navigation - Sistema di Autenticazione
-- `laravel/Modules/User/docs/auth-login-implementation-1.md` — Implementazione Corretta della Pagina di Login
+- `laravel/Modules/User/docs/auth-login-implementation.md` — Implementazione Corretta della Pagina di Login
 - `laravel/Modules/User/docs/auth-login-implementation.md` — Implementazione Corretta della Pagina di Login
 - `laravel/Modules/User/docs/auth-logout-blade.md` — Implementazione Corretta di logout.blade.php
-- `laravel/Modules/User/docs/auth-logout-implementation-1.md` — Implementazione del Logout
+- `laravel/Modules/User/docs/auth-logout-implementation.md` — Implementazione del Logout
 - `laravel/Modules/User/docs/auth-logout-implementation.md` — Implementazione del Logout
 - `laravel/Modules/User/docs/auth-logout.md` — Componente di Logout
-- `laravel/Modules/User/docs/auth-pages-implementation-1.md` — Implementazione Corretta delle Pagine Auth
+- `laravel/Modules/User/docs/auth-pages-implementation.md` — Implementazione Corretta delle Pagine Auth
 - `laravel/Modules/User/docs/auth-pages-implementation.md` — Implementazione Corretta delle Pagine Auth
 - `laravel/Modules/User/docs/auth-social-login-translations.md` — Traduzioni Auth Social Login - Filosofia Laraxot
 - `laravel/Modules/User/docs/auth-widget-rules.md` — Regole per Widget di Autenticazione
@@ -6044,7 +6118,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/authentication-troubleshooting.md` — Debug Autenticazione - Login Widget
 - `laravel/Modules/User/docs/authentication.md` — Autenticazione in Predict
 - `laravel/Modules/User/docs/authentication.md` — Autenticazione in Forecast
-- `laravel/Modules/User/docs/avatar-implementation-1.md` — Implementazione degli Avatar
+- `laravel/Modules/User/docs/avatar-implementation.md` — Implementazione degli Avatar
 - `laravel/Modules/User/docs/avatar-implementation.md` — Implementazione degli Avatar
 - `laravel/Modules/User/docs/avatar_implementation.md` — Implementazione degli Avatar
 - `laravel/Modules/User/docs/baseuser-conflicts.md` — Risoluzione Conflitti in BaseUser.php
@@ -6098,8 +6172,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/bottlenecks.md` — Colli di Bottiglia e Soluzioni - Modulo User
 - `laravel/Modules/User/docs/bug-fixes/make-filament-user-crash-loop.md` — Bug Fix: Crash durante creazione utenti con make:filament-user
 - `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods-.md` — Bug Fix: ParseError - Metodi Orfani Fuori dalla Classe
-- `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods-1.md` — parse-error-orphan-methods-1
-- `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods-2025-01-27.md` — parse-error-orphan-methods-2025-01-27
+- `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods.md` — parse-error-orphan-methods-1
+- `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods.md` — parse-error-orphan-methods-2025-01-27
 - `laravel/Modules/User/docs/bug-fixes/parse-error-orphan-methods.md` — Bug Fix: ParseError - Metodi Orfani Fuori dalla Classe
 - `laravel/Modules/User/docs/bug-fixes/parse-orphan-methods.md` — Bug Fix: ParseError - Metodi Orfani Fuori dalla Classe
 - `laravel/Modules/User/docs/bugfix/deviceuser-hasxotfactory-fix.md` — Bugfix: DeviceUser e HasXotFactory
@@ -6125,7 +6199,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/charts-implementation.md` — User Module - Charts Implementation
 - `laravel/Modules/User/docs/clusters/passport-actions.md` — Passport Administrative Actions in Filament
 - `laravel/Modules/User/docs/clusters/socialite.md` — Socialite Cluster Structure
-- `laravel/Modules/User/docs/cms-link-1.md` — Collegamento al Modulo Cms
+- `laravel/Modules/User/docs/cms-link.md` — Collegamento al Modulo Cms
 - `laravel/Modules/User/docs/cms-link.md` — Collegamento al Modulo Cms
 - `laravel/Modules/User/docs/cms_link.md` — Collegamento al Modulo Cms
 - `laravel/Modules/User/docs/code-conventions.md` — code-conventions
@@ -6137,7 +6211,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/code_conventions.md` — code_conventions
 - `laravel/Modules/User/docs/code_optimization_analysis.md` — user module code and documentation optimization analysis
 - `laravel/Modules/User/docs/code_quality_analysis.md` — Code Quality Analysis - User Module
-- `laravel/Modules/User/docs/component-verification-rules-1.md` — Regole per la Verifica dei Componenti Blade
+- `laravel/Modules/User/docs/component-verification-rules.md` — Regole per la Verifica dei Componenti Blade
 - `laravel/Modules/User/docs/component-verification-rules.md` — Regole per la Verifica dei Componenti Blade
 - `laravel/Modules/User/docs/component-verification.md` — Regole per la Verifica dei Componenti Blade
 - `laravel/Modules/User/docs/component_verification_rules.md` — Regole per la Verifica dei Componenti Blade
@@ -6177,12 +6251,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/cross_database_relations_issue.md` — Cross Database Relations Issue - belongsToManyX SQLite Problem
 - `laravel/Modules/User/docs/crossatabase-relations.md` — Cross Database Relations Issue - belongsToManyX SQLite Problem
 - `laravel/Modules/User/docs/cursor.md` — Regola Cursor: Migrazioni XotBaseMigration
+- `laravel/Modules/User/docs/custom-login-1.md` — Implementazione Login Personalizzato
 - `laravel/Modules/User/docs/custom-login-implementazione-personalizzato.md` — Implementazione Login Personalizzato
 - `laravel/Modules/User/docs/custom-login.md` — Implementazione Login Personalizzato
 - `laravel/Modules/User/docs/cyclomatic-complexity-report.md` — Cyclomatic Complexity Report - Module: User
 - `laravel/Modules/User/docs/cyclomatic-complexity.md` — Cyclomatic Complexity Report - Module: User
 - `laravel/Modules/User/docs/database/migrations/model-has-roles.md` — Model Has Roles Migration Documentation
 - `laravel/Modules/User/docs/database-errors.md` — Database Errors in User Module
+- `laravel/Modules/User/docs/database-issues.md` — Database Issues in User Module
 - `laravel/Modules/User/docs/database-issues-user-module.md` — Database Issues in User Module
 - `laravel/Modules/User/docs/database-issues.md` — Database Issues in User Module
 - `laravel/Modules/User/docs/database-population.md` — Popolamento Database - Modulo User
@@ -6215,6 +6291,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/dor-registration.md` — Registrazione Odontoiatra (Doctor)
 - `laravel/Modules/User/docs/dry-kiss-018b09.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-.md` — DRY & KISS Analysis - Modulo User
+- `laravel/Modules/User/docs/dry-kiss-analysis-1.md` — 🐄✨ DRY & KISS Analysis - Modulo User
+- `laravel/Modules/User/docs/dry-kiss-analysis-2025-10-15.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-modulo-user.md` — 🐄✨ DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-conflict-018b09.md` — DRY & KISS Analysis - Modulo User
@@ -6245,6 +6323,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/filament/filament-table-columns-1.md` — Convenzione Metodo getTableColumns per Filament Table
 - `laravel/Modules/User/docs/filament/filament-table-columns.md` — Convenzione Metodo getTableColumns per Filament Table
 - `laravel/Modules/User/docs/filament/filament_table_columns.md` — Convenzione Metodo getTableColumns per Filament Table
+- `laravel/Modules/User/docs/filament/teams-relation-manager.md` — TeamsRelationManager in User Module
 - `laravel/Modules/User/docs/filament/teams-relation-manager-teamsrelationmanager-user-module.md` — TeamsRelationManager in User Module
 - `laravel/Modules/User/docs/filament/teams-relation-manager.md` — TeamsRelationManager in User Module
 - `laravel/Modules/User/docs/filament/teams_relation_manager.md` — TeamsRelationManager in User Module
@@ -6257,6 +6336,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/filament-4-actions-namespace.md` — Filament 5: Namespace Actions - Filosofia Laraxot
 - `laravel/Modules/User/docs/filament-4-widget-rendering-guide.md` — Guida Rendering Widget Filament 5 - Modulo User
 - `laravel/Modules/User/docs/filament-4-widget-rendering.md` — Guida Rendering Widget Filament 5 - Modulo User
+- `laravel/Modules/User/docs/filament-4x-compatibility-1.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/filament-4x-compatibility-compatibilita-modulo-user.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/filament-4x-compatibility-conflict.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo User
@@ -6267,11 +6347,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/filament-components-reference.md` — Riferimento Componenti Filament Verificati
 - `laravel/Modules/User/docs/filament-errors.md` — Errori Comuni Filament nel Modulo User
 - `laravel/Modules/User/docs/filament-filters-and-widgets.md` — Filament 5 — filtri pagina e widget (lezioni apprese)
-- `laravel/Modules/User/docs/filament-namespace-rules-1.md` — Regole per i Namespace Filament
+- `laravel/Modules/User/docs/filament-namespace-rules.md` — Regole per i Namespace Filament
 - `laravel/Modules/User/docs/filament-namespace-rules.md` — Regole per i Namespace Filament
 - `laravel/Modules/User/docs/filament-namespace.md` — Regole per i Namespace Filament
 - `laravel/Modules/User/docs/filament-nesting-opportunities.md` — Filament 5.x Nested Resources - Opportunità di Applicazione
-- `laravel/Modules/User/docs/filament-relation-managers-1.md` — Filament Relation Managers nel Modulo User
+- `laravel/Modules/User/docs/filament-relation-managers.md` — Filament Relation Managers nel Modulo User
 - `laravel/Modules/User/docs/filament-relation-managers.md` — Filament Relation Managers nel Modulo User
 - `laravel/Modules/User/docs/filament-resources-coverage-analysis.md` — Filament Resources Coverage Analysis - Modulo User
 - `laravel/Modules/User/docs/filament-resources-coverage.md` — Filament Resources Coverage Analysis - Modulo User
@@ -6295,6 +6375,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/final.md` — Final Summary - User Module Passport Integration & Architecture Refactoring
 - `laravel/Modules/User/docs/fix-profile-id-uuid.md` — Profile: id autoincrement + colonna uuid
 - `laravel/Modules/User/docs/fixes/base-classes-corrections-.md` — Correzione Estensioni Classi Base - Modulo User
+- `laravel/Modules/User/docs/fixes/base-classes-corrections-2025-10-15.md` — Correzione Estensioni Classi Base - Modulo User
+- `laravel/Modules/User/docs/fixes/base-classes-corrections.md` — Correzione Estensioni Classi Base - Modulo User
+- `laravel/Modules/User/docs/fixes/phpstan-fixes.md` — Correzioni PHPStan nel Modulo User
 - `laravel/Modules/User/docs/fixes/base-classes-corrections-correzione-estensioni-classi-modulo.md` — Correzione Estensioni Classi Base - Modulo User
 - `laravel/Modules/User/docs/fixes/base-classes-corrections.md` — Correzione Estensioni Classi Base - Modulo User
 - `laravel/Modules/User/docs/fixes/phpstan-fixes-correzioni-modulo-user.md` — Correzioni PHPStan nel Modulo User
@@ -6302,14 +6385,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/fixes/phpstanes.md` — Correzioni PHPStan nel Modulo User
 - `laravel/Modules/User/docs/fixes-user-module-phpstan.md` — Correzioni PHPStan per il Modulo User
 - `laravel/Modules/User/docs/folio-volt-best-practices.md` — Laravel Folio + Volt - Best Practices and Patterns Analysis
-- `laravel/Modules/User/docs/fullcalendar-scheduler-documentation-summary-1.md` — FullCalendar Scheduler - Documentazione Completa
 - `laravel/Modules/User/docs/fullcalendar-scheduler-documentation-summary.md` — FullCalendar Scheduler - Documentazione Completa
-- `laravel/Modules/User/docs/fullcalendar-scheduler-license-1.md` — FullCalendar Scheduler License Configuration
+- `laravel/Modules/User/docs/fullcalendar-scheduler-documentation-summary.md` — FullCalendar Scheduler - Documentazione Completa
+- `laravel/Modules/User/docs/fullcalendar-scheduler-license.md` — FullCalendar Scheduler License Configuration
 - `laravel/Modules/User/docs/fullcalendar-scheduler-license-key-invalid.md` — fullcalendar-scheduler-license-key-invalid
-- `laravel/Modules/User/docs/fullcalendar-scheduler-license-troubleshooting-1.md` — FullCalendar Scheduler License - Troubleshooting e Configurazione Avanzata
+- `laravel/Modules/User/docs/fullcalendar-scheduler-license-troubleshooting.md` — FullCalendar Scheduler License - Troubleshooting e Configurazione Avanzata
 - `laravel/Modules/User/docs/fullcalendar-scheduler-license-troubleshooting.md` — FullCalendar Scheduler License - Troubleshooting e Configurazione Avanzata
 - `laravel/Modules/User/docs/fullcalendar-scheduler-license.md` — FullCalendar Scheduler License Configuration
-- `laravel/Modules/User/docs/fullcalendar-scheduler-quick-reference-1.md` — FullCalendar Scheduler - Riferimento Rapido
+- `laravel/Modules/User/docs/fullcalendar-scheduler-quick-reference.md` — FullCalendar Scheduler - Riferimento Rapido
 - `laravel/Modules/User/docs/fullcalendar-scheduler-quick-reference.md` — FullCalendar Scheduler - Riferimento Rapido
 - `laravel/Modules/User/docs/fullcalendar-schedulerocumentation.md` — FullCalendar Scheduler - Documentazione Completa
 - `laravel/Modules/User/docs/fullcalendar_scheduler_documentation_summary.md` — FullCalendar Scheduler - Documentazione Completa
@@ -6321,12 +6404,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/gdpr-compliance.md` — GDPR Compliance - User Registration Module
 - `laravel/Modules/User/docs/gdpr-register-enhancement.md` — GDPR Register Widget Enhancement 2025
 - `laravel/Modules/User/docs/gdpr.md` — gdpr
-- `laravel/Modules/User/docs/generic-user-moderation-strategy-1.md` — Generic User Moderation Strategy in User Module
+- `laravel/Modules/User/docs/generic-user-moderation-strategy.md` — Generic User Moderation Strategy in User Module
 - `laravel/Modules/User/docs/generic-user-moderation-strategy.md` — Generic User Moderation Strategy in User Module
 - `laravel/Modules/User/docs/generic_user_moderation_strategy.md` — Generic User Moderation Strategy in User Module
 - `laravel/Modules/User/docs/get-new-password-action-business-logic.md` — GetNewPasswordAction - Business Logic Analysis
 - `laravel/Modules/User/docs/git-conflict-resolution.md` — Gestione Avanzata dei Conflitti Git
 - `laravel/Modules/User/docs/git-conflicts-resolution-.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
+- `laravel/Modules/User/docs/git-conflicts-resolution-2025-01-27.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
 - `laravel/Modules/User/docs/git-conflicts-resolution.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
 - `laravel/Modules/User/docs/git-conflicts-resolution-conflict-06cb77.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
 - `laravel/Modules/User/docs/git-conflicts-resolution-conflict.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
@@ -6335,11 +6419,12 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/git-resolution.md` — Gestione Avanzata dei Conflitti Git
 - `laravel/Modules/User/docs/git_conflict_resolution.md` — git_conflict_resolution
 - `laravel/Modules/User/docs/git_conflicts_resolution.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
+- `laravel/Modules/User/docs/git_conflicts_resolution.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
 - `laravel/Modules/User/docs/git_conflicts_resolution-risoluzione-conflitti-modulo-user.md` — Risoluzione Conflitti Git - Modulo User (2025-01-27)
 - `laravel/Modules/User/docs/gits-resolution-06cb77.md` — Risoluzione Conflitti Git - Modulo User ([DATE])
 - `laravel/Modules/User/docs/gits-resolution.md` — Risoluzione Conflitti Git - Modulo User ([DATE])
 - `laravel/Modules/User/docs/guida-migrazione-step-by-step.md` — Guida Migrazione Step-by-Step: Modulo User - Filament 5
-- `laravel/Modules/User/docs/hasteams-currentteam-method-choice-1.md` — Choice of currentTeam() Method in HasTeams Trait
+- `laravel/Modules/User/docs/hasteams-currentteam-method-choice.md` — Choice of currentTeam() Method in HasTeams Trait
 - `laravel/Modules/User/docs/hasteams-currentteam-method-choice.md` — Choice of currentTeam() Method in HasTeams Trait
 - `laravel/Modules/User/docs/hasteams-trait-analysis.md` — HasTeams Trait Analysis
 - `laravel/Modules/User/docs/hasteams-trait-duplicate-methods.md` — Analisi metodi duplicati in HasTeams (trait)
@@ -6353,9 +6438,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/hasteams_trait_filosofia_e_correzione_completa.md` — HasTeams Trait - Filosofia Laraxot e Strategia di Correzione Completa
 - `laravel/Modules/User/docs/header-auth-button.md` — Header Auth Button - User Module
 - `laravel/Modules/User/docs/header-components.md` — Componenti Header
-- `laravel/Modules/User/docs/header-language-avatar-implementation-1.md` — Implementazione del Selettore di Lingua e Avatar Utente nell'Header
 - `laravel/Modules/User/docs/header-language-avatar-implementation.md` — Implementazione del Selettore di Lingua e Avatar Utente nell'Header
-- `laravel/Modules/User/docs/header-language-selector-with-flags-1.md` — Implementazione del Selettore di Lingua con Bandiere SVG
+- `laravel/Modules/User/docs/header-language-avatar-implementation.md` — Implementazione del Selettore di Lingua e Avatar Utente nell'Header
+- `laravel/Modules/User/docs/header-language-selector-with-flags.md` — Implementazione del Selettore di Lingua con Bandiere SVG
 - `laravel/Modules/User/docs/header-language-selector-with-flags.md` — Implementazione del Selettore di Lingua con Bandiere SVG
 - `laravel/Modules/User/docs/header_components.md` — Componenti Header
 - `laravel/Modules/User/docs/header_language_avatar_implementation.md` — Implementazione del Selettore di Lingua e Avatar Utente nell'Header
@@ -6376,7 +6461,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/index-conflict.md` — User Module Documentation
 - `laravel/Modules/User/docs/index.md` — User Module Documentation
 - `laravel/Modules/User/docs/intelligent-login-redirect.md` — Redirect Intelligente dopo Login - Soluzione Implementata
-- `laravel/Modules/User/docs/jetstream-vs-laraxot-philosophy-1.md` — Jetstream vs Laraxot: Filosofia, Religione e Politica dei Team
+- `laravel/Modules/User/docs/jetstream-vs-laraxot-philosophy.md` — Jetstream vs Laraxot: Filosofia, Religione e Politica dei Team
 - `laravel/Modules/User/docs/jetstream-vs-laraxot-philosophy.md` — Jetstream vs Laraxot: Filosofia, Religione e Politica dei Team
 - `laravel/Modules/User/docs/jetstream-vs-laraxot.md` — Jetstream vs Laraxot: Filosofia, Religione e Politica dei Team
 - `laravel/Modules/User/docs/jetstream_vs_laraxot_philosophy.md` — Jetstream vs Laraxot: Filosofia, Religione e Politica dei Team
@@ -6387,7 +6472,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/label-hardcoded-prevention.md` — Prevenzione ->label() Hardcoded - Modulo User
 - `laravel/Modules/User/docs/label_hardcoded_prevention.md` — Prevenzione ->label() Hardcoded - Modulo User
 - `laravel/Modules/User/docs/lang/en/auth.md` — File di Traduzione Inglese per l'Autenticazione
-- `laravel/Modules/User/docs/lang-link-1.md` — Collegamento alle Traduzioni del Modulo User
+- `laravel/Modules/User/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo User
 - `laravel/Modules/User/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo User
 - `laravel/Modules/User/docs/lang_link.md` — Collegamento alle Traduzioni del Modulo User
 - `laravel/Modules/User/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo User
@@ -6408,6 +6493,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/login-issue-resolution-report.md` — Risoluzione Problema Login - Report Finale (Aggiornato)
 - `laravel/Modules/User/docs/login-resolution.md` — Risoluzione Problema Login - Report Finale (Aggiornato)
 - `laravel/Modules/User/docs/login-widget-analysis.md` — Analisi Dettagliata di LoginWidget
+- `laravel/Modules/User/docs/login-widget-conversion-1.md` — Conversione Livewire Auth/Login a Filament LoginWidget
 - `laravel/Modules/User/docs/login-widget-conversion-conversione-livewire-auth-filament.md` — Conversione Livewire Auth/Login a Filament LoginWidget
 - `laravel/Modules/User/docs/login-widget-conversion.md` — Conversione Livewire Auth/Login a Filament LoginWidget
 - `laravel/Modules/User/docs/login-widget-filament-schema-errors-roadmap.md` — LoginWidget Filament Schema JavaScript Errors - Roadmap
@@ -6506,6 +6592,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/migration-consolidation.md` — Migration Consolidation Strategy - User Module
 - `laravel/Modules/User/docs/migration-dry-violations-report.md` — User Module Migration Policy - DRY Violations Report
 - `laravel/Modules/User/docs/migration-duplicate-resolution.md` — 📋 RISOLUZIONE COMPLETA DUPLICATI MIGRATION ROLES
+- `laravel/Modules/User/docs/migration-filament-4.md` — User Module - Migrazione a Filament 5
 - `laravel/Modules/User/docs/migration-filament-user-module-migrazione.md` — User Module - Migrazione a Filament 5
 - `laravel/Modules/User/docs/migration-fix-tenants.md` — 🔧 Migration Fix: create_tenants_table
 - `laravel/Modules/User/docs/migration-internal.md` — Internal Analysis: Migration Philosophy Approaches
@@ -6527,6 +6614,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/migration.md` — Laraxot Migration Philosophy
 - `laravel/Modules/User/docs/migrationry-violations.md` — User Module Migration Policy - DRY Violations Report
 - `laravel/Modules/User/docs/migrationuplicate-resolution.md` — 📋 RISOLUZIONE COMPLETA DUPLICATI MIGRATION ROLES
+- `laravel/Modules/User/docs/migrazione-filament.md` — User Module - Migrazione a Filament 5
 - `laravel/Modules/User/docs/migrazione-filament-user-module.md` — User Module - Migrazione a Filament 5
 - `laravel/Modules/User/docs/missing-factories-audit.md` — Factory Mancanti - Modulo User
 - `laravel/Modules/User/docs/missing-factories.md` — Factory Mancanti - Modulo User
@@ -6689,6 +6777,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/phpstan-corrections-summary.md` — Riepilogo Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-corrections.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-dry-kiss-improvements-.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
+- `laravel/Modules/User/docs/phpstan-dry-kiss-improvements-2025-10-17.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
 - `laravel/Modules/User/docs/phpstan-dry-kiss-improvements.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
 - `laravel/Modules/User/docs/phpstan-dry-kiss-improvements.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
 - `laravel/Modules/User/docs/phpstan-error-roadmap.md` — PHPStan Error Analysis and Resolution Roadmap - User Module
@@ -6699,14 +6788,17 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/phpstan-fix-plan-.md` — PHPStan Analysis - User Module (Jan 2026)
 - `laravel/Modules/User/docs/phpstan-fixes-.md` — User Module - PHPStan Fixes Session 2025-10-01
 - `laravel/Modules/User/docs/phpstan-fixes-1.md` — Correzioni PHPStan Livello 7 - Modulo User
+- `laravel/Modules/User/docs/phpstan-fixes-2.md` — Correzioni PHPStan - Modulo User
+- `laravel/Modules/User/docs/phpstan-fixes-2025-10-01.md` — User Module - PHPStan Fixes Session 2025-10-01
 - `laravel/Modules/User/docs/phpstan-fixes.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-fixes-user-module-session.md` — User Module - PHPStan Fixes Session 2025-10-01
 - `laravel/Modules/User/docs/phpstan-fixes-2025.md` — Correzioni PHPStan - Modulo User
-- `laravel/Modules/User/docs/phpstan-fixes-3.md` — Correzioni PHPStan - Modulo User
+- `laravel/Modules/User/docs/phpstan-fixes.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-fixes-conflict-276dc0.md` — User Module - PHPStan Fixes Session 2025-10-01
 - `laravel/Modules/User/docs/phpstan-fixes-conflict-2e.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-fixes-conflict.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-.md` — 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
+- `laravel/Modules/User/docs/phpstan-fixes-gennaio-1.md` — 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-modulo-user.md` — 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-2025-complete.md` — PHPStan Fixes Complete - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
@@ -6753,10 +6845,10 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/phpstan_relationship_fix.md` — Correzione PHPStan - Relationship Type Hints
 - `laravel/Modules/User/docs/phpstan_roadmap.md` — PHPStan Roadmap: User Module
 - `laravel/Modules/User/docs/phpstanebate.md` — Filosofia Laraxot: Il Grande Dibattito Interno - PHPStan Level 10
-- `laravel/Modules/User/docs/phpstanes-2.md` — Correzioni PHPStan - Modulo User
+- `laravel/Modules/User/docs/phpstanes.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstanes-276dc0.md` — User Module - PHPStan Fixes Session [DATE]
 - `laravel/Modules/User/docs/phpstanes-2e.md` — Correzioni PHPStan - Modulo User
-- `laravel/Modules/User/docs/phpstanes-3.md` — Correzioni PHPStan - Modulo User
+- `laravel/Modules/User/docs/phpstanes.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstanes-passport.md` — PHPStan Fixes and Architectural Decisions for Passport/Socialite Configuration
 - `laravel/Modules/User/docs/phpstanes.md` — Correzioni PHPStan - Modulo User
 - `laravel/Modules/User/docs/phpstanry-kiss-improvements.md` — PHPStan Level 10 + DRY/KISS Improvements - User Module
@@ -6774,6 +6866,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/quality-analysis/user-module-quality.md` — Analisi Qualità - Modulo User
 - `laravel/Modules/User/docs/quality-improvements-summary.md` — Quality Improvements Summary - PHPStan, PHPMD, PHP Insights
 - `laravel/Modules/User/docs/quality-improvements.md` — Quality Improvements Summary - PHPStan, PHPMD, PHP Insights
+- `laravel/Modules/User/docs/quality-status-user-module-november.md` — User Module - Quality Status (November 2025)
+- `laravel/Modules/User/docs/quality-status-2025-11.md` — User Module - Quality Status (November 2025)
 - `laravel/Modules/User/docs/quality-status-user-module-november.md` — User Module - Quality Status (November 2025)
 - `laravel/Modules/User/docs/quality-status-activity-module-november.md` — User Module - Quality Status (November 2025)
 - `laravel/Modules/User/docs/quality-status.md` — User Module - Quality Status (November 2025)
@@ -6797,6 +6891,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/registration-widget-fileupload-fix-1.md` — RegistrationWidget FileUpload Fix
 - `laravel/Modules/User/docs/registration-widget-fileupload-fix.md` — RegistrationWidget FileUpload Fix
 - `laravel/Modules/User/docs/registration-widget-fileupload.md` — RegistrationWidget FileUpload Fix
+- `laravel/Modules/User/docs/registration-widget-update.md` — Aggiornamento relativo a DoctorResource.php
 - `laravel/Modules/User/docs/registration-widget-update-aggiornamento-relativo-doctorresource-php.md` — Aggiornamento relativo a DoctorResource.php
 - `laravel/Modules/User/docs/registration-widget-update.md` — Aggiornamento relativo a DoctorResource.php
 - `laravel/Modules/User/docs/registration-widget.md` — Registration Widget Documentation
@@ -6814,6 +6909,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/resources-array-keys.md` — Resources Array Keys Philosophy: String Keys Always
 - `laravel/Modules/User/docs/resources-corrections-summary-.md` — Resources Corrections Summary - 2025-01-22
 - `laravel/Modules/User/docs/resources-corrections.md` — Resources Corrections Summary - [DATE]
+- `laravel/Modules/User/docs/roadmap/roadmap.md` — User Module Roadmap (2025 Q4)
 - `laravel/Modules/User/docs/roadmap/roadmap-user-module-q4.md` — User Module Roadmap (2025 Q4)
 - `laravel/Modules/User/docs/roadmap/2fa.md` — Two-Factor Authentication - 70% Completato
 - `laravel/Modules/User/docs/roadmap/bottlenecks.md` — Colli di Bottiglia - Modulo User
@@ -6828,6 +6924,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/roadmap/q4-roadmap.md` — User Module Roadmap (2025 Q4)
 - `laravel/Modules/User/docs/roadmap/roadmap.md` — User Module Roadmap (2025 Q4)
 - `laravel/Modules/User/docs/roadmap-.md` — User Module - Complete Roadmap 2026
+- `laravel/Modules/User/docs/roadmap-1.md` — 👥 USER MODULE - ROADMAP 2025
 - `laravel/Modules/User/docs/roadmap.md` — 👥 USER MODULE - ROADMAP 2025
 - `laravel/Modules/User/docs/roadmap-2025.md` — 👥 USER MODULE - ROADMAP 2025
 - `laravel/Modules/User/docs/roadmap-and-issues.md` — User Module - Roadmap, Issues & Optimization
@@ -6837,7 +6934,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/roadmap.md` — User Module Roadmap
 - `laravel/Modules/User/docs/roles-migration-philosophy-fix.md` — Fix della Migration Roles - Allineamento con la Filosofia Laraxot
 - `laravel/Modules/User/docs/roles-migration.md` — Fix della Migration Roles - Allineamento con la Filosofia Laraxot
-- `laravel/Modules/User/docs/roles-permissions-1.md` — Gestione coerente di roles, permissions e guard_name
+- `laravel/Modules/User/docs/roles-permissions.md` — Gestione coerente di roles, permissions e guard_name
 - `laravel/Modules/User/docs/roles-permissions.md` — Gestione coerente di roles, permissions e guard_name
 - `laravel/Modules/User/docs/roles_permissions.md` — Gestione coerente di roles, permissions e guard_name
 - `laravel/Modules/User/docs/routing-best-practices.md` — Best Practices per il Routing in Architettura Volt + Folio + Filament
@@ -6954,6 +7051,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/translation-architecture.md` — Translation Architecture - Filament Navigation Best Practices
 - `laravel/Modules/User/docs/translation-best-practices.md` — Best Practices per le Traduzioni
 - `laravel/Modules/User/docs/translation-city-field-refactor-.md` — Refactor Completo Campi "Città" - Modulo User
+- `laravel/Modules/User/docs/translation-city-field-refactor-2025-08-08.md` — Refactor Completo Campi "Città" - Modulo User
 - `laravel/Modules/User/docs/translation-city-field-refactor-completo-campi-citta-modulo.md` — Refactor Completo Campi "Città" - Modulo User
 - `laravel/Modules/User/docs/translation-city-field-refactor-conflict.md` — Refactor Completo Campi "Città" - Modulo User
 - `laravel/Modules/User/docs/translation-city-field-refactor.md` — Refactor Completo Campi "Città" - Modulo User
@@ -6977,7 +7075,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/two-factor.md` — two_factor
 - `laravel/Modules/User/docs/two_factor.md` — two_factor
 - `laravel/Modules/User/docs/type-safety-improvements.md` — Type Safety Improvements - User Module
-- `laravel/Modules/User/docs/updates-12.md` — User Module Updates - December 2025
+- `laravel/Modules/User/docs/updates.md` — User Module Updates - December 2025
 - `laravel/Modules/User/docs/updates.md` — User Module Updates - December 2025
 - `laravel/Modules/User/docs/user-factory-advanced-integration-1.md` — UserFactory Advanced Integration - Modulo User & <nome progetto>
 - `laravel/Modules/User/docs/user-factory-advanced-integration.md` — UserFactory Advanced Integration - Modulo User & <nome progetto>
@@ -7483,7 +7581,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/base-model.md` — Module System and BaseModel Pattern: The Sacred Architecture
 - `laravel/Modules/Xot/docs/bashscripts/bashscripts-organization.md` — Organizzazione Cartella BashScripts
 - `laravel/Modules/Xot/docs/bashscripts-location-policy.md` — Policy Posizione Script Bash (VINCOLANTE)
-- `laravel/Modules/Xot/docs/bashscripts-organization-1.md` — Organizzazione Cartella BashScripts
+- `laravel/Modules/Xot/docs/bashscripts-organization-organizzazione-cartella.md` — Organizzazione Cartella BashScripts
 - `laravel/Modules/Xot/docs/bashscripts-organization.md` — Organizzazione Cartella BashScripts
 - `laravel/Modules/Xot/docs/bashscripts_organization.md` — bashscripts_organization
 - `laravel/Modules/Xot/docs/best-practices/README.md` — Best Practices
@@ -7530,7 +7628,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/bugfix/git-conflicts-resolution-massive.md` — Risoluzione Massiva Conflitti Git - 323 File
 - `laravel/Modules/Xot/docs/bugfix/hasfactory-signature-compatibility.md` — Bugfix: HasFactory newFactory() Signature Compatibility
 - `laravel/Modules/Xot/docs/bugfix/hasxotfactory-restoration.md` — Bugfix: Ripristino HasXotFactory Trait
-- `laravel/Modules/Xot/docs/bugfix-carbon-timezone-error-1.md` — Bugfix: Carbon Timezone Error in XotServiceProvider
+- `laravel/Modules/Xot/docs/bugfix-carbon-timezone-error-xotserviceprovider.md` — Bugfix: Carbon Timezone Error in XotServiceProvider
 - `laravel/Modules/Xot/docs/bugfix-carbon-timezone-error.md` — Bugfix: Carbon Timezone Error in XotServiceProvider
 - `laravel/Modules/Xot/docs/bugfix-carbon-timezone.md` — Bugfix: Carbon Timezone Error in XotServiceProvider
 - `laravel/Modules/Xot/docs/bugfix-hasxottable-duplicate-if.md` — Bug Fix: Duplicazione If Statement in HasXotTable.php
@@ -7584,6 +7682,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/code-optimization.md` — xot module code and documentation optimization analysis
 - `laravel/Modules/Xot/docs/code-quality-01.md` — Code Quality Audit Completo - Gennaio 2025
 - `laravel/Modules/Xot/docs/code-quality-1.md` — Code Quality Guidelines for Laravel Modules
+- `laravel/Modules/Xot/docs/code-quality-analysis-1.md` — Code Quality Analysis - Xot Module
 - `laravel/Modules/Xot/docs/code-quality-analysis.md` — Code Quality Analysis - Xot Module
 - `laravel/Modules/Xot/docs/code-quality-analysis.md` — Code Quality Analysis - Xot Module
 - `laravel/Modules/Xot/docs/code-quality-audit-01.md` — Code Quality Audit Completo - Gennaio 2025
@@ -7648,6 +7747,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/comprehensive-code-tools.md` — 🔍 COMPREHENSIVE CODE ANALYSIS TOOLS GUIDE
 - `laravel/Modules/Xot/docs/comprehensive-code.md` — Analisi Completa del Codice - Sistema Laraxot
 - `laravel/Modules/Xot/docs/comprehensive-documentation-structure.md` — Comprehensive Documentation Structure
+- `laravel/Modules/Xot/docs/comprehensive-improvement-recommendations-1.md` — Comprehensive Improvement Recommendations
 - `laravel/Modules/Xot/docs/comprehensive-improvement-recommendations.md` — Comprehensive Improvement Recommendations
 - `laravel/Modules/Xot/docs/comprehensive-improvement-recommendations.md` — Comprehensive Improvement Recommendations
 - `laravel/Modules/Xot/docs/comprehensiveocumentation-structure.md` — Comprehensive Documentation Structure
@@ -7671,6 +7771,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/conflicts/modelwithposcontract-conflict-resolution.md` — Risoluzione del Conflitto in ModelWithPosContract.php
 - `laravel/Modules/Xot/docs/conflicts-analysis.md` — Analisi Conflitti - composer.json
 - `laravel/Modules/Xot/docs/conflicts.md` — conflicts
+- `laravel/Modules/Xot/docs/conflitti-merge-risolti.md` — Risoluzione Conflitti di Merge
 - `laravel/Modules/Xot/docs/conflitti-merge-risolti-risoluzione-git-modulo-media.md` — Risoluzione Conflitti di Merge
 - `laravel/Modules/Xot/docs/conflitti-merge-risolti.md` — Risoluzione Conflitti di Merge
 - `laravel/Modules/Xot/docs/conflitti_merge_risolti.md` — conflitti_merge_risolti
@@ -7779,7 +7880,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/getting-started.md` — getting-started
 - `laravel/Modules/Xot/docs/consolidated/getting_started.md` — getting_started
 - `laravel/Modules/Xot/docs/consolidated/git-conflicts-resolution-2025-01-06.md` — git-conflicts-resolution-2025-01-06
-- `laravel/Modules/Xot/docs/consolidated/git_conflicts_resolution_2025_01_06.md` — git_conflicts_resolution_2025_01_06
+- `laravel/Modules/Xot/docs/consolidated/git_conflicts_resolution.md` — git_conflicts_resolution_2025_01_06
 - `laravel/Modules/Xot/docs/consolidated/guides/README.md` — README
 - `laravel/Modules/Xot/docs/consolidated/guides/directory-structure-guide.md` — directory-structure-guide
 - `laravel/Modules/Xot/docs/consolidated/guides/documentation-guidelines.md` — documentation-guidelines
@@ -7863,8 +7964,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-2025.md` — phpstan-fixes-2025
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio-2025.md` — phpstan-fixes-gennaio-2025
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio.md` — phpstan-fixes-gennaio
-- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary-2.md` — phpstan-fixes-summary-2
-- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary-3.md` — phpstan-fixes-summary-3
+- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md` — phpstan-fixes-summary-2
+- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md` — phpstan-fixes-summary-3
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md` — phpstan-fixes-summary
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes.md` — phpstan-fixes
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-generic-types.md` — phpstan-generic-types
@@ -7891,7 +7992,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_factory_best_practices.md` — phpstan_factory_best_practices
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_fixes.md` — phpstan_fixes
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_fixes_summary.md` — phpstan_fixes_summary
-- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_fixes_summary_2.md` — phpstan_fixes_summary_2
+- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_fixes_summary.md` — phpstan_fixes_summary_2
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_generic_types.md` — phpstan_generic_types
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_guidelines.md` — PHPStan Guidelines and Best Practices
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan_implementation_guide.md` — phpstan_implementation_guide
@@ -8156,7 +8257,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/env-development-configuration.md` — Configurazione .env Development in Laraxot
 - `laravel/Modules/Xot/docs/env.md` — env
 - `laravel/Modules/Xot/docs/envevelopment-configuration.md` — Configurazione .env Development in Laraxot
-- `laravel/Modules/Xot/docs/environment-configuration-issues-1.md` — Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
+- `laravel/Modules/Xot/docs/environment-configuration-issues-problemi-configurazione-variabili-ambiente.md` — Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
 - `laravel/Modules/Xot/docs/environment-configuration-issues.md` — Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
 - `laravel/Modules/Xot/docs/environment-configurations.md` — Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
 - `laravel/Modules/Xot/docs/environment-development-vs-testing-rules.md` — Regole Environment Development vs Testing in Laraxot
@@ -8243,6 +8344,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament/hasxtable-visibility-fix.md` — Fix Visibilità Metodi HasXotTable - 2026-01-27
 - `laravel/Modules/Xot/docs/filament/infinite-loop-get-step-by-name-fix.md` — CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 - `laravel/Modules/Xot/docs/filament/infinite-loop-getStepByName-fix.md` — infinite-loop-getStepByName-fix
+- `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix-1.md` — CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 - `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix.md` — CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 - `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix-2.md` — CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 - `laravel/Modules/Xot/docs/filament/infinite-loop-getstepbyname-fix.md` — infinite-loop-getstepbyname-fix
@@ -8311,6 +8413,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-4-laraxot.md` — Filament 5 + Laraxot Rules - Xot Module
 - `laravel/Modules/Xot/docs/filament-4-migration-guide.md` — Guida alla Migrazione Filament 5
 - `laravel/Modules/Xot/docs/filament-4-migration.md` — Guida alla Migrazione Filament 5
+- `laravel/Modules/Xot/docs/filament-4x-compatibility-1.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/filament-4x-compatibility-compatibilita-modulo-user.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/filament-4x-compatibility-conflict.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Xot
@@ -8325,7 +8428,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-array-typing-rules.md` — Regole Fondamentali per i Metodi Filament - Aggiornamento
 - `laravel/Modules/Xot/docs/filament-array-typing.md` — Regole Fondamentali per i Metodi Filament - Aggiornamento
 - `laravel/Modules/Xot/docs/filament-best-practices-1.md` — Best Practices per Risorse Filament in Laraxot
-- `laravel/Modules/Xot/docs/filament-best-practices-uppercase-1.md` — Best Practices per Filament Resources in Laraxot
+- `laravel/Modules/Xot/docs/filament-best-practices-uppercase-resources-laraxot.md` — Best Practices per Filament Resources in Laraxot
 - `laravel/Modules/Xot/docs/filament-best-practices-uppercase.md` — Best Practices per Filament Resources in Laraxot
 - `laravel/Modules/Xot/docs/filament-best-practices.md` — Filament Best Practices (Moduli Riutilizzabili)
 - `laravel/Modules/Xot/docs/filament-block-labels.md` — Filament Block Label Guidelines
@@ -8354,9 +8457,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-custom-pages.md` — Filament Custom Pages - Documentazione Modulo Xot
 - `laravel/Modules/Xot/docs/filament-dashboard-pages.md` — Pagine Dashboard Filament - Documentazione Root
 - `laravel/Modules/Xot/docs/filament-extension-implementation.md` — Filament Extension Rules Implementation Report
-- `laravel/Modules/Xot/docs/filament-extension-pattern-1.md` — pattern di estensione filament
 - `laravel/Modules/Xot/docs/filament-extension-pattern.md` — pattern di estensione filament
-- `laravel/Modules/Xot/docs/filament-extension-rules-1.md` — Filament Class Extension Rules
+- `laravel/Modules/Xot/docs/filament-extension-pattern.md` — pattern di estensione filament
+- `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules
 - `laravel/Modules/Xot/docs/filament-extension-rules-complete.md` — Filament Class Extension Rules - Regole Complete
 - `laravel/Modules/Xot/docs/filament-extension-rules-implementation-report.md` — Filament Extension Rules Implementation Report
 - `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_techplanner_fila4_mono
@@ -8483,7 +8586,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-conflicts-resolution.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-2.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
-- `laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md` — git-conflicts-resolution-2025-01-06
+- `laravel/Modules/Xot/docs/git-conflicts-resolution.md` — git-conflicts-resolution-2025-01-06
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-conflict-5ba246.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-conflict.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-jan-2.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
@@ -8493,7 +8596,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/git-conflicts-resolution-strategy.md` — Strategia Risoluzione Conflitti Git - Modulo Xot
 - `laravel/Modules/Xot/docs/git-conflicts-resolution.md` — Risoluzione Conflitti Git - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/git-forward-only-rule.md` — Git Forward-Only Rule
-- `laravel/Modules/Xot/docs/git_conflicts_resolution_2025_01_06.md` — git_conflicts_resolution_2025_01_06
+- `laravel/Modules/Xot/docs/git_conflicts_resolution.md` — git_conflicts_resolution_2025_01_06
 - `laravel/Modules/Xot/docs/github-workflows-standard.md` — GitHub Workflows Standard - base_laravelpizza
 - `laravel/Modules/Xot/docs/gitignore-prototype.md` — gitignore-prototype
 - `laravel/Modules/Xot/docs/gitignore-standardization.md` — gitignore-standardization
@@ -8575,7 +8678,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Xot
 - `laravel/Modules/Xot/docs/lang.md` — lang
 - `laravel/Modules/Xot/docs/langserviceprovider-labels.md` — LangServiceProvider: Gestione automatica delle label nei Filament Forms
-- `laravel/Modules/Xot/docs/laragon/error-curl-60.md` — error-curl-60
+- `laravel/Modules/Xot/docs/laragon/error-curl.md` — error-curl-60
 - `laravel/Modules/Xot/docs/laragon/update-mysql-aggiornare.md` — Aggiornare Mysql a 8.0 {#update-mysql-to-8-0}
 - `laravel/Modules/Xot/docs/laravel-11-casts-pattern.md` — Laravel 11+ Casts Pattern - CRITICAL UPDATE
 - `laravel/Modules/Xot/docs/laravel-11-casts.md` — Laravel 11+ Casts Pattern - CRITICAL UPDATE
@@ -8622,6 +8725,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/layouts.md` — Layout in il progetto
 - `laravel/Modules/Xot/docs/lazy.md` — _lazy
 - `laravel/Modules/Xot/docs/lessons-learned-.md` — Lessons Learned – Consolidated Rules (2025-08-25)
+- `laravel/Modules/Xot/docs/lessons-learned-1.md` — Lessons Learned – Consolidated Rules (2025-08-25)
+- `laravel/Modules/Xot/docs/lessons-learned.md` — lessons-learned-2025-08-25
 - `laravel/Modules/Xot/docs/lessons-learned.md` — Lessons Learned – Consolidated Rules (2025-08-25)
 - `laravel/Modules/Xot/docs/lessons-learned.md` — lessons-learned-2025-08-25
 - `laravel/Modules/Xot/docs/lessons-learned-aug.md` — Lessons Learned – Consolidated Rules (2025-08-25)
@@ -8748,7 +8853,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/migrations/migrations.md` — Migrazioni
 - `laravel/Modules/Xot/docs/migrations-consolidated.md` — Migrations - Documentazione Consolidata DRY + KISS
 - `laravel/Modules/Xot/docs/migrations.md` — Migrazioni
-- `laravel/Modules/Xot/docs/migrazione-filament-4.md` — migrazione-filament-4
+- `laravel/Modules/Xot/docs/migrazione-filament.md` — migrazione-filament-4
 - `laravel/Modules/Xot/docs/missing-traits-and-improvements-2.md` — Trait Mancanti e Miglioramenti Architetturali
 - `laravel/Modules/Xot/docs/missing-traits-and-improvements.md` — Trait Mancanti e Miglioramenti Architetturali
 - `laravel/Modules/Xot/docs/model/action/destroy.md` — Destroy Action {#destroy-action}
@@ -8810,6 +8915,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/module-quality-analysis-sumy.md` — Module Quality Analysis Summary
 - `laravel/Modules/Xot/docs/module-quality.md` — Module Quality Analysis Summary
 - `laravel/Modules/Xot/docs/module-service.md` — module-service
+- `laravel/Modules/Xot/docs/module-structure-1.md` — Struttura dei Moduli in il progetto
 - `laravel/Modules/Xot/docs/module-structure.md` — Struttura dei Moduli in il progetto
 - `laravel/Modules/Xot/docs/module-structure.md` — Struttura dei Moduli in il progetto
 - `laravel/Modules/Xot/docs/module-xot.md` — Modulo Xot
@@ -8837,7 +8943,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/namespace_conventions.md` — namespace_conventions
 - `laravel/Modules/Xot/docs/namespaces.md` — namespaces
 - `laravel/Modules/Xot/docs/namespacing.md` — Convenzioni Namespace in il progetto
-- `laravel/Modules/Xot/docs/naming-conventions-1.md` — Convenzioni di Nomenclatura in Laravel Modules
+- `laravel/Modules/Xot/docs/naming-conventions.md` — Convenzioni di Nomenclatura in Laravel Modules
 - `laravel/Modules/Xot/docs/naming-conventions-docs-1.md` — Convenzioni di Naming nella Documentazione
 - `laravel/Modules/Xot/docs/naming-conventions-docs.md` — Convenzioni di Naming nella Documentazione
 - `laravel/Modules/Xot/docs/naming-conventions-uppercase-1.md` — Convenzioni di Nomenclatura in <nome progetto>
@@ -8969,7 +9075,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-analysis-17.md` — Analisi PHPStan - 17 Dicembre 2025
 - `laravel/Modules/Xot/docs/phpstan-analysis-18.md` — PHPStan Analysis Report - [DATE]
 - `laravel/Modules/Xot/docs/phpstan-analysis-2.md` — PHPStan Analysis Report - 18 Agosto 2025
-- `laravel/Modules/Xot/docs/phpstan-analysis-2025-08-18.md` — PHPStan Analysis Report - 18 Agosto 2025
+- `laravel/Modules/Xot/docs/phpstan-analysis-report-agosto.md` — PHPStan Analysis Report - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-analysis-all-modules.md` — Analisi PHPStan - Tutti i Moduli
 - `laravel/Modules/Xot/docs/phpstan-analysis-comprehensive.md` — phpstan-analysis-comprehensive
 - `laravel/Modules/Xot/docs/phpstan-analysis-conflict.md` — PHPStan Analysis Report - 18 Agosto 2025
@@ -9024,6 +9130,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-errors-xotbaserelationmanager.md` — PHPStan Errors - XotBaseRelationManager
 - `laravel/Modules/Xot/docs/phpstan-errors.md` — PHPStan Errori Modulo Xot - [DATE]
 - `laravel/Modules/Xot/docs/phpstan-execution.md` — Esecuzione Corretta di PHPStan in Laraxot <nome progetto>
+- `laravel/Modules/Xot/docs/phpstan-factory-best-practices-1.md` — PHPStan Best Practices per Factory Laravel - Laraxot Framework
 - `laravel/Modules/Xot/docs/phpstan-factory-best-practices.md` — PHPStan Best Practices per Factory Laravel - Laraxot Framework
 - `laravel/Modules/Xot/docs/phpstan-factory-best-practices.md` — PHPStan Best Practices per Factory Laravel - Laraxot Framework
 - `laravel/Modules/Xot/docs/phpstan-final-sumy.md` — PHPStan Level 10 - Riepilogo Finale Gennaio 2026
@@ -9038,8 +9145,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-fix-xotbaserelationmanager-finale.md` — Correzione PHPStan XotBaseRelationManager - Versione Finale ✅
 - `laravel/Modules/Xot/docs/phpstan-fixes-.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-1.md` — Correzioni PHPStan Livello 7 - Modulo Xot
+- `laravel/Modules/Xot/docs/phpstan-fixes-2.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes.md` — Correzioni PHPStan - Modulo Xot
-- `laravel/Modules/Xot/docs/phpstan-fixes-2025-01-06.md` — Correzioni PHPStan - 6 Gennaio 2025
+- `laravel/Modules/Xot/docs/phpstan-fixes-correzioni-gennaio.md` — Correzioni PHPStan - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-2025.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-3.md` — Correzioni PHPStan - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-conflict-dbbf49.md` — Correzioni PHPStan - Modulo Xot
@@ -9053,9 +9161,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-fixes-report.md` — PHPStan Fixes Report - Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary-1.md` — Riassunto delle Correzioni per PHPStan Livello 9
-- `laravel/Modules/Xot/docs/phpstan-fixes-summary-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
-- `laravel/Modules/Xot/docs/phpstan-fixes-summary-2025-08-18.md` — PHPStan Fixes Summary - 18 Agosto 2025
-- `laravel/Modules/Xot/docs/phpstan-fixes-summary-3.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
+- `laravel/Modules/Xot/docs/phpstan-fixes-summary.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
+- `laravel/Modules/Xot/docs/phpstan-fixes-summary-agosto.md` — PHPStan Fixes Summary - 18 Agosto 2025
+- `laravel/Modules/Xot/docs/phpstan-fixes-summary.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
 - `laravel/Modules/Xot/docs/phpstan-fixes-summary.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-sumy-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
 - `laravel/Modules/Xot/docs/phpstan-fixes-sumy-3.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
@@ -9107,6 +9215,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-patterns.md` — phpstan-patterns
 - `laravel/Modules/Xot/docs/phpstan-plan-xotbaserelationmanager.md` — Piano Correzione PHPStan - XotBaseRelationManager
 - `laravel/Modules/Xot/docs/phpstan-progress-.md` — PHPStan Progress Report - 2025-10-13
+- `laravel/Modules/Xot/docs/phpstan-progress-2.md` — PHPStan Progress Report - [DATE]
 - `laravel/Modules/Xot/docs/phpstan-progress.md` — PHPStan Progress Report - [DATE]
 - `laravel/Modules/Xot/docs/phpstan-progress-conflict.md` — PHPStan Progress Report - [DATE]
 - `laravel/Modules/Xot/docs/phpstan-progress-report.md` — PHPStan Error Resolution - Progress Report
@@ -9155,8 +9264,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-xotbasewidget-view-string.md` — PHPStan Fix Roadmap - XotBaseWidget View-String Error
 - `laravel/Modules/Xot/docs/phpstan-xots.md` — phpstan-xots
 - `laravel/Modules/Xot/docs/phpstan.md` — phpstan
-- `laravel/Modules/Xot/docs/phpstanes-2.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
-- `laravel/Modules/Xot/docs/phpstanes-3.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
+- `laravel/Modules/Xot/docs/phpstanes.md` — Riepilogo delle Soluzioni ai Problemi PHPStan Livello 9
+- `laravel/Modules/Xot/docs/phpstanes.md` — PHPStan Fixes - Risultati Finali (Gennaio 2025)
 - `laravel/Modules/Xot/docs/phpstanes-progress.md` — PHPStan Fixes Progress - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstanes.md` — PHPStan Fixes Summary - 18 Agosto 2025
 - `laravel/Modules/Xot/docs/phpstanesbbf49.md` — Correzioni PHPStan - Modulo Xot
@@ -9317,6 +9426,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/roadmap/security/status.md` — Stato Sicurezza
 - `laravel/Modules/Xot/docs/roadmap/testing/status.md` — Stato Testing
 - `laravel/Modules/Xot/docs/roadmap-.md` — Xot Module - Complete Roadmap 2026
+- `laravel/Modules/Xot/docs/roadmap-1.md` — 🏗️ XOT MODULE - ROADMAP 2025
 - `laravel/Modules/Xot/docs/roadmap.md` — 🏗️ XOT MODULE - ROADMAP 2025
 - `laravel/Modules/Xot/docs/roadmap-and-issues.md` — Xot Module - Roadmap, Issues & Optimization
 - `laravel/Modules/Xot/docs/roadmap-ands.md` — Xot Module - Roadmap, Issues & Optimization
@@ -9797,6 +9907,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/config/database-standard-summary-2026-01-21.md` — Riepilogo: Database Config Standard Laravel 12.x - 2026-01-21
 - `laravel/docs/config/database-standard-verification-2026-01-21.md` — Verifica: Database Config Standard Laravel 12.x - 2026-01-21
 - `laravel/docs/config/debugbar-enabled-rule-2026-01-22.md` — Regola Critica: DEBUGBAR_ENABLED dopo APP_DEBUG
+- `laravel/docs/config/env-standard-laravel-12.md` — Standardizzazione .env con Laravel 12.x
 - `laravel/docs/config/env-standard-laravel.md` — Standardizzazione .env con Laravel 12.x
 - `laravel/docs/config/env-standard-summary-2026-01-22.md` — Standardizzazione .env con Laravel 12.x - Riepilogo
 - `laravel/docs/config/index.md` — Database Configuration Standards

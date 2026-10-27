@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "baseuser dry violation 2025 10 15"
 issues: []
 discussions: []
+status: draft
 ---
 
 # BaseUser DRY Violation - Analisi e Refactoring

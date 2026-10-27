@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # 📚 Master Documentation Index
@@ -21,18 +22,19 @@ updated: 2026-08-24
 ## 🎯 Quick Navigation
 
 ### Per Nuovi Arrivati
-1. [Zen of Documentation](./zen-of-documentation.md) - Filosofia e principi
-2. [Documentation Governance](./documentation-governance.md) - Regole e standard
-3. [Multi-Agent Collaboration](./multi-agent-collaboration.md) - Come lavorare con AI agents
+1. [Zen of Documentation](./ZEN_OF_DOCUMENTATION.md) - Filosofia e principi
+2. [Documentation Governance](./DOCUMENTATION_GOVERNANCE.md) - Regole e standard
+3. [Multi-Agent Collaboration](./MULTI_AGENT_COLLABORATION.md) - Come lavorare con AI agents
 
 ### Per Sviluppatori
 - [Architecture Overview](./architecture/README.md)
+- [Getting Started](./GETTING_STARTED.md)
 - [Getting Started](../../../GETTING_STARTED.md)
 - [Coding Standards](./conventions/README.md)
 
 ### Per AI Agents
 - [Project Context](./project/PROJECT.md)
-- [Agent Coordination](./multi-agent-collaboration.md)
+- [Agent Coordination](./MULTI_AGENT_COLLABORATION.md)
 - [OpenViking Context](../bashscripts/ai/openviking.md)
 
 ---
@@ -53,12 +55,12 @@ updated: 2026-08-24
 
 ### 📋 Standards
 - [Coding Conventions](./conventions/README.md)
-- [Documentation Standards](./documentation-governance.md)
+- [Documentation Standards](./DOCUMENTATION_GOVERNANCE.md)
 - [Git Workflow](./conventions/git-workflow.md)
 - [Naming Conventions](./conventions/naming.md)
 
 ### 🤖 AI Tools
-- [Multi-Agent Guide](./multi-agent-collaboration.md)
+- [Multi-Agent Guide](./MULTI_AGENT_COLLABORATION.md)
 - [BMAD Framework](./bmad/README.md)
 - [GSD Workflow](./gsd/README.md)
 - [NotebookLM](./notebooklm/README.md)
@@ -66,6 +68,7 @@ updated: 2026-08-24
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
+- [Quality Reports](./reports/quality.md)
 - [Quality Reports](../../../roadmap/quality.md)
 - [Performance Reports](./reports/performance.md)
 
@@ -140,7 +143,7 @@ find docs -name "*.md" | xargs grep -l "keyword"
 ### 1. Zen of Documentation
 - **Goal**: Ridurre duplicazione e migliorare qualità
 - **Status**: 🟡 In Progress
-- **Docs**: [ZEN_OF_DOCUMENTATION.md](./zen-of-documentation.md)
+- **Docs**: [ZEN_OF_DOCUMENTATION.md](./ZEN_OF_DOCUMENTATION.md)
 - **Owner**: Multi-Agent Team
 
 ### 2. Multi-Block JSON Conversion
@@ -192,8 +195,8 @@ openviking get-context --query="documentation"
 4. Coordina tramite BMAD threads
 
 ### Per Contribuire
-1. Leggi [Documentation Governance](./documentation-governance.md)
-2. Segui [Zen of Documentation](./zen-of-documentation.md)
+1. Leggi [Documentation Governance](./DOCUMENTATION_GOVERNANCE.md)
+2. Segui [Zen of Documentation](./ZEN_OF_DOCUMENTATION.md)
 3. Aggiorna questo indice
 4. Esegui quality checks
 

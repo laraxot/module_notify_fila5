@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "notifications"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: ../-integration/notifications.md
 ---
 
 # notifications

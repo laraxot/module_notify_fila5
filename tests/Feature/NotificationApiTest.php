@@ -2,28 +2,29 @@
 
 declare(strict_types=1);
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
+namespace Modules\Notify\Tests\Feature;
+
 use Illuminate\Support\Facades\Http;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\NotificationTemplate;
-use Modules\User\Models\User;
-use Tests\TestCase;
+use Modules\User\Database\Factories\UserFactory;
+use PHPUnit\Framework\Assert;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 
-uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
-
-beforeEach(function () {
-    $this->user = User::factory()->create(['email' => 'test@example.com']);
-    $this->actingAs($this->user);
+beforeEach(function (): void {
+    $user = UserFactory::new()->createOne(['email' => 'test@example.com']);
+    $this->actingAs($user);
     Http::fake();
 });
 
-afterEach(function () {
+afterEach(function (): void {
     Http::assertNothingSent();
 });
 
-describe('Notification API', function () {
-    it('POST /api/notify/send sends notification', function () {
-        $template = NotificationTemplate::create([
+describe('Notification API', function (): void {
+    it('POST /api/notify/send sends notification', function (): void {
+        $template = NotificationTemplateFactory::new()->createOne([
             'code' => 'api-test',
             'name' => 'API Test',
             'subject' => 'Test {{name}}',
@@ -31,6 +32,8 @@ describe('Notification API', function () {
             'channels' => ['database'],
             'is_active' => true,
         ]);
+
+        Assert::assertSame('api-test', $template->code);
 
         $response = $this->postJson('/api/notify/send', [
             'template_code' => 'api-test',
@@ -45,7 +48,7 @@ describe('Notification API', function () {
             ]);
     });
 
-    it('POST /api/notify/send validates template_code', function () {
+    it('POST /api/notify/send validates template_code', function (): void {
         $response = $this->postJson('/api/notify/send', [
             'data' => ['name' => 'John'],
         ]);
@@ -54,8 +57,8 @@ describe('Notification API', function () {
             ->assertJsonValidationErrors(['template_code']);
     });
 
-    it('POST /api/notify/send rejects inactive template', function () {
-        NotificationTemplate::create([
+    it('POST /api/notify/send rejects inactive template', function (): void {
+        NotificationTemplateFactory::new()->createOne([
             'code' => 'inactive-template',
             'name' => 'Inactive',
             'subject' => 'Test',
@@ -72,10 +75,10 @@ describe('Notification API', function () {
         $response->assertUnprocessable();
     });
 
-    it('GET /api/notify/templates lists active templates', function () {
-        NotificationTemplate::factory()->create(['code' => 't1', 'is_active' => true]);
-        NotificationTemplate::factory()->create(['code' => 't2', 'is_active' => true]);
-        NotificationTemplate::factory()->create(['code' => 't3', 'is_active' => false]);
+    it('GET /api/notify/templates lists active templates', function (): void {
+        NotificationTemplateFactory::new()->createOne(['code' => 't1', 'is_active' => true]);
+        NotificationTemplateFactory::new()->createOne(['code' => 't2', 'is_active' => true]);
+        NotificationTemplateFactory::new()->createOne(['code' => 't3', 'is_active' => false]);
 
         $response = $this->getJson('/api/notify/templates');
 
@@ -86,11 +89,14 @@ describe('Notification API', function () {
                     '*' => ['code', 'name', 'channels'],
                 ],
             ]);
-        expect(collect($response->json('data')))->toHaveCount(2);
+
+        $payload = TestCase::assertNotifyArray($response->json());
+        $data = TestCase::assertNotifyArray($payload['data'] ?? null);
+        Assert::assertCount(2, $data);
     });
 
-    it('GET /api/notify/templates/{code} shows template details', function () {
-        $template = NotificationTemplate::create([
+    it('GET /api/notify/templates/{code} shows template details', function (): void {
+        $template = NotificationTemplateFactory::new()->createOne([
             'code' => 'detail-test',
             'name' => 'Detail Test',
             'subject' => 'Subject',
@@ -106,9 +112,11 @@ describe('Notification API', function () {
                 'success',
                 'data' => ['code', 'name', 'subject', 'channels', 'is_active'],
             ]);
+
+        Assert::assertSame('detail-test', $template->code);
     });
 
-    it('POST /api/notify/templates creates template', function () {
+    it('POST /api/notify/templates creates template', function (): void {
         $response = $this->postJson('/api/notify/templates', [
             'code' => 'new-template',
             'name' => 'New Template',
@@ -126,8 +134,8 @@ describe('Notification API', function () {
             ]);
     });
 
-    it('PUT /api/notify/templates/{code} updates template', function () {
-        $template = NotificationTemplate::create([
+    it('PUT /api/notify/templates/{code} updates template', function (): void {
+        $template = NotificationTemplateFactory::new()->createOne([
             'code' => 'update-test',
             'name' => 'Original',
             'subject' => 'Subject',
@@ -142,15 +150,15 @@ describe('Notification API', function () {
         ]);
 
         $response->assertOk();
-        expect($template->fresh()->name)->toBe('Updated Name');
+        Assert::assertSame('Updated Name', XotBasePest::assertFreshModel($template, NotificationTemplate::class)->name);
     });
 
-    it('DELETE /api/notify/templates/{code} deletes template', function () {
-        $template = NotificationTemplate::factory()->create(['code' => 'delete-test']);
+    it('DELETE /api/notify/templates/{code} deletes template', function (): void {
+        NotificationTemplateFactory::new()->createOne(['code' => 'delete-test']);
 
         $response = $this->deleteJson('/api/notify/templates/delete-test');
 
         $response->assertNoContent();
-        $this->assertDatabaseMissing('notification_templates', ['code' => 'delete-test']);
+        XotBasePest::assertTableMissing('notify', 'notification_templates', ['code' => 'delete-test']);
     });
 });

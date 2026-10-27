@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Models;
+namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Modules\Notify\Models\NotificationType;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 use function Pest\Laravel\withoutExceptionHandling;
@@ -57,7 +57,7 @@ describe('Notification Type', function (): void {
             'description' => 'Updated description',
             'template' => 'updated_template']);
 
-        $fresh = assertFreshModel($notificationType, NotificationType::class);
+        $fresh = XotBasePest::assertFreshModel($notificationType, NotificationType::class);
         Assert::assertEquals('Updated Name', $fresh->name);
         Assert::assertEquals('Updated description', $fresh->description);
         Assert::assertEquals('updated_template', $fresh->template);

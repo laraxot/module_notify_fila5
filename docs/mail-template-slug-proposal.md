@@ -15,8 +15,8 @@ status: draft
 ## Collegamenti correlati
 
 - [README del modulo Notify](./README.md)
-- [Guida all'utilizzo di SpatieEmail](./spatie-email-usage-guide.md)
-- [Documentazione Template Email](./email-templates.md)
+- [Guida all'utilizzo di SpatieEmail](./spatie_email_usage_guide.md)
+- [Documentazione Template Email](./email_templates.md)
 - [Documentazione Root](../../../../../docs/collegamenti-documentazione.md)
 
 ## Panoramica

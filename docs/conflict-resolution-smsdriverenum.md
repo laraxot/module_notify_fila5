@@ -227,10 +227,13 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
 ## Collegamenti Correlati
 
+- [Notify Module](../readme.md)
+- [SMS Configuration](../sms-configuration.md)
+- [Translation Standards](../../lang/docs/translation-standards.md)
 - [Notify Module](../README.md)
 - [SMS Configuration](../sms-configuration.md)
-- [Translation Standards](../../Lang/project_docs/translation-standards.md)
-- [Filament Integration](../../Xot/project_docs/filament-translations.md)
+- [Translation Standards](../../Lang/docs/translation-standards.md)
+- [Filament Integration](../../xot/docs/filament-translations.md)
 
 ## Note per Sviluppatori Futuri
 

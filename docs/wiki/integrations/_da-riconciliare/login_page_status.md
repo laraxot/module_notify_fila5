@@ -304,12 +304,12 @@ Password: password
    - Diagrammi flusso
    - Best practices
 
-2. **[Super Mucca Final Summary](./super-mucca-final-summary.md)**
+2. **[Super Mucca Final Summary](./SUPER_MUCCA_FINAL_SUMMARY.md)**
    - Report completo missione
    - Tutti i file modificati
    - Problemi risolti
 
-3. **[Documentation Index](./documentation-index.md)**
+3. **[Documentation Index](./DOCUMENTATION_INDEX.md)**
    - Indice generale documentazione
    - Collegamenti a tutti i moduli
 

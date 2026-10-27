@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "MASTER INDEX"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: master_index.md
 ---
 
 # Design Comuni Italia - Master Documentation Index
@@ -30,6 +31,15 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 | Altre 35 pagine | ❌ 0% | ❌ 0% | ❌ 0% | ❌ Assenti | ❌ 0% |
 
 ---
+
+title: "MASTER INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MASTER INDEX"
+issues: []
+discussions: []
 ## 📚 Documentazione per Modulo/Tema
 
 ### 🎨 Tema Sixteen

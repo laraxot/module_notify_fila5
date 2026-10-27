@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Channels;
+namespace Modules\Notify\Tests\Unit\Channels;
 
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Factories\SmsActionFactory;
-use Tests\Modules\Notify\TestCase;
+use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 describe('SmsChannel', function () {

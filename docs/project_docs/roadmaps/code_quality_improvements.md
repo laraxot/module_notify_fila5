@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "code quality improvements 2025 10 01"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: code-quality-improvements-report.md
 ---
 
 # 🔧 Code Quality Improvements Report – 2025-10-01

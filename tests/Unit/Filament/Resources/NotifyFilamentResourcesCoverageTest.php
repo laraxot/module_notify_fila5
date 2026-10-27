@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Filament\Resources;
+namespace Modules\Notify\Tests\Unit\Filament\Resources;
 
 use Filament\Actions\Action;
 use Filament\Actions\DeleteAction;
@@ -31,10 +31,10 @@ use Modules\Notify\Filament\Resources\NotificationResource\Tables\NotificationsT
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Schemas\NotificationTemplateForm;
-use Tests\Modules\Notify\Fixtures\EditContactTestProxy;
-use Tests\Modules\Notify\Fixtures\PreviewMailTemplateTestProxy;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\Fixtures\EditContactTestProxy;
+use Modules\Notify\Tests\Fixtures\PreviewMailTemplateTestProxy;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 function makeEditContactTestProxy(): EditContactTestProxy
@@ -119,7 +119,7 @@ test('notification resource infolist schema exposes expected text entries', func
     Assert::assertArrayHasKey('id', $schema);
     Assert::assertArrayHasKey('type', $schema);
     Assert::assertArrayHasKey('read_at', $schema);
-    Assert::assertNotEmpty($schema);
+    Assert::assertGreaterThanOrEqual(1, count($schema));
 });
 
 test('mail template resource form schema exposes expected components', function (): void {
@@ -199,7 +199,7 @@ test('notification log infolist schema exposes expected entries', function (): v
     Assert::assertArrayHasKey('status', $schema);
     Assert::assertArrayHasKey('notifiable_type', $schema);
     Assert::assertArrayHasKey('sent_at', $schema);
-    Assert::assertNotEmpty($schema);
+    Assert::assertGreaterThanOrEqual(1, count($schema));
 });
 
 test('notification log table columns match the notification_logs schema', function (): void {

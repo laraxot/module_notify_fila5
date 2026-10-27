@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Emails;
+namespace Modules\Notify\Tests\Unit\Emails;
 
 use Illuminate\Mail\Mailables\Address;
 use Modules\Notify\Datas\EmailData;

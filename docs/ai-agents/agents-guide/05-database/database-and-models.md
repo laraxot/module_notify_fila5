@@ -59,11 +59,11 @@ APP_URL=http://127.0.0.1  # WRONG! Must match .env
 # ❌ WRONG - Inventing new variables that don't exist in .env
 NOTIFY_DB_DATABASE=laravelpizza_data_test
 NOTIFY_DB_USERNAME=marco
-NOTIFY_DB_PASSWORD=marco
+NOTIFY_DB_PASSWORD=[segreto locale, non nel repo]
 
 GEO_DB_DATABASE=laravelpizza_data_test
 GEO_DB_USERNAME=marco
-GEO_DB_PASSWORD=marco
+GEO_DB_PASSWORD=[segreto locale, non nel repo]
 
 # ... etc for all modules
 ```
@@ -76,7 +76,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=laravelpizza_data_test  # ← Only add _test here
 DB_USERNAME=marco
-DB_PASSWORD=marco
+DB_PASSWORD=[segreto locale, non nel repo]
 
 # If DB_DATABASE_USER exists in .env, also add _test
 DB_DATABASE_USER=laravelpizza_user_test  # ← Only if it exists in .env

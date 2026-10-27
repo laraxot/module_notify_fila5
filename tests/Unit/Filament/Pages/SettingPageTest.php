@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Filament\Pages;
+namespace Modules\Notify\Tests\Unit\Filament\Pages;
 
 use Modules\Notify\Filament\Pages\SettingPage;
 use PHPUnit\Framework\Assert;

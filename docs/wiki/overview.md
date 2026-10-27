@@ -33,7 +33,7 @@ This is a **Karpathy-style LLM Wiki** — a persistent, LLM-maintained knowledge
 
 1. **`raw/`** (Immutable) — Curated source documents, never modified by LLM
 2. **`wiki/`** (LLM-Owned) — Dynamically maintained knowledge pages
-3. **`agents.md`** (Schema) — Instructions that enforce structure and workflows
+3. **`AGENTS.md`** (Schema) — Instructions that enforce structure and workflows
 
 ### Directory Structure
 
@@ -71,7 +71,7 @@ docs/
 |----------|---------|------|
 | `raw/` | `./docs/` + ogni `Modules/*/docs/` | Documenti sorgente (immutabili) |
 | `wiki/` | `./docs/wiki/` + ogni `Modules/*/docs/wiki/` | Conoscenza compilata dall'LLM |
-| `agents.md` | `./docs/wiki/AGENTS.md` | Schema multi-agent |
+| `AGENTS.md` | `./docs/wiki/AGENTS.md` | Schema multi-agent |
 
 **Stack**: Laravel 11 + Filament 5 + Laraxot pattern  
 **Moduli**: 18 (Xot, Cms, UI, Lang, User, Fixcity, Blog, Geo, Media, Notify, Activity, Comment, Rating, Seo, Tenant, Job, Gdpr, AI)  
@@ -84,7 +84,7 @@ docs/
 |----------|---------|------|
 | `raw/` | `./docs/` + ogni `Modules/*/docs/` | Documenti sorgente (immutabili) |
 | `wiki/` | `./docs/wiki/` + ogni `Modules/*/docs/wiki/` | Conoscenza compilata dall'LLM |
-| `agents.md` | `./docs/wiki/AGENTS.md` | Schema multi-agent |
+| `AGENTS.md` | `./docs/wiki/AGENTS.md` | Schema multi-agent |
 | `index.md` | `./docs/wiki/index.md` | Catalogo globale |
 | `log.md` | `./docs/wiki/log.md` | Log append-only |
 
@@ -167,7 +167,7 @@ LLM: Scans for contradictions, orphans, stale claims → reports findings → ap
 ## Related Resources
 
 - [Integration Guide](README.md) - Complete setup and usage guide
-- [Agent Instructions](agents.md) - Schema file for LLM agents
+- [Agent Instructions](AGENTS.md) - Schema file for LLM agents
 - [Activity Log](log.md) - Chronological record of wiki activity
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 

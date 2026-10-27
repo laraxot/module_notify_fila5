@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Feature;
+namespace Modules\Notify\Tests\Feature;
 
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Notify\Database\Factories\NotifyThemeableFactory;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Modules\Notify\Models\NotifyThemeable;
-use Tests\Modules\Notify\TestCase;
+use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 function notifyThemeableTestDomain(): string

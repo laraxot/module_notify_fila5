@@ -16,12 +16,14 @@ related:
   - readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # Indice Documentazione Notifiche
 
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../index.md)
 - [README Modulo Notify](../readme.md)
+- [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
 - [Documentazione Generale Quaeris](../../../../../docs/README.md)
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 
@@ -34,7 +36,7 @@ related:
 
 ### SMS
 - [Implementazione SMS Dettagliata](./sms_implementation_details.md) - Dettagli implementativi per il canale SMS
-- [Configurazione Provider SMS](./sms-provider-configuration.md) - Configurazione dei provider SMS
+- [Configurazione Provider SMS](./sms_provider_configuration.md) - Configurazione dei provider SMS
 - [Implementazione Netfun SMS](./netfun_sms_implementation.md) - Implementazione specifica per il provider Netfun
 
 ### Telegram

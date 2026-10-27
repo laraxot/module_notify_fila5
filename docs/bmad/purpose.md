@@ -1,7 +1,6 @@
 ---
 title: "Notify — scopo del modulo e come raggiungerlo meglio"
 type: concept
-status: active
 created: 2026-09-02
 tags: [notify, purpose, notifiche, template, canali, comunicazione]
 qmd: "notify scopo modulo notifiche template canali email sms comunicazione tracciabilita"
@@ -13,6 +12,8 @@ issues:
 discussions:
   # DA CREARE — vedi sopra.
   - "https://github.com/provtv/module_notify_fila5/discussions/"
+status: superseded
+superseded_by: ../purpose.md
 ---
 
 # Notify — perche' esiste
@@ -69,7 +70,7 @@ vale qui: un `index.md` a una schermata, un solo canonico per argomento, il rest
 collegato o marcato superseded.
 
 Questo modulo ospitava anche coppie di file che differivano **solo per maiuscole**
-(`agents.md`/`agents.md`, `QUICK-REFERENCE.md`/`quick-reference.md`,
+(`AGENTS.md`/`agents.md`, `QUICK-REFERENCE.md`/`quick-reference.md`,
 `SESSION-SUMMARY.md`/`session-summary.md`), risolte il 2026-09-02: rompevano il
 checkout su macOS e Windows.
 

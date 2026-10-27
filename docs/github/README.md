@@ -18,6 +18,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # GitHub Issues & Discussions - FixCity Platform
 
@@ -49,10 +50,10 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 
 #### Files Fixed
 - [x] `laravel/Modules/Blog/docs/structure.md`
-- [x] `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md`
+- [x] `laravel/Modules/Blog/docs/CHANGELOG-blog-module-ottobre.md`
 - [x] `laravel/Modules/Blog/docs/models/README.md`
 - [x] `laravel/Modules/Blog/docs/models/transaction-removal.md`
-- [x] `agents.md` (added naming convention rule)
+- [x] `AGENTS.md` (added naming convention rule)
 - [x] `docs/conventions/database-naming.md` (new convention doc)
 
 #### Checklist for All Modules
@@ -77,6 +78,9 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 - [ ] Xot
 
 #### References
+- [Database Naming Convention](conventions/database-naming.md)
+- [AGENTS.md](../../AGENTS.md)
+- [agents.md](../../agents.md)
 - [Database Naming Convention](../conventions/database-naming.md)
 - [AGENTS.md](../AGENTS.md)
 - [agents.md](../agents.md)

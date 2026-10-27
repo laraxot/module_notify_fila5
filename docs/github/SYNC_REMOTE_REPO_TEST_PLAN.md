@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "SYNC REMOTE REPO TEST PLAN"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: sync_remote_repo_test_plan.md
 ---
 
 # Sync Remote Repo - Test Plan
@@ -18,6 +19,15 @@ status: draft
 > **Date**: 2026-03-13
 
 ---
+
+title: "SYNC REMOTE REPO TEST PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SYNC REMOTE REPO TEST PLAN"
+issues: []
+discussions: []
 ## 🎯 Test Objectives
 
 ### Primary Goal

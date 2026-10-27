@@ -14,7 +14,7 @@ status: draft
 
 > Updated: 2026-04-15
 > Sources: [Karpathy adoption](../../project/karpathy-llm-wiki-adoption.md); [QMD local docs search](../../project/qmd-local-docs-search.md)
-> Raw: [Project docs README](../../README.md); [Modules index](../../../laravel/Modules/docs/README.md); [Themes index](../../../laravel/Themes/docs/README.md)
+> Raw: [Project docs README](../../README.md); [Modules index](../../../laravel/Modules/docs/README.md); [Themes index](../../../../../Themes/docs/README.md)
 
 ## Purpose
 
@@ -25,7 +25,7 @@ This page defines how the Karpathy-style LLM wiki maps onto the Notify repositor
 
 - Raw corpus: `docs/` excluding `docs/wiki/**`
 - Compiled wiki: `docs/wiki/`
-- Schema: `agents.md`, `claude.md`, `qwen.md`, `gemini.md`, and project docs governance
+- Schema: `AGENTS.md`, `CLAUDE.md`, `QWEN.md`, `GEMINI.md`, and project docs governance
 
 ## Ingest
 

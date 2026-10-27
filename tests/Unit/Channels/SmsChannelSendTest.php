@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Channels;
+namespace Modules\Notify\Tests\Unit\Channels;
 
 use Exception;
 use Illuminate\Notifications\Notification;

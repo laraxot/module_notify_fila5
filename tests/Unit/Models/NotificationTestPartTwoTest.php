@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Models;
+namespace Modules\Notify\Tests\Unit\Models;
 
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
@@ -26,8 +26,8 @@ namespace Tests\Modules\Notify\Unit\Models;
 
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Notify\Models\Notification;
-use Tests\Modules\Notify\TestCase;
-use Tests\Modules\Xot\XotBasePest;
+use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 use function Pest\Laravel\withoutExceptionHandling;

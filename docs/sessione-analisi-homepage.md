@@ -8,14 +8,20 @@ qmd: "sessione-analisi-homepage ✅ sessione completata - homepage analysis & do
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # ✅ Sessione Completata - Homepage Analysis & Documentation
@@ -200,6 +206,9 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
+- [Analisi Visiva](docs/screenshots/homepage/analisi-visiva.md)
+- [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
+- [Fix Plan](docs/screenshots/homepage/fix-plan.md)
 - [Analisi Visiva](screenshots/homepage/analisi-visiva.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
 - [Fix Plan](screenshots/homepage/fix-plan.md)

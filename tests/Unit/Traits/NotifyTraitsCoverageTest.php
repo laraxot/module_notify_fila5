@@ -3,9 +3,9 @@
 declare(strict_types=1);
 use Filament\Facades\Filament;
 use Illuminate\Support\Facades\Route;
-use Tests\Modules\Notify\Unit\Traits\NotifyRateLimitDummy;
-use Tests\Modules\Notify\Unit\Traits\NotifyTenantDummyModel;
-use Tests\Modules\Notify\Unit\Traits\NotifyTrackingDummy;
+use Modules\Notify\Tests\Unit\Traits\NotifyRateLimitDummy;
+use Modules\Notify\Tests\Unit\Traits\NotifyTenantDummyModel;
+use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
 use Modules\Tenant\Models\Tenant;
 use PHPUnit\Framework\Assert;
 

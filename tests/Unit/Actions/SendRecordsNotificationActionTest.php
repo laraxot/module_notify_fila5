@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Actions;
+namespace Modules\Notify\Tests\Unit\Actions;
 
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SendRecordNotificationAction;
 use Modules\Notify\Actions\SendRecordsNotificationAction;
-use Tests\Modules\Notify\Fixtures\SendRecordNotificationFailStub;
-use Tests\Modules\Notify\Fixtures\SendRecordNotificationNoopStub;
-use Tests\Modules\Notify\Fixtures\SendRecordNotificationThrowStub;
-use Tests\Modules\Notify\Fixtures\SendRecordsNotificationRecordDummy;
-use Tests\Modules\Notify\Fixtures\SendRecordsSafeEloquentCastEmptyStub;
-use Tests\Modules\Notify\Fixtures\SendRecordsSafeEloquentCastStub;
+use Modules\Notify\Tests\Fixtures\SendRecordNotificationFailStub;
+use Modules\Notify\Tests\Fixtures\SendRecordNotificationNoopStub;
+use Modules\Notify\Tests\Fixtures\SendRecordNotificationThrowStub;
+use Modules\Notify\Tests\Fixtures\SendRecordsNotificationRecordDummy;
+use Modules\Notify\Tests\Fixtures\SendRecordsSafeEloquentCastEmptyStub;
+use Modules\Notify\Tests\Fixtures\SendRecordsSafeEloquentCastStub;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 use PHPUnit\Framework\Assert;
 
@@ -41,7 +41,7 @@ test('send records notification action counts successful sends', function (): vo
 
     Assert::assertSame(4, $result->successCount);
     Assert::assertSame(0, $result->errorCount);
-    Assert::assertSame(0, $result->errors->count());
+    Assert::assertCount(0, $result->errors);
     Assert::assertSame(4, $result->totalProcessed);
 });
 
@@ -61,7 +61,7 @@ test('send records notification action accumulates errors per channel', function
 
     Assert::assertSame(2, $result->successCount);
     Assert::assertSame(2, $result->errorCount);
-    Assert::assertSame(2, $result->errors->count());
+    Assert::assertCount(2, $result->errors);
     Assert::assertSame('Fail Record', $result->errors->first()['record'] ?? null);
     Assert::assertSame(4, $result->totalProcessed);
 });

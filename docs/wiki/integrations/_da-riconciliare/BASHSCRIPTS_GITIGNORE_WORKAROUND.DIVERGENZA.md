@@ -8,10 +8,11 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: bashscripts_gitignore_workaround.divergenza.md
 ---
 
-# Divergenza: `bashscripts-gitignore-workaround.md`
+# Divergenza: `BASHSCRIPTS_GITIGNORE_WORKAROUND.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/BASHSCRIPTS_GITIGNORE_WORKAROUND.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 

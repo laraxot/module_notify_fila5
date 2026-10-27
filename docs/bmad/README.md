@@ -4,9 +4,19 @@ type: documentation
 tags: [module, documentation]
 created: 2026-06-05
 updated: 2026-08-02
+status: draft
+qmd: "documentation notify"
 ---
 
 # Documentation
+
+## Kit BMAD owner (canonico)
+
+- [BMAD Planning](../bmad-planning.md)
+- [BMAD Brainstorming](../bmad-brainstorming.md)
+- [Filament blueprint](./filament-blueprint.md)
+- [Project context](./project-context.md)
+- [Decision log](./decision-log.md)
 
 This directory contains documentation for the Notify module.
 

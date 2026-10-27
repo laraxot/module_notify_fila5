@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit\Models\Policies;
+namespace Modules\Notify\Tests\Unit\Models\Policies;
 
 use Modules\Notify\Models\Policies\MailTemplatePolicy;
 use Modules\User\Database\Factories\UserFactory;

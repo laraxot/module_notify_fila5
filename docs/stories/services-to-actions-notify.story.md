@@ -9,8 +9,8 @@ updated: 2026-10-08
 tags: [notify, services-to-actions, queueable-action, enum, push, dedup, swarm]
 related:
   - ./4.29.notify-services-to-actions.story.md
-  - ./phpstan-notify-push-delivery.story.md
-  - ./phpstan-cleanup-notify.dev.md
+  - ./2026-10-08-phpstan-notify-push-delivery.story.md
+  - ./phpstan-cleanup-notify-dev.dev.md
   - ../wiki/concepts/services-to-actions-migration.md
   - ../../../../../bmad-output/epic-code-standards-services-mixed-const.md
 ---
@@ -21,7 +21,7 @@ related:
 
 Epic "niente Services, mixed ultima spiaggia, const in tipi adatti": eliminare del tutto `app/Services` del modulo Notify,
 riscrivere sulle Action i test che usano i Service, convertire le `const` di classe, chiudere gli aperti lasciati da
-`phpstan-notify-push-delivery.story.md`. Fase BMAD: Build + Measure.
+`2026-10-08-phpstan-notify-push-delivery.story.md`. Fase BMAD: Build + Measure.
 
 ## Analisi: era la migrazione 4.29, annullata da un merge
 

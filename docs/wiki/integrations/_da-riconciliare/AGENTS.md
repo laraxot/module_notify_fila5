@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # Project Agents (Modular)
@@ -63,6 +64,9 @@ docs/
 
 ### Riferimenti
 
+- [Schema Wiki](./docs/.schema/wiki-schema.md) - Istruzioni per l'LLM
+- [Index Globale](./docs/wiki/index.md) - Catalogo di tutte le wiki
+- [Log](./docs/log.md) - Cronologia delle operazioni
 - [Schema Wiki](../../../.schema/wiki-schema.md) - Istruzioni per l'LLM
 - [Index Globale](../../index.md) - Catalogo di tutte le wiki
 - [Log](../../../log.md) - Cronologia delle operazioni
@@ -88,9 +92,9 @@ docs/
 
 ---
 **See also:**
-- [CLAUDE.md](./claude.md)
-- [QWEN.md](./qwen.md)
-- [GEMINI.md](./gemini.md)
+- [CLAUDE.md](./CLAUDE.md)
+- [QWEN.md](./QWEN.md)
+- [GEMINI.md](./GEMINI.md)
 
 *Ultimo aggiornamento: Aprile 2026*
 

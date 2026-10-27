@@ -32,9 +32,9 @@ For every active documentation root, prefer exactly one canonical entrypoint:
 
 - `README.md` for module, theme, script, and section entrypoints
 - lowercase, date-free filenames for topic documents
-- `changelog.md` only when a changelog is truly needed
+- `CHANGELOG.md` only when a changelog is truly needed
 
-Do not create new parallel entry files such as `index.md`, `00-index.md`, `00-index.md`, or `index.md`
+Do not create new parallel entry files such as `INDEX.md`, `00-INDEX.md`, `00-index.md`, or `index.md`
 when `README.md` already plays the same role. Existing variants may remain temporarily, but new work must
 link to the canonical file instead of multiplying entrypoints.
 
@@ -60,8 +60,8 @@ Treat these as non-canonical or supporting unless explicitly justified:
 - Use lowercase filenames for normal markdown files.
 - Use hyphens, not spaces or underscores, for new topic filenames.
 - Do not encode dates in filenames.
-- Keep `README.md` and `changelog.md` uppercase.
-- If both `README.md` and `README.md` exist, `README.md` is canonical.
+- Keep `README.md` and `CHANGELOG.md` uppercase.
+- If both `README.md` and `readme.md` exist, `README.md` is canonical.
 
 ## Duplication Policy
 
@@ -85,7 +85,7 @@ Indexes should be shallow and forecastable.
 
 When an agent needs context, read in this order:
 
-1. `agents.md`
+1. `AGENTS.md`
 2. relevant root index in `docs/`, `laravel/Modules/docs/`, `laravel/Themes/docs/`, or `bashscripts/docs/`
 3. the target module or theme `README.md`
 4. the specific topic file
@@ -102,7 +102,7 @@ bash bashscripts/docs/audit-docs-governance.sh
 The script surfaces:
 
 - nested `docs/docs`
-- lowercase `README.md` duplicates
+- lowercase `readme.md` duplicates
 - non-canonical documentation directories
 - multiple index entrypoints inside the same active docs root
 

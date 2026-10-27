@@ -8,7 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: implementations-completed.md
 ---
 
 # ✅ NOTIFY - IMPLEMENTAZIONI COMPLETATE
@@ -443,9 +444,9 @@ Modules/<nome progetto>/
 ## 📞 SUPPORT & RESOURCES
 
 ### Documentation
-- **[GAP_ANALYSIS_IMPLEMENTATION.md](./gap-analysis-implementation.md)** - Piano completo
-- **[DOCUMENTATION_INDEX.md](./documentation-index.md)** - Indice generale
-- **[QUICK_START.md](./quick-start.md)** - Guida sviluppatori
+- **[GAP_ANALYSIS_IMPLEMENTATION.md](./GAP_ANALYSIS_IMPLEMENTATION.md)** - Piano completo
+- **[DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md)** - Indice generale
+- **[QUICK_START.md](./QUICK_START.md)** - Guida sviluppatori
 
 ### Implementation
 - **[GeocodeTicketAddressJob.php](./laravel/Modules/App/Jobs/GeocodeTicketAddressJob.php)**

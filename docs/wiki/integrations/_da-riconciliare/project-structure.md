@@ -8,14 +8,20 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [structure, architecture, module]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # Project Structure — Module **Notify**
@@ -46,7 +52,7 @@ related:
 │   └── troubleshooting/          # Bug fixes, error resolutions
 ├── on-demand-pattern.md          # 🌟 QUESTO FILE — Pattern on-demand
 ├── qmd-setup.md                  # Configurazione QMD
-├── performance-optimization-1.md    # Metriche e best practice
+├── performance-optimization-module-notify.md    # Metriche e best practice
 ├── architecture.md               # (opzionale) Architettura modulo
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
@@ -106,6 +112,11 @@ graph TD
 
 ## Riferimenti Globali
 
+- [Project Wiki Root](../../docs/wiki/)
+- [Global Rules](../../docs/wiki/rules/)
+- [Global Skills](../../docs/wiki/skills/)
+- [Global Commands](../../docs/wiki/commands/)
+- [Global Memories](../../docs/wiki/memories/)
 - [Project Wiki Root](../..)
 - [Global Rules](../../rules)
 - [Global Skills](../../skills)
@@ -137,12 +148,6 @@ git commit -m "docs: add wiki structure for Notify"
 
 <!-- Merged from PROJECT-STRUCTURE.md, which collided with this file on case-insensitive filesystems. -->
 
----
-title: "Project Structure — Module Notify"
-type: documentation
-created: 2026-05-11
-updated: 2026-05-11
-tags: [structure, architecture, module]
 ---
 
 # Project Structure — Module **Notify**
@@ -186,7 +191,7 @@ tags: [structure, architecture, module]
 | `wiki/log.md` | Storico attività (ingest/query/lint) |
 | `wiki/rules/` | Regole + trigger map locale |
 | `wiki/concepts/` | Concetti specifici del modulo |
-| `on-demand-pattern.md` | **Leggi prima** — pattern da seguire |
+| `ON-DEMAND-PATTERN.md` | **Leggi prima** — pattern da seguire |
 
 ## Convenzioni
 
@@ -233,6 +238,11 @@ graph TD
 
 ## Riferimenti Globali
 
+- [Project Wiki Root](../../docs/wiki/)
+- [Global Rules](../../docs/wiki/rules/)
+- [Global Skills](../../docs/wiki/skills/)
+- [Global Commands](../../docs/wiki/commands/)
+- [Global Memories](../../docs/wiki/memories/)
 - [Project Wiki Root](../..)
 - [Global Rules](../../rules)
 - [Global Skills](../../skills)

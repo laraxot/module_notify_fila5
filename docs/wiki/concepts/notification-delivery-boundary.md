@@ -13,6 +13,8 @@ related:
   - "../../../../User/docs/wiki/concepts/auth-registration-verification-lifecycle.md"
   - "../../../../Gdpr/docs/wiki/concepts/registration-account-lifecycle.md"
   - "../../../../Fixcity/docs/wiki/concepts/ticket-domain-and-public-flow-boundary.md"
+status: draft
+qmd: "notification delivery boundary notify"
 ---
 
 # Notification delivery boundary

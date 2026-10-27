@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mcp overview"
 issues: []
 discussions: []
+status: draft
 ---
 
 # MCP Servers - Project Overview
@@ -16,15 +17,6 @@ discussions: []
 **Status**: Active - Memory and Development Workflow MCP Servers Configured
 
 ---
-
-title: "mcp overview"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "mcp overview"
-issues: []
-discussions: []
 ## 🎯 Purpose
 
 MCP (Model Context Protocol) servers enhance AI agent capabilities for:
@@ -42,6 +34,7 @@ MCP (Model Context Protocol) servers enhance AI agent capabilities for:
 - **Purpose**: Long-term project memory for AI agents
 - **Container Tag**: `laraxot-sixteen`
 - **API Key**: Configured in `.env`
+- **Documentation**: [Sixteen Theme SuperMemory Docs](../../laravel/Themes/Sixteen/docs/supermemory.md)
 - **Documentation**: [Sixteen Theme SuperMemory Docs](../../../../Themes/Sixteen/docs/supermemory.md)
 
 ### 2. Context7 (✅ Installed - Context)
@@ -90,6 +83,7 @@ docs/
 
 **Cross-References**:
 - [MCP Servers Detailed Docs](../../.qwen/mcp-servers/README.md)
+- [Sixteen Theme SuperMemory](../../laravel/Themes/Sixteen/docs/supermemory.md)
 - [Sixteen Theme SuperMemory](../../../../Themes/Sixteen/docs/supermemory.md)
 - [AI Workflow](ai-workflow/)
 - [Project Configuration](configuration.md)
@@ -153,6 +147,7 @@ npm run build && npm run copy
 
 - [Master Index](../README.md)
 - [MCP Servers Full Documentation](../../.qwen/mcp-servers/README.md)
+- [Sixteen Theme SuperMemory](../../laravel/Themes/Sixteen/docs/supermemory.md)
 - [Sixteen Theme SuperMemory](../../../../Themes/Sixteen/docs/supermemory.md)
 - [AI Workflow](ai-workflow/)
 - [Conventions](conventions/)

@@ -18,6 +18,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # 📚 Documentation Index - FixCity Project
 # 📚 Documentation Index - Notify Project
@@ -33,7 +34,7 @@ related:
 
 1. [**README.md**](../README.md) - Project overview and quick start
 2. [**CONTRIBUTING.md**](../CONTRIBUTING.md) - How to contribute
-3. [**ARCHITECTURE.md**](./architecture.md) - System architecture
+3. [**ARCHITECTURE.md**](./ARCHITECTURE.md) - System architecture
 3. [**ARCHITECTURE.md**](./architecture.md) - System architecture
 4. [**QUALITY_DASHBOARD.md**](./QUALITY_DASHBOARD.md) - Real-time metrics
 
@@ -158,11 +159,17 @@ related:
 Each module has a `docs/` directory containing:
 
 #### Xot Module
+- [Cyclomatic Complexity Report](../Modules/Xot/docs/cyclomatic-complexity-report.md)
 - [Cyclomatic Complexity Report](../cyclomatic-complexity-report.md)
 - [Refactoring Plan](../Modules/Xot/docs/refactoring/cyclomatic-complexity-refactoring-plan.md)
 - [Refactoring Report](../Modules/Xot/docs/refactoring/artisan-service-refactoring-report.md)
 
 #### Tenant Module
+- [Cyclomatic Complexity Report](../Modules/Tenant/docs/cyclomatic-complexity-report.md)
+
+#### User Module
+- [Cyclomatic Complexity Report](../Modules/User/docs/cyclomatic-complexity-report.md)
+- [Extensive documentation](../Modules/User/docs/)
 - [Cyclomatic Complexity Report](../../../Tenant/docs/cyclomatic-complexity-report.md)
 
 #### User Module
@@ -179,6 +186,12 @@ Each module has a `docs/` directory containing:
 ## 🎨 Theme Documentation
 
 ### Sixteen Theme
+- [Code Quality Analysis](../Themes/Sixteen/docs/CODE_QUALITY_ANALYSIS.md)
+- [README](../Themes/Sixteen/docs/README.md)
+- [Roadmap 2025](../Themes/Sixteen/docs/ROADMAP_2025.md)
+
+### TwentyOne Theme
+- [Code Quality Analysis](../Themes/TwentyOne/docs/CODE_QUALITY_ANALYSIS.md)
 - [Code Quality Analysis](../../../../Themes/Sixteen/docs/CODE_QUALITY_ANALYSIS.md)
 - [README](../../../../Themes/Sixteen/docs/README.md)
 - [Roadmap 2025](../../../../Themes/Sixteen/docs/ROADMAP_2025.md)
@@ -196,6 +209,9 @@ Each module has a `docs/` directory containing:
 - [Pre-commit Hooks](../.husky/pre-commit)
 
 ### Configuration
+- [Package.json](../package.json) - NPM scripts
+- [PHPStan Config](../phpstan.neon) - Static analysis
+- [Composer](../composer.json) - PHP dependencies
 - [Package.json](../../package.json) - NPM scripts
 - [PHPStan Config](../../../../phpstan.neon) - Static analysis
 - [Composer](../../composer.json) - PHP dependencies

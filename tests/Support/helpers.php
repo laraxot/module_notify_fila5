@@ -8,7 +8,7 @@ if (! function_exists('typedMock')) {
     /**
      * Mockery::mock() ha un tipo di ritorno nativo generico (LegacyMockInterface),
      * senza estensione PHPStan/Larastan dedicata in questo progetto. Questo helper
-     * tipizzato (stesso pattern di tests/Modules/User/Support/helpers.php::typedMock())
+     * tipizzato (stesso pattern di Modules/User/tests/Support/helpers.php::typedMock())
      * restituisce l'intersection type reale T&MockInterface, cosi' il mock puo'
      * essere passato a firme che richiedono T senza errori argument.type.
      *

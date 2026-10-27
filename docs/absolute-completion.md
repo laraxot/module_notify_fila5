@@ -9,11 +9,15 @@ qmd: "absolute-completion-100 🏆 ptv - completamento assoluto 100%"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
   - "./actions-calling-actions-pattern.md"
@@ -83,6 +87,7 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 #### Reports (5)
 28. super-mucca-completion.md
 29. ultimate-completion-report.md
+30. absolute-completion.md (questo)
 30. absolute-completion-completamento-assoluto.md (questo)
 31. Roadmap aggiornate (3)
 

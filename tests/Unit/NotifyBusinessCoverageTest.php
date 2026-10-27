@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Notify\Unit;
+namespace Modules\Notify\Tests\Unit;
 
 use Mockery;
-use Tests\Modules\Xot\ModuleBusinessCoverage;
+use Modules\Xot\Tests\ModuleBusinessCoverage;
 
 afterEach(function (): void {
     Mockery::close();

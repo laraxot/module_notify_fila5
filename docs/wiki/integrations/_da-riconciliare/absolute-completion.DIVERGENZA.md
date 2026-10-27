@@ -8,7 +8,8 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: absolute-completion.divergenza.md
 ---
 
 # Divergenza: `absolute-completion.md`

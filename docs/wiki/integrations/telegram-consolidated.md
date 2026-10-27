@@ -566,7 +566,7 @@ class TelegramTest extends TestCase
 
 ## telegram-channel-2
 
-*Consolidated from: `telegram-channel-2.md`*
+*Consolidated from: `telegram-channel.md`*
 
 title: "Implementazione Canale Telegram"
 type: concept
@@ -577,12 +577,17 @@ qmd: "telegram-channel-2 implementazione canale telegram"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1661,7 +1666,7 @@ TELEGRAM_PARSE_MODE=HTML
 
 ## telegram-integration-2
 
-*Consolidated from: `telegram-integration-2.md`*
+*Consolidated from: `telegram-integration.md`*
 
 title: "Integrazione Telegram"
 type: concept
@@ -1672,12 +1677,17 @@ qmd: "telegram-integration-2 integrazione telegram"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2047,7 +2057,7 @@ TELEGRAM_PARSE_MODE=HTML
 
 ## telegram-sending-standard-1
 
-*Consolidated from: `telegram-sending-standard-1.md`*
+*Consolidated from: `telegram-sending-standard.md`*
 
 title: "Standard per Invio Messaggi Telegram nel Modulo Notify"
 type: rule
@@ -2058,12 +2068,17 @@ qmd: "telegram-sending-standard-1 standard per invio messaggi telegram nel modul
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2647,7 +2662,7 @@ https://abstractentropy.com/laravel-notifications-telegram-bot/
 
 ## telegram_channel
 
-*Consolidated from: `telegram-channel.md`*
+*Consolidated from: `telegram_channel.md`*
 
 
 ## 1. Struttura Base
@@ -3093,7 +3108,7 @@ class TelegramTest extends TestCase
 
 ## telegram_integration
 
-*Consolidated from: `telegram-integration.md`*
+*Consolidated from: `telegram_integration.md`*
 
 # Integrazione Telegram
 
@@ -3275,7 +3290,7 @@ TELEGRAM_PARSE_MODE=HTML
 
 ## telegram_sending_standard
 
-*Consolidated from: `telegram-sending-standard.md`*
+*Consolidated from: `telegram_sending_standard.md`*
 
 
 ## Introduzione

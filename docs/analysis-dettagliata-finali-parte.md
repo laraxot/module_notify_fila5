@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "analysis dettagliata 8"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: analysisettagliata-finali-parte.md
 ---
 
 # Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
