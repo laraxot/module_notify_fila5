@@ -104,4 +104,4 @@ Fix applicati in questa sessione:
 - Rimossi i probe PHPStan morti (`*PhpstanProbe*`) — vedi
   `Modules/Xot/docs/wiki/concepts/phpstan-trait-probes.md`.
 
-Dettagli completi: `docs/chat/phpstan-notify-module-zero-2026-07-06.md` (root repo).
+Dettagli completi: `docs/chat/phpstan-notify-module-zero.md` (root repo).
