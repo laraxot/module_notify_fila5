@@ -1,7 +1,6 @@
 ---
 title: "Notify Module — Document"
 type: docs/bmad
-status: active
 module: Notify
 scope: documentation
 bmad_version: 1.0
