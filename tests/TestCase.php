@@ -191,7 +191,7 @@ abstract class TestCase extends BaseTestCase
      * @param  Application  $app
      * @return array<int, class-string>
      */
-    protected function getPackageProviders($app): array
+    protected function getPackageProviders(Application $app): array
     {
         return [
             NotifyServiceProvider::class,

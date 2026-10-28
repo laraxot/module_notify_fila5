@@ -59,11 +59,11 @@ bashscripts/
 laravel/Themes/Sixteen/docs/
 ├── INDEX.md                                     ✨ NEW (theme index)
 ├── index.md                                     ✨ NEW (theme index)
-├── COMPLETE-VISUAL-PARITY-REPORT.md            ✨ NEW (54-page ranking)
+├── complete-visual-parity-report.md            ✨ NEW (54-page ranking)
 ├── PRIORITY-MATRIX.json                        ✨ NEW (work planning)
-├── CONTAINER-WIDTH-RESOLUTION.md               ✅ EXISTING (from prior sessions)
-├── SECTION-STRUCTURE-DIFF.md                   ✅ EXISTING
-├── PARITY-ASSESSMENT-FINDINGS.md               ✅ EXISTING
+├── container-width-resolution.md               ✅ EXISTING (from prior sessions)
+├── section-structure-diff.md                   ✅ EXISTING
+├── parity-assessment-findings.md               ✅ EXISTING
 ├── GITHUB-ISSUES-MAPPING.json                  ⏳ TO BE CREATED (by GitHub script)
 └── visual-parity-data.json                     ✨ NEW (machine-readable rankings)
 ```
@@ -89,7 +89,7 @@ bashscripts/docs/
 ```
 laravel/Themes/Sixteen/docs/pages/segnalazioni-elenco/
 ├── DETAILED-analysis.md                        ✨ NEW
-├── HTML-STRUCTURE-DIFF.md                      ✨ NEW
+├── html-structure-diff.md                      ✨ NEW
 ├── VISUAL-COMPARISON.md                        ✨ NEW
 ├── local-full.png                              ✨ NEW (screenshot)
 ├── reference-full.png                          ✨ NEW (screenshot)
@@ -184,7 +184,7 @@ Project Root/
    - Can re-run weekly to track progress
    - Output feeds all reports
 
-4. **laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md**
+4. **laravel/Themes/Sixteen/docs/complete-visual-parity-report.md**
    - All 54 pages ranked
    - Reference for priority decisions
 
@@ -212,7 +212,7 @@ Project Root/
 
 **For QA**:
 - Use: pages/<page-name>/local-full.png vs reference-full.png (visual regression)
-- Reference: COMPLETE-VISUAL-PARITY-REPORT.md (parity tracking)
+- Reference: complete-visual-parity-report.md (parity tracking)
 
 ---
 
@@ -231,7 +231,7 @@ batch-visual-assessment-parallel.mjs
     ↓ (outputs JSON)
 visual-parity-data.json
     ↓ (feeds)
-COMPLETE-VISUAL-PARITY-REPORT.md
+complete-visual-parity-report.md
     ↓ (analyzed to create)
 PRIORITY-MATRIX.json
     ↓ (used for)
@@ -329,7 +329,7 @@ diff <(cat laravel/Themes/Sixteen/docs/visual-parity-data.json) <(previous.json)
 
 ### Update Regularly
 - visual-parity-data.json (weekly)
-- COMPLETE-VISUAL-PARITY-REPORT.md (weekly)
+- complete-visual-parity-report.md (weekly)
 - PRIORITY-MATRIX.json (as pages complete)
 
 ---

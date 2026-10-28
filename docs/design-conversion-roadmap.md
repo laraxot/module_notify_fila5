@@ -122,8 +122,8 @@ status: draft
 ### For Every Page (Automated)
 ```
 laravel/Themes/Sixteen/docs/pages/<page-name>/
-├── DETAILED-ANALYSIS.md           # Metrics and recommendations
-├── HTML-STRUCTURE-DIFF.md         # Element comparison
+├── detailed-analysis.md           # Metrics and recommendations
+├── html-structure-diff.md         # Element comparison
 ├── VISUAL-COMPARISON.md           # Screenshots
 ├── local-full.png                 # Full page local
 ├── reference-full.png             # Full page reference
@@ -137,11 +137,11 @@ laravel/Themes/Sixteen/docs/pages/<page-name>/
 ```
 laravel/Themes/Sixteen/docs/
 ├── INDEX.md                                    # Main index
-├── COMPLETE-VISUAL-PARITY-REPORT.md          # All 54 pages
+├── complete-visual-parity-report.md          # All 54 pages
 ├── PRIORITY-MATRIX.json                       # Workload planning
 ├── visual-parity-data.json                    # Machine-readable data
-├── CONTAINER-WIDTH-RESOLUTION.md              # Technical docs
-├── SECTION-STRUCTURE-DIFF.md                  # Historical
+├── container-width-resolution.md              # Technical docs
+├── section-structure-diff.md                  # Historical
 └── GITHUB-ISSUES-MAPPING.json                 # Issue tracking
 ```
 
@@ -181,7 +181,7 @@ npm run build
 npm run copy
 
 # View reports
-cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md
+cat laravel/Themes/Sixteen/docs/complete-visual-parity-report.md
 cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 ```
 
@@ -256,7 +256,7 @@ npm run copy     # ~1 second
 ```bash
 # 1. Review the analysis
 cd /var/www/_bases/base_fixcity_fila5
-cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md
+cat laravel/Themes/Sixteen/docs/complete-visual-parity-report.md
 
 # 2. Create GitHub issues
 node bashscripts/github/create-design-issues.mjs
@@ -319,7 +319,7 @@ open laravel/Themes/Sixteen/docs/pages/persona/DETAILED-ANALYSIS.md
 ### Real-Time Metrics
 ```bash
 # Current status
-cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md | grep "Parity"
+cat laravel/Themes/Sixteen/docs/complete-visual-parity-report.md | grep "Parity"
 
 # JSON for dashboards
 cat laravel/Themes/Sixteen/docs/visual-parity-data.json

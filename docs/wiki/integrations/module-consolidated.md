@@ -491,7 +491,7 @@ Notify Fila5 Documentation
 │
 ├── 📁 Themes (laravel/Themes/*/docs/)
 │   ├── Sixteen - 325+ files
-│   │   ├── DESIGN_COMUNI_TEAM_GUIDE.md - Complete team guide for replication
+│   │   ├── design-comuni-team-guide.md - Complete team guide for replication
 │   │   ├── DESIGN_COMUNI_PROJECT_summary.md - Project summary and status
 │   │   ├── COMPONENT_CATALOG.md - All 47 components (TO BE CREATED)
 │   │   ├── BLOCK_TYPES.md - All block types (TO BE CREATED)
@@ -610,10 +610,10 @@ Notify Fila5 Documentation
 
 **Key Documents:**
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md)
-- [LAYOUT_ARCHITECTURE_MAP.md](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_MAP.md)
-- [LAYOUT_FIX_COMPLETE_BMAD.md](Themes/Sixteen/docs/LAYOUT_FIX_COMPLETE_BMAD.md)
+- [LAYOUT_ARCHITECTURE_MAP.md](Themes/Sixteen/docs/layout-architecture-map.md)
+- [LAYOUT_FIX_COMPLETE_BMAD.md](Themes/Sixteen/docs/layout-fix-complete-bmad.md)
 - [VITE_MANIFEST_FIX_COMPLETE.md](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md)
-- [PHPSTAN_LAYOUT_FIX_COMPLETE.md](Themes/Sixteen/docs/PHPSTAN_LAYOUT_FIX_COMPLETE.md)
+- [PHPSTAN_LAYOUT_FIX_COMPLETE.md](Themes/Sixteen/docs/phpstan-layout-fix-complete.md)
 
 **Categories:**
 - Architecture (10 files)
@@ -742,7 +742,7 @@ Modules/
 Themes/Sixteen/docs/
 ├── README.md (START HERE)
 ├── layout-architecture.md
-├── LAYOUT_ARCHITECTURE_MAP.md
+├── layout-architecture-map.md
 ├── components/
 ├── guides/
 └── ...

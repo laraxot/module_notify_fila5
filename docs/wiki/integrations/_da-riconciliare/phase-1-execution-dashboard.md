@@ -85,10 +85,10 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 **Status**: 🟢 ACTIVE (Coordination phase)
 
 **Current Tasks**:
-- ✅ Created PHASE-1-FINDINGS-TEMPLATE.md
+- ✅ Created phase-1-findings-template.md
 - ✅ Created SUBTASK-2-ANALYSIS-WORKFLOW.md
 - ✅ Created EXECUTOR-2-SUBTASKS-3-4.md
-- ✅ Created PHASE-1-EXECUTION-STATUS.md
+- ✅ Created phase-1-execution-status.md
 - ⏳ Monitoring Subtask 1 progress
 - ⏳ Preparing analysis framework
 
@@ -135,8 +135,8 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 - Duration: 15-20 minutes
 
 **Preparation Checklist**:
-- [ ] Read PHASE-1-STRATEGY.md
-- [ ] Read GSD-PHASE-1-EXECUTION.md
+- [ ] Read phase-1-strategy.md
+- [ ] Read gsd-phase-1-execution.md
 - [ ] Read EXECUTOR-2-SUBTASKS-3-4.md
 - [ ] Understand translation pattern: `<nome progetto>::segnalazione.fields.title.label`
 - [ ] Know NOT to create separate segnalazioni-elenco.blade.php
@@ -354,11 +354,11 @@ Phase 2 planning can begin
 
 **Quick Start** (5 min read):
 - phase-1-research-complete.md
-- PHASE-1-EXECUTION-STATUS.md
+- phase-1-execution-status.md
 
 **In-Depth** (20-30 min read):
-- PHASE-1-STRATEGY.md (strategy & analysis)
-- GSD-PHASE-1-EXECUTION.md (execution plan)
+- phase-1-strategy.md (strategy & analysis)
+- gsd-phase-1-execution.md (execution plan)
 
 **Task-Specific** (10-15 min per task):
 - SUBTASK-2-ANALYSIS-WORKFLOW.md (for Researcher)
@@ -500,10 +500,10 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 **Status**: 🟢 ACTIVE (Coordination phase)
 
 **Current Tasks**:
-- ✅ Created PHASE-1-FINDINGS-TEMPLATE.md
+- ✅ Created phase-1-findings-template.md
 - ✅ Created SUBTASK-2-ANALYSIS-WORKFLOW.md
 - ✅ Created EXECUTOR-2-SUBTASKS-3-4.md
-- ✅ Created PHASE-1-EXECUTION-STATUS.md
+- ✅ Created phase-1-execution-status.md
 - ⏳ Monitoring Subtask 1 progress
 - ⏳ Preparing analysis framework
 
@@ -551,8 +551,8 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 - Duration: 15-20 minutes
 
 **Preparation Checklist**:
-- [ ] Read PHASE-1-STRATEGY.md
-- [ ] Read GSD-PHASE-1-EXECUTION.md
+- [ ] Read phase-1-strategy.md
+- [ ] Read gsd-phase-1-execution.md
 - [ ] Read EXECUTOR-2-SUBTASKS-3-4.md
 - [ ] Understand translation pattern: `laraxot::segnalazione.fields.title.label`
 - [ ] Understand translation pattern: `<nome progetto>::segnalazione.fields.title.label`
@@ -772,11 +772,11 @@ Phase 2 planning can begin
 
 **Quick Start** (5 min read):
 - PHASE-1-RESEARCH-COMPLETE.md
-- PHASE-1-EXECUTION-STATUS.md
+- phase-1-execution-status.md
 
 **In-Depth** (20-30 min read):
-- PHASE-1-STRATEGY.md (strategy & analysis)
-- GSD-PHASE-1-EXECUTION.md (execution plan)
+- phase-1-strategy.md (strategy & analysis)
+- gsd-phase-1-execution.md (execution plan)
 
 **Task-Specific** (10-15 min per task):
 - SUBTASK-2-ANALYSIS-WORKFLOW.md (for Researcher)

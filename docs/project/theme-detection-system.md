@@ -404,7 +404,7 @@ new class extends Component {
 
 ### Internal Documents
 
-- → [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md) - Layout hierarchy
+- → [Layout Architecture](Themes/Sixteen/docs/layout-architecture-and-namespace.md) - Layout hierarchy
 - → [Page Component Architecture](Modules/Cms/docs/PAGE_COMPONENT_architecture.md) - Page component
 - → [Vite Build System](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build process
 - → [Master Index](docs/module-docs-index.md) - Central navigation

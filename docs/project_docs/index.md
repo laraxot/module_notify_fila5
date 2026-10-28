@@ -191,13 +191,13 @@ Each module has a `docs/` directory containing:
 - [Roadmap 2025](../Themes/Sixteen/docs/ROADMAP_2025.md)
 
 ### TwentyOne Theme
-- [Code Quality Analysis](../Themes/TwentyOne/docs/CODE_QUALITY_ANALYSIS.md)
+- [Code Quality Analysis](../Themes/TwentyOne/docs/code-quality-analysis.md)
 - [Code Quality Analysis](../../../../Themes/Sixteen/docs/CODE_QUALITY_ANALYSIS.md)
 - [README](../../../../Themes/Sixteen/docs/README.md)
 - [Roadmap 2025](../../../../Themes/Sixteen/docs/ROADMAP_2025.md)
 
 ### TwentyOne Theme
-- [Code Quality Analysis](../../../../Themes/TwentyOne/docs/CODE_QUALITY_ANALYSIS.md)
+- [Code Quality Analysis](../../../../Themes/TwentyOne/docs/code-quality-analysis.md)
 
 ---
 
