@@ -176,6 +176,7 @@ composer test -- Modules/[ModuleName]
 
 ### Related Modules
 - [Xot Module](../../../Xot/README.md) - Base classes
+- [Xot Module](../../../Xot/README.md) - Base classes
 
 ---
 

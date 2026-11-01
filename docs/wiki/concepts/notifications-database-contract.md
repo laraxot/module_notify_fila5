@@ -7,6 +7,7 @@ tags: [notify, notifications, migration, database, user-connection, xotbasemigra
 created: 2026-06-10
 updated: 2026-06-10
 qmd: notifications database notify owner xotbasemigration user forbidden
+status: draft
 ---
 
 # notifications — schema Notify, runtime User
@@ -63,6 +64,9 @@ php artisan migrate
 
 ## Collegamenti
 
+- [no-notifications-migration-in-user-module](../../User/docs/wiki/rules/no-notifications-migration-in-user-module.md)
+- [notifications-runtime-model](../../User/docs/wiki/concepts/notifications-runtime-model.md)
+- [one-migration-per-model](../../../../../docs/wiki/memories/one-migration-per-model-bump-timestamp.md)
 - [no-notifications-migration-in-user-module](../../../../User/docs/wiki/rules/no-notifications-migration-in-user-module.md)
 - [notifications-runtime-model](../../../../User/docs/wiki/concepts/notifications-runtime-model.md)
 - [one-migration-per-model](../../../../../../docs/wiki/memories/one-migration-per-model-bump-timestamp.md)
@@ -79,5 +83,7 @@ La migrazione Notify abilita il DB; la **pagina** e il **link header** sono altr
 | Folio `name('notifications')` | User `pages/notifications/` |
 | `route('notifications')` header | Sixteen |
 
+- [notifications-folio-page.md](../../User/docs/wiki/concepts/notifications-folio-page.md)
+- [folio-list-vs-route-list.md](../../Cms/docs/wiki/concepts/folio-list-vs-route-list.md)
 - [notifications-folio-page.md](../../../../User/docs/wiki/concepts/notifications-folio-page.md)
 - [folio-list-vs-route-list.md](../../../../Cms/docs/wiki/concepts/folio-list-vs-route-list.md)

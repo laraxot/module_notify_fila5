@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "contact type enum"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ContactTypeEnum - The Universal Contact Field Schema
@@ -421,6 +422,9 @@ return [
 
 ## Riferimenti
 
+- [AddressItemEnum Documentation](../../geo/docs/enums/address-item-enum.md) - Pattern gemello
+- [Notify Module Architecture](../architecture.md)
+- [ContactTypeEnum Source](../../Notify/app/Enums/ContactTypeEnum.php)
 - [AddressItemEnum Documentation](../../../Geo/docs/enums/address-item-enum.md) - Pattern gemello
 - [Notify Module Architecture](../architecture.md)
 - [ContactTypeEnum Source](../../app/Enums/ContactTypeEnum.php)
@@ -433,14 +437,5 @@ return [
 - **2025-01**: Pattern DRY + KISS ispirato da AddressItemEnum e workers_table
 
 ---
-
-title: "contact type enum"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "contact type enum"
-issues: []
-discussions: []
 > **Nota**: Questo documento segue la filosofia del progetto: Scopo, Logica, Filosofia, Politica, Religione, Zen.
 > Ogni modifica all'enum DEVE essere documentata e tradotta.

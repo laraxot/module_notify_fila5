@@ -13,7 +13,8 @@ use PHPUnit\Framework\Assert;
 
 beforeEach(function (): void {
     config(['notify.fcm.server_key' => 'test-key']);
-    Http::fake();
+    // Nessuna richiesta reale; ogni test registra il proprio stub FCM (un fake '*' qui vincerebbe su quelli)
+    Http::preventStrayRequests();
 });
 
 describe('Push delivery actions (device, batch, topic)', function (): void {

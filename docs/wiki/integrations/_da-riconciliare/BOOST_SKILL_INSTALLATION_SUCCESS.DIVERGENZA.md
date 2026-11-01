@@ -8,7 +8,8 @@ type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: boost_skill_installation_success.divergenza.md
 ---
 
 # Divergenza: `BOOST_SKILL_INSTALLATION_SUCCESS.md`

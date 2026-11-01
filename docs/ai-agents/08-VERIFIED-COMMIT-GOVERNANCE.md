@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "08 VERIFIED COMMIT GOVERNANCE"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: 08-verified-commit-governance.md
 ---
 
 # Verified Commit Governance

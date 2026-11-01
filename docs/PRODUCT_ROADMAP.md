@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "PRODUCT ROADMAP"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: product_roadmap.md
 ---
 
 # Notify Module - Product Roadmap
@@ -19,6 +20,15 @@ status: draft
 **Status:** In Development
 
 ---
+
+title: "PRODUCT ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PRODUCT ROADMAP"
+issues: []
+discussions: []
 ## Vision Statement
 
 To build a **unified notification system** that delivers the right message to the right user at the right time through their preferred channel, driving engagement while respecting user preferences.

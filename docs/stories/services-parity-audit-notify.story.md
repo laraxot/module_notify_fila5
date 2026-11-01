@@ -49,11 +49,7 @@ Path verificati su disco il 2026-10-20. "Prod" = file di produzione che citano l
 | Metodo / file | Successore | Prod |
 |---|---|---|
 | `SmsService::send` e catena fluente | `app/Actions/SMS/SendSmsAction.php` (138 righe, `execute(array $vars, string $driver)`) | 0 (4 file di test) |
-<<<<<<< .merge_file_a3V0Em
-| consegna SMS reale (non era del Service) | `app/Factories/SmsActionFactory.php` + `app/Channels/SmsChannel.php` + `Actions/SMS/Send{Netfun,Twilio,Nexmo,Plivo,Gammu,Agiletelecom,SmsFactor}SMSAction` | `SmsActionFactory`: 1 file in codice (`SmsChannel`) piu' un testo in `Xot/lang/it/env.php`. `SmsChannel`: usato in codice da `RecordNotification`, `SmsNotification`, `ChannelEnum`; altre 4 menzioni per nome (`SendRecordNotificationAction`, Quaeris `Contact` e un listener) non classificate |
-=======
 | consegna SMS reale (non era del Service) | `app/Factories/SmsActionFactory.php` + `app/Channels/SmsChannel.php` + `Actions/SMS/Send{Netfun,Twilio,Nexmo,Plivo,Gammu,Agiletelecom,SmsFactor}SMSAction` | `SmsActionFactory` 2 (`SmsChannel` e se stessa nei docblock), `SmsChannel` in codice da `RecordNotification`, `SmsNotification`, `ChannelEnum`; altre 4 menzioni per nome (`SendRecordNotificationAction`, Quaeris `Contact` e un listener) non classificate |
->>>>>>> .merge_file_sGn1av
 | `NotificationManager::send`, `sendMultiple` e ricerche template | `app/Actions/NotificationManager.php` (188 righe, 8 metodi pubblici) | 0 (4 file di test) |
 | invio vero della notifica | `app/Actions/SendNotificationAction.php` (219 righe, metodo `handle`) | 2: `NotificationManager` e `Jobs/SendNotificationJob` |
 | `MailtrapEngine::send` | `app/Actions/Mail/SendMailtrapMailAction.php` (51 righe) | 0 (1 test) |
@@ -76,20 +72,14 @@ Path verificati su disco il 2026-10-20. "Prod" = file di produzione che citano l
 - Nessuna Action nuova per i metodi senza chiamanti (`getTemplateStats`, `getRecipientStats`, `MailService`): il successore esiste o il caso d'uso no.
 - Nessuna Action che incarta una relazione Eloquent (i template e i destinatari hanno gia' le relazioni su model).
 - Non scrivere i motori `Actions/SMS/SmsEngines/*` per far smettere di lanciare `SendSmsAction`.
-<<<<<<< .merge_file_a3V0Em
-- Non toccare `SmsChannel`, `SmsActionFactory` e le `Send*SMSAction`: sono la consegna SMS viva (`SendNetfunSMSAction` ha 1 consumatore di produzione, `SmsActionFactory` ne ha 1 in codice: `SmsChannel`).
-=======
 - Non toccare `SmsChannel`, `SmsActionFactory` e le `Send*SMSAction`: sono la consegna SMS viva (consumatori nella tabella sopra).
->>>>>>> .merge_file_sGn1av
 - Nessuna modifica a `phpstan.neon` (solo l'utente).
 - Non toccare file in stato di merge (`DU`, `UD`, `UU`); prima di ogni file `rg -c '^(<<<<<<<|=======|>>>>>>>)' <file>`.
 - Non toccare `laravel/tests/Architecture/ModulesArchitectureTest.php`: e' il ratchet di cartella gia' presente.
 
 ## Acceptance criteria
 
-- [ ] Verificato il 2026-10-20 12:49 (da rimisurare prima della chiusura): la cartella `laravel/Modules/Notify/app/Services/` non esiste (su disco e nell'indice del repo del modulo). Comando: `find laravel/Modules laravel/Themes laravel/app -type d -name Services -not -path '*/vendor/*'` (non stampa nessun `app/Services`; stampa ancora `Notify/tests/Unit/Services` e `Xot/tests/Unit/Services`, che non sono `app/Services`) e `git -C laravel/Modules/Notify ls-files app/Services` vuoto. Una cartella con solo `.gitkeep` conta come esistente: il `.gitkeep` e' stato tolto alle 12:45 (`fa8b41a39`).
-- [ ] I file non-Service che la cartella conteneva sono stati eliminati dall'auto-sync (commit `d1cdc7ebe`, 12:18) senza rinomina, con questi successori: `MailEngines/MailtrapEngine` verso `Actions/Mail/SendMailtrapMailAction`; `MailService.to_action` verso `Actions/Mail/{SendMailAction,TryMailAction}`; i due `MailEngines/{DuocircleEngine,duocircleengine}.test` verso `Actions/Mail/Engines/Duocircle/*`; `NotificationManager` (Service) verso `Actions/NotificationManager`; `SmsService` verso `Actions/SMS/SendSmsAction`. Confermare con `git -C laravel/Modules/Notify show d1cdc7ebe --stat` e registrare "eliminato, successore X".
-- [ ] Vettori di rigenerazione (W4), solo da citare: `laravel/config/localhost/modules.php:136` (`'services' => [..., 'generate' => false]` alle 12:5x, modifica non committata) e `php artisan module:make-service` di nwidart, che crea `app/Services/<Nome>.php` senza guardare `generate`. Nessuna azione in questa story.
+- [ ] Da verificare: la cartella `laravel/Modules/Notify/app/Services/` non esiste piu' (su disco e nell'indice del repo del modulo), con `find laravel/Modules laravel/Themes laravel/app -type d -name Services -not -path '*/vendor/*'` (oggi nessun `app/Services`; stampa `Notify/tests/Unit/Services` e `Xot/tests/Unit/Services`) e con `git -C laravel/Modules/Notify ls-files app/Services` vuoto. Ogni file non-Service che conteneva (le bozze `MailService.to_action`, `*.test`, `.gitkeep`) e' stato eliminato come copia morta con evidenza (i successori in `Actions/Mail/` esistono) o spostato nella sede giusta (`docs/archive`): da confermare, perche' la rimozione e' di un'altra sessione.
 - [ ] La cartella `Notify/tests/Unit/Services/` (vuota, non tracciata) e' rimossa o il comando di censimento la esclude per decisione scritta.
 - [ ] Parita' registrata per ogni riga della tabella, con la lettura del Service (`git show f066459c9:app/Services/...`) accanto all'Action.
 - [ ] `SendNotificationAction` espone `execute()` tipizzato (oppure la story spiega perche' resta sincrona) e i chiamanti e i test sono aggiornati.

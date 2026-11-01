@@ -8,6 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: superseded
+superseded_by: filament-4-login-widget-implementation-summary.md
 ---
 
 # 🎯 Riepilogo Implementazione Login Widget Filament 4
@@ -224,6 +226,9 @@ TextInput::make('email') // Label da user::fields.email.label
 ## 📚 Riferimenti Documentazione
 
 ### Interna
+- [Filament 4 Login Widget Implementation](../laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
+- [Filament 4 Widget Rendering Guide](../laravel/Modules/User/docs/filament-4-widget-rendering-guide.md)
+- [Auth Widget Rules](../laravel/Modules/User/docs/auth_widget_rules.md)
 - [Filament 4 Login Widget Implementation](../../../Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
 - [Filament 4 Widget Rendering Guide](../../User/docs/filament-4-widget-rendering-guide.md)
 - [Auth Widget Rules](../../User/docs/auth_widget_rules.md)

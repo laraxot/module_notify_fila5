@@ -288,6 +288,7 @@ docs/master/
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
+- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes.md`
 - Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
 
 **Recommended Standard:**
@@ -298,6 +299,8 @@ docs/master/
 ### 5.2 Date-Based Naming (Anti-Pattern)
 
 **Examples:**
+- `phpstan-analysis-2026-03-02.md`
+- `documentation-improvement-summary-2026-03-13.md`
 - `phpstan-analysis-level-report.md`
 - `documentation-improvement-summary-executive.md`
 - `bugfix-report-2025-01-14.md`

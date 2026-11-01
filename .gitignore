@@ -104,8 +104,14 @@ v8-compile-cache-*
 yarn-error.log*
 yarn.lock
 *:Zone.Identifier
+# graphify-out: generated AST/knowledge graph — never commit (no git-lfs; rebuild with graphify update)
 graphify-out/
 .claude/
 .claude-audit/
 test-results/
 notify.code-workspace
+
+# module-root-hygiene (story module-root-hygiene)
+/.github/skills/
+docs/graphify
+resources/lang

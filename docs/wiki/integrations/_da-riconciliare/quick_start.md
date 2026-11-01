@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # 🚀 NOTIFY - GUIDA RAPIDA SVILUPPATORI
@@ -518,6 +519,7 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 
 ### Regole Progetto
 - **[Laraxot Rules](./.windsurf/rules/user_15338591596331277449.md)**
+- **[Code Quality](./.windsurf/rules/code-quality.md)**
 - **[Code Quality](../../../ai-agents/code-quality.md)**
 - **[Project Rules](./.windsurf/rules/project-rules.md)**
 

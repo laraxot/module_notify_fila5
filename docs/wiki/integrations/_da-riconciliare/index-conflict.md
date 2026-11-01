@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # Notify Module Documentation
@@ -59,6 +60,9 @@ This document serves as the central index for the Notify module, providing guida
 
 ## Links to Related Documentation
 - [Architecture Overview](./ARCHITECTURE.md)
+- [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
+- [Email Templates](./EMAIL_TEMPLATES.md)
+- [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Notification Channels Implementation](../../../notification_channels_implementation.md)
 - [Email Templates](../../../email_templates.md)
 - [SMS Implementation](../../../sms_implementation.md)
@@ -80,6 +84,17 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - **Configurazione**: Offre opzioni di configurazione flessibili per diversi provider di notifica
 
 ## Collegamenti Correlati
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+- [Documentazione Generale PTV](../../../../../docs/README.md)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+- [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
+- [Standard di Documentazione](../../../../../docs/DOCUMENTATION_STANDARDS.md)
+- [Modulo Xot](../../Xot/docs/README.md)
+- [Modulo Lang](../../Lang/docs/README.md)
+- [Modulo UI](../../UI/docs/README.md)
 - [Documentazione Generale <nome progetto>](../../../README.md)
 - [Documentazione Generale PTV](../../../README.md)
 - [Documentazione Generale <nome progetto>](../../../README.md)
@@ -99,6 +114,43 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
 - [Struttura](./structure.md) - Struttura delle directory e dei componenti
 - [Modelli](./models.md) - Documentazione dei modelli Eloquent
+- [Eventi](./events.md) - Eventi e listeners
+
+### Sistema Email
+- [Sistema Email Database](./database-mail-system.md) - Sistema di gestione delle email basato su database
+- [Code Email](./database_mail_queue.md) - Sistema di code per l'invio di email
+- [Template Email](./EMAIL_TEMPLATES.md) - Struttura e utilizzo dei template email
+- [Best Practices Email](./EMAIL_BEST_PRACTICES.md) - Linee guida per le email
+- [Template Responsivi](./RESPONSIVE_EMAIL_TEMPLATES.md) - Implementazione di template email responsivi
+
+### Canali di Notifica
+- [Implementazione Canali](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md) - Implementazione dei canali di notifica
+- [SMS](./SMS_IMPLEMENTATION.md) - Implementazione del canale SMS
+- [WhatsApp](./WHATSAPP_CHANNEL.md) - Implementazione del canale WhatsApp
+- [Telegram](./TELEGRAM_CHANNEL.md) - Implementazione del canale Telegram
+
+### Filament UI
+- [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
+- [Pagine Filament](./filament-pages.md) - Componenti Filament Pages
+- [Convenzioni Filament](./FILAMENT_EXTENSION_PATTERN.md) - Pattern di estensione per Filament
+
+### Configurazione
+- [Struttura Config](./CONFIG_STRUCTURE.md) - Struttura dei file di configurazione
+- [Configurazione SMS](./SMS_CONFIG_STRUCTURE.md) - Struttura della configurazione SMS
+- [Principi di Configurazione](./CONFIGURATIONS_USAGE_PRINCIPLES.md) - Principi per l'utilizzo delle configurazioni
+
+### Pattern e Architettura
+- [Pattern Factory](./FACTORY_PATTERN_ANALYSIS.md) - Analisi del pattern Factory
+- [Risoluzione Dinamica delle Classi](./DYNAMIC_CLASS_RESOLUTION.md) - Pattern di risoluzione dinamica delle classi
+- [Queueable Actions](./queueable-action.md) - Utilizzo di Spatie Queueable Actions
+
+### Standard e Traduzioni
+- [Convenzioni di Naming](./NAMING_CONVENTIONS.md) - Standard per i nomi di file e classi
+- [Traduzioni](./translations.md) - Sistema di traduzioni
+- [Standard Traduzioni](./TRANSLATION_STANDARDS.md) - Standard per le chiavi di traduzione
+
+### Testing e Qualità
+- [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
 - [Eventi](../../../events.md) - Eventi e listeners
 
 ### Sistema Email
@@ -186,6 +238,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 
 ### Mail Templates
 - [Index](./mail-templates/index.md) - Indice della documentazione sui template email
+- [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
 - [Implementazione Slug](../../../mail_template_slug_implementation.md) - Implementazione del campo slug
 
 ### Notifications
@@ -193,6 +246,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
+- [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
+- [Template Email](./EMAIL_TEMPLATES.md)
+- [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Implementazione Canali Notifica](../../../notification_channels_implementation.md)
 - [Template Email](../../../email_templates.md)
 - [Implementazione SMS](../../../sms_implementation.md)
@@ -209,6 +265,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
 - Vedi anche: [../../../../../docs/README.md](../../../README.md)
 - Vedi anche: [../../../../../docs/project/README.md](../../../project/README.md)
 
@@ -235,6 +293,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
 - Vedi anche: [../../../../../docs/README.md](../../../README.md)
 Ultimo aggiornamento: 14 Maggio 2025
 
@@ -242,6 +301,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
 
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
 - Vedi anche: [../../../../../docs/README.md](../../../README.md)
 - Vedi anche: [../../../../../docs/project/README.md](../../../project/README.md)
 
@@ -255,11 +316,17 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
 - Vedi anche: [../../../../../docs/project/README.md](../../../project/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
 - Vedi anche: [../../../../../docs/README.md](../../../README.md)
 - Vedi anche: [../../../../../docs/project/README.md](../../../project/README.md)
 
@@ -269,6 +336,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
 - Vedi anche: [../../../../../docs/README.md](../../../README.md)
 - Vedi anche: [../../../../../docs/project/README.md](../../../project/README.md)
 
@@ -278,6 +347,77 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Vedi anche: [../../../../../docs/project/README.md](../../../../../docs/project/README.md)
+
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+- Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
 - Vedi anche: [../../../../../docs/README.md](../../../README.md)
 - Vedi anche: [../../../../../docs/project/README.md](../../../project/README.md)
 

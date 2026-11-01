@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "documentation improvement summary 2026 03 13"
 issues: []
 discussions: []
+status: superseded
+superseded_by: documentation-improvement-summary-executive.md
 ---
 
 # Documentation Improvement Summary - 2026-03-13

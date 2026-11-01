@@ -8,6 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: superseded
+superseded_by: sessione-analisi-homepage.md
 ---
 
 # ✅ Sessione Completata - Homepage Analysis & Documentation
@@ -192,6 +194,9 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
+- [Analisi Visiva](docs/screenshots/homepage/ANALISI_VISIVA.md)
+- [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md)
+- [Fix Plan](docs/screenshots/homepage/FIX_PLAN.md)
 - [Analisi Visiva](../../../screenshots/homepage/ANALISI_VISIVA.md)
 - [Screenshot Analysis](../../../screenshots/homepage/SCREENSHOT_ANALYSIS.md)
 - [Fix Plan](../../../screenshots/homepage/FIX_PLAN.md)

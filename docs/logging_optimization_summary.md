@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "logging optimization summary 2026 03 02"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: logging-optimization-summary-session-overview.md
 ---
 
 # Logging Optimization Summary - 2026-03-02

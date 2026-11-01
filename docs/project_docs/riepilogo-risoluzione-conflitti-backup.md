@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "riepilogo risoluzione conflitti backup"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Riepilogo Risoluzione Conflitti File Backup
@@ -100,6 +101,7 @@ discussions: []
 ### Riferimenti
 - [Regole Globali Progetto](./README.md)
 - [Convenzioni Naming](./guides/naming-conventions.md)
+- [Best Practices DRY + KISS](./guides/best-practices.md)
 - [Best Practices DRY + KISS](../best-practices.md)
 
 ## Prossimi Passi
@@ -129,15 +131,6 @@ discussions: []
 - **Markdown**: Sintassi corretta e validata
 
 ---
-
-title: "riepilogo risoluzione conflitti backup"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "riepilogo risoluzione conflitti backup"
-issues: []
-discussions: []
 **Status**: ✅ Completato  
 **Validazione**: ✅ Tutti i conflitti risolti  
 **Documentazione**: ✅ Aggiornata e collegata  

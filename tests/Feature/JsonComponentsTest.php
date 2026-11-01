@@ -2,13 +2,10 @@
 
 declare(strict_types=1);
 
-use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use PHPUnit\Framework\Assert;
 
 use function Safe\json_decode;
-
-uses(TestCase::class);
 
 test('components json is valid and contains expected components', function (): void {
     // Percorso del file
@@ -26,25 +23,20 @@ test('components json is valid and contains expected components', function (): v
     // Verifico che il JSON è una lista di componenti
     Assert::assertIsArray($json, 'Il file _components.json non contiene un array di componenti');
 
-    // Verifico che ci sono 2 componenti
-    expect($json)->toHaveCount(2, 'Il file _components.json non contiene i 2 componenti attesi');
+    // Verifico che c'e' un componente per ogni comando della cartella
+    $commandFiles = File::glob(dirname($filePath).'/*.php');
+    expect($json)->toHaveCount(count($commandFiles));
 
-    // Verifico che ci sono i componenti SendMailCommand e TelegramWebhook
-    expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
-    expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
-    expect($json[0])->toHaveKey('ns', 'Il primo componente non ha una chiave "ns"');
-
-    expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
-    expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
-    expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
+    // Verifico che ogni componente ha name, class e ns
+    foreach ($json as $component) {
+        expect($component)->toBeArray()->toHaveKeys(['name', 'class', 'ns']);
+    }
 
     // Verifico i nomi specifici dei componenti
     $names = array_column($json, 'name');
-    expect($names)->toContain('send-mail-command', 'Componente "send-mail-command" non trovato');
-    expect($names)->toContain('telegram-webhook', 'Componente "telegram-webhook" non trovato');
+    expect($names)->toContain('send-mail-command', 'telegram-webhook');
 
     // Verifico le classi specifiche dei componenti
     $classes = array_column($json, 'class');
-    expect($classes)->toContain('SendMailCommand', 'Classe "SendMailCommand" non trovata');
-    expect($classes)->toContain('TelegramWebhook', 'Classe "TelegramWebhook" non trovata');
+    expect($classes)->toContain('SendMailCommand', 'TelegramWebhook');
 });

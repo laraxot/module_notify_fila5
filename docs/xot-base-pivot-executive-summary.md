@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "XotBasePivot Executive Summary"
 issues: []
 discussions: []
+status: draft
 ---
 
 # XotBasePivot - Executive Summary
@@ -19,15 +20,6 @@ discussions: []
 **Raccomandazione:** ✅ **IMPLEMENTARE IMMEDIATAMENTE**
 
 ---
-
-title: "XotBasePivot Executive Summary"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "XotBasePivot Executive Summary"
-issues: []
-discussions: []
 ## 📊 The Bottom Line
 
 ### Problema

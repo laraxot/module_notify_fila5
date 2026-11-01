@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "supermemory quickstart"
 issues: []
 discussions: []
+status: draft
 ---
 
 # SuperMemory - AI Memory Infrastructure
@@ -22,6 +23,7 @@ discussions: []
 
 SuperMemory is the long-term and short-term memory and context infrastructure for AI agents. It provides persistent memory across conversations, semantic search, and knowledge graph capabilities.
 
+**Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
 **Master MCP Docs**: [Project MCP Servers](../../../../docs/MCP_SERVERS.md)
 
 ## Quick Start
@@ -215,20 +217,14 @@ supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 
 ## Related Documentation
 
+- **Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
+- **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/MCP_SERVERS.md)
+- **Theme MCP**: [Sixteen Theme MCP](../../Themes/Sixteen/docs/mcp-servers.md)
 - **Master MCP Docs**: [Project MCP Servers](../../../../docs/MCP_SERVERS.md)
 - **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/MCP_SERVERS.md)
-- **Theme MCP**: [Sixteen Theme MCP](../../../Themes/Sixteen/docs/MCP_SERVERS.md)
+- **Theme MCP**: [Sixteen Theme MCP](../../../Themes/Sixteen/docs/mcp-servers.md)
 - **SuperMemory Skill**: [.qwen/skills/supermemory/](.qwen/skills/supermemory/)
 - **SuperMemory Console**: https://console.supermemory.ai
 
 ---
-
-title: "supermemory quickstart"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "supermemory quickstart"
-issues: []
-discussions: []
 *This document follows DRY+KISS principles. For general MCP server info, see the master doc.*

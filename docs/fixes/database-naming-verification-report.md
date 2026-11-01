@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "database naming verification report"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ✅ Database Directory Naming - Verification Report
@@ -16,15 +17,6 @@ discussions: []
 > **Status**: ✅ All Clear
 
 ---
-
-title: "database naming verification report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "database naming verification report"
-issues: []
-discussions: []
 ## 🎯 Executive Summary
 
 **Tutte le directory del database nei moduli Laravel seguono già la convenzione corretta (minuscolo).**
@@ -99,7 +91,7 @@ Queste sono **corrette** perché:
 | File | Status | Changes |
 |------|--------|---------|
 | `laravel/Modules/Blog/docs/structure.md` | ✅ Fixed | Corretti 3 riferimenti |
-| `laravel/Modules/Blog/docs/CHANGELOG_2025-10.md` | ✅ Fixed | Rimossi riferimenti errati |
+| `laravel/Modules/Blog/docs/CHANGELOG-blog-module-ottobre.md` | ✅ Fixed | Rimossi riferimenti errati |
 | `laravel/Modules/Blog/docs/models/README.md` | ✅ Fixed | Aggiornata sezione struttura |
 | `laravel/Modules/Blog/docs/models/transaction-removal.md` | ✅ Fixed | Corretti riferimenti factory |
 
@@ -242,6 +234,9 @@ find docs/ laravel/Modules/*/docs/ -type f -name "*.md" -exec sed -i \
 
 ## 📚 Related Documents
 
+- [Database Naming Convention](conventions/database-naming.md)
+- [AGENTS.md](../../AGENTS.md)
+- [Fix Summary](fixes/database-naming-fix-summary.md)
 - [Database Naming Convention](../conventions/database-naming.md)
 - [AGENTS.md](../AGENTS.md)
 - [Fix Summary](database-naming-fix-summary.md)

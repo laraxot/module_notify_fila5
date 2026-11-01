@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "ANALISI METODI DUPLICATI MASTER"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: analisi_metodi_duplicati_master.md
 ---
 
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
@@ -18,6 +19,15 @@ status: draft
 **Confidenza**: 99.9% (Dati Reali dal Codice)
 
 ---
+
+title: "ANALISI METODI DUPLICATI MASTER"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ANALISI METODI DUPLICATI MASTER"
+issues: []
+discussions: []
 ## 🎯 Executive Summary
 
 Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Laraxot/Filament.

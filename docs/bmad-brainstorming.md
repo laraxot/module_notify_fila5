@@ -11,7 +11,7 @@ qmd: "bmad brainstorming notify perche insight rischi"
 related:
   - ./bmad/bmad-dossier.md
   - ./bmad/brainstorming.md
-  - ../Fixcity/docs/bmad/ticket-lifecycle-planning.md
+  - ../../Fixcity/docs/bmad/ticket-lifecycle-planning.md
   - ./bmad-planning.md
   - ./bmad/filament-blueprint.md
 ---

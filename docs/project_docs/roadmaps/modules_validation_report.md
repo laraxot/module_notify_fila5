@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "modules validation report 2025 10 02"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: modules-validation-report-multi-module.md
 ---
 
 # 🏆 MODULES VALIDATION REPORT - Multi-Module PHPStan Level 9

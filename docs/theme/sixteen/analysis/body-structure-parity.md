@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "body structure parity"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Body Structure Parity Bridge

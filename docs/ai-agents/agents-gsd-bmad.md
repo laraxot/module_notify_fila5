@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents gsd bmad"
 issues: []
 discussions: []
+status: draft
 ---
 
 # AGENTS GSD BMAD Workflow
@@ -40,15 +41,6 @@ $gsd-quick "task"
 - [GSD Docs](https://gsd-build-get-shit-done.mintlify.app/)
 
 ---
-
-title: "agents gsd bmad"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "agents gsd bmad"
-issues: []
-discussions: []
 ## BMAD (Breakthrough Method for Agile AI-Driven Development)
 
 **Path**: `_bmad/` (installato localmente)
@@ -126,6 +118,8 @@ bmad-verify-work [N]         # Verifica
 
 - [Indice AGENTS](./agents-split-index.md)
 - [gsd-bmad-comprehensive-guide.md](./gsd-bmad-comprehensive-guide.md)
+- [AGENTS.md originale](../../AGENTS.md)
+- [agents.md originale](../../agents.md)
 - [AGENTS.md originale](../AGENTS.md)
 - [agents.md originale](../agents.md)
 - [Index principale](./index.md)

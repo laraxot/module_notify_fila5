@@ -17,6 +17,7 @@ related:
   - ../../../../../../bmad-output/architecture.md
   - ../../../Xot/docs/wiki/concepts/phpstan-pest-bridge-discipline.md
   - ../../../../Xot/tests/XotBasePest.php
+  - ../../../../Xot/tests/XotBasePest.php
 tags: [pest, xotbasepest, phpstan, testing]
 ---
 

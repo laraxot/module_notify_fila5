@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "2026 03 30 fixcity hero marketing"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: hero-marketing-design-spec.md
 ---
 
 # FixCity Hero Marketing Section - Design Spec

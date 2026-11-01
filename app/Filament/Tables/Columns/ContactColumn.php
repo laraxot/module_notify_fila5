@@ -4,26 +4,36 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Tables\Columns;
 
-use Modules\Notify\Enums\ContactTypeEnum;
 use Modules\Xot\Filament\Tables\Columns\XotBaseViewColumn;
-
-/*
- * GateGuard: callers NotifyThemeAndColumnsCoverageTest.php:80; unique contact column;
- * reads ContactTypeEnum + row contact payload for Blade view;
- * user: "migliora qualità codice , fa tutto con bmad + second brain + filament blueprint"
- */
+use Modules\Notify\Enums\ContactTypeEnum;
 
 /**
- * Colonna contatti: XotBaseViewColumn + Blade (DRY/KISS).
+ * ContactColumn - Colonna Filament riutilizzabile per rendering contatti
+ *
+ * Utilizza ViewColumn + Blade view per separare completamente
+ * logica e presentazione seguendo i principi DRY/KISS
+ *
+ * PATTERN CORRETTO:
+ * - ViewColumn per layout complessi
+ * - Blade view separata per HTML
+ * - Accessibilità WCAG 2.1 AA compliant
+ *
+ * @author Laraxot Team
+ *
+ * @version 2.0 - REFACTOR COMPLETO
+ *
+ * @since 2025-01-06
  */
 class ContactColumn extends XotBaseViewColumn
 {
+    /**
+     * View Blade per il rendering della colonna
+     */
+    protected string $view = 'notify::filament.tables.columns.contact';
+
     protected function setUp(): void
     {
         parent::setUp();
-
-        // Canonico esplicito dopo GetViewByClassAction del parent.
-        $this->view = 'notify::filament.tables.columns.contact';
 
         // Passa i tipi di contatto alla view
         $contact_types = ContactTypeEnum::cases();

@@ -14,9 +14,10 @@ use function Safe\class_uses;
 
 describe('FormatSmsMessageAction', function () {
     it('can be instantiated', function () {
-        $action = new FormatSmsMessageAction;
-
-        Assert::assertInstanceOf(FormatSmsMessageAction::class, $action);
+        Assert::assertSame(
+            'Modules\\Notify\\Actions\\SMS',
+            (new \ReflectionClass(FormatSmsMessageAction::class))->getNamespaceName(),
+        );
     });
 
     it('has execute method with correct signature', function () {

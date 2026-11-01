@@ -7,7 +7,8 @@ type: architecture
 tags: [module, architecture, notifications]
 created: 2026-07-28
 updated: 2026-07-28
-status: draft
+status: superseded
+superseded_by: wiki/integrations/_da-riconciliare/architecture.md
 ---
 
 # Notify Module — Architecture

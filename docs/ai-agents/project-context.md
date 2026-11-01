@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "project context"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Project Context
@@ -41,5 +42,7 @@ discussions: []
 **Precedente:** [INDEX](INDEX.md) | **Successivo:** [Module Architecture](module-architecture.md)
 
 **Di ritorno:**
+- [CLAUDE.md](../../CLAUDE.md)
+- [AGENTS.md](../../AGENTS.md)
 - [CLAUDE.md](../CLAUDE.md)
 - [AGENTS.md](../AGENTS.md)

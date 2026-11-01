@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # BMAD + GSD + Ralph Loop Integration Guide
@@ -469,6 +470,7 @@ vendor/bin/phpstan analyse --level=10
 
 ## Resources
 
+- **OpenViking**: [docs/openviking-integration.md](../docs/openviking-integration.md)
 - **OpenViking**: [docs/openviking-integration.md](../../../openviking-integration.md)
 - **BMAD**: [laravel/Modules/Xot/docs/bmad-workflow-guide.md](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
 - **GSD**: See `.planning/` directory

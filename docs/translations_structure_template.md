@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "translations structure template"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: translations-structure-template.md
 ---
 
 # Template di Struttura per le Traduzioni

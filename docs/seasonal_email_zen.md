@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "seasonal email zen"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: seasonal-email-zen.md
 ---
 
 # The Zen of Seasonal Emails

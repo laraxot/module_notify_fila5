@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "critical rules summary"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Critical Rules Summary
@@ -26,12 +27,5 @@ discussions: []
 13. **Source code in `app/` only** — Data Objects, Actions, Models, Services MUST be in `app/`, NEVER in module root.
 
 ---
-title: "critical rules summary"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "critical rules summary"
-issues: []
-discussions: []
+[Back to index](../index.md) | [Full Rules](../critical-rules.md)
 [Back to index](../../../index.md) | [Full Rules](../../critical-rules.md)

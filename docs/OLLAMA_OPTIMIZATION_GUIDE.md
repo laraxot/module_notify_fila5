@@ -8,7 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: ollama-optimization-guide.md
 ---
 
 # Ollama Optimization Guide - Intel i5-8400 (32GB RAM)

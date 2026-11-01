@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "transaction removal fix 2025 10 15"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Fix Transaction Model - Migrate Fresh Error

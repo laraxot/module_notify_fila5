@@ -152,7 +152,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 - [Documentazione Completa Netfun Channel](./sms_netfun_channel.md)
 - [Esempi di Utilizzo Netfun](./netfun_examples.md)
-- [Risoluzione Conflitti Netfun](./netfunchannel-conflict-resolution.md)
+- [Risoluzione Conflitti Netfun](./netfunchannel_conflict_resolution.md)
 
 ---
 

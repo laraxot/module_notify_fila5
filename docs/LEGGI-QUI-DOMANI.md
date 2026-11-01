@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "LEGGI QUI DOMANI"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📖 LEGGI QUI DOMANI MATTINA - 2 Ottobre 2025
@@ -14,15 +15,6 @@ discussions: []
 Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 
 ---
-
-title: "LEGGI QUI DOMANI"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "LEGGI QUI DOMANI"
-issues: []
-discussions: []
 ## ✅ COSA ABBIAMO FATTO IERI (1 Ottobre)
 
 ### 🎉 SUCCESSO STRAORDINARIO: 83% COMPLETATO!
@@ -98,6 +90,7 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 - Trait type hints
 - Relations return types
 
+**Guida**: [User Roadmap](../Modules/User/docs/roadmap-and-issues.md)
 **Guida**: [User Roadmap](../../User/docs/roadmap-and-issues.md)
 
 ---
@@ -150,6 +143,7 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 ### Durante il Lavoro (reference)
 2. **[Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)** - Errori dettagliati Xot
+3. **[User Roadmap](../Modules/User/docs/roadmap-and-issues.md)** - Errori dettagliati User
 3. **[User Roadmap](../../User/docs/roadmap-and-issues.md)** - Errori dettagliati User
 
 ### Fine Giornata (update)

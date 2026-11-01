@@ -16,6 +16,7 @@ related:
   - ../../../notifications/readme.md
   - ../../../integrations/readme.md
   - ../../../templates/readme.md
+status: draft
 ---
 # Filament Development Guide
 
@@ -109,6 +110,10 @@ Widget personalizzati in Filament.
 
 - [Resource Rules](./resource-rules.md)
 - [Form Schema Conventions](./form-schema-conventions.md)
+- [Best Practices](./best-practices.md)
+- [Form Components](./form-components.md)
+- [Form Validation](./form-validation.md)
+- [Translations](./translations.md)
 - [Best Practices](../../../best-practices.md)
 - [Form Components](./form-components.md)
 - [Form Validation](./form-validation.md)

@@ -8,14 +8,20 @@ qmd: "start-here-replikate-phase2 🚀 start here - replikate phase 2"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 🚀 START HERE - REPLIKATE Phase 2
@@ -51,7 +57,7 @@ REPLIKATE Project Lifecycle
 ## 📖 What To Read (In Order)
 
 ### 1️⃣ Navigation Hub (5 min read)
-📍 **File**: `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
+📍 **File**: `laravel/Themes/Sixteen/docs/replikate-master-index.md`
 
 This is your master navigation. It explains:
 - What Phase 1 found
@@ -213,7 +219,7 @@ open http://127.0.0.1:8000/it/tests/homepage
 
 ## 📋 Checklist Before Starting
 
-- [ ] Read `REPLIKATE-MASTER-INDEX.md`
+- [ ] Read `replikate-master-index.md`
 - [ ] Read `homepage-structure-diff.md` completely
 - [ ] Read `replikate.txt` (understand HTML FIRST principle)
 - [ ] Know where `[slug].blade.php` is
@@ -273,7 +279,7 @@ All information you need is documented:
 
 1. **What to do**: `homepage-structure-diff.md`
 2. **How to do it**: `replikate.txt`
-3. **Where files are**: `REPLIKATE-MASTER-INDEX.md`
+3. **Where files are**: `replikate-master-index.md`
 4. **Automation tool**: `bashscripts/design-analysis/replikate-workflow.sh`
 
 ---
@@ -307,7 +313,7 @@ Just follow the 4 tasks in order and test as you go.
 
 ## 🚀 Start Now
 
-1. Open `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
+1. Open `laravel/Themes/Sixteen/docs/replikate-master-index.md`
 2. Read it thoroughly
 3. Open `homepage-structure-diff.md`
 4. Follow Task 1-4
@@ -370,7 +376,7 @@ REPLIKATE Project Lifecycle
 ## 📖 What To Read (In Order)
 
 ### 1️⃣ Navigation Hub (5 min read)
-📍 **File**: `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
+📍 **File**: `laravel/Themes/Sixteen/docs/replikate-master-index.md`
 
 This is your master navigation. It explains:
 - What Phase 1 found
@@ -534,7 +540,7 @@ open http://127.0.0.1:8000/it/tests/homepage
 
 ## 📋 Checklist Before Starting
 
-- [ ] Read `REPLIKATE-MASTER-INDEX.md`
+- [ ] Read `replikate-master-index.md`
 - [ ] Read `homepage-structure-diff.md` completely
 - [ ] Read `replikate.txt` (understand HTML FIRST principle)
 - [ ] Know where `[slug].blade.php` is
@@ -594,7 +600,7 @@ All information you need is documented:
 
 1. **What to do**: `homepage-structure-diff.md`
 2. **How to do it**: `replikate.txt`
-3. **Where files are**: `REPLIKATE-MASTER-INDEX.md`
+3. **Where files are**: `replikate-master-index.md`
 4. **Automation tool**: `bashscripts/design-analysis/replikate-workflow.sh`
 
 ---
@@ -628,7 +634,7 @@ Just follow the 4 tasks in order and test as you go.
 
 ## 🚀 Start Now
 
-1. Open `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
+1. Open `laravel/Themes/Sixteen/docs/replikate-master-index.md`
 2. Read it thoroughly
 3. Open `homepage-structure-diff.md`
 4. Follow Task 1-4

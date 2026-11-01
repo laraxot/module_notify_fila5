@@ -8,14 +8,20 @@ qmd: "master-documentation-index 📚 master documentation index"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 📚 Master Documentation Index
@@ -31,6 +37,11 @@ related:
 ### Per Nuovi Arrivati
 1. [Zen of Documentation](./zen-of-documentation.md) - Filosofia e principi
 2. [Documentation Governance](./documentation-governance.md) - Regole e standard
+3. [Multi-Agent Collaboration](./multi-agent-collaboration.md) - Come lavorare con AI agents
+
+### Per Sviluppatori
+- [Architecture Overview](./architecture/README.md)
+- [Getting Started](./GETTING_STARTED.md)
 3. [Multi-Agent Collaboration](../../../multi-agent-collaboration.md) - Come lavorare con AI agents
 
 ### Per Sviluppatori
@@ -40,6 +51,7 @@ related:
 
 ### Per AI Agents
 - [Project Context](./project/project.md)
+- [Agent Coordination](./multi-agent-collaboration.md)
 - [Agent Coordination](../../../multi-agent-collaboration.md)
 - [OpenViking Context](../bashscripts/ai/openviking.md)
 
@@ -66,6 +78,7 @@ related:
 - [Naming Conventions](./conventions/naming.md)
 
 ### 🤖 AI Tools
+- [Multi-Agent Guide](./multi-agent-collaboration.md)
 - [Multi-Agent Guide](../../../multi-agent-collaboration.md)
 - [BMAD Framework](./bmad/README.md)
 - [GSD Workflow](./gsd/README.md)
@@ -74,6 +87,7 @@ related:
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
+- [Quality Reports](./reports/quality.md)
 - [Quality Reports](../../../roadmap/quality.md)
 - [Performance Reports](./reports/performance.md)
 

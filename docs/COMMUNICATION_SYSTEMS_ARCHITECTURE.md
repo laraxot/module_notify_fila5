@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "COMMUNICATION SYSTEMS ARCHITECTURE"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: communication-systems-architecture.md
 ---
 
 # Notify Module - Communication Systems Architecture

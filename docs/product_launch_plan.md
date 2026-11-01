@@ -8,7 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
+status: superseded
+superseded_by: bmad/architecture/product-launch-plan.md
 ---
 
 # Notify Module - Product Launch Plan

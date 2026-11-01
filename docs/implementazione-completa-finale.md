@@ -8,12 +8,20 @@ qmd: "implementazione-completa-finale 🐄✨ implementazione completa - report 
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+  - "./00-index.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
@@ -110,7 +118,7 @@ status: draft
 ---
 
 ### ✅ 5. Documentazione Aggiornata
-- [x] Creato `docs/analisi-metodi-duplicati-master-1.md` (100+ pagine)
+- [x] Creato `docs/analisi-metodi-duplicati-master.md` (100+ pagine)
 - [x] Creato `docs/analisi-metodi-duplicati-index.md` (indice navigabile)
 - [x] Creato `docs/implementazione-refactoring-basemodel.md`
 - [x] Creato `docs/refactoring-completato.md`
@@ -208,7 +216,7 @@ Modules/Xot/app/Models/Traits/
 **Documentazione:**
 ```
 docs/
-├── analisi-metodi-duplicati-master-1.md      ✅ 100+ pagine
+├── analisi-metodi-duplicati-master.md      ✅ 100+ pagine
 ├── analisi-metodi-duplicati-index.md       ✅ Indice
 ├── analisi-metodi-duplicati.md             ✅ Overview
 ├── implementazione-refactoring-basemodel.md ✅ Report

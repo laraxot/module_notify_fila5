@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "AGID ANALYSIS IMPLEMENTATION 2025 10 02"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: agid-analysis-implementation-report.md
 ---
 
 # 🏛️ AGID Analysis & Implementation Report

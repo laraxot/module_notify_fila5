@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "super mucca completion report 2025 10 01"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: super-mucca-completion-report-mode.md
 ---
 
 # 🐄⚡ SUPER MUCCA MODE - Completion Report

@@ -284,6 +284,7 @@ docs/master/
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
+- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes.md`
 - Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
 
 **Recommended Standard:**
@@ -295,6 +296,7 @@ docs/master/
 
 **Examples:**
 - `phpstan-analysis.md`
+- `documentation-improvement-summary-2026-03-13.md`
 - `documentation-improvement-summary-executive.md`
 - `bugfix-report-2025-01-14.md`
 

@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # 📬 Notify — English presentation
@@ -60,6 +61,7 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 | Language | Link |
 |----------|------|
+| 🇮🇹 Presentation | [../README.md](../README.md) |
 | 🇮🇹 Presentation | [../README.md](../../README.md) |
 | 🇬🇧 Business card | This file |
 | 📚 Technical wiki | [./](./) |

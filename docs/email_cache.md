@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "email cache"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: bmad/architecture/email-cache.md
 ---
 
 # Sistema Cache Email 

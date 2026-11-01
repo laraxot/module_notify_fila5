@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # Email per i Dottori
@@ -180,6 +181,7 @@ try {
 
 ## Collegamenti Correlati
 
+- [Documentazione Root](../../../../../docs/readme.md)
 - [Documentazione Root](../../../../docs/README.md)
 - [Documentazione Modulo Notify](./readme.md)
 - [Documentazione Template Email](./email_templates.md)

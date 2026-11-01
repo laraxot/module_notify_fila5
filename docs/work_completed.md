@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "work completed 2025 10 01"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: work-completed-lavoro-completato.md
 ---
 
 # ✅ LAVORO COMPLETATO - 2025-10-01

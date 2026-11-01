@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE DIAGRAMS"
 issues: []
 discussions: []
+status: superseded
+superseded_by: architecture-diagrams.md
 ---
 
 # Architecture Diagrams & Visual Reference
@@ -445,6 +447,7 @@ Modules/ModuleName/
 - [→ Module Documentation Index](MODULE_DOCS_INDEX.md)
 - [→ Theme Documentation Index](THEMES_DOCUMENTATION_INDEX.md)
 - [→ Component Catalog](../laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md)
+- [→ Filament Integration Guide](../laravel/Themes/Sixteen/docs/filament-integration.md)
 - [→ Filament Integration Guide](../../../Themes/Sixteen/docs/filament-integration.md)
 - [→ Data Flow Analysis](COMPREHENSIVE_CODE_ANALYSIS.md#data-flow)
 

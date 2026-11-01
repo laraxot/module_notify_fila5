@@ -7,7 +7,8 @@ title: "Notify Module API"
 type: reference
 tags: [notify, api, notifications]
 created: 2026-07-28
-status: draft
+status: superseded
+superseded_by: api.md
 ---
 
 # Notify Module — API

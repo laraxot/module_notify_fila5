@@ -10,7 +10,7 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2025-excellence-achievement.md"
   - "./agid-implementation-guide.md"
-  - "./architecture.md"
+  - "./ARCHITECTURE.md"
   - "./complete-refactoring-analysis.md"
   - "./documentation-status.md"
   - "./final-implementation-report-.md"
@@ -21,6 +21,9 @@ status: draft
 
 # 📊 Final Project Statistics
 
+**Project:** FixCity - Base Fila4 Mono  
+**Project:** Notify - Base Fila4 Mono  
+**Date:** 2025-10-01 21:47  
 **Project:** FixCity - Base Fila5
 **Project:** Notify - Base Fila5
 **Date:** 2025-10-01 21:47
@@ -174,6 +177,9 @@ status: draft
 
 ## 🚀 Timeline
 
+**Start:** 2025-10-01 09:00  
+**End:** 2025-10-01 21:47  
+**Duration:** ~13 hours  
 **Start:** 2025-10-01 09:00
 **End:** 2025-10-01 21:47
 **Duration:** ~13 hours

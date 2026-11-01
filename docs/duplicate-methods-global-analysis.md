@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "duplicate methods global analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi Globale Metodi Duplicati - FixCity
@@ -47,6 +48,24 @@ Questa analisi identifica opportunità di refactoring cross-module per ridurre l
 
 | Modulo | Metodi Duplicati | Report |
 |--------|------------------|--------|
+| Fixcity | 76 | [Visualizza](Modules/Fixcity/docs/duplicate-methods-analysis.md) |
+| User | 55 | [Visualizza](Modules/User/docs/duplicate-methods-analysis.md) |
+| Geo | 46 | [Visualizza](Modules/Geo/docs/duplicate-methods-analysis.md) |
+| Notify | 34 | [Visualizza](Modules/Notify/docs/duplicate-methods-analysis.md) |
+| Blog | 33 | [Visualizza](Modules/Blog/docs/duplicate-methods-analysis.md) |
+| Cms | 30 | [Visualizza](Modules/Cms/docs/duplicate-methods-analysis.md) |
+| Job | 30 | [Visualizza](Modules/Job/docs/duplicate-methods-analysis.md) |
+| Xot | 29 | [Visualizza](Modules/Xot/docs/duplicate-methods-analysis.md) |
+| Lang | 21 | [Visualizza](Modules/Lang/docs/duplicate-methods-analysis.md) |
+| Tenant | 11 | [Visualizza](Modules/Tenant/docs/duplicate-methods-analysis.md) |
+| Activity | 10 | [Visualizza](Modules/Activity/docs/duplicate-methods-analysis.md) |
+| Media | 10 | [Visualizza](Modules/Media/docs/duplicate-methods-analysis.md) |
+| Rating | 8 | [Visualizza](Modules/Rating/docs/duplicate-methods-analysis.md) |
+| AI | 4 | [Visualizza](Modules/AI/docs/duplicate-methods-analysis.md) |
+| Comment | 3 | [Visualizza](Modules/Comment/docs/duplicate-methods-analysis.md) |
+| Gdpr | 3 | [Visualizza](Modules/Gdpr/docs/duplicate-methods-analysis.md) |
+| UI | 2 | [Visualizza](Modules/UI/docs/duplicate-methods-analysis.md) |
+| Seo | 1 | [Visualizza](Modules/Seo/docs/duplicate-methods-analysis.md) |
 | Fixcity | 76 | [Visualizza](duplicate-methods-analysis.md) |
 | User | 55 | [Visualizza](duplicate-methods-analysis.md) |
 | Geo | 46 | [Visualizza](duplicate-methods-analysis.md) |

@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # 🤖 Multi-Agent Collaboration Guide
@@ -440,6 +441,8 @@ ralph-loop stop \
 
 ## 🔗 Related Documents
 
+- [Zen of Documentation](docs/ZEN_OF_DOCUMENTATION.md)
+- [Documentation Governance](docs/DOCUMENTATION_GOVERNANCE.md)
 - [Zen of Documentation](ZEN_OF_DOCUMENTATION.md)
 - [Documentation Governance](DOCUMENTATION_GOVERNANCE.md)
 - [OpenViking Context](.qwen/openviking-context.md)

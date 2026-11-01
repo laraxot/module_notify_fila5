@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "HEADER FIX ANALYSIS"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: header_fix_analysis.md
 ---
 
 # 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
@@ -16,6 +17,15 @@ status: draft
 ## Problema: Header non conforme al reference
 
 ---
+
+title: "HEADER FIX ANALYSIS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "HEADER FIX ANALYSIS"
+issues: []
+discussions: []
 ## 🔴 Problemi Identificati
 
 ### 1. Logo non visibile ❌

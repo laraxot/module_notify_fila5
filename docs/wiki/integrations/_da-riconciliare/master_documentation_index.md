@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # 📚 Master Documentation Index
@@ -27,6 +28,7 @@ updated: 2026-08-24
 
 ### Per Sviluppatori
 - [Architecture Overview](./architecture/README.md)
+- [Getting Started](./GETTING_STARTED.md)
 - [Getting Started](../../../GETTING_STARTED.md)
 - [Coding Standards](./conventions/README.md)
 
@@ -66,6 +68,7 @@ updated: 2026-08-24
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
+- [Quality Reports](./reports/quality.md)
 - [Quality Reports](../../../roadmap/quality.md)
 - [Performance Reports](./reports/performance.md)
 

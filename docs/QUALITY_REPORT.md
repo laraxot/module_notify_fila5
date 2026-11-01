@@ -8,7 +8,8 @@ module: Notify
 created: 2026-08-24
 updated: 2026-08-24
 qmd: "Notify quality report phpstan pest coverage test ratio"
-status: draft
+status: superseded
+superseded_by: quality-report.md
 ---
 
 # Quality Report — Notify

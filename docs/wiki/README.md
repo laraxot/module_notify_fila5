@@ -13,9 +13,9 @@ discussions:
 related:
   - ../README.md
   - index.md
-  - ../notifications/readme.md
-  - ../integrations/readme.md
-  - ../templates/readme.md
+  - ../notifications/README.md
+  - ../integrations/README.md
+  - ../templates/README.md
 status: draft
 ---
 # Notify LLM Wiki

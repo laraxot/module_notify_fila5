@@ -1,3 +1,11 @@
+---
+title: "Conversione servizi Notify a Spatie Queueable Actions"
+type: note
+status: draft
+updated: 2026-10-20
+tags: [docs, notify]
+qmd: "conversione servizi notify a spatie queueable actions notify"
+---
 # Conversione servizi Notify a Spatie Queueable Actions
 
 ## Riepilogo

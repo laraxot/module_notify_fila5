@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "claude patterns"
 issues: []
 discussions: []
+status: draft
 ---
 
 # CLAUDE Patterns
@@ -42,15 +43,6 @@ class CreateEventAction
 ```
 
 ---
-
-title: "claude patterns"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "claude patterns"
-issues: []
-discussions: []
 ## 2. Data Transfer Objects
 
 Use Spatie Laravel Data per DTOs:
@@ -145,5 +137,6 @@ trans('meetup::events.title')
 
 - [Indice CLAUDE](./claude-split-index.md)
 - [queueable-actions.md](./queueable-actions.md)
+- [CLAUDE.md originale](../../CLAUDE.md)
 - [CLAUDE.md originale](../CLAUDE.md)
 - [Index principale](./index.md)

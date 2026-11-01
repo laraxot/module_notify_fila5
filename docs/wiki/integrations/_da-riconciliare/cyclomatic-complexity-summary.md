@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # Cyclomatic Complexity - Project Summary Report
@@ -138,6 +139,25 @@ Keep nesting levels below 3-4 levels.
 
 ## 📄 Individual Module Reports
 
+- [Xot](../Modules/Xot/docs/cyclomatic-complexity-report.md)
+- [User](../Modules/User/docs/cyclomatic-complexity-report.md)
+- [Blog](../Modules/Blog/docs/cyclomatic-complexity-report.md)
+- [Geo](../Modules/Geo/docs/cyclomatic-complexity-report.md)
+- [Notify](../Modules/Notify/docs/cyclomatic-complexity-report.md)
+- [AI](../Modules/AI/docs/cyclomatic-complexity-report.md)
+- [Activity](../Modules/Activity/docs/cyclomatic-complexity-report.md)
+- [Cms](../Modules/Cms/docs/cyclomatic-complexity-report.md)
+- [Comment](../Modules/Comment/docs/cyclomatic-complexity-report.md)
+- [App](../Modules/App/docs/cyclomatic-complexity-report.md)
+- [<nome progetto>](../Modules/<nome progetto>/docs/cyclomatic-complexity-report.md)
+- [Gdpr](../Modules/Gdpr/docs/cyclomatic-complexity-report.md)
+- [Job](../Modules/Job/docs/cyclomatic-complexity-report.md)
+- [Lang](../Modules/Lang/docs/cyclomatic-complexity-report.md)
+- [Media](../Modules/Media/docs/cyclomatic-complexity-report.md)
+- [Rating](../Modules/Rating/docs/cyclomatic-complexity-report.md)
+- [Seo](../Modules/Seo/docs/cyclomatic-complexity-report.md)
+- [Tenant](../Modules/Tenant/docs/cyclomatic-complexity-report.md)
+- [UI](../Modules/UI/docs/cyclomatic-complexity-report.md)
 - [Xot](../../../cyclomatic-complexity-report.md)
 - [User](../../../cyclomatic-complexity-report.md)
 - [Blog](../../../cyclomatic-complexity-report.md)

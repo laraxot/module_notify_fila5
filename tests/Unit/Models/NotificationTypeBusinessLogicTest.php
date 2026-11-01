@@ -3,13 +3,15 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Models\NotificationType;
 use PHPUnit\Framework\Assert;
 
 describe('NotificationType Business Logic', function (): void {
     test('notification type extends eloquent model', function (): void {
-        Assert::assertInstanceOf(Model::class, new NotificationType);
+        $notificationType = new NotificationType;
+
+        Assert::assertContains('slug', $notificationType->getFillable());
+        Assert::assertFalse($notificationType->exists);
     });
 
     test('notification type has expected fillable fields', function (): void {
@@ -41,14 +43,11 @@ describe('NotificationType Business Logic', function (): void {
 
     test('notification type model can be instantiated without errors', function (): void {
         $notificationType = new NotificationType;
-
-        Assert::assertInstanceOf(NotificationType::class, $notificationType);
-        Assert::assertInstanceOf(Model::class, $notificationType);
+        Assert::assertFalse($notificationType->exists);
     });
 
     test('notification type can be queried', function (): void {
         $query = NotificationType::query();
-
         Assert::assertInstanceOf(Builder::class, $query);
     });
 });

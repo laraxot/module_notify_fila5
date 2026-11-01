@@ -109,6 +109,8 @@ concreti su quattordici non lo ereditano perché estendono direttamente
 | Modello | Migrazione | Effetto |
 |---|---|---|
 | `NotificationType` | `2026_03_03_000001_create_notification_types_table.php` | `XotBaseMigration` risolve la connection dal modello: `notification_types` finisce sulla connection **di default**, non su `notify` |
+| `Theme` | nessuna | tabella inesistente; `tests/Feature/ThemeManagementBusinessLogicTest.php:15` lo dichiara: *"The tests reference Modules\Notify\Models\Theme which is not implemented"* |
+| `EmailTemplate` | nessuna | idem, e coesiste con `MailTemplate` che invece è reale, versionato e loggato |
 | `Theme` | nessuna | tabella inesistente; `tests/Feature/ThemeManagementBusinessLogicTest.php` e' ridotto a un `skip('themes table and Theme design token columns not implemented')` che spiega l'assenza (il corpo da 20 test e' in git, commit `13f2cb04f`) |
 | `EmailTemplate` | nessuna | idem (`tests/Feature/TemplateManagementBusinessLogicTest.php`, ridotto a `skip`), e coesiste con `MailTemplate` che invece è reale, versionato e loggato |
 
@@ -118,10 +120,11 @@ migrazione (`create_notify_themes_table`), factory, seeder e Filament Resource.
 casi il modello vivo è quello con la migrazione; l'altro è un abbozzo che PHPStan
 analizza, l'IDE completa e un agente può usare in buona fede.
 
-### `app/Services/` esiste ancora, e duplica `app/Actions/`
+### `app/Services/` non esiste: conversione completata
 
 La policy del progetto (`bashscripts/ai/wiki/rules/no-services-rule.md`) vieta
-`app/Services` e le classi `*Service`. In Notify ci sono 4 file `.php` più un residuo:
+`app/Services` e le classi `*Service` come confine applicativo. L'elenco seguente è
+solo il mapping storico della conversione:
 
 ```
 app/Services/NotificationManager.php        <- duplicato di app/Actions/NotificationManager.php
@@ -190,6 +193,9 @@ File: `app/Models/NotificationType.php`, `app/Models/Theme.php`,
 `NotificationType` ha una migrazione e va corretto: `extends BaseModel` gli dà la
 connection `notify` e allinea tabella e modello. `Theme` ed `EmailTemplate` non hanno
 migrazione, non hanno consumatori fuori dai test, e hanno ciascuno un gemello reale
+(`NotifyTheme`, `MailTemplate`): vanno cancellati, non "completati". Il test
+`tests/Feature/ThemeManagementBusinessLogicTest.php` che documenta l'assenza di `Theme`
+va rimosso con lui.
 (`NotifyTheme`, `MailTemplate`): vanno cancellati, non "completati". I test
 `tests/Feature/ThemeManagementBusinessLogicTest.php` e `tests/Feature/TemplateManagementBusinessLogicTest.php`,
 ridotti a `skip` che documentano l'assenza di `Theme` ed `EmailTemplate`, vanno rimossi con loro.

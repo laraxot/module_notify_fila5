@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "IMPLEMENTAZIONE BUILDERS REPORT"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: implementazione_builders_report.md
 ---
 
 # 🎉 IMPLEMENTAZIONE BUILDERS & ANALISI PIVOT - REPORT FINALE
@@ -17,6 +18,15 @@ status: draft
 **Status**: ✅ BUILDERS IMPLEMENTATI | ⚠️ PIVOT DA REFACTORARE
 
 ---
+
+title: "IMPLEMENTAZIONE BUILDERS REPORT"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "IMPLEMENTAZIONE BUILDERS REPORT"
+issues: []
+discussions: []
 ## 📊 RISULTATI IMPLEMENTAZIONE
 
 ### ✅ Builders Creati (3 file)

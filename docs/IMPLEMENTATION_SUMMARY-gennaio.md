@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "IMPLEMENTATION SUMMARY 2025 01 27"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: implementation-summary-gennaio.md
 ---
 
 # 🚀 IMPLEMENTATION SUMMARY - 27 Gennaio 2025

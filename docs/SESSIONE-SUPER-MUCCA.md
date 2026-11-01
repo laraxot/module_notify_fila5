@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "SESSIONE 2025 10 15 SUPER MUCCA"
 issues: []
 discussions: []
+status: superseded
+superseded_by: sessione-super-mucca-obiettivo.md
 ---
 
 # 🐮 Sessione Super Mucca - 2025-10-15

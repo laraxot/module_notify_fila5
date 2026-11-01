@@ -295,4 +295,4 @@ return [
 - [Documentazione Form](tailwind_forms.md)
 - [Documentazione Notifiche](tailwind_notifications.md)
 - [Documentazione Componenti](tailwind_components.md)
-- [Architettura](architecture.md)
+- [Architettura](ARCHITECTURE.md)

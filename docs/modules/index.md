@@ -16,6 +16,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # 📦 Moduli del Sistema
 
@@ -27,6 +28,7 @@ related:
 **Path**: `Modules/Xot/`  
 **Responsabilità**: Pattern base, service providers, trait condivisi  
 **Status**: ✅ Attivo - Base del sistema  
+**Docs**: [📖 Xot Docs](../../Modules/Xot/docs/README.md)
 **Docs**: [📖 Xot Docs](../../../Xot/docs/README.md)
 
 - `XotBaseModel` - Modello base per tutti i moduli
@@ -38,6 +40,7 @@ related:
 **Path**: `Modules/Fixcity/`  
 **Responsabilità**: Core della piattaforma di segnalazioni  
 **Status**: ✅ Attivo - Modulo principale  
+**Docs**: [📖 Fixcity Docs](../../Modules/Fixcity/docs/links.md)
 **Docs**: [📖 Fixcity Docs](../../../Fixcity/docs/links.md)
 
 - Gestione segnalazioni cittadini
@@ -49,6 +52,7 @@ related:
 **Path**: `Modules/User/`  
 **Responsabilità**: Autenticazione, profili, permessi  
 **Status**: ✅ Attivo - Sistema utenti  
+**Docs**: [📖 User Docs](../../Modules/User/docs/README.md)
 **Docs**: [📖 User Docs](../../../User/docs/README.md)
 
 - Autenticazione Laravel
@@ -62,6 +66,7 @@ related:
 **Path**: `Modules/UI/`  
 **Responsabilità**: Componenti UI riutilizzabili  
 **Status**: ✅ Attivo - Componenti base  
+**Docs**: [📖 UI Docs](../../Modules/UI/docs/README.md)
 **Docs**: [📖 UI Docs](../../../UI/docs/README.md)
 
 - Componenti Livewire condivisi
@@ -73,6 +78,7 @@ related:
 **Path**: `Modules/Cms/`  
 **Responsabilità**: Sistema CMS, pagine statiche  
 **Status**: ✅ Attivo - Content management  
+**Docs**: [📖 CMS Docs](../../Modules/Cms/docs/README.md)
 **Docs**: [📖 CMS Docs](../../../Cms/docs/README.md)
 
 - Gestione pagine JSON
@@ -107,6 +113,7 @@ related:
 **Path**: `Modules/Activity/`  
 **Responsabilità**: Log attività, cronologia  
 **Status**: ✅ Attivo - Audit system  
+**Docs**: [📖 Activity Docs](../../Modules/Activity/docs/README.md)
 **Docs**: [📖 Activity Docs](../../../Activity/docs/README.md)
 
 - Event sourcing pattern
@@ -130,6 +137,7 @@ related:
 **Path**: `Modules/AI/`  
 **Responsabilità**: Integrazione AI/ML  
 **Status**: ✅ Attivo - AI services  
+**Docs**: [📖 AI Docs](../../Modules/AI/docs/README.md)
 **Docs**: [📖 AI Docs](../../../AI/docs/README.md)
 
 - Classificazione automatica segnalazioni
@@ -173,6 +181,7 @@ related:
 **Path**: `Modules/Rating/`  
 **Responsabilità**: Valutazioni e feedback  
 **Status**: ✅ Attivo - Rating system  
+**Docs**: [📖 Rating Docs](../../Modules/Rating/docs/README.md)
 **Docs**: [📖 Rating Docs](../../../Rating/docs/README.md)
 
 - User ratings
@@ -208,6 +217,7 @@ related:
 **Path**: `Modules/Blog/`  
 **Responsabilità**: Pubblicazione contenuti blog  
 **Status**: ✅ Attivo - Content publishing  
+**Docs**: [📖 Blog Docs](../../Modules/Blog/docs/README.md)
 **Docs**: [📖 Blog Docs](../../../Blog/docs/README.md)
 
 - Post management

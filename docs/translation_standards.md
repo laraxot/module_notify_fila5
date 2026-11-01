@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "translation standards"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: bmad/architecture/translation-standards.md
 ---
 
 # Standard per le Traduzioni 

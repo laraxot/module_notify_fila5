@@ -16,9 +16,12 @@ related:
   - ../../../notifications/readme.md
   - ../../../integrations/readme.md
   - ../../../templates/readme.md
+status: draft
 ---
 # BMad Agents Index
 
+**Source**: [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md) (lines 40-904)  
+**Source**: [`../../../../agents.md`](../../../../../../../../../../agents.md) (lines 40-904)  
 **Source**: [`../../../../AGENTS.md`](../../../../../../../AGENTS.md) (lines 40-904)  
 **Source**: [`../../../../agents.md`](../../../../../../../AGENTS.md) (lines 40-904)  
 **Total Agents**: 10  
@@ -49,6 +52,7 @@ related:
 ## Cross-References
 
 ### Related Documentation
+- ← [BMad Tasks Index](../../tasks/index.md) — 22 reusable task definitions
 - ← [BMad Tasks Index](../tasks/index.md) — 22 reusable task definitions
 - ← [CLAUDE Index](../claude/index.md) — Laravel Boost guidelines
 - ← [GEMINI Index](../gemini/index.md) — Gemini-specific rules
@@ -56,6 +60,8 @@ related:
 
 ### Bidirectional Links
 - ← Back to [Main AI Docs Index](../index.md)
+- ← Back to [../../../../agents.md](../../../../../../../../../../agents.md) (original source)
+- ← Back to [Project Docs](../../../docs/README.md)
 - ← Back to [../../../../agents.md](../../../../../../../AGENTS.md) (original source)
 - ← Back to [Project Docs](../../../README.md)
 
@@ -68,6 +74,8 @@ To activate an agent, mention their ID or name in your request:
 - "Use Product Manager to create a PRD..."
 - "As dev, implement the story..."
 
+For full agent definitions, see the original [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md).
+For full agent definitions, see the original [`../../../../agents.md`](../../../../../../../../../../agents.md).
 For full agent definitions, see the original [`../../../../AGENTS.md`](../../../../../../../AGENTS.md).
 For full agent definitions, see the original [`../../../../agents.md`](../../../../../../../AGENTS.md).
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "testing"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Testing Rules Summary
@@ -394,6 +395,7 @@ protected function createApplication()
 
 - [Testing Setup Guide](../../docs/testing-setup.md)
 - [Testing Best Practices](../../docs/testing-best-practices.md)
+- [Troubleshooting Guide](../../docs/troubleshooting.md)
 - [Troubleshooting Guide](troubleshooting.md)
 
 ## Testing Examples
@@ -505,15 +507,6 @@ Following these guidelines will ensure your Notify module tests are:
 Remember: Good tests are the foundation of reliable software development.
 
 ---
-
-title: "testing"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "testing"
-issues: []
-discussions: []
 *Last updated: January 2025*
 
 ---

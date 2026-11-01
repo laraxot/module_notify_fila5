@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "filament ui enhancements"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: filament-ui-enhancements.md
 ---
 
 # Miglioramenti UI/UX per MailTemplateResource

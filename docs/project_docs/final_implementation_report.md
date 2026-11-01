@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "final implementation report 2025 10 02"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: final-implementation-report-agid.md
 ---
 
 # ✅ AGID Implementation - Final Report

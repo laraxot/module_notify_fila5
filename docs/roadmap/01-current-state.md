@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "01 current state"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: current-state.md
 ---
 
 # Current State - Notify

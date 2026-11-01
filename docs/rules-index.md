@@ -49,6 +49,6 @@ as a Folio page + Action, not a controller.
 See: [no-http-controllers.md](./no-http-controllers.md)
 
 ## Related Documentation
-- [README](./readme.md)
+- [README](./README.md)
 - [phpstan](./phpstan.md)
 - [No HTTP controllers](./no-http-controllers.md)

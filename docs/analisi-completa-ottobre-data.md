@@ -7,21 +7,13 @@ updated: 2026-09-26
 qmd: "analisi completa 2025 10 01"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 📊 ANALISI COMPLETA PROGETTO FIXCITY
 ## Data: 1 Ottobre 2025
 
 ---
-
-title: "analisi completa 2025 10 01"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "analisi completa 2025 10 01"
-issues: []
-discussions: []
 ## 🎯 EXECUTIVE SUMMARY
 
 **FixCity** è una piattaforma di segnalazione cittadina **enterprise-ready** con:
@@ -179,7 +171,7 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 | **Xot** | 9 | Type safety, contracts | 2.5h |
 | **User** | 95 | Property access, types | 6h |
 
-**Dettagli**: [Session Summary](./phpstan/session-summary-2025-10-01.md)
+**Dettagli**: [Session Summary](./phpstan/session-summary.md)
 
 ---
 
@@ -418,9 +410,9 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 ### 📊 Reports & Analysis
 - **[Master Roadmap Index](./roadmap-master-index.md)** ⭐ START HERE
 - **[Project Analysis & Roadmap](./project-analysis-and-roadmap.md)** ⭐ BUSINESS VIEW
-- **[Session Summary 2025-10-01](./phpstan/session-summary-2025-10-01.md)** ⭐ TECHNICAL
-- **[Final Report 2025-10-01](./phpstan/final-report-session-2025-10-01.md)**
-- **[Questo Documento](./ANALISI-COMPLETA-2025-10-01.md)** ⭐ EXECUTIVE
+- **[Session Summary 2025-10-01](./phpstan/session-summary.md)** ⭐ TECHNICAL
+- **[Final Report 2025-10-01](./phpstan/final-report-session.md)**
+- **[Questo Documento](./ANALISI-COMPLETA.md)** ⭐ EXECUTIVE
 
 ### 🎯 Module Roadmaps (Dettagliate)
 - [Xot - Core Framework](../Modules/Xot/docs/roadmap-and-issues.md) - 9 errori, 2.5h fix

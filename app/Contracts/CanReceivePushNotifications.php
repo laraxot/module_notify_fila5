@@ -17,9 +17,7 @@ interface CanReceivePushNotifications
     public function getMobileDeviceTokens(): Collection;
 
     /**
-     * Get the value of the model's primary key.
-     *
-     * @return mixed Come `Illuminate\Database\Eloquent\Model::getKey()`: chiave int|string, tipo dichiarato dal framework
+     * Chiave primaria del modello notificabile (come Model::getKey()).
      */
-    public function getKey();
+    public function getKey(): mixed;
 }

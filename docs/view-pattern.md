@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "view pattern"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Pattern view() — Variabile view-string + Parametri Espliciti
@@ -57,5 +58,7 @@ return view((string) $view);
 ## Collegamenti
 
 - [phpstan_critical_rules](../.cursor/rules/phpstan_critical_rules.md)
+- [AGENTS.md](../AGENTS.md)
+- [agents.md](../agents.md)
 - [AGENTS.md](../../../AGENTS.md)
 - [agents.md](../../../AGENTS.md)

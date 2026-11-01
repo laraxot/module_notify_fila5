@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "sms factor data implementation"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: sms-factorata-implementation.md
 ---
 
 # SmsFactorData Implementation Summary
