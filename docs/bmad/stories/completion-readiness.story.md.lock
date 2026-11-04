@@ -1,0 +1,6 @@
+LOCKED at 2026-10-28T14:07:51+01:00
+Task: completion-readiness-notify
+Agent: codex-readiness-b
+Session: unknown
+PID: 787029
+PID note: subshell di lock.sh, gia' terminato — NON usarlo per giudicare il lock stale, guarda 'LOCKED at'
