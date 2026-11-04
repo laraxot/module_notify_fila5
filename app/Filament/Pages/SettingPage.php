@@ -24,13 +24,6 @@ class SettingPage extends BaseSettingPage
      * Notify non espone configurazioni di dominio editabili per tenant.
      * EnvWidget conserva la gestione delle sole chiavi environment selezionate.
      *
-<<<<<<< HEAD
-     * @return array<string, object>
-     */
-    protected function getFormSchema(): array
-    {
-        return parent::getFormSchema();
-=======
      * @return array<string, Toggle>
      */
     protected function getFormSchema(): array
@@ -39,7 +32,6 @@ class SettingPage extends BaseSettingPage
             'enabled' => Toggle::make('enabled')->default(true),
             'log_notifications' => Toggle::make('log_notifications')->default(true),
         ];
->>>>>>> 7ed93ce84061a116818a8d1cf3bc896270f205bc
     }
 
     /**
