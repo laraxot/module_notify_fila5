@@ -3,7 +3,6 @@
 declare(strict_types=1);
 use Filament\Facades\Filament;
 use Illuminate\Support\Facades\Route;
-use Modules\Notify\Tests\Support\FakeTenantNotifyConfig;
 use Modules\Notify\Tests\Unit\Traits\NotifyRateLimitDummy;
 use Modules\Notify\Tests\Unit\Traits\NotifyTenantDummyModel;
 use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
@@ -13,10 +12,9 @@ use PHPUnit\Framework\Assert;
 describe('Notify Traits Coverage', function (): void {
     test('_notification_rate_limiting_helpers_work_with_limiter', function (): void {
         config()->set('cache.default', 'array');
-        FakeTenantNotifyConfig::bind([
-            'rate_limiting_enabled' => true,
-            'rate_limiting_max_attempts' => 1,
-            'rate_limiting_decay_minutes' => 1]);
+        config()->set('notify.rate_limiting.enabled', true);
+        config()->set('notify.rate_limiting.max_attempts', 1);
+        config()->set('notify.rate_limiting.decay_minutes', 1);
 
         try {
             $dummy = new NotifyRateLimitDummy;

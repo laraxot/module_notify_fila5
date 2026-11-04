@@ -30,15 +30,6 @@ return [
         ],
     ],
     'fields' => [
-        'rate_limiting_enabled' => [
-            'label' => 'Limit the sending rate',
-        ],
-        'rate_limiting_max_attempts' => [
-            'label' => 'Maximum sends per window',
-        ],
-        'rate_limiting_decay_minutes' => [
-            'label' => 'Window length (minutes)',
-        ],
         'cleanup_enabled' => [
             'label' => 'Automatic log cleanup',
         ],

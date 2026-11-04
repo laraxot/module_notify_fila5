@@ -8,7 +8,6 @@ use Modules\Notify\Actions\Push\SendPushToPlatformAction;
 use Modules\Notify\Actions\Push\SendPushToTopicAction;
 use Modules\Notify\Console\Commands\CleanupNotificationLogsCommand;
 use Modules\Notify\Filament\Pages\SettingPage;
-use Modules\Notify\Traits\HasNotificationRateLimiting;
 use Modules\Xot\Datas\Concerns\MakesFromTenantConfig;
 use Spatie\LaravelData\Data;
 
@@ -20,7 +19,6 @@ use Spatie\LaravelData\Data;
  * qui: e' un segreto e resta in `.env`/`services` (EnvWidget della pagina).
  *
  * @see SettingPage
- * @see HasNotificationRateLimiting
  * @see CleanupNotificationLogsCommand
  * @see SendPushToPlatformAction
  * @see SendPushToTopicAction
@@ -28,15 +26,6 @@ use Spatie\LaravelData\Data;
 class NotifyConfigData extends Data
 {
     use MakesFromTenantConfig;
-
-    /** Limita gli invii per chiave (HasNotificationRateLimiting). Spento, ogni invio passa (prima `config('notify.rate_limiting.enabled')`, NULL). */
-    public bool $rate_limiting_enabled = false;
-
-    /** Invii consentiti per chiave nella finestra. */
-    public int $rate_limiting_max_attempts = 5;
-
-    /** Minuti di durata della finestra del rate limiting. */
-    public int $rate_limiting_decay_minutes = 1;
 
     /** Abilita `notify:cleanup-logs`; spenta, il comando rifiuta di girare (prima `config('notify.cleanup.enabled')`, NULL). */
     public bool $cleanup_enabled = false;

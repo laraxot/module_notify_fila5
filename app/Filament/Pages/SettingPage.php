@@ -25,7 +25,7 @@ class SettingPage extends BaseSettingPage
     protected string $view = 'notify::filament.pages.setting';
 
     /**
-     * Rate limiting degli invii, pulizia dei log, endpoint FCM e link dei footer delle mail. Il segreto `fcm.server_key` non
+     * Pulizia dei log ed endpoint FCM. Il segreto `fcm.server_key` non
      * e' un campo: EnvWidget (header) gestisce solo le chiavi `.env` selezionate.
      *
      * @return array<string, TextInput|Toggle>
@@ -33,17 +33,6 @@ class SettingPage extends BaseSettingPage
     protected function getFormSchema(): array
     {
         return [
-            'rate_limiting_enabled' => Toggle::make('rate_limiting_enabled'),
-            'rate_limiting_max_attempts' => TextInput::make('rate_limiting_max_attempts')
-                ->numeric()
-                ->integer()
-                ->minValue(1)
-                ->required(),
-            'rate_limiting_decay_minutes' => TextInput::make('rate_limiting_decay_minutes')
-                ->numeric()
-                ->integer()
-                ->minValue(1)
-                ->required(),
             'cleanup_enabled' => Toggle::make('cleanup_enabled'),
             'cleanup_older_than_days' => TextInput::make('cleanup_older_than_days')
                 ->numeric()

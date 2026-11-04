@@ -1,7 +1,7 @@
 ---
 title: NotifyConfigData, la SettingPage di Notify si apre
 qmd: "Notify SettingPage configurazione tenant BaseSettingPage Filament"
-status: in-progress
+status: superseded
 module: Notify (owner)
 created: 2026-11-04
 related:
@@ -31,3 +31,7 @@ prima apertura della pagina.
 ## Test
 
 - `tests/Unit/Datas/NotifyConfigDataTest.php`: convenzione nome e file tenant.
+
+## Superata
+
+Superata da [setting-page-campi-reali](./setting-page-campi-reali.story.md): la pagina ora ha campi con lettore.

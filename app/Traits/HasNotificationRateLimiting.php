@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Traits;
 
 use Illuminate\Cache\RateLimiter;
-use Modules\Notify\Datas\NotifyConfigData;
 use Webmozart\Assert\Assert;
 
 /**
@@ -20,13 +19,16 @@ trait HasNotificationRateLimiting
      */
     protected function shouldSendNotification(string $key): bool
     {
-        $settings = NotifyConfigData::make();
-        if (! $settings->rate_limiting_enabled) {
+        if (! config('notify.rate_limiting.enabled')) {
             return true;
         }
 
-        $maxAttempts = $settings->rate_limiting_max_attempts;
-        $decayMinutes = $settings->rate_limiting_decay_minutes;
+        $maxAttempts = config('notify.rate_limiting.max_attempts', 5);
+        $decayMinutes = config('notify.rate_limiting.decay_minutes', 1);
+        Assert::integerish($maxAttempts);
+        Assert::integerish($decayMinutes);
+        $maxAttempts = (int) $maxAttempts;
+        $decayMinutes = (int) $decayMinutes;
 
         $limiter = app(RateLimiter::class);
 
@@ -60,7 +62,9 @@ trait HasNotificationRateLimiting
      */
     protected function getNotificationRateLimitRemainingAttempts(string $key): int
     {
-        $maxAttempts = NotifyConfigData::make()->rate_limiting_max_attempts;
+        $maxAttempts = config('notify.rate_limiting.max_attempts', 5);
+        Assert::integerish($maxAttempts);
+        $maxAttempts = (int) $maxAttempts;
 
         $limiter = app(RateLimiter::class);
 
