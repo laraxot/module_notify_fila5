@@ -19,4 +19,6 @@ use Spatie\LaravelData\Data;
 class NotifyConfigData extends Data
 {
     use MakesFromTenantConfig;
+
+    public bool $enabled = true;
 }

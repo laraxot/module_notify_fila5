@@ -23,11 +23,11 @@ class SettingPage extends BaseSettingPage
      * Notify non espone configurazioni di dominio editabili per tenant.
      * EnvWidget conserva la gestione delle sole chiavi environment selezionate.
      *
-     * @return array<string, never>
+     * @return array<string, object>
      */
     protected function getFormSchema(): array
     {
-        return [];
+        return parent::getFormSchema();
     }
 
     /**
