@@ -587,7 +587,7 @@ related:
 ```
 Each Module/Theme has:
 
-00-index-1.md
+00-index.md
 ├─ Purpose & scope
 ├─ Key classes & files
 ├─ Dependencies
@@ -781,7 +781,7 @@ Relevant Master Index (MODULE or THEME)
   │ (Module Index or Theme Index)
   │
   ▼
-Module/Theme 00-index-1.md
+Module/Theme 00-index.md
   │ (Component details)
   │
   ▼
@@ -814,7 +814,7 @@ Module Documentation (module-docs-index.md)
   │ (Get module overview)
   │
   ▼
-Module 00-index-1.md
+Module 00-index.md
   │ (Dependencies, classes)
   │
   ▼
@@ -877,13 +877,13 @@ laravel/
 ```
 laravel/Modules/
 ├── Xot/docs/
-│   ├── 00-index-1.md
+│   ├── 00-index.md
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/
 │
 ├── Cms/docs/
-│   ├── 00-index-1.md
+│   ├── 00-index.md
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/
@@ -896,7 +896,7 @@ laravel/Modules/
 ```
 laravel/Themes/
 ├── Sixteen/docs/
-│   ├── 00-index-1.md
+│   ├── 00-index.md
 │   ├── architecture/
 │   ├── design-comuni/
 │   ├── components/
@@ -905,7 +905,7 @@ laravel/Themes/
 │   └── screenshots/
 │
 └── TwentyOne/docs/
-    ├── 00-index-1.md
+    ├── 00-index.md
     └── (similar structure)
 ```
 
@@ -960,7 +960,7 @@ laravel/Themes/
    - General? → docs/
 
 2. Follow structure:
-   - 00-index-1.md (always)
+   - 00-index.md (always)
    - architecture/ (how it works)
    - guides/ (how-to)
    - reference/ (API)
@@ -982,7 +982,7 @@ laravel/Themes/
 
 Every documentation hub should have:
 
-- [ ] **00-index-1.md** - Master index for the section
+- [ ] **00-index.md** - Master index for the section
 - [ ] **architecture/** - Diagrams and structure
 - [ ] **guides/** - How-to guides and examples
 - [ ] **reference/** - API and configuration reference
@@ -1028,7 +1028,7 @@ Connected Via:
 1. Start: [Copilot Instructions](../../../.github/copilot-instructions.md)
 2. Understand: [Architecture Diagrams](architecture-diagrams.md)
 3. Explore: [Module Index](module-docs-index.md) or [Theme Index](THEMES_documentation-index.md)
-4. Deep Dive: Relevant module/theme 00-index-1.md
+4. Deep Dive: Relevant module/theme 00-index.md
 5. Implement: Using guides and examples
 6. Validate: Against claude.md standards
 
@@ -3047,10 +3047,10 @@ Notify Fila5 Documentation (7,299 files)
 │   ├── Sixteen/docs/ (325 files)
 │   │   ├── README.md
 │   │   ├── layout-architecture.md
-│   │   ├── LAYOUT_ARCHITECTURE_MAP.md
-│   │   ├── LAYOUT_FIX_COMPLETE_BMAD.md
-│   │   ├── VITE_MANIFEST_FIX_COMPLETE.md
-│   │   ├── PHPSTAN_LAYOUT_FIX_COMPLETE.md
+│   │   ├── layout-architecture-map.md
+│   │   ├── layout-fix-complete-bmad.md
+│   │   ├── vite-manifest-fix-complete.md
+│   │   ├── phpstan-layout-fix-complete.md
 │   │   ├── components/
 │   │   ├── guides/
 │   │   └── ...
@@ -3126,10 +3126,10 @@ Notify Fila5 Documentation (7,299 files)
 | File | Purpose | Lines |
 |------|---------|-------|
 | `docs/module-docs-index.md` | Master documentation index | 400+ |
-| `Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_MAP.md` | Layout navigation map | 350+ |
-| `Themes/Sixteen/docs/LAYOUT_FIX_COMPLETE_BMAD.md` | Layout fix summary | 400+ |
+| `Themes/Sixteen/docs/layout-architecture-map.md` | Layout navigation map | 350+ |
+| `Themes/Sixteen/docs/layout-fix-complete-bmad.md` | Layout fix summary | 400+ |
 | `Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md` | Vite build fix | 300+ |
-| `Themes/Sixteen/docs/PHPSTAN_LAYOUT_FIX_COMPLETE.md` | PHPStan + layout summary | 250+ |
+| `Themes/Sixteen/docs/phpstan-layout-fix-complete.md` | PHPStan + layout summary | 250+ |
 
 ### Updated Documents
 
@@ -3364,7 +3364,7 @@ Start at theme index:
 - [BMad Workflow](_bmad-output/BMAD-WORKFLOW-COMPLETE.md) - BMad summary
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md) - Theme layouts
 - [Vite Manifest Fix](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build fix
-- [PHPStan + Layout](Themes/Sixteen/docs/PHPSTAN_LAYOUT_FIX_COMPLETE.md) - Combined summary
+- [PHPStan + Layout](Themes/Sixteen/docs/phpstan-layout-fix-complete.md) - Combined summary
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: NotifyConfigData, la SettingPage di Notify si apre
 qmd: "Notify SettingPage configurazione tenant BaseSettingPage Filament"
-status: done
+status: in-progress
 module: Notify (owner)
 created: 2026-11-04
 related:
   - ./setting-page-access-and-name.story.md
-  - ../../../Xot/docs/stories/setting-page-tutti-i-moduli.story.md
+  - ../../../Xot/docs/bmad/stories/setting-page-tutti-i-moduli.story.md
 ---
 
 # NotifyConfigData, la SettingPage di Notify si apre

@@ -136,7 +136,7 @@ docs/design-comuni/master-index.md
 ├─→ laravel/Themes/Sixteen/docs/design-comuni/
 │   ├─→ 00-index.md
 │   ├─→ DOMANDE_FREQUENTI_HTML_analysis.md
-│   ├─→ DOMANDE_FREQUENTI_IMPLEMENTAZIONE.md
+│   ├─→ domande-frequenti-implementazione.md
 │   ├─→ DOMANDE_FREQUENTI_analisi-visiva.md
 │   ├─→ DOMANDE_FREQUENTI_report-finale.md
 │   └─→ screenshots/ (146 files)
@@ -165,7 +165,7 @@ docs/design-comuni/master-index.md
 | design-comuni-faq.md | 8 | 2 | 10 |
 | design-comuni-faq-components.md | 8 | 2 | 10 |
 | DOMANDE_FREQUENTI_HTML_analysis.md | 2 | 2 | 4 |
-| DOMANDE_FREQUENTI_IMPLEMENTAZIONE.md | 2 | 2 | 4 |
+| domande-frequenti-implementazione.md | 2 | 2 | 4 |
 | DOMANDE_FREQUENTI_analisi-visiva.md | 2 | 2 | 4 |
 | DOMANDE_FREQUENTI_report-finale.md | 2 | 2 | 4 |
 | DESIGN_COMUNI_SCREENSHOT_SCRIPT.md | 2 | 2 | 4 |

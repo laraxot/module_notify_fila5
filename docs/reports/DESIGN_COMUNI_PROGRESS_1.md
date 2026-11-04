@@ -229,7 +229,7 @@ Docs       [██████████] 100% (3/3)
 
 ### Created
 
-1. **DESIGN_COMUNI_REPLICATION_PLAN.md** (15KB)
+1. **design-comuni-replication-plan.md** (15KB)
    - Complete page inventory (38 pages)
    - Component architecture
    - DRY + KISS guidelines
