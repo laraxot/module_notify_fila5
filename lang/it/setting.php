@@ -29,4 +29,30 @@ return [
             'tooltip' => 'Esci',
         ],
     ],
+    'fields' => [
+        'rate_limiting_enabled' => [
+            'label' => 'Limita la frequenza degli invii',
+        ],
+        'rate_limiting_max_attempts' => [
+            'label' => 'Invii massimi per finestra',
+        ],
+        'rate_limiting_decay_minutes' => [
+            'label' => 'Durata della finestra (minuti)',
+        ],
+        'cleanup_enabled' => [
+            'label' => 'Pulizia automatica dei log',
+        ],
+        'cleanup_older_than_days' => [
+            'label' => 'Elimina i log piu vecchi di (giorni)',
+        ],
+        'cleanup_batch_size' => [
+            'label' => 'Dimensione del batch di eliminazione',
+        ],
+        'cleanup_keep_failed' => [
+            'label' => 'Conserva i log degli invii falliti',
+        ],
+        'fcm_url' => [
+            'label' => 'Endpoint FCM',
+        ],
+    ],
 ];

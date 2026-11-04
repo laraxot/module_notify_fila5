@@ -29,4 +29,30 @@ return [
             'tooltip' => 'Log out',
         ],
     ],
+    'fields' => [
+        'rate_limiting_enabled' => [
+            'label' => 'Limit the sending rate',
+        ],
+        'rate_limiting_max_attempts' => [
+            'label' => 'Maximum sends per window',
+        ],
+        'rate_limiting_decay_minutes' => [
+            'label' => 'Window length (minutes)',
+        ],
+        'cleanup_enabled' => [
+            'label' => 'Automatic log cleanup',
+        ],
+        'cleanup_older_than_days' => [
+            'label' => 'Delete logs older than (days)',
+        ],
+        'cleanup_batch_size' => [
+            'label' => 'Deletion batch size',
+        ],
+        'cleanup_keep_failed' => [
+            'label' => 'Keep logs of failed sends',
+        ],
+        'fcm_url' => [
+            'label' => 'FCM endpoint',
+        ],
+    ],
 ];
