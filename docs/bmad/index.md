@@ -16,6 +16,7 @@ updated: 2026-10-09
 - [Brainstorming](./brainstorming/)
 - [Epiche](./epics/)
 - [Stories](./stories/)
+- [Migrazione SettingPage alla base comune](./stories/setting-page-base-migration.story.md)
 - [Wiki del modulo](../wiki/)
 
 ## Legacy da consultare, non da estendere
