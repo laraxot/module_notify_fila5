@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Pages;
 
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Widgets\WidgetConfiguration;
+use Modules\Notify\Datas\NotifyConfigData;
 use Modules\Xot\Filament\Pages\BaseSettingPage;
 use Modules\Xot\Filament\Widgets\EnvWidget;
 
@@ -13,6 +15,8 @@ use Modules\Xot\Filament\Widgets\EnvWidget;
  * Impostazioni operative Notify: configurazione tenant tramite BaseSettingPage
  * e valori infrastrutturali/segreti del file `.env` tramite EnvWidget.
  * I due percorsi restano distinti: i segreti non vengono copiati nella config tenant.
+ *
+ * @see NotifyConfigData
  */
 class SettingPage extends BaseSettingPage
 {
@@ -20,17 +24,38 @@ class SettingPage extends BaseSettingPage
 
     protected string $view = 'notify::filament.pages.setting';
 
-/**
-     * Notify non espone configurazioni di dominio editabili per tenant.
-     * EnvWidget conserva la gestione delle sole chiavi environment selezionate.
+    /**
+     * Pulizia dei log, endpoint FCM e link dei footer delle mail. Il segreto `fcm.server_key` non
+     * e' un campo: EnvWidget (header) gestisce solo le chiavi `.env` selezionate.
      *
-     * @return array<string, Toggle>
+     * @return array<string, TextInput|Toggle>
      */
     protected function getFormSchema(): array
     {
         return [
-            'enabled' => Toggle::make('enabled')->default(true),
-            'log_notifications' => Toggle::make('log_notifications')->default(true),
+            'cleanup_enabled' => Toggle::make('cleanup_enabled'),
+            'cleanup_older_than_days' => TextInput::make('cleanup_older_than_days')
+                ->numeric()
+                ->integer()
+                ->minValue(1)
+                ->required(),
+            'cleanup_batch_size' => TextInput::make('cleanup_batch_size')
+                ->numeric()
+                ->integer()
+                ->minValue(1)
+                ->maxValue(10000)
+                ->required(),
+            'cleanup_keep_failed' => Toggle::make('cleanup_keep_failed'),
+            'fcm_url' => TextInput::make('fcm_url')
+                ->url()
+                ->required()
+                ->maxLength(255),
+            'preferences_url' => TextInput::make('preferences_url')
+                ->url()
+                ->maxLength(255),
+            'support_url' => TextInput::make('support_url')
+                ->url()
+                ->maxLength(255),
         ];
     }
 
