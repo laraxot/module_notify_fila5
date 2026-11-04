@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan session report"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan Session Report - Ottobre 2025
@@ -31,15 +32,6 @@ discussions: []
 - **Riduzione:** **-3282 errori (-45.5%)**
 
 ---
-
-title: "phpstan session report"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan session report"
-issues: []
-discussions: []
 ## 🏆 ACHIEVEMENTS UNLOCKED
 
 ### Moduli Completamente Puliti

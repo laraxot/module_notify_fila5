@@ -1,3 +1,11 @@
+---
+title: "Analisi PHPStan Test - Situazione Corrente"
+type: note
+status: draft
+updated: 2026-09-16
+tags: [docs, notify, phpstan]
+qmd: "analisi phpstan test - situazione corrente notify"
+---
 # Analisi PHPStan Test - Situazione Corrente
 
 ## 🎯 Executive Summary

@@ -1,3 +1,11 @@
+---
+title: "PHPStan Cleanup Report"
+type: note
+status: draft
+updated: 2026-09-16
+tags: [docs, notify, phpstan]
+qmd: "phpstan cleanup report notify"
+---
 # PHPStan Cleanup Report
 
 **Data**: 2025-10-04  

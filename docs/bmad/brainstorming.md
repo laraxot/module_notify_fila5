@@ -3,7 +3,7 @@ title: "Notify — brainstorming"
 type: brainstorming
 tags: [notify, brainstorming, risks, open-questions, decisions, channels]
 created: 2026-09-28
-updated: 2026-10-07
+updated: 2026-10-23
 qmd: "Notify brainstorming decisioni aperte scartate rischi canali notifica"
 related:
   - ./README.md
@@ -38,8 +38,8 @@ status: draft
 | `NotifyTheme` usa `linkable()` MorphTo | approvata | `app/Models/NotifyTheme.php:121` |
 | Canali esterni in `app/Channels/` (SMS, Telegram, WhatsApp, Netfun) | approvati | `app/Channels/` |
 | Merge config da env in `MergesNotifyConfigFromEnv` | approvato | `app/Providers/Concerns/MergesNotifyConfigFromEnv.php` |
-| Notifiche in coda tramite `SendNotificationJob` | approvato | `app/Jobs/SendNotificationJob.php` |
-| Push programmato in `SendScheduledPushNotification` | approvato | `app/Jobs/SendScheduledPushNotification.php` |
+| Notifiche in coda con la Queueable Action stessa (`->onQueue()->execute(...)`), senza Job: `SendNotificationJob` rimosso (story 4.27, [regola](../../../../../bashscripts/ai/wiki/rules/no-module-jobs-queueable-action.md)) | approvato | `app/Actions/SendNotificationAction.php`, `app/Actions/SendRecordsNotificationAction.php` |
+| Push programmato: `SchedulePushNotificationAction` accoda `SendScheduledPushNotificationAction` con `ActionJob::dispatch(...)->delay(...)` | approvato | `app/Actions/Push/SchedulePushNotificationAction.php` |
 | Migrazioni obsolete in `_archive_redundant/` non applicate | approvato | `database/migrations/_archive_redundant/` |
 
 ## Domande aperte

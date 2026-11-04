@@ -1,3 +1,11 @@
+---
+title: "test_smtp"
+type: note
+status: draft
+updated: 2026-10-15
+tags: [docs, notify, _integration]
+qmd: "test_smtp notify"
+---
 # test_smtp
 
 <!-- Contenuto migrato da _docs/test_smtp.txt -->

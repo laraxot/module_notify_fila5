@@ -10,9 +10,6 @@ thisStepFile: './step-01-validate-prerequisites.md'
 nextStepFile: './step-02-design-epics.md'
 workflowFile: '{workflow_path}/workflow.md'
 outputFile: '{planning_artifacts}/epics.md'
-epicsTemplate: '{workflow_path}/templates/epics-template.md'
-
-# Task References
 advancedElicitationTask: 'skill:bmad-advanced-elicitation'
 partyModeWorkflow: 'skill:bmad-party-mode'
 

@@ -1,3 +1,11 @@
+---
+title: "Notifiche Telegram"
+type: note
+status: draft
+updated: 2026-10-15
+tags: [docs, notify, notifications]
+qmd: "notifiche telegram notify"
+---
 # Notifiche Telegram 
 
 Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di SaluteOra.

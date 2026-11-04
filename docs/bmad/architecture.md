@@ -107,12 +107,12 @@ status: draft
 | `TicketAssignedNotification` | `app/Notifications/TicketAssignedNotification.php` |
 | `TicketStatusChangedNotification` | `app/Notifications/TicketStatusChangedNotification.php` |
 
-## Jobs
+## Esecuzione in coda
 
-| Job | File |
-|---|---|
-| `SendNotificationJob` | `app/Jobs/SendNotificationJob.php` |
-| `SendScheduledPushNotification` | `app/Jobs/SendScheduledPushNotification.php` |
+| Caso d'uso | Action canonica | Dispatch |
+|---|---|---|
+| Invio notifica | `app/Actions/SendNotificationAction.php` | sincrono o `QueueableAction` |
+| Push programmato | `app/Actions/Push/SendScheduledPushNotificationAction.php` | `ActionJob::dispatch(...)->delay(...)` |
 
 ## Action orchestrative
 

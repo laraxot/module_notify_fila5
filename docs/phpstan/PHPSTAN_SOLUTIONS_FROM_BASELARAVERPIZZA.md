@@ -1,3 +1,11 @@
+---
+title: "PHPStan Solutions from base_laravelpizza - 2026-03-02"
+type: note
+status: draft
+updated: 2026-09-16
+tags: [docs, notify, phpstan]
+qmd: "phpstan solutions from base_laravelpizza - 2026-03-02 notify"
+---
 # PHPStan Solutions from base_laravelpizza - 2026-03-02
 
 ## Overview

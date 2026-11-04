@@ -49,7 +49,7 @@ documenta:
 | Actions Mail | `app/Actions/Mail/` (7 file) |
 | Enums | `app/Enums/` (9 file) |
 | Config | `config/sms.php`, `config/telegram.php`, `config/whatsapp.php`, `config/notify.php` |
-| Jobs | `app/Jobs/` (2 file) |
+| Coda | `QueueableAction` in `app/Actions/` |
 | Facade | `app/Facades/NotificationFacade.php` |
 | Migrations | `database/migrations/2022_10_12_133532_create_notifications_table.php` |
 

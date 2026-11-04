@@ -1,3 +1,11 @@
+---
+title: "Achievement: Xot Module PHPStan Level 10"
+type: note
+status: draft
+updated: 2026-09-16
+tags: [docs, notify, phpstan]
+qmd: "achievement: xot module phpstan level 10 notify"
+---
 # Achievement: Xot Module PHPStan Level 10
 
 **Data:** 10 Ottobre 2025  

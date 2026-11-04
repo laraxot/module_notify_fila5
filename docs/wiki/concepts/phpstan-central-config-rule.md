@@ -10,9 +10,9 @@ created: 2026-04-16
 updated: 2026-10-20
 related:
   - llm-wiki-governance.md
-  - ../project/qmd-local-docs-search.md
+  - ../../project/qmd-local-docs-search.md
   - ../../../../Xot/docs/wiki/memories/phpstan-single-neon-config.md
-  - ../../00-INDEX.md
+  - ../../00-index.md
 status: active
 ---
 
