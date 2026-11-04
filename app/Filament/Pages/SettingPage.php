@@ -20,7 +20,7 @@ class SettingPage extends BaseSettingPage
 
     protected string $view = 'notify::filament.pages.setting';
 
-    /**
+/**
      * Notify non espone configurazioni di dominio editabili per tenant.
      * EnvWidget conserva la gestione delle sole chiavi environment selezionate.
      *
