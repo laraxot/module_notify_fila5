@@ -21,4 +21,9 @@ class NotifyConfigData extends Data
     use MakesFromTenantConfig;
 
     public bool $enabled = true;
+<<<<<<< HEAD
+=======
+
+    public bool $log_notifications = true;
+>>>>>>> 7ed93ce84061a116818a8d1cf3bc896270f205bc
 }
