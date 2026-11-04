@@ -1,6 +1,6 @@
 ---
 title: SettingPage di Notify con campi reali
-status: in-progress
+status: done
 module: Notify
 type: story
 created: 2026-11-04
@@ -70,3 +70,12 @@ Il working tree conteneva `enabled` e `log_notifications`, aggiunti senza lettor
   ogni test di Notify cadeva in `setUp` con "Database connection [fixcity] not configured". Tolti `fixcity` e `mariadb`.
 - Pest: lanciare senza l'override `DB_DATABASE=trade_test`: la connessione `notify` usa `DB_DATABASE` come file sqlite e
   `trade_test` non e' un percorso.
+
+## Esito dei gate
+
+- Pest `NotifyConfigDataTest`: 12 test, 50 asserzioni, verdi. `NotifyTraitsCoverageTest`: 4 verdi (il file e' tornato com'era: il
+  rate limiting non e' piu' pilotato dalla Data). `NotifyHighestMissCoverageTest`: 18 verdi e 1 rosso estraneo
+  (`HtmlLayoutPathSelect` cerca una cartella `mail-layouts` che non esiste: `DirectoryNotFoundException`).
+- PHPStan livello max sui file toccati: 0 errori. Pint: pulito.
+- Il RED non e' stato osservato prima dei lettori: i lettori sono stati cambiati prima che Pest potesse girare, per i marcatori
+  di merge committati da altri agenti in Activity e Gdpr e per `fixcity` in `TestCase`.
