@@ -58,7 +58,7 @@ status: draft
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
 
-Canonico: [00-INDEX.md](./00-INDEX.md). Scopo: [scopo.md](./scopo.md).
+Scopo e confini del modulo: [scopo.md](./scopo.md).
 
 ## Cosa manca per completare
 
