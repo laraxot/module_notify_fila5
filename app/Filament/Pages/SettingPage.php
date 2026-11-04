@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Pages;
 
+use Filament\Forms\Components\Toggle;
 use Filament\Widgets\WidgetConfiguration;
 use Modules\Xot\Filament\Pages\BaseSettingPage;
 use Modules\Xot\Filament\Widgets\EnvWidget;
@@ -23,11 +24,14 @@ class SettingPage extends BaseSettingPage
      * Notify non espone configurazioni di dominio editabili per tenant.
      * EnvWidget conserva la gestione delle sole chiavi environment selezionate.
      *
-     * @return array<string, never>
+     * @return array<string, Toggle>
      */
     protected function getFormSchema(): array
     {
-        return [];
+        return [
+            'enabled' => Toggle::make('enabled')->default(true),
+            'log_notifications' => Toggle::make('log_notifications')->default(true),
+        ];
     }
 
     /**
