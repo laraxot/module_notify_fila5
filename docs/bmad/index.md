@@ -1,5 +1,5 @@
 ---
-title: Notify — indice BMAD
+title: Notify: indice BMAD
 type: index
 tags: [docs, bmad, notify]
 qmd: "Notify indice BMAD documentazione"
@@ -7,7 +7,7 @@ status: draft
 updated: 2026-10-09
 ---
 
-# Notify — indice BMAD
+# Notify: indice BMAD
 
 ## Canonico
 

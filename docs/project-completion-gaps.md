@@ -1,5 +1,5 @@
 ---
-title: "Lacune di completamento — Notify"
+title: "Lacune di completamento: Notify"
 type: audit
 status: open
 created: 2026-10-28
@@ -10,7 +10,7 @@ related:
   - "../../Xot/docs/project-completion-readiness.md"
 ---
 
-# Lacune di completamento — Notify
+# Lacune di completamento: Notify
 
 ## Esito
 
@@ -69,13 +69,13 @@ Lettura read-only delle 48 story locali (`*.story.md`): 33 hanno uno stato diver
 
 ### Esempi prioritari da riconciliare
 
-- `active` — [`consolidation-orphan-docs.story.md`](bmad/stories/consolidation-orphan-docs.story.md)
-- `in-progress` — [`resolve-conflict-markers-notify.story.md`](stories/resolve-conflict-markers-notify.story.md)
-- `open` — [`notify-tracked-github-skills-hygiene.story.md`](stories/notify-tracked-github-skills-hygiene.story.md)
-- `ready-for-dev` — [`01.consolidate-email-into-notify.story.md`](stories/01.consolidate-email-into-notify.story.md)
-- `ready-for-dev` — [`12.1.notify-notifications-fqcn.story.md`](stories/12.1.notify-notifications-fqcn.story.md)
-- `ready-for-dev` — [`4.23.phpstan-regression-remediation.story.md`](stories/4.23.phpstan-regression-remediation.story.md)
-- `ready-for-dev` — [`4.25.git-conflict-marker-remediation.story.md`](stories/4.25.git-conflict-marker-remediation.story.md)
-- `ready-for-dev` — [`4.32.notify-phpstan-swarm-internal-errors.story.md`](stories/4.32.notify-phpstan-swarm-internal-errors.story.md)
+- `active`: [`consolidation-orphan-docs.story.md`](bmad/stories/consolidation-orphan-docs.story.md)
+- `in-progress`: [`resolve-conflict-markers-notify.story.md`](stories/resolve-conflict-markers-notify.story.md)
+- `open`: [`notify-tracked-github-skills-hygiene.story.md`](stories/notify-tracked-github-skills-hygiene.story.md)
+- `ready-for-dev`: [`01.consolidate-email-into-notify.story.md`](stories/01.consolidate-email-into-notify.story.md)
+- `ready-for-dev`: [`12.1.notify-notifications-fqcn.story.md`](stories/12.1.notify-notifications-fqcn.story.md)
+- `ready-for-dev`: [`4.23.phpstan-regression-remediation.story.md`](stories/4.23.phpstan-regression-remediation.story.md)
+- `ready-for-dev`: [`4.25.git-conflict-marker-remediation.story.md`](stories/4.25.git-conflict-marker-remediation.story.md)
+- `ready-for-dev`: [`4.32.notify-phpstan-swarm-internal-errors.story.md`](stories/4.32.notify-phpstan-swarm-internal-errors.story.md)
 
 Prima di lavorare su questi elementi, verificare lo stato canonico nello sprint status, claim/lock e dipendenze. Una story senza `status` non va considerata automaticamente completata.
