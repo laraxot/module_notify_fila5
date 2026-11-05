@@ -10,10 +10,6 @@ use Modules\Notify\Tests\TestCase;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-=======
-uses(\Modules\Notify\Tests\TestCase::class);
->>>>>>> laraxot/dev
 class NotificationTemplateTest extends TestCase
 {
 

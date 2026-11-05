@@ -11,10 +11,6 @@ use Modules\Notify\Models\NotifyThemeable;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-=======
-uses(\Modules\Notify\Tests\TestCase::class);
->>>>>>> laraxot/dev
 function notifyThemeableTestDomain(): string
 {
     $domain = config('app.domain', 'example.com');

@@ -37,10 +37,6 @@ use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-=======
-uses(\Modules\Notify\Tests\TestCase::class);
->>>>>>> laraxot/dev
 function makeEditContactTestProxy(): EditContactTestProxy
 {
     return new EditContactTestProxy;
