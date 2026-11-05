@@ -101,6 +101,10 @@ class NotifyTheme extends BaseModel
         'logo'];
 
     /**
+     * `logo` non e' una colonna: l'accessor delega al gemello e `$value` resta per il contratto accessor di Xot.
+     *
+     * @SuppressWarnings("PHPMD.UnusedFormalParameter")
+     *
      * @param  array<string, mixed>|null  $value
      * @return array{path: string, width: int, height: int}
      */
@@ -110,7 +114,7 @@ class NotifyTheme extends BaseModel
     }
 
     /**
-     * @return array{path: string, width: int|mixed, height: int|mixed}
+     * @return array{path: string, width: int, height: int}
      */
     public function getLogo(): array
     {
