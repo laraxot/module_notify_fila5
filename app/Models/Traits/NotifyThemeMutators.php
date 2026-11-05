@@ -18,20 +18,23 @@ trait NotifyThemeMutators
 {
     /**
      * @param array<string, int> $value
-     * @return array<string, int>
+     * @return array<string, int|string>
      */
     function getLogoAttribute(?array $value): array
     {
         return $this->getLogo();
     }
 
+    /**
+     * @return array<string, int|string>
+     */
     function getLogo(): array
-        {
-            return [
-                // 'path' => asset(strval($this->logo_src)),
-                'path' => url($this->getFirstMediaUrl()),
-                'width' => $this->logo_width ?? 50,
-                'height' => $this->logo_height ?? 50];
-        }
+    {
+        return [
+            // 'path' => asset(strval($this->logo_src)),
+            'path' => url($this->getFirstMediaUrl()),
+            'width' => (int) ($this->logo_width ?? 50),
+            'height' => (int) ($this->logo_height ?? 50)];
+    }
 
 }

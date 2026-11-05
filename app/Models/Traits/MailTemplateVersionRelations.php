@@ -17,9 +17,12 @@ use Modules\Notify\Models\MailTemplate;
 
 trait MailTemplateVersionRelations
 {
+    /**
+     * @phpstan-return BelongsTo<MailTemplate, $this>
+     */
     function template(): BelongsTo
-        {
-            return $this->belongsTo(MailTemplate::class, 'template_id');
-        }
+    {
+        return $this->belongsTo(MailTemplate::class, 'template_id');
+    }
 
 }

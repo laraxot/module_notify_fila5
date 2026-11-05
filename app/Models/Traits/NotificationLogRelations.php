@@ -17,14 +17,20 @@ use Modules\Notify\Models\NotificationTemplate;
 
 trait NotificationLogRelations
 {
+    /**
+     * @phpstan-return MorphTo<\Illuminate\Database\Eloquent\Model, $this>
+     */
     function notifiable(): MorphTo
-        {
-            return $this->morphTo();
-        }
+    {
+        return $this->morphTo();
+    }
 
+    /**
+     * @phpstan-return BelongsTo<NotificationTemplate, $this>
+     */
     function template(): BelongsTo
-        {
-            return $this->belongsTo(NotificationTemplate::class, 'template_id');
-        }
+    {
+        return $this->belongsTo(NotificationTemplate::class, 'template_id');
+    }
 
 }

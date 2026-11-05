@@ -16,14 +16,20 @@ use Modules\Notify\Models\MailTemplate;
 
 trait MailTemplateLogRelations
 {
+    /**
+     * @phpstan-return BelongsTo<MailTemplate, $this>
+     */
     function template(): BelongsTo
-        {
-            return $this->belongsTo(MailTemplate::class, 'template_id');
-        }
+    {
+        return $this->belongsTo(MailTemplate::class, 'template_id');
+    }
 
+    /**
+     * @phpstan-return MorphTo<\Illuminate\Database\Eloquent\Model, $this>
+     */
     function mailable(): MorphTo
-        {
-            return $this->morphTo();
-        }
+    {
+        return $this->morphTo();
+    }
 
 }

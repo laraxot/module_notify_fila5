@@ -9,11 +9,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
+use Modules\Notify\Models\Traits\MailTemplateVersionRelations;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Modules\Notify\Models\Traits\MailTemplateVersionRelations;
 
 /**
  * @property-read ProfileContract|null $creator
@@ -64,7 +64,6 @@ use Modules\Notify\Models\Traits\MailTemplateVersionRelations;
 class MailTemplateVersion extends BaseModel
 {
     use MailTemplateVersionRelations;
-
     use SoftDeletes, Updater;
 
     protected $connection = 'notify';
@@ -80,9 +79,9 @@ class MailTemplateVersion extends BaseModel
         'created_by',
         'change_notes'];
 
-    /** @return BelongsTo<MailTemplate, $this> */
-
-
+    /**
+     * @return MailTemplate
+     */
     public function restoreTemplate(): MailTemplate
     {
         $template = $this->template;

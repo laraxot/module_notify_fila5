@@ -17,7 +17,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 trait NotifyThemeRelations
 {
     /**
-     * @return MorphTo<Media, static>
+     * @phpstan-return MorphTo<\Illuminate\Database\Eloquent\Model, $this>
      */
     function linkable(): MorphTo
     {

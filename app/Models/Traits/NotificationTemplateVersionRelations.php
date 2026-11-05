@@ -15,9 +15,12 @@ use Modules\Notify\Models\NotificationTemplate;
 
 trait NotificationTemplateVersionRelations
 {
+    /**
+     * @phpstan-return BelongsTo<NotificationTemplate, $this>
+     */
     function template(): BelongsTo
-        {
-            return $this->belongsTo(NotificationTemplate::class, 'template_id');
-        }
+    {
+        return $this->belongsTo(NotificationTemplate::class, 'template_id');
+    }
 
 }

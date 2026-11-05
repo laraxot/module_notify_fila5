@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Media\Models\Media;
 use Modules\Notify\Actions\RenderNotificationTemplateStringAction;
 use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\Traits\NotificationTemplateMutators;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\Translatable\HasTranslations;
-use Modules\Notify\Models\Traits\NotificationTemplateMutators;
 
 /**
  * Class NotificationTemplate.
@@ -55,9 +55,8 @@ use Modules\Notify\Models\Traits\NotificationTemplateMutators;
  */
 class NotificationTemplate extends BaseModel implements HasMedia
 {
-    use NotificationTemplateMutators;
-
     use HasTranslations;
+    use NotificationTemplateMutators;
 
     /** La chiave e' un UUID char(36): niente auto-increment, altrimenti dopo l'insert l'id diventa '0'. */
     public $incrementing = false;
@@ -223,7 +222,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Get the channels label attribute.
      */
-
 
     /**
      * Get the GrapesJS data.

@@ -11,10 +11,10 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
-use Modules\Xot\Contracts\ProfileContract;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Modules\Notify\Models\Traits\NotifyThemeMutators;
 use Modules\Notify\Models\Traits\NotifyThemeRelations;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
  * Modules\Notify\Models\NotifyTheme.
@@ -122,7 +122,6 @@ class NotifyTheme extends BaseModel
      * Get the parent linkable model (user or post).
      */
     /** @return MorphTo<Model, $this> */
-
 
     /** @return array<string, string> */
     protected function casts(): array

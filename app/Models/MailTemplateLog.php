@@ -10,9 +10,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
+use Modules\Notify\Models\Traits\MailTemplateLogRelations;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Modules\Notify\Models\Traits\MailTemplateLogRelations;
 
 /**
  * @property int|null $template_id
@@ -60,9 +60,7 @@ class MailTemplateLog extends BaseModel
 
     /** @return BelongsTo<MailTemplate, $this> */
 
-
     /** @return MorphTo<Model, $this> */
-
 
     /**
      * Get the attributes that should be cast.

@@ -53,9 +53,9 @@ class NotificationTemplateVersion extends BaseModel
         'created_by',
         'change_notes'];
 
-    /** @return BelongsTo<NotificationTemplate, $this> */
-
-
+    /**
+     * @return NotificationTemplate
+     */
     public function restoreTemplate(): NotificationTemplate
     {
         $template = $this->template;

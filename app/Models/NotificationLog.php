@@ -11,9 +11,9 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
+use Modules\Notify\Models\Traits\NotificationLogRelations;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Modules\Notify\Models\Traits\NotificationLogRelations;
 
 /**
  * @property-read ProfileContract|null $creator
@@ -96,9 +96,7 @@ class NotificationLog extends BaseModel
 
     /** @return MorphTo<Model, $this> */
 
-
     /** @return BelongsTo<NotificationTemplate, $this> */
-
 
     /**
      * @param  Builder<static>  $query
