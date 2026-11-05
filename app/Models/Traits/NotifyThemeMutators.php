@@ -16,10 +16,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 trait NotifyThemeMutators
 {
+    /**
+     * @param array<string, int> $value
+     * @return array<string, int>
+     */
     function getLogoAttribute(?array $value): array
-        {
-            return $this->getLogo();
-        }
+    {
+        return $this->getLogo();
+    }
 
     function getLogo(): array
         {
