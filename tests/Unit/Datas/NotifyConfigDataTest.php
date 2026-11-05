@@ -11,7 +11,12 @@ use Modules\Notify\Datas\PushNotificationData;
 use Modules\Notify\Filament\Pages\SettingPage;
 use Modules\Notify\Tests\Support\FakeTenantNotifyConfig;
 use Modules\Tenant\Actions\Config\GetTenantFilePathAction;
+use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
+=======
+uses(\Modules\Notify\Tests\TestCase::class);
+>>>>>>> laraxot/dev
 /**
  * @return list<string>
  */
@@ -64,7 +69,7 @@ test('a tenant array overrides the defaults', function (): void {
 
 test('a missing tenant file gives the defaults', function (): void {
     if (is_file(app(GetTenantFilePathAction::class)->execute('notify.php'))) {
-        test()->markTestSkipped('Il tenant corrente ha un file notify.php: i default non sono osservabili.');
+        Assert::markTestSkipped('Il tenant corrente ha un file notify.php: i default non sono osservabili.');
     }
 
     expect(NotifyConfigData::make()->toArray())->toBe(NotifyConfigData::from([])->toArray())
