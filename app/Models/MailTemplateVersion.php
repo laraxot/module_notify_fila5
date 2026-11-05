@@ -69,8 +69,7 @@ class MailTemplateVersion extends BaseModel
 
     /** @var list<string> */
     protected $fillable = [
-        'template_id',
-        'mailable',
+        'mail_template_id',
         'subject',
         'html_template',
         'text_template',

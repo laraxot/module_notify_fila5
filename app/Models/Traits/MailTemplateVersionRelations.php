@@ -14,6 +14,6 @@ trait MailTemplateVersionRelations
      */
     public function template(): BelongsTo
     {
-        return $this->belongsTo(MailTemplate::class, 'template_id');
+        return $this->belongsTo(MailTemplate::class, 'mail_template_id');
     }
 }
