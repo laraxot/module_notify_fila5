@@ -13,6 +13,8 @@ use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Modules\Notify\Models\Traits\NotifyThemeMutators;
+use Modules\Notify\Models\Traits\NotifyThemeRelations;
 
 /**
  * Modules\Notify\Models\NotifyTheme.
@@ -78,6 +80,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  */
 class NotifyTheme extends BaseModel
 {
+    use NotifyThemeMutators;
+    use NotifyThemeRelations;
+
     /** @var list<string> */
     protected $fillable = [
         'id',
@@ -104,31 +109,16 @@ class NotifyTheme extends BaseModel
      * @param  array<string, mixed>|null  $value
      * @return array{path: string, width: int, height: int}
      */
-    public function getLogoAttribute(?array $value): array
-    {
-        return $this->getLogo();
-    }
 
     /**
      * @return array{path: string, width: int|mixed, height: int|mixed}
      */
-    public function getLogo(): array
-    {
-        return [
-            // 'path' => asset(strval($this->logo_src)),
-            'path' => url($this->getFirstMediaUrl()),
-            'width' => $this->logo_width ?? 50,
-            'height' => $this->logo_height ?? 50];
-    }
 
     /**
      * Get the parent linkable model (user or post).
      */
     /** @return MorphTo<Model, $this> */
-    public function linkable(): MorphTo
-    {
-        return $this->morphTo(__FUNCTION__, 'post_type', 'post_id');
-    }
+
 
     /** @return array<string, string> */
     protected function casts(): array

@@ -13,6 +13,7 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Modules\Notify\Models\Traits\MailTemplateVersionRelations;
 
 /**
  * @property-read ProfileContract|null $creator
@@ -62,6 +63,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  */
 class MailTemplateVersion extends BaseModel
 {
+    use MailTemplateVersionRelations;
+
     use SoftDeletes, Updater;
 
     protected $connection = 'notify';
@@ -78,10 +81,7 @@ class MailTemplateVersion extends BaseModel
         'change_notes'];
 
     /** @return BelongsTo<MailTemplate, $this> */
-    public function template(): BelongsTo
-    {
-        return $this->belongsTo(MailTemplate::class, 'template_id');
-    }
+
 
     public function restoreTemplate(): MailTemplate
     {

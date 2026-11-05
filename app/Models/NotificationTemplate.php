@@ -12,6 +12,7 @@ use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\Translatable\HasTranslations;
+use Modules\Notify\Models\Traits\NotificationTemplateMutators;
 
 /**
  * Class NotificationTemplate.
@@ -54,6 +55,8 @@ use Spatie\Translatable\HasTranslations;
  */
 class NotificationTemplate extends BaseModel implements HasMedia
 {
+    use NotificationTemplateMutators;
+
     use HasTranslations;
 
     /** La chiave e' un UUID char(36): niente auto-increment, altrimenti dopo l'insert l'id diventa '0'. */
@@ -220,20 +223,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Get the channels label attribute.
      */
-    public function getChannelsLabelAttribute(): string
-    {
-        return $this->getChannelsLabel();
-    }
 
-    public function getChannelsLabel(): string
-    {
-        /** @var array<int, string> $channels */
-        $channels = $this->channels;
-
-        return collect($channels)
-            ->map(fn (string $channel): string => (string) __('notify::template.fields.channel.options.'.$channel.'.label'))
-            ->implode(', ');
-    }
 
     /**
      * Get the GrapesJS data.
