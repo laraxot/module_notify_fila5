@@ -51,6 +51,24 @@ class NotificationTemplateVersion extends BaseModel
         'created_by',
         'change_notes'];
 
+<<<<<<< .merge_file_QVGkJt
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /** @return BelongsTo<NotificationTemplate, $this> */
+
+
+=======
+    /**
+     * @return NotificationTemplate
+     */
+>>>>>>> laraxot/dev
+=======
+    /**
+     * @return NotificationTemplate
+     */
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lSge3J
     public function restoreTemplate(): NotificationTemplate
     {
         $template = $this->template;

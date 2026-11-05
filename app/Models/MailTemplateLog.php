@@ -13,6 +13,10 @@ use Modules\Media\Models\Media;
 use Modules\Notify\Models\Traits\MailTemplateLogRelations;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+<<<<<<< HEAD
+use Modules\Notify\Models\Traits\MailTemplateLogRelations;
+=======
+>>>>>>> laraxot/dev
 
 /**
  * @property int|null $template_id
@@ -59,9 +63,22 @@ class MailTemplateLog extends BaseModel
         'clicked_at'];
 
     /** @return BelongsTo<MailTemplate, $this> */
+<<<<<<< HEAD
+<<<<<<< HEAD
+
 
     /** @return MorphTo<Model, $this> */
 
+=======
+
+    /** @return MorphTo<Model, $this> */
+>>>>>>> laraxot/dev
+
+=======
+
+    /** @return MorphTo<Model, $this> */
+
+>>>>>>> laraxot/dev
     /**
      * Get the attributes that should be cast.
      *

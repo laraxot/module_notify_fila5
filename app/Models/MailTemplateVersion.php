@@ -13,6 +13,10 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+<<<<<<< HEAD
+use Modules\Notify\Models\Traits\MailTemplateVersionRelations;
+=======
+>>>>>>> laraxot/dev
 
 /**
  * @property-read ProfileContract|null $creator
@@ -63,6 +67,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 class MailTemplateVersion extends BaseModel
 {
     use MailTemplateVersionRelations;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     use SoftDeletes, Updater;
 
     protected $connection = 'notify';
@@ -78,6 +89,24 @@ class MailTemplateVersion extends BaseModel
         'created_by',
         'change_notes'];
 
+<<<<<<< .merge_file_XWQSFV
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /** @return BelongsTo<MailTemplate, $this> */
+
+
+=======
+    /**
+     * @return MailTemplate
+     */
+>>>>>>> laraxot/dev
+=======
+    /**
+     * @return MailTemplate
+     */
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_BoPnmA
     public function restoreTemplate(): MailTemplate
     {
         $template = $this->template;

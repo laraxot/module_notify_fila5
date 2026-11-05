@@ -11,6 +11,20 @@ use Modules\Notify\Models\MailTemplate;
 
 trait MailTemplateLogRelations
 {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    function template(): BelongsTo
+        {
+            return $this->belongsTo(MailTemplate::class, 'template_id');
+        }
+
+    function mailable(): MorphTo
+        {
+            return $this->morphTo();
+        }
+=======
+=======
+>>>>>>> laraxot/dev
     /**
      * @phpstan-return BelongsTo<MailTemplate, $this>
      */
@@ -26,4 +40,12 @@ trait MailTemplateLogRelations
     {
         return $this->morphTo();
     }
+<<<<<<< .merge_file_dZQA7Q
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+
+=======
+>>>>>>> .merge_file_DGCQ5d
 }
