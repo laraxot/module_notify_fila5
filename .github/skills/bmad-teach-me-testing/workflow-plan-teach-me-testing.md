@@ -345,13 +345,13 @@ teach-me-testing/
 │   ├── step-01b-continue.md
 │   ├── step-02-assess.md
 │   ├── step-03-session-menu.md
-│   ├── step-04-session-quick-start.md
-│   ├── step-04-session-core-concepts.md
-│   ├── step-04-session-architecture-patterns.md
-│   ├── step-04-session-test-design.md
-│   ├── step-04-session-atdd-automate.md
-│   ├── step-04-session-quality-trace.md
-│   ├── step-04-session-advanced-patterns.md
+│   ├── step-04-session-01.md
+│   ├── step-04-session-02.md
+│   ├── step-04-session-03.md
+│   ├── step-04-session-04.md
+│   ├── step-04-session-05.md
+│   ├── step-04-session-06.md
+│   ├── step-04-session-07.md
 │   └── step-05-completion.md
 │
 ├── steps-e/                                 # EDIT mode (2 steps)
@@ -695,7 +695,7 @@ teach-me-testing/
 
 **Files:**
 
-- `steps-c/step-04-session-quick-start.md` ✓
+- `steps-c/step-04-session-01.md` ✓
 
 **Step Configuration:**
 
@@ -704,7 +704,7 @@ teach-me-testing/
 - **Next Step:** Returns to step-03-session-menu (hub)
 - **Menu Pattern:** Standard A/P/C (Pattern 1)
 
-**step-04-session-quick-start.md:**
+**step-04-session-01.md:**
 
 - Session 1: Quick Start - TEA Lite intro, run automate workflow
 - Updates progress (status: in-progress at start, completed at end)
@@ -739,7 +739,7 @@ teach-me-testing/
 ## Step 04-Session-02 Build Complete
 
 **Created:** 2026-01-28
-**Files:** `steps-c/step-04-session-core-concepts.md` ✓
+**Files:** `steps-c/step-04-session-02.md` ✓
 **Session:** Core Concepts (45 min) - Testing as Engineering, Risk-based testing (P0-P3), TEA Definition of Done
 **Pattern:** Middle Step (Complex) with A/P/C menu, returns to hub
 **Teaching:** Philosophy, risk matrix, quality standards with role-adapted examples
@@ -751,7 +751,7 @@ teach-me-testing/
 ## Step 04-Session-03 Build Complete
 
 **Created:** 2026-01-28
-**Files:** `steps-c/step-04-session-architecture-patterns.md` ✓
+**Files:** `steps-c/step-04-session-03.md` ✓
 **Session:** Architecture & Patterns (60 min)
 **Topics:** Fixture composition, network-first patterns, data factories, step-file architecture
 **Knowledge Fragments:** fixture-architecture.md, network-first.md, data-factories.md
@@ -760,7 +760,7 @@ teach-me-testing/
 ## Step 04-Session-04 Build Complete
 
 **Created:** 2026-01-28
-**Files:** `steps-c/step-04-session-test-design.md` ✓
+**Files:** `steps-c/step-04-session-04.md` ✓
 **Session:** Test Design (60 min)
 **Topics:** Test Design workflow, risk/testability assessment, coverage planning, test priorities matrix
 **Knowledge Fragments:** test-levels-framework.md, test-priorities-matrix.md
@@ -769,7 +769,7 @@ teach-me-testing/
 ## Step 04-Session-05 Build Complete
 
 **Created:** 2026-01-28
-**Files:** `steps-c/step-04-session-atdd-automate.md` ✓
+**Files:** `steps-c/step-04-session-05.md` ✓
 **Session:** ATDD & Automate (60 min)
 **Topics:** ATDD workflow (red-green TDD), Automate workflow, component TDD, API testing patterns
 **Knowledge Fragments:** component-tdd.md, api-testing-patterns.md, api-request.md
@@ -778,7 +778,7 @@ teach-me-testing/
 ## Step 04-Session-06 Build Complete
 
 **Created:** 2026-01-28
-**Files:** `steps-c/step-04-session-quality-trace.md` ✓
+**Files:** `steps-c/step-04-session-06.md` ✓
 **Session:** Quality & Trace (45 min)
 **Topics:** Test Review workflow (5 dimensions), Trace workflow, quality metrics
 **Quiz:** 3 questions on quality dimensions, release gates, metrics
@@ -786,7 +786,7 @@ teach-me-testing/
 ## Step 04-Session-07 Build Complete
 
 **Created:** 2026-01-28
-**Files:** `steps-c/step-04-session-advanced-patterns.md` ✓
+**Files:** `steps-c/step-04-session-07.md` ✓
 **Session:** Advanced Patterns (ongoing)
 **Format:** Menu-driven exploration of 42 knowledge fragments
 **Categories:** Testing Patterns (9), Playwright Utils (11), Config/Governance (6), Quality Frameworks (5), Auth/Security (3)
@@ -813,13 +813,13 @@ teach-me-testing/
 2. step-01b-continue.md - Resume with progress dashboard
 3. step-02-assess.md - Role/experience assessment
 4. step-03-session-menu.md - Session selection hub
-5. step-04-session-quick-start.md - Quick Start
-6. step-04-session-core-concepts.md - Core Concepts
-7. step-04-session-architecture-patterns.md - Architecture & Patterns
-8. step-04-session-test-design.md - Test Design
-9. step-04-session-atdd-automate.md - ATDD & Automate
-10. step-04-session-quality-trace.md - Quality & Trace
-11. step-04-session-advanced-patterns.md - Advanced Patterns
+5. step-04-session-01.md - Quick Start
+6. step-04-session-02.md - Core Concepts
+7. step-04-session-03.md - Architecture & Patterns
+8. step-04-session-04.md - Test Design
+9. step-04-session-05.md - ATDD & Automate
+10. step-04-session-06.md - Quality & Trace
+11. step-04-session-07.md - Advanced Patterns
 12. step-05-completion.md - Certificate generation
 
 **Remaining:**
@@ -897,7 +897,7 @@ teach-me-testing/
 - step-01b-continue.md
 - step-02-assess.md
 - step-03-session-menu.md
-- step-04-session-quick-start.md through step-04-session-advanced-patterns.md (7 sessions)
+- step-04-session-01.md through step-04-session-07.md (7 sessions)
 - step-05-completion.md
 
 ### Data Files (5 files)

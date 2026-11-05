@@ -1,12 +1,20 @@
 ---
+<<<<<<< .merge_file_AzqJQo
 title: "Notify Module — Document"
+=======
+title: "Notify Module: Document"
+>>>>>>> .merge_file_6czfe0
 type: alias
 status: superseded
 canonical: "bmad/DIAMOND_COVERAGE_REPORT.md"
 qmd: "diamond_coverage_report alias superseded"
 ---
 
+<<<<<<< .merge_file_AzqJQo
 # Notify Module — Document
+=======
+# Notify Module: Document
+>>>>>>> .merge_file_6czfe0
 
 Documento identico al canonico: [DIAMOND_COVERAGE_REPORT.md](DIAMOND_COVERAGE_REPORT.md).
 

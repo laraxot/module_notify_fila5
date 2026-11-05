@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Feature;
 
 use Filament\Facades\Filament;
+use Filament\Panel;
 use Illuminate\Contracts\Auth\Authenticatable;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 use Livewire\Livewire;
@@ -30,6 +31,7 @@ beforeEach(function (): void {
 
 test('spatie-translatable plugin is registered in notify::admin panel', function (): void {
     $panel = Filament::getPanel('notify::admin');
+    Assert::assertInstanceOf(Panel::class, $panel);
 
     $plugin = $panel->getPlugin('spatie-translatable');
 

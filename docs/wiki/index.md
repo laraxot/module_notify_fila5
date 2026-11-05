@@ -12,10 +12,6 @@ discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
 related:
   - ../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
-discussions:
-  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
-related:
-  - ../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
   - ../../../../../docs/wiki/bmad/architecture.md
   - ../../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
@@ -44,8 +40,8 @@ This file indexes the compiled wiki in `docs/wiki/`. It is not a mirror of the w
 
 - [README.md](./README.md): workflow and directory rules
 - [log.md](./log.md): chronological operations log
-- [Karpathy adoption — root](../project/karpathy-llm-wiki-adoption.md): pattern originale, mapping globale
-- [Karpathy adoption — moduli/temi](../project/llm-wiki-module-adoption.md): mapping docs/=raw, docs/wiki/=wiki per ogni modulo/tema
+- [Karpathy adoption: root](../project/karpathy-llm-wiki-adoption.md): pattern originale, mapping globale
+- [Karpathy adoption: moduli/temi](../project/llm-wiki-module-adoption.md): mapping docs/=raw, docs/wiki/=wiki per ogni modulo/tema
 - [QMD local docs search](../project/qmd-local-docs-search.md): ricerca locale BM25 + vector
 
 ## Tools
@@ -170,7 +166,7 @@ Separate git repository with shell scripts and utilities:
 
 ## Compiled Pages
 
-- [notification-delivery-boundary](./concepts/notification-delivery-boundary.md) — ownership delivery, schema e consenso marketing.
+- [notification-delivery-boundary](./concepts/notification-delivery-boundary.md): ownership delivery, schema e consenso marketing.
 
 | Page | Type | Source | Updated |
 |------|------|--------|---------|
@@ -178,7 +174,7 @@ Separate git repository with shell scripts and utilities:
 | [llm-wiki-governance](./concepts/llm-wiki-governance.md) | Concept | - | 2026-04-21 |
 | [module-test-location-rule](./concepts/module-test-location-rule.md) | Concept | - | 2026-04-21 |
 | [phpstan-central-config-rule](./concepts/phpstan-central-config-rule.md) | Concept | - | 2026-04-21 |
-| [xotbase-table-columns-enforcement](./concepts/xotbase-table-columns-enforcement.md) | Concept | 5 Table files populated — XotBaseResourceTable enforcement | 2026-05-07 |
+| [xotbase-table-columns-enforcement](./concepts/xotbase-table-columns-enforcement.md) | Concept | 5 Table files populated: XotBaseResourceTable enforcement | 2026-05-07 |
 
 
 ---
@@ -204,8 +200,8 @@ This file indexes the compiled wiki in `docs/wiki/`. It is not a mirror of the w
 
 - [README.md](./README.md): workflow and directory rules
 - [log.md](./log.md): chronological operations log
-- [Karpathy adoption — root](../project/karpathy-llm-wiki-adoption.md): pattern originale, mapping globale
-- [Karpathy adoption — moduli/temi](../project/llm-wiki-module-adoption.md): mapping docs/=raw, docs/wiki/=wiki per ogni modulo/tema
+- [Karpathy adoption: root](../project/karpathy-llm-wiki-adoption.md): pattern originale, mapping globale
+- [Karpathy adoption: moduli/temi](../project/llm-wiki-module-adoption.md): mapping docs/=raw, docs/wiki/=wiki per ogni modulo/tema
 - [QMD local docs search](../project/qmd-local-docs-search.md): ricerca locale BM25 + vector
 
 ## Tools
@@ -334,4 +330,4 @@ Separate git repository with shell scripts and utilities:
 | [llm-wiki-governance](./concepts/llm-wiki-governance.md) | Concept | - | 2026-04-21 |
 | [module-test-location-rule](./concepts/module-test-location-rule.md) | Concept | - | 2026-04-21 |
 | [phpstan-central-config-rule](./concepts/phpstan-central-config-rule.md) | Concept | - | 2026-04-21 |
-| [xotbase-table-columns-enforcement](./concepts/xotbase-table-columns-enforcement.md) | Concept | 5 Table files populated — XotBaseResourceTable enforcement | 2026-05-07 |
+| [xotbase-table-columns-enforcement](./concepts/xotbase-table-columns-enforcement.md) | Concept | 5 Table files populated: XotBaseResourceTable enforcement | 2026-05-07 |

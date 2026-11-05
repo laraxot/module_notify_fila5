@@ -297,8 +297,7 @@ describe('Notify highest-miss coverage', function (): void {
 
     test('push actions send across fcm apns and webpush with fakes', function (): void {
         config([
-            'notify.fcm.server_key' => 'test-key',
-            'notify.fcm.url' => 'https://fcm.googleapis.com/fcm/send']);
+            'notify.fcm.server_key' => 'test-key']);
         Http::fake([
             'https://fcm.googleapis.com/*' => Http::response(['message_id' => 'mid-2'], 200)]);
 

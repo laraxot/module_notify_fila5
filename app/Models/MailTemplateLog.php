@@ -12,6 +12,7 @@ use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Modules\Notify\Models\Traits\MailTemplateLogRelations;
 
 /**
  * @property int|null $template_id
@@ -41,6 +42,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  */
 class MailTemplateLog extends BaseModel
 {
+    use MailTemplateLogRelations;
+
     protected $fillable = [
         'template_id',
         'mailable_type',
@@ -56,16 +59,10 @@ class MailTemplateLog extends BaseModel
         'clicked_at'];
 
     /** @return BelongsTo<MailTemplate, $this> */
-    public function template(): BelongsTo
-    {
-        return $this->belongsTo(MailTemplate::class, 'template_id');
-    }
+
 
     /** @return MorphTo<Model, $this> */
-    public function mailable(): MorphTo
-    {
-        return $this->morphTo();
-    }
+
 
     /**
      * Get the attributes that should be cast.

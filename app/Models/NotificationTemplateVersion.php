@@ -11,6 +11,7 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Modules\Notify\Models\Traits\NotificationTemplateVersionRelations;
 
 // BaseModel in same namespace provides common behaviors
 /**
@@ -36,6 +37,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  */
 class NotificationTemplateVersion extends BaseModel
 {
+    use NotificationTemplateVersionRelations;
+
     use Updater;
 
     protected $fillable = [
@@ -51,10 +54,7 @@ class NotificationTemplateVersion extends BaseModel
         'change_notes'];
 
     /** @return BelongsTo<NotificationTemplate, $this> */
-    public function template(): BelongsTo
-    {
-        return $this->belongsTo(NotificationTemplate::class, 'template_id');
-    }
+
 
     public function restoreTemplate(): NotificationTemplate
     {
