@@ -222,6 +222,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getChannelsLabelAttribute(): string
     {
+        return $this->getChannelsLabel();
+    }
+
+    public function getChannelsLabel(): string
+    {
         /** @var array<int, string> $channels */
         $channels = $this->channels;
 

@@ -106,6 +106,14 @@ class NotifyTheme extends BaseModel
      */
     public function getLogoAttribute(?array $value): array
     {
+        return $this->getLogo();
+    }
+
+    /**
+     * @return array{path: string, width: int|mixed, height: int|mixed}
+     */
+    public function getLogo(): array
+    {
         return [
             // 'path' => asset(strval($this->logo_src)),
             'path' => url($this->getFirstMediaUrl()),
