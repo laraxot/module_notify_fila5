@@ -20,10 +20,6 @@ use Modules\Notify\Actions\Push\SendScheduledPushNotificationAction;
 use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-=======
-uses(\Modules\Notify\Tests\TestCase::class);
->>>>>>> laraxot/dev
 afterEach(function (): void {
     Mockery::close();
 });

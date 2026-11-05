@@ -13,10 +13,6 @@ use Modules\Notify\Tests\Support\FakeTenantNotifyConfig;
 use Modules\Tenant\Actions\Config\GetTenantFilePathAction;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-=======
-uses(\Modules\Notify\Tests\TestCase::class);
->>>>>>> laraxot/dev
 /**
  * @return list<string>
  */

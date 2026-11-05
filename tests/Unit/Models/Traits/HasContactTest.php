@@ -8,10 +8,6 @@ use Modules\Notify\Enums\ContactTypeEnum;
 use Modules\Notify\Tests\Fixtures\HasContactDummyModel;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-=======
-uses(\Modules\Notify\Tests\TestCase::class);
->>>>>>> laraxot/dev
 function makeHasContactDummyModel(): HasContactDummyModel
 {
     return new HasContactDummyModel;

@@ -7,10 +7,6 @@ namespace Modules\Notify\Tests\Unit\Models;
 use Modules\Notify\Models\Contact;
 use Tests\TestCase;
 
-<<<<<<< HEAD
-=======
-uses(\Modules\Notify\Tests\TestCase::class);
->>>>>>> laraxot/dev
 class ContactTest extends TestCase
 {
 
