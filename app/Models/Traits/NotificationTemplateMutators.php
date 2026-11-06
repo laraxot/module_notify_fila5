@@ -4,30 +4,25 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models\Traits;
 
-use Illuminate\Database\Eloquent\Builder;
-use Modules\Media\Models\Media;
-use Modules\Notify\Actions\RenderNotificationTemplateStringAction;
-use Modules\Notify\Enums\NotificationTypeEnum;
-use Modules\Xot\Contracts\ProfileContract;
-use Spatie\MediaLibrary\HasMedia;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Spatie\Translatable\HasTranslations;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 trait NotificationTemplateMutators
 {
-    function getChannelsLabelAttribute(): string
-        {
-            return $this->getChannelsLabel();
+    public function getChannelsLabelAttribute(): string
+    {
+        return $this->getChannelsLabel();
+    }
+
+    public function getChannelsLabel(): string
+    {
+        $channels = $this->channels;
+        if (! is_array($channels)) {
+            return '';
         }
 
-    function getChannelsLabel(): string
-        {
-            /** @var array<int, string> $channels */
-            $channels = $this->channels;
-    
-            return collect($channels)
-                ->map(fn (string $channel): string => (string) __('notify::template.fields.channel.options.'.$channel.'.label'))
-                ->implode(', ');
-        }
-
+        return collect($channels)
+            ->filter(is_string(...))
+            ->map(fn (string $channel): string => SafeStringCastAction::cast(__('notify::template.fields.channel.options.'.$channel.'.label')))
+            ->implode(', ');
+    }
 }

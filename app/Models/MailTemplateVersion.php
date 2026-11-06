@@ -58,7 +58,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion whereUpdatedBy($value)
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  *
- * @mixin \Eloquent
+ * @mixin \Illuminate\Database\Eloquent\Model
  */
 class MailTemplateVersion extends BaseModel
 {
@@ -69,8 +69,7 @@ class MailTemplateVersion extends BaseModel
 
     /** @var list<string> */
     protected $fillable = [
-        'template_id',
-        'mailable',
+        'mail_template_id',
         'subject',
         'html_template',
         'text_template',

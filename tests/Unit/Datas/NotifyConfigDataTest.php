@@ -10,9 +10,11 @@ use Modules\Notify\Datas\NotifyConfigData;
 use Modules\Notify\Datas\PushNotificationData;
 use Modules\Notify\Filament\Pages\SettingPage;
 use Modules\Notify\Tests\Support\FakeTenantNotifyConfig;
+use Modules\Notify\Tests\TestCase;
 use Modules\Tenant\Actions\Config\GetTenantFilePathAction;
 use PHPUnit\Framework\Assert;
 
+uses(TestCase::class);
 /**
  * @return list<string>
  */
