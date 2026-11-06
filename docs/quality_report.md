@@ -1,6 +1,4 @@
 ---
-title: "Quality Report — Notify"
-title: "Quality Report: Notify"
 title: "Quality Report: Notify"
 type: alias
 status: superseded
