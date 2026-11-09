@@ -1,5 +1,5 @@
 ---
-title: "Notify — test doubles e helper PHPStan"
+title: "Notify: test doubles e helper PHPStan"
 type: concept
 tags: [notify, phpstan, pest, testing, doubles]
 created: 2026-06-13
@@ -16,7 +16,7 @@ related:
 status: draft
 ---
 
-# Notify — test doubles e helper PHPStan
+# Notify: test doubles e helper PHPStan
 
 ## Contesto
 
@@ -46,7 +46,7 @@ File owner: `tests/Unit/Traits/NotifyTraitTestDoubles.php`
 | `NotifyTrackingDummy` | `HasNotificationTracking` |
 | `NotifyTenantDummyModel` | `HasTenantNotifications` |
 
-Espongono metodi `public` che delegano ai `protected` del trait — pattern KISS per test unitari senza istanziare modelli Eloquent completi.
+Espongono metodi `public` che delegano ai `protected` del trait: pattern KISS per test unitari senza istanziare modelli Eloquent completi.
 
 ### 3. Mock `SendNotificationAction`
 
@@ -65,7 +65,7 @@ Preferire `createStub` / `createUnitMock` + `expectsOnce()` da `XotBaseTestCase`
 | Copertura Pest su `Actions/SendNotificationAction` | P1 |
 | Allineare test channel (mail, SMS, push) a pattern stub | P2 |
 | Migrare test che istanziano `Services/NotificationManager` verso Actions quando il manager sarà thin | P2 |
-| Namespace `tests/` vs `Tests` — [#370](https://github.com/laraxot/base_fixcity_fila5/issues/370) | P2 |
+| Namespace `tests/` vs `Tests`: [#370](https://github.com/laraxot/base_fixcity_fila5/issues/370) | P2 |
 
 ## Verifica
 

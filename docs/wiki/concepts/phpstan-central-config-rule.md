@@ -20,7 +20,7 @@ status: active
 GateGuard facts:
 1. Supersedes soft "neon.dist not default" wording in this same concept page; aligns to Xot single-neon memory.
 2. Linked from Notify 00-INDEX gate line and wiki concepts.
-3. Edit existing concept — same topic, no new story/file.
+3. Edit existing concept: same topic, no new story/file.
 4. User: "devi utilizzare laravel/phpstan.neon e solo io posso modificarlo, non puoi creare altri .neon"
 -->
 

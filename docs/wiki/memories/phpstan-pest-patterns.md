@@ -1,7 +1,7 @@
 ---
 issues: []
 discussions: []
-title: "PHPStan + Pest — indice Notify"
+title: "PHPStan + Pest: indice Notify"
 type: concept
 tags: [phpstan, pest, notify]
 updated: 2026-10-18
