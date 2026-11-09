@@ -24,7 +24,3 @@ CHANGELOG.md export-ignore
 *.phar binary !filter
 *.db binary !filter
 *.sqlite binary !filter
-<<<<<<< .merge_file_pVJhcQ
-=======
-
->>>>>>> .merge_file_4om5QN
