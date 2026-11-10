@@ -38,11 +38,8 @@ php artisan view:cache
 
 ### Moduli (Nwidart)
 ```bash
-# Lista moduli
+# Lista moduli e stato (Enabled/Disabled)
 php artisan module:list
-
-# Stato moduli
-php artisan module:status
 
 # Attiva/disattiva modulo
 php artisan module:enable {nome}
