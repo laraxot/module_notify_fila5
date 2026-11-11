@@ -32,7 +32,6 @@ cd laravel/Themes/Meetup
 composer update -W
 npm install
 npm run build
-npm run copy  # OBbligatorio per vedere modifiche CSS/JS
 ```
 
 ---

@@ -260,7 +260,6 @@ npm install
 npm run build
 
 # 4. Copy to public_html
-npm run copy
 ```
 
 **Result:**
@@ -490,7 +489,7 @@ pages/tests/amministrazione.blade.php # SBAGLIATO
 - [ ] `composer update -W` executed
 - [ ] `npm install` executed
 - [ ] `npm run build` executed
-- [ ] `npm run copy` executed
+- [ ] `symlink public_html/themes (npm run copy obsoleto)` executed
 - [ ] Manifest exists: `public_html/themes/{theme}/manifest.json`
 
 ### Blade Components

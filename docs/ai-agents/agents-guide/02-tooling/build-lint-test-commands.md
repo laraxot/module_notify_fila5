@@ -95,7 +95,6 @@ cd laravel/Themes/Meetup
 npm install
 npm run dev      # Development
 npm run build    # Production
-npm run copy    # Copy to public_html (REQUIRED after build)
 ```
 
 ### Cache Clearing

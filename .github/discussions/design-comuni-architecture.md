@@ -251,7 +251,7 @@ x-layouts.main (base HTML: DOCTYPE, head, body, scripts)
 
 ---
 
-### 9. Vite Build: outDir: './public' + npm run copy ✅
+### 9. Vite Build: outDir: './public' + symlink public_html/themes (npm run copy obsoleto) ✅
 
 **Decision**: Build theme independently, copy to public_html.
 
@@ -279,7 +279,6 @@ cd laravel/Themes/Sixteen
 composer update -W
 npm install
 npm run build
-npm run copy
 ```
 
 **Alternatives Rejected**:
