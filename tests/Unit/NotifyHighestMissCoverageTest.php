@@ -68,6 +68,7 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Notifications\GenericNotification;
+use Modules\Notify\Tests\TestCase;
 use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
@@ -78,7 +79,7 @@ use function Pest\Laravel\artisan;
 use function Safe\file_put_contents;
 use function Safe\unlink;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 /**
  * @param  class-string  $class
  */

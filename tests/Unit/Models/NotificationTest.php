@@ -9,10 +9,9 @@ use Modules\Notify\Tests\TestCase;
 
 use function Safe\json_encode;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 class NotificationTest extends TestCase
 {
-
     protected function setUp(): void
     {
         parent::setUp();
@@ -57,7 +56,7 @@ class NotificationTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
-        $notification = new Notification();
+        $notification = new Notification;
 
         $expectedFillable = [
             'message',
@@ -79,7 +78,7 @@ class NotificationTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
-        $notification = new Notification();
+        $notification = new Notification;
 
         $expectedCasts = [
             'id' => 'int',

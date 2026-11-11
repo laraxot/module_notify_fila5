@@ -5,9 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Console\Commands;
 
 use Modules\Notify\Console\Commands\SendMailCommand;
+use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 describe('SendMailCommand', function () {
     it('has correct signature', function () {
         $command = new SendMailCommand;

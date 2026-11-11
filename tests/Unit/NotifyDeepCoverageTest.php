@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit;
 
+use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\ModuleDeepCoverage;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 /**
  * @return array{string, string} radice `app/` del modulo e namespace corrispondente
  */

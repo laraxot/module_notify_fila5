@@ -4,13 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit;
 
+use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
 use function Safe\glob;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 /**
  * @return list<class-string>
  */

@@ -5,9 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit;
 
 use Mockery;
+use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\ModuleBusinessCoverage;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 afterEach(function (): void {
     Mockery::close();
 });
