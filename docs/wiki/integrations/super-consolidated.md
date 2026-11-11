@@ -2,7 +2,7 @@
 qmd: "super consolidated"
 issues: []
 discussions: []
-title: "super — Consolidated Documentation"
+title: "super: Consolidated Documentation"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# super — Consolidated Documentation
+# super: Consolidated Documentation
 
 Consolidated from **9** individual files.
 
@@ -2061,15 +2061,15 @@ supermemory add --tag <nome progetto> --content "<nome progetto> module: Ticket 
 ### 3. Theme Conventions
 Store theme development patterns:
 ```bash
-supermemory add --tag laraxot --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
-supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
+supermemory add --tag laraxot --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
+supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
 ```
 
 ### 4. Development Workflows
 Store build processes:
 ```bash
-supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag laraxot
-supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag <nome progetto>
+supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build" --tag laraxot
+supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build" --tag <nome progetto>
 ```
 
 ### 5. Architectural Decisions

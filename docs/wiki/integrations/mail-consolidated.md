@@ -2,7 +2,7 @@
 qmd: "mail consolidated"
 issues: []
 discussions: []
-title: "mail — Consolidated Documentation"
+title: "mail: Consolidated Documentation"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# mail — Consolidated Documentation
+# mail: Consolidated Documentation
 
 Consolidated from **8** individual files.
 
@@ -423,22 +423,14 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
-I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
-I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
-I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/mailpace-templates-integration-1.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace-templates-integration.md) per dettagli sull'integrazione.
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
-- [Spatie Email Documentation](./spatie-email-usage-guide.md)
-- [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
-- [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [Spatie Email Documentation](../../spatie-email-usage-guide.md)
-- [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
-- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
-- [Spatie Email Documentation](./spatie-email-usage-guide.md)
-- [Email Best Practices](./mail-templates/email-best-practices.md)
-- [HTML Email Compatibility Guide](./mail-templates/html-email-compatibility-1.md)
+- [Email Best Practices](../../mail-templates/email-best-practices.md)
+- [HTML Email Compatibility Guide](../../mail-templates/html-email-compatibility.md)
 ---
 
 ## mail-layouts-guide

@@ -71,7 +71,7 @@ status: draft
 |----------|---------|--------|
 | `replikate.txt` | Execution protocol | ✅ Complete |
 | `homepage-structure-diff.md` | Detailed analysis + fixes | ✅ Complete |
-| `00-index-1.md` | Navigation hub | ✅ Complete |
+| `00-index.md` | Navigation hub | ✅ Complete |
 
 #### Automation
 | Script | Purpose | Status |
@@ -104,7 +104,7 @@ status: draft
 3. ✅ DIFF HTML - Document differences
 4. ⏳ FIX HTML - Modify blade/blocks
 5. ⏳ FIX CSS/JS - Tailwind + Alpine
-6. ⏳ BUILD - npm run build && npm run copy
+6. ⏳ BUILD - npm run build
 7. ⏳ VALIDATE - Check ≥90% match
 8. ⏳ DOCUMENT - Save analysis + screenshots
 
@@ -159,7 +159,7 @@ laravel/Themes/Sixteen/
 │   ├── prompts/
 │   │   └── replikate.txt              ← PROTOCOL
 │   └── design-comuni/
-│       ├── 00-index-1.md                ← HUB
+│       ├── 00-index.md                ← HUB
 │       ├── pages/
 │       │   └── homepage-structure-diff.md
 │       └── screenshots/
@@ -243,7 +243,7 @@ bashscripts ←→ Theme Docs ←→ Component Catalog
 - [ ] Update col-lg-4 → col-lg-6 in grid layouts
 - [ ] Add missing CSS classes
 - [ ] Remove Bootstrap classes
-- [ ] Run `npm run build && npm run copy`
+- [ ] Run `npm run build`
 - [ ] Verify HTML match ≥90%
 - [ ] Test responsive behavior
 - [ ] Update documentation with results
@@ -383,7 +383,7 @@ All the information needed to fix the homepage is documented, prioritized, and e
 3. ✅ DIFF HTML - Document differences
 4. ⏳ FIX HTML - Modify blade/blocks
 5. ⏳ FIX CSS/JS - Tailwind + Alpine
-6. ⏳ BUILD - npm run build && npm run copy
+6. ⏳ BUILD - npm run build
 7. ⏳ VALIDATE - Check ≥90% match
 8. ⏳ DOCUMENT - Save analysis + screenshots
 
@@ -523,7 +523,7 @@ bashscripts ←→ Theme Docs ←→ Component Catalog
 - [ ] Update col-lg-4 → col-lg-6 in grid layouts
 - [ ] Add missing CSS classes
 - [ ] Remove Bootstrap classes
-- [ ] Run `npm run build && npm run copy`
+- [ ] Run `npm run build`
 - [ ] Verify HTML match ≥90%
 - [ ] Test responsive behavior
 - [ ] Update documentation with results

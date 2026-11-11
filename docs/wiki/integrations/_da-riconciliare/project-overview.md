@@ -1,11 +1,9 @@
 ---
-title: "🏛️ NOTIFY - Civic Engagement Platform"
 title: "🏛️ <nome progetto> - Civic Engagement Platform"
 type: concept
 tags: [project, overview]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "project-overview 🏛️ laraxot - civic engagement platform"
 qmd: "project-overview 🏛️ <nome progetto> - civic engagement platform"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -534,7 +532,7 @@ php artisan migrate --seed
 
 # 4. Build
 npm run build
-cd Themes/Sixteen && npm run build && npm run copy
+cd Themes/Sixteen && npm run build
 
 # 5. Serve
 php artisan serve

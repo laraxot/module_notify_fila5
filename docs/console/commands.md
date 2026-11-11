@@ -38,11 +38,8 @@ php artisan view:cache
 
 ### Moduli (Nwidart)
 ```bash
-# Lista moduli
+# Lista moduli e stato (Enabled/Disabled)
 php artisan module:list
-
-# Stato moduli
-php artisan module:status
 
 # Attiva/disattiva modulo
 php artisan module:enable {nome}
@@ -160,7 +157,7 @@ vendor/bin/phpstan analyse app/
 
 # 5. Frontend (SEMPRE dopo modifiche CSS/JS)
 cd Themes/Sixteen/
-npm run build && npm run copy
+npm run build
 cd ../../
 
 # 6. Commit
@@ -177,7 +174,7 @@ php artisan test
 
 # Frontend build (CRITICO)
 cd Themes/Sixteen/
-npm run build && npm run copy
+npm run build
 cd ../../
 
 # Deploy optimizations
@@ -301,7 +298,6 @@ dev:reset-demo
 ```bash
 cd Themes/Sixteen/
 npm run build
-npm run copy
 ```
 
 Senza questi comandi, le modifiche frontend NON saranno visibili agli utenti!

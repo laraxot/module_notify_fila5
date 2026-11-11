@@ -38,7 +38,6 @@ status: draft
 ```bash
 cd laravel/Themes/Sixteen
 npm run build    # ✓
-npm run copy     # ✓
 ```
 
 ### Remaining Differences (Acceptable):

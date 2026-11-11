@@ -1,5 +1,5 @@
 ---
-title: "Notify Module — Document"
+title: "Notify Module: Document"
 type: docs/bmad
 status: active
 module: Notify
@@ -38,7 +38,6 @@ qmd: "homepage visual comparison - results notify"
 ```bash
 cd laravel/Themes/Sixteen
 npm run build    # ✓
-npm run copy     # ✓
 ```
 
 ### Remaining Differences (Acceptable):

@@ -33,7 +33,6 @@ Segui questi passaggi per risolvere:
    ```
 2. Esegui il comando:
    ```bash
-   npm run copy
    ```
 
 Questo comando pubblica gli asset necessari e risolve l'errore.

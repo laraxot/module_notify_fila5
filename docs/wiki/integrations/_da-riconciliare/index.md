@@ -2,7 +2,7 @@
 qmd: "index"
 issues: []
 discussions: []
-title: "notify — integrations"
+title: "notify: integrations"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -11,7 +11,7 @@ updated: 2026-08-24
 status: draft
 ---
 
-# notify — integrations
+# notify: integrations
 
 Documentation for `notify` module categorized as **integrations**.
 
@@ -1528,7 +1528,7 @@ Documentation for `notify` module categorized as **integrations**.
 - [`sms-netfun-channel.md`](./sms-netfun-channel.md)
 - [`sms-netfun-channel.md`](./sms-netfun-channel.md)
 - [`sms-netfun-channel.md`](./sms-netfun-channel.md)
-- [`sms-provider-configuration-1.md`](./sms-provider-configuration.md)
+- [`sms-provider-configuration.md`](./sms-provider-configuration.md)
 - [`sms-provider-configuration.md`](./sms-provider-configuration.md)
 - [`sms-provider-configuration-best-practices.md`](./sms-provider-configuration-best-practices.md)
 - [`sms-provider-configuration-best-practices.md`](./sms-provider-configuration-best-practices.md)
@@ -1616,7 +1616,7 @@ Documentation for `notify` module categorized as **integrations**.
 - [`sms-netfun-channel-integrazione-laravel.md`](../../../sms-netfun-channel-integrazione-laravel.md)
 - [`sms-netfun-channel.md`](./sms-netfun-channel.md)
 - [`sms-netfun-channel.md`](../../../sms-netfun-channel.md)
-- [`sms-provider-configuration-1.md`](./sms-provider-configuration-deprecated.md)
+- [`sms-provider-configuration.md`](./sms-provider-configuration-deprecated.md)
 - [`sms-provider-configuration.md`](./sms-provider-configuration.md)
 - [`sms-provider-configuration-best-practices.md`](../../../sms-provider-configuration-best-practices.md)
 - [`sms-provider-configuration-best-practices.md`](./sms-provider-configuration-best-practices.md)

@@ -1,12 +1,10 @@
 ---
-title: "📚 Documentation Index - FixCity Project"
 title: "📚 Documentation Index - Notify Project"
 type: index
 tags: [notify, docs, project_docs]
 module: Notify
 created: 2026-07-20
 updated: 2026-07-20
-qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
 qmd: "notify documentazione project_docs index 📚 documentation index - laraxot project index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
@@ -191,13 +189,13 @@ Each module has a `docs/` directory containing:
 - [Roadmap 2025](../Themes/Sixteen/docs/ROADMAP_2025.md)
 
 ### TwentyOne Theme
-- [Code Quality Analysis](../Themes/TwentyOne/docs/CODE_QUALITY_ANALYSIS.md)
+- [Code Quality Analysis](../Themes/TwentyOne/docs/code-quality-analysis.md)
 - [Code Quality Analysis](../../../../Themes/Sixteen/docs/CODE_QUALITY_ANALYSIS.md)
 - [README](../../../../Themes/Sixteen/docs/README.md)
 - [Roadmap 2025](../../../../Themes/Sixteen/docs/ROADMAP_2025.md)
 
 ### TwentyOne Theme
-- [Code Quality Analysis](../../../../Themes/TwentyOne/docs/CODE_QUALITY_ANALYSIS.md)
+- [Code Quality Analysis](../../../../Themes/TwentyOne/docs/code-quality-analysis.md)
 
 ---
 

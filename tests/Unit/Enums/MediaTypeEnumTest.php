@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Enums;
 use Modules\Notify\Enums\MediaTypeEnum;
 use PHPUnit\Framework\TestCase;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 class MediaTypeEnumTest extends TestCase
 {
     /** @test */
@@ -74,7 +75,7 @@ class MediaTypeEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
-        $values = array_map(fn ($case) => $case->value, MediaTypeEnum::cases());
+        $values = array_map(fn (MediaTypeEnum $case) => $case->value, MediaTypeEnum::cases());
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
