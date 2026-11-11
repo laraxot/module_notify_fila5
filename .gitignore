@@ -114,5 +114,7 @@ notify.code-workspace
 
 # module-root-hygiene (story module-root-hygiene)
 /.github/skills/
+/.github/ISSUE_CONTENT/
+/.github/agents/
 docs/graphify
 resources/lang

@@ -145,7 +145,6 @@ cd laravel/Themes/Sixteen
 npm run build
 
 # Copy assets
-npm run copy
 
 # Clear cache
 php artisan optimize:clear
@@ -221,7 +220,7 @@ open http://127.0.0.1:8000/it/tests/homepage
 - [ ] Understand what `section#head-section` should contain
 - [ ] Have list of 33 missing CSS classes
 - [ ] Have list of 25 Bootstrap classes to remove
-- [ ] Know how to run `npm run build && npm run copy`
+- [ ] Know how to run `npm run build`
 
 ---
 

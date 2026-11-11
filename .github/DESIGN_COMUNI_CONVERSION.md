@@ -83,7 +83,7 @@ discussions: []
 - [ ] Performance testing
 
 ### Phase 5: Deployment ⏳ PENDING
-- [ ] Final build: `npm run build && npm run copy`
+- [ ] Final build: `npm run build`
 - [ ] Comprehensive testing
 - [ ] Documentation finalization
 - [ ] Merge to main
@@ -139,7 +139,6 @@ npm install
 npm run build
 
 # Copy assets to public_html
-npm run copy
 
 # Test in browser
 open http://127.0.0.1:8000/it/tests/

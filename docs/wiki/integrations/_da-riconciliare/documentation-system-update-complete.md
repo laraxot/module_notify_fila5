@@ -224,13 +224,21 @@ export default defineConfig({
 **Why This is Correct:**
 
 1. **Build Target:** `./public` (local theme public folder)
-2. **Copy Step:** `npm run copy` copies to `../../public_html/themes/Sixteen/`
+<<<<<<< .merge_file_cm8yy2
+2. **Copy Step:** `symlink public_html/themes (npm run copy obsoleto)` copies to `../../public_html/themes/Sixteen/`
+=======
+2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
+>>>>>>> .merge_file_q6VWAX
 3. **Manifest Location:** Both locations have manifest.json after build
 4. **Laravel Vite:** Reads from `public_html/themes/Sixteen/manifest.json`
 
 **Build Flow:**
 ```
-resources/ → Vite Build → public/ → npm run copy → public_html/themes/Sixteen/
+<<<<<<< .merge_file_cm8yy2
+resources/ → Vite Build → public/ → symlink public_html/themes (npm run copy obsoleto) → public_html/themes/Sixteen/
+=======
+resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
+>>>>>>> .merge_file_q6VWAX
 ```
 
 ---

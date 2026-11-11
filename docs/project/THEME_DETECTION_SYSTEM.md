@@ -250,7 +250,6 @@ npm install
 npm run build
 
 # 4. Copy to public_html
-npm run copy
 ```
 
 **Result:**
@@ -480,7 +479,11 @@ pages/tests/amministrazione.blade.php # SBAGLIATO
 - [ ] `composer update -W` executed
 - [ ] `npm install` executed
 - [ ] `npm run build` executed
-- [ ] `npm run copy` executed
+<<<<<<< .merge_file_4E4iWI
+- [ ] `symlink public_html/themes (npm run copy obsoleto)` executed
+=======
+- [ ] `npm run copy` (dismesso: `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public`) executed
+>>>>>>> .merge_file_AClD97
 - [ ] Manifest exists: `public_html/themes/{theme}/manifest.json`
 
 ### Blade Components
