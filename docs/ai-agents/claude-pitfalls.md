@@ -80,7 +80,7 @@ Errori comuni da evitare.
 
 ---
 
-### 14. ❌ Dimenticare npm run copy dopo theme build
+### 14. ❌ Dimenticare npm run copy (dismesso: symlink public_html/themes/<Tema>) dopo theme build
 **✅ CORRETTO**: Sempre eseguire copy per deploy assets
 
 ---

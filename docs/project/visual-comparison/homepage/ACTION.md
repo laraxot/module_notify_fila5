@@ -60,7 +60,7 @@ status: draft
 
 - `/laravel/Themes/Sixteen/resources/css/homepage-visual-fix.css`
 - Run `npm run build` after changes
-- Run `npm run copy` after build
+- Run `npm run copy` (dismesso: `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public`) after build
 
 ## Last Screenshots
 

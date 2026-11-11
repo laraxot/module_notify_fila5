@@ -39,7 +39,6 @@ npm run dev
 
 # Production build
 npm run build
-npm run copy    # MUST run after build to copy to public_html
 ```
 
 ---

@@ -21,7 +21,6 @@ status: draft
 cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
 cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
 npm run build
-npm run copy
 ```
 
 ### When to Run:
@@ -34,7 +33,7 @@ npm run copy
 ### Why This Is Critical:
 - The Laravel application reads compiled assets from the theme's `resources/dist/` directory
 - Without `npm run build`, Tailwind won't compile new classes or changes
-- Without `npm run copy`, the changes won't be available to the main Laravel application
+- Without `npm run copy` (dismesso: `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public`), the changes won't be available to the main Laravel application
 - Users will NOT see any frontend changes without these steps
 
 ### Remember:
