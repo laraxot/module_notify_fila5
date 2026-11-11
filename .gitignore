@@ -6,6 +6,7 @@ audit-coverage/
 # --- Audit coverage bridge (never commit) ---
 *.backup
 *.backup.*
+*.lock
 # --- Backup files ---
 *.bak
 *.bakcup
@@ -110,3 +111,8 @@ graphify-out/
 .claude-audit/
 test-results/
 notify.code-workspace
+
+# module-root-hygiene (story module-root-hygiene)
+/.github/skills/
+docs/graphify
+resources/lang
