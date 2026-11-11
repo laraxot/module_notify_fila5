@@ -80,7 +80,11 @@ Errori comuni da evitare.
 
 ---
 
+<<<<<<< .merge_file_fCkxaK
 ### 14. ❌ Dimenticare symlink public_html/themes (npm run copy obsoleto) dopo theme build
+=======
+### 14. ❌ Dimenticare npm run copy (dismesso: symlink public_html/themes/<Tema>) dopo theme build
+>>>>>>> .merge_file_YaOBUm
 **✅ CORRETTO**: Sempre eseguire copy per deploy assets
 
 ---

@@ -21,7 +21,6 @@ status: draft
 ```bash
 cd laravel/Themes/Sixteen
 npm run build    # ✓ Completato
-npm run copy    # ✓ Completato
 ```
 
 ### Output Build

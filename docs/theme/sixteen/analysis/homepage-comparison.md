@@ -181,7 +181,6 @@ This document analyzes the HTML structure differences between:
 ```bash
 cd laravel/Themes/Sixteen
 npm run build    # Build CSS/JS
-npm run copy    # Copy assets
 ```
 
 ---

@@ -1820,7 +1820,11 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
+<<<<<<< .merge_file_pRVuoF
 [ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
+=======
+[ ] Asset buildati (`npm run build`; serviti via symlink)
+>>>>>>> .merge_file_0nk1t6
 [ ] Dark mode tested
 [ ] Responsive design tested
 [ ] Accessibility tested
