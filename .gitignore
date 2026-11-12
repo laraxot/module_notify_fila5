@@ -118,3 +118,4 @@ notify.code-workspace
 /.github/agents/
 docs/graphify
 resources/lang
+.github/issue_content/
