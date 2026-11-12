@@ -14,6 +14,12 @@ superseded_by: supermemory-quickstart.md
 
 # SuperMemory - AI Memory Infrastructure
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 **Project**: Notify Platform  
 **Last Updated**: 2026-04-09  
 **API Key**: Configured (sm_BzH3Cugxk1hMDm5V1EHC2N_...)  

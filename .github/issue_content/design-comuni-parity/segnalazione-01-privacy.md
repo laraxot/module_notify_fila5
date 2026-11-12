@@ -11,6 +11,12 @@ discussions: []
 
 # Converti pagina: Segnalazione - Privacy (segnalazione-01-privacy.html)
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 ## Obiettivo
 Portare la pagina locale `http://127.0.0.1:8000/it/tests/segnalazione-01-privacy` al **95%+ di parità visiva e strutturale** con il riferimento Bootstrap Italia.
 

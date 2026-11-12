@@ -12,6 +12,12 @@ status: draft
 
 # Modulo CMS
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 ## Descrizione
 Il modulo CMS gestisce i contenuti, le pagine e i temi dell'applicazione. Fornisce un'interfaccia completa per la gestione dei contenuti e l'integrazione con i temi frontend.
 

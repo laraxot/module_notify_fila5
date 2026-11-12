@@ -12,6 +12,12 @@ status: draft
 
 # Homepage Visual Comparison Analysis
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 ## Goal
 Make the local homepage (`http://127.0.0.1:8000/it/tests/homepage`) visually identical to the reference (`https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html`).
 
