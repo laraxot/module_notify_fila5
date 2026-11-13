@@ -11,6 +11,12 @@ discussions: []
 
 # Homepage CSS/JS Fix - Status
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 ## Build Completo
 
 **Data**: 2026-04-07
@@ -20,7 +26,10 @@ discussions: []
 ```bash
 cd laravel/Themes/Sixteen
 npm run build    # ✓ Completato
-npm run copy    # ✓ Completato
+<<<<<<< .merge_file_eWXgwE
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
+=======
+>>>>>>> .merge_file_FRMK1U
 ```
 
 ### Output Build

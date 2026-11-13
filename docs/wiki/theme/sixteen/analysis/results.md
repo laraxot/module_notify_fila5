@@ -10,6 +10,12 @@ updated: 2026-10-06
 
 # Homepage Visual Comparison - RESULTS
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 ## Comparison Screenshots
 
 ### Desktop Viewport (800px width)
@@ -36,7 +42,10 @@ updated: 2026-10-06
 ```bash
 cd laravel/Themes/Sixteen
 npm run build    # ✓
-npm run copy     # ✓
+<<<<<<< .merge_file_odVQ0g
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
+=======
+>>>>>>> .merge_file_Nm1TDu
 ```
 
 ### Remaining Differences (Acceptable):

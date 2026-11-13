@@ -10,6 +10,13 @@ discussions: []
 ---
 
 # 🔧 Console Commands FixCity
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 # 🔧 Console Commands Notify
 
 > **Laravel 11**: Comandi auto-registrati da `app/Console/Commands/`
@@ -159,7 +166,7 @@ vendor/bin/phpstan analyse app/
 
 # 5. Frontend (SEMPRE dopo modifiche CSS/JS)
 cd Themes/Sixteen/
-npm run build && npm run copy
+npm run build
 cd ../../
 
 # 6. Commit
@@ -176,7 +183,7 @@ php artisan test
 
 # Frontend build (CRITICO)
 cd Themes/Sixteen/
-npm run build && npm run copy
+npm run build
 cd ../../
 
 # Deploy optimizations
@@ -309,7 +316,10 @@ discussions: []
 ```bash
 cd Themes/Sixteen/
 npm run build
-npm run copy
+<<<<<<< .merge_file_mymQHb
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
+=======
+>>>>>>> .merge_file_fJ5F4i
 ```
 
 Senza questi comandi, le modifiche frontend NON saranno visibili agli utenti!

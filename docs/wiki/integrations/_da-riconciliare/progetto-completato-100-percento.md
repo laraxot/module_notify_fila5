@@ -20,6 +20,12 @@ related:
 
 # 🏆 PROGETTO <nome progetto> - 100% COMPLETATO!
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 **Data**: 1 Ottobre 2025 - Ore 22:30  
 **Status**: ✅✅✅ **PROGETTO COMPLETO AL 100%!** ✅✅✅  
 **Achievement**: 🏆🏆🏆 **STRAORDINARIO - OLTRE LE ASPETTATIVE** 🏆🏆🏆
@@ -384,7 +390,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ```bash
 # Production build
 cd Themes/Sixteen
-npm run build && npm run copy
+npm run build
 
 # Run migrations
 php artisan migrate --force
@@ -952,7 +958,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ```bash
 # Production build
 cd Themes/Sixteen
-npm run build && npm run copy
+npm run build
 
 # Run migrations
 php artisan migrate --force
