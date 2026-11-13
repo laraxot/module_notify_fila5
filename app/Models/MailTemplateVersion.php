@@ -63,7 +63,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 class MailTemplateVersion extends BaseModel
 {
     use MailTemplateVersionRelations;
-    use SoftDeletes, Updater;
+    use Updater;
 
     protected $connection = 'notify';
 
