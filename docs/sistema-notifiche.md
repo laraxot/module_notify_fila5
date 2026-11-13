@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sistema notifiche"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sistema Notifiche

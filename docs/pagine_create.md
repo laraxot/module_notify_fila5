@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "pagine create"
 issues: []
 discussions: []
+status: superseded
+superseded_by: pagine-create.md
 ---
 
 # Pagine Create - FixCity Sixteen Theme

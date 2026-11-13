@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "project context"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Project Context
@@ -43,3 +44,5 @@ discussions: []
 **Di ritorno:**
 - [CLAUDE.md](../../CLAUDE.md)
 - [AGENTS.md](../../AGENTS.md)
+- [CLAUDE.md](../CLAUDE.md)
+- [AGENTS.md](../AGENTS.md)

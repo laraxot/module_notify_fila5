@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "xotbase table method"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🔴 XotBaseTableWidget - NO table() Method Rule
@@ -17,15 +18,6 @@ discussions: []
 **Priority**: BLOCKER
 
 ---
-
-title: "xotbase table method"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "xotbase table method"
-issues: []
-discussions: []
 ## 🎯 The Rule
 
 > **MAI** definire il metodo `table()` in classi che estendono `XotBaseTableWidget`.

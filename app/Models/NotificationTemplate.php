@@ -5,9 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
+use Modules\Notify\Actions\RenderNotificationTemplateStringAction;
 use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\Traits\NotificationTemplateMutators;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
@@ -18,6 +19,9 @@ use Spatie\Translatable\HasTranslations;
  *
  * @property string|null $name
  * @property string|null $code
+ * @property string|null $description
+ * @property string|null $category
+ * @property array<string, mixed>|null $metadata
  * @property string|null $subject
  * @property bool $is_active
  * @property array<string, mixed>|null $variables
@@ -47,11 +51,15 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array<int, string> $locales)
  *
- * @mixin \Eloquent
+ * @mixin \Illuminate\Database\Eloquent\Model
  */
 class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;
+    use NotificationTemplateMutators;
+
+    /** La chiave e' un UUID char(36): niente auto-increment, altrimenti dopo l'insert l'id diventa '0'. */
+    public $incrementing = false;
 
     /** @var list<string> */
     public array $translatable = [
@@ -214,15 +222,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Get the channels label attribute.
      */
-    public function getChannelsLabelAttribute(): string
-    {
-        /** @var array<int, string> $channels */
-        $channels = $this->channels;
-
-        return collect($channels)
-            ->map(fn (string $channel): string => (string) __('notify::template.fields.channel.options.'.$channel.'.label'))
-            ->implode(', ');
-    }
 
     /**
      * Get the GrapesJS data.
@@ -309,6 +308,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Compile a string template with the given data.
      *
+     * I template sono letti dal database: si sostituiscono solo i segnaposto, mai Blade/PHP (DCP-283, C-08).
+     *
      * @param  string|null  $template  The template to compile
      * @param  array<string, mixed>  $data  The data to compile with
      */
@@ -318,6 +319,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
             return null;
         }
 
-        return Blade::render($template, $data);
+        return app(RenderNotificationTemplateStringAction::class)->execute($template, $data);
     }
 }

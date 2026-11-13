@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "implementation summary"
 issues: []
 discussions: []
+status: superseded
+superseded_by: implementation-summary.md
 ---
 
 # Riepilogo Implementazione Design Comuni

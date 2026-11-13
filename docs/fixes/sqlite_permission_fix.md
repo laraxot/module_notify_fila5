@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sqlite permission fix"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ✅ SQLite Database Permission Fix - COMPLETE
@@ -16,15 +17,6 @@ discussions: []
 **Error**: `SQLSTATE[HY000]: General error: 8 attempt to write a readonly database`
 
 ---
-
-title: "sqlite permission fix"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sqlite permission fix"
-issues: []
-discussions: []
 ## 🚨 Error Details
 
 ### Original Error
@@ -120,7 +112,7 @@ php artisan serve
 
 | Issue | Status | Fix |
 |-------|--------|-----|
-| **Vite Manifest Missing** | ✅ Fixed | `npm run build && npm run copy` |
+| **Vite Manifest Missing** | ✅ Fixed | `npm run build` |
 | **SQLite Readonly** | ✅ Fixed | `chmod 775 database/` |
 | **NotebookLM MCP** | ✅ Installed | `claude mcp add notebooklm` |
 
@@ -168,7 +160,7 @@ Add to deployment docs:
 2. Build theme assets:
    ```bash
    cd laravel/Themes/Sixteen
-   npm run build && npm run copy
+   npm run build
    ```
 ```
 

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "command approval discipline"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Command Approval Discipline

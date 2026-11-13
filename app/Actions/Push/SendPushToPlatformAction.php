@@ -8,6 +8,7 @@ use Exception;
 use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
+use Modules\Notify\Datas\NotifyConfigData;
 use Modules\Notify\Datas\PushNotificationData;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
@@ -56,7 +57,7 @@ class SendPushToPlatformAction
             'ttl' => $notification->ttl ?? 3600];
 
         $serverKey = SafeStringCastAction::cast(config('notify.fcm.server_key'));
-        $url = SafeStringCastAction::cast(config('notify.fcm.url', 'https://fcm.googleapis.com/fcm/send'));
+        $url = NotifyConfigData::make()->fcm_url;
 
         $response = Http::withHeaders([
             'Authorization' => 'key='.$serverKey,
@@ -72,6 +73,12 @@ class SendPushToPlatformAction
 
         if ($response->successful()) {
             $responseData = $response->json();
+
+            // FCM legacy risponde 200 anche quando il token e' rifiutato: l'esito vero e' in `failure`
+            $failures = is_array($responseData) ? ($responseData['failure'] ?? 0) : 0;
+            if (is_int($failures) && $failures > 0) {
+                throw new Exception('FCM rejected the token: '.$response->body());
+            }
 
             return [
                 'success' => true,

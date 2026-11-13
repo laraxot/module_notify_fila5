@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "conflict resolution sendsmspage"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Risoluzione Conflitti SendSmsPage.php

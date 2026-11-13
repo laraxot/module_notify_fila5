@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "qualita codice"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Qualità del Codice

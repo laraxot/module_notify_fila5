@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "LARAVEL DEBUGBAR TROUBLESHOOTING"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Laravel Debugbar Troubleshooting Guide
@@ -314,15 +315,6 @@ For better performance with many queries:
 4. **Documentation is key**: Always document why certain exclusions exist (future maintainers will thank you)
 
 ---
-
-title: "LARAVEL DEBUGBAR TROUBLESHOOTING"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "LARAVEL DEBUGBAR TROUBLESHOOTING"
-issues: []
-discussions: []
 **Last Updated**: 2026-04-01  
 **Author**: Qwen Code AI Assistant  
 **Status**: ✅ Resolved

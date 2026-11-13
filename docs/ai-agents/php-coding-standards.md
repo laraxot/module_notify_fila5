@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "php coding standards"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHP coding standards (strict)

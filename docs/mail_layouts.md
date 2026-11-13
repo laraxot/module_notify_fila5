@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "mail layouts"
 issues: []
 discussions: []
+status: superseded
+superseded_by: mail-layouts.md
 ---
 
 # Layout delle Email

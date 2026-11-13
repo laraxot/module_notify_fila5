@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "tailwind forms"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Form con Filament Components
@@ -277,4 +278,4 @@ class NotificationForm extends Component implements HasForms
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/installation)
 - [Documentazione Layout](tailwind_layouts.md)
 - [Documentazione Componenti](tailwind_components.md)
-- [Architettura](architecture.md)
+- [Architettura](ARCHITECTURE.md)

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mcp tools"
 issues: []
 discussions: []
+status: draft
 ---
 
 # MCP Tools
@@ -31,5 +32,6 @@ La configurazione MCP si trova in:
 
 **Di ritorno:**
 - → [CLAUDE.md - MCP Tools Section](../../CLAUDE.md)
+- → [CLAUDE.md - MCP Tools Section](../CLAUDE.md)
 - → [mcp.md](mcp.md)
 - → [INDEX](index.md)

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "typescript"
 issues: []
 discussions: []
+status: draft
 ---
 
 # TypeScript Guidelines

@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "roadmap update plan"
 issues: []
 discussions: []
+status: superseded
+superseded_by: roadmap-update-plan.md
 ---
 
 # Roadmap Update Plan - All Modules

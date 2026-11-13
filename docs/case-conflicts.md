@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "case conflicts"
 issues: []
 discussions: []
+status: superseded
+superseded_by: cases.md
 ---
 
 # Case-Insensitive File Conflicts

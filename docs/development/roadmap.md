@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Notify Module Roadmap
@@ -106,6 +107,20 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../activity/docs/roadmap.md)
 * [roadmap.md](../../../patient/docs/roadmap.md)
 * [roadmap.md](../../../cms/docs/roadmap.md)
+* [roadmap.md](../roadmap.md)
+* [roadmap.md](../../../Gdpr/docs/roadmap.md)
+* [roadmap.md](../roadmap.md)
+* [roadmap.md](../../../xot/docs/roadmap.md)
+* [roadmap.md](../../../dental/docs/roadmap.md)
+* [roadmap.md](../../../User/docs/roadmap.md)
+* [roadmap.md](../../../ui/docs/roadmap.md)
+* [roadmap.md](../../../Lang/docs/roadmap.md)
+* [roadmap.md](../../../Job/docs/roadmap.md)
+* [roadmap.md](../../../Media/docs/roadmap.md)
+* [roadmap.md](../../../Tenant/docs/roadmap.md)
+* [roadmap.md](../../../Activity/docs/roadmap.md)
+* [roadmap.md](../../../patient/docs/roadmap.md)
+* [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../themes/one/docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
 * [roadmap.md](../../../Notify/docs/roadmap.md)

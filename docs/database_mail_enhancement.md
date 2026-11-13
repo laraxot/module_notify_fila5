@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "database mail enhancement"
 issues: []
 discussions: []
+status: superseded
+superseded_by: database-mail-enhancement.md
 ---
 
 # Database Mail Enhancement (Open Source)

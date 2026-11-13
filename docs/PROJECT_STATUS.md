@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "PROJECT STATUS"
 issues: []
 discussions: []
+status: draft
 ---
 
 # FixCity Platform - Project Status Report
@@ -183,15 +184,6 @@ discussions: []
 - [ ] ISO 27001 (planned)
 
 ---
-
-title: "PROJECT STATUS"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "PROJECT STATUS"
-issues: []
-discussions: []
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
 **Contact**: development@ptv.io

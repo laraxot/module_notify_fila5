@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "moduli principali"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Moduli Principali

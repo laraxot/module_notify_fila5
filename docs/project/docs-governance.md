@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "docs governance"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Documentation Governance

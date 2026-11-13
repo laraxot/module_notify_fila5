@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "approfondimento completo"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Approfondimento Completo Modulo Notify

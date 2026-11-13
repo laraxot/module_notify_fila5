@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "theme build rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 === theme build rules ===
@@ -20,7 +21,6 @@ discussions: []
 cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
 cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
 npm run build
-npm run copy
 ```
 
 ### When to Run:
@@ -33,7 +33,11 @@ npm run copy
 ### Why This Is Critical:
 - The Laravel application reads compiled assets from the theme's `resources/dist/` directory
 - Without `npm run build`, Tailwind won't compile new classes or changes
-- Without `npm run copy`, the changes won't be available to the main Laravel application
+<<<<<<< .merge_file_YiZC6L
+- Without `symlink public_html/themes (npm run copy obsoleto)`, the changes won't be available to the main Laravel application
+=======
+- Without `npm run copy` (dismesso: `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public`), the changes won't be available to the main Laravel application
+>>>>>>> .merge_file_h1666o
 - Users will NOT see any frontend changes without these steps
 
 ### Remember:
@@ -45,20 +49,11 @@ This is a fundamental rule that must NEVER be forgotten when working with themes
 
 
 ---
-
-title: "theme build rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "theme build rules"
-issues: []
-discussions: []
 ## Cross-References
 
-- ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines
-- ← [Main AI Docs Index](../INDEX.md) — Master index
-- ← [CLAUDE Index](index.md) — All Laravel Boost guidelines
-- ← [Main AI Docs Index](../index.md) — Master index
-- ← [../../../../docs/CLAUDE.md](../../../../docs/../../../../docs/CLAUDE.md) — Original source
+- ← [CLAUDE Index](INDEX.md): All Laravel Boost guidelines
+- ← [Main AI Docs Index](../INDEX.md): Master index
+- ← [CLAUDE Index](index.md): All Laravel Boost guidelines
+- ← [Main AI Docs Index](../index.md): Master index
+- ← [../../../../docs/CLAUDE.md](../../../../docs/../../../../docs/CLAUDE.md): Original source
 

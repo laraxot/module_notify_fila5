@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "claude split index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # CLAUDE.md Split Index
@@ -26,6 +27,7 @@ discussions: []
 ## 🔗 Collegamento all'Originale
 
 - [CLAUDE.md originale](../../CLAUDE.md) - File completo (deprecated)
+- [CLAUDE.md originale](../CLAUDE.md) - File completo (deprecated)
 - [Index principale](./index.md)
 
 ## Modifiche Migliorative

@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "REFACTORING COMPLETATO"
 issues: []
 discussions: []
+status: superseded
+superseded_by: refactoring_completato.md
 ---
 
 # 🐄✨ REFACTORING BASEMODEL - COMPLETATO! ✨🐄

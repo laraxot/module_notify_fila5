@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mcp index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # MCP Index
@@ -26,6 +27,7 @@ discussions: []
 ## Configuration
 
 - [Qwen MCP Config](../../.qwen/mcp.json) - MCP server definitions
+- [Qwen MCP Config](../../../../../.qwen/mcp.json) - MCP server definitions
 - [Memory Bank](../../memory-bank/) - Project memory bank (structured docs)
 
 ## Rules

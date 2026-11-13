@@ -55,6 +55,8 @@ class SpatieEmail extends TemplateMailable
                 'slug' => $this->slug],
             [
                 'subject' => 'Benvenuto, {{ first_name }}',
+                // Difetto 16: senza layout getHtmlLayout() non ha un file da leggere
+                'html_layout_path' => 'base.html',
                 'html_template' => '<p>Gentile {{ first_name }} {{ last_name }},</p><p>La tua registrazione è in attesa di approvazione. Ti contatteremo presto.</p>',
                 'text_template' => 'Gentile {{ first_name }} {{ last_name }}, la tua registrazione è in attesa di approvazione. Ti contatteremo presto.',
                 'sms_template' => 'Gentile {{ first_name }} {{ last_name }}, la tua registrazione è in attesa di approvazione. Ti contatteremo presto.'],

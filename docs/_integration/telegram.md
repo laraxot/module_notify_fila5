@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "telegram"
 issues: []
 discussions: []
+status: superseded
+superseded_by: ../-integration/telegram.md
 ---
 
 # telegram

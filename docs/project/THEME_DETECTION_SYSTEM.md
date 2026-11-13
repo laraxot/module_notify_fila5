@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "THEME DETECTION SYSTEM"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Theme Detection System - Notify Fila5
@@ -17,15 +18,6 @@ discussions: []
 **Priority:** 🔴 **Critical Architecture**
 
 ---
-
-title: "THEME DETECTION SYSTEM"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "THEME DETECTION SYSTEM"
-issues: []
-discussions: []
 ## 🎯 Scopo
 
 Questo documento spiega il sistema di rilevamento del tema basato su `APP_URL` e il percorso di configurazione dinamico.
@@ -258,7 +250,6 @@ npm install
 npm run build
 
 # 4. Copy to public_html
-npm run copy
 ```
 
 **Result:**
@@ -402,10 +393,11 @@ new class extends Component {
 
 ### Internal Documents
 
-- → [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md) - Layout hierarchy
+- → [Layout Architecture](Themes/Sixteen/docs/layout-architecture-and-namespace.md) - Layout hierarchy
 - → [Page Component Architecture](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md) - Page component
 - → [Vite Build System](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build process
 - → [Master Index](docs/MODULE_DOCS_INDEX.md) - Central navigation
+- → [Master Index](../MODULE_DOCS_INDEX.md) - Central navigation
 
 ### External Resources
 
@@ -487,7 +479,11 @@ pages/tests/amministrazione.blade.php # SBAGLIATO
 - [ ] `composer update -W` executed
 - [ ] `npm install` executed
 - [ ] `npm run build` executed
-- [ ] `npm run copy` executed
+<<<<<<< .merge_file_4E4iWI
+- [ ] `symlink public_html/themes (npm run copy obsoleto)` executed
+=======
+- [ ] `npm run copy` (dismesso: `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public`) executed
+>>>>>>> .merge_file_AClD97
 - [ ] Manifest exists: `public_html/themes/{theme}/manifest.json`
 
 ### Blade Components

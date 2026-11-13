@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "design comuni wizard parity"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Design Comuni Wizard Parity
@@ -19,15 +20,6 @@ discussions: []
 **Theme**: Sixteen
 
 ---
-
-title: "design comuni wizard parity"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design comuni wizard parity"
-issues: []
-discussions: []
 ## Obiettivo
 
 Wizard step 2 deve avere **alto HTML parity** e **altissimo visual parity** con:

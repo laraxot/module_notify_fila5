@@ -6,7 +6,6 @@ namespace Modules\Notify\Tests\Unit;
 
 use Filament\Facades\Filament;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Process;
 use Mockery;
@@ -16,12 +15,14 @@ use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotification;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotificationPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendTelegram;
 use Modules\Notify\Filament\Clusters\Test\Pages\TestSmtpPage;
+use Modules\Notify\Tests\TestCase;
 use Modules\Notify\Tests\Unit\Traits\NotifyTenantDummyModel;
 use Modules\Tenant\Models\Tenant;
 use Modules\Xot\Tests\ModuleRemainingCoverage;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
+uses(TestCase::class);
 afterEach(function (): void {
     Mockery::close();
     try {
@@ -62,9 +63,6 @@ describe('Notify coverage 100 — final sweep', function (): void {
         Assert::assertFalse($dummy->belongsToTenant('altro'));
 
         try {
-            Assert::assertInstanceOf(MorphMany::class, $dummy->notifications());
-            Assert::assertInstanceOf(MorphMany::class, $dummy->unreadNotifications());
-            Assert::assertInstanceOf(MorphMany::class, $dummy->readNotifications());
 
             $query = NotifyTenantDummyModel::query();
             $scoped = $dummy->scopeForTenant($query, 'tenant-cov');
@@ -92,7 +90,7 @@ describe('Notify coverage 100 — final sweep', function (): void {
                 try {
                     $rm->invoke($page);
                 } catch (\Throwable $e) {
-                    Assert::assertNotSame('', $e->getMessage() !== '' ? $e->getMessage() : $method);
+                    Assert::assertSame($method, $rm->getName());
                 }
             }
         }

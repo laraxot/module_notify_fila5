@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament widget tables policy"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Filament Widget Tables Policy

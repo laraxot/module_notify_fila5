@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "project overview"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Panoramica del Progetto (Claude Context)

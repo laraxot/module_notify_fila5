@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "optimization analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # notify module documentation optimization analysis

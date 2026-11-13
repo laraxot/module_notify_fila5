@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mail template ui improvements"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Miglioramenti UI/UX per MailTemplateResource

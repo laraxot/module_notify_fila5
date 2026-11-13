@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "chaos monkey readiness"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Chaos Monkey Readiness
@@ -125,7 +126,7 @@ php artisan tinker
 
 **Emergency Fixes:**
 1. Clear all caches
-2. Rebuild theme assets (`npm run build && npm run copy`)
+2. Rebuild theme assets (`npm run build`)
 3. Restart services
 4. Check database connections
 5. Verify module status

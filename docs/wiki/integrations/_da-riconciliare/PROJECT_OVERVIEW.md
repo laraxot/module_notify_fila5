@@ -8,6 +8,8 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: superseded
+superseded_by: project_overview.md
 ---
 
 # 🏛️ NOTIFY - Civic Engagement Platform
@@ -518,7 +520,7 @@ php artisan migrate --seed
 
 # 4. Build
 npm run build
-cd Themes/Sixteen && npm run build && npm run copy
+cd Themes/Sixteen && npm run build
 
 # 5. Serve
 php artisan serve

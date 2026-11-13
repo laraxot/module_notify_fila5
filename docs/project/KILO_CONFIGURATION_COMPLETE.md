@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "KILO CONFIGURATION COMPLETE"
 issues: []
 discussions: []
+status: draft
 ---
 
 # ✅ Kilo (OpenCode) Configuration - COMPLETE
@@ -17,15 +18,6 @@ discussions: []
 **Schema**: https://app.kilo.ai/config.json
 
 ---
-
-title: "KILO CONFIGURATION COMPLETE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "KILO CONFIGURATION COMPLETE"
-issues: []
-discussions: []
 ## Cos'è Kilo Code
 
 **Kilo Code** (ora **OpenCode**) è un AI coding assistant open source che:

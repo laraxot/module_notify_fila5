@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament 4 migrationes"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Filament 3 to 4 Migration - Component Fixes

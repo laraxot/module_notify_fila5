@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "start here replikate phase2"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚀 START HERE - REPLIKATE Phase 2
@@ -16,15 +17,6 @@ discussions: []
 **Time Estimate**: ~50 minutes
 
 ---
-
-title: "start here replikate phase2"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "start here replikate phase2"
-issues: []
-discussions: []
 ## 📍 You Are Here
 
 ```
@@ -50,7 +42,7 @@ REPLIKATE Project Lifecycle
 ## 📖 What To Read (In Order)
 
 ### 1️⃣ Navigation Hub (5 min read)
-📍 **File**: `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
+📍 **File**: `laravel/Themes/Sixteen/docs/replikate-master-index.md`
 
 This is your master navigation. It explains:
 - What Phase 1 found
@@ -143,7 +135,6 @@ cd laravel/Themes/Sixteen
 npm run build
 
 # Copy assets
-npm run copy
 
 # Clear cache
 php artisan optimize:clear
@@ -212,14 +203,14 @@ open http://127.0.0.1:8000/it/tests/homepage
 
 ## 📋 Checklist Before Starting
 
-- [ ] Read `REPLIKATE-MASTER-INDEX.md`
+- [ ] Read `replikate-master-index.md`
 - [ ] Read `homepage-structure-diff.md` completely
 - [ ] Read `replikate.txt` (understand HTML FIRST principle)
 - [ ] Know where `[slug].blade.php` is
 - [ ] Understand what `section#head-section` should contain
 - [ ] Have list of 33 missing CSS classes
 - [ ] Have list of 25 Bootstrap classes to remove
-- [ ] Know how to run `npm run build && npm run copy`
+- [ ] Know how to run `npm run build`
 
 ---
 
@@ -272,7 +263,7 @@ All information you need is documented:
 
 1. **What to do**: `homepage-structure-diff.md`
 2. **How to do it**: `replikate.txt`
-3. **Where files are**: `REPLIKATE-MASTER-INDEX.md`
+3. **Where files are**: `replikate-master-index.md`
 4. **Automation tool**: `bashscripts/design-analysis/replikate-workflow.sh`
 
 ---
@@ -306,7 +297,7 @@ Just follow the 4 tasks in order and test as you go.
 
 ## 🚀 Start Now
 
-1. Open `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
+1. Open `laravel/Themes/Sixteen/docs/replikate-master-index.md`
 2. Read it thoroughly
 3. Open `homepage-structure-diff.md`
 4. Follow Task 1-4

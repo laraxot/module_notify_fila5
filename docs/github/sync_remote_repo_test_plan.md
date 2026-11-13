@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sync remote repo test plan"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Sync Remote Repo - Test Plan
@@ -17,15 +18,6 @@ discussions: []
 > **Date**: 2026-03-13
 
 ---
-
-title: "sync remote repo test plan"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sync remote repo test plan"
-issues: []
-discussions: []
 ## 🎯 Test Objectives
 
 ### Primary Goal

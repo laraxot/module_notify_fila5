@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "RALPH LOOP EXECUTION"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix
@@ -15,15 +16,6 @@ discussions: []
 ## Goal: Allineare homepage FixCity a Bootstrap Italia reference
 
 ---
-
-title: "RALPH LOOP EXECUTION"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "RALPH LOOP EXECUTION"
-issues: []
-discussions: []
 ## Iteration 1: Header Slim Component
 
 ### Task

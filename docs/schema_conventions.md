@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "schema conventions"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Schema Conventions in Notify Module

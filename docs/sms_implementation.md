@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "sms implementation"
 issues: []
 discussions: []
+status: superseded
+superseded_by: bmad/architecture/sms-implementation.md
 ---
 
 # Implementazione SMS in Laravel

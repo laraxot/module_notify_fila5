@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "xot base classes checklist"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Checklist: Verifica Classi Base Xot

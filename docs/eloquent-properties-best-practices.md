@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # Best Practices per Proprietà Modelli Eloquent - Modulo Notify
@@ -170,7 +171,7 @@ Prima di ogni commit nel modulo Notify, verificare:
 ## Riferimenti
 
 - [Regola Cursor](../.cursor/rules/eloquent-properties.md)
-- [Memoria Cursor](../.cursor/memories)
+- [Memoria Cursor](../../../../.cursor/memories)
 - [Linee Guida AI](../../.ai/guidelines/core.md)
 - [File Corretto](../app/Notifications/GenericNotification.php)
 

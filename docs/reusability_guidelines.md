@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "reusability guidelines"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Linee Guida per la Riusabilità del Modulo Notify

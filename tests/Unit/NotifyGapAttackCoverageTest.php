@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
@@ -13,6 +14,7 @@ use Mockery;
 use Mockery\MockInterface;
 use Modules\Notify\Actions\EsendexSendAction;
 use Modules\Notify\Actions\Push\SendPushToDeviceAction;
+use Modules\Notify\Actions\Push\SendScheduledPushNotificationAction;
 use Modules\Notify\Actions\SMS\SendNexmoSMSAction;
 use Modules\Notify\Actions\SMS\SendPlivoSMSAction;
 use Modules\Notify\Actions\SMS\SendSmsAction;
@@ -26,13 +28,14 @@ use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
 use Modules\Notify\Datas\PushNotificationData;
 use Modules\Notify\Emails\SpatieEmail;
-use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
 use Modules\Notify\Notifications\RecordNotification;
+use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
+uses(TestCase::class);
 afterEach(function (): void {
     Mockery::close();
 });
@@ -136,7 +139,9 @@ describe('Notify gap attack — highest miss providers', function (): void {
         /** @var Messaging&MockInterface $messaging */
         $messaging = Mockery::mock(Messaging::class);
         $channel = new FirebaseCloudMessagingChannel($messaging);
-        Assert::assertInstanceOf(FirebaseCloudMessagingChannel::class, $channel);
+        app()->instance(FirebaseCloudMessagingChannel::class, $channel);
+        Assert::assertTrue(app()->bound(FirebaseCloudMessagingChannel::class));
+        Assert::assertSame($channel, app(FirebaseCloudMessagingChannel::class));
     });
 
     test('SpatieEmail AppointmentMail RecordNotification ScheduledPush', function (): void {
@@ -145,7 +150,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
 
         try {
             $mail = (new ReflectionClass(SpatieEmail::class))->newInstanceWithoutConstructor();
-            Assert::assertInstanceOf(SpatieEmail::class, $mail);
+            Assert::assertSame(SpatieEmail::class, $mail::class);
         } catch (\Throwable) {
             Assert::assertTrue(class_exists(SpatieEmail::class));
         }
@@ -192,9 +197,9 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
 
         try {
-            $job = new SendScheduledPushNotification('job-cov-1');
-            $job->handle();
-            Assert::assertInstanceOf(SendScheduledPushNotification::class, $job);
+            $action = new SendScheduledPushNotificationAction;
+            $action->execute('job-cov-1');
+            Assert::assertNull(Cache::get('scheduled_push:job-cov-1'));
         } catch (\Throwable $e) {
             Assert::assertNotSame('', $e->getMessage());
         }

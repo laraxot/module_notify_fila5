@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "translation cleanup plan"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Piano di Pulizia e Standardizzazione delle Traduzioni

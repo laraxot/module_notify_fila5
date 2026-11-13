@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "psr4 namespace fix"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Fix Namespace PSR-4 - Modulo Notify

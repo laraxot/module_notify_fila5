@@ -16,6 +16,7 @@ related:
   - "./notify-conflict-check-1.md"
   - "./notify-conflict-check.md"
   - "./notify-restore-.md"
+status: draft
 ---
 
 # LLM Wiki Integration - Session Summary
@@ -301,6 +302,11 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 - [Quick Reference](docs/wiki/quick-reference.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
 - [Obsidian Setup](docs/.obsidian/README.md)
+- [Complete Integration Guide](README.md)
+- [Agent Instructions](agents.md)
+- [Quick Reference](quick-reference.md)
+- [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
+- [Obsidian Setup](../.obsidian/README.md)
 
 ## Success Criteria
 
@@ -606,6 +612,11 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 - [Quick Reference](docs/wiki/QUICK-REFERENCE.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
 - [Obsidian Setup](docs/.obsidian/README.md)
+- [Complete Integration Guide](README.md)
+- [Agent Instructions](AGENTS.md)
+- [Quick Reference](QUICK-REFERENCE.md)
+- [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
+- [Obsidian Setup](../.obsidian/README.md)
 
 ## Success Criteria
 

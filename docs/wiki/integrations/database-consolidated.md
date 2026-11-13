@@ -2,15 +2,16 @@
 qmd: "database consolidated"
 issues: []
 discussions: []
-title: "database — Consolidated Documentation"
+title: "database: Consolidated Documentation"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
-# database — Consolidated Documentation
+# database: Consolidated Documentation
 
 Consolidated from **15** individual files.
 
@@ -36,7 +37,8 @@ Consolidated from **15** individual files.
 
 ## database-mail-1
 
-*Consolidated from: `database-mail-1.md`*
+*Consolidated from: `database-mail.md`*
+*Consolidated from: `database-mail-deprecated.md`*
 
 
 This file is deprecated.
@@ -44,12 +46,13 @@ This file is deprecated.
 Use:
 
 - [database-mail](./database-mail.md)
+- [database-mail](../../database-mail.md)
 
 ---
 
 ## database-mail-2
 
-*Consolidated from: `database-mail-2.md`*
+*Consolidated from: `database-mail.md`*
 
 title: "Database Mail System"
 type: concept
@@ -60,12 +63,17 @@ qmd: "database-mail-2 database mail system"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -82,12 +90,14 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
 - [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
 - [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ## Panoramica
 
@@ -512,7 +522,7 @@ Cordiali saluti,<br>
 
 ## database-mail-enhancement-1
 
-*Consolidated from: `database-mail-enhancement-1.md`*
+*Consolidated from: `database-mail-enhancement.md`*
 
 title: "Database Mail Enhancement (Open Source)"
 type: concept
@@ -523,12 +533,17 @@ qmd: "database-mail-enhancement-1 database mail enhancement (open source)"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -734,7 +749,8 @@ testable class SendEmailTemplateAction {
 
 ## database-mail-queue-1
 
-*Consolidated from: `database-mail-queue-1.md`*
+*Consolidated from: `database-mail-queue.md`*
+*Consolidated from: `database-mail-queue-deprecated.md`*
 
 
 This file is deprecated.
@@ -742,12 +758,13 @@ This file is deprecated.
 Use:
 
 - [database-mail-queue](./database-mail-queue.md)
+- [database-mail-queue](../../database-mail-queue.md)
 
 ---
 
 ## database-mail-queue-2
 
-*Consolidated from: `database-mail-queue-2.md`*
+*Consolidated from: `database-mail-queue.md`*
 
 title: "Sistema di Code per Email - il progetto"
 type: concept
@@ -758,12 +775,17 @@ qmd: "database-mail-queue-2 sistema di code per email - il progetto"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1173,6 +1195,7 @@ php artisan queue:restart
 
 ## Collegamenti
 - [Database Mail System](database-mail-system.md)
+- [Database Mail System](../../database-mail-system.md)
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../../docs/queue-configuration.md)
 
@@ -1948,6 +1971,7 @@ php artisan queue:restart
 
 ## Collegamenti
 - [Database Mail System](database-mail-system.md)
+- [Database Mail System](../../database-mail-system.md)
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../../docs/queue-configuration.md)
 
@@ -1964,7 +1988,7 @@ php artisan queue:restart
 
 ## database-mail-system-1
 
-*Consolidated from: `database-mail-system-1.md`*
+*Consolidated from: `database-mail-system.md`*
 
 
 ## Panoramica
@@ -2346,6 +2370,7 @@ php artisan notify:mail-template:test
 ## Collegamenti
 - [Notify Module](../README.md)
 - [Email Templates](email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -2710,7 +2735,7 @@ php artisan notify:mail-template:test
 
 ## database-mail-system-2
 
-*Consolidated from: `database-mail-system-2.md`*
+*Consolidated from: `database-mail-system.md`*
 
 title: "Sistema di Gestione Email Basato su Database - il progetto"
 type: concept
@@ -2721,12 +2746,17 @@ qmd: "database-mail-system-2 sistema di gestione email basato su database - il p
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3037,6 +3067,7 @@ php artisan notify:mail-template:test
 - [Notify Module](../README.md)
 - [Notify Module](../readme.md)
 - [Email Templates](email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -3354,6 +3385,7 @@ php artisan notify:mail-template:test
 ## Collegamenti
 - [Notify Module](../readme.md)
 - [Email Templates](email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
@@ -3378,12 +3410,14 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
 - [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
 - [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ## Panoramica
 
@@ -3822,12 +3856,14 @@ Il file `routes/web.php` del modulo Notify **deve rimanere vuoto**.
 **Vedi anche:**
 - [structure.md](structure.md#regola-sulle-rotte)
 - [grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ---
 
 ## Collegamenti correlati
 - [Regola sulle rotte vuote in structure.md](structure.md#regola-sulle-rotte)
 - [Regola sulle rotte vuote in grapesjs-filament.md](grapesjs-filament.md#regola-sulle-rotte)
+- [Regola sulle rotte vuote in grapesjs-filament.md](../../grapesjs-filament.md#regola-sulle-rotte)
 
 ## Panoramica
 
@@ -4759,6 +4795,7 @@ php artisan queue:restart
 
 ## Collegamenti
 - [Database Mail System](database-mail-system.md)
+- [Database Mail System](../../database-mail-system.md)
 - [Mail Templates](database-mail-templates.md)
 - [Queue Configuration](../../../docs/queue-configuration.md)
 
@@ -5077,6 +5114,7 @@ php artisan notify:mail-template:test
 ## Collegamenti
 - [Notify Module](../README.md)
 - [Email Templates](email-templates.md)
+- [Email Templates](../../email-templates.md)
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "supermemory quickstart"
 issues: []
 discussions: []
+status: draft
 ---
 
 # SuperMemory - AI Memory Infrastructure
@@ -23,6 +24,7 @@ discussions: []
 SuperMemory is the long-term and short-term memory and context infrastructure for AI agents. It provides persistent memory across conversations, semantic search, and knowledge graph capabilities.
 
 **Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
+**Master MCP Docs**: [Project MCP Servers](../../../../docs/MCP_SERVERS.md)
 
 ## Quick Start
 
@@ -95,15 +97,20 @@ supermemory add --tag ptv --content "Fixcity module: Ticket model extends XotBas
 ### 3. Theme Conventions
 Store theme development patterns:
 ```bash
-supermemory add --tag fixcity --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
-supermemory add --tag ptv --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
+<<<<<<< .merge_file_4AmkhY
+supermemory add --tag fixcity --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then symlink public_html/themes (npm run copy obsoleto) to public_html/themes/Sixteen/."
+supermemory add --tag ptv --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then symlink public_html/themes (npm run copy obsoleto) to public_html/themes/Sixteen/."
+=======
+supermemory add --tag fixcity --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
+supermemory add --tag ptv --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
+>>>>>>> .merge_file_xJCiR2
 ```
 
 ### 4. Development Workflows
 Store build processes:
 ```bash
-supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag fixcity
-supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag ptv
+supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build" --tag fixcity
+supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build" --tag ptv
 ```
 
 ### 5. Architectural Decisions
@@ -217,18 +224,12 @@ supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 
 - **Master MCP Docs**: [Project MCP Servers](../../../docs/MCP_SERVERS.md)
 - **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/MCP_SERVERS.md)
-- **Theme MCP**: [Sixteen Theme MCP](../../Themes/Sixteen/docs/MCP_SERVERS.md)
+- **Theme MCP**: [Sixteen Theme MCP](../../Themes/Sixteen/docs/mcp-servers.md)
+- **Master MCP Docs**: [Project MCP Servers](../../../../docs/MCP_SERVERS.md)
+- **Xot Module MCP**: [Xot MCP Guide](../../Modules/Xot/docs/MCP_SERVERS.md)
+- **Theme MCP**: [Sixteen Theme MCP](../../../Themes/Sixteen/docs/mcp-servers.md)
 - **SuperMemory Skill**: [.qwen/skills/supermemory/](.qwen/skills/supermemory/)
 - **SuperMemory Console**: https://console.supermemory.ai
 
 ---
-
-title: "supermemory quickstart"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "supermemory quickstart"
-issues: []
-discussions: []
 *This document follows DRY+KISS principles. For general MCP server info, see the master doc.*

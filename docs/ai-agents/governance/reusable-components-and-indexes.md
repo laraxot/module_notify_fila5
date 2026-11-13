@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "reusable components and indexes"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Reusable Components And Indexes

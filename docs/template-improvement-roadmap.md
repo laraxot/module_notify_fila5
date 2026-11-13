@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "template improvement roadmap"
 issues: []
 discussions: []
+status: superseded
+superseded_by: template-improvement.md
 ---
 
 # Roadmap Implementazione Sistema Avanzato di Template Email

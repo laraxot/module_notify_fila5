@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "filament slug generation"
 issues: []
 discussions: []
+status: superseded
+superseded_by: filament-slug-generation.md
 ---
 
 # Generazione di Slug in Filament

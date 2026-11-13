@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament pages"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Pagine Filament del Modulo Notify

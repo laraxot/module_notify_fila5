@@ -7,9 +7,10 @@ updated: 2026-09-26
 qmd: "conflict resolution"
 issues: []
 discussions: []
+status: draft
 ---
 
-# Conflict Resolution — Module Notify
+# Conflict Resolution: Module Notify
 
 ## Summary
 - **Files resolved**: 44

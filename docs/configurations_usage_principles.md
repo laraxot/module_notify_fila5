@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "configurations usage principles"
 issues: []
 discussions: []
+status: superseded
+superseded_by: configurations-usage-principles.md
 ---
 
 # Principi di Utilizzo delle Configurazioni 

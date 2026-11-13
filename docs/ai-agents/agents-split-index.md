@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "agents split index"
 issues: []
 discussions: []
+status: draft
 ---
 
 # agents.md Split Index
@@ -32,6 +33,8 @@ discussions: []
 
 - [AGENTS.md originale](../../AGENTS.md) - File completo (deprecato)
 - [agents.md originale](../../agents.md) - File completo (deprecato)
+- [AGENTS.md originale](../AGENTS.md) - File completo (deprecato)
+- [agents.md originale](../agents.md) - File completo (deprecato)
 - [Index principale](./index.md) - Torna all'indice
 
 ## 📝 Note

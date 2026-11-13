@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "iflow ptvx guide"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Utilizzo di iFlow con il Progetto PTVX

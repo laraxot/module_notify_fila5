@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "class inheritance best practices"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Best Practices per l'Ereditarietà delle Classi

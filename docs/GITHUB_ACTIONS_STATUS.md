@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "GITHUB ACTIONS STATUS"
 issues: []
 discussions: []
+status: draft
 ---
 
 # GitHub Actions Status & Fixes
@@ -16,15 +17,6 @@ discussions: []
 **Author**: AI Agent
 
 ---
-
-title: "GITHUB ACTIONS STATUS"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "GITHUB ACTIONS STATUS"
-issues: []
-discussions: []
 ## Summary
 
 Analisi e fix delle GitHub Actions del repository base_ptv_fila5.

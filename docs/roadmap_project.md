@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "roadmap project"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚀 ROADMAP GENERALE - FixCity Platform
@@ -20,15 +21,6 @@ discussions: []
 ### Timeline: Q1-Q2 2025
 
 ---
-
-title: "roadmap project"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap project"
-issues: []
-discussions: []
 ## 🎯 Obiettivi Strategici
 
 ### 1. Completare le Funzionalità Core (Priorità Alta)
@@ -353,6 +345,12 @@ discussions: []
 - [Modulo Geo](../Modules/Geo/docs/README.md)
 - [Modulo Notify](../Modules/Notify/docs/README.md)
 - [Theme Sixteen](../Themes/Sixteen/docs/README.md)
+- [Modulo Fixcity](../../Fixcity/docs/README.md)
+- [Modulo User](../../User/docs/README.md)
+- [Modulo Cms](../../Cms/docs/README.md)
+- [Modulo Geo](../../Geo/docs/README.md)
+- [Modulo Notify](README.md)
+- [Theme Sixteen](../../../Themes/Sixteen/docs/README.md)
 
 ### External Resources
 - [Laravel Documentation](https://laravel.com/docs)

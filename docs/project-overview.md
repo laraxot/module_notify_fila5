@@ -4,19 +4,27 @@ type: concept
 tags: [project, overview]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "project-overview 🏛️ fixcity - civic engagement platform"
 qmd: "project-overview 🏛️ ptv - civic engagement platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+status: draft
 ---
 
 # 🏛️ FIXCITY - Civic Engagement Platform
@@ -522,7 +530,7 @@ php artisan migrate --seed
 
 # 4. Build
 npm run build
-cd Themes/Sixteen && npm run build && npm run copy
+cd Themes/Sixteen && npm run build
 
 # 5. Serve
 php artisan serve

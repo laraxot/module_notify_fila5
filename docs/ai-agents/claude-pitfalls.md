@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "claude pitfalls"
 issues: []
 discussions: []
+status: draft
 ---
 
 # CLAUDE Common Pitfalls
@@ -19,15 +20,6 @@ Errori comuni da evitare.
 **✅ CORRETTO**: Usare Folio + Volt + JSON pages
 
 ---
-
-title: "claude pitfalls"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "claude pitfalls"
-issues: []
-discussions: []
 ### 2. ❌ Connessioni Per-Modulo in Config
 **✅ CORRETTO**: Seguire Laravel 12 standard - solo driver connections
 
@@ -88,7 +80,11 @@ discussions: []
 
 ---
 
-### 14. ❌ Dimenticare npm run copy dopo theme build
+<<<<<<< .merge_file_fCkxaK
+### 14. ❌ Dimenticare symlink public_html/themes (npm run copy obsoleto) dopo theme build
+=======
+### 14. ❌ Dimenticare npm run copy (dismesso: symlink public_html/themes/<Tema>) dopo theme build
+>>>>>>> .merge_file_YaOBUm
 **✅ CORRETTO**: Sempre eseguire copy per deploy assets
 
 ---
@@ -98,4 +94,5 @@ discussions: []
 - [Indice CLAUDE](./claude-split-index.md)
 - [critical-rules.md](./critical-rules.md)
 - [CLAUDE.md originale](../../CLAUDE.md)
+- [CLAUDE.md originale](../CLAUDE.md)
 - [Index principale](./index.md)

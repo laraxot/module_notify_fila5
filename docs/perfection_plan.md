@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "perfection plan"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎯 FIXCITY - PERFECTION PLAN
@@ -16,15 +17,6 @@ discussions: []
 **Obiettivo**: Implementare TUTTO con PHPStan + PHPMD + Pest tests  
 
 ---
-
-title: "perfection plan"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "perfection plan"
-issues: []
-discussions: []
 ## 🎯 STRATEGIA PERFEZIONE
 
 ### Processo per OGNI Feature

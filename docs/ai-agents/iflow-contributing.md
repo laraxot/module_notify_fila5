@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "iflow contributing"
 issues: []
 discussions: []
+status: draft
 ---
 
 # IFLOW Contributing
@@ -14,15 +15,6 @@ discussions: []
 Come contribuire al progetto.
 
 ---
-
-title: "iflow contributing"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "iflow contributing"
-issues: []
-discussions: []
 ## 🤝 Come Contribuire
 
 > Anche se è la tua prima volta, il tuo contributo è benvenuto!
@@ -33,7 +25,7 @@ discussions: []
 
 - Aiuta a rifinire il tema Meetup (`resources/css/app.css`, `resources/js/app.js`)
 - Porta nuove idee di sezioni/animazioni
-- **IMPORTANTE**: Ogni modifica CSS/JS richiede `npm run build && npm run copy`
+- **IMPORTANTE**: Ogni modifica CSS/JS richiede `npm run build`
 
 ---
 

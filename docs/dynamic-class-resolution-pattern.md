@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "dynamic class resolution pattern"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match

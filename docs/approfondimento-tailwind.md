@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "approfondimento tailwind"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Approfondimento Implementazione Tailwind CSS nel Modulo Notify

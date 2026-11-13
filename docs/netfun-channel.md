@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "netfun channel"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Implementazione Canale Netfun

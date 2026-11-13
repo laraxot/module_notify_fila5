@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "SECURITY CHECKLIST"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🔒 Notify Security Checklist
@@ -14,15 +15,6 @@ discussions: []
 **Status**: Production Ready
 
 ---
-
-title: "SECURITY CHECKLIST"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SECURITY CHECKLIST"
-issues: []
-discussions: []
 ## 🎯 Security Compliance Overview
 
 - ✅ OWASP Top 10 2023 Compliance

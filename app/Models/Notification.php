@@ -54,10 +54,13 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
  *
- * @mixin \Eloquent
+ * @mixin \Illuminate\Database\Eloquent\Model
  */
 class Notification extends BaseModel
 {
+    /** La chiave e' un UUID char(36): niente auto-increment, altrimenti dopo l'insert l'id diventa '0'. */
+    public $incrementing = false;
+
     /** @var list<string> */
     protected $fillable = [
         'message',

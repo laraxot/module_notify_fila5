@@ -9,6 +9,7 @@ issues: []
 discussions: []
 name: ollama-command
 description: Executes tasks locally via Ollama to save tokens and costs.
+status: draft
 ---
 
 # Ollama Slash Command (/ollama)

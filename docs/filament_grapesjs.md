@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "filament grapesjs"
 issues: []
 discussions: []
+status: superseded
+superseded_by: filament-grapesjs.md
 ---
 
 # Abilitare il plugin `gjs-blocks-basic` in GrapesJS

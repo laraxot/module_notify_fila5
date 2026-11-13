@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "BOOST SKILL INSTALLATION ERROR"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Boost Skill Installation Error Analysis

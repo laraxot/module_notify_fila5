@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "grapesjs"
 issues: []
 discussions: []
+status: draft
 ---
 
 # GrapesJS Editor Integration

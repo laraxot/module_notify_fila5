@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE"
 issues: []
 discussions: []
+status: draft
 ---
 
 # FixCity - Architecture Documentation
@@ -16,15 +17,6 @@ discussions: []
 **Status:** Production Ready
 
 ---
-
-title: "ARCHITECTURE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ARCHITECTURE"
-issues: []
-discussions: []
 ## 📐 System Architecture
 
 ### High-Level Overview

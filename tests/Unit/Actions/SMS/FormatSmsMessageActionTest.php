@@ -12,11 +12,13 @@ use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\class_uses;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('FormatSmsMessageAction', function () {
     it('can be instantiated', function () {
-        $action = new FormatSmsMessageAction;
-
-        Assert::assertInstanceOf(FormatSmsMessageAction::class, $action);
+        Assert::assertSame(
+            'Modules\\Notify\\Actions\\SMS',
+            (new \ReflectionClass(FormatSmsMessageAction::class))->getNamespaceName(),
+        );
     });
 
     it('has execute method with correct signature', function () {

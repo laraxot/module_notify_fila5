@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # HTML Structure Comparison Configuration
@@ -39,4 +40,4 @@ bash bashscripts/html/html-structure-compare.sh segnalazioni-elenco \
 
 - **Theme**: Sixteen
 - **Theme Path**: `laravel/Themes/Sixteen/`
-- **Build Command**: `cd laravel/Themes/Sixteen && npm run build && npm run copy`
+- **Build Command**: `cd laravel/Themes/Sixteen && npm run build`

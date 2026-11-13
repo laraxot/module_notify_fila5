@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "dto vs factory analysis"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Analisi: Logica di Selezione del Driver nel DTO vs Factory vs Canale

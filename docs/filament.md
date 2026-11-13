@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "filament"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Integrazione Filament del Modulo Notify
@@ -402,6 +403,7 @@ final class SendTestNotificationAction extends Action
             ->icon('heroicon-o-paper-airplane')
             ->action(function (Template $record, array $data): void {
                 app(SendNotificationAction::class)->execute(
+                app(SendNotificationAction::class)->handle(
                     $data['recipient'],
                     $record->code,
                     $data['test_data'] ?? [],

@@ -68,6 +68,7 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Notifications\GenericNotification;
+use Modules\Notify\Tests\TestCase;
 use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
@@ -78,6 +79,7 @@ use function Pest\Laravel\artisan;
 use function Safe\file_put_contents;
 use function Safe\unlink;
 
+uses(TestCase::class);
 /**
  * @param  class-string  $class
  */
@@ -178,24 +180,24 @@ describe('Notify highest-miss coverage', function (): void {
         }
     });
 
-    test('resources expose model pages and legacy form schema', function (): void {
+    test('resources expose model pages and form class schema', function (): void {
         Assert::assertSame(NotificationTemplate::class, NotificationTemplateResource::getModel());
-        Assert::assertArrayHasKey('name', app(NotificationTemplateResource::class)->getFormSchema());
+        Assert::assertArrayHasKey('name', (new (NotificationTemplateResource::getFormClass()))->getFormSchema());
         Assert::assertNotEmpty(NotificationTemplateResource::getPages());
 
         Assert::assertSame(NotifyTheme::class, NotifyThemeResource::getModel());
-        Assert::assertArrayHasKey('subject', app(NotifyThemeResource::class)->getFormSchema());
+        Assert::assertArrayHasKey('subject', (new (NotifyThemeResource::getFormClass()))->getFormSchema());
         Assert::assertNotEmpty(NotifyThemeResource::getPages());
 
         Assert::assertSame(MailTemplate::class, MailTemplateResource::getModel());
-        Assert::assertNotEmpty(app(MailTemplateResource::class)->getFormSchema());
+        Assert::assertNotEmpty((new (MailTemplateResource::getFormClass()))->getFormSchema());
         Assert::assertNotEmpty(MailTemplateResource::getPages());
 
         Assert::assertSame(\Modules\Notify\Models\Notification::class, NotificationResource::getModel());
-        Assert::assertNotEmpty(app(NotificationResource::class)->getFormSchema());
+        Assert::assertNotEmpty((new (NotificationResource::getFormClass()))->getFormSchema());
 
         Assert::assertSame(Contact::class, ContactResource::getModel());
-        Assert::assertNotEmpty(app(ContactResource::class)->getFormSchema());
+        Assert::assertNotEmpty((new (ContactResource::getFormClass()))->getFormSchema());
         Assert::assertNotEmpty(ContactResource::getPages());
     });
 
@@ -297,8 +299,7 @@ describe('Notify highest-miss coverage', function (): void {
 
     test('push actions send across fcm apns and webpush with fakes', function (): void {
         config([
-            'notify.fcm.server_key' => 'test-key',
-            'notify.fcm.url' => 'https://fcm.googleapis.com/fcm/send']);
+            'notify.fcm.server_key' => 'test-key']);
         Http::fake([
             'https://fcm.googleapis.com/*' => Http::response(['message_id' => 'mid-2'], 200)]);
 

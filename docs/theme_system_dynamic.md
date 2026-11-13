@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "theme system dynamic"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🎨 Theme System - Dynamic Theme Registration
@@ -16,15 +17,6 @@ discussions: []
 **Principle**: Theme is a "vestito" (outfit) - configurable and swappable!
 
 ---
-
-title: "theme system dynamic"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "theme system dynamic"
-issues: []
-discussions: []
 ## 🎯 How It Works
 
 ### 1. Theme Configuration

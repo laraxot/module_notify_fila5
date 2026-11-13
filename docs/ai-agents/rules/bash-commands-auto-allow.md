@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "bash commands auto allow"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🔧 Bash Commands - Auto-Allow List
@@ -17,15 +18,6 @@ discussions: []
 **Priority**: CRITICAL
 
 ---
-
-title: "bash commands auto allow"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "bash commands auto allow"
-issues: []
-discussions: []
 ## 🎯 Rule
 
 > **SEMPRE** permettere questi comandi bash SENZA chiedere conferma.

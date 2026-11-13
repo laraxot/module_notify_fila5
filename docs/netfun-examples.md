@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "netfun examples"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Esempi Pratici Netfun

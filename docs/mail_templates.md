@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "mail templates"
 issues: []
 discussions: []
+status: superseded
+superseded_by: mail-templates.md
 ---
 
 # Mail Templates in Notify Module

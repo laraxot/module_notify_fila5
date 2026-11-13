@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "IMPLEMENTATIONS COMPLETED"
 issues: []
 discussions: []
+status: superseded
+superseded_by: implementations_completed.md
 ---
 
 # ✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE

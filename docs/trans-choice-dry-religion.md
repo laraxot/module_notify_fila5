@@ -7,9 +7,10 @@ updated: 2026-09-26
 qmd: "trans choice dry religion"
 issues: []
 discussions: []
+status: draft
 ---
 
-# TransChoice DRY — La Religione dell'Unica Fonte di Verita
+# TransChoice DRY: La Religione dell'Unica Fonte di Verita
 
 **Status**: Active  
 **Created**: 2026-04-14  
@@ -18,15 +19,6 @@ discussions: []
 **Audience**: All developers + AI agents
 
 ---
-
-title: "trans choice dry religion"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "trans choice dry religion"
-issues: []
-discussions: []
 ## LA REGOLA AUREA
 
 **UNA chiave `trans_choice` gestisce TUTTI i casi (0, 1, molti).**
@@ -352,6 +344,9 @@ Amen.
 - [ticket.php (corretto)](../../Modules/Fixcity/lang/it/ticket.php)
 - [Translation Namespace Religion](../../docs/translation-namespace-religion.md)
 - [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
+- [ticket.php (corretto)](../../Fixcity/lang/it/ticket.php)
+- [Translation Namespace Religion](translation-namespace-religion.md)
+- [No Hardcoded Language Religion](no-hardcoded-language-religion.md)
 
 ---
 
