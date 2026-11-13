@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 return [
     'navigation' => [
-        'label' => 'Invio Push Notification',
-        'group' => 'Notifiche'],
+        'label' => 'Send Push Notification',
+        'group' => 'Notifications'],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
     'fields' => [

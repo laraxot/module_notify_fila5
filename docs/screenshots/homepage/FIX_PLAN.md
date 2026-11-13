@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "FIX PLAN"
 issues: []
 discussions: []
-status: superseded
-superseded_by: fix_plan.md
 ---
 
 # 🚀 Fix Homepage Bootstrap Italia - Piano Esecutivo
@@ -166,8 +164,6 @@ discussions: []
 - [Bootstrap Italia Docs](https://italia.github.io/design-web-toolkit/)
 - [Analisi Visiva](docs/screenshots/homepage/ANALISI_VISIVA.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md)
-- [Analisi Visiva](ANALISI_VISIVA.md)
-- [Screenshot Analysis](SCREENSHOT_ANALYSIS.md)
 
 ### File Correlati
 - `Themes/Sixteen/resources/css/bootstrap-italia.css`

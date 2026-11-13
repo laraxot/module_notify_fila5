@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "SUPER MUCCA DOCS ANALYSIS"
 issues: []
 discussions: []
-status: superseded
-superseded_by: super_mucca_docs_analysis.md
 ---
 
 # 🐄 SUPER MUCCA - Analisi Completa Documentazione

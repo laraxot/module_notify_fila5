@@ -8,23 +8,14 @@ qmd: "files-created-session-007 files created in session 007"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
-  - "./action-plan-immediate.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-status: draft
 ---
 
 # Files Created in Session 007
@@ -59,11 +50,11 @@ bashscripts/
 laravel/Themes/Sixteen/docs/
 ├── INDEX.md                                     ✨ NEW (theme index)
 ├── index.md                                     ✨ NEW (theme index)
-├── complete-visual-parity-report.md            ✨ NEW (54-page ranking)
+├── COMPLETE-VISUAL-PARITY-REPORT.md            ✨ NEW (54-page ranking)
 ├── PRIORITY-MATRIX.json                        ✨ NEW (work planning)
-├── container-width-resolution.md               ✅ EXISTING (from prior sessions)
-├── section-structure-diff.md                   ✅ EXISTING
-├── parity-assessment-findings.md               ✅ EXISTING
+├── CONTAINER-WIDTH-RESOLUTION.md               ✅ EXISTING (from prior sessions)
+├── SECTION-STRUCTURE-DIFF.md                   ✅ EXISTING
+├── PARITY-ASSESSMENT-FINDINGS.md               ✅ EXISTING
 ├── GITHUB-ISSUES-MAPPING.json                  ⏳ TO BE CREATED (by GitHub script)
 └── visual-parity-data.json                     ✨ NEW (machine-readable rankings)
 ```
@@ -89,7 +80,7 @@ bashscripts/docs/
 ```
 laravel/Themes/Sixteen/docs/pages/segnalazioni-elenco/
 ├── DETAILED-analysis.md                        ✨ NEW
-├── html-structure-diff.md                      ✨ NEW
+├── HTML-STRUCTURE-DIFF.md                      ✨ NEW
 ├── VISUAL-COMPARISON.md                        ✨ NEW
 ├── local-full.png                              ✨ NEW (screenshot)
 ├── reference-full.png                          ✨ NEW (screenshot)
@@ -110,7 +101,6 @@ laravel/Themes/Sixteen/docs/pages/segnalazioni-elenco/
 Project Root/
 ├── design-conversion-roadmap.md                ✨ NEW (executive summary)
 ├── files-created-session-007.md                ✨ NEW (this file)
-├── files-created-session-inventory.md                ✨ NEW (this file)
 └── [existing files unchanged]
 ```
 
@@ -184,7 +174,7 @@ Project Root/
    - Can re-run weekly to track progress
    - Output feeds all reports
 
-4. **laravel/Themes/Sixteen/docs/complete-visual-parity-report.md**
+4. **laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md**
    - All 54 pages ranked
    - Reference for priority decisions
 
@@ -212,7 +202,7 @@ Project Root/
 
 **For QA**:
 - Use: pages/<page-name>/local-full.png vs reference-full.png (visual regression)
-- Reference: complete-visual-parity-report.md (parity tracking)
+- Reference: COMPLETE-VISUAL-PARITY-REPORT.md (parity tracking)
 
 ---
 
@@ -231,7 +221,7 @@ batch-visual-assessment-parallel.mjs
     ↓ (outputs JSON)
 visual-parity-data.json
     ↓ (feeds)
-complete-visual-parity-report.md
+COMPLETE-VISUAL-PARITY-REPORT.md
     ↓ (analyzed to create)
 PRIORITY-MATRIX.json
     ↓ (used for)
@@ -329,7 +319,7 @@ diff <(cat laravel/Themes/Sixteen/docs/visual-parity-data.json) <(previous.json)
 
 ### Update Regularly
 - visual-parity-data.json (weekly)
-- complete-visual-parity-report.md (weekly)
+- COMPLETE-VISUAL-PARITY-REPORT.md (weekly)
 - PRIORITY-MATRIX.json (as pages complete)
 
 ---

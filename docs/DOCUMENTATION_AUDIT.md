@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "DOCUMENTATION AUDIT"
 issues: []
 discussions: []
-status: draft
 ---
 
 # Documentation Audit Report
@@ -17,6 +16,15 @@ status: draft
 **Scope:** All modules, themes, and project documentation
 
 ---
+
+title: "DOCUMENTATION AUDIT"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DOCUMENTATION AUDIT"
+issues: []
+discussions: []
 ## Executive Summary
 
 ### Key Findings
@@ -284,8 +292,7 @@ docs/master/
 - `kebab-case.md` (e.g., `phpstan-fixes.md`)
 - `PascalCase.md` (e.g., `PHPStanFixes.md`)
 - `UPPERCASE.md` (e.g., `README.md`)
-- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes.md`
-- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-documentation-themes.md`
+- Mixed with suffixes: `phpstan-fixes-.md`, `phpstan-fixes-1.md`
 
 **Recommended Standard:**
 - Lowercase kebab-case: `topic-subtopic.md`
@@ -297,7 +304,6 @@ docs/master/
 **Examples:**
 - `phpstan-analysis.md`
 - `documentation-improvement-summary-2026-03-13.md`
-- `documentation-improvement-summary-executive.md`
 - `bugfix-report-2025-01-14.md`
 
 **Problem:** Dates in filenames become stale immediately.

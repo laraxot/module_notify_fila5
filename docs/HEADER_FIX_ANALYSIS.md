@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "HEADER FIX ANALYSIS"
 issues: []
 discussions: []
-status: superseded
-superseded_by: header_fix_analysis.md
 ---
 
 # 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix

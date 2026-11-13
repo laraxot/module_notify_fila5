@@ -2,16 +2,15 @@
 qmd: "super consolidated"
 issues: []
 discussions: []
-title: "super: Consolidated Documentation"
+title: "super — Consolidated Documentation"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
 ---
 
-# super: Consolidated Documentation
+# super — Consolidated Documentation
 
 Consolidated from **9** individual files.
 
@@ -41,17 +40,12 @@ updated: 2026-07-14
 qmd: "super-admin-setup-fix-2025-10-15.deprecated deprecated"
 status: deprecated
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -62,7 +56,7 @@ related:
 
 ## super-admin-setup-fix-1
 
-*Consolidated from: `super-admin-setup-fix.md`*
+*Consolidated from: `super-admin-setup-fix-1.md`*
 
 title: "Fix Super Admin Setup - Tabella Roles Mancante"
 type: concept
@@ -73,17 +67,12 @@ qmd: "super-admin-setup-fix-2025-10-15.deprecated fix super admin setup - tabell
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -446,10 +435,6 @@ Questa è la **terza implementazione** della giornata:
    - Creati badge.status e badge.priority
    
 2. **Pomeriggio**: [Transaction Model Removal](./transaction-removal-fix.md)
-1. **Mattina**: [View Cache Components](../../view-cache-components-fix.md)
-   - Creati badge.status e badge.priority
-   
-2. **Pomeriggio**: [Transaction Model Removal](../../transaction-removal-fix.md)
    - Disabilitate TransactionFactory
    
 3. **Sera**: Super Admin Setup ✅ (questa documentazione)
@@ -466,9 +451,6 @@ Questa è la **terza implementazione** della giornata:
 - [View Cache Fix](./view-cache-components-fix.md)
 - [Transaction Fix](./transaction-removal-fix.md)
 - [Setup Guide](./setup-guide.md)
-- [View Cache Fix](../../view-cache-components-fix.md)
-- [Transaction Fix](../../transaction-removal-fix.md)
-- [Setup Guide](../../bmad/setup-guide.md)
 
 ### Package Documentation
 - [Spatie Laravel Permission](https://spatie.be/docs/laravel-permission)
@@ -570,23 +552,17 @@ updated: 2026-07-14
 qmd: "super-admin-setup-fix-2025-10-15 deprecated"
 status: deprecated
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
 > Questo file è stato rinominato in [super-admin-setup-fix.md](super-admin-setup-fix.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
-> Questo file è stato rinominato in [super-admin-setup-fix.md](../../super-admin-setup-fix.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 
@@ -603,17 +579,12 @@ qmd: "super-mucca-completion 🐄⚡ super mucca mode - completamento totale"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -721,17 +692,12 @@ qmd: "super-mucca-docs-analysis 🐄 super mucca - analisi completa documentazio
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -958,17 +924,12 @@ qmd: "super-mucca-final-summary 🐄 super mucca - missione completata"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1358,17 +1319,12 @@ qmd: "super-mucca-login-completed 🐄 super mucca - login page completata!"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1947,17 +1903,12 @@ qmd: "supermemory-quickstart supermemory - ai memory infrastructure"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

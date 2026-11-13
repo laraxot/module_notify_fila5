@@ -1,13 +1,11 @@
 ---
-title: "Notify Module: Document"
+title: "Notify Module — Document"
 type: docs/bmad
 status: active
 module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
-tags: [docs, notify, bmad]
-qmd: "epics e user stories - modulo notify notify"
 ---
 
 # Epics e User Stories - Modulo Notify
@@ -148,7 +146,7 @@ qmd: "epics e user stories - modulo notify notify"
 **Criteri di accettazione:**
 - [ ] `NotificationManager::getTemplateStats()` restituisce total, sent, delivered, failed, opened, clicked
 - [ ] I dati provengono da `NotificationLog` (o `NotificationTemplateVersion` se implementato)
-- [ ] [DA COMPLETARE] attualmente il metodo è commentato: implementare il collegamento al log
+- [ ] [DA COMPLETARE] attualmente il metodo è commentato — implementare il collegamento al log
 
 **Task:**
 - [ ] [DA COMPLETARE] Implementare query reale su `NotificationLog`

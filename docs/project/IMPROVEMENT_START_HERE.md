@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "IMPROVEMENT START HERE"
 issues: []
 discussions: []
-status: draft
 ---
 
 # ✅ FixCity Improvement Plan - START HERE
@@ -18,6 +17,15 @@ status: draft
 **Timeline**: 17 settimane (4 mesi)
 
 ---
+
+title: "IMPROVEMENT START HERE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "IMPROVEMENT START HERE"
+issues: []
+discussions: []
 ## 🎯 Quick Start
 
 ### 1. Leggi i Documenti Principali

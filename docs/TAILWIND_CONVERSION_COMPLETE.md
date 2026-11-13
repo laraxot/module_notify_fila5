@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "TAILWIND CONVERSION COMPLETE"
 issues: []
 discussions: []
-status: superseded
-superseded_by: tailwind_conversion_complete.md
 ---
 
 # 🎨 TAILWIND CONVERSION COMPLETE - Design Comuni

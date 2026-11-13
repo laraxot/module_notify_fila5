@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "VITE FIX AND EXECUTION PLAN"
 issues: []
 discussions: []
-status: draft
 ---
 
 # 🚀 Notify Improvement + Vite Fix - EXECUTION PLAN
@@ -17,6 +16,15 @@ status: draft
 **AI Tools**: OpenViking + BMAD + GSD + Ralph Loop + NotebookLM + NotebookLM MCP
 
 ---
+
+title: "VITE FIX AND EXECUTION PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "VITE FIX AND EXECUTION PLAN"
+issues: []
+discussions: []
 ## 🎯 Today's Priorities
 
 ### P0.0: Install NotebookLM MCP ✅ COMPLETE

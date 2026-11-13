@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "ROADMAP"
 issues: []
 discussions: []
-status: draft
 ---
 
 # 🗺️ FixCity Design System - Product Roadmap
@@ -17,6 +16,15 @@ status: draft
 > Status: 🟢 ACTIVE DEVELOPMENT
 
 ---
+
+title: "ROADMAP"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ROADMAP"
+issues: []
+discussions: []
 ## 📊 Roadmap Overview
 
 FixCity is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 4.x + Tailwind CSS + Alpine.js.
@@ -334,31 +342,12 @@ Each of the 18 modules has its own documentation:
 - **[CMS Module](../laravel/Modules/Cms/docs/)** - Page management
 - **[GDPR Module](../laravel/Modules/Gdpr/docs/)** - Compliance
 - **[Tenant Module](../laravel/Modules/Tenant/docs/)** - Multi-tenancy
-- **[Xot Module](../../Xot/docs)** - Framework base & utilities
-- **[User Module](../../User/docs/product-roadmap.md)** - Auth, profiles, roles
-- **[UI Module](../../UI/docs)** - Components, themes
-- **[Geo Module](../../Geo/docs/PROJECT.md)** - Geolocation, maps
-- **[Lang Module](../../Lang/docs)** - Internationalization
-- **[Media Module](../../Media/docs)** - File management
-- **[Notify Module](.)** - Notifications
-
-### Business Modules
-- **[FixCity Module](../../Fixcity/docs)** - Core ticketing system ⭐
-- **[Comment Module](../../Comment/docs)** - Discussion threads
-- **[Rating Module](../../Rating/docs)** - User feedback
-- **[Activity Module](../../Activity/docs/product-roadmap.md)** - Audit trail
-- **[Blog Module](../../Blog/docs)** - Blog content
-- **[CMS Module](../../Cms/docs)** - Page management
-- **[GDPR Module](../../Gdpr/docs)** - Compliance
-- **[Tenant Module](../../Tenant/docs)** - Multi-tenancy
 - **[Payment Module](../laravel/Modules/Payment/docs/)** - Billing (if applicable)
 - **[Reporting Module](../laravel/Modules/Reporting/docs/)** - Analytics
 
 ### Themes
 - **[Sixteen Theme](../laravel/Themes/Sixteen/docs/)** - Main AGID-compliant theme
 - **[TwentyOne Theme](../laravel/Themes/TwentyOne/docs/)** - Alternative theme
-- **[Sixteen Theme](../../../Themes/Sixteen/docs)** - Main AGID-compliant theme
-- **[TwentyOne Theme](../../../Themes/TwentyOne/docs)** - Alternative theme
 
 ---
 

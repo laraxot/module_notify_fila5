@@ -5,7 +5,7 @@ declare(strict_types=1);
 return [
     'navigation' => [
         'label' => 'Slack Notification',
-        'group' => 'Notifiche'],
+        'group' => 'Notifications'],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
     'fields' => [

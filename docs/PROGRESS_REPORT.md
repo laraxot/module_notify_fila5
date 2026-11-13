@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "PROGRESS REPORT"
 issues: []
 discussions: []
-status: superseded
-superseded_by: progress_report.md
 ---
 
 # 📊 FIXCITY PROJECT - PROGRESS REPORT

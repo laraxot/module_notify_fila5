@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "UI UX PRO MAX SKILLS INTEGRATION"
 issues: []
 discussions: []
-status: superseded
-superseded_by: ui_ux_pro_max_skills_integration.md
 ---
 
 # 🎨 UI/UX Pro Max Skills - Integration Guide

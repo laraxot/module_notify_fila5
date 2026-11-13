@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "REPORT FINALE SUPER MUCCA"
 issues: []
 discussions: []
-status: superseded
-superseded_by: report_finale_super_mucca.md
 ---
 
 # 🐄✨ REPORT FINALE - SUPER MUCCA LIVELLO INFINITO ✨🐄

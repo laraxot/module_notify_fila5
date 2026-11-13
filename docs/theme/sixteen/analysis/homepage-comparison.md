@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "homepage comparison"
 issues: []
 discussions: []
-status: draft
 ---
 
 # Homepage Comparison Analysis
@@ -185,5 +184,14 @@ npm run copy    # Copy assets
 ```
 
 ---
+
+title: "homepage comparison"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "homepage comparison"
+issues: []
+discussions: []
 *Generated: 2026-04-07*
 *Last Updated: 2026-04-07*

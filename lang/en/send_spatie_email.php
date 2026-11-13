@@ -5,7 +5,7 @@ declare(strict_types=1);
 return [
     'navigation' => [
         'label' => 'Invio Email (Spatie)',
-        'group' => 'Notifiche'],
+        'group' => 'Notifications'],
     'actions' => [
         'emailFormActions' => [
             'label' => 'emailFormActions']],

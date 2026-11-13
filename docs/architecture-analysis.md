@@ -4,27 +4,19 @@ type: concept
 tags: [architecture, analysis]
 created: 2026-07-14
 updated: 2026-07-14
+qmd: "architecture-analysis fixcity architecture deep dive analysis"
 qmd: "architecture-analysis ptv architecture deep dive analysis"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./00-index.md"
+  - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
-  - "./action-plan-immediate.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-status: draft
 ---
 
 # FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
@@ -1637,7 +1629,7 @@ Tasks:
 ```
 ✅ Exists:
 - claude.md (AI assistant instructions)
-- project-roadmap.md (high-level vision)
+- project-roadmap-1.md (high-level vision)
 - README.md (basic setup)
 - This document (architecture-analysis.md)
 
