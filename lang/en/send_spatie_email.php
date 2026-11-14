@@ -5,15 +5,8 @@ declare(strict_types=1);
 return [
     'navigation' => [
         'label' => 'Invio Email (Spatie)',
-<<<<<<< .merge_file_GvpG0W
-        'group' => 'Notifications'],
-    'actions' => [
-        'emailFormActions' => [
-            'label' => 'emailFormActions']],
-=======
         'group' => 'Notifiche',
     ],
->>>>>>> .merge_file_XL06ux
     'fields' => [
         'body_html' => [
             'tooltip' => '',
@@ -34,4 +27,9 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+    'actions' => [
+        'emailFormActions' => [
+            'label' => 'emailFormActions',
+        ],
+    ],
 ];

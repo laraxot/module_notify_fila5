@@ -11,65 +11,6 @@ return [
         'name' => 'Dashboard',
         'plural' => 'Dashboard',
         'group' => [
-<<<<<<< .merge_file_Wf9Jvd
-            'name' => 'Notifications',
-            'description' => 'Notifications overview'],
-        'label' => 'Dashboard',
-        'sort' => '49',
-        'icon' => 'notify-dashboard-animated',
-        'description' => 'Notification system overview'],
-    'widgets' => [
-        'total_notifications' => [
-            'label' => 'Total Notifications',
-            'description' => 'Total number of notifications in the system'],
-        'unread_notifications' => [
-            'label' => 'Unread Notifications',
-            'description' => 'Number of notifications still to read'],
-        'notifications_by_type' => [
-            'label' => 'Notifications by Type',
-            'description' => 'Distribution of notifications by type'],
-        'recent_notifications' => [
-            'label' => 'Recent Notifications',
-            'description' => 'List of the most recent notifications'],
-        'notification_trends' => [
-            'label' => 'Notification Trend',
-            'description' => 'Notification trend over time'],
-        'channel_status' => [
-            'label' => 'Channel Status',
-            'description' => 'Operational status of notification channels'],
-        'top_recipients' => [
-            'label' => 'Top Recipients',
-            'description' => 'Users who receive the most notifications']],
-    'cards' => [
-        'overall_status' => [
-            'label' => 'Overall Status',
-            'description' => 'Overview of the notification system status'],
-        'channels' => [
-            'label' => 'Channels',
-            'description' => 'Notification channel configuration'],
-        'templates' => [
-            'label' => 'Template',
-            'description' => 'Templates available for notifications'],
-        'logs' => [
-            'label' => 'Log',
-            'description' => 'Notification activity logs']],
-    'actions' => [
-        'refresh' => [
-            'label' => 'Refresh',
-            'tooltip' => 'Refresh the dashboard data',
-            'success_message' => 'Dashboard refreshed successfully',
-            'error_message' => 'Error refreshing the dashboard'],
-        'export' => [
-            'label' => 'Esporta Dati',
-            'tooltip' => 'Esporta i dati statistici in formato CSV',
-            'success_message' => 'Data exported successfully',
-            'error_message' => 'Error exporting the data']],
-    'messages' => [
-        'success' => 'Operation completed successfully',
-        'error' => 'An error occurred during the operation',
-        'no_data' => 'No data available for the selected period',
-        'loading' => 'Caricamento dati in corso...'],
-=======
             'name' => 'Notifiche',
             'description' => 'Panoramica delle notifiche',
         ],
@@ -146,7 +87,6 @@ return [
         'no_data' => 'Nessun dato disponibile per il periodo selezionato',
         'loading' => 'Caricamento dati in corso...',
     ],
->>>>>>> .merge_file_xJs8rP
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
 ];

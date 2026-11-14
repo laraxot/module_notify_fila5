@@ -5,14 +5,9 @@ declare(strict_types=1);
 return [
     'navigation' => [
         'group' => [
-<<<<<<< .merge_file_f2nOvP
-            'name' => 'Notifications',
-            'description' => 'Manage email notifications and their templates'],
-=======
             'name' => 'Notifiche',
             'description' => 'Gestione delle notifiche email e dei relativi template',
         ],
->>>>>>> .merge_file_B493Bk
         'label' => 'Email Templates',
         'plural' => 'Email Templates',
         'singular' => 'Email Template',
@@ -31,54 +26,34 @@ return [
             'label' => 'Mailable Class',
             'placeholder' => 'Enter the Mailable class name',
             'help' => 'The PHP class that handles email sending',
-<<<<<<< .merge_file_f2nOvP
-            'helper_text' => 'PHP class that handles sending the email',
-            'description' => 'mailable',
-            'tooltip' => ''],
-=======
             'helper_text' => 'Classe PHP che gestisce l\'invio dell\'email',
             'tooltip' => '',
+            'description' => 'mailable',
         ],
->>>>>>> .merge_file_B493Bk
         'subject' => [
             'label' => 'Subject',
             'placeholder' => 'Enter the email subject',
             'help' => 'The subject that will appear in the email',
-<<<<<<< .merge_file_f2nOvP
-            'helper_text' => 'Email subject',
-            'description' => 'subject',
-            'tooltip' => ''],
-=======
             'helper_text' => 'Oggetto dell\'email',
             'tooltip' => '',
+            'description' => 'subject',
         ],
->>>>>>> .merge_file_B493Bk
         'html_template' => [
             'label' => 'HTML Content',
             'placeholder' => 'Enter the email HTML content',
             'help' => 'The email content in HTML format',
-<<<<<<< .merge_file_f2nOvP
-            'helper_text' => 'HTML content of the email template',
-            'description' => 'html_template',
-            'tooltip' => ''],
-=======
             'helper_text' => 'Contenuto HTML del template email',
             'tooltip' => '',
+            'description' => 'html_template',
         ],
->>>>>>> .merge_file_B493Bk
         'text_template' => [
             'label' => 'Text Content',
             'placeholder' => 'Enter the email text content',
             'help' => 'Text version of the email for clients that don\'t support HTML',
-<<<<<<< .merge_file_f2nOvP
-            'helper_text' => 'Plain-text version of the email template',
-            'description' => 'text_template',
-            'tooltip' => ''],
-=======
             'helper_text' => 'Versione testuale del template email',
             'tooltip' => '',
+            'description' => 'text_template',
         ],
->>>>>>> .merge_file_B493Bk
         'version' => [
             'label' => 'Version',
             'help' => 'Template version number',
@@ -168,27 +143,17 @@ return [
             'description' => 'Template name',
             'helper_text' => 'Descriptive name to identify the template',
             'placeholder' => 'Es: Benvenuto, Conferma ordine, Reset password',
-<<<<<<< .merge_file_f2nOvP
-            'label' => 'Template Name',
-            'tooltip' => ''],
-=======
             'label' => 'Nome Template',
             'tooltip' => '',
         ],
->>>>>>> .merge_file_B493Bk
         'params' => [
             'label' => 'Parametri',
             'helper_text' => 'Enter comma-separated parameters that can be used in the template',
             'placeholder' => 'name, email, date, company',
-<<<<<<< .merge_file_f2nOvP
-            'description' => 'Parameters available for the email template',
-            'tooltip' => '']],
-=======
             'description' => 'Parametri disponibili per il template email',
             'tooltip' => '',
         ],
     ],
->>>>>>> .merge_file_B493Bk
     'filters' => [
         'search_placeholder' => 'Search templates...',
         'version' => [
@@ -243,30 +208,6 @@ return [
         'preview' => [
             'label' => 'Anteprima',
             'tooltip' => 'Visualizza anteprima dell\'email',
-<<<<<<< .merge_file_f2nOvP
-            'success_message' => 'Preview generated successfully',
-            'error_message' => 'Error generating the preview'],
-        'test' => [
-            'label' => 'Send test',
-            'tooltip' => 'Send a test email',
-            'success_message' => 'Test email sent successfully',
-            'error_message' => 'Error sending the test email'],
-        'duplicate' => [
-            'label' => 'Duplica',
-            'tooltip' => 'Create a copy of the template',
-            'success_message' => 'Template duplicated successfully',
-            'error_message' => 'Error duplicating the template'],
-        'export' => [
-            'label' => 'Esporta',
-            'tooltip' => 'Export the template as JSON',
-            'success_message' => 'Template exported successfully',
-            'error_message' => 'Error exporting the template'],
-        'import' => [
-            'label' => 'Importa',
-            'tooltip' => 'Importa un template da un file JSON',
-            'success_message' => 'Template imported successfully',
-            'error_message' => 'Error importing the template']],
-=======
             'success_message' => 'Anteprima generata con successo',
             'error_message' => 'Errore nella generazione dell\'anteprima',
         ],
@@ -295,7 +236,6 @@ return [
             'error_message' => 'Errore nell\'importazione del template',
         ],
     ],
->>>>>>> .merge_file_B493Bk
     'messages' => [
         'created' => 'Email template created successfully.',
         'updated' => 'Email template updated successfully.',
@@ -303,14 +243,6 @@ return [
         'restored' => 'Email template restored successfully.',
         'force_deleted' => 'Email template permanently deleted.',
         'version_created' => 'New template version created successfully.',
-<<<<<<< .merge_file_f2nOvP
-        'success' => 'Operation completed successfully',
-        'error' => 'An error occurred during the operation',
-        'confirmation' => 'Are you sure you want to proceed with this operation?',
-        'template_created' => 'The email template was created successfully',
-        'template_updated' => 'The email template was updated successfully',
-        'template_deleted' => 'The email template was deleted successfully'],
-=======
         'success' => 'Operazione completata con successo',
         'error' => 'Si è verificato un errore durante l\'operazione',
         'confirmation' => 'Sei sicuro di voler procedere con questa operazione?',
@@ -318,7 +250,6 @@ return [
         'template_updated' => 'Il template email è stato aggiornato con successo',
         'template_deleted' => 'Il template email è stato eliminato con successo',
     ],
->>>>>>> .merge_file_B493Bk
     'sections' => [
         'template' => [
             'label' => 'Template',
@@ -335,14 +266,9 @@ return [
         'main' => 'Informazioni Principali',
         'content' => 'Contenuto',
         'styling' => 'Stile',
-<<<<<<< .merge_file_f2nOvP
-        'settings' => 'Settings',
-        'variables' => 'Variabili'],
-=======
         'settings' => 'Impostazioni',
         'variables' => 'Variabili',
     ],
->>>>>>> .merge_file_B493Bk
     'resource' => [
         'name' => 'Template Email',
         'plural' => 'Template Email',

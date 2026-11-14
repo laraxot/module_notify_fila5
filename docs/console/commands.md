@@ -316,10 +316,7 @@ discussions: []
 ```bash
 cd Themes/Sixteen/
 npm run build
-<<<<<<< .merge_file_mymQHb
 # niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
-=======
->>>>>>> .merge_file_fJ5F4i
 ```
 
 Senza questi comandi, le modifiche frontend NON saranno visibili agli utenti!
