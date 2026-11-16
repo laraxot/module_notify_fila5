@@ -6,6 +6,7 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+qmd: "Notify epics user stories canali template hardening"
 ---
 
 # Epics e User Stories - Modulo Notify
