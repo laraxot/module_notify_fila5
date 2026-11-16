@@ -94,23 +94,10 @@ discussions: []
 
 ---
 
-<<<<<<< .merge_file_gcZorR
-<<<<<<< .merge_file_QRue0c
-<<<<<<< .merge_file_fCkxaK
 ### 14. ❌ Dimenticare symlink public_html/themes (npm run copy obsoleto) dopo theme build
-=======
-### 14. ❌ Dimenticare npm run copy (dismesso: symlink public_html/themes/<Tema>) dopo theme build
->>>>>>> .merge_file_YaOBUm
 **✅ CORRETTO**: Sempre eseguire copy per deploy assets
-=======
-=======
-niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-**✅ CORRETTO**: Sempre eseguire copy per deploy assets
-
->>>>>>> .merge_file_lA5Vr6
 ### 14. ❌ Dimenticare il symlink `public_html/themes/<Tema>` dopo theme build (`npm run copy` dismesso)
 **✅ CORRETTO**: Verificare che `public_html/themes/<Tema>` sia symlink a `laravel/Themes/<Tema>/public` (`php artisan xot:theme-link`, una volta per installazione); `npm run copy` non serve più.
->>>>>>> .merge_file_T69Wsl
 
 ---
 

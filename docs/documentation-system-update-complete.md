@@ -234,39 +234,15 @@ export default defineConfig({
 **Why This is Correct:**
 
 1. **Build Target:** `./public` (local theme public folder)
-<<<<<<< .merge_file_wF8vhV
-<<<<<<< .merge_file_HRi7o3
-<<<<<<< .merge_file_ylep6x
 2. **Copy Step:** `symlink public_html/themes (npm run copy obsoleto)` copies to `../../public_html/themes/Sixteen/`
-=======
-2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
->>>>>>> .merge_file_J7iM6h
-=======
-=======
-2. niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-
->>>>>>> .merge_file_YZOWRL
 2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public` (`npm run copy` obsoleto)
->>>>>>> .merge_file_hXbBd0
 3. **Manifest Location:** Both locations have manifest.json after build
 4. **Laravel Vite:** Reads from `public_html/themes/Sixteen/manifest.json`
 
 **Build Flow:**
 ```
-<<<<<<< .merge_file_wF8vhV
-<<<<<<< .merge_file_HRi7o3
-<<<<<<< .merge_file_ylep6x
 resources/ → Vite Build → public/ → symlink public_html/themes (npm run copy obsoleto) → public_html/themes/Sixteen/
-=======
-=======
-niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-
->>>>>>> .merge_file_YZOWRL
 resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
->>>>>>> .merge_file_J7iM6h
-=======
-resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
->>>>>>> .merge_file_hXbBd0
 ```
 
 ---

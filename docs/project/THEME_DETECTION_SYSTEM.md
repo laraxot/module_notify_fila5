@@ -493,20 +493,8 @@ pages/tests/amministrazione.blade.php # SBAGLIATO
 - [ ] `composer update -W` executed
 - [ ] `npm install` executed
 - [ ] `npm run build` executed
-<<<<<<< .merge_file_u4BO6s
-<<<<<<< .merge_file_EM1J7t
-<<<<<<< .merge_file_4E4iWI
 - [ ] `symlink public_html/themes (npm run copy obsoleto)` executed
-=======
-- [ ] `npm run copy` (dismesso: `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public`) executed
->>>>>>> .merge_file_AClD97
-=======
-=======
-- niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-
->>>>>>> .merge_file_SVSyrT
 - [ ] `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public` (`npm run copy` dismesso)
->>>>>>> .merge_file_X9BI5d
 - [ ] Manifest exists: `public_html/themes/{theme}/manifest.json`
 
 ### Blade Components

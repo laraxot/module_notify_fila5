@@ -10,20 +10,13 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< .merge_file_9IlfWH
 # documentation: Consolidated Documentation
-<<<<<<< .merge_file_aQzuTX
-=======
-=======
-# documentation — Consolidated Documentation
->>>>>>> .merge_file_r82o4D
 
 > **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
 > arrivano nella document root con un symlink, non con una copia. Per il
 > procedimento valido vedi
 > [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
 > Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
->>>>>>> .merge_file_9UdmCs
 
 Consolidated from **9** individual files.
 
@@ -486,9 +479,7 @@ qmd: "documentation-ecosystem <nome progetto> documentation ecosystem - visual m
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_9IlfWH
   - "./00-index.md"
-<<<<<<< .merge_file_aQzuTX
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -496,26 +487,9 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-=======
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
->>>>>>> .merge_file_9UdmCs
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
-=======
-  - "./00-index-1.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
->>>>>>> .merge_file_r82o4D
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1111,9 +1085,7 @@ qmd: "documentation-governance documentation governance framework"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_9IlfWH
   - "./00-index.md"
-<<<<<<< .merge_file_aQzuTX
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -1121,26 +1093,9 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-=======
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
->>>>>>> .merge_file_9UdmCs
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
-=======
-  - "./00-index-1.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
->>>>>>> .merge_file_r82o4D
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1597,9 +1552,7 @@ qmd: "documentation-improvement-plan-multi-agent documentation improvement plan 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_9IlfWH
   - "./00-index.md"
-<<<<<<< .merge_file_aQzuTX
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -1607,26 +1560,9 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-=======
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "./00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
->>>>>>> .merge_file_9UdmCs
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
-=======
-  - "./00-index-1.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
->>>>>>> .merge_file_r82o4D
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3173,39 +3109,15 @@ export default defineConfig({
 **Why This is Correct:**
 
 1. **Build Target:** `./public` (local theme public folder)
-<<<<<<< .merge_file_9IlfWH
-<<<<<<< .merge_file_aQzuTX
-<<<<<<< .merge_file_zXfGT8
 2. **Copy Step:** `symlink public_html/themes (npm run copy obsoleto)` copies to `../../public_html/themes/Sixteen/`
-=======
-=======
-2. niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-
->>>>>>> .merge_file_r82o4D
 2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
->>>>>>> .merge_file_MkDbVU
-=======
-2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
->>>>>>> .merge_file_9UdmCs
 3. **Manifest Location:** Both locations have manifest.json after build
 4. **Laravel Vite:** Reads from `public_html/themes/Sixteen/manifest.json`
 
 **Build Flow:**
 ```
-<<<<<<< .merge_file_9IlfWH
-<<<<<<< .merge_file_aQzuTX
-<<<<<<< .merge_file_zXfGT8
 resources/ → Vite Build → public/ → symlink public_html/themes (npm run copy obsoleto) → public_html/themes/Sixteen/
-=======
 resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
->>>>>>> .merge_file_MkDbVU
-=======
-=======
-niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-
->>>>>>> .merge_file_r82o4D
-resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
->>>>>>> .merge_file_9UdmCs
 ```
 
 ---

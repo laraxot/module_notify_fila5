@@ -10,9 +10,7 @@ qmd: "project-overview 🏛️ <nome progetto> - civic engagement platform"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-<<<<<<< .merge_file_u6xY53
   - "./00-index.md"
-<<<<<<< .merge_file_2j44v9
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -20,26 +18,9 @@ related:
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-=======
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion.md"
-  - "./acronym-naming-conventions.md"
-  - "../../../00-index-documentation.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
->>>>>>> .merge_file_hrRllH
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
-=======
-  - "./00-index-1.md"
-  - "./00-index-2.md"
-  - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
->>>>>>> .merge_file_siNrW1
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---

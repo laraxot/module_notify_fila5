@@ -1827,20 +1827,8 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
-<<<<<<< .merge_file_RYJ8Ay
-<<<<<<< .merge_file_HBAVmz
-<<<<<<< .merge_file_pRVuoF
 [ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
-=======
-[ ] Asset buildati (`npm run build`; serviti via symlink)
->>>>>>> .merge_file_0nk1t6
-=======
-=======
-niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-
->>>>>>> .merge_file_EdC9Ck
 [ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
->>>>>>> .merge_file_9SYGCb
 [ ] Dark mode tested
 [ ] Responsive design tested
 [ ] Accessibility tested
