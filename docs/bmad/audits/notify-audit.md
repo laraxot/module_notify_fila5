@@ -1,123 +1,69 @@
 ---
-qmd: audit approfondito modulo Notify BMAD architettura dominio sicurezza test qualità
-title: Audit approfondito modulo Notify
-status: baseline-review
+title: "Audit approfondito modulo Notify"
+type: audit
+status: review
+updated: 2026-11-16
+module: Notify
+qmd: "audit approfondito Notify inventario PHPStan Pest policy Filament Actions"
 ---
 
-# Audit approfondito modulo Notify
+# Audit approfondito — Notify
 
-## Scopo e metodo
+## Metodo
 
-Questo artefatto BMAD è la baseline source-first del modulo `Notify`. L'audit
-parte da codice, configurazione, migration, test e documentazione versionata;
-non tratta nomi di classi o documenti come prova di comportamento runtime. Ogni
-fix successivo deve conservare lo scopo funzionale, avere una story e superare
-PHPStan/Pest proporzionati.
+Source-first (2026-11-16): inventario filesystem, `rg` su policy/marker/label,
+lettura purpose esistente, PHPStan globale Modules già a 0 errori. Nessuna UI
+inventata. Pest dichiarato solo se eseguito.
 
 ## Inventario misurato
 
-| Superficie | Conteggio |
+| Area | Conteggio |
 |---|---:|
 | PHP in `app/` | 254 |
 | Test PHP | 170 |
-| Resource Filament rilevate | 6 |
-| Policy in `app/Models/Policies` | 11 |
-| Action | 53 |
-| Migration | 37 |
-| Viste `admin_test` | 0 |
-| Markdown in `docs/` | 3201 |
-| Markdown senza frontmatter | 9 |
-| Marker di conflitto | 0 |
-| Label/tooltip letterali Filament | 11 |
+| Models (`app/Models/*.php`) | 18 |
+| Policy files (approx) | 22 |
+| Resource Filament | 6 |
+| Actions | 53 |
+| Services | 0 |
+| Migration | 30 |
+| Lang IT files | 179 |
+| Marker conflitto | 0 |
+| Occorrenze `return true` in Policy | 0 |
+| Ratio test/app | 0.67 |
 
+## Scopo (da docs esistenti / codice)
 
-## Analisi Funzionale e Scopo di Dominio
+## Lo scopo in una frase **Notify e' il solo punto da cui la piattaforma parla con una persona: separa il *fatto* che qualcosa e' accaduto dal *come* glielo si dice.**
 
-### Perché Esiste (Scopo Fondamentale)
-Sistema di comunicazione e notifica multicanale (Email, PEC, Database, SMS).
+## Finding preliminari (da inventario)
 
-### Valore di Business e Utilità
-Notifica tempestiva degli stati di avanzamento delle pratiche, valutazioni performance, alert di sistema e avvisi protocollati.
+- Nessun finding automatico critico dall'inventario; completare review sicurezza/runtime con story dedicate.
 
-### Architettura e Pattern Laraxot
-Template versionati modificabili via backoffice (GrapesJS); tracciamento recapito e dispatching asincrono tramite Job.
+## Finding approfonditi (codice)
 
-### Standard di Qualità e Conformità
-- **PHPStan**: Confermato a Level Max con 0 errori.
-- **Filament**: Conformità Filament 5 con estensione delle classi XotBase*.
-- **Naming**: Convenzione kebab-case rigorosa per tutti i documenti e classi PSR-4.
-- **Trans**: Traduzioni dinamiche via Lang, nessun testo hardcoded.
+- **P1** Doppio orchestratore `NotificationManager` + `SendNotificationAction`; errori canale swallow.
+- **P1** Doppione `NormalizePhoneNumberAction` (root vs SMS/).
+- **P2** Modelli orfani `Theme` / `EmailTemplate` senza BaseModel/connection.
+- ~54 Actions, 0 Services; policy spesso shell.
 
-## Audit per dimensione
+## Gate
 
-### Architettura e confini
+```bash
+cd laravel
+php -d memory_limit=2G ./vendor/bin/phpstan analyse Modules/Notify
+# Pest solo fuori da 10.100.200.15 e con DB testing raggiungibile
+./vendor/bin/pest Modules/Notify/tests --no-coverage
+```
 
-- verificare `module.json`, `composer.json`, provider, autoload e dipendenze;
-- distinguere API pubbliche, consumer cross-module e codice interno;
-- controllare che la direzione delle dipendenze non introduca cicli;
-- registrare il modello canonico quando esistono adapter o doppioni.
+PHPStan `Modules` (2026-11-16): **0 errori** sul tree completo.
 
-### Dominio e dati
+## Piano
 
-- ricostruire invarianti, chiavi naturali, stati e transizioni;
-- verificare connessione tenant, migration additive, indici e foreign key;
-- cercare update massivi, SQL raw, side effect in accessor/render/table;
-- rendere idempotenti import, sync, ricalcoli e job asincroni.
+Vedi [piano-miglioramento.md](../piano-miglioramento.md).
 
-### Sicurezza e privacy
+## Riferimenti
 
-- verificare panel access, policy, Gate, scope tenant e URL diretti;
-- testare ruoli guest/operator/admin/super-admin quando presenti;
-- proteggere export, PDF, ZIP, mail, import e azioni massive;
-- minimizzare dati personali in log, notifiche, file temporanei e output.
-
-### Filament/API/UI
-
-- verificare uso delle classi base Xot e API della versione Filament installata;
-- controllare validazione, mass assignment, conferme, errori e stati loading;
-- rimuovere stringhe UI hardcoded e verificare traduzioni;
-- profilare N+1 prima di introdurre eager loading.
-
-### Test e qualità
-
-- separare test unitari, feature, browser e test dipendenti da DB condiviso;
-- classificare ogni skip con causa e comando riproducibile;
-- eseguire PHPStan level max sul modulo con cache isolata;
-- eseguire Pest mirato e documentare eventuali blocchi ambientali.
-
-### Documentazione e operatività
-
-- mantenere SSoT in `docs/bmad` e puntatori nell'indice del modulo;
-- usare nomi Markdown stabili in kebab-case senza date/timestamp;
-- includere frontmatter YAML e chiave `qmd`;
-- documentare bootstrap locale, rollback non distruttivo, osservabilità e runbook.
-
-## Rischi statici classificati
-
-- P2: 11 label/tooltip Filament letterali; verificare traduzioni Lang e accessibilità.
-- P2: 9 documenti senza frontmatter; normalizzare senza perdere riferimenti.
-
-## Piano BMAD di miglioramento
-
-1. **Recon:** confermare inventario con `rg`, graph/QMD e caller reali.
-2. **Architecture:** scrivere decisione sul confine e sul modello canonico.
-3. **Security:** chiudere policy, tenant scope e azioni ad alto impatto.
-4. **Build:** correggere PHPStan alla sorgente, senza baseline o ignore cosmetici.
-5. **Test:** aggiungere un test piccolo per ogni invarianta o branch corretto.
-6. **Docs:** aggiornare manuale, indice, story e memoria QMD.
-7. **Review:** eseguire PHPStan, Pest, `git diff --check` e controllo marker.
-
-## Acceptance criteria
-
-- [ ] ogni rischio P0/P1 ha una story figlia con owner, AC e riferimenti;
-- [ ] PHPStan del modulo è verde su una cache isolata;
-- [ ] Pest mirato è verde oppure lo skip è documentato e riproducibile;
-- [ ] nessun dato viene distrutto e nessuna migration è distruttiva;
-- [ ] il comportamento runtime è verificato, non solo dedotto dal codice;
-- [ ] docs e indice sono aggiornati con QMD.
-
-## Evidenze e limiti
-
-Metriche generate dal tree corrente; i conteggi non sostituiscono l'analisi dei
-caller né il test runtime. Le conclusioni positive richiedono una verifica
-successiva con output dei gate registrato nella story del modulo.
+- [audit.md](../audit.md)
+- [ECC](../../ecc/notify-ecc-audit.md)
+- [Story](../stories/module-bmad-audit.story.md)

@@ -100,3 +100,8 @@ canali in base alla configurazione e alle preferenze del destinatario.
 
 - `laravel/Modules/Job/docs/purpose.md` — code e fallimenti
 - `laravel/Modules/User/docs/purpose.md` — destinatari e preferenze
+
+## Documentazione correlata
+
+- [Audit BMAD](./bmad/audit.md)
+- [ECC](./ecc/notify-ecc-audit.md)
