@@ -1,10 +1,10 @@
 ---
-title: "theme verification report"
+title: "THEME VERIFICATION REPORT"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "theme verification report"
+qmd: "THEME VERIFICATION REPORT"
 issues: []
 discussions: []
 ---
@@ -152,12 +152,12 @@ Il tema Sixteen è:
 
 ---
 
-title: "theme verification report"
+title: "THEME VERIFICATION REPORT"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "theme verification report"
+qmd: "THEME VERIFICATION REPORT"
 issues: []
 discussions: []
 **Stato**: ✅ **VERIFICATO E CORRETTO**  

@@ -1,10 +1,10 @@
 ---
-title: "00 index"
+title: "00 INDEX"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "00 index"
+qmd: "00 INDEX"
 issues: []
 discussions: []
 ---
@@ -43,7 +43,7 @@ discussions: []
 
 ## 🪮 **Ponytail audit**
 - 📋 **[Over-engineering audit](./ponytail-audit-over-engineering.md)** - SMS multi-driver, policy stub, remediation `.bak`.
-- 🧾 **[SMS Actions consolidation decision](./wiki/decisions/sms-actions-consolidation-2026-06-30.md)** - Cosa è stato consolidato in `.bak`, cosa resta attivo (netfun/smsfactor raggiungibili da Filament `SendSmsPage`) e perché.
+- 🧾 **[SMS Actions consolidation decision](./wiki/decisions/sms-actions-consolidation.md)** - Cosa è stato consolidato in `.bak`, cosa resta attivo (netfun/smsfactor raggiungibili da Filament `SendSmsPage`) e perché.
 
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./translation-cleanup-plan.md)** - Rimozione dei 500+ file obsoleti accumulati.
@@ -54,15 +54,25 @@ discussions: []
 - [User](../../user/docs/readme.md) - Definizione dei destinatari e preferenze.
 
 ---
-title: "00 index"
+title: "00 INDEX"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "00 index"
+qmd: "00 INDEX"
 issues: []
 discussions: []
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
+
+## Documentazione BMAD del modulo
+
+Aggiornata il 2026-10-07 dopo la risoluzione dei marker di merge nei docs (versioni composte, non scelte a un lato).
+
+- [Brainstorming](bmad/brainstorming.md): decisioni, questioni aperte, opzioni scartate.
+- [Architecture](bmad/architecture.md)
+- [Quick reference](bmad/quick-reference.md)
+- [Setup guide](bmad/setup-guide.md)
+- Story: cartella [bmad/stories/](bmad/stories/).
 
 ## Dependency Intelligence
 

@@ -1,10 +1,10 @@
 ---
-title: "super mucca final summary"
+title: "SUPER MUCCA FINAL SUMMARY"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "super mucca final summary"
+qmd: "SUPER MUCCA FINAL SUMMARY"
 issues: []
 discussions: []
 ---
@@ -17,12 +17,12 @@ discussions: []
 
 ---
 
-title: "super mucca final summary"
+title: "SUPER MUCCA FINAL SUMMARY"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "super mucca final summary"
+qmd: "SUPER MUCCA FINAL SUMMARY"
 issues: []
 discussions: []
 ## 🎯 Missioni Completate

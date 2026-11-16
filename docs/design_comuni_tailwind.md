@@ -1,5 +1,5 @@
 ---
-qmd: "design comuni tailwind"
+qmd: "DESIGN COMUNI TAILWIND"
 issues: []
 discussions: []
 title: "Design Comuni con Tailwind CSS Puro"

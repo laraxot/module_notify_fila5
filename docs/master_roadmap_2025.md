@@ -1,10 +1,10 @@
 ---
-title: "master roadmap 2025"
+title: "MASTER ROADMAP 2025"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "master roadmap 2025"
+qmd: "MASTER ROADMAP 2025"
 issues: []
 discussions: []
 ---
@@ -19,12 +19,12 @@ discussions: []
 
 ---
 
-title: "master roadmap 2025"
+title: "MASTER ROADMAP 2025"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "master roadmap 2025"
+qmd: "MASTER ROADMAP 2025"
 issues: []
 discussions: []
 ## 🎯 EXECUTIVE SUMMARY

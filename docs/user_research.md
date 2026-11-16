@@ -1,5 +1,5 @@
 ---
-qmd: "user research"
+qmd: "USER RESEARCH"
 issues: []
 discussions: []
 title: "Notify Module - User Research"

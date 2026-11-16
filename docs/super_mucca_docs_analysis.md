@@ -1,10 +1,10 @@
 ---
-title: "super mucca docs analysis"
+title: "SUPER MUCCA DOCS ANALYSIS"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "super mucca docs analysis"
+qmd: "SUPER MUCCA DOCS ANALYSIS"
 issues: []
 discussions: []
 ---
@@ -14,12 +14,12 @@ discussions: []
 
 ---
 
-title: "super mucca docs analysis"
+title: "SUPER MUCCA DOCS ANALYSIS"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "super mucca docs analysis"
+qmd: "SUPER MUCCA DOCS ANALYSIS"
 issues: []
 discussions: []
 ## 📊 Executive Summary

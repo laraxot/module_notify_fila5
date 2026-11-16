@@ -1,10 +1,10 @@
 ---
-title: "ui ux pro max skills final report"
+title: "UI UX PRO MAX SKILLS FINAL REPORT"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "ui ux pro max skills final report"
+qmd: "UI UX PRO MAX SKILLS FINAL REPORT"
 issues: []
 discussions: []
 ---
@@ -288,12 +288,12 @@ Each skill includes:
 
 ---
 
-title: "ui ux pro max skills final report"
+title: "UI UX PRO MAX SKILLS FINAL REPORT"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "ui ux pro max skills final report"
+qmd: "UI UX PRO MAX SKILLS FINAL REPORT"
 issues: []
 discussions: []
 **Stato**: ✅ **COMPLETAMENTE INTEGRATO E PRONTO ALL'USO**  

@@ -1,5 +1,5 @@
 ---
-qmd: "multi agent collaboration guide"
+qmd: "MULTI AGENT COLLABORATION GUIDE"
 issues: []
 discussions: []
 title: "Multi-Agent Collaboration Rules & Guidelines"

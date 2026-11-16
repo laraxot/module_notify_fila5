@@ -1,10 +1,10 @@
 ---
-title: "master documentation index"
+title: "MASTER DOCUMENTATION INDEX"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "master documentation index"
+qmd: "MASTER DOCUMENTATION INDEX"
 issues: []
 discussions: []
 ---
@@ -17,12 +17,12 @@ discussions: []
 
 ---
 
-title: "master documentation index"
+title: "MASTER DOCUMENTATION INDEX"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "master documentation index"
+qmd: "MASTER DOCUMENTATION INDEX"
 issues: []
 discussions: []
 ## 🎯 Quick Navigation
@@ -38,7 +38,7 @@ discussions: []
 - [Coding Standards](./conventions/README.md)
 
 ### Per AI Agents
-- [Project Context](./project/PROJECT.md)
+- [Project Context](./project/project.md)
 - [Agent Coordination](./MULTI_AGENT_COLLABORATION.md)
 - [OpenViking Context](../bashscripts/ai/openviking.md)
 

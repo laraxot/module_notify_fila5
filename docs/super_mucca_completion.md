@@ -1,5 +1,5 @@
 ---
-qmd: "super mucca completion"
+qmd: "SUPER MUCCA COMPLETION"
 issues: []
 discussions: []
 title: "SUPER MUCCA MODE - COMPLETAMENTO TOTALE"

@@ -1,5 +1,5 @@
 ---
-qmd: "product strategy"
+qmd: "PRODUCT STRATEGY"
 issues: []
 discussions: []
 title: "Notify Module - Product Strategy"

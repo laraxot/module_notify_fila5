@@ -1,5 +1,5 @@
 ---
-qmd: "redundancy analysis"
+qmd: "REDUNDANCY ANALYSIS"
 issues: []
 discussions: []
 title: "REDUNDANCY ANALYSIS"

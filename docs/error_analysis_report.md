@@ -1,10 +1,10 @@
 ---
-title: "error analysis report"
+title: "ERROR ANALYSIS REPORT"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "error analysis report"
+qmd: "ERROR ANALYSIS REPORT"
 issues: []
 discussions: []
 ---
@@ -17,12 +17,12 @@ discussions: []
 
 ---
 
-title: "error analysis report"
+title: "ERROR ANALYSIS REPORT"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "error analysis report"
+qmd: "ERROR ANALYSIS REPORT"
 issues: []
 discussions: []
 ## 🔴 ERRORE PRINCIPALE

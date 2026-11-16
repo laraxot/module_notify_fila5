@@ -1,10 +1,10 @@
 ---
-title: "start here replikate phase2"
+title: "START HERE REPLIKATE PHASE2"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "start here replikate phase2"
+qmd: "START HERE REPLIKATE PHASE2"
 issues: []
 discussions: []
 ---
@@ -23,12 +23,12 @@ discussions: []
 
 ---
 
-title: "start here replikate phase2"
+title: "START HERE REPLIKATE PHASE2"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "start here replikate phase2"
+qmd: "START HERE REPLIKATE PHASE2"
 issues: []
 discussions: []
 ## 📍 You Are Here

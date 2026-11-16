@@ -1,5 +1,5 @@
 ---
-qmd: "filament 4 login widget implementation summary"
+qmd: "FILAMENT 4 LOGIN WIDGET IMPLEMENTATION SUMMARY"
 issues: []
 discussions: []
 title: "Riepilogo Implementazione Login Widget Filament 4"

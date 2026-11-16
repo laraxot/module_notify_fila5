@@ -1,10 +1,10 @@
 ---
-title: "zen of fixcity"
+title: "ZEN OF FIXCITY"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "zen of fixcity"
+qmd: "ZEN OF FIXCITY"
 issues: []
 discussions: []
 ---
@@ -18,12 +18,12 @@ discussions: []
 
 ---
 
-title: "zen of fixcity"
+title: "ZEN OF FIXCITY"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "zen of fixcity"
+qmd: "ZEN OF FIXCITY"
 issues: []
 discussions: []
 ## 🎯 The Five Pillars

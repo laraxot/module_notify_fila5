@@ -1,10 +1,10 @@
 ---
-title: "logging optimization summary 2026 03 02"
+title: "LOGGING OPTIMIZATION SUMMARY 2026 03 02"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "logging optimization summary 2026 03 02"
+qmd: "LOGGING OPTIMIZATION SUMMARY 2026 03 02"
 issues: []
 discussions: []
 ---
@@ -504,12 +504,12 @@ This session successfully:
 
 ---
 
-title: "logging optimization summary 2026 03 02"
+title: "LOGGING OPTIMIZATION SUMMARY 2026 03 02"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "logging optimization summary 2026 03 02"
+qmd: "LOGGING OPTIMIZATION SUMMARY 2026 03 02"
 issues: []
 discussions: []
 **Session Date**: 2026-03-02

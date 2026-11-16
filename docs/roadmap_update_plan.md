@@ -1,10 +1,10 @@
 ---
-title: "roadmap update plan"
+title: "ROADMAP UPDATE PLAN"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "roadmap update plan"
+qmd: "ROADMAP UPDATE PLAN"
 issues: []
 discussions: []
 ---

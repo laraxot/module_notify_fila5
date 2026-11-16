@@ -1,5 +1,5 @@
 ---
-qmd: "tailwind css migration complete"
+qmd: "TAILWIND CSS MIGRATION COMPLETE"
 issues: []
 discussions: []
 title: "Design Comuni con Tailwind CSS Puro - Completato"

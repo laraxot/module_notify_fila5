@@ -1,10 +1,10 @@
 ---
-title: "design comuni integration complete"
+title: "DESIGN COMUNI INTEGRATION COMPLETE"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "design comuni integration complete"
+qmd: "DESIGN COMUNI INTEGRATION COMPLETE"
 issues: []
 discussions: []
 ---
@@ -18,12 +18,12 @@ discussions: []
 
 ---
 
-title: "design comuni integration complete"
+title: "DESIGN COMUNI INTEGRATION COMPLETE"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "design comuni integration complete"
+qmd: "DESIGN COMUNI INTEGRATION COMPLETE"
 issues: []
 discussions: []
 ## 🎯 OBIETTIVO RAGGIUNTO

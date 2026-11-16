@@ -1,10 +1,10 @@
 ---
-title: "header fix complete"
+title: "HEADER FIX COMPLETE"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "header fix complete"
+qmd: "HEADER FIX COMPLETE"
 issues: []
 discussions: []
 ---
@@ -16,12 +16,12 @@ discussions: []
 
 ---
 
-title: "header fix complete"
+title: "HEADER FIX COMPLETE"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "header fix complete"
+qmd: "HEADER FIX COMPLETE"
 issues: []
 discussions: []
 ## 🔴 Problemi Risolti

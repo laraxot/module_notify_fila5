@@ -1,5 +1,5 @@
 ---
-qmd: "sprint planning"
+qmd: "SPRINT PLANNING"
 issues: []
 discussions: []
 title: "Notify Module - Sprint Planning"

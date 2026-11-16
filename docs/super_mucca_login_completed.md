@@ -1,5 +1,5 @@
 ---
-qmd: "super mucca login completed"
+qmd: "SUPER MUCCA LOGIN COMPLETED"
 issues: []
 discussions: []
 title: "SUPER MUCCA - LOGIN PAGE COMPLETATA!"

@@ -1,10 +1,10 @@
 ---
-title: "pagine create"
+title: "PAGINE CREATE"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "pagine create"
+qmd: "PAGINE CREATE"
 issues: []
 discussions: []
 ---

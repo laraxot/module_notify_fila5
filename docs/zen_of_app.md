@@ -1,5 +1,5 @@
 ---
-qmd: "zen of app"
+qmd: "ZEN OF APP"
 issues: []
 discussions: []
 title: "Zen of Notify - Complete Philosophy"
