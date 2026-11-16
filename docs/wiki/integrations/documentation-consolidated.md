@@ -12,6 +12,15 @@ status: draft
 ---
 
 # documentation: Consolidated Documentation
+<<<<<<< .merge_file_aQzuTX
+=======
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+>>>>>>> .merge_file_9UdmCs
 
 Consolidated from **9** individual files.
 
@@ -482,6 +491,7 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_aQzuTX
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -489,6 +499,15 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
+=======
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+>>>>>>> .merge_file_9UdmCs
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
@@ -1094,6 +1113,7 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_aQzuTX
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -1101,6 +1121,15 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
+=======
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+>>>>>>> .merge_file_9UdmCs
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
@@ -1562,6 +1591,7 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_aQzuTX
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -1569,6 +1599,15 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
+=======
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+>>>>>>> .merge_file_9UdmCs
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
@@ -3162,21 +3201,29 @@ export default defineConfig({
 **Why This is Correct:**
 
 1. **Build Target:** `./public` (local theme public folder)
+<<<<<<< .merge_file_aQzuTX
 <<<<<<< .merge_file_zXfGT8
 2. **Copy Step:** `symlink public_html/themes (npm run copy obsoleto)` copies to `../../public_html/themes/Sixteen/`
 =======
 2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
 >>>>>>> .merge_file_MkDbVU
+=======
+2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
+>>>>>>> .merge_file_9UdmCs
 3. **Manifest Location:** Both locations have manifest.json after build
 4. **Laravel Vite:** Reads from `public_html/themes/Sixteen/manifest.json`
 
 **Build Flow:**
 ```
+<<<<<<< .merge_file_aQzuTX
 <<<<<<< .merge_file_zXfGT8
 resources/ → Vite Build → public/ → symlink public_html/themes (npm run copy obsoleto) → public_html/themes/Sixteen/
 =======
 resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
 >>>>>>> .merge_file_MkDbVU
+=======
+resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
+>>>>>>> .merge_file_9UdmCs
 ```
 
 ---

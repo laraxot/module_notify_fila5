@@ -12,6 +12,12 @@ status: draft
 
 # Theme Detection System - Notify Fila5
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 **Project:** Notify Fila5
 **Date:** 2026-04-01
 **Status:** ✅ **Documented**
@@ -479,11 +485,15 @@ pages/tests/amministrazione.blade.php # SBAGLIATO
 - [ ] `composer update -W` executed
 - [ ] `npm install` executed
 - [ ] `npm run build` executed
+<<<<<<< .merge_file_EM1J7t
 <<<<<<< .merge_file_4E4iWI
 - [ ] `symlink public_html/themes (npm run copy obsoleto)` executed
 =======
 - [ ] `npm run copy` (dismesso: `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public`) executed
 >>>>>>> .merge_file_AClD97
+=======
+- [ ] `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public` (`npm run copy` dismesso)
+>>>>>>> .merge_file_X9BI5d
 - [ ] Manifest exists: `public_html/themes/{theme}/manifest.json`
 
 ### Blade Components

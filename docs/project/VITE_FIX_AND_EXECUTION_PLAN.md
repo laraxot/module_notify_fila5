@@ -12,6 +12,12 @@ status: draft
 
 # 🚀 Notify Improvement + Vite Fix - EXECUTION PLAN
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 **Date**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
 **AI Tools**: OpenViking + BMAD + GSD + Ralph Loop + NotebookLM + NotebookLM MCP
@@ -71,11 +77,15 @@ ls -la public_html/themes/Sixteen/manifest.json
 - `composer update -W`: Updates PHP dependencies with wide dependencies
 - `npm install`: Installs correct Node packages from package.json
 - `npm run build`: Vite builds assets → generates manifest.json
+<<<<<<< .merge_file_gf1PsT
 <<<<<<< .merge_file_GG2HXZ
 - `symlink public_html/themes (npm run copy obsoleto)`: Copies built assets to public_html/themes/<theme>/
 =======
 - `npm run copy` (dismesso: `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public`): Copies built assets to public_html/themes/<theme>/
 >>>>>>> .merge_file_prhIBe
+=======
+- `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public` (`npm run copy` dismesso): asset serviti via symlink, nessuna copia.
+>>>>>>> .merge_file_FC3hjz
 
 **AI Tool Assignment**:
 - **Ralph Loop**: Autonomous execution for both themes

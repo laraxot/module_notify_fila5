@@ -9,6 +9,7 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_2j44v9
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -16,6 +17,15 @@ related:
   - "../../../00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
+=======
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "../../../00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+>>>>>>> .merge_file_hrRllH
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
@@ -25,6 +35,13 @@ status: draft
 ---
 
 # 🏛️ NOTIFY - Civic Engagement Platform
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 # 🏛️ <nome progetto> - Civic Engagement Platform
 
 > **Piattaforma di segnalazione civica per la gestione intelligente dei disservizi urbani**

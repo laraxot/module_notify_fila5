@@ -63,7 +63,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 class MailTemplateVersion extends BaseModel
 {
     use MailTemplateVersionRelations;
+<<<<<<< .merge_file_F6nuJH
     use SoftDeletes, Updater;
+=======
+    use Updater;
+>>>>>>> .merge_file_vlqnrS
 
     protected $connection = 'notify';
 

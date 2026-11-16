@@ -48,9 +48,23 @@ return [
             'tooltip' => '',
         ],
         'to' => [
+<<<<<<< .merge_file_WOhlaY
             'tooltip' => '',
         ],
         'template_slug' => [
+=======
+            'description' => 'to',
+            'helper_text' => 'to',
+            'placeholder' => 'to',
+            'label' => 'to',
+            'tooltip' => '',
+        ],
+        'template_slug' => [
+            'description' => 'template_slug',
+            'helper_text' => 'template_slug',
+            'placeholder' => 'template_slug',
+            'label' => 'template_slug',
+>>>>>>> .merge_file_s40wIH
             'tooltip' => '',
         ],
     ],
@@ -69,7 +83,13 @@ return [
             'error_message' => 'Errore nella verifica della connessione',
         ],
         'save' => [
+<<<<<<< .merge_file_WOhlaY
             'icon' => 'save',
+=======
+            'label' => 'save',
+            'icon' => 'save',
+            'tooltip' => 'save',
+>>>>>>> .merge_file_s40wIH
         ],
     ],
     'messages' => [

@@ -9,6 +9,7 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_UG1NV3
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -19,6 +20,18 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
+=======
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+>>>>>>> .merge_file_6WbPdw
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
@@ -28,6 +41,12 @@ status: draft
 ---
 
 # Files Created in Session 007
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
 
 **Session**: 007 - Complete Visual Parity Assessment & Roadmap
 **Date**: 2026-04-03

@@ -11,6 +11,13 @@ status: draft
 ---
 
 # FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 **Generated**: 2025-10-01
 **Project**: FixCity Civic Engagement Platform
 **Architecture**: Nwidart + Laraxot Modular Monolith
@@ -1795,11 +1802,15 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
+<<<<<<< .merge_file_SNXKA3
 <<<<<<< .merge_file_M8owig
 [ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
 =======
 [ ] Asset buildati (`npm run build`; serviti via symlink)
 >>>>>>> .merge_file_aKnp4p
+=======
+[ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
+>>>>>>> .merge_file_UAC912
 [ ] Dark mode tested
 [ ] Responsive design tested
 [ ] Accessibility tested

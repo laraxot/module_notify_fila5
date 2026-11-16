@@ -12,6 +12,15 @@ status: draft
 ---
 
 # super: Consolidated Documentation
+<<<<<<< .merge_file_Iv8q0l
+=======
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+>>>>>>> .merge_file_au962G
 
 Consolidated from **9** individual files.
 
@@ -42,6 +51,7 @@ qmd: "super-admin-setup-fix-2025-10-15.deprecated deprecated"
 status: deprecated
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_Iv8q0l
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -49,6 +59,15 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
+=======
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+>>>>>>> .merge_file_au962G
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
@@ -571,6 +590,7 @@ qmd: "super-admin-setup-fix-2025-10-15 deprecated"
 status: deprecated
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_Iv8q0l
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -578,6 +598,15 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
+=======
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+>>>>>>> .merge_file_au962G
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
@@ -1359,6 +1388,7 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_Iv8q0l
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion.md"
@@ -1366,6 +1396,15 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
+=======
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+>>>>>>> .merge_file_au962G
   - "./absolute-completion-completamento-assoluto.md"
   - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
@@ -2061,6 +2100,7 @@ supermemory add --tag <nome progetto> --content "<nome progetto> module: Ticket 
 ### 3. Theme Conventions
 Store theme development patterns:
 ```bash
+<<<<<<< .merge_file_Iv8q0l
 <<<<<<< .merge_file_pMjfNS
 supermemory add --tag laraxot --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then symlink public_html/themes (npm run copy obsoleto) to public_html/themes/Sixteen/."
 supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then symlink public_html/themes (npm run copy obsoleto) to public_html/themes/Sixteen/."
@@ -2068,6 +2108,10 @@ supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia
 supermemory add --tag laraxot --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
 supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
 >>>>>>> .merge_file_4OskkF
+=======
+supermemory add --tag laraxot --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
+supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
+>>>>>>> .merge_file_au962G
 ```
 
 ### 4. Development Workflows

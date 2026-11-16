@@ -114,7 +114,15 @@ notify.code-workspace
 
 # module-root-hygiene (story module-root-hygiene)
 /.github/skills/
+<<<<<<< .merge_file_EGdv7A
 docs/graphify
 resources/lang
 .github/ISSUE_CONTENT/
 .github/agents/
+=======
+/.github/ISSUE_CONTENT/
+/.github/agents/
+docs/graphify
+resources/lang
+.github/issue_content/
+>>>>>>> .merge_file_LpBIq0

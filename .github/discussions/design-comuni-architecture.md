@@ -13,6 +13,12 @@ labels: ['design-comuni', 'architecture', 'decision-record']
 
 # Design Comuni Italia - Architectural Decisions
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 This discussion documents the key architectural decisions for replicating the 38 static pages from [Design Comuni Italia](https://italia.github.io/design-comuni-pagine-statiche/) in the FixCity project.
 
 ---

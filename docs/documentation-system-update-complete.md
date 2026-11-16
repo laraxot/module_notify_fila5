@@ -26,6 +26,12 @@ status: draft
 
 # Documentation System Update - Complete
 
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 **Date:** 2026-04-01  
 **Status:** ✅ **COMPLETE**  
 **Type:** System Update  
@@ -234,21 +240,29 @@ export default defineConfig({
 **Why This is Correct:**
 
 1. **Build Target:** `./public` (local theme public folder)
+<<<<<<< .merge_file_HRi7o3
 <<<<<<< .merge_file_ylep6x
 2. **Copy Step:** `symlink public_html/themes (npm run copy obsoleto)` copies to `../../public_html/themes/Sixteen/`
 =======
 2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
 >>>>>>> .merge_file_J7iM6h
+=======
+2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public` (`npm run copy` obsoleto)
+>>>>>>> .merge_file_hXbBd0
 3. **Manifest Location:** Both locations have manifest.json after build
 4. **Laravel Vite:** Reads from `public_html/themes/Sixteen/manifest.json`
 
 **Build Flow:**
 ```
+<<<<<<< .merge_file_HRi7o3
 <<<<<<< .merge_file_ylep6x
 resources/ → Vite Build → public/ → symlink public_html/themes (npm run copy obsoleto) → public_html/themes/Sixteen/
 =======
 resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
 >>>>>>> .merge_file_J7iM6h
+=======
+resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
+>>>>>>> .merge_file_hXbBd0
 ```
 
 ---

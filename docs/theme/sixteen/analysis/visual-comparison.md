@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "visual comparison"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Homepage Visual Comparison - CSS Fixes Required
