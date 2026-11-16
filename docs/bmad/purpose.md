@@ -24,7 +24,7 @@ discussions:
 
 ## L'evidenza
 
-- 232 file PHP, **46 Action**, zero Widget: e' un modulo di servizio, non una
+- 254 file PHP (misura 2026-11-16), **53 Action**, 0 Service, zero Widget: e' un modulo di servizio, non una
   schermata.
 - `NotificationTemplate`, `MailTemplate`, `NotifyTheme`: il testo e l'aspetto sono
   **dati**, non codice. Cambiare una comunicazione non deve richiedere un deploy.

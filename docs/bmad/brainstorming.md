@@ -118,3 +118,10 @@ Percorsi relativi a `laravel/Modules/Notify/app`.
 - [Epic roadmap](./epics/module-roadmap.md)
 - [Epic channels](./epics/notification-channels.epic.md)
 - [Module opportunities (shard)](./brainstorming/module-opportunities.md)
+
+## Brainstorming audit 2026-11-16
+
+- **Policy di default:** invece di una policy per modello, un controllo CI che fallisca se una Resource ha `Gate::getPolicyFor() === null` (script one-shot usato nell'audit). Costo basso, previene la regressione ovunque.
+- **Webhook:** valutare un solo endpoint per provider con firma nativa (Postmark/Mailgun) invece del token condiviso.
+- **Domanda aperta:** `NotificationLog` va conservato quanto? `CleanupNotificationLogsCommand` esiste: verificare la retention rispetto alla policy privacy dell'ente.
+- **Scartato:** riscrivere i canali in un unico driver: fuori scope, non misurato come problema.

@@ -180,3 +180,16 @@ updated: 2026-10-06
 **Task:**
 - [ ] Verificare configurazione in `AdminPanelProvider::panel()`
 - [ ] Testare con `NotifyManager::send()` canale `database`
+
+## Epic hardening da audit 2026-11-16
+
+**Descrizione:** chiudere i 3 P1 dell'[audit](./audits/notify-audit.md) senza toccare i canali funzionanti.
+- US-N1: come DPO, voglio che il log delle notifiche sia leggibile solo da ruoli autorizzati.
+- US-N2: come operatore infrastruttura, voglio che il webhook inbound sia autenticato dal provider e limitato.
+- US-N3: come responsabile, voglio sapere quali canali sono reali e quali stub.
+
+**Task:**
+- [ ] `NotificationLogPolicy` + Pest `assertForbidden`
+- [ ] webhook: firma, `throttle`, whitelist provider, limite dimensione
+- [ ] matrice capability canali in [architecture](./architecture.md)
+- [ ] rimozione 10 file `.up` orfani (nuovo commit)

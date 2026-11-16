@@ -26,3 +26,7 @@ qmd: "Notify indice BMAD documentazione"
 - [Wiki legacy](../wiki/)
 
 La documentazione nuova va in `docs/bmad/`; le raccolte storiche restano referenziate finché una story dedicata non ne decide la migrazione.
+
+## Audit
+
+- [Audit approfondito 2026-11-16](./audits/notify-audit.md) · [ECC](../ecc/00-index.md) · [Story audit](./stories/module-bmad-audit.story.md)

@@ -5,7 +5,7 @@ status: active
 module: Notify
 scope: documentation
 bmad_version: 1.0
-updated: 2026-10-06
+updated: 2026-11-16
 ---
 
 # Decision Log - Modulo Notify
@@ -125,3 +125,19 @@ updated: 2026-10-06
 ### [DA COMPLETARE]
 **Decisione:** [DA COMPLETARE]
 **Stato:** [DA COMPLETARE]
+
+## Decisioni da audit 2026-11-16
+
+### ADR-N1 — Ogni Resource Notify ha una Policy
+**Stato:** PROPOSTA · **Impatto:** alto
+**Contesto:** `Gate::getPolicyFor(NotificationLog::class)` è `NONE`; Filament senza policy consente tutto.
+**Decisione:** `NotificationLogPolicy extends NotifyBasePolicy`, sola lettura; test `assertForbidden`.
+**Alternative scartate:** `canViewAny()` sulla Resource (duplica la logica, bypassa il Gate).
+
+### ADR-N2 — Webhook inbound: segreto fuori dal path
+**Stato:** PROPOSTA · **Impatto:** medio
+**Decisione:** firma/header del provider + `throttle` + whitelist `provider`; il token nel path resta solo come compatibilità transitoria.
+
+### ADR-N3 — Un canale non implementato fallisce in modo esplicito
+**Stato:** PROPOSTA · **Impatto:** medio
+**Decisione:** gli stub lanciano eccezione tracciata; nessun `return` silenzioso.
