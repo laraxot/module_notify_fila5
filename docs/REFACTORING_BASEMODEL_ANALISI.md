@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "REFACTORING BASEMODEL ANALISI"
 issues: []
 discussions: []
-status: superseded
-superseded_by: refactoring_basemodel_analisi.md
 ---
 
 # 📋 ANALISI REFACTORING BASEMODEL - Eliminazione Duplicazioni

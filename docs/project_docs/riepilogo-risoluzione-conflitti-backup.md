@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "riepilogo risoluzione conflitti backup"
 issues: []
 discussions: []
+<<<<<<< .merge_file_vH6Bjo
 status: draft
+=======
+>>>>>>> .merge_file_9CW9Se
 ---
 
 # Riepilogo Risoluzione Conflitti File Backup
@@ -102,7 +105,10 @@ status: draft
 - [Regole Globali Progetto](./README.md)
 - [Convenzioni Naming](./guides/naming-conventions.md)
 - [Best Practices DRY + KISS](./guides/best-practices.md)
+<<<<<<< .merge_file_vH6Bjo
 - [Best Practices DRY + KISS](../best-practices.md)
+=======
+>>>>>>> .merge_file_9CW9Se
 
 ## Prossimi Passi
 
@@ -131,6 +137,18 @@ status: draft
 - **Markdown**: Sintassi corretta e validata
 
 ---
+<<<<<<< .merge_file_vH6Bjo
+=======
+
+title: "riepilogo risoluzione conflitti backup"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "riepilogo risoluzione conflitti backup"
+issues: []
+discussions: []
+>>>>>>> .merge_file_9CW9Se
 **Status**: ✅ Completato  
 **Validazione**: ✅ Tutti i conflitti risolti  
 **Documentazione**: ✅ Aggiornata e collegata  

@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "PROJECT ROADMAP"
 issues: []
 discussions: []
-status: superseded
-superseded_by: project-roadmap.md
 ---
 
 # ROADMAP PRINCIPALE - Progetto Fixcity

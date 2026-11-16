@@ -5,13 +5,9 @@ declare(strict_types=1);
 return [
     'actions' => [
         'back' => [
-<<<<<<< .merge_file_zlgtMw
-            'icon' => 'back',
-=======
             'label' => 'back',
             'icon' => 'back',
             'tooltip' => 'back',
->>>>>>> .merge_file_hBUUNY
         ],
     ],
     'navigation' => [

@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "architecture analysis"
 issues: []
 discussions: []
-status: draft
 ---
 
 # FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
@@ -24,6 +23,15 @@ status: draft
 **Status**: Production-Ready Foundation with Active Development
 
 ---
+
+title: "architecture analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture analysis"
+issues: []
+discussions: []
 ## 📋 EXECUTIVE SUMMARY
 
 ### Project Overview
@@ -616,6 +624,7 @@ Themes/Sixteen/
 # ALWAYS run after ANY frontend change:
 cd Themes/Sixteen/
 npm run build          # Compile assets
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # These commands are MANDATORY for any:
 # - CSS changes
@@ -1804,6 +1813,7 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
+<<<<<<< .merge_file_sek4uR
 <<<<<<< .merge_file_oSMLaF
 <<<<<<< .merge_file_k9dufv
 [ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
@@ -1811,6 +1821,10 @@ Frontend:
 [ ] Asset buildati (`npm run build`; serviti via symlink)
 >>>>>>> .merge_file_5DHg6V
 =======
+=======
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+
+>>>>>>> .merge_file_cD3NHC
 [ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
 >>>>>>> .merge_file_b4ZU7t
 [ ] Dark mode tested

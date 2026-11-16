@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "COMPOSER UPDATE REPORT"
 issues: []
 discussions: []
-status: superseded
-superseded_by: composer_update_report.md
 ---
 
 # ✅ Composer Update - COMPLETATO

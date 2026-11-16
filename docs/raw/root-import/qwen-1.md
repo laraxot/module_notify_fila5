@@ -11,6 +11,8 @@ discussions: []
 
 ## Qwen Added Memories
 
+- niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+
 - **Documentation System:** Master index at docs/MODULE_DOCS_INDEX.md with 7,305+ files (6,812 module docs, 325 theme docs, 15+ BMad docs, 153 project docs). All docs must have bidirectional links (min 3 cross-references). Vite config outDir: './public' is CORRECT - builds to local public/, then symlink public_html/themes (npm run copy obsoleto) copies to public_html/themes/Sixteen/.
 
 - **BMad-METHOD Complete:** 15+ documents in _bmad-output/ (9 general BMad docs + 6+ Design Comuni docs). Design Comuni suite: PRD, Architecture, UI Spec, Epics, Sprint Plan, Block Analysis (38 pagine, 47 componenti), Index. All BMad docs linked to Master Index and module/theme docs with bidirectional links. Total project documentation: 552,500+ lines across 7,305+ files.
@@ -22,6 +24,8 @@ discussions: []
 - **Design Comuni Replication Rules:** Use Tailwind @apply (NOT Bootstrap imports), single [slug].blade.php for ALL pages, JSON content blocks (NOT hardcoded HTML), universal reusable blocks (NOT page-specific), <x-layouts.app> (NOT custom layouts), <x-section slug="header" /> (NOT inline HTML), <x-pub_theme:: namespace (NOT <x-sixteen::). Block types: hero, topics-grid, card, etc. (NOT tests.argomenti). Implement 47 components in 5 phases based on usage frequency.
 
 - **Theme Detection:** APP_URL from .env → remove protocol → remove www → explode by "." → reverse array → join with "/" → config path. Example: http://fixcity.local → local/fixcity → laravel/config/local/fixcity/xra.php → pub_theme = "Sixteen" → Theme folder: laravel/Themes/Sixteen/
+
+- niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
 
 - **Vite Build for Themes:** outDir: './public' in vite.config.js, build in laravel/Themes/Sixteen/, copy to public_html/themes/Sixteen/ via symlink public_html/themes (npm run copy obsoleto). Use @vite(['resources/css/app.css'], 'themes/Sixteen') with theme parameter. Bootstrap Italia replicated with Tailwind @apply in style-apply.css, NOT @import.
 

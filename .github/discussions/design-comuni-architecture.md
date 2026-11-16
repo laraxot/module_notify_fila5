@@ -257,7 +257,11 @@ x-layouts.main (base HTML: DOCTYPE, head, body, scripts)
 
 ---
 
+<<<<<<< .merge_file_upxg31
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+=======
 ### 9. Vite Build: outDir: './public' + symlink public_html/themes (npm run copy obsoleto) ✅
+>>>>>>> .merge_file_VKiGFx
 
 **Decision**: Build theme independently, copy to public_html.
 
@@ -285,6 +289,10 @@ cd laravel/Themes/Sixteen
 composer update -W
 npm install
 npm run build
+<<<<<<< .merge_file_upxg31
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
+=======
+>>>>>>> .merge_file_VKiGFx
 ```
 
 **Alternatives Rejected**:
@@ -378,9 +386,9 @@ npm run build
 
 ## 📖 Related Documentation
 
-- [MASTER_IMPLEMENTATION_PLAN.md](../../laravel/Themes/Sixteen/docs/design-comuni/master-implementation-plan.md)
-- [ARCHITECTURAL_DECISIONS.md](../../laravel/Themes/Sixteen/docs/design-comuni/architectural-decisions.md)
-- [HTML_PARITY_VERIFICATION_REPORT.md](../../laravel/Themes/Sixteen/docs/design-comuni/html-parity-verification-report.md)
+- [MASTER_IMPLEMENTATION_PLAN.md](../../laravel/Themes/Sixteen/docs/design-comuni/MASTER_IMPLEMENTATION_PLAN.md)
+- [ARCHITECTURAL_DECISIONS.md](../../laravel/Themes/Sixteen/docs/design-comuni/ARCHITECTURAL_DECISIONS.md)
+- [HTML_PARITY_VERIFICATION_REPORT.md](../../laravel/Themes/Sixteen/docs/design-comuni/HTML_PARITY_VERIFICATION_REPORT.md)
 - [QWEN.md](../../QWEN.md)
 
 ---

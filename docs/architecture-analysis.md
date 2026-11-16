@@ -4,10 +4,12 @@ type: concept
 tags: [architecture, analysis]
 created: 2026-07-14
 updated: 2026-07-14
+qmd: "architecture-analysis fixcity architecture deep dive analysis"
 qmd: "architecture-analysis ptv architecture deep dive analysis"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
+<<<<<<< .merge_file_Fs4upu
   - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -18,13 +20,17 @@ related:
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
   - "./00-index-documentation.md"
+=======
+  - "./00-index-1.md"
+>>>>>>> .merge_file_yKpyQP
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-completamento-assoluto.md"
-  - "./acronym-naming-conventions.md"
-  - "./acronym-naming-conventions.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
+<<<<<<< .merge_file_Fs4upu
 =======
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -38,6 +44,8 @@ related:
   - "./action-plan-immediate.md"
 >>>>>>> .merge_file_MKcNDS
 status: draft
+=======
+>>>>>>> .merge_file_yKpyQP
 ---
 
 # FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
@@ -647,6 +655,7 @@ Themes/Sixteen/
 # ALWAYS run after ANY frontend change:
 cd Themes/Sixteen/
 npm run build          # Compile assets
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # These commands are MANDATORY for any:
 # - CSS changes
@@ -1656,7 +1665,7 @@ Tasks:
 ```
 ✅ Exists:
 - claude.md (AI assistant instructions)
-- project-roadmap.md (high-level vision)
+- project-roadmap-1.md (high-level vision)
 - README.md (basic setup)
 - This document (architecture-analysis.md)
 
@@ -1834,6 +1843,7 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
+<<<<<<< .merge_file_Fs4upu
 <<<<<<< .merge_file_4mJqPN
 <<<<<<< .merge_file_SIUEVC
 [ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
@@ -1841,6 +1851,10 @@ Frontend:
 [ ] Asset buildati (`npm run build`; serviti via symlink)
 >>>>>>> .merge_file_fsTFhf
 =======
+=======
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+
+>>>>>>> .merge_file_yKpyQP
 [ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
 >>>>>>> .merge_file_MKcNDS
 [ ] Dark mode tested

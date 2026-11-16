@@ -8,6 +8,7 @@ qmd: "start-here-replikate-phase2 🚀 start here - replikate phase 2"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+<<<<<<< .merge_file_hU2Kpb
   - "./00-index.md"
 <<<<<<< .merge_file_ONVC1W
   - "./00-index-2.md"
@@ -29,9 +30,16 @@ related:
   - "./absolute-completion-notify-completamento-assoluto.md"
   - "../../../acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
+=======
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+>>>>>>> .merge_file_rOx54o
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
-status: draft
 ---
 
 # 🚀 START HERE - REPLIKATE Phase 2
@@ -73,7 +81,7 @@ REPLIKATE Project Lifecycle
 ## 📖 What To Read (In Order)
 
 ### 1️⃣ Navigation Hub (5 min read)
-📍 **File**: `laravel/Themes/Sixteen/docs/replikate-master-index.md`
+📍 **File**: `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
 
 This is your master navigation. It explains:
 - What Phase 1 found
@@ -166,6 +174,7 @@ cd laravel/Themes/Sixteen
 npm run build
 
 # Copy assets
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # Clear cache
 php artisan optimize:clear
@@ -234,7 +243,7 @@ open http://127.0.0.1:8000/it/tests/homepage
 
 ## 📋 Checklist Before Starting
 
-- [ ] Read `replikate-master-index.md`
+- [ ] Read `REPLIKATE-MASTER-INDEX.md`
 - [ ] Read `homepage-structure-diff.md` completely
 - [ ] Read `replikate.txt` (understand HTML FIRST principle)
 - [ ] Know where `[slug].blade.php` is
@@ -294,7 +303,7 @@ All information you need is documented:
 
 1. **What to do**: `homepage-structure-diff.md`
 2. **How to do it**: `replikate.txt`
-3. **Where files are**: `replikate-master-index.md`
+3. **Where files are**: `REPLIKATE-MASTER-INDEX.md`
 4. **Automation tool**: `bashscripts/design-analysis/replikate-workflow.sh`
 
 ---
@@ -328,7 +337,7 @@ Just follow the 4 tasks in order and test as you go.
 
 ## 🚀 Start Now
 
-1. Open `laravel/Themes/Sixteen/docs/replikate-master-index.md`
+1. Open `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
 2. Read it thoroughly
 3. Open `homepage-structure-diff.md`
 4. Follow Task 1-4
@@ -391,7 +400,7 @@ REPLIKATE Project Lifecycle
 ## 📖 What To Read (In Order)
 
 ### 1️⃣ Navigation Hub (5 min read)
-📍 **File**: `laravel/Themes/Sixteen/docs/replikate-master-index.md`
+📍 **File**: `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
 
 This is your master navigation. It explains:
 - What Phase 1 found
@@ -484,6 +493,7 @@ cd laravel/Themes/Sixteen
 npm run build
 
 # Copy assets
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # Clear cache
 php artisan optimize:clear
@@ -554,7 +564,7 @@ open http://127.0.0.1:8000/it/tests/homepage
 
 ## 📋 Checklist Before Starting
 
-- [ ] Read `replikate-master-index.md`
+- [ ] Read `REPLIKATE-MASTER-INDEX.md`
 - [ ] Read `homepage-structure-diff.md` completely
 - [ ] Read `replikate.txt` (understand HTML FIRST principle)
 - [ ] Know where `[slug].blade.php` is
@@ -614,7 +624,7 @@ All information you need is documented:
 
 1. **What to do**: `homepage-structure-diff.md`
 2. **How to do it**: `replikate.txt`
-3. **Where files are**: `replikate-master-index.md`
+3. **Where files are**: `REPLIKATE-MASTER-INDEX.md`
 4. **Automation tool**: `bashscripts/design-analysis/replikate-workflow.sh`
 
 ---
@@ -648,7 +658,7 @@ Just follow the 4 tasks in order and test as you go.
 
 ## 🚀 Start Now
 
-1. Open `laravel/Themes/Sixteen/docs/replikate-master-index.md`
+1. Open `laravel/Themes/Sixteen/docs/REPLIKATE-MASTER-INDEX.md`
 2. Read it thoroughly
 3. Open `homepage-structure-diff.md`
 4. Follow Task 1-4

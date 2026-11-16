@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "DESIGN COMUNI INTEGRATION COMPLETE"
 issues: []
 discussions: []
-status: superseded
-superseded_by: design_comuni_integration_complete.md
 ---
 
 # 🏛️ DESIGN COMUNI ITALIANI - INTEGRATION COMPLETE

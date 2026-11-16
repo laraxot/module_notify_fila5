@@ -75,12 +75,9 @@ return [
         ],
     ],
     'reminder' => [
-<<<<<<< .merge_file_bRO1sU
-=======
         'tomorrow' => [
             'label' => 'tomorrow',
         ],
->>>>>>> .merge_file_jsxpoP
         'countdown' => [
             'description' => 'Only 1 day left until your appointment!',
         ],

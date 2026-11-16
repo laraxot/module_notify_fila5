@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "PRODUCT ROADMAP"
 issues: []
 discussions: []
-status: superseded
-superseded_by: product_roadmap.md
 ---
 
 # Notify Module - Product Roadmap

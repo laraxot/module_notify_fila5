@@ -178,15 +178,12 @@ return [
             'description' => 'Abilita il tracking per monitorare l\'engagement',
             'tooltip' => 'Il tracking permette di monitorare l\'apertura e i click',
             'helper_text' => '',
-<<<<<<< .merge_file_TLaVhB
-=======
         ],
         'recipient' => [
             'label' => 'recipient',
             'placeholder' => 'recipient',
             'helper_text' => 'recipient',
             'description' => 'recipient',
->>>>>>> .merge_file_KTG7MS
         ],
     ],
     'actions' => [
@@ -253,18 +250,6 @@ return [
             ],
         ],
         'emailFormActions' => [
-<<<<<<< .merge_file_TLaVhB
-            'icon' => 'emailFormActions',
-        ],
-        'logout' => [
-            'icon' => 'logout',
-        ],
-        'save' => [
-            'icon' => 'save',
-        ],
-        'profile' => [
-            'icon' => 'profile',
-=======
             'label' => 'emailFormActions',
             'icon' => 'emailFormActions',
             'tooltip' => 'emailFormActions',
@@ -283,7 +268,6 @@ return [
             'label' => 'profile',
             'icon' => 'profile',
             'tooltip' => 'profile',
->>>>>>> .merge_file_KTG7MS
         ],
     ],
     'messages' => [

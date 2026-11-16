@@ -8,8 +8,6 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: superseded
-superseded_by: architecture_analysis.md
 ---
 
 # NOTIFY ARCHITECTURE DEEP DIVE ANALYSIS
@@ -632,6 +630,7 @@ Themes/Sixteen/
 # ALWAYS run after ANY frontend change:
 cd Themes/Sixteen/
 npm run build          # Compile assets
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # These commands are MANDATORY for any:
 # - CSS changes
@@ -1828,6 +1827,7 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
+<<<<<<< .merge_file_uu62px
 <<<<<<< .merge_file_5x06oJ
 <<<<<<< .merge_file_iTfZdb
 [ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
@@ -1835,6 +1835,10 @@ Frontend:
 [ ] Asset buildati (`npm run build`; serviti via symlink)
 >>>>>>> .merge_file_fZjQ8q
 =======
+=======
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+
+>>>>>>> .merge_file_j4vkYZ
 [ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
 >>>>>>> .merge_file_7rEiKj
 [ ] Dark mode tested

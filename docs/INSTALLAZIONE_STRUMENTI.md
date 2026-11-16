@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "INSTALLAZIONE STRUMENTI"
 issues: []
 discussions: []
-status: superseded
-superseded_by: installazione_strumenti.md
 ---
 
 # 🚀 Installazione Strumenti di Sviluppo

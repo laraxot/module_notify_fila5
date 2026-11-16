@@ -45,8 +45,6 @@ return [
             ],
             'tooltip' => '',
         ],
-<<<<<<< .merge_file_1NwbwH
-=======
         'text' => [
             'label' => 'text',
             'placeholder' => 'text',
@@ -107,7 +105,6 @@ return [
             'helper_text' => 'body',
             'description' => 'body',
         ],
->>>>>>> .merge_file_IpdZ9g
     ],
     'actions' => [
         'send' => [
@@ -125,15 +122,6 @@ return [
             'error_message' => 'Errore nella generazione dell\'anteprima',
         ],
         'emailFormActions' => [
-<<<<<<< .merge_file_1NwbwH
-            'icon' => 'emailFormActions',
-        ],
-        'save' => [
-            'icon' => 'save',
-        ],
-        'telegramFormActions' => [
-            'icon' => 'telegramFormActions',
-=======
             'label' => 'emailFormActions',
             'icon' => 'emailFormActions',
             'tooltip' => 'emailFormActions',
@@ -147,7 +135,6 @@ return [
             'label' => 'telegramFormActions',
             'icon' => 'telegramFormActions',
             'tooltip' => 'telegramFormActions',
->>>>>>> .merge_file_IpdZ9g
         ],
     ],
     'messages' => [
@@ -158,13 +145,10 @@ return [
     'label' => 'Send Telegram',
     'plural_label' => 'Send Telegram (Plurale)',
     'sections' => [
-<<<<<<< .merge_file_1NwbwH
-=======
         'empty' => [
             'label' => 'empty',
             'heading' => 'empty',
         ],
->>>>>>> .merge_file_IpdZ9g
         'page' => [
             'title' => 'Test Invio Telegram',
             'description' => 'Utilizza questo form per testare l\'invio di messaggi Telegram tramite diversi provider.',

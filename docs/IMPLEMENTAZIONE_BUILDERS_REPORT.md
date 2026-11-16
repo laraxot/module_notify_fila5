@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "IMPLEMENTAZIONE BUILDERS REPORT"
 issues: []
 discussions: []
-status: superseded
-superseded_by: implementazione_builders_report.md
 ---
 
 # 🎉 IMPLEMENTAZIONE BUILDERS & ANALISI PIVOT - REPORT FINALE

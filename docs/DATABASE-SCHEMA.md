@@ -7,11 +7,9 @@ title: "Notify Module Database Schema"
 type: reference
 tags: [notify, database, schema]
 created: 2026-07-28
-status: superseded
-superseded_by: database-schema.md
 ---
 
-# Notify Module: Database Schema
+# Notify Module — Database Schema
 
 ## notifications Table
 

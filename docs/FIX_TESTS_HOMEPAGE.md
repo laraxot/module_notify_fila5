@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "FIX TESTS HOMEPAGE"
 issues: []
 discussions: []
-status: superseded
-superseded_by: fix-tests-homepage.md
 ---
 
 # ✅ Fix Applicati - Tests Homepage

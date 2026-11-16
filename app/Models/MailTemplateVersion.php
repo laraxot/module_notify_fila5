@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
@@ -58,16 +59,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion whereUpdatedBy($value)
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  *
- * @mixin \Illuminate\Database\Eloquent\Model
+ * @mixin Model
  */
 class MailTemplateVersion extends BaseModel
 {
     use MailTemplateVersionRelations;
-<<<<<<< .merge_file_F6nuJH
-    use SoftDeletes, Updater;
-=======
+    use SoftDeletes;
     use Updater;
->>>>>>> .merge_file_vlqnrS
 
     protected $connection = 'notify';
 
@@ -79,7 +77,8 @@ class MailTemplateVersion extends BaseModel
         'text_template',
         'version',
         'created_by',
-        'change_notes'];
+        'change_notes',
+    ];
 
     public function restoreTemplate(): MailTemplate
     {
@@ -92,7 +91,8 @@ class MailTemplateVersion extends BaseModel
         $template->update([
             'subject' => $this->subject,
             'html_template' => $this->html_template,
-            'text_template' => $this->text_template]);
+            'text_template' => $this->text_template,
+        ]);
 
         return $template;
     }
@@ -108,6 +108,7 @@ class MailTemplateVersion extends BaseModel
             'metadata' => 'array',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
-            'deleted_at' => 'datetime'];
+            'deleted_at' => 'datetime',
+        ];
     }
 }

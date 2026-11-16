@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "DOCUMENTATION SYSTEM UPDATE COMPLETE"
 issues: []
 discussions: []
-status: superseded
-superseded_by: documentation_system_update_complete.md
 ---
 
 # Documentation System Update - Complete
@@ -120,10 +118,10 @@ FixCity Fila5 Documentation (7,299 files)
 │   ├── Sixteen/docs/ (325 files)
 │   │   ├── README.md
 │   │   ├── layout-architecture.md
-│   │   ├── layout-architecture-map.md
-│   │   ├── layout-fix-complete-bmad.md
-│   │   ├── vite-manifest-fix-complete.md
-│   │   ├── phpstan-layout-fix-complete.md
+│   │   ├── LAYOUT_ARCHITECTURE_MAP.md
+│   │   ├── LAYOUT_FIX_COMPLETE_BMAD.md
+│   │   ├── VITE_MANIFEST_FIX_COMPLETE.md
+│   │   ├── PHPSTAN_LAYOUT_FIX_COMPLETE.md
 │   │   ├── components/
 │   │   ├── guides/
 │   │   └── ...
@@ -199,10 +197,10 @@ FixCity Fila5 Documentation (7,299 files)
 | File | Purpose | Lines |
 |------|---------|-------|
 | `docs/MODULE_DOCS_INDEX.md` | Master documentation index | 400+ |
-| `Themes/Sixteen/docs/layout-architecture-map.md` | Layout navigation map | 350+ |
-| `Themes/Sixteen/docs/layout-fix-complete-bmad.md` | Layout fix summary | 400+ |
+| `Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_MAP.md` | Layout navigation map | 350+ |
+| `Themes/Sixteen/docs/LAYOUT_FIX_COMPLETE_BMAD.md` | Layout fix summary | 400+ |
 | `Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md` | Vite build fix | 300+ |
-| `Themes/Sixteen/docs/phpstan-layout-fix-complete.md` | PHPStan + layout summary | 250+ |
+| `Themes/Sixteen/docs/PHPSTAN_LAYOUT_FIX_COMPLETE.md` | PHPStan + layout summary | 250+ |
 
 ### Updated Documents
 
@@ -235,6 +233,7 @@ export default defineConfig({
 **Why This is Correct:**
 
 1. **Build Target:** `./public` (local theme public folder)
+<<<<<<< .merge_file_KsH2GX
 <<<<<<< .merge_file_9UQBZx
 <<<<<<< .merge_file_JDKVKk
 2. **Copy Step:** `symlink public_html/themes (npm run copy obsoleto)` copies to `../../public_html/themes/Sixteen/`
@@ -242,6 +241,10 @@ export default defineConfig({
 2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
 >>>>>>> .merge_file_ydoAbY
 =======
+=======
+2. niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+
+>>>>>>> .merge_file_sD0VRt
 2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public` (`npm run copy` obsoleto)
 >>>>>>> .merge_file_pIcaVP
 3. **Manifest Location:** Both locations have manifest.json after build
@@ -249,10 +252,15 @@ export default defineConfig({
 
 **Build Flow:**
 ```
+<<<<<<< .merge_file_KsH2GX
 <<<<<<< .merge_file_9UQBZx
 <<<<<<< .merge_file_JDKVKk
 resources/ → Vite Build → public/ → symlink public_html/themes (npm run copy obsoleto) → public_html/themes/Sixteen/
 =======
+=======
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+
+>>>>>>> .merge_file_sD0VRt
 resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
 >>>>>>> .merge_file_ydoAbY
 =======
@@ -423,7 +431,6 @@ Start at theme index:
 ### Finding Documentation
 
 1. **Start Here:** [docs/MODULE_DOCS_INDEX.md](docs/MODULE_DOCS_INDEX.md)
-1. **Start Here:** [docs/MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
 2. **Navigate to:** Module or theme category
 3. **Use Search:** Ctrl+F for keywords
 4. **Follow Links:** Cross-references guide you
@@ -448,11 +455,10 @@ Start at theme index:
 ## 📋 Related Documents
 
 - [Master Index](docs/MODULE_DOCS_INDEX.md) - Central navigation
-- [Master Index](MODULE_DOCS_INDEX.md) - Central navigation
 - [BMad Workflow](_bmad-output/BMAD-WORKFLOW-COMPLETE.md) - BMad summary
 - [Layout Architecture](Themes/Sixteen/docs/layout-architecture.md) - Theme layouts
 - [Vite Manifest Fix](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build fix
-- [PHPStan + Layout](Themes/Sixteen/docs/phpstan-layout-fix-complete.md) - Combined summary
+- [PHPStan + Layout](Themes/Sixteen/docs/PHPSTAN_LAYOUT_FIX_COMPLETE.md) - Combined summary
 
 ---
 

@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "DOCS MONITORING SYSTEM"
 issues: []
 discussions: []
-status: superseded
-superseded_by: docs_monitoring_system.md
 ---
 
 # 📚 DOCS MONITORING SYSTEM - Sistema di Monitoraggio Documentazione

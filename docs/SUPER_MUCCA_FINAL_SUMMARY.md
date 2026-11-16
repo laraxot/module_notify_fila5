@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "SUPER MUCCA FINAL SUMMARY"
 issues: []
 discussions: []
-status: superseded
-superseded_by: super_mucca_final_summary.md
 ---
 
 # 🐄 SUPER MUCCA - Missione Completata
