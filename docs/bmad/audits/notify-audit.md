@@ -30,6 +30,24 @@ PHPStan/Pest proporzionati.
 | Marker di conflitto | 0 |
 | Label/tooltip letterali Filament | 11 |
 
+
+## Analisi Funzionale e Scopo di Dominio
+
+### Perché Esiste (Scopo Fondamentale)
+Sistema di comunicazione e notifica multicanale (Email, PEC, Database, SMS).
+
+### Valore di Business e Utilità
+Notifica tempestiva degli stati di avanzamento delle pratiche, valutazioni performance, alert di sistema e avvisi protocollati.
+
+### Architettura e Pattern Laraxot
+Template versionati modificabili via backoffice (GrapesJS); tracciamento recapito e dispatching asincrono tramite Job.
+
+### Standard di Qualità e Conformità
+- **PHPStan**: Confermato a Level Max con 0 errori.
+- **Filament**: Conformità Filament 5 con estensione delle classi XotBase*.
+- **Naming**: Convenzione kebab-case rigorosa per tutti i documenti e classi PSR-4.
+- **Trans**: Traduzioni dinamiche via Lang, nessun testo hardcoded.
+
 ## Audit per dimensione
 
 ### Architettura e confini

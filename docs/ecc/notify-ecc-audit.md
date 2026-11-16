@@ -1,7 +1,12 @@
 ---
-qmd: ECC audit modulo Notify verification security testing workflow
-title: ECC audit operativo modulo Notify
-status: baseline-review
+id: Notify/ecc-audit
+title: "ECC — audit operativo del modulo Notify"
+status: in-progress
+module: Notify
+qmd: "Notify ECC audit verification security testing"
+references:
+  - ../bmad/audit.md
+  - 00-index.md
 ---
 
 # ECC audit operativo modulo Notify
@@ -53,3 +58,4 @@ correzione minima, source-first, con lock prima dell'edit e gate dopo l'edit.
 Baseline ECC creata. Il modulo non è dichiarato conforme finché gli acceptance
 criteria del documento BMAD corrispondente non risultano verificati con output
 dei gate.
+
