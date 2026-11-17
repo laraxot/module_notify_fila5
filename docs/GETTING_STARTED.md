@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "GETTING STARTED"
 issues: []
 discussions: []
-status: superseded
-superseded_by: getting-started.md
 ---
 
 # Getting Started with $MOD

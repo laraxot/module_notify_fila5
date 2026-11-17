@@ -116,3 +116,5 @@ notify.code-workspace
 /.github/skills/
 docs/graphify
 resources/lang
+.github/ISSUE_CONTENT/
+.github/agents/

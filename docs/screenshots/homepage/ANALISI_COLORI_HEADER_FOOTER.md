@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "ANALISI COLORI HEADER FOOTER"
 issues: []
 discussions: []
-status: superseded
-superseded_by: analisi_colori_header_footer.md
 ---
 
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia

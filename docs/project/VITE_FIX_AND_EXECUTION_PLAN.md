@@ -7,16 +7,30 @@ updated: 2026-09-26
 qmd: "VITE FIX AND EXECUTION PLAN"
 issues: []
 discussions: []
-status: draft
 ---
 
 # 🚀 Notify Improvement + Vite Fix - EXECUTION PLAN
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
 
 **Date**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
 **AI Tools**: OpenViking + BMAD + GSD + Ralph Loop + NotebookLM + NotebookLM MCP
 
 ---
+
+title: "VITE FIX AND EXECUTION PLAN"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "VITE FIX AND EXECUTION PLAN"
+issues: []
+discussions: []
 ## 🎯 Today's Priorities
 
 ### P0.0: Install NotebookLM MCP ✅ COMPLETE
@@ -62,7 +76,7 @@ npm install
 npm run build
 
 # 4. Copy assets to public_html
-npm run copy
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # Verify manifest exists
 ls -la public_html/themes/Sixteen/manifest.json
@@ -72,7 +86,8 @@ ls -la public_html/themes/Sixteen/manifest.json
 - `composer update -W`: Updates PHP dependencies with wide dependencies
 - `npm install`: Installs correct Node packages from package.json
 - `npm run build`: Vite builds assets → generates manifest.json
-- `npm run copy`: Copies built assets to public_html/themes/<theme>/
+- `symlink public_html/themes (npm run copy obsoleto)`: Copies built assets to public_html/themes/<theme>/
+- `public_html/themes/<Tema>` e' un symlink a `laravel/Themes/<Tema>/public` (`npm run copy` dismesso): asset serviti via symlink, nessuna copia.
 
 **AI Tool Assignment**:
 - **Ralph Loop**: Autonomous execution for both themes
@@ -86,8 +101,8 @@ cat > .ralph/vite-fix.json << 'EOF'
 {
   "task": "Fix Vite manifest for all themes",
   "steps": [
-    "cd laravel/Themes/Sixteen && composer update -W && npm install && npm run build && npm run copy",
-    "cd laravel/Themes/TwentyOne && composer update -W && npm install && npm run build && npm run copy",
+    "cd laravel/Themes/Sixteen && composer update -W && npm install && npm run build",
+    "cd laravel/Themes/TwentyOne && composer update -W && npm install && npm run build",
     "Verify manifests exist",
     "Test site loading"
   ],
@@ -139,7 +154,7 @@ cd laravel/Themes/Sixteen
 composer update -W    # ~5min
 npm install           # ~2min
 npm run build         # ~3min
-npm run copy          # ~1min
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # Verify
 ls -la public_html/themes/Sixteen/manifest.json
@@ -150,7 +165,7 @@ cd ../TwentyOne
 composer update -W
 npm install
 npm run build
-npm run copy
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # Verify
 ls -la public_html/themes/TwentyOne/manifest.json
@@ -284,7 +299,7 @@ EOF
 ### Vite Fix
 ```bash
 cd laravel/Themes/<theme>
-composer update -W && npm install && npm run build && npm run copy
+composer update -W && npm install && npm run build
 ```
 
 ### Ralph Loop

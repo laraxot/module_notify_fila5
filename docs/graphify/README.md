@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "README"
 issues: []
 discussions: []
-status: draft
 ---
 
 # Graphify Knowledge Graph
@@ -37,9 +36,9 @@ This directory contains the knowledge graph for the **Notify** module, generated
 
 ### Key Files
 
-- **graph.json**: Full knowledge graph in JSON format
-- **.graphify_analysis.json**: Analysis metadata and statistics
-- **GRAPH_REPORT.md**: Generated community names and cluster analysis
+- **graph.json** — Full knowledge graph in JSON format
+- **.graphify_analysis.json** — Analysis metadata and statistics
+- **GRAPH_REPORT.md** — Generated community names and cluster analysis
 
 ## Graph Interpretation
 
