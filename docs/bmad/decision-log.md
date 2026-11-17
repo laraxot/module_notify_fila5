@@ -6,7 +6,10 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-11-16
+<<<<<<< .merge_file_vyng1d
+=======
 qmd: "Notify decision log ADR NotificationLog policy webhook canali"
+>>>>>>> .merge_file_GNumVJ
 ---
 
 # Decision Log - Modulo Notify
