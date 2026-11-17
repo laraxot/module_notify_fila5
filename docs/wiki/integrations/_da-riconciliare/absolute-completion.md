@@ -49,7 +49,7 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 2. documentation-index.md
 3. quick-start.md
 4. project-completion-status.md
-5. excellence-2025.md
+5. excellence-year-note-snake.md
 6. final-summary.md
 7. WORK-COMPLETED-.md.md
 8. gap-analysis-implementation.md

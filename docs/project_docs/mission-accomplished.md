@@ -8,7 +8,7 @@ qmd: "mission-accomplished 🎉 mission accomplished! 🏆"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./2025-excellence-achievement.md"
+  - "./excellence-achievement.md"
   - "./agid-implementation-guide.md"
   - "./architecture.md"
   - "./complete-refactoring-analysis.md"
@@ -100,7 +100,7 @@ related:
 #### **Documenti Creati: 7**
 1. ✅ architecture.md (architettura completa)
 2. ✅ quality-dashboard.md (dashboard metriche)
-3. ✅ 2025-excellence-achievement.md (achievement report)
+3. ✅ excellence-achievement.md (achievement report)
 4. ✅ final-refactoring-report.md (refactoring completo)
 5. ✅ COMPLETE_REFACTORING_analysis.md (analisi dettagliata)
 6. ✅ project-completion-certificate.md (certificato)

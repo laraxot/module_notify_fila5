@@ -1684,7 +1684,7 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 - [ ] `project_docs/roadmaps/roadmap-documentation.md` (this doc)
 
 **Archive** (move to `docs/archive/roadmaps/`):
-- [ ] `master-roadmap-2025.md`
+- [ ] `master-roadmap-historic.md`
 - [ ] `project-roadmap.md`
 - [ ] `project-roadmap-1.md`
 - [ ] `roadmap.md`
@@ -2573,7 +2573,7 @@ related:
 - [README Principale](./README.md) - Panoramica progetto completa
 - [Analisi Super Mucca](./super-mucca-docs-analysis.md) - Report qualità documentazione
 - [Architecture](./architecture-analysis.md) - Analisi architetturale
-- [Roadmap](./master-roadmap-2025.md) - Piano sviluppo 2025
+- [Roadmap](./master-roadmap-historic.md) - Piano sviluppo 2025
 
 ### Guide Rapide
 - [Quick Start](./quick-start.md) - Guida avvio rapido

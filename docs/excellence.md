@@ -45,7 +45,7 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 2. ✅ **documentation-index.md** - Indice navigabile 400+ pagine
 3. ✅ **quick-start.md** - Onboarding sviluppatori < 30 minuti
 4. ✅ **project-completion-status.md** - Tracking avanzamento
-5. ✅ **excellence-2025.md** - Questo documento
+5. ✅ **excellence-year-note-snake.md** - Questo documento
 
 ### 🎫 Modulo Fixcity - ECCELLENZA (90%)
 - ✅ **API.md** - REST API completa con 15+ endpoints

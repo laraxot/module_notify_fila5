@@ -35,7 +35,7 @@ related:
 2. documentation-index.md
 3. quick-start.md
 4. project-completion-status.md
-5. excellence-2025.md
+5. excellence-year-note-snake.md
 6. final-summary.md
 7. WORK-COMPLETED-.md.md
 8. gap-analysis-implementation.md
@@ -241,7 +241,7 @@ base_ptv_fila5_mono/
 ├── 📊 ROOT DOCS (14 files)
 │   ├── documentation-index.md
 │   ├── quick-start.md
-│   ├── excellence-2025.md
+│   ├── excellence-year-note-snake.md
 │   ├── gap-analysis-implementation.md
 │   ├── perfection-plan.md
 │   ├── final-master-report.md

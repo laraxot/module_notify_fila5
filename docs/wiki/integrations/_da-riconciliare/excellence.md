@@ -48,7 +48,7 @@ Notify è la piattaforma enterprise leader per la gestione delle segnalazioni ur
 2. ✅ **documentation-index.md** - Indice navigabile 400+ pagine
 3. ✅ **quick-start.md** - Onboarding sviluppatori < 30 minuti
 4. ✅ **project-completion-status.md** - Tracking avanzamento
-5. ✅ **excellence-2025.md** - Questo documento
+5. ✅ **excellence-year-note-snake.md** - Questo documento
 
 ### 🎫 Modulo App - ECCELLENZA (90%)
 ### 🎫 Modulo <nome progetto> - ECCELLENZA (90%)
