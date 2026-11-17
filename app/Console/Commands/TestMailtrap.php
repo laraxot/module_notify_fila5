@@ -40,12 +40,18 @@ class TestMailtrap extends Command
             return Command::FAILURE;
         }
 
+        $fromAddress = config('mail.from.address', 'noreply@fixcity.eu');
+        $fromName = config('mail.from.name', 'FixCity');
+        if (! is_string($fromAddress) || $fromAddress === '') {
+            $fromAddress = 'noreply@fixcity.eu';
+        }
+        if (! is_string($fromName) || $fromName === '') {
+            $fromName = 'FixCity';
+        }
+
         // Create the email using the Mailtrap SDK
         $email = (new MailtrapEmail())
-            ->from(new Address(
-                (string) config('mail.from.address', 'noreply@fixcity.eu'),
-                (string) config('mail.from.name', 'FixCity'),
-            ))
+            ->from(new Address($fromAddress, $fromName))
             ->to(new Address($recipient))
             ->subject('You are awesome!')
             ->category('Integration Test')

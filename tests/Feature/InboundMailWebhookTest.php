@@ -49,8 +49,10 @@ test('inbound webhook stores postmark payload', function (): void {
         ->where('message_id', 'msg-123@postmarkapp.com')
         ->first();
 
-    expect($email)->not->toBeNull()
-        ->and($email->from_email)->toBe('mario@example.com')
+    expect($email)->toBeInstanceOf(InboundEmail::class);
+    assert($email instanceof InboundEmail);
+
+    expect($email->from_email)->toBe('mario@example.com')
         ->and($email->from_name)->toBe('Mario Rossi')
         ->and($email->to_email)->toBe('noreply@fixcity.eu')
         ->and($email->subject)->toBe('Segnalazione guasto')

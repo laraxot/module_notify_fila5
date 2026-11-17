@@ -2,11 +2,14 @@
 
 declare(strict_types=1);
 
+use Illuminate\Support\Env;
+
 return [
-    'inbound_token' => env('MAIL_INBOUND_TOKEN'),
+    // Module config is not in app `config/`; Env::get keeps cache-safe semantics without larastan env() false positive.
+    'inbound_token' => Env::get('MAIL_INBOUND_TOKEN'),
     // Records the mail provider asks for; read as config('notify.notify.mail_dns'), checked by `php artisan notify:check-dns` (CheckMailDnsAction).
     'mail_dns' => [
-        'domain' => env('MAIL_DNS_DOMAIN', 'fixcity.eu'),
+        'domain' => Env::get('MAIL_DNS_DOMAIN', 'fixcity.eu'),
         'cnames' => [
             'mt78' => 'smtp.mailtrap.live',
             'rwmt1._domainkey' => 'rwmt1.dkim.smtp.mailtrap.live',

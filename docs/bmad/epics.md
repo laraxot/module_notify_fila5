@@ -8,6 +8,7 @@ bmad_version: 1.0
 updated: 2026-10-06
 tags: [docs, notify, bmad]
 qmd: "epics e user stories - modulo notify notify"
+>>>>>>> laraxot/dev
 ---
 
 # Epics e User Stories - Modulo Notify
