@@ -10,6 +10,13 @@ discussions: []
 ---
 
 # claudeMd
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 Codebase and user instructions are shown below. Be sure to adhere to these instructions. IMPORTANT: These instructions OVERRIDE any default behavior and you MUST follow them exactly as written.
 
 Contents of /var/www/html/_bases/base_fixcity_fila5_mono/laravel/CLAUDE.md (project instructions, checked into the codebase):
@@ -691,6 +698,7 @@ it('has emails', function (string $email) {
 cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
 cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
 npm run build
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 ```
 
 ### When to Run:
@@ -703,6 +711,8 @@ npm run build
 ### Why This Is Critical:
 - The Laravel application reads compiled assets from the theme's `resources/dist/` directory
 - Without `npm run build`, Tailwind won't compile new classes or changes
+- niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+
 - Without `symlink public_html/themes (npm run copy obsoleto)`, the changes won't be available to the main Laravel application
 - Users will NOT see any frontend changes without these steps
 

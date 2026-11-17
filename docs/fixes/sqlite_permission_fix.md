@@ -7,16 +7,30 @@ updated: 2026-09-26
 qmd: "sqlite permission fix"
 issues: []
 discussions: []
-status: draft
 ---
 
 # ✅ SQLite Database Permission Fix - COMPLETE
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
 
 **Date**: 2026-03-30  
 **Status**: ✅ **FIXED**  
 **Error**: `SQLSTATE[HY000]: General error: 8 attempt to write a readonly database`
 
 ---
+
+title: "sqlite permission fix"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "sqlite permission fix"
+issues: []
+discussions: []
 ## 🚨 Error Details
 
 ### Original Error

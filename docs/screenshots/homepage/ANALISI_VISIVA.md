@@ -7,8 +7,6 @@ updated: 2026-09-26
 qmd: "ANALISI VISIVA"
 issues: []
 discussions: []
-status: superseded
-superseded_by: analisi_visiva.md
 ---
 
 # 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia

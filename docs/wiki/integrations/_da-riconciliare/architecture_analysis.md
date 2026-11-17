@@ -8,10 +8,16 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
-status: draft
 ---
 
 # NOTIFY ARCHITECTURE DEEP DIVE ANALYSIS
+
+> **Obsoleto: `npm run copy` non esiste piu' (2026-11-11).** Gli asset dei temi
+> arrivano nella document root con un symlink, non con una copia. Per il
+> procedimento valido vedi
+> [Xot/docs/theme-assets-workflow.md](/laravel/Modules/Xot/docs/theme-assets-workflow.md).
+> Le istruzioni di copia qui sotto sono lasciate come documentazione storica.
+
 **Generated**: 2025-10-01
 **Project**: Notify Civic Engagement Platform
 # <nome progetto> ARCHITECTURE DEEP DIVE ANALYSIS
@@ -624,6 +630,7 @@ Themes/Sixteen/
 # ALWAYS run after ANY frontend change:
 cd Themes/Sixteen/
 npm run build          # Compile assets
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # These commands are MANDATORY for any:
 # - CSS changes
@@ -1820,11 +1827,8 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
-<<<<<<< .merge_file_pRVuoF
 [ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
-=======
-[ ] Asset buildati (`npm run build`; serviti via symlink)
->>>>>>> .merge_file_0nk1t6
+[ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
 [ ] Dark mode tested
 [ ] Responsive design tested
 [ ] Accessibility tested

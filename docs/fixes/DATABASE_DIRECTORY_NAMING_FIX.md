@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "DATABASE DIRECTORY NAMING FIX"
 issues: []
 discussions: []
-status: draft
 ---
 
 # Database Directory Naming Convention Fix
