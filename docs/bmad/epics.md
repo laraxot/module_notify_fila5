@@ -6,6 +6,10 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+<<<<<<< .merge_file_NFsxWJ
+=======
+qmd: "Notify epics user stories canali template hardening"
+>>>>>>> .merge_file_M3NObB
 ---
 
 # Epics e User Stories - Modulo Notify
