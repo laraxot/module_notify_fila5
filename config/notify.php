@@ -11,6 +11,8 @@ use Illuminate\Support\Env;
  */
 return [
     'inbound_token' => Env::get('MAIL_INBOUND_TOKEN'),
+    // Token segreto nell'URL del webhook Mailjet: /api/notify/mailjet/events/{token}
+    'mailjet_webhook_token' => Env::get('MAILJET_WEBHOOK_TOKEN'),
     // Records the mail provider asks for; read as config('notify.notify.mail_dns'), checked by `php artisan notify:check-dns` (CheckMailDnsAction).
     'mail_dns' => [
         'domain' => Env::get('MAIL_DNS_DOMAIN', 'fixcity.eu'),
