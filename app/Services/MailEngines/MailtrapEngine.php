@@ -11,6 +11,7 @@ namespace Modules\Notify\Services\MailEngines;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
 use InvalidArgumentException;
+use LogicException;
 use Webmozart\Assert\Assert;
 
 // ---------CSS------------
@@ -56,11 +57,12 @@ class MailtrapEngine
         return $this;
     }
 
+    /**
+     * Invio non ancora implementato: un errore chiaro invece di un dump di debug (dddx) che fermava la richiesta.
+     */
     public function send(): self
     {
-        dddx('WIP');
-
-        return $this;
+        throw new LogicException('MailtrapEngine::send() non e\' ancora implementato: usare un altro driver mail.');
     }
 
     public function try(): void
