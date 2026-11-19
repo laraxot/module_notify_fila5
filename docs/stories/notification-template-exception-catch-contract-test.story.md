@@ -72,12 +72,17 @@ tools/phpmd.sh <copia del file fuori dal modulo> text cleancode,codesize,design 
   non toccato (fatal in `AbstractLocalVariable::isPassedByReference()`), e la copia
   identica fuori dal modulo passa: limite di PHPMD/PDepend sui test con classi
   anonime, non della modifica.
-- Pest: non eseguibile, `Xot/tests/Support/TestDatabaseGuard.php` rifiuta la
-  connessione `mysql` verso l'host di WSL (stesso blocco aperto nella story del
-  rebase del 2026-11-19).
+- Pest: con l'host di `.env` (MySQL di Windows visto da WSL) la guardia
+  `Xot/tests/Support/TestDatabaseGuard.php` rifiuta la connessione; con
+  `DB_HOST=127.0.0.1` nell'ambiente (lo stesso host di `.env.testing`) gira:
+
+```
+DB_HOST=127.0.0.1 pest --no-coverage --test-directory=Modules/Notify/tests tests/Unit/Actions/NotificationManagerTest.php
+ Tests: 8 passed (31 assertions), compreso «lets an existing catch (Exception) receive the template exception»
+```
 
 ## Acceptance criteria
 
 - [x] `pest.expectation.redundant` sparito; PHPStan Notify a 0.
 - [x] Il test verifica il contratto (catch generico che riceve il tipo di dominio), non una tautologia.
-- [ ] Pest verde: bloccato dall'harness.
+- [x] Pest verde (8/8).
