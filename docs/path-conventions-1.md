@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_ge1fIF
-=======
->>>>>>> laraxot/dev
----
-title: "path conventions 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "path conventions 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_78iJaf
->>>>>>> laraxot/dev
 # Convenzioni sui Percorsi
 
 ## Regole Fondamentali

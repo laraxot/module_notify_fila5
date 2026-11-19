@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_GfGitq
-=======
->>>>>>> laraxot/dev
----
-title: "class inheritance best practices 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "class inheritance best practices 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_rkBJtJ
->>>>>>> laraxot/dev
 # Best Practices per l'Ereditarietà delle Classi
 
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.

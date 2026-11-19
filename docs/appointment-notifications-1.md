@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_pRSJ0q
-=======
->>>>>>> laraxot/dev
----
-title: "appointment notifications 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "appointment notifications 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_Gp4IvS
->>>>>>> laraxot/dev
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica

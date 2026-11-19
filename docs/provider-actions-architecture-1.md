@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_dSLAQn
-=======
->>>>>>> laraxot/dev
----
-title: "provider actions architecture 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "provider actions architecture 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_JJWGra
->>>>>>> laraxot/dev
 # Architettura delle Azioni dei Provider in Notify
 
 ## Struttura e Principi Fondamentali

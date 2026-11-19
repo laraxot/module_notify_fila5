@@ -2,15 +2,16 @@
 qmd: "sms consolidated"
 issues: []
 discussions: []
-title: "sms — Consolidated Documentation"
+title: "sms: Consolidated Documentation"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
-# sms — Consolidated Documentation
+# sms: Consolidated Documentation
 
 Consolidated from **63** individual files.
 
@@ -84,7 +85,7 @@ Consolidated from **63** individual files.
 
 ## sms-action-factory-analysis-1
 
-*Consolidated from: `sms-action-factory-analysis-1.md`*
+*Consolidated from: `sms-action-factory-analysis.md`*
 
 title: "Analisi: Sostituzione Match con Formula nel SmsActionFactory"
 type: concept
@@ -95,12 +96,17 @@ qmd: "sms-action-factory-analysis-1 analisi: sostituzione match con formula nel 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -185,21 +191,13 @@ public function make(string $driver): SmsActionInterface
     }
 
     $actionClass = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($driver) . "SMSAction";
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!class_exists($actionClass)) {
         throw new \Exception("Classe action non trovata per il driver: {$driver}");
     }
 
     $action = app($actionClass);
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!$action instanceof SmsActionInterface) {
         throw new \Exception("La classe {$actionClass} non implementa SmsActionInterface");
     }
@@ -222,11 +220,7 @@ La soluzione ibrida offre il miglior compromesso tra:
 - Manutenibilità e documentazione
 - Robustezza e gestione degli errori
 
-<<<<<<< HEAD
-Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità. 
-=======
 Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità.
->>>>>>> laraxot/dev
 
 ---
 
@@ -313,21 +307,13 @@ public function make(string $driver): SmsActionInterface
     }
 
     $actionClass = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($driver) . "SMSAction";
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!class_exists($actionClass)) {
         throw new \Exception("Classe action non trovata per il driver: {$driver}");
     }
 
     $action = app($actionClass);
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!$action instanceof SmsActionInterface) {
         throw new \Exception("La classe {$actionClass} non implementa SmsActionInterface");
     }
@@ -350,17 +336,13 @@ La soluzione ibrida offre il miglior compromesso tra:
 - Manutenibilità e documentazione
 - Robustezza e gestione degli errori
 
-<<<<<<< HEAD
-Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità. 
-=======
 Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità.
->>>>>>> laraxot/dev
 
 ---
 
 ## sms-action-factory-resolution-1
 
-*Consolidated from: `sms-action-factory-resolution-1.md`*
+*Consolidated from: `sms-action-factory-resolution.md`*
 
 title: "Risoluzione dinamica vs match esplicito in SmsActionFactory"
 type: concept
@@ -371,12 +353,17 @@ qmd: "sms-action-factory-resolution-1 risoluzione dinamica vs match esplicito in
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -461,11 +448,7 @@ return app($class);
 
 ## 7. Conclusione
 
-<<<<<<< HEAD
-La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata. 
-=======
 La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata.
->>>>>>> laraxot/dev
 
 ---
 
@@ -552,11 +535,7 @@ return app($class);
 
 ## 7. Conclusione
 
-<<<<<<< HEAD
-La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata. 
-=======
 La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata.
->>>>>>> laraxot/dev
 
 ---
 
@@ -643,21 +622,13 @@ public function make(string $driver): SmsActionInterface
     }
 
     $actionClass = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($driver) . "SMSAction";
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!class_exists($actionClass)) {
         throw new \Exception("Classe action non trovata per il driver: {$driver}");
     }
 
     $action = app($actionClass);
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!$action instanceof SmsActionInterface) {
         throw new \Exception("La classe {$actionClass} non implementa SmsActionInterface");
     }
@@ -680,17 +651,13 @@ La soluzione ibrida offre il miglior compromesso tra:
 - Manutenibilità e documentazione
 - Robustezza e gestione degli errori
 
-<<<<<<< HEAD
-Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità. 
-=======
 Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità.
->>>>>>> laraxot/dev
 
 ---
 
 ## sms-actions-1
 
-*Consolidated from: `sms-actions-1.md`*
+*Consolidated from: `sms-actions.md`*
 
 
 ## Interfaccia
@@ -769,7 +736,7 @@ $result = $action->execute($smsData);
 
 ## sms-actions-2
 
-*Consolidated from: `sms-actions-2.md`*
+*Consolidated from: `sms-actions.md`*
 
 title: "Azioni SMS"
 type: concept
@@ -780,12 +747,17 @@ qmd: "sms-actions-2 azioni sms"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -947,7 +919,7 @@ $result = $action->execute($smsData);
 
 ## sms-best-practices-1
 
-*Consolidated from: `sms-best-practices-1.md`*
+*Consolidated from: `sms-best-practices.md`*
 
 title: "Best Practices per l'Invio SMS"
 type: concept
@@ -958,12 +930,17 @@ qmd: "sms-best-practices-1 best practices per l'invio sms"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1217,11 +1194,7 @@ try {
 - Documentare procedure
 - Mantenere SLA
 - Monitorare ticket
-<<<<<<< HEAD
-- Analizzare feedback 
-=======
 - Analizzare feedback
->>>>>>> laraxot/dev
 
 ---
 
@@ -1477,17 +1450,13 @@ try {
 - Documentare procedure
 - Mantenere SLA
 - Monitorare ticket
-<<<<<<< HEAD
-- Analizzare feedback 
-=======
 - Analizzare feedback
->>>>>>> laraxot/dev
 
 ---
 
 ## sms-channel-action-resolution-1
 
-*Consolidated from: `sms-channel-action-resolution-1.md`*
+*Consolidated from: `sms-channel-action-resolution.md`*
 
 title: "Dove posizionare la logica di risoluzione dell'action SMS?"
 type: concept
@@ -1498,12 +1467,17 @@ qmd: "sms-channel-action-resolution-1 dove posizionare la logica di risoluzione 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1589,11 +1563,7 @@ $action = match ($driver) {
 - Logica nel canale/factory: **85% pro, 15% contro**
 - Logica nel DTO: **20% pro, 80% contro**
 
-<<<<<<< HEAD
-**Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD. 
-=======
 **Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD.
->>>>>>> laraxot/dev
 
 ---
 
@@ -1681,17 +1651,14 @@ $action = match ($driver) {
 - Logica nel canale/factory: **85% pro, 15% contro**
 - Logica nel DTO: **20% pro, 80% contro**
 
-<<<<<<< HEAD
-**Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD. 
-=======
 **Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD.
->>>>>>> laraxot/dev
 
 ---
 
 ## sms-config-structure-1
 
-*Consolidated from: `sms-config-structure-1.md`*
+*Consolidated from: `sms-config-structure.md`*
+*Consolidated from: `sms-config-structure-struttura-configurazione.md`*
 
 
 ## Introduzione
@@ -1844,6 +1811,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 ## Collegamenti
 
 - [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
 
 ---
@@ -1854,7 +1822,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## sms-config-structure-2
 
-*Consolidated from: `sms-config-structure-2.md`*
+*Consolidated from: `sms-config-structure.md`*
 
 title: "Struttura della Configurazione SMS"
 type: concept
@@ -1865,21 +1833,22 @@ qmd: "sms-config-structure-2 struttura della configurazione sms"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-# Struttura della Configurazione SMS 
-=======
 # Struttura della Configurazione SMS
->>>>>>> laraxot/dev
 
 ## Introduzione
 
@@ -1893,20 +1862,12 @@ Il file `config/sms.php` è organizzato in sezioni distinte:
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'default_provider'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione dei driver/provider
     'drivers' => [
         // Configurazioni specifiche per provider...
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni generiche per tutti i provider
     'queue' => env('SMS_QUEUE', 'default'),
     'retry' => [...],
@@ -1947,32 +1908,20 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'password' => env('NETFUN_PASSWORD'),
 'sender' => env('NETFUN_SENDER', 'App'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Configurazioni avanzate specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
             'timeout' => env('NETFUN_CIRCUIT_BREAKER_TIMEOUT', 60),
         ],
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'twilio' => [
         'account_sid' => env('TWILIO_ACCOUNT_SID'),
         'auth_token' => env('TWILIO_AUTH_TOKEN'),
         'from' => env('TWILIO_FROM'),
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Altri provider...
 ],
 ```
@@ -2016,11 +1965,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'password' => env('NETFUN_PASSWORD'),
 'sender' => env('NETFUN_SENDER', 'App'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Solo configurazioni veramente specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
@@ -2054,12 +1999,13 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## Collegamenti
 
-- [Configurazione Netfun](./netfun-config-requirements-1.md)
-- [Provider SMS Supportati](./notifications/sms-provider-configuration-2.md)
+- [Configurazione Netfun](./netfun-config-requirements.md)
+- [Provider SMS Supportati](./notifications/sms-provider-configuration.md)
 
 ---
 
 - [Configurazione Netfun](./netfun-config-requirements.md)
+- [Configurazione Netfun](../../netfun-config-requirements.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
 
 ---
@@ -2084,20 +2030,12 @@ Il file `config/sms.php` è organizzato in sezioni distinte:
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'default_provider'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione dei driver/provider
     'drivers' => [
         // Configurazioni specifiche per provider...
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni generiche per tutti i provider
     'queue' => env('SMS_QUEUE', 'default'),
     'retry' => [...],
@@ -2139,32 +2077,20 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Configurazioni avanzate specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
             'timeout' => env('NETFUN_CIRCUIT_BREAKER_TIMEOUT', 60),
         ],
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'twilio' => [
         'account_sid' => env('TWILIO_ACCOUNT_SID'),
         'auth_token' => env('TWILIO_AUTH_TOKEN'),
         'from' => env('TWILIO_FROM'),
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Altri provider...
 ],
 ```
@@ -2209,11 +2135,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Solo configurazioni veramente specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
@@ -2248,6 +2170,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 ## Collegamenti
 
 - [Configurazione Netfun](./netfun_config_requirements.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
 
 ---
@@ -2302,6 +2225,7 @@ $timeout = (int) config('sms.timeout', 30);
 2. **Modularità**: Ogni modulo gestisce le proprie configurazioni
 3. **Manutenibilità**: Facilita la manutenzione avendo un'unica fonte di verità per le configurazioni
 4. **Standardizzazione**: Segue la struttura standardizzata documentata in [SMS_CONFIG_STRUCTURE.md](./sms_config_structure.md)
+4. **Standardizzazione**: Segue la struttura standardizzata documentata in [SMS_CONFIG_STRUCTURE.md](../../sms_config_structure.md)
 
 ## Checklist di Verifica
 
@@ -2318,12 +2242,15 @@ Per ogni azione SMS, verificare che:
 - [Struttura della Configurazione SMS](./sms_config_structure.md)
 - [Requisiti di Configurazione Netfun](./netfun_config_requirements.md)
 - [Pattern Factory per SMS](./sms-action-factory-analysis.md)
+- [Struttura della Configurazione SMS](../../sms_config_structure.md)
+- [Requisiti di Configurazione Netfun](../../netfun_config_requirements.md)
+- [Pattern Factory per SMS](../../sms-action-factory-analysis.md)
 
 ---
 
 ## sms-driver-enum-translations-1
 
-*Consolidated from: `sms-driver-enum-translations-1.md`*
+*Consolidated from: `sms-driver-enum-translations.md`*
 
 
 ## Panoramica
@@ -2537,6 +2464,38 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
+- [TransTrait](../../Xot/app/Traits/TransTrait.php)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
@@ -2868,12 +2827,339 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
 ## sms-driver-enum-translations-2
 
-*Consolidated from: `sms-driver-enum-translations-2.md`*
+*Consolidated from: `sms-driver-enum-translations.md`*
 
 title: "Traduzioni SmsDriverEnum - Modulo Notify"
 type: concept
@@ -2884,12 +3170,17 @@ qmd: "sms-driver-enum-translations-2 traduzioni smsdriverenum - modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2906,11 +3197,7 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -3085,6 +3372,12 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
+- [TransTrait](../../Xot/app/Traits/TransTrait.php)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
@@ -3103,11 +3396,7 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -3283,12 +3572,19 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
+- [TransTrait](../../Xot/app/Traits/TransTrait.php)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
 ## sms-driver-selection-analysis-1
 
-*Consolidated from: `sms-driver-selection-analysis-1.md`*
+*Consolidated from: `sms-driver-selection-analysis.md`*
 
 title: "Analisi: Spostamento Logica Selezione Driver in SmsData"
 type: concept
@@ -3299,12 +3595,17 @@ qmd: "sms-driver-selection-analysis-1 analisi: spostamento logica selezione driv
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3337,11 +3638,7 @@ class SmsData extends Data
     public function getAction(): SendSmsActionInterface
     {
         $driver = Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3417,11 +3714,7 @@ class SmsDriverService
     public function getAction(string $driver = null): SendSmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3439,11 +3732,7 @@ Questa soluzione:
 - Mantiene la separazione delle responsabilità
 - Centralizza la logica di selezione
 - È più facile da testare e mantenere
-<<<<<<< HEAD
-- Non viola i principi SOLID 
-=======
 - Non viola i principi SOLID
->>>>>>> laraxot/dev
 
 ---
 
@@ -3478,11 +3767,7 @@ class SmsData extends Data
     public function getAction(): SendSmsActionInterface
     {
         $driver = Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3558,11 +3843,7 @@ class SmsDriverService
     public function getAction(string $driver = null): SendSmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3580,17 +3861,13 @@ Questa soluzione:
 - Mantiene la separazione delle responsabilità
 - Centralizza la logica di selezione
 - È più facile da testare e mantenere
-<<<<<<< HEAD
-- Non viola i principi SOLID 
-=======
 - Non viola i principi SOLID
->>>>>>> laraxot/dev
 
 ---
 
 ## sms-driver-selection-specific-analysis-1
 
-*Consolidated from: `sms-driver-selection-specific-analysis-1.md`*
+*Consolidated from: `sms-driver-selection-specific-analysis.md`*
 
 title: "Analisi Specifica: Validazione e Selezione Driver in SmsData"
 type: concept
@@ -3601,12 +3878,17 @@ qmd: "sms-driver-selection-specific-analysis-1 analisi specifica: validazione e 
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3693,11 +3975,7 @@ class SmsService
         }
 
         $driver = Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3716,11 +3994,7 @@ Questa soluzione:
 - Centralizza sia la validazione che la selezione del driver
 - È più facile da testare e mantenere
 - Non viola i principi SOLID
-<<<<<<< HEAD
-- Mantiene `SmsData` focalizzato sulla sua responsabilità primaria 
-=======
 - Mantiene `SmsData` focalizzato sulla sua responsabilità primaria
->>>>>>> laraxot/dev
 
 ---
 
@@ -3809,11 +4083,7 @@ class SmsService
         }
 
         $driver = Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3832,17 +4102,13 @@ Questa soluzione:
 - Centralizza sia la validazione che la selezione del driver
 - È più facile da testare e mantenere
 - Non viola i principi SOLID
-<<<<<<< HEAD
-- Mantiene `SmsData` focalizzato sulla sua responsabilità primaria 
-=======
 - Mantiene `SmsData` focalizzato sulla sua responsabilità primaria
->>>>>>> laraxot/dev
 
 ---
 
 ## sms-factor-data-implementation-1
 
-*Consolidated from: `sms-factor-data-implementation-1.md`*
+*Consolidated from: `sms-factor-data-implementation.md`*
 
 title: "SmsFactorData Implementation Summary"
 type: concept
@@ -3853,12 +4119,17 @@ qmd: "sms-factor-data-implementation-1 smsfactordata implementation summary"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3927,11 +4198,7 @@ private SmsFactorData $smsFactorData;
 public function __construct()
 {
     $this->smsFactorData = SmsFactorData::make();
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!$this->smsFactorData->token) {
         throw new Exception('Token SMSFactor non configurato in sms.php');
     }
@@ -3942,7 +4209,7 @@ public function __construct()
 
 **Files Created/Updated**:
 - `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
-- `/Modules/Notify/project_docs/sms-implementation-1.md`: Updated to include data class information
+- `/Modules/Notify/project_docs/sms-implementation.md`: Updated to include data class information
 
 **Documentation Includes**:
 - Complete class structure and properties
@@ -4045,7 +4312,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 - `/Modules/Notify/app/Datas/SMS/AgiletelecomData.php`: Similar implementation for Agiletelecom
 - `/Modules/Notify/app/Actions/SMS/SendSmsFactorSMSAction.php`: Refactored action class
 - `/Modules/Notify/config/sms.php`: SMS configuration file
-- `/Modules/Notify/project_docs/sms-implementation-1.md`: General SMS implementation documentation
+- `/Modules/Notify/project_docs/sms-implementation.md`: General SMS implementation documentation
 
 ## Conclusion
 
@@ -4120,11 +4387,7 @@ private SmsFactorData $smsFactorData;
 public function __construct()
 {
     $this->smsFactorData = SmsFactorData::make();
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!$this->smsFactorData->token) {
         throw new Exception('Token SMSFactor non configurato in sms.php');
     }
@@ -4316,11 +4579,7 @@ private SmsFactorData $smsFactorData;
 public function __construct()
 {
     $this->smsFactorData = SmsFactorData::make();
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!$this->smsFactorData->token) {
         throw new Exception('Token SMSFactor non configurato in sms.php');
     }
@@ -4447,7 +4706,7 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 
 ## sms-global-vs-specific-params-1
 
-*Consolidated from: `sms-global-vs-specific-params-1.md`*
+*Consolidated from: `sms-global-vs-specific-params.md`*
 
 title: "Parametri a Livello di Root vs Specifici per Provider nella Configurazione SMS"
 type: concept
@@ -4458,12 +4717,17 @@ qmd: "sms-global-vs-specific-params-1 parametri a livello di root vs specifici p
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4491,11 +4755,7 @@ return [
     'retry' => [...],
     'rate_limit' => [...],
     'circuit_breaker' => [...],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Parametri specifici per provider (nella sezione 'drivers')
     'drivers' => [
         'provider1' => [
@@ -4647,8 +4907,9 @@ Prima di modificare la configurazione SMS, verificare che:
 
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
 - [Configurazione Netfun](./netfun-config-requirements.md)
+- [Configurazione Netfun](../../netfun-config-requirements.md)
 - [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
-- [Configurazione Netfun](./netfun-config-requirements-1.md)
+- [Configurazione Netfun](./netfun-config-requirements.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
 
 ---
@@ -4682,11 +4943,7 @@ return [
     'retry' => [...],
     'rate_limit' => [...],
     'circuit_breaker' => [...],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Parametri specifici per provider (nella sezione 'drivers')
     'drivers' => [
         'provider1' => [
@@ -4838,6 +5095,8 @@ Prima di modificare la configurazione SMS, verificare che:
 
 - [Struttura Standardizzata della Configurazione SMS](./standardized_sms_config_structure.md)
 - [Configurazione Netfun](./netfun_config_requirements.md)
+- [Struttura Standardizzata della Configurazione SMS](../../standardized_sms_config_structure.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
 
 ---
@@ -4848,7 +5107,7 @@ Prima di modificare la configurazione SMS, verificare che:
 
 ## sms-implementation-1
 
-*Consolidated from: `sms-implementation-1.md`*
+*Consolidated from: `sms-implementation.md`*
 
 title: "Implementazione SMS in Laravel"
 type: concept
@@ -4859,12 +5118,17 @@ qmd: "sms-implementation-1 implementazione sms in laravel"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4897,11 +5161,7 @@ Queste classi implementano il pattern singleton e forniscono metodi helper per l
 // config/sms.php
 return [
     'default' => env('SMS_DRIVER', 'smsfactor'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'drivers' => [
         'smsfactor' => [
             'token' => env('SMSFACTOR_TOKEN'),
@@ -5013,11 +5273,7 @@ class SmsChannel
     public function send($notifiable, Notification $notification)
     {
         $message = $notification->toSms($notifiable);
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return $this->sms->send(
             $notifiable->phone_number,
             $message
@@ -5169,11 +5425,7 @@ class SmsIntegrationTest extends TestCase
             'name' => 'Test',
             'content' => 'Hello {{name}}!'
         ]);
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         $result = $template->render(['name' => 'John']);
         $this->assertEquals('Hello John!', $result);
     }
@@ -5250,11 +5502,7 @@ SMSFACTOR_SENDER=YourApp
 - [Documentazione SMSFactor](https://www.smsfactor.com)
 - [Documentazione Twilio](https://www.twilio.com/docs)
 - [Documentazione Nexmo](https://developer.nexmo.com)
-<<<<<<< HEAD
-- [Documentazione Plivo](https://www.plivo.com/docs) 
-=======
 - [Documentazione Plivo](https://www.plivo.com/docs)
->>>>>>> laraxot/dev
 
 ---
 
@@ -5289,11 +5537,7 @@ Queste classi implementano il pattern singleton e forniscono metodi helper per l
 // config/sms.php
 return [
     'default' => env('SMS_DRIVER', 'smsfactor'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'drivers' => [
         'smsfactor' => [
             'token' => env('SMSFACTOR_TOKEN'),
@@ -5405,11 +5649,7 @@ class SmsChannel
     public function send($notifiable, Notification $notification)
     {
         $message = $notification->toSms($notifiable);
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return $this->sms->send(
             $notifiable->phone_number,
             $message
@@ -5561,11 +5801,7 @@ class SmsIntegrationTest extends TestCase
             'name' => 'Test',
             'content' => 'Hello {{name}}!'
         ]);
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         $result = $template->render(['name' => 'John']);
         $this->assertEquals('Hello John!', $result);
     }
@@ -5642,11 +5878,7 @@ SMSFACTOR_SENDER=YourApp
 - [Documentazione SMSFactor](https://www.smsfactor.com)
 - [Documentazione Twilio](https://www.twilio.com/docs)
 - [Documentazione Nexmo](https://developer.nexmo.com)
-<<<<<<< HEAD
-- [Documentazione Plivo](https://www.plivo.com/docs) 
-=======
 - [Documentazione Plivo](https://www.plivo.com/docs)
->>>>>>> laraxot/dev
 
 ---
 
@@ -5659,13 +5891,15 @@ SMSFACTOR_SENDER=YourApp
 
 ## sms-netfun-channel-1
 
-*Consolidated from: `sms-netfun-channel-1.md`*
+*Consolidated from: `sms-netfun-channel.md`*
+*Consolidated from: `sms-netfun-channel-integrazione-laravel.md`*
 
 
 ## Introduzione
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
 > **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./NETFUN_CONFIG_REQUIREMENTS.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun_config_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 
@@ -5760,6 +5994,7 @@ $response = Http::post($endpoint, $payload);
 ### 1.2. Configurazione
 
 **IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./NETFUN_AUTHENTICATION_METHODS.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun_authentication_methods.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
 
@@ -6194,7 +6429,7 @@ class NetfunSMSTest extends TestCase
 
 ## sms-netfun-channel-2
 
-*Consolidated from: `sms-netfun-channel-2.md`*
+*Consolidated from: `sms-netfun-channel.md`*
 
 title: "Integrazione Netfun SMS Channel in Laravel"
 type: concept
@@ -6205,12 +6440,17 @@ qmd: "sms-netfun-channel-2 integrazione netfun sms channel in laravel"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -6221,7 +6461,8 @@ related:
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
 > **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun-config-requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
-> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun-config-requirements-1.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun-config-requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun-config-requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 
@@ -6316,7 +6557,8 @@ $response = Http::post($endpoint, $payload);
 ### 1.2. Configurazione
 
 **IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun-authentication-methods.md).
-**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun-authentication-methods-1.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun-authentication-methods.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun-authentication-methods.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
 
@@ -6580,11 +6822,7 @@ Notification::assertSentTo($user, OrderShipped::class);
 ## 9. Riferimenti
 - [Netfun SMS API](https://www.netfunitalia.it/)
 - [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action)
-<<<<<<< HEAD
-- [Laravel Notifications](https://laravel.com/docs/notifications) 
-=======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
->>>>>>> laraxot/dev
 
 ---
 
@@ -6638,11 +6876,7 @@ $payload = [
 - Validare i dati con regole custom (es. formato numero, lunghezza mittente)
 - Documentare ogni DTO e aggiornarlo in caso di modifiche API
 
-<<<<<<< HEAD
---- 
-=======
 ---
->>>>>>> laraxot/dev
 
 # Canale SMS Netfun
 
@@ -6755,11 +6989,7 @@ class NetfunSMSTest extends TestCase
 }
 ```
 
-<<<<<<< HEAD
---- 
-=======
 ---
->>>>>>> laraxot/dev
 ---
 
 ## sms-netfun-channel
@@ -6771,6 +7001,7 @@ class NetfunSMSTest extends TestCase
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
 > **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./netfun_config_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun_config_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 
@@ -6865,6 +7096,7 @@ $response = Http::post($endpoint, $payload);
 ### 1.2. Configurazione
 
 **IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./netfun_authentication_methods.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun_authentication_methods.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
 
@@ -7129,11 +7361,7 @@ Notification::assertSentTo($user, OrderShipped::class);
 ## 9. Riferimenti
 - [Netfun SMS API](https://www.netfunitalia.it/)
 - [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action)
-<<<<<<< HEAD
-- [Laravel Notifications](https://laravel.com/docs/notifications) 
-=======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
->>>>>>> laraxot/dev
 
 ---
 
@@ -7187,11 +7415,7 @@ $payload = [
 - Validare i dati con regole custom (es. formato numero, lunghezza mittente)
 - Documentare ogni DTO e aggiornarlo in caso di modifiche API
 
-<<<<<<< HEAD
---- 
-=======
 ---
->>>>>>> laraxot/dev
 
 # Canale SMS Netfun
 
@@ -7304,17 +7528,13 @@ class NetfunSMSTest extends TestCase
 }
 ```
 
-<<<<<<< HEAD
---- 
-=======
 ---
->>>>>>> laraxot/dev
 
 ---
 
 ## sms-provider-configuration-1
 
-*Consolidated from: `sms-provider-configuration-1.md`*
+*Consolidated from: `sms-provider-configuration.md`*
 
 
 This file is deprecated.
@@ -7327,7 +7547,7 @@ Use:
 
 ## sms-provider-configuration-2
 
-*Consolidated from: `sms-provider-configuration-2.md`*
+*Consolidated from: `sms-provider-configuration.md`*
 
 title: "Configurazione Corretta dei Provider SMS"
 type: concept
@@ -7338,21 +7558,22 @@ qmd: "sms-provider-configuration-2 configurazione corretta dei provider sms"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-# Configurazione Corretta dei Provider SMS 
-=======
 # Configurazione Corretta dei Provider SMS
->>>>>>> laraxot/dev
 
 ## Regola Fondamentale
 
@@ -7375,11 +7596,7 @@ return [
         'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione specifiche dei provider
     'drivers' => [
         'netfun' => [
@@ -7415,11 +7632,7 @@ public function __construct()
     if (!is_string($this->token)) {
         throw new Exception('API Key Netfun non configurata in sms.php');
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Parametri generici a livello di root
     $this->defaultSender = config('sms.from');
     $this->timeout = config('sms.timeout', 30);
@@ -7480,7 +7693,7 @@ TWILIO_AUTH_TOKEN=your_auth_token_here
 
 ## sms-provider-configuration-best-practices-1
 
-*Consolidated from: `sms-provider-configuration-best-practices-1.md`*
+*Consolidated from: `sms-provider-configuration-best-practices.md`*
 
 
 ## Struttura Corretta della Configurazione
@@ -7598,12 +7811,16 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [SMS Best Practices](./SMS_BEST_PRACTICES.md)
 - [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+- [SMS Provider Architecture](../../sms_provider_architecture.md)
+- [SMS Implementation](../../sms_implementation.md)
+- [SMS Best Practices](../../sms_best_practices.md)
+- [Netfun Authentication Methods](../../netfun_authentication_methods.md)
 
 ---
 
 ## sms-provider-configuration-best-practices-2
 
-*Consolidated from: `sms-provider-configuration-best-practices-2.md`*
+*Consolidated from: `sms-provider-configuration-best-practices.md`*
 
 title: "Best Practices per la Configurazione dei Provider SMS"
 type: concept
@@ -7614,12 +7831,17 @@ qmd: "sms-provider-configuration-best-practices-2 best practices per la configur
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -7638,41 +7860,25 @@ related:
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'netfun'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni generiche applicabili a tutti i driver
     'from' => env('SMS_FROM'),
     'timeout' => (int) env('SMS_TIMEOUT', 30),
     'debug' => (bool) env('SMS_DEBUG', false),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione per retry e circuit breaker
     'retry' => [
         'attempts' => (int) env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => (int) env('SMS_RETRY_DELAY', 60),
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione per rate limiting
     'rate_limit' => [
         'enabled' => (bool) env('SMS_RATE_LIMIT_ENABLED', true),
         'max_attempts' => (int) env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => (int) env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni specifiche per driver
     'drivers' => [
         'netfun' => [
@@ -7682,22 +7888,14 @@ return [
             'sender' => env('NETFUN_SENDER'),
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         'twilio' => [
             // Solo parametri specifici per Twilio
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
             'from' => env('TWILIO_FROM'),
         ],
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Altri provider...
     ],
 ];
@@ -7712,11 +7910,7 @@ return [
   - MAI includere retry, rate limiting, circuit breaker, timeout, debug flags
 
 - **Configurazione Generica** (sezioni separate):
-<<<<<<< HEAD
-  - Sezione `retry` per tentativi di ripetizione 
-=======
   - Sezione `retry` per tentativi di ripetizione
->>>>>>> laraxot/dev
   - Sezione `rate_limit` per limitazione delle richieste
   - Sezione `timeout` per timeout globale
   - Sezione `debug` per flag di debug
@@ -7765,14 +7959,18 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./sms-provider-architecture-1.md)
-- [SMS Implementation](./sms-implementation-1.md)
-- [SMS Best Practices](./sms-best-practices-1.md)
-- [Netfun Authentication Methods](./netfun-authentication-methods-1.md)
 - [SMS Provider Architecture](./sms-provider-architecture.md)
 - [SMS Implementation](./sms-implementation.md)
 - [SMS Best Practices](./sms-best-practices.md)
 - [Netfun Authentication Methods](./netfun-authentication-methods.md)
+- [SMS Provider Architecture](./sms-provider-architecture.md)
+- [SMS Implementation](./sms-implementation.md)
+- [SMS Best Practices](./sms-best-practices.md)
+- [Netfun Authentication Methods](./netfun-authentication-methods.md)
+- [SMS Provider Architecture](../../sms-provider-architecture.md)
+- [SMS Implementation](../../sms-implementation.md)
+- [SMS Best Practices](../../sms-best-practices.md)
+- [Netfun Authentication Methods](../../netfun-authentication-methods.md)
 ---
 
 ## sms-provider-configuration-best-practices
@@ -7792,41 +7990,25 @@ $token = config('services.netfun.token');
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'netfun'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni generiche applicabili a tutti i driver
     'from' => env('SMS_FROM'),
     'timeout' => (int) env('SMS_TIMEOUT', 30),
     'debug' => (bool) env('SMS_DEBUG', false),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione per retry e circuit breaker
     'retry' => [
         'attempts' => (int) env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => (int) env('SMS_RETRY_DELAY', 60),
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione per rate limiting
     'rate_limit' => [
         'enabled' => (bool) env('SMS_RATE_LIMIT_ENABLED', true),
         'max_attempts' => (int) env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => (int) env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni specifiche per driver
     'drivers' => [
         'netfun' => [
@@ -7836,22 +8018,14 @@ return [
             'sender' => env('NETFUN_SENDER'),
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         'twilio' => [
             // Solo parametri specifici per Twilio
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
             'from' => env('TWILIO_FROM'),
         ],
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Altri provider...
     ],
 ];
@@ -7866,11 +8040,7 @@ return [
   - MAI includere retry, rate limiting, circuit breaker, timeout, debug flags
 
 - **Configurazione Generica** (sezioni separate):
-<<<<<<< HEAD
-  - Sezione `retry` per tentativi di ripetizione 
-=======
   - Sezione `retry` per tentativi di ripetizione
->>>>>>> laraxot/dev
   - Sezione `rate_limit` per limitazione delle richieste
   - Sezione `timeout` per timeout globale
   - Sezione `debug` per flag di debug
@@ -7882,11 +8052,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 ```php
 // ❌ ERRATO
 'sender' => env('NETFUN_SENDER', 'App'),
-<<<<<<< HEAD
-'sender' => env('NETFUN_SENDER', 'Quaeris'),
-=======
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
->>>>>>> laraxot/dev
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),
@@ -7928,6 +8094,10 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [SMS Best Practices](./SMS_BEST_PRACTICES.md)
 - [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+- [SMS Provider Architecture](../../sms_provider_architecture.md)
+- [SMS Implementation](../../sms_implementation.md)
+- [SMS Best Practices](../../sms_best_practices.md)
+- [Netfun Authentication Methods](../../netfun_authentication_methods.md)
 
 ---
 
@@ -8164,7 +8334,7 @@ TWILIO_AUTH_TOKEN=your_auth_token_here
 
 ## sms-troubleshooting-1
 
-*Consolidated from: `sms-troubleshooting-1.md`*
+*Consolidated from: `sms-troubleshooting.md`*
 
 
 ## Errori Comuni e Soluzioni
@@ -8384,7 +8554,7 @@ Log::debug('SMS Debug', [
 
 ## sms-troubleshooting-2
 
-*Consolidated from: `sms-troubleshooting-2.md`*
+*Consolidated from: `sms-troubleshooting.md`*
 
 title: "Troubleshooting SMS"
 type: concept
@@ -8395,12 +8565,17 @@ qmd: "sms-troubleshooting-2 troubleshooting sms"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -8603,11 +8778,7 @@ Log::debug('SMS Debug', [
 ### 3. Monitoraggio
 - Check periodici
 - Alert system
-<<<<<<< HEAD
-- Report mensili 
-=======
 - Report mensili
->>>>>>> laraxot/dev
 
 ---
 
@@ -8811,11 +8982,7 @@ Log::debug('SMS Debug', [
 ### 3. Monitoraggio
 - Check periodici
 - Alert system
-<<<<<<< HEAD
-- Report mensili 
-=======
 - Report mensili
->>>>>>> laraxot/dev
 
 ---
 
@@ -8909,21 +9076,13 @@ public function make(string $driver): SmsActionInterface
     }
 
     $actionClass = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($driver) . "SMSAction";
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!class_exists($actionClass)) {
         throw new \Exception("Classe action non trovata per il driver: {$driver}");
     }
 
     $action = app($actionClass);
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!$action instanceof SmsActionInterface) {
         throw new \Exception("La classe {$actionClass} non implementa SmsActionInterface");
     }
@@ -8946,11 +9105,7 @@ La soluzione ibrida offre il miglior compromesso tra:
 - Manutenibilità e documentazione
 - Robustezza e gestione degli errori
 
-<<<<<<< HEAD
-Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità. 
-=======
 Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità.
->>>>>>> laraxot/dev
 
 ---
 
@@ -9037,11 +9192,7 @@ return app($class);
 
 ## 7. Conclusione
 
-<<<<<<< HEAD
-La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata. 
-=======
 La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata.
->>>>>>> laraxot/dev
 
 ---
 
@@ -9377,11 +9528,7 @@ try {
 - Documentare procedure
 - Mantenere SLA
 - Monitorare ticket
-<<<<<<< HEAD
-- Analizzare feedback 
-=======
 - Analizzare feedback
->>>>>>> laraxot/dev
 
 ---
 
@@ -9469,11 +9616,7 @@ $action = match ($driver) {
 - Logica nel canale/factory: **85% pro, 15% contro**
 - Logica nel DTO: **20% pro, 80% contro**
 
-<<<<<<< HEAD
-**Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD. 
-=======
 **Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD.
->>>>>>> laraxot/dev
 
 ---
 
@@ -9495,21 +9638,13 @@ return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'default_provider'),
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione dei driver/provider
     'drivers' => [
         // Configurazioni specifiche per provider...
     ],
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni generiche per tutti i provider
     'queue' => env('SMS_QUEUE', 'default'),
     'retry' => [...],
@@ -9553,11 +9688,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Configurazioni avanzate specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
@@ -9565,22 +9696,14 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         ],
     ],
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'twilio' => [
         'account_sid' => env('TWILIO_ACCOUNT_SID'),
         'auth_token' => env('TWILIO_AUTH_TOKEN'),
         'from' => env('TWILIO_FROM'),
     ],
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Altri provider...
 ],
 ```
@@ -9627,11 +9750,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Solo configurazioni veramente specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
@@ -9666,6 +9785,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 ## Collegamenti
 
 - [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
 
 ---
@@ -9689,11 +9809,7 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -9868,6 +9984,12 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
+- [TransTrait](../../Xot/app/Traits/TransTrait.php)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
@@ -9902,11 +10024,7 @@ class SmsData extends Data
     public function getAction(): SendSmsActionInterface
     {
         $driver = Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -9982,11 +10100,7 @@ class SmsDriverService
     public function getAction(string $driver = null): SendSmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -10004,11 +10118,7 @@ Questa soluzione:
 - Mantiene la separazione delle responsabilità
 - Centralizza la logica di selezione
 - È più facile da testare e mantenere
-<<<<<<< HEAD
-- Non viola i principi SOLID 
-=======
 - Non viola i principi SOLID
->>>>>>> laraxot/dev
 
 ---
 
@@ -10097,11 +10207,7 @@ class SmsService
         }
 
         $driver = Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -10120,11 +10226,7 @@ Questa soluzione:
 - Centralizza sia la validazione che la selezione del driver
 - È più facile da testare e mantenere
 - Non viola i principi SOLID
-<<<<<<< HEAD
-- Mantiene `SmsData` focalizzato sulla sua responsabilità primaria 
-=======
 - Mantiene `SmsData` focalizzato sulla sua responsabilità primaria
->>>>>>> laraxot/dev
 
 ---
 
@@ -10195,11 +10297,7 @@ private SmsFactorData $smsFactorData;
 public function __construct()
 {
     $this->smsFactorData = SmsFactorData::make();
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     if (!$this->smsFactorData->token) {
         throw new Exception('Token SMSFactor non configurato in sms.php');
     }
@@ -10347,11 +10445,7 @@ return [
     'retry' => [...],
     'rate_limit' => [...],
     'circuit_breaker' => [...],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Parametri specifici per provider (nella sezione 'drivers')
     'drivers' => [
         'provider1' => [
@@ -10503,6 +10597,8 @@ Prima di modificare la configurazione SMS, verificare che:
 
 - [Struttura Standardizzata della Configurazione SMS](./STANDARDIZED_SMS_CONFIG_STRUCTURE.md)
 - [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
+- [Struttura Standardizzata della Configurazione SMS](../../standardized_sms_config_structure.md)
+- [Configurazione Netfun](../../netfun_config_requirements.md)
 - [Laravel Configuration Best Practices](https://laravel.com/docs/configuration)
 
 ---
@@ -10542,11 +10638,7 @@ Queste classi implementano il pattern singleton e forniscono metodi helper per l
 // config/sms.php
 return [
     'default' => env('SMS_DRIVER', 'smsfactor'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'drivers' => [
         'smsfactor' => [
             'token' => env('SMSFACTOR_TOKEN'),
@@ -10658,11 +10750,7 @@ class SmsChannel
     public function send($notifiable, Notification $notification)
     {
         $message = $notification->toSms($notifiable);
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return $this->sms->send(
             $notifiable->phone_number,
             $message
@@ -10814,11 +10902,7 @@ class SmsIntegrationTest extends TestCase
             'name' => 'Test',
             'content' => 'Hello {{name}}!'
         ]);
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         $result = $template->render(['name' => 'John']);
         $this->assertEquals('Hello John!', $result);
     }
@@ -10895,11 +10979,7 @@ SMSFACTOR_SENDER=YourApp
 - [Documentazione SMSFactor](https://www.smsfactor.com)
 - [Documentazione Twilio](https://www.twilio.com/docs)
 - [Documentazione Nexmo](https://developer.nexmo.com)
-<<<<<<< HEAD
-- [Documentazione Plivo](https://www.plivo.com/docs) 
-=======
 - [Documentazione Plivo](https://www.plivo.com/docs)
->>>>>>> laraxot/dev
 
 ---
 
@@ -10912,6 +10992,7 @@ SMSFACTOR_SENDER=YourApp
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
 > **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./NETFUN_CONFIG_REQUIREMENTS.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](../../netfun_config_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 
@@ -11006,6 +11087,7 @@ $response = Http::post($endpoint, $payload);
 ### 1.2. Configurazione
 
 **IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](./NETFUN_AUTHENTICATION_METHODS.md).
+**IMPORTANTE**: Il modulo Notify attualmente utilizza l'autenticazione username/password per Netfun, non l'autenticazione API key descritta qui. Per dettagli sui metodi di autenticazione supportati, consultare la [documentazione sui metodi di autenticazione Netfun](../../netfun_authentication_methods.md).
 
 Configurazione con API key in `config/sms.php` (documentata ma non implementata nel modulo):
 
@@ -11271,11 +11353,7 @@ Notification::assertSentTo($user, OrderShipped::class);
 - [Netfun SMS API](https://www.netfunitalia.it/)
 - [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
-<<<<<<< HEAD
-- [Laravel Notifications](https://laravel.com/docs/notifications) 
-=======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
->>>>>>> laraxot/dev
 
 ---
 
@@ -11330,11 +11408,7 @@ $payload = [
 - Documentare ogni DTO e aggiornarlo in caso di modifiche API
 
 ---
-<<<<<<< HEAD
---- 
-=======
 ---
->>>>>>> laraxot/dev
 
 # Canale SMS Netfun
 
@@ -11448,11 +11522,7 @@ class NetfunSMSTest extends TestCase
 ```
 
 ---
-<<<<<<< HEAD
---- 
-=======
 ---
->>>>>>> laraxot/dev
 
 ---
 
@@ -11483,11 +11553,7 @@ return [
         'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione specifiche dei provider
     'drivers' => [
         'netfun' => [
@@ -11524,11 +11590,7 @@ public function __construct()
         throw new Exception('API Key Netfun non configurata in sms.php');
     }
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Parametri generici a livello di root
     $this->defaultSender = config('sms.from');
     $this->timeout = config('sms.timeout', 30);
@@ -11606,32 +11668,20 @@ return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'netfun'),
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni generiche applicabili a tutti i driver
     'from' => env('SMS_FROM'),
     'timeout' => (int) env('SMS_TIMEOUT', 30),
     'debug' => (bool) env('SMS_DEBUG', false),
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione per retry e circuit breaker
     'retry' => [
         'attempts' => (int) env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => (int) env('SMS_RETRY_DELAY', 60),
     ],
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazione per rate limiting
     'rate_limit' => [
         'enabled' => (bool) env('SMS_RATE_LIMIT_ENABLED', true),
@@ -11639,11 +11689,7 @@ return [
         'decay_minutes' => (int) env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Configurazioni specifiche per driver
     'drivers' => [
         'netfun' => [
@@ -11654,11 +11700,7 @@ return [
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
 
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         'twilio' => [
             // Solo parametri specifici per Twilio
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
@@ -11666,11 +11708,7 @@ return [
             'from' => env('TWILIO_FROM'),
         ],
 
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         // Altri provider...
     ],
 ];
@@ -11686,11 +11724,7 @@ return [
 
 - **Configurazione Generica** (sezioni separate):
   - Sezione `retry` per tentativi di ripetizione
-<<<<<<< HEAD
-  - Sezione `retry` per tentativi di ripetizione 
-=======
   - Sezione `retry` per tentativi di ripetizione
->>>>>>> laraxot/dev
   - Sezione `rate_limit` per limitazione delle richieste
   - Sezione `timeout` per timeout globale
   - Sezione `debug` per flag di debug
@@ -11744,6 +11778,10 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [SMS Best Practices](./SMS_BEST_PRACTICES.md)
 - [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+- [SMS Provider Architecture](../../sms_provider_architecture.md)
+- [SMS Implementation](../../sms_implementation.md)
+- [SMS Best Practices](../../sms_best_practices.md)
+- [Netfun Authentication Methods](../../netfun_authentication_methods.md)
 
 ---
 
@@ -11948,11 +11986,7 @@ Log::debug('SMS Debug', [
 ### 3. Monitoraggio
 - Check periodici
 - Alert system
-<<<<<<< HEAD
-- Report mensili 
-=======
 - Report mensili
->>>>>>> laraxot/dev
 
 ---
 
@@ -11971,11 +12005,7 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -12149,6 +12179,11 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Configurazione SMS](../config/sms.php)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)
+- [SmsDriverEnum](../../../app/Enums/SmsDriverEnum.php)
+- [TransTrait](../../Xot/app/Traits/TransTrait.php)
+- [Configurazione SMS](../../../config/sms.php)
+- [Documentazione Traduzioni](../../../../Lang/docs)- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../../../Lang/docs)
 
 ---
 
@@ -12237,11 +12272,7 @@ class SmsService
         }
 
         $driver = Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -12260,11 +12291,7 @@ Questa soluzione:
 - Centralizza sia la validazione che la selezione del driver
 - È più facile da testare e mantenere
 - Non viola i principi SOLID
-<<<<<<< HEAD
-- Mantiene `SmsData` focalizzato sulla sua responsabilità primaria 
-=======
 - Mantiene `SmsData` focalizzato sulla sua responsabilità primaria
->>>>>>> laraxot/dev
 
 ---
 
@@ -12299,11 +12326,7 @@ class SmsData extends Data
     public function getAction(): SendSmsActionInterface
     {
         $driver = Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -12379,11 +12402,7 @@ class SmsDriverService
     public function getAction(string $driver = null): SendSmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -12401,11 +12420,7 @@ Questa soluzione:
 - Mantiene la separazione delle responsabilità
 - Centralizza la logica di selezione
 - È più facile da testare e mantenere
-<<<<<<< HEAD
-- Non viola i principi SOLID 
-=======
 - Non viola i principi SOLID
->>>>>>> laraxot/dev
 
 ---
 

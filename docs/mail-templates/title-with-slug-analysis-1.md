@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_yYWOTj
-=======
->>>>>>> laraxot/dev
----
-title: "title with slug analysis 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "title with slug analysis 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_fgYerA
->>>>>>> laraxot/dev
 # Analisi del Pacchetto Filament Title With Slug
 
 ## Panoramica

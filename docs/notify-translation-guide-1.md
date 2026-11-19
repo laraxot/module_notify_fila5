@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_TC6hPU
-=======
->>>>>>> laraxot/dev
----
-title: "notify translation guide 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "notify translation guide 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_d1oRAL
->>>>>>> laraxot/dev
 # Guida alle Traduzioni nel Modulo Notify
 
 ## Introduzione

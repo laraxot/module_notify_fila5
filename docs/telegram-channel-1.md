@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_k6tGEc
-=======
->>>>>>> laraxot/dev
----
-title: "telegram channel 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "telegram channel 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_AGZWp7
->>>>>>> laraxot/dev
 # Implementazione Canale Telegram
 
 ## 1. Struttura Base

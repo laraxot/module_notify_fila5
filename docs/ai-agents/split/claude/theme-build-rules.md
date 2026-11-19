@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "theme build rules"
 issues: []
 discussions: []
+status: draft
 ---
 
 
@@ -24,24 +25,15 @@ discussions: []
 
 ### Required Commands (ALWAYS):
 ```bash
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
-cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
-=======
 cd /var/www/html/_bases/base_fixcity_fila5/laravel/Themes/Sixteen
 cd /var/www/html/_bases/base_ptvx_fila5/laravel/Themes/Sixteen
->>>>>>> laraxot/dev
 npm run build
 # niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 ```
 
 ### When to Run:
 - After modifying `tailwind.config.js`
-<<<<<<< HEAD
-- After modifying `resources/css/app.css` 
-=======
 - After modifying `resources/css/app.css`
->>>>>>> laraxot/dev
 - After modifying any JavaScript files
 - After adding new Tailwind classes to Blade files
 - After ANY frontend changes
@@ -49,17 +41,7 @@ npm run build
 ### Why This Is Critical:
 - The Laravel application reads compiled assets from the theme's `resources/dist/` directory
 - Without `npm run build`, Tailwind won't compile new classes or changes
-<<<<<<< HEAD
-- Without `symlink public_html/themes (npm run copy obsoleto)`, the changes won't be available to the main Laravel application
-- Without `public_html/themes/<Tema>` symlinked to `laravel/Themes/<Tema>/public` (`npm run copy` dismesso), the changes won't be available to the main Laravel application
-=======
-<<<<<<< .merge_file_Hzd1os
 - niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-=======
-- Without `symlink public_html/themes (npm run copy obsoleto)`, the changes won't be available to the main Laravel application
-- Without `public_html/themes/<Tema>` symlinked to `laravel/Themes/<Tema>/public` (`npm run copy` dismesso), the changes won't be available to the main Laravel application
->>>>>>> .merge_file_bAlUJN
->>>>>>> laraxot/dev
 - Users will NOT see any frontend changes without these steps
 
 ### Remember:
@@ -71,20 +53,11 @@ This is a fundamental rule that must NEVER be forgotten when working with themes
 
 
 ---
-
-title: "theme build rules"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "theme build rules"
-issues: []
-discussions: []
 ## Cross-References
 
-- ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines
-- ← [Main AI Docs Index](../INDEX.md) — Master index
-- ← [CLAUDE Index](index.md) — All Laravel Boost guidelines
-- ← [Main AI Docs Index](../index.md) — Master index
-- ← [../../../../docs/CLAUDE.md](../../../../docs/../../../../docs/CLAUDE.md) — Original source
+- ← [CLAUDE Index](INDEX.md): All Laravel Boost guidelines
+- ← [Main AI Docs Index](../INDEX.md): Master index
+- ← [CLAUDE Index](index.md): All Laravel Boost guidelines
+- ← [Main AI Docs Index](../index.md): Master index
+- ← [../../../../docs/CLAUDE.md](../../../../docs/../../../../docs/CLAUDE.md): Original source
 

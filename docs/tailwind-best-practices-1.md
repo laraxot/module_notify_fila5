@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_WojZmY
-=======
->>>>>>> laraxot/dev
----
-title: "tailwind best practices 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "tailwind best practices 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_vI8dkt
->>>>>>> laraxot/dev
 # Best Practices Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Organizzazione del Codice
@@ -351,12 +331,4 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/p
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/project/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../../docs/project/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
-<<<<<<< HEAD
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/project/README_links.md).
-=======
-<<<<<<< .merge_file_WojZmY
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/project/README_links.md).
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/project/README_links.md).
->>>>>>> .merge_file_vI8dkt
->>>>>>> laraxot/dev

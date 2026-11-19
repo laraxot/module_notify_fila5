@@ -16,22 +16,15 @@ related:
   - readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # Indice Documentazione Notifiche
 
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../index.md)
 - [README Modulo Notify](../readme.md)
-<<<<<<< HEAD
-- [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
-=======
-<<<<<<< .merge_file_y1gBUN
 - [Documentazione Generale <nome progetto>](../../../../../../docs/readme.md)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
-=======
-- [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
->>>>>>> .merge_file_2hi9kL
->>>>>>> laraxot/dev
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione
@@ -62,11 +55,7 @@ related:
 - [Canale Telegram](../telegram_channel.md) - Documentazione del canale Telegram
 
 ## Note Importanti
-<<<<<<< HEAD
-- Quaeris utilizza il pattern Factory per la creazione delle azioni di invio messaggi
-=======
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
->>>>>>> laraxot/dev
 - Il sistema si basa su Queueable Actions (spatie/laravel-queueable-action) e non su Service Pattern
 - Le azioni specifiche per provider devono implementare l'interfaccia comune corrispondente
 - I DTO standardizzati vengono utilizzati come ponte tra il sistema e i provider specifici

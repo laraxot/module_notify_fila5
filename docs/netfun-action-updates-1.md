@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_S1URxy
-=======
->>>>>>> laraxot/dev
----
-title: "netfun action updates 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "netfun action updates 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_1H8vjM
->>>>>>> laraxot/dev
 # Aggiornamenti a SendNetfunSMSAction
 
 ## Panoramica delle Modifiche
@@ -337,21 +317,4 @@ Questi miglioramenti garantiscono:
 
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_S1URxy
-=======
->>>>>>> laraxot/dev
-title: "netfun action updates 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "netfun action updates 1"
-issues: []
-discussions: []
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_1H8vjM
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2023-05-12*

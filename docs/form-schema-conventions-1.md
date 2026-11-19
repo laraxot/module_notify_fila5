@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_Mp52TN
-=======
->>>>>>> laraxot/dev
----
-title: "form schema conventions 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "form schema conventions 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_sg13GV
->>>>>>> laraxot/dev
 # Convenzioni per i Form Schema
 
 ## Regola Fondamentale per Array di Schema

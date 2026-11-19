@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "tenant config"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Quick Reference - Tenant Config
@@ -16,11 +17,7 @@ discussions: []
 ```php
 config('app.url');
 app(\Modules\Tenant\Actions\GetTenantNameAction::class)->execute();
-<<<<<<< HEAD
-config('it.quaeris.manager.morph_map');
-=======
 config('it.<nome progetto>.manager.morph_map');
->>>>>>> laraxot/dev
 \Illuminate\Database\Eloquent\Relations\Relation::morphMap();
 ```
 

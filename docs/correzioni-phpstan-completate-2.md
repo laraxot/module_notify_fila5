@@ -1,34 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_8lYTLg
-=======
->>>>>>> laraxot/dev
----
-title: "correzioni phpstan completate 2"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "correzioni phpstan completate 2"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_8DHYnk
->>>>>>> laraxot/dev
 # Risoluzione Conflitti Git e Correzione Errori PHPStan - Modulo Notify
 
 ## Data
 2025-11-24
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_8lYTLg
 2025-11-24
-=======
->>>>>>> .merge_file_8DHYnk
->>>>>>> laraxot/dev
 
 ## Riepilogo Esecutivo
  **Tutti i 147 errori PHPStan nel modulo Notify sono stati risolti con successo**
@@ -195,36 +169,13 @@ Durante la risoluzione:
 ## Collegamenti
 
 - [Git Conflicts Guide](../../Geo/docs_project/git-conflicts-resolution-guide.md)
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_8lYTLg
 - [Git Conflicts Guide](../../Geo/docs_project/git-conflicts-resolution-guide.md)
-=======
->>>>>>> .merge_file_8DHYnk
->>>>>>> laraxot/dev
 - [Notify Best Practices](best-practices.md)
 - [PHPStan Configuration](../../phpstan.neon)
 - [PHPStan User Guide](https://phpstan.org/user-guide/getting-started)
 
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_8lYTLg
-=======
->>>>>>> laraxot/dev
-title: "correzioni phpstan completate 2"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "correzioni phpstan completate 2"
-issues: []
-discussions: []
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_8DHYnk
->>>>>>> laraxot/dev
 **Status**:  **COMPLETATO**
 **Verificato**:  S� - PHPStan passa senza errori
 **Testato**:  S� - Analisi completa su 3715 file

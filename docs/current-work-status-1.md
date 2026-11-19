@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_2Z7qVi
-=======
->>>>>>> laraxot/dev
----
-title: "current work status 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "current work status 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_3oSR4s
->>>>>>> laraxot/dev
 # Stato Attuale del Lavoro - 12 Maggio 2025
 
 ## Problematiche Identificate

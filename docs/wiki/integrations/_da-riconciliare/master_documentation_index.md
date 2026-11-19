@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # 📚 Master Documentation Index
@@ -27,16 +28,8 @@ updated: 2026-08-24
 
 ### Per Sviluppatori
 - [Architecture Overview](./architecture/README.md)
-<<<<<<< HEAD
-- [Getting Started](./GETTING_STARTED.md)
-=======
-<<<<<<< .merge_file_LIeFDg
 - [Getting Started](../../../GETTING_STARTED.md)
 - [Getting Started](../../../GETTING_STARTED.md)
-=======
-- [Getting Started](./GETTING_STARTED.md)
->>>>>>> .merge_file_joNGLY
->>>>>>> laraxot/dev
 - [Coding Standards](./conventions/README.md)
 
 ### Per AI Agents
@@ -75,16 +68,8 @@ updated: 2026-08-24
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
-<<<<<<< HEAD
-- [Quality Reports](./reports/quality.md)
-=======
-<<<<<<< .merge_file_LIeFDg
 - [Quality Reports](../../../roadmap/quality.md)
 - [Quality Reports](../../../roadmap/quality.md)
-=======
-- [Quality Reports](./reports/quality.md)
->>>>>>> .merge_file_joNGLY
->>>>>>> laraxot/dev
 - [Performance Reports](./reports/performance.md)
 
 ---

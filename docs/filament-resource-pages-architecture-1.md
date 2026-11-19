@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_MFRCxw
-=======
->>>>>>> laraxot/dev
----
-title: "filament resource pages architecture 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament resource pages architecture 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_1TWlTo
->>>>>>> laraxot/dev
 # Architettura delle Pagine di Risorse Filament
 
 ## Regola Fondamentale

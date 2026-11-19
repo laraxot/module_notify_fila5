@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_R9szX8
-=======
->>>>>>> laraxot/dev
----
-title: "appointment field naming issues 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "appointment field naming issues 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_lExTNP
->>>>>>> laraxot/dev
 # Appointment Field Naming Issues
 
 ## Overview

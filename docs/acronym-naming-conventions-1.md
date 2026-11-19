@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_F2ay2q
-=======
->>>>>>> laraxot/dev
----
-title: "acronym naming conventions 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "acronym naming conventions 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_FMrRr4
->>>>>>> laraxot/dev
 # Convenzioni di Naming per Acronimi
 
 ## Regola Fondamentale

@@ -4,7 +4,6 @@ type: concept
 tags: [architecture, analysis]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "architecture-analysis fixcity architecture deep dive analysis"
 qmd: "architecture-analysis ptv architecture deep dive analysis"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -20,9 +19,9 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
@@ -1645,7 +1644,7 @@ Tasks:
 ```
 ✅ Exists:
 - claude.md (AI assistant instructions)
-- project-roadmap-1.md (high-level vision)
+- project-roadmap.md (high-level vision)
 - README.md (basic setup)
 - This document (architecture-analysis.md)
 
@@ -1823,17 +1822,7 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
-<<<<<<< HEAD
-[ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
-[ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
-=======
-<<<<<<< .merge_file_NLCf1J
 niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-=======
-[ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
-[ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
->>>>>>> .merge_file_nuBaAW
->>>>>>> laraxot/dev
 [ ] Dark mode tested
 [ ] Responsive design tested
 [ ] Accessibility tested

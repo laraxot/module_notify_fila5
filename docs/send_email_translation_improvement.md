@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "send email translation improvement"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Miglioramento File Traduzione send_email.php
@@ -16,11 +17,7 @@ discussions: []
 Il file `laravel/Modules/Notify/lang/it/send_email.php` presenta diversi problemi critici:
 
 ### 1. Conflitto di Merge Non Risolto
-<<<<<<< HEAD
-- Presenza di marcatori 
-=======
 - Presenza di marcatori
->>>>>>> laraxot/dev
 - Due versioni del file in conflitto
 - Sintassi PHP non valida che impedisce l'esecuzione
 
@@ -67,11 +64,7 @@ return [
 **Prima**:
 ```php
 return array (
-<<<<<<< HEAD
-  'navigation' => 
-=======
   'navigation' =>
->>>>>>> laraxot/dev
   array (
     'label' => 'Invio Email',
     // ...
@@ -273,11 +266,7 @@ return [
 ```bash
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-=======
 cd /var/www/html/_bases/base_techplanner_fila5/laravel
->>>>>>> laraxot/dev
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -302,6 +291,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ### Documentazione Correlata
 - [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
@@ -331,25 +321,5 @@ php -l Modules/Notify/lang/it/send_email.php
 4. **Deployment**: Deploy in ambiente di sviluppo per testing
 
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_DM48oJ
 **Ultimo aggiornamento**: Gennaio 2025
 **Autore**: Sistema di miglioramento automatico
-=======
->>>>>>> laraxot/dev
-
-title: "send email translation improvement"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "send email translation improvement"
-issues: []
-discussions: []
-**Ultimo aggiornamento**: Gennaio 2025  
-**Autore**: Sistema di miglioramento automatico  
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_018ZNX
->>>>>>> laraxot/dev

@@ -2,15 +2,16 @@
 qmd: "sessione consolidated"
 issues: []
 discussions: []
-title: "sessione — Consolidated Documentation"
+title: "sessione: Consolidated Documentation"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
-# sessione — Consolidated Documentation
+# sessione: Consolidated Documentation
 
 Consolidated from **7** individual files.
 
@@ -39,12 +40,17 @@ qmd: "sessione-100-percent 🎉 sessione 100% completata - homepage bootstrap it
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -295,12 +301,17 @@ qmd: "sessione-analisi-homepage ✅ sessione completata - homepage analysis & do
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -487,22 +498,12 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
-<<<<<<< HEAD
-- [Analisi Visiva](docs/screenshots/homepage/analisi-visiva.md)
-- [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
-- [Fix Plan](docs/screenshots/homepage/fix-plan.md)
-=======
 - [Analisi Visiva](../../screenshots/homepage/analisi-visiva.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
-<<<<<<< .merge_file_EInMiG
 - [Fix Plan](../../screenshots/homepage/fix-plan.md)
 - [Analisi Visiva](../../screenshots/homepage/analisi-visiva.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
 - [Fix Plan](../../screenshots/homepage/fix-plan.md)
-=======
-- [Fix Plan](docs/screenshots/homepage/fix-plan.md)
->>>>>>> .merge_file_y7x4iK
->>>>>>> laraxot/dev
 - [OpenViking Context](.openvikings/homepage_alignment_context.md)
 
 ### Link Esterni
@@ -546,12 +547,17 @@ qmd: "sessione-completa ✅ sessione completata - allineamento bootstrap italia"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -725,12 +731,17 @@ qmd: "sessione-fix-completata ✅ sessione completata - fix homepage bootstrap i
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -923,7 +934,7 @@ Il footer feedback module richiede di identificare il file footer corretto da mo
 
 ## sessione-super-mucca-1
 
-*Consolidated from: `sessione-super-mucca-1.md`*
+*Consolidated from: `sessione-super-mucca.md`*
 
 title: "🐮 Sessione Super Mucca - 2025-10-15"
 type: concept
@@ -934,12 +945,17 @@ qmd: "sessione-2025-10-15-super-mucca.deprecated 🐮 sessione super mucca - 202
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -969,16 +985,8 @@ Analizzare e documentare la necessità di creare `XotBasePivot` seguendo princip
    - ✅ Filosofia Zen e principi SOLID
    - ✅ **Raccomandazione: IMPLEMENTARE ⭐⭐⭐⭐⭐**
 
-<<<<<<< HEAD
-2. **[XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)** (3.500+ parole)
-=======
-<<<<<<< .merge_file_EInMiG
 2. **[XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)** (3.500+ parole)
 2. **[XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)** (3.500+ parole)
-=======
-2. **[XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)** (3.500+ parole)
->>>>>>> .merge_file_y7x4iK
->>>>>>> laraxot/dev
    - ✅ Piano step-by-step (3-4 ore totali)
    - ✅ 13 moduli impattati, 26 file da refactorare
    - ✅ Script di migration automatici
@@ -1287,16 +1295,8 @@ public function getConnectionName(): ?string
 
 **Passi:**
 1. Leggere [XotBasePivot Analysis](./architecture/xotbasepivot-analysis.md)
-<<<<<<< HEAD
-2. Seguire [XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)
-=======
-<<<<<<< .merge_file_EInMiG
 2. Seguire [XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)
 2. Seguire [XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)
-=======
-2. Seguire [XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)
->>>>>>> .merge_file_y7x4iK
->>>>>>> laraxot/dev
 3. Iniziare da User module (priorità alta)
 4. Testare continuamente con PHPStan Level 10
 
@@ -1405,17 +1405,23 @@ updated: 2026-07-14
 qmd: "sessione-2025-10-15-super-mucca deprecated"
 status: deprecated
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
 > Questo file è stato rinominato in [sessione-super-mucca.md](sessione-super-mucca.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [sessione-super-mucca.md](../../sessione-super-mucca.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 
 ---
 
@@ -1447,16 +1453,8 @@ Analizzare e documentare la necessità di creare `XotBasePivot` seguendo princip
    - ✅ Filosofia Zen e principi SOLID
    - ✅ **Raccomandazione: IMPLEMENTARE ⭐⭐⭐⭐⭐**
 
-<<<<<<< HEAD
-2. **[XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)** (3.500+ parole)
-=======
-<<<<<<< .merge_file_EInMiG
 2. **[XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)** (3.500+ parole)
 2. **[XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)** (3.500+ parole)
-=======
-2. **[XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)** (3.500+ parole)
->>>>>>> .merge_file_y7x4iK
->>>>>>> laraxot/dev
    - ✅ Piano step-by-step (3-4 ore totali)
    - ✅ 13 moduli impattati, 26 file da refactorare
    - ✅ Script di migration automatici
@@ -1735,7 +1733,7 @@ public function getConnectionName(): ?string
 4. `Modules/Blog/docs/models/xotbasepivot-migration.md` (2.500+ parole)
 5. `docs/architecture/README.md` (1.500+ parole)
 6. `docs/XotBasePivot-Executive-Summary.md` (2.000+ parole)
-7. `docs/SESSIONE-2025-10-15-SUPER-MUCCA.md` (questo documento)
+7. `docs/SESSIONE-SUPER-MUCCA.md` (questo documento)
 
 **Totale:** ~20.000 parole di documentazione professionale
 
@@ -1765,16 +1763,8 @@ public function getConnectionName(): ?string
 
 **Passi:**
 1. Leggere [XotBasePivot Analysis](./architecture/xotbasepivot-analysis.md)
-<<<<<<< HEAD
-2. Seguire [XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)
-=======
-<<<<<<< .merge_file_EInMiG
 2. Seguire [XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)
 2. Seguire [XotBasePivot Strategy](../../architecture/xotbasepivot-strategy.md)
-=======
-2. Seguire [XotBasePivot Strategy](./architecture/xotbasepivot-strategy.md)
->>>>>>> .merge_file_y7x4iK
->>>>>>> laraxot/dev
 3. Iniziare da User module (priorità alta)
 4. Testare continuamente con PHPStan Level 10
 

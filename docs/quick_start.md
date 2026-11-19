@@ -7,30 +7,16 @@ updated: 2026-09-26
 qmd: "quick start"
 issues: []
 discussions: []
+status: draft
 ---
 
 # 🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI
 
-<<<<<<< HEAD
-**Versione**: 1.0  
-**Data**: 2025-10-01  
-**Target**: Sviluppatori che iniziano a lavorare su FixCity  
-=======
 **Versione**: 1.0
 **Data**: 2025-10-01
 **Target**: Sviluppatori che iniziano a lavorare su FixCity
->>>>>>> laraxot/dev
 
 ---
-
-title: "quick start"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "quick start"
-issues: []
-discussions: []
 ## 📋 PREREQUISITI
 
 ### Software Richiesto
@@ -158,11 +144,7 @@ class MyResource extends XotBaseResource
             // schema fields
         ];
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // NON definire table() method
 }
 ```
@@ -200,11 +182,7 @@ class MyServiceProvider extends XotBaseServiceProvider
 {
     protected string $moduleName = 'ModuleName';
     protected string $moduleNameLower = 'modulename';
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     public function boot(): void
     {
         parent::boot(); // SEMPRE chiamare parent
@@ -262,13 +240,8 @@ return [
 ## 📁 STRUTTURA PROGETTO
 
 ```
-<<<<<<< HEAD
-base_fixcity_fila5_mono/
-base_ptv_fila5_mono/
-=======
 base_fixcity_fila5/
 base_ptv_fila5/
->>>>>>> laraxot/dev
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── Fixcity/          # Core business logic
@@ -415,11 +388,7 @@ class TicketTest extends TestCase
     public function test_can_create_ticket(): void
     {
         $ticket = Ticket::factory()->create();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         $this->assertDatabaseHas('tickets', [
             'id' => $ticket->id,
         ]);
@@ -436,15 +405,9 @@ class TicketResourceTest extends TestCase
     public function test_can_list_tickets(): void
     {
         $this->actingAs($user = User::factory()->create());
-<<<<<<< HEAD
-        
-        $response = $this->get(route('filament.admin.resources.tickets.index'));
-        
-=======
 
         $response = $this->get(route('filament.admin.resources.tickets.index'));
 
->>>>>>> laraxot/dev
         $response->assertSuccessful();
     }
 }
@@ -538,16 +501,8 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 
 ### Regole Progetto
 - **[Laraxot Rules](./.windsurf/rules/user_15338591596331277449.md)**
-<<<<<<< HEAD
-- **[Code Quality](./.windsurf/rules/code-quality.md)**
-=======
-<<<<<<< .merge_file_y7LObo
 - **[Code Quality](ai-agents/code-quality.md)**
 - **[Code Quality](./ai-agents/code-quality.md)**
-=======
-- **[Code Quality](./.windsurf/rules/code-quality.md)**
->>>>>>> .merge_file_t21REi
->>>>>>> laraxot/dev
 - **[Project Rules](./.windsurf/rules/project-rules.md)**
 
 ---
@@ -564,11 +519,7 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 **Soluzione**: Verifica di estendere XotBaseMigration e non Migration standard
 
 ### Problema: Assets non caricati
-<<<<<<< HEAD
-**Soluzione**: 
-=======
 **Soluzione**:
->>>>>>> laraxot/dev
 ```bash
 npm run build
 php artisan optimize:clear

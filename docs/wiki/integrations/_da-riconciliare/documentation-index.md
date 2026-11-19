@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # 📚 Indice Generale Documentazione - App
@@ -45,16 +46,8 @@ updated: 2026-08-24
 
 ### Documentazione Architetturale
 - [Design Patterns](./architecture.md) - Pattern architetturali
-<<<<<<< HEAD
-- [Database Schema](./database/schema.md) - Schema database
-=======
-<<<<<<< .merge_file_foDMhs
 - [Database Schema](../../schema.md) - Schema database
 - [Database Schema](../../schema.md) - Schema database
-=======
-- [Database Schema](./database/schema.md) - Schema database
->>>>>>> .merge_file_yi4gcN
->>>>>>> laraxot/dev
 - [API Documentation](./api/README.md) - Documentazione API
 - [Security](./security/README.md) - Sicurezza e conformità
 
@@ -211,22 +204,12 @@ updated: 2026-08-24
 ## 🛠️ Guide Sviluppo
 
 ### Development Setup
-<<<<<<< HEAD
-- [Environment Setup](./development/setup.md) - Configurazione ambiente
-- [Docker Setup](./development/docker.md) - Configurazione Docker
-- [Database Setup](./database/setup.md) - Setup database
-
-### Coding Guidelines
-- [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
-- [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
-=======
 - [Environment Setup](../../../ai-agents/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
 - [Database Setup](../../../ai-agents/setup.md) - Setup database
 
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
-<<<<<<< .merge_file_foDMhs
 - [Laravel Best Practices](../../../html2pdf/laravel.md) - Best practices Laravel
 - [Environment Setup](../../../ai-agents/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
@@ -235,25 +218,13 @@ updated: 2026-08-24
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
 - [Laravel Best Practices](../../../html2pdf/laravel.md) - Best practices Laravel
-=======
-- [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
->>>>>>> .merge_file_yi4gcN
->>>>>>> laraxot/dev
 - [Filament Guidelines](./standards/filament.md) - Linee guida Filament
 - [Blade Components](./standards/blade.md) - Componenti Blade
 
 ### Quality Assurance
 - [PHPStan Configuration](./phpstan/README.md) - Analisi statica
-<<<<<<< HEAD
-- [Testing Strategy](./testing/strategy.md) - Strategia testing
-=======
-<<<<<<< .merge_file_foDMhs
 - [Testing Strategy](../../../strategy.md) - Strategia testing
 - [Testing Strategy](../../../strategy.md) - Strategia testing
-=======
-- [Testing Strategy](./testing/strategy.md) - Strategia testing
->>>>>>> .merge_file_yi4gcN
->>>>>>> laraxot/dev
 - [CI/CD Pipeline](./ci-cd/README.md) - Continuous integration
 
 ---
@@ -294,16 +265,8 @@ updated: 2026-08-24
 - [Error Tracking](./monitoring/errors.md) - Tracking errori
 
 ### Analytics
-<<<<<<< HEAD
-- [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
-=======
-<<<<<<< .merge_file_foDMhs
 - [Usage Analytics](../../../html2pdf/usage.md) - Analisi utilizzo
 - [Usage Analytics](../../../html2pdf/usage.md) - Analisi utilizzo
-=======
-- [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
->>>>>>> .merge_file_yi4gcN
->>>>>>> laraxot/dev
 - [Business Metrics](./analytics/business.md) - Metriche business
 
 ---
@@ -311,16 +274,8 @@ updated: 2026-08-24
 ## 🔒 Security
 
 ### Security Documentation
-<<<<<<< HEAD
-- [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
-=======
-<<<<<<< .merge_file_foDMhs
 - [Security Guidelines](../../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
 - [Security Guidelines](../../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
-=======
-- [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
->>>>>>> .merge_file_yi4gcN
->>>>>>> laraxot/dev
 - [GDPR Compliance](./security/gdpr.md) - Conformità GDPR
 - [Authentication](./security/authentication.md) - Sistema autenticazione
 - [Authorization](./security/authorization.md) - Sistema autorizzazioni

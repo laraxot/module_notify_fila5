@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_Nm8sKX
-=======
->>>>>>> laraxot/dev
----
-title: "migrazione filament 4"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "migrazione filament 4"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_UVlBTK
->>>>>>> laraxot/dev
 # Notify Module - Migrazione a Filament 4
 
 ## Panoramica Notify Module
@@ -606,12 +586,4 @@ NotificationScheduler::make()
 
 **Raccomandazione**: Procedere nella **seconda wave** di migrazione, dopo aver validato l'approccio su moduli più semplici.
 
-<<<<<<< HEAD
 **ROI**: **Molto alto** considerando che risolve problemi attuali while adding significant value attraverso modern features.
-=======
-<<<<<<< .merge_file_Nm8sKX
-**ROI**: **Molto alto** considerando che risolve problemi attuali while adding significant value attraverso modern features.
-=======
-**ROI**: **Molto alto** considerando che risolve problemi attuali while adding significant value attraverso modern features.
->>>>>>> .merge_file_UVlBTK
->>>>>>> laraxot/dev

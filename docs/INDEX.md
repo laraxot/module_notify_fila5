@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_a0tof2
 # Notify Module Documentation
 
 ## Overview
@@ -264,25 +261,3 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
-=======
->>>>>>> laraxot/dev
----
-title: "Indice documentazione — Notify"
-type: index
-status: active
-updated: 2026-11-16
-module: Notify
-qmd: "indice docs modulo Notify BMAD ECC purpose"
----
-
-# Indice — Notify
-
-- [Purpose](./purpose.md)
-- [BMAD](./bmad/00-index.md)
-- [ECC](./ecc/00-index.md)
-- [Audit](./bmad/audit.md)
-- [Piano di miglioramento](./bmad/piano-miglioramento.md)
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_ChxTNq
->>>>>>> laraxot/dev

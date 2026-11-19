@@ -2,22 +2,23 @@
 qmd: "no consolidated"
 issues: []
 discussions: []
-title: "no — Consolidated Documentation"
+title: "no: Consolidated Documentation"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
-# no — Consolidated Documentation
+# no: Consolidated Documentation
 
 Consolidated from **35** individual files.
 
 ## Table of Contents
 
 - [---](#no-ai-tool-scaffold-dirs)
-- [NO Hardcoded Language — La Religione i18n](#no-hardcoded-language-religion)
+- [NO Hardcoded Language: La Religione i18n](#no-hardcoded-language-religion)
 - [No HTTP controllers in any module](#no-http-controllers)
 - [Notify Rule: No NotificationTrackingController](#no-notification-tracking-controller-rule)
 - [Notify: no NotificationTrackingController](#no-notification-tracking-controller)
@@ -63,11 +64,12 @@ title: No AI/tool scaffold directories in module tree
 
 # Perché queste cartelle non devono esistere qui
 
-Regola canonica: [module-theme-root-cleanup.md — Rule 5](../../../../docs/wiki/rules/module-theme-root-cleanup.md).
+Regola canonica: [module-theme-root-cleanup.md: Rule 5](../../../../docs/wiki/rules/module-theme-root-cleanup.md).
+Regola canonica: [module-theme-root-cleanup.md: Rule 5](../../../../../../docs/wiki/rules/module-theme-root-cleanup.md).
 
 Rimosse in questo modulo: `_docs/`, `scripts/`, `bashscripts/`, `docs/archive|archived|legacy|workbench/`, `.circleci/`, `.claude-audit/`, `tests/.claude-audit/`, `_bmad-output/`, `test-results/`, `.devcontainer/`, `.kilocode/`, `.kiro/`, `.ralph/` (dove presenti) e aggiunte al `.gitignore` di questo modulo.
 
-**Perché**: questo modulo vive anche come repo Git indipendente (multi-repo); ogni agente/tool AI o pipeline CI che gira in quella root scrive lì la propria cache/scaffold locale (skill `.kiro/`, output `_bmad-output/`, stato `.ralph/`, audit `.claude-audit/`, log `test-results/`), ignorando che quella root è in realtà un sotto-albero del monorepo con le proprie convenzioni: `docs/` unica per la conoscenza riusabile, `bashscripts/` unica alla root del monorepo, `build/` unico per gli artefatti generati. Un secondo posto per la stessa categoria di contenuto è entropia, non struttura — se il tool lo rigenera, il `.gitignore` aggiornato lo tiene fuori dal tracking invece di doverlo ripulire ogni sessione.
+**Perché**: questo modulo vive anche come repo Git indipendente (multi-repo); ogni agente/tool AI o pipeline CI che gira in quella root scrive lì la propria cache/scaffold locale (skill `.kiro/`, output `_bmad-output/`, stato `.ralph/`, audit `.claude-audit/`, log `test-results/`), ignorando che quella root è in realtà un sotto-albero del monorepo con le proprie convenzioni: `docs/` unica per la conoscenza riusabile, `bashscripts/` unica alla root del monorepo, `build/` unico per gli artefatti generati. Un secondo posto per la stessa categoria di contenuto è entropia, non struttura: se il tool lo rigenera, il `.gitignore` aggiornato lo tiene fuori dal tracking invece di doverlo ripulire ogni sessione.
 
 ---
 
@@ -76,17 +78,10 @@ Rimosse in questo modulo: `_docs/`, `scripts/`, `bashscripts/`, `docs/archive|ar
 *Consolidated from: `no-hardcoded-language-religion.md`*
 
 
-<<<<<<< HEAD
-**Status**: Active  
-**Created**: 2026-04-14  
-**Last Updated**: 2026-04-14  
-**Category**: Architecture / Religion / i18n  
-=======
 **Status**: Active
 **Created**: 2026-04-14
 **Last Updated**: 2026-04-14
 **Category**: Architecture / Religion / i18n
->>>>>>> laraxot/dev
 **Audience**: All developers + AI agents
 
 ---
@@ -95,21 +90,12 @@ Rimosse in questo modulo: `_docs/`, `scripts/`, `bashscripts/`, `docs/archive|ar
 
 **NON scriverai MAI parole in italiano (o qualsiasi lingua) nel codice PHP.**
 
-<<<<<<< HEAD
-**MAI.**  
-**Senza eccezioni.**  
-**Senza scuse.**  
-**SENZA DISCUSSIONE.**
-
-**Il sito e' multilingua.**  
-=======
 **MAI.**
 **Senza eccezioni.**
 **Senza scuse.**
 **SENZA DISCUSSIONE.**
 
 **Il sito e' multilingua.**
->>>>>>> laraxot/dev
 **Ogni stringa hardcoded in italiano e un insulto agli utenti non italiani.**
 
 ---
@@ -571,13 +557,8 @@ bash bashscripts/check-hardcoded-language.sh
 
 ### Il Credo
 
-<<<<<<< HEAD
-> "Codice in inglese, UI nella lingua dell'utente.  
-> Mai hardcoded, sempre translation keys.  
-=======
 > "Codice in inglese, UI nella lingua dell'utente.
 > Mai hardcoded, sempre translation keys.
->>>>>>> laraxot/dev
 > i18n non e optional, e rispetto."
 
 ### La Preghiera
@@ -645,7 +626,7 @@ There is no slot for a traditional controller.
 - They create implicit routing that bypasses the Folio/Localization middleware stack
 - They cannot use `LaravelLocalization::localizeUrl()` for redirects correctly
 - They bypass the `pub_theme::` namespace resolution
-- They undermine the CMS-driven page model — the page has no JSON definition
+- They undermine the CMS-driven page model: the page has no JSON definition
 - They introduce a parallel routing system that conflicts with Folio's file-based routing
 
 ### The Notify module specifically
@@ -688,7 +669,7 @@ This keeps the HTTP surface in Folio (the correct location) while the business l
 ## Related
 
 - CLAUDE.md rule 1: "NEVER use traditional controllers or routes in web.php/api.php for front office"
-- `laravel/CLAUDE.md` rule 2: Architecture frontend — NO Controller, NO Routes in web.php
+- `laravel/CLAUDE.md` rule 2: Architecture frontend: NO Controller, NO Routes in web.php
 - Folio routing docs: `Themes/Meetup/docs/folio-pages-json-only-rule.md`
 
 ---
@@ -778,25 +759,25 @@ qmd: "notebooklm-installation-summary notebooklm skill - installation & integrat
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
 # NotebookLM Skill - Installation & Integration Summary
 
-<<<<<<< HEAD
-**Date**: 2026-03-30  
-**Status**: ✅ Installed & Integrated  
-=======
 **Date**: 2026-03-30
 **Status**: ✅ Installed & Integrated
->>>>>>> laraxot/dev
 **Workflow**: BMAD + GSD + Ralph + OpenViking + NotebookLM
 
 ## Installation Summary
@@ -1153,13 +1134,8 @@ DEFAULT_NOTEBOOK_ID=<nome progetto>-project-docs
 
 ---
 
-<<<<<<< HEAD
-**Status**: ✅ Ready for authentication and notebook creation  
-**Last Updated**: 2026-03-30  
-=======
 **Status**: ✅ Ready for authentication and notebook creation
 **Last Updated**: 2026-03-30
->>>>>>> laraxot/dev
 **Integrated By**: AI Agent (BMAD + GSD + Ralph Workflow)
 
 ---
@@ -1177,12 +1153,17 @@ qmd: "notebooklm-integration notebooklm integration"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1487,17 +1468,13 @@ L'utilizzo di Queueable Actions e componenti Blade di Filament garantisce:
 - Operazioni asincrone efficienti
 - UI/UX moderna e responsive
 - Integrazione nativa con Filament
-<<<<<<< HEAD
-- Facilità di manutenzione 
-=======
 - Facilità di manutenzione
->>>>>>> laraxot/dev
 
 ---
 
 ## notification-behavior-1
 
-*Consolidated from: `notification-behavior-1.md`*
+*Consolidated from: `notification-behavior.md`*
 
 title: "Notification System Behavior"
 type: concept
@@ -1508,12 +1485,17 @@ qmd: "notification-behavior-1 notification system behavior"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1557,11 +1539,7 @@ public function toSms($notifiable)
     if (empty($notifiable->routeNotificationFor('sms'))) {
         return null;
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     return SmsData::from([
         'from' => config('app.name'),
         'to' => $notifiable->routeNotificationFor('sms'),
@@ -1578,17 +1556,6 @@ Modify the `via()` method to only return channels that are properly routed:
 public function via($notifiable)
 {
     $channels = [];
-<<<<<<< HEAD
-    
-    if ($notifiable->routeNotificationFor('mail')) {
-        $channels[] = 'mail';
-    }
-    
-    if ($notifiable->routeNotificationFor('sms')) {
-        $channels[] = SmsChannel::class;
-    }
-    
-=======
 
     if ($notifiable->routeNotificationFor('mail')) {
         $channels[] = 'mail';
@@ -1598,7 +1565,6 @@ public function via($notifiable)
         $channels[] = SmsChannel::class;
     }
 
->>>>>>> laraxot/dev
     return $channels;
 }
 ```
@@ -1616,6 +1582,7 @@ public function via($notifiable)
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
 - [Notification Best Practices](best-practices.md)
+- [Notification Best Practices](../../best-practices.md)
 
 ---
 
@@ -1661,11 +1628,7 @@ public function toSms($notifiable)
     if (empty($notifiable->routeNotificationFor('sms'))) {
         return null;
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     return SmsData::from([
         'from' => config('app.name'),
         'to' => $notifiable->routeNotificationFor('sms'),
@@ -1682,17 +1645,6 @@ Modify the `via()` method to only return channels that are properly routed:
 public function via($notifiable)
 {
     $channels = [];
-<<<<<<< HEAD
-    
-    if ($notifiable->routeNotificationFor('mail')) {
-        $channels[] = 'mail';
-    }
-    
-    if ($notifiable->routeNotificationFor('sms')) {
-        $channels[] = SmsChannel::class;
-    }
-    
-=======
 
     if ($notifiable->routeNotificationFor('mail')) {
         $channels[] = 'mail';
@@ -1702,7 +1654,6 @@ public function via($notifiable)
         $channels[] = SmsChannel::class;
     }
 
->>>>>>> laraxot/dev
     return $channels;
 }
 ```
@@ -1720,6 +1671,7 @@ public function via($notifiable)
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
 - [Notification Best Practices](best-practices.md)
+- [Notification Best Practices](../../best-practices.md)
 
 ---
 
@@ -1728,17 +1680,10 @@ public function via($notifiable)
 *Consolidated from: `notification-bulk-action-implementation.md`*
 
 
-<<<<<<< HEAD
-**Date**: 18 Dicembre 2025  
-**Status**: ✅ Completed  
-**Module**: App → Notify  
-**Module**: TechPlanner → Notify  
-=======
 **Date**: 18 Dicembre 2025
 **Status**: ✅ Completed
 **Module**: App → Notify
 **Module**: TechPlanner → Notify
->>>>>>> laraxot/dev
 **Implementation Type**: Feature Addition
 
 ## Overview
@@ -1757,11 +1702,7 @@ The implementation leverages existing architecture components:
    - Provides comprehensive error handling and logging
    - Uses proper phone number normalization
 
-<<<<<<< HEAD
-2. **FilamentAction**: `Modules\Notify\Filament\Actions\SendNotificationBulkAction`  
-=======
 2. **FilamentAction**: `Modules\Notify\Filament\Actions\SendNotificationBulkAction`
->>>>>>> laraxot/dev
    - Provides the UI modal with template selection
    - Offers channel selection via checkboxes
    - Handles form validation and user notifications
@@ -1822,17 +1763,10 @@ This implementation aligns with:
 
 ## Code Quality Verification
 
-<<<<<<< HEAD
-✅ **PHPStan Level 10**: All files pass static analysis  
-✅ **Type Safety**: Proper return types and parameter validation  
-✅ **Architecture Compliance**: Follows XotBase extension rules  
-✅ **Documentation**: Updated with new implementation details  
-=======
 ✅ **PHPStan Level 10**: All files pass static analysis
 ✅ **Type Safety**: Proper return types and parameter validation
 ✅ **Architecture Compliance**: Follows XotBase extension rules
 ✅ **Documentation**: Updated with new implementation details
->>>>>>> laraxot/dev
 
 ## Usage Pattern
 
@@ -1889,7 +1823,7 @@ After implementation, users can:
 
 ## notification-channels-implementation-1
 
-*Consolidated from: `notification-channels-implementation-1.md`*
+*Consolidated from: `notification-channels-implementation.md`*
 
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
@@ -2043,13 +1977,15 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Panoramica dell'Architettura](./ARCHITECTURE.md)
 - [Modelli di Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
+- [Modelli di Email](../../email_templates.md)
+- [Implementazione SMS](../../sms_implementation.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
 ---
 
 ## notification-channels-implementation-2
 
-*Consolidated from: `notification-channels-implementation-2.md`*
+*Consolidated from: `notification-channels-implementation.md`*
 
 title: "Implementazione dei Canali di Notifica"
 type: concept
@@ -2060,21 +1996,22 @@ qmd: "notification-channels-implementation-2 implementazione dei canali di notif
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-# Implementazione dei Canali di Notifica 
-=======
 # Implementazione dei Canali di Notifica
->>>>>>> laraxot/dev
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto App, con particolare attenzione al pattern Factory utilizzato.
 
@@ -2123,11 +2060,7 @@ Il pattern Factory è stato implementato per centralizzare la logica di selezion
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -2158,11 +2091,7 @@ class AppointmentReminder extends Notification
     {
         return [SmsChannel::class];
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     public function toSms($notifiable)
     {
         return new SmsData(
@@ -2235,12 +2164,15 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
 - [Modelli di Email](./email-templates.md)
-- [Implementazione SMS](./sms-implementation-1.md)
+- [Modelli di Email](../../email-templates.md)
+- [Implementazione SMS](./sms-implementation.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
 - [Modelli di Email](./email-templates.md)
 - [Implementazione SMS](./sms-implementation.md)
+- [Modelli di Email](../../email-templates.md)
+- [Implementazione SMS](../../sms-implementation.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 ---
 
@@ -2297,11 +2229,7 @@ Il pattern Factory è stato implementato per centralizzare la logica di selezion
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -2332,11 +2260,7 @@ class AppointmentReminder extends Notification
     {
         return [SmsChannel::class];
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     public function toSms($notifiable)
     {
         return new SmsData(
@@ -2410,6 +2334,8 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Panoramica dell'Architettura](./architecture.md)
 - [Modelli di Email](./email_templates.md)
 - [Implementazione SMS](./sms_implementation.md)
+- [Modelli di Email](../../email_templates.md)
+- [Implementazione SMS](../../sms_implementation.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 
 
@@ -2417,7 +2343,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## notification-errors-1
 
-*Consolidated from: `notification-errors-1.md`*
+*Consolidated from: `notification-errors.md`*
 
 title: "Errori Comuni nelle Notifiche"
 type: concept
@@ -2428,12 +2354,17 @@ qmd: "notification-errors-1 errori comuni nelle notifiche"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -2531,11 +2462,7 @@ class SendNotificationAction
     public function execute()
     {
         $this->validate();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         Notification::route('mail', $this->to)
             ->notify(new YourNotification($this->data));
     }
@@ -2605,11 +2532,7 @@ class YourNotification extends Notification
 - [Documentazione Laravel Notifications](https://laravel.com/docs/notifications)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
-<<<<<<< HEAD
-- [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/) 
-=======
 - [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/)
->>>>>>> laraxot/dev
 ---
 
 ## notification-errors
@@ -2708,11 +2631,7 @@ class SendNotificationAction
     public function execute()
     {
         $this->validate();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         Notification::route('mail', $this->to)
             ->notify(new YourNotification($this->data));
     }
@@ -2782,11 +2701,7 @@ class YourNotification extends Notification
 - [Documentazione Laravel Notifications](https://laravel.com/docs/notifications)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
-<<<<<<< HEAD
-- [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/) 
-=======
 - [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/)
->>>>>>> laraxot/dev
 ---
 
 ## notification-implementation
@@ -2832,6 +2747,7 @@ Customer List -> Bulk Action -> Modal (Select Template + Channels) -> Submit -> 
     - **Reasoning**: Applies DRY and KISS. The logic to send to *one* record exists in `SendRecordNotificationAction`. The Bulk action should only care about iteration and result aggregation, not the sending implementation details.
 
 Vedi: [DRY Composition Pattern](./dry-composition-pattern.md)
+Vedi: [DRY Composition Pattern](../../dry-composition-pattern.md)
 
 ### Estrazione Attributi Contatti (DRY Pattern)
 
@@ -2843,6 +2759,7 @@ Vedi: [DRY Composition Pattern](./dry-composition-pattern.md)
     - **Reasoning**: DRY + KISS. Logica di estrazione centralizzata in un metodo, wrapper mantengono semantica chiara.
 
 Vedi: [Contact Extraction Pattern](./contact-extraction-pattern.md)
+Vedi: [Contact Extraction Pattern](../../contact-extraction-pattern.md)
 
 ### Dependency Resolution (Runtime Service Resolution)
 
@@ -2851,13 +2768,14 @@ Vedi: [Contact Extraction Pattern](./contact-extraction-pattern.md)
     - **Philosophy**: Keep Actions simple, stateless, and serialization-friendly.
 
 Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
+Vedi: [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md)
 
 
 ---
 
 ## notification-providers-guide-1
 
-*Consolidated from: `notification-providers-guide-1.md`*
+*Consolidated from: `notification-providers-guide.md`*
 
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
@@ -2994,12 +2912,15 @@ Per implementazioni specifiche, vedere i documenti:
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
 - [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
+- [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
+- [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
 
 ---
 
 ## notification-providers-guide-2
 
-*Consolidated from: `notification-providers-guide-2.md`*
+*Consolidated from: `notification-providers-guide.md`*
 
 title: "Guida Completa ai Provider di Notifiche"
 type: guide
@@ -3010,12 +2931,17 @@ qmd: "notification-providers-guide-2 guida completa ai provider di notifiche"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -3159,6 +3085,12 @@ Per implementazioni specifiche, vedere i documenti:
 - [PROVIDER_ACTIONS_architecture.md](./provider-actions-architecture.md)
 - [SMS_ACTIONS_PATTERN.md](./sms-actions-pattern.md)
 - [WHATSAPP_PROVIDER_architecture.md](./whatsapp-provider-architecture.md)
+- [PROVIDER_ACTIONS_architecture.md](../../provider-actions-architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms-actions-pattern.md)
+- [WHATSAPP_PROVIDER_architecture.md](../../whatsapp-provider-architecture.md)
+- [PROVIDER_ACTIONS_architecture.md](../../provider-actions-architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms-actions-pattern.md)
+- [WHATSAPP_PROVIDER_architecture.md](../../whatsapp-provider-architecture.md)
 
 ---
 
@@ -3226,15 +3158,9 @@ use Spatie\QueueableAction\QueueableAction;
 final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 {
     use QueueableAction;
-<<<<<<< HEAD
-    
-    // Costruttore con configurazione
-    
-=======
 
     // Costruttore con configurazione
 
->>>>>>> laraxot/dev
     // Metodo execute standardizzato
     public function execute({Type}Data $data): array
     {
@@ -3249,11 +3175,7 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 // config/{type}.php
 return [
     'default' => env('{TYPE}_PROVIDER', 'default_provider'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'providers' => [
         'provider1' => [
             // Configurazione specifica
@@ -3262,11 +3184,7 @@ return [
             // Configurazione specifica
         ],
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Parametri globali
     'from' => env('{TYPE}_FROM'),
     'debug' => (bool) env('{TYPE}_DEBUG', false),
@@ -3316,6 +3234,9 @@ Per implementazioni specifiche, vedere i documenti:
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
 - [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
+- [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
+- [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
 
 ---
 
@@ -3325,11 +3246,7 @@ Per implementazioni specifiche, vedere i documenti:
 
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di App.
-<<<<<<< HEAD
-Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di Quaeris.
-=======
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
->>>>>>> laraxot/dev
 
 ## Principi Architetturali per Tutti i Provider
 
@@ -3387,15 +3304,9 @@ use Spatie\QueueableAction\QueueableAction;
 final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 {
     use QueueableAction;
-<<<<<<< HEAD
-    
-    // Costruttore con configurazione
-    
-=======
 
     // Costruttore con configurazione
 
->>>>>>> laraxot/dev
     // Metodo execute standardizzato
     public function execute({Type}Data $data): array
     {
@@ -3410,11 +3321,7 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 // config/{type}.php
 return [
     'default' => env('{TYPE}_PROVIDER', 'default_provider'),
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'providers' => [
         'provider1' => [
             // Configurazione specifica
@@ -3423,11 +3330,7 @@ return [
             // Configurazione specifica
         ],
     ],
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Parametri globali
     'from' => env('{TYPE}_FROM'),
     'debug' => (bool) env('{TYPE}_DEBUG', false),
@@ -3477,6 +3380,9 @@ Per implementazioni specifiche, vedere i documenti:
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./provider_actions_architecture.md)
 - [SMS_ACTIONS_PATTERN.md](./sms_actions_pattern.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./whatsapp_provider_architecture.md)
+- [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
+- [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
 
 ---
 
@@ -3529,11 +3435,7 @@ public function toSms($notifiable)
     if (empty($notifiable->routeNotificationFor('sms'))) {
         return null;
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     return SmsData::from([
         'from' => config('app.name'),
         'to' => $notifiable->routeNotificationFor('sms'),
@@ -3550,17 +3452,6 @@ Modify the `via()` method to only return channels that are properly routed:
 public function via($notifiable)
 {
     $channels = [];
-<<<<<<< HEAD
-    
-    if ($notifiable->routeNotificationFor('mail')) {
-        $channels[] = 'mail';
-    }
-    
-    if ($notifiable->routeNotificationFor('sms')) {
-        $channels[] = SmsChannel::class;
-    }
-    
-=======
 
     if ($notifiable->routeNotificationFor('mail')) {
         $channels[] = 'mail';
@@ -3570,7 +3461,6 @@ public function via($notifiable)
         $channels[] = SmsChannel::class;
     }
 
->>>>>>> laraxot/dev
     return $channels;
 }
 ```
@@ -3588,6 +3478,7 @@ public function via($notifiable)
 - [Laravel Notification Channels](https://laravel.com/docs/notifications#specifying-delivery-channels)
 - [Laravel Notification Routing](https://laravel.com/docs/notifications#routing-notifications)
 - [Notification Best Practices](best-practices.md)
+- [Notification Best Practices](../../best-practices.md)
 
 ---
 
@@ -3598,11 +3489,7 @@ public function via($notifiable)
 # Implementazione dei Canali di Notifica
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
-<<<<<<< HEAD
-# Implementazione dei Canali di Notifica 
-=======
 # Implementazione dei Canali di Notifica
->>>>>>> laraxot/dev
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.
 
@@ -3652,11 +3539,7 @@ public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -3688,11 +3571,7 @@ class AppointmentReminder extends Notification
         return [SmsChannel::class];
     }
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     public function toSms($notifiable)
     {
         return new SmsData(
@@ -3766,6 +3645,8 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Panoramica dell'Architettura](./ARCHITECTURE.md)
 - [Modelli di Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
+- [Modelli di Email](../../email_templates.md)
+- [Implementazione SMS](../../sms_implementation.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
 
@@ -3867,11 +3748,7 @@ class SendNotificationAction
     public function execute()
     {
         $this->validate();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
         Notification::route('mail', $this->to)
             ->notify(new YourNotification($this->data));
     }
@@ -3941,11 +3818,7 @@ class YourNotification extends Notification
 - [Documentazione Laravel Notifications](https://laravel.com/docs/notifications)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
-<<<<<<< HEAD
-- [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/) 
-=======
 - [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/)
->>>>>>> laraxot/dev
 ---
 
 ## notification_providers_guide
@@ -3955,11 +3828,7 @@ class YourNotification extends Notification
 # Guida Completa ai Provider di Notifiche
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
-<<<<<<< HEAD
-# Guida Completa ai Provider di Notifiche 
-=======
 # Guida Completa ai Provider di Notifiche
->>>>>>> laraxot/dev
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di SaluteOra.
 
@@ -4022,15 +3891,9 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 
     // Costruttore con configurazione
 
-<<<<<<< HEAD
-    
-    // Costruttore con configurazione
-    
-=======
 
     // Costruttore con configurazione
 
->>>>>>> laraxot/dev
     // Metodo execute standardizzato
     public function execute({Type}Data $data): array
     {
@@ -4046,11 +3909,7 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 return [
     'default' => env('{TYPE}_PROVIDER', 'default_provider'),
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     'providers' => [
         'provider1' => [
             // Configurazione specifica
@@ -4060,11 +3919,7 @@ return [
         ],
     ],
 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     // Parametri globali
     'from' => env('{TYPE}_FROM'),
     'debug' => (bool) env('{TYPE}_DEBUG', false),
@@ -4114,6 +3969,9 @@ Per implementazioni specifiche, vedere i documenti:
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
 - [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
+- [PROVIDER_ACTIONS_ARCHITECTURE.md](../../provider_actions_architecture.md)
+- [SMS_ACTIONS_PATTERN.md](../../sms_actions_pattern.md)
+- [WHATSAPP_PROVIDER_ARCHITECTURE.md](../../whatsapp_provider_architecture.md)
 
 ---
 
@@ -4257,17 +4115,14 @@ return [
 ## Collegamenti
 - [Documentazione API](./api.md)
 - [Template Email](./templates.md)
+- [Template Email](../../templates.md)
 - [Guida Contribuzione](./contributing.md)
 
 ## Note
 - Testare le notifiche in ambiente di sviluppo
 - Monitorare i tassi di consegna
 - Aggiornare i template regolarmente
-<<<<<<< HEAD
-- Mantenere le traduzioni aggiornate 
-=======
 - Mantenere le traduzioni aggiornate
->>>>>>> laraxot/dev
 
 ---
 
@@ -4421,11 +4276,7 @@ return array (            // ✅ Legacy syntax mantenuta (IT)
 // ✅ Convenzioni coerenti
 'navigation' => [          // Navigazione principale
 'fields' => [             // Campi form
-<<<<<<< HEAD
-'actions' => [            // Azioni utente  
-=======
 'actions' => [            // Azioni utente
->>>>>>> laraxot/dev
 'messages' => [           // Messaggi sistema
 'validation' => [         // Regole validazione
 ```
@@ -4473,11 +4324,7 @@ return array (            // ✅ Legacy syntax mantenuta (IT)
 ```php
 'tracking' => [
     'opened' => 'Email opened',
-<<<<<<< HEAD
-    'clicked' => 'Link clicked', 
-=======
     'clicked' => 'Link clicked',
->>>>>>> laraxot/dev
     'device' => 'Device',
     'location' => 'Location',
     'open_count' => 'Times opened',
@@ -4524,11 +4371,7 @@ return array (            // ✅ Legacy syntax mantenuta (IT)
 // ✅ Sempre aggiungere in tutte e 3 le lingue
 'new_feature' => [
     'label' => 'EN: New Feature',      // en/send_email.php
-<<<<<<< HEAD
-    'label' => 'IT: Nuova Funzione',   // it/send_email.php  
-=======
     'label' => 'IT: Nuova Funzione',   // it/send_email.php
->>>>>>> laraxot/dev
     'label' => 'DE: Neue Funktion',    // de/send_email.php
 ],
 ```
@@ -4547,16 +4390,12 @@ return array (            // ✅ Legacy syntax mantenuta (IT)
 
 La sistemazione del file `send_email.php` ha risolto problemi critici e implementato un sistema di traduzioni robusto e completo. L'applicazione di best practices e la standardizzazione della struttura garantiscono un'esperienza utente coerente e facilita la manutenzione futura del sistema.
 
-<<<<<<< HEAD
-**Risultato**: Sistema di invio email completamente localizzato e funzionale in italiano, inglese e tedesco con oltre 100 chiavi di traduzione per ogni lingua e funzionalità avanzate per tracking, programmazione e gestione allegati. 
-=======
 **Risultato**: Sistema di invio email completamente localizzato e funzionale in italiano, inglese e tedesco con oltre 100 chiavi di traduzione per ogni lingua e funzionalità avanzate per tracking, programmazione e gestione allegati.
->>>>>>> laraxot/dev
 ---
 
 ## notify-translation-guide-1
 
-*Consolidated from: `notify-translation-guide-1.md`*
+*Consolidated from: `notify-translation-guide.md`*
 
 
 ## Introduzione
@@ -4733,12 +4572,17 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Standard per le Traduzioni ](../../translation_standards.md)
 
 ---
 
 ## notify-translation-guide-2
 
-*Consolidated from: `notify-translation-guide-2.md`*
+*Consolidated from: `notify-translation-guide.md`*
 
 title: "Guida alle Traduzioni nel Modulo Notify"
 type: guide
@@ -4749,12 +4593,17 @@ qmd: "notify-translation-guide-2 guida alle traduzioni nel modulo notify"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4930,16 +4779,19 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification-2.md)
-- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules-1.md)
-- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
-- [Standard per le Traduzioni ](./translation-standards-2.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
+- [Standard per le Traduzioni ](./translation-standards.md)
 - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
 - [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./translation-standards.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Standard per le Traduzioni ](../../translation-standards.md)
 ---
 
 ## notify-translation-guide
@@ -5123,6 +4975,11 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Standard per le Traduzioni ](../../translation_standards.md)
 
 ---
 
@@ -5307,6 +5164,11 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation_keys_rules.md)
 - [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices.md)
 - [Standard per le Traduzioni ](./translation_standards.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation-keys-best-practices.md)
+- [Standard per le Traduzioni ](../../translation_standards.md)
 
 ---
 
@@ -5491,6 +5353,11 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
+- [Convenzioni di Traduzione nel Modulo Notify](../../translation_conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](../../translation_conventions_clarification.md)
+- [Regole Generali per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_rules.md)
+- [Best Practices per le Chiavi di Traduzione](../../../../Lang/docs/translation_keys_best_practices.md)
+- [Standard per le Traduzioni ](../../translation_standards.md)
 
 ---
 

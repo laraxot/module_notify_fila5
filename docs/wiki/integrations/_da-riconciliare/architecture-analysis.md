@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # NOTIFY ARCHITECTURE DEEP DIVE ANALYSIS
@@ -1827,17 +1828,7 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
-<<<<<<< HEAD
-[ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
-[ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
-=======
-<<<<<<< .merge_file_hck6Kp
 niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
-=======
-[ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
-[ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
->>>>>>> .merge_file_AIIvvb
->>>>>>> laraxot/dev
 [ ] Dark mode tested
 [ ] Responsive design tested
 [ ] Accessibility tested

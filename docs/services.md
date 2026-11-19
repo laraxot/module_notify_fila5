@@ -1,21 +1,12 @@
 ---
 title: "services"
 type: note
-<<<<<<< HEAD
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "services"
-issues: []
-discussions: []
-=======
 tags: [documentation, notify, debt]
 created: 2026-09-26
 updated: 2026-11-17
 qmd: "services"
 issues: []
 discussions: []
-<<<<<<< .merge_file_W2PKrz
 status: draft
 related:
   - ./wiki/concepts/notify-services-support-to-actions.md
@@ -36,9 +27,6 @@ a Job/test legacy; la religione del repo è **Actions + QueueableAction**.
 Vedi [notify-services-support-to-actions](./wiki/concepts/notify-services-support-to-actions.md)
 e [phpstan-merge-bootstrap.story.md](./stories/phpstan-merge-bootstrap.story.md).
 
-=======
->>>>>>> .merge_file_biKJhM
->>>>>>> laraxot/dev
 ---
 
 # Queueable Actions del Modulo Notify

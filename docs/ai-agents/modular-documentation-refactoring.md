@@ -16,6 +16,7 @@ related:
   - "./05-front-office-audit.md"
   - "./06-cinematic-effects.md"
   - "./07-mcp-tailwind-ui.md"
+status: draft
 ---
 
 # 📚 MODULAR DOCUMENTATION REFACTORING REPORT
@@ -120,11 +121,7 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 |---------|------|
 | Panoramica | [.agents/docs/overview/agents-overview.md](./.agents/docs/overview/agents-overview.md) |
 | Workflow | [.agents/docs/workflow/agents-gsd-bmad.md](./.agents/docs/workflow/agents-gsd-bmad.md) |
-<<<<<<< HEAD
-| Architecture | [.agents/docs/architecture/agents-module-architecture.md](./.agents/docs/architecture/agents-module-architecture.md) |
-=======
 | Architecture | [.agents/docs/architecture/agents-module-architecture.md](agents-module-architecture.md) |
->>>>>>> laraxot/dev
 ```
 
 ### Da Moduli a File Originali
@@ -140,11 +137,7 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 ```markdown
 # .agents/docs/architecture/agents-filament-widgets.md
 ## Riferimenti
-<<<<<<< HEAD
-- [Coding Standards](../standards/agents-coding-standards.md)
-=======
 - [Coding Standards](agents-coding-standards.md)
->>>>>>> laraxot/dev
 - [Module Architecture](./agents-module-architecture.md)
 - [Quality Gate](../workflow/agents-quality-gate.md)
 ```

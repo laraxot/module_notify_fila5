@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "naming conventions"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Convenzioni di Naming per i Test
@@ -61,13 +62,8 @@ find Modules/*/tests Themes/*/tests -type f \
 
 1. **Identificare i duplicati:**
    ```bash
-<<<<<<< HEAD
-   cd /var/www/_bases/base_fixcity_fila5_mono/laravel
-   cd /var/www/_bases/base_ptvx_fila5_mono/laravel
-=======
    cd /var/www/_bases/base_fixcity_fila5/laravel
    cd /var/www/_bases/base_ptvx_fila5/laravel
->>>>>>> laraxot/dev
    find Modules/*/tests Themes/*/tests -type f \
      \( -name "*test.php" -o -name "*test.pest.php" -o -name "pest.php" \) \
      ! -name "*Test.php" ! -name "*Test.pest.php" ! -name "Pest.php" \
@@ -179,11 +175,8 @@ Modules/Xot/tests/Feature/fixstructuretest.pest.php
 
 ### Riferimenti Interni
 
-<<<<<<< HEAD
-- [../quality/phpstan-fixes.md](../quality/phpstan-fixes.md)
-=======
 - [../quality/phpstan-fixes.md](../phpstan-fixes.md)
->>>>>>> laraxot/dev
 - [../../Modules/Activity/docs/testing-guidelines.md](../../laravel/Modules/Activity/docs/testing-guidelines.md)
+- [../../Modules/Activity/docs/testing-guidelines.md](../../../Activity/docs/testing-guidelines.md)
 - [./test-structure.md](./test-structure.md)
 

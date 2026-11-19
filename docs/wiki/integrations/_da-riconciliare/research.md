@@ -8,6 +8,7 @@ type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
 # User Research - Notify Platform
@@ -41,14 +42,6 @@ updated: 2026-08-24
 - Usability test sul nuovo pannello Filament 5.
 
 ## 6. References
-<<<<<<< HEAD
-- [strategy.md](strategy.md)
-=======
-<<<<<<< .merge_file_hwc1w4
 - [strategy.md](../../../strategy.md)
 - [strategy.md](../../../strategy.md)
-=======
-- [strategy.md](strategy.md)
->>>>>>> .merge_file_nIdiWX
->>>>>>> laraxot/dev
 - [prd.md](prd.md)

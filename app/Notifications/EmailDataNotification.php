@@ -54,13 +54,9 @@ class EmailDataNotification extends Notification
             ->line($this->emailData->body);
 
         if (! empty($this->emailData->body_html)) {
-<<<<<<< HEAD
-            $mailMessage->view('notify::emails.template', [
-=======
             /** @var view-string $view */
             $view = 'notify::emails.template';
             $mailMessage->view($view, [
->>>>>>> laraxot/dev
                 'content' => $this->emailData->body_html]);
         }
 

@@ -16,6 +16,7 @@ related:
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+status: draft
 ---
 # REPLIKATE - Design Comuni Index
 
@@ -59,18 +60,10 @@ docs/
 - [Prompt REPLIKATE](./laravel/Themes/Sixteen/docs/prompts/replikate.txt)
 - [Theme Analysis](./docs/theme/sixteen/analysis/)
 - [Homepage Results](./docs/theme/sixteen/analysis/results.md)
-<<<<<<< HEAD
-- [Argomenti Analysis](./docs/design-comuni/pages/argomenti.md)
-=======
-<<<<<<< .merge_file_EmeERX
 - [Argomenti Analysis](pages/argomenti.md)
 - [Theme Analysis](../theme/sixteen/analysis)
 - [Homepage Results](../theme/sixteen/analysis/results.md)
 - [Argomenti Analysis](./pages/argomenti.md)
-=======
-- [Argomenti Analysis](./docs/design-comuni/pages/argomenti.md)
->>>>>>> .merge_file_W0HYZJ
->>>>>>> laraxot/dev
 
 ---
 

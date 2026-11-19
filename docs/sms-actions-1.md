@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_NCtLRF
-=======
->>>>>>> laraxot/dev
----
-title: "sms actions 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sms actions 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_CheWDc
->>>>>>> laraxot/dev
 # Azioni SMS
 
 ## Interfaccia

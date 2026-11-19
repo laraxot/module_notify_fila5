@@ -2,20 +2,16 @@
 qmd: "release marketing standard"
 issues: []
 discussions: []
-title: "Release e README marketing — Notify"
+title: "Release e README marketing: Notify"
 type: reference
 status: approved
 tags: [release, semantic-versioning, changelog, readme, marketing]
 created: "2026-05-26"
 updated: "2026-05-26"
-<<<<<<< HEAD
-issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
-=======
 issue: "https://github.com/provtv/base_ptv_fila5/issues/153"
->>>>>>> laraxot/dev
 ---
 
-# Release e README marketing — Notify
+# Release e README marketing: Notify
 
 ## Scopo
 

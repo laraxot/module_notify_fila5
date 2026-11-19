@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_slN40n
-=======
->>>>>>> laraxot/dev
----
-title: "provider contracts naming 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "provider contracts naming 1"
-issues: []
-discussions: []
----
-
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_hJaaGC
->>>>>>> laraxot/dev
 # Convenzioni di Naming per i Contracts
 
 ## Regola Fondamentale

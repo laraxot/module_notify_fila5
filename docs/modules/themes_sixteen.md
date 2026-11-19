@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "themes sixteen"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Gestione asset Vite per il tema Sixteen
@@ -27,11 +28,7 @@ Segui questi passaggi per risolvere:
 
 1. Vai nella cartella del tema:
    ```bash
-<<<<<<< HEAD
-   cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
-=======
    cd /var/www/html/_bases/base_fixcity_fila5/laravel/Themes/Sixteen
->>>>>>> laraxot/dev
    ```
 2. Esegui il comando:
    ```bash
@@ -41,17 +38,9 @@ Segui questi passaggi per risolvere:
 Questo comando pubblica gli asset necessari e risolve l'errore.
 
 ---
-
-title: "themes sixteen"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "themes sixteen"
-issues: []
-discussions: []
 ## Collegamenti
 - [Documentazione asset Vite nel tema](../../Themes/Sixteen/docs/assets.md)
+- [Documentazione asset Vite nel tema](../../../../Themes/Sixteen/docs/assets.md)
 - [Indice gestione temi e asset](../temi_asset.md) *(creare se non esiste)*
 
 ---

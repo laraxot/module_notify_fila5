@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "script automazione"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Script e Automazione
@@ -26,13 +27,5 @@ La cartella `bashscripts/` contiene script organizzati per categoria:
 ## Chaos readiness
 
 - Script operativo: `bashscripts/ai/chaos-readiness-check.sh`
-<<<<<<< HEAD
-- Comando documentato: [chaos-readiness](../commands/chaos-readiness.md)
-=======
-<<<<<<< .merge_file_04nfpV
 - Comando documentato: [chaos-readiness](../chaos-readiness.md)
 - Comando documentato: [chaos-readiness](../chaos-readiness.md)
-=======
-- Comando documentato: [chaos-readiness](../commands/chaos-readiness.md)
->>>>>>> .merge_file_YMmOCs
->>>>>>> laraxot/dev

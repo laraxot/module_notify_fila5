@@ -6,18 +6,12 @@ namespace Modules\Notify\Providers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
-<<<<<<< HEAD
-use Modules\Notify\Providers\Concerns\MergesNotifyConfigFromEnv;
-use Modules\Tenant\Actions\Config\ResolveTenantConfigValueAction;
-use Modules\Xot\Providers\XotBaseServiceProvider;
-=======
 use Modules\Notify\Actions\Mail\Mailjet\CreateMailjetTransportAction;
 use Modules\Notify\Providers\Concerns\MergesNotifyConfigFromEnv;
 use Modules\Tenant\Actions\Config\ResolveTenantConfigValueAction;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 use Symfony\Component\Mailer\Bridge\Mailjet\Transport\MailjetTransportFactory;
 use Symfony\Component\Mailer\Transport\TransportInterface;
->>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 class NotifyServiceProvider extends XotBaseServiceProvider
@@ -39,10 +33,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     public function boot(): void
     {
         parent::boot();
-<<<<<<< HEAD
-=======
         $this->registerMailjetTransport();
->>>>>>> laraxot/dev
         // if (! app()->environment('production')) {
         $mail = app(ResolveTenantConfigValueAction::class)->execute('mail');
         Assert::isArray($mail);
@@ -53,8 +44,6 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
         // }
     }
-<<<<<<< HEAD
-=======
 
     /**
      * Mailer `mailjet` (config/mail.php: 'mailjet' => ['transport' => 'mailjet']).
@@ -82,5 +71,4 @@ class NotifyServiceProvider extends XotBaseServiceProvider
             );
         });
     }
->>>>>>> laraxot/dev
 }
