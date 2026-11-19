@@ -6,22 +6,8 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_V56uqk
 tags: [docs, notify, bmad]
-qmd: "epics e user stories - modulo notify notify"
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_NFsxWJ
-=======
 qmd: "Notify epics user stories canali template hardening"
->>>>>>> .merge_file_M3NObB
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_tUHasC
->>>>>>> laraxot/dev
 ---
 
 # Epics e User Stories - Modulo Notify
