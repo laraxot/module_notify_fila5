@@ -117,10 +117,21 @@ it('throws exception when template not found', function (): void {
         ->toThrow(NotificationTemplateNotFoundException::class, 'Template invalid_template non trovato o non attivo');
 });
 
-// Il tipo e' nuovo, ma resta sotto Exception: i `catch (Exception $e)` scritti
-// prima — fra cui quello dentro il ciclo sui canali — continuano a prenderla.
-it('keeps the template exception catchable as a generic Exception', function (): void {
-    expect(new NotificationTemplateNotFoundException('x'))->toBeInstanceOf(Exception::class);
+// Il tipo e' nuovo, ma resta sotto Exception: chi aveva scritto
+// `catch (Exception $e)` attorno all'invio continua a prenderla, e ora riceve
+// il tipo di dominio. Se la classe uscisse dalla gerarchia di Exception, il
+// catch qui sotto non la prenderebbe e il test fallirebbe.
+it('lets an existing catch (Exception) receive the template exception', function (): void {
+    $notificationManager = new NotificationManager;
+    $caught = null;
+
+    try {
+        $notificationManager->send(actionsNotificationManagerRecipient(), 'invalid_template');
+    } catch (Exception $e) {
+        $caught = $e;
+    }
+
+    expect($caught)->toBeInstanceOf(NotificationTemplateNotFoundException::class);
 });
 
 it('returns array from send method', function (): void {
