@@ -10,6 +10,7 @@ use Mockery;
 use Modules\Notify\Actions\NotificationManager;
 use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Modules\Notify\Exceptions\NotificationTemplateNotFoundException;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Tests\TestCase;
@@ -104,13 +105,22 @@ it('can get templates by category', function (): void {
     expect($result)->toHaveCount(0);
 });
 
+// L'eccezione ora e' di dominio e arriva dall'unico punto che risolve il
+// template, cioe' SendNotificationAction: il manager non lo cerca piu' per
+// conto suo (base_quaeris_fila5#103, #112).
 it('throws exception when template not found', function (): void {
     $notificationManager = new NotificationManager;
     $recipient = actionsNotificationManagerRecipient();
     $templateCode = 'invalid_template';
 
     expect(fn () => $notificationManager->send($recipient, $templateCode))
-        ->toThrow(Exception::class, 'Template not found: invalid_template');
+        ->toThrow(NotificationTemplateNotFoundException::class, 'Template invalid_template non trovato o non attivo');
+});
+
+// Il tipo e' nuovo, ma resta sotto Exception: i `catch (Exception $e)` scritti
+// prima — fra cui quello dentro il ciclo sui canali — continuano a prenderla.
+it('keeps the template exception catchable as a generic Exception', function (): void {
+    expect(new NotificationTemplateNotFoundException('x'))->toBeInstanceOf(Exception::class);
 });
 
 it('returns array from send method', function (): void {

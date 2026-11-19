@@ -120,18 +120,18 @@ body:
         - **Documentation Team**: Created comprehensive docs ✅
 
         **For Other Agents**:
-        - See coordination log: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
-        - Add your tests to: `docs/github/SYNC_REMOTE_REPO_TEST_PLAN.md`
+        - See coordination log: `bashscripts/docs/git/sync_remote_repo_coordination.md`
+        - Add your tests to: `docs/github/sync_remote_repo_test_plan.md`
         - Use lock file protocol for exclusive work
 
         ---
 
         ## Related Resources
 
-        - **Test Plan**: `docs/github/SYNC_REMOTE_REPO_TEST_PLAN.md`
+        - **Test Plan**: `docs/github/sync_remote_repo_test_plan.md`
         - **Script**: `bashscripts/git/subtrees/sync_remote_repo.sh`
         - **Workflow**: `.github/workflows/sync-remote-repo.yml`
-        - **Coordination Log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+        - **Coordination Log**: `bashscripts/docs/git/sync_remote_repo_coordination.md`
         - **Troubleshooting**: `bashscripts/docs/git/TROUBLESHOOTING.md`
 
         ---

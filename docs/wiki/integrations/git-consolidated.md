@@ -1046,7 +1046,7 @@ cp /path/to/backup/.gitattributes laravel/Modules/Blog/
 - [x] Remove all `.gitattributes` files
 - [x] Update root `.gitignore`
 - [x] Create module `.gitignore` files
-- [x] Update agents.md
+- [x] Update AGENTS.md
 - [x] Document cleanup
 - [x] Verify with git check-ignore
 
@@ -1311,10 +1311,10 @@ echo "Synced .github with bashscripts/ai/.github on $(date)" >> bashscripts/ai/.
 | Source | Destination | Purpose |
 |--------|-------------|---------|
 | `.github/workflows/*.yml` | `bashscripts/ai/.github/workflows/` | All workflows |
-| `.github/contributing.md` | `bashscripts/ai/.github/` | Contribution guide |
+| `.github/CONTRIBUTING.md` | `bashscripts/ai/.github/` | Contribution guide |
 | `.github/pull_request_template.md` | `bashscripts/ai/.github/` | PR template |
 | `.github/dependabot.yml` | `bashscripts/ai/.github/` | Dependabot config |
-| `.github/security.md` | `bashscripts/ai/.github/` | Security policy |
+| `.github/SECURITY.md` | `bashscripts/ai/.github/` | Security policy |
 
 ---
 

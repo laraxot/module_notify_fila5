@@ -8,7 +8,7 @@ title: "html2pdf security: puntatore"
 type: reference
 updated: 2026-05-21
 related:
-  - "../../../Media/docs/html2pdf/security.md"
+  - "../../../Media/docs/html2pdf/SECURITY.md"
 status: draft
 ---
 
@@ -16,4 +16,4 @@ status: draft
 
 Stub **DRY**. Documentazione canonica nel modulo **Media** (issue [#124](https://github.com/provtv/base_ptv_fila5/issues/124)).
 
-→ [security.md](../../../Media/docs/html2pdf/security.md)
+→ [SECURITY.md](../../../Media/docs/html2pdf/security.md)

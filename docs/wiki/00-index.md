@@ -10,7 +10,7 @@ tags: [docs, notify, wiki]
 qmd: "**indice documentazione modulo notify** notify"
 ---
 
-> Nota 2026-10-14 (docs-audit): Variante di maiuscole di wiki/00-INDEX.md, stesso testo; l'indice operativo e' ../00-INDEX.md. Contenuto non riscritto, verificare prima di usarlo.
+> Nota 2026-10-14 (docs-audit): Variante di maiuscole di wiki/00-index.md, stesso testo; l'indice operativo e' ../00-index.md. Contenuto non riscritto, verificare prima di usarlo.
 
 # 📚 **Indice Documentazione Modulo Notify**
 
@@ -18,7 +18,7 @@ qmd: "**indice documentazione modulo notify** notify"
 **Module Version**: 2.1.0
 
 ## 🎯 **Lettura Essenziale**
-1. [README.md](./readme.md) - Panoramica completa e Quick Start.
+1. [README.md](./README.md) - Panoramica completa e Quick Start.
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Multi-channel API e AI Templates.
 3. [philosophy.md](./philosophy.md) - "Essere Connessi": filosofia delle notifiche in tempo reale.
 
@@ -47,7 +47,7 @@ qmd: "**indice documentazione modulo notify** notify"
 - 🔄 **[Queue Management](../monitoring.md)** - Monitoraggio delle code e dei fallback.
 
 ## 🧪 **Qualità e Sviluppo**
-- ✅ **[PHPStan Analysis](../phpstan-fixes.md)** - Report di conformità Level 10.
+- ✅ **[PHPStan Analysis](../PHPSTAN-FIXES.md)** - Report di conformità Level 10.
 - 🚨 **[PHPStan Cluster 2026-03-10](../phpstan-cluster.md)** - Modelli canonici mancanti per log/canali e impatto su factory/controller.
 - 🧭 **[No Orphan Http Controllers](../no-orphan-http-controllers.md)** - I controller web senza route o boundary chiaro non devono restare nel modulo.
 - 🚫 **[No NotificationTrackingController](../no-notification-tracking-controller.md)** - Il tracking notifiche non deve vivere in un controller HTTP legacy.
@@ -67,8 +67,8 @@ qmd: "**indice documentazione modulo notify** notify"
 - 🛡️ **[Security Analysis](./security-analysis.md)** - Protezione dei webhook dei provider (es. WhatsApp).
 
 ## 🔗 **Moduli Correlati**
-- [Xot](../../xot/docs/readme.md) - Dispatcher centrale.
-- [User](../../user/docs/readme.md) - Definizione dei destinatari e preferenze.
+- [Xot](../../xot/docs/README.md) - Dispatcher centrale.
+- [User](../../user/docs/README.md) - Definizione dei destinatari e preferenze.
 - 🧭 **[No Orphan Http Controllers](../no-orphan-http-controllers.md)** - I controller web senza route o boundary chiaro non devono restare nel modulo.
 - 🚫 **[No NotificationTrackingController](../no-notification-tracking-controller.md)** - Il tracking notifiche non deve vivere in un controller HTTP legacy.
 - 🧹 **[PHPStan cleanup Notify 2026-10-06](../stories/phpstan-cleanup-notify.dev.md)** - NotificationLog ripristinato + enum, stub push, pagine Test Filament ([story](../stories/phpstan-cleanup-notify.story.md)).
@@ -88,7 +88,7 @@ qmd: "**indice documentazione modulo notify** notify"
 
 ## 🔗 **Moduli Correlati**
 - [Xot](../../../Xot/docs/README.md) - Dispatcher centrale.
-- [User](../../../User/docs/readme.md) - Definizione dei destinatari e preferenze.
+- [User](../../../User/docs/README.md) - Definizione dei destinatari e preferenze.
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*

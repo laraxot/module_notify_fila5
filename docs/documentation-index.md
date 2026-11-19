@@ -315,7 +315,7 @@ status: draft
 ## 📝 Changelog & Versioning
 
 ### Version History
-- [Changelog](./CHANGELOG.md) - Storico modifiche
+- [Changelog](./CHANGELOG.MD) - Storico modifiche
 - [Versioning Strategy](./versioning.md) - Strategia versioning
 - [Migration Guides](./migrations/README.md) - Guide migrazione
 

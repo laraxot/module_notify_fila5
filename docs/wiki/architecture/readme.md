@@ -13,13 +13,13 @@ discussions:
 related:
   - ../README.md
   - ../wiki/index.md
-  - ../notifications/readme.md
-  - ../integrations/readme.md
-  - ../templates/readme.md
+  - ../notifications/README.md
+  - ../integrations/README.md
+  - ../templates/README.md
   - ../index.md
-  - ../../notifications/readme.md
-  - ../../integrations/readme.md
-  - ../../templates/readme.md
+  - ../../notifications/README.md
+  - ../../integrations/README.md
+  - ../../templates/README.md
 status: draft
 ---
 # Architettura Progetto - Indice

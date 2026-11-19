@@ -336,7 +336,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📚 GUIDA RAPIDA ALLA DOCUMENTAZIONE
 
 ### 🌟 START HERE
-**[→ ANALISI COMPLETA](./ANALISI-COMPLETA.md)** - Executive Summary del progetto
+**[→ ANALISI COMPLETA](./analisi-completa.md)** - Executive Summary del progetto
 **[→ ANALISI COMPLETA](./analisi-completa-ottobre-data.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
@@ -559,7 +559,7 @@ php artisan queue:work --queue=high,notifications,default
 
 - [← Torna all'Indice](./index.md)
 - [← Master Roadmap](./roadmap-master-index.md)
-- [← Analisi Completa](./ANALISI-COMPLETA.md)
+- [← Analisi Completa](./analisi-completa.md)
 - [← Analisi Completa](./analisi-completa-ottobre-data.md)
 
 ---

@@ -1,8 +1,8 @@
 ---
-qmd: "CONTRIBUTING"
+qmd: "Contributing"
 issues: []
 discussions: []
-title: "Contributing to Notify"
+title: "Contributing"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -357,7 +357,7 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ---
 
-<!-- Merged from contributing.md, which collided with this file on case-insensitive filesystems. -->
+<!-- Merged from CONTRIBUTING.md, which collided with this file on case-insensitive filesystems. -->
 
 ---
 title: "Contributing to <nome progetto>"

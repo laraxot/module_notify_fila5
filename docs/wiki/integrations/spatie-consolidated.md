@@ -1231,12 +1231,12 @@ Questa guida illustra come utilizzare la classe `SpatieEmail` per inviare email 
 
 ## Collegamenti correlati
 
-- [README del modulo Notify](./readme.md)
+- [README del modulo Notify](./README.md)
 - [Documentazione Email Templates](./email_templates.md)
 - [Email Specifiche per Dottori](./doctor-emails.md)
 - [Implementazione Database Mail](./database-mail.md)
 - [Documentazione Centrale](../../../../../docs/collegamenti-documentazione.md)
-- [Modulo Xot](../../../xot/docs/readme.md)
+- [Modulo Xot](../../../xot/docs/README.md)
 - [Documentazione Email Templates](../../email_templates.md)
 - [Email Specifiche per Dottori](../../doctor-emails.md)
 - [Implementazione Database Mail](../../database-mail.md)
@@ -1765,9 +1765,9 @@ Schema::table('mail_templates', function (Blueprint $table) {
 
 ### Documentazione Interna
 - [Errore Plugin Not Registered](../../errori/plugin-spatie-translatable-not-registered.md)
-- [Lang Module README](../../lang/docs/readme.md)
+- [Lang Module README](../../lang/docs/README.md)
 - [Errore Plugin Not Registered](../../errori/plugin-spatie-translatable-not-registered.md)
-- [Lang Module README](../../../../Lang/docs/readme.md)
+- [Lang Module README](../../../../Lang/docs/README.md)
 - [Filament Panels Configuration](../../xot/docs/filament/panel-configuration.md)
 
 ---

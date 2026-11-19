@@ -13,17 +13,17 @@ discussions:
 related:
   - ../README.md
   - ../wiki/index.md
-  - readme.md
-  - ../integrations/readme.md
-  - ../templates/readme.md
+  - README.md
+  - ../integrations/README.md
+  - ../templates/README.md
 status: draft
 ---
 # Indice Documentazione Notifiche
 
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../index.md)
-- [README Modulo Notify](../readme.md)
-- [Documentazione Generale <nome progetto>](../../../../../../docs/readme.md)
+- [README Modulo Notify](../README.md)
+- [Documentazione Generale <nome progetto>](../../../../../../docs/README.md)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 

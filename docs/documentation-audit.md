@@ -109,7 +109,7 @@ DELETE: /var/www/_bases/base_ptv_fila5/laravel/Modules/Cms/docs/migrations/archi
 /var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/00-index-1.md
 /var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/00-index.md
 /var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/README.md
-/var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/readme.md
+/var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/README.md
 ```
 
 **Recommendation:** Enforce lowercase filenames with hyphens as word separators.
