@@ -544,7 +544,7 @@ class SmtpData extends Data
 
 ## send-email-translation-fix-1
 
-*Consolidated from: `send-email-translation-fix-1.md`*
+*Consolidated from: `send-email-translation-fix.md`*
 *Consolidated from: `send-email-translation-fix.md`*
 
 

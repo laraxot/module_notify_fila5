@@ -2370,7 +2370,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/register-action-refactoring.md`: Architectural Refactoring: Implementing Spatie Queueable Actions
 - `laravel/Modules/Gdpr/docs/register-page-animations.md`: Register Page Animations System
 - `laravel/Modules/Gdpr/docs/register-page-color-system.md`: Register Page Color System
-- `laravel/Modules/Gdpr/docs/register-page-design-research-.md`: Register Page Design Research 2026
+- `laravel/Modules/Gdpr/docs/register-page-design-research.md`: Register Page Design Research 2026
 - `laravel/Modules/Gdpr/docs/register-page-enhancements.md`: Register Page Enhancements: Super Clickbait Strategy
 - `laravel/Modules/Gdpr/docs/register-page-layout-system.md`: Register Page Layout System
 - `laravel/Modules/Gdpr/docs/register-page-seo.md`: Register Page SEO
