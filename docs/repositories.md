@@ -20,7 +20,11 @@ https://www.mailcoach.app/resources/blog/using-the-mailcoach-markdown-editor-in-
 
 
 ## Collegamenti tra versioni di repositories.md
+<<<<<<< HEAD
 * [repositories.md](docs/repositories.md)
+=======
+* [repositories.md](repositories.md)
+>>>>>>> laraxot/dev
 * [repositories.md](../../../notify/docs/repositories.md)
 * [repositories.md](../../../user/docs/repositories.md)
 

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_M6WOMc
+=======
+>>>>>>> laraxot/dev
 ---
 title: "sms driver enum translations 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Xg80Yn
+>>>>>>> laraxot/dev
 # Traduzioni SmsDriverEnum - Modulo Notify
 
 ## Panoramica
@@ -231,6 +240,11 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_M6WOMc
+=======
+>>>>>>> laraxot/dev
 title: "sms driver enum translations 1"
 type: note
 tags: [documentation]
@@ -239,6 +253,10 @@ updated: 2026-09-26
 qmd: "sms driver enum translations 1"
 issues: []
 discussions: []
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Xg80Yn
+>>>>>>> laraxot/dev
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)

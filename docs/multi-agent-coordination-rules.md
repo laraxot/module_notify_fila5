@@ -264,7 +264,11 @@ git push origin dev
 
 ## 🔗 Resources
 
+<<<<<<< HEAD
 - [Multi-Agent Guide](docs/multi-agent-collaboration-guide.md)
+=======
+- [Multi-Agent Guide](multi-agent-collaboration-guide.md)
+>>>>>>> laraxot/dev
 - [GitHub Sync Rule](docs/github-sync-rule.md)
 - [AI Rules](../.qwen/ai-rules-critical.md)
 - [AI Memory](../.qwen/AI_MEMORY.md)

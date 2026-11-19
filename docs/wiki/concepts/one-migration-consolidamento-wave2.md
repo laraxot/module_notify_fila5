@@ -13,7 +13,11 @@ related:
   - ./notifications-database-contract.md
   - ../../../Xot/docs/wiki/concepts/one-migration-per-model.md
   - ../../../../../../bashscripts/ai/wiki/memories/one-migration-per-model-bump-timestamp.md
+<<<<<<< HEAD
   - ../../../../Quaeris/docs/stories/quaeris-send-invite-migrate-to-record-notification.md
+=======
+  - ../../../../<nome progetto>/docs/stories/<nome progetto>-send-invite-migrate-to-record-notification.md
+>>>>>>> laraxot/dev
 ---
 
 # Notify — consolidamento migrazioni
@@ -44,8 +48,13 @@ tabella esiste già.
 
 ### Esempio applicato — `mail_templates.sms_from` (2026-09-10, Difetto 9)
 
+<<<<<<< HEAD
 Story `quaeris-send-invite-migrate-to-record-notification.md`
 ([module_quaeris_fila5#38](https://github.com/laraxot/module_quaeris_fila5/issues/38)):
+=======
+Story `<nome progetto>-send-invite-migrate-to-record-notification.md`
+([module_<nome progetto>_fila5#38](https://github.com/laraxot/module_<nome progetto>_fila5/issues/38)):
+>>>>>>> laraxot/dev
 `RecordNotification::toSms()` aveva `'from' => 'Xot'` hardcoded e i 39 mittenti SMS
 reali per azienda (`notify_themes.from`, righe `type='sms'`) non avevano dove
 essere migrati.

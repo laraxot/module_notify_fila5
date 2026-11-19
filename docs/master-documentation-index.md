@@ -74,7 +74,16 @@ related:
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
+<<<<<<< HEAD
 - [Quality Reports](./reports/quality.md)
+=======
+<<<<<<< .merge_file_qbY9aM
+- [Quality Reports](roadmap/quality.md)
+- [Quality Reports](./roadmap/quality.md)
+=======
+- [Quality Reports](./reports/quality.md)
+>>>>>>> .merge_file_ziZiAL
+>>>>>>> laraxot/dev
 - [Performance Reports](./reports/performance.md)
 
 ---

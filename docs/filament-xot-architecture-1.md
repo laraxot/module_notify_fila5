@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_acXlWO
+=======
+>>>>>>> laraxot/dev
 ---
 title: "filament xot architecture 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_TMXCVt
+>>>>>>> laraxot/dev
 # Architettura Filament : Pattern XotBase
 
 ## Introduzione

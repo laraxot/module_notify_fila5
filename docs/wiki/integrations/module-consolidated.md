@@ -78,7 +78,11 @@ Il modulo Notify è il sistema di gestione notifiche e comunicazioni riutilizzab
 
 ### 1. **Notification - Gestione Notifiche**
 - **Responsabilità**: Gestire notifiche del sistema
+<<<<<<< HEAD
 - **Business Logic**: 
+=======
+- **Business Logic**:
+>>>>>>> laraxot/dev
   - Gestione stato notifiche
   - Gestione destinatari notifiche
   - Gestione contenuti notifiche
@@ -299,12 +303,21 @@ Il modulo Notify è il sistema di gestione notifiche e comunicazioni riutilizzab
 
 
 ## Module Overview
+<<<<<<< HEAD
 **Module Name**: Notify  
 **Type**: Notification & Communication Module  
 **Status**: ✅ Active  
 **Framework**: Laravel 12.x + Filament 4.x  
 **Notification Channels**: Email, SMS, Database, Push  
 **Language**: Multi-language (IT/EN/DE)  
+=======
+**Module Name**: Notify
+**Type**: Notification & Communication Module
+**Status**: ✅ Active
+**Framework**: Laravel 12.x + Filament 4.x
+**Notification Channels**: Email, SMS, Database, Push
+**Language**: Multi-language (IT/EN/DE)
+>>>>>>> laraxot/dev
 
 ## Purpose
 The Notify module provides comprehensive notification and communication functionality:
@@ -415,6 +428,7 @@ related:
 
 # Master Documentation Index - Notify Fila5
 
+<<<<<<< HEAD
 **Project:** Notify Fila5  
 # Master Documentation Index - <nome progetto> Fila5
 
@@ -422,6 +436,15 @@ related:
 **Date:** 2026-04-01  
 **Status:** ✅ **Active**  
 **Total Docs:** 7,137+ markdown files  
+=======
+**Project:** Notify Fila5
+# Master Documentation Index - <nome progetto> Fila5
+
+**Project:** <nome progetto> Fila5
+**Date:** 2026-04-01
+**Status:** ✅ **Active**
+**Total Docs:** 7,137+ markdown files
+>>>>>>> laraxot/dev
 
 ---
 
@@ -598,8 +621,13 @@ Notify Fila5 Documentation
 
 ### Sixteen Theme
 
+<<<<<<< HEAD
 **Location:** `laravel/Themes/Sixteen/docs/`  
 **Files:** 325  
+=======
+**Location:** `laravel/Themes/Sixteen/docs/`
+**Files:** 325
+>>>>>>> laraxot/dev
 **Index:** [README.md](Themes/Sixteen/docs/README.md)
 
 **Key Documents:**
@@ -624,8 +652,13 @@ Notify Fila5 Documentation
 
 ## 📁 BMad Documentation
 
+<<<<<<< HEAD
 **Location:** `_bmad-output/`  
 **Files:** 9  
+=======
+**Location:** `_bmad-output/`
+**Files:** 9
+>>>>>>> laraxot/dev
 **Status:** ✅ Complete
 
 | Document | File | Lines | Purpose |
@@ -807,10 +840,17 @@ Themes/Sixteen/docs/
 ```markdown
 # Document Title
 
+<<<<<<< HEAD
 **Created:** YYYY-MM-DD  
 **Updated:** YYYY-MM-DD  
 **Status:** Draft | Active | Archived  
 **Type:** Guide | Reference | ADR | Fix Report  
+=======
+**Created:** YYYY-MM-DD
+**Updated:** YYYY-MM-DD
+**Status:** Draft | Active | Archived
+**Type:** Guide | Reference | ADR | Fix Report
+>>>>>>> laraxot/dev
 
 ---
 
@@ -834,8 +874,13 @@ Main content here.
 
 ---
 
+<<<<<<< HEAD
 **Last Updated:** YYYY-MM-DD  
 **Author:** Name  
+=======
+**Last Updated:** YYYY-MM-DD
+**Author:** Name
+>>>>>>> laraxot/dev
 **Review Date:** YYYY-MM-DD
 ```
 
@@ -868,9 +913,15 @@ Main content here.
 
 ---
 
+<<<<<<< HEAD
 **Last Updated:** 2026-04-01  
 **Next Review:** 2026-04-08  
 **Owner:** Documentation Team  
+=======
+**Last Updated:** 2026-04-01
+**Next Review:** 2026-04-08
+**Owner:** Documentation Team
+>>>>>>> laraxot/dev
 **Status:** ✅ **Active**
 
 🐮 **Master Documentation Index Complete!**
@@ -1002,7 +1053,11 @@ composer format        # Formatta il codice
 ## Changelog
 ### Versione HEAD
 
+<<<<<<< HEAD
 Le modifiche vengono tracciate nel repository GitHub. 
+=======
+Le modifiche vengono tracciate nel repository GitHub.
+>>>>>>> laraxot/dev
 ## Collegamenti tra versioni di module_notify.md
 * [module_notify.md](docs/module_notify.md)
 * [module_notify.md](../../../notify/docs/module_notify.md)
@@ -1010,7 +1065,11 @@ Le modifiche vengono tracciate nel repository GitHub.
 
 ### Versione Incoming
 
+<<<<<<< HEAD
 Le modifiche vengono tracciate nel repository GitHub. 
+=======
+Le modifiche vengono tracciate nel repository GitHub.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -1020,12 +1079,21 @@ Le modifiche vengono tracciate nel repository GitHub.
 
 
 ## Module Overview
+<<<<<<< HEAD
 **Module Name**: Notify  
 **Type**: Notification & Communication Module  
 **Status**: ✅ Active  
 **Framework**: Laravel 12.x + Filament 4.x  
 **Notification Channels**: Email, SMS, Database, Push  
 **Language**: Multi-language (IT/EN/DE)  
+=======
+**Module Name**: Notify
+**Type**: Notification & Communication Module
+**Status**: ✅ Active
+**Framework**: Laravel 12.x + Filament 4.x
+**Notification Channels**: Email, SMS, Database, Push
+**Language**: Multi-language (IT/EN/DE)
+>>>>>>> laraxot/dev
 
 ## Purpose
 The Notify module provides comprehensive notification and communication functionality:
@@ -1076,7 +1144,11 @@ The Notify module provides comprehensive notification and communication function
 ## Integration with Other Modules
 - **User**: Communication with system users
 - **App**: Survey participant notifications
+<<<<<<< HEAD
 - **Quaeris**: Survey participant notifications
+=======
+- **<nome progetto>**: Survey participant notifications
+>>>>>>> laraxot/dev
 - **Limesurvey**: Survey response notifications
 - **Xot**: Base notification infrastructure
 - **Filament**: Management interface

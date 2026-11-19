@@ -99,7 +99,11 @@ discussions: []
 ## 🔗 Link
 
 - [Indice AGENTS](./agents-split-index.md)
+<<<<<<< HEAD
 - [phpstan.md](./phpstan.md) - Analisi statica
+=======
+- [phpstan.md](../phpstan.md) - Analisi statica
+>>>>>>> laraxot/dev
 - [AGENTS.md originale](../../AGENTS.md)
 - [agents.md originale](../../agents.md)
 - [Index principale](./index.md)

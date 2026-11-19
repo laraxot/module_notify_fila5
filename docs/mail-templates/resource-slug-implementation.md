@@ -13,7 +13,11 @@ discussions: []
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto Quaeris.
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
+>>>>>>> laraxot/dev
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto App.
 
 ## Implementazione nel Form Schema
@@ -30,11 +34,16 @@ public static function getFormSchema(): array
         'name' => Forms\Components\TextInput::make('name')
             ->required()
             ->maxLength(255),
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
         'slug' => Forms\Components\TextInput::make('slug')
             ->required()
             ->unique(ignoreRecord: true)
             ->maxLength(255)
+<<<<<<< HEAD
             ->afterStateUpdated(fn (string $context, $state, callable $set) => 
                 $context === 'create' ? $set('slug', Str::slug($state)) : null),
             
@@ -42,6 +51,15 @@ public static function getFormSchema(): array
             ->required()
             ->maxLength(255),
         
+=======
+            ->afterStateUpdated(fn (string $context, $state, callable $set) =>
+                $context === 'create' ? $set('slug', Str::slug($state)) : null),
+
+        'mailable' => Forms\Components\TextInput::make('mailable')
+            ->required()
+            ->maxLength(255),
+
+>>>>>>> laraxot/dev
         // Altri campi...
     ];
 }
@@ -54,7 +72,11 @@ public static function getFormSchema(): array
 3. **Validazione Unicità**: L'opzione `unique(ignoreRecord: true)` garantisce unicità, escludendo il record corrente durante l'aggiornamento.
 4. **Generazione Automatica**: La callback `afterStateUpdated()` genera automaticamente lo slug dal nome quando si crea un nuovo record.
 
+<<<<<<< HEAD
 ## Conformità con gli Standard Quaeris
+=======
+## Conformità con gli Standard <nome progetto>
+>>>>>>> laraxot/dev
 ## Conformità con gli Standard App
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
@@ -80,16 +102,28 @@ public static function getListTableColumns(): array
     return [
         'id' => Tables\Columns\TextColumn::make('id')
             ->sortable(),
+<<<<<<< HEAD
             
         'name' => Tables\Columns\TextColumn::make('name')
             ->searchable()
             ->sortable(),
             
+=======
+
+        'name' => Tables\Columns\TextColumn::make('name')
+            ->searchable()
+            ->sortable(),
+
+>>>>>>> laraxot/dev
         'slug' => Tables\Columns\TextColumn::make('slug')
             ->searchable()
             ->sortable()
             ->copyable(),
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
         // Altri campi...
     ];
 }
@@ -117,7 +151,11 @@ public static function getTableFilters(): array
 {
     return [
         // Altri filtri...
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         'slug' => Tables\Filters\TextFilter::make('slug')
     ];
 }
@@ -161,7 +199,11 @@ return [
    ```php
    // Ordinare i template per slug
    MailTemplate::query()->orderBy('slug')->get();
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> laraxot/dev
    // Cercare template per slug parziale
    MailTemplate::query()->where('slug', 'like', 'welcome-%')->get();
    ```

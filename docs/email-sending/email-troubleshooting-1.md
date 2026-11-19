@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_24wa9y
+=======
+>>>>>>> laraxot/dev
 ---
 title: "email troubleshooting 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_JdL0LV
+>>>>>>> laraxot/dev
 # Risoluzione dei Problemi nelle Email
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.
@@ -217,4 +226,12 @@ public function test_can_send_email_with_attachments()
 
 - [ATTACHMENTS_USAGE.md](./attachments_usage.md)
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/email_layouts_best_practices.md)
+<<<<<<< HEAD
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/spatie_mail_templates_structure.md)
+=======
+<<<<<<< .merge_file_24wa9y
+- [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/spatie_mail_templates_structure.md)
+=======
+- [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/spatie_mail_templates_structure.md)
+>>>>>>> .merge_file_JdL0LV
+>>>>>>> laraxot/dev

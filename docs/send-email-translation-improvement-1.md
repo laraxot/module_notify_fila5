@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Vwcu0r
+=======
+>>>>>>> laraxot/dev
 ---
 title: "send email translation improvement 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_6wyy2R
+>>>>>>> laraxot/dev
 # Miglioramento File Traduzione send_email.php
 
 ## 🔍 Analisi del Problema
@@ -1205,6 +1214,13 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Vwcu0r
+**Ultimo aggiornamento**: Gennaio 2025
+**Autore**: Sistema di miglioramento automatico
+=======
+>>>>>>> laraxot/dev
 title: "send email translation improvement 1"
 type: note
 tags: [documentation]
@@ -1214,4 +1230,9 @@ qmd: "send email translation improvement 1"
 issues: []
 discussions: []
 **Ultimo aggiornamento**: Gennaio 2025
+<<<<<<< HEAD
 **Autore**: Sistema di miglioramento automatico
+=======
+**Autore**: Sistema di miglioramento automatico
+>>>>>>> .merge_file_6wyy2R
+>>>>>>> laraxot/dev

@@ -182,7 +182,12 @@ echo $uniqueSlug;
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Struttura della Migrazione](./MIGRATION_STRUCTURE.md)
 - [Implementazione Campo Slug nella Migrazione](./SLUG_FIELD_IMPLEMENTATION.md)
+=======
+- [Struttura della Migrazione](migration_structure.md)
+- [Implementazione Campo Slug nella Migrazione](slug_field_implementation.md)
+>>>>>>> laraxot/dev
 - [Guida alla Migrazione MailTemplate](../MAIL_TEMPLATE_MIGRATION_GUIDE.md)
 - [Documentazione Spatie Sluggable](https://github.com/spatie/laravel-sluggable)

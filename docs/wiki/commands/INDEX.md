@@ -1,7 +1,16 @@
 ---
+<<<<<<< HEAD
 qmd: "INDEX"
 issues: []
 discussions: []
+=======
+<<<<<<< .merge_file_DsJhc7
+=======
+qmd: "INDEX"
+issues: []
+discussions: []
+>>>>>>> .merge_file_A76OOV
+>>>>>>> laraxot/dev
 title: "Commands Index"
 type: index
 created: 2026-05-11
@@ -37,7 +46,15 @@ Le Commands progettuali vivono qui, nel wiki del Module **Notify**, e vengono ca
 
 - La sorgente di verita' per le Commands e' sempre il wiki locale
 - Non embeddare Commands nei prompt di avvio
+<<<<<<< HEAD
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
+=======
+<<<<<<< .merge_file_DsJhc7
+- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
+=======
+- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
+>>>>>>> .merge_file_A76OOV
+>>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova COMMANDS
 

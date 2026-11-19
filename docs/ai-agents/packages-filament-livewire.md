@@ -466,7 +466,11 @@ new class extends Component {
 
 ```php
 use Livewire\Livewire;
+<<<<<<< HEAD
 use Modules\Quaeris\Filament\Widgets\SalesChartWidget;
+=======
+use Modules\<nome progetto>\Filament\Widgets\SalesChartWidget;
+>>>>>>> laraxot/dev
 use Modules\App\Filament\Widgets\SalesChartWidget;
 
 it('renders chart widget', function (): void {

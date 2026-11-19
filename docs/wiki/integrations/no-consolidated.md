@@ -76,10 +76,17 @@ Rimosse in questo modulo: `_docs/`, `scripts/`, `bashscripts/`, `docs/archive|ar
 *Consolidated from: `no-hardcoded-language-religion.md`*
 
 
+<<<<<<< HEAD
 **Status**: Active  
 **Created**: 2026-04-14  
 **Last Updated**: 2026-04-14  
 **Category**: Architecture / Religion / i18n  
+=======
+**Status**: Active
+**Created**: 2026-04-14
+**Last Updated**: 2026-04-14
+**Category**: Architecture / Religion / i18n
+>>>>>>> laraxot/dev
 **Audience**: All developers + AI agents
 
 ---
@@ -88,12 +95,21 @@ Rimosse in questo modulo: `_docs/`, `scripts/`, `bashscripts/`, `docs/archive|ar
 
 **NON scriverai MAI parole in italiano (o qualsiasi lingua) nel codice PHP.**
 
+<<<<<<< HEAD
 **MAI.**  
 **Senza eccezioni.**  
 **Senza scuse.**  
 **SENZA DISCUSSIONE.**
 
 **Il sito e' multilingua.**  
+=======
+**MAI.**
+**Senza eccezioni.**
+**Senza scuse.**
+**SENZA DISCUSSIONE.**
+
+**Il sito e' multilingua.**
+>>>>>>> laraxot/dev
 **Ogni stringa hardcoded in italiano e un insulto agli utenti non italiani.**
 
 ---
@@ -555,8 +571,13 @@ bash bashscripts/check-hardcoded-language.sh
 
 ### Il Credo
 
+<<<<<<< HEAD
 > "Codice in inglese, UI nella lingua dell'utente.  
 > Mai hardcoded, sempre translation keys.  
+=======
+> "Codice in inglese, UI nella lingua dell'utente.
+> Mai hardcoded, sempre translation keys.
+>>>>>>> laraxot/dev
 > i18n non e optional, e rispetto."
 
 ### La Preghiera
@@ -769,8 +790,13 @@ related:
 
 # NotebookLM Skill - Installation & Integration Summary
 
+<<<<<<< HEAD
 **Date**: 2026-03-30  
 **Status**: ✅ Installed & Integrated  
+=======
+**Date**: 2026-03-30
+**Status**: ✅ Installed & Integrated
+>>>>>>> laraxot/dev
 **Workflow**: BMAD + GSD + Ralph + OpenViking + NotebookLM
 
 ## Installation Summary
@@ -1127,8 +1153,13 @@ DEFAULT_NOTEBOOK_ID=<nome progetto>-project-docs
 
 ---
 
+<<<<<<< HEAD
 **Status**: ✅ Ready for authentication and notebook creation  
 **Last Updated**: 2026-03-30  
+=======
+**Status**: ✅ Ready for authentication and notebook creation
+**Last Updated**: 2026-03-30
+>>>>>>> laraxot/dev
 **Integrated By**: AI Agent (BMAD + GSD + Ralph Workflow)
 
 ---
@@ -1456,7 +1487,11 @@ L'utilizzo di Queueable Actions e componenti Blade di Filament garantisce:
 - Operazioni asincrone efficienti
 - UI/UX moderna e responsive
 - Integrazione nativa con Filament
+<<<<<<< HEAD
 - Facilità di manutenzione 
+=======
+- Facilità di manutenzione
+>>>>>>> laraxot/dev
 
 ---
 
@@ -1522,7 +1557,11 @@ public function toSms($notifiable)
     if (empty($notifiable->routeNotificationFor('sms'))) {
         return null;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     return SmsData::from([
         'from' => config('app.name'),
         'to' => $notifiable->routeNotificationFor('sms'),
@@ -1539,6 +1578,7 @@ Modify the `via()` method to only return channels that are properly routed:
 public function via($notifiable)
 {
     $channels = [];
+<<<<<<< HEAD
     
     if ($notifiable->routeNotificationFor('mail')) {
         $channels[] = 'mail';
@@ -1548,6 +1588,17 @@ public function via($notifiable)
         $channels[] = SmsChannel::class;
     }
     
+=======
+
+    if ($notifiable->routeNotificationFor('mail')) {
+        $channels[] = 'mail';
+    }
+
+    if ($notifiable->routeNotificationFor('sms')) {
+        $channels[] = SmsChannel::class;
+    }
+
+>>>>>>> laraxot/dev
     return $channels;
 }
 ```
@@ -1610,7 +1661,11 @@ public function toSms($notifiable)
     if (empty($notifiable->routeNotificationFor('sms'))) {
         return null;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     return SmsData::from([
         'from' => config('app.name'),
         'to' => $notifiable->routeNotificationFor('sms'),
@@ -1627,6 +1682,7 @@ Modify the `via()` method to only return channels that are properly routed:
 public function via($notifiable)
 {
     $channels = [];
+<<<<<<< HEAD
     
     if ($notifiable->routeNotificationFor('mail')) {
         $channels[] = 'mail';
@@ -1636,6 +1692,17 @@ public function via($notifiable)
         $channels[] = SmsChannel::class;
     }
     
+=======
+
+    if ($notifiable->routeNotificationFor('mail')) {
+        $channels[] = 'mail';
+    }
+
+    if ($notifiable->routeNotificationFor('sms')) {
+        $channels[] = SmsChannel::class;
+    }
+
+>>>>>>> laraxot/dev
     return $channels;
 }
 ```
@@ -1661,10 +1728,17 @@ public function via($notifiable)
 *Consolidated from: `notification-bulk-action-implementation.md`*
 
 
+<<<<<<< HEAD
 **Date**: 18 Dicembre 2025  
 **Status**: ✅ Completed  
 **Module**: App → Notify  
 **Module**: TechPlanner → Notify  
+=======
+**Date**: 18 Dicembre 2025
+**Status**: ✅ Completed
+**Module**: App → Notify
+**Module**: TechPlanner → Notify
+>>>>>>> laraxot/dev
 **Implementation Type**: Feature Addition
 
 ## Overview
@@ -1683,7 +1757,11 @@ The implementation leverages existing architecture components:
    - Provides comprehensive error handling and logging
    - Uses proper phone number normalization
 
+<<<<<<< HEAD
 2. **FilamentAction**: `Modules\Notify\Filament\Actions\SendNotificationBulkAction`  
+=======
+2. **FilamentAction**: `Modules\Notify\Filament\Actions\SendNotificationBulkAction`
+>>>>>>> laraxot/dev
    - Provides the UI modal with template selection
    - Offers channel selection via checkboxes
    - Handles form validation and user notifications
@@ -1744,10 +1822,17 @@ This implementation aligns with:
 
 ## Code Quality Verification
 
+<<<<<<< HEAD
 ✅ **PHPStan Level 10**: All files pass static analysis  
 ✅ **Type Safety**: Proper return types and parameter validation  
 ✅ **Architecture Compliance**: Follows XotBase extension rules  
 ✅ **Documentation**: Updated with new implementation details  
+=======
+✅ **PHPStan Level 10**: All files pass static analysis
+✅ **Type Safety**: Proper return types and parameter validation
+✅ **Architecture Compliance**: Follows XotBase extension rules
+✅ **Documentation**: Updated with new implementation details
+>>>>>>> laraxot/dev
 
 ## Usage Pattern
 
@@ -1985,7 +2070,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # Implementazione dei Canali di Notifica 
+=======
+# Implementazione dei Canali di Notifica
+>>>>>>> laraxot/dev
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto App, con particolare attenzione al pattern Factory utilizzato.
 
@@ -2034,7 +2123,11 @@ Il pattern Factory è stato implementato per centralizzare la logica di selezion
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -2065,7 +2158,11 @@ class AppointmentReminder extends Notification
     {
         return [SmsChannel::class];
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     public function toSms($notifiable)
     {
         return new SmsData(
@@ -2200,7 +2297,11 @@ Il pattern Factory è stato implementato per centralizzare la logica di selezion
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -2231,7 +2332,11 @@ class AppointmentReminder extends Notification
     {
         return [SmsChannel::class];
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     public function toSms($notifiable)
     {
         return new SmsData(
@@ -2426,7 +2531,11 @@ class SendNotificationAction
     public function execute()
     {
         $this->validate();
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         Notification::route('mail', $this->to)
             ->notify(new YourNotification($this->data));
     }
@@ -2496,7 +2605,11 @@ class YourNotification extends Notification
 - [Documentazione Laravel Notifications](https://laravel.com/docs/notifications)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
 - [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/) 
+=======
+- [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/)
+>>>>>>> laraxot/dev
 ---
 
 ## notification-errors
@@ -2595,7 +2708,11 @@ class SendNotificationAction
     public function execute()
     {
         $this->validate();
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         Notification::route('mail', $this->to)
             ->notify(new YourNotification($this->data));
     }
@@ -2665,7 +2782,11 @@ class YourNotification extends Notification
 - [Documentazione Laravel Notifications](https://laravel.com/docs/notifications)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
 - [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/) 
+=======
+- [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/)
+>>>>>>> laraxot/dev
 ---
 
 ## notification-implementation
@@ -3105,9 +3226,15 @@ use Spatie\QueueableAction\QueueableAction;
 final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 {
     use QueueableAction;
+<<<<<<< HEAD
     
     // Costruttore con configurazione
     
+=======
+
+    // Costruttore con configurazione
+
+>>>>>>> laraxot/dev
     // Metodo execute standardizzato
     public function execute({Type}Data $data): array
     {
@@ -3122,7 +3249,11 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 // config/{type}.php
 return [
     'default' => env('{TYPE}_PROVIDER', 'default_provider'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'providers' => [
         'provider1' => [
             // Configurazione specifica
@@ -3131,7 +3262,11 @@ return [
             // Configurazione specifica
         ],
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Parametri globali
     'from' => env('{TYPE}_FROM'),
     'debug' => (bool) env('{TYPE}_DEBUG', false),
@@ -3190,7 +3325,11 @@ Per implementazioni specifiche, vedere i documenti:
 
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di App.
+<<<<<<< HEAD
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di Quaeris.
+=======
+Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
+>>>>>>> laraxot/dev
 
 ## Principi Architetturali per Tutti i Provider
 
@@ -3248,9 +3387,15 @@ use Spatie\QueueableAction\QueueableAction;
 final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 {
     use QueueableAction;
+<<<<<<< HEAD
     
     // Costruttore con configurazione
     
+=======
+
+    // Costruttore con configurazione
+
+>>>>>>> laraxot/dev
     // Metodo execute standardizzato
     public function execute({Type}Data $data): array
     {
@@ -3265,7 +3410,11 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 // config/{type}.php
 return [
     'default' => env('{TYPE}_PROVIDER', 'default_provider'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'providers' => [
         'provider1' => [
             // Configurazione specifica
@@ -3274,7 +3423,11 @@ return [
             // Configurazione specifica
         ],
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Parametri globali
     'from' => env('{TYPE}_FROM'),
     'debug' => (bool) env('{TYPE}_DEBUG', false),
@@ -3376,7 +3529,11 @@ public function toSms($notifiable)
     if (empty($notifiable->routeNotificationFor('sms'))) {
         return null;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     return SmsData::from([
         'from' => config('app.name'),
         'to' => $notifiable->routeNotificationFor('sms'),
@@ -3393,6 +3550,7 @@ Modify the `via()` method to only return channels that are properly routed:
 public function via($notifiable)
 {
     $channels = [];
+<<<<<<< HEAD
     
     if ($notifiable->routeNotificationFor('mail')) {
         $channels[] = 'mail';
@@ -3402,6 +3560,17 @@ public function via($notifiable)
         $channels[] = SmsChannel::class;
     }
     
+=======
+
+    if ($notifiable->routeNotificationFor('mail')) {
+        $channels[] = 'mail';
+    }
+
+    if ($notifiable->routeNotificationFor('sms')) {
+        $channels[] = SmsChannel::class;
+    }
+
+>>>>>>> laraxot/dev
     return $channels;
 }
 ```
@@ -3429,7 +3598,11 @@ public function via($notifiable)
 # Implementazione dei Canali di Notifica
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
+<<<<<<< HEAD
 # Implementazione dei Canali di Notifica 
+=======
+# Implementazione dei Canali di Notifica
+>>>>>>> laraxot/dev
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.
 
@@ -3479,7 +3652,11 @@ public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -3511,7 +3688,11 @@ class AppointmentReminder extends Notification
         return [SmsChannel::class];
     }
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     public function toSms($notifiable)
     {
         return new SmsData(
@@ -3686,7 +3867,11 @@ class SendNotificationAction
     public function execute()
     {
         $this->validate();
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         Notification::route('mail', $this->to)
             ->notify(new YourNotification($this->data));
     }
@@ -3756,7 +3941,11 @@ class YourNotification extends Notification
 - [Documentazione Laravel Notifications](https://laravel.com/docs/notifications)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
 - [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/) 
+=======
+- [Best Practices Email](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/)
+>>>>>>> laraxot/dev
 ---
 
 ## notification_providers_guide
@@ -3766,7 +3955,11 @@ class YourNotification extends Notification
 # Guida Completa ai Provider di Notifiche
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
+<<<<<<< HEAD
 # Guida Completa ai Provider di Notifiche 
+=======
+# Guida Completa ai Provider di Notifiche
+>>>>>>> laraxot/dev
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di SaluteOra.
 
@@ -3829,9 +4022,15 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 
     // Costruttore con configurazione
 
+<<<<<<< HEAD
     
     // Costruttore con configurazione
     
+=======
+
+    // Costruttore con configurazione
+
+>>>>>>> laraxot/dev
     // Metodo execute standardizzato
     public function execute({Type}Data $data): array
     {
@@ -3847,7 +4046,11 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 return [
     'default' => env('{TYPE}_PROVIDER', 'default_provider'),
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'providers' => [
         'provider1' => [
             // Configurazione specifica
@@ -3857,7 +4060,11 @@ return [
         ],
     ],
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Parametri globali
     'from' => env('{TYPE}_FROM'),
     'debug' => (bool) env('{TYPE}_DEBUG', false),
@@ -4056,7 +4263,11 @@ return [
 - Testare le notifiche in ambiente di sviluppo
 - Monitorare i tassi di consegna
 - Aggiornare i template regolarmente
+<<<<<<< HEAD
 - Mantenere le traduzioni aggiornate 
+=======
+- Mantenere le traduzioni aggiornate
+>>>>>>> laraxot/dev
 
 ---
 
@@ -4210,7 +4421,11 @@ return array (            // ✅ Legacy syntax mantenuta (IT)
 // ✅ Convenzioni coerenti
 'navigation' => [          // Navigazione principale
 'fields' => [             // Campi form
+<<<<<<< HEAD
 'actions' => [            // Azioni utente  
+=======
+'actions' => [            // Azioni utente
+>>>>>>> laraxot/dev
 'messages' => [           // Messaggi sistema
 'validation' => [         // Regole validazione
 ```
@@ -4258,7 +4473,11 @@ return array (            // ✅ Legacy syntax mantenuta (IT)
 ```php
 'tracking' => [
     'opened' => 'Email opened',
+<<<<<<< HEAD
     'clicked' => 'Link clicked', 
+=======
+    'clicked' => 'Link clicked',
+>>>>>>> laraxot/dev
     'device' => 'Device',
     'location' => 'Location',
     'open_count' => 'Times opened',
@@ -4305,7 +4524,11 @@ return array (            // ✅ Legacy syntax mantenuta (IT)
 // ✅ Sempre aggiungere in tutte e 3 le lingue
 'new_feature' => [
     'label' => 'EN: New Feature',      // en/send_email.php
+<<<<<<< HEAD
     'label' => 'IT: Nuova Funzione',   // it/send_email.php  
+=======
+    'label' => 'IT: Nuova Funzione',   // it/send_email.php
+>>>>>>> laraxot/dev
     'label' => 'DE: Neue Funktion',    // de/send_email.php
 ],
 ```
@@ -4324,7 +4547,11 @@ return array (            // ✅ Legacy syntax mantenuta (IT)
 
 La sistemazione del file `send_email.php` ha risolto problemi critici e implementato un sistema di traduzioni robusto e completo. L'applicazione di best practices e la standardizzazione della struttura garantiscono un'esperienza utente coerente e facilita la manutenzione futura del sistema.
 
+<<<<<<< HEAD
 **Risultato**: Sistema di invio email completamente localizzato e funzionale in italiano, inglese e tedesco con oltre 100 chiavi di traduzione per ogni lingua e funzionalità avanzate per tracking, programmazione e gestione allegati. 
+=======
+**Risultato**: Sistema di invio email completamente localizzato e funzionale in italiano, inglese e tedesco con oltre 100 chiavi di traduzione per ogni lingua e funzionalità avanzate per tracking, programmazione e gestione allegati.
+>>>>>>> laraxot/dev
 ---
 
 ## notify-translation-guide-1

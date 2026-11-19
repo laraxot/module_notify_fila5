@@ -149,7 +149,11 @@ abstract class XotBasePage extends Page implements HasForms
 {
     use TransTrait;
     use InteractsWithForms;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // ...
 }
 ```
@@ -181,7 +185,11 @@ class SendSmsPage extends XotBasePage
 class SendSmsPage extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Implementazione...
 }
 ```
@@ -235,7 +243,11 @@ abstract class XotBasePage extends Page implements HasForms
 {
     use TransTrait;
     use InteractsWithForms;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // ...
 }
 ```
@@ -267,7 +279,11 @@ class SendSmsPage extends XotBasePage
 class SendSmsPage extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Implementazione...
 }
 ```
@@ -847,7 +863,11 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" [project-root]/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/_bases/<nome repository>/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+<<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
+=======
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/
+>>>>>>> laraxot/dev
 ```
 
 ## Riferimenti

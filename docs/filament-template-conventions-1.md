@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_G5QjNF
+=======
+>>>>>>> laraxot/dev
 ---
 title: "filament template conventions 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_htQLgL
+>>>>>>> laraxot/dev
 # Convenzioni per Template Blade di Filament
 
 ## Struttura Standard dei Template di Pagina

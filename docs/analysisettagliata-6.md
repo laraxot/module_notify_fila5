@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_mUInVT
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analysisettagliata 6"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_i2uG1D
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
 
 ## 6. Monitoraggio e Analytics

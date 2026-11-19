@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_MV5vIm
+=======
+>>>>>>> laraxot/dev
 ---
 title: "email backup 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_bQMAc9
+>>>>>>> laraxot/dev
 # Sistema Backup Email
 
 ## Panoramica

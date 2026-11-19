@@ -77,7 +77,11 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 - [ ] Xot
 
 #### References
+<<<<<<< HEAD
 - [Database Naming Convention](conventions/database-naming.md)
+=======
+- [Database Naming Convention](../conventions/database-naming.md)
+>>>>>>> laraxot/dev
 - [AGENTS.md](../../AGENTS.md)
 - [agents.md](../../agents.md)
 

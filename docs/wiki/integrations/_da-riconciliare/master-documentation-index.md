@@ -31,16 +31,42 @@ related:
 ### Per Nuovi Arrivati
 1. [Zen of Documentation](./zen-of-documentation.md) - Filosofia e principi
 2. [Documentation Governance](./documentation-governance.md) - Regole e standard
+<<<<<<< HEAD
 3. [Multi-Agent Collaboration](./multi-agent-collaboration.md) - Come lavorare con AI agents
 
 ### Per Sviluppatori
 - [Architecture Overview](./architecture/README.md)
 - [Getting Started](./GETTING_STARTED.md)
+=======
+3. [Multi-Agent Collaboration](../../../multi-agent-collaboration.md) - Come lavorare con AI agents
+
+### Per Sviluppatori
+- [Architecture Overview](./architecture/README.md)
+<<<<<<< .merge_file_6PZyIx
+- [Getting Started](../../../GETTING_STARTED.md)
+3. [Multi-Agent Collaboration](../../../multi-agent-collaboration.md) - Come lavorare con AI agents
+
+### Per Sviluppatori
+- [Architecture Overview](./architecture/README.md)
+- [Getting Started](../../../GETTING_STARTED.md)
+=======
+- [Getting Started](./GETTING_STARTED.md)
+>>>>>>> .merge_file_SUaQ6J
+>>>>>>> laraxot/dev
 - [Coding Standards](./conventions/README.md)
 
 ### Per AI Agents
 - [Project Context](./project/project.md)
+<<<<<<< HEAD
 - [Agent Coordination](./multi-agent-collaboration.md)
+=======
+<<<<<<< .merge_file_6PZyIx
+- [Agent Coordination](../../../multi-agent-collaboration.md)
+- [Agent Coordination](../../../multi-agent-collaboration.md)
+=======
+- [Agent Coordination](./multi-agent-collaboration.md)
+>>>>>>> .merge_file_SUaQ6J
+>>>>>>> laraxot/dev
 - [OpenViking Context](../bashscripts/ai/openviking.md)
 
 ---
@@ -66,7 +92,16 @@ related:
 - [Naming Conventions](./conventions/naming.md)
 
 ### 🤖 AI Tools
+<<<<<<< HEAD
 - [Multi-Agent Guide](./multi-agent-collaboration.md)
+=======
+<<<<<<< .merge_file_6PZyIx
+- [Multi-Agent Guide](../../../multi-agent-collaboration.md)
+- [Multi-Agent Guide](../../../multi-agent-collaboration.md)
+=======
+- [Multi-Agent Guide](./multi-agent-collaboration.md)
+>>>>>>> .merge_file_SUaQ6J
+>>>>>>> laraxot/dev
 - [BMAD Framework](./bmad/README.md)
 - [GSD Workflow](./gsd/README.md)
 - [NotebookLM](./notebooklm/README.md)
@@ -74,7 +109,16 @@ related:
 
 ### 📊 Reports
 - [Status Reports](./reports/README.md)
+<<<<<<< HEAD
 - [Quality Reports](./reports/quality.md)
+=======
+<<<<<<< .merge_file_6PZyIx
+- [Quality Reports](../../../roadmap/quality.md)
+- [Quality Reports](../../../roadmap/quality.md)
+=======
+- [Quality Reports](./reports/quality.md)
+>>>>>>> .merge_file_SUaQ6J
+>>>>>>> laraxot/dev
 - [Performance Reports](./reports/performance.md)
 
 ---

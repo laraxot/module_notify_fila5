@@ -11,7 +11,11 @@ tags: [sms, channel, driver, netfun, smsfactor, factory, config, gotcha, contrac
 qmd: "smschannel sms driver selection factory config sms.default SMS_DRIVER netfun smsfactor SendNetfunSMSAction SmsActionFactory hardcoded regression b8321c567 SmsActionContract Models/Contracts SmsData Spatie LaravelData Data"
 related:
   - ./one-migration-consolidamento-wave2.md
+<<<<<<< HEAD
   - ../../../../Quaeris/docs/stories/quaeris-send-invite-migrate-to-record-notification.md
+=======
+  - ../../../../<nome progetto>/docs/stories/<nome progetto>-send-invite-migrate-to-record-notification.md
+>>>>>>> laraxot/dev
 ---
 
 # `SmsChannel` sceglie il driver da `config('sms.default')`

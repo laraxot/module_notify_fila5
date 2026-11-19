@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_o80dm5
+=======
+>>>>>>> laraxot/dev
 ---
 title: "sms provider configuration best practices 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ByRLVq
+>>>>>>> laraxot/dev
 # Best Practices per la Configurazione dei Provider SMS
 
 ## Struttura Corretta della Configurazione

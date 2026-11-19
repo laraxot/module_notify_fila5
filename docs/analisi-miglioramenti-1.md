@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_N3qsCz
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisi miglioramenti 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_N8yaeK
+>>>>>>> laraxot/dev
 # Analisi e Miglioramenti Modulo Notify
 
 ## Analisi delle Soluzioni Esistenti
@@ -189,4 +198,12 @@ class BaseNotification extends Notification
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
+<<<<<<< HEAD
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/README_links.md).
+=======
+<<<<<<< .merge_file_N3qsCz
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/README_links.md).
+=======
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/README_links.md).
+>>>>>>> .merge_file_N8yaeK
+>>>>>>> laraxot/dev

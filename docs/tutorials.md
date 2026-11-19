@@ -14,7 +14,11 @@ updated: 2026-08-24
 
 https://medium.com/@timothy.withers/customizing-mail-and-notification-templates-in-laravel-4f8c37ce51a
 ## Collegamenti tra versioni di tutorials.md
+<<<<<<< HEAD
 * [tutorials.md](docs/tutorials.md)
+=======
+* [tutorials.md](tutorials.md)
+>>>>>>> laraxot/dev
 * [tutorials.md](../../../notify/docs/tutorials.md)
 
 

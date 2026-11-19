@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_vApb1Q
+=======
+>>>>>>> laraxot/dev
 ---
 title: "path and interface rules 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_xD9Ed3
+>>>>>>> laraxot/dev
 # Regole di Percorso e Interfacce nel Modulo Notify
 
 ## Principi Fondamentali

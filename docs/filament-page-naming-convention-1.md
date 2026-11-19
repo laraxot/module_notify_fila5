@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_sYJHCL
+=======
+>>>>>>> laraxot/dev
 ---
 title: "filament page naming convention 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_QZhSiM
+>>>>>>> laraxot/dev
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale

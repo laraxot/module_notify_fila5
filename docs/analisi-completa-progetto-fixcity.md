@@ -438,7 +438,11 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### 📖 Main Docs
 - [Index Principale](./index.md)
+<<<<<<< HEAD
 - [PHPStan Analysis](./phpstan/phpstan.md)
+=======
+- [PHPStan Analysis](phpstan.md)
+>>>>>>> laraxot/dev
 
 ---
 

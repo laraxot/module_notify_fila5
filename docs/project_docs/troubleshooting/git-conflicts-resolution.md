@@ -9,8 +9,13 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
 # Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
 # Risoluzione Conflitti Git - Progetto Base Notify Fila3 Mono
+=======
+# Risoluzione Conflitti Git - Progetto Base FixCity fila5
+# Risoluzione Conflitti Git - Progetto Base Notify fila5
+>>>>>>> laraxot/dev
 
 ## Panoramica
 

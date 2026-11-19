@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_BEfYUA
+=======
+>>>>>>> laraxot/dev
 ---
 title: "config structure 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ft3EVw
+>>>>>>> laraxot/dev
 # Struttura di Configurazione nei Moduli <nome progetto>
 
 ## Principi di Configurazione

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_2Z7qVi
+=======
+>>>>>>> laraxot/dev
 ---
 title: "current work status 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_3oSR4s
+>>>>>>> laraxot/dev
 # Stato Attuale del Lavoro - 12 Maggio 2025
 
 ## Problematiche Identificate

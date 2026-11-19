@@ -1464,7 +1464,11 @@ related:
    - Vantaggi/svantaggi dettagliati
    - Alternative considerate
    
+<<<<<<< HEAD
 4. **[Strategia Implementazione](./architecture/xotbasepivot-strategy.md)** (3.500+ parole)
+=======
+4. **[Strategia Implementazione](../../architecture/xotbasepivot-strategy.md)** (3.500+ parole)
+>>>>>>> laraxot/dev
    - Step-by-step guide
    - Script automatici
    - Testing strategy
@@ -1506,7 +1510,11 @@ related:
 ### Implementation (3-4 ore)
 
 4. **[ ] Execute Migration**
+<<<<<<< HEAD
    - Seguire [strategia implementazione](./architecture/xotbasepivot-strategy.md)
+=======
+   - Seguire [strategia implementazione](../../architecture/xotbasepivot-strategy.md)
+>>>>>>> laraxot/dev
    - Testing continuo
    - Progress updates
 
@@ -1613,7 +1621,11 @@ Se hai domande prima dell'approvazione:
 
 ### During Implementation
 
+<<<<<<< HEAD
 Seguire [Strategia Implementazione](./architecture/xotbasepivot-strategy.md) step-by-step.
+=======
+Seguire [Strategia Implementazione](../../architecture/xotbasepivot-strategy.md) step-by-step.
+>>>>>>> laraxot/dev
 
 ### After Implementation
 

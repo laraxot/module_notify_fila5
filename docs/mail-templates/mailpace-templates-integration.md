@@ -13,7 +13,11 @@ discussions: []
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di Quaeris. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> laraxot/dev
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di App. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 
 ## Template Disponibili
@@ -35,12 +39,20 @@ MailPace offre i seguenti template transazionali:
 - **Performance** - Ottimizzati per caricamento veloce
 - **Personalizzazione** - Facilmente personalizzabili con Maizzle
 
+<<<<<<< HEAD
 ## Integrazione 
+=======
+## Integrazione
+>>>>>>> laraxot/dev
 
 ### Struttura della Directory
 
 ```
+<<<<<<< HEAD
 /var/www/html/Quaeris/laravel/Modules/Notify/resources/mail-layouts/
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> laraxot/dev
 /var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/resources/mail-layouts/
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
@@ -92,7 +104,11 @@ use Modules\Notify\Models\MailTemplate;
 
 $mailTemplate = MailTemplate::findBySlug('welcome-email');
 $mailTemplate->send($user->email, [
+<<<<<<< HEAD
     'name' => $user->name, 
+=======
+    'name' => $user->name,
+>>>>>>> laraxot/dev
     'action_url' => $actionUrl
 ]);
 ```
@@ -102,7 +118,11 @@ $mailTemplate->send($user->email, [
 1. **Mantieni la Struttura Base** - Non modificare la struttura HTML base per garantire compatibilità
 2. **Usa Variabili** - Utilizza variabili Blade per contenuti dinamici
 3. **Test Cross-Client** - Testa i template su diversi client email
+<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per Quaeris
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+>>>>>>> laraxot/dev
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per App
 
 ## Riferimenti

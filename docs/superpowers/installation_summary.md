@@ -302,7 +302,11 @@ Agent: [Systematic debugging]
 ### Internal
 
 - [Main README](docs/superpowers/README.md)
+<<<<<<< HEAD
 - [Installation Guide](docs/superpowers/installation.md)
+=======
+- [Installation Guide](installation.md)
+>>>>>>> laraxot/dev
 - [Workflow Guide](docs/superpowers/workflow.md)
 - [Skills Reference](docs/superpowers/skills-reference.md)
 - [Quick Index](docs/superpowers/INDEX.md)

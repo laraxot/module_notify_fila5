@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ObZlHl
+=======
+>>>>>>> laraxot/dev
 ---
 title: "netfun examples 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_XSvaDO
+>>>>>>> laraxot/dev
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP

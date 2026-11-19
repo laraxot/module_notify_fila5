@@ -221,6 +221,12 @@ related:
 - [Epic channels](./epics/notification-channels.epic.md)
 - [Quick reference](./quick-reference.md)
 - [Setup guide](./setup-guide.md)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CHcrkM
+- [BMAD method (Xot)](../wiki/bmad-method.md)
+=======
+>>>>>>> laraxot/dev
 - [BMAD method (Xot)](../../Xot/docs/bmad-method.md)
 
 ## Evidenza audit 2026-11-16
@@ -244,3 +250,7 @@ cluster `Test`, tutte `SuperAdminOnlyTrait`).
 | Telegram | parziale: `TelegramChannel.php:26,34` TODO |
 | WhatsApp | parziale: `WhatsAppNotification.php:66` TODO |
 | Push Firebase | parziale: pagina test `SendFirebasePushNotificationPage.php:112` TODO |
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wjy7g9
+>>>>>>> laraxot/dev

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ge1fIF
+=======
+>>>>>>> laraxot/dev
 ---
 title: "path conventions 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_78iJaf
+>>>>>>> laraxot/dev
 # Convenzioni sui Percorsi
 
 ## Regole Fondamentali

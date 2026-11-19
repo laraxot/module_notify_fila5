@@ -11,7 +11,11 @@ discussions: []
 
 # Testing Guide
 
+<<<<<<< HEAD
 > Guida completa per i test in PTVX Fila5 Mono.
+=======
+> Guida completa per i test in PTVX fila5.
+>>>>>>> laraxot/dev
 
 ## 🧪 Testing con Pest
 
@@ -48,10 +52,17 @@ discussions: []
 it('creates user successfully', function () {
     // ARRANGE
     $data = UserData::factory()->make();
+<<<<<<< HEAD
     
     // ACT
     $user = CreateUserAction::execute($data);
     
+=======
+
+    // ACT
+    $user = CreateUserAction::execute($data);
+
+>>>>>>> laraxot/dev
     // ASSERT
     expect($user)->toBeInstanceOf(User::class);
 });

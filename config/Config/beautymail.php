@@ -13,7 +13,12 @@ return [
 
     'colors' => [
         'highlight' => '#004ca3',
+<<<<<<< HEAD
         'button' => '#004cad'],
+=======
+        'button' => '#004cad',
+    ],
+>>>>>>> laraxot/dev
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -22,7 +27,17 @@ return [
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
+<<<<<<< HEAD
             'height' => ''],
         'twitter' => null,
         'facebook' => null,
         'flickr' => null]];
+=======
+            'height' => '',
+        ],
+        'twitter' => null,
+        'facebook' => null,
+        'flickr' => null,
+    ],
+];
+>>>>>>> laraxot/dev

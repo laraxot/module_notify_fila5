@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_cr2kJC
+=======
+>>>>>>> laraxot/dev
 ---
 title: "filament slug generation 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_xxiMon
+>>>>>>> laraxot/dev
 # Generazione di Slug in Filament
 
 ## Panoramica

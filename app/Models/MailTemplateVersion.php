@@ -9,6 +9,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
+<<<<<<< HEAD
+=======
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+>>>>>>> laraxot/dev
 use Modules\Notify\Models\Traits\MailTemplateVersionRelations;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
@@ -16,6 +20,11 @@ use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
+<<<<<<< HEAD
+=======
+ * @method static MailTemplateVersionFactory factory($count = null, $state = [])
+ *
+>>>>>>> laraxot/dev
  * @property-read ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
@@ -67,6 +76,10 @@ class MailTemplateVersion extends BaseModel
     use SoftDeletes;
     use Updater;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
     protected $connection = 'notify';
 
     /** @var list<string> */

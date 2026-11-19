@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_0QyXgc
+=======
+>>>>>>> laraxot/dev
 ---
 title: "locations standards 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_XsUeEK
+>>>>>>> laraxot/dev
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali

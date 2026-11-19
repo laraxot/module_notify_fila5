@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_71Lxlk
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisi dettagliata 5"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Pj9uh3
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 5: Testing
 
 ## 5. Testing

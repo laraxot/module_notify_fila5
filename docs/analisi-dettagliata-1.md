@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_bDAV7L
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisi dettagliata 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_XEPvHW
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
 
 ## 1. Architettura del Sistema

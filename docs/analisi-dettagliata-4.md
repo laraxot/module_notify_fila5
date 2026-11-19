@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_H1LUiF
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisi dettagliata 4"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_HqLYyZ
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
 
 ## 4. Integrazione con Filament

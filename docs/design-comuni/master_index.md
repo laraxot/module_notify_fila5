@@ -67,6 +67,28 @@ discussions: []
 | **Screenshots Ricerca** | [screenshots/risultati-ricerca/](../laravel/Themes/Sixteen/docs/design-comuni/screenshots/risultati-ricerca/) | Screenshots risultati ricerca |
 | **Screenshots Argomenti** | [screenshots/argomenti/](../laravel/Themes/Sixteen/docs/design-comuni/screenshots/argomenti/) | Screenshots argomenti |
 | **Screenshots All Pages** | [screenshots/all-pages/](../laravel/Themes/Sixteen/docs/design-comuni/screenshots/all-pages/) | Screenshots tutte 54 pagine |
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uDZaPb
+| **All Pages Analysis** | [ALL_PAGES_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/all-pages-analysis.md) | Analisi completa 54 pagine |
+| **Progress Report** | [PROGRESS_REPORT.md](../progress-report.md) | Report progresso aggiornato |
+| **Fail Pages Analysis** | [FAIL_PAGES_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/fail-pages-analysis.md) | Analisi pagine fail |
+| **Skills & Rules** | [SKILLS_RULES.md](../laravel/Themes/Sixteen/docs/design-comuni/skills-rules.md) | Skills, rules e best practices |
+| **Segnalazioni Elenco Analisi** | [SEGNALAZIONI_ELENCO_ANALISI.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-analisi.md) | Analisi segnalazioni elenco (95.7%) |
+| **Segnalazioni Elenco Report** | [SEGNALAZIONI_ELENCO_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-report.md) | Report segnalazioni elenco - TARGET RAGGIUNTO |
+| **Segnalazioni Elenco Visual** | [SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-visual-analysis.md) | Analisi visiva dettagliata |
+| **Segnalazioni Elenco CSS** | [SEGNALAZIONI_ELENCO_CSS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-css-report.md) | Report CSS fix (+327 lines) |
+| **Segnalazioni Elenco Layout Fix** | [SEGNALAZIONI_ELENCO_LAYOUT_FIX.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-layout-fix.md) | Fix layout mappa/filtri (101.1%) |
+| **Segnalazioni Elenco Rating Fix** | [SEGNALAZIONI_ELENCO_RATING_FIX.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-rating-fix.md) | Fix rating duplicato (99.1%) |
+| **Segnalazioni Elenco Tabs Analysis** | [SEGNALAZIONI_ELENCO_TABS_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-tabs-analysis.md) | Analisi tabs e bottoni |
+| **Segnalazioni Elenco Elementi Analisi** | [SEGNALAZIONI_ELENCO_ELEMENTI_ANALISI.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-elementi-analisi.md) | Analisi completa elementi e fix modal |
+| **Segnalazioni Elenco Fix Completi** | [SEGNALAZIONI_ELENCO_FIX_COMPLETI.md](../laravel/Themes/Sixteen/docs/design-comuni/segnalazioni-elenco-fix-completi.md) | Fix completi e analisi elementi (92.5%) |
+| **Batch Pages Analysis** | [BATCH_PAGES_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/batch-pages-analysis.md) | Analisi completa 49 pagine |
+| **Batch Progress Report** | [BATCH_PROGRESS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/batch-progress-report.md) | Report progresso batch |
+| **Fail Pages Detail** | [FAIL_PAGES_DETAIL_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/fail-pages-detail-report.md) | Analisi dettagliata 3 pagine fail |
+| **Fail Pages Fix Report** | [FAIL_PAGES_FIX_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/fail-pages-fix-report.md) | Report fix pagine fail |
+=======
+>>>>>>> laraxot/dev
 | **All Pages Analysis** | [ALL_PAGES_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/ALL_PAGES_ANALYSIS.md) | Analisi completa 54 pagine |
 | **Progress Report** | [PROGRESS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/PROGRESS_REPORT.md) | Report progresso aggiornato |
 | **Fail Pages Analysis** | [FAIL_PAGES_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/FAIL_PAGES_ANALYSIS.md) | Analisi pagine fail |
@@ -84,6 +106,10 @@ discussions: []
 | **Batch Progress Report** | [BATCH_PROGRESS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/BATCH_PROGRESS_REPORT.md) | Report progresso batch |
 | **Fail Pages Detail** | [FAIL_PAGES_DETAIL_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/FAIL_PAGES_DETAIL_REPORT.md) | Analisi dettagliata 3 pagine fail |
 | **Fail Pages Fix Report** | [FAIL_PAGES_FIX_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/FAIL_PAGES_FIX_REPORT.md) | Report fix pagine fail |
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_T3VEgL
+>>>>>>> laraxot/dev
 
 ### 🐙 GitHub Integration
 

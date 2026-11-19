@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_H6HLr2
+=======
+>>>>>>> laraxot/dev
 ---
 title: "naming conventions 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_TdXuCZ
+>>>>>>> laraxot/dev
 # Convenzioni di Naming
 
 ## Regole Generali

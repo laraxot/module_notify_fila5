@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_F2ay2q
+=======
+>>>>>>> laraxot/dev
 ---
 title: "acronym naming conventions 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_FMrRr4
+>>>>>>> laraxot/dev
 # Convenzioni di Naming per Acronimi
 
 ## Regola Fondamentale

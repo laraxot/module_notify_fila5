@@ -299,7 +299,16 @@ Lo schema deve sempre avere chiavi string per conformità Filament:
 
 - [Filament Form Components](https://filamentphp.com/docs/forms/fields) - Documentazione ufficiale Filament
 - [SendRecordsNotificationBulkAction](./../refactoring/send-notification-bulk-action.md) - Refactoring completo
+<<<<<<< HEAD
 - [ChannelEnum](./enums/channel-enum.md) - Smart Enum per canali notifica
+=======
+<<<<<<< .merge_file_Xc0mcn
+- [ChannelEnum](../enums/channel-enum.md) - Smart Enum per canali notifica
+- [ChannelEnum](../enums/channel-enum.md) - Smart Enum per canali notifica
+=======
+- [ChannelEnum](./enums/channel-enum.md) - Smart Enum per canali notifica
+>>>>>>> .merge_file_kovNaj
+>>>>>>> laraxot/dev
 - [MailTemplate Model](./../models.md) - Modello template email
 
 ## 🎯 Best Practice per Futuri Componenti

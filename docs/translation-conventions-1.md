@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Kjmwvb
+=======
+>>>>>>> laraxot/dev
 ---
 title: "translation conventions 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_znk2sZ
+>>>>>>> laraxot/dev
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali

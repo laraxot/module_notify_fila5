@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_pRSJ0q
+=======
+>>>>>>> laraxot/dev
 ---
 title: "appointment notifications 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Gp4IvS
+>>>>>>> laraxot/dev
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica

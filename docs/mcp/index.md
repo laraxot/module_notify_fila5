@@ -33,7 +33,11 @@ related:
 |----------|----------|---------|
 | **QMD (local docs search)** | [docs/project/qmd-local-docs-search.md](../project/qmd-local-docs-search.md) | Indice Markdown locale; server MCP opzionale (`qmd mcp`) |
 | **MCP Master Index** | [docs/mcp/README.md](../mcp/README.md) | Complete MCP server documentation |
+<<<<<<< HEAD
 | **Supermemory Guide** | [Themes/Sixteen/docs/supermemory-setup.md](../../laravel/Themes/Sixteen/docs/supermemory-setup.md) | Supermemory integration guide |
+=======
+| **Supermemory Guide** | [Themes/Sixteen/docs/supermemory-setup.md](../project/supermemory-setup.md) | Supermemory integration guide |
+>>>>>>> laraxot/dev
 | **Visual Parity Tool** | [Themes/Sixteen/scripts/visual-parity.mjs](../../laravel/Themes/Sixteen/scripts/visual-parity.mjs) | Playwright-based visual analysis |
 | **Supermemory Script** | [Themes/Sixteen/scripts/supermemory-context.js](../../laravel/Themes/Sixteen/scripts/supermemory-context.js) | AI context indexing |
 

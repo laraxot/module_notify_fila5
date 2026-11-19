@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zN25Nd
+=======
+>>>>>>> laraxot/dev
 ---
 title: "modern email design patterns 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_MYLcbw
+>>>>>>> laraxot/dev
 # Pattern di Design per Email Moderne
 
 ## Introduzione
@@ -358,5 +367,13 @@ return [
 
 - [Responsive Email Templates](./RESPONSIVE_EMAIL_TEMPLATES.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
+<<<<<<< HEAD
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+=======
+<<<<<<< .merge_file_zN25Nd
+- [HTML Email Compatibility](mail-templates/html_email_compatibility.md)
+=======
+- [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+>>>>>>> .merge_file_MYLcbw
+>>>>>>> laraxot/dev
 - [Spatie Email Integration](./SPATIE_EMAIL_USAGE_GUIDE.md)

@@ -41,7 +41,16 @@ e
    - Alternative considerate e scartate
    - Raccomandazione finale: ✅ IMPLEMENTARE
 
+<<<<<<< HEAD
 2. **[Strategia di Implementazione](./xotbasepivot-strategy.md)** 📋
+=======
+<<<<<<< .merge_file_v3GnfG
+2. **[Strategia di Implementazione](../../architecture/xotbasepivot-strategy.md)** 📋
+2. **[Strategia di Implementazione](../../architecture/xotbasepivot-strategy.md)** 📋
+=======
+2. **[Strategia di Implementazione](./xotbasepivot-strategy.md)** 📋
+>>>>>>> .merge_file_6mOc1G
+>>>>>>> laraxot/dev
    - Piano step-by-step (3-4 ore)
    - Moduli impattati (13 moduli, 26 file)
    - Script di migration automatici
@@ -109,7 +118,11 @@ e
 
 Leggere in ordine:
 1. [xotbasepivot-analysis.md](./xotbasepivot-analysis.md) - Capire il WHY
+<<<<<<< HEAD
 2. [xotbasepivot-strategy.md](./xotbasepivot-strategy.md) - Capire il HOW
+=======
+2. [xotbasepivot-strategy.md](../../architecture/xotbasepivot-strategy.md) - Capire il HOW
+>>>>>>> laraxot/dev
 3. [User/xotbasepivot-migration.md](../../Modules/User/docs/models/xotbasepivot-migration.md) - Vedere esempio pratico
 
 ### 2. Team Alignment (30 min)
@@ -121,7 +134,16 @@ Leggere in ordine:
 
 ### 3. Implementation (3-4 ore)
 
+<<<<<<< HEAD
 Seguire [xotbasepivot-strategy.md](./xotbasepivot-strategy.md) step-by-step:
+=======
+<<<<<<< .merge_file_v3GnfG
+Seguire [xotbasepivot-strategy.md](../../architecture/xotbasepivot-strategy.md) step-by-step:
+Seguire [xotbasepivot-strategy.md](../../architecture/xotbasepivot-strategy.md) step-by-step:
+=======
+Seguire [xotbasepivot-strategy.md](./xotbasepivot-strategy.md) step-by-step:
+>>>>>>> .merge_file_6mOc1G
+>>>>>>> laraxot/dev
 
 1. ✅ Creare XotBasePivot (30 min)
 2. ✅ Migrare User module (45 min)

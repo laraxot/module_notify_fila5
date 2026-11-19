@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Wzj4VY
+=======
+>>>>>>> laraxot/dev
 ---
 title: "whatsapp channel 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_gkz6Xw
+>>>>>>> laraxot/dev
 # Implementazione Canale WhatsApp
 
 ## 1. Struttura Base

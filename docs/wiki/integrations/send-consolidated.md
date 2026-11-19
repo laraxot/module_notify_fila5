@@ -173,7 +173,11 @@ class SendEmail extends XotBasePage
     {
         try {
             $data = $this->form->getState();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
             // Configura SMTP
             config([
                 'mail.mailers.smtp.host' => $data['smtp']['host'],
@@ -293,7 +297,11 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
+<<<<<<< HEAD
    - Verificare configurazione SMTP 
+=======
+   - Verificare configurazione SMTP
+>>>>>>> laraxot/dev
 ---
 
 ## send-email-fix
@@ -410,7 +418,11 @@ class SendEmail extends XotBasePage
     {
         try {
             $data = $this->form->getState();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
             // Configura SMTP
             config([
                 'mail.mailers.smtp.host' => $data['smtp']['host'],
@@ -533,7 +545,11 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
+<<<<<<< HEAD
    - Verificare configurazione SMTP 
+=======
+   - Verificare configurazione SMTP
+>>>>>>> laraxot/dev
 ---
 
 ## send-email-translation-fix-1
@@ -1030,7 +1046,11 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+*Ultimo aggiornamento: 2025-01-06*
+>>>>>>> laraxot/dev
 ---
 
 ## send-email-translation-fix
@@ -1195,7 +1215,11 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: [DATE]* 
+=======
+*Ultimo aggiornamento: [DATE]*
+>>>>>>> laraxot/dev
 ---
 
 ## send-email-translation-improvement-1
@@ -1916,7 +1940,11 @@ related:
 Il file `laravel/Modules/Notify/lang/it/send_email.php` presenta diversi problemi critici:
 
 ### 1. Conflitto di Merge Non Risolto
+<<<<<<< HEAD
 - Presenza di marcatori 
+=======
+- Presenza di marcatori
+>>>>>>> laraxot/dev
 - Due versioni del file in conflitto
 - Sintassi PHP non valida che impedisce l'esecuzione
 
@@ -1963,7 +1991,11 @@ return [
 **Prima**:
 ```php
 return array (
+<<<<<<< HEAD
   'navigation' => 
+=======
+  'navigation' =>
+>>>>>>> laraxot/dev
   array (
     'label' => 'Invio Email',
     // ...
@@ -2225,8 +2257,13 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ---
 
+<<<<<<< HEAD
 **Ultimo aggiornamento**: Gennaio 2025  
 **Autore**: Sistema di miglioramento automatico  
+=======
+**Ultimo aggiornamento**: Gennaio 2025
+**Autore**: Sistema di miglioramento automatico
+>>>>>>> laraxot/dev
 ---
 
 ## send-email-translation-improvement
@@ -3103,7 +3140,11 @@ class SendEmail extends XotBasePage
     {
         try {
             $data = $this->form->getState();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
             // Configura SMTP
             config([
                 'mail.mailers.smtp.host' => $data['smtp']['host'],
@@ -3226,7 +3267,11 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
+<<<<<<< HEAD
    - Verificare configurazione SMTP 
+=======
+   - Verificare configurazione SMTP
+>>>>>>> laraxot/dev
 ---
 
 ## send-notification-bulk-action
@@ -3234,12 +3279,20 @@ class SmtpData extends Data
 *Consolidated from: `send-notification-bulk-action.md`*
 
 
+<<<<<<< HEAD
 **Status**: ✅ Implementazione completata e PHPStan Level 10 compliant  
+=======
+**Status**: ✅ Implementazione completata e PHPStan Level 10 compliant
+>>>>>>> laraxot/dev
 **Module**: Notify
 
 ## Overview
 
+<<<<<<< HEAD
 `SendNotificationBulkAction` è la BulkAction Filament riutilizzabile che permette di inviare notifiche a più record contemporaneamente utilizzando template MailTemplate e canali multipli (Email, SMS, WhatsApp).  
+=======
+`SendNotificationBulkAction` è la BulkAction Filament riutilizzabile che permette di inviare notifiche a più record contemporaneamente utilizzando template MailTemplate e canali multipli (Email, SMS, WhatsApp).
+>>>>>>> laraxot/dev
 Dal 2025‑12‑18 la catena interna è stata ulteriormente semplificata:
 
 ```
@@ -3555,13 +3608,37 @@ Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
 - [RecordNotification Class](../../app/Notifications/RecordNotification.php)
 - [App Client Management](../App/docs/README.md#client-management)
 - [TechPlanner Client Management](../TechPlanner/docs/README.md#client-management)
+<<<<<<< HEAD
 - [Geo Module Reusable Components Philosophy](../geo/docs/reusable-components-philosophy.md)
+=======
+<<<<<<< .merge_file_QJwg6t
+- [Geo Module Reusable Components Philosophy](../../ai-agents/guidelines/reusable-components-philosophy.md)
+Vedi: [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md)
+
+## Backlink e Collegamenti
+
+- [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md) - Pattern per Actions che chiamano altre Actions
+- [Notification System Architecture](../../notification-implementation.md)
+- [MailTemplate Model](./models.md#mailtemplate)
+- [RecordNotification Class](../../../app/Notifications/RecordNotification.php)
+- [App Client Management](../App/docs/README.md#client-management)
+- [TechPlanner Client Management](../TechPlanner/docs/README.md#client-management)
+- [Geo Module Reusable Components Philosophy](../../../../Geo/docs/reusable-components-philosophy.md)
+=======
+- [Geo Module Reusable Components Philosophy](../geo/docs/reusable-components-philosophy.md)
+>>>>>>> .merge_file_9Nfukc
+>>>>>>> laraxot/dev
 - [Xot Filament Class Extension Rules](../xot/docs/filament-class-extension-rules.md)
 
 ---
 
+<<<<<<< HEAD
 **Ultimo aggiornamento**: [DATE]  
 **PHPStan Level**: ✅ 10  
+=======
+**Ultimo aggiornamento**: [DATE]
+**PHPStan Level**: ✅ 10
+>>>>>>> laraxot/dev
 **Quality**: ✅ PHPMD, PHPInsights compliant
 
 ---
@@ -3607,9 +3684,15 @@ Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
 *Consolidated from: `send-record-notification-action-refactoring.md`*
 
 
+<<<<<<< HEAD
 **Date**: 18 Dicembre 2025  
 **Status**: ✅ Refactoring Completed  
 **Module**: Notify  
+=======
+**Date**: 18 Dicembre 2025
+**Status**: ✅ Refactoring Completed
+**Module**: Notify
+>>>>>>> laraxot/dev
 **Focus**: DRY + KISS + Clean Code Principles
 
 ## Overview
@@ -3655,7 +3738,11 @@ The `sendWhatsApp()` method was slightly different but still shared the core not
 - Method repetition: 3 similar notification methods (with 2 nearly identical)
 - Attribute lookup duplication: 3 similar lookup methods
 
+<<<<<<< HEAD
 ### After Refactoring  
+=======
+### After Refactoring
+>>>>>>> laraxot/dev
 - Lines of Code: ~140 (slightly reduced due to better organization)
 - Method repetition: Eliminated through `extractRecordAttribute()` and `sendGenericNotification()` abstractions
 - Attribute lookup: Unified through generic approach
@@ -3663,10 +3750,17 @@ The `sendWhatsApp()` method was slightly different but still shared the core not
 
 ## Architecture Compliance
 
+<<<<<<< HEAD
 ✅ **QueueableAction Pattern**: Maintained proper action structure  
 ✅ **Error Handling**: Preserved comprehensive exception handling  
 ✅ **Type Safety**: Maintained strict typing throughout  
 ✅ **Backward Compatibility**: Public interface unchanged  
+=======
+✅ **QueueableAction Pattern**: Maintained proper action structure
+✅ **Error Handling**: Preserved comprehensive exception handling
+✅ **Type Safety**: Maintained strict typing throughout
+✅ **Backward Compatibility**: Public interface unchanged
+>>>>>>> laraxot/dev
 ✅ **Laraxot Philosophy**: Follows established architectural patterns
 
 ---
@@ -3788,7 +3882,11 @@ class SendEmail extends XotBasePage
     {
         try {
             $data = $this->form->getState();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
             // Configura SMTP
             config([
                 'mail.mailers.smtp.host' => $data['smtp']['host'],
@@ -3908,7 +4006,11 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
+<<<<<<< HEAD
    - Verificare configurazione SMTP 
+=======
+   - Verificare configurazione SMTP
+>>>>>>> laraxot/dev
 ---
 
 ## send_email_translation_fix
@@ -4070,7 +4172,11 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+*Ultimo aggiornamento: 2025-01-06*
+>>>>>>> laraxot/dev
 
 ---
 
@@ -4085,7 +4191,11 @@ Il file `laravel/Modules/Notify/lang/it/send_email.php` presenta diversi problem
 
 ### 1. Conflitto di Merge Non Risolto
 - Presenza di marcatori
+<<<<<<< HEAD
 - Presenza di marcatori 
+=======
+- Presenza di marcatori
+>>>>>>> laraxot/dev
 - Due versioni del file in conflitto
 - Sintassi PHP non valida che impedisce l'esecuzione
 
@@ -4133,7 +4243,11 @@ return [
 ```php
 return array (
   'navigation' =>
+<<<<<<< HEAD
   'navigation' => 
+=======
+  'navigation' =>
+>>>>>>> laraxot/dev
   array (
     'label' => 'Invio Email',
     // ...
@@ -4336,7 +4450,11 @@ return [
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/_bases/<nome repository>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila5/laravel
+>>>>>>> laraxot/dev
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -4393,8 +4511,13 @@ php -l Modules/Notify/lang/it/send_email.php
 
 **Ultimo aggiornamento**: Gennaio 2025
 **Autore**: Sistema di miglioramento automatico
+<<<<<<< HEAD
 **Ultimo aggiornamento**: Gennaio 2025  
 **Autore**: Sistema di miglioramento automatico  
+=======
+**Ultimo aggiornamento**: Gennaio 2025
+**Autore**: Sistema di miglioramento automatico
+>>>>>>> laraxot/dev
 
 ---
 
@@ -4481,14 +4604,22 @@ public function sendEmail(): void
             ->success()
             ->title(__('Email inviata con successo'))
             ->send();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
     } catch (\Exception $e) {
         Notification::make()
             ->danger()
             ->title(__('Errore nell\'invio dell\'email'))
             ->body($e->getMessage())
             ->send();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
         // Log dell'errore
         \Log::error('Errore invio email: ' . $e->getMessage(), [
             'exception' => $e,
@@ -4533,7 +4664,11 @@ Crea o aggiorna il file di configurazione `config/mail.php`:
 ```php
 return [
     'default' => env('MAIL_MAILER', 'smtp'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
@@ -4572,7 +4707,11 @@ public function handle()
             $message->to(env('MAIL_TEST_RECIPIENT'))
                   ->subject('Test Email');
         });
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         $this->info('Email inviata con successo!');
     } catch (\Exception $e) {
         $this->error("Errore: ".$e->getMessage());
@@ -4681,14 +4820,22 @@ public function sendEmail(): void
             ->success()
             ->title(__('Email inviata con successo'))
             ->send();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
     } catch (\Exception $e) {
         Notification::make()
             ->danger()
             ->title(__('Errore nell\'invio dell\'email'))
             ->body($e->getMessage())
             ->send();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
         // Log dell'errore
         \Log::error('Errore invio email: ' . $e->getMessage(), [
             'exception' => $e,
@@ -4733,7 +4880,11 @@ Crea o aggiorna il file di configurazione `config/mail.php`:
 ```php
 return [
     'default' => env('MAIL_MAILER', 'smtp'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
@@ -4772,7 +4923,11 @@ public function handle()
             $message->to(env('MAIL_TEST_RECIPIENT'))
                   ->subject('Test Email');
         });
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         $this->info('Email inviata con successo!');
     } catch (\Exception $e) {
         $this->error("Errore: ".$e->getMessage());
@@ -4881,14 +5036,22 @@ public function sendEmail(): void
             ->success()
             ->title(__('Email inviata con successo'))
             ->send();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
     } catch (\Exception $e) {
         Notification::make()
             ->danger()
             ->title(__('Errore nell\'invio dell\'email'))
             ->body($e->getMessage())
             ->send();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
         // Log dell'errore
         \Log::error('Errore invio email: ' . $e->getMessage(), [
             'exception' => $e,
@@ -4933,7 +5096,11 @@ Crea o aggiorna il file di configurazione `config/mail.php`:
 ```php
 return [
     'default' => env('MAIL_MAILER', 'smtp'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
@@ -4972,7 +5139,11 @@ public function handle()
             $message->to(env('MAIL_TEST_RECIPIENT'))
                   ->subject('Test Email');
         });
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         $this->info('Email inviata con successo!');
     } catch (\Exception $e) {
         $this->error("Errore: ".$e->getMessage());

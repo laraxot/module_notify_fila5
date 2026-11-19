@@ -14,3 +14,10 @@ updated: 2026-10-06
 
 http://laradevsbd.com/story/laravel-notifications-with-database
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_3xZ85u
+Canonico: `laravel/Modules/Notify/docs/wiki/_integration/todo.md`. Qui non ci sono istruzioni: seguire il file collegato.
+=======
+>>>>>>> .merge_file_nnK0kp
+>>>>>>> laraxot/dev

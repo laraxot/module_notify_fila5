@@ -122,7 +122,11 @@ Modules/{ModuleName}/database/
 - Files in `database/Migrations/` (uppercase) are **silently ignored**
 - Always verify with `ls -la database/` before placing migration files
 
+<<<<<<< HEAD
 Issue: https://github.com/provtv/base_ptv_fila5_mono/issues/71
+=======
+Issue: https://github.com/provtv/base_ptv_fila5/issues/71
+>>>>>>> laraxot/dev
 
 ## Cross-module impact
 

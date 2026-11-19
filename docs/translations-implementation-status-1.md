@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_mtixOz
+=======
+>>>>>>> laraxot/dev
 ---
 title: "translations implementation status 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_2aw38e
+>>>>>>> laraxot/dev
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica

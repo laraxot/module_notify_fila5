@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_slN40n
+=======
+>>>>>>> laraxot/dev
 ---
 title: "provider contracts naming 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_hJaaGC
+>>>>>>> laraxot/dev
 # Convenzioni di Naming per i Contracts
 
 ## Regola Fondamentale

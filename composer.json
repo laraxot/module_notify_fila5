@@ -62,6 +62,10 @@
         "symfony/http-client": "^8.1",
         "symfony/mailer": "^8.1",
         "symfony/mailgun-mailer": "^8.1",
+<<<<<<< HEAD
+=======
+        "symfony/mailjet-mailer": "^8.1",
+>>>>>>> laraxot/dev
         "symfony/postmark-mailer": "*",
         "zbateson/mail-mime-parser": "^4.0"
     },

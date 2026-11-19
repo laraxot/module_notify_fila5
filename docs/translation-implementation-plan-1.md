@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_52dkMm
+=======
+>>>>>>> laraxot/dev
 ---
 title: "translation implementation plan 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_3o7nj9
+>>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.

@@ -1605,7 +1605,16 @@ Nel form di edit/create:
 ### Errore: Plugin Not Registered
 
 **Causa**: Plugin non registrato nel panel  
+<<<<<<< HEAD
 **Soluzione**: Vedere [plugin-spatie-translatable-not-registered.md](./errori/plugin-spatie-translatable-not-registered.md)
+=======
+<<<<<<< .merge_file_BgFak7
+**Soluzione**: Vedere [plugin-spatie-translatable-not-registered.md](../../errori/plugin-spatie-translatable-not-registered.md)
+**Soluzione**: Vedere [plugin-spatie-translatable-not-registered.md](../../errori/plugin-spatie-translatable-not-registered.md)
+=======
+**Soluzione**: Vedere [plugin-spatie-translatable-not-registered.md](./errori/plugin-spatie-translatable-not-registered.md)
+>>>>>>> .merge_file_oLUtz8
+>>>>>>> laraxot/dev
 
 ### Errore: Undefined Method `getTranslation()`
 
@@ -1729,7 +1738,11 @@ Schema::table('mail_templates', function (Blueprint $table) {
 - [Spatie Laravel Translatable Docs](https://spatie.be/docs/laravel-translatable/v6/introduction)
 
 ### Documentazione Interna
+<<<<<<< HEAD
 - [Errore Plugin Not Registered](./errori/plugin-spatie-translatable-not-registered.md)
+=======
+- [Errore Plugin Not Registered](../../errori/plugin-spatie-translatable-not-registered.md)
+>>>>>>> laraxot/dev
 - [Lang Module README](../../lang/docs/readme.md)
 - [Filament Panels Configuration](../../xot/docs/filament/panel-configuration.md)
 

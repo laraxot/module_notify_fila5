@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_mtvzaM
+=======
+>>>>>>> laraxot/dev
 ---
 title: "00 index 1"
 type: note
@@ -9,4 +14,8 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_sNlIcw
+>>>>>>> laraxot/dev
 # Documentation Index

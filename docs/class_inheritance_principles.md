@@ -88,7 +88,11 @@ Per identificare dichiarazioni duplicate, usare:
 # Trova classi che estendono XotBasePage e implementano HasForms
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+<<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
+=======
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/
+>>>>>>> laraxot/dev
 ```
 
 ## Riferimenti

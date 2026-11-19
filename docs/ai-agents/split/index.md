@@ -136,7 +136,11 @@ Split from [`laravel/GEMINI.md`](../../../../laravel/GEMINI.md):
 ## Cross-References
 
 ### Related Documentation
+<<<<<<< HEAD
 - [BMad Method Setup](../../docs/bmad/setup-guide.md)
+=======
+- [BMad Method Setup](../../bmad/setup-guide.md)
+>>>>>>> laraxot/dev
 - [Project Configuration](../../docs/project/configuration.md)
 - [Module Docs Index](../../docs/modules/index.md)
 - [Theme Docs Index](../../docs/themes/index.md)

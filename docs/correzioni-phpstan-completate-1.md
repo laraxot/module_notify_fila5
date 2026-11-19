@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_TLo2Tg
+=======
+>>>>>>> laraxot/dev
 ---
 title: "correzioni phpstan completate 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_JuQFMr
+>>>>>>> laraxot/dev
 # Correzioni PHPStan Completate - Modulo Notify
 
 ## 1. Introduzione
@@ -57,4 +66,12 @@ Configurazione dell'IDE per evidenziare i marker di conflitto Git.
 ## 6. Risultati
 - Tutti i conflitti Git risolti
 - PHPStan livello 0 senza errori di sintassi
+<<<<<<< HEAD
 - Migliorata qualità del codice
+=======
+<<<<<<< .merge_file_TLo2Tg
+- Migliorata qualità del codice
+=======
+- Migliorata qualità del codice
+>>>>>>> .merge_file_JuQFMr
+>>>>>>> laraxot/dev

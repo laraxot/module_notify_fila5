@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_UuTyir
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisi dettagliata 7"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_DkeZl2
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
 
 ## 7. Manutenzione e Backup

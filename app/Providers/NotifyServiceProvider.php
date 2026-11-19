@@ -6,9 +6,18 @@ namespace Modules\Notify\Providers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
+<<<<<<< HEAD
 use Modules\Notify\Providers\Concerns\MergesNotifyConfigFromEnv;
 use Modules\Tenant\Actions\Config\ResolveTenantConfigValueAction;
 use Modules\Xot\Providers\XotBaseServiceProvider;
+=======
+use Modules\Notify\Actions\Mail\Mailjet\CreateMailjetTransportAction;
+use Modules\Notify\Providers\Concerns\MergesNotifyConfigFromEnv;
+use Modules\Tenant\Actions\Config\ResolveTenantConfigValueAction;
+use Modules\Xot\Providers\XotBaseServiceProvider;
+use Symfony\Component\Mailer\Bridge\Mailjet\Transport\MailjetTransportFactory;
+use Symfony\Component\Mailer\Transport\TransportInterface;
+>>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 class NotifyServiceProvider extends XotBaseServiceProvider
@@ -30,6 +39,10 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     public function boot(): void
     {
         parent::boot();
+<<<<<<< HEAD
+=======
+        $this->registerMailjetTransport();
+>>>>>>> laraxot/dev
         // if (! app()->environment('production')) {
         $mail = app(ResolveTenantConfigValueAction::class)->execute('mail');
         Assert::isArray($mail);
@@ -40,4 +53,34 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
         // }
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * Mailer `mailjet` (config/mail.php: 'mailjet' => ['transport' => 'mailjet']).
+     * Chiavi da services.mailjet oppure dal mailer stesso (key, secret, sandbox, scheme).
+     */
+    private function registerMailjetTransport(): void
+    {
+        if (! class_exists(MailjetTransportFactory::class)) {
+            return;
+        }
+
+        Mail::extend('mailjet', static function (array $config): TransportInterface {
+            $pick = static function (string $name, mixed $default) use ($config): mixed {
+                return $config[$name] ?? config('services.mailjet.'.$name, $default);
+            };
+            $key = $pick('key', '');
+            $secret = $pick('secret', '');
+            $scheme = $pick('scheme', 'api');
+
+            return app(CreateMailjetTransportAction::class)->execute(
+                key: \is_string($key) ? $key : '',
+                secret: \is_string($secret) ? $secret : '',
+                sandbox: filter_var($pick('sandbox', false), FILTER_VALIDATE_BOOLEAN),
+                scheme: \is_string($scheme) ? $scheme : 'api',
+            );
+        });
+    }
+>>>>>>> laraxot/dev
 }

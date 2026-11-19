@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_KtF8bH
+=======
+>>>>>>> laraxot/dev
 ---
 title: "enum config usage 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_kHtNE0
+>>>>>>> laraxot/dev
 # Utilizzo di Enum e Config
 
 Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema <nome progetto>, con particolare attenzione alla gestione delle opzioni nei componenti Filament.

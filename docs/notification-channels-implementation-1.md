@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Q5EHwL
+=======
+>>>>>>> laraxot/dev
 ---
 title: "notification channels implementation 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_hNSBrf
+>>>>>>> laraxot/dev
 # Implementazione dei Canali di Notifica
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.

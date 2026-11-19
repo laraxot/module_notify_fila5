@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_y1f2PL
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisi dettagliata 8"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_e1a79u
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 
 ## 8. Note Finali

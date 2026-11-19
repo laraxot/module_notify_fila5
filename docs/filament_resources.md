@@ -265,7 +265,11 @@ public static function getTableActions(): array
 
 ### Collegamenti ai Moduli
 - [XotBaseResource](../../Xot/project_docs/XotBaseResource.md)
+<<<<<<< HEAD
 - [Gestione Template](../template-management.md)
+=======
+- [Gestione Template](template-management.md)
+>>>>>>> laraxot/dev
 
 ## Note Importanti
 

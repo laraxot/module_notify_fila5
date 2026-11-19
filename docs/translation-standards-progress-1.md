@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ZBmSed
+=======
+>>>>>>> laraxot/dev
 ---
 title: "translation standards progress 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_5Qe8Dp
+>>>>>>> laraxot/dev
 # Progresso Standardizzazione Traduzioni
 
 ## Stato Attuale - 12/05/2025

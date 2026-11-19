@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_TC6hPU
+=======
+>>>>>>> laraxot/dev
 ---
 title: "notify translation guide 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_d1oRAL
+>>>>>>> laraxot/dev
 # Guida alle Traduzioni nel Modulo Notify
 
 ## Introduzione

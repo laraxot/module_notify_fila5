@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fLx5MR
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisiettagliata 2"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_zXG5bq
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
 
 ## 2. Modelli e Relazioni

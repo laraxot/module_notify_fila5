@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_sF4Xjx
+=======
+>>>>>>> laraxot/dev
 ---
 title: "sms troubleshooting 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_L5YBJ5
+>>>>>>> laraxot/dev
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni

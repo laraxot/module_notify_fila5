@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_PXtbMq
+=======
+>>>>>>> laraxot/dev
 ---
 title: "email templates 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_AU193H
+>>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.

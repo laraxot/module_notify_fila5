@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_pWldOD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "email templates analysis 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_onXuHR
+>>>>>>> laraxot/dev
 # Analisi Approfondita: Email Templates in Laravel per <nome progetto>
 
 ## 1. Panoramica Soluzioni Analizzate
@@ -134,6 +143,11 @@ Sono state analizzate le principali soluzioni open source, best practice e patte
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_pWldOD
+=======
+>>>>>>> laraxot/dev
 title: "email templates analysis 1"
 type: note
 tags: [documentation]
@@ -142,4 +156,8 @@ updated: 2026-09-26
 qmd: "email templates analysis 1"
 issues: []
 discussions: []
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_onXuHR
+>>>>>>> laraxot/dev
 _Analisi aggiornata al 2025-05-05. Per dettagli e approfondimenti, consultare i README specifici delle soluzioni nella cartella email-templates._

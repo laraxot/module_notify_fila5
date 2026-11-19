@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_F6QeDY
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisi dettagliata 7"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_V4sX27
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
 
 ## 7. Manutenzione e Backup
@@ -652,5 +661,13 @@ class MaintainTemplatesCommand extends Command
         return 0;
     }
 } 
+<<<<<<< HEAD
 
 ```
+=======
+<<<<<<< .merge_file_F6QeDY
+=======
+
+```
+>>>>>>> .merge_file_V4sX27
+>>>>>>> laraxot/dev

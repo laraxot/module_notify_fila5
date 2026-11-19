@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_31CKue
+=======
+>>>>>>> laraxot/dev
 ---
 title: "laravel path conventions 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_G9qiir
+>>>>>>> laraxot/dev
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle

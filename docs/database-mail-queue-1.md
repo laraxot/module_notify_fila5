@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jd7liM
+=======
+>>>>>>> laraxot/dev
 ---
 title: "database mail queue 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_EtFAYQ
+>>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.

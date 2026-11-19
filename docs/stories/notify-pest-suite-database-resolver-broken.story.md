@@ -24,7 +24,11 @@ owned_scope:
   - "laravel/Modules/Notify/tests/TestCase.php"
   - "laravel/Modules/Xot/tests/XotBaseTestCase.php"
 related:
+<<<<<<< HEAD
   - "../../Quaeris/docs/stories/quaeris-send-invite-migrate-to-record-notification.md"
+=======
+  - "../../<nome progetto>/docs/stories/<nome progetto>-send-invite-migrate-to-record-notification.md"
+>>>>>>> laraxot/dev
   - "../testing-testcaseatabase-connection.md"
   - "../testing-testcase-database-connection-fix.md"
 ---
@@ -34,7 +38,11 @@ related:
 ## Contesto
 
 Scoperto il 2026-09-15 facendo il Task 8 (AC12) della story
+<<<<<<< HEAD
 `quaeris-send-invite-migrate-to-record-notification.md` (`module_quaeris_fila5#38`):
+=======
+`<nome progetto>-send-invite-migrate-to-record-notification.md` (`module_<nome progetto>_fila5#38`):
+>>>>>>> laraxot/dev
 una passata Pest completa, file per file, per verificare che le modifiche di
 quella story non avessero introdotto regressioni in `Modules/Notify`.
 
@@ -46,7 +54,11 @@ test: **risultati identici, file per file**, prima e dopo le modifiche.
 ## Scala del problema
 
 Eseguendo ogni file di test di `Modules/Notify` singolarmente (137 file totali
+<<<<<<< HEAD
 tra Notify e Quaeris, per evitare l'inquinamento tra file di cui sotto):
+=======
+tra Notify e <nome progetto>, per evitare l'inquinamento tra file di cui sotto):
+>>>>>>> laraxot/dev
 **~75 file su ~90 in `Modules/Notify` hanno almeno un test fallito.**
 
 Due sintomi diversi, probabilmente la stessa causa radice:
@@ -129,7 +141,11 @@ processo). Non è chiaro, senza indagare oltre, se questa sostituzione abbia
 reintrodotto lo stesso problema del 2025 in una forma diversa, o se sia un
 problema distinto introdotto dal nuovo meccanismo.
 
+<<<<<<< HEAD
 ## Impatto concreto sulla story `module_quaeris_fila5#38`
+=======
+## Impatto concreto sulla story `module_<nome progetto>_fila5#38`
+>>>>>>> laraxot/dev
 
 Il Task 7 di quella story (test Pest per `SendInviteAction`) non è impattato:
 usa `Notification::fake()`, che non tocca mai il database per davvero.

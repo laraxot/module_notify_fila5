@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_UViPpM
+=======
+>>>>>>> laraxot/dev
 ---
 title: "notification providers guide 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_im49oA
+>>>>>>> laraxot/dev
 # Guida Completa ai Provider di Notifiche
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.

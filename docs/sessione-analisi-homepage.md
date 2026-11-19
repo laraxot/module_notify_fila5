@@ -200,9 +200,22 @@ Themes/Sixteen/resources/views/
 ## 📚 Risorse
 
 ### Documentazione
+<<<<<<< HEAD
 - [Analisi Visiva](docs/screenshots/homepage/analisi-visiva.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
 - [Fix Plan](docs/screenshots/homepage/fix-plan.md)
+=======
+- [Analisi Visiva](screenshots/homepage/analisi-visiva.md)
+- [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
+<<<<<<< .merge_file_YjioHO
+- [Fix Plan](screenshots/homepage/fix-plan.md)
+- [Analisi Visiva](screenshots/homepage/analisi-visiva.md)
+- [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_analysis.md)
+- [Fix Plan](screenshots/homepage/fix-plan.md)
+=======
+- [Fix Plan](docs/screenshots/homepage/fix-plan.md)
+>>>>>>> .merge_file_yvUOFe
+>>>>>>> laraxot/dev
 - [OpenViking Context](.openvikings/homepage_alignment_context.md)
 
 ### Link Esterni

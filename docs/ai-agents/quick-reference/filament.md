@@ -35,5 +35,9 @@ discussions: []
 ```bash
 cd laravel
 php artisan optimize:clear
+<<<<<<< HEAD
 vendor/bin/phpstan analyse Modules/Xot Modules/Quaeris
+=======
+vendor/bin/phpstan analyse Modules/Xot Modules/<nome progetto>
+>>>>>>> laraxot/dev
 ```

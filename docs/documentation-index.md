@@ -53,7 +53,16 @@ related:
 
 ### Documentazione Architetturale
 - [Design Patterns](./architecture.md) - Pattern architetturali
+<<<<<<< HEAD
 - [Database Schema](./database/schema.md) - Schema database
+=======
+<<<<<<< .merge_file_OVFRx8
+- [Database Schema](wiki/schema.md) - Schema database
+- [Database Schema](./wiki/schema.md) - Schema database
+=======
+- [Database Schema](./database/schema.md) - Schema database
+>>>>>>> .merge_file_MYDlJT
+>>>>>>> laraxot/dev
 - [API Documentation](./api/README.md) - Documentazione API
 - [Security](./security/README.md) - Sicurezza e conformità
 
@@ -208,6 +217,7 @@ related:
 ## 🛠️ Guide Sviluppo
 
 ### Development Setup
+<<<<<<< HEAD
 - [Environment Setup](./development/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
 - [Database Setup](./database/setup.md) - Setup database
@@ -215,12 +225,41 @@ related:
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
 - [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
+=======
+- [Environment Setup](ai-agents/setup.md) - Configurazione ambiente
+- [Docker Setup](./development/docker.md) - Configurazione Docker
+- [Database Setup](ai-agents/setup.md) - Setup database
+
+### Coding Guidelines
+- [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
+<<<<<<< .merge_file_OVFRx8
+- [Laravel Best Practices](html2pdf/laravel.md) - Best practices Laravel
+- [Environment Setup](./ai-agents/setup.md) - Configurazione ambiente
+- [Docker Setup](./development/docker.md) - Configurazione Docker
+- [Database Setup](./ai-agents/setup.md) - Setup database
+
+### Coding Guidelines
+- [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
+- [Laravel Best Practices](./html2pdf/laravel.md) - Best practices Laravel
+=======
+- [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
+>>>>>>> .merge_file_MYDlJT
+>>>>>>> laraxot/dev
 - [Filament Guidelines](./standards/filament.md) - Linee guida Filament
 - [Blade Components](./standards/blade.md) - Componenti Blade
 
 ### Quality Assurance
 - [PHPStan Configuration](./phpstan/README.md) - Analisi statica
+<<<<<<< HEAD
 - [Testing Strategy](./testing/strategy.md) - Strategia testing
+=======
+<<<<<<< .merge_file_OVFRx8
+- [Testing Strategy](strategy.md) - Strategia testing
+- [Testing Strategy](./strategy.md) - Strategia testing
+=======
+- [Testing Strategy](./testing/strategy.md) - Strategia testing
+>>>>>>> .merge_file_MYDlJT
+>>>>>>> laraxot/dev
 - [CI/CD Pipeline](./ci-cd/README.md) - Continuous integration
 
 ---
@@ -261,7 +300,16 @@ related:
 - [Error Tracking](./monitoring/errors.md) - Tracking errori
 
 ### Analytics
+<<<<<<< HEAD
 - [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
+=======
+<<<<<<< .merge_file_OVFRx8
+- [Usage Analytics](html2pdf/usage.md) - Analisi utilizzo
+- [Usage Analytics](./html2pdf/usage.md) - Analisi utilizzo
+=======
+- [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
+>>>>>>> .merge_file_MYDlJT
+>>>>>>> laraxot/dev
 - [Business Metrics](./analytics/business.md) - Metriche business
 
 ---
@@ -269,7 +317,16 @@ related:
 ## 🔒 Security
 
 ### Security Documentation
+<<<<<<< HEAD
 - [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
+=======
+<<<<<<< .merge_file_OVFRx8
+- [Security Guidelines](ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
+- [Security Guidelines](./ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
+=======
+- [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
+>>>>>>> .merge_file_MYDlJT
+>>>>>>> laraxot/dev
 - [GDPR Compliance](./security/gdpr.md) - Conformità GDPR
 - [Authentication](./security/authentication.md) - Sistema autenticazione
 - [Authorization](./security/authorization.md) - Sistema autorizzazioni

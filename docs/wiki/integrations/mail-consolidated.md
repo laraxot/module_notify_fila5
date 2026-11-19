@@ -243,14 +243,34 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
+<<<<<<< HEAD
 I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+=======
+<<<<<<< .merge_file_BIWUMO
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
+=======
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+>>>>>>> .merge_file_IVwFg5
+>>>>>>> laraxot/dev
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [Spatie Email Documentation](./SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
+<<<<<<< HEAD
 - [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+=======
+<<<<<<< .merge_file_BIWUMO
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
+- [Spatie Email Documentation](../../spatie_email_usage_guide.md)
+- [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
+=======
+- [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+>>>>>>> .merge_file_IVwFg5
+>>>>>>> laraxot/dev
 
 ---
 
@@ -557,14 +577,34 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
+<<<<<<< HEAD
 I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+=======
+<<<<<<< .merge_file_BIWUMO
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
+=======
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+>>>>>>> .merge_file_IVwFg5
+>>>>>>> laraxot/dev
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [Spatie Email Documentation](./SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
+<<<<<<< HEAD
 - [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+=======
+<<<<<<< .merge_file_BIWUMO
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
+- [Spatie Email Documentation](../../spatie_email_usage_guide.md)
+- [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
+=======
+- [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+>>>>>>> .merge_file_IVwFg5
+>>>>>>> laraxot/dev
 
 ---
 
@@ -1185,14 +1225,34 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
+<<<<<<< HEAD
 I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+=======
+<<<<<<< .merge_file_BIWUMO
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](../../mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
+=======
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md) per dettagli sull'integrazione.
+>>>>>>> .merge_file_IVwFg5
+>>>>>>> laraxot/dev
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [Spatie Email Documentation](./SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
+<<<<<<< HEAD
 - [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+=======
+<<<<<<< .merge_file_BIWUMO
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
+- [Spatie Email Documentation](../../spatie_email_usage_guide.md)
+- [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
+- [HTML Email Compatibility Guide](../../mail-templates/html_email_compatibility.md)
+=======
+- [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+>>>>>>> .merge_file_IVwFg5
+>>>>>>> laraxot/dev
 
 ---
 

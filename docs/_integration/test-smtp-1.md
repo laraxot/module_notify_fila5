@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_NMXeia
+=======
+>>>>>>> laraxot/dev
 ---
 title: "test smtp 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_CwTjBF
+>>>>>>> laraxot/dev
 # test_smtp
 
 <!-- Contenuto migrato da _docs/test_smtp.txt -->

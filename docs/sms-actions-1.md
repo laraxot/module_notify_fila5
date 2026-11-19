@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_NCtLRF
+=======
+>>>>>>> laraxot/dev
 ---
 title: "sms actions 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_CheWDc
+>>>>>>> laraxot/dev
 # Azioni SMS
 
 ## Interfaccia

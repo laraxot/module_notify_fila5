@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_qM0SoT
+=======
+>>>>>>> laraxot/dev
 ---
 title: "index 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ByWmrE
+>>>>>>> laraxot/dev
 # Notify Module Documentation
 
 ## Overview
@@ -198,4 +207,12 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../../docs/README.md](../../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< HEAD
 *Ultimo aggiornamento: Gennaio 2025*
+=======
+<<<<<<< .merge_file_qM0SoT
+*Ultimo aggiornamento: Gennaio 2025*
+=======
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> .merge_file_ByWmrE
+>>>>>>> laraxot/dev

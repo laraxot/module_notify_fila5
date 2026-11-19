@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_vC8AyS
+=======
+>>>>>>> laraxot/dev
 ---
 title: "netfun channel 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_qnmTG7
+>>>>>>> laraxot/dev
 # Implementazione Canale Netfun
 
 ## 1. Struttura Base

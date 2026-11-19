@@ -8,6 +8,20 @@ updated: 2026-08-02
 
 # Documentation
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_md0uMC
+## Kit BMAD owner (canonico)
+
+- [BMAD Planning](bmad-planning.md)
+- [BMAD Brainstorming](../bmad-brainstorming.md)
+- [Filament blueprint](./filament-blueprint.md)
+- [Project context](./project-context.md)
+- [Decision log](./decision-log.md)
+
+=======
+>>>>>>> .merge_file_Qsb1gf
+>>>>>>> laraxot/dev
 This directory contains documentation for the Notify module.
 
 ## Structure

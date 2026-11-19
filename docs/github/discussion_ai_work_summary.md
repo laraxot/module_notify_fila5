@@ -186,7 +186,11 @@ ssh-keygen -t ed25519 -C "actions@github.com"
 
 ### Documentation
 - [GitHub Action Setup Guide](GITHUB_ACTION_SETUP_REQUIRED.md)
+<<<<<<< HEAD
 - [AI Lessons Learned](AI_AGENT_LESSONS_LEARNED.md)
+=======
+- [AI Lessons Learned](../project/AI_AGENT_LESSONS_LEARNED.md)
+>>>>>>> laraxot/dev
 - [Critical AI Rules](docs/AI_RULES_CRITICAL.md)
 - [Sync Subtrees Docs](bashscripts/docs/github/actions/sync-subtrees.md)
 

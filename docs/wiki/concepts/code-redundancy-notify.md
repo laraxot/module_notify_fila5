@@ -51,7 +51,16 @@ Nove file `*.php.up` — backup pre-migrazione Filament 3/5, **duplicano** class
 
 ## Audit precedente
 
+<<<<<<< HEAD
 - [redundancy-audit-2026-05-21.md](../../../redundancy-audit-2026-05-21.md) — fragment email case, config annidate.
+=======
+<<<<<<< .merge_file_Dwcp41
+- [redundancy-audit-2026-05-21.md](../../redundancy-audit-2026-05-21.md): fragment email case, config annidate.
+- [redundancy-audit-2026-05-21.md](../../redundancy-audit-notify.md): fragment email case, config annidate.
+=======
+- [redundancy-audit-2026-05-21.md](../../../redundancy-audit-2026-05-21.md) — fragment email case, config annidate.
+>>>>>>> .merge_file_VyldEY
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 

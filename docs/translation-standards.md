@@ -9,9 +9,15 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
 # Standard per le Traduzioni 
 
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di Quaeris, con particolare attenzione al modulo Notify.
+=======
+# Standard per le Traduzioni
+
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+>>>>>>> laraxot/dev
 
 ## Struttura delle Cartelle
 
@@ -36,9 +42,15 @@ Le traduzioni devono essere organizzate nelle seguenti cartelle:
 
 ### Esempi Corretti
 
+<<<<<<< HEAD
 ✅ `send_sms.php` (non `send_s_m_s.php`)  
 ✅ `send_aws_email.php` (non `send_a_w_s_email.php`)  
 ✅ `send_whatsapp.php` (non `send_whats_app.php`)  
+=======
+✅ `send_sms.php` (non `send_s_m_s.php`)
+✅ `send_aws_email.php` (non `send_a_w_s_email.php`)
+✅ `send_whatsapp.php` (non `send_whats_app.php`)
+>>>>>>> laraxot/dev
 
 ## Struttura dei File di Traduzione
 

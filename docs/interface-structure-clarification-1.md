@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_rM11Bm
+=======
+>>>>>>> laraxot/dev
 ---
 title: "interface structure clarification 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_43sHMF
+>>>>>>> laraxot/dev
 # Chiarimento sulla Struttura delle Interfacce
 
 ## Struttura Corretta per le Interfacce SMS

@@ -185,13 +185,21 @@ public function make(string $driver): SmsActionInterface
     }
 
     $actionClass = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($driver) . "SMSAction";
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!class_exists($actionClass)) {
         throw new \Exception("Classe action non trovata per il driver: {$driver}");
     }
 
     $action = app($actionClass);
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!$action instanceof SmsActionInterface) {
         throw new \Exception("La classe {$actionClass} non implementa SmsActionInterface");
     }
@@ -214,7 +222,11 @@ La soluzione ibrida offre il miglior compromesso tra:
 - Manutenibilità e documentazione
 - Robustezza e gestione degli errori
 
+<<<<<<< HEAD
 Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità. 
+=======
+Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -301,13 +313,21 @@ public function make(string $driver): SmsActionInterface
     }
 
     $actionClass = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($driver) . "SMSAction";
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!class_exists($actionClass)) {
         throw new \Exception("Classe action non trovata per il driver: {$driver}");
     }
 
     $action = app($actionClass);
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!$action instanceof SmsActionInterface) {
         throw new \Exception("La classe {$actionClass} non implementa SmsActionInterface");
     }
@@ -330,7 +350,11 @@ La soluzione ibrida offre il miglior compromesso tra:
 - Manutenibilità e documentazione
 - Robustezza e gestione degli errori
 
+<<<<<<< HEAD
 Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità. 
+=======
+Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -437,7 +461,11 @@ return app($class);
 
 ## 7. Conclusione
 
+<<<<<<< HEAD
 La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata. 
+=======
+La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -524,7 +552,11 @@ return app($class);
 
 ## 7. Conclusione
 
+<<<<<<< HEAD
 La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata. 
+=======
+La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -611,13 +643,21 @@ public function make(string $driver): SmsActionInterface
     }
 
     $actionClass = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($driver) . "SMSAction";
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!class_exists($actionClass)) {
         throw new \Exception("Classe action non trovata per il driver: {$driver}");
     }
 
     $action = app($actionClass);
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!$action instanceof SmsActionInterface) {
         throw new \Exception("La classe {$actionClass} non implementa SmsActionInterface");
     }
@@ -640,7 +680,11 @@ La soluzione ibrida offre il miglior compromesso tra:
 - Manutenibilità e documentazione
 - Robustezza e gestione degli errori
 
+<<<<<<< HEAD
 Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità. 
+=======
+Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -1173,7 +1217,11 @@ try {
 - Documentare procedure
 - Mantenere SLA
 - Monitorare ticket
+<<<<<<< HEAD
 - Analizzare feedback 
+=======
+- Analizzare feedback
+>>>>>>> laraxot/dev
 
 ---
 
@@ -1429,7 +1477,11 @@ try {
 - Documentare procedure
 - Mantenere SLA
 - Monitorare ticket
+<<<<<<< HEAD
 - Analizzare feedback 
+=======
+- Analizzare feedback
+>>>>>>> laraxot/dev
 
 ---
 
@@ -1537,7 +1589,11 @@ $action = match ($driver) {
 - Logica nel canale/factory: **85% pro, 15% contro**
 - Logica nel DTO: **20% pro, 80% contro**
 
+<<<<<<< HEAD
 **Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD. 
+=======
+**Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -1625,7 +1681,11 @@ $action = match ($driver) {
 - Logica nel canale/factory: **85% pro, 15% contro**
 - Logica nel DTO: **20% pro, 80% contro**
 
+<<<<<<< HEAD
 **Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD. 
+=======
+**Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -1815,7 +1875,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # Struttura della Configurazione SMS 
+=======
+# Struttura della Configurazione SMS
+>>>>>>> laraxot/dev
 
 ## Introduzione
 
@@ -1829,12 +1893,20 @@ Il file `config/sms.php` è organizzato in sezioni distinte:
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'default_provider'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione dei driver/provider
     'drivers' => [
         // Configurazioni specifiche per provider...
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni generiche per tutti i provider
     'queue' => env('SMS_QUEUE', 'default'),
     'retry' => [...],
@@ -1875,20 +1947,32 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'password' => env('NETFUN_PASSWORD'),
 'sender' => env('NETFUN_SENDER', 'App'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Configurazioni avanzate specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
             'timeout' => env('NETFUN_CIRCUIT_BREAKER_TIMEOUT', 60),
         ],
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'twilio' => [
         'account_sid' => env('TWILIO_ACCOUNT_SID'),
         'auth_token' => env('TWILIO_AUTH_TOKEN'),
         'from' => env('TWILIO_FROM'),
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Altri provider...
 ],
 ```
@@ -1932,7 +2016,11 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'password' => env('NETFUN_PASSWORD'),
 'sender' => env('NETFUN_SENDER', 'App'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Solo configurazioni veramente specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
@@ -1996,12 +2084,20 @@ Il file `config/sms.php` è organizzato in sezioni distinte:
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'default_provider'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione dei driver/provider
     'drivers' => [
         // Configurazioni specifiche per provider...
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni generiche per tutti i provider
     'queue' => env('SMS_QUEUE', 'default'),
     'retry' => [...],
@@ -2043,20 +2139,32 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Configurazioni avanzate specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
             'timeout' => env('NETFUN_CIRCUIT_BREAKER_TIMEOUT', 60),
         ],
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'twilio' => [
         'account_sid' => env('TWILIO_ACCOUNT_SID'),
         'auth_token' => env('TWILIO_AUTH_TOKEN'),
         'from' => env('TWILIO_FROM'),
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Altri provider...
 ],
 ```
@@ -2101,7 +2209,11 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Solo configurazioni veramente specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
@@ -2794,7 +2906,11 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -2987,7 +3103,11 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -3217,7 +3337,11 @@ class SmsData extends Data
     public function getAction(): SendSmsActionInterface
     {
         $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3293,7 +3417,11 @@ class SmsDriverService
     public function getAction(string $driver = null): SendSmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3311,7 +3439,11 @@ Questa soluzione:
 - Mantiene la separazione delle responsabilità
 - Centralizza la logica di selezione
 - È più facile da testare e mantenere
+<<<<<<< HEAD
 - Non viola i principi SOLID 
+=======
+- Non viola i principi SOLID
+>>>>>>> laraxot/dev
 
 ---
 
@@ -3346,7 +3478,11 @@ class SmsData extends Data
     public function getAction(): SendSmsActionInterface
     {
         $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3422,7 +3558,11 @@ class SmsDriverService
     public function getAction(string $driver = null): SendSmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3440,7 +3580,11 @@ Questa soluzione:
 - Mantiene la separazione delle responsabilità
 - Centralizza la logica di selezione
 - È più facile da testare e mantenere
+<<<<<<< HEAD
 - Non viola i principi SOLID 
+=======
+- Non viola i principi SOLID
+>>>>>>> laraxot/dev
 
 ---
 
@@ -3549,7 +3693,11 @@ class SmsService
         }
 
         $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3568,7 +3716,11 @@ Questa soluzione:
 - Centralizza sia la validazione che la selezione del driver
 - È più facile da testare e mantenere
 - Non viola i principi SOLID
+<<<<<<< HEAD
 - Mantiene `SmsData` focalizzato sulla sua responsabilità primaria 
+=======
+- Mantiene `SmsData` focalizzato sulla sua responsabilità primaria
+>>>>>>> laraxot/dev
 
 ---
 
@@ -3657,7 +3809,11 @@ class SmsService
         }
 
         $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -3676,7 +3832,11 @@ Questa soluzione:
 - Centralizza sia la validazione che la selezione del driver
 - È più facile da testare e mantenere
 - Non viola i principi SOLID
+<<<<<<< HEAD
 - Mantiene `SmsData` focalizzato sulla sua responsabilità primaria 
+=======
+- Mantiene `SmsData` focalizzato sulla sua responsabilità primaria
+>>>>>>> laraxot/dev
 
 ---
 
@@ -3767,7 +3927,11 @@ private SmsFactorData $smsFactorData;
 public function __construct()
 {
     $this->smsFactorData = SmsFactorData::make();
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!$this->smsFactorData->token) {
         throw new Exception('Token SMSFactor non configurato in sms.php');
     }
@@ -3956,7 +4120,11 @@ private SmsFactorData $smsFactorData;
 public function __construct()
 {
     $this->smsFactorData = SmsFactorData::make();
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!$this->smsFactorData->token) {
         throw new Exception('Token SMSFactor non configurato in sms.php');
     }
@@ -4148,7 +4316,11 @@ private SmsFactorData $smsFactorData;
 public function __construct()
 {
     $this->smsFactorData = SmsFactorData::make();
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!$this->smsFactorData->token) {
         throw new Exception('Token SMSFactor non configurato in sms.php');
     }
@@ -4319,7 +4491,11 @@ return [
     'retry' => [...],
     'rate_limit' => [...],
     'circuit_breaker' => [...],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Parametri specifici per provider (nella sezione 'drivers')
     'drivers' => [
         'provider1' => [
@@ -4506,7 +4682,11 @@ return [
     'retry' => [...],
     'rate_limit' => [...],
     'circuit_breaker' => [...],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Parametri specifici per provider (nella sezione 'drivers')
     'drivers' => [
         'provider1' => [
@@ -4717,7 +4897,11 @@ Queste classi implementano il pattern singleton e forniscono metodi helper per l
 // config/sms.php
 return [
     'default' => env('SMS_DRIVER', 'smsfactor'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'drivers' => [
         'smsfactor' => [
             'token' => env('SMSFACTOR_TOKEN'),
@@ -4829,7 +5013,11 @@ class SmsChannel
     public function send($notifiable, Notification $notification)
     {
         $message = $notification->toSms($notifiable);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return $this->sms->send(
             $notifiable->phone_number,
             $message
@@ -4981,7 +5169,11 @@ class SmsIntegrationTest extends TestCase
             'name' => 'Test',
             'content' => 'Hello {{name}}!'
         ]);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         $result = $template->render(['name' => 'John']);
         $this->assertEquals('Hello John!', $result);
     }
@@ -5058,7 +5250,11 @@ SMSFACTOR_SENDER=YourApp
 - [Documentazione SMSFactor](https://www.smsfactor.com)
 - [Documentazione Twilio](https://www.twilio.com/docs)
 - [Documentazione Nexmo](https://developer.nexmo.com)
+<<<<<<< HEAD
 - [Documentazione Plivo](https://www.plivo.com/docs) 
+=======
+- [Documentazione Plivo](https://www.plivo.com/docs)
+>>>>>>> laraxot/dev
 
 ---
 
@@ -5093,7 +5289,11 @@ Queste classi implementano il pattern singleton e forniscono metodi helper per l
 // config/sms.php
 return [
     'default' => env('SMS_DRIVER', 'smsfactor'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'drivers' => [
         'smsfactor' => [
             'token' => env('SMSFACTOR_TOKEN'),
@@ -5205,7 +5405,11 @@ class SmsChannel
     public function send($notifiable, Notification $notification)
     {
         $message = $notification->toSms($notifiable);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return $this->sms->send(
             $notifiable->phone_number,
             $message
@@ -5357,7 +5561,11 @@ class SmsIntegrationTest extends TestCase
             'name' => 'Test',
             'content' => 'Hello {{name}}!'
         ]);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         $result = $template->render(['name' => 'John']);
         $this->assertEquals('Hello John!', $result);
     }
@@ -5434,7 +5642,11 @@ SMSFACTOR_SENDER=YourApp
 - [Documentazione SMSFactor](https://www.smsfactor.com)
 - [Documentazione Twilio](https://www.twilio.com/docs)
 - [Documentazione Nexmo](https://developer.nexmo.com)
+<<<<<<< HEAD
 - [Documentazione Plivo](https://www.plivo.com/docs) 
+=======
+- [Documentazione Plivo](https://www.plivo.com/docs)
+>>>>>>> laraxot/dev
 
 ---
 
@@ -6368,7 +6580,11 @@ Notification::assertSentTo($user, OrderShipped::class);
 ## 9. Riferimenti
 - [Netfun SMS API](https://www.netfunitalia.it/)
 - [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
 - [Laravel Notifications](https://laravel.com/docs/notifications) 
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+>>>>>>> laraxot/dev
 
 ---
 
@@ -6422,7 +6638,11 @@ $payload = [
 - Validare i dati con regole custom (es. formato numero, lunghezza mittente)
 - Documentare ogni DTO e aggiornarlo in caso di modifiche API
 
+<<<<<<< HEAD
 --- 
+=======
+---
+>>>>>>> laraxot/dev
 
 # Canale SMS Netfun
 
@@ -6535,7 +6755,11 @@ class NetfunSMSTest extends TestCase
 }
 ```
 
+<<<<<<< HEAD
 --- 
+=======
+---
+>>>>>>> laraxot/dev
 ---
 
 ## sms-netfun-channel
@@ -6905,7 +7129,11 @@ Notification::assertSentTo($user, OrderShipped::class);
 ## 9. Riferimenti
 - [Netfun SMS API](https://www.netfunitalia.it/)
 - [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
 - [Laravel Notifications](https://laravel.com/docs/notifications) 
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+>>>>>>> laraxot/dev
 
 ---
 
@@ -6959,7 +7187,11 @@ $payload = [
 - Validare i dati con regole custom (es. formato numero, lunghezza mittente)
 - Documentare ogni DTO e aggiornarlo in caso di modifiche API
 
+<<<<<<< HEAD
 --- 
+=======
+---
+>>>>>>> laraxot/dev
 
 # Canale SMS Netfun
 
@@ -7072,7 +7304,11 @@ class NetfunSMSTest extends TestCase
 }
 ```
 
+<<<<<<< HEAD
 --- 
+=======
+---
+>>>>>>> laraxot/dev
 
 ---
 
@@ -7112,7 +7348,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # Configurazione Corretta dei Provider SMS 
+=======
+# Configurazione Corretta dei Provider SMS
+>>>>>>> laraxot/dev
 
 ## Regola Fondamentale
 
@@ -7135,7 +7375,11 @@ return [
         'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione specifiche dei provider
     'drivers' => [
         'netfun' => [
@@ -7171,7 +7415,11 @@ public function __construct()
     if (!is_string($this->token)) {
         throw new Exception('API Key Netfun non configurata in sms.php');
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Parametri generici a livello di root
     $this->defaultSender = config('sms.from');
     $this->timeout = config('sms.timeout', 30);
@@ -7390,25 +7638,41 @@ related:
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'netfun'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni generiche applicabili a tutti i driver
     'from' => env('SMS_FROM'),
     'timeout' => (int) env('SMS_TIMEOUT', 30),
     'debug' => (bool) env('SMS_DEBUG', false),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione per retry e circuit breaker
     'retry' => [
         'attempts' => (int) env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => (int) env('SMS_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione per rate limiting
     'rate_limit' => [
         'enabled' => (bool) env('SMS_RATE_LIMIT_ENABLED', true),
         'max_attempts' => (int) env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => (int) env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni specifiche per driver
     'drivers' => [
         'netfun' => [
@@ -7418,14 +7682,22 @@ return [
             'sender' => env('NETFUN_SENDER'),
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         'twilio' => [
             // Solo parametri specifici per Twilio
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
             'from' => env('TWILIO_FROM'),
         ],
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Altri provider...
     ],
 ];
@@ -7440,7 +7712,11 @@ return [
   - MAI includere retry, rate limiting, circuit breaker, timeout, debug flags
 
 - **Configurazione Generica** (sezioni separate):
+<<<<<<< HEAD
   - Sezione `retry` per tentativi di ripetizione 
+=======
+  - Sezione `retry` per tentativi di ripetizione
+>>>>>>> laraxot/dev
   - Sezione `rate_limit` per limitazione delle richieste
   - Sezione `timeout` per timeout globale
   - Sezione `debug` per flag di debug
@@ -7516,25 +7792,41 @@ $token = config('services.netfun.token');
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'netfun'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni generiche applicabili a tutti i driver
     'from' => env('SMS_FROM'),
     'timeout' => (int) env('SMS_TIMEOUT', 30),
     'debug' => (bool) env('SMS_DEBUG', false),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione per retry e circuit breaker
     'retry' => [
         'attempts' => (int) env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => (int) env('SMS_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione per rate limiting
     'rate_limit' => [
         'enabled' => (bool) env('SMS_RATE_LIMIT_ENABLED', true),
         'max_attempts' => (int) env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => (int) env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni specifiche per driver
     'drivers' => [
         'netfun' => [
@@ -7544,14 +7836,22 @@ return [
             'sender' => env('NETFUN_SENDER'),
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         'twilio' => [
             // Solo parametri specifici per Twilio
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
             'from' => env('TWILIO_FROM'),
         ],
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Altri provider...
     ],
 ];
@@ -7566,7 +7866,11 @@ return [
   - MAI includere retry, rate limiting, circuit breaker, timeout, debug flags
 
 - **Configurazione Generica** (sezioni separate):
+<<<<<<< HEAD
   - Sezione `retry` per tentativi di ripetizione 
+=======
+  - Sezione `retry` per tentativi di ripetizione
+>>>>>>> laraxot/dev
   - Sezione `rate_limit` per limitazione delle richieste
   - Sezione `timeout` per timeout globale
   - Sezione `debug` per flag di debug
@@ -7578,7 +7882,11 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 ```php
 // ❌ ERRATO
 'sender' => env('NETFUN_SENDER', 'App'),
+<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', 'Quaeris'),
+=======
+'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> laraxot/dev
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),
@@ -8295,7 +8603,11 @@ Log::debug('SMS Debug', [
 ### 3. Monitoraggio
 - Check periodici
 - Alert system
+<<<<<<< HEAD
 - Report mensili 
+=======
+- Report mensili
+>>>>>>> laraxot/dev
 
 ---
 
@@ -8499,7 +8811,11 @@ Log::debug('SMS Debug', [
 ### 3. Monitoraggio
 - Check periodici
 - Alert system
+<<<<<<< HEAD
 - Report mensili 
+=======
+- Report mensili
+>>>>>>> laraxot/dev
 
 ---
 
@@ -8593,13 +8909,21 @@ public function make(string $driver): SmsActionInterface
     }
 
     $actionClass = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($driver) . "SMSAction";
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!class_exists($actionClass)) {
         throw new \Exception("Classe action non trovata per il driver: {$driver}");
     }
 
     $action = app($actionClass);
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!$action instanceof SmsActionInterface) {
         throw new \Exception("La classe {$actionClass} non implementa SmsActionInterface");
     }
@@ -8622,7 +8946,11 @@ La soluzione ibrida offre il miglior compromesso tra:
 - Manutenibilità e documentazione
 - Robustezza e gestione degli errori
 
+<<<<<<< HEAD
 Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità. 
+=======
+Si consiglia di implementare la soluzione ibrida per ottenere i vantaggi di entrambi gli approcci mantenendo un alto livello di sicurezza e manutenibilità.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -8709,7 +9037,11 @@ return app($class);
 
 ## 7. Conclusione
 
+<<<<<<< HEAD
 La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata. 
+=======
+La risoluzione dinamica tramite formula è **più scalabile e manutenibile** rispetto al match esplicito, ma richiede disciplina nella naming convention e test automatici di coerenza. In progetti modulari e in crescita è la scelta preferibile, purché ben documentata e sorvegliata.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -9045,7 +9377,11 @@ try {
 - Documentare procedure
 - Mantenere SLA
 - Monitorare ticket
+<<<<<<< HEAD
 - Analizzare feedback 
+=======
+- Analizzare feedback
+>>>>>>> laraxot/dev
 
 ---
 
@@ -9133,7 +9469,11 @@ $action = match ($driver) {
 - Logica nel canale/factory: **85% pro, 15% contro**
 - Logica nel DTO: **20% pro, 80% contro**
 
+<<<<<<< HEAD
 **Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD. 
+=======
+**Motivazione:** Separation of Concerns, testabilità, estendibilità, aderenza alle best practice Laravel e DDD.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -9155,13 +9495,21 @@ return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'default_provider'),
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione dei driver/provider
     'drivers' => [
         // Configurazioni specifiche per provider...
     ],
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni generiche per tutti i provider
     'queue' => env('SMS_QUEUE', 'default'),
     'retry' => [...],
@@ -9205,7 +9553,11 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Configurazioni avanzate specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
@@ -9213,14 +9565,22 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         ],
     ],
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'twilio' => [
         'account_sid' => env('TWILIO_ACCOUNT_SID'),
         'auth_token' => env('TWILIO_AUTH_TOKEN'),
         'from' => env('TWILIO_FROM'),
     ],
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Altri provider...
 ],
 ```
@@ -9267,7 +9627,11 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Solo configurazioni veramente specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
@@ -9325,7 +9689,11 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -9534,7 +9902,11 @@ class SmsData extends Data
     public function getAction(): SendSmsActionInterface
     {
         $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -9610,7 +9982,11 @@ class SmsDriverService
     public function getAction(string $driver = null): SendSmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -9628,7 +10004,11 @@ Questa soluzione:
 - Mantiene la separazione delle responsabilità
 - Centralizza la logica di selezione
 - È più facile da testare e mantenere
+<<<<<<< HEAD
 - Non viola i principi SOLID 
+=======
+- Non viola i principi SOLID
+>>>>>>> laraxot/dev
 
 ---
 
@@ -9717,7 +10097,11 @@ class SmsService
         }
 
         $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -9736,7 +10120,11 @@ Questa soluzione:
 - Centralizza sia la validazione che la selezione del driver
 - È più facile da testare e mantenere
 - Non viola i principi SOLID
+<<<<<<< HEAD
 - Mantiene `SmsData` focalizzato sulla sua responsabilità primaria 
+=======
+- Mantiene `SmsData` focalizzato sulla sua responsabilità primaria
+>>>>>>> laraxot/dev
 
 ---
 
@@ -9807,7 +10195,11 @@ private SmsFactorData $smsFactorData;
 public function __construct()
 {
     $this->smsFactorData = SmsFactorData::make();
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     if (!$this->smsFactorData->token) {
         throw new Exception('Token SMSFactor non configurato in sms.php');
     }
@@ -9955,7 +10347,11 @@ return [
     'retry' => [...],
     'rate_limit' => [...],
     'circuit_breaker' => [...],
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Parametri specifici per provider (nella sezione 'drivers')
     'drivers' => [
         'provider1' => [
@@ -10146,7 +10542,11 @@ Queste classi implementano il pattern singleton e forniscono metodi helper per l
 // config/sms.php
 return [
     'default' => env('SMS_DRIVER', 'smsfactor'),
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     'drivers' => [
         'smsfactor' => [
             'token' => env('SMSFACTOR_TOKEN'),
@@ -10258,7 +10658,11 @@ class SmsChannel
     public function send($notifiable, Notification $notification)
     {
         $message = $notification->toSms($notifiable);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return $this->sms->send(
             $notifiable->phone_number,
             $message
@@ -10410,7 +10814,11 @@ class SmsIntegrationTest extends TestCase
             'name' => 'Test',
             'content' => 'Hello {{name}}!'
         ]);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         $result = $template->render(['name' => 'John']);
         $this->assertEquals('Hello John!', $result);
     }
@@ -10487,7 +10895,11 @@ SMSFACTOR_SENDER=YourApp
 - [Documentazione SMSFactor](https://www.smsfactor.com)
 - [Documentazione Twilio](https://www.twilio.com/docs)
 - [Documentazione Nexmo](https://developer.nexmo.com)
+<<<<<<< HEAD
 - [Documentazione Plivo](https://www.plivo.com/docs) 
+=======
+- [Documentazione Plivo](https://www.plivo.com/docs)
+>>>>>>> laraxot/dev
 
 ---
 
@@ -10859,7 +11271,11 @@ Notification::assertSentTo($user, OrderShipped::class);
 - [Netfun SMS API](https://www.netfunitalia.it/)
 - [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
+<<<<<<< HEAD
 - [Laravel Notifications](https://laravel.com/docs/notifications) 
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+>>>>>>> laraxot/dev
 
 ---
 
@@ -10914,7 +11330,11 @@ $payload = [
 - Documentare ogni DTO e aggiornarlo in caso di modifiche API
 
 ---
+<<<<<<< HEAD
 --- 
+=======
+---
+>>>>>>> laraxot/dev
 
 # Canale SMS Netfun
 
@@ -11028,7 +11448,11 @@ class NetfunSMSTest extends TestCase
 ```
 
 ---
+<<<<<<< HEAD
 --- 
+=======
+---
+>>>>>>> laraxot/dev
 
 ---
 
@@ -11059,7 +11483,11 @@ return [
         'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione specifiche dei provider
     'drivers' => [
         'netfun' => [
@@ -11096,7 +11524,11 @@ public function __construct()
         throw new Exception('API Key Netfun non configurata in sms.php');
     }
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Parametri generici a livello di root
     $this->defaultSender = config('sms.from');
     $this->timeout = config('sms.timeout', 30);
@@ -11174,20 +11606,32 @@ return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'netfun'),
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni generiche applicabili a tutti i driver
     'from' => env('SMS_FROM'),
     'timeout' => (int) env('SMS_TIMEOUT', 30),
     'debug' => (bool) env('SMS_DEBUG', false),
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione per retry e circuit breaker
     'retry' => [
         'attempts' => (int) env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => (int) env('SMS_RETRY_DELAY', 60),
     ],
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazione per rate limiting
     'rate_limit' => [
         'enabled' => (bool) env('SMS_RATE_LIMIT_ENABLED', true),
@@ -11195,7 +11639,11 @@ return [
         'decay_minutes' => (int) env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     // Configurazioni specifiche per driver
     'drivers' => [
         'netfun' => [
@@ -11206,7 +11654,11 @@ return [
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
 
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         'twilio' => [
             // Solo parametri specifici per Twilio
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
@@ -11214,7 +11666,11 @@ return [
             'from' => env('TWILIO_FROM'),
         ],
 
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         // Altri provider...
     ],
 ];
@@ -11230,7 +11686,11 @@ return [
 
 - **Configurazione Generica** (sezioni separate):
   - Sezione `retry` per tentativi di ripetizione
+<<<<<<< HEAD
   - Sezione `retry` per tentativi di ripetizione 
+=======
+  - Sezione `retry` per tentativi di ripetizione
+>>>>>>> laraxot/dev
   - Sezione `rate_limit` per limitazione delle richieste
   - Sezione `timeout` per timeout globale
   - Sezione `debug` per flag di debug
@@ -11488,7 +11948,11 @@ Log::debug('SMS Debug', [
 ### 3. Monitoraggio
 - Check periodici
 - Alert system
+<<<<<<< HEAD
 - Report mensili 
+=======
+- Report mensili
+>>>>>>> laraxot/dev
 
 ---
 
@@ -11507,7 +11971,11 @@ Il `SmsDriverEnum` utilizza il `TransTrait` per gestire automaticamente le tradu
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -11769,7 +12237,11 @@ class SmsService
         }
 
         $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -11788,7 +12260,11 @@ Questa soluzione:
 - Centralizza sia la validazione che la selezione del driver
 - È più facile da testare e mantenere
 - Non viola i principi SOLID
+<<<<<<< HEAD
 - Mantiene `SmsData` focalizzato sulla sua responsabilità primaria 
+=======
+- Mantiene `SmsData` focalizzato sulla sua responsabilità primaria
+>>>>>>> laraxot/dev
 
 ---
 
@@ -11823,7 +12299,11 @@ class SmsData extends Data
     public function getAction(): SendSmsActionInterface
     {
         $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -11899,7 +12379,11 @@ class SmsDriverService
     public function getAction(string $driver = null): SendSmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),
@@ -11917,7 +12401,11 @@ Questa soluzione:
 - Mantiene la separazione delle responsabilità
 - Centralizza la logica di selezione
 - È più facile da testare e mantenere
+<<<<<<< HEAD
 - Non viola i principi SOLID 
+=======
+- Non viola i principi SOLID
+>>>>>>> laraxot/dev
 
 ---
 

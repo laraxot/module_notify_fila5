@@ -242,9 +242,22 @@ find docs/ laravel/Modules/*/docs/ -type f -name "*.md" -exec sed -i \
 
 ## 📚 Related Documents
 
+<<<<<<< HEAD
 - [Database Naming Convention](conventions/database-naming.md)
 - [AGENTS.md](../../AGENTS.md)
 - [Fix Summary](fixes/database-naming-fix-summary.md)
+=======
+- [Database Naming Convention](../conventions/database-naming.md)
+- [AGENTS.md](../../AGENTS.md)
+<<<<<<< .merge_file_VX4n9W
+- [Fix Summary](database-naming-fix-summary.md)
+- [Database Naming Convention](../conventions/database-naming.md)
+- [AGENTS.md](../AGENTS.md)
+- [Fix Summary](database-naming-fix-summary.md)
+=======
+- [Fix Summary](fixes/database-naming-fix-summary.md)
+>>>>>>> .merge_file_Otpazv
+>>>>>>> laraxot/dev
 - [GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)
 - [Laravel Directory Structure](https://laravel.com/docs/structure)
 

@@ -242,7 +242,11 @@ discussions: []
 ### Project Overview
 - [🎯 Project Analysis & Roadmap](./project-analysis-and-roadmap.md)
 - [🏗️ Architecture](./index.md)
+<<<<<<< HEAD
 - [📖 PHPStan Index](./phpstan/phpstan.md)
+=======
+- [📖 PHPStan Index](phpstan.md)
+>>>>>>> laraxot/dev
 
 ### Module Roadmaps (Dettagliate)
 - [🎯 Fixcity Roadmap](../Modules/Fixcity/docs/roadmap-and-issues.md) ⭐ CORE

@@ -108,7 +108,11 @@ Every split file contains links back to:
 - The original source file
 
 ### Related Documentation
+<<<<<<< HEAD
 - [BMad Method Setup](../../docs/bmad/setup-guide.md)
+=======
+- [BMad Method Setup](../../bmad/setup-guide.md)
+>>>>>>> laraxot/dev
 - [Project Configuration](../../docs/project/configuration.md)
 - [Module Docs Index](../../docs/modules/index.md)
 - [AI Workflow](../../docs/project/ai-workflow/)

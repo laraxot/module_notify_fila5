@@ -11,11 +11,19 @@ discussions: []
 
 # Project Context
 
+<<<<<<< HEAD
 > Contesto generale del progetto PTVX Fila5 Mono.
 
 ## 📋 Informazioni Progetto
 
 - **Project**: PTVX Fila5 Mono
+=======
+> Contesto generale del progetto PTVX fila5.
+
+## 📋 Informazioni Progetto
+
+- **Project**: PTVX fila5
+>>>>>>> laraxot/dev
 - **Stack**: Laravel 12 | Filament v5 | Pest v4 | PHPStan Level 10 | PHP 8.3+
 - **Tipo**: Modular HR & Performance evaluation system
 

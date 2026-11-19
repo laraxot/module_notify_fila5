@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_k6tGEc
+=======
+>>>>>>> laraxot/dev
 ---
 title: "telegram channel 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_AGZWp7
+>>>>>>> laraxot/dev
 # Implementazione Canale Telegram
 
 ## 1. Struttura Base

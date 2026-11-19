@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_t7go79
+=======
+>>>>>>> laraxot/dev
 ---
 title: "sms provider configuration 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_sDvTIz
+>>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.

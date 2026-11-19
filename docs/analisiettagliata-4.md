@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_FGELaB
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analisiettagliata 4"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_BVnSvV
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
 
 ## 4. Integrazione con Filament

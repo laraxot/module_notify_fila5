@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Ggw2hA
+=======
+>>>>>>> laraxot/dev
 ---
 title: "analysis dettagliata 3"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_FF5Xkz
+>>>>>>> laraxot/dev
 # Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 
 ## 3. Servizi Core

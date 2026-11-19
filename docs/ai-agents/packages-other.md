@@ -21,6 +21,27 @@ Struttura moduli del progetto:
 
 ```
 Modules/
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_q3ZNRw
+  Activity/  : event sourcing, activity log
+  Chart/     : chart rendering (Chart.js + JpGraph)
+  Cms/       : content management
+  Gdpr/      : GDPR compliance
+  Geo/       : dati geografici (comuni)
+  Job/       : job queue management
+  Lang/      : traduzioni
+  Limesurvey/: integrazione LimeSurvey
+  Media/     : file e media
+  Notify/    : notifiche (email, SMS, Telegram, WhatsApp)
+  <nome progetto>/   : survey management
+  App/   : survey management
+  Tenant/    : multi-tenancy
+  UI/        : componenti UI
+  User/      : autenticazione, Passport, Socialite
+  Xot/       : core module (XotBase, traits, utilities)
+=======
+>>>>>>> laraxot/dev
   Activity/   — event sourcing, activity log
   Chart/      — chart rendering (Chart.js + JpGraph)
   Cms/        — content management
@@ -37,6 +58,10 @@ Modules/
   UI/         — componenti UI
   User/       — autenticazione, Passport, Socialite
   Xot/        — core module (XotBase, traits, utilities)
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_flcuy3
+>>>>>>> laraxot/dev
 ```
 
 **Regole namespace** (v12, già configurato):

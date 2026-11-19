@@ -19,8 +19,13 @@ discussions: []
 
 ## File chiave
 
+<<<<<<< HEAD
 - `laravel/Modules/Quaeris/app/Filament/Widgets/QuestionChartAnswersChartWidget.php`
 - `laravel/Modules/Quaeris/app/Filament/Widgets/QuestionChartAnswersTripleChartWidget.php`
+=======
+- `laravel/Modules/<nome progetto>/app/Filament/Widgets/QuestionChartAnswersChartWidget.php`
+- `laravel/Modules/<nome progetto>/app/Filament/Widgets/QuestionChartAnswersTripleChartWidget.php`
+>>>>>>> laraxot/dev
 - `laravel/Modules/Chart/resources/js/filament-chart-js-plugins.js`
 
 ## Check dataset rapido

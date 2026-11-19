@@ -11,7 +11,11 @@ discussions: []
 
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
+<<<<<<< HEAD
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di Quaeris.
+=======
+Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
+>>>>>>> laraxot/dev
 
 ## Analisi della Situazione Attuale
 

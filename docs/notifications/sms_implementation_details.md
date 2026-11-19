@@ -801,7 +801,23 @@ class ConsentLog extends Model
 
 ## Collegamenti alla Documentazione Correlata
 
+<<<<<<< HEAD
 - [MULTI_CHANNEL_NOTIFICATIONS.md](./MULTI_CHANNEL_NOTIFICATIONS.md)
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
+=======
+- [MULTI_CHANNEL_NOTIFICATIONS.md](multi_channel_notifications.md)
+- [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
+<<<<<<< .merge_file_vvxBNz
+- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](notifications_implementation_guide.md)
+- [TELEGRAM_NOTIFICATIONS_GUIDE.md](telegram_notifications_guide.md)
+- [MULTI_CHANNEL_NOTIFICATIONS.md](./multi_channel_notifications.md)
+- [SMS_PROVIDER_CONFIGURATION.md](./sms_provider_configuration.md)
+- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications_implementation_guide.md)
+- [TELEGRAM_NOTIFICATIONS_GUIDE.md](./telegram_notifications_guide.md)
+=======
+- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
+- [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
+>>>>>>> .merge_file_SxRRZr
+>>>>>>> laraxot/dev

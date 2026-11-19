@@ -209,7 +209,16 @@ Tutto il resto è **RUMORE**.
 ### AI Agents Docs
 - **[Rules Index](00-INDEX.md)** - All rules
 - **[Rules Index](00-index.md)** - All rules
+<<<<<<< HEAD
 - **[DRY Principle](../guidelines/dry-kiss.md)** - DRY + KISS
+=======
+<<<<<<< .merge_file_pZrTy5
+- **[DRY Principle](../../dry-kiss.md)** - DRY + KISS
+- **[DRY Principle](../../dry-kiss.md)** - DRY + KISS
+=======
+- **[DRY Principle](../guidelines/dry-kiss.md)** - DRY + KISS
+>>>>>>> .merge_file_RjtK7c
+>>>>>>> laraxot/dev
 - **[Translation Structure](translation-structure-5-levels.md)** - 5 levels rule
 
 ### Module Docs

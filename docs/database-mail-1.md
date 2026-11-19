@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_KDOxSa
+=======
+>>>>>>> laraxot/dev
 ---
 title: "database mail 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_mCGtTP
+>>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.

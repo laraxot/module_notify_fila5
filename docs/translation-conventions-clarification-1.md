@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_iP5Oui
+=======
+>>>>>>> laraxot/dev
 ---
 title: "translation conventions clarification 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_S58moD
+>>>>>>> laraxot/dev
 # Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 
 ## Identificazione di Convenzioni Contrastanti

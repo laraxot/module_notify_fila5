@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_cxw4wg
+=======
+>>>>>>> laraxot/dev
 ---
 title: "filament ui enhancements 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_eI9dEU
+>>>>>>> laraxot/dev
 # Miglioramenti UI/UX per MailTemplateResource
 
 ## Componenti Filament Consigliati

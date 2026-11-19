@@ -329,7 +329,11 @@ Modules/ModuleName/
 
 **Links**: Use relative paths for internal
 ```markdown
+<<<<<<< HEAD
 ✅ [See Guide](./guides/setup.md)
+=======
+✅ [See Guide](../ai-agents/setup.md)
+>>>>>>> laraxot/dev
 ✅ [Architecture](../architecture/overview.md)
 ❌ [Guide](/var/www/.../guide.md)
 ```

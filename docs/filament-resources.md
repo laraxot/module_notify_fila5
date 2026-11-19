@@ -269,8 +269,18 @@ public static function getTableActions(): array
 - [Gestione Notifiche](../../../../../docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
+<<<<<<< HEAD
 - [XotBaseResource](../../Xot/docs/XotBaseResource.md)
 - [Gestione Template](../template-management.md)
+=======
+<<<<<<< .merge_file_Udk4lI
+- [XotBaseResource](../../Xot/docs/xotbaseresource.md)
+- [Gestione Template](template-management.md)
+=======
+- [XotBaseResource](../../Xot/docs/XotBaseResource.md)
+- [Gestione Template](../template-management.md)
+>>>>>>> .merge_file_4XREZE
+>>>>>>> laraxot/dev
 
 ## Note Importanti
 

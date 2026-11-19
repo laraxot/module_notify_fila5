@@ -20,7 +20,11 @@ related:
 
 # 📊 Status Pagina Login - Verifica Tecnica
 
+<<<<<<< HEAD
 **Data Verifica**: 14 Ottobre 2025  
+=======
+**Data Verifica**: 14 Ottobre 2025
+>>>>>>> laraxot/dev
 **URL**: http://127.0.0.1:8000/it/auth/login
 
 ---
@@ -41,12 +45,20 @@ related:
             <div class="text-center mb-8">
                 <h1>Accedi ai servizi</h1>
             </div>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
             <!-- LoginWidget Filament 4 -->
             <div class="bg-white shadow-xl rounded-lg">
                 @livewire(\Modules\User\Filament\Widgets\Auth\LoginWidget::class)
             </div>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
             <!-- Registration CTA -->
             @if (Route::has('register'))
                 <div class="registration-cta mt-8">
@@ -75,7 +87,11 @@ related:
 class LoginWidget extends XotBaseWidget
 {
     protected string $view = 'pub_theme::filament.widgets.auth.login';
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     public function getFormSchema(): array
     {
         return [
@@ -84,11 +100,19 @@ class LoginWidget extends XotBaseWidget
             Checkbox::make('remember'),
         ];
     }
+<<<<<<< HEAD
     
     public function login(): void
     {
         $data = $this->form->getState();
         
+=======
+
+    public function login(): void
+    {
+        $data = $this->form->getState();
+
+>>>>>>> laraxot/dev
         if (Auth::attempt([
             'email' => $data['email'],
             'password' => $data['password'],
@@ -96,7 +120,11 @@ class LoginWidget extends XotBaseWidget
             session()->regenerate();
             redirect()->intended('/');
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> laraxot/dev
         $this->addError('email', __('auth.failed'));
     }
 }
@@ -113,7 +141,11 @@ class LoginWidget extends XotBaseWidget
     <x-filament::section>
         <form wire:submit="login" class="space-y-6">
             {{ $this->form }}  <!-- Rende i campi definiti in getFormSchema() -->
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> laraxot/dev
             <button type="submit" class="w-full btn-primary">
                 Accedi
             </button>
@@ -274,8 +306,13 @@ FAIL → $this->addError() + rimane su form
 ### 1. Avviare il Server
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5/laravel
+cd /var/www/_bases/base_ptv_fila5/laravel
+>>>>>>> laraxot/dev
 php artisan serve --host=127.0.0.1 --port=8000
 ```
 
@@ -339,8 +376,13 @@ Password: password
 
 ---
 
+<<<<<<< HEAD
 **Verificato da**: Super Mucca AI Team  
 **Data**: 14 Ottobre 2025  
+=======
+**Verificato da**: Super Mucca AI Team
+**Data**: 14 Ottobre 2025
+>>>>>>> laraxot/dev
 **Confidence**: 💯 MASSIMA
 
 

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_3636Ve
+=======
+>>>>>>> laraxot/dev
 ---
 title: "translation file correction guide 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_cTE7CU
+>>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.

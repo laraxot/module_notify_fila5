@@ -21,9 +21,15 @@ related:
 
 # 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
 
+<<<<<<< HEAD
 **Data**: 2025-10-01  
 **Status**: 🚧 IN CORSO - Documentazione 75% completata  
 **Fase Corrente**: Q4 2025 - Feature Expansion  
+=======
+**Data**: 2025-10-01
+**Status**: 🚧 IN CORSO - Documentazione 75% completata
+**Fase Corrente**: Q4 2025 - Feature Expansion
+>>>>>>> laraxot/dev
 
 ---
 
@@ -195,8 +201,13 @@ related:
 ## 🔗 STRUTTURA DOCUMENTAZIONE
 
 ```
+<<<<<<< HEAD
 base_fixcity_fila5_mono/
 base_ptv_fila5_mono/
+=======
+base_fixcity_fila5/
+base_ptv_fila5/
+>>>>>>> laraxot/dev
 ├── documentation-index.md          # ✅ Indice generale
 ├── quick-start.md                  # ✅ Guida rapida
 ├── roadmap-status-summary.md       # ✅ Status master
@@ -321,8 +332,13 @@ Prima di considerare un modulo "completo":
 
 ---
 
+<<<<<<< HEAD
 **Status Finale**: 🚧 Progetto al 75% di completamento documentazione  
 **Confidence Level**: 90%  
+=======
+**Status Finale**: 🚧 Progetto al 75% di completamento documentazione
+**Confidence Level**: 90%
+>>>>>>> laraxot/dev
 
 ---
 

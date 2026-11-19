@@ -48,9 +48,20 @@ class EmailDataEmail extends Mailable
      */
     public function content(): Content
     {
+<<<<<<< HEAD
         return new Content(
             html: 'notify::emails.html',
             text: 'notify::emails.text',
+=======
+        /** @var view-string $htmlView */
+        $htmlView = 'notify::emails.html';
+        /** @var view-string $textView */
+        $textView = 'notify::emails.text';
+
+        return new Content(
+            html: $htmlView,
+            text: $textView,
+>>>>>>> laraxot/dev
             with: [
                 'email_data' => $this->email_data,
             ],

@@ -177,6 +177,10 @@ L'implementazione del campo `slug` nella tabella `mail_templates` segue le migli
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Migration Structure](./MIGRATION_STRUCTURE.md)
+=======
+- [Migration Structure](migration_structure.md)
+>>>>>>> laraxot/dev
 - [Email Templates](../EMAIL_TEMPLATES.md)
 - [Spatie Email Usage Guide](../SPATIE_EMAIL_USAGE_GUIDE.md)

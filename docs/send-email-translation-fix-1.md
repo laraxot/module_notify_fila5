@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_5YZuKn
+=======
+>>>>>>> laraxot/dev
 ---
 title: "send email translation fix 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_dpwTUb
+>>>>>>> laraxot/dev
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -384,4 +393,12 @@ Ogni campo ora ha la struttura espansa completa:
 *Ultimo aggiornamento: 2025-01-06*
 *Ultimo aggiornamento: 2025-01-06*
 *Ultimo aggiornamento: 2025-01-06*
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
+=======
+<<<<<<< .merge_file_5YZuKn
+*Ultimo aggiornamento: 2025-01-06*
+=======
+*Ultimo aggiornamento: 2025-01-06*
+>>>>>>> .merge_file_dpwTUb
+>>>>>>> laraxot/dev

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_aMtKBa
+=======
+>>>>>>> laraxot/dev
 ---
 title: "translation cleanup plan 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_PKwqRC
+>>>>>>> laraxot/dev
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.

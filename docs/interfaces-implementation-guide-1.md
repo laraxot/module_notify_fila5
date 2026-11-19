@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_37OOw4
+=======
+>>>>>>> laraxot/dev
 ---
 title: "interfaces implementation guide 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_sYZurN
+>>>>>>> laraxot/dev
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce

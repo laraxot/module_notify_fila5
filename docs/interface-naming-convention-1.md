@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_LVEt9H
+=======
+>>>>>>> laraxot/dev
 ---
 title: "interface naming convention 1"
 type: note
@@ -9,6 +14,10 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_mVBPNY
+>>>>>>> laraxot/dev
 # Deprecated
 
 This file is deprecated.
