@@ -28,14 +28,11 @@ Segui questi passaggi per risolvere:
 
 1. Vai nella cartella del tema:
    ```bash
-   cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
+   cd /var/www/html/_bases/base_fixcity_fila5/laravel/Themes/Sixteen
    ```
 2. Esegui il comando:
    ```bash
-<<<<<<< .merge_file_jhyFIG
    # niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
-=======
->>>>>>> .merge_file_ymDu11
    ```
 
 Questo comando pubblica gli asset necessari e risolve l'errore.

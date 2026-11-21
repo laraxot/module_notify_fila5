@@ -7,7 +7,6 @@ updated: 2026-09-26
 qmd: "status"
 issues: []
 discussions: []
-status: draft
 ---
 
 # Homepage CSS/JS Fix - Status
@@ -27,10 +26,7 @@ status: draft
 ```bash
 cd laravel/Themes/Sixteen
 npm run build    # ✓ Completato
-<<<<<<< .merge_file_eWXgwE
 # niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
-=======
->>>>>>> .merge_file_FRMK1U
 ```
 
 ### Output Build
@@ -58,5 +54,14 @@ npm run build    # ✓ Completato
 3. Applicare ulteriori correzioni CSS se necessario
 
 ---
+
+title: "status"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "status"
+issues: []
+discussions: []
 *Last Updated: 2026-04-07*
 *Status: in_progress*
