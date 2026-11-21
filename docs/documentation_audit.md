@@ -243,7 +243,7 @@ Xot/docs/README.md
 
 **Same pattern documented multiple times:**
 - `naming-conventions.md` / `naming_conventions.md` / `naming-rules.md`
-- `phpstan-fixes.md` / `phpstan-fixes-.md` / `phpstan-fixes-gennaio.md`
+- `phpstan-fixes.md` / `phpstan-fixes-.md` / `phpstan-fixes-early-cycle.md`
 - `conflict-resolution.md` appears in 10+ modules with identical content
 
 ---

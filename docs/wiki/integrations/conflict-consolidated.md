@@ -1321,7 +1321,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 - docs/notifications/sms-implementation-details.md
 - docs/notifications/sms-provider-configuration.md
 - docs/notifications/telegram-notifications-guide.md
-- docs/phpstan-fixes-gennaio.md
+- docs/phpstan-fixes-early-cycle.md
 - docs/provider-actions-architecture.md
 - docs/readme.md
 - docs/reusabilitylines.md

@@ -67,7 +67,7 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 8. ✅ **documentation-index.md**
 9. ✅ **quick-start.md**
 10. ✅ **project-completion-status.md**
-11. ✅ **excellence-2025.md**
+11. ✅ **excellence-year-note-snake.md**
 12. ✅ **final-summary.md**
 
 ### 📖 Guide Complete (3 - da sessione precedente)
@@ -409,7 +409,7 @@ Modules/Fixcity/
 ├── implementations-completed.md             ✅ NEW (questo file)
 ├── documentation-index.md                   ✅ EXISTING
 ├── quick-start.md                           ✅ EXISTING
-├── excellence-2025.md                       ✅ EXISTING
+├── excellence-year-note-snake.md                       ✅ EXISTING
 └── final-summary.md                         ✅ EXISTING
 ```
 

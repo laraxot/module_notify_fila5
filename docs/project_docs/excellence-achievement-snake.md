@@ -1,5 +1,4 @@
----
-title: "2025 excellence achievement"
+---title: "2025 excellence achievement"
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -7,6 +6,7 @@ updated: 2026-09-26
 qmd: "2025 excellence achievement"
 issues: []
 discussions: []
+superseded_by: excellence-achievement.md
 ---
 
 # 🏆 2025 Excellence Achievement Report

@@ -98,7 +98,7 @@ discussions: []
 #### **Documenti Creati: 7**
 1. ✅ architecture.md (architettura completa)
 2. ✅ QUALITY_DASHBOARD.md (dashboard metriche)
-3. ✅ 2025_EXCELLENCE_ACHIEVEMENT.md (achievement report)
+3. ✅ excellence-achievement-caps.md (achievement report)
 4. ✅ FINAL_REFACTORING_REPORT.md (refactoring completo)
 5. ✅ COMPLETE_REFACTORING_ANALYSIS.md (analisi dettagliata)
 6. ✅ PROJECT_COMPLETION_CERTIFICATE.md (certificato)

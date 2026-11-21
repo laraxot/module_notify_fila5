@@ -723,7 +723,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/roadmap/tasks/enhanced-activity-filtering.md` — Task: Implement Enhanced Activity Filtering
 - `laravel/Modules/Activity/docs/roadmap/tasks/gdpr-compliance-enhancement.md` — Task: GDPR Compliance Enhancement
 - `laravel/Modules/Activity/docs/roadmap/tasks/realtime-monitoring-dashboard.md` — Task: Real-time Activity Monitoring Dashboard
-- `laravel/Modules/Activity/docs/roadmap-2025.md` — 🎯 ACTIVITY MODULE - ROADMAP 2025
+- `laravel/Modules/Activity/docs/notify-module-roadmap.md` — 🎯 ACTIVITY MODULE - ROADMAP 2025
 - `laravel/Modules/Activity/docs/roadmap-and-issues.md` — Activity Module - Roadmap & Optimization
 - `laravel/Modules/Activity/docs/roadmap-vision.md` — Activity Module - Complete Roadmap 2026
 - `laravel/Modules/Activity/docs/roadmap.md` — Roadmap Modulo Activity - Audit Trail & Intelligence
@@ -2030,7 +2030,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/roadmap/tasks/ai-powered-content-generation.md` — Task: AI-Powered Content Generation & Optimization
 - `laravel/Modules/Cms/docs/roadmap/tasks/headless-cms-api.md` — Task: Headless CMS & Multi-Channel Content Delivery
 - `laravel/Modules/Cms/docs/roadmap-.md` — Cms Module Roadmap 2026
-- `laravel/Modules/Cms/docs/roadmap-2025.md` — 🎯 CMS MODULE - ROADMAP 2025
+- `laravel/Modules/Cms/docs/notify-module-roadmap.md` — 🎯 CMS MODULE - ROADMAP 2025
 - `laravel/Modules/Cms/docs/roadmap-2026-01-30.md` — Roadmap Modulo Cms - 2026-01-30
 - `laravel/Modules/Cms/docs/roadmap-2026-01-31.md` — Cms Module - Content Management Roadmap
 - `laravel/Modules/Cms/docs/roadmap-and-issues.md` — Cms Module - Roadmap & Optimization
@@ -2759,7 +2759,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/phpstan-fixes-2025-01-27.md` — Correzioni PHPStan Modulo Geo - 2025-01-27
 - `laravel/Modules/Geo/docs/phpstan-fixes-3.md` — Correzioni PHPStan Modulo Geo - [DATE]
 - `laravel/Modules/Geo/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
-- `laravel/Modules/Geo/docs/phpstan-fixes-gennaio.md` — 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
+- `laravel/Modules/Geo/docs/phpstan-fixes-early-cycle.md` — 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
 - `laravel/Modules/Geo/docs/phpstan-fixes-notify-module.md` — PHPStan Fixes for Notify Module
 - `laravel/Modules/Geo/docs/phpstan-fixes-roadmap.md` — PHPStan Level 10 Fixes Roadmap - Modulo Geo
 - `laravel/Modules/Geo/docs/phpstan-fixes-saluteora.md` — Correzioni PHPStan <nome progetto> - Uso Azioni Cast Xot
@@ -2990,7 +2990,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/phpstan-fixes-conflict.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-gennaio-.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
-- `laravel/Modules/Job/docs/phpstan-fixes-gennaio.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
+- `laravel/Modules/Job/docs/phpstan-fixes-early-cycle.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-result-model.md` — PHPStan Fixes - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-january-2025.md` — PHPStan Fixes - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-january-conflict.md` — 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
@@ -3014,7 +3014,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/queueable-action.md` — Standard <nome progetto>: spatie/laravel-queueable-action
 - `laravel/Modules/Job/docs/repo.md` — repo
 - `laravel/Modules/Job/docs/roadmap-strategic-priorities.md` — Job Module Roadmap 2026
-- `laravel/Modules/Job/docs/roadmap-2025.md` — 🎯 JOB MODULE - ROADMAP 2025
+- `laravel/Modules/Job/docs/notify-module-roadmap.md` — 🎯 JOB MODULE - ROADMAP 2025
 - `laravel/Modules/Job/docs/roadmap.md` — Job Module - Complete Roadmap
 - `laravel/Modules/Job/docs/rules-index.md` — Rules Index
 - `laravel/Modules/Job/docs/schedule-1-1.md` — schedule-1-1
@@ -4597,7 +4597,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/phpstan-fixes-critical.md` — Correzioni PHPStan Critiche - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-fixes-gennaio-.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 - `laravel/Modules/Notify/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
-- `laravel/Modules/Notify/docs/phpstan-fixes-gennaio.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
+- `laravel/Modules/Notify/docs/phpstan-fixes-early-cycle.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 - `laravel/Modules/Notify/docs/phpstan-fixes-implementation-1.md` — Implementazione Correzioni PHPStan - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-fixes-implementation.md` — Implementazione Correzioni PHPStan - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-fixes-january-1.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
@@ -4685,7 +4685,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/reusable-form-components.md` — Reusable Form Components
 - `laravel/Modules/Notify/docs/roadmap-.md` — Notify Module Roadmap 2026
 - `laravel/Modules/Notify/docs/roadmap-1.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
-- `laravel/Modules/Notify/docs/roadmap-2025.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
+- `laravel/Modules/Notify/docs/notify-module-roadmap.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
 - `laravel/Modules/Notify/docs/roadmap-and-issues.md` — Notify Module - Roadmap, Issues & Optimization
 - `laravel/Modules/Notify/docs/roadmap-ands.md` — Notify Module - Roadmap, Issues & Optimization
 - `laravel/Modules/Notify/docs/roadmap-conflict.md` — 🔔 NOTIFY MODULE - ROADMAP 2025
@@ -5389,7 +5389,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/docs/phpstan-fixes-.md` — PHPStan Fixes - Tenant Module - 2025-10-13
 - `laravel/Modules/Tenant/docs/phpstan-fixes-gennaio-.md` — Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/Tenant/docs/phpstan-fixes-gennaio-2025.md` — Correzioni PHPStan - Gennaio 2025
-- `laravel/Modules/Tenant/docs/phpstan-fixes-gennaio.md` — Correzioni PHPStan - Gennaio 2025
+- `laravel/Modules/Tenant/docs/phpstan-fixes-early-cycle.md` — Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/Tenant/docs/phpstan-fixes-january.md` — Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/Tenant/docs/phpstan-fixes.md` — PHPStan Fixes - Tenant Module - [DATE]
 - `laravel/Modules/Tenant/docs/phpstan-level10-fixes.md` — PHPStan Level 10 - Modulo Tenant
@@ -5415,7 +5415,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/docs/roadmap/tenant-isolation.md` — Isolamento tenant e configurazioni
 - `laravel/Modules/Tenant/docs/roadmap/test-coverage.md` — Test skipped e copertura critica
 - `laravel/Modules/Tenant/docs/roadmap-.md` — Tenant Module Roadmap 2026
-- `laravel/Modules/Tenant/docs/roadmap-2025.md` — 🎯 TENANT MODULE - ROADMAP 2025
+- `laravel/Modules/Tenant/docs/notify-module-roadmap.md` — 🎯 TENANT MODULE - ROADMAP 2025
 - `laravel/Modules/Tenant/docs/roadmap.md` — Tenant Module Roadmap
 - `laravel/Modules/Tenant/docs/rules-index.md` — Rules Index
 - `laravel/Modules/Tenant/docs/runninginconsole-check-decision.md` — Decisione: Rimozione runningInConsole Check in ResolveTenantConfigValueAction
@@ -5817,7 +5817,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/phpstan-fixes-conflict-d41d8c.md` — phpstan-fixes-conflict-d41d8c
 - `laravel/Modules/UI/docs/phpstan-fixes-conflict.md` — phpstan-fixes-conflict
 - `laravel/Modules/UI/docs/phpstan-fixes-gennaio-.md` — Correzioni PHPStan - Gennaio 2025
-- `laravel/Modules/UI/docs/phpstan-fixes-gennaio.md` — Correzioni PHPStan - Gennaio 2025
+- `laravel/Modules/UI/docs/phpstan-fixes-early-cycle.md` — Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/UI/docs/phpstan-fixes-january-.md` — PHPStan Fixes - Gennaio 2025
 - `laravel/Modules/UI/docs/phpstan-fixes-january-1.md` — PHPStan Fixes - Gennaio 2025
 - `laravel/Modules/UI/docs/phpstan-fixes-january.md` — Correzioni PHPStan - Gennaio 2025
@@ -6710,7 +6710,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-2025-complete.md` — PHPStan Fixes Complete - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-complete.md` — PHPStan Fixes Complete - Gennaio 2025
-- `laravel/Modules/User/docs/phpstan-fixes-gennaio.md` — 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
+- `laravel/Modules/User/docs/phpstan-fixes-early-cycle.md` — 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaiocomplete.md` — PHPStan Fixes Complete - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-january-complete.md` — PHPStan Fixes Complete - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-january.md` — 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
@@ -6828,7 +6828,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/roadmap/roadmap.md` — User Module Roadmap (2025 Q4)
 - `laravel/Modules/User/docs/roadmap-.md` — User Module - Complete Roadmap 2026
 - `laravel/Modules/User/docs/roadmap-1.md` — 👥 USER MODULE - ROADMAP 2025
-- `laravel/Modules/User/docs/roadmap-2025.md` — 👥 USER MODULE - ROADMAP 2025
+- `laravel/Modules/User/docs/notify-module-roadmap.md` — 👥 USER MODULE - ROADMAP 2025
 - `laravel/Modules/User/docs/roadmap-and-issues.md` — User Module - Roadmap, Issues & Optimization
 - `laravel/Modules/User/docs/roadmap-ands.md` — User Module - Roadmap, Issues & Optimization
 - `laravel/Modules/User/docs/roadmap-complete.md` — 🗺️ ROADMAP COMPLETA - Modulo User
@@ -7861,7 +7861,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-factory-best-practices.md` — phpstan-factory-best-practices
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-2025.md` — phpstan-fixes-2025
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio-2025.md` — phpstan-fixes-gennaio-2025
-- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio.md` — phpstan-fixes-gennaio
+- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-early-cycle.md` — phpstan-fixes-gennaio
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary-2.md` — phpstan-fixes-summary-2
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary-3.md` — phpstan-fixes-summary-3
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md` — phpstan-fixes-summary
@@ -9046,7 +9046,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-fixes-gennaio-.md` — PHPStan Fixes Gennaio 2025 - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-gennaio-1.md` — PHPStan Fixes Gennaio 2025 - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-gennaio-2025.md` — 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
-- `laravel/Modules/Xot/docs/phpstan-fixes-gennaio.md` — 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
+- `laravel/Modules/Xot/docs/phpstan-fixes-early-cycle.md` — 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-january.md` — 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-progress.md` — PHPStan Fixes Progress - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-report.md` — PHPStan Fixes Report - Gennaio 2025

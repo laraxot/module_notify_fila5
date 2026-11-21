@@ -1,12 +1,22 @@
----
-title: "MASTER ROADMAP 2025"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MASTER ROADMAP 2025"
-issues: []
-discussions: []
+---title: "🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025"
+type: concept
+tags: [master, roadmap, 2025]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "master-roadmap-2025 🗺️ fixcity platform - master roadmap 2025"
+qmd: "master-roadmap-2025 🗺️ ptv platform - master roadmap 2025"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+superseded_by: master-roadmap.md
 ---
 
 # 🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025
@@ -19,14 +29,6 @@ discussions: []
 
 ---
 
-title: "MASTER ROADMAP 2025"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "MASTER ROADMAP 2025"
-issues: []
-discussions: []
 ## 🎯 EXECUTIVE SUMMARY
 
 **FixCity** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 4.x e segue i principi AGID per l'accessibilità.

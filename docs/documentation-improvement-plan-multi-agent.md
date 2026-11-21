@@ -135,7 +135,7 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 - [ ] `project_docs/roadmaps/roadmap-documentation.md` (this doc)
 
 **Archive** (move to `docs/archive/roadmaps/`):
-- [ ] `master-roadmap-2025.md`
+- [ ] `master-roadmap-historic.md`
 - [ ] `project-roadmap.md`
 - [ ] `project-roadmap-1.md`
 - [ ] `roadmap.md`

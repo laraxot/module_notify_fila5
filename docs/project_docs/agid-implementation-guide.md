@@ -8,7 +8,7 @@ qmd: "agid-implementation-guide 🚀 agid implementation guide - practical devel
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./2025-excellence-achievement.md"
+  - "./excellence-achievement.md"
   - "./architecture.md"
   - "./complete-refactoring-analysis.md"
   - "./documentation-status.md"

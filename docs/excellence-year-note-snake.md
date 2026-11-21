@@ -1,5 +1,4 @@
----
-title: "excellence 2025"
+---title: "excellence 2025"
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -7,6 +6,7 @@ updated: 2026-09-26
 qmd: "excellence 2025"
 issues: []
 discussions: []
+superseded_by: excellence.md
 ---
 
 # 🏆 FIXCITY - ECCELLENZA 2025
