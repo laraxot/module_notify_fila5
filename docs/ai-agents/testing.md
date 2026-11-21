@@ -7,11 +7,12 @@ updated: 2026-09-26
 qmd: "testing"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Testing Guide
 
-> Guida completa per i test in PTVX Fila5 Mono.
+> Guida completa per i test in PTVX fila5.
 
 ## 🧪 Testing con Pest
 
@@ -48,10 +49,10 @@ discussions: []
 it('creates user successfully', function () {
     // ARRANGE
     $data = UserData::factory()->make();
-    
+
     // ACT
     $user = CreateUserAction::execute($data);
-    
+
     // ASSERT
     expect($user)->toBeInstanceOf(User::class);
 });
@@ -61,7 +62,9 @@ it('creates user successfully', function () {
 
 **Di ritorno:**
 - → [AGENTS.md - Testing Patterns](../../AGENTS.md#testing-patterns)
-- → [agents.md - Testing Patterns](../../agents.md#testing-patterns)
+- → [AGENTS.md - Testing Patterns](../../AGENTS.md#testing-patterns)
+- → [AGENTS.md - Testing Patterns](../agents.md#testing-patterns)
+- → [AGENTS.md - Testing Patterns](../agents.md#testing-patterns)
 - → [AGENT_MEMORY.md - Testing Patterns](../../AGENT_MEMORY.md#-testing-validation-patterns)
 - → [commands.md](commands.md)
 - → [INDEX](index.md)

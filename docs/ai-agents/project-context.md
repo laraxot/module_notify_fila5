@@ -7,15 +7,16 @@ updated: 2026-09-26
 qmd: "project context"
 issues: []
 discussions: []
+status: draft
 ---
 
 # Project Context
 
-> Contesto generale del progetto PTVX Fila5 Mono.
+> Contesto generale del progetto PTVX fila5.
 
 ## 📋 Informazioni Progetto
 
-- **Project**: PTVX Fila5 Mono
+- **Project**: PTVX fila5
 - **Stack**: Laravel 12 | Filament v5 | Pest v4 | PHPStan Level 10 | PHP 8.3+
 - **Tipo**: Modular HR & Performance evaluation system
 
@@ -38,8 +39,10 @@ discussions: []
 
 ## 🔗 Link
 
-**Precedente:** [INDEX](INDEX.md) | **Successivo:** [Module Architecture](module-architecture.md)
+**Precedente:** [INDEX](index.md) | **Successivo:** [Module Architecture](module-architecture.md)
 
 **Di ritorno:**
 - [CLAUDE.md](../../CLAUDE.md)
 - [AGENTS.md](../../AGENTS.md)
+- [CLAUDE.md](../claude.md)
+- [AGENTS.md](../agents.md)

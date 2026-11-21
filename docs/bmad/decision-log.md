@@ -6,7 +6,10 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-11-16
+tags: [docs, notify, bmad]
 qmd: "Notify decision log ADR NotificationLog policy webhook canali"
+related:
+  - ./filament-blueprint.md
 ---
 
 # Decision Log - Modulo Notify

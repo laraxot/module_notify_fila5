@@ -77,7 +77,11 @@ Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same <nome pr
 
 **Current Tasks**:
 - ✅ Update `bashscripts/docs/ai/` with sync rules
+<<<<<<< .merge_file_XuOAgw
 - ✅ Update agents.md with commit/push rules
+=======
+- ✅ Update AGENTS.md with commit/push rules
+>>>>>>> .merge_file_YxiRk9
 - ✅ Update .windsurfrules
 - ⏳ Sync `.github/` with `bashscripts/ai/.github/`
 
@@ -241,7 +245,11 @@ git push origin dev
 - **Issue #12**: AI Agent Collaboration
 - **Issue #13**: Documentation Updates
 - **docs/SYNC_TEST_RESULTS.md**: Latest sync test results
+<<<<<<< .merge_file_XuOAgw
 - **docs/SYNC_REMOTE_REPO_TEST_PLAN.md**: Test plan
+=======
+- **docs/sync_remote_repo_test_plan.md**: Test plan
+>>>>>>> .merge_file_YxiRk9
 
 ---
 

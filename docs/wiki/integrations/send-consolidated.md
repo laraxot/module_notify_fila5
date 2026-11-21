@@ -2,15 +2,16 @@
 qmd: "send consolidated"
 issues: []
 discussions: []
-title: "send — Consolidated Documentation"
+title: "send: Consolidated Documentation"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
 created: 2026-08-24
 updated: 2026-08-24
+status: draft
 ---
 
-# send — Consolidated Documentation
+# send: Consolidated Documentation
 
 Consolidated from **20** individual files.
 
@@ -41,7 +42,7 @@ Consolidated from **20** individual files.
 
 ## send-email-fix-1
 
-*Consolidated from: `send-email-fix-1.md`*
+*Consolidated from: `send-email-fix.md`*
 
 title: "Guida alla Correzione di SendEmail.php"
 type: concept
@@ -52,12 +53,17 @@ qmd: "send-email-fix-1 guida alla correzione di sendemail.php"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -173,7 +179,7 @@ class SendEmail extends XotBasePage
     {
         try {
             $data = $this->form->getState();
-            
+
             // Configura SMTP
             config([
                 'mail.mailers.smtp.host' => $data['smtp']['host'],
@@ -293,7 +299,7 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
-   - Verificare configurazione SMTP 
+   - Verificare configurazione SMTP
 ---
 
 ## send-email-fix
@@ -410,7 +416,7 @@ class SendEmail extends XotBasePage
     {
         try {
             $data = $this->form->getState();
-            
+
             // Configura SMTP
             config([
                 'mail.mailers.smtp.host' => $data['smtp']['host'],
@@ -533,12 +539,13 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
-   - Verificare configurazione SMTP 
+   - Verificare configurazione SMTP
 ---
 
 ## send-email-translation-fix-1
 
-*Consolidated from: `send-email-translation-fix-1.md`*
+*Consolidated from: `send-email-translation-fix.md`*
+*Consolidated from: `send-email-translation-fix.md`*
 
 
 ## Problemi Identificati
@@ -853,7 +860,7 @@ Ogni campo ora ha la struttura espansa completa:
 
 ## send-email-translation-fix-2
 
-*Consolidated from: `send-email-translation-fix-2.md`*
+*Consolidated from: `send-email-translation-fix.md`*
 
 title: "Fix Traduzioni File send_email.php - Modulo Notify"
 type: concept
@@ -864,12 +871,17 @@ qmd: "send-email-translation-fix-2 fix traduzioni file send_email.php - modulo n
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1030,7 +1042,7 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
-*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06*
 ---
 
 ## send-email-translation-fix
@@ -1195,12 +1207,12 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
-*Ultimo aggiornamento: [DATE]* 
+*Ultimo aggiornamento: [DATE]*
 ---
 
 ## send-email-translation-improvement-1
 
-*Consolidated from: `send-email-translation-improvement-1.md`*
+*Consolidated from: `send-email-translation-improvement.md`*
 
 
 ## 🔍 Analisi del Problema
@@ -1480,6 +1492,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ### Documentazione Correlata
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
@@ -1540,12 +1553,68 @@ php -l Modules/Notify/lang/it/send_email.php
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
+- [Best Practice Filament](../../../../docs/project/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
+- [Best Practice Filament](../../../../docs/project/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
+- [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/project/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
@@ -1557,6 +1626,7 @@ php -l Modules/Notify/lang/it/send_email.php
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/project/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
@@ -1568,6 +1638,7 @@ php -l Modules/Notify/lang/it/send_email.php
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/project/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
@@ -1888,7 +1959,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ## send-email-translation-improvement-2
 
-*Consolidated from: `send-email-translation-improvement-2.md`*
+*Consolidated from: `send-email-translation-improvement.md`*
 
 title: "Miglioramento File Traduzione send_email.php"
 type: concept
@@ -1899,12 +1970,17 @@ qmd: "send-email-translation-improvement-2 miglioramento file traduzione send_em
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -1916,7 +1992,7 @@ related:
 Il file `laravel/Modules/Notify/lang/it/send_email.php` presenta diversi problemi critici:
 
 ### 1. Conflitto di Merge Non Risolto
-- Presenza di marcatori 
+- Presenza di marcatori
 - Due versioni del file in conflitto
 - Sintassi PHP non valida che impedisce l'esecuzione
 
@@ -1963,7 +2039,7 @@ return [
 **Prima**:
 ```php
 return array (
-  'navigation' => 
+  'navigation' =>
   array (
     'label' => 'Invio Email',
     // ...
@@ -2195,6 +2271,7 @@ php -l Modules/Notify/lang/it/send_email.php
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 - [Struttura Modulo Notify](./README.md)
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
@@ -2203,9 +2280,9 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ### File Modificati
 - `laravel/Modules/Notify/lang/it/send_email.php` - File principale migliorato
-- `laravel/Modules/Notify/docs/send-email-translation-improvement-2.md` - Questa documentazione
-- `laravel/Modules/Notify/project_docs/send-email-translation-improvement-2.md` - Questa documentazione
-- `laravel/Modules/Notify/docs/send-email-translation-improvement-2.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send-email-translation-improvement-2.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send-email-translation-improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send-email-translation-improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send-email-translation-improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send-email-translation-improvement.md` - Questa documentazione
 
 ## 📝 Note di Implementazione
 
@@ -2225,8 +2302,8 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ---
 
-**Ultimo aggiornamento**: Gennaio 2025  
-**Autore**: Sistema di miglioramento automatico  
+**Ultimo aggiornamento**: Gennaio 2025
+**Autore**: Sistema di miglioramento automatico
 ---
 
 ## send-email-translation-improvement
@@ -2511,6 +2588,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ### Documentazione Correlata
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/project/FILAMENT-BEST-PRACTICES.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
@@ -2793,6 +2871,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ### Documentazione Correlata
 - [Regole Traduzioni Laraxot](../../../../docs/translation-standards.md)
+- [Regole Traduzioni Laraxot](../../translation-standards.md)
 - [Best Practice Filament](../../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../../docs/project/translation-standards.md)
 - [Best Practice Filament](../../../../docs/project/FILAMENT-BEST-PRACTICES.md)
@@ -3103,7 +3182,7 @@ class SendEmail extends XotBasePage
     {
         try {
             $data = $this->form->getState();
-            
+
             // Configura SMTP
             config([
                 'mail.mailers.smtp.host' => $data['smtp']['host'],
@@ -3226,7 +3305,7 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
-   - Verificare configurazione SMTP 
+   - Verificare configurazione SMTP
 ---
 
 ## send-notification-bulk-action
@@ -3234,12 +3313,12 @@ class SmtpData extends Data
 *Consolidated from: `send-notification-bulk-action.md`*
 
 
-**Status**: ✅ Implementazione completata e PHPStan Level 10 compliant  
+**Status**: ✅ Implementazione completata e PHPStan Level 10 compliant
 **Module**: Notify
 
 ## Overview
 
-`SendNotificationBulkAction` è la BulkAction Filament riutilizzabile che permette di inviare notifiche a più record contemporaneamente utilizzando template MailTemplate e canali multipli (Email, SMS, WhatsApp).  
+`SendNotificationBulkAction` è la BulkAction Filament riutilizzabile che permette di inviare notifiche a più record contemporaneamente utilizzando template MailTemplate e canali multipli (Email, SMS, WhatsApp).
 Dal 2025‑12‑18 la catena interna è stata ulteriormente semplificata:
 
 ```
@@ -3333,12 +3412,14 @@ public function execute(
 - Phone: Cerca attributi `mobile`, `phone`, `telephone`, `contact_phone`
 - WhatsApp: Cerca attributo `whatsapp`, con fallback su phone
 - Vedi: [Contact Extraction Pattern](./contact-extraction-pattern.md) per dettagli implementazione DRY
+- Vedi: [Contact Extraction Pattern](../../contact-extraction-pattern.md) per dettagli implementazione DRY
 
 **Pattern DRY - Composizione**:
 - **Questa bulk action compone** `SendRecordNotificationAction` per ogni record
 - **Zero duplicazione**: La logica di estrazione contatti e invio è solo in `SendRecordNotificationAction`
 - Pattern `app()`: Usa `app(SendRecordNotificationAction::class)->execute()` dentro `execute()`
 - Vedi: [DRY Composition Pattern](./dry-composition-pattern.md)
+- Vedi: [DRY Composition Pattern](../../dry-composition-pattern.md)
 
 ### 2. SendNotificationBulkAction (Filament BulkAction)
 
@@ -3555,13 +3636,24 @@ Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
 - [RecordNotification Class](../../app/Notifications/RecordNotification.php)
 - [App Client Management](../App/docs/README.md#client-management)
 - [TechPlanner Client Management](../TechPlanner/docs/README.md#client-management)
-- [Geo Module Reusable Components Philosophy](../geo/docs/reusable-components-philosophy.md)
+- [Geo Module Reusable Components Philosophy](../../ai-agents/guidelines/reusable-components-philosophy.md)
+Vedi: [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md)
+
+## Backlink e Collegamenti
+
+- [Actions Calling Actions Pattern](../../actions-calling-actions-pattern.md) - Pattern per Actions che chiamano altre Actions
+- [Notification System Architecture](../../notification-implementation.md)
+- [MailTemplate Model](./models.md#mailtemplate)
+- [RecordNotification Class](../../../app/Notifications/RecordNotification.php)
+- [App Client Management](../App/docs/README.md#client-management)
+- [TechPlanner Client Management](../TechPlanner/docs/README.md#client-management)
+- [Geo Module Reusable Components Philosophy](../../../../Geo/docs/reusable-components-philosophy.md)
 - [Xot Filament Class Extension Rules](../xot/docs/filament-class-extension-rules.md)
 
 ---
 
-**Ultimo aggiornamento**: [DATE]  
-**PHPStan Level**: ✅ 10  
+**Ultimo aggiornamento**: [DATE]
+**PHPStan Level**: ✅ 10
 **Quality**: ✅ PHPMD, PHPInsights compliant
 
 ---
@@ -3607,9 +3699,9 @@ Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
 *Consolidated from: `send-record-notification-action-refactoring.md`*
 
 
-**Date**: 18 Dicembre 2025  
-**Status**: ✅ Refactoring Completed  
-**Module**: Notify  
+**Date**: 18 Dicembre 2025
+**Status**: ✅ Refactoring Completed
+**Module**: Notify
 **Focus**: DRY + KISS + Clean Code Principles
 
 ## Overview
@@ -3655,7 +3747,7 @@ The `sendWhatsApp()` method was slightly different but still shared the core not
 - Method repetition: 3 similar notification methods (with 2 nearly identical)
 - Attribute lookup duplication: 3 similar lookup methods
 
-### After Refactoring  
+### After Refactoring
 - Lines of Code: ~140 (slightly reduced due to better organization)
 - Method repetition: Eliminated through `extractRecordAttribute()` and `sendGenericNotification()` abstractions
 - Attribute lookup: Unified through generic approach
@@ -3663,10 +3755,10 @@ The `sendWhatsApp()` method was slightly different but still shared the core not
 
 ## Architecture Compliance
 
-✅ **QueueableAction Pattern**: Maintained proper action structure  
-✅ **Error Handling**: Preserved comprehensive exception handling  
-✅ **Type Safety**: Maintained strict typing throughout  
-✅ **Backward Compatibility**: Public interface unchanged  
+✅ **QueueableAction Pattern**: Maintained proper action structure
+✅ **Error Handling**: Preserved comprehensive exception handling
+✅ **Type Safety**: Maintained strict typing throughout
+✅ **Backward Compatibility**: Public interface unchanged
 ✅ **Laraxot Philosophy**: Follows established architectural patterns
 
 ---
@@ -3788,7 +3880,7 @@ class SendEmail extends XotBasePage
     {
         try {
             $data = $this->form->getState();
-            
+
             // Configura SMTP
             config([
                 'mail.mailers.smtp.host' => $data['smtp']['host'],
@@ -3908,7 +4000,7 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
-   - Verificare configurazione SMTP 
+   - Verificare configurazione SMTP
 ---
 
 ## send_email_translation_fix
@@ -4070,7 +4162,7 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
-*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06*
 
 ---
 
@@ -4085,7 +4177,7 @@ Il file `laravel/Modules/Notify/lang/it/send_email.php` presenta diversi problem
 
 ### 1. Conflitto di Merge Non Risolto
 - Presenza di marcatori
-- Presenza di marcatori 
+- Presenza di marcatori
 - Due versioni del file in conflitto
 - Sintassi PHP non valida che impedisce l'esecuzione
 
@@ -4133,7 +4225,7 @@ return [
 ```php
 return array (
   'navigation' =>
-  'navigation' => 
+  'navigation' =>
   array (
     'label' => 'Invio Email',
     // ...
@@ -4336,7 +4428,7 @@ return [
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/_bases/<nome repository>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_techplanner_fila5/laravel
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -4393,14 +4485,14 @@ php -l Modules/Notify/lang/it/send_email.php
 
 **Ultimo aggiornamento**: Gennaio 2025
 **Autore**: Sistema di miglioramento automatico
-**Ultimo aggiornamento**: Gennaio 2025  
-**Autore**: Sistema di miglioramento automatico  
+**Ultimo aggiornamento**: Gennaio 2025
+**Autore**: Sistema di miglioramento automatico
 
 ---
 
 ## sendemail-troubleshooting-1
 
-*Consolidated from: `sendemail-troubleshooting-1.md`*
+*Consolidated from: `sendemail-troubleshooting.md`*
 
 title: "Troubleshooting SendEmail"
 type: concept
@@ -4411,12 +4503,17 @@ qmd: "sendemail-troubleshooting-1 troubleshooting sendemail"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
-  - "./00-index-1.md"
+  - "./00-index.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion.md"
+  - "./acronym-naming-conventions.md"
+  - "./00-index-documentation.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 ---
@@ -4481,14 +4578,14 @@ public function sendEmail(): void
             ->success()
             ->title(__('Email inviata con successo'))
             ->send();
-            
+
     } catch (\Exception $e) {
         Notification::make()
             ->danger()
             ->title(__('Errore nell\'invio dell\'email'))
             ->body($e->getMessage())
             ->send();
-            
+
         // Log dell'errore
         \Log::error('Errore invio email: ' . $e->getMessage(), [
             'exception' => $e,
@@ -4533,7 +4630,7 @@ Crea o aggiorna il file di configurazione `config/mail.php`:
 ```php
 return [
     'default' => env('MAIL_MAILER', 'smtp'),
-    
+
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
@@ -4572,7 +4669,7 @@ public function handle()
             $message->to(env('MAIL_TEST_RECIPIENT'))
                   ->subject('Test Email');
         });
-        
+
         $this->info('Email inviata con successo!');
     } catch (\Exception $e) {
         $this->error("Errore: ".$e->getMessage());
@@ -4681,14 +4778,14 @@ public function sendEmail(): void
             ->success()
             ->title(__('Email inviata con successo'))
             ->send();
-            
+
     } catch (\Exception $e) {
         Notification::make()
             ->danger()
             ->title(__('Errore nell\'invio dell\'email'))
             ->body($e->getMessage())
             ->send();
-            
+
         // Log dell'errore
         \Log::error('Errore invio email: ' . $e->getMessage(), [
             'exception' => $e,
@@ -4733,7 +4830,7 @@ Crea o aggiorna il file di configurazione `config/mail.php`:
 ```php
 return [
     'default' => env('MAIL_MAILER', 'smtp'),
-    
+
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
@@ -4772,7 +4869,7 @@ public function handle()
             $message->to(env('MAIL_TEST_RECIPIENT'))
                   ->subject('Test Email');
         });
-        
+
         $this->info('Email inviata con successo!');
     } catch (\Exception $e) {
         $this->error("Errore: ".$e->getMessage());
@@ -4881,14 +4978,14 @@ public function sendEmail(): void
             ->success()
             ->title(__('Email inviata con successo'))
             ->send();
-            
+
     } catch (\Exception $e) {
         Notification::make()
             ->danger()
             ->title(__('Errore nell\'invio dell\'email'))
             ->body($e->getMessage())
             ->send();
-            
+
         // Log dell'errore
         \Log::error('Errore invio email: ' . $e->getMessage(), [
             'exception' => $e,
@@ -4933,7 +5030,7 @@ Crea o aggiorna il file di configurazione `config/mail.php`:
 ```php
 return [
     'default' => env('MAIL_MAILER', 'smtp'),
-    
+
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
@@ -4972,7 +5069,7 @@ public function handle()
             $message->to(env('MAIL_TEST_RECIPIENT'))
                   ->subject('Test Email');
         });
-        
+
         $this->info('Email inviata con successo!');
     } catch (\Exception $e) {
         $this->error("Errore: ".$e->getMessage());

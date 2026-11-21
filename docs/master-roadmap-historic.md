@@ -12,7 +12,11 @@ related:
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
+<<<<<<< .merge_file_rA1T9Z
   - "./acronym-naming-conventions-1.md"
+=======
+  - "./acronym-naming-conventions.md"
+>>>>>>> .merge_file_tBXrOX
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

@@ -162,8 +162,13 @@ discussions: []
 
 ### Documentazione
 - [Bootstrap Italia Docs](https://italia.github.io/design-web-toolkit/)
+<<<<<<< .merge_file_w4f6Cc
 - [Analisi Visiva](docs/screenshots/homepage/ANALISI_VISIVA.md)
 - [Screenshot Analysis](docs/screenshots/homepage/SCREENSHOT_ANALYSIS.md)
+=======
+- [Analisi Visiva](docs/screenshots/homepage/analisi_visiva.md)
+- [Screenshot Analysis](docs/screenshots/homepage/screenshot_analysis.md)
+>>>>>>> .merge_file_h6aTkS
 
 ### File Correlati
 - `Themes/Sixteen/resources/css/bootstrap-italia.css`

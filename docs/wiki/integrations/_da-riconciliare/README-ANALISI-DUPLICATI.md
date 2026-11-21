@@ -25,6 +25,7 @@ Questo è il documento PRINCIPALE con:
 - ✅ Piano di implementazione dettagliato
 
 ### Copie nei Moduli
+<<<<<<< .merge_file_Y4L86h
 Ogni modulo ha una copia in `Modules/{ModuleName}/docs/METODI_DUPLICATI_ANALISI.md`:
 
 - `Modules/AI/docs/METODI_DUPLICATI_ANALISI.md`
@@ -46,6 +47,29 @@ Ogni modulo ha una copia in `Modules/{ModuleName}/docs/METODI_DUPLICATI_ANALISI.
 - `Modules/UI/docs/METODI_DUPLICATI_ANALISI.md`
 - `Modules/User/docs/METODI_DUPLICATI_ANALISI.md`
 - `Modules/Xot/docs/METODI_DUPLICATI_ANALISI.md`
+=======
+Ogni modulo ha una copia in `Modules/{ModuleName}/docs/metodi_duplicati_analisi.md`:
+
+- `Modules/AI/docs/metodi_duplicati_analisi.md`
+- `Modules/Activity/docs/metodi_duplicati_analisi.md`
+- `Modules/Blog/docs/metodi_duplicati_analisi.md`
+- `Modules/Cms/docs/metodi_duplicati_analisi.md`
+- `Modules/Comment/docs/metodi_duplicati_analisi.md`
+- `Modules/App/docs/metodi_duplicati_analisi.md`
+- `Modules/<nome progetto>/docs/metodi_duplicati_analisi.md`
+- `Modules/Gdpr/docs/metodi_duplicati_analisi.md`
+- `Modules/Geo/docs/metodi_duplicati_analisi.md`
+- `Modules/Job/docs/metodi_duplicati_analisi.md`
+- `Modules/Lang/docs/metodi_duplicati_analisi.md`
+- `Modules/Media/docs/metodi_duplicati_analisi.md`
+- `Modules/Notify/docs/metodi_duplicati_analisi.md`
+- `Modules/Rating/docs/metodi_duplicati_analisi.md`
+- `Modules/Seo/docs/metodi_duplicati_analisi.md`
+- `Modules/Tenant/docs/metodi_duplicati_analisi.md`
+- `Modules/UI/docs/metodi_duplicati_analisi.md`
+- `Modules/User/docs/metodi_duplicati_analisi.md`
+- `Modules/Xot/docs/metodi_duplicati_analisi.md`
+>>>>>>> .merge_file_hkeXUo
 
 ### Copie nei Temi
 - `Themes/Sixteen/docs/analisi-metodi-duplicati.md`

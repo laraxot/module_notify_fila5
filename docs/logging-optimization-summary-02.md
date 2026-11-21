@@ -136,7 +136,11 @@ After optimization:
    - Reduces log writes by 90%, overhead from 20-30% to 5-10%
 
 ### 3. AGENTS.md Updated
+<<<<<<< .merge_file_vlKcAG
 ### 3. agents.md Updated
+=======
+### 3. AGENTS.md Updated
+>>>>>>> .merge_file_kfnhCF
 
 **New Section Added**: "🚨 LOGGING PERFORMANCE RULES (CRITICAL)"
 
@@ -415,7 +419,11 @@ LOG_LEVEL=debug
 1. ✅ Create documentation
 2. ✅ Update knowledge base
 3. ✅ Update AGENTS.md
+<<<<<<< .merge_file_vlKcAG
 3. ✅ Update agents.md
+=======
+3. ✅ Update AGENTS.md
+>>>>>>> .merge_file_kfnhCF
 4. ⏭️ Update `config/logging.php`
 5. ⏭️ Update `.env.example`
 
@@ -488,7 +496,11 @@ This session successfully:
 3. ✅ Documented logging best practices
 4. ✅ Updated knowledge base with 3 key lessons
 5. ✅ Updated AGENTS.md with performance rules
+<<<<<<< .merge_file_vlKcAG
 5. ✅ Updated agents.md with performance rules
+=======
+5. ✅ Updated AGENTS.md with performance rules
+>>>>>>> .merge_file_kfnhCF
 6. ✅ Created optimization plan (4 phases)
 7. ✅ Defined success metrics
 

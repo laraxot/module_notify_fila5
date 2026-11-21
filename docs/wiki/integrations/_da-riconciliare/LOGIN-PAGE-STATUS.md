@@ -303,12 +303,20 @@ Password: password
    - Diagrammi flusso
    - Best practices
 
+<<<<<<< .merge_file_lyFPDT
 2. **[Super Mucca Final Summary](./SUPER_MUCCA_FINAL_SUMMARY.md)**
+=======
+2. **[Super Mucca Final Summary](./super_mucca_final_summary.md)**
+>>>>>>> .merge_file_7dNh7V
    - Report completo missione
    - Tutti i file modificati
    - Problemi risolti
 
+<<<<<<< .merge_file_lyFPDT
 3. **[Documentation Index](./DOCUMENTATION_INDEX.md)**
+=======
+3. **[Documentation Index](./documentation_index.md)**
+>>>>>>> .merge_file_7dNh7V
    - Indice generale documentazione
    - Collegamenti a tutti i moduli
 

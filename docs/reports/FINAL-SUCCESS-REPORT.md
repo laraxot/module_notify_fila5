@@ -178,9 +178,15 @@ test -f bashscripts/git/subtrees/sync_remote_repo.sh || { echo "sync_remote_repo
 - [Bashscripts Gitignore Workaround](docs/BASHSCRIPTS_GITIGNORE_WORKAROUND.md)
 - [Multi-Agent Collaboration Guide](docs/MULTI_AGENT_COLLABORATION_GUIDE.md)
 - [GitHub Sync Rule](docs/GITHUB_SYNC_RULE.md)
+<<<<<<< .merge_file_RSPWGl
 - [Bashscripts Gitignore Workaround](../BASHSCRIPTS_GITIGNORE_WORKAROUND.md)
 - [Multi-Agent Collaboration Guide](../MULTI_AGENT_COLLABORATION_GUIDE.md)
 - [GitHub Sync Rule](../GITHUB_SYNC_RULE.md)
+=======
+- [Bashscripts Gitignore Workaround](../bashscripts_gitignore_workaround.md)
+- [Multi-Agent Collaboration Guide](../multi_agent_collaboration_guide.md)
+- [GitHub Sync Rule](../github_sync_rule.md)
+>>>>>>> .merge_file_OW8FUF
 
 ---
 

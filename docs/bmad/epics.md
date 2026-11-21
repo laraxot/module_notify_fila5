@@ -6,6 +6,7 @@ module: Notify
 scope: documentation
 bmad_version: 1.0
 updated: 2026-10-06
+tags: [docs, notify, bmad]
 qmd: "Notify epics user stories canali template hardening"
 ---
 

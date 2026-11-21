@@ -13,9 +13,10 @@ discussions:
 related:
   - ../README.md
   - ../wiki/index.md
-  - ../notifications/readme.md
-  - ../integrations/readme.md
-  - ../templates/readme.md
+  - ../notifications/README.md
+  - ../integrations/README.md
+  - ../templates/README.md
+status: draft
 ---
 # 📏 Coding Conventions
 
@@ -329,7 +330,7 @@ Modules/ModuleName/
 
 **Links**: Use relative paths for internal
 ```markdown
-✅ [See Guide](./guides/setup.md)
+✅ [See Guide](../ai-agents/setup.md)
 ✅ [Architecture](../architecture/overview.md)
 ❌ [Guide](/var/www/.../guide.md)
 ```

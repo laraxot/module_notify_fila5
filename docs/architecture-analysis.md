@@ -4,7 +4,6 @@ type: concept
 tags: [architecture, analysis]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "architecture-analysis fixcity architecture deep dive analysis"
 qmd: "architecture-analysis ptv architecture deep dive analysis"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -20,9 +19,9 @@ related:
   - "./00-index-documentation.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
-  - "./acronym-naming-conventions-2.md"
+  - "./absolute-completion-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
 status: draft
@@ -1644,8 +1643,8 @@ Tasks:
 ### Current Documentation
 ```
 ✅ Exists:
-- claude.md (AI assistant instructions)
-- project-roadmap-1.md (high-level vision)
+- CLAUDE.md (AI assistant instructions)
+- project-roadmap.md (high-level vision)
 - README.md (basic setup)
 - This document (architecture-analysis.md)
 
@@ -1676,7 +1675,7 @@ Tasks:
    - Configuration guide
    - Troubleshooting
 
-4. contributing.md
+4. CONTRIBUTING.md
    - Development setup
    - Coding standards
    - Testing requirements
@@ -1823,8 +1822,7 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
-[ ] Assets deployed (symlink public_html/themes (npm run copy obsoleto))
-[ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
 [ ] Dark mode tested
 [ ] Responsive design tested
 [ ] Accessibility tested
