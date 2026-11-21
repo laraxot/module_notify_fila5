@@ -7,6 +7,25 @@ updated: 2026-09-26
 qmd: "ponytail audit 2026 07"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Sgu4vy
+=======
+title: "ponytail-audit-2026-07-02"
+type: concept
+tags: [deprecated]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "ponytail-audit-2026-07-02 deprecated"
+status: deprecated
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+>>>>>>> .merge_file_wQ1IoX
 ---
 
 # Ponytail-audit 2026-07-02: Notify module findings

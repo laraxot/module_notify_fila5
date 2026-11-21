@@ -7,6 +7,25 @@ updated: 2026-09-26
 qmd: "baseuser refactoring completed 2025 10"
 issues: []
 discussions: []
+<<<<<<< .merge_file_ux1BDY
+=======
+title: "baseuser-refactoring-completed-2025-10-15"
+type: concept
+tags: [deprecated]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "baseuser-refactoring-completed-2025-10-15 deprecated"
+status: deprecated
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+>>>>>>> .merge_file_GoGmJw
 ---
 
 # BaseUser Refactoring COMPLETATO ✅

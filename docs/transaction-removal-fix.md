@@ -7,6 +7,25 @@ updated: 2026-09-26
 qmd: "transaction removal fix 2025 10"
 issues: []
 discussions: []
+<<<<<<< .merge_file_Zw6N61
+=======
+title: "transaction-removal-fix-2025-10-15"
+type: concept
+tags: [deprecated]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "transaction-removal-fix-2025-10-15 deprecated"
+status: deprecated
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+>>>>>>> .merge_file_UDC0sI
 ---
 
 # Fix Transaction Model - Migrate Fresh Error

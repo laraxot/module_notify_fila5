@@ -7,6 +7,25 @@ updated: 2026-09-26
 qmd: "logging optimization summary 2026 03"
 issues: []
 discussions: []
+<<<<<<< .merge_file_BeCN61
+=======
+title: "LOGGING_OPTIMIZATION_SUMMARY_2026-03-02"
+type: concept
+tags: [deprecated]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "logging_optimization_summary_2026-03-02 deprecated"
+status: deprecated
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+>>>>>>> .merge_file_wzaNGa
 ---
 
 # Logging Optimization Summary - 2026-03-02

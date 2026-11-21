@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "work completed 2025 10"
 issues: []
 discussions: []
+<<<<<<< .merge_file_lUzatD
 ---
 
 # ✅ LAVORO COMPLETATO - 2025-10-01
@@ -296,3 +297,24 @@ Per domande su questo aggiornamento:
 
 *Questo documento riassume tutto il lavoro svolto per l'aggiornamento delle roadmap e della documentazione.
 Per dettagli specifici, consultare i singoli file aggiornati.*
+=======
+title: "WORK_COMPLETED_2025-10-01"
+type: concept
+tags: [deprecated]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "work_completed_2025-10-01 deprecated"
+status: deprecated
+related:
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
+---
+
+> Questo file è stato rinominato in [work-completed.md](work-completed.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> .merge_file_ichOwH

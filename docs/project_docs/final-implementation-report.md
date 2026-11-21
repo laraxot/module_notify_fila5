@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "final implementation report 2025 10"
 issues: []
 discussions: []
+<<<<<<< .merge_file_pNW7bQ
 ---
 
 # ✅ AGID Implementation - Final Report
@@ -242,3 +243,24 @@ Steps:
 **Data**: 2025-10-02T20:48:00+02:00  
 **Tempo impiegato**: ~90 minuti di lavoro intensivo  
 **Status finale**: ✅ **SUCCESS - ZERO ERRORS**
+=======
+title: "FINAL_IMPLEMENTATION_REPORT_2025-10-02"
+type: concept
+tags: [deprecated]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "final_implementation_report_2025-10-02 deprecated"
+status: deprecated
+related:
+  - "./excellence-achievement.md"
+  - "./agid-implementation-guide.md"
+  - "./architecture.md"
+  - "./complete-refactoring-analysis.md"
+  - "./documentation-status.md"
+  - "./final-implementation-report-.md"
+  - "./final-implementation-report-1.md"
+  - "./final-refactoring-report.md"
+---
+
+> Questo file è stato rinominato in [final-implementation-report.md](final-implementation-report.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> .merge_file_6xijR9

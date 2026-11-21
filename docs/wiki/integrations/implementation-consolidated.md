@@ -31,7 +31,11 @@ Consolidated from **10** individual files.
 
 ## implementation-guide-1
 
+<<<<<<< .merge_file_KkdyxS
 *Consolidated from: `implementation-guide.md`*
+=======
+*Consolidated from: `implementation-guide-1.md`*
+>>>>>>> .merge_file_KquVOc
 
 title: "Guida all'Implementazione dei Template Email"
 type: guide
