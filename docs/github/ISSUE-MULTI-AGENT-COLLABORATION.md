@@ -43,7 +43,15 @@ Create comprehensive documentation for `bashscripts/git/subtrees/sync_remote_rep
 | File | Purpose | Lines |
 |------|---------|-------|
 | `bashscripts/docs/git/sync-remote-repo-guide.md` | Comprehensive CLI+CI guide | ~450 |
+<<<<<<< .merge_file_CHMNsi
 | `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md` | Agent coordination log | ~300 |
+=======
+<<<<<<< .merge_file_IjJhru
+| `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md` | Agent coordination log | ~300 |
+=======
+| `bashscripts/docs/git/sync_remote_repo_coordination.md` | Agent coordination log | ~300 |
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 | `bashscripts/docs/git/GITHUB_WIKI_SYNC.md` | Wiki sync guide | ~200 |
 | `bashscripts/docs/git/README.md` | Git docs index | ~350 |
 
@@ -105,12 +113,28 @@ git add docs/git/
 git commit -m "docs: Add sync remote repo comprehensive documentation
 
 - sync-remote-repo-guide.md: Complete CLI+CI guide
+<<<<<<< .merge_file_CHMNsi
 - SYNC_REMOTE_REPO_COORDINATION.md: Multi-agent coordination log
+=======
+<<<<<<< .merge_file_IjJhru
+- SYNC_REMOTE_REPO_COORDINATION.md: Multi-agent coordination log
+=======
+- sync_remote_repo_coordination.md: Multi-agent coordination log
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 - GITHUB_WIKI_SYNC.md: Wiki synchronization guide
 - README.md: Git docs index
 
 Created by: Qwen-Code-001
+<<<<<<< .merge_file_CHMNsi
 Coordination: See SYNC_REMOTE_REPO_COORDINATION.md
+=======
+<<<<<<< .merge_file_IjJhru
+Coordination: See SYNC_REMOTE_REPO_COORDINATION.md
+=======
+Coordination: See sync_remote_repo_coordination.md
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 Guide: See sync-remote-repo-guide.md
 "
 
@@ -146,12 +170,28 @@ However, since bashscripts docs are gitignored, they need to be committed to bas
 
 #### BEFORE You Start
 
+<<<<<<< .merge_file_CHMNsi
 1. **Read Coordination Log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+<<<<<<< .merge_file_IjJhru
+1. **Read Coordination Log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+1. **Read Coordination Log**: `bashscripts/docs/git/sync_remote_repo_coordination.md`
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 2. **Check This File**: Review current status
 3. **Add Your Entry**: Update coordination log with your agent ID and planned work
 4. **Create Lock File** (if needed): 
    ```bash
+<<<<<<< .merge_file_CHMNsi
    echo "Agent-XYZ-$(date -I)" > bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md.lock
+=======
+<<<<<<< .merge_file_IjJhru
+   echo "Agent-XYZ-$(date -I)" > bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md.lock
+=======
+   echo "Agent-XYZ-$(date -I)" > bashscripts/docs/git/sync_remote_repo_coordination.md.lock
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
    ```
 
 #### DURING Work
@@ -178,13 +218,29 @@ However, since bashscripts docs are gitignored, they need to be committed to bas
 | Component | Status | Location |
 |-----------|--------|----------|
 | Main Guide | ✅ Created | `bashscripts/docs/git/sync-remote-repo-guide.md` |
+<<<<<<< .merge_file_CHMNsi
 | Coordination Log | ✅ Created | `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md` |
+=======
+<<<<<<< .merge_file_IjJhru
+| Coordination Log | ✅ Created | `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md` |
+=======
+| Coordination Log | ✅ Created | `bashscripts/docs/git/sync_remote_repo_coordination.md` |
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 | Wiki Sync Guide | ✅ Created | `bashscripts/docs/git/GITHUB_WIKI_SYNC.md` |
 | Docs Index | ✅ Created | `bashscripts/docs/git/README.md` |
 | Issue Template | ✅ Committed | `.github/ISSUE_TEMPLATE/sync-remote-repo.md` |
 | Discussion Template | ✅ Committed | `.github/DISCUSSION_TEMPLATE/sync-script-coordination.md` |
 | Summary Doc | ✅ Committed | `docs/github/SYNC_REMOTE_REPO_DOCS_SUMMARY.md` |
+<<<<<<< .merge_file_CHMNsi
 | agents.md Update | ✅ Committed | Multi-agent coordination section |
+=======
+<<<<<<< .merge_file_IjJhru
+| agents.md Update | ✅ Committed | Multi-agent coordination section |
+=======
+| AGENTS.md Update | ✅ Committed | Multi-agent coordination section |
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 
 ### Sync Status
 
@@ -242,7 +298,15 @@ However, since bashscripts docs are gitignored, they need to be committed to bas
 ### Coordination Channels
 
 1. **GitHub Discussions**: Use `[COORDINATION]` tag
+<<<<<<< .merge_file_CHMNsi
 2. **Coordination Log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+<<<<<<< .merge_file_IjJhru
+2. **Coordination Log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+2. **Coordination Log**: `bashscripts/docs/git/sync_remote_repo_coordination.md`
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 3. **Issue Tracker**: Use sync-remote-repo template
 
 ### Agent Teams
@@ -298,7 +362,15 @@ This collaboration is successful when:
 bashscripts/docs/git/
 ├── README.md                          # Git docs index
 ├── sync-remote-repo-guide.md          # Complete guide
+<<<<<<< .merge_file_CHMNsi
 ├── SYNC_REMOTE_REPO_COORDINATION.md   # Coordination log
+=======
+<<<<<<< .merge_file_IjJhru
+├── SYNC_REMOTE_REPO_COORDINATION.md   # Coordination log
+=======
+├── sync_remote_repo_coordination.md   # Coordination log
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 └── GITHUB_WIKI_SYNC.md                # Wiki sync guide
 
 .github/
@@ -317,6 +389,10 @@ docs/github/
 bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 
 # Check coordination log
+<<<<<<< .merge_file_CHMNsi
+=======
+<<<<<<< .merge_file_IjJhru
+>>>>>>> .merge_file_JGiXJp
 cat bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md
 
 # Create lock file
@@ -324,6 +400,18 @@ echo "Agent-XYZ-$(date -I)" > bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION
 
 # Remove lock file
 rm bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md.lock
+<<<<<<< .merge_file_CHMNsi
+=======
+=======
+cat bashscripts/docs/git/sync_remote_repo_coordination.md
+
+# Create lock file
+echo "Agent-XYZ-$(date -I)" > bashscripts/docs/git/sync_remote_repo_coordination.md.lock
+
+# Remove lock file
+rm bashscripts/docs/git/sync_remote_repo_coordination.md.lock
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp
 ```
 
 ---
@@ -357,4 +445,12 @@ rm bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md.lock
 **Initiated By**: Qwen-Code-001  
 **Date**: 2026-03-13  
 **Next Agent**: Your turn! Add your entry to coordination log  
+<<<<<<< .merge_file_CHMNsi
 **Coordination**: See `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+<<<<<<< .merge_file_IjJhru
+**Coordination**: See `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+**Coordination**: See `bashscripts/docs/git/sync_remote_repo_coordination.md`
+>>>>>>> .merge_file_WFFY3X
+>>>>>>> .merge_file_JGiXJp

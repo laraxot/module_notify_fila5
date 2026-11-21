@@ -1,10 +1,26 @@
 ---
+<<<<<<< .merge_file_mLrVbZ
 title: "agid analysis implementation 2025 10 02"
+=======
+<<<<<<< .merge_file_LwGyW7
+title: "agid analysis implementation 2025 10 02"
+=======
+title: "Agid Analysis Implementation"
+>>>>>>> .merge_file_7UCbGt
+>>>>>>> .merge_file_738ZXp
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_mLrVbZ
 qmd: "agid analysis implementation 2025 10 02"
+=======
+<<<<<<< .merge_file_LwGyW7
+qmd: "agid analysis implementation 2025 10 02"
+=======
+qmd: "Agid Analysis Implementation"
+>>>>>>> .merge_file_7UCbGt
+>>>>>>> .merge_file_738ZXp
 issues: []
 discussions: []
 ---
@@ -18,12 +34,28 @@ discussions: []
 
 ---
 
+<<<<<<< .merge_file_mLrVbZ
 title: "agid analysis implementation 2025 10 02"
+=======
+<<<<<<< .merge_file_LwGyW7
+title: "agid analysis implementation 2025 10 02"
+=======
+title: "AGID ANALYSIS IMPLEMENTATION 2025 10 02"
+>>>>>>> .merge_file_7UCbGt
+>>>>>>> .merge_file_738ZXp
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_mLrVbZ
 qmd: "agid analysis implementation 2025 10 02"
+=======
+<<<<<<< .merge_file_LwGyW7
+qmd: "agid analysis implementation 2025 10 02"
+=======
+qmd: "AGID ANALYSIS IMPLEMENTATION 2025 10 02"
+>>>>>>> .merge_file_7UCbGt
+>>>>>>> .merge_file_738ZXp
 issues: []
 discussions: []
 ## 📋 Executive Summary

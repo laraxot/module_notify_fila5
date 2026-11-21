@@ -802,7 +802,7 @@ ls -la ~/.claude/skills/notebooklm/
 # - scripts/ (automation scripts)
 # - data/ (authentication + library)
 # - requirements.txt
-# - README.md, changelog.md, LICENSE
+# - README.md, CHANGELOG.md, LICENSE
 ```
 
 ## What is NotebookLM Skill?
@@ -1000,7 +1000,7 @@ Every NotebookLM answer ends with: **"Is that ALL you need to know?"**
 Create these NotebookLM notebooks:
 
 ### 1. Laraxot Framework Docs
-- **Upload**: Laraxot documentation, agents.md, .windsurfrules
+- **Upload**: Laraxot documentation, AGENTS.md, .windsurfrules
 - **Topics**: laravel, architecture, modules, filament, xot
 - **Use**: Technical research, implementation verification
 
@@ -1251,7 +1251,7 @@ Once authenticated, you can ask Claude Code to:
 
 Recommended notebooks to create:
 
-1. **Notify Architecture** - agents.md, docs/architecture/*
+1. **Notify Architecture** - AGENTS.md, docs/architecture/*
 2. **Notify Modules** - laravel/Modules/*/docs/README.md
 3. **Notify API** - API documentation, Swagger specs
 "NotebookLM: What's in my <nome progetto> Research notebook?"
@@ -1262,7 +1262,7 @@ Recommended notebooks to create:
 
 Recommended notebooks to create:
 
-1. **<nome progetto> Architecture** - agents.md, docs/architecture/*
+1. **<nome progetto> Architecture** - AGENTS.md, docs/architecture/*
 2. **<nome progetto> Modules** - laravel/Modules/*/docs/README.md
 3. **<nome progetto> API** - API documentation, Swagger specs
 
@@ -1974,7 +1974,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
-- [Panoramica dell'Architettura](./ARCHITECTURE.md)
+- [Panoramica dell'Architettura](./architecture.md)
 - [Modelli di Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Modelli di Email](../../email_templates.md)
@@ -3642,7 +3642,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
-- [Panoramica dell'Architettura](./ARCHITECTURE.md)
+- [Panoramica dell'Architettura](./architecture.md)
 - [Modelli di Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Modelli di Email](../../email_templates.md)
@@ -4116,7 +4116,7 @@ return [
 - [Documentazione API](./api.md)
 - [Template Email](./templates.md)
 - [Template Email](../../templates.md)
-- [Guida Contribuzione](./contributing.md)
+- [Guida Contribuzione](./CONTRIBUTING.md)
 
 ## Note
 - Testare le notifiche in ambiente di sviluppo

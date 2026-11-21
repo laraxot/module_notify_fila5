@@ -434,7 +434,11 @@ Before starting your subtask:
 |----------|---------|-----------|
 | **PHASE-1-STRATEGY.md** | Complete research & strategy | 20 min |
 | **GSD-PHASE-1-EXECUTION.md** | Execution plan with all 6 subtasks | 15 min |
+<<<<<<< .merge_file_CfPMYW
 | **00-INDEX.md** | Master documentation index | 10 min |
+=======
+| **00-index.md** | Master documentation index | 10 min |
+>>>>>>> .merge_file_HE4s5Z
 
 ### 🔧 TOOLS & SCRIPTS
 | Document | Purpose | Read Time |

@@ -13,9 +13,15 @@ discussions:
 related:
   - ../../README.md
   - ../../wiki/index.md
+<<<<<<< .merge_file_WaTJka
   - ../../notifications/readme.md
   - ../../integrations/readme.md
   - ../../templates/readme.md
+=======
+  - ../../notifications/README.md
+  - ../../integrations/README.md
+  - ../../templates/README.md
+>>>>>>> .merge_file_vS3IA8
 ---
 # Guide di Sviluppo
 

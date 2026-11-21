@@ -9,11 +9,11 @@ issues: []
 discussions: []
 ---
 
-# agents.md Split Index
+# AGENTS.md Split Index
 
-> Documentazione agents.md originale spezzata in file più piccoli e organizzati.
+> Documentazione AGENTS.md originale spezzata in file più piccoli e organizzati.
 
-## 📚 File Creati da agents.md
+## 📚 File Creati da AGENTS.md
 
 | File | Contenuto | Righe Originali |
 |------|-----------|----------------|
@@ -31,7 +31,11 @@ discussions: []
 ## 🔗 Collegamento all'Originale
 
 - [AGENTS.md originale](../../AGENTS.md) - File completo (deprecato)
+<<<<<<< .merge_file_sUdfK8
 - [agents.md originale](../../agents.md) - File completo (deprecato)
+=======
+- [AGENTS.md originale](../../AGENTS.md) - File completo (deprecato)
+>>>>>>> .merge_file_d33kN2
 - [Index principale](./index.md) - Torna all'indice
 
 ## 📝 Note

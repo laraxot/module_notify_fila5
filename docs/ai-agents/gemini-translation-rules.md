@@ -94,5 +94,9 @@ namespace::context.collection.element.type
 
 - [Indice GEMINI](./gemini-split-index.md)
 - [translation-management skill available](../../.opencode/skills/translation-management/SKILL.md)
+<<<<<<< .merge_file_5Yuqdt
 - [GEMINI.md originale](../../GEMINI.md)
+=======
+- [gemini.md originale](../../gemini.md)
+>>>>>>> .merge_file_NW58fd
 - [Index principale](./index.md)

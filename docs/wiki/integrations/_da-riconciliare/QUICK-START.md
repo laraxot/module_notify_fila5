@@ -507,7 +507,15 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 ## 🔗 LINK UTILI
 
 ### Documentazione
+<<<<<<< .merge_file_5yiULv
 - **[Indice Documentazione](./DOCUMENTATION_INDEX.md)**
+=======
+<<<<<<< .merge_file_sCN6yj
+- **[Indice Documentazione](./DOCUMENTATION_INDEX.md)**
+=======
+- **[Indice Documentazione](./documentation_index.md)**
+>>>>>>> .merge_file_GBNDZw
+>>>>>>> .merge_file_EI098s
 - **[Roadmap Status](./ROADMAP_STATUS_SUMMARY.md)**
 - **[Documentation Status](./project_docs/DOCUMENTATION_STATUS.md)**
 

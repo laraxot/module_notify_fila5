@@ -1,27 +1,40 @@
 ---
-title: "02 bmad workflow"
+title: "02 BMAD Workflow"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "02 bmad workflow"
+qmd: "02 BMAD Workflow"
 issues: []
 discussions: []
 ---
 
 # 🎨 BMAD Workflow (Breakthrough Method for Agile AI-Driven Development)
 
+<<<<<<< .merge_file_loYVlh
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
 **Related**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md) — GSD Method
 
 ---
 
 title: "02 bmad workflow"
+=======
+**Part of**: [00-index.md](00-index.md) — AI Agents Coordination  
+**Related**: [01-gsd-workflow.md](01-gsd-workflow.md) — GSD Method
+
+---
+
+title: "02 BMAD WORKFLOW"
+>>>>>>> .merge_file_XzVT26
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_loYVlh
 qmd: "02 bmad workflow"
+=======
+qmd: "02 BMAD WORKFLOW"
+>>>>>>> .merge_file_XzVT26
 issues: []
 discussions: []
 ## 📋 Overview
@@ -140,8 +153,8 @@ Agents discuss together and reach consensus.
 
 ## 🔗 Related Documentation
 
-- **GSD Method**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md)
-- **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
+- **GSD Method**: [01-gsd-workflow.md](01-gsd-workflow.md)
+- **Architecture**: [03-architecture-zen.md](03-architecture-zen.md)
 - **External**: https://github.com/bmad-code-org/BMAD-METHOD
 - **Docs**: https://docs.bmad-method.org
 

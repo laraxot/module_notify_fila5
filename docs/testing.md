@@ -511,7 +511,7 @@ Remember: Good tests are the foundation of reliable software development.
 
 ---
 
-<!-- Merged from TESTING.md, which collided with this file on case-insensitive filesystems. -->
+<!-- Merged from testing.md, which collided with this file on case-insensitive filesystems. -->
 
 ---
 title: "Notify Module Testing"

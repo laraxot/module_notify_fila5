@@ -13,9 +13,15 @@ discussions:
 related:
   - ../README.md
   - ../wiki/index.md
+<<<<<<< .merge_file_LoqVHk
   - ../notifications/readme.md
   - ../integrations/readme.md
   - readme.md
+=======
+  - ../notifications/README.md
+  - ../integrations/README.md
+  - README.md
+>>>>>>> .merge_file_ibMtJn
 ---
 # Template Email
 
@@ -162,7 +168,7 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../../../doc
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../../docs/readme_links.md). 
 ---
 
-<!-- Merged from readme.md, which collided with this file on case-insensitive filesystems. -->
+<!-- Merged from README.md, which collided with this file on case-insensitive filesystems. -->
 
 ---
 title: "Readme"

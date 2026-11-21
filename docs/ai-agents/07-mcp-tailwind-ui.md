@@ -1,10 +1,10 @@
 ---
-title: "07 mcp tailwind ui"
+title: "07 MCP Tailwind UI"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "07 mcp tailwind ui"
+qmd: "07 MCP Tailwind UI"
 issues: []
 discussions: []
 ---
@@ -17,12 +17,20 @@ discussions: []
 
 ---
 
+<<<<<<< .merge_file_BG9daH
 title: "07 mcp tailwind ui"
+=======
+title: "07 MCP TAILWIND UI"
+>>>>>>> .merge_file_m6fZqO
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_BG9daH
 qmd: "07 mcp tailwind ui"
+=======
+qmd: "07 MCP TAILWIND UI"
+>>>>>>> .merge_file_m6fZqO
 issues: []
 discussions: []
 ## 📋 Panoramica

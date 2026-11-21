@@ -180,8 +180,13 @@ try {
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_KUTITR
 - [Documentazione Root](../../../../../docs/readme.md)
 - [Documentazione Modulo Notify](./readme.md)
+=======
+- [Documentazione Root](../../../../../docs/README.md)
+- [Documentazione Modulo Notify](./README.md)
+>>>>>>> .merge_file_r8xniM
 - [Documentazione Template Email](./email_templates.md)
 - [Guida all'utilizzo di SpatieEmail](./spatie_email_usage_guide.md)
 - [Documentazione Filament Resources](./filament-resources.md)

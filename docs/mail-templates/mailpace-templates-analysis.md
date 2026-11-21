@@ -219,7 +219,11 @@ return [
 
 ## Collegamenti
 - [Mailpace Templates](https://github.com/mailpace/templates)
+<<<<<<< .merge_file_WKGC7A
 - [Email Best Practices](./EMAIL_BEST_PRACTICES.md)
+=======
+- [Email Best Practices](./email_best_practices.md)
+>>>>>>> .merge_file_DglSxu
 - [Template Management](../template-management.md) 
 - [Email Best Practices](./email_best_practices.md)
 - [Template Management](../template-management.md) 

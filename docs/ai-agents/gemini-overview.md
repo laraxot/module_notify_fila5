@@ -81,5 +81,9 @@ composer run test
 ## 🔗 Link
 
 - [Indice GEMINI](./gemini-split-index.md)
+<<<<<<< .merge_file_aQqsce
 - [GEMINI.md originale](../../GEMINI.md)
+=======
+- [gemini.md originale](../../gemini.md)
+>>>>>>> .merge_file_4bqmia
 - [Index principale](./index.md)

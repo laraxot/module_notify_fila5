@@ -1,10 +1,26 @@
 ---
+<<<<<<< .merge_file_vsmbpK
 title: "implementation status 2025 10 02"
+=======
+<<<<<<< .merge_file_EpQ2h8
+title: "implementation status 2025 10 02"
+=======
+title: "Implementation Status"
+>>>>>>> .merge_file_B0UaDy
+>>>>>>> .merge_file_dzZSNQ
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_vsmbpK
 qmd: "implementation status 2025 10 02"
+=======
+<<<<<<< .merge_file_EpQ2h8
+qmd: "implementation status 2025 10 02"
+=======
+qmd: "Implementation Status"
+>>>>>>> .merge_file_B0UaDy
+>>>>>>> .merge_file_dzZSNQ
 issues: []
 discussions: []
 ---

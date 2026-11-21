@@ -362,7 +362,11 @@ Typography:
 
 | File | Purpose | View |
 |------|---------|------|
+<<<<<<< .merge_file_fI5V7s
 | `guides/getting-started.md` | Theme setup | [View](../../../getting-started.md) |
+=======
+| `guides/getting-started.md` | Theme setup | [View](../../../GETTING-STARTED.md) |
+>>>>>>> .merge_file_kDY0hK
 | `guides/adding-components.md` | Create new component | [View](../laravel/Themes/Sixteen/docs/guides/adding-components.md) |
 | `guides/styling-guide.md` | Styling best practices | [View](../laravel/Themes/Sixteen/docs/guides/styling-guide.md) |
 | `guides/responsive-design.md` | Mobile-first approach | [View](../laravel/Themes/Sixteen/docs/guides/responsive-design.md) |
@@ -478,7 +482,7 @@ public_html/assets/
 - **Master Index:** [00-index-1.md](../laravel/Themes/Sixteen/docs/00-index-1.md)
 - **Master Index:** [00-index-1.md](../../../00-index-documentation.md)
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
-- **Framework Rules:** [../laravel/claude.md](../laravel/claude.md)
+- **Framework Rules:** [../laravel/CLAUDE.md](../laravel/CLAUDE.md)
 
 ---
 

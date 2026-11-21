@@ -51,4 +51,8 @@ updated: 2026-09-26
 qmd: "dry kiss analysis conflict"
 issues: []
 discussions: []
+<<<<<<< .merge_file_JZQX85
 [DRY/KISS Global](../../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)
+=======
+[DRY/KISS Global](../../../docs/DRY_KISS_ANALYSIS.md)
+>>>>>>> .merge_file_K9k3id

@@ -98,5 +98,9 @@ discussions: []
 ## 🔗 Link
 
 - [Indice QWEN](./qwen-split-index.md)
+<<<<<<< .merge_file_B6iFNN
 - [QWEN.md originale](../../QWEN.md)
+=======
+- [qwen.md originale](../../qwen.md)
+>>>>>>> .merge_file_ZG0Ka1
 - [Index principale](./index.md)

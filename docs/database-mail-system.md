@@ -313,7 +313,11 @@ php artisan notify:mail-template:test
    - Monitorare tempi
 
 ## Collegamenti
+<<<<<<< .merge_file_OIeKIp
 - [Notify Module](../readme.md)
+=======
+- [Notify Module](../README.md)
+>>>>>>> .merge_file_LehPsP
 - [Email Templates](email-templates.md)
 - [Mail Queue](mail-queue.md)
 

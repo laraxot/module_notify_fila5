@@ -28,13 +28,13 @@ status: draft
 
 ### Documentazione Principale
 - [README Principale](./README.md) - Panoramica progetto completa
-- [Analisi Super Mucca](./SUPER_MUCCA_DOCS_ANALYSIS.md) - Report qualità documentazione
-- [Architecture](./ARCHITECTURE_ANALYSIS.md) - Analisi architetturale
+- [Analisi Super Mucca](./super_mucca_docs_analysis.md) - Report qualità documentazione
+- [Architecture](./architecture_analysis.md) - Analisi architetturale
 - [Roadmap](./MASTER_ROADMAP_2025.md) - Piano sviluppo 2025
 
 ### Guide Rapide
-- [Quick Start](./QUICK_START.md) - Guida avvio rapido
-- [Contributing](./CONTRIBUTING.md) - Come contribuire
+- [Quick Start](./quick_start.md) - Guida avvio rapido
+- [Contributing](./contributing.md) - Come contribuire
 - [Troubleshooting](./troubleshooting/README.md) - Risoluzione problemi
 
 ---
@@ -300,7 +300,7 @@ status: draft
 ## 📝 Changelog & Versioning
 
 ### Version History
-- [Changelog](./CHANGELOG.md) - Storico modifiche
+- [Changelog](./CHANGELOG.MD) - Storico modifiche
 - [Versioning Strategy](./versioning.md) - Strategia versioning
 - [Migration Guides](./migrations/README.md) - Guide migrazione
 
@@ -309,7 +309,7 @@ status: draft
 ## 🤝 Contributing
 
 ### Contribution Guidelines
-- [How to Contribute](./CONTRIBUTING.md) - Come contribuire
+- [How to Contribute](./contributing.md) - Come contribuire
 - [Code of Conduct](./CODE_OF_CONDUCT.md) - Codice condotta
 - [Pull Request Template](./.github/pull_request_template.md) - Template PR
 

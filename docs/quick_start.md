@@ -490,9 +490,9 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 ## 🔗 LINK UTILI
 
 ### Documentazione
-- **[Indice Documentazione](./DOCUMENTATION_INDEX.md)**
-- **[Roadmap Status](./ROADMAP_STATUS_SUMMARY.md)**
-- **[Documentation Status](./project_docs/DOCUMENTATION_STATUS.md)**
+- **[Indice Documentazione](./documentation_index.md)**
+- **[Roadmap Status](./roadmap_status_summary.md)**
+- **[Documentation Status](./project_docs/documentation_status.md)**
 
 ### Framework
 - **[Laravel Docs](https://laravel.com/docs/11.x)**

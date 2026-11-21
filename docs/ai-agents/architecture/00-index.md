@@ -24,7 +24,11 @@ discussions: []
 ## Metodologia esecutiva collegata
 
 - [../../../../docs/project/gsd-and-bmad-workflow.md](../../../../docs/project/gsd-and-bmad-workflow.md) — ordine canonico BMAD -> GSD -> Ralph
+<<<<<<< .merge_file_RUR61j
 - [../../ralph/00-INDEX.md](../../ralph/00-INDEX.md) — albero Ralph locale, senza duplicare template nel root del repository
+=======
+- [../../ralph/00-index.md](../../ralph/00-index.md) — albero Ralph locale, senza duplicare template nel root del repository
+>>>>>>> .merge_file_T9y5u2
 
 ## Quick Decision Guide
 
@@ -38,5 +42,5 @@ discussions: []
 
 ## Navigation
 
-- [../00-INDEX.md](../00-INDEX.md)
+- [../00-index.md](../00-index.md)
 - [../../../../AGENTS.md](../../../../AGENTS.md)

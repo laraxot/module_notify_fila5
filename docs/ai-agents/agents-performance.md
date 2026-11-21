@@ -63,5 +63,9 @@ discussions: []
 - [Indice AGENTS](./agents-split-index.md)
 - [website-checklist.md](./website-checklist.md) - Checklist completa
 - [AGENTS.md originale](../../AGENTS.md)
+<<<<<<< .merge_file_DKToNj
 - [agents.md originale](../../agents.md)
+=======
+- [AGENTS.md originale](../../AGENTS.md)
+>>>>>>> .merge_file_NexmAR
 - [Index principale](./index.md)

@@ -1,8 +1,8 @@
 ---
-qmd: "gemini"
+qmd: "Gemini"
 issues: []
 discussions: []
-title: "Gemini Rules (Modular)"
+title: "Gemini"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -27,8 +27,8 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 ---
 **See also:**
 - [CLAUDE.md](./CLAUDE.md)
-- [agents.md](./agents.md)
-- [QWEN.md](./QWEN.md)
+- [AGENTS.md](./AGENTS.md)
+- [qwen.md](./qwen.md)
 
 *Ultimo aggiornamento: Aprile 2026*
 
@@ -72,8 +72,8 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 
 ---
 **See also:**
-- [claude.md](./claude.md)
-- [agents.md](./agents.md)
+- [CLAUDE.md](./CLAUDE.md)
+- [AGENTS.md](./AGENTS.md)
 - [qwen.md](./qwen.md)
 
 *Ultimo aggiornamento: Aprile 2026*

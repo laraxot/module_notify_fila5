@@ -35,7 +35,15 @@ Successfully implemented a comprehensive documentation governance framework and 
 ✅ **Documentation governance framework** created  
 ✅ **Master documentation index** established  
 ✅ **Rules and standards** updated (AGENTS.md, .windsurfrules)  
+<<<<<<< .merge_file_PxH2LD
 ✅ **Rules and standards** updated (agents.md, .windsurfrules)  
+=======
+<<<<<<< .merge_file_wCS1gJ
+✅ **Rules and standards** updated (agents.md, .windsurfrules)  
+=======
+✅ **Rules and standards** updated (AGENTS.md, .windsurfrules)  
+>>>>>>> .merge_file_5cCGeo
+>>>>>>> .merge_file_RO3yAe
 ✅ **Documentation management skill** created  
 ✅ **4 global memories** saved  
 ✅ **3 GitHub issues** created for tracking  
@@ -87,8 +95,18 @@ Successfully implemented a comprehensive documentation governance framework and 
 
 ### Rules Updates
 
+<<<<<<< .merge_file_PxH2LD
 5. **[AGENTS.md](AGENTS.md)** - Updated
 5. **[agents.md](AGENTS.md)** - Updated
+=======
+<<<<<<< .merge_file_wCS1gJ
+5. **[AGENTS.md](AGENTS.md)** - Updated
+5. **[agents.md](AGENTS.md)** - Updated
+=======
+5. **[AGENTS.md](agents.md)** - Updated
+5. **[AGENTS.md](agents.md)** - Updated
+>>>>>>> .merge_file_5cCGeo
+>>>>>>> .merge_file_RO3yAe
    - Added documentation governance section
    - No temporal strings rule
    - File naming conventions
@@ -315,8 +333,18 @@ grep -r "Last Updated" laravel/Modules/*/docs/ --include="*.md" | wc -l
 - [Improvement Plan](docs/DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)
 
 ### Rules
+<<<<<<< .merge_file_PxH2LD
 - [AGENTS.md](AGENTS.md) - Full standards
 - [agents.md](AGENTS.md) - Full standards
+=======
+<<<<<<< .merge_file_wCS1gJ
+- [AGENTS.md](AGENTS.md) - Full standards
+- [agents.md](AGENTS.md) - Full standards
+=======
+- [AGENTS.md](agents.md) - Full standards
+- [AGENTS.md](agents.md) - Full standards
+>>>>>>> .merge_file_5cCGeo
+>>>>>>> .merge_file_RO3yAe
 - [.windsurfrules](.windsurfrules) - IDE rules
 
 ### Skills

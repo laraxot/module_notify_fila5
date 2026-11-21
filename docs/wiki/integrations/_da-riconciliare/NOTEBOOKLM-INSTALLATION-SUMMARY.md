@@ -38,7 +38,15 @@ ls -la ~/.claude/skills/notebooklm/
 # - scripts/ (automation scripts)
 # - data/ (authentication + library)
 # - requirements.txt
+<<<<<<< .merge_file_zVeuzl
 # - README.md, changelog.md, LICENSE
+=======
+<<<<<<< .merge_file_fous9h
+# - README.md, changelog.md, LICENSE
+=======
+# - README.md, CHANGELOG.md, LICENSE
+>>>>>>> .merge_file_b7P8wI
+>>>>>>> .merge_file_boSDTl
 ```
 
 ## What is NotebookLM Skill?
@@ -236,7 +244,15 @@ Every NotebookLM answer ends with: **"Is that ALL you need to know?"**
 Create these NotebookLM notebooks:
 
 ### 1. Laraxot Framework Docs
+<<<<<<< .merge_file_zVeuzl
 - **Upload**: Laraxot documentation, agents.md, .windsurfrules
+=======
+<<<<<<< .merge_file_fous9h
+- **Upload**: Laraxot documentation, agents.md, .windsurfrules
+=======
+- **Upload**: Laraxot documentation, AGENTS.md, .windsurfrules
+>>>>>>> .merge_file_b7P8wI
+>>>>>>> .merge_file_boSDTl
 - **Topics**: laravel, architecture, modules, filament, xot
 - **Use**: Technical research, implementation verification
 

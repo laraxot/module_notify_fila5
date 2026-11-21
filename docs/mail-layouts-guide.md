@@ -148,8 +148,13 @@ I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templa
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
+<<<<<<< .merge_file_4P22ys
 - [Spatie Email Documentation](./SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
+=======
+- [Spatie Email Documentation](./spatie_email_usage_guide.md)
+- [Email Best Practices](./mail-templates/email_best_practices.md)
+>>>>>>> .merge_file_6PMGof
 - [HTML Email Compatibility Guide](mail-templates/html_email_compatibility.md)
 - [Spatie Email Documentation](./spatie_email_usage_guide.md)
 - [Email Best Practices](./mail-templates/email_best_practices.md)

@@ -9,7 +9,15 @@ updated: 2026-10-06
 # Before/After Report — Notify Module Docs
 
 ## Before
+<<<<<<< .merge_file_y7wJ03
 - docs/ contained: bmad/, legacy/ (447 files), wiki/, rules/, stories/, -integration/, readme.md files, images
+=======
+<<<<<<< .merge_file_zWQEHt
+- docs/ contained: bmad/, legacy/ (447 files), wiki/, rules/, stories/, -integration/, readme.md files, images
+=======
+- docs/ contained: bmad/, legacy/ (447 files), wiki/, rules/, stories/, -integration/, README.md files, images
+>>>>>>> .merge_file_I875K6
+>>>>>>> .merge_file_w4DdxE
 - No single docs/README.md with BMAD frontmatter
 - legacy/ mixed with active docs (archive not separated)
 - BMAD frontmatter missing from most .md files

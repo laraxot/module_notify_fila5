@@ -11,7 +11,11 @@ discussions: []
 
 # Collegamenti Documentazione Notify
 
+<<<<<<< .merge_file_2WaYU7
 - [README Notify](readme.md)
+=======
+- [README Notify](README.md)
+>>>>>>> .merge_file_SB4lLR
 - [Architettura del modulo](architecture.md)
 - [CRUD Template Email Filament](crud-template-email-filament.md)
 - [Panoramica Template Email](email-template-landscape.md)

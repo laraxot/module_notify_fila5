@@ -246,6 +246,10 @@ MailTemplate::all()->each(function ($template) {
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_JNdjA0
 - [Documentazione Email Template](./EMAIL_TEMPLATES.md)
+=======
+- [Documentazione Email Template](./email_templates.md)
+>>>>>>> .merge_file_WGB3Fw
 - [Gestione Traduzioni](../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Configurazione Email](../../../docs/email-configuration.md) 

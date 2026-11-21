@@ -68,7 +68,15 @@ discussions: []
    - ✅ Next steps e pattern correlati
    - ✅ FAQ per nuovi developer
 
+<<<<<<< .merge_file_qpQZC6
 6. **[Executive Summary](./XotBasePivot-Executive-Summary.md)** (2.000+ parole)
+=======
+<<<<<<< .merge_file_5FtzfZ
+6. **[Executive Summary](./XotBasePivot-Executive-Summary.md)** (2.000+ parole)
+=======
+6. **[Executive Summary](./xotbasepivot-executive-summary.md)** (2.000+ parole)
+>>>>>>> .merge_file_47PH6V
+>>>>>>> .merge_file_zTs7xn
    - ✅ TL;DR per management
    - ✅ Business case con ROI 58.500%
    - ✅ Risk assessment (basso)

@@ -30,9 +30,17 @@ issues: []
 discussions: []
 ## Cross-References
 
+<<<<<<< .merge_file_anqKEt
 - ← [GEMINI Index](INDEX.md) — All Gemini guidelines
 - ← [Main AI Docs Index](../INDEX.md) — Master index
 - ← [GEMINI Index](index.md) — All Gemini guidelines
 - ← [Main AI Docs Index](../index.md) — Master index
 - ← [../../../../laravel/GEMINI.md](../../../../laravel/../../../../laravel/GEMINI.md) — Original source
+=======
+- ← [GEMINI Index](index.md) — All Gemini guidelines
+- ← [Main AI Docs Index](../index.md) — Master index
+- ← [GEMINI Index](index.md) — All Gemini guidelines
+- ← [Main AI Docs Index](../index.md) — Master index
+- ← [../../../../laravel/gemini.md](../../../../laravel/../../../../laravel/gemini.md) — Original source
+>>>>>>> .merge_file_Ozn4qj
 

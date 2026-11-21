@@ -10,7 +10,7 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"
-  - "./agents.md"
+  - "./AGENTS.md"
   - "./ai-agent-lessons-learned.md"
   - "./ai-skills-and-plugins-complete.md"
   - "./commit-message.md"
@@ -330,7 +330,7 @@ docs/project/
 
 ```
 _bmad-output/
-├── DESIGN_COMUNI_INDEX.md            ← BMad index
+├── design_comuni_index.md            ← BMad index
 ├── design-comuni-prd.md              ← PRD
 ├── design-comuni-architecture.md     ← Architecture
 ├── design-comuni-ui-spec.md          ← UI Spec

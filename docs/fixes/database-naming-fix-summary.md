@@ -174,7 +174,7 @@ grep -A 5 "autoload" laravel/Modules/*/composer.json | grep -i "database"
 ### Immediate (Done)
 - ✅ Fix Blog module docs
 - ✅ Update AGENTS.md
-- ✅ Update agents.md
+- ✅ Update AGENTS.md
 - ✅ Create convention doc
 - ✅ Create GitHub Issue #5
 - ✅ Setup MCP for GitHub
@@ -196,11 +196,14 @@ grep -A 5 "autoload" laravel/Modules/*/composer.json | grep -i "database"
 ## 📚 Related Documentation
 
 - [Database Naming Convention](../conventions/database-naming.md)
+<<<<<<< .merge_file_IuDf9E
+=======
 - [AGENTS.md](../../AGENTS.md)
-- [agents.md](../../agents.md)
+>>>>>>> .merge_file_1xZHCM
+- [AGENTS.md](../../AGENTS.md)
 - [Database Naming Convention](../conventions/database-naming.md)
-- [AGENTS.md](../AGENTS.md)
-- [agents.md](../agents.md)
+- [AGENTS.md](../agents.md)
+- [AGENTS.md](../agents.md)
 - [GitHub Issues & Discussions](github/README.md)
 - [MCP Configuration](mcp/README.md)
 - [Laravel Directory Structure](https://laravel.com/docs/structure)

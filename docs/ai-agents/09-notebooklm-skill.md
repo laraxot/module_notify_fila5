@@ -1,10 +1,10 @@
 ---
-title: "09 notebooklm skill"
+title: "09 Notebooklm Skill"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "09 notebooklm skill"
+qmd: "09 Notebooklm Skill"
 issues: []
 discussions: []
 ---
@@ -18,12 +18,20 @@ discussions: []
 
 ---
 
+<<<<<<< .merge_file_e771MN
 title: "09 notebooklm skill"
+=======
+title: "09 NOTEBOOKLM SKILL"
+>>>>>>> .merge_file_Igf5g4
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_e771MN
 qmd: "09 notebooklm skill"
+=======
+qmd: "09 NOTEBOOKLM SKILL"
+>>>>>>> .merge_file_Igf5g4
 issues: []
 discussions: []
 ## Cosa fa

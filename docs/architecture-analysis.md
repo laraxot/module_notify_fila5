@@ -1643,7 +1643,7 @@ Tasks:
 ### Current Documentation
 ```
 ✅ Exists:
-- claude.md (AI assistant instructions)
+- CLAUDE.md (AI assistant instructions)
 - project-roadmap.md (high-level vision)
 - README.md (basic setup)
 - This document (architecture-analysis.md)
@@ -1675,7 +1675,7 @@ Tasks:
    - Configuration guide
    - Troubleshooting
 
-4. contributing.md
+4. CONTRIBUTING.md
    - Development setup
    - Coding standards
    - Testing requirements

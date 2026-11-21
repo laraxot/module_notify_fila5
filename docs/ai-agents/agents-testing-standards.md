@@ -100,5 +100,9 @@ Prima di ogni commit:
 - [testing.md](./testing.md) - Più dettagliato
 - [pest-testing.md](./pest-testing.md) - Guida Pest
 - [AGENTS.md originale](../../AGENTS.md)
+<<<<<<< .merge_file_2NuYLL
 - [agents.md originale](../../agents.md)
+=======
+- [AGENTS.md originale](../../AGENTS.md)
+>>>>>>> .merge_file_iuKX32
 - [Index principale](./index.md)

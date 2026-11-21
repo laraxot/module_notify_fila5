@@ -154,5 +154,9 @@ git rm path/to/submodule
 - [module-dependencies.md](./module-dependencies.md) - Più dettagliato
 - [git-submodules.md](./git-submodules.md) - Dettagli git
 - [AGENTS.md originale](../../AGENTS.md)
+<<<<<<< .merge_file_fUZfQ8
 - [agents.md originale](../../agents.md)
+=======
+- [AGENTS.md originale](../../AGENTS.md)
+>>>>>>> .merge_file_Wzba6Q
 - [Index principale](./index.md)

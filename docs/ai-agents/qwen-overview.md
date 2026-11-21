@@ -83,5 +83,9 @@ Never: git revert (only forward!)
 ## 🔗 Link
 
 - [Indice QWEN](./qwen-split-index.md)
+<<<<<<< .merge_file_5nLXU0
 - [QWEN.md originale](../../QWEN.md)
+=======
+- [qwen.md originale](../../qwen.md)
+>>>>>>> .merge_file_HlxofN
 - [Index principale](./index.md)

@@ -217,7 +217,11 @@ protected function rollback(): void
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_Zg1b3u
 - [Documentazione Migrazioni](./MIGRATION_RULES.md)
+=======
+- [Documentazione Migrazioni](./migration_rules.md)
+>>>>>>> .merge_file_7FhQwG
 - [Gestione Errori](./ERROR_HANDLING.md)
 - [Best Practices Database](./DATABASE_BEST_PRACTICES.md)
 

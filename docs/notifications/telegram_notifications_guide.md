@@ -312,7 +312,11 @@ class TelegramNotificationTest extends TestCase
 
 - [MULTI_CHANNEL_NOTIFICATIONS.md](multi_channel_notifications.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](notifications_implementation_guide.md)
+<<<<<<< .merge_file_ADWx4P
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
+=======
+- [SMS_PROVIDER_CONFIGURATION.md](./sms_provider_configuration.md)
+>>>>>>> .merge_file_IbXdWN
 - [MULTI_CHANNEL_NOTIFICATIONS.md](./multi_channel_notifications.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications_implementation_guide.md)
 - [SMS_PROVIDER_CONFIGURATION.md](./sms_provider_configuration.md)

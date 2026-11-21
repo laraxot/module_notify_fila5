@@ -35,7 +35,15 @@ Create GitHub Action to sync git subtrees automatically on push to `dev` branch.
 
 1. ✅ Created workflow file: `.github/workflows/sync-subtrees.yml`
 2. ✅ Created documentation: 3 files
+<<<<<<< .merge_file_6YqsnR
 3. ✅ Updated agents.md
+=======
+<<<<<<< .merge_file_CwALiW
+3. ✅ Updated agents.md
+=======
+3. ✅ Updated AGENTS.md
+>>>>>>> .merge_file_F9V7yq
+>>>>>>> .merge_file_TSnJhZ
 4. ✅ Committed and pushed to dev
 5. ❌ **Did NOT verify on GitHub**
 6. ❌ **Marked task as complete without testing**
@@ -204,7 +212,15 @@ Documentation should reflect **reality**, not what we wish was true.
 |------|-------|--------|
 | 11:25 | Created workflow | ✅ Done |
 | 11:27 | Created docs | ✅ Done |
+<<<<<<< .merge_file_6YqsnR
 | 11:28 | Updated agents.md | ✅ Done |
+=======
+<<<<<<< .merge_file_CwALiW
+| 11:28 | Updated agents.md | ✅ Done |
+=======
+| 11:28 | Updated AGENTS.md | ✅ Done |
+>>>>>>> .merge_file_F9V7yq
+>>>>>>> .merge_file_TSnJhZ
 | 11:29 | Pushed to dev | ✅ Done |
 | 11:30 | Said "task complete" | ❌ WRONG |
 | 11:35 | User asked to test | ✅ Right |

@@ -1,10 +1,10 @@
 ---
-title: "summary"
+title: "Summary"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "summary"
+qmd: "Summary"
 issues: []
 discussions: []
 ---
@@ -52,12 +52,20 @@ php artisan tinker --execute="
 
 ---
 
+<<<<<<< .merge_file_mhDCaf
 title: "summary"
+=======
+title: "SUMMARY"
+>>>>>>> .merge_file_pUNkKv
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_mhDCaf
 qmd: "summary"
+=======
+qmd: "SUMMARY"
+>>>>>>> .merge_file_pUNkKv
 issues: []
 discussions: []
 ## Prossimi Bug da Analizzare

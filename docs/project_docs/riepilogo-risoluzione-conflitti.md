@@ -11,7 +11,11 @@ status: deprecated
 related:
   - "./excellence-achievement.md"
   - "./agid-implementation-guide.md"
+<<<<<<< .merge_file_R1zD8b
   - "./ARCHITECTURE.md"
+=======
+  - "./architecture.md"
+>>>>>>> .merge_file_dL39Af
   - "./complete-refactoring-analysis.md"
   - "./documentation-status.md"
   - "./final-implementation-report-.md"

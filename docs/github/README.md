@@ -13,9 +13,9 @@ discussions:
 related:
   - ../README.md
   - ../wiki/index.md
-  - ../notifications/readme.md
-  - ../integrations/readme.md
-  - ../templates/readme.md
+  - ../notifications/README.md
+  - ../integrations/README.md
+  - ../templates/README.md
 status: draft
 ---
 # GitHub Issues & Discussions - FixCity Platform
@@ -77,11 +77,14 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 
 #### References
 - [Database Naming Convention](../conventions/database-naming.md)
+<<<<<<< .merge_file_WvnLZg
+=======
 - [AGENTS.md](../../AGENTS.md)
-- [agents.md](../../agents.md)
+>>>>>>> .merge_file_YiMeRC
+- [AGENTS.md](../../AGENTS.md)
 - [Database Naming Convention](../conventions/database-naming.md)
-- [AGENTS.md](../AGENTS.md)
-- [agents.md](../agents.md)
+- [AGENTS.md](../agents.md)
+- [AGENTS.md](../agents.md)
 
 ---
 

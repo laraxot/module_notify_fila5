@@ -13,9 +13,15 @@ discussions:
 related:
   - ../../../README.md
   - ../../../wiki/index.md
+<<<<<<< .merge_file_Z2PC3S
   - ../../../notifications/readme.md
   - ../../../integrations/readme.md
   - ../../../templates/readme.md
+=======
+  - ../../../notifications/README.md
+  - ../../../integrations/README.md
+  - ../../../templates/README.md
+>>>>>>> .merge_file_VwldJM
 ---
 # Theme Sixteen Analysis Index
 

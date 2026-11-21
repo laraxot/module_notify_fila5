@@ -180,6 +180,10 @@ composer test -- Modules/[ModuleName]
 
 ---
 
+<<<<<<< .merge_file_wrbVaE
 Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
+=======
+Navigation: [Project Home](../../docs/index.md) | [Modules](../../docs/modules/README.md)
+>>>>>>> .merge_file_qGTANf
 Navigation: [Project Home](../../docs/index.md) | [Modules](../../docs/modules/README.md)
 

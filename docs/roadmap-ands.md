@@ -260,7 +260,11 @@ class TicketDigest extends Notification implements ShouldQueue
 
 ## 🔗 Collegamenti
 
+<<<<<<< .merge_file_cd5kRx
 - [← Notify Module README](../readme.md)
+=======
+- [← Notify Module README](../README.md)
+>>>>>>> .merge_file_JJqPnd
 - [← Fixcity Integration](../../fixcity/docs/roadmap-and-issues.md)
 - [← Fixcity Integration](../../ptv/docs/roadmap-and-issues.md)
 - [← Root Documentation](../../../../docs/index.md)

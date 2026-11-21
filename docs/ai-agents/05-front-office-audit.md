@@ -1,27 +1,40 @@
 ---
-title: "05 front office audit"
+title: "05 Front Office Audit"
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
-qmd: "05 front office audit"
+qmd: "05 Front Office Audit"
 issues: []
 discussions: []
 ---
 
 # 📋 Front Office Pages Audit Checklist
 
+<<<<<<< .merge_file_hR6NCu
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
 **Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 
 ---
 
 title: "05 front office audit"
+=======
+**Part of**: [00-index.md](00-index.md) — AI Agents Coordination  
+**Related**: [03-architecture-zen.md](03-architecture-zen.md) — Architecture
+
+---
+
+title: "05 FRONT OFFICE AUDIT"
+>>>>>>> .merge_file_m8wrEl
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_hR6NCu
 qmd: "05 front office audit"
+=======
+qmd: "05 FRONT OFFICE AUDIT"
+>>>>>>> .merge_file_m8wrEl
 issues: []
 discussions: []
 ## 🔍 Mandatory Checklist (Before Commit)
@@ -106,9 +119,9 @@ discussions: []
 
 ## 🔗 Related Documentation
 
-- **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
-- **Filament**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md)
-- **Cinematic**: [06-CINEMATIC-EFFECTS.md](06-CINEMATIC-EFFECTS.md)
+- **Architecture**: [03-architecture-zen.md](03-architecture-zen.md)
+- **Filament**: [04-filament-philosophy.md](04-filament-philosophy.md)
+- **Cinematic**: [06-cinematic-effects.md](06-cinematic-effects.md)
 - **Full Audit**: `docs/project/FRONT_OFFICE_PAGES_AUDIT.md`
 
 ---

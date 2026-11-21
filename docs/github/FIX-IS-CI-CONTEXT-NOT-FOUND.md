@@ -197,7 +197,15 @@ bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 | [DIRECTORY_STRUCTURE.md](bashscripts/docs/git/DIRECTORY_STRUCTURE.md) | Path corretti |
 | [TROUBLESHOOTING.md](bashscripts/docs/git/TROUBLESHOOTING.md) | Risoluzione errori |
 | [README.md](bashscripts/docs/git/README.md) | Index documentazione |
+<<<<<<< .merge_file_9XFcVG
 | [SYNC_REMOTE_REPO_COORDINATION.md](bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md) | Coordineamento agenti |
+=======
+<<<<<<< .merge_file_vu5fTz
+| [SYNC_REMOTE_REPO_COORDINATION.md](bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md) | Coordineamento agenti |
+=======
+| [sync_remote_repo_coordination.md](bashscripts/docs/git/sync_remote_repo_coordination.md) | Coordineamento agenti |
+>>>>>>> .merge_file_OYKYHJ
+>>>>>>> .merge_file_Dx26wm
 
 ### Se gli Errori Persistono
 
@@ -243,7 +251,15 @@ Creare documenti per:
 
 ### Prima di Lavorare su Questo Script
 
+<<<<<<< .merge_file_9XFcVG
 1. ✅ Leggi `SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+<<<<<<< .merge_file_vu5fTz
+1. ✅ Leggi `SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+1. ✅ Leggi `sync_remote_repo_coordination.md`
+>>>>>>> .merge_file_OYKYHJ
+>>>>>>> .merge_file_Dx26wm
 2. ✅ Verifica path corretto: `bashscripts/git/subtrees/`
 3. ✅ Controlla che `bashscripts/subtrees/` sia eliminato
 4. ✅ Testa con `bash -n script.sh`

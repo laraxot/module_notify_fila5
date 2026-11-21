@@ -126,10 +126,17 @@ $mailTemplate->send($user->email, [
 
 ## Riferimenti
 
+<<<<<<< .merge_file_oAQenP
 - [Guida Layout Email](../MAIL_LAYOUTS_GUIDE.md)
 - [Integrazione MailPace](mailpace_templates_integration.md)
 - [HTML Email Compatibility](html_email_compatibility.md)
 - [Spatie Email Usage Guide](../SPATIE_EMAIL_USAGE_GUIDE.md)
+=======
+- [Guida Layout Email](../mail_layouts_guide.md)
+- [Integrazione MailPace](mailpace_templates_integration.md)
+- [HTML Email Compatibility](html_email_compatibility.md)
+- [Spatie Email Usage Guide](../spatie_email_usage_guide.md)
+>>>>>>> .merge_file_snJ1OG
 - [Guida Layout Email](../mail_layouts_guide.md)
 - [Integrazione MailPace](./mailpace_templates_integration.md)
 - [HTML Email Compatibility](./html_email_compatibility.md)

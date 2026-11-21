@@ -13,9 +13,15 @@ discussions:
 related:
   - README.md
   - wiki/index.md
+<<<<<<< .merge_file_8VhYFX
   - notifications/readme.md
   - integrations/readme.md
   - templates/readme.md
+=======
+  - notifications/README.md
+  - integrations/README.md
+  - templates/README.md
+>>>>>>> .merge_file_Dw52ec
 ---
 # Notify Module Documentation
 
@@ -65,11 +71,19 @@ This document serves as the central index for the Notify module, providing guida
 - Update this index if new features or significant changes are introduced to the Notify module.
 
 ## Links to Related Documentation
+<<<<<<< .merge_file_8VhYFX
 - [Architecture Overview](./ARCHITECTURE.md)
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+=======
+- [Architecture Overview](./architecture.md)
+- [Notification Channels Implementation](./notification_channels_implementation.md)
+- [Email Templates](./email_templates.md)
+- [SMS Implementation](./sms_implementation.md)
+- [Troubleshooting](./troubleshooting.md)
+>>>>>>> .merge_file_Dw52ec
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -105,7 +119,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Architettura e Struttura
 - [README](./README.md) - Panoramica generale del modulo
-- [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
+- [Architettura](./architecture.md) - Architettura generale del modulo
 - [Struttura](./structure.md) - Struttura delle directory e dei componenti
 - [Modelli](./models.md) - Documentazione dei modelli Eloquent
 - [Eventi](./events.md) - Eventi e listeners
@@ -118,10 +132,17 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Template Responsivi](./RESPONSIVE_EMAIL_TEMPLATES.md) - Implementazione di template email responsivi
 
 ### Canali di Notifica
+<<<<<<< .merge_file_8VhYFX
 - [Implementazione Canali](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md) - Implementazione dei canali di notifica
 - [SMS](./SMS_IMPLEMENTATION.md) - Implementazione del canale SMS
 - [WhatsApp](./WHATSAPP_CHANNEL.md) - Implementazione del canale WhatsApp
 - [Telegram](./TELEGRAM_CHANNEL.md) - Implementazione del canale Telegram
+=======
+- [Implementazione Canali](./notification_channels_implementation.md) - Implementazione dei canali di notifica
+- [SMS](./sms_implementation.md) - Implementazione del canale SMS
+- [WhatsApp](./whatsapp_channel.md) - Implementazione del canale WhatsApp
+- [Telegram](./telegram_channel.md) - Implementazione del canale Telegram
+>>>>>>> .merge_file_Dw52ec
 
 ### Filament UI
 - [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
@@ -145,7 +166,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Testing e Qualità
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
+<<<<<<< .merge_file_8VhYFX
 - [Testing](./TESTING.md) - Strategie e approcci per il testing
+=======
+- [Testing](./testing.md) - Strategie e approcci per il testing
+>>>>>>> .merge_file_Dw52ec
 
 ## Linee Guida per l'Implementazione
 
@@ -198,6 +223,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
 
 ### Notifications
+<<<<<<< .merge_file_8VhYFX
 - [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
 
 ## Collegamenti alla Documentazione Correlata
@@ -206,6 +232,16 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - [Template Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+=======
+- [Index](./notifications/index.md) - Indice della documentazione sulle notifiche
+
+## Collegamenti alla Documentazione Correlata
+- [Panoramica Architettura](./architecture.md)
+- [Implementazione Canali Notifica](./notification_channels_implementation.md)
+- [Template Email](./email_templates.md)
+- [Implementazione SMS](./sms_implementation.md)
+- [Troubleshooting](./troubleshooting.md)
+>>>>>>> .merge_file_Dw52ec
 
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.

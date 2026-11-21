@@ -1,5 +1,5 @@
 ---
-title: "Gemini AI Guidelines (../../../../laravel/GEMINI.md) Index"
+title: "Gemini AI Guidelines (../../../../laravel/gemini.md) Index"
 type: index
 tags: [notify, docs, ai-agents, split, gemini]
 module: Notify
@@ -13,13 +13,23 @@ discussions:
 related:
   - ../../../README.md
   - ../../../wiki/index.md
+<<<<<<< .merge_file_5fTwnf
   - ../../../notifications/readme.md
   - ../../../integrations/readme.md
   - ../../../templates/readme.md
+=======
+  - ../../../notifications/README.md
+  - ../../../integrations/README.md
+  - ../../../templates/README.md
+>>>>>>> .merge_file_o8G7i2
 ---
-# Gemini AI Guidelines (../../../../laravel/GEMINI.md) Index
+# Gemini AI Guidelines (../../../../laravel/gemini.md) Index
 
+<<<<<<< .merge_file_5fTwnf
 **Source**: [`laravel/../../../../laravel/GEMINI.md`](../../../../../../laravel/../../../../laravel/GEMINI.md) (581 lines)  
+=======
+**Source**: [`laravel/../../../../laravel/gemini.md`](../../../../../../laravel/../../../../laravel/gemini.md) (581 lines)  
+>>>>>>> .merge_file_o8G7i2
 **Split Into**: 13 focused files  
 **Last Updated**: 2026-04-11  
 
@@ -80,14 +90,18 @@ related:
 
 ### Bidirectional Links
 - ← Back to [Main AI Docs Index](../index.md)
-- ← Back to [../../../../laravel/GEMINI.md](../../../../../../laravel/../../../../laravel/GEMINI.md) (original source)
+- ← Back to [../../../../laravel/gemini.md](../../../../../../laravel/../../../../laravel/gemini.md) (original source)
 - ← Back to [Project Docs](../../../docs/README.md)
 
 ---
 
 ## Usage
 
+<<<<<<< .merge_file_5fTwnf
 These guidelines are loaded by Gemini AI for Laravel development context. For manual reference, see the original [`laravel/../../../../laravel/GEMINI.md`](../../../../../../laravel/../../../../laravel/GEMINI.md).
+=======
+These guidelines are loaded by Gemini AI for Laravel development context. For manual reference, see the original [`laravel/../../../../laravel/gemini.md`](../../../../../../laravel/../../../../laravel/gemini.md).
+>>>>>>> .merge_file_o8G7i2
 
 ---
 

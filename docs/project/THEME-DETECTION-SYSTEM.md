@@ -409,7 +409,15 @@ new class extends Component {
 ### Internal Documents
 
 - → [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md) - Layout hierarchy
+<<<<<<< .merge_file_kf9Igv
 - → [Page Component Architecture](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md) - Page component
+=======
+<<<<<<< .merge_file_MOCFdZ
+- → [Page Component Architecture](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md) - Page component
+=======
+- → [Page Component Architecture](Modules/Cms/docs/page_component_architecture.md) - Page component
+>>>>>>> .merge_file_P4AnBi
+>>>>>>> .merge_file_DH7ogJ
 - → [Vite Build System](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build process
 - → [Master Index](docs/MODULE_DOCS_INDEX.md) - Central navigation
 

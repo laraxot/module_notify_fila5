@@ -58,4 +58,8 @@ return view((string) $view);
 
 - [phpstan_critical_rules](../.cursor/rules/phpstan_critical_rules.md)
 - [AGENTS.md](../AGENTS.md)
+<<<<<<< .merge_file_LUCo2t
 - [agents.md](../agents.md)
+=======
+- [AGENTS.md](../AGENTS.md)
+>>>>>>> .merge_file_v0asC7

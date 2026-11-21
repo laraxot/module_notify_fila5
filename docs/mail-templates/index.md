@@ -13,19 +13,30 @@ discussions:
 related:
   - ../README.md
   - ../wiki/index.md
+<<<<<<< .merge_file_VdFN9p
   - ../notifications/readme.md
   - ../integrations/readme.md
   - ../templates/readme.md
+=======
+  - ../notifications/README.md
+  - ../integrations/README.md
+  - ../templates/README.md
+>>>>>>> .merge_file_tLH11q
 ---
 # Indice Documentazione Template Email
 
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../index.md)
-- [README Modulo Notify](../readme.md)
+- [README Modulo Notify](../README.md)
 - [Sistema Email](../database-mail-system.md)
 - [Template Email](../email_templates.md)
+<<<<<<< .merge_file_VdFN9p
 - [Documentazione Generale ](../../../../../../docs/readme.md)
 - [Documentazione Generale <nome progetto>](../../../../../../docs/readme.md)
+=======
+- [Documentazione Generale ](../../../../../../docs/README.md)
+- [Documentazione Generale <nome progetto>](../../../../../../docs/README.md)
+>>>>>>> .merge_file_tLH11q
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura

@@ -5,7 +5,7 @@ tags: [notify, docs, ai-agents, split, claude]
 module: Notify
 created: 2026-07-20
 updated: 2026-07-20
-qmd: "notify documentazione ai agents split claude index laravel boost guidelines (../../../../docs/claude.md) index index readme frontmatter qmd search"
+qmd: "notify documentazione ai agents split claude index laravel boost guidelines (../../../../docs/CLAUDE.md) index index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
 discussions:
@@ -13,9 +13,15 @@ discussions:
 related:
   - ../../../README.md
   - ../../../wiki/index.md
+<<<<<<< .merge_file_XgXYi6
   - ../../../notifications/readme.md
   - ../../../integrations/readme.md
   - ../../../templates/readme.md
+=======
+  - ../../../notifications/README.md
+  - ../../../integrations/README.md
+  - ../../../templates/README.md
+>>>>>>> .merge_file_GFVHpz
 ---
 # Laravel Boost Guidelines (../../../../docs/CLAUDE.md) Index
 

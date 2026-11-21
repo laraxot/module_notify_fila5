@@ -69,8 +69,18 @@ discussions: []
   
   // Documentazione per contesto AI
   "instructions": [
+<<<<<<< .merge_file_SK1qLj
     "agents.md",
     "laravel/agents.md"
+=======
+<<<<<<< .merge_file_eS9P2s
+    "agents.md",
+    "laravel/agents.md"
+=======
+    "AGENTS.md",
+    "laravel/AGENTS.md"
+>>>>>>> .merge_file_pC5kSP
+>>>>>>> .merge_file_tG2eTN
   ],
   
   // Tool abilitati
@@ -112,7 +122,15 @@ discussions: []
 | `autoupdate` | boolean | Auto-update | `true` |
 | `snapshot` | boolean | Snapshot | `true` |
 | `mcp` | object | MCP servers | `{}` |
+<<<<<<< .merge_file_SK1qLj
 | `instructions` | array | Docs contesto | `["agents.md", ...]` |
+=======
+<<<<<<< .merge_file_eS9P2s
+| `instructions` | array | Docs contesto | `["agents.md", ...]` |
+=======
+| `instructions` | array | Docs contesto | `["AGENTS.md", ...]` |
+>>>>>>> .merge_file_pC5kSP
+>>>>>>> .merge_file_tG2eTN
 | `tools` | object | Tool abilitati | `{write, edit, bash...}` |
 | `permission` | object | Permessi | `{bash: "ask", ...}` |
 | `experimental` | object | Feature sperimentali | `{}` |
@@ -196,7 +214,15 @@ Ctrl+Q         - Esci
 Kilo legge automaticamente:
 
 1. **AGENTS.md** - Contesto principale
+<<<<<<< .merge_file_SK1qLj
 2. **laravel/agents.md** - Contesto Laravel
+=======
+<<<<<<< .merge_file_eS9P2s
+2. **laravel/agents.md** - Contesto Laravel
+=======
+2. **laravel/AGENTS.md** - Contesto Laravel
+>>>>>>> .merge_file_pC5kSP
+>>>>>>> .merge_file_tG2eTN
 
 ### Per Aggiungere Altra Docs
 
@@ -205,8 +231,18 @@ Modifica `.kilo/kilo.jsonc`:
 ```jsonc
 {
   "instructions": [
+<<<<<<< .merge_file_SK1qLj
     "agents.md",
     "laravel/agents.md",
+=======
+<<<<<<< .merge_file_eS9P2s
+    "agents.md",
+    "laravel/agents.md",
+=======
+    "AGENTS.md",
+    "laravel/AGENTS.md",
+>>>>>>> .merge_file_pC5kSP
+>>>>>>> .merge_file_tG2eTN
     "docs/**/*.md",                    // Tutta la docs
     "laravel/Modules/docs/README.md",  // Index moduli
     "laravel/Themes/docs/README.md",   // Index temi

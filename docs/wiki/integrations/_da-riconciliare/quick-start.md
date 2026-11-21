@@ -560,7 +560,7 @@ documentazione del modulo specifico o chiedi supporto al team.*
 
 ---
 
-<!-- Merged from QUICK-START.md, which collided with this file on case-insensitive filesystems. -->
+<!-- Merged from quick-start.md, which collided with this file on case-insensitive filesystems. -->
 
 ---
 title: "Notify Module Quick Start"

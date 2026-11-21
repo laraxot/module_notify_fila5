@@ -215,7 +215,7 @@ openviking add-memory \
 - Creates detailed task breakdown
 - Defines verification criteria
 - Estimates effort
-- Output: `.planning/phases/001/PLAN.md`
+- Output: `.planning/phases/001/plan.md`
 
 **Store in OpenViking:**
 ```bash
@@ -233,7 +233,7 @@ openviking add-memory \
 cp _bmad/bmm/2-plan/prd.json .ralph/prd.json
 
 # Add GSD plan context
-cat .planning/phases/001/PLAN.md >> .ralph/context.md
+cat .planning/phases/001/plan.md >> .ralph/context.md
 
 # Review and adjust stories if needed
 jq '.stories' .ralph/prd.json
@@ -558,7 +558,7 @@ ls -la .planning/
 /gsd-help
 
 # Review AGENTS.md for GSD commands
-# Review agents.md for GSD commands
+# Review AGENTS.md for GSD commands
 ```
 
 ### Ralph Loop Issues
@@ -582,7 +582,11 @@ cat .ralph/iteration-log.md
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
 - [AGENTS.md](../AGENTS.md)
+<<<<<<< .merge_file_vj0r2t
 - [agents.md](../agents.md)
+=======
+- [AGENTS.md](../AGENTS.md)
+>>>>>>> .merge_file_fF6HQU
 
 ### Scripts
 - OpenViking Init: `bashscripts/ai/openviking-init.sh`

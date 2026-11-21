@@ -16,7 +16,11 @@ Documentation for `notify` module categorized as **product**.
 
 ## Files
 
+<<<<<<< .merge_file_CKcnjB
 - [`INDEX.md`](./index.md)
+=======
+- [`index.md`](./index.md)
+>>>>>>> .merge_file_1AC71h
 - [`composer-strategy.md`](./composer-strategy.md)
 - [`inbound-keting-strategy.md`](./inbound-keting-strategy.md)
 - [`inbound-marketing-strategy.md`](./inbound-marketing-strategy.md)

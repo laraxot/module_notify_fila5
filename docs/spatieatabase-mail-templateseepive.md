@@ -935,7 +935,11 @@ test('welcome email is sent', function () {
 - [SpatieEmail Class](../app/Emails/SpatieEmail.php)
 - [MailTemplate Model](../app/Models/MailTemplate.php)
 - [MailTemplateResource](../app/Filament/Resources/MailTemplateResource.php)
+<<<<<<< .merge_file_8530VZ
 - [Mail Layouts README](../resources/mail-layouts/readme.md)
+=======
+- [Mail Layouts README](../resources/mail-layouts/README.md)
+>>>>>>> .merge_file_NGoMVj
 - [Spatie Translatable Integration](./spatie-translatable-integration.md)
 
 ---

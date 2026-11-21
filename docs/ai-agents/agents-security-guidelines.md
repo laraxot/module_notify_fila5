@@ -62,5 +62,9 @@ discussions: []
 - [Indice AGENTS](./agents-split-index.md)
 - [laravel-security-audit skill available](../../.opencode/skills/laravel-security-audit/SKILL.md)
 - [AGENTS.md originale](../../AGENTS.md)
+<<<<<<< .merge_file_eh5G7t
 - [agents.md originale](../../agents.md)
+=======
+- [AGENTS.md originale](../../AGENTS.md)
+>>>>>>> .merge_file_nbh2Y9
 - [Index principale](./index.md)

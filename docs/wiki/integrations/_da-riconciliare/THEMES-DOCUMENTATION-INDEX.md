@@ -458,8 +458,18 @@ public_html/assets/
 
 ## See Also
 
+<<<<<<< .merge_file_XNEn2U
 - **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
 - **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
+=======
+<<<<<<< .merge_file_AqyXse
+- **Architecture Diagrams:** [ARCHITECTURE-DIAGRAMS.md](ARCHITECTURE-DIAGRAMS.md)
+- **Module Docs Index:** [MODULE_DOCS_INDEX.md](MODULE_DOCS_INDEX.md)
+=======
+- **Architecture Diagrams:** [architecture-diagrams.md](architecture-diagrams.md)
+- **Module Docs Index:** [MODULE_DOCS_INDEX.md](module_docs_index.md)
+>>>>>>> .merge_file_XsRdD8
+>>>>>>> .merge_file_CpMEQN
 - **Master Index:** [00-index.md](../laravel/Themes/Sixteen/docs/00-index.md)
 - **Code Quality:** [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
 - **Framework Rules:** [../laravel/CLAUDE.md](../laravel/CLAUDE.md)

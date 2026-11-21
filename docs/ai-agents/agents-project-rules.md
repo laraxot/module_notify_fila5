@@ -128,5 +128,9 @@ done
 - [Indice AGENTS](./agents-split-index.md)
 - [regole-critiche.md](./regole-critiche.md) - Regole critiche
 - [AGENTS.md originale](../../AGENTS.md)
+<<<<<<< .merge_file_LfuDWE
 - [agents.md originale](../../agents.md)
+=======
+- [AGENTS.md originale](../../AGENTS.md)
+>>>>>>> .merge_file_F5CImm
 - [Index principale](./index.md)

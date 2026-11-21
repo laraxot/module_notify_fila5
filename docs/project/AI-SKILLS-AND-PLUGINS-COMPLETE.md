@@ -61,7 +61,15 @@ ls -la ~/.claude/skills/notebooklm/
 "Set up NotebookLM authentication"
 
 # 2. Crea notebook su notebooklm.google.com
+<<<<<<< .merge_file_KxHHRo
 #    - Upload: agents.md, docs/**/*.md, .planning/**/*.md
+=======
+<<<<<<< .merge_file_4zFpmQ
+#    - Upload: agents.md, docs/**/*.md, .planning/**/*.md
+=======
+#    - Upload: AGENTS.md, docs/**/*.md, .planning/**/*.md
+>>>>>>> .merge_file_78N5Vo
+>>>>>>> .merge_file_bXo13F
 #    - Share → Copy link
 
 # 3. Aggiungi a library
@@ -357,7 +365,15 @@ claude
 
 # 3. Create notebook
 #    - Go to notebooklm.google.com
+<<<<<<< .merge_file_KxHHRo
 #    - Upload: agents.md, docs/, .planning/
+=======
+<<<<<<< .merge_file_4zFpmQ
+#    - Upload: agents.md, docs/, .planning/
+=======
+#    - Upload: AGENTS.md, docs/, .planning/
+>>>>>>> .merge_file_78N5Vo
+>>>>>>> .merge_file_bXo13F
 #    - Share → Copy link
 
 # 4. Add to library

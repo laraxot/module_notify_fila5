@@ -143,5 +143,9 @@ Alcune eccezioni sono pragmaticamente accettabili:
 
 - [Indice GEMINI](./gemini-split-index.md)
 - [queueable-actions.md](./queueable-actions.md)
+<<<<<<< .merge_file_0HjqK5
 - [GEMINI.md originale](../../GEMINI.md)
+=======
+- [gemini.md originale](../../gemini.md)
+>>>>>>> .merge_file_1LtKiu
 - [Index principale](./index.md)

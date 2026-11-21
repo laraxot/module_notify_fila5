@@ -1639,7 +1639,7 @@ Tasks:
 
 ### Recommended New Documentation
 ```
-1. ARCHITECTURE.md
+1. architecture.md
 1. architecture.md
    - System architecture diagrams
    - Module dependency graph

@@ -49,7 +49,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 2. ✅ **documentation-index.md** - Indice navigabile completo (400+ pagine referenziate)
 3. ✅ **quick-start.md** - Guida rapida sviluppatori con regole Laraxot
 4. ✅ **project-completion-status.md** - Tracking avanzamento progetto
-5. ✅ **excellence-2025.md** - Visione eccellenza e obiettivi
+5. ✅ **excellence-year-note-snake.md** - Visione eccellenza e obiettivi
 6. ✅ **WORK-COMPLETED-.md.md** - Riepilogo tecnico aggiornamenti
 
 ### 🎫 Modulo Fixcity (4)
@@ -136,7 +136,7 @@ base_ptv_fila5/
 │   ├── documentation-index.md          ✅ Indice generale
 │   ├── quick-start.md                  ✅ Guida rapida
 │   ├── roadmap-status-summary.md       ✅ Status master
-│   ├── excellence-2025.md              ✅ Visione eccellenza
+│   ├── excellence-year-note-snake.md              ✅ Visione eccellenza
 │   ├── project-completion-status.md    ✅ Tracking progetto
 │   ├── final-summary.md                ✅ Questo file
 │   └── WORK-COMPLETED-.md.md    ✅ Riepilogo tecnico
@@ -340,7 +340,7 @@ Il progetto FixCity ha raggiunto un livello di documentazione e organizzazione e
 - [x] documentation-status.md creato
 - [x] documentation-index.md creato
 - [x] quick-start.md creato
-- [x] excellence-2025.md creato
+- [x] excellence-year-note-snake.md creato
 - [x] project-completion-status.md creato
 
 ### Modulo Fixcity

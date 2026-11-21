@@ -32,7 +32,15 @@ discussions: []
 | File | Purpose | Lines |
 |------|---------|-------|
 | `sync-remote-repo-guide.md` | Comprehensive guide for CLI + CI usage | ~450 |
+<<<<<<< .merge_file_sHOels
 | `SYNC_REMOTE_REPO_COORDINATION.md` | Multi-agent coordination log | ~300 |
+=======
+<<<<<<< .merge_file_DfOXTE
+| `SYNC_REMOTE_REPO_COORDINATION.md` | Multi-agent coordination log | ~300 |
+=======
+| `sync_remote_repo_coordination.md` | Multi-agent coordination log | ~300 |
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9
 | `GITHUB_WIKI_SYNC.md` | GitHub Wiki synchronization guide | ~200 |
 | `README.md` | Index for git docs folder | ~350 |
 
@@ -77,7 +85,15 @@ bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 
 ### 2. Multi-Agent Coordination
 
+<<<<<<< .merge_file_sHOels
 **Coordination Log** (`SYNC_REMOTE_REPO_COORDINATION.md`):
+=======
+<<<<<<< .merge_file_DfOXTE
+**Coordination Log** (`SYNC_REMOTE_REPO_COORDINATION.md`):
+=======
+**Coordination Log** (`sync_remote_repo_coordination.md`):
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9
 - Entry template for agent work tracking
 - Lock file protocol for exclusive work
 - Agent teams structure
@@ -119,7 +135,15 @@ bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 bashscripts/docs/git/
 ├── README.md                          # Index for git docs
 ├── sync-remote-repo-guide.md          # Comprehensive guide
+<<<<<<< .merge_file_sHOels
 ├── SYNC_REMOTE_REPO_COORDINATION.md   # Coordination log
+=======
+<<<<<<< .merge_file_DfOXTE
+├── SYNC_REMOTE_REPO_COORDINATION.md   # Coordination log
+=======
+├── sync_remote_repo_coordination.md   # Coordination log
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9
 ├── GITHUB_WIKI_SYNC.md                # Wiki sync guide
 └── subtrees/                          # Subtree scripts folder
 
@@ -142,7 +166,15 @@ All documents are cross-referenced:
 - Coordination Log → Guide
 - Issue Template → Guide + Coordination Log
 - Discussion Template → Coordination Log
+<<<<<<< .merge_file_sHOels
 - agents.md → All docs
+=======
+<<<<<<< .merge_file_DfOXTE
+- agents.md → All docs
+=======
+- AGENTS.md → All docs
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9
 
 ### External Links
 
@@ -190,11 +222,25 @@ All documents are cross-referenced:
 **Status**: ✅ Completed  
 **Changes**:
 - Created sync-remote-repo-guide.md (comprehensive guide)
+<<<<<<< .merge_file_sHOels
+=======
+<<<<<<< .merge_file_DfOXTE
+>>>>>>> .merge_file_Kf2Ft9
 - Created SYNC_REMOTE_REPO_COORDINATION.md (coordination log)
 - Created GITHUB_WIKI_SYNC.md (wiki sync guide)
 - Created README.md (docs index)
 - Created GitHub Issue/Discussion templates
 - Updated agents.md with coordination guidelines
+<<<<<<< .merge_file_sHOels
+=======
+=======
+- Created sync_remote_repo_coordination.md (coordination log)
+- Created GITHUB_WIKI_SYNC.md (wiki sync guide)
+- Created README.md (docs index)
+- Created GitHub Issue/Discussion templates
+- Updated AGENTS.md with coordination guidelines
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9
 
 **Testing**:
 - ✅ CLI mode verified
@@ -250,7 +296,15 @@ All documents are cross-referenced:
 
 **To Join**: Add your agent ID to coordination log  
 **Teams**: Choose from Script Core, CI/CD, Documentation, Testing  
+<<<<<<< .merge_file_sHOels
 **Process**: Follow coordination guidelines in SYNC_REMOTE_REPO_COORDINATION.md
+=======
+<<<<<<< .merge_file_DfOXTE
+**Process**: Follow coordination guidelines in SYNC_REMOTE_REPO_COORDINATION.md
+=======
+**Process**: Follow coordination guidelines in sync_remote_repo_coordination.md
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9
 
 ---
 
@@ -259,7 +313,15 @@ All documents are cross-referenced:
 When reviewing this work:
 
 - [ ] Read sync-remote-repo-guide.md
+<<<<<<< .merge_file_sHOels
 - [ ] Read SYNC_REMOTE_REPO_COORDINATION.md
+=======
+<<<<<<< .merge_file_DfOXTE
+- [ ] Read SYNC_REMOTE_REPO_COORDINATION.md
+=======
+- [ ] Read sync_remote_repo_coordination.md
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9
 - [ ] Test CLI mode locally
 - [ ] Test CI mode (trigger workflow)
 - [ ] Add your agent ID to coordination log
@@ -295,7 +357,15 @@ When reviewing this work:
 ## 🔗 Quick Links
 
 - **Main Guide**: `bashscripts/docs/git/sync-remote-repo-guide.md`
+<<<<<<< .merge_file_sHOels
 - **Coordination Log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+<<<<<<< .merge_file_DfOXTE
+- **Coordination Log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+=======
+- **Coordination Log**: `bashscripts/docs/git/sync_remote_repo_coordination.md`
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9
 - **Docs Index**: `bashscripts/docs/git/README.md`
 - **Wiki Sync**: `bashscripts/docs/git/GITHUB_WIKI_SYNC.md`
 - **Issue Template**: `.github/ISSUE_TEMPLATE/sync-remote-repo.md`
@@ -320,4 +390,12 @@ This documentation is successful if:
 **Date**: 2026-03-13  
 **Status**: ✅ Complete  
 **Next Review**: As needed by agent teams  
+<<<<<<< .merge_file_sHOels
 **Coordination**: See SYNC_REMOTE_REPO_COORDINATION.md
+=======
+<<<<<<< .merge_file_DfOXTE
+**Coordination**: See SYNC_REMOTE_REPO_COORDINATION.md
+=======
+**Coordination**: See sync_remote_repo_coordination.md
+>>>>>>> .merge_file_T9BImy
+>>>>>>> .merge_file_Kf2Ft9

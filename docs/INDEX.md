@@ -46,11 +46,19 @@ This document serves as the central index for the Notify module, providing guida
 - Update this index if new features or significant changes are introduced to the Notify module.
 
 ## Links to Related Documentation
+<<<<<<< .merge_file_assxp3
 - [Architecture Overview](./ARCHITECTURE.md)
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+=======
+- [Architecture Overview](./architecture.md)
+- [Notification Channels Implementation](./notification_channels_implementation.md)
+- [Email Templates](./email_templates.md)
+- [SMS Implementation](./sms_implementation.md)
+- [Troubleshooting](./troubleshooting.md)
+>>>>>>> .merge_file_nzmbnf
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -86,9 +94,15 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Architettura e Struttura
 - [README](./README.md) - Panoramica generale del modulo
+<<<<<<< .merge_file_assxp3
 - [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
 - [README](./README.md) - Panoramica generale del modulo
 - [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
+=======
+- [Architettura](./architecture.md) - Architettura generale del modulo
+- [README](./README.md) - Panoramica generale del modulo
+- [Architettura](./architecture.md) - Architettura generale del modulo
+>>>>>>> .merge_file_nzmbnf
 - [Struttura](./structure.md) - Struttura delle directory e dei componenti
 - [Modelli](./models.md) - Documentazione dei modelli Eloquent
 - [Eventi](./events.md) - Eventi e listeners
@@ -96,6 +110,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Sistema Email
 - [Sistema Email Database](./database-mail-system.md) - Sistema di gestione delle email basato su database
 - [Code Email](./database_mail_queue.md) - Sistema di code per l'invio di email
+<<<<<<< .merge_file_assxp3
 - [Template Email](./EMAIL_TEMPLATES.md) - Struttura e utilizzo dei template email
 - [Best Practices Email](./EMAIL_BEST_PRACTICES.md) - Linee guida per le email
 - [Template Responsivi](./RESPONSIVE_EMAIL_TEMPLATES.md) - Implementazione di template email responsivi
@@ -105,10 +120,22 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [SMS](./SMS_IMPLEMENTATION.md) - Implementazione del canale SMS
 - [WhatsApp](./WHATSAPP_CHANNEL.md) - Implementazione del canale WhatsApp
 - [Telegram](./TELEGRAM_CHANNEL.md) - Implementazione del canale Telegram
+=======
+- [Template Email](./email_templates.md) - Struttura e utilizzo dei template email
+- [Best Practices Email](./email_best_practices.md) - Linee guida per le email
+- [Template Responsivi](./responsive_email_templates.md) - Implementazione di template email responsivi
+
+### Canali di Notifica
+- [Implementazione Canali](./notification_channels_implementation.md) - Implementazione dei canali di notifica
+- [SMS](./sms_implementation.md) - Implementazione del canale SMS
+- [WhatsApp](./whatsapp_channel.md) - Implementazione del canale WhatsApp
+- [Telegram](./telegram_channel.md) - Implementazione del canale Telegram
+>>>>>>> .merge_file_nzmbnf
 
 ### Filament UI
 - [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
 - [Pagine Filament](./filament-pages.md) - Componenti Filament Pages
+<<<<<<< .merge_file_assxp3
 - [Convenzioni Filament](./FILAMENT_EXTENSION_PATTERN.md) - Pattern di estensione per Filament
 
 ### Configurazione
@@ -129,6 +156,28 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Testing e Qualità
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
 - [Testing](./TESTING.md) - Strategie e approcci per il testing
+=======
+- [Convenzioni Filament](./filament_extension_pattern.md) - Pattern di estensione per Filament
+
+### Configurazione
+- [Struttura Config](./config_structure.md) - Struttura dei file di configurazione
+- [Configurazione SMS](./sms_config_structure.md) - Struttura della configurazione SMS
+- [Principi di Configurazione](./configurations_usage_principles.md) - Principi per l'utilizzo delle configurazioni
+
+### Pattern e Architettura
+- [Pattern Factory](./factory_pattern_analysis.md) - Analisi del pattern Factory
+- [Risoluzione Dinamica delle Classi](./dynamic_class_resolution.md) - Pattern di risoluzione dinamica delle classi
+- [Queueable Actions](./queueable-action.md) - Utilizzo di Spatie Queueable Actions
+
+### Standard e Traduzioni
+- [Convenzioni di Naming](./naming_conventions.md) - Standard per i nomi di file e classi
+- [Traduzioni](./translations.md) - Sistema di traduzioni
+- [Standard Traduzioni](./translation_standards.md) - Standard per le chiavi di traduzione
+
+### Testing e Qualità
+- [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
+- [Testing](./testing.md) - Strategie e approcci per il testing
+>>>>>>> .merge_file_nzmbnf
 
 ## Linee Guida per l'Implementazione
 
@@ -177,6 +226,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Sottocartelle
 
 ### Mail Templates
+<<<<<<< .merge_file_assxp3
 - [Index](./mail-templates/INDEX.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
 
@@ -189,6 +239,20 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - [Template Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+=======
+- [Index](./mail-templates/index.md) - Indice della documentazione sui template email
+- [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
+
+### Notifications
+- [Index](./notifications/index.md) - Indice della documentazione sulle notifiche
+
+## Collegamenti alla Documentazione Correlata
+- [Panoramica Architettura](./architecture.md)
+- [Implementazione Canali Notifica](./notification_channels_implementation.md)
+- [Template Email](./email_templates.md)
+- [Implementazione SMS](./sms_implementation.md)
+- [Troubleshooting](./troubleshooting.md)
+>>>>>>> .merge_file_nzmbnf
 
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.

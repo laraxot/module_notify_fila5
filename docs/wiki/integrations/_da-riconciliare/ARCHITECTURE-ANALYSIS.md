@@ -1662,7 +1662,15 @@ Tasks:
 
 ### Recommended New Documentation
 ```
+<<<<<<< .merge_file_sWo61c
 1. ARCHITECTURE.md
+=======
+<<<<<<< .merge_file_JPpW3I
+1. ARCHITECTURE.md
+=======
+1. architecture.md
+>>>>>>> .merge_file_Sq1grT
+>>>>>>> .merge_file_iJIGPL
    - System architecture diagrams
    - Module dependency graph
    - Database schema diagrams

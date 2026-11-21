@@ -46,8 +46,13 @@ issues: []
 discussions: []
 ## Cross-References
 
+<<<<<<< .merge_file_K6A2nM
 - ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines
 - ← [Main AI Docs Index](../INDEX.md) — Master index
+=======
+- ← [CLAUDE Index](index.md) — All Laravel Boost guidelines
+- ← [Main AI Docs Index](../index.md) — Master index
+>>>>>>> .merge_file_8y8pkt
 - ← [CLAUDE Index](index.md) — All Laravel Boost guidelines
 - ← [Main AI Docs Index](../index.md) — Master index
 - ← [../../../../docs/CLAUDE.md](../../../../docs/../../../../docs/CLAUDE.md) — Original source

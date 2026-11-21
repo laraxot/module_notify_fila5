@@ -103,5 +103,9 @@ discussions: []
 - ← [Agents Index](index.md) — All 10 BMad agents
 - ← [Tasks Index](../../tasks/index.md) — 22 reusable tasks
 - ← [Main AI Docs Index](../index.md) — Master index
+<<<<<<< .merge_file_F6BVSa
 - ← [../../../../agents.md](../../../../../../../../agents.md) — Original source
+=======
+- ← [../../../../AGENTS.md](../../../../../../../../AGENTS.md) — Original source
+>>>>>>> .merge_file_RKLx78
 

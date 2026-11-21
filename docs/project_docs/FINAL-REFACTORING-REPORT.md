@@ -548,7 +548,15 @@ Successfully analyzed and refactored the entire codebase, reducing cyclomatic co
 
 ### Documentation
 
+<<<<<<< .merge_file_3e89WY
 - [Complete Refactoring Analysis](./COMPLETE_REFACTORING_ANALYSIS.md)
+=======
+<<<<<<< .merge_file_JbmSr5
+- [Complete Refactoring Analysis](./COMPLETE_REFACTORING_ANALYSIS.md)
+=======
+- [Complete Refactoring Analysis](./complete_refactoring_analysis.md)
+>>>>>>> .merge_file_Qwq0Gs
+>>>>>>> .merge_file_9irwOj
 - [Xot Module Refactoring Plan](../Modules/Xot/docs/refactoring/cyclomatic-complexity-refactoring-plan.md)
 - [Xot Module Refactoring Report](../Modules/Xot/docs/refactoring/artisan-service-refactoring-report.md)
 - [Cyclomatic Complexity Summary](../docs/cyclomatic-complexity-summary.md)

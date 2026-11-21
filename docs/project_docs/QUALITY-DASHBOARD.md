@@ -292,9 +292,21 @@ Overall Progress: ████████████████████�
 ## 🔗 Related Resources
 
 - [Architecture Documentation](./architecture.md)
+<<<<<<< .merge_file_c0eC00
 - [Contributing Guidelines](../CONTRIBUTING.md)
 - [Testing Strategy](../Modules/Xot/docs/testing/testing-strategy.md)
 - [Refactoring Reports](./FINAL_REFACTORING_REPORT.md)
+=======
+<<<<<<< .merge_file_LpMobW
+- [Contributing Guidelines](../CONTRIBUTING.md)
+- [Testing Strategy](../Modules/Xot/docs/testing/testing-strategy.md)
+- [Refactoring Reports](./FINAL_REFACTORING_REPORT.md)
+=======
+- [Contributing Guidelines](../contributing.md)
+- [Testing Strategy](../Modules/Xot/docs/testing/testing-strategy.md)
+- [Refactoring Reports](./final_refactoring_report.md)
+>>>>>>> .merge_file_Ft90RM
+>>>>>>> .merge_file_XD7Dpp
 
 ---
 

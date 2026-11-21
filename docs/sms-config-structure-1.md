@@ -160,8 +160,13 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## Collegamenti
 
+<<<<<<< .merge_file_Sc0ciO
 - [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
 - [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
+=======
+- [Configurazione Netfun](./netfun_config_requirements.md)
+- [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
+>>>>>>> .merge_file_ZDAymf
 
 ---
 

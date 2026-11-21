@@ -93,9 +93,15 @@ protected function setUp(): void
 ## 🔗 Collegamenti
 
 - [Testing Rules](testing-rules.md)
+<<<<<<< .merge_file_vNoc3t
 - [Activity TestCase Fix](../../activity/docs/testing-testcase-database-connection-fix.md)
 - [Geo TestCase Fix](../../geo/docs/testing-testcase-database-connection-fix.md)
 - [Media TestCase Fix](../../media/docs/testing-testcase-database-connection-fix.md)
+=======
+- [Activity TestCase Fix](../../Activity/docs/testing-testcase-database-connection-fix.md)
+- [Geo TestCase Fix](../../Geo/docs/testing-testcase-database-connection-fix.md)
+- [Media TestCase Fix](../../Media/docs/testing-testcase-database-connection-fix.md)
+>>>>>>> .merge_file_oSxXy6
 
 ---
 

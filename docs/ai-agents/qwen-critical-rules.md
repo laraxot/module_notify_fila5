@@ -175,5 +175,9 @@ namespace::context.collection.element.type
 
 - [Indice QWEN](./qwen-split-index.md)
 - [critical-rules.md](./critical-rules.md)
+<<<<<<< .merge_file_bCFzHQ
 - [QWEN.md originale](../../QWEN.md)
+=======
+- [qwen.md originale](../../qwen.md)
+>>>>>>> .merge_file_YuS4dH
 - [Index principale](./index.md)

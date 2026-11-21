@@ -130,8 +130,18 @@ notebooklm/
 ```
 Notebook Name: "Notify Documentation"
 Sources:
+<<<<<<< .merge_file_yV5wZT
   - agents.md
   - laravel/agents.md
+=======
+<<<<<<< .merge_file_xudKnh
+  - agents.md
+  - laravel/agents.md
+=======
+  - AGENTS.md
+  - laravel/AGENTS.md
+>>>>>>> .merge_file_yy365y
+>>>>>>> .merge_file_Bm42zg
   - docs/**/*.md
   - .planning/**/*.md
   - laravel/Modules/docs/README.md
@@ -207,8 +217,18 @@ Result: Gemini connects info from multiple docs
 **Notebook 1: Notify Core**
 ```
 Sources:
+<<<<<<< .merge_file_yV5wZT
   - agents.md
   - laravel/agents.md
+=======
+<<<<<<< .merge_file_xudKnh
+  - agents.md
+  - laravel/agents.md
+=======
+  - AGENTS.md
+  - laravel/AGENTS.md
+>>>>>>> .merge_file_yy365y
+>>>>>>> .merge_file_Bm42zg
   - .planning/PROJECT.md
   - .planning/config.json
   - NOTIFY_IMPROVEMENT_PLAN.md
@@ -425,7 +445,15 @@ claude
 "Set up NotebookLM authentication"
 
 # 4. Crea notebook su notebooklm.google.com
+<<<<<<< .merge_file_yV5wZT
 #    - Upload agents.md, docs/**/*.md
+=======
+<<<<<<< .merge_file_xudKnh
+#    - Upload agents.md, docs/**/*.md
+=======
+#    - Upload AGENTS.md, docs/**/*.md
+>>>>>>> .merge_file_yy365y
+>>>>>>> .merge_file_Bm42zg
 #    - Share → Copy link
 
 # 5. Aggiungi a library
@@ -463,7 +491,15 @@ claude
 - [x] Skill installato (`~/.claude/skills/notebooklm/`)
 - [ ] Autenticazione completata
 - [ ] Notebook creato su notebooklm.google.com
+<<<<<<< .merge_file_yV5wZT
 - [ ] Documenti uploadati (agents.md, docs/, etc.)
+=======
+<<<<<<< .merge_file_xudKnh
+- [ ] Documenti uploadati (agents.md, docs/, etc.)
+=======
+- [ ] Documenti uploadati (AGENTS.md, docs/, etc.)
+>>>>>>> .merge_file_yy365y
+>>>>>>> .merge_file_Bm42zg
 - [ ] Notebook condiviso pubblicamente
 - [ ] Link aggiunto a Claude library
 - [ ] Prima query testata

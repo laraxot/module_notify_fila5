@@ -74,4 +74,8 @@ class User extends Illuminate\Database\Eloquent\Model
 **Di ritorno:**
 - [CLAUDE.md - Architecture Section](../../CLAUDE.md)
 - [AGENTS.md - Module Architecture Section](../../AGENTS.md)
+<<<<<<< .merge_file_8rxZqg
 - [agents.md - Module Architecture Section](../../agents.md)
+=======
+- [AGENTS.md - Module Architecture Section](../../AGENTS.md)
+>>>>>>> .merge_file_w9z4na

@@ -303,7 +303,7 @@ it('achieves Lighthouse score >90', function () {
 - **WCAG 2.1 AA**: https://www.w3.org/WAI/WCAG21/quickref/
 
 ### Documentation
-- **Roadmap**: `.planning/ROADMAP.md`
+- **Roadmap**: `.planning/roadmap.md`
 - **Research**: `.planning/research/design-comuni-pages.md`
 - **Block Analysis**: `_bmad-output/design-comuni-block-analysis.md`
 - **Architecture**: `_bmad-output/design-comuni-architecture.md`

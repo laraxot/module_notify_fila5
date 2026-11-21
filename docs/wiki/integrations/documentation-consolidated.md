@@ -221,7 +221,7 @@ The <nome progetto> platform has extensive documentation across modules and them
 
 3. **Update Governance**
    - Finalize documentation governance
-   - Add to agents.md
+   - Add to AGENTS.md
    - Add to .windsurfrules
 
 ### Priority 3: Medium (Week 4)
@@ -309,7 +309,7 @@ done
 
 #### Day 15-16: Update Rules
 
-1. Update agents.md
+1. Update AGENTS.md
 2. Update .windsurfrules
 3. Create skills
 
@@ -459,8 +459,8 @@ echo "  snake_case: $(find laravel/Modules/*/docs/ -name '*_*.md' | wc -l)"
 ## 📚 Related Documents
 
 - [documentation-governance.md](documentation-governance.md) - Governance framework
-- [agents.md](../../../agents.md) - Agent guidelines
-- [agents.md](../../agents.md) - Agent guidelines
+- [AGENTS.md](../../../AGENTS.md) - Agent guidelines
+- [AGENTS.md](../../agents.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 
 ---
@@ -531,7 +531,7 @@ related:
    │  INDEX      │  │  INDEX       │  │ Copilot      │
    │  └─ Xot     │  │  └─ Sixteen  │  │ Architecture │
    │  └─ Cms     │  │  └─ TwentyOne   │ Code Quality │
-   │  └─ Tenant  │  │              │  │ claude.md    │
+   │  └─ Tenant  │  │              │  │ CLAUDE.md    │
    │  └─ Media   │  │ Design-Comuni   │ Philosophy   │
    │  └─ User    │  │ Pages (38)   │  │              │
    │  └─ (14+)   │  │ Blocks (47)  │  │              │
@@ -761,8 +761,8 @@ Xot (Core) ◄──────────────────────
 | Handle files | [Media Docs](../laravel/Modules/Media/docs/) | [File Upload](../laravel/Modules/Media/docs/guides/) | Examples |
 | Send notifications | [Notify Docs](../laravel/Modules/Notify/docs/) | [Channels](../laravel/Modules/Notify/docs/guides/) | Examples |
 | Track changes | [Activity Docs](../laravel/Modules/Activity/docs/) | [Audit Trail](../laravel/Modules/Activity/docs/guides/) | Examples |
-| Code standards | [claude.md](../laravel/claude.md) | [Copilot Inst.](../../.github/copilot-instructions.md) | Review |
-| Code standards | [claude.md](../laravel/claude.md) | [Copilot Inst.](../../../.github/copilot-instructions.md) | Review |
+| Code standards | [CLAUDE.md](../laravel/CLAUDE.md) | [Copilot Inst.](../../.github/copilot-instructions.md) | Review |
+| Code standards | [CLAUDE.md](../laravel/CLAUDE.md) | [Copilot Inst.](../../../.github/copilot-instructions.md) | Review |
 | Architecture | [Architecture](architecture-diagrams.md) | [Design Comuni](../laravel/Themes/Sixteen/docs/design-comuni/) | Deep dive |
 
 ---
@@ -799,7 +799,7 @@ Code + Examples
   │ (Implementation)
   │
   ▼
-claude.md (Code Standards)
+CLAUDE.md (Code Standards)
   │ (Validation)
   │
 ▼
@@ -836,7 +836,7 @@ Theme/Template Integration
   │ (If frontend needed)
   │
   ▼
-claude.md Validation
+CLAUDE.md Validation
   │ (Follow patterns)
   │
   ▼
@@ -868,13 +868,13 @@ docs/
 ```
 .github/
 ├── copilot-instructions.md         ← Copilot guide
-├── contributing.md
+├── CONTRIBUTING.md
 ├── README.md
 └── skills/                         (GSD skills)
 
 laravel/
-├── claude.md                       ← Framework rules (38.7 KB)
-├── agents.md
+├── CLAUDE.md                       ← Framework rules (38.7 KB)
+├── AGENTS.md
 └── .windsurfrules                 ← Windsurf rules
 ```
 
@@ -927,7 +927,7 @@ laravel/Themes/
 - **Module Development** → [module-docs-index.md](module-docs-index.md)
 - **Theme Development** → [THEMES_documentation-index.md](THEMES_documentation-index.md)
 - **Code Quality** → [CODE_QUALITY_STANDARDS.md](CODE_QUALITY_STANDARDS.md)
-- **Framework Rules** → [laravel/claude.md](../laravel/claude.md)
+- **Framework Rules** → [laravel/CLAUDE.md](../laravel/CLAUDE.md)
 - **Copilot Usage** → [.github/copilot-instructions.md](../../.github/copilot-instructions.md)
 - **Copilot Usage** → [.github/copilot-instructions.md](../../../.github/copilot-instructions.md)
 - **Design Comuni** → Search for `DESIGN_COMUNI_` files
@@ -1036,7 +1036,7 @@ Connected Via:
 3. Explore: [Module Index](module-docs-index.md) or [Theme Index](THEMES_documentation-index.md)
 4. Deep Dive: Relevant module/theme 00-index.md
 5. Implement: Using guides and examples
-6. Validate: Against claude.md standards
+6. Validate: Against CLAUDE.md standards
 
 ### For Architects
 
@@ -1044,7 +1044,7 @@ Connected Via:
 2. Understand: [Module Relationships](module-docs-index.md#cross-module-communication)
 3. Design: Using module/theme structure
 4. Review: [Code Quality Standards](CODE_QUALITY_STANDARDS.md)
-5. Validate: Against framework rules in claude.md
+5. Validate: Against framework rules in CLAUDE.md
 
 ### For New Project Members
 
@@ -1138,7 +1138,7 @@ Modules/ModuleName/
 ├── docs/
 │   ├── README.md                    # Module overview and quick reference
 │   ├── 00-index.md                  # Alternative index (if needed)
-│   ├── changelog.md                 # Module changelog
+│   ├── CHANGELOG.md                 # Module changelog
 │   ├── architecture/                # Architecture decisions and patterns
 │   │   ├── overview.md
 │   │   └── decisions/               # ADRs (Architectural Decision Records)
@@ -1540,8 +1540,8 @@ jobs:
 
 ## 📚 Related Documents
 
-- [agents.md](../../../agents.md) - Agent guidelines
-- [agents.md](../../agents.md) - Agent guidelines
+- [AGENTS.md](../../../AGENTS.md) - Agent guidelines
+- [AGENTS.md](../../agents.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 - [documentation-index.md](../../../docs/documentation-index.md) - Master index
 
@@ -1637,7 +1637,7 @@ Transform documentation from **chaotic but comprehensive** to **organized, gover
 ### How to Join
 
 1. **Read this document** thoroughly
-2. **Check coordination log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+2. **Check coordination log**: `bashscripts/docs/git/sync_remote_repo_coordination.md`
 3. **Pick a task** from the backlog below
 4. **Add your agent ID** to the team list
 5. **Create lock file** (optional, for exclusive work):
@@ -1699,7 +1699,7 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 - [ ] `project_docs/roadmaps/roadmap-documentation.md` (this doc)
 
 **Archive** (move to `docs/archive/roadmaps/`):
-- [ ] `master-roadmap-2025.md`
+- [ ] `master-roadmap-historic.md`
 - [ ] `project-roadmap.md`
 - [ ] `project-roadmap.md`
 - [ ] `roadmap.md`
@@ -2021,7 +2021,7 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 
 1. **GitHub Issues**: Track individual tasks
 2. **GitHub Discussions**: General coordination
-3. **Coordination Log**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+3. **Coordination Log**: `bashscripts/docs/git/sync_remote_repo_coordination.md`
 4. **This Document**: Master plan tracking
 
 ### Lock File Protocol
@@ -2055,7 +2055,7 @@ rm docs/DOCUMENTATION_IMPROVEMENT_PLAN.md.lock
 
 - **Master Index**: `MASTER_documentation-index.md`
 - **Governance**: `documentation-governance.md`
-- **Coordination**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+- **Coordination**: `bashscripts/docs/git/sync_remote_repo_coordination.md`
 - **Analysis Report**: `docs/documentation-analysis-and-improvement-plan.md`
 
 ---
@@ -2179,7 +2179,7 @@ Successfully implemented a comprehensive documentation governance framework and 
 ✅ **784 temporal strings removed** from 3,646 markdown files  
 ✅ **Documentation governance framework** created  
 ✅ **Master documentation index** established  
-✅ **Rules and standards** updated (agents.md, .windsurfrules)  
+✅ **Rules and standards** updated (AGENTS.md, .windsurfrules)  
 ✅ **Documentation management skill** created  
 ✅ **4 global memories** saved  
 ✅ **3 GitHub issues** created for tracking  
@@ -2233,7 +2233,7 @@ Successfully implemented a comprehensive documentation governance framework and 
 
 ### Rules Updates
 
-5. **[agents.md](agents.md)** - Updated
+5. **[AGENTS.md](AGENTS.md)** - Updated
    - Added documentation governance section
    - No temporal strings rule
    - File naming conventions
@@ -2460,7 +2460,7 @@ grep -r "Last Updated" laravel/Modules/*/docs/ --include="*.md" | wc -l
 - [Improvement Plan](../../documentation-analysis-and-improvement-plan.md)
 
 ### Rules
-- [agents.md](agents.md) - Full standards
+- [AGENTS.md](AGENTS.md) - Full standards
 - [.windsurfrules](.windsurfrules) - IDE rules
 
 ### Skills
@@ -2615,12 +2615,19 @@ related:
 - [README Principale](./README.md) - Panoramica progetto completa
 - [Analisi Super Mucca](./super-mucca-docs-analysis.md) - Report qualità documentazione
 - [Architecture](./architecture-analysis.md) - Analisi architetturale
+<<<<<<< .merge_file_NAq9Nw
+=======
+<<<<<<< .merge_file_2bFLZP
+- [Roadmap](./master-roadmap-historic.md) - Piano sviluppo 2025
+=======
+>>>>>>> .merge_file_dlh1H4
 - [Roadmap](../../master-roadmap-2025.md) - Piano sviluppo 2025
 - [Roadmap](../../master-roadmap-2025.md) - Piano sviluppo 2025
+>>>>>>> .merge_file_jMVz5D
 
 ### Guide Rapide
 - [Quick Start](./quick-start.md) - Guida avvio rapido
-- [Contributing](./contributing.md) - Come contribuire
+- [Contributing](./CONTRIBUTING.md) - Come contribuire
 - [Troubleshooting](./troubleshooting/README.md) - Risoluzione problemi
 
 ---
@@ -2868,7 +2875,7 @@ related:
 ## 📝 Changelog & Versioning
 
 ### Version History
-- [Changelog](./changelog.md) - Storico modifiche
+- [Changelog](./CHANGELOG.md) - Storico modifiche
 - [Versioning Strategy](./versioning.md) - Strategia versioning
 - [Migration Guides](./migrations/README.md) - Guide migrazione
 
@@ -2877,7 +2884,7 @@ related:
 ## 🤝 Contributing
 
 ### Contribution Guidelines
-- [How to Contribute](./contributing.md) - Come contribuire
+- [How to Contribute](./CONTRIBUTING.md) - Come contribuire
 - [Code of Conduct](./CODE_OF_CONDUCT.md) - Codice condotta
 - [Pull Request Template](./.github/pull_request_template.md) - Template PR
 

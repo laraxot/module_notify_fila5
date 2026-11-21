@@ -296,7 +296,15 @@ Notify:       http://laraxot.local/it/tests/homepage
 ```
 laravel/Modules/Cms/docs/
 ├── README.md
+<<<<<<< .merge_file_TFiFGT
 ├── PAGE_COMPONENT_ARCHITECTURE.md    ← Page component logic
+=======
+<<<<<<< .merge_file_WLh0Op
+├── PAGE_COMPONENT_ARCHITECTURE.md    ← Page component logic
+=======
+├── page_component_architecture.md    ← Page component logic
+>>>>>>> .merge_file_p6mKBk
+>>>>>>> .merge_file_64UX2G
 ├── BLOCK_DATA_STRUCTURE.md           ← BlockData structure
 └── JSON_CONTENT_GUIDE.md             ← JSON content guide
 ```
@@ -328,7 +336,15 @@ docs/project/
 
 ```
 _bmad-output/
+<<<<<<< .merge_file_TFiFGT
 ├── DESIGN_COMUNI_INDEX.md            ← BMad index
+=======
+<<<<<<< .merge_file_WLh0Op
+├── DESIGN_COMUNI_INDEX.md            ← BMad index
+=======
+├── design_comuni_index.md            ← BMad index
+>>>>>>> .merge_file_p6mKBk
+>>>>>>> .merge_file_64UX2G
 ├── design-comuni-prd.md              ← PRD
 ├── design-comuni-architecture.md     ← Architecture
 ├── design-comuni-ui-spec.md          ← UI Spec
@@ -349,7 +365,15 @@ _bmad-output/
 
 - → [Master Index](../../../docs/project/MODULE_DOCS_INDEX.md)
 - → [Theme Detection](../../../docs/project/THEME_DETECTION_SYSTEM.md)
+<<<<<<< .merge_file_TFiFGT
 - → [Page Component Architecture](PAGE_COMPONENT_ARCHITECTURE.md)
+=======
+<<<<<<< .merge_file_WLh0Op
+- → [Page Component Architecture](PAGE_COMPONENT_ARCHITECTURE.md)
+=======
+- → [Page Component Architecture](page_component_architecture.md)
+>>>>>>> .merge_file_p6mKBk
+>>>>>>> .merge_file_64UX2G
 ```
 
 ### Link Pattern 2: Theme → Master Index
@@ -596,7 +620,15 @@ pages/tests/argomenti.blade.php     # NO
 - [Master Index](docs/project/MODULE_DOCS_INDEX.md)
 - [Theme Detection](docs/project/THEME_DETECTION_SYSTEM.md)
 - [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md)
+<<<<<<< .merge_file_TFiFGT
 - [Page Component](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md)
+=======
+<<<<<<< .merge_file_WLh0Op
+- [Page Component](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md)
+=======
+- [Page Component](Modules/Cms/docs/page_component_architecture.md)
+>>>>>>> .merge_file_p6mKBk
+>>>>>>> .merge_file_64UX2G
 
 ### External Resources
 

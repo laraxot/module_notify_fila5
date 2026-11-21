@@ -175,7 +175,11 @@ Modules/Xot/tests/Feature/fixstructuretest.pest.php
 
 ### Riferimenti Interni
 
+<<<<<<< .merge_file_RZ1qrt
 - [../quality/phpstan-fixes.md](../phpstan-fixes.md)
+=======
+- [../quality/phpstan-fixes.md](../PHPSTAN-FIXES.md)
+>>>>>>> .merge_file_8rHnIZ
 - [../../Modules/Activity/docs/testing-guidelines.md](../../laravel/Modules/Activity/docs/testing-guidelines.md)
 - [../../Modules/Activity/docs/testing-guidelines.md](../../../Activity/docs/testing-guidelines.md)
 - [./test-structure.md](./test-structure.md)

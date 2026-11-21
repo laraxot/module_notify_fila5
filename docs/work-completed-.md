@@ -126,7 +126,15 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ### 5. 👥 Aggiornamento Roadmap Modulo User
 
+<<<<<<< .merge_file_5Ptzce
 **File**: `/laravel/Modules/User/docs/ROADMAP.md`
+=======
+<<<<<<< .merge_file_iF74Du
+**File**: `/laravel/Modules/User/docs/ROADMAP.md`
+=======
+**File**: `/laravel/Modules/User/docs/roadmap.md`
+>>>>>>> .merge_file_ISMexy
+>>>>>>> .merge_file_ye7cdZ
 
 **Modifiche**:
 - ✅ Ristrutturato "Prossimi Passi" in Q4 2025 e Q1 2026
@@ -232,11 +240,23 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ## 🔗 DOCUMENTI PRINCIPALI
 
 ### Roadmap
+<<<<<<< .merge_file_5Ptzce
 - **[ROADMAP_STATUS_SUMMARY.md](./ROADMAP_STATUS_SUMMARY.md)** - Status generale
+=======
+<<<<<<< .merge_file_iF74Du
+- **[ROADMAP_STATUS_SUMMARY.md](./ROADMAP_STATUS_SUMMARY.md)** - Status generale
+=======
+- **[ROADMAP_STATUS_SUMMARY.md](./roadmap_status_summary.md)** - Status generale
+>>>>>>> .merge_file_ISMexy
+>>>>>>> .merge_file_ye7cdZ
 - **[MASTER_ROADMAP.md](./laravel/MASTER_ROADMAP.md)** - Roadmap strategica 18 mesi
 - **[roadmap-master.md](./project_docs/roadmaps/roadmap-master.md)** - Consolidamento moduli
 
 ### Documentazione
+<<<<<<< .merge_file_5Ptzce
+=======
+<<<<<<< .merge_file_iF74Du
+>>>>>>> .merge_file_ye7cdZ
 - **[DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md)** - Indice completo
 - **[DOCUMENTATION_STATUS.md](./project_docs/DOCUMENTATION_STATUS.md)** - Stato documentazione
 - **[QUICK_START.md](./QUICK_START.md)** - Guida rapida sviluppatori
@@ -244,6 +264,18 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ### Moduli Principali
 - **[Fixcity ROADMAP_2025.md](./laravel/Modules/Fixcity/docs/ROADMAP_2025.md)**
 - **[User ROADMAP.md](./laravel/Modules/User/docs/ROADMAP.md)**
+<<<<<<< .merge_file_5Ptzce
+=======
+=======
+- **[DOCUMENTATION_INDEX.md](./documentation_index.md)** - Indice completo
+- **[DOCUMENTATION_STATUS.md](./project_docs/documentation_status.md)** - Stato documentazione
+- **[QUICK_START.md](./quick_start.md)** - Guida rapida sviluppatori
+
+### Moduli Principali
+- **[Fixcity ROADMAP_2025.md](./laravel/Modules/Fixcity/docs/ROADMAP_2025.md)**
+- **[User roadmap.md](./laravel/Modules/User/docs/roadmap.md)**
+>>>>>>> .merge_file_ISMexy
+>>>>>>> .merge_file_ye7cdZ
 - **[Sixteen ROADMAP_2025.md](./laravel/Themes/Sixteen/docs/ROADMAP_2025.md)**
 
 ---
@@ -258,7 +290,15 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ### Aggiornamenti
 - [x] ROADMAP_STATUS_SUMMARY.md aggiornato
 - [x] Fixcity ROADMAP_2025.md aggiornato
+<<<<<<< .merge_file_5Ptzce
 - [x] User ROADMAP.md aggiornato
+=======
+<<<<<<< .merge_file_iF74Du
+- [x] User ROADMAP.md aggiornato
+=======
+- [x] User roadmap.md aggiornato
+>>>>>>> .merge_file_ISMexy
+>>>>>>> .merge_file_ye7cdZ
 - [x] Sixteen ROADMAP_2025.md aggiornato
 
 ### Nuovi Documenti

@@ -1,10 +1,18 @@
 ---
+<<<<<<< .merge_file_uUTYk5
 title: "architecture"
+=======
+title: "Architecture"
+>>>>>>> .merge_file_FIaprb
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_uUTYk5
 qmd: "architecture"
+=======
+qmd: "Architecture"
+>>>>>>> .merge_file_FIaprb
 issues: []
 discussions: []
 ---
@@ -17,12 +25,20 @@ discussions: []
 
 ---
 
+<<<<<<< .merge_file_uUTYk5
 title: "architecture"
+=======
+title: "ARCHITECTURE"
+>>>>>>> .merge_file_FIaprb
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_uUTYk5
 qmd: "architecture"
+=======
+qmd: "ARCHITECTURE"
+>>>>>>> .merge_file_FIaprb
 issues: []
 discussions: []
 ## 📐 System Architecture

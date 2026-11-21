@@ -45,7 +45,7 @@ status: draft
 - [README Principale](./README.md) - Panoramica progetto completa
 - [Analisi Super Mucca](./super-mucca-docs-analysis.md) - Report qualità documentazione
 - [Architecture](./architecture-analysis.md) - Analisi architetturale
-- [Roadmap](./master-roadmap-2025.md) - Piano sviluppo 2025
+- [Roadmap](./master-roadmap-historic.md) - Piano sviluppo 2025
 
 ### Guide Rapide
 - [Quick Start](./quick-start.md) - Guida avvio rapido
@@ -315,7 +315,7 @@ status: draft
 ## 📝 Changelog & Versioning
 
 ### Version History
-- [Changelog](./CHANGELOG.md) - Storico modifiche
+- [Changelog](./CHANGELOG.MD) - Storico modifiche
 - [Versioning Strategy](./versioning.md) - Strategia versioning
 - [Migration Guides](./migrations/README.md) - Guide migrazione
 
