@@ -1,10 +1,18 @@
 ---
+<<<<<<< .merge_file_rfdONy
+title: "modules validation report 2025 10 02"
+=======
 title: "Modules Validation Report"
+>>>>>>> .merge_file_N0nBnD
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_rfdONy
+qmd: "modules validation report 2025 10 02"
+=======
 qmd: "Modules Validation Report"
+>>>>>>> .merge_file_N0nBnD
 issues: []
 discussions: []
 ---
@@ -18,12 +26,20 @@ discussions: []
 
 ---
 
+<<<<<<< .merge_file_rfdONy
+title: "modules validation report 2025 10 02"
+=======
 title: "MODULES VALIDATION REPORT 2025 10 02"
+>>>>>>> .merge_file_N0nBnD
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< .merge_file_rfdONy
+qmd: "modules validation report 2025 10 02"
+=======
 qmd: "MODULES VALIDATION REPORT 2025 10 02"
+>>>>>>> .merge_file_N0nBnD
 issues: []
 discussions: []
 ## 📊 Executive Summary

@@ -359,8 +359,13 @@ cat .ralph/iteration-log.md
 ls -la _bmad/
 ls -la .planning/
 
+<<<<<<< .merge_file_oRX5wn
+# Review agents.md
+cat agents.md
+=======
 # Review AGENTS.md
 cat AGENTS.md
+>>>>>>> .merge_file_iCH0M5
 ```
 
 ## Resources
@@ -370,7 +375,11 @@ cat AGENTS.md
 - [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
 - [Unified Workflow](./unified-ai-workflow.md)
 - [BMAD Workflow](laravel/Modules/Xot/docs/bmad-workflow-guide.md)
+<<<<<<< .merge_file_oRX5wn
+- [agents.md](../agents.md)
+=======
 - [AGENTS.md](../AGENTS.md)
+>>>>>>> .merge_file_iCH0M5
 
 ### Scripts
 - OpenViking Init: `bashscripts/ai/openviking-init.sh`

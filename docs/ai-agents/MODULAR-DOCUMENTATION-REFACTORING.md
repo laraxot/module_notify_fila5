@@ -36,9 +36,15 @@ Organizzare la documentazione AI agents in file modulari più piccoli e gestibil
 ### Prima (File Grandi)
 ```
 AGENTS.md      - 104 righe  ❌ Troppo grande
+<<<<<<< .merge_file_hbh7Cp
+QWEN.md        - 890 righe  ❌ Enorme
+CLAUDE.md      - 592 righe  ❌ Difficile da navigare
+GEMINI.md      - 369 righe  ❌ Contenuti mischiati
+=======
 qwen.md        - 890 righe  ❌ Enorme
 CLAUDE.md      - 592 righe  ❌ Difficile da navigare
 gemini.md      - 369 righe  ❌ Contenuti mischiati
+>>>>>>> .merge_file_9kR7Az
 IFLOW.md       - 312 righe  ❌ Duplicazioni
 ────────────────────────────────────────────
 TOTALE:        2,267 righe  ❌ Difficile da mantenere
@@ -112,7 +118,11 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 
 ### Da File Originali a Moduli
 ```markdown
+<<<<<<< .merge_file_hbh7Cp
+# agents.md (compatto)
+=======
 # AGENTS.md (compatto)
+>>>>>>> .merge_file_9kR7Az
 ## Contenuto Diviso
 | Sezione | File |
 |---------|------|
@@ -125,8 +135,13 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 ```markdown
 # .agents/docs/overview/agents-overview.md
 ## Riferimenti
+<<<<<<< .merge_file_hbh7Cp
+- [agents.md](../../agents.md) - File originale compatto
+- [QWEN.md](../../QWEN.md) - Contesto Qwen Code
+=======
 - [AGENTS.md](../../AGENTS.md) - File originale compatto
 - [qwen.md](../../qwen.md) - Contesto Qwen Code
+>>>>>>> .merge_file_9kR7Az
 ```
 
 ### Cross-Link tra Moduli
@@ -209,9 +224,15 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 
 ### File Originali (Compatti)
 - `AGENTS.md` - Link a tutti i moduli
+<<<<<<< .merge_file_hbh7Cp
+- `QWEN.md` - Contesto Qwen Code
+- `CLAUDE.md` - Claude-specific patterns
+- `GEMINI.md` - Gemini-specific patterns
+=======
 - `qwen.md` - Contesto Qwen Code
 - `CLAUDE.md` - Claude-specific patterns
 - `gemini.md` - Gemini-specific patterns
+>>>>>>> .merge_file_9kR7Az
 - `IFLOW.md` - iFlow-specific patterns
 
 ---

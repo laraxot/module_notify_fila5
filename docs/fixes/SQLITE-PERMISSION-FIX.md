@@ -231,7 +231,11 @@ bash bashscripts/fix-permissions.sh
 - [ ] Add permission fix to deployment docs
 - [ ] Create bash script for permissions
 - [ ] Add to pre-deployment checklist
+<<<<<<< .merge_file_ysIJFI
+- [ ] Document in agents.md
+=======
 - [ ] Document in AGENTS.md
+>>>>>>> .merge_file_DzWx0x
 
 ---
 

@@ -130,7 +130,11 @@ php artisan list | grep boost
 - `/docs/BOOST_SKILL_SOLUTION_PLAN.md` - Solution plan
 
 ### Module Documentation
+<<<<<<< .merge_file_CieYJ5
+Created BOOST_SKILL_FIX_SUMMARY.md in:
+=======
 Created boost_skill_fix_summary.md in:
+>>>>>>> .merge_file_bDbHpp
 - `Modules/Xot/docs/`
 - `Modules/User/docs/`
 - `Modules/AI/docs/`

@@ -174,7 +174,11 @@ protected function registerObservers(): void
 | `Modules/User/tests/Unit/CurrentTeamInfiniteLoopFixTest.php` | Nuovo | Test Pest (11 test case) |
 | `Modules/User/tests/Unit/HasTeamsTraitCurrentTeamTest.php` | Nuovo | Test PHPUnit (7 test case) |
 | `docs/bugs/user-creation-infinite-loop-fix.md` | Nuovo | Riepilogo fix |
+<<<<<<< .merge_file_q8XTJK
+| `docs/bugs/SUMMARY.md` | Nuovo | Summary generale bug fixes |
+=======
 | `docs/bugs/summary.md` | Nuovo | Summary generale bug fixes |
+>>>>>>> .merge_file_DT4Gkh
 
 ## Testing
 
@@ -274,7 +278,11 @@ $user->initializeCurrentTeam();
    - Configurazione
    - Testing
 
+<<<<<<< .merge_file_q8XTJK
+3. **Summary Generale**: `docs/bugs/SUMMARY.md`
+=======
 3. **Summary Generale**: `docs/bugs/summary.md`
+>>>>>>> .merge_file_DT4Gkh
    - Lista di tutti i bug fixes
    - Stato di ogni fix
 

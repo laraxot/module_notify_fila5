@@ -47,7 +47,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ### 👥 Modulo User (3)
 11. ✅ **2FA_GUIDE.md** - Implementazione 2FA completa (TOTP, recovery codes, testing)
 12. ✅ **SSO_GUIDE.md** - SAML 2.0 + OIDC completo (Azure AD, Google, Okta)
+<<<<<<< .merge_file_kT4IJO
+13. ✅ **ROADMAP.md** - Aggiornata Q4 2025-Q1 2026
+=======
 13. ✅ **roadmap.md** - Aggiornata Q4 2025-Q1 2026
+>>>>>>> .merge_file_OyEwqn
 
 ### 🎨 Tema Sixteen (1)
 14. ✅ **ROADMAP_2025.md** - Aggiornata Q4 2025-Q2 2026
@@ -145,7 +149,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
     │
     ├── Modules/User/docs/              ✅ 92% COMPLETO
     │   ├── README.md                   ✅ Completo
+<<<<<<< .merge_file_kT4IJO
+    │   ├── ROADMAP.md                  ✅ Aggiornato
+=======
     │   ├── roadmap.md                  ✅ Aggiornato
+>>>>>>> .merge_file_OyEwqn
     │   ├── 2FA_GUIDE.md                ✅ NEW - Implementazione completa
     │   ├── SSO_GUIDE.md                ✅ NEW - SAML + OIDC
     │   └── API.md                      📋 TODO
@@ -215,7 +223,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 - ✅ **ROADMAP_STATUS_SUMMARY.md** - Master status
 - ✅ **App/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
 - ✅ **<nome progetto>/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
+<<<<<<< .merge_file_kT4IJO
+- ✅ **User/ROADMAP.md** - Timeline Q4 2025-Q1 2026
+=======
 - ✅ **User/roadmap.md** - Timeline Q4 2025-Q1 2026
+>>>>>>> .merge_file_OyEwqn
 - ✅ **Sixteen/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
 
 ---
@@ -292,8 +304,13 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ## 📞 SUPPORTO E COMMUNITY
 
 ### Per Sviluppatori
+<<<<<<< .merge_file_kT4IJO
+- **Quick Start**: [QUICK_START.md](./QUICK_START.md)
+- **Documentation Index**: [DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md)
+=======
 - **Quick Start**: [QUICK_START.md](./quick_start.md)
 - **Documentation Index**: [DOCUMENTATION_INDEX.md](./documentation_index.md)
+>>>>>>> .merge_file_OyEwqn
 - **Slack**: #laraxot-dev
 
 ### Per Utenti
@@ -353,7 +370,11 @@ Il progetto <nome progetto> ha raggiunto un livello di documentazione e organizz
 ### Modulo User
 - [x] 2FA_GUIDE.md creato
 - [x] SSO_GUIDE.md creato
+<<<<<<< .merge_file_kT4IJO
+- [x] ROADMAP.md aggiornato
+=======
 - [x] roadmap.md aggiornato
+>>>>>>> .merge_file_OyEwqn
 - [ ] API.md da creare
 
 ### Tema Sixteen

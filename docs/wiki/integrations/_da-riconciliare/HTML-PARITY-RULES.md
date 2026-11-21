@@ -398,7 +398,11 @@ trans('<nome progetto>::segnalazione.heading.title.label')
 
 - [Translation Conventions](./translation-conventions.md)
 - [Blade Architecture](../laravel/CLAUDE.md#blade-components)
+<<<<<<< .merge_file_RLifSc
+- [Agnostic Scripts](./AGNOSTIC_DOCUMENTATION_RULE.md)
+=======
 - [Agnostic Scripts](./agnostic_documentation_rule.md)
+>>>>>>> .merge_file_SG8vOi
 - [Multi-Agent Coordination](./MULTI_AGENT_COORDINATION_RULES.md)
 
 ---

@@ -126,7 +126,7 @@ base_ptv_fila5/
 │   ├── documentation-index.md          ✅ Indice completo
 │   ├── quick-start.md                  ✅ Guida rapida
 │   ├── roadmap-status-summary.md       ✅ Status master
-│   ├── excellence-2025.md              ✅ Visione eccellenza
+│   ├── excellence-year-note-snake.md              ✅ Visione eccellenza
 │   ├── project-completion-status.md    ✅ Tracking
 │   ├── final-summary.md                ✅ Summary sessione 1
 │   ├── WORK-COMPLETED-.md.md    ✅ Riepilogo tecnico
