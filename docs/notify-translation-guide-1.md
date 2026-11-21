@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_TC6hPU
-=======
 ---
 title: "notify translation guide 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_d1oRAL
 # Guida alle Traduzioni nel Modulo Notify
 
 ## Introduzione

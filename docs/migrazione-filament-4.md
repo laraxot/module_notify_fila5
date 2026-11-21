@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_Nm8sKX
-=======
 ---
 title: "migrazione filament 4"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_UVlBTK
 # Notify Module - Migrazione a Filament 4
 
 ## Panoramica Notify Module
@@ -600,8 +597,4 @@ NotificationScheduler::make()
 
 **Raccomandazione**: Procedere nella **seconda wave** di migrazione, dopo aver validato l'approccio su moduli più semplici.
 
-<<<<<<< .merge_file_Nm8sKX
 **ROI**: **Molto alto** considerando che risolve problemi attuali while adding significant value attraverso modern features.
-=======
-**ROI**: **Molto alto** considerando che risolve problemi attuali while adding significant value attraverso modern features.
->>>>>>> .merge_file_UVlBTK

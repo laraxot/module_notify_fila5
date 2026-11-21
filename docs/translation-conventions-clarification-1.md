@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_iP5Oui
-=======
 ---
 title: "translation conventions clarification 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_S58moD
 # Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 
 ## Identificazione di Convenzioni Contrastanti

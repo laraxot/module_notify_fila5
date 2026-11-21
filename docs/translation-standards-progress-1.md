@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_ZBmSed
-=======
 ---
 title: "translation standards progress 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_5Qe8Dp
 # Progresso Standardizzazione Traduzioni
 
 ## Stato Attuale - 12/05/2025

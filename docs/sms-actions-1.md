@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_NCtLRF
-=======
 ---
 title: "sms actions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_CheWDc
 # Azioni SMS
 
 ## Interfaccia

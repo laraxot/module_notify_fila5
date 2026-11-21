@@ -22,14 +22,7 @@ Documentation for `notify` module categorized as **product**.
 - [`inbound-marketing-strategy.md`](./inbound-marketing-strategy.md)
 - [`product-strategy-1.md`](./product-strategy-1.md)
 - [`product-strategy.md`](./product-strategy.md)
-<<<<<<< .merge_file_cd9IP2
-- [`strategy.md`](../../../strategy.md)
-- [`product-strategy-documentation-themes.md`](./product-strategy-documentation-themes.md)
-- [`product-strategy.md`](../../../product-strategy.md)
-- [`strategy.md`](../../../strategy.md)
-=======
 - [`strategy.md`](./strategy.md)
->>>>>>> .merge_file_68VxXp
 - [`token-optimization-strategy.md`](./token-optimization-strategy.md)
 
 ---

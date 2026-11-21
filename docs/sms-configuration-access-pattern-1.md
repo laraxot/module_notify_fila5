@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_dwJ4vn
-=======
 ---
 title: "sms configuration access pattern 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_vHfVTO
 # Pattern di Accesso alla Configurazione SMS
 
 ## Problema Identificato

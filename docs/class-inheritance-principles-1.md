@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_tOtCzO
-=======
 ---
 title: "class inheritance principles 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_8JnCoV
 # Principi di Ereditarietà nelle Classi <nome progetto>
 # Principi di Ereditarietà nelle Classi <nome progetto>
 # Principi di Ereditarietà nelle Classi <nome progetto>

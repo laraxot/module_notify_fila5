@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_UuTyir
-=======
 ---
 title: "analisi dettagliata 7"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_DkeZl2
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
 
 ## 7. Manutenzione e Backup

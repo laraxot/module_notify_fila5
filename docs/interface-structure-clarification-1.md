@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_rM11Bm
-=======
 ---
 title: "interface structure clarification 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_43sHMF
 # Chiarimento sulla Struttura delle Interfacce
 
 ## Struttura Corretta per le Interfacce SMS

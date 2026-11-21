@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_W7DlOn
-=======
 ---
 title: "analysisettagliata 4"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_2SIVBk
 # Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
 
 ## 4. Integrazione con Filament

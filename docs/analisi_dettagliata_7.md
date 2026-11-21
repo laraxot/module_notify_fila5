@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_F6QeDY
-=======
 ---
 title: "analisi dettagliata 7"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_V4sX27
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
 
 ## 7. Manutenzione e Backup
@@ -655,8 +652,5 @@ class MaintainTemplatesCommand extends Command
         return 0;
     }
 } 
-<<<<<<< .merge_file_F6QeDY
-=======
 
 ```
->>>>>>> .merge_file_V4sX27

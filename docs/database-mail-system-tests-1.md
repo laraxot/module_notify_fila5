@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_G2yW0d
-=======
 ---
 title: "database mail system tests 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_JNHJc5
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -502,8 +499,4 @@ php artisan test --coverage --filter=MailTemplate
 
 - [Pest PHP](https://pestphp.com/docs)
 
-<<<<<<< .merge_file_G2yW0d
 - [Pest PHP](https://pestphp.com/docs)
-=======
-- [Pest PHP](https://pestphp.com/docs)
->>>>>>> .merge_file_JNHJc5

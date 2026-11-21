@@ -5,21 +5,12 @@ status: active
 module: Notify
 scope: documentation
 bmad_version: 1.0
-<<<<<<< .merge_file_z6o0xK
-updated: 2026-10-20
 tags: [docs, notify, bmad]
-qmd: "decision log - modulo notify notify"
 related:
   - ./filament-blueprint.md
   - ../bmad-planning.md
->>>>>>> laraxot/dev
-=======
 updated: 2026-11-16
-<<<<<<< .merge_file_vyng1d
-=======
 qmd: "Notify decision log ADR NotificationLog policy webhook canali"
->>>>>>> .merge_file_GNumVJ
->>>>>>> .merge_file_sQbiuG
 ---
 
 # Decision Log - Modulo Notify

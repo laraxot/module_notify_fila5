@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_BEfYUA
-=======
 ---
 title: "config structure 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_ft3EVw
 # Struttura di Configurazione nei Moduli <nome progetto>
 
 ## Principi di Configurazione

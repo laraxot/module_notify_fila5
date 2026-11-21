@@ -319,10 +319,6 @@ php -l Modules/Notify/lang/it/send_email.php
 4. **Deployment**: Deploy in ambiente di sviluppo per testing
 
 ---
-<<<<<<< .merge_file_DM48oJ
-**Ultimo aggiornamento**: Gennaio 2025
-**Autore**: Sistema di miglioramento automatico
-=======
 
 title: "send email translation improvement"
 type: note
@@ -334,4 +330,3 @@ issues: []
 discussions: []
 **Ultimo aggiornamento**: Gennaio 2025  
 **Autore**: Sistema di miglioramento automatico  
->>>>>>> .merge_file_018ZNX

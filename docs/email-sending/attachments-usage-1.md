@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_CuaG1I
-=======
 ---
 title: "attachments usage 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_vHnJfE
 # Utilizzo Corretto degli Allegati nelle Email Spatie
 
 Questa documentazione descrive come utilizzare correttamente il metodo `addAttachments()` nella classe `SpatieEmail` del modulo Notify.
@@ -309,8 +306,4 @@ foreach ($records as $record) {
 ### File Correlati
 - `Modules/Notify/app/Emails/SpatieEmail.php` - Gestione allegati
 - `Modules/Notify/app/Notifications/RecordNotification.php` - Notifiche con allegati
-<<<<<<< .merge_file_CuaG1I
 - `Modules/Xot/app/Actions/Pdf/GetPdfContentByRecordAction.php` - Generazione PDF
-=======
-- `Modules/Xot/app/Actions/Pdf/GetPdfContentByRecordAction.php` - Generazione PDF
->>>>>>> .merge_file_vHnJfE

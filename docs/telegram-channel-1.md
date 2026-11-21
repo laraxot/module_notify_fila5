@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_k6tGEc
-=======
 ---
 title: "telegram channel 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_AGZWp7
 # Implementazione Canale Telegram
 
 ## 1. Struttura Base

@@ -116,7 +116,6 @@ notify.code-workspace
 /.github/skills/
 docs/graphify
 resources/lang
-<<<<<<< .merge_file_SyWeM1
 .github/issue_content/
 
 # Tooling/configurazione locale (module-theme-root-hygiene)
@@ -126,7 +125,5 @@ resources/lang
 .qwen/
 .php-cs-fixer.php
 .php-cs-fixer.dist.php
-=======
 .github/ISSUE_CONTENT/
 .github/agents/
->>>>>>> .merge_file_OiZLQs

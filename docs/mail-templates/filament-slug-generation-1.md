@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_cr2kJC
-=======
 ---
 title: "filament slug generation 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_xxiMon
 # Generazione di Slug in Filament
 
 ## Panoramica

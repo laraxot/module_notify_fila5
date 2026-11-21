@@ -202,16 +202,7 @@ grep -r "interface.*Contract" --include="*.php" Modules
 - [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
 - [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
-<<<<<<< .merge_file_VGP93p
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [PTVX Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-=======
 - [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
->>>>>>> .merge_file_aSN1RF
 - [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
 # Convenzione di Naming per le Interfacce
 
@@ -289,29 +280,7 @@ grep -r "interface.*Contract" --include="*.php" Modules
 - [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
 - [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
-<<<<<<< .merge_file_VGP93p
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [PTVX Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-=======
 - [<nome progetto> Code Quality Guidelines](project_docs/code-quality.md)
->>>>>>> .merge_file_aSN1RF
 
 ---
 
@@ -655,14 +624,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 - [Modulo Xot Contracts](/var/www/html/_bases/base_ptvx_fila5/laravel/Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
 - [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-<<<<<<< .merge_file_VGP93p
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](../../ai-agents/code-quality.md)
-=======
 - [<nome progetto> Code Quality Guidelines]([project-root]/laravel/project_docs/code-quality.md)
->>>>>>> .merge_file_aSN1RF
 - [Modulo Xot Contracts]([project-root]/laravel/Modules/Xot/app/Contracts/)
 - [<nome progetto> Code Quality Guidelines](/var/www/_bases/<nome repository>/laravel/docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
 - [<nome progetto> Code Quality Guidelines](/var/www/_bases/<nome repository>/laravel/project_docs/code-quality.md)

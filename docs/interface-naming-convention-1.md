@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_LVEt9H
-=======
 ---
 title: "interface naming convention 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_mVBPNY
 # Deprecated
 
 This file is deprecated.

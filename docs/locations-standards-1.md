@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_0QyXgc
-=======
 ---
 title: "locations standards 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_XsUeEK
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali

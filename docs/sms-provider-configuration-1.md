@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_t7go79
-=======
 ---
 title: "sms provider configuration 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_sDvTIz
 # Deprecated
 
 This file is deprecated.

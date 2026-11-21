@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_g0XoAD
-=======
 ---
 title: "analisiettagliata 7"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_SS4EP2
 # Analisi Dettagliata del Modulo Notify - Parte 7: Manutenzione e Backup
 
 ## 7. Manutenzione e Backup

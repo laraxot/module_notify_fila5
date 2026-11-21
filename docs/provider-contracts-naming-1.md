@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_slN40n
-=======
 ---
 title: "provider contracts naming 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_hJaaGC
 # Convenzioni di Naming per i Contracts
 
 ## Regola Fondamentale

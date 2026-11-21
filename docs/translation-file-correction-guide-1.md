@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_3636Ve
-=======
 ---
 title: "translation file correction guide 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_cTE7CU
 # Deprecated
 
 This file is deprecated.

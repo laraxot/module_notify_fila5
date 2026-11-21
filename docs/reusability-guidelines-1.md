@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_5ggm8a
-=======
 ---
 title: "reusability guidelines 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_j7TgMC
 # Linee Guida per la Riusabilità del Modulo Notify
 
 ## Principio Fondamentale
@@ -289,8 +286,4 @@ grep -r "database.*<nome progetto>\|app.*<nome progetto>" Modules/Notify/
 - [../../Xot/docs/xotdata_usage.md](../../Xot/docs/xotdata_usage.md)
 - [testing_best_practices.md](testing_best_practices.md)
 
-<<<<<<< .merge_file_5ggm8a
 *Ultimo aggiornamento: gennaio 2025*
-=======
-*Ultimo aggiornamento: gennaio 2025*
->>>>>>> .merge_file_j7TgMC

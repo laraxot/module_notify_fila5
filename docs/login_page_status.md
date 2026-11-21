@@ -342,7 +342,6 @@ Password: password
 **Confidence**: 💯 MASSIMA
 
 
-<<<<<<< .merge_file_yXxrmz
 **Non e' pertinente a questo repository.** Questo progetto (`base_<nome progetto>_fila5`)
 usa il tema "Zero", non "Sixteen", e la pagina di login reale e' la classe
 nativa Filament `Filament\Auth\Pages\Login` servita dai panel Filament
@@ -350,7 +349,5 @@ nativa Filament `Filament\Auth\Pages\Login` servita dai panel Filament
 non un widget Livewire custom in un tema Blade. Con ogni probabilita' e' stato
 copiato da un progetto sibling dello stesso ecosistema mono-repo
 (`base_fixcity_fila5` o `base_ptv_fila5`).
-=======
->>>>>>> .merge_file_8yEpP9
 
 

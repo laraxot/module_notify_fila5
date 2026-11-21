@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_Wzj4VY
-=======
 ---
 title: "whatsapp channel 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_gkz6Xw
 # Implementazione Canale WhatsApp
 
 ## 1. Struttura Base

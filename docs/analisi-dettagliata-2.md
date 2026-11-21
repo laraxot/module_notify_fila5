@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_QIvXC4
-=======
 ---
 title: "analisi dettagliata 2"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_5cIF1q
 # Analisi Dettagliata del Modulo Notify - Parte 2: Modelli e Relazioni
 
 ## 2. Modelli e Relazioni

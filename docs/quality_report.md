@@ -14,9 +14,6 @@ qmd: "Notify quality report phpstan pest coverage test ratio"
 
 Aggiornato: 2026-08-24. Rigenera con: `bashscripts/tools/quality-report.sh Notify`
 
-<<<<<<< .merge_file_Kqx42C
-Canonico: `laravel/Modules/Notify/docs/QUALITY_REPORT.md`. Qui non ci sono istruzioni: seguire il file collegato.
-=======
 | Metrica | Valore |
 |---|---|
 | File PHP (app/) | 233 |
@@ -38,4 +35,3 @@ XDEBUG_MODE=coverage php -d memory_limit=2G ./vendor/bin/pest Modules/Notify/tes
 
 - PHPStan gira a level max su tutto `Modules/`: il valore sopra è quello del singolo modulo.
 - Il coverage completo per tutti i moduli è costoso (~2 min/modulo con Xdebug): da eseguire selettivamente o via CI.
->>>>>>> .merge_file_o5tlCx

@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_yYWOTj
-=======
 ---
 title: "title with slug analysis 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_fgYerA
 # Analisi del Pacchetto Filament Title With Slug
 
 ## Panoramica

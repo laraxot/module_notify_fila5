@@ -44,14 +44,8 @@ discussions: []
 |------|-------|
 | [accessor-auto-persistence.md](./accessor-auto-persistence.md) | Pattern SACRO Accessor con Auto-Persistenza |
 | [ai-agents/index.md](./ai-agents/index.md) | Master index regole condivise Claude/Gemini/Qwen |
-<<<<<<< .merge_file_1fPxcZ
-| [ai-agents/shared/accessor-mutator.md](./ai-agents/shared/accessor-mutator.md) | Pattern Accessor/Mutator: Livelli 1–4, auto-persistenza |
-| [ai-agents/shared/critical-rules.md](critical-rules.md) | PHPStan L10, array syntax, DI, MCP |
-| [ai-agents/shared/critical-rules.md](./critical-rules.md) | PHPStan L10, array syntax, DI, MCP |
-=======
 | [ai-agents/shared/accessor-mutator.md](./ai-agents/shared/accessor-mutator.md) | Pattern Accessor/Mutator — Livelli 1–4, auto-persistenza |
 | [ai-agents/shared/critical-rules.md](./ai-agents/shared/critical-rules.md) | PHPStan L10, array syntax, DI, MCP |
->>>>>>> .merge_file_uLmnWR
 | [ai-agents/shared/translation-rules.md](./ai-agents/shared/translation-rules.md) | Struttura obbligatoria 5 chiavi per campo |
 
 ## Riferimenti bidirezionali

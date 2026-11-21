@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_MV5vIm
-=======
 ---
 title: "email backup 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_bQMAc9
 # Sistema Backup Email
 
 ## Panoramica

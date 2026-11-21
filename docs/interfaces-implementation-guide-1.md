@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_37OOw4
-=======
 ---
 title: "interfaces implementation guide 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_sYZurN
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce

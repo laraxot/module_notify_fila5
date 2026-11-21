@@ -511,17 +511,9 @@ Amen.
 ## Riferimenti
 
 ### Documenti Progetto
-<<<<<<< .merge_file_NqpML6
-- [docs/token-optimization.md](../../docs/token-optimization.md): Tecniche generali
-- [docs/ai-agents/token-efficiency.md](../../../ai-agents/token-efficiency.md): Regole OpenAI
-- [docs/token-optimization.md](../../../token-optimization.md): Tecniche generali
-- [docs/ai-agents/token-efficiency.md](../../../ai-agents/token-efficiency.md): Regole OpenAI
-- [.qwen/memories/auto-label-religion.md](../memories/auto-label-religion.md): Regola auto-label
-=======
 - [docs/token-optimization.md](../../docs/token-optimization.md) — Tecniche generali
 - [docs/ai-agents/token-efficiency.md](../../docs/ai-agents/token-efficiency.md) — Regole OpenAI
 - [.qwen/memories/auto-label-religion.md](../memories/auto-label-religion.md) — Regola auto-label
->>>>>>> .merge_file_DQqjZC
 
 ### Fonti Esterne
 - [Branch8 — Claude Code Token Limits](https://branch8.com/posts/claude-code-token-limits-cost-optimization-apac-teams)

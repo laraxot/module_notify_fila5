@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_dSLAQn
-=======
 ---
 title: "provider actions architecture 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_JJWGra
 # Architettura delle Azioni dei Provider in Notify
 
 ## Struttura e Principi Fondamentali

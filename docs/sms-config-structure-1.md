@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_B5zwoZ
-=======
 ---
 title: "sms config structure 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_5ZfOdL
 # Struttura della Configurazione SMS
 
 ## Introduzione
@@ -168,8 +165,6 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ---
 
-<<<<<<< .merge_file_B5zwoZ
-=======
 title: "sms config structure 1"
 type: note
 tags: [documentation]
@@ -178,5 +173,4 @@ updated: 2026-09-26
 qmd: "sms config structure 1"
 issues: []
 discussions: []
->>>>>>> .merge_file_5ZfOdL
 *Ultimo aggiornamento: 2025-05-12*

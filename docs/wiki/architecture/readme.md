@@ -41,12 +41,7 @@ e
    - Alternative considerate e scartate
    - Raccomandazione finale: ✅ IMPLEMENTARE
 
-<<<<<<< .merge_file_v3GnfG
-2. **[Strategia di Implementazione](../../architecture/xotbasepivot-strategy.md)** 📋
-2. **[Strategia di Implementazione](../../architecture/xotbasepivot-strategy.md)** 📋
-=======
 2. **[Strategia di Implementazione](./xotbasepivot-strategy.md)** 📋
->>>>>>> .merge_file_6mOc1G
    - Piano step-by-step (3-4 ore)
    - Moduli impattati (13 moduli, 26 file)
    - Script di migration automatici
@@ -126,12 +121,7 @@ Leggere in ordine:
 
 ### 3. Implementation (3-4 ore)
 
-<<<<<<< .merge_file_v3GnfG
-Seguire [xotbasepivot-strategy.md](../../architecture/xotbasepivot-strategy.md) step-by-step:
-Seguire [xotbasepivot-strategy.md](../../architecture/xotbasepivot-strategy.md) step-by-step:
-=======
 Seguire [xotbasepivot-strategy.md](./xotbasepivot-strategy.md) step-by-step:
->>>>>>> .merge_file_6mOc1G
 
 1. ✅ Creare XotBasePivot (30 min)
 2. ✅ Migrare User module (45 min)

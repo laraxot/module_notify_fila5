@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_G5QjNF
-=======
 ---
 title: "filament template conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_htQLgL
 # Convenzioni per Template Blade di Filament
 
 ## Struttura Standard dei Template di Pagina

@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_52dkMm
-=======
 ---
 title: "translation implementation plan 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_3o7nj9
 # Deprecated
 
 This file is deprecated.

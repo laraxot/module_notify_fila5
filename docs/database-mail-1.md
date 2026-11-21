@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_KDOxSa
-=======
 ---
 title: "database mail 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_mCGtTP
 # Deprecated
 
 This file is deprecated.

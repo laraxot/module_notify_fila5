@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_Ggw2hA
-=======
 ---
 title: "analysis dettagliata 3"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_FF5Xkz
 # Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 
 ## 3. Servizi Core

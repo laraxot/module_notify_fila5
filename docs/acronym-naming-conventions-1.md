@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_F2ay2q
-=======
 ---
 title: "acronym naming conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_FMrRr4
 # Convenzioni di Naming per Acronimi
 
 ## Regola Fondamentale

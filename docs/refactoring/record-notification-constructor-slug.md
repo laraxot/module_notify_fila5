@@ -251,12 +251,7 @@ $notification = new RecordNotification($record, 'welcome');
 - [RECORD_NOTIFICATION_ZEN_CONSTRUCTOR.md](./record_notification_zen_constructor.md) - Filosofia Zen per costruttore
 - [RecordNotification Zen Delegation](./record-notification-zen-delegation.md) - **✅ Pattern attuale**: Delega completa a SpatieEmail
 - [record-notification.md](../notifications/record-notification.md) - Documentazione completa RecordNotification
-<<<<<<< .merge_file_LvuBUW
-- [send-record-notification-action.md](send-record-notification-action.md) - Documentazione SendRecordNotificationAction
-- [send-record-notification-action.md](send-record-notification-action.md) - Documentazione SendRecordNotificationAction
-=======
 - [send-record-notification-action.md](../actions/send-record-notification-action.md) - Documentazione SendRecordNotificationAction
->>>>>>> .merge_file_wPNEkj
 
 ## ⚠️ Nota Importante
 

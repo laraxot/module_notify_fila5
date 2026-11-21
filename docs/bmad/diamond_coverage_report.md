@@ -15,9 +15,6 @@ updated: 2026-10-06
 **Obiettivo**: 100% Test Coverage  
 **Status**: 🚀 IN PROGRESS  
 
-<<<<<<< .merge_file_pNAN94
-Canonico: `laravel/Modules/Notify/docs/bmad/DIAMOND_COVERAGE_REPORT.md`. Qui non ci sono istruzioni: seguire il file collegato.
-=======
 ---
 
 ## 🎯 OBIETTIVO DIAMANTE
@@ -336,4 +333,3 @@ php artisan test --parallel
 *"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. FixCity sarà il diamante più brillante del 2025!"*
 
 **#FixCity2025 #DiamondCoverage #TestExcellence #100Percent**
->>>>>>> .merge_file_24Mz9k

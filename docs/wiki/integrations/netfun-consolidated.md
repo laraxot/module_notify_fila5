@@ -3913,15 +3913,9 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 - [Documentazione Completa Netfun Channel](./sms-netfun-channel.md)
 - [Esempi di Utilizzo Netfun](./netfun-examples.md)
-<<<<<<< .merge_file_X4Jtm0
-- [Documentazione Completa Netfun Channel](./sms-netfun-channel.md)
-- [Esempi di Utilizzo Netfun](./netfun-examples.md)
-- [Risoluzione Conflitti Netfun](../../netfunchannel-conflict-resolution.md)
-=======
 - [Documentazione Completa Netfun Channel](./sms-netfun-channel-2.md)
 - [Esempi di Utilizzo Netfun](./netfun-examples-2.md)
 - [Risoluzione Conflitti Netfun](./netfunchannel-conflict-resolution.md)
->>>>>>> .merge_file_rFhfRB
 
 ---
 

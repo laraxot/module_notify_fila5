@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_pRSJ0q
-=======
 ---
 title: "appointment notifications 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_Gp4IvS
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica

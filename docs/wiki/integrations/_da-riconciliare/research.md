@@ -41,10 +41,5 @@ updated: 2026-08-24
 - Usability test sul nuovo pannello Filament 5.
 
 ## 6. References
-<<<<<<< .merge_file_hwc1w4
-- [strategy.md](../../../strategy.md)
-- [strategy.md](../../../strategy.md)
-=======
 - [strategy.md](strategy.md)
->>>>>>> .merge_file_nIdiWX
 - [prd.md](prd.md)

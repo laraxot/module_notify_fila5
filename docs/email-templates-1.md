@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_PXtbMq
-=======
 ---
 title: "email templates 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_AU193H
 # Deprecated
 
 This file is deprecated.

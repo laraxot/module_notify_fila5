@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_acXlWO
-=======
 ---
 title: "filament xot architecture 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_TMXCVt
 # Architettura Filament : Pattern XotBase
 
 ## Introduzione

@@ -4,7 +4,6 @@ type: concept
 tags: [quick, start]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "quick-start 🚀 fixcity - guida rapida sviluppatori"
 qmd: "quick-start 🚀 ptv - guida rapida sviluppatori"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -511,12 +510,7 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 
 ### Regole Progetto
 - **[Laraxot Rules](./.windsurf/rules/user_15338591596331277449.md)**
-<<<<<<< .merge_file_YVH5sU
-- **[Code Quality](ai-agents/code-quality.md)**
-- **[Code Quality](./ai-agents/code-quality.md)**
-=======
 - **[Code Quality](./.windsurf/rules/code-quality.md)**
->>>>>>> .merge_file_H3x8VO
 - **[Project Rules](./.windsurf/rules/project-rules.md)**
 
 ---

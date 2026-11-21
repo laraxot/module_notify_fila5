@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_H6HLr2
-=======
 ---
 title: "naming conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_TdXuCZ
 # Convenzioni di Naming
 
 ## Regole Generali

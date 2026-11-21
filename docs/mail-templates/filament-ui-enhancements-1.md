@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_cxw4wg
-=======
 ---
 title: "filament ui enhancements 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_eI9dEU
 # Miglioramenti UI/UX per MailTemplateResource
 
 ## Componenti Filament Consigliati

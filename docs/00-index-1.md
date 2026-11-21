@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_mtvzaM
-=======
 ---
 title: "00 index 1"
 type: note
@@ -11,5 +9,4 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_sNlIcw
 # Documentation Index

@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_XQ8CVd
-=======
 ---
 title: "filament extension pattern analysis 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_EnXsIC
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore

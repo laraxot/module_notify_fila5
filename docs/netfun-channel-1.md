@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_vC8AyS
-=======
 ---
 title: "netfun channel 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_qnmTG7
 # Implementazione Canale Netfun
 
 ## 1. Struttura Base

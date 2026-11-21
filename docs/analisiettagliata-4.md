@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_FGELaB
-=======
 ---
 title: "analisiettagliata 4"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_BVnSvV
 # Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
 
 ## 4. Integrazione con Filament

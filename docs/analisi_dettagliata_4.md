@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_4QeHEh
-=======
 ---
 title: "analisi dettagliata 4"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_hdur7w
 # Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
 
 ## 4. Integrazione con Filament
@@ -697,8 +694,5 @@ class TemplateTestPage extends Page
         $this->notify('success', 'Email inviata con successo');
     }
 } 
-<<<<<<< .merge_file_4QeHEh
-=======
 
 ```
->>>>>>> .merge_file_hdur7w

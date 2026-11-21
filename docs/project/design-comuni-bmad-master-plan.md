@@ -375,15 +375,9 @@ _bmad-output/
 - **Files:** 221
 - **Index:** [Sixteen Docs Index](Themes/Sixteen/docs/00-index.md)
 - **Key Topics:**
-<<<<<<< .merge_file_wDegIR
-  - [Layout Architecture](Themes/Sixteen/docs/layout-architecture-and-namespace.md)
-  - [Theme Detection](theme-detection-system.md)
-  - [Design Comuni Replication](Themes/Sixteen/docs/design-comuni-html-replication.md)
-=======
   - [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md)
   - [Theme Detection](docs/project/theme-detection-system.md)
   - [Design Comuni Replication](Themes/Sixteen/docs/DESIGN_COMUNI_HTML_REPLICATION.md)
->>>>>>> .merge_file_hWCUED
 ```
 
 ---
@@ -601,14 +595,8 @@ pages/tests/argomenti.blade.php     # NO
 ### Key Documents
 
 - [Master Index](docs/project/module-docs-index.md)
-<<<<<<< .merge_file_wDegIR
-- [Theme Detection](theme-detection-system.md)
-- [Theme Detection](theme-detection-system.md)
-- [Layout Architecture](Themes/Sixteen/docs/layout-architecture-and-namespace.md)
-=======
 - [Theme Detection](docs/project/theme-detection-system.md)
 - [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md)
->>>>>>> .merge_file_hWCUED
 - [Page Component](Modules/Cms/docs/PAGE_COMPONENT_architecture.md)
 
 ### External Resources

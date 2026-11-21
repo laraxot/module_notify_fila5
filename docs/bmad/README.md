@@ -8,7 +8,6 @@ updated: 2026-08-02
 
 # Documentation
 
-<<<<<<< .merge_file_md0uMC
 ## Kit BMAD owner (canonico)
 
 - [BMAD Planning](bmad-planning.md)
@@ -17,8 +16,6 @@ updated: 2026-08-02
 - [Project context](./project-context.md)
 - [Decision log](./decision-log.md)
 
-=======
->>>>>>> .merge_file_Qsb1gf
 This directory contains documentation for the Notify module.
 
 ## Structure

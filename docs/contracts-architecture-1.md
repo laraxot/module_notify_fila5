@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_WGJL9A
-=======
 ---
 title: "contracts architecture 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_q9SWLc
 # Architettura delle Interfacce (Contracts) in Notify
 
 ## Principi Architetturali Fondamentali

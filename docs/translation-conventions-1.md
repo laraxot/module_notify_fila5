@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_Kjmwvb
-=======
 ---
 title: "translation conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_znk2sZ
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali

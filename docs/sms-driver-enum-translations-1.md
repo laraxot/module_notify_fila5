@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_M6WOMc
-=======
 ---
 title: "sms driver enum translations 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_Xg80Yn
 # Traduzioni SmsDriverEnum - Modulo Notify
 
 ## Panoramica
@@ -234,8 +231,6 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ---
 
-<<<<<<< .merge_file_M6WOMc
-=======
 title: "sms driver enum translations 1"
 type: note
 tags: [documentation]
@@ -244,7 +239,6 @@ updated: 2026-09-26
 qmd: "sms driver enum translations 1"
 issues: []
 discussions: []
->>>>>>> .merge_file_Xg80Yn
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)

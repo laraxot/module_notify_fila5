@@ -51,12 +51,7 @@ discussions: []
 
 ### Documentazione Architetturale
 - [Design Patterns](./architecture.md) - Pattern architetturali
-<<<<<<< .merge_file_D3jWQO
-- [Database Schema](wiki/schema.md) - Schema database
-- [Database Schema](./wiki/schema.md) - Schema database
-=======
 - [Database Schema](./database/schema.md) - Schema database
->>>>>>> .merge_file_UlIK7B
 - [API Documentation](./api/README.md) - Documentazione API
 - [Security](./security/README.md) - Sicurezza e conformità
 
@@ -217,29 +212,13 @@ discussions: []
 
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
-<<<<<<< .merge_file_D3jWQO
-- [Laravel Best Practices](html2pdf/laravel.md) - Best practices Laravel
-- [Environment Setup](./ai-agents/setup.md) - Configurazione ambiente
-- [Docker Setup](./development/docker.md) - Configurazione Docker
-- [Database Setup](./ai-agents/setup.md) - Setup database
-
-### Coding Guidelines
-- [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
-- [Laravel Best Practices](./html2pdf/laravel.md) - Best practices Laravel
-=======
 - [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
->>>>>>> .merge_file_UlIK7B
 - [Filament Guidelines](./standards/filament.md) - Linee guida Filament
 - [Blade Components](./standards/blade.md) - Componenti Blade
 
 ### Quality Assurance
 - [PHPStan Configuration](./phpstan/README.md) - Analisi statica
-<<<<<<< .merge_file_D3jWQO
-- [Testing Strategy](strategy.md) - Strategia testing
-- [Testing Strategy](./strategy.md) - Strategia testing
-=======
 - [Testing Strategy](./testing/strategy.md) - Strategia testing
->>>>>>> .merge_file_UlIK7B
 - [CI/CD Pipeline](./ci-cd/README.md) - Continuous integration
 
 ---
@@ -280,12 +259,7 @@ discussions: []
 - [Error Tracking](./monitoring/errors.md) - Tracking errori
 
 ### Analytics
-<<<<<<< .merge_file_D3jWQO
-- [Usage Analytics](html2pdf/usage.md) - Analisi utilizzo
-- [Usage Analytics](./html2pdf/usage.md) - Analisi utilizzo
-=======
 - [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
->>>>>>> .merge_file_UlIK7B
 - [Business Metrics](./analytics/business.md) - Metriche business
 
 ---
@@ -293,12 +267,7 @@ discussions: []
 ## 🔒 Security
 
 ### Security Documentation
-<<<<<<< .merge_file_D3jWQO
-- [Security Guidelines](ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
-- [Security Guidelines](./ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
-=======
 - [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
->>>>>>> .merge_file_UlIK7B
 - [GDPR Compliance](./security/gdpr.md) - Conformità GDPR
 - [Authentication](./security/authentication.md) - Sistema autenticazione
 - [Authorization](./security/authorization.md) - Sistema autorizzazioni

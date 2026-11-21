@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_NMXeia
-=======
 ---
 title: "test smtp 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_CwTjBF
 # test_smtp
 
 <!-- Contenuto migrato da _docs/test_smtp.txt -->

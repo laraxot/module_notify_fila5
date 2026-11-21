@@ -58,13 +58,8 @@ incollato dall'utente (troncato lì solo per condividerlo in chat).
 
 Verificato che non fosse un comportamento già discusso/voluto: nessuna
 story, issue o discussion esistente (in `module_notify_fila5`,
-<<<<<<< .merge_file_Xj6cG6
-`module_<nome progetto>_fila5`, `base_<nome progetto>_fila5`) parla del livello di log
-sbagliato: solo di problemi di configurazione ormai risolti (token,
-=======
 `module_quaeris_fila5`, `base_quaeris_fila5`) parla del livello di log
 sbagliato — solo di problemi di configurazione ormai risolti (token,
->>>>>>> .merge_file_MhlmNn
 driver, sender) o del refactor delle factory SMS/Telegram/WhatsApp
 (discussion [module_notify_fila5#50](https://github.com/laraxot/module_notify_fila5/discussions/50),
 non pertinente a questo punto).

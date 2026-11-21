@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_r1R5cE
-=======
 ---
 title: "analisi dettagliata 8"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_HSikm4
 # Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 
 ## 8. Note Finali

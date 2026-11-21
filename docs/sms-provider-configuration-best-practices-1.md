@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_o80dm5
-=======
 ---
 title: "sms provider configuration best practices 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_ByRLVq
 # Best Practices per la Configurazione dei Provider SMS
 
 ## Struttura Corretta della Configurazione

@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_MFRCxw
-=======
 ---
 title: "filament resource pages architecture 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_1TWlTo
 # Architettura delle Pagine di Risorse Filament
 
 ## Regola Fondamentale

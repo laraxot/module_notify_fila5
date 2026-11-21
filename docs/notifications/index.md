@@ -22,12 +22,7 @@ related:
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../index.md)
 - [README Modulo Notify](../readme.md)
-<<<<<<< .merge_file_y1gBUN
-- [Documentazione Generale <nome progetto>](../../../../../../docs/readme.md)
-- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
-=======
 - [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
->>>>>>> .merge_file_2hi9kL
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione

@@ -26,10 +26,6 @@ discussions: []
 13. **Source code in `app/` only** — Data Objects, Actions, Models, Services MUST be in `app/`, NEVER in module root.
 
 ---
-<<<<<<< .merge_file_wl6gQq
-[Back to index](../index.md) | [Full Rules](../../critical-rules.md)
-[Back to index](../../../index.md) | [Full Rules](../../critical-rules.md)
-=======
 title: "critical rules summary"
 type: note
 tags: [documentation]
@@ -39,4 +35,3 @@ qmd: "critical rules summary"
 issues: []
 discussions: []
 [Back to index](../index.md) | [Full Rules](../critical-rules.md)
->>>>>>> .merge_file_BZZmha

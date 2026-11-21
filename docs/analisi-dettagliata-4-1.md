@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_NDK2Tu
-=======
 ---
 title: "analisi dettagliata 4 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_3YgGRi
 # Analisi Dettagliata del Modulo Notify - Parte 4: Integrazione con Filament
 
 ## 4. Integrazione con Filament

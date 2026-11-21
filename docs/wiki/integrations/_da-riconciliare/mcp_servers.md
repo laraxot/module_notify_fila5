@@ -140,12 +140,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
   - `qmd update` - Re-index collections
   - `qmd embed` - Generate vector embeddings
 - **MCP**: `qmd mcp` (stdio transport)
-<<<<<<< .merge_file_zHqlwK
-- **Docs**: [qmd-local-docs-search.md](../../../project/qmd-local-docs-search.md)
-- **Docs**: [qmd-local-docs-search.md](../../../project/qmd-local-docs-search.md)
-=======
 - **Docs**: [qmd-local-docs-search.md](./project/qmd-local-docs-search.md)
->>>>>>> .merge_file_cyjniB
 
 ## Configuration
 

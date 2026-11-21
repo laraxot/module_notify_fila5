@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_mtixOz
-=======
 ---
 title: "translations implementation status 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_2aw38e
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica

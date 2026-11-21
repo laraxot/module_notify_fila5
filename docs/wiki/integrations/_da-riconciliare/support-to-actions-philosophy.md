@@ -20,12 +20,7 @@ related:
 
 # da Support a Actions — Filosofia
 
-<<<<<<< .merge_file_G8AHT4
-> **Aggiornato 2026-07-12:** `app/Support/` è **eliminato** nel modulo Notify. Canonico: [wiki/concepts/no-app-support-queueable-actions.md](../../concepts/no-app-support-queueable-actions.md).
-> **Aggiornato 2026-07-12:** `app/Support/` è **eliminato** nel modulo Notify. Canonico: [wiki/concepts/no-app-support-queueable-actions.md](../../concepts/no-app-support-queueable-actions.md).
-=======
 > **Aggiornato 2026-07-12:** `app/Support/` è **eliminato** nel modulo Notify. Canonico: [wiki/concepts/no-app-support-queueable-actions.md](wiki/concepts/no-app-support-queueable-actions.md).
->>>>>>> .merge_file_62Zb7m
 
 ## Principio (post-migrazione)
 
@@ -64,14 +59,7 @@ Tutte le classi in `app/Actions/` DEVONO:
 
 ## Collegamenti
 
-<<<<<<< .merge_file_G8AHT4
-- [no-app-support-queueable-actions](../../concepts/no-app-support-queueable-actions.md)
-- [claude-audit-static](../../concepts/claude-audit-static.md)
-- [no-app-support-queueable-actions](../../concepts/no-app-support-queueable-actions.md)
-- [claude-audit-static](../../concepts/claude-audit-static.md)
-=======
 - [no-app-support-queueable-actions](wiki/concepts/no-app-support-queueable-actions.md)
 - [claude-audit-static](wiki/concepts/claude-audit-static.md)
->>>>>>> .merge_file_62Zb7m
 - Issue [#372](https://github.com/laraxot/platform/issues/372) · Discussion [#273](https://github.com/laraxot/platform/discussions/273)
 - Issue [#372](https://github.com/laraxot/<nome repitory>/issues/372) · Discussion [#273](https://github.com/laraxot/<nome repitory>/discussions/273)

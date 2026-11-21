@@ -353,12 +353,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 **[→ ANALISI COMPLETA](./analisi-completa.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
-<<<<<<< .merge_file_OU3S9Z
-**[→ Master Roadmap Index](../../../roadmap-master-index.md)** - Indice completo roadmap moduli
-**[→ Master Roadmap Index](../../../roadmap-master-index.md)** - Indice completo roadmap moduli
-=======
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
->>>>>>> .merge_file_C0JLwd
 
 ### 📊 TECHNICAL
 **[→ Session Summary](./phpstan/session-summary-.md.md)** - Dettagli tecnici sessione
@@ -562,12 +557,7 @@ php artisan queue:work --queue=high,notifications,default
 ## 🔗 LINK FINALI
 
 - [← Torna all'Indice](./index.md)
-<<<<<<< .merge_file_OU3S9Z
-- [← Master Roadmap](../../../roadmap-master-index.md)
-- [← Master Roadmap](../../../roadmap-master-index.md)
-=======
 - [← Master Roadmap](./roadmap-master-index.md)
->>>>>>> .merge_file_C0JLwd
 - [← Analisi Completa](./analisi-completa.md)
 
 ---
@@ -930,15 +920,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 **[→ ANALISI COMPLETA](./ANALISI-COMPLETA-2025-10-01.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
-<<<<<<< .merge_file_OU3S9Z
-**[→ Master Roadmap Index](../../../roadmap-master-index.md)** - Indice completo roadmap moduli
-**[→ ANALISI COMPLETA](../../../analisi-completa-ottobre-data.md)** - Executive Summary del progetto
-
-### 🗺️ ROADMAP
-**[→ Master Roadmap Index](../../../roadmap-master-index.md)** - Indice completo roadmap moduli
-=======
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
->>>>>>> .merge_file_C0JLwd
 
 ### 📊 TECHNICAL
 **[→ Session Summary](./phpstan/session-summary-2025-10-01.md)** - Dettagli tecnici sessione
@@ -1144,15 +1126,8 @@ php artisan queue:work --queue=high,notifications,default
 ## 🔗 LINK FINALI
 
 - [← Torna all'Indice](./index.md)
-<<<<<<< .merge_file_OU3S9Z
-- [← Master Roadmap](../../../roadmap-master-index.md)
-- [← Analisi Completa](./ANALISI-COMPLETA.md)
-- [← Master Roadmap](../../../roadmap-master-index.md)
-- [← Analisi Completa](../../../analisi-completa-ottobre-data.md)
-=======
 - [← Master Roadmap](./roadmap-master-index.md)
 - [← Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)
->>>>>>> .merge_file_C0JLwd
 
 ---
 

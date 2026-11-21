@@ -496,15 +496,8 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 
 ### Documentazione
 - **[Indice Documentazione](./documentation-index.md)**
-<<<<<<< .merge_file_ciYqZG
-- **[Roadmap Status](../../../roadmap-status-summary.md)**
-- **[Documentation Status](../../../project_docs/documentation-status.md)**
-- **[Roadmap Status](../../../roadmap-status-summary.md)**
-- **[Documentation Status](../../../project_docs/documentation-status.md)**
-=======
 - **[Roadmap Status](./roadmap-status-summary.md)**
 - **[Documentation Status](./project_docs/documentation-status.md)**
->>>>>>> .merge_file_tUJ89A
 
 ### Framework
 - **[Laravel Docs](https://laravel.com/docs/11.x)**
@@ -513,12 +506,7 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 
 ### Regole Progetto
 - **[Laraxot Rules](./.windsurf/rules/user_15338591596331277449.md)**
-<<<<<<< .merge_file_ciYqZG
-- **[Code Quality](../../../ai-agents/code-quality.md)**
-- **[Code Quality](../../../ai-agents/code-quality.md)**
-=======
 - **[Code Quality](./.windsurf/rules/code-quality.md)**
->>>>>>> .merge_file_tUJ89A
 - **[Project Rules](./.windsurf/rules/project-rules.md)**
 
 ---

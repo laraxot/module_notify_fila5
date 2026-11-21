@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_bXCxTd
-=======
 ---
 title: "database mail system 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_zE3ikS
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica

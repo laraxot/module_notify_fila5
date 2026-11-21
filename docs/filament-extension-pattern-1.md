@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_k4oLiP
-=======
 ---
 title: "filament extension pattern 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_4xKL4u
 # Pattern di Estensione per Componenti Filament
 
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.

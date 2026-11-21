@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_2Z7qVi
-=======
 ---
 title: "current work status 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_3oSR4s
 # Stato Attuale del Lavoro - 12 Maggio 2025
 
 ## Problematiche Identificate

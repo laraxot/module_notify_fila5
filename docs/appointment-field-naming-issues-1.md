@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_R9szX8
-=======
 ---
 title: "appointment field naming issues 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_lExTNP
 # Appointment Field Naming Issues
 
 ## Overview

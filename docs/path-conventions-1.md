@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_ge1fIF
-=======
 ---
 title: "path conventions 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_78iJaf
 # Convenzioni sui Percorsi
 
 ## Regole Fondamentali

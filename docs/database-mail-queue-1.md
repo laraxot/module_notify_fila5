@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_Jd7liM
-=======
 ---
 title: "database mail queue 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_EtFAYQ
 # Deprecated
 
 This file is deprecated.

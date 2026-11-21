@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_FIfRYD
-=======
 ---
 title: "dynamic class resolution 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_VZN9ib
 # Risoluzione Dinamica delle Classi nei Factory Pattern
 
 Questo documento analizza l'approccio di risoluzione dinamica delle classi nei factory pattern, confrontandolo con l'approccio basato su match esplicito.

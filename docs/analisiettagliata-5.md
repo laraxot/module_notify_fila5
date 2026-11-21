@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_dXB45k
-=======
 ---
 title: "analisiettagliata 5"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_UNUnHJ
 # Analisi Dettagliata del Modulo Notify - Parte 5: Testing
 
 ## 5. Testing

@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_sYJHCL
-=======
 ---
 title: "filament page naming convention 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_QZhSiM
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale

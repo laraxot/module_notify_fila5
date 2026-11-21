@@ -1,26 +1,17 @@
 ---
-<<<<<<< .merge_file_doExME
-=======
 qmd: "INDEX"
 issues: []
 discussions: []
->>>>>>> .merge_file_aQiYpI
 title: "concepts index — Notify"
 type: index
 tags: [concepts, Notify]
 created: 2026-05-11
-<<<<<<< .merge_file_doExME
-updated: 2026-05-11
-=======
 updated: 2026-06-10
->>>>>>> .merge_file_aQiYpI
 ---
 
 # concepts Index — Notify
 
 Concetti specifici del modulo Notify. Carica on-demand via `qmd search` o consulta il [trigger map root](/docs/wiki/rules/00-TRIGGER_MAP.md).
-<<<<<<< .merge_file_doExME
-=======
 
 ## Schema notifications (2026-06-10)
 
@@ -33,4 +24,3 @@ Concetti specifici del modulo Notify. Carica on-demand via `qmd search` o consul
 - UI Folio: [User notifications-folio-page](../../User/docs/wiki/concepts/notifications-folio-page.md)
 - Audit rotte FO: [Cms folio-list-vs-route-list](../../Cms/docs/wiki/concepts/folio-list-vs-route-list.md)
 
->>>>>>> .merge_file_aQiYpI

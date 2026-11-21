@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_sF4Xjx
-=======
 ---
 title: "sms troubleshooting 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_L5YBJ5
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni

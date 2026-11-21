@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_vApb1Q
-=======
 ---
 title: "path and interface rules 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_xD9Ed3
 # Regole di Percorso e Interfacce nel Modulo Notify
 
 ## Principi Fondamentali

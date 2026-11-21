@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_FjAoat
-=======
 ---
 title: "analysis dettagliata 6"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_r8bJZZ
 # Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
 
 ## 6. Monitoraggio e Analytics
