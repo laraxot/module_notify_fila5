@@ -607,7 +607,11 @@ Documentation for `notify` module categorized as **integrations**.
 - [`eloquent-properties-best-practices.md`](./eloquent-properties-best-practices.md)
 - [`email-analytics-1.md`](./email-analytics-1.md)
 - [`email-analytics.md`](./email-analytics.md)
+<<<<<<< .merge_file_xU3DMQ
+- [`email-backup.md`](./email-backup.md)
+=======
 - [`email-backup-1.md`](./email-backup-1.md)
+>>>>>>> .merge_file_DZWrUx
 - [`email-backup-2.md`](./email-backup-2.md)
 - [`email-backup.md`](./email-backup.md)
 - [`email-best-practices-1.md`](./email-best-practices-1.md)
@@ -699,7 +703,11 @@ Documentation for `notify` module categorized as **integrations**.
 - [`html-parity-rules.md`](./html-parity-rules.md)
 - [`html-structure-comparison.md`](./html-structure-comparison.md)
 - [`immediate-action-plan-30-days.md`](./immediate-action-plan-30-days.md)
+<<<<<<< .merge_file_xU3DMQ
+- [`implementation-guide.md`](./implementation-guide.md)
+=======
 - [`implementation-guide-1.md`](./implementation-guide-1.md)
+>>>>>>> .merge_file_DZWrUx
 - [`implementation-guide.md`](./implementation-guide.md)
 - [`implementation-pratica.md`](./implementation-pratica.md)
 - [`implementation-summary-.md`](./implementation-summary-.md)
@@ -740,7 +748,11 @@ Documentation for `notify` module categorized as **integrations**.
 - [`json-best-practices.md`](./json-best-practices.md)
 - [`json_best_practices.md`](./json_best_practices.md)
 - [`kdown-linking-conventions.md`](./kdown-linking-conventions.md)
+<<<<<<< .merge_file_xU3DMQ
+- [`lang-link.md`](./lang-link.md)
+=======
 - [`lang-link-1.md`](./lang-link-1.md)
+>>>>>>> .merge_file_DZWrUx
 - [`lang-link.md`](./lang-link.md)
 - [`lang_link.md`](./lang-link.md)
 - [`laravel-13-upgrade.md`](./laravel-13-upgrade.md)

@@ -10548,7 +10548,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/integration.md`: Integration
 - `laravel/Modules/Activity/docs/jpgraph-class-reference-comprehensive-analysis.md`: 📚 JpGraph Class Reference - Analisi Completta 2024
 - `laravel/Modules/Activity/docs/jpgraph.md`: JpGraph 4.4.2 Guide
-- `laravel/Modules/Activity/docs/lang-link-1.md`: Collegamento alle Traduzioni del Modulo Activity
+- `laravel/Modules/Activity/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo Activity
 - `laravel/Modules/Activity/docs/lang-link-collegamento-alle-traduzioni-modulo.md`: Collegamento alle Traduzioni del Modulo Activity
 - `laravel/Modules/Activity/docs/lang-link-duplicate.md`: Collegamento alle Traduzioni del Modulo Activity
 - `laravel/Modules/Activity/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo Activity
@@ -11526,7 +11526,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/advanced/echarts.md`: Echarts {#echarts}
 - `laravel/Modules/Cms/docs/aggiornamenti.md`: Aggiornamenti {#aggiornamenti}
 - `laravel/Modules/Cms/docs/agid-compliance.md`: 🏛️ AGID Compliance - CMS Module
-- `laravel/Modules/Cms/docs/algolia-docsearch-1.md`: Algolia DocSearch {#algolia-docsearch}
+- `laravel/Modules/Cms/docs/algolia-docsearch.md`: Algolia DocSearch {#algolia-docsearch}
 - `laravel/Modules/Cms/docs/algolia-docsearch.md`: Algolia DocSearch {#algolia-docsearch}
 - `laravel/Modules/Cms/docs/algolia_docsearch.md`: Algolia DocSearch {#algolia-docsearch}
 - `laravel/Modules/Cms/docs/analisi-componenti-blade-laravel-1.md`: Analisi Corretta dei Componenti Blade in Laravel
@@ -11904,7 +11904,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/phpstan-errors-roadmap.md`: PHPStan Level 10 Errors Roadmap - Cms Module
 - `laravel/Modules/Cms/docs/phpstan-errors.md`: PHPStan Errors - Cms Module
 - `laravel/Modules/Cms/docs/phpstan-fixes-.md`: PHPStan Fixes for Cms Module (2025-12-30)
-- `laravel/Modules/Cms/docs/phpstan-fixes-gennaio-2025.md`: Correzioni PHPStan - Gennaio 2025
+- `laravel/Modules/Cms/docs/phpstan-fixes-gennaio.md`: Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/Cms/docs/phpstan-fixes-january.md`: Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/Cms/docs/phpstan-fixes-roadmap.md`: PHPStan Level 10 Fixes Roadmap - Modulo Cms
 - `laravel/Modules/Cms/docs/phpstan-fixes-summary.md`: PHPStan Fixes Summary - CMS Module
@@ -12142,7 +12142,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/_integration/links.md`: links
 - `laravel/Modules/Gdpr/docs/_integration/repo.md`: repo
 - `laravel/Modules/Gdpr/docs/actions.md`: GDPR Actions
-- `laravel/Modules/Gdpr/docs/algolia-docsearch-1.md`: Algolia DocSearch {#algolia-docsearch}
+- `laravel/Modules/Gdpr/docs/algolia-docsearch.md`: Algolia DocSearch {#algolia-docsearch}
 - `laravel/Modules/Gdpr/docs/algolia-docsearch-duplicate.md`: algolia-docsearch-duplicate
 - `laravel/Modules/Gdpr/docs/algolia-docsearch.md`: algolia-docsearch
 - `laravel/Modules/Gdpr/docs/algolia_docsearch.md`: algolia_docsearch
@@ -12165,11 +12165,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/configuration.md`: configuration
 - `laravel/Modules/Gdpr/docs/conflicts.md`: Risoluzione Conflitti - Gdpr
 - `laravel/Modules/Gdpr/docs/conflitti-merge-risolti.md`: Risoluzione Conflitti di Merge in Modulo GDPR
-- `laravel/Modules/Gdpr/docs/consent-packages-research-1.md`: Research: GDPR & Legal Consent Packages
+- `laravel/Modules/Gdpr/docs/consent-packages-research.md`: Research: GDPR & Legal Consent Packages
 - `laravel/Modules/Gdpr/docs/consent-packages-research.md`: consent-packages-research
 - `laravel/Modules/Gdpr/docs/consent_packages_research.md`: consent_packages_research
 - `laravel/Modules/Gdpr/docs/consents.md`: consents
-- `laravel/Modules/Gdpr/docs/cookie-consent-1.md`: cookie-consent-1
+- `laravel/Modules/Gdpr/docs/cookie-consent.md`: cookie-consent-1
 - `laravel/Modules/Gdpr/docs/cookie-consent.md`: cookie-consent
 - `laravel/Modules/Gdpr/docs/core-functionality.md`: core-functionality
 - `laravel/Modules/Gdpr/docs/coverage.md`: Code Coverage: Gdpr
@@ -12206,7 +12206,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/gdpr-pdf-reports.md`: GDPR PDF Reports - HTML2PDF Integration
 - `laravel/Modules/Gdpr/docs/getting-started.md`: GDPR Module - Getting Started
 - `laravel/Modules/Gdpr/docs/getting_started.md`: getting_started
-- `laravel/Modules/Gdpr/docs/google-analytics-1.md`: google-analytics-1
+- `laravel/Modules/Gdpr/docs/google-analytics.md`: google-analytics-1
 - `laravel/Modules/Gdpr/docs/google-analytics.md`: google-analytics
 - `laravel/Modules/Gdpr/docs/guida-migrazione-step-by-step.md`: guida-migrazione-step-by-step
 - `laravel/Modules/Gdpr/docs/html2pdf/README.md`: Html2Pdf - Panoramica e Installazione
@@ -12222,7 +12222,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/implementation-guide.md`: GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/index.md`: GDPR Module Documentation
 - `laravel/Modules/Gdpr/docs/integration.md`: integration
-- `laravel/Modules/Gdpr/docs/lang-link-1.md`: Collegamento alle Traduzioni del Modulo Gdpr
+- `laravel/Modules/Gdpr/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo Gdpr
 - `laravel/Modules/Gdpr/docs/lang-link.md`: lang-link
 - `laravel/Modules/Gdpr/docs/lang_link.md`: lang_link
 - `laravel/Modules/Gdpr/docs/links.md`: links
@@ -12238,7 +12238,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/model-factory-seeder-audit.md`: model-factory-seeder-audit
 - `laravel/Modules/Gdpr/docs/models-factory-seeder-analysis.md`: models-factory-seeder-analysis
 - `laravel/Modules/Gdpr/docs/module-analysis.md`: Gdpr Module - Comprehensive Analysis
-- `laravel/Modules/Gdpr/docs/module-gdpr-1.md`: Modulo GDPR
+- `laravel/Modules/Gdpr/docs/module-gdpr.md`: Modulo GDPR
 - `laravel/Modules/Gdpr/docs/module-gdpr.md`: module-gdpr
 - `laravel/Modules/Gdpr/docs/multi-language-translation-guidelines.md`: Multi-Language Translation Guidelines for Laravel Pizza
 - `laravel/Modules/Gdpr/docs/navigation.md`: navigation
@@ -12360,13 +12360,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/address-migration.md`: Guida alla Migrazione del Modello Address
 - `laravel/Modules/Geo/docs/address-model-italian.md`: Modello Address per Indirizzi Italiani
 - `laravel/Modules/Geo/docs/address-relationships.md`: Relazioni del Modello Address
-- `laravel/Modules/Geo/docs/address-resource-1.md`: Risorsa Filament per il Modello Address
+- `laravel/Modules/Geo/docs/address-resource.md`: Risorsa Filament per il Modello Address
 - `laravel/Modules/Geo/docs/address-resource-analysis.md`: Analisi AddressResource.php
 - `laravel/Modules/Geo/docs/address-resource-improvements.md`: Suggerimenti di Miglioramento per AddressResource.php
 - `laravel/Modules/Geo/docs/address-resource-summary.md`: Sintesi Analisi AddressResource - Modulo Geo
 - `laravel/Modules/Geo/docs/address-resource-sumy.md`: Sintesi Analisi AddressResource - Modulo Geo
 - `laravel/Modules/Geo/docs/address-resource.md`: Risorsa Filament per il Modello Address
-- `laravel/Modules/Geo/docs/address-translation-fixes-1.md`: Correzioni Traduzioni Address - Gennaio 2025
+- `laravel/Modules/Geo/docs/address-translation-fixes.md`: Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address-translation-fixes-correzioni-traduzioni-gennaio.md`: Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address-translation-fixes.md`: Correzioni Traduzioni Address - Gennaio 2025
 - `laravel/Modules/Geo/docs/address-translationes.md`: Correzioni Traduzioni Address - Gennaio 2025
@@ -12440,7 +12440,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/comune-sushi-analisi.md`: Analisi: Comune.php come modello Laravel Sushi
 - `laravel/Modules/Geo/docs/comune-sushi-analysis.md`: Analisi: Comune.php come modello Laravel Sushi
 - `laravel/Modules/Geo/docs/comune-sushi-conversion.md`: Analisi: Conversione del Modello Comune a Laravel Sushi
-- `laravel/Modules/Geo/docs/comune-sushi-implementation-1.md`: Implementazione Sushi per il Modello Comune
+- `laravel/Modules/Geo/docs/comune-sushi-implementation.md`: Implementazione Sushi per il Modello Comune
 - `laravel/Modules/Geo/docs/comune-sushi-implementation.md`: Implementazione Sushi per il Modello Comune
 - `laravel/Modules/Geo/docs/comune-sushi-implementazione.md`: Implementazione di Comune.php con Laravel Sushi
 - `laravel/Modules/Geo/docs/comune-unification-analysis.md`: Analisi: Unificazione dei modelli geografici in Comune.php
@@ -12510,7 +12510,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/geo-actions-sumy.md`: Geo Actions Summary
 - `laravel/Modules/Geo/docs/geo-actions.md`: Geo Actions Architecture
 - `laravel/Modules/Geo/docs/geo-entities.md`: Entità Geografiche
-- `laravel/Modules/Geo/docs/geo-json-model-1.md`: Modello GeoJsonModel (ispirato a Squire) per Laravel
+- `laravel/Modules/Geo/docs/geo-json-model.md`: Modello GeoJsonModel (ispirato a Squire) per Laravel
 - `laravel/Modules/Geo/docs/geo-json-model.md`: Modello GeoJsonModel (ispirato a Squire) per Laravel
 - `laravel/Modules/Geo/docs/geo-json-vs-sushi-comparison.md`: GeoJsonModel vs Laravel Sushi: Analisi e Confronto
 - `laravel/Modules/Geo/docs/geo-sushi-comparison-1.md`: Confronto: GeoJsonModel (readonly JSON) vs Laravel Sushi
@@ -12603,7 +12603,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/metodiuplicati-analisi.md`: 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Geo/docs/migration-guide.md`: Migration Guide: Moving from <main module> to Geo Module
 - `laravel/Modules/Geo/docs/migration-morphs-strategy.md`: Strategia Migrazioni e Morphs Polymorphic - <nome progetto>
-- `laravel/Modules/Geo/docs/migration-naming-pattern-1.md`: Convenzione di Naming e Gestione delle Migrazioni
+- `laravel/Modules/Geo/docs/migration-naming-pattern.md`: Convenzione di Naming e Gestione delle Migrazioni
 - `laravel/Modules/Geo/docs/migration-naming-pattern.md`: Convenzione di Naming e Gestione delle Migrazioni
 - `laravel/Modules/Geo/docs/migration-naming.md`: Convenzione di Naming e Gestione delle Migrazioni
 - `laravel/Modules/Geo/docs/migration.md`: Migration Guide: Moving from <main module> to Geo Module
@@ -12632,7 +12632,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/module-analysis-and-optimization-plan.md`: Module Analysis and Optimization Plan
 - `laravel/Modules/Geo/docs/module-analysis-complete.md`: Analisi Completa Modulo Geo - Factory, Seeder e Test
 - `laravel/Modules/Geo/docs/module-analysis.md`: Modulo Geo - Geolocalizzazione e Mappe
-- `laravel/Modules/Geo/docs/module-geo-1.md`: Modulo Geo
+- `laravel/Modules/Geo/docs/module-geo.md`: Modulo Geo
 - `laravel/Modules/Geo/docs/module-geo.md`: Modulo Geo
 - `laravel/Modules/Geo/docs/module-reusability-guidelines.md`: Linee Guida per la Riusabilità dei Moduli Laraxot
 - `laravel/Modules/Geo/docs/module-reusability-implementation-plan.md`: Piano di Implementazione Riusabilità Moduli
@@ -12682,7 +12682,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/phpstan-fixes.md`: PHPStan Fixes for Geo Module
 - `laravel/Modules/Geo/docs/phpstan-fixes-correzioni-modulo-geo.md`: Correzioni PHPStan Modulo Geo - 2025-01-27
 - `laravel/Modules/Geo/docs/phpstan-fixes-3.md`: Correzioni PHPStan Modulo Geo - [DATE]
-- `laravel/Modules/Geo/docs/phpstan-fixes-gennaio-2025.md`: 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
+- `laravel/Modules/Geo/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
 - `laravel/Modules/Geo/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo Geo - Gennaio 2025
 - `laravel/Modules/Geo/docs/phpstan-fixes-notify-module.md`: PHPStan Fixes for Notify Module
 - `laravel/Modules/Geo/docs/phpstan-fixes-roadmap.md`: PHPStan Level 10 Fixes Roadmap - Modulo Geo
@@ -12868,7 +12868,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/index.md`: Job Module Documentation
 - `laravel/Modules/Job/docs/integration.md`: Integrazione Documentazione
 - `laravel/Modules/Job/docs/job-reports.md`: Job Module PDF Reports
-- `laravel/Modules/Job/docs/lang-link-1.md`: Collegamento alle Traduzioni del Modulo Job
+- `laravel/Modules/Job/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo Job
 - `laravel/Modules/Job/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo Job
 - `laravel/Modules/Job/docs/lang_link.md`: lang_link
 - `laravel/Modules/Job/docs/links.md`: links
@@ -12913,7 +12913,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/phpstan-filament-fixes.md`: phpstan-filament-fixes
 - `laravel/Modules/Job/docs/phpstan-fixes-conflict.md`: 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-gennaio-.md`: 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
-- `laravel/Modules/Job/docs/phpstan-fixes-gennaio-2025.md`: 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
+- `laravel/Modules/Job/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo Job - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-result-model.md`: PHPStan Fixes - Gennaio 2025
 - `laravel/Modules/Job/docs/phpstan-fixes-january-2025.md`: PHPStan Fixes - Gennaio 2025
@@ -12948,7 +12948,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/schedule.md`: schedule
 - `laravel/Modules/Job/docs/soketi.md`: soketi
 - `laravel/Modules/Job/docs/solutions.md`: Soluzioni Tecniche - Modulo Job
-- `laravel/Modules/Job/docs/storage-server-1.md`: storage-server-1
+- `laravel/Modules/Job/docs/storage-server.md`: storage-server-1
 - `laravel/Modules/Job/docs/storage-server.md`: storage-server
 - `laravel/Modules/Job/docs/structure.md`: Struttura del Modulo Job
 - `laravel/Modules/Job/docs/task-aumentare-copertura-test.md`: Task: Aumentare Copertura Test - Job
@@ -13639,7 +13639,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/html2pdf/usage.md`: Utilizzo Base e Layout
 - `laravel/Modules/Media/docs/icon-usage-guidelines.md`: Media Module Icon Usage Guidelines
 - `laravel/Modules/Media/docs/index.md`: Indice della Documentazione - Modulo Media
-- `laravel/Modules/Media/docs/lang-link-1.md`: Collegamento alle Traduzioni del Modulo Media
+- `laravel/Modules/Media/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo Media
 - `laravel/Modules/Media/docs/lang-link-collegamento-alle-traduzioni-modulo.md`: Collegamento alle Traduzioni del Modulo Media
 - `laravel/Modules/Media/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo Media
 - `laravel/Modules/Media/docs/lang_link.md`: lang_link
@@ -13731,7 +13731,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/s3test-corrections-conflict.md`: Correzioni S3Test.php - Modulo Media
 - `laravel/Modules/Media/docs/s3test-corrections.md`: Correzioni S3Test.php - Modulo Media
 - `laravel/Modules/Media/docs/s3test_corrections.md`: Correzioni S3Test.php - Modulo Media
-- `laravel/Modules/Media/docs/stream-1.md`: stream-1
+- `laravel/Modules/Media/docs/stream.md`: stream-1
 - `laravel/Modules/Media/docs/stream.md`: stream
 - `laravel/Modules/Media/docs/structure.md`: Modulo Media
 - `laravel/Modules/Media/docs/support/temporary-upload-path-generator-1.md`: TemporaryUploadPathGenerator
@@ -14077,7 +14077,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/email/notifications.md`: Email Notifications
 - `laravel/Modules/Notify/docs/email/smtp-testing.md`: SMTP Testing Guide
 - `laravel/Modules/Notify/docs/email-analytics.md`: Analytics Email - il progetto
-- `laravel/Modules/Notify/docs/email-backup-1.md`: Sistema Backup Email
+- `laravel/Modules/Notify/docs/email-backup.md`: Sistema Backup Email
 - `laravel/Modules/Notify/docs/email-backup.md`: Sistema Backup Email
 - `laravel/Modules/Notify/docs/email-best-practices.md`: Best Practices per il Sistema Email
 - `laravel/Modules/Notify/docs/email-cache.md`: Sistema Cache Email
@@ -14569,7 +14569,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/phpstan-fixes-.md`: PHPStan Errori Modulo Notify - 2025-01-22
 - `laravel/Modules/Notify/docs/phpstan-fixes-critical.md`: Correzioni PHPStan Critiche - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-fixes-gennaio-.md`: 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
-- `laravel/Modules/Notify/docs/phpstan-fixes-gennaio-2025.md`: 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
+- `laravel/Modules/Notify/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 - `laravel/Modules/Notify/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 - `laravel/Modules/Notify/docs/phpstan-fixes-implementation-1.md`: Implementazione Correzioni PHPStan - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan-fixes-implementation.md`: Implementazione Correzioni PHPStan - Modulo Notify
@@ -15324,7 +15324,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/docs/it/phpunit.md`: phpunit
 - `laravel/Modules/Tenant/docs/it/project-configurations.md`: Configurazione progetti {#configurazione-progetti}
 - `laravel/Modules/Tenant/docs/it/xra.md`: Il file xra.php {#il-file-xra}
-- `laravel/Modules/Tenant/docs/lang-link-1.md`: Collegamento alle Traduzioni del Modulo Tenant
+- `laravel/Modules/Tenant/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo Tenant
 - `laravel/Modules/Tenant/docs/lang-link.md`: lang-link
 - `laravel/Modules/Tenant/docs/links.md`: links
 - `laravel/Modules/Tenant/docs/mcp-configuration.md`: MCP Server Configuration - Tenant Module
@@ -15363,7 +15363,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/docs/phpstan-errors-roadmap.md`: PHPStan Level 10 Errors Roadmap - Tenant Module
 - `laravel/Modules/Tenant/docs/phpstan-fixes-.md`: PHPStan Fixes - Tenant Module - 2025-10-13
 - `laravel/Modules/Tenant/docs/phpstan-fixes-gennaio-.md`: Correzioni PHPStan - Gennaio 2025
-- `laravel/Modules/Tenant/docs/phpstan-fixes-gennaio-2025.md`: Correzioni PHPStan - Gennaio 2025
+- `laravel/Modules/Tenant/docs/phpstan-fixes-gennaio.md`: Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/Tenant/docs/phpstan-fixes-gennaio.md`: Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/Tenant/docs/phpstan-fixes-january.md`: Correzioni PHPStan - Gennaio 2025
 - `laravel/Modules/Tenant/docs/phpstan-fixes.md`: PHPStan Fixes - Tenant Module - [DATE]
@@ -15474,7 +15474,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/_integration/widgets.md`: widgets
 - `laravel/Modules/UI/docs/actions/table-layout-toggle.md`: TableLayoutToggleTableAction
 - `laravel/Modules/UI/docs/advanced-form-components.md`: Componenti Form Avanzati
-- `laravel/Modules/UI/docs/algolia-docsearch-1.md`: Algolia DocSearch {#algolia-docsearch}
+- `laravel/Modules/UI/docs/algolia-docsearch.md`: Algolia DocSearch {#algolia-docsearch}
 - `laravel/Modules/UI/docs/algolia-docsearch.md`: Algolia DocSearch {#algolia-docsearch}
 - `laravel/Modules/UI/docs/altro.md`: altro md
 - `laravel/Modules/UI/docs/analysis.md`: UI Module Analysis
@@ -15724,7 +15724,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/internal-debate-psr4-resolution.md`: Internal Debate: PSR-4 Autoloading Resolution Strategy
 - `laravel/Modules/UI/docs/italian-language-corrections.md`: Correzioni Lingua Italiana - Opening Hours
 - `laravel/Modules/UI/docs/keting-components-implementation.md`: Marketing Components Implementation - UI Module
-- `laravel/Modules/UI/docs/lang-link-1.md`: Collegamento alle Traduzioni del Modulo UI
+- `laravel/Modules/UI/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo UI
 - `laravel/Modules/UI/docs/lang-link.md`: Collegamento alle Traduzioni del Modulo UI
 - `laravel/Modules/UI/docs/layout-components.md`: Componenti Layout
 - `laravel/Modules/UI/docs/layouts/master.md`: Master Layout Documentation
@@ -16330,7 +16330,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/hasteams-currentteam-method-choice.md`: Choice of currentTeam() Method in HasTeams Trait
 - `laravel/Modules/User/docs/hasteams-trait-analysis.md`: HasTeams Trait Analysis
 - `laravel/Modules/User/docs/hasteams-trait-duplicate-methods.md`: Analisi metodi duplicati in HasTeams (trait)
-- `laravel/Modules/User/docs/hasteams-trait-filosofia-e-correzione-completa-1.md`: HasTeams Trait - Filosofia Laraxot e Strategia di Correzione Completa
+- `laravel/Modules/User/docs/hasteams-trait-filosofia-e-correzione-completa.md`: HasTeams Trait - Filosofia Laraxot e Strategia di Correzione Completa
 - `laravel/Modules/User/docs/hasteams-trait-filosofia-e-correzione-completa.md`: HasTeams Trait - Filosofia Laraxot e Strategia di Correzione Completa
 - `laravel/Modules/User/docs/hasteams-trait.md`: HasTeams Trait Analysis
 - `laravel/Modules/User/docs/hasteams-traituplicate-methods.md`: Analisi metodi duplicati in HasTeams (trait)
@@ -16703,7 +16703,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-1.md`: 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-modulo-user.md`: 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-2025-complete.md`: PHPStan Fixes Complete - Gennaio 2025
-- `laravel/Modules/User/docs/phpstan-fixes-gennaio-2025.md`: 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
+- `laravel/Modules/User/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio-complete.md`: PHPStan Fixes Complete - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo User - Gennaio 2025
 - `laravel/Modules/User/docs/phpstan-fixes-gennaiocomplete.md`: PHPStan Fixes Complete - Gennaio 2025
@@ -17213,7 +17213,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/-integration/tips.md`: __tips
 - `laravel/Modules/Xot/docs/-integration/to-integrate.md`: ___to_integrate
 - `laravel/Modules/Xot/docs/-integration/to-study.md`: __to_study
-- `laravel/Modules/Xot/docs/-integration/todo-1.md`: _todo
+- `laravel/Modules/Xot/docs/-integration/todo.md`: _todo
 - `laravel/Modules/Xot/docs/-integration/todo.md`: todo
 - `laravel/Modules/Xot/docs/-integration/tree.md`: tree
 - `laravel/Modules/Xot/docs/-integration/type-hinting.md`: type_hinting
@@ -17592,7 +17592,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/code-quality-audit.md`: Code Quality Audit Completo
 - `laravel/Modules/Xot/docs/code-quality-improvement-guide.md`: Code Quality Improvement Guide
 - `laravel/Modules/Xot/docs/code-quality-improvement.md`: Code Quality Improvement Guide
-- `laravel/Modules/Xot/docs/code-quality-improvements-01.md`: Code Quality Improvements - Modulo Xot (Gennaio 2025)
+- `laravel/Modules/Xot/docs/code-quality-improvements.md`: Code Quality Improvements - Modulo Xot (Gennaio 2025)
 - `laravel/Modules/Xot/docs/code-quality-improvements-consolidated.md`: Code Quality Improvements - Documento Consolidato
 - `laravel/Modules/Xot/docs/code-quality-improvements-summary-.md`: 📊 Code Quality Improvements Summary - 2025-11-11
 - `laravel/Modules/Xot/docs/code-quality-improvements-summary-1.md`: 📊 Code Quality Improvements Summary - 2025-11-11
@@ -17864,7 +17864,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-errors-analysis.md`: phpstan-errors-analysis
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-factory-best-practices.md`: phpstan-factory-best-practices
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-2025.md`: phpstan-fixes-2025
-- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio-2025.md`: phpstan-fixes-gennaio-2025
+- `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio.md`: phpstan-fixes-gennaio-2025
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-gennaio.md`: phpstan-fixes-gennaio
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md`: phpstan-fixes-summary-2
 - `laravel/Modules/Xot/docs/consolidated/phpstan/phpstan-fixes-summary.md`: phpstan-fixes-summary-3
@@ -19056,7 +19056,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/phpstan-fixes-conflict.md`: Correzioni PHPStan - 6 Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-gennaio-.md`: PHPStan Fixes Gennaio 2025 - Modulo Xot
 - `laravel/Modules/Xot/docs/phpstan-fixes-gennaio-1.md`: PHPStan Fixes Gennaio 2025 - Modulo Xot
-- `laravel/Modules/Xot/docs/phpstan-fixes-gennaio-2025.md`: 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
+- `laravel/Modules/Xot/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-gennaio.md`: 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-january.md`: 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 - `laravel/Modules/Xot/docs/phpstan-fixes-progress.md`: PHPStan Fixes Progress - Modulo Xot
