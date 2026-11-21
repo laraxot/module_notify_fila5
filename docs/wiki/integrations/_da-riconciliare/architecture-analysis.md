@@ -631,6 +631,7 @@ Themes/Sixteen/
 # ALWAYS run after ANY frontend change:
 cd Themes/Sixteen/
 npm run build          # Compile assets
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # These commands are MANDATORY for any:
 # - CSS changes
@@ -1662,7 +1663,7 @@ Tasks:
 
 ### Recommended New Documentation
 ```
-1. ARCHITECTURE.md
+1. architecture.md
    - System architecture diagrams
    - Module dependency graph
    - Database schema diagrams
@@ -1827,7 +1828,7 @@ Monitoring:
 
 Frontend:
 [ ] Theme built (npm run build)
-[ ] Asset buildati (`npm run build`) e serviti via symlink in `public_html/themes` (`npm run copy` obsoleto)
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
 [ ] Dark mode tested
 [ ] Responsive design tested
 [ ] Accessibility tested

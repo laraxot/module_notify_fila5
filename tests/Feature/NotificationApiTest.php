@@ -7,14 +7,22 @@ namespace Modules\Notify\Tests\Feature;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\NotificationTemplate;
-use Modules\User\Database\Factories\UserFactory;
-use PHPUnit\Framework\Assert;
 use Modules\Notify\Tests\TestCase;
+use Modules\User\Database\Factories\UserFactory;
 use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 beforeEach(function (): void {
-    $user = UserFactory::new()->createOne(['email' => 'test@example.com']);
+    // L'email la genera la factory, unica per costruzione. Prima era fissata a
+    // `test@example.com`, e tutti gli otto test di questo file morivano qui con
+    // `users_email_unique` — non per un difetto di Notify, ma perche' una riga
+    // con quella stessa email era rimasta nel database da una corsa di **Gdpr**
+    // (`Feature/DatabaseConnectionTest`), la cui transazione di test avvolgeva
+    // la connessione sbagliata. Corretto anche quello, ma un test che pretende
+    // un indirizzo globalmente libero e' fragile per costruzione: nessuna
+    // asserzione qui guarda l'email (base_quaeris_fila5#234).
+    $user = UserFactory::new()->createOne();
     $this->actingAs($user);
     Http::fake();
 });

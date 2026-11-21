@@ -150,7 +150,7 @@ laravel/Themes/Sixteen/docs/pages/<page-name>/
 ### Theme-Level
 ```
 laravel/Themes/Sixteen/docs/
-├── INDEX.md                                    # Main index
+├── index.md                                    # Main index
 ├── COMPLETE-VISUAL-PARITY-REPORT.md          # All 54 pages
 ├── PRIORITY-MATRIX.json                       # Workload planning
 ├── visual-parity-data.json                    # Machine-readable data
@@ -162,7 +162,7 @@ laravel/Themes/Sixteen/docs/
 ### Bash Scripts
 ```
 bashscripts/docs/
-├── INDEX.md                    # Tools overview
+├── index.md                    # Tools overview
 └── github-issues-batch.md      # GitHub CLI guide
 ```
 
@@ -192,6 +192,7 @@ cd laravel/Themes/Sixteen
 npm run build
 
 # Copy to public
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 
 # View reports
 cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md
@@ -234,6 +235,7 @@ gh issue list --repo laraxot/base_fixcity_fila5 --label "priority:critical"
 ```bash
 cd laravel/Themes/Sixteen
 npm run build    # ~2 seconds
+# niente npm run copy: public_html/themes/<Tema> è un symlink a ../../laravel/Themes/<Tema>/public
 # New CSS hash appears in output (e.g., app-DCbieyUp.css)
 ```
 
@@ -349,8 +351,8 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 - **Design Comuni**: https://italia.github.io/design-comuni-pagine-statiche/
 - **Tailwind CSS**: https://tailwindcss.com/
 - **Alpine.js**: https://alpinejs.dev/
-- **Internal Docs**: `laravel/Themes/Sixteen/docs/INDEX.md`
-- **Tools Guide**: `bashscripts/docs/INDEX.md`
+- **Internal Docs**: `laravel/Themes/Sixteen/docs/index.md`
+- **Tools Guide**: `bashscripts/docs/index.md`
 
 ---
 

@@ -471,7 +471,7 @@ Questa è la **terza implementazione** della giornata:
 ### Root Progetto
 - [View Cache Fix](./view-cache-components-fix.md)
 - [Transaction Fix](./transaction-removal-fix.md)
-- [Setup Guide](./setup-guide.md)
+- [Setup Guide](../../bmad/setup-guide.md)
 - [View Cache Fix](../../view-cache-components-fix.md)
 - [Transaction Fix](../../transaction-removal-fix.md)
 - [Setup Guide](../../bmad/setup-guide.md)
@@ -775,7 +775,7 @@ related:
 
 #### 4. **Naming Inconsistente**
 - **README.md**: 56 file (corretto)
-- **readme.md**: 13 file (minuscolo - errato)
+- **README.md**: 13 file (minuscolo - errato)
 - **Convenzione**: Solo README.md in maiuscolo
 - **Priorità**: **MEDIA** - Inconsistenza nelle convenzioni
 
@@ -856,7 +856,7 @@ touch laravel/Modules/Seo/docs/README.md
 
 #### 3.1 Correggere File Minuscoli
 ```bash
-# 13 file "readme.md" da rinominare in "README.md"
+# 13 file "README.md" da rinominare in "README.md"
 # Mantenere consistenza con convezioni
 ```
 
@@ -1271,7 +1271,7 @@ wire:submit="method" → Azione submit
 ### Aree di Miglioramento
 
 1. **Link Assoluti**: 335 file da correggere (automatizzabile)
-2. **Naming Consistency**: 13 file "readme.md" minuscolo da rinominare
+2. **Naming Consistency**: 13 file "README.md" minuscolo da rinominare
 3. **Documentation Coverage**: Alcuni moduli con doc minimale
 4. **Cross-References**: Migliorare collegamenti bidirezionali
 
@@ -2067,8 +2067,8 @@ supermemory add --tag <nome progetto> --content "<nome progetto> module: Ticket 
 ### 3. Theme Conventions
 Store theme development patterns:
 ```bash
-supermemory add --tag laraxot --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
-supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', served via symlink public_html/themes/Sixteen (no copy)."
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
 ```
 
 ### 4. Development Workflows
