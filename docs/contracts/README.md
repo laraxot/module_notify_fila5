@@ -1,37 +1,16 @@
 ---
 title: "Contratti del modulo Notify"
 type: index
-<<<<<<< HEAD
-tags: [contracts, actions, notify]
-created: 2026-11-18
-updated: 2026-11-24
-=======
 module: Notify
 status: active
 tags: [contracts, actions, interfaces, notify]
 created: 2026-11-18
 updated: 2026-11-26
 qmd: "notify contracts readme azioni invarianti pest group notifiche invio"
->>>>>>> laraxot/dev
 ---
 
 # Contratti del modulo Notify
 
-<<<<<<< HEAD
-Cosa promettono le Action di Notify che parlano con l'esterno o scrivono dati: i due webhook dei fornitori email (esiti Mailjet,
-posta in arrivo) e l'invio multicanale da template. Ogni invariante ha un ID `NOTIFY-<OPERAZIONE>-INV-<N>`; con un group Pest
-si lancia `vendor/bin/pest Modules/Notify/tests --group=<ID>`, `—` è debito dichiarato.
-
-Quando leggerli: prima di chiamare, modificare o imitare una di queste Action, e prima di aggiungere un fornitore o un canale.
-Le interfacce di `app/Contracts` (SMS, Telegram, WhatsApp, push) non hanno ancora un documento qui.
-Formato: `Modules/Xot/docs/rules/action-behavioral-contract.md`.
-
-## Contratti
-
-- [HandleMailjetEventsAction](handle-mailjet-events-action.md) — webhook degli esiti Mailjet → evento `MailDeliveryEventReceived`; 4 invarianti, tutte con group.
-- [ProcessInboundMailAction](process-inbound-mail-action.md) — webhook della posta in arrivo → `inbound_emails` + `.eml` su disco; 4 invarianti, 1 con group.
-- [SendNotificationAction](send-notification-action.md) — invio da template su `mail`, `database`, `sms`; 4 invarianti, debito (test da correggere).
-=======
 Cosa promette la superficie pubblica di Notify: le Action che scrivono dati, chiamano servizi esterni o hanno effetti collaterali,
 e le interfacce (`app/Contracts`). Un contratto descrive il comportamento promesso da una Action che invia comunicazioni ai
 destinatari (dati personali: email, telefono) o scrive lo stato delle notifiche.
@@ -171,4 +150,17 @@ Invarianti senza test con group (da scrivere, o da annotare con `->group('<ID>')
 - [INDEX.md](INDEX.md) — tabella operativa operazione, contratto, classe, invarianti; copertura e backlog.
 - [index.md](index.md) — inventario machine-readable dei file di contratto.
 - [Template di contratto](_template.md) — scheletro con le sei sezioni e la tabella degli invarianti, da copiare per una nuova Action.
->>>>>>> laraxot/dev
+
+## Harness minimo: ownership, evidenza e recupero (2026-11-27)
+
+I contratti di **module_notify_fila5** restano accanto alle Action, interfacce o superfici di questo package; root e Xot definiscono lo standard, non copiano le promesse. Un contratto comportamentale esplicita **Input, Output, Invarianti, Effetti collaterali, Errori, Non fa**; ogni ID di invariante punta a un group Pest effettivo oppure segnala `non dimostrata`. Se esiste la classe, il docblock deve rimandare al file con `@contract` e `@see`; per temi senza classi PHP non inventare Action/contratti.
+
+- [Standard Xot](https://github.com/laraxot/module_xot_fila5/blob/dev/docs/contracts/contract-authoring-standard.md) · [ownership root](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/adr/0001-harness-minimo-e-ownership.md) · [runbook ECC/Second Brain](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/harness/README.md).
+- **BMAD**: prima di cambiare una promessa, fissa nella story owner scope, esclusioni, evidenza e approvazioni richieste.
+- **ECC**: i marker di merge rendono invalido l'indice; citare una suite non significa averla eseguita. Distingui `pass`, `fail`, `non eseguito` e registra il debito in [rollout #15](https://github.com/laraxot/base_ptvx_fila5/issues/15).
+
+## Documenti del package da riconciliare nell'indice
+
+I seguenti file **esistono nel repository su `dev`** e non erano tutti collegati nel ramo d'indice più recente. Sono preservati come puntatori documentali; il loro stato di approvazione, la copertura e l'eventuale sostituzione con ADR numerati devono essere verificati nell'owner. Nessuna prova di esecuzione è implicita.
+
+- [HandleMailjetEventsAction](./handle-mailjet-events-action.md)
