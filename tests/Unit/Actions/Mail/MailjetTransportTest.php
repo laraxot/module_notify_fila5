@@ -25,7 +25,11 @@ it('sends through the Mailjet Send API v3.1 with sandbox, CustomID and basic aut
 
     $transport = app(CreateMailjetTransportAction::class)->execute('pub', 'priv', sandbox: true, client: $client);
 
+<<<<<<< HEAD
     $email = (new Email())
+=======
+    $email = (new Email)
+>>>>>>> laraxot/dev
         ->from('Trattoria <prenotazioni@example.com>')
         ->to('cliente@example.com')
         ->subject('Prenotazione confermata')
@@ -50,12 +54,20 @@ it('sends through the Mailjet Send API v3.1 with sandbox, CustomID and basic aut
         ->and(data_get($body, 'Messages.0.To.0.Email'))->toBe('cliente@example.com')
         ->and(data_get($body, 'Messages.0.CustomID'))->toBe('reservation-42')
         ->and(data_get($body, 'Messages.0.HTMLPart'))->toBe('<p>A presto</p>');
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-MAILJET-TR-INV-3');
+>>>>>>> laraxot/dev
 
 it('refuses to build a transport without keys or with an unknown scheme', function (): void {
     expect(fn () => app(CreateMailjetTransportAction::class)->execute('', 'x'))->toThrow(InvalidArgumentException::class, 'MAILJET_APIKEY_PUBLIC');
     expect(fn () => app(CreateMailjetTransportAction::class)->execute('a', 'b', scheme: 'ftp'))->toThrow(InvalidArgumentException::class, 'ftp');
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-MAILJET-TR-INV-1', 'NOTIFY-MAILJET-TR-INV-2');
+>>>>>>> laraxot/dev
 
 it('builds the SMTP relay variant', function (): void {
     $transport = app(CreateMailjetTransportAction::class)->execute('a', 'b', scheme: 'smtp');

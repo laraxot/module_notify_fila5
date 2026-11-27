@@ -118,6 +118,12 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
+=======
+        'value' => [
+            'label' => 'value',
+        ],
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'preview' => [
@@ -155,6 +161,10 @@ return [
         ],
         'create' => [
             'icon' => 'create',
+<<<<<<< HEAD
+=======
+            'label' => 'create',
+>>>>>>> laraxot/dev
         ],
         'createAnother' => [
             'icon' => 'createAnother',
@@ -168,6 +178,30 @@ return [
         'edit' => [
             'icon' => 'edit',
         ],
+<<<<<<< HEAD
+=======
+        'applyFilters' => [
+            'label' => 'applyFilters',
+        ],
+        'resetFilters' => [
+            'label' => 'resetFilters',
+        ],
+        'applyTableColumnManager' => [
+            'label' => 'applyTableColumnManager',
+        ],
+        'openColumnManager' => [
+            'label' => 'openColumnManager',
+        ],
+        'resetColumnManager' => [
+            'label' => 'resetColumnManager',
+        ],
+        'profile' => [
+            'label' => 'profile',
+        ],
+        'logout' => [
+            'label' => 'logout',
+        ],
+>>>>>>> laraxot/dev
     ],
     'messages' => [
         'created' => [

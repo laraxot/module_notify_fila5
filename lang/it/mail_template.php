@@ -224,12 +224,20 @@ return [
         ],
         'activeLocale' => [
             'icon' => 'activeLocale',
+<<<<<<< HEAD
+=======
+            'label' => 'activeLocale',
+>>>>>>> laraxot/dev
         ],
         'create' => [
             'icon' => 'create',
         ],
         'createAnother' => [
             'icon' => 'createAnother',
+<<<<<<< HEAD
+=======
+            'label' => 'createAnother',
+>>>>>>> laraxot/dev
         ],
         'delete' => [
             'icon' => 'delete',
@@ -243,6 +251,27 @@ return [
         'edit' => [
             'icon' => 'edit',
         ],
+<<<<<<< HEAD
+=======
+        'applyTableColumnManager' => [
+            'label' => 'applyTableColumnManager',
+        ],
+        'openColumnManager' => [
+            'label' => 'openColumnManager',
+        ],
+        'resetColumnManager' => [
+            'label' => 'resetColumnManager',
+        ],
+        'profile' => [
+            'label' => 'profile',
+        ],
+        'logout' => [
+            'label' => 'logout',
+        ],
+        'cancel' => [
+            'label' => 'cancel',
+        ],
+>>>>>>> laraxot/dev
     ],
     'messages' => [
         'success' => 'Operazione completata con successo',

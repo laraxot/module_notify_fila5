@@ -12,7 +12,11 @@ related:
   - "./00-index-2.md"
   - "./00-index.md"
   - "./absolute-completion-100.md"
+<<<<<<< HEAD
   - "./acronym-naming-conventions.md"
+=======
+  - "./acronym-naming-conventions-1.md"
+>>>>>>> laraxot/dev
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"

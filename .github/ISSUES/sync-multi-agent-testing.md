@@ -36,7 +36,11 @@ CI=true bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 - ✅ Git pull/rebase successful
 - ✅ Push completed
 
+<<<<<<< HEAD
 **Test File Created**: `laravel/Modules/Seo/SYNC_TEST_FILE.md`
+=======
+**Test File Created**: `laravel/Modules/Seo/sync-test-file-2.md`
+>>>>>>> laraxot/dev
 
 **Next**: Verify file appears on GitHub (laraxot/module_seo_fila5)
 

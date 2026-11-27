@@ -85,7 +85,11 @@ body:
 
         A test file was created to verify sync:
 
+<<<<<<< HEAD
         **File**: `laravel/Modules/Seo/SYNC_TEST_FILE.md`
+=======
+        **File**: `laravel/Modules/Seo/sync-test-file-2.md`
+>>>>>>> laraxot/dev
 
         **Content**:
         ```markdown
@@ -103,7 +107,11 @@ body:
 
         ## Next Steps
 
+<<<<<<< HEAD
         1. **Verify on GitHub**: Check if SYNC_TEST_FILE.md appears in https://github.com/laraxot/module_seo_fila5
+=======
+        1. **Verify on GitHub**: Check if sync-test-file-2.md appears in https://github.com/laraxot/module_seo_fila5
+>>>>>>> laraxot/dev
         2. **Test GitHub Actions**: Trigger workflow to automate sync
         3. **Test Reverse Sync**: Create file in remote repo, sync back to main
         4. **Multi-Agent Coordination**: Other agents should verify and extend testing

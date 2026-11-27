@@ -4,24 +4,37 @@ type: index
 tags: [notify, docs, notifications]
 module: Notify
 created: 2026-07-20
+<<<<<<< HEAD
 updated: 2026-07-20
+=======
+updated: 2026-11-23
+>>>>>>> laraxot/dev
 qmd: "notify documentazione notifications index indice documentazione notifiche index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
 discussions:
   - "https://github.com/laraxot/module_notify_fila5/discussions/57"
 related:
+<<<<<<< HEAD
   - ../README.md
   - ../wiki/index.md
   - README.md
   - ../integrations/README.md
   - ../templates/README.md
+=======
+  - ../index.md
+  - ../wiki/index.md
+  - readme.md
+  - ../integrations/readme.md
+  - ../templates/readme.md
+>>>>>>> laraxot/dev
 status: draft
 ---
 # Indice Documentazione Notifiche
 
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../index.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_OQ5uaP
 - [README Modulo Notify](../readme.md)
 - [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
@@ -36,20 +49,33 @@ status: draft
 - [Guida Implementazione Notifiche](./notifications_implementation_guide.md) - Guida generale all'implementazione delle notifiche
 - [Notifiche Multi-Canale](./multi_channel_notifications.md) - Implementazione di notifiche su più canali
 - [Errori Comuni da Evitare](./errori_comuni_da_evitare.md) - Problemi comuni e come evitarli
+=======
+- [README Modulo Notify](../../README.md)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+- [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
+
+## Guida Implementazione
+>>>>>>> laraxot/dev
 
 ## Canali di Notifica
 
 ### SMS
+<<<<<<< HEAD
 - [Implementazione SMS Dettagliata](./sms_implementation_details.md) - Dettagli implementativi per il canale SMS
 - [Configurazione Provider SMS](./sms_provider_configuration.md) - Configurazione dei provider SMS
 - [Implementazione Netfun SMS](./archive/netfun-sms-implementation.md) - Implementazione specifica per il provider Netfun
 
 ### Telegram
 - [Guida Notifiche Telegram](./telegram_notifications_guide.md) - Implementazione delle notifiche Telegram
+=======
+
+### Telegram
+>>>>>>> laraxot/dev
 
 ## Architettura e Pattern
 - [Factory Pattern per Provider](../factory-pattern-analysis.md) - Analisi del pattern Factory per i provider
 - [Provider vs DTO](../channel-vs-dto-provider-selection.md) - Selezione tra provider e DTO
+<<<<<<< HEAD
 - [Factory Pattern per Provider](../factory-pattern-analysis.md) - Analisi del pattern Factory per i provider
 - [Provider vs DTO](../channel-vs-dto-provider-selection.md) - Selezione tra provider e DTO
 - [Architettura Provider](../provider_actions_architecture.md) - Architettura delle azioni provider
@@ -57,6 +83,12 @@ status: draft
 ## Documentazione Correlata
 - [Implementazione SMS](../sms_implementation.md) - Panoramica dell'implementazione SMS
 - [Canale WhatsApp](../whatsapp_channel.md) - Documentazione del canale WhatsApp
+=======
+
+## Documentazione Correlata
+- [Implementazione SMS](../sms-implementation-2.md) - Panoramica dell'implementazione SMS
+- [Canale WhatsApp](../whatsapp-channel.md) - Documentazione del canale WhatsApp
+>>>>>>> laraxot/dev
 - [Canale Telegram](../telegram-channel.md) - Documentazione del canale Telegram
 
 ## Note Importanti

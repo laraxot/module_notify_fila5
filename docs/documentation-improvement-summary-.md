@@ -87,8 +87,13 @@ Successfully implemented a comprehensive documentation governance framework and 
 
 ### Rules Updates
 
+<<<<<<< HEAD
 5. **[AGENTS.md](agents.md)** - Updated
 5. **[AGENTS.md](agents.md)** - Updated
+=======
+5. **[AGENTS.md](AGENTS.md)** - Updated
+5. **[agents.md](AGENTS.md)** - Updated
+>>>>>>> laraxot/dev
    - Added documentation governance section
    - No temporal strings rule
    - File naming conventions
@@ -315,8 +320,13 @@ grep -r "Last Updated" laravel/Modules/*/docs/ --include="*.md" | wc -l
 - [Improvement Plan](docs/DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)
 
 ### Rules
+<<<<<<< HEAD
 - [AGENTS.md](agents.md) - Full standards
 - [AGENTS.md](agents.md) - Full standards
+=======
+- [AGENTS.md](AGENTS.md) - Full standards
+- [agents.md](AGENTS.md) - Full standards
+>>>>>>> laraxot/dev
 - [.windsurfrules](.windsurfrules) - IDE rules
 
 ### Skills

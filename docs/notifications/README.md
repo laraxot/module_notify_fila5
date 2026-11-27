@@ -4,16 +4,27 @@ type: index
 tags: [notify, docs, notifications]
 module: Notify
 created: 2026-07-20
+<<<<<<< HEAD
 updated: 2026-07-20
+=======
+updated: 2026-11-23
+>>>>>>> laraxot/dev
 qmd: "notify documentazione notifications readme notifiche index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
 discussions:
   - "https://github.com/laraxot/module_notify_fila5/discussions/57"
 related:
+<<<<<<< HEAD
   - ../README.md
   - ../wiki/index.md
   - README.md
+=======
+  - ../index.md
+  - ../wiki/index.md
+  - README.md
+  - index.md
+>>>>>>> laraxot/dev
   - ../integrations/README.md
   - ../templates/README.md
 ---
@@ -182,6 +193,7 @@ class SmsChannel
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
+<<<<<<< HEAD
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../../docs/readme_links.md). 
 ---
 
@@ -207,3 +219,6 @@ related:
   - "./netfun-sms-implementation.md"
 ---
 
+=======
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../../docs/readme_links.md).
+>>>>>>> laraxot/dev

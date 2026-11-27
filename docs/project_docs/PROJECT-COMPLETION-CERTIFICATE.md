@@ -369,7 +369,11 @@ CI/CD & Automation
 
 ### Appendix A: Detailed Metrics
 
+<<<<<<< HEAD
 See [Quality Dashboard](./quality_dashboard.md)
+=======
+See [Quality Dashboard](./QUALITY_DASHBOARD.md)
+>>>>>>> laraxot/dev
 
 ### Appendix B: Architecture Documentation
 
@@ -377,7 +381,11 @@ See [Architecture](./architecture.md)
 
 ### Appendix C: Refactoring Report
 
+<<<<<<< HEAD
 See [Final Refactoring Report](./final_refactoring_report.md)
+=======
+See [Final Refactoring Report](./FINAL_REFACTORING_REPORT.md)
+>>>>>>> laraxot/dev
 
 ### Appendix D: Test Coverage Report
 

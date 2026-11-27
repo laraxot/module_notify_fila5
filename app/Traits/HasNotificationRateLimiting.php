@@ -5,10 +5,23 @@ declare(strict_types=1);
 namespace Modules\Notify\Traits;
 
 use Illuminate\Cache\RateLimiter;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 
 /**
  * Fornisce funzionalità per la gestione del rate limiting delle notifiche.
+=======
+use Modules\Notify\Notifications\GenericNotification;
+use Webmozart\Assert\Assert;
+
+/**
+ * Rate limiting degli invii (config `notify.rate_limiting`).
+ *
+ * Consumer di dominio: {@see GenericNotification}
+ * (sottoclassi / canali che devono rispettare max_attempts prima di spedire).
+ *
+ * @see Modules/Notify/docs/contracts/index.md
+>>>>>>> laraxot/dev
  */
 trait HasNotificationRateLimiting
 {

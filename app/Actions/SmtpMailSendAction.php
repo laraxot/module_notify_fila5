@@ -6,6 +6,14 @@ namespace Modules\Notify\Actions;
 
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
+=======
+/**
+ * @see docs/contracts/smtp-mail-send-action.md
+ *
+ * @contract docs/contracts/smtp-mail-send-action.md
+ */
+>>>>>>> laraxot/dev
 class SmtpMailSendAction
 {
     use QueueableAction;

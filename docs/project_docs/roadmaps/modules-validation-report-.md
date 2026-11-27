@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "Modules Validation Report"
+=======
+title: "modules validation report 2025 10 02"
+>>>>>>> laraxot/dev
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< HEAD
 qmd: "Modules Validation Report"
+=======
+qmd: "modules validation report 2025 10 02"
+>>>>>>> laraxot/dev
 issues: []
 discussions: []
 ---
@@ -18,12 +26,20 @@ discussions: []
 
 ---
 
+<<<<<<< HEAD
 title: "MODULES VALIDATION REPORT 2025 10 02"
+=======
+title: "modules validation report 2025 10 02"
+>>>>>>> laraxot/dev
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< HEAD
 qmd: "MODULES VALIDATION REPORT 2025 10 02"
+=======
+qmd: "modules validation report 2025 10 02"
+>>>>>>> laraxot/dev
 issues: []
 discussions: []
 ## 📊 Executive Summary

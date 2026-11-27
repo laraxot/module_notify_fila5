@@ -437,7 +437,10 @@ class NetfunSMSMessage
      * Imposta il mittente del messaggio
      *
      * @param string $sender
+<<<<<<< HEAD
      * @return $this
+=======
+>>>>>>> laraxot/dev
      */
     public function from(string $sender): self
     {
@@ -449,7 +452,10 @@ class NetfunSMSMessage
      * Imposta un riferimento personalizzato
      *
      * @param string $reference
+<<<<<<< HEAD
      * @return $this
+=======
+>>>>>>> laraxot/dev
      */
     public function reference(string $reference): self
     {
@@ -461,7 +467,10 @@ class NetfunSMSMessage
      * Pianifica l'invio del messaggio
      *
      * @param string $date Formato: 'Y-m-d H:i:s'
+<<<<<<< HEAD
      * @return $this
+=======
+>>>>>>> laraxot/dev
      */
     public function scheduleFor(string $date): self
     {
@@ -606,7 +615,10 @@ class AppointmentReminder extends Notification
     /**
      * Formatta il messaggio per il canale Netfun
      *
+<<<<<<< HEAD
      * @param mixed $notifiable
+=======
+>>>>>>> laraxot/dev
      * @return \Modules\Notify\Datas\NetfunSMSMessage
      */
     public function toNetfun($notifiable)
@@ -805,6 +817,7 @@ TELEGRAM_BOT_TOKEN=12345:ABC...
 ## Collegamenti alla Documentazione Correlata
 
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](notifications_implementation_guide.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_3nIIS2
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
@@ -815,3 +828,10 @@ TELEGRAM_BOT_TOKEN=12345:ABC...
 - [SMS_PROVIDER_CONFIGURATION.md](./sms_provider_configuration.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./telegram_notifications_guide.md)
 >>>>>>> .merge_file_xav4fk
+=======
+- [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
+- [SMS_PROVIDER_CONFIGURATION.md](./sms_provider_configuration.md)
+- [TELEGRAM_NOTIFICATIONS_GUIDE.md](telegram_notifications_guide.md)
+- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications_implementation_guide.md)
+- [TELEGRAM_NOTIFICATIONS_GUIDE.md](./telegram_notifications_guide.md)
+>>>>>>> laraxot/dev

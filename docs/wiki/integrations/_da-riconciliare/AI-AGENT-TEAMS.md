@@ -241,7 +241,11 @@ git push origin dev
 - **Issue #12**: AI Agent Collaboration
 - **Issue #13**: Documentation Updates
 - **docs/SYNC_TEST_RESULTS.md**: Latest sync test results
+<<<<<<< HEAD
 - **docs/sync_remote_repo_test_plan.md**: Test plan
+=======
+- **docs/SYNC_REMOTE_REPO_TEST_PLAN.md**: Test plan
+>>>>>>> laraxot/dev
 
 ---
 

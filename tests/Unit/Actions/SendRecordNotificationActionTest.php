@@ -60,7 +60,11 @@ test('send record notification routes valid mail channel', function () {
             return ($notifiable->routes['mail'] ?? null) === 'record@example.test';
         }
     );
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-RECORD-INV-1');
+>>>>>>> laraxot/dev
 
 test('send record notification ignores non enum channels', function () {
     Notification::fake();
@@ -74,4 +78,8 @@ test('send record notification ignores non enum channels', function () {
     );
 
     Notification::assertNothingSent();
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-RECORD-INV-3');
+>>>>>>> laraxot/dev

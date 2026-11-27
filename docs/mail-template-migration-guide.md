@@ -141,10 +141,17 @@ Per una comprensione completa, consultare anche:
 
 - [Struttura della Migrazione](mail-templates/migration_structure.md) - Dettagli sulla struttura di migrazione
 - [Implementazione del Campo Slug](mail-templates/slug_field_implementation.md) - Guida completa all'implementazione e utilizzo del campo slug
+<<<<<<< HEAD
 - [Spatie Email Usage Guide](./spatie_email_usage_guide.md) - Come utilizzare SpatieEmail con i template
 - [Struttura della Migrazione](./mail-templates/migration_structure.md) - Dettagli sulla struttura di migrazione
 - [Implementazione del Campo Slug](./mail-templates/slug_field_implementation.md) - Guida completa all'implementazione e utilizzo del campo slug
 - [Spatie Email Usage Guide](./spatie_email_usage_guide.md) - Come utilizzare SpatieEmail con i template
+=======
+- [Spatie Email Usage Guide](./SPATIE_EMAIL_USAGE_GUIDE.md) - Come utilizzare SpatieEmail con i template
+- [Spatie Email Usage Guide](./spatie_email_usage_guide.md) - Come utilizzare SpatieEmail con i template
+- [Struttura della Migrazione](./mail-templates/migration_structure.md) - Dettagli sulla struttura di migrazione
+- [Implementazione del Campo Slug](./mail-templates/slug_field_implementation.md) - Guida completa all'implementazione e utilizzo del campo slug
+>>>>>>> laraxot/dev
 
 ## Vantaggi del Pattern XotBaseMigration
 
@@ -158,17 +165,21 @@ Per una comprensione completa, consultare anche:
 Seguire il pattern di migrazione `XotBaseMigration` è essenziale per mantenere la coerenza in tutto il progetto. L'implementazione del campo `slug` nella tabella `mail_templates` dimostra l'applicazione corretta di questo pattern e offre numerosi vantaggi per l'usabilità del sistema di template email.
 # Guida alla Migrazione di MailTemplate
 
+<<<<<<< HEAD
 ## Panoramica
 
 Questo documento descrive l'implementazione del campo `slug` nella tabella `mail_templates` e fornisce linee guida per seguire i pattern di migrazione corretti nel modulo Notify.
 
 ## Struttura della Migrazione
 
+=======
+>>>>>>> laraxot/dev
 Il file di migrazione principale per la tabella `mail_templates` è:
 ```
 Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 ```
 
+<<<<<<< HEAD
 Questo file è implementato usando `XotBaseMigration`, che utilizza un pattern evolutivo che differisce dalle migrazioni standard di Laravel.
 
 ## Il Pattern XotBaseMigration
@@ -299,4 +310,6 @@ Per una comprensione completa, consultare anche:
 
 ## Conclusione
 
+=======
+>>>>>>> laraxot/dev
 Seguire il pattern di migrazione `XotBaseMigration` è essenziale per mantenere la coerenza in tutto il progetto. L'implementazione del campo `slug` nella tabella `mail_templates` dimostra l'applicazione corretta di questo pattern e offre numerosi vantaggi per l'usabilità del sistema di template email.

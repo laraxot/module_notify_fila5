@@ -37,7 +37,11 @@ describe('Push delivery actions (device, batch, topic)', function (): void {
 
         Assert::assertSame(['fcm', 'apns', 'webpush'], array_keys($results));
         Assert::assertTrue($results['fcm']['success']);
+<<<<<<< HEAD
     });
+=======
+    })->group('NOTIFY-PUSHDEV-INV-1');
+>>>>>>> laraxot/dev
 
     it('sends push notification to multiple devices grouped by platform', function (): void {
         Http::fake([
@@ -93,7 +97,11 @@ describe('Push delivery actions (device, batch, topic)', function (): void {
         $results = app(SendPushToDeviceAction::class)->execute($fcmToken, $pushData);
 
         Assert::assertFalse($results['fcm']['success']);
+<<<<<<< HEAD
     });
+=======
+    })->group('NOTIFY-PUSHPLAT-INV-3');
+>>>>>>> laraxot/dev
 
     it('passes custom data payload to FCM', function (): void {
         Http::fake([

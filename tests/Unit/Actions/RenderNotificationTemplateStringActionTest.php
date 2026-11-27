@@ -86,19 +86,31 @@ test('rende gli stessi segnaposto di Blade, con la stessa escapatura', function 
     foreach (dcp283ParityCases() as $label => [$template, $data]) {
         Assert::assertSame(Blade::render($template, $data), dcp283Render($template, $data), $label);
     }
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-TPL-INV-1');
+>>>>>>> laraxot/dev
 
 test('accetta anche la forma senza dollaro usata dai fixture di Notify', function (): void {
     Assert::assertSame('Benvenuto Mario Rossi!', dcp283Render('Benvenuto {{name}}!', ['name' => 'Mario Rossi']));
     Assert::assertSame('Benvenuto Mario Rossi!', dcp283Render('Benvenuto {{ name }}!', ['name' => 'Mario Rossi']));
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-TPL-INV-1');
+>>>>>>> laraxot/dev
 
 test('segue i percorsi con punti su array e oggetti', function (): void {
     $data = ['user' => ['name' => 'Anna', 'address' => ['city' => 'Roma']], 'obj' => (object) ['title' => 'Buca']];
 
     Assert::assertSame('Anna di Roma', dcp283Render('{{ $user.name }} di {{ user.address.city }}', $data));
     Assert::assertSame('Buca', dcp283Render('{{ $obj.title }}', $data));
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-TPL-INV-1');
+>>>>>>> laraxot/dev
 
 test('un valore Stringable viene reso come stringa', function (): void {
     $data = ['code' => new class implements Stringable
@@ -120,7 +132,11 @@ test('una variabile mancante o non stampabile diventa vuota e viene segnalata se
 
     Assert::assertGreaterThanOrEqual(2, count($contexts));
     Assert::assertStringNotContainsString('SECRETVALUE', json_encode($contexts, JSON_THROW_ON_ERROR));
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-TPL-INV-3', 'NOTIFY-TPL-INV-4');
+>>>>>>> laraxot/dev
 
 test('i valori dei dati non vengono rivalutati', function (): void {
     $out = dcp283Render('{{ $a }} {{ $b }}', ['a' => '{{ $b }}', 'b' => '{{ dcp283NotifyMarker() }}']);
@@ -158,13 +174,21 @@ test('non esegue PHP: espressioni, direttive e uscita non escapata restano testo
     'foreach blade' => ['@foreach([1] as $i) {{ dcp283NotifyMarker() }} @endforeach'],
     'include' => ["@include('notify::email')"],
     'inject' => ["@inject('m', 'Illuminate\\\\Support\\\\Facades\\\\DB')"],
+<<<<<<< HEAD
 ]);
+=======
+])->group('NOTIFY-TPL-INV-2', 'NOTIFY-TPL-INV-5');
+>>>>>>> laraxot/dev
 
 test('la direttiva php fuori dalle graffe non viene interpretata', function (): void {
     $out = dcp283Render('@php dcp283NotifyMarker(); @endphp {{ $name }}', ['name' => 'Mario']);
 
     Assert::assertSame('@php dcp283NotifyMarker(); @endphp Mario', $out);
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-TPL-INV-5');
+>>>>>>> laraxot/dev
 
 test('compileString del modello non esegue piu il template del database', function (): void {
     $proxy = new NotifyNotificationTemplateProxy;

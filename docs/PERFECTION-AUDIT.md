@@ -65,7 +65,11 @@ Nessun `00-index.md` o `index.md` (a parte l'uppercase `index.md`). Impossibile 
 ## Pattern di qualità esistenti (mantenere)
 
 - `docs/CHANGELOG.md` (contenuto reale)
+<<<<<<< HEAD
 - `docs/actions.md` (regole Actions)
+=======
+- `docs/ACTIONS.md` (regole Actions)
+>>>>>>> laraxot/dev
 - `docs/AGENTS.md` (configurazione agenti)
 
 ---
@@ -114,4 +118,8 @@ find laravel/Modules/Notify/docs -type f -name "*.md" \
 
 - `laravel/Modules/docs/DOCUMENTATION_AUDIT.md`
 - `docs/super-mucca/SKILL.md`
+<<<<<<< HEAD
 - `docs/wiki/rules/00-TRIGGER_MAP.md`
+=======
+- `docs/wiki/rules/00-TRIGGER_MAP.md`
+>>>>>>> laraxot/dev

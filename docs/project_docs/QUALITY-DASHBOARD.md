@@ -292,9 +292,15 @@ Overall Progress: ████████████████████�
 ## 🔗 Related Resources
 
 - [Architecture Documentation](./architecture.md)
+<<<<<<< HEAD
 - [Contributing Guidelines](../contributing.md)
 - [Testing Strategy](../Modules/Xot/docs/testing/testing-strategy.md)
 - [Refactoring Reports](./final_refactoring_report.md)
+=======
+- [Contributing Guidelines](../CONTRIBUTING.md)
+- [Testing Strategy](../Modules/Xot/docs/testing/testing-strategy.md)
+- [Refactoring Reports](./FINAL_REFACTORING_REPORT.md)
+>>>>>>> laraxot/dev
 
 ---
 

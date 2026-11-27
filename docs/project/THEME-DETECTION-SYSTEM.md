@@ -409,7 +409,11 @@ new class extends Component {
 ### Internal Documents
 
 - → [Layout Architecture](Themes/Sixteen/docs/LAYOUT_ARCHITECTURE_AND_NAMESPACE.md) - Layout hierarchy
+<<<<<<< HEAD
 - → [Page Component Architecture](Modules/Cms/docs/page_component_architecture.md) - Page component
+=======
+- → [Page Component Architecture](Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md) - Page component
+>>>>>>> laraxot/dev
 - → [Vite Build System](Themes/Sixteen/docs/VITE_MANIFEST_FIX_COMPLETE.md) - Build process
 - → [Master Index](docs/MODULE_DOCS_INDEX.md) - Central navigation
 

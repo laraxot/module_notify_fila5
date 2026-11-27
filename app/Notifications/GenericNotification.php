@@ -9,14 +9,32 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+<<<<<<< HEAD
+=======
+use Modules\Notify\Traits\HasNotificationRateLimiting;
+use Modules\Notify\Traits\HasNotificationTracking;
+>>>>>>> laraxot/dev
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 
 /**
  * Notifica generica configurabile per il sistema il progetto.
  * Supporta l'invio tramite email, SMS (Twilio) e database.
+<<<<<<< HEAD
  */
 class GenericNotification extends Notification implements ShouldQueue
 {
+=======
+ *
+ * Rate-limit e tracking HTML restano disponibili alle sottoclassi
+ * (config `notify.rate_limiting` / `notify.tracking`).
+ *
+ * @see Modules/Notify/docs/contracts/index.md
+ */
+class GenericNotification extends Notification implements ShouldQueue
+{
+    use HasNotificationRateLimiting;
+    use HasNotificationTracking;
+>>>>>>> laraxot/dev
     use Queueable;
 
     /**

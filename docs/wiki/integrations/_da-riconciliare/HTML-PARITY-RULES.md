@@ -398,7 +398,11 @@ trans('<nome progetto>::segnalazione.heading.title.label')
 
 - [Translation Conventions](./translation-conventions.md)
 - [Blade Architecture](../laravel/CLAUDE.md#blade-components)
+<<<<<<< HEAD
 - [Agnostic Scripts](./agnostic_documentation_rule.md)
+=======
+- [Agnostic Scripts](./AGNOSTIC_DOCUMENTATION_RULE.md)
+>>>>>>> laraxot/dev
 - [Multi-Agent Coordination](./MULTI_AGENT_COORDINATION_RULES.md)
 
 ---

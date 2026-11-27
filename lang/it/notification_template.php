@@ -74,9 +74,17 @@ return [
         'preview' => 'Anteprima',
         'create' => [
             'icon' => 'create',
+<<<<<<< HEAD
         ],
         'createAnother' => [
             'icon' => 'createAnother',
+=======
+            'label' => 'create',
+        ],
+        'createAnother' => [
+            'icon' => 'createAnother',
+            'label' => 'createAnother',
+>>>>>>> laraxot/dev
         ],
         'delete' => [
             'icon' => 'delete',
@@ -90,6 +98,27 @@ return [
         'edit' => [
             'icon' => 'edit',
         ],
+<<<<<<< HEAD
+=======
+        'applyTableColumnManager' => [
+            'label' => 'applyTableColumnManager',
+        ],
+        'openColumnManager' => [
+            'label' => 'openColumnManager',
+        ],
+        'resetColumnManager' => [
+            'label' => 'resetColumnManager',
+        ],
+        'profile' => [
+            'label' => 'profile',
+        ],
+        'logout' => [
+            'label' => 'logout',
+        ],
+        'cancel' => [
+            'label' => 'cancel',
+        ],
+>>>>>>> laraxot/dev
     ],
     'enums' => [
         'notification_type' => [

@@ -6,6 +6,10 @@ return [
     'fields' => [
         'html_layout_path' => [
             'tooltip' => '',
+<<<<<<< HEAD
+=======
+            'label' => 'html_layout_path',
+>>>>>>> laraxot/dev
         ],
     ],
     'label' => 'Html Layout Path Select',

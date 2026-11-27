@@ -507,7 +507,11 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 ## 🔗 LINK UTILI
 
 ### Documentazione
+<<<<<<< HEAD
 - **[Indice Documentazione](./documentation_index.md)**
+=======
+- **[Indice Documentazione](./DOCUMENTATION_INDEX.md)**
+>>>>>>> laraxot/dev
 - **[Roadmap Status](./ROADMAP_STATUS_SUMMARY.md)**
 - **[Documentation Status](./project_docs/DOCUMENTATION_STATUS.md)**
 

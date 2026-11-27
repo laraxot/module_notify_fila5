@@ -14,6 +14,14 @@ use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
 
+<<<<<<< HEAD
+=======
+/**
+ * @see docs/contracts/send-facebook-whatsapp-action.md
+ *
+ * @contract docs/contracts/send-facebook-whatsapp-action.md
+ */
+>>>>>>> laraxot/dev
 final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterface
 {
     use QueueableAction;

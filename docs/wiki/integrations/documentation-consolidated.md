@@ -1699,7 +1699,11 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 - [ ] `project_docs/roadmaps/roadmap-documentation.md` (this doc)
 
 **Archive** (move to `docs/archive/roadmaps/`):
+<<<<<<< HEAD
 - [ ] `master-roadmap-2025.md`
+=======
+- [ ] `master-roadmap-historic.md`
+>>>>>>> laraxot/dev
 - [ ] `project-roadmap.md`
 - [ ] `project-roadmap.md`
 - [ ] `roadmap.md`
@@ -2615,12 +2619,16 @@ related:
 - [README Principale](./README.md) - Panoramica progetto completa
 - [Analisi Super Mucca](./super-mucca-docs-analysis.md) - Report qualità documentazione
 - [Architecture](./architecture-analysis.md) - Analisi architetturale
+<<<<<<< HEAD
 <<<<<<< .merge_file_e9BxUo
 - [Roadmap](./master-roadmap-historic.md) - Piano sviluppo 2025
 =======
 - [Roadmap](../../master-roadmap-2025.md) - Piano sviluppo 2025
 - [Roadmap](../../master-roadmap-2025.md) - Piano sviluppo 2025
 >>>>>>> .merge_file_lxcVFl
+=======
+- [Roadmap](../../master-roadmap-historic.md) - Piano sviluppo 2025
+>>>>>>> laraxot/dev
 
 ### Guide Rapide
 - [Quick Start](./quick-start.md) - Guida avvio rapido
@@ -2633,12 +2641,17 @@ related:
 
 ### Documentazione Architetturale
 - [Design Patterns](./architecture.md) - Pattern architetturali
+<<<<<<< HEAD
 <<<<<<< .merge_file_e9BxUo
 - [Database Schema](./database/schema.md) - Schema database
 =======
 - [Database Schema](../schema.md) - Schema database
 - [Database Schema](../schema.md) - Schema database
 >>>>>>> .merge_file_lxcVFl
+=======
+- [Database Schema](../schema.md) - Schema database
+- [Database Schema](../schema.md) - Schema database
+>>>>>>> laraxot/dev
 - [API Documentation](./api/README.md) - Documentazione API
 - [Security](./security/README.md) - Sicurezza e conformità
 
@@ -2801,9 +2814,12 @@ related:
 
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
+<<<<<<< HEAD
 <<<<<<< .merge_file_e9BxUo
 - [Laravel Best Practices](./standards/laravel.md) - Best practices Laravel
 =======
+=======
+>>>>>>> laraxot/dev
 - [Laravel Best Practices](../../html2pdf/laravel.md) - Best practices Laravel
 - [Environment Setup](../../ai-agents/setup.md) - Configurazione ambiente
 - [Docker Setup](./development/docker.md) - Configurazione Docker
@@ -2812,18 +2828,26 @@ related:
 ### Coding Guidelines
 - [PHP Standards](./standards/php.md) - Standard PHP (PSR-12)
 - [Laravel Best Practices](../../html2pdf/laravel.md) - Best practices Laravel
+<<<<<<< HEAD
 >>>>>>> .merge_file_lxcVFl
+=======
+>>>>>>> laraxot/dev
 - [Filament Guidelines](./standards/filament.md) - Linee guida Filament
 - [Blade Components](./standards/blade.md) - Componenti Blade
 
 ### Quality Assurance
 - [PHPStan Configuration](./phpstan/README.md) - Analisi statica
+<<<<<<< HEAD
 <<<<<<< .merge_file_e9BxUo
 - [Testing Strategy](./testing/strategy.md) - Strategia testing
 =======
 - [Testing Strategy](../../strategy.md) - Strategia testing
 - [Testing Strategy](../../strategy.md) - Strategia testing
 >>>>>>> .merge_file_lxcVFl
+=======
+- [Testing Strategy](../../strategy.md) - Strategia testing
+- [Testing Strategy](../../strategy.md) - Strategia testing
+>>>>>>> laraxot/dev
 - [CI/CD Pipeline](./ci-cd/README.md) - Continuous integration
 
 ---
@@ -2864,12 +2888,17 @@ related:
 - [Error Tracking](./monitoring/errors.md) - Tracking errori
 
 ### Analytics
+<<<<<<< HEAD
 <<<<<<< .merge_file_e9BxUo
 - [Usage Analytics](./analytics/usage.md) - Analisi utilizzo
 =======
 - [Usage Analytics](../../html2pdf/usage.md) - Analisi utilizzo
 - [Usage Analytics](../../html2pdf/usage.md) - Analisi utilizzo
 >>>>>>> .merge_file_lxcVFl
+=======
+- [Usage Analytics](../../html2pdf/usage.md) - Analisi utilizzo
+- [Usage Analytics](../../html2pdf/usage.md) - Analisi utilizzo
+>>>>>>> laraxot/dev
 - [Business Metrics](./analytics/business.md) - Metriche business
 
 ---
@@ -2877,12 +2906,17 @@ related:
 ## 🔒 Security
 
 ### Security Documentation
+<<<<<<< HEAD
 <<<<<<< .merge_file_e9BxUo
 - [Security Guidelines](./security/guidelines.md) - Linee guida sicurezza
 =======
 - [Security Guidelines](../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
 - [Security Guidelines](../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
 >>>>>>> .merge_file_lxcVFl
+=======
+- [Security Guidelines](../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
+- [Security Guidelines](../../ai-agents/agents-guide/01-project-overview/guidelines.md) - Linee guida sicurezza
+>>>>>>> laraxot/dev
 - [GDPR Compliance](./security/gdpr.md) - Conformità GDPR
 - [Authentication](./security/authentication.md) - Sistema autenticazione
 - [Authorization](./security/authorization.md) - Sistema autorizzazioni
@@ -3192,23 +3226,31 @@ export default defineConfig({
 **Why This is Correct:**
 
 1. **Build Target:** `./public` (local theme public folder)
+<<<<<<< HEAD
 <<<<<<< .merge_file_e9BxUo
 2. **Copy Step:** `symlink public_html/themes (npm run copy obsoleto)` copies to `../../public_html/themes/Sixteen/`
 2. **Nessuna copia:** `public_html/themes/Sixteen` e' un symlink a `laravel/Themes/Sixteen/public`
 =======
 2. niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
 >>>>>>> .merge_file_lxcVFl
+=======
+2. niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+>>>>>>> laraxot/dev
 3. **Manifest Location:** Both locations have manifest.json after build
 4. **Laravel Vite:** Reads from `public_html/themes/Sixteen/manifest.json`
 
 **Build Flow:**
 ```
+<<<<<<< HEAD
 <<<<<<< .merge_file_e9BxUo
 resources/ → Vite Build → public/ → symlink public_html/themes (npm run copy obsoleto) → public_html/themes/Sixteen/
 resources/ → Vite Build → public/ ← symlink ← public_html/themes/Sixteen
 =======
 niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
 >>>>>>> .merge_file_lxcVFl
+=======
+niente `npm run copy`: `public_html/themes/<Tema>` è un symlink a `../../laravel/Themes/<Tema>/public`
+>>>>>>> laraxot/dev
 ```
 
 ---

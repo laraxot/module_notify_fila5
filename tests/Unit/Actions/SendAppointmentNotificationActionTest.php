@@ -33,4 +33,8 @@ test('send appointment notification returns false and logs debug when models are
     );
 
     Assert::assertFalse($result);
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-APPT-INV-1');
+>>>>>>> laraxot/dev

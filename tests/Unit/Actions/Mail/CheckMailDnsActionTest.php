@@ -41,7 +41,11 @@ it('passes when every CNAME and a DMARC record are published with the exact targ
         Assert::assertTrue($result['ok'], $result['record'].' deve passare');
         Assert::assertNull($result['hint']);
     }
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-DNS-INV-1');
+>>>>>>> laraxot/dev
 
 it('flags a CNAME target completed with the zone origin as a missing trailing dot', function (): void {
     $results = app(CheckMailDnsAction::class)->execute('fixcity.eu', MAIL_DNS_EXPECTED_CNAMES, fakeDnsResolver([
@@ -54,7 +58,11 @@ it('flags a CNAME target completed with the zone origin as a missing trailing do
     Assert::assertSame('missing-trailing-dot', $results[0]['hint']);
     Assert::assertFalse($results[1]['ok']);
     Assert::assertSame('missing-trailing-dot', $results[1]['hint']);
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-DNS-INV-2');
+>>>>>>> laraxot/dev
 
 it('reports a record that does not exist and a wrong target distinctly', function (): void {
     $results = app(CheckMailDnsAction::class)->execute('fixcity.eu', MAIL_DNS_EXPECTED_CNAMES, fakeDnsResolver([
@@ -65,4 +73,8 @@ it('reports a record that does not exist and a wrong target distinctly', functio
     Assert::assertSame('wrong-target', $results[1]['hint']);
     Assert::assertSame('missing', $results[2]['hint']);
     Assert::assertSame('_dmarc.fixcity.eu', $results[2]['record']);
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-DNS-INV-3');
+>>>>>>> laraxot/dev

@@ -238,7 +238,11 @@ describe('Notify highest-miss coverage', function (): void {
 
         $jobId = (new SchedulePushNotificationAction)->execute(['t1'], $notification, [], new DateTime('+1 hour'));
         Assert::assertStringStartsWith('push_', $jobId);
+<<<<<<< HEAD
     });
+=======
+    })->group('NOTIFY-PUSHDEV-INV-3', 'NOTIFY-PUSHALL-INV-1', 'NOTIFY-PUSHTGT-INV-1', 'NOTIFY-PUSHTPL-INV-1');
+>>>>>>> laraxot/dev
 
     test('simulated apns and webpush deliveries are traced in the log', function (): void {
         config(['notify.fcm.server_key' => 'test-key']);
@@ -257,7 +261,11 @@ describe('Notify highest-miss coverage', function (): void {
 
         Assert::assertSame(['apns', 'webpush', 'apns', 'webpush'], array_column($traced, 'platform'));
         Assert::assertSame(['news', 'news'], array_column(array_column($traced, 'payload'), 'topic'));
+<<<<<<< HEAD
     });
+=======
+    })->group('NOTIFY-SIMPUSH-INV-1', 'NOTIFY-PUSHTOPIC-INV-3');
+>>>>>>> laraxot/dev
 
     test('push targeting explains why it resolved no tokens', function (): void {
         Log::shouldReceive('warning')->once();
@@ -266,7 +274,11 @@ describe('Notify highest-miss coverage', function (): void {
 
         (new SendPushWithTargetingAction)->execute(PushCriteriaData::from(['platform' => 'unknown']), $notification);
         (new SendPushWithTargetingAction)->execute(PushCriteriaData::from(['platform' => 'fcm']), $notification);
+<<<<<<< HEAD
     });
+=======
+    })->group('NOTIFY-PUSHTGT-INV-2');
+>>>>>>> laraxot/dev
 
     test('ConfigHelper replaces template variables from notify config', function (): void {
         config([
@@ -319,7 +331,11 @@ describe('Notify highest-miss coverage', function (): void {
 
         $topic = (new SendPushToTopicAction)->execute('news', $notification);
         Assert::assertArrayHasKey('fcm', $topic);
+<<<<<<< HEAD
     });
+=======
+    })->group('NOTIFY-PUSHPLAT-INV-5');
+>>>>>>> laraxot/dev
 
     test('whatsapp and telegram actions execute with mocked http', function (): void {
         config([
@@ -365,7 +381,11 @@ describe('Notify highest-miss coverage', function (): void {
 
         Assert::assertSame('+390000000000', $action->to);
         Assert::assertSame('bar', $action->vars['foo']);
+<<<<<<< HEAD
     });
+=======
+    })->group('NOTIFY-SMSDISP-INV-1');
+>>>>>>> laraxot/dev
 
     test('sms actions normalize recipients before provider call', function (): void {
         config([

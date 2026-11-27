@@ -188,8 +188,11 @@ $user->notify(new AppointmentReminder($appointment));
 
 ## Implementazione con Provider Italiani
 
+<<<<<<< HEAD
 ### SMSHosting
 
+=======
+>>>>>>> laraxot/dev
 #### Installazione
 
 SMSHosting non ha un canale di notifica Laravel ufficiale, quindi creiamo un canale personalizzato con Queueable Actions.
@@ -336,12 +339,17 @@ class SMSHostingMessage
 }
 ```
 
+<<<<<<< HEAD
 ### Telcob
 
 Telcob offre un servizio SMS con API REST. Implementiamo l'invio usando le Queueable Actions di Spatie.
 
 #### Creazione Queueable Action
 
+=======
+Telcob offre un servizio SMS con API REST. Implementiamo l'invio usando le Queueable Actions di Spatie.
+
+>>>>>>> laraxot/dev
 ```php
 namespace Modules\Notify\Actions\SMS;
 
@@ -803,16 +811,25 @@ class ConsentLog extends Model
 ## Collegamenti alla Documentazione Correlata
 
 - [MULTI_CHANNEL_NOTIFICATIONS.md](multi_channel_notifications.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_tJ7H7w
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
 =======
+=======
+- [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
+>>>>>>> laraxot/dev
 - [SMS_PROVIDER_CONFIGURATION.md](./sms_provider_configuration.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](notifications_implementation_guide.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](telegram_notifications_guide.md)
 - [MULTI_CHANNEL_NOTIFICATIONS.md](./multi_channel_notifications.md)
+<<<<<<< HEAD
 - [SMS_PROVIDER_CONFIGURATION.md](./sms_provider_configuration.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications_implementation_guide.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./telegram_notifications_guide.md)
 >>>>>>> .merge_file_qP7aSN
+=======
+- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications_implementation_guide.md)
+- [TELEGRAM_NOTIFICATIONS_GUIDE.md](./telegram_notifications_guide.md)
+>>>>>>> laraxot/dev

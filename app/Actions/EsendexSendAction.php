@@ -18,6 +18,13 @@ use function Safe\json_encode;
 
 /**
  * @property string $base_endpoint
+<<<<<<< HEAD
+=======
+ *
+ * @see docs/contracts/esendex-send-action.md
+ *
+ * @contract docs/contracts/esendex-send-action.md
+>>>>>>> laraxot/dev
  */
 class EsendexSendAction
 {

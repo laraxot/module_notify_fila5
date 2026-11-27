@@ -42,7 +42,11 @@ test('send notification to recipient returns true and routes mail', function () 
             return ($notifiable->routes['mail'] ?? null) === 'user@example.test';
         }
     );
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-RECIPIENT-INV-2', 'NOTIFY-RECIPIENT-INV-3');
+>>>>>>> laraxot/dev
 
 test('send notification to recipient throws for invalid email', function () {
     XotBasePest::assertThrows(
@@ -52,4 +56,8 @@ test('send notification to recipient throws for invalid email', function () {
         ),
         InvalidArgumentException::class,
     );
+<<<<<<< HEAD
 });
+=======
+})->group('NOTIFY-RECIPIENT-INV-1');
+>>>>>>> laraxot/dev

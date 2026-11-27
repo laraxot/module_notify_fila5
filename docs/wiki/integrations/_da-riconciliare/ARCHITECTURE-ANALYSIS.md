@@ -1662,7 +1662,11 @@ Tasks:
 
 ### Recommended New Documentation
 ```
+<<<<<<< HEAD
 1. architecture.md
+=======
+1. ARCHITECTURE.md
+>>>>>>> laraxot/dev
    - System architecture diagrams
    - Module dependency graph
    - Database schema diagrams

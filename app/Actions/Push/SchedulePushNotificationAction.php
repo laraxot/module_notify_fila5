@@ -12,6 +12,13 @@ use Spatie\QueueableAction\QueueableAction;
 
 /**
  * Programma l'invio futuro di una notifica push.
+<<<<<<< HEAD
+=======
+ *
+ * @see docs/contracts/schedule-push-notification-action.md
+ *
+ * @contract docs/contracts/schedule-push-notification-action.md
+>>>>>>> laraxot/dev
  */
 class SchedulePushNotificationAction
 {

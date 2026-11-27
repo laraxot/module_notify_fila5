@@ -87,8 +87,11 @@ Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
 
 **Stato Attuale**: Email base con template
 
+<<<<<<< HEAD
 **Funzionalità Mancanti**:
 
+=======
+>>>>>>> laraxot/dev
 - [ ] **Email Scheduling** - Pianificazione invio email
 - [ ] **Email A/B Testing** - Test A/B varianti email
 - [ ] **Email Personalization** - Personalizzazione avanzata email
@@ -106,8 +109,11 @@ Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
 
 **Stato Attuale**: SMS base con provider
 
+<<<<<<< HEAD
 **Funzionalità Mancanti**:
 
+=======
+>>>>>>> laraxot/dev
 - [ ] **SMS Scheduling** - Pianificazione invio SMS
 - [ ] **SMS Templates** - Template SMS avanzati
 - [ ] **SMS Personalization** - Personalizzazione SMS
@@ -124,8 +130,11 @@ Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
 
 **Stato Attuale**: Push base
 
+<<<<<<< HEAD
 **Funzionalità Mancanti**:
 
+=======
+>>>>>>> laraxot/dev
 - [ ] **Push Scheduling** - Pianificazione push
 - [ ] **Push Segmentation** - Segmentazione destinatari push
 - [ ] **Push Personalization** - Personalizzazione push
@@ -142,8 +151,11 @@ Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
 
 **Stato Attuale**: Analytics base
 
+<<<<<<< HEAD
 **Funzionalità Mancanti**:
 
+=======
+>>>>>>> laraxot/dev
 - [ ] **Advanced Open Rates** - Tassi apertura avanzati
 - [ ] **Click Heatmaps** - Mappe di calore click
 - [ ] **Conversion Funnels** - Funnel conversione
@@ -160,8 +172,11 @@ Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
 
 **Stato Attuale**: Automazione limitata
 
+<<<<<<< HEAD
 **Funzionalità Mancanti**:
 
+=======
+>>>>>>> laraxot/dev
 - [ ] **Workflow Automation** - Automazione workflow notifiche
 - [ ] **Trigger-based Notifications** - Notifiche basate su trigger
 - [ ] **Conditional Notifications** - Notifiche condizionali avanzate
@@ -240,6 +255,12 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 
 ## Collegamenti
 
+<<<<<<< HEAD
+=======
+- [Modulo <nome progetto>](../<nome progetto>/docs/readme.md)
+- [Modulo Limesurvey](../limesurvey/docs/readme.md)
+- [Notify README](./readme.md)
+>>>>>>> laraxot/dev
 - [Modulo <nome progetto>](../<nome progetto>/docs/README.md)
 - [Modulo Limesurvey](../limesurvey/docs/README.md)
 - [Notify README](./README.md)

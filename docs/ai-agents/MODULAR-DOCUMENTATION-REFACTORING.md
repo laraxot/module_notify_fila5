@@ -36,9 +36,15 @@ Organizzare la documentazione AI agents in file modulari più piccoli e gestibil
 ### Prima (File Grandi)
 ```
 AGENTS.md      - 104 righe  ❌ Troppo grande
+<<<<<<< HEAD
 qwen.md        - 890 righe  ❌ Enorme
 CLAUDE.md      - 592 righe  ❌ Difficile da navigare
 gemini.md      - 369 righe  ❌ Contenuti mischiati
+=======
+QWEN.md        - 890 righe  ❌ Enorme
+CLAUDE.md      - 592 righe  ❌ Difficile da navigare
+GEMINI.md      - 369 righe  ❌ Contenuti mischiati
+>>>>>>> laraxot/dev
 IFLOW.md       - 312 righe  ❌ Duplicazioni
 ────────────────────────────────────────────
 TOTALE:        2,267 righe  ❌ Difficile da mantenere
@@ -209,9 +215,15 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 
 ### File Originali (Compatti)
 - `AGENTS.md` - Link a tutti i moduli
+<<<<<<< HEAD
 - `qwen.md` - Contesto Qwen Code
 - `CLAUDE.md` - Claude-specific patterns
 - `gemini.md` - Gemini-specific patterns
+=======
+- `QWEN.md` - Contesto Qwen Code
+- `CLAUDE.md` - Claude-specific patterns
+- `GEMINI.md` - Gemini-specific patterns
+>>>>>>> laraxot/dev
 - `IFLOW.md` - iFlow-specific patterns
 
 ---

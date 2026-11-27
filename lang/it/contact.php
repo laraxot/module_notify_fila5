@@ -140,6 +140,12 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
+=======
+        'isActive' => [
+            'label' => 'isActive',
+        ],
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'import' => [
@@ -170,9 +176,17 @@ return [
         ],
         'create' => [
             'icon' => 'create',
+<<<<<<< HEAD
         ],
         'createAnother' => [
             'icon' => 'createAnother',
+=======
+            'label' => 'create',
+        ],
+        'createAnother' => [
+            'icon' => 'createAnother',
+            'label' => 'createAnother',
+>>>>>>> laraxot/dev
         ],
         'save' => [
             'icon' => 'save',
@@ -191,12 +205,17 @@ return [
         ],
         'applyFilters' => [
             'icon' => 'applyFilters',
+<<<<<<< HEAD
+=======
+            'label' => 'applyFilters',
+>>>>>>> laraxot/dev
         ],
         'openFilters' => [
             'icon' => 'openFilters',
         ],
         'resetFilters' => [
             'icon' => 'resetFilters',
+<<<<<<< HEAD
         ],
         'applyTableColumnManager' => [
             'icon' => 'applyTableColumnManager',
@@ -215,6 +234,36 @@ return [
         ],
         'logout' => [
             'icon' => 'logout',
+=======
+            'label' => 'resetFilters',
+        ],
+        'applyTableColumnManager' => [
+            'icon' => 'applyTableColumnManager',
+            'label' => 'applyTableColumnManager',
+        ],
+        'openColumnManager' => [
+            'icon' => 'openColumnManager',
+            'label' => 'openColumnManager',
+        ],
+        'resetColumnManager' => [
+            'icon' => 'resetColumnManager',
+            'label' => 'resetColumnManager',
+        ],
+        'reorderRecords' => [
+            'icon' => 'reorderRecords',
+            'label' => 'reorderRecords',
+        ],
+        'profile' => [
+            'icon' => 'profile',
+            'label' => 'profile',
+        ],
+        'logout' => [
+            'icon' => 'logout',
+            'label' => 'logout',
+        ],
+        'cancel' => [
+            'label' => 'cancel',
+>>>>>>> laraxot/dev
         ],
     ],
     'messages' => [

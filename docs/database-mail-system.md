@@ -313,7 +313,11 @@ php artisan notify:mail-template:test
    - Monitorare tempi
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Notify Module](../README.md)
+=======
+- [Notify Module](../readme.md)
+>>>>>>> laraxot/dev
 - [Email Templates](email-templates.md)
 - [Mail Queue](mail-queue.md)
 

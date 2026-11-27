@@ -196,7 +196,11 @@ Ctrl+Q         - Esci
 Kilo legge automaticamente:
 
 1. **AGENTS.md** - Contesto principale
+<<<<<<< HEAD
 2. **laravel/AGENTS.md** - Contesto Laravel
+=======
+2. **laravel/agents.md** - Contesto Laravel
+>>>>>>> laraxot/dev
 
 ### Per Aggiungere Altra Docs
 

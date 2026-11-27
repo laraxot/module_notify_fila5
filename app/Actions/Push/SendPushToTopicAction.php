@@ -17,6 +17,13 @@ use Webmozart\Assert\Assert;
 
 /**
  * Invia una notifica push a un topic su tutte le piattaforme supportate.
+<<<<<<< HEAD
+=======
+ *
+ * @see docs/contracts/send-push-to-topic-action.md
+ *
+ * @contract docs/contracts/send-push-to-topic-action.md
+>>>>>>> laraxot/dev
  */
 class SendPushToTopicAction
 {

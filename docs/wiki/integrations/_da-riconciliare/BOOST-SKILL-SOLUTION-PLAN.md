@@ -149,7 +149,11 @@ The following modules have documentation folders that need updates:
 
 ### Documentation Structure
 Each module's docs folder will receive:
+<<<<<<< HEAD
 1. `boost_skill_fix_summary.md` - Summary of the fix
+=======
+1. `BOOST_SKILL_FIX_SUMMARY.md` - Summary of the fix
+>>>>>>> laraxot/dev
 2. `DEPENDENCIES_MANAGEMENT.md` - Best practices for dependency management
 
 ## Risk Assessment
@@ -202,4 +206,8 @@ This solution requires:
 4. ⏳ Implement composer.json fix
 5. ⏳ Install dependencies
 6. ⏳ Execute boost command
+<<<<<<< HEAD
 7. ⏳ Verify and validate
+=======
+7. ⏳ Verify and validate
+>>>>>>> laraxot/dev

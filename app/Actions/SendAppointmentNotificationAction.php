@@ -12,6 +12,14 @@ use Illuminate\Support\Facades\Log;
 // use Modules\<nome progetto>\Models\Patient;
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
+=======
+/**
+ * @see docs/contracts/send-appointment-notification-action.md
+ *
+ * @contract docs/contracts/send-appointment-notification-action.md
+ */
+>>>>>>> laraxot/dev
 class SendAppointmentNotificationAction
 {
     use QueueableAction;

@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "Agid Analysis Implementation"
+=======
+title: "agid analysis implementation 2025 10 02"
+>>>>>>> laraxot/dev
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< HEAD
 qmd: "Agid Analysis Implementation"
+=======
+qmd: "agid analysis implementation 2025 10 02"
+>>>>>>> laraxot/dev
 issues: []
 discussions: []
 ---
@@ -18,12 +26,20 @@ discussions: []
 
 ---
 
+<<<<<<< HEAD
 title: "AGID ANALYSIS IMPLEMENTATION 2025 10 02"
+=======
+title: "agid analysis implementation 2025 10 02"
+>>>>>>> laraxot/dev
 type: note
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
+<<<<<<< HEAD
 qmd: "AGID ANALYSIS IMPLEMENTATION 2025 10 02"
+=======
+qmd: "agid analysis implementation 2025 10 02"
+>>>>>>> laraxot/dev
 issues: []
 discussions: []
 ## 📋 Executive Summary

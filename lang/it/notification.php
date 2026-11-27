@@ -173,6 +173,13 @@ return [
         ],
         'values' => [
             'helper_text' => '',
+<<<<<<< HEAD
+=======
+            'label' => 'values',
+        ],
+        'isActive' => [
+            'label' => 'isActive',
+>>>>>>> laraxot/dev
         ],
     ],
     'actions' => [
@@ -222,6 +229,10 @@ return [
         ],
         'create' => [
             'icon' => 'create',
+<<<<<<< HEAD
+=======
+            'label' => 'create',
+>>>>>>> laraxot/dev
         ],
         'createAnother' => [
             'icon' => 'createAnother',
@@ -240,12 +251,17 @@ return [
         ],
         'applyFilters' => [
             'icon' => 'applyFilters',
+<<<<<<< HEAD
+=======
+            'label' => 'applyFilters',
+>>>>>>> laraxot/dev
         ],
         'openFilters' => [
             'icon' => 'openFilters',
         ],
         'resetFilters' => [
             'icon' => 'resetFilters',
+<<<<<<< HEAD
         ],
         'applyTableColumnManager' => [
             'icon' => 'applyTableColumnManager',
@@ -255,15 +271,38 @@ return [
         ],
         'resetColumnManager' => [
             'icon' => 'resetColumnManager',
+=======
+            'label' => 'resetFilters',
+        ],
+        'applyTableColumnManager' => [
+            'icon' => 'applyTableColumnManager',
+            'label' => 'applyTableColumnManager',
+        ],
+        'openColumnManager' => [
+            'icon' => 'openColumnManager',
+            'label' => 'openColumnManager',
+        ],
+        'resetColumnManager' => [
+            'icon' => 'resetColumnManager',
+            'label' => 'resetColumnManager',
+>>>>>>> laraxot/dev
         ],
         'reorderRecords' => [
             'icon' => 'reorderRecords',
         ],
         'profile' => [
             'icon' => 'profile',
+<<<<<<< HEAD
         ],
         'logout' => [
             'icon' => 'logout',
+=======
+            'label' => 'profile',
+        ],
+        'logout' => [
+            'icon' => 'logout',
+            'label' => 'logout',
+>>>>>>> laraxot/dev
         ],
     ],
     'messages' => [

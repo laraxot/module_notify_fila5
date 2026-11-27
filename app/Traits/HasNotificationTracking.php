@@ -5,16 +5,30 @@ declare(strict_types=1);
 namespace Modules\Notify\Traits;
 
 use Illuminate\Support\Str;
+<<<<<<< HEAD
+=======
+use Modules\Notify\Notifications\GenericNotification;
+>>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace_callback;
 
 /**
+<<<<<<< HEAD
  * Trait HasNotificationTracking.
  *
  * Fornisce funzionalità per la gestione del tracking delle notifiche.
  *
  * Usato da test/unit helpers (es. NotifyTrackingDummy); non ignorare trait.unused.
+=======
+ * Tracking HTML delle notifiche (pixel + rewrite link, config `notify.tracking`).
+ *
+ * Consumer di dominio: {@see GenericNotification}
+ * (mail/HTML che devono strumentare aperture e click senza controller legacy).
+ * Usato anche da helper di test (es. NotifyTrackingDummy): non ignorare trait.unused.
+ *
+ * @see Modules/Notify/docs/contracts/index.md
+>>>>>>> laraxot/dev
  */
 trait HasNotificationTracking
 {

@@ -14,6 +14,13 @@ use Webmozart\Assert\Assert;
 
 /**
  * -- buildmailmessage ha troppi pezzi simili ..
+<<<<<<< HEAD
+=======
+ *
+ * @see docs/contracts/notify-theme-attachment-pdf.md
+ *
+ * @contract docs/contracts/notify-theme-attachment-pdf.md
+>>>>>>> laraxot/dev
  */
 class Pdf
 {

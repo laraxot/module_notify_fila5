@@ -20,6 +20,13 @@ use function Safe\dns_get_record;
  * Read-only: it only resolves names. Names are compared case-insensitively and without a trailing dot.
  *
  * @phpstan-type DnsResult array{record: string, expected: string, found: string|null, ok: bool, hint: 'missing'|'missing-trailing-dot'|'wrong-target'|null}
+<<<<<<< HEAD
+=======
+ *
+ * @see docs/contracts/check-mail-dns-action.md
+ *
+ * @contract docs/contracts/check-mail-dns-action.md
+>>>>>>> laraxot/dev
  */
 class CheckMailDnsAction
 {

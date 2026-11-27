@@ -56,6 +56,12 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
+=======
+        'recipient' => [
+            'label' => 'recipient',
+        ],
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'send_email' => [
@@ -70,15 +76,27 @@ return [
         ],
         'logout' => [
             'icon' => 'logout',
+<<<<<<< HEAD
         ],
         'sendEmail' => [
             'icon' => 'sendEmail',
+=======
+            'label' => 'logout',
+        ],
+        'sendEmail' => [
+            'icon' => 'sendEmail',
+            'label' => 'sendEmail',
+>>>>>>> laraxot/dev
         ],
         'save' => [
             'icon' => 'save',
         ],
         'profile' => [
             'icon' => 'profile',
+<<<<<<< HEAD
+=======
+            'label' => 'profile',
+>>>>>>> laraxot/dev
         ],
     ],
     'messages' => [

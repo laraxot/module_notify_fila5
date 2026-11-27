@@ -38,7 +38,11 @@ ls -la ~/.claude/skills/notebooklm/
 # - scripts/ (automation scripts)
 # - data/ (authentication + library)
 # - requirements.txt
+<<<<<<< HEAD
 # - README.md, CHANGELOG.md, LICENSE
+=======
+# - README.md, changelog.md, LICENSE
+>>>>>>> laraxot/dev
 ```
 
 ## What is NotebookLM Skill?

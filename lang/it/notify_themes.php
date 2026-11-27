@@ -159,6 +159,39 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
+=======
+        'lang' => [
+            'label' => 'lang',
+        ],
+        'type' => [
+            'label' => 'type',
+        ],
+        'post_type' => [
+            'label' => 'post_type',
+        ],
+        'post_id' => [
+            'label' => 'post_id',
+        ],
+        'logo_src' => [
+            'label' => 'logo_src',
+        ],
+        'subject' => [
+            'label' => 'subject',
+        ],
+        'theme' => [
+            'label' => 'theme',
+        ],
+        'from_email' => [
+            'label' => 'from_email',
+        ],
+        'created_at' => [
+            'label' => 'created_at',
+        ],
+        'updated_at' => [
+            'label' => 'updated_at',
+        ],
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'preview' => [
@@ -205,6 +238,7 @@ return [
         ],
         'create' => [
             'icon' => 'create',
+<<<<<<< HEAD
         ],
         'layout' => [
             'icon' => 'layout',
@@ -217,6 +251,25 @@ return [
         ],
         'edit' => [
             'icon' => 'edit',
+=======
+            'label' => 'create',
+        ],
+        'layout' => [
+            'icon' => 'layout',
+            'label' => 'layout',
+        ],
+        'delete' => [
+            'icon' => 'delete',
+            'label' => 'delete',
+        ],
+        'view' => [
+            'icon' => 'view',
+            'label' => 'view',
+        ],
+        'edit' => [
+            'icon' => 'edit',
+            'label' => 'edit',
+>>>>>>> laraxot/dev
         ],
     ],
     'messages' => [

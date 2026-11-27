@@ -126,7 +126,11 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ### 5. 👥 Aggiornamento Roadmap Modulo User
 
+<<<<<<< HEAD
 **File**: `/laravel/Modules/User/docs/roadmap.md`
+=======
+**File**: `/laravel/Modules/User/docs/ROADMAP.md`
+>>>>>>> laraxot/dev
 
 **Modifiche**:
 - ✅ Ristrutturato "Prossimi Passi" in Q4 2025 e Q1 2026
@@ -232,11 +236,16 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ## 🔗 DOCUMENTI PRINCIPALI
 
 ### Roadmap
+<<<<<<< HEAD
 - **[ROADMAP_STATUS_SUMMARY.md](./roadmap_status_summary.md)** - Status generale
+=======
+- **[ROADMAP_STATUS_SUMMARY.md](./ROADMAP_STATUS_SUMMARY.md)** - Status generale
+>>>>>>> laraxot/dev
 - **[MASTER_ROADMAP.md](./laravel/MASTER_ROADMAP.md)** - Roadmap strategica 18 mesi
 - **[roadmap-master.md](./project_docs/roadmaps/roadmap-master.md)** - Consolidamento moduli
 
 ### Documentazione
+<<<<<<< HEAD
 - **[DOCUMENTATION_INDEX.md](./documentation_index.md)** - Indice completo
 - **[DOCUMENTATION_STATUS.md](./project_docs/documentation_status.md)** - Stato documentazione
 - **[QUICK_START.md](./quick_start.md)** - Guida rapida sviluppatori
@@ -244,6 +253,15 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ### Moduli Principali
 - **[Fixcity ROADMAP_2025.md](./laravel/Modules/Fixcity/docs/ROADMAP_2025.md)**
 - **[User roadmap.md](./laravel/Modules/User/docs/roadmap.md)**
+=======
+- **[DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md)** - Indice completo
+- **[DOCUMENTATION_STATUS.md](./project_docs/DOCUMENTATION_STATUS.md)** - Stato documentazione
+- **[QUICK_START.md](./QUICK_START.md)** - Guida rapida sviluppatori
+
+### Moduli Principali
+- **[Fixcity ROADMAP_2025.md](./laravel/Modules/Fixcity/docs/ROADMAP_2025.md)**
+- **[User ROADMAP.md](./laravel/Modules/User/docs/ROADMAP.md)**
+>>>>>>> laraxot/dev
 - **[Sixteen ROADMAP_2025.md](./laravel/Themes/Sixteen/docs/ROADMAP_2025.md)**
 
 ---
@@ -258,7 +276,11 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ### Aggiornamenti
 - [x] ROADMAP_STATUS_SUMMARY.md aggiornato
 - [x] Fixcity ROADMAP_2025.md aggiornato
+<<<<<<< HEAD
 - [x] User roadmap.md aggiornato
+=======
+- [x] User ROADMAP.md aggiornato
+>>>>>>> laraxot/dev
 - [x] Sixteen ROADMAP_2025.md aggiornato
 
 ### Nuovi Documenti

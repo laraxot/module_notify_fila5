@@ -11,6 +11,13 @@ use Spatie\QueueableAction\QueueableAction;
 
 /**
  * Invia una notifica push renderizzando un template predefinito.
+<<<<<<< HEAD
+=======
+ *
+ * @see docs/contracts/send-push-with-template-action.md
+ *
+ * @contract docs/contracts/send-push-with-template-action.md
+>>>>>>> laraxot/dev
  */
 class SendPushWithTemplateAction
 {

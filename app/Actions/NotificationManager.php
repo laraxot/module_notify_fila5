@@ -11,6 +11,14 @@ use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
+=======
+/**
+ * @see docs/contracts/notification-manager.md
+ *
+ * @contract docs/contracts/notification-manager.md
+ */
+>>>>>>> laraxot/dev
 class NotificationManager
 {
     use QueueableAction;
