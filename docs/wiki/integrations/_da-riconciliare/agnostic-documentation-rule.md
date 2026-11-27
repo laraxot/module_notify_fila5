@@ -11,8 +11,8 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./absolute-completion-100.md"
-  - "./acronym-naming-conventions-1.md"
+  - "./absolute-completion-notify-completamento-assoluto.md"
+  - "./acronym-naming-conventions.md"
   - "./acronym-naming-conventions-2.md"
   - "./acronym-naming-conventions.md"
   - "./action-plan-immediate.md"
@@ -163,7 +163,7 @@ Before committing documentation changes, verify:
 
 - [Documentation Standards](../../../docs/documentation_standards.md)
 - [Module Development Guidelines](./module-development.md)
-- [Naming Conventions](./naming-conventions.md)
+- [Naming Conventions](../../../bmad/architecture/naming-conventions.md)
 
 ## Examples
 

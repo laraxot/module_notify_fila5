@@ -38,7 +38,7 @@ Documentazione completa dell'analisi e correzione di tutti gli errori PHPStan ne
 ### 3. Modulo UI
 - **File modificati**: 1
 - **Errori risolti**: 2
-- **Documentazione**: [UI PHPStan Fixes](../laravel/Modules/UI/docs/phpstan-fixes-gennaio-2025.md)
+- **Documentazione**: [UI PHPStan Fixes](../laravel/Modules/UI/docs/phpstan-fixes-correzioni-gennaio.md)
 
 **Principali correzioni**:
 - Rimozione controlli `is_string()` ridondanti

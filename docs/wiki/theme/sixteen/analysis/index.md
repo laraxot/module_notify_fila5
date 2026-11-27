@@ -13,9 +13,9 @@ discussions:
 related:
   - ../../../README.md
   - ../../../wiki/index.md
-  - ../../../notifications/readme.md
-  - ../../../integrations/readme.md
-  - ../../../templates/readme.md
+  - ../../../notifications/README.md
+  - ../../../integrations/README.md
+  - ../../../templates/README.md
 ---
 # Theme Sixteen Analysis Index
 
@@ -28,7 +28,7 @@ related:
 ## Analysis Files
 
 - [homepage-comparison.md](./homepage-comparison.md) - Structure mapping and action items
-- [body-structure-parity.md](./body-structure-parity.md) - Neutral bridge between agnostic bashscripts tooling and Sixteen parity artifacts
+- [body-structure-parity.md](../../../../theme/sixteen/analysis/body-structure-parity.md) - Neutral bridge between agnostic bashscripts tooling and Sixteen parity artifacts
 
 ## Related Documentation
 

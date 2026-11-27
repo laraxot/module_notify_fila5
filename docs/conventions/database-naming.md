@@ -15,7 +15,7 @@ related:
   - ../architecture/README.md
   - README.md
   - ../rules/README.md
-  - ../best-practices/naming-conventions.md
+  - ../naming-conventions.md
 ---
 # Database Directory Naming Convention
 
@@ -306,7 +306,7 @@ find laravel/Modules -type d -name "Seeders"
 - [Laravel Seeders](https://laravel.com/docs/seeding)
 - [PSR-4 Autoloading](https://www.php-fig.org/psr/psr-4/)
 - [AGENTS.md - Database Naming](../../AGENTS.md)
-- [agents.md - Database Naming](../../agents.md)
+- [AGENTS.md - Database Naming](../../AGENTS.md)
 
 ---
 
