@@ -90,7 +90,7 @@ ADR: 4. Con conferma automatica (test o comando eseguibile da `laravel/`): 3. AD
 - `laravel/config/notify-env.php:18` riporta `noreply@fixcity.eu` come default del mittente e sovrascrive il default neutro del modulo (ADR 0002).
 - Riscrivere i due test obsoleti di `SendNotificationActionTest.php` (righe 94 e 115) e aggiungere un test sull'isolamento dei canali (ADR 0003).
 - Un limite di frequenza sulle due rotte dei webhook (ADR 0004, debito dichiarato).
-- Le copie senza numero (`mail-delivery-outcomes-are-events.md`, `notify-config-is-centralized.md`, `notify-owns-delivery-contract.md`, `webhooks-authenticate-with-a-token-in-the-path.md`) risultano cancellate nell'albero di lavoro (`git status` del 2026-11-26): il numerato è l'unico ADR.
+- Le copie senza numero (`mail-delivery-outcomes-are-events.md`, `webhooks-authenticate-with-a-token-in-the-path.md`) erano duplicate dei canonici numerati e sono state eliminate; il file `NNNN-` è l'unico ADR per decisione.
 - `0000-template.md` è il modello, non una decisione.
 
 ## Decisioni precedenti (formato libero, non ancora ADR)
@@ -107,10 +107,3 @@ Questo indice appartiene a **module_notify_fila5**: ogni decisione su codice, do
 - **BMAD**: la story owner-local conserva `scope`, `must_not_change`, `evidence`, `approval_required` nei cambi rischiosi.
 - **ECC**: nessun marker di merge; distinguere la prova eseguita dal semplice riferimento a un test; se la conferma non è disponibile segnare `non eseguita`.
 - **Second Brain**: QMD/Graphify e `.harness/memory/{facts,lessons}.md` sono puntatori a evidenza datata, non copie degli ADR. [Runbook](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/harness/README.md) · [Rollout #15](https://github.com/laraxot/base_ptvx_fila5/issues/15).
-
-## Documenti del package da riconciliare nell'indice
-
-I seguenti file **esistono nel repository su `dev`** e non erano tutti collegati nel ramo d'indice più recente. Sono preservati come puntatori documentali; il loro stato di approvazione, la copertura e l'eventuale sostituzione con ADR numerati devono essere verificati nell'owner. Nessuna prova di esecuzione è implicita.
-
-- [Gli esiti delle email sono un evento Laravel](./mail-delivery-outcomes-are-events.md)
-- [I webhook in ingresso si autenticano con un token nel percorso](./webhooks-authenticate-with-a-token-in-the-path.md)
