@@ -1,34 +1,16 @@
 ---
 title: "ADR del modulo Notify"
 type: index
-<<<<<<< HEAD
-tags: [adr, decisioni, notify]
-created: 2026-11-18
-updated: 2026-11-24
-=======
 module: Notify
 status: active
 tags: [adr, decisioni, notify]
 created: 2026-11-18
 updated: 2026-11-26
 qmd: "Notify adr architecture decision records madr formato"
->>>>>>> laraxot/dev
 ---
 
 # ADR del modulo Notify
 
-<<<<<<< HEAD
-Il **perché** delle forme di codice di Notify che un agente rischia di "semplificare": come si autenticano i webhook dei
-fornitori email e perché gli esiti delle email escono come evento invece di essere salvati dal modulo.
-
-Quando leggerli: prima di aggiungere un webhook o un fornitore (email, SMS), o di far scrivere al modulo dati che appartengono
-al progetto. Formato e regole: `Modules/Xot/docs/rules/action-behavioral-contract.md`.
-
-## Decisioni
-
-- [I webhook in ingresso si autenticano con un token nel percorso](webhooks-authenticate-with-a-token-in-the-path.md) — `hash_equals`, 401 se il token non è configurato, 200 a Mailjet anche per eventi sconosciuti.
-- [Gli esiti delle email sono un evento Laravel](mail-delivery-outcomes-are-events.md) — `MailDeliveryEventReceived`, il progetto decide cosa farne.
-=======
 Il **perche'** delle scelte di Notify: una decisione per file, con le alternative scartate. Il nome del file e' `NNNN-argomento` in
 kebab-case (prefisso numerico del formato harness MADR), senza date (la data sta nella frontmatter). Formato e regole:
 [ADR 0012 di Xot](../../../Xot/docs/adr/0012-behavioral-contract-governance.md) e
@@ -110,13 +92,25 @@ ADR: 4. Con conferma automatica (test o comando eseguibile da `laravel/`): 3. AD
 - Un limite di frequenza sulle due rotte dei webhook (ADR 0004, debito dichiarato).
 - Le copie senza numero (`mail-delivery-outcomes-are-events.md`, `notify-config-is-centralized.md`, `notify-owns-delivery-contract.md`, `webhooks-authenticate-with-a-token-in-the-path.md`) risultano cancellate nell'albero di lavoro (`git status` del 2026-11-26): il numerato è l'unico ADR.
 - `0000-template.md` è il modello, non una decisione.
->>>>>>> laraxot/dev
 
 ## Decisioni precedenti (formato libero, non ancora ADR)
 
 - [Consolidamento migrazioni notification_logs](../wiki/decisions/notification-logs-migration-consolidation.md) — lo schema del modello `NotificationLog` vince sulle due migrazioni duplicate.
-<<<<<<< HEAD
-=======
 - [Consolidamento delle Action SMS](../wiki/index.md) — nota deprecata.
 - [Consolidamento delle Action SMS (copia con trattino finale)](../wiki/index.md) — nota deprecata.
->>>>>>> laraxot/dev
+
+## Harness minimo: ownership, evidenza e recupero (2026-11-27)
+
+Questo indice appartiene a **module_notify_fila5**: ogni decisione su codice, dominio o tema va nell'ADR del package owner; il root registra soltanto i vincoli di composizione. Un ADR richiede una scelta reale con alternative e conseguenze, più una **Conferma** ripetibile (oppure la dichiarazione esplicita che manca). Non creare ADR fittizi per riempire un indice.
+
+- [Confine LaravelDay/harness Xot](https://github.com/laraxot/module_xot_fila5/blob/dev/docs/adr/0042-laravel-day-harness-adoption-boundary.md); [ownership root](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/adr/0001-harness-minimo-e-ownership.md).
+- **BMAD**: la story owner-local conserva `scope`, `must_not_change`, `evidence`, `approval_required` nei cambi rischiosi.
+- **ECC**: nessun marker di merge; distinguere la prova eseguita dal semplice riferimento a un test; se la conferma non è disponibile segnare `non eseguita`.
+- **Second Brain**: QMD/Graphify e `.harness/memory/{facts,lessons}.md` sono puntatori a evidenza datata, non copie degli ADR. [Runbook](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/harness/README.md) · [Rollout #15](https://github.com/laraxot/base_ptvx_fila5/issues/15).
+
+## Documenti del package da riconciliare nell'indice
+
+I seguenti file **esistono nel repository su `dev`** e non erano tutti collegati nel ramo d'indice più recente. Sono preservati come puntatori documentali; il loro stato di approvazione, la copertura e l'eventuale sostituzione con ADR numerati devono essere verificati nell'owner. Nessuna prova di esecuzione è implicita.
+
+- [Gli esiti delle email sono un evento Laravel](./mail-delivery-outcomes-are-events.md)
+- [I webhook in ingresso si autenticano con un token nel percorso](./webhooks-authenticate-with-a-token-in-the-path.md)
